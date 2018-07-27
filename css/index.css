@@ -144,3 +144,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 20px 2%;
+}
+
+header .logo{
+    padding-left: 17%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 50%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:visited{
+    color: black;
+}
