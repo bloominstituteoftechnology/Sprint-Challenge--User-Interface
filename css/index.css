@@ -71,10 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.navbar img{
+    /* margin-right: auto; */
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size:14px;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
