@@ -157,9 +157,9 @@ header {
 
 header nav {
 	margin-top: 30px;
-	text-align: center;
 	justify-content: space-around;
   display: flex;
+	align-content: center;
 }
 
 header nav a {
@@ -169,6 +169,7 @@ header nav a {
 
 	display: flex;
 	justify-content: align-self;
+	align-items: center;
 }
 
 header .logo {
@@ -242,6 +243,10 @@ header .banner {
 	font-size: 14px;
 }
 
+.about-page .about-content h4 {
+	padding-top: 10px;
+}
+
 .about-page header {
 	border-bottom: 1px dashed black;
 }
@@ -271,4 +276,12 @@ header .banner {
 
 .about-bottom p {
 	padding-bottom: 40px;
+}
+
+.about-text h4 {
+	margin-left: 10px;
+}
+
+.about-text p {
+	margin-left: 10px;
 }
