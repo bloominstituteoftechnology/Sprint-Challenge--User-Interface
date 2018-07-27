@@ -289,3 +289,79 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ABOUT PAGE */
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+  }
+
+  .about-content .about-top-content {
+    width: 880px;
+    padding: 15px;
+    border-bottom: 1px dashed black;
+  }
+
+  .about-header-img {
+    margin: 15px; 
+  }
+
+  .about-middle-content {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+
+  .about-box {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-right: 30px;
+  border-bottom: 1px dashed black; 
+  padding-top: 40px;
+  }
+
+   .about-box .box-content {
+    width: 370px;
+    padding: 5px 15px 5px 15px;
+    /* margin: 20px;
+    border: 1px solid black;
+    background: ghostwhite; */
+   }
+
+   .about-box .box-content button {
+     background: white;
+     margin: 15px;
+     padding: 15px 50px;
+     cursor: pointer;
+     border: 2px solid black;
+     border-radius: 8px;
+   }
+
+   .about-box .box-content button:hover {
+       background: black;
+       color: white;
+   }
+
+
+  .about-content .about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+      margin-right: 35px;
+    padding-top: 40px
+  }
+
+
+
+
+.about-content .about-bottom-content .work-together {
+  margin: 0 50px 15px 0;
+}
+
+.about-content .about-bottom-content .work-together  {
+  margin-bottom: 20px;
+}
