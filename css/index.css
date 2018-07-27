@@ -176,4 +176,44 @@ header .banner{
     margin-top: 45px;
 }
 
+.middle-content .boxes .box.one{
+    background: teal;
+}
+
+
+.middle-content .boxes .box.two{
+    background: gold;
+}
+
+.middle-content .boxes .box.three{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.four{
+    background: coral;
+}
+
+.middle-content .boxes .box.five{
+    background: crimson;
+}
+
+.middle-content .boxes .box.six{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.seven{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.eight{
+    background: hotpink;
+}
+
+.middle-content .boxes .box.nine{
+    background: indigo;
+}
+
+.middle-content .boxes .box.ten{
+    background: dodgerblue;
+}
 
