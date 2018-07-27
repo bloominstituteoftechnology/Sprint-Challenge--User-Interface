@@ -243,3 +243,48 @@ footer nav a {
 }
 
 /* Contact page specific CSS below */
+
+input   {
+    border-color: lightgray;
+}
+
+textarea[name=message]    {
+    width: 50%;
+    height: 200px;
+}
+
+input[name=fname]   {
+    width: 20%;
+}
+
+input[name=lname]   {
+    width: 20%;
+}
+
+input[name=e-mail]  {
+    width: 35%;
+}
+
+input[name=phone]   {
+    width: 10%;
+}
+
+input[type=submit]  {
+    width: 10%;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover    {
+    background-color: black;
+    color: white;
+}
+
+form    {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-main    {
+    margin: 20px 0px 40px 0px;
+}
