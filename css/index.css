@@ -148,6 +148,8 @@ footer nav a {
 }
 
 /* new content */
+
+/* shared */
 .hdr {
     width: 800px;
     padding: 20px 0 20px 0;
@@ -173,6 +175,7 @@ footer nav a {
     display: flex;
 }
 
+/* index.html */
 .middle-content .boxes .teal {
     background-color: teal;
 }
@@ -211,4 +214,38 @@ footer nav a {
 
 .middle-content .boxes .dodgerblue {
     background-color: dodgerblue;
+}
+
+/* about.html */
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .mid-content {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.container .mid-content section {
+    width: 49%;
+    padding: 10px;
+}
+
+.mid-content section button {
+    border-radius: 4px;
+    background-color: white;
+}
+
+.together {
+    margin: auto;
+    padding: 20px;
+}
+
+.container hr {
+    border-style: dotted; 
 }
