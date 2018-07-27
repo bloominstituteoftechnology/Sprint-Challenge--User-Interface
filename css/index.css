@@ -234,3 +234,11 @@ footer nav a {
 container b1 {
   color: teal;
 }
+
+/* // this is where im styling my nav bar */
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  text-decoration: none;
+}
