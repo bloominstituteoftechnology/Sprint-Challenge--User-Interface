@@ -222,11 +222,29 @@ footer nav a {
     border-bottom: 1px dotted #101010;
 }
 
+.about-section-one-div h2 {
+    margin-top: 10px;
+}
+
+.about-section-one-div button {
+    width: 120px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .about-section-two {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+/* About page */
 
 
 
