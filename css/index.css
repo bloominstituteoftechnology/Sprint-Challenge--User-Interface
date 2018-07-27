@@ -295,6 +295,54 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* About page */
+
+.cta {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 20px;
+	
+}
+
+.cta .cta-text {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 60px;
+  text-align: left;
+  padding: 10px 100px 10px 10px;
+  width: 90%;
+  border: 1px 40px 1px 1px solid black;
+}
+
+.cta .cta-text h1 {
+    font-size: 30px;
+
+}
+
+/* Above is for CTA and Ending Statment */
+
+.main-box-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.main-box-section .box {
+    display: block;
+    width: 40%;
+    margin: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 
+}
+
+.main-box-section .box .bottom-content {
+    display: block;
+    width: 20%;
+}
 
 footer {
     width: 100%;
