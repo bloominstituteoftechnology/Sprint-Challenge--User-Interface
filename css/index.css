@@ -231,9 +231,11 @@ header .logo {
     margin-bottom: 30px;
     padding: 10px;
     padding-bottom: 20px;
-	width: 100px;
+    width: 100px;
+    height: 35px;
 	cursor: pointer;
     font-size: 13px;
+    border-radius: 3px;
 }
 
 .main-content .top-content .box button:hover {
@@ -242,6 +244,46 @@ header .logo {
 
 .about-info .bottom-text p {
     margin-bottom: 20px;
+}
+
+.row h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.row input {
+    width: 650px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.row textarea {
+    width: 650px;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.row button {
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.row button:hover {
+    color: gray;
+    cursor: pointer;
 }
 
 footer {
