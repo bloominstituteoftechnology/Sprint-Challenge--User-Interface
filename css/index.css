@@ -335,7 +335,7 @@ button {
         }
 }
 
- /* TABLET VIEW */
+ /* tablet */
 
 @media (max-width: 768px) {
 
@@ -356,4 +356,75 @@ button {
         margin-top: 30px;
     }
 
+}
+
+ /* Animation */
+
+header {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/* Contact-Page_Specific */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightgray;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: lightgreen;
+    }
+
+.contact-container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
