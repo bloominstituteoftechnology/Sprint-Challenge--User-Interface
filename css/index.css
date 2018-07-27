@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.main-nav {
+    display: flex;
+    align-items: flex-end;
+    padding: 25px 0 35px 0;
+}
+
+.img-lambda-black {
+    margin-right: 50px;
+}
+
+.main-nav-items {
+    color: black;
+    text-decoration: none;
+    margin-right: 75px;
+}
+
+header {
+    margin-bottom: 35px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +103,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container-about {
+    width: 95%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,12 +129,74 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+.middle-content-about-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-about-div .middle-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 45%;
+    margin: 2%;
+}
+
+.middle-content-about-div .middle-content-about .learn-more-div {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 125px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 20px 0;
 }
 
 .bottom-content {
@@ -120,6 +207,11 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container-about {
+    padding-right: 4%;
+    padding-top: 40px;
 }
 
 .bottom-content .text-container:last-child {
