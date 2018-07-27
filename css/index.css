@@ -31,6 +31,38 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+header {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 30px;
+    /* text-decoration: none; */
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 550px;
+    flex-flow: row wrap;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin: 30 auto;
+    padding: 15px 0px 25px 0px;
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -112,6 +144,38 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +207,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+/* about page  */
+
+.about-top {
+    margin: 30px;
+    padding-bottom: 15px;
+    border-bottom: dashed 1px black;
+}
+
+.main-about {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+div .boxes2 {
+    width: 360px;
+    /* border: solid 1px black; */
+    /* margin: 0px 15px 30px 15px; */
+    margin-bottom: 45px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+    border: 2px solid black;
+    width: 140px;
+    font-size: 16px;
+}
+
+.boxes2 h1 {
+    margin-top: 10px;
+}
+
+.bottom-text {
+    margin: 0 auto 40px auto;
+    width: 95%
 }
