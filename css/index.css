@@ -144,3 +144,79 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My CSS */
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lambda-logo{
+    width: 20%
+}
+
+.header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* CTA-Image */
+
+.CTA-Image{
+    margin-bottom: 30px;
+}
+
+/* CTA-Image */
+
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
+}
