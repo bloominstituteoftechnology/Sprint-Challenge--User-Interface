@@ -284,7 +284,7 @@ p {
 
 .grid-item {
     width: 49%;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px dashed #000;
 	justify-content: space-between;
     font-size: 16px;
     margin-bottom: 45px;
@@ -293,7 +293,23 @@ p {
     margin-right: 2px;
 }
 
+.learn-more {
+    width: 130px;
+	height: 40px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background-color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 0;
+}
 
+.line-about {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #000;
+}
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -307,6 +323,11 @@ p {
 .bottom-content .text-container:last-child {
   padding-right: 0;
 }
+
+.bottom {
+    margin-bottom: 30px;
+} 
+    
 
 footer {
   width: 100%;
