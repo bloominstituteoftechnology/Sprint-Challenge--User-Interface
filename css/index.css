@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .header-section {
 	display: flex;
 }
@@ -83,6 +84,14 @@ header nav {
 	width: 691px;
 	vertical-align: top;
 	margin-top: 35px;
+=======
+.logo {
+	display: flex;
+}
+
+header nav {
+	display: flex;
+>>>>>>> develop
 }
 
 header nav a {
@@ -152,6 +161,7 @@ header .logo {
 	flex-flow: row wrap;
 	//margin-top: 20px;
 	justify-content: center;
+<<<<<<< HEAD
 }
 
 .middle-content .boxes-about {
@@ -163,6 +173,13 @@ header .logo {
 .middle-content .boxes .box {
     width: 20%;
     height: 20%;
+=======
+}
+
+.middle-content .boxes .box {
+    width: 100px;
+    height: 100px;
+>>>>>>> develop
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -171,6 +188,7 @@ header .logo {
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .middle-content .boxes-about .box-about {
     padding-top: 20px;
 	padding-bottom: 20px;
@@ -179,6 +197,8 @@ header .logo {
 	border-bottom: dashed black 1px;
 }
 
+=======
+>>>>>>> develop
 .box1 {
 	background: teal;
 	width: 100px;
@@ -288,6 +308,7 @@ header .logo {
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 .middle-content button {
   background: white;
@@ -300,6 +321,8 @@ header .logo {
   border-radius: 16px;
 }
 
+=======
+>>>>>>> develop
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
