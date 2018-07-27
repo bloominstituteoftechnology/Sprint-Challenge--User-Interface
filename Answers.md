@@ -1,4 +1,4 @@
-1.  Semantic HTML is HTML markup that clarifies the meaning of the info in webpages or web apps. Using specific HTML tags such as <section> or <header> instead of just a <div> makes your page more readable for the web browsers and other Dev's.
+1.  Semantic HTML is HTML markup that clarifies the meaning of the info in webpages or web apps. Using specific HTML tags such as `<section>` or `<header>` instead of just a `<div>` makes your page more readable for the web browsers and other Dev's.
 
 2.  Block-level elements occupy the entire space of its parent as well as browers display block elements on a new line.
 
