@@ -103,14 +103,48 @@ nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.top-content .about-text-container {
+    padding: 0 20px;
+    padding-bottom: 20px;  
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.about-middle-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px 15px 0 15px;
+}
+.about-middle-content h2 {
+    margin: 10px 0 15px 0;
+}
+.about-middle-content p {
+    margin-bottom: 20px;
+}
+button {
+    width: 130px;
+    height: 40px;
+    border: solid 2px black;
+    border-radius: 10px;
+    background: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.about-middle-how-we-work, .about-middle-strategy, .about-middle-places-we-work, .about-middle-collaboration {
+    width: 370px;
+    padding: 0 0 20px 0;
+    border-bottom: dashed 1px black;
+    margin-bottom: 60px;
+}
 
 section.middle-content h2 {
     margin-bottom: 20px;
+}
+
+.about-middle-content {
+    display: flex;
 }
 /* boxes */
 .boxes {
@@ -209,7 +243,11 @@ section.middle-content h2 {
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
+section.about-bottom-content {
+    width: 95%;
+    margin: 0 auto 40px auto;
+    font-size: 15x;
+}
 .bottom-content .text-container {
     padding-right: 4%;
 }
