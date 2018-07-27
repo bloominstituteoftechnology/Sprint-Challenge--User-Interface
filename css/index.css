@@ -283,3 +283,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+ /* About Styles */
+
+ header .jumbo-about {
+    margin: 40px 0 0 200px;
+}
