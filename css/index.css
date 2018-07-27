@@ -146,9 +146,9 @@ footer nav a {
 }
 
 header{
-    width: 100%;
     display: flex;
     padding: 20px 2%;
+    flex-wrap: wrap;
 }
 
 header .logo{
@@ -170,3 +170,10 @@ header nav a{
 header nav a:visited{
     color: black;
 }
+
+header .banner{
+    margin-left: 17%;
+    margin-top: 45px;
+}
+
+
