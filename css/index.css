@@ -336,12 +336,12 @@ header {
     margin: 5px;
     padding: 20px;
     margin-right: 20px;
-    margin-left: 
+    margin-left: 20px;
 }
 
-.main-box-section .box .bottom-content {
-    display: block;
-    width: 20%;
+.main-box-section .box .box-content {
+    width: 80%;
+    padding-top: 10px;
 }
 
 footer {
