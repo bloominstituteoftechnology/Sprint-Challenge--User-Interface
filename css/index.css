@@ -66,6 +66,26 @@ p {
     line-height: 1.4;
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+nav a{
+    margin:40px 40px 10px 40px;
+    text-decoration: none;
+    color: black;
+}
+
+nav img{
+    margin-top: 20px;
+}
+
+div img{
+    margin: 30px 0px 30px 525px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
