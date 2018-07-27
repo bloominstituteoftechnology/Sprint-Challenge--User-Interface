@@ -163,3 +163,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-page .text-container {
+    margin: 1.5%;
+	width: 100%
+}
+
+.about-page .bottom-content {
+	margin-bottom: 40px;
+}
+
+.about-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.about-box {
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+	border-bottom: 1px dashed black;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.about-box img {
+	align-self: flex-start;
+}
+
+.about-box a {
+	display: flex;
+	
+}
