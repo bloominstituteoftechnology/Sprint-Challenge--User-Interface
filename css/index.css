@@ -66,6 +66,130 @@ p {
     line-height: 1.4;
 }
 
+
+/*** BEGIN MAIN CONTENT ***/
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background: white;
+    position: absolute;
+    top: 0;
+    width: 800px;
+}
+
+header nav .navbar a{
+    padding: 20px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    transition: opacity 300ms ease;
+}
+
+header nav .navbar a:hover{
+    opacity: 0.7;
+    transition: opacity 300ms ease;
+}
+
+/* STICKY NAV */
+header nav .sticky {
+    position: fixed !important;
+    width: 800px;
+    background: white;
+    z-index: 10;
+}
+
+header #lambda-logo {
+    transition: 300ms ease-in-out;
+}
+
+header #lambda-logo:hover{
+    transform: scale(1.15, 1.15);
+}
+
+/* Responsive Navigation */
+#collapse-btn {
+    width: 800px;
+    margin: 0 auto;
+    height: 80px;
+	font-size: 40px;
+	padding: 20px;
+	cursor: pointer;
+	outline: none;
+	background: white;
+	transition: opacity 300ms ease;
+	opacity: 1;
+    color: black;
+}
+
+#collapse-btn:hover {
+	opacity: 0.7;
+	transition: opacity 300ms ease;
+}
+
+@media screen and (min-width: 800px) {
+	#collapse-btn {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	header nav .navbar-open {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+		background: white;
+		width: 800px;
+		display: flex;
+        flex-flow: column nowrap;
+	}
+
+	header nav .navbar a {
+        display: none;
+	}
+
+    header nav .navbar-open #lambda-logo {
+        display: none;
+    }
+
+	header nav .navbar-open a:not(#collapse-btn) {
+		padding: 20px;
+		text-decoration: none;
+		color: black;
+		outline: none;
+		transition: opacity 300ms ease;
+	}
+
+	header nav .navbar-open a:not(#collapse-btn):hover{
+		opacity: 0.7;
+		transition: opacity 300ms ease;
+	}
+
+}
+
+
+
+header .banner {
+    height: 153px;
+    margin: 80px 0px 20px 0px;
+}
+
+header #banner-home {
+    background: url('../img/jumbo.jpg');
+    background-size: cover;
+}
+
+header #banner-about {
+    background: url('../img/jumbo-about.png');
+    background-size: cover;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -110,6 +234,53 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 300ms ease-in-out;
+}
+
+.middle-content .boxes .box:hover {
+    transform: scale(1.15, 1.15);
+    cursor: pointer;
+}
+
+/* BOX COLORS */
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +314,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: opacity 300ms ease;
+}
+
+footer nav a:hover{
+    opacity: 0.7;
+    transition: opacity 300ms ease;
+}
+
+/*** ABOUT PAGE ***/
+
+.about-top {
+    max-width: 800px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.about-content {
+    width: 800px;
+    border-top: 1px dashed black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.about-box {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin: 20px;
+}
+
+.about-box img{
+    max-width: 100%;
+    margin: 20px 0px;
+}
+
+.about-box a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.learn-more {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 150px;
+    text-align: center;
+    margin: 20px 0px;
+    transition: 300ms ease-in-out;
+}
+
+.learn-more:hover{
+    transform: scale(1.15, 1.15);
+    opacity: 0.7;
+}
+
+.about-bottom {
+    width: 750px;
+    margin: 20px auto;
+    text-align: justify;
+    padding-bottom: 20px;
 }
