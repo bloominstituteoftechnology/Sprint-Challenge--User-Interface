@@ -215,6 +215,8 @@ header nav a {
 
 .space-evenly {
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .buttons {
@@ -247,4 +249,17 @@ header nav a {
     margin-bottom: 22px;
     border-top: dotted 2px;
     margin-right: 33px;
+}
+
+.student {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ninja {
+    height: 55%;
+}
+
+.ninja-div {
+    height: 450px;
 }
