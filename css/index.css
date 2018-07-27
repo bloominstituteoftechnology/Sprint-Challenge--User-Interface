@@ -86,6 +86,10 @@ p {
     padding-left: 100px;
 }
 
+.nav-div .nav-items :hover {
+    color: lightgray;
+}
+
 .nav-div .nav-items a {
     text-decoration: none;
     color: black;
@@ -98,6 +102,10 @@ p {
 
 .top-image .header-img {
     margin-bottom: 40px;
+}
+
+.top-image :hover {
+    opacity: 0.5;
 }
 .container {
     width: 800px;
@@ -218,6 +226,10 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a :hover {
+    color: lightgray;
+}
+
 /* about page styles */
 
 #top-content {
@@ -293,6 +305,7 @@ footer nav a {
     padding-top: 10px;
     padding-left: 20px;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 #bottom-content {
