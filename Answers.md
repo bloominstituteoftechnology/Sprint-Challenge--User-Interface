@@ -4,7 +4,7 @@
 
     Inline elements simply mean that they are displayed by the browser in an inline format.
 
-3.  TRBL: Top, Right, Bottom, Left
+3.  Content, Padding, Border, Margin
 
 4.  You are using the Cross axis(Y axis)
 
