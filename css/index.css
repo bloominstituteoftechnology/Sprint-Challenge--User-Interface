@@ -61,6 +61,30 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+img {
+    margin-left: 220px;
+}
+.navigation {
+    height: 50px;
+    margin-left: 300px;
+}
+
+.navigation nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-right: 190px;
+    
+
+}
+.topimage {
+    display: flex;
+    height: 200px;
+    align-content: stretch;
+    margin: 0 auto;
+
+}
 
 p {
     line-height: 1.4;
