@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+/* navigation */
+.navigation {
+  margin: 20px auto;
+}
+
+.navigation__links {
+  display: inline-block;
+  vertical-align: middle;
+  width: 75%;
+  text-align: right;
+}
+
+.navigation__links > * {
+  margin: 33px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
