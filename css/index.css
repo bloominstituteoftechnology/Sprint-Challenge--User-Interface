@@ -218,12 +218,12 @@ footer nav a {
 .about-boxes{
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	
 }
 
 .about-boxes .about-box{
-    text-align: left;
-	width:400px;
+	width:375px;
 	border-bottom:1px dotted black;
 	margin-bottom:20px;
 }
