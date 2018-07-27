@@ -203,3 +203,35 @@ footer nav a {
 #box10 {
     background-color: dodgerblue;
 }
+
+.text-container1 {
+    margin-bottom: 30px;
+}
+
+.about-middle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.textbox {
+    width: 48%;
+    height: 48%;
+    margin: 30px 0 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.textbox button {
+    background: white;
+    margin: 10px 0;
+    height: 30px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.bottomContent {
+    padding: 20px;
+    margin-bottom: 20px;
+}
