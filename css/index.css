@@ -207,23 +207,15 @@ header nav {
     padding-bottom: 25px;
 }
 
-
-
 header nav a {
     padding-top: 24px;
     text-decoration: none;
     color: black;
 }
 
-
 .space-evenly {
     display: flex;
     justify-content: space-around;
-}
-
-.col1 {
-    display: flex;
-    flex-direction: column;
 }
 
 .buttons {
