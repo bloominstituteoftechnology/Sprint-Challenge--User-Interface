@@ -80,6 +80,10 @@ nav a{
     text-decoration-line: none;
 }
 
+nav a:hover{
+    font-weight: bold; 
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
@@ -117,6 +121,18 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.middle-content a{
+    color:black;
+    text-decoration-line: none;
+}
+
+.middle-content a:hover{
+    text-emphasis: bold;
+    cursor: pointer;
+    color: blue;
+    text-decoration-line: underline
 }
 
 .middle-content .boxes .box1 {
@@ -250,7 +266,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -298,12 +314,14 @@ header .container-about-page {
     width:100%;
 }
 
-.company-info span{
+.company-info a{
     width: 120px;
     padding: 7px 0;
     text-align: center;
     border-radius: 12px;
     border: 2px solid black;
+    text-decoration-line: none;
+    color: black;
     
 }
 
