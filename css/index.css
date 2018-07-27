@@ -156,6 +156,10 @@ footer nav a {
     justify-content: center;
 }
 
+.h2-padding {
+    padding-top: 10px;
+}
+
 #box1 {
     background: teal;
 }
@@ -212,7 +216,41 @@ header nav a {
 }
 
 
+.space-evenly {
+    display: flex;
+    justify-content: space-around;
+}
 
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
 
+.buttons {
+    margin-top: 11px;
+    margin-right: 241px;
+    padding: 8px;
+    background: white;
+    border: solid black 2px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-left: 0;
+}
 
+.margins {
+    margin-left: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px
+}
 
+.hr1 {
+    margin-bottom: 22px;
+    color: #8e8888;
+    border-top: dotted 2px
+}
+
+.hr2 {
+    margin-bottom: 22px;
+    border-top: dotted 2px 
+}
