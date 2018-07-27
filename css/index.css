@@ -80,13 +80,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-bottom: 37px;
+    margin-bottom: 37px;
 }
 
 .navigation-bar nav {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 78%;
 }
 
 .navigation-bar nav a {
@@ -140,6 +140,46 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .teal {
+    background: teal;
+}
+
+.middle-content .boxes .gold {
+    background-color: gold;
+}
+
+.middle-content .boxes .cadetblue {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .coral {
+    background-color: coral;
+}
+
+.middle-content .boxes .crimson {
+    background-color: crimson;
+}
+
+.middle-content .boxes .forestgreen {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .darkorchid {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .hotpink {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .indigo {
+    background-color: indigo;
+}
+
+.middle-content .boxes .dodgerblue {
+    background-color: dodgerblue;
 }
 
 /* That's no Moon  */
