@@ -81,7 +81,6 @@ header {
 
 header .logo {
     display: flex;
-    /* margin-top: 25px; */
 }
 
 header nav {
@@ -229,19 +228,34 @@ footer nav a {
     padding-bottom 20px;
     display: flex;
     border-top: 1px dashed black;
-    border-bottom: 1px dashed black;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .about-main-content .learn-more-block {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
     
-    width: 700px;
 } 
 
+.about-main-content .learn-more-block img {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
 .about-main-content .learn-more-block p {
-    width: 200px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.about-main-content .learn-more-block button {
+    width: 100px;
+    height: 25px;
+    border-radius: 15%;
+    margin-bottom: 10px;
 }
 
 .about-closing {
