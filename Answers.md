@@ -1,6 +1,6 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
    
-    a. I would say that semantic HTML is HTML that is more descriptive of it's content compared to non-semantic HTML which is typically used for the presentation. Semantic HTML tag examples include <header>, <nav>, <section>, <footer>. Semantic HTML also helps screen readers and search engines parse your code into a format that is understandable by both humans and machines. Non-semantic tags include tags like the <div> tag which are typically used in conjunction with CSS to provide presentation changes to the page.
+    a. I would say that semantic HTML is HTML that is more descriptive of it's content compared to non-semantic HTML which is typically used for the presentation. Semantic HTML tag examples include header, nav, section, footer. Semantic HTML also helps screen readers and search engines parse your code into a format that is understandable by both humans and machines. Non-semantic tags include tags like the div tag which are typically used in conjunction with CSS to provide presentation changes to the page.
     
 2. Describe some differences between display: block; and display: inline;.
 
