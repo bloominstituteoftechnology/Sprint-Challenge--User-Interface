@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +143,155 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* my code here, header styling */
+
+header {
+	font-size: 15px;
+	display: block;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	margin-bottom: 10px;
+}
+
+header nav {
+	margin-top: 30px;
+	justify-content: space-around;
+  display: flex;
+	align-content: center;
+	padding-bottom: 20px;
+}
+
+header nav a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: black;
+
+	display: flex;
+	justify-content: align-self;
+	align-items: center;
+}
+
+header nav a:hover {
+	color: blue;
+}
+
+header .logo {
+	display: block;
+	position: left;
+	margin-bottom: 20px;
+}
+
+header .banner {
+	margin-bottom: 20px;
+}
+
+/* box colors */
+
+#box1 {
+	background: teal;
+}
+
+#box2 {
+	background: gold;
+}
+
+#box3 {
+	background: cadetblue;
+}
+
+#box4 {
+	background: coral;
+}
+
+#box5 {
+	background: crimson;
+}
+
+#box6 {
+	background: forestgreen;
+}
+
+#box7 {
+	background: darkorchid;
+}
+
+#box8 {
+	background: hotpink;
+}
+
+#box9 {
+	background: indigo;
+}
+
+#box10 {
+	background: dodgerblue;
+}
+
+/* about.html styles */
+
+.about-page {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1.3;
+	font-family: 'Rubik', sans-serif;
+}
+
+.about-page .about-content {
+	padding: 20px;
+  width: 400px;
+  background: white;
+  margin: 20px 0;
+	border-bottom: 1px dashed black;
+	/* border-spacing: 30px; */
+	font-size: 14px;
+}
+
+.about-page .about-content h4 {
+	padding-top: 10px;
+}
+
+.about-page header {
+	border-bottom: 1px dashed black;
+}
+
+.about-text p {
+	padding-bottom: 30px;
+}
+
+.about-content button {
+	padding: 10px 40px;
+	margin-top: 20px;
+	background: white;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 2px solid black;
+	font-family: 'Rubik', sans-serif;
+}
+
+.about-content button:hover {
+	background: black;
+  color: white;
+}
+
+.about-bottom {
+	margin-left: 20px;
+}
+
+.about-bottom h4 {
+	padding-top: 30px;
+}
+
+.about-bottom p {
+	padding-bottom: 40px;
+}
+
+.about-text {
+	margin-left: 20px;
+}
+
+.about-text h5 {
+	font-size: 18px;
 }
