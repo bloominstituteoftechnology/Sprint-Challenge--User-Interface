@@ -196,6 +196,7 @@ header {
     padding-right: 0;
 }
 
+
 footer {
     width: 100%;
     background: black;
@@ -214,3 +215,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Styles Here */
+
+.about-top {
+    border-bottom: 1px dashed black;
+    margin: 0px 20px 20px 20px;
+    padding-bottom: 20px;
+} 
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0  0 40px 10px;
+}
+
+.about-card {
+    border-bottom: 1px dashed black;
+
+}
+
+.about-card img{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.about-card p {
+    padding: 10px;
+}
+
+.about-card h2 {
+    margin-left: 10px;
+}
+
+.card-container .about-card .learn-button {
+   font-size: 16px;
+   border: 2px black solid;
+   background-color: white;
+   border-radius: 10px;
+   padding: 10px 25px 10px 25px;
+   margin: 10px 0 20px 10px;
+}
+
+.about-bottom {
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+} 
+    
