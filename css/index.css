@@ -178,3 +178,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.about-header-img {
+    background: url("../img/jumbo-about.png") no-repeat center;
+    height: 153px;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-top: 3rem;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+.about-middle {
+    display: flex;
+    width: 100%;
+    margin: 0 1rem 0 0;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.card .card-img {
+    max-width: 100%;
+}
+
+.card .card-header {
+    margin: 1rem 0 0 0;
+}
+
+/*.card .card-text {*/
+
+/*}*/
+
+.card-button > button {
+    padding: 0.25rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 1rem 0 0 0;
+}
+
+.card .card-button span {
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.about-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    padding: 20px 0;
+}
