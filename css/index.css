@@ -97,8 +97,9 @@ header nav .navbar a:hover{
     transition: opacity 300ms ease;
 }
 
+/* STICKY NAV */
 header nav .sticky {
-    position: fixed;
+    position: fixed !important;
     width: 800px;
     background: white;
     z-index: 10;
@@ -111,6 +112,68 @@ header #lambda-logo {
 header #lambda-logo:hover{
     transform: scale(1.15, 1.15);
 }
+
+/* Responsive Navigation */
+#collapse-btn {
+    width: 800px;
+    margin: 0 auto;
+    height: 80px;
+	font-size: 40px;
+	padding: 20px;
+	cursor: pointer;
+	outline: none;
+	background: white;
+	transition: opacity 300ms ease;
+	opacity: 1;
+    color: black;
+}
+
+#collapse-btn:hover {
+	opacity: 0.7;
+	transition: opacity 300ms ease;
+}
+
+@media screen and (min-width: 800px) {
+	#collapse-btn {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	header nav .navbar-open {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+		background: white;
+		width: 800px;
+		display: flex;
+        flex-flow: column nowrap;
+	}
+
+	header nav .navbar a {
+        display: none;
+	}
+
+    header nav .navbar-open #lambda-logo {
+        display: none;
+    }
+
+	header nav .navbar-open a:not(#collapse-btn) {
+		padding: 20px;
+		text-decoration: none;
+		color: black;
+		outline: none;
+		transition: opacity 300ms ease;
+	}
+
+	header nav .navbar-open a:not(#lambda-logo):hover{
+		opacity: 0.7;
+		transition: opacity 300ms ease;
+	}
+
+}
+
+
 
 header .banner {
     height: 153px;

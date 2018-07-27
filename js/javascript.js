@@ -1,17 +1,17 @@
 
-// // enables responsive menu toggle
-// $(document).ready(function () {
-//     $('#collapse-btn').click(function () {
-//         if ($('#navigation').hasClass('navbar')) {
-//             $('#navigation').removeClass('navbar');
-//             $('#navigation').addClass('navbar-open');
-//         } else {
-//             $('#navigation').removeClass('navbar-open');
-//             $('#navigation').addClass('navbar');
-//         }
-//     });
+// enables responsive menu toggle
+$(document).ready(function () {
+    $('#collapse-btn').click(function () {
+        if ($('#navigation').hasClass('navbar')) {
+            $('#navigation').removeClass('navbar');
+            $('#navigation').addClass('navbar-open');
+        } else {
+            $('#navigation').removeClass('navbar-open');
+            $('#navigation').addClass('navbar');
+        }
+    });
 
-// });
+});
 
 // Sticky navbar javascript
 $(document).ready(function () {
@@ -34,14 +34,14 @@ $(document).ready(function () {
 
 
 
-// // Run a continuous check for the page width
-// // This prevents the responsive menu from staying open
-// // if page resizes to larger than 899px
-// $(document).ready(function() {
-//     setInterval(function(){
-//         if($(window).width() > 899){
-//             $('#navigation').removeClass('navbar-open');
-//             $('#navigation').addClass('navbar');
-//         }
-//     }, 100);
-// });
+// Run a continuous check for the page width
+// This prevents the responsive menu from staying open
+// if page resizes to larger than 800px
+$(document).ready(function() {
+    setInterval(function(){
+        if($(window).width() > 800){
+            $('#navigation').removeClass('navbar-open');
+            $('#navigation').addClass('navbar');
+        }
+    }, 100);
+});
