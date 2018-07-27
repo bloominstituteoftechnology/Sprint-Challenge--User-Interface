@@ -197,6 +197,24 @@ header .logo {
     padding-right: 0;
 }
 
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content .about-header-img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.about-content .text-muted {
+    margin-bottom: 15px;
+}
+
 footer {
     width: 100%;
     background: black;
