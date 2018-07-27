@@ -4,9 +4,9 @@
     
 2. Describe some differences between display: block; and display: inline;.
 
-    a. <display: block;> sets an element to block level. This means the element should take up one entire horizontal row (100% width) of the parent container. <p> tags are a good example of a block element.
+    a. <display: block;> sets an element to block level. This means the element should take up one entire horizontal row (100% width) of the parent container. p tags are a good example of a block element.
     
-    b. <display: inline;> sets an element to inline. This means that the element will not wrap to the next line (break the line) and if left unchecked will take up an infinite amount of horizontal space of it's container. <span> tags are a good example of an inline element. 
+    b. <display: inline;> sets an element to inline. This means that the element will not wrap to the next line (break the line) and if left unchecked will take up an infinite amount of horizontal space of it's container. span tags are a good example of an inline element. 
     
 3. What are the 4 areas of the box model?
 
