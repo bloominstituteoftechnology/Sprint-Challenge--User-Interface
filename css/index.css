@@ -179,7 +179,7 @@ footer nav a {
     margin-bottom: 30px;
 }
 
-/* CTA-Image */
+/* box-colors */
 
 #box-1 {
     background-color: teal;
@@ -219,4 +219,49 @@ footer nav a {
 
 #box-10 {
     background-color: dodgerblue;
+}
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-boxes{
+    display: flex;
+    flex-direction: column;
+
+}
+.about-boxes-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-boxes-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: flex-start;
+    border-bottom: 1px dashed black;
+
+}
+
+.learn-more-button {
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.work-together {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-boxes-item img {
+    margin-bottom: 10px;
 }
