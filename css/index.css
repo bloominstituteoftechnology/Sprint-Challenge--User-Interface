@@ -70,6 +70,52 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Inserted --- Start of Header */
+header {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: space-evenly;
+    width: 100%;
+    vertical-align: 0px;
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+  header .anchors {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 70%;
+  }
+  header .anchors a {
+    display: inline;
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  header img {
+   margin-right: 0px;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0px;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0px;
+  }
+  
+  header .logo {
+    /* border: 1px solid black; */
+    margin-bottom: 0px;
+  }
+
+  /* Inserted */
 
 .top-content {
     display: flex;
