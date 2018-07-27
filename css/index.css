@@ -67,9 +67,71 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
+/* Inserted --- Start of Header */
+
+/* .nav-container {
+    width: 800px;
+} */
+
+.nav-container {
+    margin-bottom: 30px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content: flex-start;
+    width: 100%;
+    vertical-align: 0px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+  }
+  header .anchors {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 70%;
+  }
+  header .anchors a {
+    display: inline;
+    font-size: 14px;
+    color: gray;
+    margin-top: 30px;
+  }
+  
+  header img {
+   margin-right: 0px;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0px;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0px;
+  }
+  
+  header .logo {
+    /* border: 1px solid black; */
+    margin-bottom: 0px;
+  }
+
+  .banner-image {
+	display: inline-block;
+	margin-left: 70px;
+    width: 90%;
+}
+
+  /* Inserted */
 
 .top-content {
     display: flex;
@@ -112,6 +174,114 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +294,54 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+/* About page */
+
+.cta {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 20px;
+	
+}
+
+.cta .cta-text {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 60px;
+  text-align: left;
+  padding: 10px 100px 10px 10px;
+  width: 90%;
+  border: 1px 40px 1px 1px solid black;
+}
+
+.cta .cta-text h1 {
+    font-size: 30px;
+
+}
+
+/* Above is for CTA and Ending Statment */
+
+.main-box-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.main-box-section .box {
+    display: block;
+    width: 40%;
+    margin: 5px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.main-box-section .box .box-content {
+    width: 80%;
+    padding-top: 10px;
 }
 
 footer {
