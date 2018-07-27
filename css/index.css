@@ -240,5 +240,5 @@ container b1 {
   display: flex;
   justify-content: space-around;
   color: black;
-  *text-decoration: none;
+  text-decoration: none;
 }
