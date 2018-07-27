@@ -34,12 +34,12 @@ body {
 nav {
     display:flex;
     flex-direction: row;
-    padding-bottom: 40px;
+    padding: 40px 0;
+
 }
 nav .logo {
     height:40px;
     width:20%;
-
 }
 nav .nav-anchor {
 
