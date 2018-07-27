@@ -179,8 +179,10 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
 
 }
 
@@ -188,8 +190,8 @@ header nav {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
-    width: 600px;
+    justify-content: space-between;
+    width: 550px;
     margin-right: 50px;
 }
 
@@ -203,7 +205,6 @@ header img {
 }
 
 header .header-logo {
-    margin-left: 90px;
 }
 
 header .header-jumbo {
