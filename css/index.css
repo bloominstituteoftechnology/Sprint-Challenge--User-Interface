@@ -66,6 +66,39 @@ p {
     line-height: 1.4;
 }
 
+header {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header .header-logo {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+/* Main navigation */
+.main-nav {
+	width: 700px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	padding: 20px 20px 20px 0;
+}
+
+/* Call to Action (CTA) styles */
+
+.cta {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -97,6 +130,7 @@ p {
 
 .middle-content .boxes {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -143,4 +177,52 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page styles */
+.top-content .about-text-container {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-middle-content .card {
+    width: 370px;
+    margin: 20px 0 20px 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content .card button {
+    border: 2px solid black;
+    background: white;
+    color: black;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about-middle-content .card button:hover{
+    background-color: black;
+    color: white;
+}
+
+.card .card-text-content {
+    margin: 10px 0 10px 0;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-bottom-content .about-text-container {
+    margin: 40px 0 40px 0;
 }
