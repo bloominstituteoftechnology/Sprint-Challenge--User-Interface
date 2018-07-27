@@ -144,3 +144,75 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middle-content .boxes .box .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+
+
+header nav a {
+    padding-top: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
