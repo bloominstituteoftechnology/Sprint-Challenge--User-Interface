@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* existing styles */
+
 * {
     box-sizing: border-box;
 }
@@ -143,4 +145,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* new content */
+
+/* shared */
+.hdr {
+    width: 800px;
+    padding: 20px 0 20px 0;
+    margin: auto;
+    display: flex;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-img {
+    padding: 0 0 20px 0;
+    margin: auto;
+    display: flex;
+}
+
+/* index.html */
+.middle-content .boxes .teal {
+    background-color: teal;
+}
+
+.middle-content .boxes .gold {
+    background-color: gold;
+}
+
+.middle-content .boxes .cadetblue {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .coral {
+    background-color: coral;
+}
+
+.middle-content .boxes .crimson {
+    background-color: crimson;
+}
+
+.middle-content .boxes .forestgreen {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .darkorchid {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .hotpink {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .indigo {
+    background-color: indigo;
+}
+
+.middle-content .boxes .dodgerblue {
+    background-color: dodgerblue;
+}
+
+/* about.html */
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .mid-content {
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.container .mid-content section {
+    width: 49%;
+    padding: 10px;
+}
+
+.mid-content section button {
+    border-radius: 4px;
+    background-color: white;
+}
+
+.together {
+    margin: auto;
+    padding: 20px;
+}
+
+.container hr {
+    border-style: dotted; 
 }
