@@ -240,6 +240,10 @@ header .logo {
 	color: gray;
 } 
 
+.about-info .bottom-text p {
+    margin-bottom: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
