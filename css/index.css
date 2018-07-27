@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +130,46 @@ p {
     justify-content: center;
 }
 
+#boxOne {
+    background-color: teal;
+}
+
+#boxTwo {
+    background-color: gold;
+}
+
+#boxThree {
+    background-color: cadetblue;
+}
+
+#boxFour {
+    background-color: coral;
+}
+
+#boxFive {
+    background-color: crimson;
+}
+
+#boxSix {
+    background-color: forestgreen;
+}
+
+#boxSeven {
+    background-color: darkorchid;
+}
+
+#boxEight {
+    background-color: hotpink;
+}
+
+#boxNine {
+    background-color: indigo;
+}
+
+#boxTen {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +202,34 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page */
+
+.about-section-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px dotted #101010;
+}
+
+.about-section-one-div {
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px dotted #101010;
+}
+
+.about-section-two {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
