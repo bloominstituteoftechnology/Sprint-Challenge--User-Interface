@@ -271,3 +271,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-page {
+	line-height: 1.25;
+}
+
+section .top {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+div .top {
+	margin-top: 20px;
+}
+.middle-content .about-page {
+	display: flex;
+	flex-flow: row wrap;
+
+}
+.middle-content img {
+	display: flex;
+}
+div .middle-content .about-page {
+	border-bottom: 1px dashed black;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 40%;
+}
+div .button {
+
+	border-radius: 8px;
+	border: 2px solid black;
+	padding: 5px 15px 5px 15px;
+	width: 25%;
+}
+div .middle-content .about-page p {
+	display: flex;
+	
+}
+div .bottom-content .about-page {
+	display: flex;
+}
