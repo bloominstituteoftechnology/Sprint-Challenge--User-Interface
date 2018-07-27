@@ -1,8 +1,11 @@
+
 1 - If you had to describe semantic HTML to the next cohort of students, what would you say?
 ++ Semantic HTML describes using HTML to define the functionality of websites. In other words,
 we are using the language tags for more than just presentatiton and description, these tags
 actually define how the website is interpreted by machines, and to set a foundation 
 for mark up languages for enhanced human interpretation.
+
+
 2 - Describe some differences between display: block; and display: inline;.
 
 ++ Block - Forced line break after each element. Appear vertically aligned on page. Will acquire full width if width not defined.
