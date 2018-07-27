@@ -336,3 +336,41 @@ input[type=textarea] {
     width: 100%;
     height: 100px;
 }
+
+/* Blog */
+.eye-img {
+	clip-path: ellipse(59% 0% at 50% 50%);
+	width: 100%;
+	animation-name: blink;
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-iteration-count:infinite;
+	z-index: 0;
+	outline: solid 20px dodgerblue;
+    border: solid 10px #1e90ffb0;
+}
+
+@keyframes blink{
+	/* 0%  {clip-path: ellipse(59% 0% at 50% 50%);	}
+	10% {clip-path: ellipse(59% 0% at 50% 50%);	}
+	25% {clip-path: ellipse(59% 30% at 50% 50%);}
+	35% {clip-path: ellipse(59% 5% at 50% 50%); }
+	55% {clip-path: ellipse(59% 30% at 50% 50%);}
+	90%	{clip-path: ellipse(59% 30% at 50% 50%); }
+	100%{clip-path: ellipse(59% 0% at 50% 50%); } */
+
+	0%  {clip-path: ellipse(59% 5% at 50% 53%);s}
+	5% {clip-path: ellipse(59% 30% at 50% 53%);}
+	8% {clip-path: ellipse(59% 0% at 50% 53%); }
+	13% {clip-path: ellipse(59% 30% at 50% 53%);}
+	98%	{clip-path: ellipse(59% 30% at 50% 53%); }
+	100%{clip-path: ellipse(59% 5% at 50% 53%); }
+	}
+
+	.eye h1{
+        text-align: center;
+        display: block;
+        font-size: 30px;
+        color: black;
+        margin-top: 100px;
+	}
