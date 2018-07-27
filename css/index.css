@@ -35,7 +35,6 @@ nav {
     display:flex;
     flex-direction: row;
     padding: 40px 0;
-
 }
 nav .logo {
     height:40px;
@@ -169,4 +168,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.about-page  {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-content: space-between;
+}
+.about-page nav {
+    display:flex;
+    flex-direction: row;
+    padding: 40px 0;
+}
+.about-page nav .logo {
+    height:40px;
+    width:20%;
+}
+.about-page nav .nav-anchor {
+
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    /* padding:8px 0; */
+}
+.about-page nav .nav-anchor a {
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    /* padding:15px; */
+}
+
+.about-page .top-content{
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 18px;
+    /* margin-bottom: 15px; */
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    /* flex-direction: column;*/
+    /* border: 1px solid blue;  */
+}
+.card-section{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.card{
+    width:48%;
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding:40px 0 20px 0;
+}
+.card button {
+    background-color:white;
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    border:3px solid black;
+    font:black;
+}
+.lets-work-together {
+    display: flex;
+    flex-direction:column;
+    margin: 20px 12px;
+}
+.about-page footer nav a{
+    margin: 0 12px;
 }
