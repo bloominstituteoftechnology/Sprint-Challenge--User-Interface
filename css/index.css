@@ -85,6 +85,41 @@ p {
     padding-bottom: 20px;  
 }
 
+/*** Navigation Bar CSS ***/
+
+.main-logo {
+    margin-right: auto;
+    display: inline-block;
+}
+
+.nav-container {
+    display: inline-block;
+}
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-main li {
+    justify-content: space-evenly;
+  }
+
+/* .nav-main li:first-child {
+    margin-right: auto;
+  } */
+
+.nav-main a {
+    text-decoration: none;
+}
+
+/** Header Image CSS ***/
+.header-img-jumbo {
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -143,4 +178,36 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*** Box Colors CSS ****/
+ #box-teal {
+    background-color: teal;
+}
+#box-gold {
+    background-color: gold;
+}
+#box-cadetblue {
+    background-color: cadetblue;
+}
+#box-coral {
+    background-color: coral;
+}
+#box-crimson {
+    background-color: crimson;
+}
+#box-forestgreen {
+    background-color: forestgreen;
+}
+#box-darkorchid {
+    background-color: darkorchid;
+}
+#box-hotpink {
+    background-color: hotpink;
+}
+#box-indigo {
+    background-color: indigo;
+}
+#box-dodgerblue {
+    background-color: dodgerblue;
 }
