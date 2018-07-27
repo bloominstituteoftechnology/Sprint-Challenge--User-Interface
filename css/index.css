@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+header {
+    vertical-align: top;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+header .logo {
+    display: flex;
+    /* margin-top: 25px; */
+}
+
+header nav {
+    display: flex;
+    width: 550px;
+    margin-left: 40px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.top-image {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +147,46 @@ p {
     justify-content: center;
 }
 
+#box-1 {
+    background: teal;
+}
+
+#box-2 {
+    background: gold;
+}
+
+#box-3 {
+    background: cadetblue;
+}
+
+#box-4 {
+    background: coral;
+}
+
+#box-5 {
+    background: crimson;
+}
+
+#box-6 {
+    background: forestgreen;
+}
+
+#box-7 {
+    background: darkorchid;
+}
+
+#box-8 {
+    background: hotpink;
+}
+
+#box-9 {
+    background: indigo;
+}
+
+#box-10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +218,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-summary {
+    margin: 15px;
+}
+
+.about-main-content {
+    padding-top: 20px;
+    padding-bottom 20px;
+    display: flex;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-main-content .learn-more-block {
+    display: flex;
+    
+    width: 700px;
+} 
+
+.about-main-content .learn-more-block p {
+    width: 200px;
+}
+
+.about-closing {
+    margin: 15px;
 }
