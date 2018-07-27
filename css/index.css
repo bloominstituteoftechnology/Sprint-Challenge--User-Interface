@@ -71,37 +71,6 @@ p {
     margin: 0 auto;
 }
 
-header {
-    width: 100%;
-    display: flex;
-    margin: 20px 0;
-}
-
-header .logo {
-    width: 157px;
-    height: 40px;
-    background: black;
-}
-
-header nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-header nav a {
-    font-size: 14px;
-    text-decoration: none;
-    color: black;
-}
-
-.jumbotron {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -155,55 +124,6 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
-
-.about-page .about-top {
- display: flex;
-}
-
-.about-page .about-text {
-  width: 350px;
-}
-.about-page .about-intro {
-  padding: 0 20px 20px;
-  border-bottom: 1px dashed black;
-}
-
-.about-page .about-content {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.about-page .about-content .about-box {
-  width: 370px;
-  margin: 30px 15px;
-  border-bottom: 1px dashed black;
-
-}
-
-.about-page .about-content .about-box h2 {
-  margin-top: 10px;
-}
-
-.about-page .about-content .about-box .about-btn {
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 10px;
-  width: 130px;
-  text-align: center;
-  cursor: pointer;
-  margin: 20px 0;
-}
-
-.about-page .about-content .about-box .about-btn:hover {
-  background: black;
-  color: white;
-}
-
-
-.about-page .about-footer-content {
-  margin-bottom: 20px;
-  padding: 20px;
 }
 
 footer {
