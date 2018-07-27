@@ -31,6 +31,32 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+nav {
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+nav .logo {
+    height:40px;
+    width:20%;
+
+}
+nav .nav-anchor {
+
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    /* padding:8px 0; */
+}
+nav .nav-anchor a {
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    /* padding:15px; */
+}
+
 ol, ul {
 	list-style: none;
 }
