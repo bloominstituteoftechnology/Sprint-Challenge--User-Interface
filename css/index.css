@@ -148,10 +148,12 @@ footer nav a {
 /* my code here, header styling */
 
 header {
-	font-size: 14px;
+	font-size: 15px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	position: relative;
+	left: 20px;
 	margin-bottom: 10px;
 }
 
@@ -160,6 +162,7 @@ header nav {
 	justify-content: space-around;
   display: flex;
 	align-content: center;
+	padding-bottom: 20px;
 }
 
 header nav a {
@@ -170,6 +173,10 @@ header nav a {
 	display: flex;
 	justify-content: align-self;
 	align-items: center;
+}
+
+header nav a:hover {
+	color: blue;
 }
 
 header .logo {
@@ -240,6 +247,7 @@ header .banner {
   background: white;
   margin: 20px 0;
 	border-bottom: 1px dashed black;
+	/* border-spacing: 30px; */
 	font-size: 14px;
 }
 
@@ -270,6 +278,10 @@ header .banner {
   color: white;
 }
 
+.about-bottom {
+	margin-left: 20px;
+}
+
 .about-bottom h4 {
 	padding-top: 30px;
 }
@@ -278,10 +290,10 @@ header .banner {
 	padding-bottom: 40px;
 }
 
-.about-text h4 {
-	margin-left: 10px;
+.about-text {
+	margin-left: 20px;
 }
 
-.about-text p {
-	margin-left: 10px;
+.about-text h5 {
+	font-size: 18px;
 }
