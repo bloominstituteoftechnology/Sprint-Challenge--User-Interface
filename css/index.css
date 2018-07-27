@@ -67,19 +67,29 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 /* Inserted --- Start of Header */
+
+/* .nav-container {
+    width: 800px;
+} */
+
+.nav-container {
+    margin-bottom: 30px;
+}
 header {
     display: flex;
     flex-direction: row;
     /* flex-wrap: nowrap; */
-    justify-content: space-evenly;
+    justify-content: flex-start;
     width: 100%;
     vertical-align: 0px;
     margin-top: 10px;
-    border: 1px solid black;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
   }
   header .anchors {
       display: flex;
@@ -91,7 +101,7 @@ header {
     display: inline;
     font-size: 14px;
     color: gray;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   
   header img {
@@ -114,6 +124,12 @@ header {
     /* border: 1px solid black; */
     margin-bottom: 0px;
   }
+
+  .banner-image {
+	display: inline-block;
+	margin-left: 70px;
+    width: 90%;
+}
 
   /* Inserted */
 
