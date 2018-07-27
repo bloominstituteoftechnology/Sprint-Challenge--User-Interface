@@ -169,8 +169,8 @@ a {
     align-items: center; 
     }
 
-    header nav a:hover {
-        text-decoration: underline;
+    header nav a {
+        text-decoration: none;
     }
 
     .box1{
@@ -275,6 +275,10 @@ a {
         justify-content: center;
     }
 /* page 2 of about */
+.the-top-section{
+    margin-bottom:20px;
+}
+
 .the4squares {
     margin-top: 30px;
   display:flex;
