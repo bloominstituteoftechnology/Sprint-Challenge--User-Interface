@@ -144,3 +144,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+header .navbar-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+
+header .navbar-items a {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-image {
+    padding-bottom: 5%;
+}
