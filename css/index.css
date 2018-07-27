@@ -227,8 +227,8 @@ footer nav a {
 /*}*/
 
 .card-button > button {
-    padding: 0.25rem;
-    border-radius: 5px;
+    padding: .5rem;
+    border-radius: 10px;
     border: 2px solid black;
     margin: 1rem 0 0 0;
 }
