@@ -78,6 +78,10 @@ header nav .navbar {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background: white;
+    position: absolute;
+    top: 0;
+    width: 800px;
 }
 
 header nav .navbar a{
@@ -93,6 +97,13 @@ header nav .navbar a:hover{
     transition: opacity 300ms ease;
 }
 
+header nav .sticky {
+    position: fixed;
+    width: 800px;
+    background: white;
+    z-index: 10;
+}
+
 header #lambda-logo {
     transition: 300ms ease-in-out;
 }
@@ -103,7 +114,7 @@ header #lambda-logo:hover{
 
 header .banner {
     height: 153px;
-    margin: 20px 0px;
+    margin: 80px 0px 20px 0px;
 }
 
 header #banner-home {
