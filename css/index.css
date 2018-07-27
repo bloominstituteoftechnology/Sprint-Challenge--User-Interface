@@ -181,6 +181,7 @@ header {
     align-items: flex-end;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
 }
 
 header nav {
@@ -189,8 +190,7 @@ header nav {
     align-items: flex-start;
     justify-content: space-around;
     width: 600px;
-    margin-right: 20px;
-    border: solid red 1px;
+    margin-right: 50px;
 }
 
 header nav a {
@@ -203,7 +203,7 @@ header img {
 }
 
 header .header-logo {
-    margin-left: 50px;
+    margin-left: 90px;
 }
 
 header .header-jumbo {
