@@ -75,7 +75,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-end;
+	align-items: flex-end;
+	margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -164,9 +165,7 @@ footer nav a {
     text-decoration: none;
 }
 
-.about-page {
-	margin-top: 20px;
-}
+/* About page */
 
 .about-page .text-container {
     margin: 1.5%;
