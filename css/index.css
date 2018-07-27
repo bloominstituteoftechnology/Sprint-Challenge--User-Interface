@@ -62,6 +62,41 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.nav-content {
+    display: flex;
+    align-items: baseline;
+    margin: 20px;
+}
+
+nav {
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+nav a {
+    font-size: 16px;
+	color: black;
+    text-decoration: none;
+    padding: 15px;
+} 
+
+nav a:hover {
+    color: white;
+    background: black;
+}
+
+.logo{
+    position: relative;
+    right: 15px;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 p {
     line-height: 1.4;
 }
@@ -112,6 +147,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+background: gold;
+}
+.middle-content .boxes .box3 {
+background: cadetblue;
+} 
+.middle-content .boxes .box4 {
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson;
+} 
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +210,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.bc {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: dashed grey 2px;
+}
+
+.squares {
+width: 370px; 
+margin-top: 25px;
+margin-bottom: 25px;
+border-bottom: dashed grey 2px;
+}
+
+.button {
+    border: solid black 2px;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.ac {
+    margin-left: 20px;
+}
+.ac p {
+    margin-bottom: 50px;
+}
+
+.main-content h1 {
+    margin-top: 10px;
+}
+
