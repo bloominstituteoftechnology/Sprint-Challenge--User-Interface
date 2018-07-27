@@ -62,6 +62,41 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.nav-content {
+    display: flex;
+    align-items: baseline;
+    margin: 20px;
+}
+
+nav {
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+nav a {
+    font-size: 16px;
+	color: black;
+    text-decoration: none;
+    padding: 15px;
+} 
+
+nav a:hover {
+    color: white;
+    background: black;
+}
+
+.logo{
+    position: relative;
+    right: 15px;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 p {
     line-height: 1.4;
 }
@@ -112,6 +147,19 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.box2: gold
+.box3: cadetblue
+.box4: coral
+.box5: crimson
+.box6: forestgreen
+.box7: darkorchid
+.box8: hotpink
+.box9: indigo
+.box10: dodgerblue
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +191,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.bc {
+    padding-bottom: 20px;
+    border-bottom: dashed grey 2px;
+}
+
+.main-content {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.button {
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.button a {
+    text-decoration: none;
+    color: black;
 }
