@@ -212,7 +212,7 @@ footer nav a {
 }
 
 .about-main-content .about-box   {
-    width: 48%;
+    width: 46%;
     border-bottom: 1px dotted black;
     padding-bottom: 20px;
     margin-top: 30px;
@@ -235,4 +235,9 @@ footer nav a {
 
 .about-bottom-content   {
     margin: 50px 0px;
+}
+
+.about-box button:hover {
+    background: black;
+    color: white;
 }
