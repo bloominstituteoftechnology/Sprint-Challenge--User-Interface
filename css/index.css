@@ -73,7 +73,6 @@ p {
 
 header {
     display: flex;
-    width: 100%;
     /* position: fixed;
     background-color: whitesmoke; */
 }
@@ -114,6 +113,14 @@ header .logo {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container h2 {
+    font-size: 20px; 
+}
+
+.top-content .text-container p {
+    font-size: 14px; 
 }
 
 .middle-content {
@@ -191,6 +198,14 @@ header .logo {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container h2 {
+    font-size: 20px;
+}
+
+.bottom-content .text-container p {
+    font-size: 14px;
 }
 
 .bottom-content .text-container:last-child {
