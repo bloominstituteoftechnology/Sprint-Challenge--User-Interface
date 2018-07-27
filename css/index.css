@@ -68,18 +68,23 @@ p {
 
 .nav-div {
     display: flex;
-    justify-content: center;
-    margin: 40px 100px 40px 100px;
+    justify-content: space-between;
+    margin: 40px 100px 40px 0px;
+    width: 100%;
+    border: 1px solid black;
 }
 
 .nav-div .nav-logo {
-    width: 400px;
+    width: 160px;
+    padding-left: 0px;
 }
 
 .nav-div .nav-items {
     display: flex;
-    justify-content: space-around;
-    width: 1000px;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 40px;
+    padding-left: 100px;
 }
 
 .nav-div .nav-items a {
@@ -212,4 +217,88 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page styles */
+
+#top-content {
+    border-bottom: 1px dashed black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.strategy-work {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+#strategy-box {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+}
+
+#work-box {
+    border-bottom: 1px dashed black;
+    margin-left: 20px;
+}
+
+.strategy-work .box-titles {
+    padding-top: 10px;
+}
+
+.strategy-work .box-text {
+    margin-bottom: 20px;
+}
+
+.strategy-work .box-button {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 35%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.places-collab {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+#places-box {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+}
+
+#collab-box {
+    border-bottom: 1px dashed black;
+    margin-left: 20px;
+}
+
+.places-collab .box-titles {
+    padding-top: 10px;
+}
+
+.places-collab .box-text {
+    margin-bottom: 20px;
+}
+
+.places-collab .box-button {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 35%;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#bottom-content {
+    padding-bottom: 40px;
+    padding-left: 10px;
 }
