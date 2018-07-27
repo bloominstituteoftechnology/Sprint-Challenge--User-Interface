@@ -84,6 +84,10 @@ p {
     color: black;
 }
 
+.main-nav a:hover {
+    transform: translateY(5px);
+}
+
 header img { 
     display: block;
     width: 100%;
@@ -216,6 +220,10 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover {
+    transform: translateY(5px);
+}
+
 /* About Styles Here */
 
 .about-top {
@@ -248,7 +256,7 @@ footer nav a {
     margin-left: 10px;
 }
 
-.card-container .about-card .learn-button {
+.learn-button {
    font-size: 16px;
    border: 2px black solid;
    background-color: white;
@@ -256,6 +264,18 @@ footer nav a {
    padding: 10px 25px 10px 25px;
    margin: 10px 0 20px 10px;
 }
+
+.learn-button:hover {
+    background-color: black; 
+    color: white;
+}
+
+.learn-button:active {
+    background-color:black;
+    color: white;
+    transform: translateY(5px);
+}
+
 
 .about-bottom {
     margin: 20px 20px 20px 20px;
