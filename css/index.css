@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    word-spacing: 70px;
+    text-justify: auto;
+    margin-bottom: 20px;
+}
+
+nav .lambda-logo {
+    position: static;
+}
+
+header .jumbojpg {
+    display: flex;
+    justify-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +134,47 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue
+    ;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +206,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-sect h2 {
+    padding-top: 20px;
+}
+
+hr {
+    border-top: 1px dotted grey;
+}
+
+.learn-more {
+    display: inline-block;
+    column-count: 2;
+}
+
+.learn-more .flex-column1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.learn-more .flex-column2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.foot  {
+    padding-top: 50px;
 }
