@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	/* line-height: 1; */
 }
 ol, ul {
 	list-style: none;
@@ -52,8 +52,8 @@ table {
 }
 
 html, body {
-		width: 800px;
-    height: 100%;
+		/* width: 800px;
+    height: 100%; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -72,6 +72,10 @@ body {
 	margin: 0 auto;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
 
 .container {
     width: 800px;
@@ -147,8 +151,8 @@ body {
 
 /* image */
 .top-img {
-	margin: 35px 0;
-	
+	margin: 100px 1000px;
+
 
 }
 
@@ -191,10 +195,13 @@ footer {
     justify-content: space-evenly;
 }
 
+
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -231,4 +238,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+	background-color: teal;
+}
+
+.box2 {
+	background-color: gold;
+}
+
+.box3 {
+	background-color: cadetblue;
+}
+
+.box4 {
+	background-color: coral;
+}
+
+.box5 {
+	background: crimson;
+}
+
+.box6 {
+	background-color: forestgreen ;
+}
+
+.box7 {
+	background-color: darkorchid;
+}
+
+.box8 {
+	background-color: hotpink;
+}
+
+.box9 {
+	background-color: indigo;
+}
+
+.box10 {
+	background-color: dodgerblue;
 }
