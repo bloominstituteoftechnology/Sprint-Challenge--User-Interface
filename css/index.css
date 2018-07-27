@@ -28,6 +28,30 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.header-content {
+    display: flex;
+    align-items: flex-end;
+    padding: 25px;
+}
+
+.lambda-logo {
+    display: flex; 
+    justify-content: flex-start;
+    padding-right: 40px
+}
+
+header nav a {
+    padding-right: 65px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-photo {
+    padding: 5px 0 15px 0;
+}
+
 body {
 	line-height: 1;
 }
@@ -112,6 +136,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +208,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/* ABOUT PAGE */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.about-us {
+    display: block;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 10px;
+    width: 420px;
+    margin: 10px;
+}
+
+
+
