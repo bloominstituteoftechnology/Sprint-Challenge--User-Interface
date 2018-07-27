@@ -216,3 +216,51 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About section */
+/* Border */
+.pin, .about {
+    border-bottom: 1px dashed black;
+}
+
+/* Info sections */
+.info {
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+}
+
+/* pins */
+.pins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pin {
+    width: 48%;
+    height: auto;
+    margin-bottom: 60px;
+    padding-bottom: 7px; 
+}
+
+.pin img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.pin h2, .pin p {
+    margin-bottom: 14px;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7px 22px;
+    
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
