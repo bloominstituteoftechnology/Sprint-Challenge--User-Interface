@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
 }
 
 .top-content {
@@ -78,11 +79,36 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+header {
+	display: flex;
+
+}
+
+header nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80%;
+}
+
+header nav a {
+	display: flex;
+  justify-content: space-between;
+	text-decoration: none;
+	color: black;
+}
+header img {
+  margin: 20px 20px 20px 0;
+
+}
+
+
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+		margin-top: 20px;
 }
 
 .middle-content {
@@ -112,6 +138,107 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .teal {
+	    width: 12.5%;
+	    height: 100px;
+	    background: teal;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.middle-content .boxes .gold {
+	    width: 12.5%;
+	    height: 100px;
+	    background: gold;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .cadetblue {
+	    width: 12.5%;
+	    height: 100px;
+	    background: cadetblue;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .coral {
+	    width: 12.5%;
+	    height: 100px;
+	    background: coral;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .crimson{
+	    width: 12.5%;
+	    height: 100px;
+	    background: crimson;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .forestgreen {
+	    width: 12.5%;
+	    height: 100px;
+	    background: forestgreen;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .darkorchid {
+	    width: 12.5%;
+	    height: 100px;
+	    background: darkorchid;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .hotpink {
+	    width: 12.5%;
+	    height: 100px;
+	    background: hotpink;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .indigo {
+	    width: 12.5%;
+	    height: 100px;
+	    background: indigo;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.middle-content .boxes .dodgerblue {
+	    width: 12.5%;
+	    height: 100px;
+	    background: dodgerblue;
+	    margin: 20px 2.5%;
+	    color: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +270,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page {
+	line-height: 1.25;
+}
+
+section .top {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+div .top {
+	margin-top: 20px;
+}
+.middle-content .about-page {
+	display: flex;
+	flex-flow: row wrap;
+
+}
+.middle-content img {
+	display: flex;
+}
+div .middle-content .about-page {
+	border-bottom: 1px dashed black;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 40%;
+}
+div .button {
+
+	border-radius: 8px;
+	border: 2px solid black;
+	padding: 5px 15px 5px 15px;
+	width: 25%;
+}
+div .middle-content .about-page p {
+	display: flex;
+	
+}
+div .bottom-content .about-page {
+	display: flex;
 }
