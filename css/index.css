@@ -144,3 +144,153 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+header .navbar-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 14px;
+    flex-wrap: nowrap;
+}
+
+header .navbar-items a {
+    margin-right: 40px;
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-image {
+    padding-bottom: 2%;
+}
+
+.boxes #box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+/* About Page Styling */
+
+.about-page .about-text-section {
+    border-bottom: 1px dashed grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    padding-bottom: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+
+
+
+
+.flex-doubles {
+	display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+.flex-doubles .rows {
+	width: 50%;
+	padding-top: 50px;
+	padding-right: 50px;
+}
+
+.rows-right {
+	width: 50%;
+	padding-top: 50px;
+    padding-left: 30px;
+}
+
+.boxes {
+    border-bottom: 1px dashed grey;
+    padding-bottom: 40px;
+}
+
+.boxes a {
+	border: 2px solid black;
+	border-radius: 10%;
+	padding: 10px 40px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+    font-size: 14px;
+}
+
+.boxes a:hover {
+	font-size: 16px;
+	color: white;
+	background-color: black;
+}
+
+.boxes img {
+    width: inherit;
+}
+
+.last-section {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-section h1 {
+    align-self: flex-start;
+    align-items: center;
+}
+
