@@ -82,10 +82,12 @@ nav {
     display: flex;
     width: 85%;
     justify-content: space-around;
+    ;
 }
 nav a {
     text-decoration: none;
     font-size: 14px;
+    color: black;
 }
 .top-spacer-img {
     margin-bottom: 20px;
