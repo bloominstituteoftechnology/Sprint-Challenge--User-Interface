@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,23 +66,45 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container.about-page {
     width: 800px;
     margin: 0 auto;
 }
 
-.top-content {
+.header-nav, .container.about-page .header-nav {
+	display: flex;
+	justify-content: space-around;
+	/* margin: auto; */
+	align-items: baseline;
+	padding: 20px 0;
+}
+
+.header-nav img  {margin-left: -4%;}
+
+.header-nav a, .container.about-page .header-nav a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.jumbo-img, .container.about-page .jumgo-img {
+	padding: 20px 0;
+	width: 100%;
+}
+
+
+.top-content, .container.about-page .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -111,6 +133,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box.one{background-color: teal;}
+.middle-content .boxes .box.two{background-color: gold;}
+.middle-content .boxes .box.three{background-color: cadetblue;}
+.middle-content .boxes .box.four{background-color: coral;}
+.middle-content .boxes .box.five{background-color: crimson;}
+.middle-content .boxes .box.six{background-color: forestgreen;}
+.middle-content .boxes .box.seven{background-color: darkorchid;}
+.middle-content .boxes .box.eight{background-color: hotpink;}
+.middle-content .boxes .box.nine{background-color: indigo;}
+.middle-content .boxes .box.ten{background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -143,4 +176,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* **************** */
+/* ***ABOUT PAGE*** */
+/* **************** */
+
+
+.container.about-page .top-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.container.about-page .top-content .text-container {
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 20px;
+}
+
+.container.about-page .middle-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 0;
+}
+
+.container.about-page .middle-content article {
+		display: flex;
+		flex-wrap: wrap;
+		flex-flow: column;
+		width: 50%;
+		margin: 0;
+		padding: 0 1%;
+    margin-bottom: 60px;
+    border-bottom: 1px dashed black;
+		/* background-color: orange; */
+		width: 48%;
+
+		/* padding-bottom: 20px; */
+
+}
+
+.container.about-page .middle-content article img {
+	/* width: 50%; */
+}
+
+.container.about-page .middle-content h2,
+.container.about-page .middle-content p,
+.container.about-page .middle-content button{
+    padding: 0;
+    margin-top: 4%;
+}
+
+.container.about-page .middle-content {
+	margin-bottom: 0;
+}
+
+.container.about-page button {
+	width: 120px;
+	height: 37px;
+	background-color: white;
+	border: 2px solid black;
+	font-style: inherit;
+	border-radius: 10%;
+	margin-bottom: 5%;
+	font-size: .95rem;
+
+}
+
+.container.about-page .bottom-content{
+	flex-flow: column;
+}
+
+.container.about-page footer {
+	margin-top: 40px;
 }
