@@ -144,3 +144,76 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    display: flex;
+    padding: 20px 2%;
+    flex-wrap: wrap;
+}
+
+header .logo{
+    padding-left: 17%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 50%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:visited{
+    color: black;
+}
+
+header .banner{
+    margin-left: 17%;
+    margin-top: 45px;
+}
+
+.middle-content .boxes .box.one{
+    background: teal;
+}
+
+
+.middle-content .boxes .box.two{
+    background: gold;
+}
+
+.middle-content .boxes .box.three{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.four{
+    background: coral;
+}
+
+.middle-content .boxes .box.five{
+    background: crimson;
+}
+
+.middle-content .boxes .box.six{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.seven{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.eight{
+    background: hotpink;
+}
+
+.middle-content .boxes .box.nine{
+    background: indigo;
+}
+
+.middle-content .boxes .box.ten{
+    background: dodgerblue;
+}
+
