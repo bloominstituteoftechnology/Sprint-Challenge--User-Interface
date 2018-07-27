@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+.header-section {
+	display: flex;
+}
+
+header .logo {
+	margin-top: 25px;
+}
+
+header nav {
+	width: 691px;
+	vertical-align: top;
+	margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 65px;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+  margin-left: 0;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header .logo {
+  margin-top: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,15 +116,30 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+.top-content-about {
+	margin: 0 2% 20px;
+	padding-bottom: 20px
+}
+
+.top-content .text-container-about {
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+	border-top: dashed black 1px;
 }
 
 .middle-content h2 {
@@ -97,13 +149,20 @@ p {
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+	flex-flow: row wrap;
+	//margin-top: 20px;
+	justify-content: center;
+}
+
+.middle-content .boxes-about {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -112,10 +171,145 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes-about .box-about {
+    padding-top: 20px;
+	padding-bottom: 20px;
+	width: 350px;
+    margin: 20px 2.5%;
+	border-bottom: dashed black 1px;
+}
+
+.box1 {
+	background: teal;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+	background: gold;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+	background: cadetblue;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+	background: coral;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+	background: crimson;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+	background: forestgreen;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+	background: darkorchid;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+	background: hotpink;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+	background: indigo;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+	background: dodgerblue;
+	width: 100px;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content button {
+  background: white;
+  vertical-align: top;
+  margin-top: 6px;
+  padding: 8px 44px;
+  font-size: 17px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content-about {
+	margin: 0 2% 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .bottom-content .text-container {
