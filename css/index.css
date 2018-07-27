@@ -71,10 +71,30 @@ p {
     margin: 0 auto;
 }
 
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	align-items: flex-end;
+	margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.navbar img{
+    /* margin-right: auto; */
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size:14px;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -143,4 +163,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page */
+
+.about-page .text-container {
+    margin: 1.5%;
+	width: 100%
+}
+
+.about-page .bottom-content {
+	margin-bottom: 40px;
+}
+
+.about-page .bottom-content .text-container {
+	margin-bottom: 40px;
+	margin: .5%;
+}
+
+.about-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.about-content p {
+	line-height: 1.3;
+}
+
+.about-box {
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+	border-bottom: 1px dashed black;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.about-box img {
+	align-self: flex-start;
+	margin-bottom: 15px;
+}
+
+.about-box a {
+	display: flex;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	width: 130px;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
