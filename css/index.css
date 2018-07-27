@@ -109,7 +109,7 @@ header nav a:hover {
     text-decoration: underline;
   }
 
-.top-banner {
+.home-top-banner {
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -286,3 +286,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* about styles */
+
+.about-top-banner {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.about-description {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-top: 1px dashed black;
+}
+
+.about-description .card {
+    padding: 25px;
+	width: 49%;
+	margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-description .card img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.about-description button {
+	background: white;
+	padding: 8px 30px;
+	margin-top: 20px;
+  	border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+  	cursor: pointer;
+}
+
+.about-description .card button:hover {
+    background: black;
+    color: white;
+} 
+
+.about-bottom-content {
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
