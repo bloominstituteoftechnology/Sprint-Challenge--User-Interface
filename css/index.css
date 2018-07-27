@@ -272,8 +272,18 @@ footer nav a {
 
 .middle-content h2 {
 	font-weight: bold;
+	margin: 5px;
+	align-items: flex-start;
 }
 
 .hr {
 	margin: 5px;
+}
+
+.half {
+	width: 80%;
+}
+
+.bottom-content {
+	display: flex;
 }
