@@ -67,8 +67,53 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
+}
+
+/* Header */
+header{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: baseline;
+
+}
+
+header nav {
+    margin-left: 40px;
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+header nav a {
+  flex-direction: row;
+  margin-left: 80px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+
+header .logo {
+  margin-top: 25px;
+  left: 0;
+}
+
+.lambda-header-img{
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -112,6 +157,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background: gold;
+}
+
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background: coral;
+}
+
+.middle-content .boxes .box5{
+    background: crimson;
+}
+
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background: indigo;
+}
+
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +211,57 @@ p {
     padding-right: 0;
 }
 
+/* About Page */
+
+.about-top{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.about-info{
+    border-top: 1px dashed gray;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+
+  .about-info img {
+      margin-top: 20px;
+  }
+
+  .about-info h3{
+      margin-top: 10px;
+  }
+  
+  .about-info button{
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 8px 44px;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 35px;
+  }
+
+  .about-info button:hover{
+    background: black;
+    color: white;
+  }
+  .cell{
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px dashed gray;
+  }
+  
+.about-bottom{
+    margin-top:40px;
+    margin-bottom: 40px;
+}
 footer {
     width: 100%;
     background: black;
@@ -144,3 +280,23 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Animations */
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .lambda-header-img, .about-info img {
+    animation: bounceIn 2s;
+  }
