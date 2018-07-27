@@ -88,6 +88,11 @@ nav .lambda-logo {
     position: static;
 }
 
+header .jumbojpg {
+    display: flex;
+    justify-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -201,4 +206,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-sect h2 {
+    padding-top: 20px;
+}
+
+hr {
+    border-top: 1px dotted grey;
+}
+
+.learn-more {
+    display: inline-block;
+    column-count: 2;
+}
+
+.learn-more .flex-column1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.learn-more .flex-column2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.foot  {
+    padding-top: 50px;
 }
