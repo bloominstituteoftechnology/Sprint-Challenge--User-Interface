@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+
+header {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+}
+
+header nav a {
+    margin: 20px 65px 0 0;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+ }
+
+ 
+
+ .header-img {
+    margin: 20px 0 20px 0; 
+  }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
