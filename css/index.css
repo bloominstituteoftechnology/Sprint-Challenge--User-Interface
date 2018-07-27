@@ -268,10 +268,12 @@ footer nav a {
     padding: 1rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.17);
     border-radius: 3px;
+    background: rgba(19, 26, 29, 0.5);
 }
 
 .contact-form h1 {
     font-size: 42px;
+    color: #333;
 }
 
 .contact-form input {
@@ -283,12 +285,14 @@ footer nav a {
     border: 1px solid #333;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.17);
     cursor: pointer;
+    color: #333;
+
 }
 
 .contact-form textarea {
     width: 100%;
     margin: 1rem;
-    font-size: 16px;
+    font-size: 24px;
     border-radius: 5px;
     border: 1px solid #333;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.17);
@@ -299,18 +303,17 @@ footer nav a {
     width: 100%;
     height: 50px;
     background: white;
-    font-size: 16px;
+    font-size: 24px;
     border-radius: 5px;
     border: 1px solid #333;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
 
 .contact-form button:hover {
-    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3px);
     cursor: pointer;
 }
