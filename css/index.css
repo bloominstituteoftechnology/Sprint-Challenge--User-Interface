@@ -219,3 +219,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-summary {
+    margin: 15px;
+}
+
+.about-main-content {
+    padding-top: 20px;
+    padding-bottom 20px;
+    display: flex;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-main-content .learn-more-block {
+    display: flex;
+    
+    width: 700px;
+} 
+
+.about-main-content .learn-more-block p {
+    width: 200px;
+}
+
+.about-closing {
+    margin: 15px;
+}
