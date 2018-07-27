@@ -78,7 +78,7 @@ p {
 
 .navigation__links {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: text-top;
   width: 75%;
   text-align: right;
 }
@@ -87,6 +87,7 @@ p {
   margin: 33px;
 }
 
+/* top-content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -95,6 +96,9 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content__pic {
+  margin: 20px auto;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
