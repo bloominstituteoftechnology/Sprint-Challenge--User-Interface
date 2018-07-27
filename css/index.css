@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+/* Header */
+header {
+    padding: 17px 0;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 37px;
+}
+
+.navigation-bar nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.navigation-bar nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 10px;
+}
+/* Top-content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +114,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Box content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +142,7 @@ p {
     justify-content: center;
 }
 
+/* That's no Moon  */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +157,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
