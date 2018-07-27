@@ -53,6 +53,8 @@ table {
 
 html, body {
     height: 100%;
+    width: 90%;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -66,8 +68,21 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid red;
+    padding-top: 20px;
+}
+
+nav a{
+    color: black;
+    text-decoration-line: none;
+}
+
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -75,8 +90,13 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px red solid;
 }
 
 .top-content .text-container {
@@ -92,7 +112,7 @@ p {
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-top: 20px;
 }
 
 .middle-content .boxes {

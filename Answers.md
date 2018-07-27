@@ -1,0 +1,5 @@
+1. Semantic HTML is when you used HTML tags to describe the content that they hold. Instead of a header, title, paragraph, and footer all being divs. You would use a header tag, a title tag, a paragraph tag, and a footer tag. It makes everything more easy to understand for other programmers, and for the computers that comb the site for search engine info or screen reading.
+2. With display block even if the content within the element is small the element stretches the width of the page, and creates a break after it. With an display inline the element will only take up the width necessary, and elements can be placed around it on the same row. With inline height and width properties have no effect.
+3. Working from the inside out the box model is content, padding, border, and margin.
+4. Anything that starts with align impacts the cross axis.
+5. git commit -m "" is how you stage changes and write a message.
