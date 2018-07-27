@@ -196,3 +196,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page specific CSS below */
+
+.about-intro   {
+    border-bottom: 1px dashed black;
+    margin: 30px 0px;
+    padding-bottom: 30px;
+}
