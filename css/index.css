@@ -221,21 +221,18 @@ header nav a {
     justify-content: space-around;
 }
 
-.col {
+.col1 {
     display: flex;
     flex-direction: column;
-    padding: 13px;
 }
 
 .buttons {
-    margin-top: 11px;
-    margin-right: 241px;
-    padding: 8px;
-    background: white;
-    border: solid black 2px;
-    border-radius: 10px;
-    font-size: 17px;
-    margin-left: 0;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: solid black 3px;
+    border-radius: 9px;
+    font-size: 16px;;
 }
 
 .margins {
@@ -245,12 +242,18 @@ header nav a {
 }
 
 .hr1 {
-    margin-bottom: 22px;
-    color: #8e8888;
-    border-top: dotted 2px
+    border-top: dotted 3px;
+    margin-bottom: 20px;
 }
-
 .hr2 {
     margin-bottom: 22px;
-    border-top: dotted 2px 
+    color: #8e8888;
+    border-top: dotted 2px;
+    margin-right: 33px;
+}
+
+.hr3 {
+    margin-bottom: 22px;
+    border-top: dotted 2px;
+    margin-right: 33px;
 }
