@@ -123,7 +123,7 @@ p {
 .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -252,4 +252,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.jumbo-about {
+	margin: 20px;
+}
+
+.about h2 {
+	font-weight: bold;
+}
+
+.about p {
+	margin-bottom: 10px;
+}
+
+.middle-content {
+	display: flex;
+}
+
+.middle-content h2 {
+	font-weight: bold;
+}
+
+.hr {
+	margin: 5px;
 }
