@@ -209,7 +209,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0 1rem;
+    margin: 0 0 0 1rem;
     padding: 20px 0;
     border-bottom: 1px dashed black;
 }
