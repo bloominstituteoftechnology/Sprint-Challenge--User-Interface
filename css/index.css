@@ -70,7 +70,54 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.lambda-logo {
+    margin: 0 75% 5% 0;
+    display: flex; 
+    justify-content: flex-start;
+}
+.container .top-nav {
+    margin:0 0 5% 25%; 
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+.container .top-nav a {
+    color: black;
+    text-decoration: none;
+}
+.about {
+    margin: 0 0 5% 5%;
+}
+.top-img {
+    display: flex;
+}
+.plan-strategy {
+    margin: 5% 50% 0 0;
+    display: block;
+    height: 50px;
+    width: 100px;
+}
+.plan-strategy .strategy a {
+    display: flex;
+    flex-wrap: wrap;
+}
+.how-work {
+    margin: 5% 0 0 50%;
+    display: block;
+    height: 50px;
+    width: 100px;
+    
+}
+.office-work {
+    margin: 30% 50% 0 0;
+    display: block;
+    
+}
+.meeting-collab {
+    margin-left: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +158,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes #box1 {
+    background: teal;
+}
+.middle-content .boxes #box2 {
+    background: gold;
+}
+.middle-content .boxes #box3 {
+    background: cadetblue;
+}
+.middle-content .boxes #box4 {
+    background: coral;
+}
+.middle-content .boxes #box5 {
+    background: crimson;
+}
+.middle-content .boxes #box6 {
+    background: forestgreen;
+}
+.middle-content .boxes #box7 {
+    background: darkorchid;
+}
+.middle-content .boxes #box8 {
+    background: hotpink;
+}
+.middle-content .boxes #box9 {
+    background: indigo;
+}
+.middle-content .boxes #box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
