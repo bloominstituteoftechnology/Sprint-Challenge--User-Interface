@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+header {
+    vertical-align: top;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+header .logo {
+    display: flex;
+    /* margin-top: 25px; */
+}
+
+header nav {
+    display: flex;
+    width: 600px;
+    margin-left: 40px;
+    font-size: 15px;
+    justify-content: space-between;
+    /* margin-top: 35px; */
+}
+
+.top-image {
+    display: inline-block;
+    margin-top: 40px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
