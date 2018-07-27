@@ -78,7 +78,7 @@ header  {
 .top-nav {
     align-items: baseline;
     justify-content: space-between;
-    padding-top: 25px;
+    padding-top: 25;
 }
 
 .nav-links {
@@ -162,4 +162,17 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-content {
+    border-bottom: 1px dashed;
+}
+
+.tile {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-bottom-content {
+    padding-bottom: 30px;
 }
