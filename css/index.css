@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+/*This is the top of the Home Styles-------------------------------------------------------------------------*/
+
 /*Added the header here*/
 header{
 	display:flex;
@@ -132,7 +134,8 @@ header .main-nav a{
     justify-content: center;
 }
 
-/*Changed the boxes to their designated colors here*/
+
+/*Changed the boxes to their assigned colors here*/
 .middle-content .boxes .box.b1 {
 	background:teal;
 }
@@ -197,3 +200,97 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*This is the top of the About Styles-----------------------------------------------------------------------------------*/ 
+
+/*About intro*/
+.intro{
+	border-bottom: 1px dotted black;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+
+
+/*About boxes*/
+
+.about-boxes{
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+.about-boxes .about-box{
+    text-align: left;
+	width:400px;
+	border-bottom:1px dotted black;
+	margin-bottom:20px;
+}
+
+.about-boxes .about-box h2{
+	margin-top:10px;
+}
+
+.about-boxes .about-box button{
+	margin:10px 0 20px;
+	background:white;
+	padding:5px 15px;
+	border-radius: 10px
+}
+
+
+
+/*About Bottom*/
+.bottom{
+	margin-bottom:20px;
+}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
