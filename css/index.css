@@ -166,7 +166,7 @@ header #lambda-logo:hover{
 		transition: opacity 300ms ease;
 	}
 
-	header nav .navbar-open a:not(#lambda-logo):hover{
+	header nav .navbar-open a:not(#collapse-btn):hover{
 		opacity: 0.7;
 		transition: opacity 300ms ease;
 	}
