@@ -212,6 +212,17 @@ footer nav a {
     margin: 0 0 0 1rem;
     padding: 20px 0;
     border-bottom: 1px dashed black;
+    cursor: pointer;
+    transition: all 1000ms ease-in-out;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.05);
+    margin: 0 20px;
 }
 
 .card .card-img {
@@ -232,6 +243,19 @@ footer nav a {
     border: 2px solid black;
     margin: 1rem 0 0 0;
     background: #fff;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.card-button > button:hover {
+    transform: scale(1.12);
+    -webkit-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.17);
+    -moz-box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.17);
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.17);
 }
 
 .card .card-button span {
