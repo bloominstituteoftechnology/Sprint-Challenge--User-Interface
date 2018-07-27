@@ -286,3 +286,46 @@ div .nav a{
     margin-bottom: 40px;
     
 }
+
+/* about page now begins*/
+
+.jumbo-about{
+    border:px solid black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.midContentab{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.midContentabDiv{
+    
+    border: px solid black;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.midContentabDiv div{
+    border: px solid black;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 20px;
+   
+}
+
+.midContentabDiv .midbox1{
+    border: px solid black;
+}
+
+
