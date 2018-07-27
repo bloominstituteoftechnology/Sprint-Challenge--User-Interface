@@ -66,6 +66,33 @@ p {
     line-height: 1.4;
 }
 
+header .dimensions {
+    padding-left: 115px;
+    padding-right: 0px;
+    width: 965px;
+}
+
+header .logo {
+    margin: 28px 0 0 200px;
+    width: 11%;
+}
+
+header nav {
+    margin-top: 40px; 
+    margin-left: 40px;
+    width: 610px;
+    display: inline;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 80px;
+}
+
+header .jumbo {
+    margin: 40px 0 0 200px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,6 +102,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
