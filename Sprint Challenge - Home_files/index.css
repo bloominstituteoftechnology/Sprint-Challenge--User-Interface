@@ -243,6 +243,6 @@ container b1 {
   text-decoration: none;
 }
 
-b1 {
-  color: teal;
+.image-tag {
+  width: 1000px;
 }
