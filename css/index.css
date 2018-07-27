@@ -215,7 +215,6 @@ header nav a {
 
 .space-evenly {
     display: flex;
-    justify-content: space-around;
 }
 
 .buttons {
