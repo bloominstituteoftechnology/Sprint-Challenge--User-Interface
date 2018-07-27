@@ -243,6 +243,7 @@ button {
     border-radius: 8px;
     padding: 10px;
     background: white;
+    color: black; 
     text-decoration: none;
     border: 2px solid black;
     width: 140px;
