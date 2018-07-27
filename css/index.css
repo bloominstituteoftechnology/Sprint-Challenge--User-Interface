@@ -85,6 +85,20 @@ header nav .navbar a{
     text-decoration: none;
     outline: none;
     color: black;
+    transition: opacity 300ms ease;
+}
+
+header nav .navbar a:hover{
+    opacity: 0.7;
+    transition: opacity 300ms ease;
+}
+
+header #lambda-logo {
+    transition: 300ms ease-in-out;
+}
+
+header #lambda-logo:hover{
+    transform: scale(1.15, 1.15);
 }
 
 header .banner {
@@ -146,6 +160,12 @@ header #banner-about {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 300ms ease-in-out;
+}
+
+.middle-content .boxes .box:hover {
+    transform: scale(1.15, 1.15);
+    cursor: pointer;
 }
 
 /* BOX COLORS */
@@ -220,6 +240,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: opacity 300ms ease;
+}
+
+footer nav a:hover{
+    opacity: 0.7;
+    transition: opacity 300ms ease;
 }
 
 /*** ABOUT PAGE ***/
@@ -250,6 +276,12 @@ footer nav a {
     margin: 20px 0px;
 }
 
+.about-box a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
 .learn-more {
     border: 2px solid black;
     border-radius: 10px;
@@ -257,6 +289,12 @@ footer nav a {
     max-width: 150px;
     text-align: center;
     margin: 20px 0px;
+    transition: 300ms ease-in-out;
+}
+
+.learn-more:hover{
+    transform: scale(1.15, 1.15);
+    opacity: 0.7;
 }
 
 .about-bottom {
