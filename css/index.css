@@ -144,3 +144,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*My code is below:*/
+
+.upper-img {
+    margin: 15px 0;
+
+
+}
+
+.header-main {
+    
+    width: 55%;
+    height: 50px;
+    position: relative;
+    margin-left: 550px;
+
+}
+
+.nav-logo {
+    position: absolute;
+    top: 5px;
+
+}
+
+.header-main nav {
+    margin-top: 20px;
+    width: 550px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 225px;
+    
+
+}
+
+.header-main nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+
