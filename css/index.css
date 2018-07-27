@@ -225,3 +225,31 @@ footer nav a {
   width: 805px;
   margin: 50px 0 50px 10px;
 }
+/* ************ */
+/* Contact Page */
+/* ************ */
+
+.contact-form > * {
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+}
+
+.contact-form button {
+  width: 10%;
+  background: lightskyblue;
+}
+
+.contact-form button:hover {
+  background: black;
+  color: lightskyblue;
+}
+
+.gotcha {
+  visibility: hidden;
+}
