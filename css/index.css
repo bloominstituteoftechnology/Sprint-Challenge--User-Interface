@@ -232,3 +232,7 @@ footer nav a {
     font-size: 16px;
     cursor: pointer;
 }
+
+.about-bottom-content   {
+    margin: 50px 0px;
+}
