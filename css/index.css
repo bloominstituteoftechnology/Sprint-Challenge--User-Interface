@@ -109,6 +109,74 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+section.middle-content h2 {
+    margin-bottom: 20px;
+}
+/* boxes */
+.boxes {
+    display: flex;
+    /* margin: 0 0 25px 0; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    width: 734px;
+    margin: auto;
+}
+.box1, .box2, .box3, .box4, .box5 {
+    margin-bottom: 40px;
+}
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    height: 100px;
+    width: 100px;
+    /* margin-right: 50px;  */
+}
+.box1, .box2, .box3, .box4, .box6, .box7, .box8, .box9 {
+    margin-right: 50px; 
+}
+.box6, .box7, .box8, .box9, .box10 {
+    margin-bottom: 20px;
+}
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
