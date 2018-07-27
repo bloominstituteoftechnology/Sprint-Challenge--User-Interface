@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
 
 Semantic HTML are tags that you use to let web browsers know how to identify your content. Tags such as <p> would tell the browser that the content is a paragraph, and it will display it as such. 
@@ -18,3 +19,6 @@ The cross axis (perpendicular to the main axis)
 5. What is the git command to commit staged changes as well as write a message?
 
 git commit -m <msg>
+=======
+
+>>>>>>> e683e7c683d590bc0a72512a161bd935f95199b4
