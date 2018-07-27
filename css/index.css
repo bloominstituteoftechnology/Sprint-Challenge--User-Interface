@@ -241,4 +241,5 @@ container b1 {
   justify-content: space-around;
   color: black;
   text-decoration: none;
+  /* text decoration and color is not applying itself to the home page but when editing in my dev tools it worked there for some odd reason */
 }

@@ -242,3 +242,7 @@ container b1 {
   color: black;
   text-decoration: none;
 }
+
+b1 {
+  color: teal;
+}
