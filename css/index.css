@@ -104,12 +104,115 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@keyframes boxchange-1 {
+    from {background: black;}
+    to {background: teal;}
+}
+
+.middle-content .box-1 {
+
+    animation-name: boxchange-1;
+    animation-duration: 5s;
+    background: teal;
+}
+
+@keyframes boxchange-2 {
+    from {background: black;}
+    to {background: gold;}
+}
+
+.middle-content .box-2 {
+    background: gold;
+    animation-name: boxchange-2;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-3 {
+    from {background: black;}
+    to {background: cadetblue;}
+}
+.middle-content .box-3 {
+    background: cadetblue;
+    animation-name: boxchange-3;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-4 {
+    from {background: black;}
+    to {background: coral;}
+}
+.middle-content .box-4 {
+    background: coral;
+    animation-name: boxchange-4;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-5 {
+    from {background: black;}
+    to {background: crimson;}
+}
+.middle-content .box-5 {
+    background: crimson;
+    animation-name: boxchange-5;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-6 {
+    from {background: black;}
+    to {background: forestgreen;}
+}
+.middle-content .box-6 {
+    background: forestgreen;
+    animation-name: boxchange-6;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-7 {
+    from {background: black;}
+    to {background: darkorchid;}
+}
+.middle-content .box-7 {
+    background: darkorchid;
+    animation-name: boxchange-7;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-8 {
+    from {background: black;}
+    to {background: hotpink;}
+}
+.middle-content .box-8 {
+    background: hotpink;
+    animation-name: boxchange-8;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-9 {
+    from {background: black;}
+    to {background: indigo;}
+}
+.middle-content .box-9 {
+    background: indigo;
+    animation-name: boxchange-9;
+    animation-duration: 5s;
+}
+
+@keyframes boxchange-10 {
+    from {background: black;}
+    to {background: dodgerblue;}
+}
+
+.middle-content .box-10 {
+    background: dodgerblue;
+    animation-name: boxchange-10;
+    animation-duration: 5s;
 }
 
 .bottom-content {
@@ -143,4 +246,123 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 550px;
+    margin-right: 50px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header img {
+    margin-top: 30px;
+}
+
+header .header-logo {
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+header .header-jumbo {
+    margin-bottom: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+body .body-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body .body-top {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+body .about-box {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: black dashed 1px;
+}
+
+body .about-box img {
+    width: 380px;
+    margin-bottom: 10px;
+}
+
+body .about-box button {
+    width: 100px;
+    height: 30px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+/* comment */ 
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
