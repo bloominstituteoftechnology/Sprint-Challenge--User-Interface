@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+.main-nav {
+	margin: 30px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	width: 100%;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav a:hover {
+    transform: translateY(5px);
+}
+
+header img { 
+    display: block;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 20%;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +139,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.one {
+    background-color: teal;
+}
+
+.two {
+    background-color: gold;
+}
+
+.three {
+    background-color: cadetblue;
+}
+
+.four {
+    background-color: coral;
+}
+
+.five {
+    background-color: crimson;
+}
+
+.six {
+    background-color: forestgreen;
+}
+
+.seven {
+    background-color: darkorchid;
+}
+
+.eight {
+    background-color: hotpink;
+}
+
+.nine {
+    background-color: indigo;
+}
+
+.ten {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -125,6 +199,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
 
 footer {
     width: 100%;
@@ -144,3 +219,66 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    transform: translateY(5px);
+}
+
+/* About Styles Here */
+
+.about-top {
+    border-bottom: 1px dashed black;
+    margin: 0px 20px 20px 20px;
+    padding-bottom: 20px;
+} 
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0  0 40px 10px;
+}
+
+.about-card {
+    border-bottom: 1px dashed black;
+
+}
+
+.about-card img{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.about-card p {
+    padding: 10px;
+}
+
+.about-card h2 {
+    margin-left: 10px;
+}
+
+.learn-button {
+   font-size: 16px;
+   border: 2px black solid;
+   background-color: white;
+   border-radius: 10px;
+   padding: 10px 25px 10px 25px;
+   margin: 10px 0 20px 10px;
+}
+
+.learn-button:hover {
+    background-color: black; 
+    color: white;
+}
+
+.learn-button:active {
+    background-color:black;
+    color: white;
+    transform: translateY(5px);
+}
+
+
+.about-bottom {
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+} 
+    
