@@ -213,7 +213,32 @@ header .logo {
 
 .about-content .text-muted {
     margin-bottom: 15px;
+    padding-bottom: 15px;
 }
+
+.main-content .top-content {
+    display: flex;
+}
+
+.main-content .top-content .box {
+    width: 365px;
+    margin-right: 34px;
+}
+
+.main-content .top-content .box button {
+	border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+	width: 100px;
+	cursor: pointer;
+    font-size: 13px;
+}
+
+.main-content .top-content .box button:hover {
+	color: gray;
+} 
 
 footer {
     width: 100%;
