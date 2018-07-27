@@ -71,6 +71,49 @@ p {
     margin: 0 auto;
 }
 
+header {
+	/* border: 1px solid orange; */
+	display: flex;
+	flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+	
+}
+
+header .logo {
+    display: flex;
+    
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 643px;
+    height: 40px;
+    /* border: 1px solid orange; */
+}
+
+header nav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    width: 20%;
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+
+header nav a:hover {
+    text-decoration: underline;
+  }
+
+.home-top-banner {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +144,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +286,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* about styles */
+
+.about-top-banner {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.about-description {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-top: 1px dashed black;
+}
+
+.about-description .card {
+    padding: 25px;
+	width: 49%;
+	margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-description .card img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.about-description button {
+	background: white;
+	padding: 8px 30px;
+	margin-top: 20px;
+  	border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+  	cursor: pointer;
+}
+
+.about-description .card button:hover {
+    background: black;
+    color: white;
+} 
+
+.about-bottom-content {
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
