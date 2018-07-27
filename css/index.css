@@ -114,6 +114,11 @@ p {
 
 }
 
+.jumbo img {
+    width: 800px;
+    height: 155px
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -218,6 +223,7 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    margin: 0 150px;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -291,4 +297,34 @@ footer nav a {
 .about-bottom-content {
     display: block;
     margin: 30px 0px;
+}
+
+/* Stretch goal: create products page  */
+
+.products-container {
+    width: 100%;
+    /* height: 1000px; */
+
+
+}
+
+
+.product-description {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    border-bottom: 1px dashed gray;
+
+
+}
+
+.product-description .product-text {
+    align-self: center;
+    margin: 0 20px
+}
+
+.product-description img {
+    width: 300px;
+    height: 250px;
+    align-self: flex-start;
 }
