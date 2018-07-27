@@ -231,6 +231,7 @@ footer nav a {
     border-radius: 10px;
     border: 2px solid black;
     margin: 1rem 0 0 0;
+    background: #fff;
 }
 
 .card .card-button span {
