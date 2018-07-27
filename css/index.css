@@ -72,7 +72,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border: 1px solid red;
     padding-top: 20px;
 }
 
@@ -96,7 +95,6 @@ nav a{
 .top-content img {
     width: 100%;
     margin: 20px 0;
-    border: 1px red solid;
 }
 
 .top-content .text-container {
@@ -264,3 +262,57 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page css */
+header .container-about-page img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+header .container-about-page p {
+    margin-bottom: 20px;
+}
+
+header .container-about-page {
+    border-bottom: 1px dotted black;
+}
+
+.company-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.company-info div{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 48%;
+    padding: 30px 0;
+    border-bottom: 1px dotted black
+}
+
+.company-info div img{
+    width:100%;
+}
+
+.company-info span{
+    width: 120px;
+    padding: 7px 0;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    
+}
+
+.company-info .bottom-div {
+    box-sizing: content-box;
+    padding-top: 50px;
+}
+
+.work-together{
+    padding: 30px 0;
+}
+
