@@ -9,7 +9,7 @@ First, elements with display: block; occupy the entire width of their parent. Th
 
 ## 3. What are the 4 areas of the box model?
 
-The 4 areas of the box model are: **margin, border, padding, width.**
+The 4 areas of the box model are: **margin, border, padding, content.**
 
 ## 4. While using flexbox, what axis are you using when you use the property: `align-items: center`?
 
