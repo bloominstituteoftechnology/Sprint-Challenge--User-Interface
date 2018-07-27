@@ -71,6 +71,44 @@ p {
     margin: 0 auto;
 }
 
+.main-header {
+    margin: 20px 0;
+    display: flex;
+}
+
+.main-header .main-nav {
+    display: inline-block;
+    margin-top: 27px;
+    margin-left: 43px;
+    padding: 0;
+    width: 100%;
+}
+
+.contact-link {
+    margin-right: 0;
+}
+
+.logo {
+    width: 157px;
+    height: 40px;
+}
+
+.main-nav ul {
+    display: flex;
+}
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 84px;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
