@@ -130,6 +130,17 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.one{background-color: teal;}
+.middle-content .boxes .box.two{background-color: gold;}
+.middle-content .boxes .box.three{background-color: cadetblue;}
+.middle-content .boxes .box.four{background-color: coral;}
+.middle-content .boxes .box.five{background-color: crimson;}
+.middle-content .boxes .box.six{background-color: forestgreen;}
+.middle-content .boxes .box.seven{background-color: darkorchid;}
+.middle-content .boxes .box.eight{background-color: hotpink;}
+.middle-content .boxes .box.nine{background-color: indigo;}
+.middle-content .boxes .box.ten{background-color: dodgerblue;}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
