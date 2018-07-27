@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+header nav {
+    margin-top: 40px; 
+    align-items: baseline;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.mainimg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +136,38 @@ p {
     justify-content: center;
 }
 
+ #box1 {
+    background-color: teal;
+ }
+ #box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+ 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +199,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content .container about-page {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
