@@ -78,7 +78,7 @@ header  {
 .top-nav {
     align-items: baseline;
     justify-content: space-between;
-    padding-top: 25;
+    padding-top: 25px;
 }
 
 .nav-links {
@@ -131,6 +131,46 @@ header  {
     justify-content: center;
 }
 
+.middle-content .boxes .box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -165,14 +205,50 @@ footer nav a {
 }
 
 .about-content {
+    display: flex;
+    flex-wrap: wrap;
     border-bottom: 1px dashed;
+    padding: 0px 20px 0px 20px;
+}
+
+.about-tiles {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
 .tile {
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 350px;
+    border-bottom: 1px dashed;
+}
+
+.tile img {
+    width: 100%;
+}
+
+.learn-more {
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block; 
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
 }
 
 .about-bottom-content {
+    padding-top: 60px;
     padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
