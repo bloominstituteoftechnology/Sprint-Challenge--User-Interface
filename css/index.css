@@ -71,7 +71,6 @@ p {
     justify-content: space-between;
     margin: 40px 100px 40px 0px;
     width: 100%;
-    border: 1px solid black;
 }
 
 .nav-div .nav-logo {
@@ -231,9 +230,7 @@ footer nav a {
 .strategy-work {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    margin: 40px 20px 40px 20px;
 }
 
 #strategy-box {
@@ -261,14 +258,13 @@ footer nav a {
     height: 40px;
     padding-top: 10px;
     padding-left: 20px;
+    margin-left: 10px;
 }
 
 .places-collab {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    margin: 40px 20px 40px 20px;
 }
 
 #places-box {
@@ -296,6 +292,7 @@ footer nav a {
     height: 40px;
     padding-top: 10px;
     padding-left: 20px;
+    margin-left: 10px;
 }
 
 #bottom-content {
