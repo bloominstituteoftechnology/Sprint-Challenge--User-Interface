@@ -137,13 +137,13 @@ header img {
     border-bottom: 1px dashed black;
 }
 
-.top-content img{
+.top-content img {
     display: block;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.top-content .text-container {
+.top-content .text-container, .main-content section {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -249,4 +249,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.about-page .about-us, .work-together {
+display:block;
+padding-bottom: 20px;
+}
+
+.about-page .about-us h2, .about-page .about-us p, .work-together{
+    margin-left: 20px;
+} 
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-content section{
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.main-content section img{
+margin: 10px 0;
+}
+
+.main-content section a{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.work-together{
+    margin-bottom: 20px;
 }
