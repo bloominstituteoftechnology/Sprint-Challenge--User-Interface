@@ -207,7 +207,7 @@ header nav a {
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .middle-content .boxes .box-1 {
@@ -358,50 +358,43 @@ footer nav a {
 .about-info {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 20px;
   border-bottom: 2px dashed black;
 }
 
 .about-info h2,
+.about-info p {
+  margin-left: 20px;
+}
+
 p.about-info-text {
   margin-left: 20px;
-  margin-bottom: 20px;
 }
 
 .cta {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  line-height: 1.4;
-  font-size: 100%;
-  vertical-align: baseline;
 }
 
-.cta-card {
-  display: block;
+.cta-box {
   width: 370px;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px;
-  border-bottom: 2px dashed grey;
-  box-sizing: border-box;
+  margin: 30px 15px;
+  border-bottom: 2px dashed black;
+  padding-bottom: 20px;
 }
 
-.cta-card button {
-  padding: 10px 40px;
+.cta-box button {
+  padding: 10px 30px;
   margin-top: 20px;
   cursor: pointer;
   background: white;
   border-radius: 10px;
-  border: 3px solid black;
+  border: 2px solid black;
   font-size: 15px;
-  align-items: flex-start;
   text-align: center;
-  color: buttontext;
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
+}
+
+.work-together h2,
+.work-together p {
+  margin: 40px 0 40px 20px;
 }
