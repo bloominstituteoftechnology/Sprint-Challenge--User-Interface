@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+/*This is the top of the Home Styles-------------------------------------------------------------------------*/
+
+/*Added the header here*/
+header{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: row-reverse;
+	margin: 15px 0;
+	align-items:baseline;
+}
+
+header .main-nav a{
+	color: black;
+    text-decoration: none;
+	padding: 38px;
+}
+
+.cta-img{
+	margin: 20px 0 20px 0;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +126,47 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+	background:black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+/*Changed the boxes to their assigned colors here*/
+.middle-content .boxes .box.b1 {
+	background:teal;
+}
+.middle-content .boxes .box.b2 {
+	background:gold;
+}
+.middle-content .boxes .box.b3 {
+	background:cadetblue;
+}
+.middle-content .boxes .box.b4 {
+	background:coral;
+}
+.middle-content .boxes .box.b5 {
+	background:crimson;
+}
+.middle-content .boxes .box.b6 {
+	background:forestgreen;
+}
+.middle-content .boxes .box.b7 {
+	background:darkorchid;
+}
+.middle-content .boxes .box.b8 {
+	background:hotpink;
+}
+.middle-content .boxes .box.b9 {
+	background:indigo;
+}
+.middle-content .boxes .box.b10 {
+	background:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +200,97 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*This is the top of the About Styles-----------------------------------------------------------------------------------*/ 
+
+/*About intro*/
+.intro{
+	border-bottom: 1px dotted black;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+
+
+/*About boxes*/
+
+.about-boxes{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+
+.about-boxes .about-box{
+	width:375px;
+	border-bottom:1px dotted black;
+	margin-bottom:20px;
+}
+
+.about-boxes .about-box h2{
+	margin-top:10px;
+}
+
+.about-boxes .about-box button{
+	margin:10px 0 20px;
+	background:white;
+	padding:5px 15px;
+	border-radius: 10px
+}
+
+
+
+/*About Bottom*/
+.bottom{
+	margin-bottom:20px;
+}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
