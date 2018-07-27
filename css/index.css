@@ -189,7 +189,8 @@ header nav {
     align-items: flex-start;
     justify-content: space-around;
     width: 600px;
-    margin-right: 50px;
+    margin-right: 20px;
+    border: solid red 1px;
 }
 
 header nav a {
@@ -202,7 +203,7 @@ header img {
 }
 
 header .header-logo {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 header .header-jumbo {
