@@ -66,6 +66,42 @@ p {
     line-height: 1.4;
 }
 
+
+/*** BEGIN MAIN CONTENT ***/
+
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav .navbar a{
+    padding: 20px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+header .banner {
+    height: 153px;
+    margin: 20px 0px;
+}
+
+header #banner-home {
+    background: url('../img/jumbo.jpg');
+    background-size: cover;
+}
+
+header #banner-about {
+    background: url('../img/jumbo-about.png');
+    background-size: cover;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +148,47 @@ p {
     justify-content: center;
 }
 
+/* BOX COLORS */
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +220,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*** ABOUT PAGE ***/
+
+.about-top {
+    max-width: 800px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.about-content {
+    width: 800px;
+    border-top: 1px dashed black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.about-box {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin: 20px;
+}
+
+.about-box img{
+    max-width: 100%;
+    margin: 20px 0px;
+}
+
+.learn-more {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 150px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.about-bottom {
+    width: 750px;
+    margin: 20px auto;
+    text-align: justify;
+    padding-bottom: 20px;
 }
