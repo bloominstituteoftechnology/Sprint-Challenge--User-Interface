@@ -307,7 +307,7 @@ footer nav a {
   }
 
   .about-header-img {
-    margin: 15px; 
+    margin: 20 0 20 0
   }
 
   .about-middle-content {
@@ -320,7 +320,7 @@ footer nav a {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  margin-right: 30px;
+  margin: 0 15px 0 15px;
   border-bottom: 1px dashed black; 
   padding-top: 40px;
   }
@@ -351,16 +351,9 @@ footer nav a {
   .about-content .about-bottom-content {
     display: flex;
     flex-wrap: wrap;
-      margin-right: 35px;
+    margin: 0 15px 0 15px;
     padding-top: 40px
   }
-
-
-
-
-.about-content .about-bottom-content .work-together {
-  margin: 0 50px 15px 0;
-}
 
 .about-content .about-bottom-content .work-together  {
   margin-bottom: 20px;
