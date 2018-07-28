@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,143 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*New Stuff*/
+
+.top-navigation{
+	width: 880px;
+	display:flex;
+
+	position: fixed;
+	z-index: 1;
+	align-items: center;
+	background-color: white;
+    height: 50px;
+    
+	
+}
+
+a{
+    color:black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.navigation-top {
+
+	display:flex;
+	justify-content: space-around;
+    width:70%;
+    align-self: flex-end;
+    
+}
+
+
+.jumbo, .jumbo-about{
+	position: relative;
+    top: 60px;
+    margin: 20px 0;
+
+}
+
+.top-content{
+    position: relative;
+    top:70px;
+    
+}
+
+.middle-content{
+    position: relative;
+    top:70px;
+}
+
+.bottom-content{
+    position: relative;
+    top:70px;
+}
+
+footer{
+    position: relative;
+    top:70px;
+}
+
+.box0 {
+    background: teal;
+}
+
+.box1 {
+    background: gold;
+}
+.box2 {
+    background: cadetblue;
+}
+.box3 {
+    background: coral;
+}
+.box4 {
+    background: crimson;
+}
+.box5 {
+    background: forestgreen;
+}
+.box6 {
+    background: darkorchid;
+}
+.box7 {
+    background: hotpink;
+}
+.box8 {
+    background: indigo;
+}
+.box9 {
+    background: dodgerblue;
+}
+
+
+/*About*/
+
+.about-page{
+    position: relative ;
+    top:60px;
+    
+
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px  dotted black;
+    
+    margin: 30px 0 ;
+    
+}
+
+.block-info{
+    width: 48%;
+    padding: 20px 0;
+    border-bottom: 1px  dotted black;
+}
+
+.block-info button{
+    background-color: white;
+    margin: 8px 0;
+
+}
+
+button{
+    width:100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.bottom-content-about {
+    position: relative;
+    top:50px;
 }
