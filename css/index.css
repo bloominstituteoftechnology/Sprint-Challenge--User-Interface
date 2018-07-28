@@ -168,7 +168,7 @@ footer nav a {
    border: 1px solid black;
  }
 
- 
+
  .jumbo{
      border: 2px solid lime;
      padding-top: 20px;
@@ -204,3 +204,24 @@ footer nav a {
 #box9 {
     background: dodgerblue;
 }
+.about-content{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.work {
+    border: 1px solid lime;
+    border-bottom: 1px dashed black;
+    width: 370px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
