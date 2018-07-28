@@ -1,6 +1,6 @@
 If you had to describe semantic HTML to the next cohort of students, what would you say?
 
-<!-- Semantic HTML deals with tags that are standard for most browsers. While you could write your own HTML tags, like <answer></answer>, these will not be cross-browser compatible. All Browswers need to be able to recognize code that has been built-in. This is where semantic HTML shines. This type of coding includes tags that are compatible for most, if not all, browsers. These tags can describe parts of a page, <header></header>, describe the kind of element <a></a>, or be a generic container to place elements <div></div>, useful for page alignment purposes.   -->
+<!-- Semantic HTML deals with tags that are standard for most browsers. While you could write your own HTML tags, like <answer></answer>, these will not be cross-browser compatible. All Browswers need to be able to recognize code that has been built-in. This is where semantic HTML shines. This type of coding includes tags that are compatible for most, if not all, browsers. These tags describe a part of a page, and at times the type of element contained within these tags. These include <header></header>, <nav></nav>, and <section></section>. Tags such as <div> do not describe a specific type of element or part of a page. Therefore, <div> among other similar tags, are not considered semantic. -->
 
 Describe some differences between display: block; and display: inline;.
 
