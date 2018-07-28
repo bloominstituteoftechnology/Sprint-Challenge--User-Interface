@@ -18,4 +18,4 @@ What is the git command to commit staged changes as well as write a message?
 
 <!--The command is called git commit. This is I will be writing this first commit git command. 
 git add .
-git commit -m "Task 2 Complete">
+git commit -m "Task 2 Complete"-->
