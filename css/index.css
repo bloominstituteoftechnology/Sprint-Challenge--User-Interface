@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 150px;
+    height: 125px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -115,11 +115,13 @@ p {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding-right: 0%;
+		width: 240px;
+		font-size: 19px;
 }
 
 .bottom-content .text-container:last-child {
@@ -149,7 +151,7 @@ footer nav a {
 
 /* ----------------------- HOME PAGE ----------------------- */
 nav{
-	width: 1200px;
+	width: 1100px;
 	margin: 0 auto;
 }
 nav ul {
@@ -171,7 +173,36 @@ body {
 
 .container img{
 	margin: 25px 0px;
-
-	width: 1200px;
+	width: 1100px;
 	height: auto;
+}
+
+#teal{
+	background: teal;
+}
+
+#gold{
+	background: gold;
+}
+#cadetblue{
+	background: cadetblue;
+}
+#coral{
+	background: coral;
+}
+#crimson{
+	background: crimson;
+}
+#forestgreen{
+	background: forestgreen;
+}
+#darkorchid{
+	background: darkorchid;
+}
+#hotpink{
+	background: hotpink;
+}
+
+#dodgerblue{
+	background: dodgerblue;
 }
