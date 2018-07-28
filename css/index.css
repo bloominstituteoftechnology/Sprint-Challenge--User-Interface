@@ -73,8 +73,8 @@ p {
 
 nav li {
     display: inline-flex;
-    justify-content: space-evenly;
-
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 header {
@@ -254,3 +254,9 @@ footer nav a {
     text-decoration: none;
 }
 
+.about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
