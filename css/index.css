@@ -104,12 +104,11 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    border:1px solid black;
 }
 
 .bottom-content {
@@ -143,4 +142,110 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.header{
+margin: 15px 0px 15px 0px;
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+
+
+
+}
+
+.header img{
+
+margin-left:0;
+}
+
+.header nav{
+display: flex;
+flex-direction: row;
+
+justify-content:space-between;
+margin-bottom:15px;
+}
+
+.header a { 
+display:flex;
+align-items: center;
+text-decoration: none;
+color:black;
+font-size: 16px;
+}
+
+.box:nth-child(1){
+background:teal;
+}
+.box:nth-child(2){
+    background:gold;
+    }
+    .box:nth-child(3){
+        background:cadetblue;
+        }
+        .box:nth-child(4){
+            background: coral;
+            }
+            .box:nth-child(5){
+                background:crimson;
+                }
+                .box:nth-child(6){
+                    background:forestgreen;
+                    }
+                    .box:nth-child(7){
+                        background:darkorchid;
+                        }
+                        .box:nth-child(8){
+                            background:hotpink;
+                            }
+                            .box:nth-child(9){
+                                background:indigo;
+                                }
+                                .box:nth-child(10){
+                                    background:dodgerblue;
+                                    }
+
+/* Start About Page CSS */
+.header h2 {
+margin-top:20px;
+margin-left:22px;
+}
+.header p {
+margin-left:22px;
+}
+.aboutsection{
+border-top: 2px dotted black;
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+justify-content:space-between;
+
+}
+
+.aboutcontainers{
+display:flex;
+flex-direction: column;
+width: 350px;
+margin-top:25px;
+border-bottom: 2px dotted black;
+
+}
+
+button{
+width:100px;
+padding:10px;
+background-color: white;
+border-radius: 5px;
+margin:15px 0px 15px 0px;
+}
+
+.aboutsection h2{
+margin-top:10px;
+}
+
+/* footer area css */
+
+.footersection{
+margin: 30px 0px 35px 10px;
 }
