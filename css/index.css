@@ -64,6 +64,26 @@ h1, h2, h3, h4, h5 {
 
 /* Main Content */
 
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 0px 30px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 p {
     line-height: 1.4;
 }
