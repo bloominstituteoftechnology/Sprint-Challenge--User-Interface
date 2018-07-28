@@ -217,6 +217,71 @@ footer nav a {
     background-color: dodgerblue;
 }
 
+.about-header {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+    height: 425px;
+    margin: 0 0 50px 0;
+}
+
+.left-container {
+    width: 95%;
+    display: block;
+    height: 425px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.about-upper {
+/*     border-bottom: 1px solid black; */
+    padding: 20px;
+/*     height: 435px; */
+    margin: 10px 0;
+}
+
+.about-upper h5 {
+    margin: 5px 0;
+}
+
+.about-upper p {
+    margin: 20px 0;
+}
+
+span {
+    border: 1px solid black;
+    width: 70px;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+ /*    margin: 20px 0; */
+    border-radius: 10%
+}
+
+.about-lower {
+/*     border-bottom: 1px solid black; */
+    padding: 20px;
+/*     height: 435px; */
+    margin: 10px 0;
+}
+
+.about-lower h5 {
+    margin: 5px 0;
+}
+
+.about-lower p {
+    margin: 20px 0;
+}
+
+
+
+
+
 
 
 
