@@ -50,6 +50,7 @@ container {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .topnav {
@@ -58,12 +59,14 @@ container {
     justify-content: space-evenly;
     width: 60%;
     margin-top: 25px;
+    color: black;
+}
+
+a:link {
     text-decoration: none;
 }
 
-.jumbo-about {
-    margin-top: 25px;
-}
+
 
 hr {
     width: 100%;
@@ -191,8 +194,10 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer nav {
