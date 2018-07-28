@@ -56,8 +56,8 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x] Build the rest of the about page layout to match the design
 
 ## Task 5: Merge & Pull Request
-* [ ] Once you have completed tasks 1-4, push all your commits up to your `develop` branch.  
-* [ ] Switch your HEAD to `master`
+* [x] Once you have completed tasks 1-4, push all your commits up to your `develop` branch.  
+* [x] Switch your HEAD to `master`
 * [ ] Merge the `develop` branch into `master`
 * [ ] Push all your updates up to master
 * [ ] Create a pull request back to the original `fork`
