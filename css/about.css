@@ -248,6 +248,11 @@ p {
     border-radius: 8px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .infoImgs {
     display: flex;
     border-spacing: 10px;

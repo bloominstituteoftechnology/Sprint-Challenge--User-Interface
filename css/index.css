@@ -100,7 +100,13 @@ nav.topNav{
     background-color: white;
 }
 
-
+.headerIMG {
+    position: relative;
+    align-content: center;
+    left: 550px;
+    top: 95px;
+    margin-bottom: 125px;
+}
 
 .container {
     width: 800px;
