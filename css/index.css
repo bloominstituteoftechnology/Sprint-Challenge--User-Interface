@@ -144,3 +144,179 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* SHANNONS CODE V */
+
+.header {
+	width: 800px;
+	height: 100px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	width: 630px;
+    height: 96px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-button {
+	position: relative;
+	top: 40px;
+	text-decoration: none;
+}
+
+.nav-text {
+	color: black;
+}
+
+.logo {
+    position: relative;
+    top: -10px;
+    width: 157px;
+    height: 40px;
+}
+
+#header-image {
+    width: 800px;
+    height: 155px;
+}
+
+.future-past-container {
+    width: 800px;
+    height: 186px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.future-past{
+    width: 366px;
+    height: 142px;
+}
+
+/* BOX COLORS */
+
+#box-1 {
+    background-color: teal;
+}
+#box-2 {
+    background-color: gold;
+}
+#box-3 {
+    background-color: cadetblue;
+}
+#box-4 {
+    background-color: coral;
+}
+#box-5 {
+    background-color: crimson;
+}
+#box-6 {
+    background-color: forestgreen;
+}
+#box-7 {
+    background-color: darkorchid;
+}
+#box-8 {
+    background-color: hotpink;
+}
+#box-9 {
+    background-color: indigo;
+}
+#box-10 {
+    background-color: dodgerblue;
+}
+
+/* ABOUT PAGE */
+#about-section {
+    width: 800px;
+    height: 142px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-holder {
+    width: 765px;
+    height: 105px;
+}
+
+.main-line-break {
+border: 1px dashed black;
+}
+
+.main-section-holder {
+    height: 460px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learn-more-button {
+    width: 130px;
+	height: 40px;
+    border: 2px solid black; 
+    border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12pt;
+    background: white;
+    position: relative;
+    top: 20px;
+}
+
+.info-section {
+width: 372px;
+}
+
+.section-image{
+    position: relative;
+    top: -15px;
+}
+
+.double-line-break{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-line {
+    width: 372px;
+    border: 1px dashed black;
+}
+
+#work-together-section{
+    width: 800px;
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-together-holder{
+    width: 760px;
+    height: 95px;
+}
+
+/* CONTACT PAGE */
+
+#contact-form {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-form-content{
+    border: 1px solid black;
+    padding: 30px;
+    padding-bottom: 50px;
+    background-color: linen;
+    line-height: 130%;
+}
