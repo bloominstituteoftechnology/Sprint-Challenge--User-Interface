@@ -146,15 +146,17 @@ footer nav a {
 }
 
 body {
-    width: 880px;
+    width: 800px;
     margin: auto;
+    font-family: Rubik;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-   
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 
 header nav {
@@ -168,4 +170,15 @@ header nav a{
     margin: 0px 45px;
     color: black;
     font-weight: bold;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+}
+
+.top-content .text-container {
+    width: 380px;
+    margin: 0px 5px;   
 }
