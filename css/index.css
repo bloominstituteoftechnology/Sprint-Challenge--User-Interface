@@ -243,4 +243,16 @@ footer nav a {
     height: 35px
 }
 
+.footer-message {
+    padding: 0 15px;
+}
+
+.footer-message h2{
+    margin-top: 25px;
+}
+
+.footer-message p {
+    margin-bottom: 25px;
+}
+
 
