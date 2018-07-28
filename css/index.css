@@ -144,3 +144,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my css */
+
+header .navbar {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .navbar nav {
+    width: 640px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .navbar nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header .header-image {
+    margin-bottom: 15px;
+}
