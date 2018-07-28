@@ -7,6 +7,7 @@ My understanding is that "display: block;" takes up the full width of the view w
 In more detail "display: block;" does not mean that the element displayed on the screen takes up the whole width of the view, it means once you've set an element to conform to "display: block;"  that no other elements can be added to the left or right of it since we're saying it should be on its own line. Alternatively when we set an element to conform to "display: inline;" the element does allow other elements to be displayed to the left or right of it, and it only takes up the space it needs for the content.
 
 3. What are the 4 areas of the box model?
+The four areas of the box model are: Margin, Border, Padding and Content.
 
 4. While using flexbox, what axis are you using when you use the property: align-items: center?
 
