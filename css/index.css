@@ -134,6 +134,26 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.middle-content .boxes .about-box {
+    width: 48%;
+    height: 400px;
+    border-bottom: 2px dotted black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+button{
+    border-radius: 15px;
+    padding: 10px 30px;
+    border-color: black;
+    background-color: white; 
 }
 
 .bottom-content {
@@ -149,6 +169,7 @@ nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
 
 footer {
     width: 100%;
