@@ -188,6 +188,44 @@ footer nav a {
     text-decoration: none;
 }
 
+/* About page */
+.about-header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #1d1d1d;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-block {
+    width: 388px;
+    border-bottom: 1px dashed #1d1d1d;
+    margin-bottom: 20px;
+    padding: 10px; 
+}
+
+.about-block h2 {
+    padding-top: 10px;
+}
+
+.about-block button {
+    font-size: 16px;
+    margin: 15px 0px;
+    background: white;
+    border: 2px solid #1d1d1d;
+    border-radius: 8px;
+    padding: 8px 30px;
+}
+
+.about-footer {
+    padding-bottom: 20px;
+    margin: 20px 0px;
+}
+
 /* Box colors */
 
 #box1 {
