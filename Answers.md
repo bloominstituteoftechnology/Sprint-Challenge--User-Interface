@@ -6,3 +6,5 @@
 
 4. The property {align-items: center} is using the 'row' or horizontal axis {flex-direction: row}. 
 
+5. The git command to commit staged changes is $ git commit -m "message-written-here" 
+
