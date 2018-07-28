@@ -239,12 +239,18 @@ width: 500px;
 margin: 50px;
 }
 .photo-block-container img {
-	width: 400px;
+	width: 550px;
 }
 
 .photo-block-container  h3 {
 
 margin-top: 10px;
+ font-size: 21px;
+}
+.photo-block-container  p{
+
+
+ font-size: 21px;
 }
 
 button{
