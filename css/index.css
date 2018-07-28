@@ -56,6 +56,36 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* NEW CODE HERE ***************************/
+.header {
+    border: 1px solid pink;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#LambdaLOGO {
+    border: 1px solid blue;
+    height: 100px;
+
+}
+
+nav {
+    display: flex;
+    border: 1px solid red;
+}
+
+a {
+    border: 1px solid green;
+    padding: 20px;
+    margin-bottom: -20px;
+
+
+
+}
+
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
