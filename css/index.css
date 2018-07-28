@@ -231,3 +231,58 @@ header nav ul {
  #box10 {
     background-color: dodgerblue;
  }
+
+ /*code below is for about.html*/
+
+ .about section {
+     display: flex;
+     flex-direction: column;
+     height: 120px;
+     justify-content: space-around;
+     padding-left: 20px;
+     padding-bottom: 20px;
+     
+ }
+
+ .about div {
+     display: flex;
+ }
+
+ .mainContainer {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     
+     height: 960px;
+     justify-content: space-around;
+     align-items: center;
+     border-top: dashed 1px black;
+     
+ }
+
+ .strategy {
+     display: flex;
+     
+     flex-direction: column;
+     width: 370px;
+     height: 420px;
+     justify-content: space-around;
+ }
+
+ .bottomRow {
+    border-bottom: dashed 1px black;
+    padding-bottom: 20px;
+ }
+
+ .button {
+     display: flex;
+     border: solid 2px black;
+     border-radius: 10px;
+     width: 115px;
+     height: 35px;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ 
