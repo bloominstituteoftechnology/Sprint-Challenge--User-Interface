@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .top-content {
@@ -214,4 +214,50 @@ nav a {
     font-weight: bold; 
 }
 
+
+.row1{
+    display: flex; 
+    flex-wrap: wrap;   
+    width: 100%; 
+    justify-content: space-between; 
+    padding: 20px 20px 20px 20px; 
+    font-weight: bold; 
+}
+
+.aboutBoxes {
+    width: 48%
+}
+
+.aboutBoxes h2{
+    margin-top: 15px; 
+}
+
+.button{
+    margin-top: 20px; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    width: 130px;  
+    padding: 7px; 
+    text-align: center; 
+}
+
+.row1 hr{
+    border-top: dashed 1px;
+    margin: 20px 0 40px 0; 
+    width: 100%; 
+    
+}
+
+hr {
+    border-top: dashed 1px; 
+}
+
+.bottomPage{
+    display: flex; 
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    width: 100%;  
+    padding: 0px 20px 20px 20px; 
+    font-weight: bold; 
+}
 
