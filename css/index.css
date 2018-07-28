@@ -149,7 +149,7 @@ nav {
     display: flex; 
     flex-wrap: wrap; 
     width: 100%; 
-    justify-content: space-around; 
+    justify-content: space-between; 
     margin-bottom: 25px; 
     margin-top: 15px; 
 }
@@ -158,5 +158,9 @@ nav a {
     display: flex; 
     text-decoration: none; 
     align-items: flex-end; 
+}
+
+.jumboImg{
+    width: 100%; 
 }
 
