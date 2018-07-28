@@ -271,3 +271,28 @@ footer nav a {
 .together {
     margin-bottom: 20px;
 }
+
+/* Contact form styling begins here */
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+textarea {
+    height: 200px;
+}
+
+.submit {
+    margin-top: 20px;
+    width: 100px;
+}
