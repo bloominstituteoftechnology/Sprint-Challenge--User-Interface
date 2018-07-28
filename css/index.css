@@ -96,6 +96,7 @@ p {
 
 /* Top Content */
 
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +110,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
 
 /* Middle Content */
 
@@ -218,4 +221,25 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about.html */
+
+/* Top section */
+
+.top-about-content {
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+
+
+
+
+/* Bottom section */
+
+.bottom-about-content {
+    margin: 40px 0px;
 }
