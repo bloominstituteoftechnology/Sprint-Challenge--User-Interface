@@ -79,6 +79,7 @@ p {
 .nav-header-content .nav a {
     text-decoration: none;
     margin-left: 70px;
+    color: black;
 }
 
 
@@ -100,6 +101,12 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .text-container-about {
+    width: 98%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
