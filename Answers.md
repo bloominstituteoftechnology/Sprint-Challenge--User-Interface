@@ -13,3 +13,4 @@ The four areas of the box model are: Margin, Border, Padding and Content.
 The cross-axis.
 
 5. What is the git command to commit staged changes as well as write a message?
+git commit -am "This is how you commit staged changes as well as write a message."
