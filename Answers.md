@@ -5,8 +5,7 @@ Answer the following questions to the best of your ability. You can exercise you
 Semantic HTML is like a table of contents of a document, structured as headers, sections, articles, footers. It gives you a clean layout of where each area is for easier identification. So if you were looking for a footer, you'd know the obvious answer... "Footer". In simple terms it is the TOC for frontend developers working on HTML. The key thing in development is how easy your code is to read and how quickly can it be understood by your teams. Semantic HTML plays that role.
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
-Display block display content as a block. Eg: a div, a paragraph. Ideally they 
-
+Display block display content as a block. Eg: a div, a paragraph. Ideally they take up the whole space (such as a full row). Display inline on the other hand only takes the space required like a span. You can also set a paragraph's display property to become inline for it to take the space required. If you do that, the additional paragraphs with that style will stick up with each other like a wrap.
 
 3. What are the 4 areas of the box model?
 Margin, border, padding, the element size itself.
