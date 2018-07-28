@@ -28,10 +28,55 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+container {
     line-height: 1;
-    width: 880px;
+    width: 800px;
+    margin: 0 auto;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.jumbo-about {
+    margin-top: 10px;
+}
+
+hr {
+    width: 100%;
+    border-style: dashed;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.childbox {
+    width: 400px;
+    margin-bottom: 25px;
+    
+}
+
+button {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -46,6 +91,11 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+footer {
+    margin-top: 25px;
+    
 }
 
 * {
