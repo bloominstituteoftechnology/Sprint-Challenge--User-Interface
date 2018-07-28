@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 25px;
+}
+header img {
+    display: inline;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.topimg {
+    margin: 30px 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,14 +126,62 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+} 
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background-color: gold;
+} 
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background-color: cadetblue;
+} 
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background-color: coral;
+} 
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background-color: crimson;
+} 
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background-color: forestgreen;
+} 
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background-color: darkorchid;
+} 
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background-color: hotpink;
+} 
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background-color: indigo;
+} 
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background-color: dodgerblue;
+} 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +213,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-text {
+    padding: 10px 25px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.about-content h2 {
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box-img {
+    height: 100%;
+    width: 100%;
+    margin: 5px 0;
+}
+.about-box {
+    width: 360px;
+    height: 400px;
+    margin: 20px 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-box button {
+    margin-top: 15px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 35px;
+}
+hr {
+    
+    width: 360px;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+.lets-text {
+    padding: 10px 25px;
+    margin-bottom: 30px;
 }
