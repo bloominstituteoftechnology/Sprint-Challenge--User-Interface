@@ -172,13 +172,65 @@ header nav a{
     font-weight: bold;
 }
 
-.top-content {
-    display: flex;
-    justify-content: space-around;
-    margin: 25px 0px;
+.jumbo-img {
+    margin-bottom: 20px;
 }
 
-.top-content .text-container {
-    width: 380px;
-    margin: 0px 5px;   
+.box1 {
+    background: teal;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box2 {
+    background: gold;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box3 {
+    background: cadetblue;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box4 {
+    background: coral;
+    padding: 30px;
+    margin: 20px;
+}
+.box5 {
+    background: crimson;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box6 {
+    background: forestgreen;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box7 {
+    background: darkorchid;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box8 {
+    background: hotpink;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box9 {
+    background: indigo;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box10 {
+    background: dodgerblue;
+    padding: 30px;
+    margin: 20px;
 }
