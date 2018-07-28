@@ -67,22 +67,28 @@ p {
 }
 
 /* Navigation */
-.navigation {
+.main-navigation {
     text-align: center;
-    margin-bottom: 80px;
-    top: 40px;
+    margin-bottom: 60px;
+    top: 80px;
     width: 690px;
 }
-.navigation a {
+.main-navigation a {
     font-size: 14px;
     display: inline-block;
     color:black;
+    justify-content: space-between;
     vertical-align: middle;
 	padding: 20px 0 39px 0;
 	text-decoration: none;
 	margin-left: 20px;
 	margin-right: 20px;
-	display: inline;
+    display: inline;
+}
+.main-lambda {
+    position: relative;
+    left: 3px;
+    top: 11px;
 }
 /* Header Image */
 .header-img {
@@ -296,4 +302,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About page CSS */
+/* Navigation */
+.about-navigation {
+    text-align: center;
+    margin-bottom: 60px;
+    top: 80px;
+    width: 690px;
+}
+.about-navigation a {
+    font-size: 14px;
+    display: inline-block;
+    color:black;
+    justify-content: space-between;
+    vertical-align: middle;
+	padding: 20px 0 39px 0;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+    display: inline;
+}
+.about-lambda {
+    position: relative;
+    right: 27px;
+    bottom: 2px;
+    top: 22px;
+}
+.about-text {
+    padding: 10px 25px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.about-content h2 {
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-img {
+    height: 100%;
+    width: 100%;
+    margin: 5px 0;
+}
+.about-box {
+    width: 360px;
+    height: 400px;
+    margin: 20px 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.about-box button {
+    margin-top: 15px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 35px 20px;
+}
+.work {
+    padding: 10px 25px;
+    margin-bottom: 30px;
 }
