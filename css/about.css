@@ -101,99 +101,68 @@ header .top-nav {
     padding-bottom: 19px;
 }
 
-.top-content {
+.cta {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    justify-content: center;
+    padding-bottom: 24px;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.cta .cta-about {
+    width: 95%;
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    border-top: 1px dashed black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 30px 0px 0px 0px;
+}
+
+.middle-content .text-content {
+    width: 46%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
     border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    padding-bottom: 21px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle-content .text-content h4 {
+    margin: 13px 0px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content .text-content p {
+    margin-bottom: 20px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .text-content button {
+    font-size: 15px;
+    padding: 10px 25px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
-.middle-content .boxes .box1 {
-    background: teal;
+.middle-content .text-content .about-office-img {
+    padding-top: 62px;
 }
 
-.middle-content .boxes .box2 {
-    background: gold;
-}
-
-.middle-content .boxes .box3 {
-    background: cadetblue;
-}
-
-.middle-content .boxes .box4 {
-    background: coral;
-}
-
-.middle-content .boxes .box5 {
-    background: crimson;
-}
-
-.middle-content .boxes .box6 {
-    background: forestgreen;
-}
-
-.middle-content .boxes .box7 {
-    background: darkorchid;
-}
-
-.middle-content .boxes .box8 {
-    background: hotpink;
-}
-
-.middle-content .boxes .box9 {
-    background: indigo;
-}
-
-.middle-content .boxes .box10 {
-    background: dodgerblue;
+.middle-content .text-content .about-meeting-img {
+    padding-top: 61px;
 }
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 49px;
+    padding-bottom: 41px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottom-content .bottom-text-content {
+    width: 95%;
 }
 
 footer {
