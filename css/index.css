@@ -109,6 +109,15 @@ p {
     justify-content: flex-start;
 }
 
+a {
+    transition: background .3s ease-in;
+    padding: 5px;
+}
+a:hover{
+    background: #615A5A;
+    color: white;
+}
+
 /*SHARED FOOTER STYLING*/
 
 footer {
