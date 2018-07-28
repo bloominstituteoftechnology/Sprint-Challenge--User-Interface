@@ -10,5 +10,6 @@ In more detail "display: block;" does not mean that the element displayed on the
 The four areas of the box model are: Margin, Border, Padding and Content.
 
 4. While using flexbox, what axis are you using when you use the property: align-items: center?
+The cross-axis.
 
 5. What is the git command to commit staged changes as well as write a message?
