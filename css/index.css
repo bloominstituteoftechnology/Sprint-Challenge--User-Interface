@@ -69,7 +69,13 @@ p {
 .header {
     /* border: 3px solid red; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.header .lb {
+    height: 60px;
+    width: 175px;
+    /* border: 1px solid red; */
 }
 
 .header nav {
@@ -77,8 +83,7 @@ p {
     /* border: 1px solid blue; */
     flex-grow: 2;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: space-around;
     margin: 15px 0 15px 0;
 }
 
@@ -86,7 +91,7 @@ p {
     text-decoration: none;
     color: black;
     /* border: 1px solid black; */
-    padding: 15px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
 
