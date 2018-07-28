@@ -26,8 +26,8 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 /*div {
     border: solid 2px aqua;
-}*/
-
+}
+*/
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -70,11 +70,70 @@ p {
     line-height: 1.4;
 }
 
+/*SHARED STYLING BELOW THIS LINE*/
+
 .container {
     width: 800px;
     margin: 0 auto;
 
 }
+
+#top-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*NAVBAR STYLING*/
+#navbar {
+    display: flex;
+    top: 0;
+    margin: 0 auto;
+    width: 800px;
+    align-items: flex-end;
+}
+
+#nav{
+    display: flex;  
+    margin-right: 20px;
+}
+
+.nav{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*SHARED FOOTER STYLING*/
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*INDEX.HTML STYLING BELOW THIS LINE*/
+
+
 
 .top-content {
     display: flex;
@@ -131,30 +190,10 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-
 #boxes {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 #box1 {
@@ -217,38 +256,54 @@ footer nav a {
     margin: 20px;
 }
 
-#navbar {
+
+/*ABOUT.HTML STYLING BELOW THIS LINE*/
+
+#about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+#strategy-work, #office-meeting {
     display: flex;
-    top: 0;
-    margin: 0 auto;
-    width: 800px;
-    /*justify-content: space-between;*/
-    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+
 }
 
-#nav{
-    display: flex;  
-    margin-right: 20px;
+#strategy, #office {
+    margin-right: 10px;
 }
 
-.nav{
-    margin-left: 70px;
-    text-decoration: none;
-    font-size: 14px;
-    color: black;
+#work, #meeting {
+    margin-left: 10px;
 }
 
-.logo {
-    display: flex;
-    justify-content: flex-start;
+button {
+    padding: 7px 25px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    margin: 10px 0px;
+
 }
 
-#jumbo-image {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.title {
+    margin: 8px 0px;
 }
 
+#work, #office, #strategy, #meeting {
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
 
+.picture {
+    width: 100%;
+}
+
+#together {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 
 
