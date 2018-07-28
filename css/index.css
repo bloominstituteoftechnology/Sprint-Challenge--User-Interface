@@ -148,7 +148,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 275px;
+    height: 250px;
 }
 
 header .logo-nav {
@@ -206,4 +206,45 @@ header .logo-nav nav a {
 
 .boxes .box.box10{
     background-color: dodgerblue;
+}
+
+/* about page styling */
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding: 15px;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.middle-section .content-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 370px;
+    border-bottom: 1px dotted black;
+    margin: 20px 0px;
+    padding-bottom: 10px;
+}
+
+.content-boxes button {
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bottom-section {
+    padding: 20px 10px;
 }
