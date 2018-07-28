@@ -26,8 +26,8 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 /*div {
     border: solid 2px aqua;
-}
-*/
+}*/
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -81,6 +81,7 @@ p {
 #top-image {
     margin-top: 40px;
     margin-bottom: 40px;
+
 }
 
 /*NAVBAR STYLING*/
@@ -314,22 +315,93 @@ button {
     margin-top: 20px;
 }
 
+/*BLOG PAGE STYLING BELOW THIS LINE*/
 
+.blog-page {
+    width: 800px;
+}
 
+#blog-header {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
 
+#content {
+    display: flex;
+}
 
+#articles, #sidebar {
+    display:flex;
+    flex-direction: column;
+}
 
+#sidebar-about {
+    width: 175px;
+    height: 125px;
+}
 
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 15px;
 
+}
 
+#about-us, #follow, #blog1, #blog2 {
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
 
+#blog1, #blog2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 20px;
+}
 
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
+#blog1 p, #blog2 p, #about-us p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
+.icons {
+    font-size: 48px;
+    color: grey;
+    margin: 10px;
+}
 
+#follow {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    align-items: center;
+}
 
+#fa-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-
+#sidebar2 { 
+    height: 400px;
+    width: 250px;
+}
 
 
 
