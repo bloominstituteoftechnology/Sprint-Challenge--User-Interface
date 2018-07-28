@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +144,186 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 15px 0;
+}
+
+.navigation li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-img {
+    margin: 0 0 25px 0;
+}
+
+
+.box {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color: gold;
+}
+
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(4) {
+    background-color: coral;
+}
+
+.box:nth-child(5) {
+    background-color: crimson;
+}
+
+.box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.box:nth-child(9) {
+    background-color: indigo;
+}
+
+.box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+.about-header {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+
+.left {
+    float: left;
+    width: 50%;
+    height: 425px;
+    margin: 0 0 50px 0;
+}
+
+.left-container {
+    width: 95%;
+    display: block;
+    height: 425px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+.about-upper {
+/*     border-bottom: 1px solid black; */
+    padding: 20px;
+/*     height: 435px; */
+    margin: 10px 0;
+}
+
+.about-upper h5 {
+    margin: 5px 0;
+}
+
+.about-upper p {
+    margin: 20px 0;
+}
+
+span {
+    border: 1px solid black;
+    width: 70px;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+ /*    margin: 20px 0; */
+    border-radius: 10%
+}
+
+.about-lower {
+/*     border-bottom: 1px solid black; */
+    padding: 20px;
+/*     height: 435px; */
+    margin: 10px 0;
+}
+
+.about-lower h5 {
+    margin: 5px 0;
+}
+
+.about-lower p {
+    margin: 20px 0;
+}
+
+.contact-img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(41, 43, 41);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #627562;
+    }
+
+/* Add a background color and some padding around the form */
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact-container {
+    margin: 25px 0;
+}
+
+
+
+
