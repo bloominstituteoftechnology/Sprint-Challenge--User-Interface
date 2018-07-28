@@ -245,11 +245,9 @@ header .lambda-black {
     justify-content: center;
 }
 
-.boxes .box:first-child{
+.boxes .box:first-child {
     background: teal;
 }
-
-
 
 .boxes .box:nth-child(2) {
     background-color: gold;
@@ -259,7 +257,9 @@ header .lambda-black {
     background-color: cadetblue;
 }
 
-.boxes .box:nth-child(4) {background-color: coral;}
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
 
 .middle-content .boxes .box4 {
     background-color: coral;
@@ -280,6 +280,7 @@ header .lambda-black {
 .boxes .box:nth-child(8) {
     background-color: hotpink;
 }
+
 .boxes .box:nth-child(9) {
     background-color: indigo;
 }
