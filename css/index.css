@@ -162,7 +162,7 @@ p {
 
 .middle-content-container{
     width: 370px;
-    height: 420px;
+    height: 425px;
     border-bottom: 1px dashed black;
 }
 
@@ -175,7 +175,7 @@ p {
 }
 
 .middle-content-container p{
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 .middle-content-container a{
