@@ -148,7 +148,7 @@ footer nav a {
 
 /* My CSS starts here */
 
-/* Header CSS */
+/* Header */
 
 .nav-bar {
     display: flex;
@@ -174,7 +174,7 @@ footer nav a {
     margin: 30px 0px;
 }
 
-/* Box CSS */
+/* Box Colors */
 
 #box1 
     {
@@ -217,3 +217,4 @@ footer nav a {
     background: dodgerblue;
 }
 
+/* About Page */
