@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -169,47 +169,47 @@ a {
     margin-right: 70px;
 }
 
-.jumbo {
+.jumbo-about {
     display: flex;
     margin: 20px 0px 20px 39px;
 }
 
-.box1 {
-    background: teal;
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.box2 {
-    background: gold;
+.about-page-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 1px dashed black;
+    margin-top: 20px;
 }
 
-.box3 {
-    background: cadetblue;
+.strategy {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 20px;
+    border-bottom: 1px dashed black;
 }
 
-.box4 {
-    background: coral;
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px 0px;
 }
 
-.box5 {
-    background: crimson;
+h1 {
+    margin-top: 15px;
 }
 
-.box6 {
-    background: forestgreen;
+p {
+    margin: 5x 0px; 
 }
 
-.box7 {
-    background: darkorchid;
-}
-
-.box8 {
-    background: hotpink;
-}
-
-.box9 {
-    background: indigo;
-}
-
-.box10 {
-    background: dodgerblue;
+.bottom-text {
+    margin-bottom: 40px;
 }
