@@ -200,3 +200,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE */
+
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
