@@ -164,13 +164,21 @@ p {
     width: 800px;
     margin: 20px auto;
     align-items: center;
-    justify-content:
+    margin-bottom: 0px;
+}
+.total-head{
+    display: flex;
+    flex-direction: column;
+}
+
+.head-container .img{
+    margin:10px 0px;
 }
 
 .head-container nav {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -181,13 +189,10 @@ header nav a {
     color: black;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
-}
-
-.container img {
-    margin: 25px 0px;
 }
 
 .top-content {
@@ -302,4 +307,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-page{
+    display:flex;
+    flex-direction: column;
+
+}
+.about-head{
+    width: 100%;
+    margin: 15px 0;
+    margin-top:0px;
+    padding: 15px 20px;
+    border-bottom:2px dotted black;
+}
+.main-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.strategy, .how, .places, .collaboration{
+    border-bottom: 2px dotted black;
+    width: 45%;
+    padding: 15px 0px;
+    
+}
+nav a:hover{
+    background:black;
+    color:white;
+}
+button{
+    width: 38%;
+    height: 10%;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    margin:22px 0;
+    border:2px solid black;
+}
+ button:hover{
+    background:black;
+    color:white;
+}
+.bottom-con{
+    margin:30px 10px;
+
 }
