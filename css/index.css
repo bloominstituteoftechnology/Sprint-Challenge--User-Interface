@@ -65,10 +65,34 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.head-container{
+    display:flex;
+    width: 800px;
+    margin:20px auto;
+    align-items: center;
+    justify-content: 
+    
+}
+.head-container nav{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    
+    
+}
+header nav a{
+text-decoration: none;
+color: black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.container img{
+    margin: 25px 0px;
 }
 
 .top-content {
