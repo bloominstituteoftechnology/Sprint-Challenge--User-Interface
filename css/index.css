@@ -151,6 +151,39 @@ header .logo {
     justify-content: center;
 }
 
+/* Box colors */
+
+#box-one {
+    background: teal;
+}
+#box-two {
+    background: gold;
+}
+#box-three {
+    background: cadetblue;
+}
+#box-four {
+    background: coral;
+}
+#box-five {
+    background: crimson;
+}
+#box-six {
+    background: forestgreen;
+}
+#box-seven {
+    background: darkorchid;
+}
+#box-eight {
+    background: hotpink;
+}
+#box-nine {
+    background: indigo;
+}
+#box-ten {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
