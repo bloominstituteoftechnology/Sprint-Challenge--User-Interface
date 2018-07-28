@@ -241,6 +241,20 @@ header .logo {
     padding-right: 0;
 }
 
+/* Product page */
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.product-block{
+    width: 200px;
+    border: 1px dashed black;
+}
+
+/* End product page */
 footer {
     width: 100%;
     background: black;
