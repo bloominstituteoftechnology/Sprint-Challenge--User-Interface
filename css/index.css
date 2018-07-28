@@ -158,3 +158,38 @@ header nav{
 	text-decoration: none;
 
 }
+
+.traffic{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+/*Box Colors*/
+
+#teal{
+	background-color: teal;
+}
+#gold{
+	background-color: gold;
+}
+#cadetblue{
+	background-color: cadetblue;
+}
+#coral{
+	background-color: coral;
+}
+#crimson{
+	background-color: forestgreen;
+}
+#darkorchid{
+	background-color: darkorchid;
+}
+#hotpink{
+	background-color: hotpink;
+}
+#indigo{
+	background-color: indigo;
+}
+#dodgerblue{
+	background-color: dodgerblue;
+}
