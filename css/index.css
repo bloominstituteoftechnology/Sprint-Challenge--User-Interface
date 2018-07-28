@@ -274,3 +274,52 @@ hr {
     font-weight: bold; 
 }
 
+.jumboImg.contact{
+    height: 200px;  
+}
+
+.contactForm{
+    margin: 0px auto 40px auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    width: 80%; 
+    border-radius: 15px; 
+    justify-content: center; 
+    border: 2px solid black; 
+    align-items: center;  
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9); 
+}
+
+
+.contactForm h1{
+    width: 100%; 
+    text-align: center; 
+    padding: 20px; 
+    text-decoration: underline; 
+    font-size: 25px; 
+}
+
+input{
+    margin-bottom: 20px; 
+}
+
+label{
+    margin-bottom: 5px; 
+}
+
+textarea{
+    width: 80%; 
+    height: 200px; 
+    overflow: hidden; 
+    margin-bottom: 30px; 
+}
+button{
+    width: 100px; 
+    margin-bottom: 30px; 
+    }
+
+input:placeholder{
+    margin: auto;   
+}
