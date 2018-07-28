@@ -69,7 +69,29 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 2px solid red;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#header-accent {
+    margin: 20px auto;
 }
 
 .top-content {
@@ -111,6 +133,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1n) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2n) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3n) {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4n) {
+    background-color:coral;
+}
+
+.middle-content .boxes .box:nth-child(5n) {
+    background-color:crimson;
+}
+
+.middle-content .boxes .box:nth-child(6n) {
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7n) {
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8n) {
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9n) {
+    background-color:indigo;
+}
+
+.middle-content .boxes .box:nth-child(10n) {
+    background-color:dodgerblue;
 }
 
 .bottom-content {
