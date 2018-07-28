@@ -125,12 +125,51 @@ header nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.b1 {
+    background: teal;
+}
+
+.b2 {
+    background: gold;
+}
+
+.b3 {
+    background: cadetblue;
+}
+
+.b4 {
+    background: coral;
+}
+
+.b5 {
+    background: crimson;
+}
+
+.b6 {
+    background: forestgreen;
+}
+
+.b7 {
+    background: darkorchid;
+}
+
+.b8 {
+    background: hotpink;
+}
+
+.b9 {
+    background: indigo;
+}
+
+.b10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
