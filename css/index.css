@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    /* position: fixed;
+    background-color: whitesmoke; */
+}
+
+header nav {
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+header nav a {
+    font-size: 14px;
+    text-decoration: none;
+    flex-direction: row;
+    margin-right: 55px; 
+    color: black;
+    padding: 10px;
+}
+
+header nav a:hover {
+    color: grey;
+}
+
+header .logo {
+    margin-right: 44px;
+    margin-top: 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,10 +108,24 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .jumbo-img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container h2 {
+    font-size: 20px; 
+}
+
+.top-content .text-container p {
+    font-size: 14px; 
 }
 
 .middle-content {
@@ -112,6 +155,50 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:hover {
+    color: black;
+}
+
+.middle-content .boxes #box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes #box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes #box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes #box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes #box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes #box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes #box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes #box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes #box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes #box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -122,8 +209,127 @@ p {
     padding-right: 4%;
 }
 
+.bottom-content .text-container h2 {
+    font-size: 20px;
+}
+
+.bottom-content .text-container p {
+    font-size: 14px;
+}
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content .about-header-img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.about-content .text-muted {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.main-content .top-content {
+    display: flex;
+}
+
+.main-content .top-content .box {
+    width: 365px;
+    margin-right: 34px;
+}
+
+.main-content .top-content .box img {
+    animation: shake 0.5s; 
+}
+
+.main-content .top-content .box img:hover {
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.main-content .top-content .box button {
+	border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 100px;
+    height: 35px;
+	cursor: pointer;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.main-content .top-content .box button:hover {
+	color: gray;
+} 
+
+.about-info .bottom-text p {
+    margin-bottom: 20px;
+}
+
+.row h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.row input {
+    width: 650px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.row textarea {
+    width: 650px;
+    height: 150px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.row button {
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.row button:hover {
+    color: gray;
+    cursor: pointer;
 }
 
 footer {
@@ -143,4 +349,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: grey;
 }
