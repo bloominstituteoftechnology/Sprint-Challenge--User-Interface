@@ -235,7 +235,7 @@ footer nav a {
 
 .mid-about-content .about-box {
     /* border: 1px solid indigo; */
-    width: 380px;
+    width: 370px;
     border-bottom: 1px dashed black;
 }
 
@@ -249,10 +249,20 @@ footer nav a {
 
 .about-box button {
     font-size: 18px;
-    border: 1px solid black;
+    border: 2px solid black;
     radius: 25%;
-    width: 30%;
-    height: 10%;
+    width: 33%;
+    height: 8%;
     margin: 20px 0 40px 5px;
     border-radius: 5px;
 }
+
+.bottom-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-box .space {
+    margin: 55px 0 0 0;
+}
+    
