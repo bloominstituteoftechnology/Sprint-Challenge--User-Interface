@@ -6,3 +6,5 @@
 3. Starting from the interior: Content, Padding, Border & Margin.
 
 4. We are using the cross-axis.
+
+5. git commit -am "Lorem ipsum"
