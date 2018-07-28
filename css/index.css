@@ -168,7 +168,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0px;
+    margin: 15px 0px;
     font-size: 14px;
 }
 
@@ -179,6 +179,11 @@ p {
 .top-nav a {
     text-decoration: none;
     color: inherit;
+    padding-right: 50px;
+}
+
+a:hover {
+    color: dodgerblue;
 }
 
 .top-nav a:last-child {
@@ -302,4 +307,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
+
+.main-content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.main-block {
+    width: 380px;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+}
+
+.main-block h1 {
+    padding-top: 10px;
+
+}
+
+.main-block p {
+    padding-bottom: 15px;
+}
+
+.main-block button {
+    padding: 6px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 12px;
+}
+
+.end-content {
+    margin-bottom: 20px;
+    padding-left: 20px;
 }
