@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+nav {
+	display: flex;
+	flex-direction: row;
+	width: 880px;	
+}
+
+.logo {
+    height: 40px;
+}
+.top-img {
+    width: 880px;
+    margin-bottom: 25px;
+}
+
+ul {
+	display: flex;
+    justify-content: space-around;
+    padding-right: 55px;
+    width: 880px;
+}
+
+.pagenav {
+	display: flex;
+	width: 116px;
+	padding: 25px;
+    justify-content: center;
+    text-decoration: none;
+    text-decoration-color: black;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
