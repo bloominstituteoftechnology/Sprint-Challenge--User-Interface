@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+header {
+    margin-bottom: 15px;
+}
+
+.jumbo {
+    margin: 30px 0px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navBar{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+li {
+    display: inline;
+    margin: 30px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +165,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box {
+    background-color: dodgerblue;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
 }
