@@ -148,6 +148,8 @@ footer nav a {
 
 /*My Content Added Here*/
 
+/*INDEX PAGE CSS HERE*/
+
 .index-header {
     margin: 20px 0 30px;
 }
@@ -167,9 +169,8 @@ footer nav a {
     padding-right: 50px;
 }
 
-.lambda-nav .lambda-nav-item {
-    /* flex: 1 1 auto; */
-}
+
+
 
 .middle-content .boxes .box:nth-of-type(1){
     background: teal;
@@ -201,3 +202,16 @@ footer nav a {
 .middle-content .boxes .box:nth-of-type(10){
     background: dodgerblue;
 }
+
+/* ABOUT PAGE CSS HERE */
+
+.about-header {
+    margin: 20px 0 30px;
+}
+
+.header-message {
+    padding: 15px;
+    border-bottom: 1px dashed #000;
+}
+
+
