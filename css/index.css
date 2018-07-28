@@ -70,7 +70,65 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.lambda-logo {
+    margin: 0 0 5% 0;
+    display: flex; 
 
+    /* justify-content: flex-start; */
+}
+.lambda-logo .top-nav {
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.container .top-nav a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dash {
+    border: 1px dashed black;
+}
+.about {
+    margin: 3% 0 5% 5%;
+}
+.top-img {
+    margin-bottom: 5%;
+    display: flex;
+}
+.content {
+    margin-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.content .plan-strategy {
+    margin: 3% 0 0 3%;  
+    width: 370px;
+    border-bottom: 1px dashed black;
+}
+.content .strategy-button a:hover {
+    background: black;
+}
+
+.content .how-work {
+    margin: 3% 0 0 3%; 
+    width: 370px;
+    border-bottom: 1px dashed black;
+     
+}
+.content .office-work {
+    margin: 3% 0 0 3%; 
+    width: 370px;
+    border-bottom: 1px dashed black;
+}
+.content .meeting-collab {
+    margin: 3% 0 0 3%; 
+    width: 370px;
+    border-bottom: 1px dashed black;
+}  
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +169,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes #box1 {
+    background: teal;
+}
+.middle-content .boxes #box2 {
+    background: gold;
+}
+.middle-content .boxes #box3 {
+    background: cadetblue;
+}
+.middle-content .boxes #box4 {
+    background: coral;
+}
+.middle-content .boxes #box5 {
+    background: crimson;
+}
+.middle-content .boxes #box6 {
+    background: forestgreen;
+}
+.middle-content .boxes #box7 {
+    background: darkorchid;
+}
+.middle-content .boxes #box8 {
+    background: hotpink;
+}
+.middle-content .boxes #box9 {
+    background: indigo;
+}
+.middle-content .boxes #box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
