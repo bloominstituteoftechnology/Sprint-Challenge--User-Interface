@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -103,7 +103,7 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 150px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -148,15 +148,30 @@ footer nav a {
 /* ----------------------------- SPRINT CSS ----------------------------- */
 
 /* ----------------------- HOME PAGE ----------------------- */
-
+nav{
+	width: 1200px;
+	margin: 0 auto;
+}
 nav ul {
 	display: flex;
 	 padding: 10px 15px 25px 15px;
-	justify-content: center;
+	align-items: flex-end;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 li a {
 	text-decoration: none;
+	color: black;
+}
+
+body {
+	margin: 20px;
+}
+
+.container img{
+	margin: 25px 0px;
+
+	width: 1200px;
+	height: auto;
 }
