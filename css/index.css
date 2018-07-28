@@ -91,6 +91,10 @@ header nav a {
     padding: 10px;
 }
 
+header nav a:hover {
+    color: grey;
+}
+
 header .logo {
     margin-right: 44px;
     margin-top: 10px;
@@ -149,6 +153,10 @@ header .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:hover {
+    color: black;
 }
 
 .middle-content .boxes #box1 {
@@ -341,4 +349,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: grey;
 }
