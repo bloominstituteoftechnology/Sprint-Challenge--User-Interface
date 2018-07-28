@@ -66,6 +66,10 @@ p {
     line-height: 1.4;
 }
 
+.header {
+    border: 1px solid red;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +81,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    border: 1px solid limegreen;
 }
 
 .top-content .text-container {
