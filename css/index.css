@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/*Homepage styling section*/
+
 p {
     line-height: 1.4;
 }
@@ -70,6 +72,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+.home-header{
+    display: flex;
+    justify-content:space-between;
+   
+    
+  }
+  
+  
+  .home-nav{
+  background-color: grey;
+  width: 880px;
+  justify-content: space-evenly;  
+    
+  }
 
 .top-content {
     display: flex;
@@ -84,6 +101,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +129,50 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*Box background styling*/
+
+.box-1{
+    background-color: teal;
+}
+
+.box-2{
+    background-color: gold;
+}
+
+.box-3{
+    background-color: cadetblue;
+}
+
+.box-4{
+    background-color: coral;
+}
+
+.box-5{
+    background-color: crimson;
+}
+
+.box-6{
+    background-color: forestgreen;
+}
+
+.box-7{
+    background-color: darkorchid;
+}
+
+.box-8{
+    background-color: hotpink;
+}
+
+.box-9{
+    background-color: indigo;
+}
+
+.box-10{
+    background-color: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +205,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page styling section*/
+
+.section-about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed black;
+    height:880px;
+}
+
+.strategy{
+
+    border-bottom: 1px dashed black;
+}
+
+.how-we-work{
+    border-bottom: 1px dashed black;
+}
+
+.places-we-work{
+    border-bottom: 1px dashed black;
+}
+
+.collaboration{
+    border-bottom: 1px dashed black;
 }
