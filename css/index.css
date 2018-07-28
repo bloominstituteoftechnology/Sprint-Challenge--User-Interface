@@ -149,16 +149,26 @@ footer nav a {
 /*My Content Added Here*/
 
 .index-header {
-    display: flex;
-    flex-direction: row;
+    margin: 20px 0 30px;
 }
 
-.lambda-nav a {
+.lambda-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lambda-nav-item {
     text-decoration: none;
+    color: #000;
+}
+
+.lambda-nav-item:last-child {
+    padding-right: 50px;
 }
 
 .lambda-nav .lambda-nav-item {
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
 }
 
 .middle-content .boxes .box:nth-of-type(1){
