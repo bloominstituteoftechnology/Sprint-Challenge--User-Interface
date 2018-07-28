@@ -52,8 +52,13 @@ table {
 }
 
 html, body {
-    height: 100%;
+    width: 1000px;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px auto;
+    border: 1px solid black;
 }
 
 /* NEW CODE HERE ***************************/
@@ -61,7 +66,7 @@ html, body {
     border: 1px solid pink;
     display: flex;
     align-items: flex-end;
-
+    padding: 0px 10%;
 }
 
 #LambdaLOGO {
@@ -80,9 +85,17 @@ a {
     padding: 20px;
     margin-bottom: -20px;
     text-decoration: none;
+    color: black;
 }
 
+#jumboIMG {
+    border: 10px solid green;
+    width: 100%;
+}
 
+.box_01{
+    background-color: teal;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -132,12 +145,48 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box_02{
+    background: gold;
+}
+
+#box_03{
+    background: cadetblue;
+}
+
+#box_04{
+    background: coral;
+}
+
+#box_05{
+    background: crimson;
+}
+
+#box_06{
+    background: forestgreen;
+}
+
+#box_07{
+    background: darkorchid;
+}
+
+#box_08{
+    background: hotpink;
+}
+
+#box_09{
+    background: indigo;
+}
+
+#box_010{
+    background: coral;
 }
 
 .bottom-content {
