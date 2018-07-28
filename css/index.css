@@ -144,3 +144,66 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 275px;
+}
+
+header .logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .logo-nav nav {
+    display: flex;
+    justify-content: space-around;
+    width: 680px;
+}
+
+header .logo-nav nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxes .box.box1{
+    background-color: teal;
+}
+
+.boxes .box.box2{
+    background-color: gold;
+}
+
+.boxes .box.box3{
+    background-color: cadetblue;
+}
+
+.boxes .box.box4{
+    background-color: coral;
+}
+
+.boxes .box.box5{
+    background-color: crimson;
+}
+
+.boxes .box.box6{
+    background-color: forestgreen;
+}
+
+.boxes .box.box7{
+    background-color: darkorchid;
+}
+
+.boxes .box.box8{
+    background-color: hotpink;
+}
+
+.boxes .box.box9{
+    background-color: indigo;
+}
+
+.boxes .box.box10{
+    background-color: dodgerblue;
+}
