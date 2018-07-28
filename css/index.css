@@ -141,6 +141,31 @@ a {
     justify-content: center;
 }
 
+.about-box {
+    width: 45%;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-box img {
+    width: 100%;
+}
+
+.about-box h2 {
+    padding-left: 0px;
+    margin: 10px auto 10px 0px;
+}
+
+.about-box .btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 20px 0px;
+}
+
 .middle-content .boxes .box:nth-child(1n) {
     background-color: teal;
 }
