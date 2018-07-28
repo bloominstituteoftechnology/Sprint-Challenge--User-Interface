@@ -128,6 +128,8 @@ table {
   border-spacing: 0;
 }
 
+/* CSS reset above */
+
 * {
   box-sizing: border-box;
 }
@@ -137,79 +139,43 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
 }
-
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-size: 18px;
+  font-size: 25px;
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
-
 p {
+  font-size: 20px;
   line-height: 1.4;
 }
-
 .container {
   width: 800px;
   margin: 0 auto;
 }
 
-.top-content {
+.navbar {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-
-  margin-top: 40px;
-}
-
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
-}
-
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.middle-content .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
+  width: 800px;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   justify-content: space-around;
+  align-items: flex-end;
 }
 
-.bottom-content .text-container {
-  padding-right: 4%;
+body {
+  width: 800px;
+  margin: 0px auto;
 }
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
+.navbar a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  font-size: 20px;
 }
 
 footer {
@@ -227,58 +193,53 @@ footer nav {
 }
 
 footer nav a {
+  font-size: 17px;
   color: white;
   text-decoration: none;
 }
 
-body {
-  width: 800px;
-  margin: 0px auto;
-}
-.navbar {
-  display: flex;
-  width: 800px;
-  height: 60px;
-  margin-top: 30px;
-  margin-bottom: 40px;
-  justify-content: space-around;
-  align-items: flex-end;
+.about-section {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted black;
+  margin-bottom: 20px;
 }
 
-.navbar a {
+.middle-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.middle-container img {
+  margin-bottom: 10px;
+}
+
+.middle-container {
+  width: 370px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted black;
+}
+
+.middle-container p {
+  margin-bottom: 15px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.button a {
   text-decoration: none;
   color: black;
-  display: flex;
-  font-size: 20px;
 }
 
-.box:first-of-type {
-  background-color: teal;
-}
-.box:nth-of-type(2) {
-  background-color: gold;
-}
-.box:nth-of-type(3) {
-  background-color: cadetblue;
-}
-.box:nth-of-type(4) {
-  background-color: coral;
-}
-.box:nth-of-type(5) {
-  background-color: crimson;
-}
-.box:nth-of-type(6) {
-  background-color: forestgreen;
-}
-.box:nth-of-type(7) {
-  background-color: darkorchid;
-}
-.box:nth-of-type(8) {
-  background-color: hotpink;
-}
-.box:nth-of-type(9) {
-  background-color: indigo;
-}
-.box:nth-of-type(10) {
-  background-color: dodgerblue;
+.bottom-section {
+  margin-bottom: 30px;
 }
