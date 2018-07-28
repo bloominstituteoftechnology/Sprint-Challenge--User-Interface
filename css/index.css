@@ -210,3 +210,57 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Specific styling for about page begins here */
+
+.about {
+    border-bottom: 1px dashed black;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+}
+
+.about h3, .about p, .together {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-box h3 {
+    padding-top: 12px;
+}
+
+.about-box p {
+    padding-bottom: 12px;
+}
+
+.about-box .btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 20px;
+    transition: .25s;
+}
+
+.about-box .btn:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.together {
+    margin-bottom: 20px;
+}
