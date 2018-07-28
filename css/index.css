@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.logo{
+    display: flex;
+    width: 30%;
+    margin-top: 25px;
+    justify-content: flex-start;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    align-content: flex-end;
+}
+
+.header nav a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.head-img{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +139,86 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: black; 
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* This doesn't make sense, should inherit - something missing 
+Due to assignment deadline time doing it this way 
+Refactor if there is time.
+
+.teal{
+    display: block;
+    background: teal;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+Colors should be more like 
+
+.gold{
+    flex: inherit;
+    background-color: gold;
+}
+
+and the rest should inherit
+*/
+
+/* SOLUTION FOUND!! */
+.middle-content .boxes .box *{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.teal{
+    background: teal;
+}
+
+.gold{
+    background: gold;
+}
+
+.cadetblue{
+    background: cadetblue;
+}
+
+.coral{
+    background: coral;
+}
+
+.crimson{
+    background: crimson;
+}
+
+.forestgreen{
+    background: forestgreen;
+}
+
+.darkorchid{
+    background: darkorchid;
+}
+
+.hotpink{
+    background: hotpink;
+}
+
+.indigo{
+    background: indigo;
+}
+
+.dodgerblue{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +252,52 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+p{
+    text-align: justify;
+}
+
+.twoLayout{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.twoContainer{
+    /* background: red; */
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black;
+    /* margin-right: 5px; */
+}
+
+.twoContainer img{
+    margin-bottom: 15px;
+}
+
+.twoContainer p{
+    margin-bottom: 15px;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 15px;
+    display: inline;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
 }
