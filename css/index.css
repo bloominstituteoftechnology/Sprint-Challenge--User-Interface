@@ -76,6 +76,7 @@ p {
     height: 60px;
     width: 175px;
     /* border: 1px solid red; */
+    padding: 10px 0 0 0;
 }
 
 .header nav {
@@ -109,8 +110,19 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
 .top-content .text-container {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-content .text-container {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -212,4 +224,16 @@ footer nav a {
     width: 800px;
     margin: 0 auto;
     border: 1px solid green;
+}
+
+.mid-about-content {
+    border: 2px solid dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mid-about-content .about-box {
+    border: 1px solid indigo;
+    width: 50%;
 }
