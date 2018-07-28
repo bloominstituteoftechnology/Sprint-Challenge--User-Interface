@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 640px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-img {
+    margin: 20px 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +125,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.b1 {
+    background: teal;
+}
+
+.b2 {
+    background: gold;
+}
+
+.b3 {
+    background: cadetblue;
+}
+
+.b4 {
+    background: coral;
+}
+
+.b5 {
+    background: crimson;
+}
+
+.b6 {
+    background: forestgreen;
+}
+
+.b7 {
+    background: darkorchid;
+}
+
+.b8 {
+    background: hotpink;
+}
+
+.b9 {
+    background: indigo;
+}
+
+.b10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +203,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* specific css for about page */
+
+.about {
+    border-bottom: 1px dashed black;
+    padding: 15px;
+}
+
+.middle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle-container section {
+    width: 370px;
+    margin: 30px 0;
+    border-bottom: 1px dashed black;
+}
+
+.middle-container section h3, p {
+    margin: 15px 0;
+}
+
+.middle-container section .learn-more {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+    width: 130px;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.work-together {
+    padding: 20px;
 }
