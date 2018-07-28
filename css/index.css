@@ -70,12 +70,40 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
 
+header nav {
+    display: flex;
+    width: 65%;
+    justify-content: space-around;
+        
+      }
+      header nav a {
+        display: flex;
+        margin-right: 65px;
+        font-size: 18px;
+        color: rgb(15, 15, 15);
+        text-decoration: none;
+        justify-content: center
+        }
+      
+      header nav a:hover {
+        text-decoration: underline;
+        color: rgb(226, 13, 155);
+        transform: skew(-13deg);
+    }
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    
     border-bottom: 1px dashed black;
 }
 
@@ -83,6 +111,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 30px;
 }
 
 .middle-content {
@@ -104,12 +133,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: red;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +213,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About page*/
+
+.about-top {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top .text-container {
+    padding: 0 1%;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
+.about-middle {
+    margin-top: 25px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.about-middle .text-container {
+    padding: 0 1%;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
+.about-middle .about-content .about-block {
+    width: 48%;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed black;
+    margin-top: 15px;
+}
+
+.about-bottom .text-container {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+button {
+    background: white;
+    border-radius: 7px;
+    margin-top: 15px;
+    width: 32%;
+    border-width: 2px;
+    border-color: black;
+    padding: 5px;
+}
+
