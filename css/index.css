@@ -73,37 +73,37 @@ p {
     flex-direction: column;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    width: 800px;
-    height: 60px;
-    margin-bottom: 15px;
-}
+    header {
+        display: flex;
+        align-items: center;
+        width: 800px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
 
-#logo {
-    width: 120px;
-    align-self: flex-start;
-}
+    #logo {
+        width: 120px;
+        align-self: flex-start;
+    }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-}
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    font-size: 10px;
-    color: black;
-    width:100%;
-}
+    nav {
+        display: flex;
+        justify-content: space-around;
+        font-size: 10px;
+        color: black;
+        width:100%;
+    }
 
-#jumbo {
-    width: 800px;
-    margin-bottom: 20px;
-}
+    #jumbo {
+        width: 800px;
+        margin-bottom: 20px;
+    }
 
 .top-content {
     display: flex;
@@ -123,6 +123,46 @@ nav {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+    #box1 {
+        background: teal;
+    }
+
+    #box2 {
+        background: gold;
+    }
+
+    #box3 {
+        background: cadetblue;
+    }
+
+    #box4 {
+        background: coral;
+    }
+
+    #box5 {
+        background: crimson;
+    }
+
+    #box6 {
+        background: forestgreen;
+    }
+
+    #box7 {
+        background: darkorchid;
+    }
+
+    #box8 {
+        background: hotpink;
+    }
+
+    #box9 {
+        background: indigo;
+    }
+
+    #box10 {
+        background: dodgerblue;
+    }
 
 .middle-content h2 {
     padding: 0 2%;
