@@ -1,0 +1,5 @@
+Semantic HTML is HTML with tags that have meaning in their name alone. These tags provide information on what they contain instead of just containing it. For instance, instead of putting your links in a <div> you can put them in a <nav>. Inside the div they are just links but inside the nav tag they are navagation links. 
+An element with it's display set to block simply takes up the whole width avaiable on a new line and unless forced to with other css it will not have another element next to it. An element set to inline won't start on a new line and will allow other inline elements next to it. It also will only take up as much width as necessary. 
+The four areas of the box model are margin, padding, border, and content. 
+With align-items: center you are using the cross-axis
+To commit staged changes and write a message you use "git commit -m" 

@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 30px 0px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+.under-nav{
+    margin: 10px 0px 20px 0px;
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +134,26 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.middle-content .boxes .about-box {
+    width: 48%;
+    height: 400px;
+    border-bottom: 2px dotted black;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+button{
+    border-radius: 15px;
+    padding: 10px 30px;
+    border-color: black;
+    background-color: white; 
 }
 
 .bottom-content {
@@ -125,6 +169,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
 
 footer {
     width: 100%;
@@ -143,4 +188,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
 }
