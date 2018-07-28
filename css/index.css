@@ -212,3 +212,25 @@ nav a {
 .box10 {
     background-color: dodgerblue
 }
+
+a:hover {
+    background-color: yellow;
+    font-color: black;
+}
+
+.logo {
+    -webkit-animaton: myAnimation 5s infinite;
+    animation: myAnimation 5s infinite;
+}
+
+@-webkit-keyframes myAnimation {
+    50% {
+        background-color: red;
+    }
+}
+
+@keyframes myAnimation {
+    50% {
+        background-color: red;
+    }
+}
