@@ -4,3 +4,5 @@
     Block: displays an element on a new line taking up the entire width of a page. They block out other elements.
 
 3. Starting from the interior: Content, Padding, Border & Margin.
+
+4. We are using the cross-axis.
