@@ -163,7 +163,7 @@ footer nav a {
 .lambda-nav-item {
     text-decoration: none;
     color: #000;
-
+    transition: font-weight .2s linear;
 }
 
 .lambda-nav-item:hover {
