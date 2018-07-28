@@ -71,6 +71,92 @@ p {
     margin: 0 auto;
 }
 
+/* BEGINNING OF NAVIGATION AREA
+
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 140px;
+    
+		
+}
+
+/*
+#navbar {
+	display: flex;
+	overflow: hidden;
+	position: fixed;
+    background-color: whitesmoke;
+    margin-top: 0px;
+	
+  }
+
+  */
+
+/* BEGGINING OF LOGO */
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px
+    
+}
+
+/* END OF LOGO */
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+	color: rgb(185, 169, 169);
+    width: 800px;
+    font-size: 13px;
+   
+}
+
+nav a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: gray;
+}
+
+
+.navigation a:hover {
+	background-color: gray;
+	color: black;
+	transition: 0.5s;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+}
+
+/* END OR NAVIGATION AREA */
+
+
+/*BEGINNING OF HEADER AREA */
+
+.header-image img {
+    margin: 30px 0px 25px 0px;
+}
+/* END OF HEADER  AREA*/
+
+/* BEGINNING OF TOP CONTENT */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +170,10 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* END OF TOP CONTENT */
+
+/* BEGINNING OF MIDDLE CONTENT */
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,6 +191,8 @@ p {
     justify-content: space-evenly;
 }
 
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,6 +203,59 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* END OF MIDDLE CONTENT */
+
+/* BEGINNING OF BOX STYLING */
+
+div.boxes #box1 {
+   background-color: teal;
+}
+
+div.boxes #box2 {
+    background-color: gold;
+ }
+
+ div.boxes #box3 {
+    background-color: cadetblue;
+ }
+
+ div.boxes #box4 {
+    background-color: coral;
+ }
+
+ div.boxes #box5 {
+    background-color: crimson;
+ }
+
+ div.boxes #box6 {
+    background-color: forestgreen;
+ }
+
+ div.boxes #box7 {
+    background-color: darkorchid;
+ }
+
+ div.boxes #box8 {
+    background-color: hotpink;
+ }
+
+ div.boxes #box9 {
+    background-color: indigo;
+ }
+
+ div.boxes #box10 {
+    background-color: dodgerblue;
+ }
+
+
+
+
+
+
+/* END OF BOX STYLING */
+
+/* BEGINNING OF BOTTOM CONTENT */
 
 .bottom-content {
     display: flex;
@@ -125,6 +270,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* END OF BOTTOM CONTENT */
+
+/* BEGINNING OF FOOTER AREA */
 
 footer {
     width: 100%;
@@ -144,3 +293,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* END OF FOOTER AREA */
