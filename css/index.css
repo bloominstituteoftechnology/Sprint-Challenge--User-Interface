@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +143,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-wrap: wrap;
+}
+
+header nav a{
+color:black;
+text-decoration:none;
+margin-left:40px;
+margin-right:40px;
+}
+.headerimg{
+    width:60%;
+    display:flex;
+    justify-content:flex-start;
+    margin-top:20px;
+    margin-bottom:20px;
 }
