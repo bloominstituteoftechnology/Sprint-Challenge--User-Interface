@@ -56,7 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, section.about div.button a {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    padding: 35px 0px 25px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +97,12 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .about-container {
+    width: 97%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -112,10 +134,97 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+/* I wouldn't normally have two different ways of doing the same list of things, but to demonstrate that it can be done both ways */
+
+.boxes .box.box6 {
+    background: forestgreen;
+}
+
+.boxes .box.box7 {
+    background: darkorchid;
+}
+
+.boxes .box.box8 {
+    background: hotpink;
+}
+
+.boxes .box.box9 {
+    background: indigo;
+}
+
+.boxes .box.box10 {
+    background: dodgerblue;
+}
+
+content.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+section.about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+section.about div.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.about div.button:hover,section.about div.button a:hover {
+    background: black;
+    color: white;
+}
+
+section.about div.button a {
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
+section.about img {
+    margin: 10px 0px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+.bottom-content .about-container {
+    margin-bottom: 20px;
 }
 
 .bottom-content .text-container {
