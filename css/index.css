@@ -144,3 +144,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.Head {
+    display: flex;
+    justify-content: center;
+}
+
+.MHDiv {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:800px;
+    margin: 20px 0px;
+}
+
+.Image {
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .box.one {
+    background:teal;
+}
+
+.middle-content .boxes .box.two {
+    background:gold;
+}
+
+.middle-content .boxes .box.three {
+    background:cadetblue;
+}
+
+.middle-content .boxes .box.four {
+    background:coral;
+}
+
+.middle-content .boxes .box.five {
+    background:crimson;
+}
+
+.middle-content .boxes .box.six {
+    background:forestgreen;
+}
+
+.middle-content .boxes .box.seven {
+    background:darkorchid;
+}
+
+.middle-content .boxes .box.eight {
+    background:hotpink;
+}
+
+.middle-content .boxes .box.nine {
+    background:indigo;
+}
+
+.middle-content .boxes .box.ten {
+    background:dodgerblue;
+}
