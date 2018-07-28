@@ -191,7 +191,6 @@ p {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -252,4 +251,35 @@ body {
   color: black;
   display: flex;
   font-size: 20px;
+}
+
+.box:first-of-type {
+  background-color: teal;
+}
+.box:nth-of-type(2) {
+  background-color: gold;
+}
+.box:nth-of-type(3) {
+  background-color: cadetblue;
+}
+.box:nth-of-type(4) {
+  background-color: coral;
+}
+.box:nth-of-type(5) {
+  background-color: crimson;
+}
+.box:nth-of-type(6) {
+  background-color: forestgreen;
+}
+.box:nth-of-type(7) {
+  background-color: darkorchid;
+}
+.box:nth-of-type(8) {
+  background-color: hotpink;
+}
+.box:nth-of-type(9) {
+  background-color: indigo;
+}
+.box:nth-of-type(10) {
+  background-color: dodgerblue;
 }
