@@ -212,6 +212,10 @@ a {
     justify-content: space-around;
 }
 
+.about-bottom {
+    margin: 50px 20px;
+}
+
 .bottom-content .text-container {
     padding-right: 4%;
 }
