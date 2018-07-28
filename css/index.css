@@ -81,12 +81,14 @@ nav {
     display: flex;
     flex: 1;
     justify-content: space-around;
+    
 }
 
 nav a {
     text-decoration: none;
     color: black;
     font-size: 14px;
+    transition: .5s;
 }
 
 nav a:hover {
@@ -130,12 +132,13 @@ nav a:hover {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 500ms;
 }
 
 .middle-content .boxes .box:nth-of-type(1) {
@@ -176,6 +179,10 @@ nav a:hover {
 
 .middle-content .boxes .box:nth-of-type(10) {
     background: dodgerblue;
+}
+
+.middle-content .boxes .box:hover {
+    background: black; 
 }
 
 .bottom-content {
