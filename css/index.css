@@ -148,34 +148,34 @@ header nav a{
 }
 
 /***************************** Part 2 task one *************************/
-.middle-content .boxes .box.teal{
+.middle-content .boxes .box:nth-child(1){
     background-color:teal;
 }
-.middle-content .boxes .box.gold{
+.middle-content .boxes .box:nth-child(2){
     background-color:gold;
 }
-.middle-content .boxes .box.cadetblue{
+.middle-content .boxes .box:nth-child(3){
     background-color:cadetblue;
 }
-.middle-content .boxes .box.coral{
+.middle-content .boxes .box:nth-child(4){
     background-color:coral;
 }
-.middle-content .boxes .box.crimson{
+.middle-content .boxes .box:nth-child(5){
     background-color:crimson;
 }
-.middle-content .boxes .box.forestgreen{
+.middle-content .boxes .box:nth-child(6){
     background-color:forestgreen;
 }
-.middle-content .boxes .box.darkorchid{
+.middle-content .boxes .box:nth-child(7){
     background-color:darkorchid;
 }
-.middle-content .boxes .box.hotpink{
+.middle-content .boxes .box:nth-child(8){
     background-color:hotpink;
 }
-.middle-content .boxes .box.indigo{
+.middle-content .boxes .box:nth-child(9){
     background-color:indigo;
 }
-.middle-content .boxes .box.dodgerblue{
+.middle-content .boxes .box:nth-child(10){
     background-color:dodgerblue;
 }
 
