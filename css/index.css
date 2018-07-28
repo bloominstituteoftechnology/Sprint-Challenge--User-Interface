@@ -302,3 +302,21 @@ width: 372px;
     width: 760px;
     height: 95px;
 }
+
+/* CONTACT PAGE */
+
+#contact-form {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-form-content{
+    border: 1px solid black;
+    padding: 30px;
+    padding-bottom: 50px;
+    background-color: linen;
+    line-height: 130%;
+}
