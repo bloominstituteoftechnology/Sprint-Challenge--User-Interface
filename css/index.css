@@ -64,6 +64,12 @@ h1, h2, h3, h4, h5 {
 
 /* Main Content */
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Header section */
 
 header {
     display: flex;
@@ -88,10 +94,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
+/* Top Content */
 
 .top-content {
     display: flex;
@@ -106,6 +109,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content */
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -134,6 +140,50 @@ p {
     justify-content: center;
 }
 
+#One {
+    background-color: teal;
+}
+
+#Two {
+    background-color: gold;
+}
+
+#Three {
+    background-color: cadetblue;
+}
+
+#Four {
+    background-color: coral;
+}
+
+#Five {
+    background-color: crimson;
+}
+
+#Six {
+    background-color: forestgreen;
+}
+
+#Seven {
+    background-color: darkorchid;
+}
+
+#Eight {
+    background-color: hotpink;
+}
+
+#Nine {
+    background-color: indigo;
+}
+
+#Ten {
+    background-color: dodgerblue;
+}
+
+
+/* Bottom Content  */
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -147,6 +197,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* Footer Section */
 
 footer {
     width: 100%;
