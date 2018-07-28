@@ -165,6 +165,17 @@ nav a {
     font-weight: bold; 
 }
 
+nav a:hover{
+    font-size: 16px; 
+    transition: 1s; 
+    outline-color: 2px 2px red; 
+    text-shadow:
+    -1px -1px 0, red,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
 .jumboImg{
     width: 100%; 
     margin-bottom: 30px;  
