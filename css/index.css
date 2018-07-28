@@ -66,6 +66,15 @@ p {
     line-height: 1.4;
 }
 
+/* Start main page */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +152,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Box colors */
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
