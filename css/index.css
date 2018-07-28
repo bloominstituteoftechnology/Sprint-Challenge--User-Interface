@@ -103,6 +103,10 @@ header nav a {
     margin-bottom:20px;
     border-bottom: 1px dashed black;
 }
+
+.top-text-about p{
+    margin-bottom:20px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -120,17 +124,23 @@ header nav a {
     justify-content: space-between;
 }
 
+.about-middle-container p {
+    margin:10px 0px;
+}
 .about-topics {
     width: 50%;
 }
+
+
 .about-topics button {
     background-color: white;
-    padding:10px;
+    padding:10px 20px;
     border-radius:25%;
-    border:1px solid black;
+    border:2px solid black;
     margin:10px;
 
 }
+
 .middle-content .about-topics {
     margin-bottom: 20px;
 
@@ -208,6 +218,9 @@ header nav a {
     padding-right: 0;
 }
 
+.about-bottom-content {
+    margin: 20px 0px;
+}
 footer {
     width: 100%;
     background: black;
