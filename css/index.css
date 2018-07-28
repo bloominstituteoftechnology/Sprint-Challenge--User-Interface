@@ -230,16 +230,58 @@ footer nav a {
 
 .top-about-content {
     padding-bottom: 20px;
-    margin-bottom: 40px;
     border-bottom: 1px dashed black;
 }
 
+.top-about-content p {
+    margin: 0px 15px;
+}
 
+.top-about-content h2 {
+    margin: 20px 16px;
 
+}
+
+/* Middle section */
+
+section.about-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0px 16px;
+}
+
+div.about-box {
+    border-bottom: 1px dashed black;
+    height: 415px;
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+button {
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 130px;
+    height: 35px;
+    margin: 15px 0px;
+    font-size: 16px;
+}
 
 
 /* Bottom section */
 
 .bottom-about-content {
-    margin: 40px 0px;
+    margin: 20px 16px;
+}
+
+.bottom-about-content p {
+    margin: 20px 0px 40px 0px;
 }
