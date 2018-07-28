@@ -266,3 +266,38 @@ button:hover {
 .bottom-section {
     padding: 20px 10px;
 }
+
+/* styling for contact.html */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    height: 300px;
+}
+
+.inputs .address .city-st-zip .st-zip input {
+    width: 150px;
+}
+.inputs .address .city-st-zip .st-zip {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    /* justify-content: space-around; */
+}
