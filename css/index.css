@@ -144,3 +144,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* SHANNONS CODE V */
+
+#header {
+	width: 800px;
+	height: 100px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	width: 630px;
+    height: 96px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-button {
+	position: relative;
+	top: 40px;
+	text-decoration: none;
+}
+
+.nav-text {
+	color: black;
+}
+
+.logo {
+    position: relative;
+    top: -10px;
+    width: 157px;
+    height: 40px;
+}
+
+#header-image {
+    width: 800px;
+    height: 155px;
+}
+
+/* BOX COLORS */
