@@ -214,4 +214,33 @@ footer nav a {
     border-bottom: 1px dashed #000;
 }
 
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 0;
+
+}
+
+.about-content div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    border-bottom: 1px dashed #000;
+    padding: 10px 0 15px;
+}
+
+.about-content div h2 {
+    padding-top: 10px;
+}
+
+.about-content div button {
+    margin-top: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px
+}
+
 
