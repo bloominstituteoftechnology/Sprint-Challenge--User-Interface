@@ -168,6 +168,7 @@ header .logo {
 }
 
 .middle-content {
+    padding-bottom: 50px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -307,4 +308,92 @@ footer nav a {
     background: dodgerblue;
 }
 
+#box11 {
+    background: dodgerblue;
+}
+
+#box12 {
+    background: indigo;
+}
+
+#box13 {
+    background: hotpink;
+}
+
+#box14 {
+    background: darkorchid;
+}
+
+#box15 {
+    background: forestgreen;
+}
+
+#box16 {
+    background: crimson;
+}
+
+#box17 {
+    background: coral;
+}
+
+#box18 {
+    background: cadetblue;
+}
+
+#box19 {
+    background: gold;
+}
+
+#box20 {
+    background: teal;
+}
+
 /* Stretch Goals */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .box-front, .box-back {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    color: white;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.box-front, .box-back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* front pane, placed above back */
+.box-front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.box-back {
+	transform: rotateY(180deg);
+}
