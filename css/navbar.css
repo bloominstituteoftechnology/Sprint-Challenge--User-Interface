@@ -1,0 +1,34 @@
+/* header section with navbar */
+header {
+  display: flex;
+  margin: 5% 0;
+}
+header #logo-area {
+  width: 25%;
+}
+header #navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 75%;
+}
+header #navbar nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header #navbar nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+header section {
+  padding: 2% 0;
+}
+/* end of navbar sections */
+/* header img only */
+#header-img {
+  margin: 2% 0;
+  width: 100%;
+}
+/* end header img */
