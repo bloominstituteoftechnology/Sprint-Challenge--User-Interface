@@ -28,9 +28,72 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+main{
+    max-width:800px;
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
 }
+header{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:baseline;
+    margin-top:30px;
+    margin-bottom:40px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    width:630px;
+}
+
+nav a{
+    width:124;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    font-size:14px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+body {
+    line-height: 1;
+   
+}
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -75,6 +138,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top:30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -143,4 +207,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*the following stylings apply to my about page*/
+
+#jumbo-about{
+    margin-bottom:30px;
+}
+.about-section{
+    width:800px;
+    border-bottom:1px dashed black;
+}
+.midp{
+    width:400px;
+}
+#row1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:30px;
+}
+#row2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:30px;
+}
+.mid-tent{
+    display:flex;
+    flex-direction:column;
+    width:380px;
+    height:450px;
+}
+#sec1, #sec2, #sec3, #sec4{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-bottom:1px dashed black;
+}
+button{
+    width:120px;
+    height:40px;
+    border: 2px solid black;
+    border-radius:5px;
+    margin-bottom:30px;
+    font-size:12px;
+    font-weight:400;
+    
+}
+#work{
+    margin:30px 0px;
+    width:800px;
+}
+footer {
+    width:840px;
+    margin:0 auto;
 }
