@@ -68,8 +68,8 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
 }
+/* Removed margin: 0 auto; */
 
 .top-content {
     display: flex;
@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,95 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Beginning of my CSS Edit */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+    margin: 20px 0px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+    width: 690px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.HeaderIMG {
+    margin: 20px 0px;
+}
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue
+}
+
+a:hover {
+    background-color: yellow;
+    font-color: black;
+}
+
+.logo {
+    -webkit-animaton: myAnimation 5s infinite;
+    animation: myAnimation 5s infinite;
+}
+
+@-webkit-keyframes myAnimation {
+    50% {
+        background-color: red;
+    }
+}
+
+@keyframes myAnimation {
+    50% {
+        background-color: red;
+    }
 }
