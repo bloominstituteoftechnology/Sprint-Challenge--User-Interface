@@ -66,10 +66,22 @@ p {
     line-height: 1.4;
 }
 
+hr{
+	width: 100%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+		display: flex;
 }
+
+.containerabout{
+	width: 800px;
+	margin: 0 auto;
+}
+
+
 
 .top-content {
     display: flex;
@@ -147,6 +159,7 @@ footer nav a {
 
 header{
 	display: flex;
+
 }
 
 header nav{
@@ -192,4 +205,34 @@ margin-bottom: 15px;
 }
 #dodgerblue{
 	background-color: dodgerblue;
+}
+
+/* About me container */
+.box{
+
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 50%;
+
+
+}
+
+.sky{
+	display: flex;
+	margin-left: 20%;
+	height: 23%;
+	width: 59%;
+	justify-content: center;
+}
+
+.aboutmiddle{
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+}
+nav{
+	display: flex;
+	justify-content: flex-end;
 }
