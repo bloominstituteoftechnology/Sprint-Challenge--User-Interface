@@ -203,6 +203,7 @@ header .lambda-black {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .top-content .text-container2 {
@@ -223,6 +224,7 @@ header .lambda-black {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .middle-content .boxes {
@@ -248,8 +250,8 @@ header .lambda-black {
     justify-content: center;
 }
 /* --------- Index.html Boxes ---------*/
-.boxes .box:first-child {
-    background: teal;
+.boxes .box:first-child{
+    background-color: teal;
 }
 
 .boxes .box:nth-child(2) {
@@ -322,6 +324,7 @@ header .lambda-black {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    font-weight: bold;
 }
 
 .bottom-content .text-container {
