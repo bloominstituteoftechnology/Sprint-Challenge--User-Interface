@@ -1,5 +1,5 @@
 # Assessing Your User Interface and Git Learning
-
+test
 * The objective of this challenge is test your knowledge on all of the topics surrounding user interface and git you learned this week.
 
 * Answers to your written questions will be recorded in [Answers.md](Answers.md)
@@ -21,15 +21,17 @@
 ## Task 2: Comprehension Questions
 Answer the following questions to the best of your ability. You can exercise your Googling skills and use training kit.  Open up the [Answers.md](Answers.md) file and record your responses there.
 
+Joseph Chretien
+
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
+Being a markup language, HTML is very much about look. Making your html semantic is about including meaning in that html by including the correct tags.
 
-2. Describe some differences between ```display: block;``` and ```display: inline;```.
+2. Describe some differences between display: block; and display: inline;. block offers line breaks whereas inline block utilizes horizontal placement & height & width are considered/can be adjusted.
+3. What are the 4 areas of the box model? border margin padding content
 
-3. What are the 4 areas of the box model?
+4. While using flexbox, what axis are you using when you use the property: align-items: center? this would be on the y axis or up and down.
 
-4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
-
-5. What is the git command to commit staged changes as well as write a message? 
+5. What is the git command to commit staged changes as well as write a message? git commit -m "message here"
 
 ## Task 3: Home Page
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
