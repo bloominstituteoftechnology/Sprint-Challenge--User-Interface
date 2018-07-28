@@ -150,7 +150,7 @@ nav {
     flex-wrap: wrap; 
     width: 100%; 
     justify-content: space-between; 
-    margin-bottom: 25px; 
+    margin-bottom: 35px; 
     margin-top: 15px; 
 }
 
@@ -158,9 +158,16 @@ nav a {
     display: flex; 
     text-decoration: none; 
     align-items: flex-end; 
+    margin-right: 15px; 
+    color: black; 
+    font-size: 14px;
+    font-weight: bold; 
 }
 
 .jumboImg{
     width: 100%; 
+    margin-bottom: 30px;  
 }
+
+
 
