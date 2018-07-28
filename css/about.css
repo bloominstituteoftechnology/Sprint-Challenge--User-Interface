@@ -197,7 +197,6 @@ footer nav a {
 }
 
 .about-section {
-  border: 1px solid black;
   margin-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px dotted black;
@@ -205,7 +204,6 @@ footer nav a {
 }
 
 .middle-section {
-  border: 1px solid black;
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
@@ -216,8 +214,8 @@ footer nav a {
 }
 
 .middle-container {
-  border: 1px solid black;
   width: 370px;
+  padding-bottom: 10px;
   border-bottom: 1px dotted black;
 }
 
@@ -229,7 +227,7 @@ footer nav a {
   margin-top: 10px;
   margin-bottom: 10px;
   display: inline-flex;
-  border: 1px solid black;
+  border: 2px solid black;
   font-size: 20px;
   padding: 10px 20px;
   border-radius: 10px;
