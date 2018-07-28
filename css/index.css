@@ -295,3 +295,59 @@ footer nav a {
 }
 
 /* END OF FOOTER AREA */
+
+
+/* ABOUT BODY STYLING */
+
+.about-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* BEGGINING OF LOGO */
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px
+    
+}
+
+/* END OF LOGO */
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+	color: rgb(185, 169, 169);
+    width: 800px;
+    font-size: 13px;
+   
+}
+
+nav a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    text-decoration: none;
+    color: gray;
+}
+
+
+.navigation a:hover {
+	background-color: gray;
+	color: black;
+	transition: 0.5s;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+}
+
+/* END OR NAVIGATION AREA */
+
+.header-image {
+  margin: 20px 0px 20px 0px;  
+}
