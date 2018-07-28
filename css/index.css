@@ -144,3 +144,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My CSS starts here */
+
+.nav-bar {
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+}
+.logo {
+    margin-right: 40px;
+}
+.nav-text {
+    display: flex;
+    width: 570px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.banner {
+    margin: 30px 0px;
+}
