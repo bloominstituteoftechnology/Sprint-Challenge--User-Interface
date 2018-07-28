@@ -2,3 +2,7 @@
 
 2. The main difference is, an element with {display: block} takes up the entire width of the browser - or as much space as possible; and {display: inline} only takes up the space of the content (i.e., text or image) contained in that element. 
 
+3. The four areas of the box model include: Content, Padding, Border, and Margin. 
+
+4. The property {align-items: center} is using the 'row' or horizontal axis {flex-direction: row}. 
+
