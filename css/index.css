@@ -67,8 +67,28 @@ p {
 }
 
 .header {
-    border: 1px solid red;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
 }
+
+.header nav {
+    height: 60px;
+    /* border: 1px solid blue; */
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 15px 0 0 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+    padding: 15px 0 0 0;
+}
+
 
 .container {
     width: 800px;
@@ -81,7 +101,6 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    border: 1px solid limegreen;
 }
 
 .top-content .text-container {
