@@ -137,6 +137,36 @@ p {
     justify-content: center;
 }
 
+.middle-content .middle-content-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.middle-content .middle-content-item {
+    width: 50%;
+    padding-bottom: 32px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content .middle-content-item h2 {
+    padding: 0 2%;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.middle-content .middle-content-item p {
+    margin-bottom: 32px;
+}
+
+.middle-content .middle-content-item a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 6px 16px;
+    border-radius: 10px;
+}
+
 .box1 {
     background-color: teal;
 }
@@ -209,3 +239,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
