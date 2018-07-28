@@ -172,8 +172,14 @@ display:flex;
 align-items: center;
 text-decoration: none;
 color:black;
-font-size: 16px;
+font-size: 14px;
+margin-right:30px;
+
+
+
 }
+
+
 
 .box:nth-child(1){
 background:teal;
