@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,6 +66,85 @@ p {
     line-height: 1.4;
 }
 
+
+body {
+	width: 800px;
+	margin: auto;
+}
+
+#navbar {
+	position: fixed;
+	display: flex;
+	/* border: 1px solid black; */
+	width: 800px;
+	background-color: white;
+}
+
+#navbar ul {
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+	/* border: 1px solid black; */
+}
+
+#navbar ul li a {
+	display: flex;
+	text-align: center;
+	padding: 22px;
+	/* border: 1px solid black; */
+	border-top: 2px solid white;
+	text-decoration: none;
+	color: black;
+}
+
+#navbar a:hover {
+	border-top: 2px solid black;
+}
+
+.logo {
+	background: url('../img/lambda-black.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 50px;
+	/* border: 1px solid black; */
+	border-top: 2px solid white;
+}
+
+
+#header {
+	display: flex;
+	/* border: 1px solid black; */
+	margin: 65px 0px 30px 0px;
+	height: 156px;
+	width: 100%;
+
+}
+
+.header-img {
+	/* border: 1px solid black; */
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.header-img div {
+	/* border: 1px solid black; */
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background: url('../img/jumbo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.about-header-img div {
+	background: url('../img/jumbo-about.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,7 +161,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +191,47 @@ p {
     justify-content: center;
 }
 
+#box-one {
+	background-color: teal;
+}
+
+#box-two {
+	background-color: gold;
+}
+
+#box-three {
+	background-color: cadetblue;
+}
+
+#box-four {
+	background-color: coral;
+}
+
+#box-five {
+	background-color: crimson;
+}
+
+#box-six {
+	background-color: forestgreen;
+}
+
+#box-seven {
+	background-color: darkorchid;
+}
+
+#box-eight {
+	background-color: hotpink;
+}
+
+#box-nine {
+	background-color: indigo;
+}
+
+#box-ten {
+	background-color: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +245,84 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+.about-label {
+	/* border: 1px solid black; */
+	text-align: justify;
+	border-bottom: 1.5px dashed black;
+	padding: 0px 20px 20px 20px;
+	margin-bottom: 30px;
+}
+
+.about-label h1, h2 {
+	font-size: 24px;
+}
+
+.about-label p {
+	font-size: 18px;
+}
+
+
+.about-ctr {
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px 0 20px;
+}
+
+.about-ctr div {
+	/* border: 1px solid black; */
+	display: flex;
+	width: 368px;
+	flex-direction: column;
+	border-bottom: 1.5px dashed black;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.about-ctr h2 {
+	margin-top: 20px;
+	font-size: 24px;
+}
+
+.about-ctr p {
+	font-size: 18px;
+}
+
+.about-ctr button {
+	font-size: 18px;
+	margin-top: 20px;
+	padding: 8px;
+	width: 150px;
+	border-radius: 10px;
+	border: 1.5px solid black;
+	background-color: white;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.about-ctr button:hover {
+	background-color: black;
+	color: white;
+	transform: scale(1.08);
+}
+
+.bottom-label {
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     width: 100%;
