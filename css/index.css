@@ -99,6 +99,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .middle-content .boxes .box {
@@ -168,4 +169,113 @@ a{
 .jumbo{
     margin-top:40px;
     margin-bottom:40px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: teal;
+    width: 100px;
+    height: 100px;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gold;
+    width: 100px;
+    height: 100px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cadetblue;
+    width: 100px;
+    height: 100px;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: coral;
+    width: 100px;
+    height: 100px;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: crimson;
+    width: 100px;
+    height: 100px;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: forestgreen;
+    width: 100px;
+    height: 100px;
+}
+.box7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkorchid;
+    width: 100px;
+    height: 100px;
+}
+.box8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hotpink;
+    width: 100px;
+    height: 100px;
+}
+.box9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: indigo;
+    width: 100px;
+    height: 100px;
+}
+.box10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: dodgerblue;
+    width: 100px;
+    height: 100px;
+}
+.abouttop{
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed;
+}
+.stratpics{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.strat{
+    display:flex;
+
+}
+.button{
+    margin-top: 15px;
+    border: 2px solid;
+    border-radius: 15%;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.lwt{
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border-top: 1px dashed;
+    padding-top: 50px;
 }
