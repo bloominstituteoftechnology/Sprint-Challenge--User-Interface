@@ -144,3 +144,153 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My css starts here */
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 880px;
+    align-items: center;
+    padding-left: 25px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 650px;
+    
+    
+}
+ .logo div{
+     display: flex;
+     align-items: center;
+     padding-left: 50px;
+     
+     
+ }
+
+.jumboparent div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+ .jumbochild div {
+     display: flex;
+     justify-content: center;
+     border: solid 2px black;
+     width: 880px;
+ }
+
+ #box1 {
+    background-color: teal;
+ }
+
+ #box2 {
+    background-color: gold;
+ }
+ 
+ #box3 {
+    background-color: cadetblue;
+ }
+
+ #box4 {
+    background-color: coral;
+ }
+
+ #box5 {
+    background-color: crimson;
+ }
+
+ #box6 {
+    background-color: forestgreen;
+ }
+
+ #box7 {
+    background-color: darkorchid;
+ }
+
+ #box8 {
+    background-color: hotpink;
+ }
+
+ #box9 {
+    background-color: indigo;
+ }
+
+ #box10 {
+    background-color: dodgerblue;
+ }
+
+ /*code below is for about.html*/
+
+ .about section {
+     display: flex;
+     flex-direction: column;
+     height: 120px;
+     justify-content: space-around;
+     padding-left: 20px;
+     padding-bottom: 20px;
+     
+ }
+
+ .about div {
+     display: flex;
+ }
+
+ .mainContainer {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     
+     height: 960px;
+     justify-content: space-around;
+     align-items: center;
+     border-top: dashed 1px black;
+     
+ }
+
+ .strategy {
+     display: flex;
+     
+     flex-direction: column;
+     width: 370px;
+     height: 420px;
+     justify-content: space-around;
+ }
+
+ .bottomRow {
+    border-bottom: dashed 1px black;
+    padding-bottom: 20px;
+ }
+
+ .button {
+     display: flex;
+     border: solid 2px black;
+     border-radius: 10px;
+     width: 115px;
+     height: 35px;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .workingTogether section {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    
+ }
