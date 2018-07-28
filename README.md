@@ -29,7 +29,7 @@ Answer the following questions to the best of your ability. You can exercise you
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
-5. What is the git command to commit staged changes as well as write a message? 
+5. What is the git command to commit staged changes as well as write a message?
 
 ## Task 3: Home Page
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
@@ -56,7 +56,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x] Build the rest of the about page layout to match the design
 
 ## Task 5: Merge & Pull Request
-* [ ] Once you have completed tasks 1-4, push all your commits up to your `develop` branch.  
+* [x] Once you have completed tasks 1-4, push all your commits up to your `develop` branch.  
 * [ ] Switch your HEAD to `master`
 * [ ] Merge the `develop` branch into `master`
 * [ ] Push all your updates up to master
