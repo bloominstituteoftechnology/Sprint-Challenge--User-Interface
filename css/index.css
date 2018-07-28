@@ -143,4 +143,158 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    font-family: Rubik;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+header nav {
+    text-decoration: none;
+    display: flex;
+   
+}
+
+header nav a{
+    text-decoration: none;
+    margin: 0px 45px;
+    color: black;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+
+header nav a:hover {
+	color: Black;
+	box-shadow: inset 0 0 0 3px #0d0d0e;
+}
+
+.about{
+    margin-bottom: 20px;
+}
+
+.jumbo-img {
+    margin-bottom: 20px;
+}
+
+.main {
+    width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-top: 1px dashed grey;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.middle-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    padding: 20px 0px;
+    border-bottom: 1px dashed grey;
+    margin-bottom: 40px;
+}
+
+.middle-div img {
+    margin-bottom: 10px;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    padding: 5px;
+    width: 125px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.box1 {
+    background: teal;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box2 {
+    background: gold;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box3 {
+    background: cadetblue;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box4 {
+    background: coral;
+    padding: 30px;
+    margin: 20px;
+}
+.box5 {
+    background: crimson;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box6 {
+    background: forestgreen;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box7 {
+    background: darkorchid;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box8 {
+    background: hotpink;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box9 {
+    background: indigo;
+    padding: 30px;
+    margin: 20px;
+}
+
+.box10 {
+    background: dodgerblue;
+    padding: 30px;
+    margin: 20px;
+}
+
+.grow:hover
+{
+    transition:all 0.4s ease;
+    transform: scale(1.3);
+}
+
+.color:hover
+{
+    transition:all 0.3s ease;
+    background:black;
+    color: white;
 }
