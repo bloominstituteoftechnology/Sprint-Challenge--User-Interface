@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+header {
+    margin-bottom: 15px;
+}
+
+.jumbo {
+    margin: 30px 0px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navBar{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+li {
+    display: inline;
+    margin: 30px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +165,80 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box {
+    background-color: dodgerblue;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+/*About Page Style*/
+
+.aboutext {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.central-boxes-container {
+    border-top: 1px solid black;
+    padding: 30px 0px;
+}
+
+.about-central-boxes {
+    display: inline-block;
+    width: 398px;
+    height: 400px;
+    border-bottom: 1px  solid black;
+    margin-bottom: 25px;
+    padding: 15px 0px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 8px;
+}
+.spacing {
+    margin-bottom: 15px;
 }
