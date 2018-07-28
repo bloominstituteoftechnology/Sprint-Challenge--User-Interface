@@ -18,12 +18,16 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+/*div {
+    border: solid 2px aqua;
+}*/
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -69,6 +73,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
 }
 
 .top-content {
@@ -144,3 +149,136 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#box1 {
+    background-color: teal;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box2 {
+    background-color: gold;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box3 {
+    background-color: cadetblue;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box4 {
+    background-color: coral;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box5 {
+    background-color: crimson;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box6 {
+    background-color: forestgreen;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box7 {
+    background-color: darkorchid;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box8 {
+    background-color: hotpink;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box9 {
+    background-color: indigo;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box10 {
+    background-color: dodgerblue;
+    padding: 26px;
+    margin: 20px;
+}
+
+#navbar {
+    display: flex;
+    top: 0;
+    margin: 0 auto;
+    width: 800px;
+    /*justify-content: space-between;*/
+    align-items: flex-end;
+}
+
+#nav{
+    display: flex;  
+    margin-right: 20px;
+}
+
+.nav{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#jumbo-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
