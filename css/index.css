@@ -67,22 +67,31 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 880px;
     margin: 0 auto;
 }
-
+.container about-page {
+    width: 880px;
+    margin: 0 auto;
+}
 nav {
 	display: flex;
-	flex-direction: row;
+    justify-content: center;
 	width: 880px;	
 }
 
 .logo {
     height: 40px;
 }
+
 .top-img {
     width: 880px;
     margin-bottom: 25px;
+}
+
+.top-image-about {
+    padding: 15px auto;
+    width: 880px;
 }
 
 ul {
@@ -265,6 +274,39 @@ ul {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about{
+    margin: 20px auto;
+}
+
+.middle-area {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    padding-bottom: 20px;
+    width: 880px;
+    margin: 0px auto;
+}
+
+.area{
+    border-bottom: 1px dashed black;
+	margin: 19px 0px;
+	padding: 15px;
+	width: 420px;
+}
+
+.learn {
+	display: flex;
+	border: 1px solid black;
+	font-size: 11px;
+	padding: 11px 11px;
+	margin: 15px 0px;
+	width: 140px;
+	justify-content: center;
+	background-color: white;
+	border-radius: 5px;
 }
 
 footer {
