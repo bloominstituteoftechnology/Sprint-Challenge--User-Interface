@@ -150,107 +150,47 @@ header .logo {
     justify-content: space-evenly;
 }
 
-
-.middle-content .boxes .box:nth-of-type(1) {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: teal;
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box:nth-of-type(1) {
+    background: teal;
 }
 .middle-content .boxes .box:nth-of-type(2) {
-    width: 12.5%;
-    height: 100px;
     background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(3) {
-    width: 12.5%;
-    height: 100px;
     background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(4) {
-    width: 12.5%;
-    height: 100px;
     background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(5) {
-    width: 12.5%;
-    height: 100px;
     background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(6) {
-    width: 12.5%;
-    height: 100px;
     background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(7) {
-    width: 12.5%;
-    height: 100px;
     background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(8) {
-    width: 12.5%;
-    height: 100px;
     background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(9) {
-    width: 12.5%;
-    height: 100px;
     background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .middle-content .boxes .box:nth-of-type(10) {
-    width: 12.5%;
-    height: 100px;
     background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
