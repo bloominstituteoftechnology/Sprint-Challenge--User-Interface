@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+/***************************** Header css ****************************************/
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom:40px;
+    padding-top:20px;
+}
+
+header brand img{
+    margin-top:8px;
+}
+
+header nav{
+    display:flex;
+    width:700px;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size:16px;
+    color:#000;
+    position: relative;
+    top: -4px;
+}
+
+.jumbotron{
+    margin-bottom: 20px;
+}
+
+/**************************** End header css ************************************/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +147,40 @@ p {
     justify-content: center;
 }
 
+/***************************** Part 2 task one *************************/
+.middle-content .boxes .box.teal{
+    background-color:teal;
+}
+.middle-content .boxes .box.gold{
+    background-color:gold;
+}
+.middle-content .boxes .box.cadetblue{
+    background-color:cadetblue;
+}
+.middle-content .boxes .box.coral{
+    background-color:coral;
+}
+.middle-content .boxes .box.crimson{
+    background-color:crimson;
+}
+.middle-content .boxes .box.forestgreen{
+    background-color:forestgreen;
+}
+.middle-content .boxes .box.darkorchid{
+    background-color:darkorchid;
+}
+.middle-content .boxes .box.hotpink{
+    background-color:hotpink;
+}
+.middle-content .boxes .box.indigo{
+    background-color:indigo;
+}
+.middle-content .boxes .box.dodgerblue{
+    background-color:dodgerblue;
+}
+
+/******************************************* End Part2 Task one***************************/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +213,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*********************************** About Page Css **************************/
+
+
+.services-header p{
+    margin-bottom: 20px;
+    text-align:justify;
+}
+
+.services{
+    width:800px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    border-top:1px dashed black;
+    align-items: center;
+    padding-top:20px;
+    margin-bottom:35px;
+
+}
+
+.box-services{
+    width:380px;
+    margin-bottom:20px;
+    border-bottom:1px dashed black;
+    padding-bottom: 25px
+}
+
+.box-services img{
+    margin-bottom:10px;
+}
+.box-services p{
+	margin-bottom:20px;
+	line-height:20px;
+	text-align: justify;
+}
+
+.box-services a{
+   text-decoration:none;
+   border:1px solid #000;
+   padding:5px 20px 5px 20px;
+   color:#000;
+   border-radius:5px;
+}
+.mid-footer p{
+    margin-bottom:20px;
+    text-align:justify;
+}
+
+
