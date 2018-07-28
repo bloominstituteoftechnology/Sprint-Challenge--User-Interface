@@ -73,42 +73,51 @@ p {
     flex-direction: column;
 }
 
-    header {
-        display: flex;
-        align-items: center;
-        width: 800px;
-        height: 60px;
-        margin-bottom: 15px;
-    }
+header {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 60px;
+    margin-top: 15px;
+}
 
-    #logo {
-        width: 120px;
-        align-self: flex-start;
-    }
+#logo {
+    width: 120px;
+    align-self: flex-start;
+}
 
-    a {
-        text-decoration: none;
-        color: black;
-        font-size: 12px;
-    }
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
 
-    nav {
-        display: flex;
-        justify-content: space-around;
-        font-size: 10px;
-        color: black;
-        width:100%;
-    }
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    width:100%;
+}
 
-    #jumbo {
-        width: 800px;
-        margin-bottom: 20px;
-    }
+nav a:hover {
+    color: gray;
+}
+
+#jumbo {
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+#jumboAbout {
+    width: 800px;
+    margin-bottom: 20px;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding:15px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -217,4 +226,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container.about-page {
+    align-items: center;
+}
+
+
+.top-content.about-page {
+    justify-content: initial;
+}
+
+.top-content.about-page p{
+    margin-bottom: 15px;
+}
+
+.middle-content.about-page {
+    width:800px;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.aboutContent {
+    width: 360px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.aboutImage {
+    width: 350px;
+}
+
+button {
+	border: 1px solid black;
+	color: black;
+	width: 100px;
+	background-color: white;
+	height: 30px;	
+	font-size: 10px;    
+	display: flex;
+    align-items: center;
+	justify-content: center;
+    transition-duration: 0.4s;
+    border-radius:8px;
+}
+
+button:hover {
+	background: black;
+	color: aliceblue;
+}
+
+.bottom-content.about-page {
+    flex-direction: column;
+    margin: 0;
+    padding:0;
+    margin-bottom: 15px;
 }
