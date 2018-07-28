@@ -210,3 +210,56 @@ header .header-image {
 .boxes #box10 {
     background: dodgerblue;
 }
+
+.top-content .jumbo-text-container {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.about-page .middle-content {
+    border-bottom: none;
+}
+
+.middle-content .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-content .cards .card {
+    width: 48%;
+    padding-bottom: 20px;
+    margin: 15px 0;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content .cards .card img {
+    margin-bottom: 15px;
+}
+
+.middle-content .cards .card h2 {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.middle-content .cards .card p {
+    margin-bottom: 15px;
+}
+
+.middle-content .cards .card button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
