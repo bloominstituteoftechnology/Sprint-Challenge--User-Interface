@@ -146,8 +146,10 @@ footer nav a {
 }
 /*all above is reset etc*/
 
+
+
 .header{
-    border: 1px solid red;
+ 
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -156,7 +158,7 @@ footer nav a {
     flex-direction: row;
     justify-content: space-between;
     
-    border:1px solid blue;
+ 
   
 }
 .button a{
@@ -165,12 +167,12 @@ footer nav a {
     text-decoration: none;
     font-size: 14px;
     color:black;
-   border: 1px solid black;
+  
  }
 
 
  .jumbo{
-     border: 2px solid lime;
+   
      padding-top: 20px;
  }
 
@@ -204,24 +206,34 @@ footer nav a {
 #box9 {
     background: dodgerblue;
 }
+h2{
+    padding-top: 20px;
+}
 .about-content{
    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid red;
+    border-top: 1px dashed black;
+    padding-top: 16px;
 }
 .work {
-    border: 1px solid lime;
     border-bottom: 1px dashed black;
     width: 370px;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    margin: 12px;
 }
 button {
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 2px solid black;
     background-color: white;
     padding: 10px 30px;
     border-radius: 10px;
     text-align: center;
     font-size: 16px;
+}
+
+.about{
+    padding: 20px;
+}
