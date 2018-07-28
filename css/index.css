@@ -171,6 +171,28 @@ header nav ul{
 }
 
 
+.header-text-container{
+    padding-bottom: 10px;
+}
+
+.bottom-content.about .text-container{
+    border-bottom: 1px dashed black;
+    padding: 0;
+    margin-right: 4%;
+}
+
+p.button {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.top-content.no-border-bottom{
+    border-bottom: 0
+}
+
 /* BOXES COLORING */
 #box1{
     background-color: teal;
