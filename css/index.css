@@ -202,11 +202,17 @@ section.about div.button {
     align-items: center;
 }
 
+section.about div.button:hover,section.about div.button a:hover {
+    background: black;
+    color: white;
+}
+
 section.about div.button a {
     margin-bottom: 0px;
     text-decoration: none;
     color: black;
 }
+
 
 section.about img {
     margin: 10px 0px;
