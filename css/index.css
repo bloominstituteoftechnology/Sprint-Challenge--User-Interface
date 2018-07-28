@@ -83,27 +83,22 @@ p {
 .logo{
     display: flex;
     width: 30%;
-    margin: 15px;
+    margin-top: 25px;
     justify-content: flex-start;
 }
 
-.nav{
+.header nav{
     display: flex;
-    width: 70%;
-    background: red;
-    /* margin-left: 10px; */
+    justify-content: space-between;
+    width: 600px;
+    align-content: flex-end;
 }
 
-.nav li a{
-    /* display: inline-flex; */
-    /* flex-direction: row; */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    background: maroon;
-    /* align-content: space-between; */
-    /* justify-content: space-between; */
-    width: auto;
-
+.header nav a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
 }
 
 .head-img{
@@ -152,15 +147,78 @@ p {
     justify-content: center;
 }
 
+/* This doesn't make sense, should inherit - something missing 
+Due to assignment deadline time doing it this way 
+Refactor if there is time.
+
 .teal{
     display: block;
     background: teal;
-    /* width: 100%; */
-    /* height: 100%; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+Colors should be more like 
+
+.gold{
+    flex: inherit;
+    background-color: gold;
+}
+
+and the rest should inherit
+*/
+
+/* SOLUTION FOUND!! */
+.middle-content .boxes .box *{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.teal{
+    background: teal;
 }
 
 .gold{
-    background-color: gold;
+    background: gold;
+}
+
+.cadetblue{
+    background: cadetblue;
+}
+
+.coral{
+    background: coral;
+}
+
+.crimson{
+    background: crimson;
+}
+
+.forestgreen{
+    background: forestgreen;
+}
+
+.darkorchid{
+    background: darkorchid;
+}
+
+.hotpink{
+    background: hotpink;
+}
+
+.indigo{
+    background: indigo;
+}
+
+.dodgerblue{
+    background: dodgerblue;
 }
 
 .bottom-content {
