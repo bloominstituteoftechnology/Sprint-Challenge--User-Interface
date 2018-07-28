@@ -209,3 +209,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    
+}
+.main .main-content{
+    width: 380px;
+    border-bottom: 1px dashed black;
+    padding:20px 0px;
+    margin: 20px 10px; 
+}
+.intro{
+   
+    /* border-bottom: 1px dashed black; */
+    margin:20px
+}
+.outro{
+    margin: 20px 20px 30px 20px
+}
+.main-content img{
+    margin-bottom: 10px
+}
+button{
+    padding:10px 20px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: black;
+    font-weight: bold;
+    margin-top: 15px;
+}
