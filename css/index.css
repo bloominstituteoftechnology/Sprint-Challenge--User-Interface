@@ -147,7 +147,7 @@ footer nav a {
 
 /* SHANNONS CODE V */
 
-#header {
+.header {
 	width: 800px;
 	height: 100px;
     display: flex;
@@ -184,6 +184,19 @@ footer nav a {
     height: 155px;
 }
 
+.future-past-container {
+    width: 800px;
+    height: 186px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.future-past{
+    width: 366px;
+    height: 142px;
+}
+
 /* BOX COLORS */
 
 #box-1 {
@@ -215,4 +228,77 @@ footer nav a {
 }
 #box-10 {
     background-color: dodgerblue;
+}
+
+/* ABOUT PAGE */
+#about-section {
+    width: 800px;
+    height: 142px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-holder {
+    width: 765px;
+    height: 105px;
+}
+
+.main-line-break {
+border: 1px dashed black;
+}
+
+.main-section-holder {
+    height: 460px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.learn-more-button {
+    width: 130px;
+	height: 40px;
+    border: 2px solid black; 
+    border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12pt;
+    background: white;
+    position: relative;
+    top: 20px;
+}
+
+.info-section {
+width: 372px;
+}
+
+.section-image{
+    position: relative;
+    top: -15px;
+}
+
+.double-line-break{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-line {
+    width: 372px;
+    border: 1px dashed black;
+}
+
+#work-together-section{
+    width: 800px;
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-together-holder{
+    width: 760px;
+    height: 95px;
 }
