@@ -131,7 +131,13 @@ footer {
     background: black;
 }
 
-footer nav {
+footer nav a {
+    color: white;
+   
+}
+
+/*  -------  */
+ nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -140,7 +146,106 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
-    color: white;
+ nav a {
+    color: #555;
     text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+header img{
+    align-self: flex-start;
+}
+.topnav{
+    align-self: flex-end;
+    padding: 0;
+}
+.heroImg{
+   margin: 20px 0;
+   
+}
+.boxes .box:nth-of-type(1){
+    background-color: teal; 
+}
+
+.boxes .box:nth-of-type(2){
+    background-color: gold; 
+}
+.boxes .box:nth-of-type(3){
+    background-color: cadetblue; 
+}
+.boxes .box:nth-of-type(4){
+    background-color: coral; 
+}
+.boxes .box:nth-of-type(5){
+    background-color: crimson; 
+}
+.boxes .box:nth-of-type(6){
+    background-color: forestgreen; 
+}
+.boxes .box:nth-of-type(7){
+    background-color: darkorchid; 
+}
+.boxes .box:nth-of-type(8){
+    background-color: hotpink; 
+}
+.boxes .box:nth-of-type(9){
+    background-color: indigo; 
+}
+.boxes .box:nth-of-type(10){
+    background-color: dodgerblue  ; 
+}
+
+/******ABOUT.HTML********/
+.about{
+    margin: 30px;
+}
+
+.about p{
+ text-align: justify;
+}
+.aboutContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-top: 2px dashed #555;
+}
+.contentbox{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dashed #555;
+}
+.contentbox img{
+    margin: 20px 0;
+    
+}
+
+.contentbox p{
+    margin: 0px 10px 15px 0;
+    text-align: justify;
+}
+
+.contentbox a{
+    color: #f5f5f5;
+    text-decoration: none;
+    width: 150px;
+    padding: 5px 30px;
+    background: black;
+    border: 1px solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: color 1s ease, background 1s ease, padding 1s ease;
+}
+
+.contentbox a:hover{
+    color: #fff;
+    background: #555;
+    padding-left: 32px;
 }
