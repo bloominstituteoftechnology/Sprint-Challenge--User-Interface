@@ -145,6 +145,11 @@ footer nav a {
     text-decoration: none;
 }
 
+body {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -162,4 +167,49 @@ nav {
 a {
     display: flex;
     margin-right: 70px;
+}
+
+.jumbo-about {
+    display: flex;
+    margin: 20px 0px 20px 39px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-page-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 1px dashed black;
+    margin-top: 20px;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-top: 20px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+p {
+    margin: 5x 0px; 
+}
+
+.bottom-text {
+    margin-bottom: 40px;
 }
