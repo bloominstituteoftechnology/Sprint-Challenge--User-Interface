@@ -2,3 +2,5 @@
 
 2. Inline: displays an element that only takes up the space the element does. they allow other elements to be on the same line as them.
     Block: displays an element on a new line taking up the entire width of a page. They block out other elements.
+
+3. Starting from the interior: Content, Padding, Border & Margin.
