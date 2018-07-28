@@ -230,9 +230,10 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -241,4 +242,5 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    margin-right: 60px;
 }
