@@ -69,6 +69,40 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+#logo {
+    width: 120px;
+    align-self: flex-start;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    color: black;
+    width:100%;
+}
+
+#jumbo {
+    width: 800px;
+    margin-bottom: 20px;
 }
 
 .top-content {
