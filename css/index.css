@@ -172,10 +172,54 @@ header nav a{
     font-weight: bold;
 }
 
+.about{
+    margin-bottom: 20px;
+}
+
 .jumbo-img {
     margin-bottom: 20px;
 }
 
+.main {
+    width: 760px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-top: 1px dashed grey;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.middle-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 360px;
+    padding: 20px 0px;
+    border-bottom: 1px dashed grey;
+    margin-bottom: 40px;
+}
+
+.middle-div img {
+    margin-bottom: 10px;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    align-items: center;
+    padding: 5px;
+    width: 125px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
 .box1 {
     background: teal;
     padding: 30px;
