@@ -79,6 +79,46 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-page .top-content {
+    display: block;
+    padding: 2% 2%;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-page .middle-content .text-container{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    margin-bottom: 6%;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content h2{
+    padding: 0 0;
+    padding-bottom: 0; 
+}
+
+.about-page .bottom-content {
+    display: inline;
+    padding: 20px;
+}
+
+.about-page .bottom-content h2 {
+    padding: 0px 0;
+}
+
+.about-page footer {
+ 
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -101,7 +141,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +183,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+header nav a {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+header img {
+    margin-bottom: 25px;
+}
+
+
+/* Box Colors */
+
+.middle-content .boxes .box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background: dodgerblue;
 }
