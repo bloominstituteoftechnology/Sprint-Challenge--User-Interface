@@ -111,6 +111,10 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container.about{
+    width: 98%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -149,6 +153,39 @@ p {
 #b9{background-color: indigo;}
 #b10{background-color: dodgerblue;}
 
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.middle-content-container{
+    width: 370px;
+    height: 420px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-container:nth-child(3), .middle-content-container:nth-child(4){
+    margin-top: 60px;
+}
+
+.middle-content-container h2{
+    padding-top: 10px;
+}
+
+.middle-content-container p{
+    padding-bottom: 25px;
+}
+
+.middle-content-container a{
+    color: black;
+    text-decoration: none;
+    padding: 6px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -157,6 +194,11 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container.about {
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .bottom-content .text-container:last-child {
