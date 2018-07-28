@@ -192,3 +192,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/**** ABOUT PAGE***/
+
+h2{
+	padding: 10px;
+}
+.about-section{
+	padding-bottom: 10px;
+	border-bottom: 2px dotted black;
+
+}
+
+.first{
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	padding-top: 20px;
+}
+
+.strategy{
+	display: flex;
+	flex-direction: column;
+	padding-right: 10px;
+	border-bottom: 1px dotted black;
+
+}
+
+.how-we-work{
+	display: flex;
+	flex-direction: column;
+	padding-left:10px;
+  border-bottom: 1px dotted black;
+
+}
+
+.second{
+
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+
+}
+.places{
+	display: flex;
+	flex-direction: column;
+	padding-right: 10px;
+	border-bottom: 1px dotted black;
+
+}
+.collab{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+	border-bottom: 1px dotted black;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	margin-right: 65%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: white;
+  border: 2px solid black;
+	font-size: 14px;
+	border-radius: 12px;
+}
