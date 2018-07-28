@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+/* MY STUFFS STARTS HERE ! */
+
+.menu-content{
+	display:flex;
+	flex-direction:row;
+	margin:10px;
+	align-items:center;
+}
+
+.menu-text{
+	display:flex;
+	flex-direction:row;
+	padding:30px;
+	margin:10px;
+	justify-content:space-between;
+	width:80%;
+
+}
+
+.menu-text a{
+	outline:0;
+	color:black;
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +138,45 @@ p {
     justify-content: center;
 }
 
+#b1{
+	background:teal;
+}
+
+#b2{
+	background:gold;
+}
+
+#b3{
+	background:cadetblue;
+}
+
+#b4{
+	background:coral;
+}
+
+#b5{
+	background:crimson;
+}
+
+#b6{
+	background:forestgreen;
+}
+
+#b7{
+	background:darkorchid;
+}
+
+#b8{
+	background:hotpink;
+}
+
+#b9{
+	background:indigo;
+}
+
+#b10{
+	background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +208,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE START */
+
+.container .about-page{
+	width:800px;
+	margin:0 auto;
+}
+
+.about-top-content{
+	margin:20px;
+}
+
+#spacer{
+	width:90%;
+	border:1px dashed black;
+	margin:20px;
+}
+
+.body-content{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+}
+
+.body-block{
+	display:flex;
+	flex-wrap:wrap;
+	border:1px dashed black;
+	padding:5px;
+	margin:10px;
+	width:45%;
+}
+
+#learn-more{
+	border:1px solid black;
+	border-radius:10px;
+	width:95px;
+	margin:10px;
+	padding:5px;
+}
+
+#learn-more:hover{
+	background:black;
+	color:white;
 }
