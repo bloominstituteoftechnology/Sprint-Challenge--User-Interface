@@ -79,6 +79,46 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-page .top-content {
+    display: block;
+    padding: 2% 2%;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-page .middle-content .text-container{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    margin-bottom: 6%;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content h2{
+    padding: 0 0;
+    padding-bottom: 0; 
+}
+
+.about-page .bottom-content {
+    display: inline;
+    padding: 20px;
+}
+
+.about-page .bottom-content h2 {
+    padding: 0px 0;
+}
+
+.about-page footer {
+ 
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -164,6 +204,8 @@ header img {
     margin-bottom: 25px;
 }
 
+
+/* Box Colors */
 
 .middle-content .boxes .box-1 {
     background: teal;
