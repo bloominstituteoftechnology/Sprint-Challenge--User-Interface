@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+/***************************** Header css ****************************************/
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom:40px;
+    padding-top:20px;
+}
+
+header brand img{
+    margin-top:8px;
+}
+
+header nav{
+    display:flex;
+    width:700px;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size:16px;
+    color:#000;
+    position: relative;
+    top: -4px;
+}
+
+.jumbotron{
+    margin-bottom: 20px;
+}
+
+/**************************** End header css ************************************/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
