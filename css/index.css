@@ -223,17 +223,36 @@ footer nav a {
 .container.about-page {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .mid-about-content {
-    border: 2px solid dodgerblue;
+    /* border: 2px solid dodgerblue; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .mid-about-content .about-box {
-    border: 1px solid indigo;
-    width: 50%;
+    /* border: 1px solid indigo; */
+    width: 380px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box h2 {
+    padding: 10px 0 0 5px;
+}
+
+.about-box p {
+    padding: 0 0 0 5px;
+}
+
+.about-box button {
+    font-size: 18px;
+    border: 1px solid black;
+    radius: 25%;
+    width: 30%;
+    height: 10%;
+    margin: 20px 0 40px 5px;
+    border-radius: 5px;
 }
