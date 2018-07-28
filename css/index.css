@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.nav-header-content .nav {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
 .nav-header-content .header {
     display: flex;
     width: 100%;
