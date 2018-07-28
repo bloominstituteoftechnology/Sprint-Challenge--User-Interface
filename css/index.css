@@ -170,3 +170,43 @@ header .navbar nav a {
 header .header-image {
     margin-bottom: 15px;
 }
+
+.boxes #box1 {
+    background: teal;
+}
+
+.boxes #box2 {
+    background: gold;
+}
+
+.boxes #box3 {
+    background: cadetblue;
+}
+
+.boxes #box4 {
+    background: coral;
+}
+
+.boxes #box5 {
+    background: crimson;
+}
+
+.boxes #box6 {
+    background: forestgreen;
+}
+
+.boxes #box7 {
+    background: darkorchid;
+}
+
+.boxes #box8 {
+    background: hotpink;
+}
+
+.boxes #box9 {
+    background: indigo;
+}
+
+.boxes #box10 {
+    background: dodgerblue;
+}
