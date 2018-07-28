@@ -143,6 +143,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    
 }
 
 body {
@@ -162,7 +163,7 @@ header {
 header nav {
     text-decoration: none;
     display: flex;
-
+   
 }
 
 header nav a{
@@ -170,6 +171,12 @@ header nav a{
     margin: 0px 45px;
     color: black;
     font-weight: bold;
+    transition: all 500ms ease;
+}
+
+header nav a:hover {
+	color: Black;
+	box-shadow: inset 0 0 0 3px #0d0d0e;
 }
 
 .about{
@@ -277,4 +284,17 @@ header nav a{
     background: dodgerblue;
     padding: 30px;
     margin: 20px;
+}
+
+.grow:hover
+{
+    transition:all 0.4s ease;
+    transform: scale(1.3);
+}
+
+.color:hover
+{
+    transition:all 0.3s ease;
+    background:black;
+    color: white;
 }
