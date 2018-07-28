@@ -196,13 +196,14 @@ header .logo {
 .about-block-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-block{
-    width: 400px;
+    width: 375px;
     margin-bottom: 40px; 
-    padding: 15px;
+    margin: 10px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -221,6 +222,10 @@ header .logo {
   
 
 /* End about block layout */
+
+.bottom-block {
+    padding: 40px 20px;
+}
 
 .bottom-content {
     display: flex;
