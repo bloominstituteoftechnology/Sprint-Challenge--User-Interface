@@ -12,4 +12,4 @@
     You are centering the items on the cross-axis.
 
 5. What is the git command to commit staged changes as well as write a message?
-    git add -am "ADD MESSAGE HERE"
+    git commit -am "ADD MESSAGE HERE"
