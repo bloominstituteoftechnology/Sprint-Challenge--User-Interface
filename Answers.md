@@ -1,0 +1,5 @@
+1. Semantic HTML is a way to markup your code so that search engines and other bots that browse the internet can better understand how the content on your webpage is organized. By denoting what each piece of content on your page is with semantic HTML, search engines can better determine what your page is about and return more useful search results.
+2. Using display block on an element causes it to fill the entire width of its container, with no other elements on either side. Using display inline on an element allows multiple elements to be displayed side by side on the same line. The width of an inline element is determined by the size of the content.
+3. The four areas of the box model are the content, padding, border, and margin.
+4. You use the cross-axis when applying the align-items property.
+5. The command is git commit -m "Your message here" 
