@@ -88,7 +88,7 @@ header nav a {
     color:black;
 }
 
-#img-home-top {
+#img-jumbo-top {
     margin:25px 0px;
 }
 .top-content {
@@ -99,6 +99,10 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
+.top-text-about {
+    margin-bottom:20px;
+    border-bottom: 1px dashed black;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -110,6 +114,31 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
+.about-middle-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-topics {
+    width: 50%;
+}
+.about-topics button {
+    background-color: white;
+    padding:10px;
+    border-radius:25%;
+    border:1px solid black;
+    margin:10px;
+
+}
+.middle-content .about-topics {
+    margin-bottom: 20px;
+
+}
+.middle-content .about-topics h2 {
+    margin-top:5px;
+    margin-bottom: 5px;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
