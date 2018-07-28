@@ -127,6 +127,46 @@ nav a {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.boxes .box.box6 {
+    background: forestgreen;
+}
+
+.boxes .box.box7 {
+    background: darkorchid;
+}
+
+.boxes .box.box8 {
+    background: hotpink;
+}
+
+.boxes .box.box9 {
+    background: indigo;
+}
+
+.boxes .box.box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
