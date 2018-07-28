@@ -1,3 +1,40 @@
-.about-page {
-    padding: 120px;
+/* Beginning of about.css */
+
+.About {
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.MainContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.ContentBox {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 15px 40px 15px;
+    width: 46%;
+    border-bottom: 1px dashed black;
+}
+
+.ContentBox h3 {
+    margin-top: 15px;
+}
+
+.ContentBox button {
+    align-self: flex-start;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.Together {
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 20px;
 }

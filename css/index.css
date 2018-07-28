@@ -68,8 +68,8 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
 }
+/* Removed margin: 0 auto; */
 
 .top-content {
     display: flex;
@@ -145,6 +145,11 @@ footer nav a {
 }
 
 /* Beginning of my CSS Edit */
+
+body {
+    display: flex;
+    justify-content: center;
+}
 
 header {
 	display: flex;
