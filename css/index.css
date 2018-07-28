@@ -261,3 +261,17 @@ button{
  border-radius: 10px;
 
 }
+
+.bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+
+.bottom-content .bottom-text {
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
