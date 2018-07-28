@@ -1,0 +1,66 @@
+/* header section with navbar */
+header {
+  display: flex;
+  margin: 5% 0;
+}
+header #logo-area {
+  width: 25%;
+}
+header #navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 75%;
+}
+header #navbar nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header #navbar nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+header section {
+  padding: 2% 0;
+}
+/* end of navbar sections */
+/* header img only */
+#header-img {
+  margin: 2% 0;
+  width: 100%;
+}
+/* end header img */
+/* change css background color for each box in div.boxes */
+.boxes #box1 {
+  background-color: teal;
+}
+.boxes #box2 {
+  background-color: gold;
+}
+.boxes #box3 {
+  background-color: cadetblue;
+}
+.boxes #box4 {
+  background-color: coral;
+}
+.boxes #box5 {
+  background-color: crimson;
+}
+.boxes #box6 {
+  background-color: forestgreen;
+}
+.boxes #box7 {
+  background-color: darkorchid;
+}
+.boxes #box8 {
+  background-color: hotpink;
+}
+.boxes #box9 {
+  background-color: indigo;
+}
+.boxes #box10 {
+  background-color: dodgerblue;
+}
+/* end box background colors */
