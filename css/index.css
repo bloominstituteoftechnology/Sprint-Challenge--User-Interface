@@ -72,7 +72,41 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 690px;
+    margin-top: 15px;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 14px;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    opacity: 0.3;
+}
+
+header nav a:first-child {
+    margin-left: 50px;
+}
+
+header nav a:last-child {
+    margin-right: 35px;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+.jumbo-header-img {
+    margin: 35px 0px;
 }
 
 .container {
