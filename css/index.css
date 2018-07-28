@@ -229,6 +229,7 @@ header .header-image {
 
 .about-page .middle-content {
     border-bottom: none;
+    padding: 0 2%;
 }
 
 .middle-content .cards {
