@@ -20,7 +20,7 @@
 
 .middle-content .boxes .box {
     width: 373px;
-    height: 400px;
+    height: 425px;
     padding-bottom: 20px;
     margin: 20px 10px;
     background: white;
@@ -34,6 +34,14 @@
 .boxes h2 {
     padding: 0px;
     font-weight: 550;
+}
+
+.box button {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background: white;
+    margin-top: 10px;
 }
 
 .bottom-content {
