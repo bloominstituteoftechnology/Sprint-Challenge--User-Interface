@@ -91,6 +91,10 @@ header nav a {
 #img-jumbo-top {
     margin:25px 0px;
 }
+
+#img-home-top {
+    margin:25px 0px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +119,6 @@ header nav a {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .about-middle-container {
@@ -128,7 +131,8 @@ header nav a {
     margin:10px 0px;
 }
 .about-topics {
-    width: 50%;
+    width: 48%;
+    border-bottom: 1px dashed black;
 }
 
 
@@ -137,8 +141,20 @@ header nav a {
     padding:10px 20px;
     border-radius:25%;
     border:2px solid black;
-    margin:10px;
+    margin:20px 10px;
 
+}
+
+.about-topics button:hover {
+    background-color:black;
+    color:white;
+}
+
+.about-topics button:active {
+    background-color:black;
+    color:white;
+    box-shadow: 0 6px orange;
+    transform: transformY(4px);
 }
 
 .middle-content .about-topics {
