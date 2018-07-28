@@ -127,6 +127,7 @@ header nav a {
     padding-bottom: 20px;  
 }
 
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -218,3 +219,68 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* additional CSS for About page */
+
+.about-top {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top .about-top-text {
+    padding: 0 20px;
+    padding-bottom: 20px;  
+}
+
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.about-middle .about-item {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-evenly;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle img {
+    height: 236px;
+    width: 370px;
+}
+
+.about-middle h2 {
+    margin-top: 20px;
+}
+
+.about-middle p {
+
+}
+
+.about-middle button {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 20px 20px 0px;
+}
+
+
+.about-bottom {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;}
+
+.about-bottom .about-bottom-text {
+    padding: 20px;
+}
+
