@@ -157,7 +157,7 @@ footer nav a {
 .lambda-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .lambda-nav-item {
