@@ -285,4 +285,12 @@ header nav ul {
      
  }
 
- 
+ .workingTogether section {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    
+ }
