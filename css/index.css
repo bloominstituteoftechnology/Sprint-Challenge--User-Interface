@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation */
+.navigation {
+    text-align: center;
+    margin-bottom: 80px;
+    top: 40px;
+    width: 690px;
+}
+.navigation a {
+    font-size: 14px;
+    display: inline-block;
+    color:black;
+    vertical-align: middle;
+	padding: 20px 0 39px 0;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
+}
 .container {
     width: 800px;
     margin: 0 auto;
