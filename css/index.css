@@ -285,3 +285,48 @@ button {
 .bottom-about-content p {
     margin: 20px 0px 40px 0px;
 }
+
+
+/* Contact page */
+
+#contact-img {
+    margin: 0px 0px 15px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+    align-content: flex-start;
+}
+input {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(70, 58, 151);
+    color: white;
+    width: 150px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+}
+
+/* div.contact-form {
+    border-radius: 5px;    
+    padding: 20px;
+} */
