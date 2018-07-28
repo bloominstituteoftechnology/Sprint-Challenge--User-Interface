@@ -76,6 +76,12 @@ p {
     margin-bottom: 40px;
 }
 
+.nav-header-content .nav a {
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+
 .nav-header-content .header {
     display: flex;
     width: 100%;
