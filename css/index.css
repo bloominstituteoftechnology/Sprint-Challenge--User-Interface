@@ -144,3 +144,96 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*all above is reset etc*/
+
+
+
+.header{
+ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+ 
+  
+}
+.button a{
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+  
+ }
+
+
+ .jumbo{
+   
+     padding-top: 20px;
+ }
+
+#box1 {
+   background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background:crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box8 {
+    background: indigo;
+}
+#box9 {
+    background: dodgerblue;
+}
+h2{
+    padding-top: 20px;
+}
+.about-content{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px dashed black;
+    padding-top: 16px;
+}
+.work {
+    border-bottom: 1px dashed black;
+    width: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.about{
+    padding: 20px;
+}
