@@ -1,0 +1,40 @@
+/* all hr tags only */
+hr {
+  border: 1px dashed black;
+  margin: 2% 0;
+  width: 100%;
+}
+/* end hr tags */
+/* full width sections: about let's work together */
+.fullWidthSecs {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 0;
+}
+.fullWidthSecs h2,
+.fullWidthSecs p {
+  padding: 0 2%;
+}
+
+/* end full width sections */
+/* Main section and its children */
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section {
+  padding: 2%;
+  min-height: 300px;
+  width: 50%;
+}
+main section p {
+  padding-bottom: 2%;
+}
+main section button {
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 2% 5%;
+  margin-bottom: 2%;
+}
+/* end main section */
