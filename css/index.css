@@ -144,3 +144,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My css starts here */
+
+header {
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+    height: 100px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px black;
+    width: 880px;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 780px;
+    
+}
+ .logo div{
+     display: flex;
+     align-items: center;
+     border: solid 5px black;
+ }
