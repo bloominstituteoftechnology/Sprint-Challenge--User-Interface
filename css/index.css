@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,10 +71,57 @@ p {
     margin: 0 auto;
 }
 
+
+/* header--> */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+	/* margin-bottom: 25px; */
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+  width: 690px;
+	margin-left: 60px;
+	margin-top: 28px;
+	margin-bottom: 30px;
+	margin-right: -10px;
+}
+
+header nav a {
+  display: flex;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav a:last-child {
+  margin-right: 65px;
+}
+
+header .logo {
+  display: flex;
+	margin-bottom: auto;
+}
+
+.services-header-img {
+	margin-top: 50px;
+}
+/* ^^header */
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+		margin-top: 25px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -82,13 +129,15 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -111,6 +160,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
