@@ -1,0 +1,27 @@
+.header{
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border:1px solid blue;
+  
+}
+.button a{
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+   border: 1px solid black;
+ }
+
+ 
+ .jumbo{
+     border: 2px solid lime;
+     padding-top: 20px;
+ }
