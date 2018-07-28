@@ -226,3 +226,11 @@ button {
     padding: 10px;
     border-radius: 5px;
 }
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-style: italic;
+}
