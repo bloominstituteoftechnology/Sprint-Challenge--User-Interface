@@ -79,20 +79,23 @@ p {
 }
 .header .logo{
     flex-grow: 1;
-    margin-bottom: 20px;
+    
 }
 .header .nav{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
     width: 640px;  
 }
+
 .header .nav li a{
     text-decoration: none;
     color: black;
 }
+
 .header .traffic{
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -135,6 +138,44 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.boxes .box:nth-child(1){
+    background-color: teal;
+}
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10){
+    background-color: dodgerblue;
 }
 
 .bottom-content {
