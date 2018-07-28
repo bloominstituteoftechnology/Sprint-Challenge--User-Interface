@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -162,4 +162,45 @@ header nav a {
 
 header img {
     margin-bottom: 25px;
+}
+
+
+.middle-content .boxes .box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background: dodgerblue;
 }
