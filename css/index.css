@@ -168,6 +168,14 @@ header .logo-nav nav a {
     color: black;
 }
 
+header .logo-nav nav a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .boxes .box.box1{
     background-color: teal;
 }
@@ -208,6 +216,11 @@ header .logo-nav nav a {
     background-color: dodgerblue;
 }
 
+.boxes .box:hover {
+    transition-duration: 200ms;
+    transform: scale(1.1);
+}
+
 /* about page styling */
 
 .top-section {
@@ -243,6 +256,11 @@ header .logo-nav nav a {
     border-radius: 5px;
     margin-top: 10px;
     text-align: center;
+}
+
+button:hover {
+    transition-duration: 150ms;
+    transform: scale(1.1);
 }
 
 .bottom-section {
