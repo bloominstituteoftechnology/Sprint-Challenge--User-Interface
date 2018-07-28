@@ -144,3 +144,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Custom changes below */
+
+.middle-content .boxes .box.bg-teal {
+    background: teal;
+}
+
+.middle-content .boxes .box.bg-gold {
+    background: gold;
+}
+
+.middle-content .boxes .box.bg-cadetblue {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.bg-coral {
+    background: coral;
+}
+
+.middle-content .boxes .box.bg-crimson {
+    background: crimson;
+}
+
+.middle-content .boxes .box.bg-forestgreen {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.bg-darkorchid {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.bg-hotpink {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.bg-indigo {
+    background: indigo;
+}
+
+.middle-content .boxes .box.bg-dodgerblue {
+    background: dodgerblue;
+}
