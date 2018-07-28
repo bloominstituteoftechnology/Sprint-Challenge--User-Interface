@@ -212,3 +212,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-content-above {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed black;
+  padding: 0 20px 20px 20px;
+}
+
+.top-content .text-container-above {
+  width: 100%;  
+}
+
+.middle-content-above {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.middle-content-above .text-container {
+  display: flex;
+  justify-content: column;
+  flex-wrap: wrap;
+  width: 46.25%;
+  margin-bottom: 40px;
+  border-bottom: 1px dashed black;
+  padding-top: 20px;
+}
+
+.middle-content-above h2 {
+  padding-top: 12px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 9px 22px 9px 22px;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+}
+
+.bottom-content-above {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 10px 20px 20px 20px;
+}
