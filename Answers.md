@@ -15,4 +15,4 @@
 	- Cross-axis
 
 5. What is the git command to commit staged changes as well as write a message?
-	- git commit -m "message goes between quotation marks"
+	- git commit -a -m "message goes between quotation marks"
