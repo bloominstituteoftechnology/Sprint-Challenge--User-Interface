@@ -28,10 +28,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 container {
     line-height: 1;
     width: 800px;
     margin: 0 auto;
+}
+
+.imgcontact {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .header {
@@ -45,11 +56,13 @@ container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 60%;
     margin-top: 25px;
+    text-decoration: none;
 }
 
 .jumbo-about {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 hr {
@@ -183,7 +196,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,4 +247,21 @@ footer nav a {
 
 .box10 {
     background: dodgerblue;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.contact-child {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+textarea {
+    width: 400px;
 }
