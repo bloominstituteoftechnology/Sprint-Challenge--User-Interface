@@ -254,7 +254,10 @@ button{
  padding: 10px 20px;
  text-align: center;
  text-decoration: none;
- font-size: 10px;
- margin-top: 100px;
- border: 1px solid black;
+ font-size: 15px;
+ margin-top: 25px;
+  margin-bottom: 25px;
+ border: 2px solid black;
+ border-radius: 10px;
+
 }
