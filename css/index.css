@@ -71,6 +71,40 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+header .header-child {
+    display: flex;
+}
+
+header .header-child ul {
+    display: inline-flex;
+    margin-top: 26px;
+}
+
+header .header-child ul li {
+    padding-left: 80px;
+}
+
+header .header-child ul li:nth-of-type(1){
+    padding-left: 50px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-img {
+    margin-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
