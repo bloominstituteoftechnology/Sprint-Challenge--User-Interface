@@ -187,7 +187,7 @@ section.about {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
-    border-bottom: 1px dashed darkgrey;
+    border-bottom: 1px dashed black;
     margin-bottom: 30px;
 }
 
@@ -208,10 +208,17 @@ section.about div.button a {
     color: black;
 }
 
+section.about img {
+    margin: 10px 0px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+.bottom-content .about-container {
+    margin-bottom: 20px;
 }
 
 .bottom-content .text-container {
