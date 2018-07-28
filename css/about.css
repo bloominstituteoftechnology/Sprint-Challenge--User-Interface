@@ -237,3 +237,7 @@ footer nav a {
   text-decoration: none;
   color: black;
 }
+
+.bottom-section {
+  margin-bottom: 30px;
+}
