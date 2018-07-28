@@ -71,10 +71,44 @@ p {
     margin: 0 auto;
 }
 
+header {
+	display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    display: inline-block;
+    padding-bottom: 25px;
+    
+  }
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+    width: 690px;
+}
+
+header nav a {
+  display: inline-block;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav a:first-child {
+  margin-left: 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
