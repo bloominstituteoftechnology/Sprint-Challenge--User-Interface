@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner{
+    padding: 35px 0px 25px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
