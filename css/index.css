@@ -218,7 +218,7 @@ footer nav a {
 .wideSection {
     display: flex;
     flex-direction: column;
-    width: 770px;
+    padding: 20px;
     margin: 15px 0px;
 }
 
@@ -230,7 +230,7 @@ footer nav a {
 
 #middleSection div {
     width: 370px;
-    height: 400px;
+    height: 430px;
     margin: 15px;
     display: flex;
     flex-direction: column;
@@ -238,6 +238,8 @@ footer nav a {
     border-bottom: 1px dashed black;
     padding: 15px 0px;
 }
+
+
 
 button {
     width: 100px;
