@@ -163,6 +163,12 @@ footer nav a {
 .lambda-nav-item {
     text-decoration: none;
     color: #000;
+
+}
+
+.lambda-nav-item:hover {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .lambda-nav-item:last-child {
@@ -241,6 +247,10 @@ footer nav a {
     border-radius: 8px;
     width: 120px;
     height: 35px
+}
+
+.about-content div button:hover {
+    cursor: pointer;
 }
 
 .footer-message {
