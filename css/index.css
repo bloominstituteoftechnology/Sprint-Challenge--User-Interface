@@ -90,6 +90,83 @@ a {
     text-decoration: none;
 }
 
+nav li:hover {
+    animation: glitch-animate .2s linear infinite;
+}
+
+@keyframes glitch-animate
+{
+    0%
+    {
+        position: relative;
+        left: 0px;
+        top: 0px
+    }
+    10%
+    {
+        position: relative;
+        left: 3px;
+        top: -5px;
+    }
+    20%
+    {
+        position: relative;
+        left: 9px;
+        top: 3px;
+        color: blue;
+    }
+    30%
+    {
+        position: relative;
+        left: -2px;
+        top: 1px;
+    }
+    40%
+    {
+        position: relative;
+        left: 4px;
+        top: -3px;
+    }
+    50%
+    {
+        position: relative;
+        left: 6px;
+        top: 6px;
+        color: green;
+    }
+    60%
+    {
+        position: relative;
+        left: -9px;
+        top: -4px
+    }
+    70%
+    {
+        position: relative;
+        left: 2px;
+        top: 9px;
+    }
+    80%
+    {
+        position: relative;
+        left: -8px;
+        top: -7px;
+    }
+    90%
+    {
+        position: relative;
+        left: 10px;
+        top: 8px;
+        color: red;
+    }
+    100%
+    {
+        position: relative;
+        left: 2px;
+        top: -8px;
+    }
+}
+
 #header-accent {
     margin: 20px auto;
 }
