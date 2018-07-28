@@ -1,0 +1,30 @@
+.about {
+    margin-bottom: 35px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.bottom-content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+}
+
+.text-img {
+    margin-bottom: 15px;
+}
+
+.lets-work-together {
+    margin-bottom: 30px;
+}
