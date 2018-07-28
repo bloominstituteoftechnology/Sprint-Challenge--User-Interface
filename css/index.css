@@ -169,7 +169,6 @@ footer nav a {
     text-decoration: none;
 }
 
-
 .boxes .box:first-child{
     background: teal;
 }
@@ -197,6 +196,6 @@ footer nav a {
 .boxes .box:nth-child(9){
     background: indigo;
 }
-.boxes .box:nth-child(10){
+.boxes .box:last-child{
     background: dodgerblue;
 }
