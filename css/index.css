@@ -267,3 +267,47 @@ footer nav a {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.container about-page {
+    margin: 0 auto;
+   
+        
+}
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.about-box {
+    width: 400px; 
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.box-image {
+    margin-bottom: 20px;
+}
+
+button {
+    justify-content: center;
+    margin-top: 15px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    
+}
+
+.work {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
