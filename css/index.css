@@ -88,6 +88,14 @@ p {
     margin: 15px 0 15px 0;
 }
 
+.header nav a:hover {
+    background-color: mediumspringgreen; 
+}
+
+.header .lb:hover {
+    background-color: mediumspringgreen; 
+}
+
 .navigation a {
     text-decoration: none;
     color: black;
@@ -255,6 +263,10 @@ footer nav a {
     height: 8%;
     margin: 20px 0 40px 5px;
     border-radius: 5px;
+}
+
+.about-box button:hover {
+    background-color: mediumspringgreen; 
 }
 
 .bottom-content {
