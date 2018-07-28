@@ -184,6 +184,28 @@ header .logo {
     background: dodgerblue;
 }
 
+/* End box color */
+
+/* About block layout */
+
+.about-block-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-block{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 40px; 
+    padding: 15px;
+}
+
+  
+
+/* End about block layout */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
