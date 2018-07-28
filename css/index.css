@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -74,15 +74,16 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-left:20px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    /* padding-bottom: 10px;   */
 }
 
 .middle-content {
@@ -144,3 +145,112 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-wrap: wrap;
+}
+
+header nav a{
+color:black;
+text-decoration:none;
+margin-left:40px;
+margin-right:40px;
+}
+.headerimg{
+    width:60%;
+    display:flex;
+    justify-content:flex-start;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+   background-color:teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color:gold;
+ }
+
+ .middle-content .boxes .box:nth-child(3) {
+    background-color:cadetblue;
+ }
+
+ .middle-content .boxes .box:nth-child(4) {
+    background-color:coral;
+ }
+
+ .middle-content .boxes .box:nth-child(5) {
+    background-color:crimson;
+ }
+
+ .middle-content .boxes .box:nth-child(6) {
+    background-color:forestgreen;
+ }
+
+ .middle-content .boxes .box:nth-child(7) {
+    background-color:darkorchid;
+ }
+
+ .middle-content .boxes .box:nth-child(8) {
+    background-color:hotpink;
+ }
+
+ .middle-content .boxes .box:nth-child(9) {
+    background-color:indigo;
+ }
+
+ .middle-content .boxes .box:nth-child(10) {
+    background-color:dodgerblue;
+ }
+
+ .top-content .text-container .lengthy-container {
+     width: 800px;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    justify-content:flex-start;
+}
+
+.learnmore{
+    padding: 12px;
+    font-size: 17px;
+    border: solid black;
+    border-radius: 10px;
+    width: 120px;
+    margin:13px;
+}
+
+.aboutbox{
+        width: 48%;
+        padding: 0 1%;
+        padding-bottom: 10px;
+        border-bottom:1px dashed black;
+        margin-bottom:20px;
+    }
+
+.middle-content-about{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+#aboutbottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-left: 20px;
+};
+
