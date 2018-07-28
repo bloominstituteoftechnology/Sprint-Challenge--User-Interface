@@ -218,3 +218,42 @@ footer nav a {
 }
 
 /* About Page */
+
+#about-overview {
+    padding: 0px 15px 25px 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.about-section {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 50px;
+}
+.about-image {
+    margin-bottom: 10px;
+}
+
+.learn-more {
+    color: black;
+    text-align: center;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 20px 0px;
+	width: 130px;
+}
+
+#work-together {
+    padding: 0px 15px 25px 15px;
+    margin-bottom: 30px;
+}
