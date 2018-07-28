@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.navbar{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nh{
+    align-self: flex-end;
+    width:604px;
+    display:flex;
+    justify-content: center;
+}
+.links{
+    display:flex;
+    justify-content: space-evenly;
+    width:604px;
+    font-family:initial;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.jumbo{
+    margin-top:40px;
+    margin-bottom:40px;
+}
