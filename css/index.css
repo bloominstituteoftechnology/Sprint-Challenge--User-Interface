@@ -88,12 +88,23 @@ header nav a {
     color:black;
 }
 
-#img-jumbo-top {
+#img-about-top {
     margin:25px 0px;
 }
 
 #img-home-top {
     margin:25px 0px;
+}
+
+#img-products-top {
+    margin: 25px 0px;
+    width:800px;
+}
+
+#img-contact-top {
+    margin: 25px 0px;
+    width: 800px;
+
 }
 .top-content {
     display: flex;
@@ -139,9 +150,10 @@ header nav a {
 .about-topics button {
     background-color: white;
     padding:10px 20px;
-    border-radius:25%;
+    border-radius:15%;
     border:2px solid black;
     margin:20px 10px;
+    cursor: pointer;
 
 }
 
@@ -254,4 +266,79 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color:blue;
+}
+
+/* CSS for product specific page */
+
+.middle-container {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+    padding-top:30px;
+    border-top: 2px dashed green;
+}
+
+.product-mid-content {
+	border: 3px double purple;
+	margin-bottom:35px;
+	width:48%;
+	background-color:honeydew;
+	padding:20px;
+}
+
+.product-mid-content button {
+	border:1px solid black;
+	padding: 6px 40px;
+	margin-top:20px;
+	background-color:white;
+    border-radius:10%;
+    cursor: pointer;
+}
+
+.product-mid-content button:hover {
+    background-color:black;
+    color:white;
+}
+
+.product-mid-content button:active {
+    background-color:black;
+    color:white;
+    box-shadow: 0 6px orange;
+    transform: transformY(4px);
+}
+
+/* contact page specific CSS below */
+
+.contact-mid-content {
+    display: flex;
+}
+
+.questions-text {
+    padding-right: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.questions-text h3 {
+    font-size:36px;
+}
+
+.questions-text p {
+    margin-bottom:25px;
+}
+.contact-fillin-boxes {
+    margin-top:50px;
+}
+.contact-ftr {
+    width:100%;
+    background: black;
+    margin-top:40px;
+}
+
+.submit-btn {
+    margin-top:15px;
 }
