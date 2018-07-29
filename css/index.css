@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -90,13 +91,28 @@ header nav a {
     width: 800px;
     margin: 0 auto;
 }
+
+.top-image {
+    margin-top: 40px;
+}
+
 .jumbo-about {
     margin-top: 40px;
 }
+
+.about {
+    margin: 30px 15px 20px 15px;
+}
+
+.collaborate {
+    margin: 30px 15px 20px 15px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -188,6 +204,17 @@ header nav a {
     padding-right: 0;
 }
 
+/* ABOUT */
+
+.box btn {
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+}
+
+
+
+/* FOOTER */
 footer {
     width: 100%;
     background: black;
