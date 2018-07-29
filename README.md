@@ -21,7 +21,7 @@
 ## Task 2: Comprehension Questions
 Answer the following questions to the best of your ability. You can exercise your Googling skills and use training kit.  Open up the [Answers.md](Answers.md) file and record your responses there.
 
-1. If you had to describe semantic HTML to the next cohort of students, what would you say?
+1. If you had to describe semantic HTML to the next cohort of students, what would you say? Semantic HTML 
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 

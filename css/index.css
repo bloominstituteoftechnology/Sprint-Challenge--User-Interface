@@ -28,9 +28,71 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+
+* {
+    box-sizing: border-box;
 }
+
+container {
+    line-height: 1;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.imgcontact {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-top: 25px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+hr {
+    width: 100%;
+    border-style: dashed;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.childbox {
+    width: 400px;
+    margin-bottom: 25px;
+    
+}
+
+button {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -45,6 +107,11 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+footer {
+    margin-top: 25px;
+    
 }
 
 * {
@@ -104,7 +171,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -127,12 +194,14 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,4 +212,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.contact-child {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+
+textarea {
+    width: 400px;
 }
