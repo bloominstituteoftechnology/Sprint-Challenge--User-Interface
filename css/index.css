@@ -169,6 +169,7 @@ p {
 .total-head{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .head-container .img{
@@ -193,6 +194,7 @@ header nav a {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 25px;
 }
 
 .top-content {
@@ -200,7 +202,7 @@ header nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
 }
 
 .top-content .text-container {
@@ -211,7 +213,7 @@ header nav a {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 2px dashed black;
 }
 
 .middle-content h2 {
