@@ -93,6 +93,17 @@ header nav a {
     text-decoration: none;
     font-size:14px;
     color: black;
+
+    /*Animation*/
+    background-image: linear-gradient(#F00, #FF0);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-in;
+}
+
+header nav a:hover {
+    background-size: 100% 1px, auto;
 }
 
 header nav a:last-child {
@@ -266,8 +277,8 @@ section.content-about section.content-box a {
   text-decoration: none;
 }
 
- section.content-box a:focus,
- section.content-box a:hover {
+ section.content-about section.content-box a:focus,
+ section.content-about section.content-box a:hover {
   background-color: FireBrick;
   color: White;
 }
