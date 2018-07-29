@@ -53,7 +53,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "ratio",sans-serif;
+    font-weight: git 300;
 }
 
 h1, h2, h3, h4, h5 {
@@ -197,7 +198,7 @@ header .logo {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 40px;
+    margin: 0 2% 4git add0px;
     justify-content: space-around;
 }
 
