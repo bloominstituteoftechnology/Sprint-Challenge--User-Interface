@@ -101,6 +101,10 @@ p {
     margin: 0 auto;
 }
 
+.headerImage {
+    width: 800px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -245,4 +249,59 @@ button {
     border: 1px solid black;
     border-radius: 4px;
     padding: 5px 0px;
+}
+
+.productSection {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px dashed black;
+    padding: 15px 0px;
+}
+
+.productDivGeneral {
+    display: flex;
+    padding-bottom: 10px;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.industryDiv {
+    width: 155px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.homeDiv {
+    width: 245px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.divPic {
+    width: 245px;
+    height: 245px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.productSection h2 {
+  animation-duration: 3s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {
+    margin-left: 90%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
