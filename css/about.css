@@ -110,6 +110,82 @@ header .logo {
 	margin-bottom: auto;
 }
 
-.services-header-img {
-	margin-top: 50px;
+.header-img {
+	margin-top: 10px;
+  margin-bottom: 16px;
 }
+
+.about-header {
+  margin-left: 20px;
+  padding-bottom: 21px;
+}
+
+.about-header h2, p {
+  font-weight: bolder;
+}
+
+
+.about-container {
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 15px 0px 0px;
+  border-top: 1px dashed black;
+}
+
+.about-block {
+  width: 380px;
+  border-bottom: 1px dashed black;
+  margin-bottom: 35px;
+  padding: 15px;
+}
+
+.about-block h3 {
+  margin-top: 8px;
+}
+
+.about-block button {
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 9px 25px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.about-together {
+  display: block;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  width: 780px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* buffer */
