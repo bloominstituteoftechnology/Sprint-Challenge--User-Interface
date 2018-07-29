@@ -54,7 +54,8 @@ table {
 html, body {
     height: 100%;
     font-family: "ratio",sans-serif;
-    font-weight: git 300;
+    font-style: normal;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5 {
