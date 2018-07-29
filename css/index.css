@@ -103,6 +103,8 @@ p {
     text-decoration: none;
     font-size: 14px;
     color: black;
+    transition: background .3s ease-in;
+    padding: 5px;
 }
 
 .logo {
@@ -110,14 +112,13 @@ p {
     justify-content: flex-start;
 }
 
-a {
-    transition: background .3s ease-in;
-    padding: 5px;
-}
-a:hover{
+.nav:hover{
     background: #615A5A;
     color: white;
 }
+
+
+
 
 /*SHARED FOOTER STYLING*/
 
