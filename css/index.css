@@ -73,19 +73,28 @@ body{
 
 header{
     border: 2px solid black;
-    width: 675px;
+    width: 820px;
+    padding-left: 70px;
+    display: block;
+}
+
+.black{
+    display: inline-block;
+    margin-right: 30px;
 }
 
 nav{
-    margin: 0 auto;
-    padding: 15px;
-    display: flex;
-    justify-content: space-evenly;
+    display: inline-block;
+    word-spacing: 70px;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.jumbo{
+    width: 770px;
 }
 
 .top-content {
@@ -135,16 +144,16 @@ nav{
 .box2{
     background: gold;
 }
-.box3{
+.box3 {
     background: cadet blue;
 }
-.box4{
+.box4 {
     background: coral;
 }
 .box5 {
     background: crimson;
 }
-.box6{
+.box6 {
     background: forest green;
 }
 .box7 {
