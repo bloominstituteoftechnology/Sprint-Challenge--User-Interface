@@ -67,8 +67,9 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto; 
+    font-weight: bold; 
 }
 
 .top-content {
@@ -143,4 +144,240 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+nav {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    justify-content: space-between; 
+    margin-bottom: 35px; 
+    margin-top: 15px; 
+}
+
+nav a {
+    display: flex; 
+    text-decoration: none; 
+    align-items: flex-end; 
+    margin-right: 15px; 
+    color: black; 
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+nav a:hover{
+    font-size: 16px; 
+    transition: 1s; 
+}
+
+.jumboImg{
+    width: 100%; 
+    margin-bottom: 30px;  
+}
+
+#teal{
+    background-color: teal; 
+}
+
+#gold{
+    background-color: gold; 
+}
+
+#cadetblue{
+    background-color: cadetblue;
+}
+
+#coral{
+    background-color: coral; 
+}
+
+#crimson{
+    background-color: crimson; 
+}
+
+#forestgreen{
+    background-color: forestgreen; 
+}
+
+#darkorchid{
+    background-color: darkorchid; 
+}
+
+#hotpink{
+    background-color: hotpink; 
+}
+
+#indigo{
+    background-color: indigo; 
+}
+
+#dodgerblue{
+    background-color: dodgerblue; 
+}
+
+.about{
+    padding: 0px 20px 20px 20px;  
+    font-weight: bold; 
+}
+
+
+.row1{
+    display: flex; 
+    flex-wrap: wrap;   
+    width: 100%; 
+    justify-content: space-between; 
+    padding: 20px 20px 20px 20px; 
+    font-weight: bold; 
+}
+
+.aboutBoxes {
+    width: 48%
+}
+
+.aboutBoxes h2{
+    margin-top: 15px; 
+}
+
+.button{
+    margin-top: 20px; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    width: 130px;  
+    padding: 7px; 
+    text-align: center; 
+}
+
+.button:hover{ 
+    background-color: black; 
+    color: white; 
+    font-size: 16px; 
+    transition: 0.5s; 
+}
+
+.row1 hr{
+    border-top: dashed 1px;
+    margin: 20px 0 40px 0; 
+    width: 100%; 
+}
+
+nav i{
+    font-size: 0px;   
+}
+
+hr {
+    border-top: dashed 1px; 
+}
+
+.bottomPage{
+    display: flex; 
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    width: 100%;  
+    padding: 0px 20px 20px 20px; 
+    font-weight: bold; 
+}
+
+.jumboImg.contact{
+    height: 200px;  
+}
+
+.contactForm{
+    margin: 0px auto 40px auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    width: 80%; 
+    justify-content: center;  
+    align-items: center;  
+    color: black;  
+    background-color: rgba(0,0,0,0.1)
+}
+
+
+.contactForm h1{
+    width: 100%; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 28px; 
+    font-weight: bold; 
+}
+
+input{
+    margin-bottom: 20px; 
+}
+
+label{
+    margin-bottom: 5px; 
+}
+textarea{
+    width: 80%; 
+    height: 200px; 
+    overflow: hidden; 
+    margin-bottom: 30px; 
+}
+button{
+    width: 100px; 
+    margin-bottom: 30px; 
+    }
+
+.row1 img{
+    width: 100%; 
+}
+
+
+@media screen and (max-width: 615px){
+    section{
+        width: 100%; 
+        display: flex; 
+        flex-direction: column; 
+        flex-wrap: wrap;  
+        align-items: center;  
+}
+    .top-content .text-container{
+        width: 80%;
+        padding: 0px 0px 25px 0px; 
+      }
+    #teal{
+        width: 40%; 
+      }
+    #gold{
+        width: 40%; 
+      }
+    #cadetblue{
+        width: 40%; 
+      }
+    #coral{
+        width: 40%; 
+      }
+    #crimson{
+        width: 40%;
+      }
+    #forestgreen{
+        width: 40%; 
+      }
+    #darkorchid{
+        width: 40%; 
+      }
+    #indigo{
+        width: 40%; 
+      }
+    #hotpink{
+        width: 40%; 
+      }
+    #dodgerblue{
+        width: 40%; 
+      }
+    div.text-container{
+        padding-bottom: 10px; 
+      }
+    nav a{
+        display: none; 
+      } 
+    nav i{
+        padding-top: 30px; 
+        font-size: 30px; 
+      }
+    .aboutBoxes{
+        width: 100%; 
+    }
 }
