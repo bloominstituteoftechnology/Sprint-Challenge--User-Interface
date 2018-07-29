@@ -295,25 +295,27 @@ footer nav a {
 }
 
 .container-about-page .above-cards  {
-    border-bottom-style: dashed;
-    border-bottom-width: 1px;
-    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0 20px 15px;
+    /* margin: 0 20px; */
 }
 
 .container-about-page .cards-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container-about-page .card {
-    padding-bottom: 25px;
-    border-bottom-style: dashed;
-    border-bottom-width: 1px;
-    width: 50%  /* last edit point */
+    padding: 20px 18px 15px 18px;
+    border-bottom: 1px dashed black;
+    width: 395px;
+    /* margin: 20px; */
 }
 
 .container-about-page .card img {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    width: 360px;
 }
 
 .container-about-page .card-text {
@@ -322,4 +324,23 @@ footer nav a {
 
 .container-about-page .card-text p {
     padding-bottom: 25px;
+}
+
+.container-about-page .card-text button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.container-about-page .card-text button:hover {
+    background:darkgray;
+    color: white;
+}
+
+.below-cards {
+    /* margin: 25px 0 25px 0; */
+    padding: 20px 0 20px 15px;
 }
