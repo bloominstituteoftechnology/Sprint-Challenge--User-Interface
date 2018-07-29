@@ -33,6 +33,83 @@ body {
 }
 ol, ul {
 	list-style: none;
+    display: inline-block;
+    margin: auto;
+    font-color: grey;
+    width: 880px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-color: grey;
+
+}
+
+#box_1 {
+    background-color: teal;
+}
+
+#box_2 {
+    background-color: gold;
+}
+
+#box_3 {
+    background-color: cadetblue;
+}
+
+#box_4 {
+    background-color: coral;
+}
+
+#box_5 {
+    background-color: crimson;
+}
+
+#box_6 {
+    background-color: forestgreen;
+}
+
+#box_7 {
+    background-color: darkorchid;
+}
+
+#box_8 {
+    background-color: hotpink;
+}
+
+#box_9 {
+    background-color: indigo;
+}
+
+#box_10 {
+    background-color: dodgerblue;
+}
+
+
+nav {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    font-color: grey;
+}
+
+#header_image {
+    text-align:center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 }
 blockquote, q {
 	quotes: none;
