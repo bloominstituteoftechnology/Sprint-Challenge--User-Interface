@@ -340,6 +340,7 @@ button {
 #sidebar-about {
     width: 175px;
     height: 125px;
+    border-radius: 10px;
 }
 
 #about-us {
@@ -401,6 +402,7 @@ button {
 #sidebar2 { 
     height: 400px;
     width: 250px;
+    border-radius: 10px;
 }
 
 
