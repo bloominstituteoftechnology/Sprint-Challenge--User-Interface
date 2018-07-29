@@ -73,8 +73,8 @@ header .dimensions {
 }
 
 header .logo {
-    margin: 28px 0 0 200px;
-    width: 11%;
+    margin: 28px 0 0 0px;
+    /* width: 11%; */
 }
 
 header nav {
@@ -87,11 +87,11 @@ header nav {
 header nav a {
     text-decoration: none;
     color: black;
-    margin-right: 80px;
+    margin-right: 68px;
 }
 
 header .jumbo {
-    margin: 40px 0 0 200px;
+    margin: 40px 0 0 0px;
 }
 .container {
     width: 800px;
@@ -287,9 +287,39 @@ footer nav a {
  /* About Styles */
 
  header .jumbo-about {
-    margin: 40px 0 0 200px;
+    margin: 28px 0 0 0;
 }
 
 .container-about-page {
-    margin: 20px 230px 20px 200px;
+    margin: 20px 0 0 0;
+}
+
+.container-about-page .above-cards  {
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    padding-bottom: 20px;
+}
+
+.container-about-page .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-about-page .card {
+    padding-bottom: 25px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    width: 50%  /* last edit point */
+}
+
+.container-about-page .card img {
+    margin-top: 20px;
+}
+
+.container-about-page .card-text {
+    margin: 20px 0 0 0;
+}
+
+.container-about-page .card-text p {
+    padding-bottom: 25px;
 }
