@@ -296,7 +296,7 @@ footer nav a {
 
 .container-about-page .above-cards  {
     border-bottom: 1px dashed black;
-    padding: 20px 0 20px 15px;
+    padding: 10px 0 20px 15px;
     /* margin: 0 20px; */
 }
 
@@ -307,28 +307,29 @@ footer nav a {
 }
 
 .container-about-page .card {
-    padding: 20px 18px 15px 18px;
+    padding: 10px 0 10px 0;
+    margin: 10px 9px 10px 9px;
     border-bottom: 1px dashed black;
-    width: 395px;
+    width: 381px;
     /* margin: 20px; */
 }
 
 .container-about-page .card img {
     /* margin-top: 20px; */
-    width: 360px;
+    width: 381px;
 }
 
 .container-about-page .card-text {
     margin: 20px 0 0 0;
 }
 
-.container-about-page .card-text p {
+/* .container-about-page .card-text p {
     padding-bottom: 25px;
-}
+} */
 
 .container-about-page .card-text button {
     padding: 10px 40px;
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     cursor: pointer;
     background: white;
     border-radius: 5px;
@@ -340,7 +341,7 @@ footer nav a {
     color: white;
 }
 
-.below-cards {
+.container-about-page .below-cards {
     /* margin: 25px 0 25px 0; */
-    padding: 20px 0 20px 15px;
+    padding: 30px 0 20px 15px;
 }
