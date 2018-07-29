@@ -99,7 +99,7 @@ header nav a {
     background-size: 0 5px, auto;
     background-repeat: no-repeat;
     background-position: center bottom;
-    transition: all .2s ease-in;
+    transition: all .4s ease-in;
 }
 
 header nav a:hover {
