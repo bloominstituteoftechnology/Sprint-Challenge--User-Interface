@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto; 
     font-weight: bold; 
 }
@@ -258,7 +258,10 @@ nav a:hover{
     border-top: dashed 1px;
     margin: 20px 0 40px 0; 
     width: 100%; 
-    
+}
+
+nav i{
+    font-size: 0px;   
 }
 
 hr {
@@ -284,12 +287,10 @@ hr {
     flex-wrap: wrap; 
     flex-direction: column; 
     width: 80%; 
-    border-radius: 15px; 
-    justify-content: center; 
-    border: 2px solid black; 
+    justify-content: center;  
     align-items: center;  
-    color: white;
-    background-color: rgba(0, 0, 0, 0.9); 
+    color: black;  
+    background-color: rgba(0,0,0,0.1)
 }
 
 
@@ -297,8 +298,8 @@ hr {
     width: 100%; 
     text-align: center; 
     padding: 20px; 
-    text-decoration: underline; 
-    font-size: 25px; 
+    font-size: 28px; 
+    font-weight: bold; 
 }
 
 input{
@@ -308,7 +309,6 @@ input{
 label{
     margin-bottom: 5px; 
 }
-
 textarea{
     width: 80%; 
     height: 200px; 
@@ -320,6 +320,64 @@ button{
     margin-bottom: 30px; 
     }
 
-input:placeholder{
-    margin: auto;   
+.row1 img{
+    width: 100%; 
+}
+
+
+@media screen and (max-width: 615px){
+    section{
+        width: 100%; 
+        display: flex; 
+        flex-direction: column; 
+        flex-wrap: wrap;  
+        align-items: center;  
+}
+    .top-content .text-container{
+        width: 80%;
+        padding: 0px 0px 25px 0px; 
+      }
+    #teal{
+        width: 40%; 
+      }
+    #gold{
+        width: 40%; 
+      }
+    #cadetblue{
+        width: 40%; 
+      }
+    #coral{
+        width: 40%; 
+      }
+    #crimson{
+        width: 40%;
+      }
+    #forestgreen{
+        width: 40%; 
+      }
+    #darkorchid{
+        width: 40%; 
+      }
+    #indigo{
+        width: 40%; 
+      }
+    #hotpink{
+        width: 40%; 
+      }
+    #dodgerblue{
+        width: 40%; 
+      }
+    div.text-container{
+        padding-bottom: 10px; 
+      }
+    nav a{
+        display: none; 
+      } 
+    nav i{
+        padding-top: 30px; 
+        font-size: 30px; 
+      }
+    .aboutBoxes{
+        width: 100%; 
+    }
 }
