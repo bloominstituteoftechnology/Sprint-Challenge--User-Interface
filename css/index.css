@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/*Homepage styling section*/
+
 p {
     line-height: 1.4;
 }
@@ -70,6 +72,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+.home-header{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+   
+    
+  }
+  
+  
+  .home-nav{
+  width: 643px;
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: flex-end; 
+    
+  }
 
 .top-content {
     display: flex;
@@ -84,6 +103,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -103,7 +123,7 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 90px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -111,6 +131,52 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* Box background styling */
+
+.boxes .box:nth-child(1){
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.boxes .box :nth-child(5){
+    background-color: crimson;
+}
+
+.boxes .box :nth-child(6){
+    background-color: forestgreen;
+}
+
+.boxes .box :nth-child(7){
+    background-color: darkorchid;
+}
+
+.boxes .box :nth-child(8){
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.boxes .box :nth-child(10){
+    background-color: dodgerblue;
+}
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +210,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About page styling section*/
+
+.about-header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 10px;
+  }
+  
+  .about-nav{
+  width: 643px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  }
+
+.section-about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    border-bottom: 1px dashed black;
+    padding: 0 10px;
+    height:110px;
+}
+
+.section-middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.strategy{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+
+.how-we-work{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.places-we-work{
+    width: 370px;
+  border-bottom: 1px dashed black;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.collaboration{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.button{
+    margin: 20px auto;
+}
+
+.section-low{
+    padding-left: 10px;
+}
+
+.section-low :first-child{
+    margin-bottom: 10px;
+}
+
