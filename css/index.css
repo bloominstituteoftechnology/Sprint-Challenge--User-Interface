@@ -482,15 +482,22 @@ select {
     align-items: center;
 }
 
-#sidebar-photo {
+#sidebar-img {
     height: 250px;
     width: 350px;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-#follow {
+#follow-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    align-items: center;
     margin-bottom: 60px;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    border-radius: 10px;
 }
 
 
