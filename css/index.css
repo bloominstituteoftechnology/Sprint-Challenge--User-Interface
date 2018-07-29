@@ -405,13 +405,93 @@ button {
     border-radius: 10px;
 }
 
+/*CONTACT PAGE STYLING BELOW THIS LINE*/
 
 
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-size: 14px;
+    padding: 20px;
+    width: 50%;
+}
 
+fieldset input, fieldset select, fieldset textarea {
+    margin: 5px 0px 8px 0px;
+}
 
+fieldset input {
+    padding: 5px 10px;
+    border-radius: 5px;
 
+}
+textarea{
+    border-color: grey whitesmoke whitesmoke grey;
+    border-width: 2px;
+}
 
+#address2 {
+    margin-top: 0px;
+}
 
+#address1 {
+    margin-bottom: 5px;
+}
+
+#city-st-zip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#city, #state, #zip {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#zip {
+    width: 125px;
+}
+
+select {
+    width: 50px;
+    height: 25px;
+    background-color: white;
+}
+
+#contact-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#intro {
+    margin-left: 20px;
+}
+
+#contact-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sidebar-photo {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#follow {
+    margin-bottom: 60px;
+}
 
 
 
