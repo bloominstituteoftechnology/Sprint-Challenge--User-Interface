@@ -77,7 +77,8 @@ p {
 nav {
 	display: flex;
     justify-content: center;
-	width: 880px;	
+    width: 880px;
+    margin: 25px 0px	
 }
 
 .logo {
@@ -97,7 +98,6 @@ nav {
 ul {
 	display: flex;
     justify-content: space-around;
-    padding-right: 55px;
     width: 880px;
 }
 
@@ -278,10 +278,10 @@ ul {
 
 .about{
     margin: 20px auto;
+    width: 880px;
 }
 
 .middle-area {
-	border-bottom: 1px solid black;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -310,8 +310,9 @@ ul {
 }
 
 footer {
-    width: 100%;
+    width: 880px;
     background: black;
+    margin: 0px auto;
 }
 
 footer nav {
