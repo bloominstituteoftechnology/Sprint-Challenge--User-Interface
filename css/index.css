@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -143,4 +143,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*My code is below:*/
+/*Code for index.html:
+*/
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+
+.header-main {
+    display: flex;
+    margin: 20px auto;
+}
+
+.header-main nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+.header-main nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-main img {
+    order: -1;
+}
+
+.jumbo-img {
+    margin-bottom: 10px;
+}
+
+/*Code for about.html:*/
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px dashed black;
+    padding-top: 10px;
+}
+
+.main-section div {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+    margin: 1%;
+}
+
+.main-section div button {
+    border-radius: 15%;
+    margin: 10px 0;
+    height: 25px;
+    background-color: white;
+}
+
+.main-section div img {
+    margin: 10px 0;
+}
+
+.last-section {
+    margin: 40px 0 30px;
 }
