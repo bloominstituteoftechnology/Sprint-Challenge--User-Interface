@@ -29,7 +29,7 @@ Answer the following questions to the best of your ability. You can exercise you
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
-5. What is the git command to commit staged changes as well as write a message? 
+5. What is the git command to commit staged changes as well as write a message?
 
 ## Task 3: Home Page
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
