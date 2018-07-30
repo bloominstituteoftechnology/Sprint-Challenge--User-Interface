@@ -236,14 +236,15 @@ footer nav a {
 	margin:10px 0 20px;
 	background:white;
 	padding:5px 15px;
-	border-radius: 10px
+	border-radius: 10px;
+	border: 2px solid black;
 }
 
 
 
 /*About Bottom*/
 .bottom{
-	margin-bottom:20px;
+	margin:0 0 20px 10px;
 }
 
 	
