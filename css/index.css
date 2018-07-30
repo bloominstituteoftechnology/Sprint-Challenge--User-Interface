@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+header nav  {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 30px 0px;
+    align-items: baseline;
+}
+
+header nav a    {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +124,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background: gold;
+}
+
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background: coral;
+}
+
+.middle-content .boxes .box5{
+    background: crimson;
+}
+
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background: indigo;
+}
+
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +195,131 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page specific CSS below */
+
+.about-intro   {
+    border-bottom: 1px dashed black;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.about-main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-main-content .about-box   {
+    width: 46%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about-main-content .about-box img  {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.about-main-content .about-box button   {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about-bottom-content   {
+    margin: 50px 0px;
+}
+
+.about-box button:hover {
+    background: black;
+    color: white;
+}
+
+/* Contact page specific CSS below */
+
+input   {
+    border-color: lightgray;
+}
+
+textarea[name=message]    {
+    width: 50%;
+    height: 200px;
+}
+
+input[name=fname]   {
+    width: 20%;
+}
+
+input[name=lname]   {
+    width: 20%;
+}
+
+input[name=e-mail]  {
+    width: 35%;
+}
+
+input[name=phone]   {
+    width: 10%;
+}
+
+input[type=submit]  {
+    width: 10%;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover    {
+    background-color: black;
+    color: white;
+}
+
+form    {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-main    {
+    margin: 20px 0px 40px 0px;
+}
+
+/* Thank you page CSS below */
+.thankyou-page  {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thankyou-main  {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.thankyou-page h2   {
+    font-size: 40px;
+}
+
+.thankyou-main button   {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.thankyou-main button:hover {
+    color: white;
+    background-color: black;
 }
