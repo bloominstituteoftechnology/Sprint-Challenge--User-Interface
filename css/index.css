@@ -18,12 +18,16 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+/*div {
+    border: solid 2px aqua;
+}*/
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -66,10 +70,81 @@ p {
     line-height: 1.4;
 }
 
+/*SHARED STYLING BELOW THIS LINE*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+
 }
+
+#top-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+/*NAVBAR STYLING*/
+#navbar {
+    display: flex;
+    top: 0;
+    margin: 0 auto;
+    width: 800px;
+    align-items: flex-end;
+}
+
+#nav{
+    display: flex;  
+    margin-right: 20px;
+}
+
+.nav{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    transition: background .3s ease-in;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav:hover{
+    background: #615A5A;
+    color: white;
+}
+
+
+
+
+/*SHARED FOOTER STYLING*/
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*INDEX.HTML STYLING BELOW THIS LINE*/
+
+
 
 .top-content {
     display: flex;
@@ -126,21 +201,310 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-footer nav {
-    width: 60%;
+#box1 {
+    background-color: teal;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box2 {
+    background-color: gold;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box3 {
+    background-color: cadetblue;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box4 {
+    background-color: coral;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box5 {
+    background-color: crimson;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box6 {
+    background-color: forestgreen;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box7 {
+    background-color: darkorchid;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box8 {
+    background-color: hotpink;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box9 {
+    background-color: indigo;
+    padding: 30px;
+    margin: 20px;
+}
+
+#box10 {
+    background-color: dodgerblue;
+    padding: 26px;
+    margin: 20px;
+}
+
+
+/*ABOUT.HTML STYLING BELOW THIS LINE*/
+
+#about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+#strategy-work, #office-meeting {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+#strategy, #office {
+    margin-right: 10px;
+}
+
+#work, #meeting {
+    margin-left: 10px;
+}
+
+button {
+    padding: 7px 25px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    margin: 10px 0px;
+
+}
+
+.title {
+    margin: 8px 0px;
+}
+
+#work, #office, #strategy, #meeting {
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.picture {
+    width: 100%;
+}
+
+#together {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*BLOG PAGE STYLING BELOW THIS LINE*/
+
+.blog-page {
+    width: 800px;
+}
+
+#blog-header {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+
+#content {
+    display: flex;
+}
+
+#articles, #sidebar {
+    display:flex;
+    flex-direction: column;
+}
+
+#sidebar-about {
+    width: 175px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 15px;
+
+}
+
+#about-us, #follow, #blog1, #blog2 {
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#blog1, #blog2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+    margin: 20px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#blog1 p, #blog2 p, #about-us p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    font-size: 48px;
+    color: grey;
+    margin: 10px;
+}
+
+#follow {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    align-items: center;
+}
+
+#fa-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+#sidebar2 { 
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
 }
+
+/*CONTACT PAGE STYLING BELOW THIS LINE*/
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    font-size: 14px;
+    padding: 20px;
+    width: 50%;
+}
+
+fieldset input, fieldset select, fieldset textarea {
+    margin: 5px 0px 8px 0px;
+}
+
+fieldset input {
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+textarea{
+    border-color: grey whitesmoke whitesmoke grey;
+    border-width: 2px;
+}
+
+#address2 {
+    margin-top: 0px;
+}
+
+#address1 {
+    margin-bottom: 5px;
+}
+
+#city-st-zip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#city, #state, #zip {
+    display: flex;
+    flex-direction: column;
+}
+
+#message {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#zip {
+    width: 125px;
+}
+
+select {
+    width: 50px;
+    height: 25px;
+    background-color: white;
+}
+
+#contact-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#intro {
+    margin-left: 20px;
+}
+
+#contact-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sidebar-img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#follow-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    align-items: center;
+    margin-bottom: 60px;
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
