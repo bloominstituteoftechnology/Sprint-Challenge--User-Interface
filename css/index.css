@@ -217,10 +217,10 @@ footer nav a {
 }
 
 .card:hover {
-    -webkit-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -o-transform: scale(1.15);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
     transform: scale(1.05);
     margin: 0 20px;
 }
@@ -322,7 +322,6 @@ footer nav a {
 }
 
 .contact-form input:hover {
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
     transform: translate(0, 3px) scale(1.05);
 }
 
@@ -340,8 +339,7 @@ footer nav a {
 }
 
 .contact-form textarea:hover {
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
-    transform: translate(0, 3px) scale(1.05);
+    transform: translate(0, 3px) scale(1.01);
 }
 
 .contact-form button {
@@ -358,7 +356,6 @@ footer nav a {
 }
 
 .contact-form button:hover {
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
-    transform: translate(0px, -3px) scale(1.05);;
+    transform: translate(0px, -3px) scale(1.01);;
     cursor: pointer;
 }
