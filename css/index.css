@@ -110,24 +110,42 @@ header nav a {
     margin: 30px 15px 20px 15px;
 }
  .float-container {
-     width: 880px;
      display: flex;
      flex-wrap: wrap;
      justify-content: space-evenly;
 }
 
 .float {
-    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: between;
+    width: 375px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .float img {
-    width: 330px;
+    width: 375px;
+}
+
+.float h2 {
+    padding-top: 10px;
+}
+
+.float p {
+    padding-bottom: 10px;
 }
 
 .float btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
     background: white;
+    width: 115px;
+    height: 35px;
     border-radius: 5px;
 }
 
