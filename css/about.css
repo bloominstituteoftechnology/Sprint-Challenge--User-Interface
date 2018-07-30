@@ -1,0 +1,33 @@
+#aboutWrap {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px dotted black;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.aboutUs {
+    display:inline-flex;
+    flex-direction: column;
+    width: 380px;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 1px dotted black;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 0; 
+
+}
+
+#together {
+
+    margin: 25px;
+}
+                    
