@@ -144,3 +144,160 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250px;
+}
+
+header .logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .logo-nav nav {
+    display: flex;
+    justify-content: space-around;
+    width: 680px;
+}
+
+header .logo-nav nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header .logo-nav nav a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.boxes .box.box1{
+    background-color: teal;
+}
+
+.boxes .box.box2{
+    background-color: gold;
+}
+
+.boxes .box.box3{
+    background-color: cadetblue;
+}
+
+.boxes .box.box4{
+    background-color: coral;
+}
+
+.boxes .box.box5{
+    background-color: crimson;
+}
+
+.boxes .box.box6{
+    background-color: forestgreen;
+}
+
+.boxes .box.box7{
+    background-color: darkorchid;
+}
+
+.boxes .box.box8{
+    background-color: hotpink;
+}
+
+.boxes .box.box9{
+    background-color: indigo;
+}
+
+.boxes .box.box10{
+    background-color: dodgerblue;
+}
+
+.boxes .box:hover {
+    transition-duration: 200ms;
+    transform: scale(1.1);
+}
+
+/* about page styling */
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding: 15px;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.middle-section .content-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    width: 370px;
+    border-bottom: 1px dotted black;
+    margin: 20px 0px;
+    padding-bottom: 10px;
+}
+
+.content-boxes button {
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button:hover {
+    transition-duration: 150ms;
+    transform: scale(1.1);
+}
+
+.bottom-section {
+    padding: 20px 10px;
+}
+
+/* styling for contact.html */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    height: 300px;
+}
+
+.inputs .address .city-st-zip .st-zip input {
+    width: 150px;
+}
+.inputs .address .city-st-zip .st-zip {
+    display: flex;
+}
+
+.name {
+    display: flex;
+    /* justify-content: space-around; */
+}
