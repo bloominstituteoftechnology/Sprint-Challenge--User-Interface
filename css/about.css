@@ -1,0 +1,57 @@
+.top-content {
+    justify-content: space-between;
+    padding: 0 3%;
+    padding-bottom: 20px;
+}
+
+.top-content h1 {
+    font-weight: 550;
+}
+
+.middle-content {
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+.middle-content .boxes {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .box {
+    width: 373px;
+    height: 425px;
+    padding-bottom: 20px;
+    margin: 20px 10px;
+    background: white;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px dashed black;
+}
+
+.boxes h2 {
+    padding: 0px;
+    font-weight: 550;
+}
+
+.box button {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background: white;
+    margin-top: 10px;
+}
+
+.bottom-content {
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+}
+
+.bottom-content h2 {
+    font-weight: bold;
+    font-weight: 550;
+}
