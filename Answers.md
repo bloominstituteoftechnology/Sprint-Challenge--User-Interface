@@ -16,6 +16,6 @@ the container that it is in. You get one child per line. In order to be able to 
 
 4. cross axis
 
-5. git commit -m "add message here"
+5. git commit -m "add message here".
 
   
