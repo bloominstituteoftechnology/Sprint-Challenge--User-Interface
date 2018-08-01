@@ -70,6 +70,49 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/******************************
+ Header style
+******************************/
+header {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+}
+
+header nav {
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2px;
+    width: 600px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size:14px;
+    color: black;
+
+    /*Animation*/
+    background-image: linear-gradient(#F00, #FF0);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .4s ease-in;
+}
+
+header nav a:hover {
+    background-size: 100% 1px, auto;
+}
+
+header nav a:last-child {
+    margin-right: 38px;
+}
+
+section.image {
+    margin: 35px 0px 20px 0px;
+}
 
 .top-content {
     display: flex;
@@ -93,6 +136,41 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+/*****************
+  Boxes styles
+******************/
+
+div.boxes div.box:nth-child(1) {
+    background:teal;
+}
+div.boxes div.box:nth-child(2) {
+    background:gold;
+}
+div.boxes div.box:nth-child(3) {
+    background:cadetblue;
+}
+div.boxes div.box:nth-child(4) {
+    background:coral;
+}
+div.boxes div.box:nth-child(5) {
+    background: crimson;
+ }
+
+div.boxes div.box:nth-child(6) {
+    background:forestgreen;
+}
+div.boxes div.box:nth-child(7) {
+    background:darkorchid;
+}
+div.boxes div.box:nth-child(8) {
+    background:hotpink;
+}
+div.boxes div.box:nth-child(9) {
+    background:indigo;
+}
+div.boxes div.box:nth-child(10) {
+    background:dodgerblue;
 }
 
 .middle-content .boxes {
@@ -143,4 +221,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
+}
+
+
+/*****************
+  About page styles
+********************/
+
+section.about {
+   margin: 0px 22px 20px 22px;
+}  
+
+hr {
+    border-top:1px dotted #000;
+    /*margin-bottom: 30px;*/
+    
+}
+
+section.content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+      
+}
+
+section.content-box  {
+  width: 370px;
+  /*height: 450px;*/
+  margin-top:22px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px dotted black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+section h2 {
+    margin-top: 15px;
+}
+
+section.content-about section.content-box a {
+  background-color: white;
+  border: 1px solid #000;  
+  border-radius:2px;
+  margin-top:22px;
+  width:130px;
+  color: #000;
+  font-size:14px;
+  text-align: center;
+  padding: 10px ;
+  border-radius:10px;
+  text-decoration: none;
+}
+
+ section.content-about section.content-box a:focus,
+ section.content-about section.content-box a:hover {
+  background-color: FireBrick;
+  color: White;
+}
+
+section.bottom {
+    margin: 0px 0px 25px 0px;
 }
