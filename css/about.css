@@ -1,0 +1,52 @@
+.about-top{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+}
+
+.about-top .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-top: 1px dashed black;
+}
+
+.about-middle h2 {
+    margin-top: 10px;
+}
+
+.about-text {
+    width: 46%;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.about-text:nth-child(3){
+    border-top: 2px dashed black;
+    border-bottom: 1px dashed black;
+}
+
+.about-text:last-child{
+    border-top: 2px dashed black;
+    border-bottom: 1px dashed black;
+}
+.about-bottom{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2% 20px;
+}
+
+.button{
+    border-radius: 5px;
+    background: white;
+    padding: 8px 25px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
