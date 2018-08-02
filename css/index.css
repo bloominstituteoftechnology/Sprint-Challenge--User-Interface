@@ -254,10 +254,11 @@ footer nav a {
     border: 2px solid #1d1d1d;
     border-radius: 8px;
     padding: 8px 30px;
+    cursor: pointer;
 }
 
 .about-footer {
-    padding-bottom: 20px;
+    padding-bottom: 100px;
     margin: 20px 0px;
 }
 
