@@ -71,6 +71,50 @@ p {
     margin: 0 auto;
 }
 
+
+/* Navigation Bar */
+
+header {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.logo {
+    display: block;
+    width: 75%;
+}
+
+.site-navigation .logo-nav {
+    flex: 1;
+}
+
+.site-navigation ul {
+    display: flex;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.site-navigation li {
+    flex: 1;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* end navigation */
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +156,50 @@ p {
     justify-content: center;
 }
 
+
+/* box colors */
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#crimson {
+    background-color: crimson;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+}
+
+#hotpink {
+    background-color: hotpink;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
+}
+
+/* end colors */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +231,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+.jumbo-about {
+    width: 100%;
+}
+
+.about-section {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.about-section,
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    border-top: 2px dashed solid;
+}
+
+.row h2 {
+    padding-top: 20px;
+}
+
+.row p {
+    padding-bottom: 10px;
+}
+
+/* button */
+button {
+    padding: 10px 0;
+    width: 35%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: solid black;
+}
+
+button span {
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+/* button end */
+
+
+.bottom-border {
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.bottom-section {
+    padding-bottom: 40px;
+    padding-top: 30px;
 }
