@@ -66,23 +66,138 @@ p {
     line-height: 1.4;
 }
 
+#divPage {
+	width: 800px;
+	margin: auto;
+}
+
+#navFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 800px;
+	height: 40px;
+	background-color: white;
+	left: 360px;
+}
+
+.navItemFlex {
+	color: gray;
+	height: 40px;
+	flex: 0 0 100px;
+	text-align: center;
+	font-family: arial;
+	6font-size: 12px;
+	text-decoration: none;
+	top: 1px;
+	float: left;
+	padding-top: 12px;	
+}
+
+#topImage {
+	width: 800px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
-.top-content {
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;  
+}
+
+#box3 {
+    background-color: cadetblue;  
+}
+
+#box4 {
+    background-color: coral;  
+}
+
+#box5 {
+    background-color: crimson;  
+}
+
+#box6 {
+    background-color: forestgreen; 
+}
+
+#box7 {
+    background-color: darkorchid; 
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+#sectionContainer {
+	width: 800px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    height: 700px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#section2 {
+	width: 340px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 340px;
+}
+
+.sectionImage {
+    width: 300px;
+}
+
+.top-content {
+    display: inline-block;
+    width: 800px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 800px;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.topTextBox {
+	border: 2px solid black;
+	color: black;
+	width: 140px; 
+	Height: 28px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.topTextBox:hover {
+	animation: moveIt 3s infinite;
+}
+
+@keyframes moveIt {
+	0% {margin-top: 0px;}
+	25% {margin-top: 10px;}
+	50% {margin-top: -5px;}
+	100% {margin-top: 0px;}
 }
 
 .middle-content {
