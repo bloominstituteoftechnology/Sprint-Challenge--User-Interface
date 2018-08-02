@@ -62,14 +62,40 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
-}
+/* Main Content */
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Header section */
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 0px 30px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.4;
+}
+
+/* Top Content */
+
 
 .top-content {
     display: flex;
@@ -84,6 +110,11 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+
+/* Middle Content */
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +143,50 @@ p {
     justify-content: center;
 }
 
+#One {
+    background-color: teal;
+}
+
+#Two {
+    background-color: gold;
+}
+
+#Three {
+    background-color: cadetblue;
+}
+
+#Four {
+    background-color: coral;
+}
+
+#Five {
+    background-color: crimson;
+}
+
+#Six {
+    background-color: forestgreen;
+}
+
+#Seven {
+    background-color: darkorchid;
+}
+
+#Eight {
+    background-color: hotpink;
+}
+
+#Nine {
+    background-color: indigo;
+}
+
+#Ten {
+    background-color: dodgerblue;
+}
+
+
+/* Bottom Content  */
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +200,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* Footer Section */
 
 footer {
     width: 100%;
@@ -144,3 +222,132 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* about.html */
+
+/* Top section */
+
+.top-about-content {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-about-content p {
+    margin: 0px 15px;
+}
+
+.top-about-content h2 {
+    margin: 20px 16px;
+
+}
+
+/* Middle section */
+
+section.about-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0px 16px;
+}
+
+div.about-box {
+    border-bottom: 1px dashed black;
+    height: 415px;
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+button {
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 130px;
+    height: 35px;
+    margin: 15px 0px;
+    font-size: 16px;
+}
+
+
+/* Bottom section */
+
+.bottom-about-content {
+    margin: 20px 16px;
+}
+
+.bottom-about-content p {
+    margin: 20px 0px 40px 0px;
+}
+
+
+/* Contact page */
+
+#contact-img {
+    margin: 0px 0px 15px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-left: 100px;
+}
+
+
+input {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 219px;
+}
+
+input[type=submit] {
+    background-color: rgb(70, 58, 151);
+    color: white;
+    width: 150px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    align-self: center;
+}
+
+#fname {
+    margin-left: 33px;
+}
+
+#lname {
+    margin-left: 33px;
+}
+
+#email {
+    margin-left: 35px;
+}
+
+#message {
+    margin-left: 9px;
+    width: 500px;
+    height: 100px;
+    text-align: left;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+}
+
+/* div.contact-form {
+    border-radius: 5px;    
+    padding: 20px;
+} */
