@@ -66,9 +66,45 @@ p {
     line-height: 1.4;
 }
 
+body{
+    border: 0px solid black;
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px 0px 22px 50px;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+.black{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav{
+    display: inline-block;
+    word-spacing: 80px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#container about-page{
+    border-bottom: 1px solid black;
+    padding: 16px;
+}
+h2 {
+    padding-top: 15px;
+}
+
+.jumbo{
+    width: 800px;
 }
 
 .top-content {
@@ -77,6 +113,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 20px;
 }
 
 .top-content .text-container {
@@ -85,23 +122,36 @@ p {
     padding-bottom: 20px;  
 }
 
+#middle{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1px;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+    padding: 25px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
-.middle-content .boxes {
+/* .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
+} */
+/* .middle-content .boxes {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +160,36 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10  {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -125,10 +205,15 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.together{
+    margin: 0 auto;
+    width: 745px;
+    padding: 10px 0px 10px 0px;
+}
 footer {
     width: 100%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
