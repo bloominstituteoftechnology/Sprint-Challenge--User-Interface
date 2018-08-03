@@ -227,7 +227,75 @@ footer nav a {
     text-decoration: none;
 }
 
-/* ABOUT PAGE */
+/* Break Points - Tablet & Mobile for Index Page */
+
+   
+@media (max-width: 800px) {
+
+    .container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        border: 2px solid limegreen;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        border: 3px solid red;
+        display: flex;
+        justify-content: space-around;
+        order: 1;
+    }
+
+    .jumbo {
+        border: 5px solid aqua;
+        order: 2;
+    }
+
+    .top-content {
+        border: 1px solid orange;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        order: 1;
+    }
+
+    .middle-content {
+        border: 1px solid goldenrod;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+        order: 2;
+    }
+
+
+    .bottom-content {
+        border: 1px solid green;
+        display: flex;
+        margin: 0 2% 20px;
+        justify-content: space-around;
+        order: 2;
+    }
+
+
+    footer {
+        border: 1px solid blue;
+        width: 100%;
+        background: black;
+        order: 2;
+    }
+}
+
+@media (max-width: 500px) {
+
+}
+
+
+
+/************** ABOUT PAGE ****************/
 
 .container.about-page {
     width: 800px;
@@ -278,11 +346,4 @@ footer nav a {
 .about-box .space {
     margin: 55px 0 0 0;
 }
-    
-@media (max-width: 800px) {
-
-}
-
-@media (max-width: 500px) {
-
-}
+ 
