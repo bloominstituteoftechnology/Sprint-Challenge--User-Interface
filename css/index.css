@@ -233,36 +233,45 @@ footer nav a {
 @media (max-width: 800px) {
 
     .container {
-        width: 100%;
-        max-width: 800px;
-        margin: 0 auto;
         border: 2px solid limegreen;
         display: flex;
         flex-direction: column;
     }
 
     .header {
-        border: 3px solid red;
+        /* border: 3px solid red; */
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
         order: 1;
+    }
+
+    .header .lb {
+        /* border: 1px solid red; */
+        align-self: center;
+    }
+    
+    .header nav {
+        /* border: 1px solid blue; */
     }
 
     .jumbo {
-        border: 5px solid aqua;
+        /* border: 5px solid aqua; */
         order: 2;
+        padding: 20px;
     }
 
     .top-content {
-        border: 1px solid orange;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-bottom: 1px dashed black;
+        /* border: 1px solid orange; */
+        justify-content: center;
         order: 1;
     }
+
+
+    .top-content .text-container {
+        /* border: 1px solid red; */
+        padding: 5px 4%;
+    }
+
 
     .middle-content {
         border: 1px solid goldenrod;
