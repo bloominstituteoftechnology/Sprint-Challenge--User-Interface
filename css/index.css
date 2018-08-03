@@ -66,9 +66,45 @@ p {
     line-height: 1.4;
 }
 
+/*.logo {
+    background-image: url('../img/lambda-black.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+
+}*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    padding-top: 20px
+}
+
+.logo {
+    background-image: url("../img/lambda-black.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+    margin-right: 5%;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url("../img/jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
 }
 
 .top-content {
@@ -143,4 +179,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/***********UTILS***********/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.flex-grow {
+    flex-grow: 1
+}
+
+.full-width {
+    width: 100%
 }
