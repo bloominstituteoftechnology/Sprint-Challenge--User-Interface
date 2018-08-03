@@ -316,7 +316,6 @@ footer nav a {
 
 @media (max-width: 500px) {
     .container {
-        border: 2px solid limegreen;
         display: flex;
         flex-direction: column;
     }
@@ -350,34 +349,41 @@ footer nav a {
     }
     
 
-
-    .jumbo {
-        border: 5px solid aqua;
-        order: 2;
-        padding: 20px;
-    }
-
     .top-content {
-        border: 1px solid orange;
-        justify-content: center;
+        flex-direction: column-reverse;
         order: 1;
     }
 
+    .top-content .text-container {
+        padding: 20px 6%;
+        width: 100%;
+    }
 
     .middle-content {
-        border: 1px solid goldenrod;
         padding: 10px;
         border-bottom: 1px dashed black;
         order: 2;
     }
 
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .middle-content .boxes .box {
+        width: 40%;
+        height: 130px;
+        font-size: 2rem;
+    }
 
     .bottom-content {
-        border: 1px solid green;
-        display: flex;
-        margin: 0 2% 20px;
-        justify-content: space-around;
+        flex-direction: column;
         order: 2;
+    }
+
+    .bottom-content .text-container {
+        padding: 10px 4% 10px 4%;
     }
 
 }
