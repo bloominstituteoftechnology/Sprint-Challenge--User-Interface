@@ -266,7 +266,6 @@ footer nav a {
         order: 1;
     }
 
-
     .top-content .text-container {
         /* border: 1px solid red; */
         padding: 5px 4%;
@@ -274,10 +273,14 @@ footer nav a {
 
 
     .middle-content {
-        border: 1px solid goldenrod;
-        margin-bottom: 20px;
+        /* border: 1px solid goldenrod; */
+        padding: 10px;
         border-bottom: 1px dashed black;
         order: 2;
+    }
+
+    .middle-content h2 {
+        padding: 0 5%;
     }
 
 
