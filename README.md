@@ -10,11 +10,11 @@
 
 ## Task 1: Set Up The Project With Git
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a branch called `develop` on your local build
-* [ ] Set your HEAD to your newly created `develop` branch
-* [ ] You are now ready to build this project with your preferred IDE
+* [x ] Fork the project into your GitHub user account
+* [x ] Clone the forked project into a directory on your machine
+* [x ] Create a branch called `develop` on your local build
+* [x ] Set your HEAD to your newly created `develop` branch
+* [x ] You are now ready to build this project with your preferred IDE
 
 #### Pro tip: Commit every time you complete a task or feature!
 
@@ -29,7 +29,7 @@ Answer the following questions to the best of your ability. You can exercise you
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
-5. What is the git command to commit staged changes as well as write a message? 
+5. What is the git command to commit staged changes as well as write a message?
 
 ## Task 3: Home Page
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
