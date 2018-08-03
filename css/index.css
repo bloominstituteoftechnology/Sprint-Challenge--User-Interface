@@ -237,7 +237,7 @@ footer nav a {
 @media (max-width: 800px) {
 
     .container {
-        border: 2px solid limegreen;
+        /* border: 2px solid limegreen; */
         display: flex;
         flex-direction: column;
     }
@@ -289,20 +289,29 @@ footer nav a {
 
 
     .bottom-content {
-        border: 1px solid green;
+        /* border: 1px solid green; */
         display: flex;
         margin: 0 2% 20px;
         justify-content: space-around;
         order: 2;
     }
 
+    .bottom-content .text-container {
+        padding: 5px 4% 5px 4%;
+        /* border: 1px solid blue; */
+    }
 
     footer {
-        border: 1px solid blue;
-        width: 100%;
-        background: black;
+        /* border: 1px solid blue; */
         order: 2;
     }
+
+    footer nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
 }
 
 @media (max-width: 500px) {
