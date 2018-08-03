@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html {
+    font-size: 62.5%;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -66,9 +69,79 @@ p {
     line-height: 1.4;
 }
 
+/*.logo {
+    background-image: url('../img/lambda-black.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+
+}*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    padding-top: 20px
+}
+
+.logo {
+    background-image: url("../img/lambda-black.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+    margin-right: 5%;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: indianred;
+}
+
+.banner {
+    background-image: url("../img/jumbo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
+}
+
+.banner-about{
+    background-image: url("../img/jumbo-about.png");
+}
+
+.about-page h1, h2 {
+    font-size: 1.1rem;
+}
+
+.infos {
+    border-top: 2px dotted black;
+    margin: 20px 0;
+}
+
+.info {
+    width: 45%;
+    height: 440px;
+    margin: 20px 0;
+    border-bottom: 2px dotted black;
+}
+
+button {
+    border: 2px solid black;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background: white;
+    width: 120px;
+    height: 40px;
 }
 
 .top-content {
@@ -104,7 +177,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -129,6 +201,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 40px;
 }
 
 footer nav {
@@ -143,4 +216,100 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box:first-child {
+    background: teal;
+}
+
+.box:nth-child(2) {
+    background: gold;
+}
+
+.box:nth-child(3) {
+    background: cadetblue;
+}
+
+.box:nth-child(4) {
+    background: coral;
+}
+
+.box:nth-child(5) {
+    background: crimson;
+}
+
+.box:nth-child(6) {
+    background: forestgreen;
+}
+
+.box:nth-child(7) {
+    background: darkorchid;
+}
+
+.box:nth-child(8) {
+    background: hotpink;
+}
+
+.box:nth-child(9) {
+    background: indigo;
+}
+
+.box:nth-child(10) {
+    background: dodgerblue;
+}
+
+/***********UTILS***********/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.flex-grow {
+    flex-grow: 1
+}
+
+.full-width {
+    width: 100%
 }
