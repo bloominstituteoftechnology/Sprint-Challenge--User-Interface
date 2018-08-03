@@ -105,7 +105,8 @@ p {
 
 
 .container {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -278,3 +279,10 @@ footer nav a {
     margin: 55px 0 0 0;
 }
     
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
