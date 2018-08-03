@@ -69,6 +69,7 @@ p {
 body{
     border: 0px solid black;
     width: 900px;
+    margin: 0 auto;
 }
 
 header{
@@ -91,10 +92,15 @@ nav{
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 #container about-page{
-    border: 2px solid black;
+    border-bottom: 1px solid black;
+    padding: 16px;
+}
+h2 {
+    padding-top: 15px;
 }
 
 .jumbo{
@@ -116,24 +122,36 @@ nav{
     padding-bottom: 20px;  
 }
 
+#middle{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1px;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+    padding: 25px;
+}
+button{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
-.middle-content .boxes {
+/* .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 22px;
-}
-
-.middle-content .boxes .box {
+} */
+/* .middle-content .boxes {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -142,8 +160,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
+} */
 .box1{
     background: teal;
 }
@@ -188,10 +205,15 @@ nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.together{
+    margin: 0 auto;
+    width: 745px;
+    padding: 10px 0px 10px 0px;
+}
 footer {
     width: 100%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
