@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 1.6rem;
 }
 
 .header {
@@ -101,6 +103,7 @@ p {
     color: black;
     /* border: 1px solid black; */
     padding: 20px 0 0 0;
+    font-size: 1.5rem;
 }
 
 
@@ -161,6 +164,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.8rem;
 }
 
 .boxes .box.one {
