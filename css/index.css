@@ -24,24 +24,54 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
+header {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+nav {
+    width: 640px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.navBarLinks {
+    text-decoration: none;
+    font-size: 85%;
+    color: inherit;
+}
+
+#homeTopPic {
+    margin: 15px 0px;
+}
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -69,6 +99,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.headerImage {
+    width: 800px;
 }
 
 .top-content {
@@ -112,6 +146,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +217,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.wideSection {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#middleSection {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+}
+
+#middleSection div {
+    width: 370px;
+    height: 430px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    padding: 15px 0px;
+}
+
+button {
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 0px;
+}
+
+.productSection {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px dashed black;
+    padding: 15px 0px;
+}
+
+.productDivGeneral {
+    display: flex;
+    padding-bottom: 10px;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.industryDiv {
+    width: 155px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.homeDiv {
+    width: 245px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.divPic {
+    width: 245px;
+    height: 245px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.productSection h2 {
+  animation-duration: 3s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {
+    margin-left: 90%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
