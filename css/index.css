@@ -85,27 +85,27 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 #img-about-top {
-    margin:25px 0px;
+    margin: 25px 0px;
 }
 
 #img-home-top {
-    margin:25px 0px;
+    margin: 25px 0px;
 }
 
 #img-products-top {
     margin: 25px 0px;
-    width:800px;
+    width: 800px;
 }
 
 #img-contact-top {
     margin: 25px 0px;
     width: 800px;
-
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -115,17 +115,18 @@ header nav a {
 }
 
 .top-text-about {
-    margin-bottom:20px;
+    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-text-about p{
-    margin-bottom:20px;
+.top-text-about p {
+    margin-bottom: 20px;
 }
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -133,50 +134,50 @@ header nav a {
 }
 
 .about-middle-container {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .about-middle-container p {
-    margin:10px 0px;
+    margin: 10px 0px;
 }
+
 .about-topics {
     width: 48%;
     border-bottom: 1px dashed black;
 }
 
-
 .about-topics button {
     background-color: white;
-    padding:10px 20px;
-    border-radius:15%;
-    border:2px solid black;
-    margin:20px 10px;
+    padding: 10px 20px;
+    border-radius: 15%;
+    border: 2px solid black;
+    margin: 20px 10px;
     cursor: pointer;
-
 }
 
 .about-topics button:hover {
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
 }
 
 .about-topics button:active {
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
     box-shadow: 0 6px orange;
     transform: transformY(4px);
 }
 
 .middle-content .about-topics {
     margin-bottom: 20px;
-
 }
+
 .middle-content .about-topics h2 {
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -214,24 +215,31 @@ header nav a {
 #box4 {
     background-color: coral;
 }
+
 #box5 {
     background-color: crimson;
 }
+
 #box6 {
     background-color: forestgreen;
 }
+
 #box7 {
     background-color: darkorchid;
 }
+
 #box8 {
     background-color: hotpink;
 }
+
 #box9 {
     background-color: indigo;
 }
+
 #box10 {
     background-color: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -249,6 +257,7 @@ header nav a {
 .about-bottom-content {
     margin: 20px 0px;
 }
+
 footer {
     width: 100%;
     background: black;
@@ -269,44 +278,44 @@ footer nav a {
 }
 
 a:hover {
-    color:blue;
+    color: blue;
 }
 
 /* CSS for product specific page */
 
 .middle-container {
-	display:flex;
-	flex-wrap:wrap;
-	justify-content: space-between;
-    padding-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
     border-top: 2px dashed green;
 }
 
 .product-mid-content {
-	border: 3px double purple;
-	margin-bottom:35px;
-	width:48%;
-	background-color:honeydew;
-	padding:20px;
+    border: 3px double purple;
+    margin-bottom: 35px;
+    width: 48%;
+    background-color: honeydew;
+    padding: 20px;
 }
 
 .product-mid-content button {
-	border:1px solid black;
-	padding: 6px 40px;
-	margin-top:20px;
-	background-color:white;
-    border-radius:10%;
+    border: 1px solid black;
+    padding: 6px 40px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10%;
     cursor: pointer;
 }
 
 .product-mid-content button:hover {
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
 }
 
 .product-mid-content button:active {
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
     box-shadow: 0 6px orange;
     transform: transformY(4px);
 }
@@ -324,21 +333,23 @@ a:hover {
 }
 
 .questions-text h3 {
-    font-size:36px;
+    font-size: 36px;
 }
 
 .questions-text p {
-    margin-bottom:25px;
+    margin-bottom: 25px;
 }
+
 .contact-fillin-boxes {
-    margin-top:50px;
+    margin-top: 50px;
 }
+
 .contact-ftr {
-    width:100%;
+    width: 100%;
     background: black;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 .submit-btn {
-    margin-top:15px;
+    margin-top: 15px;
 }
