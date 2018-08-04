@@ -71,6 +71,45 @@ p {
     margin: 0 auto;
 }
 
+/* Header  */
+
+/* header */
+header {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+header nav {
+	display: flex;
+	justify-content: space-around;
+    width: 690px;
+}
+
+header nav a {
+  display: inline-block;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  margin-top: 25px;
+}
+
+header nav a:hover {
+  color: blue;
+}
+
+
+header .logo {
+  display: flex;
+
+}
+
+.header-img {
+    margin: 25px 0px;
+}
+
+/* End Header */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +151,82 @@ p {
     justify-content: center;
 }
 
+/* Box colors */
+
+#box-one {
+    background: teal;
+}
+#box-two {
+    background: gold;
+}
+#box-three {
+    background: cadetblue;
+}
+#box-four {
+    background: coral;
+}
+#box-five {
+    background: crimson;
+}
+#box-six {
+    background: forestgreen;
+}
+#box-seven {
+    background: darkorchid;
+}
+#box-eight {
+    background: hotpink;
+}
+#box-nine {
+    background: indigo;
+}
+#box-ten {
+    background: dodgerblue;
+}
+
+/* End box color */
+
+.about-info{
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* About block layout */
+
+.about-block-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-block{
+    width: 375px;
+    margin-bottom: 40px; 
+    margin: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.block-img {
+    padding: 20px 0px;
+}
+
+.about-block button {
+    margin-top: 15px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 10px;
+    padding: 8px 25px;
+  }
+
+  
+
+/* End about block layout */
+
+.bottom-block {
+    padding: 40px 20px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +241,20 @@ p {
     padding-right: 0;
 }
 
+/* Product page */
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.product-block{
+    width: 200px;
+    border: 1px dashed black;
+}
+
+/* End product page */
 footer {
     width: 100%;
     background: black;
