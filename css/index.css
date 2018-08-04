@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 35px;
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: .5s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.top-img {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +132,57 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 500ms;
+}
+
+.middle-content .boxes .box:nth-of-type(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-of-type(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-of-type(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-of-type(10) {
+    background: dodgerblue;
+}
+
+.middle-content .boxes .box:hover {
+    background: black; 
 }
 
 .bottom-content {
@@ -143,4 +216,78 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Specific styling for about page begins here */
+
+.about {
+    border-bottom: 1px dashed black;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+}
+
+.about h3, .about p, .together {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-box h3 {
+    padding-top: 12px;
+}
+
+.about-box p {
+    padding-bottom: 12px;
+}
+
+.about-box .btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 20px;
+    transition: .25s;
+}
+
+.about-box .btn:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.together {
+    margin-bottom: 20px;
+}
+
+/* Contact form styling begins here */
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+textarea {
+    height: 200px;
 }
