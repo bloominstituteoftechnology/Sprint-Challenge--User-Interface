@@ -66,9 +66,40 @@ p {
     line-height: 1.4;
 }
 
+nav{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-right: 48px;
+    align-items: flex-end;
+}
+
+.nav-img {
+    margin-right: 44px;
+}
+
+.nav-container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+#highway-image {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .top-content {
@@ -110,6 +141,117 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: teal;
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gold;
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cadetblue;
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: coral;
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: crimson;
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: forestgreen;
+}
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkorchid;
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hotpink;
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: indigo;
+}
+.box10{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
 }
 
 .bottom-content {
