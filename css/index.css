@@ -86,7 +86,9 @@ header nav a {
     display: inline-block;
     text-decoration: none;
     color: black;
+    margin-bottom: 40px;
 }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -118,7 +120,6 @@ header nav a {
 .float {
     display: flex;
     flex-direction: column;
-    justify-content: between;
     width: 375px;
     padding-top: 20px;
     padding-bottom: 20px;
