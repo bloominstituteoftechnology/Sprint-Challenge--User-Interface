@@ -177,3 +177,28 @@ footer nav a {
 .container .middle-content .boxes .box9 {color:dodgerblue;}
 
 /*About*/
+
+.container .about-page {
+    width:880px;
+}
+
+.toppic2 {
+    margin:auto;
+}
+
+.photobox2  {
+    margin:auto;
+}
+
+.midsect1 {
+    display:flex;
+    border: 4px solid red;
+}
+
+ 
+
+.midsect2 {
+    display:flex;
+    width:800px;
+    margin:
+}
