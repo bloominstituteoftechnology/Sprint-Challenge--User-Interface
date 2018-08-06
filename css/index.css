@@ -31,17 +31,17 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/*ol, ul {
 	list-style: none;
     display: inline-block;
     margin: auto;
     font-color: grey;
     width: 880px;
-}
+}*/
 
 li {
     list-style-type: none;
-    margin: 0;
+    margin: 30px;
     padding: 0;
     float: left;
 }
@@ -49,7 +49,7 @@ li {
 
 li a {
     display: block;
-    padding: 14px 16px;
+    padding: 14px 4px;
     text-align: center;
     text-decoration: none;
     font-color: grey;
@@ -97,10 +97,9 @@ li a {
 }
 
 nav {
-    display: inline-block;
-    width: 100%;
-    margin: auto;
-    font-color: grey;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 #header_image {
@@ -142,9 +141,13 @@ p {
     line-height: 1.4;
 }
 
-.container {
+#container {
     width: 800px;
     margin: 0 auto;
+}
+
+#content {
+    width: 800px;
 }
 
 .top-content {
@@ -211,6 +214,7 @@ p {
     margin:right: 1px;
     border-bottom: 1px dashed black;
     padding-bottom: 5px;
+    padding-right: 5px;
 }
 
 
@@ -232,6 +236,7 @@ p {
     border-bottom: 1px dashed black;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-right: 5px;
 }
 
 #bottom_right_collaboration {
@@ -245,17 +250,32 @@ p {
 
 }
 
+#worktogether {
+    padding: 10px;
+}
+
 .button {
     background-color: white;
     border: 1px black solid;
     color: black;
     width: 25%;
     margin-top: 5px;
-    padding: 5px 32px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
     border-radius: 8px;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#aboutsection {
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
 }
 
 footer {
