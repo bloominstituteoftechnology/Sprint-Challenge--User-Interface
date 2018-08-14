@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -47,100 +47,106 @@ table {
 	border-spacing: 0;
 }
 
+/* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
+/* Your code starts here! */
+
+.banner {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.banner h1,img{
+  display: inline-block;
+}
+
+
+.banner h1{
+  font-size: 70px;
+  text-align: center;
+}
+
+.button {
+  background: white;
+  border: 1px solid black;
+  width: 25%;
+  font-size: 15px;
+  text-align: center;
+  padding: 2%;
+  margin-left: 10%;
+}
+
+.button:hover {
+  background: gray;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+	width: 650px;
+	display: inline-block;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.copyright {
+  padding: 2%;
+  text-align: center;
+}
+.navbar {
+  padding-bottom: 10%;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.navbar li {
+  display: inline-block;
+  padding: 1.5%;
+  color: gray;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.top-pic {
+  padding-left: 60%;
+  position: absolute;
+  top: 2px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.main-content {
+  width: 100%;
+  display: inline-block;
+  padding: 1%;
+  margin-bottom: 10px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.main-content div {
+  display: inline-block;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.main-content img {
+  width: 650px;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.main-content div p {
+  width: 300px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.main-content .services p {
+  width: 200px;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.main-content .product p {
+  width: 200px;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
+.main-content .vision p {
+  width: 200px;
 }
