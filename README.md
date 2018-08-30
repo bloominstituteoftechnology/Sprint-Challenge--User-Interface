@@ -55,7 +55,6 @@ You will also notice there are 10 boxes on the home page that need background co
 
 ## Task 5: Push Updates and Pull Request
 * [ ] Once you have completed tasks 1-4, push all your commits up to your master branch  
-* [ ] Push all your updates up to master
 * [ ] Create a pull request back to the original `fork`
 
 **Congratulations, you completed the sprint challenge!**
