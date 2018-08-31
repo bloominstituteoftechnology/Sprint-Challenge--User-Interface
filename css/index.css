@@ -75,8 +75,16 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin: 20px 0 40px 0;
 }
+
+.navtext {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+
 
 .top-content {
     display: flex;
