@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+/* RDesai added the following CSS for the header section */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+header nav { 
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header .header-img {
+    margin: 40px 0 30px;
+}
+
+/* end header CSS */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +139,80 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Media queries for main page boxes */
+
+
+@media only screen and (max-width: 768px)  { 
+    .boxes {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding: 30px 0;
+      margin-bottom: 100px;
+      height: 100%;
+    }
+  }
+
+  /* End media query */
+
+.middle-content .boxes .box:hover {
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+
+/* RDesai added the following CSS to color the boxes */
+
+.middle-content .boxes .box1 { 
+    background: teal;
+}
+ 
+.middle-content .boxes .box2 { 
+    background: gold;
+}
+
+.middle-content .boxes .box3 { 
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 { 
+    background: coral;
+}
+
+.middle-content .boxes .box5 { 
+    background: crimson;
+}
+ 
+.middle-content .boxes .box6 { 
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 { 
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 { 
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 { 
+    background: indigo;
+}
+
+.middle-content .boxes .box10 { 
+    background: dodgerblue;
+}
+
+/* end box color CSS */
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +245,128 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Services Page CSS */
+
+
+/* CSS governing the top content (About) */
+.about-page .top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .top-content .text-container {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* CSS governing the 4 middle boxes */
+.about-page .middle-content {
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-bottom: none;
+    padding: 0 1%;
+}
+
+.about-page .middle-content .box {
+    width: 48%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    height: 420px;
+}
+
+.about-page .middle-content h2 {
+    padding: 0;
+    margin: 10px 0 20px;
+}
+
+.about-page .middle-content p {
+    margin-bottom: 20px;
+}
+
+.about-page .middle-content a {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 7.5px 20px;
+}
+
+.about-page .middle-content a:hover {
+    transition: .3s;
+	color: white;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 16px black;
+}
+
+/* Contact page CSS */
+
+.contact-page header {
+    overflow: hidden; 
+    margin:0; 
+}
+
+.contact-page header .header-img {
+    display: block; 
+    width: 100%;
+    padding-top: 200px;
+    margin:-21.875% 0;
+    z-index: -1;
+}
+
+
+.contact-page .top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    border-bottom: none;
+}
+
+.contact-page .top-content .text-container {
+    width: 98%;
+    padding: 0 1%;
+}
+
+.contact-form {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;   
+    border: 1px solid black; 
+    border-radius: 4px; 
+    margin-top: 6px;
+    margin-bottom: 30px;
+    resize: vertical;
+    font-family: inherit;
+    font-weight: 400; 
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: 300ms;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 4px;
 }
