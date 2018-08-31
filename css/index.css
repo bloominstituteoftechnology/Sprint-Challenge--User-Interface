@@ -249,7 +249,7 @@ footer nav a {
 .about-content .box-content {
     padding: 20px;
     border-bottom: 1px dashed black;
-    width: 400px;
+    width: 390px;
     margin: 20px 0;
 }
 
@@ -259,7 +259,7 @@ footer nav a {
 	cursor: pointer;
 	background: white;
     border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 .about-content .box-content button:hover {
