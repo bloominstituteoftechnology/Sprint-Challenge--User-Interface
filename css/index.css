@@ -51,10 +51,12 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, header {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -69,6 +71,56 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Don't mess with stuff above */
+
+header {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 40px;
+
+}
+
+header nav {
+    display: flex;
+    text-decoration: none;
+}
+
+
+header nav a {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.hvr-grow {
+	display: flex;
+	vertical-align: middle;
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	transition-duration: 0.5s;
+	transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	transform: scale(1.1);
+}
+
+.image1 {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .top-content {
@@ -104,13 +156,50 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: teal;
+    border: 1px solid red;
 }
+
+/* This is where I styled the colors of the boxes */
+
+#box1 {
+    background: teal;
+}
+ #box2{
+    background: gold;   
+}
+ #box3 {
+    background: cadetblue;
+}
+ #box4{
+    background: coral;
+}
+ #box5{
+    background: crimson;   
+}
+ #box6{
+    background: forestgreen;   
+}
+ #box7{
+    background: darkorchid;   
+}
+ #box8{
+    background: hotpink;    
+}
+ #box9{
+    background: indigo;  
+}
+ #box10{
+    background: dodgerblue;   
+}
+
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +232,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.About {
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+    padding: 25px 20px;
+}
+
+.main-section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 0px;
+}
+ .main-section1 h1 {
+    margin-top: 25px;
+}
+ .main-section1 img {
+    height: 230px;
+    width: auto;
+}
+
+.main-section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 0px;
+}
+ .main-section2 h1 {
+    margin-top: 15px;
+}
+
+.Strategy {
+    padding-bottom: 25px;
+    width: 375px;
+    margin-right: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.How {
+    padding-bottom: 25px;
+    width: 375px;
+    border-bottom: 1px dashed black;
+}
+ .main-section2 img {
+    height: 220px;
+    width: auto;
+}
+ .placeswework {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+ .collaboration {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+ button {
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    height: 35px;
+    width: 110px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.final-section {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+
 }
