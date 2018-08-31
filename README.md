@@ -10,9 +10,9 @@
 
 ## Task 1: Set Up The Project With Git
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] You are now ready to build this project with your preferred IDE
 
 #### Pro tip: Commit every time you have completed a task or feature!
 
@@ -31,8 +31,8 @@ Answer the following questions to the best of your ability. You can exercise you
 
 ## Task 3: Home Page
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link up the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link up the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 * [ ] box1: `teal`
