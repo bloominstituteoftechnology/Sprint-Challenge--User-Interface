@@ -91,6 +91,10 @@ header nav a {
     color: black;
 }
 
+header nav a:hover {
+    text-decoration: underline;
+}
+
 .top-image {
     display: block;
     margin: 25px auto;
@@ -238,6 +242,11 @@ footer nav a {
     border: 2px solid black;
     border-radius: 10px;
     margin: 15px 0;
+}
+
+.about-page .twocards .card button:hover {
+    background: black;
+    color: white;
 }
 
 .about-page .bottom-content {
