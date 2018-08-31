@@ -70,6 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container header .logo{
+    width:140px;
+}
+
+.container header {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin:15px 0;
+}
+
+.container header nav{
+    
+	display:flex;
+	flex-flow:row wrap;
+	align-items:flex-end;
+}
+
+.container header nav a{
+    text-decoration:none;
+    font-size:15px;
+    margin:0 40px;
+}
 
 .top-content {
     display: flex;
@@ -129,6 +152,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    align-self:flex-end;
 }
 
 footer nav {
