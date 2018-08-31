@@ -144,3 +144,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container .image-nav {
+    display: flex;
+   
+    margin-bottom: 10px;
+    height: 80px;
+    align-items: center;
+}
+.container header nav {
+    display: flex;
+    
+    width: 600px;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 5px;
+    align-items: center;
+}
+.container header nav a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container header nav a:hover {
+    text-decoration: underline;
+}
+.container header nav .nav-contact {
+    margin-right: 30px;
+}
+.container header .black-logo {
+    margin-bottom: 15px;
+}
+.container header .jumbo-img {
+    margin-bottom: 20px;
+}
