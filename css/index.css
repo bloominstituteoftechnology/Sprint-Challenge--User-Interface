@@ -69,30 +69,63 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    height: 100%
 }
 
 .navi {
     display: flex; 
     height: 30px; 
+    margin: 25px;
+    justify-content: space-between;
+    
 }
 
-.navi nav {
+nav a {
+    padding: 0px; 
+    margin-left: 25px;
+    color: black;
+    text-decoration: none;
+    
+    align-self: flex-end;
+
+}
+
+nav {
     display: flex;
     justify-content: space-around;
 
+
 }
 
-.navi img {
+.navi logo {
     height: auto;
+    padding: 0px;
+    margin-left: 0px;
+    align-self: center;
+
 }
 
 .about-page .content {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
 
 }
 
-.text-container .button {
+.about-page .text-container {
+    width: 48%;
+    margin: 10px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+     
+}
+
+.focus-text  {
+    width: 100%;
+    margin: 15px;
+}
+
+.text-container button {
     background: white;
     border-radius: 5px;
     padding: 10px;
