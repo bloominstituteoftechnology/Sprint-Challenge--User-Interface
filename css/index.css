@@ -211,7 +211,12 @@ footer nav a {
 /* About page */
 
 .about-page p {
-    font-size: 13px;
+    /* font-size: 13px; */
+    animation-name: test2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 
 .cta {
@@ -226,6 +231,9 @@ footer nav a {
     margin-bottom: 30px;
     animation-name: test;
     animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
 }
 
 .card {
@@ -257,4 +265,9 @@ footer nav a {
 @keyframes test {
     from {background: white;}
     to {background: aquamarine;}
+}
+
+@keyframes test2 {
+    from {padding: 0;}
+    to {padding: 25px;}
 }
