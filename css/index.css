@@ -56,6 +56,11 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+  /* over flow so that header doesn't jump when contact page loads*/
+  overflow-y: scroll;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -67,8 +72,8 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
 }
 
 header {
@@ -252,6 +257,14 @@ footer nav a {
 }
 
 /* contact page */
+
+.container.contact-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  justify-content: space-between;
+}
 
 .contact-page .content {
   padding: 20px 0;
