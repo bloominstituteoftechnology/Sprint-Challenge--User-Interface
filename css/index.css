@@ -231,6 +231,11 @@ p {
 	padding: 10px 20px;
 }
 
+.about-page .learn-more button:hover{
+	background-color: lightgray;
+	transition: 1s;
+}
+
 .about-page .bottom-content {
 	display: flex;
 	flex-wrap: wrap;
