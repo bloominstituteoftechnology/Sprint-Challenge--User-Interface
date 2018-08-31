@@ -199,3 +199,53 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-page h2 {
+    font-weight: 500;
+}
+
+.about-page .top-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-page .top-content .text-container {
+    width: 98%;
+    margin-top: 15px;
+}
+
+.about-page .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-page .main-content .text-container {
+    width: 48%;
+}
+
+.about-page .info h2 {
+    margin-top: 5px;
+}
+
+.about-page .bottom-content {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-page .bottom-content h2 {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.about-page .main-content button {
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border-style: solid;
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 10px 0;
+}
