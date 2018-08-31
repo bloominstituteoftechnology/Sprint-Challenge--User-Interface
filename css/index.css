@@ -243,6 +243,33 @@ footer nav a {
 ======================================================================
 */
 .about-page  .about-top-content {
-    border: 1px solid blue;
+    border-bottom: 2px dotted #000;;
     padding-bottom: 15px;
+}
+
+/* 
+======================================================================
+    ABOUT MIDDLE SECTION
+======================================================================
+*/
+
+.about-middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle-section-boxes {
+    width: 45%;
+    border-bottom: 2px dotted #000;
+    margin: 30px 0;
+}
+
+.middle-section-boxes .learn-more-btn {
+    border: 2px solid #000;
+    width: 40%;
+    text-align: center;
+    margin: 20px 20px 15px 0;
+    padding: 10px 10px;
+    border-radius: 8px;
 }
