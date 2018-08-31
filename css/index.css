@@ -79,14 +79,24 @@ p {
 
 .navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
-    width: 700px;
+    width: 650px;
+    margin: 10px 0 0 40px;
 }
 
 .navigation a {
     color: black;
     text-decoration: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    color: #ac98ac;
+    transition: 0.3s;
 }
 
 .top-content {
