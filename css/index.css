@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+header.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 25px;
+}
+
+header.navBar a{
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+header.navBar a:hover{
+    border-bottom: 1px solid black;
+    margin-bottom: -1px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +100,15 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px 0;  
+}
+
+.top-content .text-container h2{
+    font-weight: bold;
+}
+
+.top-content .text-container p{
+    width: 98%;
 }
 
 .middle-content {
@@ -93,6 +119,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .middle-content .boxes {
@@ -122,6 +149,10 @@ p {
     padding-right: 4%;
 }
 
+.bottom-content .text-container h2{
+    font-weight: bold;
+}
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -143,4 +174,106 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+button {
+  background: white;
+  vertical-align: top;
+  padding: 8px 24px;
+  font-weight: bold;
+  font-size: 14px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 6px;
+  color: black;
+  margin-bottom: 25px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+.about-page .about-section h2,p{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.about-page .about-section h2 {
+    font-weight: bold;
+}
+
+.about-page .about-section p {
+    margin-bottom: 25px;
+}
+
+.about-page .about-section {
+    margin-bottom: 25px;
+    border-bottom: 2px dotted black;
+}
+
+.about-page .what-we-do {
+    flex-direction: column;
+}
+
+.about-page .what-we-do h2{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.about-page .what-we-do p {
+    padding:0;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.about-page .what-we-do .row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-page .what-we-do .row1 .newRow {
+    width: 370px;
+        margin-bottom: 25px;
+    border-bottom: 2px dotted black;
+}
+
+.about-page .what-we-do .row1 .newRow:nth-child(odd) {
+    margin-right: 25px;
+}
+
+.about-page .what-we-do .row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-page .what-we-do .row2 .newRow {
+    width: 370px;
+        margin-bottom: 25px;
+    border-bottom: 2px dotted black;
+}
+
+.about-page .what-we-do .row2 .newRow:nth-child(odd) {
+    margin-right: 25px;
+}
+
+.about-page .work-together {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page .work-together h3{
+    
+}
+
+.about-page .work-together p{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 25px;
 }
