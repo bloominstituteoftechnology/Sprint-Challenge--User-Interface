@@ -267,3 +267,33 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+/* Start of about page */
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.container-about-page .about-banner1 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.container-about-page .header1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: baseline;
+}
+.container-about-page .nav1 {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-about-page .nav1 a {
+    text-decoration: none;
+    color: black;
+}
+.container-about-page .about-section {
+   margin-left: 10px;
+}
