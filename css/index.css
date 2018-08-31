@@ -65,10 +65,19 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* End of Reset */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.top-nav{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+.top-nav nav a{
+    margin-right:3.5em
 }
 
 .top-content {
@@ -78,7 +87,10 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content .header-img{
+    margin-top:2em;
+    margin-bottom:2em;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
