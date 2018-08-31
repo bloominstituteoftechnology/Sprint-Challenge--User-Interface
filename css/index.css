@@ -80,7 +80,6 @@ p {
     justify-content: space-between;
     align-items: baseline;
     width:100%;
-    border: green solid 1px;
     margin-bottom: 5%
 }
 
@@ -88,7 +87,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     padding: 20px;
     border: red solid 5px;
 }
@@ -99,7 +98,6 @@ p {
 
 .container bigImage {
     display: block;
-    margin-top: 5%;
 }
 
 .top-content {
@@ -120,6 +118,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
 
 .middle-content h2 {
@@ -131,6 +130,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
 .middle-content .boxes .box1 {
@@ -277,15 +277,20 @@ footer nav a {
     flex-wrap: wrap; 
 }
  .containerAboutPage .bigAboutImage {
-    justify-content:center;
+     display: block;
+    align-self: auto;
     margin: 20px;
 }
 
+.containerAboutPage .aboutInfo {
+    align-self: auto;
+}
 
 .containerAboutPage .stratHowWeWorkRow{
     display: flex;
     flex-wrap: wrap;
     border-top: dotted black 1px;
+    justify-content: flex-start;
     
     
     
@@ -389,12 +394,12 @@ footer nav a {
 
 .containerAboutPage .workTogether {
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
     margin-bottom: 7%;
 }
 
 .containerAboutPage .workTogether h2{
-    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .containerAboutPage .footer .bottomNav {
