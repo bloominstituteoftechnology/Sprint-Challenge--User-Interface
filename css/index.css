@@ -73,6 +73,7 @@ p {
 	background-color:rgb(255, 255, 255, 0.9);
 	z-index: 100;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -95,7 +96,8 @@ header .fixed-header-nav {
 
 .fixed-header-nav a{
 	color: #000;
-	text-decoration: none;
+    text-decoration: none;
+    font-size: 14px;
 } 
 
 /* Main container for all pages */
@@ -117,6 +119,11 @@ header .fixed-header-nav {
     height: auto;
 }
 
+.page-header-content {
+    width: 100%;
+    padding: 20px 20px 0px;
+}
+
 /* Top content container for page */
 .top-content {
     display: flex;
@@ -130,6 +137,31 @@ header .fixed-header-nav {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .about-text-container {
+    width: 46%;
+    margin: 0 2% 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
+.about-border-bottom {
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.about-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.learn-more-button {
+    font-size: 16px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 9px 21px;
 }
 
 /* Middle content container for page */
@@ -174,6 +206,10 @@ header .fixed-header-nav {
     padding-right: 0;
 }
 
+.more-bottom-margin {
+    margin: 40px;
+}
+
 /* Footer */
 footer {
     width: 100%;
@@ -205,3 +241,14 @@ footer nav a {
 .box8 {background: hotpink;}
 .box9 {background: indigo;}
 .box10 {background: dodgerblue;}
+
+.content-divider {
+    border: 0;
+    border-top: 1px dashed black;
+    margin: 0;
+}
+
+.remove-bottom-border {
+    border-bottom: none;
+}
+
