@@ -85,6 +85,8 @@ p {
     border-bottom: 1px dashed black;
 }
 
+        /* navigation */
+
 .top-content .nav-sec {
     display: flex;
     flex-flow: row wrap;
@@ -111,11 +113,25 @@ p {
     text-decoration: underline;
 }
 
+
+        /* text container */
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 20px;
 }
+
+.top-content .text-container h2 {
+    font-weight: bold;
+}
+
+.top-content .text-container p {
+
+}
+
+        /* Middle Content */
 
 .middle-content {
     margin-bottom: 20px;
