@@ -148,24 +148,16 @@ footer nav a {
 
 /* MY CODE STARTS HERE */
 
-header {
+header nav {
     /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     height: 80px;
 }
 
-/* header nav {
-    border: 1px solid blue;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    height: 50px;
-} */
 
 header nav a {
     color: black;
@@ -174,6 +166,12 @@ header nav a {
 
 .header-img {
     margin-bottom: 25px;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
 
 .middle-content .boxes .box:nth-child(1) {
@@ -223,6 +221,12 @@ header nav a {
     border-bottom: 1px dashed black;
     padding: 25px 0;
 }
+
+.about-page .top-content .text-content {
+    width: 95%;
+    padding-bottom: 20px;
+}
+
 
 .about-middle-content {
     display: flex;
