@@ -66,16 +66,43 @@ p {
     line-height: 1.4;
 }
 
+/* Page CSS */
 .container {
     width: 800px;
     margin: 0 auto;
 }
+/* Navigation Bar */
 
+header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header .header-div-img {
+    width: 160px;
+}
+header .header-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 640px;
+}
+
+header .header-nav a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+/* Top Body Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -84,6 +111,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Body Content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +141,8 @@ p {
     justify-content: center;
 }
 
+/* Bottom Body Content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +156,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
