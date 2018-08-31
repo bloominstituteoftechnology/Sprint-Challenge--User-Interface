@@ -411,6 +411,10 @@ footer nav a {
     90% {margin-left: -2400px;}
   }
 
+.products-page .top-content .text-container {
+    width: 800px;
+}
+
 .products-page .main-content .image-container {
     display: flex;
     flex-wrap: wrap;
@@ -422,17 +426,27 @@ footer nav a {
 
 .products-page .main-content .text-container {
     display: flex;
+    flex-wrap: wrap;
     width: 380px;
     height: 300px;
+    justify-content: center;
 }
 
 .products-page .main-content .text-container h2 {
+    align-self: center;
 }
 
 .products-page .main-content .text-container p {
-
+    margin-left: 20px;
 }
 
 .products-page .bottom-content {
-    margin: 50px 0;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-page .bottom-content h2 {
+    display: flex;
+    width: 98%;
 }
