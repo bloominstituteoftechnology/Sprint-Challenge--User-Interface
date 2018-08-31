@@ -3,60 +3,153 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,7 +164,6 @@ p {
     margin: 0 auto;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -79,7 +171,7 @@ header {
 }
 
 header nav {
-    margin-top: 40px; 
+    margin-top: 40px;
     width: 600px;
     justify-content: space-between;
     display: flex;
@@ -94,13 +186,15 @@ header nav a:hover {
     text-decoration: underline;
     color: black;
 }
+
 header img {
-width: 157px;
-height: 40px;
-align-self: flex-end;
+    width: 157px;
+    height: 40px;
+    align-self: flex-end;
 }
+
 .top-img {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -114,7 +208,7 @@ margin-bottom: 20px;
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -202,7 +296,7 @@ margin-bottom: 20px;
 .middle-content .boxes .box7 {
     width: 12.5%;
     height: 100px;
-    background:darkorchid;
+    background: darkorchid;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -243,8 +337,6 @@ margin-bottom: 20px;
     justify-content: center;
 }
 
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -277,19 +369,19 @@ margin-bottom: 20px;
 }
 
 .about-page .about {
-margin-bottom: 10px;
-padding: 15px 30px 15px 30px;
-border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+    padding: 15px 30px 15px 30px;
+    border-bottom: 1px dashed black;
 }
 
 .top-half {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .bottom-half {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .top-left {
@@ -303,7 +395,7 @@ justify-content: space-between;
     padding: 15px;
     border-bottom: 1px dashed black;
 }
-    
+
 .bottom-left {
     margin: 15px;
     padding: 15px;
@@ -317,8 +409,8 @@ justify-content: space-between;
 }
 
 .work-together {
-margin: 15px 0 30px 0;
-padding: 30px;
+    margin: 15px 0 30px 0;
+    padding: 30px;
 }
 
 footer {
