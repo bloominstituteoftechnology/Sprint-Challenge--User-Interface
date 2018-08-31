@@ -71,24 +71,7 @@ p {
     margin: 0 auto;
 }
 
-header.navBar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-    padding-top: 25px;
-}
-
-header.navBar a{
-    align-self: flex-end;
-    text-decoration: none;
-    color: black;
-}
-
-header.navBar a:hover{
-    border-bottom: 1px solid black;
-    margin-bottom: -1px;
-}
-
+/* Index Styles */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -157,6 +140,65 @@ header.navBar a:hover{
     padding-right: 0;
 }
 
+.boxes .box.teal {
+    background-color: teal;
+}
+
+.boxes .box.gold {
+    background-color: gold;
+}
+
+.boxes .box.cadetblue {
+    background-color: cadetblue;
+}
+
+.boxes .box.coral {
+    background-color: coral;
+}
+
+.boxes .box.crimson {
+    background-color: crimson;
+}
+
+.boxes .box.forestgreen {
+    background-color: forestgreen;
+}
+
+.boxes .box.darkorchid {
+    background-color: darkorchid;
+}
+
+.boxes .box.hotpink {
+    background-color: hotpink;
+}
+
+.boxes .box.indigo {
+    background-color: indigo;
+}
+
+.boxes .box.dodgerblue {
+    background-color: dodgerblue;
+}
+
+/* shared styles */
+header.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 25px;
+}
+
+header.navBar a{
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+header.navBar a:hover{
+    border-bottom: 1px solid black;
+    margin-bottom: -1px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -199,6 +241,7 @@ button:hover {
   color: white;
 }
 
+/* About styles */
 .about-page .about-section h2,p{
     width: 95%;
     margin: 0 auto;
@@ -266,10 +309,6 @@ button:hover {
 .about-page .work-together {
     display: flex;
     flex-direction: column;
-}
-
-.about-page .work-together h3{
-    
 }
 
 .about-page .work-together p{
