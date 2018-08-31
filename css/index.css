@@ -217,3 +217,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.container-about-page{
+    width: 800px;
+}
+
+.container-about-page .about-introduction {
+    padding: 20px;
+    border-bottom: 2px dotted black;
+    margin-bottom: 20px;
+}
+
+.topic-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.topic-boxes .one-topic {
+    width: 380px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted black;
+    
+
+}
+
+.topic-boxes .one-topic img{
+    padding-bottom: 20px;
+}
+
+.topic-boxes .one-topic button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 8px;
+    
+}
+
+.work-topic p {
+    margin-bottom: 20px;
+}
