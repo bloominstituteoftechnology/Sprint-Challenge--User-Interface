@@ -102,6 +102,21 @@ header nav a {
     padding-right: 50px;
 }
 
+.hvr-grow {
+	display: flex;
+	vertical-align: middle;
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	transition-duration: 0.5s;
+	transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	transform: scale(1.1);
+}
+
 .image1 {
     display: block;
     padding-top: 50px;
