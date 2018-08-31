@@ -90,7 +90,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
