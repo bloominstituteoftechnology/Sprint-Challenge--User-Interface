@@ -69,15 +69,37 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    height: 100%;
+    border: 1px solid burlywood;
 }
-
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 76%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.bannerImg{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+   
 }
+
 
 .top-content .text-container {
     width: 48%;
@@ -143,4 +165,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*  ABOUT       PAGE            STARTS              HERE*/
+
+
+.aboutHeader{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.middleAboutPage{
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: nowrap;
+
+    border: 1px solid yellowgreen;
+    height: 70%;
+   
+}
+.strategy{
+    height: 40%;
+    border: 1px solid orange;
+}
+.howWeWork{
+    height: 40%;
+    border: 1px solid purple;
+}
+.placesWeWork{
+    height: 40%;
+    border: 1px solid green;
+
 }
