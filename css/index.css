@@ -290,7 +290,6 @@ About page Lets work together
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 2px solid red;
 }
 
 .product-swag {
@@ -317,4 +316,8 @@ About page Lets work together
     background: black;
     color: white;
     cursor: pointer;
+}
+
+.product-hats {
+    margin-top: 20px;
 }
