@@ -224,6 +224,8 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 30px;
+    animation-name: test;
+    animation-duration: 5s;
 }
 
 .card {
@@ -242,6 +244,17 @@ footer nav a {
     padding: 5px 15px;
 }
 
+.card button:hover {
+    background: blueviolet;
+}
+
 .bottom-banner {
     margin: 20px;
+}
+
+/* attempts at animation */
+
+@keyframes test {
+    from {background: white;}
+    to {background: aquamarine;}
 }
