@@ -219,3 +219,29 @@ footer nav a {
 }
 
 /* the about page css */
+#about-section {
+    width: 800px;
+    height: 142px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#about {
+    width: 765px;
+    height: 105px;
+}
+
+.main-line-break {
+    border: 1px dashed black;
+    }
+    
+    .main-section {
+        height: 460px;
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
