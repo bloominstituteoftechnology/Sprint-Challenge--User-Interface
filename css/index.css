@@ -162,20 +162,24 @@ header nav {
 header nav a {
     color: black;
     text-decoration: none;
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
 header nav a:hover {
-    
+    border-bottom: 2px solid black;
+    color: dodgerblue;
+    transition: 0.3s;
+    height: 20px;
 }
 
 .logo {
     margin-right: 10px;
 }
 
-.header-img {
+.header-img img {
     margin-bottom: 25px;
+    width: 100%;
 }
 
 .top-content .text-container {
@@ -270,6 +274,57 @@ header nav a:hover {
     margin: 40px 0;
 }
 
+/* CONTACT PAGE */
+
+.contact-box {
+    /* border: 1px solid red; */
+    background: #eee;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 530px;
+    border-bottom: 1px solid #444;
+    padding: 35px;
+}
+
+/* .contact-container {
+    padding: 25px;
+} */
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #777;
+}
+
+.form-item {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact-box button {
+    padding: 12px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(76, 163, 76);
+    color: white;
+    margin-top: 20px;
+    border: none; 
+    font-size: 17px;
+}
+
+.contact-box button:hover {
+    background: forestgreen;
+    color: white;
+}
+
 /* MEDIA QUERIES */
 /* MOBILE */
 @media (max-width: 480px) {
@@ -284,9 +339,16 @@ header nav a:hover {
     }
 
     header nav a {
-        margin: 5px;
-        padding: 3px;
+        margin: 0;
+        padding: 7px;
         width: 100%;
+    }
+
+    header nav a:hover {
+        background: black;
+        color: white;
+        transition: .3s;
+        border: none;
     }
 
     .logo {
@@ -334,5 +396,9 @@ header nav a:hover {
 
     .middle-content .boxes .box {
         width: 33.3333%;
+    }
+
+    .contact-box {
+        width: 100%;
     }
 }
