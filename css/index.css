@@ -245,14 +245,14 @@ body {
   }
 }
 /* nav styles */
-.container nav {
+.container .nav-bar {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   margin: 40px auto;
   align-items: flex-end;
 }
-.container nav a {
+.container .nav-bar a {
   color: black;
   text-decoration: none;
   opacity: 0.6;
@@ -304,4 +304,83 @@ body {
 }
 .boxes .box:nth-child(10) {
   background-color: dodgerblue;
+}
+
+/* about page */
+/* about background image */
+.about-page .top-background-image {
+  background: url("../img/jumbo-about.png");
+}
+
+/* about top styles */
+.about-page .about-top {
+  width: 95%;
+  margin: auto;
+}
+.about-page .about-top h1 {
+  font-weight: 600;
+}
+.about-page .about-top p {
+  font-weight: 500;
+  color: black;
+}
+hr {
+  border: none;
+  border-bottom: 1px dashed black;
+  margin: 20px 0;
+}
+
+/* about services */
+.about-page .about-services {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-page .about-services div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin: 20px auto;
+}
+.about-page .about-services div a {
+  border: 2px solid black;
+  width: 120px;
+  margin: 10px 0;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.about-page .about-services div h1 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.about-page .about-services div p {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #000;
+}
+.about-page .about-services div a:hover {
+  background-color: black;
+  color: white;
+  transition: 200ms;
+}
+
+/* learn more section */
+.about-page .work-together {
+  width: 95%;
+  margin: 20px auto;
+}
+.about-page .work-together h1 {
+  font-weight: 600;
+}
+.about-page .work-together p {
+  color: #000;
+  font-weight: 500;
+}
+
+/* footer spacing */
+footer {
+  margin-top: 40px;
 }
