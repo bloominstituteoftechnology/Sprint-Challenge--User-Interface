@@ -144,3 +144,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.middle-top {
+    border-top: 1px dotted black;
+}
