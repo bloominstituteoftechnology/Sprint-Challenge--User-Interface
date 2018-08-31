@@ -293,11 +293,25 @@ footer nav a {
 
 /* Contact page CSS */
 
+.contact-page header {
+    overflow: hidden; 
+    margin:0; 
+}
+
+.contact-page header .header-img {
+    display: block; 
+    width: 100%;
+    padding-top: 200px;
+    margin:-21.875% 0;
+    z-index: -1;
+}
+
+
 .contact-page .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: none;
 }
 
