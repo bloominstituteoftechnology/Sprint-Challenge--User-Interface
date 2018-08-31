@@ -82,7 +82,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 20px; 
 }
 
 .middle-content {
@@ -143,4 +144,87 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/* student styling below */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0;
+}
+.top-nav a {
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+}
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
+
+/* this is the start of the about page */
+.about-page header h2 {
+    padding: 15px 20px 0;
+}
+.about-page header p {
+    padding: 0 20px 15px;
+}
+
+.about-page .about-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    border-top: 2px dashed black;
+}
+.about-page .about-main .about-card-container {
+    width: 370px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border-bottom: 2px dashed black;
+}
+.about-card-container h3 {
+    padding-top: 15px;
+}
+.about-card-container button {
+    padding: 10px 0;
+    margin: 15px 0;
+    background-color: white;
+    width: 130px;
+    border-radius: 10px;
+}
+.cta-section {
+    padding: 25px;
 }
