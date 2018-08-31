@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,133 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav-bar nav {
+  margin: 20px 0 40px;
+  padding: 0;
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.nav-bar a {
+  text-align: center;
+  flex: 1;
+}
+
+.nav-bar .link {
+  text-decoration: none;
+  padding-top: 27px;
+  padding-bottom: 3px;
+  color: black; 
+}
+
+.nav-bar a:hover {
+  background: #ddd;
+  font-size: 20px;
+  animation-name: nav-hover;
+  animation-duration: .5s;
+}
+
+@keyframes nav-hover {
+  0% {
+    background: #fff;
+    font-size: inherit;
+  }
+
+  100% {
+    background: #ddd;
+    font-size: 20px;
+  }
+}
+
+header .banner {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.box1 {
+  background: teal;
+}
+
+.box2 {
+  background: gold;
+}
+
+.box3 {
+  background: cadetblue;
+}
+
+.box4 {
+  background: coral;
+}
+
+.box5 {
+  background: crimson;
+}
+
+.box6 {
+  background: forestgreen;
+}
+
+.box7 {
+  background: darkorchid;
+}
+
+.box8 {
+  background: hotpink;
+}
+
+.box9 {
+  background: indigo;
+}
+
+.box10 {
+  background: dodgerblue;
+}
+
+
+/**************/
+/* About Page */
+/**************/
+
+.about-page .top-content .text-container {
+  width: 100%;
+  padding: 20px 1%;
+  padding-bottom: 20px;  
+}
+
+.strategy-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-box {
+  padding-bottom: 15px;
+  margin: 20px 10px 0;
+  border-bottom: 1px dashed black;
+  flex: 1;
+}
+
+.about-box h2 {
+  padding-top: 15px;
+}
+
+.about-box p {
+  padding-bottom: 15px;
+}
+
+.about-box button {
+  background: white;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin-bottom: 8px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.about-page .bottom-content {
+  margin-top: 40px;
 }
