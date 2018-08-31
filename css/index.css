@@ -66,11 +66,53 @@ p {
     line-height: 1.4;
 }
 
+/* Fixed container for header at top of all pages */
+.fixed {
+	position: fixed;
+	width: 100%;
+	background-color:rgb(255, 255, 255, 0.9);
+	z-index: 100;
+    padding-top: 20px;
+}
+
+
+.fixed-header {
+    display: flex;
+	height: 100%;
+	width: 800px;
+	margin: 0 auto;
+	justify-content: space-between;
+    align-items: baseline;
+    /* border: 1px solid black; */
+}
+
+header .fixed-header-nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+    width: 80%;
+}
+
+.fixed-header-nav a{
+	color: #000;
+	text-decoration: none;
+} 
+
+/* Main container for all pages */
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 100px 0 0 0;
+    /* border: 1px solid red; */
 }
 
+.jumbo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Top content container for page */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +127,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Middle content container for page */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +147,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +154,7 @@ p {
     justify-content: center;
 }
 
+/* Bottom content for page */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +169,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +188,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box1 {background: teal;}
+.box2 {background: gold;}
+.box3 {background: cadetblue;}
+.box4 {background: coral;}
+.box5 {background: crimson;}
+.box6 {background: forestgreen;}
+.box7 {background: darkorchid;}
+.box8 {background: hotpink;}
+.box9 {background: indigo;}
+.box10 {background: dodgerblue;}
