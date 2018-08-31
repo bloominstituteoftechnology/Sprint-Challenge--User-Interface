@@ -71,6 +71,54 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display:flex;
+    
+}
+
+
+.NavBar {
+    width: 880px;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    align-items: center;
+    left: 550px;
+    top: 0px;
+    z-index: +1 ;
+
+}
+
+.lambdaLogo {
+    position: fixed;
+    top: 10px;
+    left: 552px;
+}
+
+.topNavLinks {
+    text-decoration: none;
+    color: black
+}
+
+nav.topNav{
+    position: fixed;
+    font-size: 18px;
+    word-spacing: 55px;
+    margin-bottom: 50px;
+    right: 615px;
+    top: 30px;
+    background-color: white;
+}
+
+.headerIMG {
+    position: relative;
+    align-content: center;
+    left: 550px;
+    top: 95px;
+    margin-bottom: 125px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,23 +126,19 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -111,26 +155,21 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,7 +178,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
