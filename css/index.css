@@ -67,12 +67,13 @@ p {
 }
 
 .container {
-    width: 800px;
     margin: 0 auto;
+    width: 800px;
 }
 
 header {
-    margin: 20px 0;
+    margin: 20px auto;
+    width: 800px;
 }
 
 .nav-bar {
@@ -134,7 +135,7 @@ header {
     justify-content: center;
 }
 
-.middle-content .boxes .box .box1 {
+.box1 {
     background: teal;
 }
 
