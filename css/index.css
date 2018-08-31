@@ -272,6 +272,10 @@ footer nav a {
     flex-wrap: wrap;
   }
 
+  .index-page .top-content .text-container {
+    width: 100%;
+  }
+
   .index-page .bottom-content .text-container {
     margin-top: 20px;
   }
