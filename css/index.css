@@ -95,6 +95,45 @@ p {
     margin-bottom: 0;
 }
 
+.box:nth-child(1) {
+    background: teal;
+}
+.box:nth-child(2) {
+    background: gold;
+}
+.box:nth-child(3) {
+    background: cadetblue;
+}
+
+.box:nth-child(4) {
+    background: coral;
+}
+
+.box:nth-child(5) {
+    background: crimson;
+}
+
+.box:nth-child(6) {
+    background: forestgreen;
+}
+
+.box:nth-child(7) {
+    background: darkorchid;
+}
+
+.box:nth-child(8) {
+    background: hotpink;
+}
+.box:nth-child(9) {
+    background: indigo;
+}
+.box:last-child {
+    background: dodgerblue;
+}
+
+
+
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +143,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,9 +150,10 @@ p {
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 18px;
     justify-content: space-around;
 }
 
@@ -168,3 +207,4 @@ nav .logo {
 .jumbo {
     margin: 19px 0px;
 }
+
