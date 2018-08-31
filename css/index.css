@@ -209,3 +209,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+.about-page .top-content {
+    display: block;
+    margin-bottom: 0;
+}
+
+.about-page .bottom-content {
+    display: block;
+    margin: 0;
+}
