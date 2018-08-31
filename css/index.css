@@ -122,14 +122,21 @@ p {
 
 @keyframes slidein {
     from {
-
         margin-right: 100%;
         width: 300%;
+        opacity: .1;
     }
+
+    /*50% {
+        margin-right: 50%;
+        width: 150%;
+        opacity: .5;
+    }*/
 
     to {
         margin-right: 0%;
         width: 100%;
+        opacity: 1;
     }
 }
 
@@ -139,6 +146,8 @@ p {
     justify-content: space-evenly;
     animation: slidein;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .middle-content .boxes .box {
