@@ -250,3 +250,29 @@ footer nav a {
   background-color: transparent;
   padding: 7px 20px;
 }
+
+/* media queries */
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+  }
+
+  .flex-image {
+    width: 100%;
+  }
+
+  .index-page .top-content, .index-page .bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .index-page .bottom-content .text-container {
+    margin-top: 20px;
+  }
+}
