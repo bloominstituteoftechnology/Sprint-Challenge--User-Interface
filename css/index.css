@@ -72,7 +72,7 @@ p {
     flex-direction: row; 
     width: 0 auto;
     padding: 20px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .navBar a {
@@ -179,6 +179,14 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.headerBlock {
+    padding: 20px 0px;
+    border-bottom: 1px dotted black;
+}
+.abouttextContainter1{
+    padding: 20px 0px 30px 0px;
 }
 
 footer {
