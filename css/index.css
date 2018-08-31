@@ -145,40 +145,118 @@ header nav a:hover {
     background: teal;
 }
 
+.middle-content .boxes .box1:hover {
+    animation: 0.5s spin linear infinite forwards;
+}
+
+@keyframes spin {
+    100% {transform: rotate(360deg);}
+}
+
 .middle-content .boxes .box2 {
     background: gold;
+}
+
+.middle-content .boxes .box2:hover {
+    animation: 0.5s growShrink linear infinite forwards;
+}
+
+@keyframes growShrink {
+    33.3%{transform: scale(1.25);}
+    66.6%{transform: scale(0.75);}
+    100%{transform: scale(1);}
 }
 
 .middle-content .boxes .box3 {
     background: cadetblue;
 }
 
+.middle-content .boxes .box3:hover {
+    animation: 0.5s disappear linear forwards;
+}
+
+@keyframes disappear {
+    100% {opacity: 0;}
+}
+
 .middle-content .boxes .box4 {
     background: coral;
+}
+
+.middle-content .boxes .box4:hover {
+    animation: 0.5s diagleft linear infinite forwards;
+}
+
+@keyframes diagleft {
+    33.3%{transform: translate(-10px,10px);}
+    66.6%{transform: translate(10px,-10px);}
+    100%{transform: translate(0,0);}
 }
 
 .middle-content .boxes .box5 {
     background: crimson;
 }
 
+.middle-content .boxes .box5:hover {
+animation: 0.5s diagright linear infinite forwards;
+}
+
+@keyframes diagright {
+    33.3%{transform: translate(10px,10px);}
+    66.6%{transform: translate(-10px,-10px);}
+    100%{transform: translate(0,0);}
+}
+
 .middle-content .boxes .box6 {
     background: forestgreen;
+    transition: border-radius 0.5s;
+}
+
+.middle-content .boxes .box6:hover {
+    border-radius: 50%;
 }
 
 .middle-content .boxes .box7 {
     background: darkorchid;
+    transition: background 0.5s;
+}
+
+.middle-content .boxes .box7:hover {
+    background: black;
 }
 
 .middle-content .boxes .box8 {
     background: hotpink;
+    transition: all 0.5s;
+}
+
+.middle-content .boxes .box8:hover {
+    box-shadow: 
+        1px 1px grey,
+        2px 2px grey,
+        3px 3px grey;
+    transform: translateX(-3px);
 }
 
 .middle-content .boxes .box9 {
     background: indigo;
+    transition: box-shadow 0.5s;
+}
+
+.middle-content .boxes .box9:hover {
+    box-shadow: inset 0 0 0 10px teal;
 }
 
 .middle-content .boxes .box10 {
     background: dodgerblue;
+}
+
+.middle-content .boxes .box10:hover {
+    animation: 0.75s out forwards;
+}
+
+@keyframes out {
+    100% {transform: translateX(500px);}
 }
 
 .bottom-content {
