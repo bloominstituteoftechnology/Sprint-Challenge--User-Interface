@@ -66,21 +66,40 @@ p {
     line-height: 1.4;
 }
 
+/* //// BEGINNING OF HOME PAGE //// */
+
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+
+/* //// NAV BAR SECTION //// */
+
+
 .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-}
-
-.banner-img {
     margin-bottom: 30px;
 }
+
+
+/* //// HEADER BANNER SECTION //// */
+
+
+.banner-img {
+    margin-bottom: 25px;
+    
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* //// TOP CONTENT SECTION //// */
+
 
 .top-content {
     display: flex;
@@ -113,8 +132,6 @@ p {
 }
 
 
-
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -137,6 +154,9 @@ p {
 .box10 { background: dodgerblue;}
 
 
+/* //// BOTTOM CONTENT SECTION //// */
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -150,6 +170,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* //// FOOTER NAV SECTION //// */
+
 
 footer {
     width: 100%;
@@ -168,4 +192,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ///// BEGINNING OF ABOUT PAGE ///// */
+
+
+.about-page {
+    border: 1px solid black;
+}
+
+.about-page .about-summary {
+    border-bottom: 1px dashed black;
+    padding: 0 25px 25px 25px;
+    font-weight: bold;
+}
+
+.about-page .middle-info-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.middle-info-content .info-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 3%;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+}
+
+.middle-info-content .info-box h2 {
+    margin-top: 10px;
+}
+
+
+.info-box button {
+	border: 2px solid black;
+	width: 30%;
+	background: white;
+	border-radius: 8px;
+    margin-top: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+
+}
+
+.info-box button:hover {
+	border: 1px solid black;
+
+	background: black;
+	color: white;
+	border-radius: 5%;
 }
