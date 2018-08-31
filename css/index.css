@@ -294,3 +294,54 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* ABOUT PAGE */
+.about-page .top-content {
+  margin-bottom: 30px;
+}
+
+.about-page .top-content .text-container {
+  width: 100%;
+}
+
+.about-page .about-main {
+  width: 97%;
+  margin: 0 auto;
+}
+
+.about-page .middle-content {
+  border-bottom: none;
+}
+
+.middle-content .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.middle-content .card-container .card {
+  width: 48%;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #000;
+}
+
+.card img {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+
+.card .btn {
+  border: 2px solid #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.about-page .bottom-content {
+  margin: -10px 1% 36px;
+}
