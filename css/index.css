@@ -242,4 +242,7 @@ footer nav a {
     ABOUT PAGE
 ======================================================================
 */
-
+.about-page  .about-top-content {
+    border: 1px solid blue;
+    padding-bottom: 15px;
+}
