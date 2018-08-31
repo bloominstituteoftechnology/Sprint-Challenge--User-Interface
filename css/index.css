@@ -207,3 +207,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page */
+
+.about-page p {
+    font-size: 13px;
+}
+
