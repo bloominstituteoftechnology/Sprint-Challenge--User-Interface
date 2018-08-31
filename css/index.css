@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+.nav-header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.nav-header .nav-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+}
+
+.nav-header .nav-bar nav {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-header .nav-bar nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -81,7 +110,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 0;
     padding-bottom: 20px;  
 }
 
@@ -91,7 +120,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0 ;
     margin-bottom: 0;
 }
 
@@ -101,15 +130,54 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+    margin: 20px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -126,9 +194,10 @@ p {
     padding-right: 0;
 }
 
+
 footer {
-    width: 100%;
     background: black;
+    width: 100%;
 }
 
 footer nav {
@@ -143,4 +212,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page .top {
+    border-bottom: 1px dashed black;
+    padding: 0 0 20px 20px;
+    /* margin-bottom: 30px; */
+}
+
+.about-page .middle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.about-page .middle div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    width: 370px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle div img {
+    margin-bottom: 12px;
+}
+
+.about-page .middle div p {
+    margin-bottom: 20px;
+}
+
+.about-page .middle div .button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.about-page .middle div .button:hover {
+    cursor: pointer;
+    animation-name: fade;
+    animation-duration: 0.2s;
+    background: black;
+    color: white;
+}
+@keyframes fade {
+    from {background: white;}
+    to {background: black;}
+    from {color: black}
+    to {color: white;}
+}
+
+.about-page .bottom {
+    padding: 0 0 0 20px;
+    margin-bottom: 38px;
 }
