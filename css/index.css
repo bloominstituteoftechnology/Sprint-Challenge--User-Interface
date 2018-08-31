@@ -75,7 +75,8 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container header nav {
@@ -94,9 +95,9 @@ p {
     color: black;
     text-decoration: none;
 }
+
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -211,22 +212,23 @@ footer nav a {
 
 .about-page .about-section {
     border-bottom: 1px dashed black;
-    margin-bottom: 10px;
     padding-bottom: 20px;
+    padding: 20px;
 
 }
 
 .about-page .box-section {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
-    padding-top: 30px;
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
 .about-page .box-section section {
-    width: 50%;
+    width: 45%;
     border-bottom: 1px dashed black;
-    padding: 10px 20px;
+    margin: 20px 20px 40px; /*T RL B */
+    padding-bottom: 20px;
 }
 
 .about-page .box-section section button {
@@ -242,5 +244,6 @@ footer nav a {
 }
 
 .about-page .bottom-content-about {
-    padding: 40px 20px;
+    padding: 0 20px;
+    margin-bottom: 40px;
 }
