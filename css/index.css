@@ -202,3 +202,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about \/\/\/\/\/ index^^^^^*/
+
+
+.about-page .about{
+    margin: 10px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .about img{
+    width: 100%
+}
+
+.about-page .about-text{
+    margin: 20px;
+}
+
+.about-page .about-cards{
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .about-cards .card{
+    margin: 20px 0;
+    width: 48%;
+}
+
+.about-page .about-cards .card img{
+    width: 100%;
+}
