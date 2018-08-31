@@ -66,11 +66,70 @@ p {
     line-height: 1.4;
 }
 
+/* Fixed container for header at top of all pages */
+.fixed {
+	position: fixed;
+	width: 100%;
+	background-color:rgb(255, 255, 255, 0.9);
+	z-index: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.fixed-header {
+    display: flex;
+	height: 100%;
+	width: 800px;
+	margin: 0 auto;
+	justify-content: space-between;
+    align-items: baseline;
+    /* border: 1px solid black; */
+}
+
+header .fixed-header-nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+    width: 80%;
+}
+
+.fixed-header-nav a {
+	color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-transition: color 0.5s ease;
+} 
+
+.fixed-header-nav a:hover {
+    color: red;
+}
+
+/* Main container for all pages */
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 100px 0 0 0;
+    /* border: 1px solid red; */
 }
 
+/* page header and image */
+.page-header {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+}
+
+.page-header-content {
+    width: 100%;
+    padding: 20px 20px 0px;
+}
+
+/* Top content container for page */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +144,37 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .about-text-container {
+    width: 46%;
+    margin: 0 2% 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
+.about-border-bottom {
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.about-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.learn-more-button {
+    font-size: 16px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 9px 21px;
+    -webkit-transition: background 1s ease;
+}
+
+.learn-more-button:hover {
+    background: #c9c9c9;
+}
+
+/* Middle content container for page */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +194,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +201,7 @@ p {
     justify-content: center;
 }
 
+/* Bottom content for page */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +216,11 @@ p {
     padding-right: 0;
 }
 
+.more-bottom-margin {
+    margin: 40px;
+}
+
+/* Footer */
 footer {
     width: 100%;
     background: black;
@@ -143,4 +238,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    -webkit-transition: color 0.5s ease;
+}
+
+footer nav a:hover {
+    color: #666;
+}
+
+/* backgrounds for individual box items */
+.box1 {background: teal;}
+.box2 {background: gold;}
+.box3 {background: cadetblue;}
+.box4 {background: coral;}
+.box5 {background: crimson;}
+.box6 {background: forestgreen;}
+.box7 {background: darkorchid;}
+.box8 {background: hotpink;}
+.box9 {background: indigo;}
+.box10 {background: dodgerblue;}
+
+.content-divider {
+    border: 0;
+    border-top: 1px dashed black;
+    margin: 0;
+}
+
+.remove-bottom-border {
+    border-bottom: none;
+}
+
+article {
+    padding: 20px 20px;
 }
