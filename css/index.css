@@ -70,7 +70,41 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*
+======================================================================
+    HEADER / NAVIGATION
+======================================================================
+*/
+header {
+    display: flex;
 
+}
+header nav {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.main-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*
+======================================================================
+    TOP CONTENT
+======================================================================
+*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
