@@ -277,6 +277,27 @@ header nav a:hover {
 
 /* BLOG PAGE */
 
+.blog-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.recent-blogs {
+    width: 65%;
+}
+
+.popular-blogs {
+    width: 25%;
+}
+
+.blog-box {
+    padding: 20px;
+}
+
+.blog-box img {
+    width: 100%;
+}
 
 
 
@@ -290,7 +311,7 @@ header nav a:hover {
     justify-content: flex-start;
     align-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 80px auto;
     width: 50%;
     height: 530px;
     border-bottom: 1px solid #444;
