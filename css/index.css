@@ -213,10 +213,34 @@ footer nav a {
 /* about page */
 .about-page .top-content {
     display: block;
-    margin-bottom: 0;
+    margin: 0 25px;
+    padding-bottom: 20px;
+}
+
+.about-page .twocards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-page .twocards .card {
+    margin: 30px 25px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .twocards .card h2 {
+    margin-top: 15px;
+}
+
+.about-page .twocards .card button {
+    width: 125px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
 .about-page .bottom-content {
     display: block;
-    margin: 0;
+    margin: 35px 25px;
 }
