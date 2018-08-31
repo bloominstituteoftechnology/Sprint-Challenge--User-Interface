@@ -71,6 +71,47 @@ p {
     margin: 0 auto;
 }
 
+header {
+	display:flex;
+	justify-content:space-between;
+	margin-top: 35px;
+}
+
+nav {
+	display: flex;
+	width:650px;
+	justify-content:space-around;
+	align-items:flex-end;
+}
+
+header nav a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+  
+header nav a:hover {
+    text-decoration: underline;
+}
+  
+header nav a:first-child {
+    margin-left: 0;
+}
+  
+header nav a:last-child {
+    margin-right: 0;
+}
+  
+header .logo {
+    margin-top: 0px;
+ }
+
+.splash {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,15 +142,63 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.boxes {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +233,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Start of About page */
+
+
+.about {
+    padding-bottom:20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle {
+    padding-bottom:20px;
+    
+}
+
+.together {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: white;
+    vertical-align: top;
+    margin-top: 20px;
+    padding: 8px 24px;
+    font-size: 17px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+  .middle {
+    display:flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+  }
+
+  .middleitems {
+    width: 380px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+  }
