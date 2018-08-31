@@ -74,15 +74,12 @@ p {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+    justify-content: space-around;
+    padding: 20px 0;
+    height: 70px;
     align-items: flex-end;
 }
 
-.header .main-nav {
-    display:flex;
-    justify-content: flex-start;
-}
 .header button {
     border: none;
     background-color: white;
@@ -200,4 +197,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*ABOUT PAGE STYLES YO*/
+
+.about-page {
+    padding:15px;
+}
+
+.about-page .about-top {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted lightgray;
+}
+
+
+.about-page .about-boxes {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 47%;
+    height: 450px;
+    align-content: space-evenly;
+    border-bottom: 2px dotted lightgray;
+}
+
+.about-page .box button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 5px 10px;
+}
+
+.about-page .about-closer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    align-content: space-evenly;
 }
