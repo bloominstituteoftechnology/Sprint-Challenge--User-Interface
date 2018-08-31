@@ -214,3 +214,34 @@ footer nav a {
     font-size: 13px;
 }
 
+.cta {
+    border-bottom: 1px dashed black;
+    padding: 0 0 20px 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-bottom: 1px dashed black;
+    width: 48%;
+}
+
+.card img {
+    margin: 20px 0;
+}
+
+.card button {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 5px 15px;
+}
+
+.bottom-banner {
+    margin: 20px;
+}
