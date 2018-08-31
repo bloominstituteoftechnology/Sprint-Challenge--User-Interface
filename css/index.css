@@ -29,61 +29,43 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-nav {
-    width: 780px;
-    margin: auto;
-    text-align: left;
-    /* border: solid black 1px; */
-    
-}
+/* _________________R E S E T___________________ */
+
+.navigation {
+    max-width: 780px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+   
+} 
 
 .logo {
     margin-top: 15px;
 }
 
+.navigation a {
+    text-decoration: none;
+    color: black;
+    margin-left: 65px;
+
+}
+
 a:hover{
     color: grey;
-}
-
-#a {
-    margin-left: 35px;
-    margin-right: 35px;
-    text-decoration: none;
-    color: black;
-}
-
-#b {
-    margin-left: 35px;
-    margin-right: 35px;
-    text-decoration: none;
-    color: black;
-}
-
-#c {
-    margin-left: 35px;
-    margin-right: 35px;
-    text-decoration: none;
-    color: black;
-}
-
-#d {
-    margin-left: 35px;
-    margin-right: 35px;
-    text-decoration: none;
-    color: black;
-}
-
-#e {
-    margin-left: 35px;
-    margin-right: 35px;
-    text-decoration: none;
-    color: black;
+    transition: .3s;
 }
 
 .bigimg {
-    width: 780px;
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    /* max-width: 780px; */
+    /* width: 0%; */
+    margin: 0px auto;
+    margin-top: 30px;
     margin-bottom: 25px;
+    animation-duration: 3s;
+    animation-name: slideinleft;
 }
 
 body {
@@ -174,40 +156,120 @@ p {
     background-color: teal;
 }
 
+#box1:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed teal;
+    cursor: pointer;
+    transition: .5s;
+}
+
 #box2 {
     background-color: gold;
+}
+
+#box2:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed gold;
+    cursor: pointer;
+    transition: .5s;
 }
 
 #box3 {
     background-color: cadetblue;
 }
 
+#box3:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed cadetblue;
+    cursor: pointer;
+    transition: .5s;
+}
+
 #box4 {
     background-color: coral;
+}
+
+#box4:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed coral;
+    cursor: pointer;
+    transition: .5s;
 }
 
 #box5 {
     background-color: crimson;
 }
 
+#box5:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed crimson;
+    cursor: pointer;
+    transition: .5s;
+}
+
 #box6 {
     background-color: forestgreen;
+}
+
+#box6:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed forestgreen;
+    cursor: pointer;
+    transition: .5s;
 }
 
 #box7 {
     background-color: darkorchid;
 }
 
+#box7:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed darkorchid;
+    cursor: pointer;
+    transition: .5s;
+}
+
 #box8 {
     background-color: hotpink;
+}
+
+#box8:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed hotpink;
+    cursor: pointer;
+    transition: .5s;
 }
 
 #box9 {
     background-color: indigo;
 }
 
+#box9:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed indigo;
+    cursor: pointer;
+    transition: .5s;
+}
+
 #box10 {
     background-color: dodgerblue;
+}
+
+#box10:hover {
+    background-color: white;
+    color: black;
+    border: 2px dashed dodgerblue;
+    cursor: pointer;
+    transition: .5s;
 }
 
 .bottom-content {
@@ -241,4 +303,152 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ______________________A B O U T_________________________ */
+
+@keyframes slideinleft {
+    from {
+      margin-left: 100%;
+      width: 400%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 105%;
+    }
+  }
+
+  @keyframes slideinright {
+    from {
+      margin-right: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+
+.bigimg2 {
+    display: flex;
+    justify-content: center;
+    /* max-width: 780px; */
+    /* width: 0%; */
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    animation-duration: 3s;
+    animation-name: slideinleft;
+}
+
+body {
+    max-width: 780px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+   
+}
+
+
+.about-us .about {
+    padding-left: 10px;
+    margin-bottom: 25px;
+    
+}
+
+.about-us .first-border {
+    border-top: dashed black 1px;
+    margin-bottom: 25px;
+}
+
+.about-us .strategy {
+    width: 47%;
+    border-bottom: dashed black 1px;
+    margin: 10px;
+}
+
+.about-us .how {
+    width: 47%;
+    border-bottom: dashed black 1px;
+    margin: 10px;
+}
+
+.about-us .places {
+    width: 47%;
+    border-bottom: dashed black 1px;
+    margin: 10px;
+}
+
+.about-us .collab {
+    width: 47%;
+    border-bottom: dashed black 1px;
+    margin: 10px;
+}
+
+.about-us button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: solid black 3px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.about-us button:hover{
+    background-color: black;
+    color: white;
+    border: 3px dashed black;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.about-us .img {
+    margin-bottom: 20px;
+}
+
+.about-us footer {
+    width: 100%;
+    background: black;
+    margin: 10px;
+}
+
+.about-us .grid {
+    width: 780px;
+    display: flex;
+    justify-content: column;
+}
+
+.about-us .grid2 {
+    width: 780px;
+    display: flex;
+    justify-content: column;
+}
+
+.about-us .bottom-content {
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 25px 15px;
+    
+}
+
+
+.about-us footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.about-us footer nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
 }
