@@ -88,12 +88,19 @@ a.button {
 
 /*-- Header & Main Navigation ------------------*/
 header {
-    
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header > div {
+    height: 100px;
+    padding: 30px 0px;
 }
 .main-navigation {
-    height: 100px;
+    height: 40px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 .main-navigation > * {
     border: blue 1px solid;
