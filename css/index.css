@@ -214,3 +214,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* about page only */
+
+.about-top {
+    margin: 20px 0 0 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: black dashed 1px;
+}
+
+.about-boxes .about-box {
+    width: 400px;
+    margin: 20px 0px;
+}
+
+.about-boxes .about-box img {
+    margin-bottom: 20px;
+}
+
+.about-boxes .about-box button {
+    border-radius: 5px;
+    border: black solid 1px;
+    padding: 10px 20px;
+}
