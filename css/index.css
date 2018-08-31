@@ -332,3 +332,51 @@ nav a {
   flex-direction: column;
   margin: 0px 25px;
 }
+
+.products .header-img {
+  width: 100%;
+}
+
+.products .middle-content .categories button {
+  background: white;
+  border: 2px solid lightgreen;
+  border-radius: 7px;
+  width: 35%;
+  text-align: center;
+  height: 10%;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-size: 17px;
+  color: green;
+}
+
+.products .middle-content .categories {
+  width: 45%;
+  margin: 15px;
+  border-bottom: 1px dashed green;
+  margin-bottom: 50px;
+}
+
+.products .middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: cnter;
+  margin-top: 15px;
+}
+
+.products .middle-content img {
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.products .middle-content {
+  border-bottom: none;
+}
+
+.products .bottom-content {
+  display: flex;
+  flex-direction: column;
+}
