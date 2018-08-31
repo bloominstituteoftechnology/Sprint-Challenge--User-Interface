@@ -102,9 +102,6 @@ header > div {
     display: flex;
     align-items: baseline;
 }
-.main-navigation > * {
-    border: blue 1px solid;
-}
 .main-navigation nav {
     flex-grow: 1;
     display: flex;
