@@ -209,3 +209,43 @@ footer nav a {
   .middle-content .boxes .box.ten {
      background: dodgerblue;
   }
+  
+  .container.about-page .about-content {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.container.about-page .page-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.container.about-page .card {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+    padding: 20px;
+}
+.container.about-page .bot-img {
+    width: 325px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.container.about-page button {
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.container.about-page .last-content {
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
