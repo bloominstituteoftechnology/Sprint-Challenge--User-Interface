@@ -75,14 +75,14 @@ p {
     display: flex;
     align-content: space-between; 
     width: 800px;
-    align-items: center; 
+    align-items: baseline; 
+    margin-top: 15px;
 }
 
 .navigation nav{
     display: flex;
     align-content: space-around;
     justify-content:space-around;
-    align-items: stretch;
     width: 650px;
     margin: 25px 0;
     
@@ -90,7 +90,7 @@ p {
 
 .navigation nav a {
     color: black;
-    
+    text-decoration: none;
 }
 
 body .jumbo-img {
@@ -107,10 +107,16 @@ body .jumbo-img {
     
 }
 
+
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content-about .text-container-about {
+   margin-top: 20px;
 }
 
 .middle-content {
@@ -149,7 +155,7 @@ body .jumbo-img {
 }
 
 .middle-content .boxes .box3{
-    background: cadeblue;
+    background: cadetblue;
 }
 
 .middle-content .boxes .box4{
@@ -165,7 +171,7 @@ body .jumbo-img {
 }
 
 .middle-content .boxes .box7{
-    background: darkorchil;
+    background: darkorchid;
 }
 
 .middle-content .boxes .box8{
@@ -180,6 +186,35 @@ body .jumbo-img {
     background: dodgerblue;
 }
 
+.middle-content-about {
+    display: flex;
+    border-top: 1px dotted black;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+
+.middle-content-about .text-container-about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+   margin: 15px 5px;
+}
+
+.middle-content-about .text-container-about img {
+margin-bottom: 10px;
+}
+
+.middle-content-about .text-container-about button {
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.middle-content-about .bottom-border {
+    border-bottom: 1px dotted black;
+}
 
 .bottom-content {
     display: flex;
@@ -193,6 +228,10 @@ body .jumbo-img {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-section-about .text-container-about {
+    margin-bottom: 25px;
 }
 
 footer {
