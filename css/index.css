@@ -180,6 +180,63 @@ p {
     padding-right: 0;
 }
 
+/******** ABOUT PAGE******/
+
+.top-content-about{
+    padding: 20px 30px;
+    display:flex;
+    flex-flow: column wrap;
+}
+
+.top-content-about h2{
+    font-size: 25px
+}
+.top-content-about p{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.middle-content-about{
+    margin: 20px 0;
+    border-top-style: dotted;
+    border-top-width: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-info{
+    width: 370px;
+    margin: 30px 10px;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.middle-content-info .middle-content-about-img{
+    align-self: flex-start;    
+}
+
+.middle-content-about .middle-content-info h2{
+    margin: 30px 0;  
+    font-size: 20px;
+}
+
+.middle-content-about .middle-content-info p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.middle-content-about .middle-content-info button{
+    margin: 40px 0;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
 footer {
     width: 100%;
     background: black;
