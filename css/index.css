@@ -232,3 +232,30 @@ footer nav a {
      font-size: 40px;
      text-decoration-line: underline;
  }
+
+ .products-card-section {
+    display: flex;
+    align-content: space-evenly;
+    flex-flow: wrap;
+ }
+
+ .products-card-section .card {
+    width: 45%;
+    font-weight: bold;
+    border-bottom: dotted black 2px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin: 15px;
+    text-align: center;
+ }
+
+ .products-card-section button {
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;
+    font-weight: bold;
+ }
