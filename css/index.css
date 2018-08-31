@@ -200,7 +200,7 @@ header nav a {
     text-decoration: none;
 }
 
-nav .logo {
+nav a.logo {
     align-self: flex-start;
 }
 
@@ -218,6 +218,15 @@ nav .logo {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.about-middle-content .about-card:nth-child(1) {
+    margin-bottom: 45px;
+}
+
+.about-middle-content .about-card:nth-child(2) {
+    margin-bottom: 45px;
+}
+
 .about-card {
     width: 380px;
     border-bottom: 1px dashed black;
@@ -240,7 +249,7 @@ nav .logo {
     border: 2px solid black;
     border-radius: 10px;
     padding: 8px 25px;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
 }
 
 .about-bottom-content {
