@@ -89,6 +89,10 @@ p {
 .header .nav-bar .nav-links{
     align-self: flex-end;
     text-decoration: none;
+    color: black;
+}
+.header .nav-bar .nav-links:hover{
+  color: teal;
 }
 
 .header .nav-bar .nav-link-img{
@@ -240,6 +244,11 @@ p {
     border-radius: 10px;
 }
 
+.middle-content-about .middle-content-info button:hover{
+   background: teal;
+   color: white;
+}
+
 
 footer {
     width: 100%;
@@ -259,4 +268,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: teal;
 }
