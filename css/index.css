@@ -65,6 +65,12 @@ header nav a {
     margin: 20px 320px;
 }
 
+.jumbo-about {
+    width: 800px;
+    justify-content: center;
+    margin: 20px 320px;
+}
+
 body {
 	line-height: 1;
 }
@@ -211,4 +217,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about page */
+
+
+.maincontent {
+    margin: 75px 0 35px 0;
+   padding: 35px 0;
+}
+
+.execsummary {
+    border-bottom: 1px dashed black;
+    width: 100%;
+}
+
+.cardcontainer {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 45%;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 30px 10px;
+    border-bottom: 1px dashed black;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+}
+
+.conclusion {
+    display: flex;
+    padding: 30px;
 }
