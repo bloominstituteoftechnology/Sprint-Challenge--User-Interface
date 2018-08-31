@@ -153,7 +153,7 @@ p {
 }
 
 .container {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -372,7 +372,7 @@ footer nav a {
 }
 .contact-form {
   width: 100%;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 20px;
   border-radius: 10px;
 }
@@ -406,6 +406,62 @@ footer nav a {
   padding: 15px 10px;
   border: 2px solid #000;
   border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    border: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+  }
+
+  .nav-links a:hover {
+    background: cadetblue;
+    color: #fff;
+  }
+
+  .top-content .text-container,
+  .bottom-content .text-container {
+    width: 100%;
+  }
+
+  .bottom-content {
+    flex-wrap: wrap;
+  }
+
+  .bottom-content .text-container {
+    margin-bottom: 20px;
+  }
+
+  .middle-content .boxes .box {
+    width: 40%;
+  }
+
+  /* ABOUT */
+  .middle-content .card-container {
+    text-align: center;
+  }
+  .middle-content .card-container .card {
+    width: 100%;
+  }
 }
 
 /* ANIMATIONS */
