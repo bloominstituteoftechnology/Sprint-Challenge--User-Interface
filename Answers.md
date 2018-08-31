@@ -18,4 +18,4 @@ Elements will be centered along the cross-axis.
 
 5. What is the git command to commit staged changes as well as write a message? 
 
-'''git commit -m "__Your message here__"'''
+```git commit -m "__Your message here__"```
