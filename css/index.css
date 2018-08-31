@@ -124,7 +124,22 @@ p {
     margin-bottom: 0;
 }
 
+@keyframes flashing-boxes {
+    0% {
+        opacity : 1;
+    }
+    50% {
+        opacity : 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .middle-content .boxes {
+    animation-name: flashing-boxes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
