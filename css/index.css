@@ -189,7 +189,8 @@ footer nav a {
 }
 
 /* About page */
-.about-page .about-text {
+.about-page .about-text,
+.blog-page .blog-text {
     padding: 0 20px;
 }
 
@@ -221,24 +222,52 @@ hr {
     padding: 20px 0;
 }
 
-.about-page .middle-content div button {
+.about-page .middle-content div button,
+.blog-page .pagination button {
     border: 2px solid black;
     border-radius: 7px;
     padding: 5px 20px;
     font-size: 14px;
 }
 
-.about-page .middle-content div button:hover {
+.about-page .middle-content div button:hover,
+.blog-page .pagination button:hover {
     background-color: black;
     color: white;
 }
 
 .about-page .middle-content div.plan hr,
-.about-page .middle-content div.working hr {
+.about-page .middle-content div.working hr,
+.blog-page .blog-entries hr {
     border: 1px dashed #969696;
 }
 
 .about-page .work-together-text {
     padding: 0 10px;
     padding-bottom: 40px;
+}
+
+/* Blog Page */
+.blog-page .blog-entries a {
+    text-decoration: none;
+    color: #4c7797;
+}
+
+.blog-page .blog-entries a:hover {
+    text-decoration: underline;
+}
+
+.blog-page .blog-entries article p {
+    text-indent: 5%;
+}
+
+.blog-page .blog-entries hr {
+    border: 0.5px dashed #969696;;
+}
+
+.blog-page .pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 5px;
+    margin-top: 40px;
 }
