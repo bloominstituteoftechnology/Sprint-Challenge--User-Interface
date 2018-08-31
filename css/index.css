@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.container header nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-grow: 1;
+}
+
+.container header nav a {
+    color: black;
+    text-decoration: none;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +101,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 20px;
 }
 
 .middle-content {
