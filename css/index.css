@@ -66,6 +66,25 @@ p {
     line-height: 1.4;
 }
 
+a {
+    color: inherit;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -79,10 +98,18 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content img {
+    margin: 20px 0 23px 0;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container.about {
+    width: 97%;
 }
 
 .middle-content {
@@ -90,15 +117,38 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.middle-content.about {
+    margin-bottom: 0px;
+    border-style: none;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content.about h2 {
+    padding: 3% 0 4% 0;
+}
+
+.middle-content.about button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    margin: 18px 0 10px 0;
+    padding: 7px 23px 8px 24px;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.middle-content .boxes.about {
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
@@ -112,10 +162,63 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+.middle-content .boxes.about .box-about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    width: 46.2%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content.about {
+    display: block;
+    padding-left: 5px;
+    margin: 0 2% 40px;
 }
 
 .bottom-content .text-container {
