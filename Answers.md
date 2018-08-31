@@ -43,3 +43,9 @@
     * take on block element properties if floated left or right.
     * can be influenced by the ```vertical-align``` property.
         Some examples of inline elements: ```<a></a>```, ```<span></span>```, ```<i></i>```, and ```<em></em>```
+
+3. The four areas of the box model, working from inside to the outside as inscribed rectangles, are:
+    * Content
+    * Padding
+    * Border
+    * Margin
