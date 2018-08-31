@@ -88,24 +88,21 @@ a.button {
 
 /*-- Header & Main Navigation ------------------*/
 header {
-    height: 253px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-header > div {
-    height: 100px;
-    padding: 30px 0px;
-}
 .main-navigation {
-    height: 40px;
+    height: 62px;
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
+    margin-bottom: 38px;
 }
 .main-navigation nav {
     flex-grow: 1;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .main-navigation nav a {
     font-size: 14px;
