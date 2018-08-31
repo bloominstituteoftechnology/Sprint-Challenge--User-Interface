@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* navigation and header CSS */
+.container .header1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: baseline;
+}
+.container .nav1 {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .nav1 a {
+    text-decoration: none;
+    color: black;
+}
+.container .front-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
