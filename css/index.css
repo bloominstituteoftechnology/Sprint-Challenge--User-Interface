@@ -368,25 +368,44 @@ footer nav a {
 }
 
 
-
 .blog .content {
     display: flex;
     order: 0;
+}
+
+.blog .post-photo {
+width: 100%;
+height: 100%
+}
+
+.blog .post-photo img {
+    max-width: 600px;
+    max-height: 600px;
+    height: auto;
+    width: auto;
 }
 
 .blog .side-bar {
     display: flex;
     order: 1;
     flex-direction: column;
+    justify-content: space-between;
     width: 300px;
 }
 
 .blog .portrait {
-    width: 95%;
-    height: auto;
+    width: 300px;
+    height: 300px;
     border: 1px solid red;
     padding: 5px;
     margin: 5px;
+}
+
+.blog .portrait img {
+    max-width: 280px;
+    max-height: 280px;
+    height: auto;
+    width: auto;
 }
 
 .blog .social-media {
