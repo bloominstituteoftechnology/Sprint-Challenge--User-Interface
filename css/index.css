@@ -70,7 +70,41 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*
+======================================================================
+    HEADER / NAVIGATION
+======================================================================
+*/
+header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+header nav a {
+    text-decoration: none;
+    color: #000;
+}
 
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.main-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/*
+======================================================================
+    TOP CONTENT
+======================================================================
+*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +118,12 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*
+======================================================================
+    MIDDLE CONTENT
+======================================================================
+*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +152,52 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+/*
+======================================================================
+    BOTTOM CONTENT
+======================================================================
+*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +211,12 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*
+======================================================================
+    FOOTER
+======================================================================
+*/
 
 footer {
     width: 100%;
@@ -144,3 +236,138 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*
+======================================================================
+    ABOUT PAGE
+======================================================================
+*/
+.about-page  .about-top-content {
+    border-bottom: 2px dotted #000;;
+    padding-bottom: 15px;
+}
+
+/* 
+======================================================================
+    ABOUT MIDDLE SECTION
+======================================================================
+*/
+
+.about-middle-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle-section-boxes {
+    width: 45%;
+    border-bottom: 2px dotted #000;
+    /* margin: 30px 0; */
+    margin-top: 35px;
+}
+
+.middle-section-boxes .learn-more-btn {
+    border: 2px solid #000;
+    width: 40%;
+    text-align: center;
+    margin: 20px 20px 15px 0;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: white;
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+.middle-section-boxes .learn-more-btn:hover {
+    color: white;
+    background: black;
+}
+
+/*
+======================================================================
+    ABOUT BOTTOM SECTION
+======================================================================
+*/
+
+.about-bottom-section {
+    width: 94%;
+    margin: 40px auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .middle-section-boxes {
+        width: 100%;
+        text-align: center;
+    }
+    .middle-section-boxes img {
+        width: 100%;
+    }
+    .middle-section-boxes .learn-more-btn {
+        margin: 15px auto;
+        /* margin-bottom: 30px; */
+    }
+    .container {
+        width: 100%;
+    }
+
+    .about-page  .about-top-content {
+        text-align: center;
+    }
+
+    .about-bottom-section{
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    footer nav {
+        width: 100%;
+    }
+}
+
+.contacts-page .contact-container {
+    border: 1px solid black;
+    height: 60vh;
+    background: rgba(0, 0, 0, .3)
+}
+
+.contacts-page form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contacts-page input {
+    height: 25px;
+    width: 300px;
+    box-shadow: 10px 5px 5px #000;
+}
+.contacts-page textarea {
+    height: 150px;
+    box-shadow: 10px 5px 5px #000;
+}
+
+.contacts-page input, .contacts-page textarea {
+    margin: 15px 40px;
+}
+
+.contacts-page .contact-container h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact-body {
+    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
