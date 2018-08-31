@@ -75,6 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -143,4 +144,152 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* my code */
+
+.container .header {
+	width: 800px;
+	height: 100px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	width: 630px;
+    height: 96px;
+	display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav-button {
+	position: relative;
+	top: 40px;
+	text-decoration: none;
+}
+
+.nav-text {
+	color: black;
+}
+
+.logo {
+    position: relative;
+    top: -10px;
+    width: 157px;
+    height: 40px;
+}
+
+#header-image {
+    width: 800px;
+    height: 155px;
+}
+
+/* BOX COLORS */
+
+#box-1 {
+    background-color: teal;
+}
+#box-2 {
+    background-color: gold;
+}
+#box-3 {
+    background-color: cadetblue;
+}
+#box-4 {
+    background-color: coral;
+}
+#box-5 {
+    background-color: crimson;
+}
+#box-6 {
+    background-color: forestgreen;
+}
+#box-7 {
+    background-color: darkorchid;
+}
+#box-8 {
+    background-color: hotpink;
+}
+#box-9 {
+    background-color: indigo;
+}
+#box-10 {
+    background-color: dodgerblue;
+}
+
+/* the about page css */
+#about-section {
+    width: 800px;
+    height: 142px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#about {
+    width: 765px;
+    height: 105px;
+}
+
+.main-line-break {
+    border: 1px dashed black;
+    }
+    
+    .main-section {
+        height: 460px;
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+.learn-more-button {
+    width: 130px;
+	height: 40px;
+    border: 2px solid black; 
+    border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12pt;
+    background: white;
+    position: relative;
+    top: 20px;
+}
+
+.info-section {
+    width: 372px;
+    }
+    
+    .section-image{
+        position: relative;
+        top: -15px;
+    }
+
+   
+.double-line{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tiny-line {
+    width: 372px;
+    border: 1px dashed black;
+} 
+
+#work-together{
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+#work-together-container{
+    width: 764px;
+    height: auto;
 }
