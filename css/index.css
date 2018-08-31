@@ -104,8 +104,8 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
@@ -143,4 +143,181 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ======================
+header
+====================== */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 30px 0;
+    
+
+}
+
+header nav {
+
+    justify-content: space-around;
+    width: 75%;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header .logo {
+}
+
+
+/* ======================
+body
+====================== */
+
+.home-header-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* ======================
+boxes
+====================== */
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* ======================
+About page
+====================== */
+
+.about-intro {
+    border-bottom: 1px dashed black;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+
+.about-corp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.about-types {
+    border-bottom: 1px dashed black; 
+    margin: 20px;
+    width: 358px    
+}
+
+.about-types img {
+    width: 100%;
+}
+
+.about-types button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.about-types button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* ======================
+About page Lets work together
+====================== */
+
+.services-together {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+.project-header-img {
+    height: 200px;
+    width: 100%;
+}
+
+.product-hats .product-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-swag {
+    border: 1px solid black; 
+    margin: 20px;
+    width: 200px;
+    padding: 20px;    
+}
+
+.product-swag img {
+    width: 100%;
+}
+
+
+.product-swag button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.product-swag button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.product-hats {
+    margin-top: 20px;
 }
