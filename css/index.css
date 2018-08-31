@@ -258,9 +258,14 @@ footer nav a {
     padding-top: 5%;
 }
 .learnMoreButton{
+    
+    
     background: white;
+    height: 90%;
     width:40%;
-    border-radius: 5%;
+    border-radius: 9%;
+    border-color: black;
+    
     
 }
 .bottom-contentAbout{
@@ -270,6 +275,12 @@ footer nav a {
     padding-bottom: 20px;
     
 }
+.buttonDiv{
+    
+    height: 15%;
+}
+
+
 
 
 
