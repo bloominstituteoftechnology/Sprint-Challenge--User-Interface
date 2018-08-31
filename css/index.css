@@ -245,3 +245,15 @@ footer nav a {
         align-items: center;
     }
     
+.learn-more-button {
+    width: 130px;
+	height: 40px;
+    border: 2px solid black; 
+    border-radius: 5px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12pt;
+    background: white;
+    position: relative;
+    top: 20px;
+}
