@@ -294,15 +294,33 @@ nav a {
   flex-wrap: wrap;
   justify-content: center;
   text-align: cnter;
+  margin-top: 15px;
 }
 
 .about-page .middle-content .categories {
   width: 45%;
   margin: 15px;
+  border-bottom: 1px dashed black;
+  margin-bottom: 50px;
 }
 
 .about-page .about-info {
   border-bottom: 1px dashed black;
   padding: 0px 30px 30px;
   margin: 0;
+}
+
+.about-page .middle-content .categories button {
+  background: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 35%;
+  text-align: center;
+  height: 10%;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.about-page .bottom-content {
 }
