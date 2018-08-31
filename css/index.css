@@ -160,6 +160,48 @@ p {
     line-height: 1.4;
 }
 
+
+/*color change animation*/
+
+.color-change-3x {
+    -webkit-animation: color-change-3x 4s linear infinite alternate both;
+    animation: color-change-3x 4s linear infinite alternate both;
+}
+
+
+/*color change keyframes*/
+
+
+/**
+ * ----------------------------------------
+ * animation color-change-3x
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
