@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,125 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav .nav__item {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {  
+  margin-bottom: 20px;
+}
+
+
+.boxes .boxTeal {
+  background-color: teal;
+}
+
+.boxes .boxGold {
+  background-color: gold;
+}
+
+.boxes .boxCadetBlue {
+  background-color: cadetblue;
+}
+
+.boxes .boxCoral {
+  background-color: coral;
+}
+
+.boxes .boxCrimson {
+  background-color: crimson;
+}
+
+.boxes .boxForestGreen {
+  background-color: forestgreen;
+}
+
+.boxes .boxDarkOrchid {
+  background-color: darkorchid;
+}
+
+.boxes .boxHotPink {
+  background-color: hotpink;
+}
+
+.boxes .boxIndigo {
+  background-color: indigo;
+}
+
+.boxes .boxDodgerBlue {
+  background-color: dodgerblue;
+}
+
+.about {
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.customHR {
+  border-top: dashed 1px;
+  margin: 25px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+
+.cards__card {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  margin: 15px;
+}
+
+.cards__btn {
+  border-radius: 7px;
+  border: 2px solid black;
+  height: 40px;
+  width: 150px;
+  font-size: 17px;
+  letter-spacing: .8px;
+  margin: 20px 0 0 0;
+}
+
+.lets {
+  margin: 15px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.animate {
+  animation-name: fade;
+  animation-delay: 0;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
