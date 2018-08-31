@@ -206,3 +206,35 @@ section {
 #box10 {
     background-color: dodgerblue;
 }
+
+h3 {
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.container-about-page {
+
+}
+
+.section-container {
+    display: flex;
+    margin: 20px;
+
+}
+
+button {
+    height: 30px;
+    width: 100px
+    
+}
+
+p {
+    margin-bottom: 20px; 
+}
+
+hr {
+    width: 90%;
+}
