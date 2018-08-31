@@ -81,13 +81,13 @@ header nav {
     justify-content: space-around;
     align-items: flex-end;
     width: 800px;
-    border: solid red;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    font-size: 
+    font-size: 14px;
+    font-weight:bold;
 }
 
 header nav a:hover {
@@ -106,7 +106,7 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 40px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -135,12 +135,51 @@ html, body {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+ 
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
