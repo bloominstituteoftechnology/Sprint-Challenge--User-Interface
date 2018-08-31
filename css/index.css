@@ -51,10 +51,9 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
+
+
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -71,6 +70,38 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+header nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 800px;
+    border: solid red;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 
+}
+
+header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0;
+  }
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
