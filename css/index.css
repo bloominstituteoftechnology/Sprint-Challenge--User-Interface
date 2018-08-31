@@ -94,6 +94,14 @@ p {
     font-weight: bold;
     margin:0 40px;
 }
+.about{
+    border:2px solid pink;
+    padding:10px 10px;
+    margin:20px 0;
+}
+.about .text-container{
+    border:2px solid purple;
+}
 
 .top-content {
     display: flex;
@@ -109,6 +117,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
