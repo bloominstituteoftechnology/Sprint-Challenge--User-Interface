@@ -176,16 +176,33 @@ footer nav a {
 .about-section {
     font-weight: bold;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     border-bottom: dotted black 2px;
 }
+
+.card-section {
+    display: flex;
+    align-content: space-evenly;
+    flex-flow: wrap;
+}
+
  .card {
-     display: flex;
-     width: 50%;
+     width: 45%;
      font-weight: bold;
      border-bottom: dotted black 2px;
      padding-bottom: 20px;
      margin-bottom: 50px;
+     margin: 20px;
+ }
+
+ .card-section .card img {
+     width: 100%;
+     height: auto;
+ }
+
+ .card h2 {
+     margin-top: 10px;
+     font-size: 20px;
  }
 
  .card button {
@@ -195,4 +212,5 @@ footer nav a {
      height: 40px;
      width: 130px;
      margin-top: 20px;
+     font-weight: bold;
  }
