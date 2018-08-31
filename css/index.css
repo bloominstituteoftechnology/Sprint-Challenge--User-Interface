@@ -71,13 +71,13 @@ p {
     margin: 0 auto;
 }
 
-header {
+.container header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
-header .navigation nav {
+.container header .navigation nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -85,16 +85,16 @@ header .navigation nav {
     height: 40px;
 }
 
-header .navigation nav a {
+.container header .navigation nav a {
     text-decoration: none;
     color: black;
 }
 
-header .logo {
+.container header .logo {
     order: -1;
 }
 
-.jumbotron img {
+.container .jumbotron img {
     margin-bottom: 15px;
 }
 
@@ -214,3 +214,92 @@ footer nav a {
 
 /* about page styles */
 
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.container-about-page header .navigation nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 600px;
+    height: 40px;
+}
+
+.container-about-page header .navigation nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-about-page header .logo {
+    order: -1;
+}
+
+.container-about-page .jumbotron img {
+    margin-bottom: 15px;
+}
+
+.container-about-page .about-top-content {
+    margin: 0 20px 10px 20px;
+}
+
+.container-about-page .border {
+    border: 1px dotted black;
+}
+
+.container-about-page .about-middle-content {
+    margin: 0 20px 10px 20px;
+    padding-top: 10px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-about-page .about-middle-content div {
+    width: 360px;
+    padding-bottom: 10px;
+}
+
+.container-about-page .about-middle-content div img {
+    margin-bottom: 5px;
+}
+
+.container-about-page .about-middle-content div:nth-child(1) {
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+
+.container-about-page .about-middle-content div:nth-child(2) {
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+
+.container-about-page .about-middle-content div:nth-child(3) {
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+
+.container-about-page .about-middle-content div:nth-child(4) {
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+
+.container-about-page .about-middle-content div button {
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 25%;
+    border: 1px solid black;
+}
+
+.container-about-page .about-bottom-content {
+    margin: 100px 20px 10px 20px;
+}
