@@ -86,14 +86,25 @@ p {
     color: black;
 }
 
-.home header {
+.home-page header {
     display: flex;
     flex-direction: column;
 }
 
-.home .header-img {
+.home-page .header-img {
     width: 100%;
     margin: 20px 0;
+}
+
+.about-page .header-img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.about-page .about-section {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: dashed 1px black; 
 }
 
 .top-content {
