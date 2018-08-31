@@ -176,6 +176,10 @@ p {
     padding-bottom: 20px;
 }
 
+.top-content .text-container h2 {
+    margin-top: 20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -321,10 +325,10 @@ footer nav a {
 }
 
 .about-middle button {
-    border: 1px solid black;
+    border: 2px solid black;
     height: 30px;
     width: 120px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 20px;
 }
 
@@ -334,4 +338,34 @@ footer nav a {
 
 .about-bottom {
     margin: 20px 0;
+}
+
+/* contact page */
+.contact-page .contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-page form {
+    width: 500px;
+    background-color: lightgray;
+    margin: 10px 0;
+}
+
+.contact-page .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 300 px;
+    padding: 20px;
+}
+
+.contact-page .inputs #spaced {
+    margin: 20px;
+    padding: 10px;
+}
+
+.contact-page .inputs button {
+    width: 100px;
+    height: 30px;
+    
 }
