@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+.main-nav-header {
+    display: flex;
+    width: 100%;
+    margin: 20px 0 25px 0;
+    align-items: flex-end;
+}
+
+.top-header > div {
+
+}
+
+.main-nav {
+    display: flex;
+    margin-top: 15px;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav__item {
+    margin: 0 40px;
+    display: flex;
+
+}
+
+.main-nav__item > a {
+    text-decoration: none;
+}
+
+.top-section-img {
+    margin: 20px 0;
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
