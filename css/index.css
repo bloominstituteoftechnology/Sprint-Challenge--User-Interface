@@ -146,44 +146,58 @@ footer nav a {
 }
 
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav .nav__item {
+  text-decoration: none;
+}
+
+.hero {  
+  margin-bottom: 50px;
+}
 
 
-.boxTeal {
+.boxes .boxTeal {
   background-color: teal;
 }
 
-.boxGold {
+.boxes .boxGold {
   background-color: gold;
 }
 
-.boxCadetBlue {
+.boxes .boxCadetBlue {
   background-color: cadetblue;
 }
 
-.boxCoral {
+.boxes .boxCoral {
   background-color: coral;
 }
 
-.boxCrimson {
+.boxes .boxCrimson {
   background-color: crimson;
 }
 
-.boxForestGreen {
+.boxes .boxForestGreen {
   background-color: forestgreen;
 }
 
-.boxDarkOrchid {
+.boxes .boxDarkOrchid {
   background-color: darkorchid;
 }
 
-.boxHotPink {
+.boxes .boxHotPink {
   background-color: hotpink;
 }
 
-.boxIndigo {
+.boxes .boxIndigo {
   background-color: indigo;
 }
 
-.boxDodgerBlue {
+.boxes .boxDodgerBlue {
   background-color: dodgerblue;
 }
