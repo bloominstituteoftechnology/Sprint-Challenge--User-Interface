@@ -237,3 +237,8 @@ footer nav a {
     padding: 0 20px;
     margin-bottom: 35px;
 }
+form{
+    display:table;
+    padding: 10px;
+    border: 1px dotted black;
+}
