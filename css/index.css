@@ -208,3 +208,41 @@ nav .logo {
     margin: 19px 0px;
 }
 
+/*  about page */
+.about-top-content .text-container {
+    width: 100%;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about-card {
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin: 10px 0px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.about-card img {
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    margin: 15px 0px;
+}
+
+.about-card button.learn-more {
+    background: white;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 25px;
+    margin-bottom: 18px;
+}
+
+.about-bottom-content {
+    margin: 40px 0px;
+}
