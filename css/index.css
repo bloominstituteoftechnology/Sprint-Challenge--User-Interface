@@ -157,7 +157,6 @@ header nav {
     display: flex;
     width: 880px;   
     justify-content: space-evenly;
-    border: solid black;
     margin: 20px 0 20px;
     align-items: center;
 
@@ -292,4 +291,50 @@ header nav {
         align-items: center;
         justify-content: center;
     
+}
+
+/* About page css */
+
+
+.about-contents {
+
+    width: 880px;
+    height: 100%;
+    display:flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+
+}
+
+.about-contents h1 {
+
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+
+.about-contents .about-boxes {
+
+    padding: 20px;
+    width: 400px;
+    margin: 10px 0 10px 0;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+.work-together {
+    margin-bottom: 15px;
+}
+
+button {
+
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+button:hover {
+
+    color: white;
+    background-color: black;
 }
