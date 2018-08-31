@@ -135,6 +135,7 @@ header nav {
     background: white;
     border: 2px solid black;
     border-radius: 10px;
+    cursor: pointer;
     font-family: inherit;
     font-size: 16px;
     margin: 18px 0 10px 0;
