@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+header .navigation nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 600px;
+    height: 40px;
+}
+
+header .navigation nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header .logo {
+    display: flex;
+    order: -1;
+}
+
+.jumbotron img {
+    margin-bottom: 15px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
