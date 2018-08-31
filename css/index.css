@@ -77,7 +77,9 @@ p {
     justify-content:space-between;
 }
 .top-nav nav a{
-    margin-right:3.5em
+    margin-right:3.5em;
+    color:black;
+    text-decoration: none;
 }
 
 .top-content {
