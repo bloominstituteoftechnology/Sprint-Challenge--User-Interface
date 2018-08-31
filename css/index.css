@@ -130,16 +130,6 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 #box1 {
     background-color: teal;
@@ -241,4 +231,20 @@ footer nav a {
 
 .about-middle-content {
     display: flex;
+
+}
+
+.about-middle-content .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-middle-content .row .column {
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 5px;
+    border: 1.5px solid black;
 }
