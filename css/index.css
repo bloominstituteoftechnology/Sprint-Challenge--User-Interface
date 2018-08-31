@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+header .logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav {
+    display: flex;
+    width: 700px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.homePic {
+    padding-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +136,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    order:10;
 }
 
 .bottom-content {
