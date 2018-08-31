@@ -355,7 +355,77 @@ footer nav a {
 
 /* Blog Code */
 
-.blog .top-picture img {
+.blog .top-picture {
+    overflow: hidden;
+    height: 200px;
     width: 800px;
+
+}
+
+.blog .top-picture img {
+    max-width: 100%;
     height: auto;
+}
+
+
+
+.blog .content {
+    display: flex;
+    order: 0;
+}
+
+.blog .side-bar {
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    width: 300px;
+}
+
+.blog .portrait {
+    width: 95%;
+    height: auto;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blog .social-media {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blog .social-media h3 {
+    font-size: 20px;
+    align-content: center;
+}
+
+.blog .most-popular {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orange;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blog .most-popular h3 {
+    font-size: 20px;
+}
+
+.blog .most-popular ul {
+    font-size:15px;
+}
+
+
+.blog .recent-post {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.blog .post-title {
+    font-size: 40px;
 }
