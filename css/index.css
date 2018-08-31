@@ -92,6 +92,11 @@ p {
   color: black;
 }
 
+.top-nav-bar a:hover {
+	transform: scale(1.5);
+	transition-duration: 1s;
+}
+
 .top-img {
   align-self: flex-end;
 }
@@ -135,6 +140,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:hover{
+	transform: rotate(360deg);
+	transition: 3s;
 }
 
 .middle-content .boxes .box:first-child {
