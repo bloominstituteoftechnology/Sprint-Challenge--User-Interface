@@ -165,7 +165,9 @@ footer nav a {
 
 .header nav a {
     text-decoration: none;
+    color: black;
 }
+
 /* END OF HEADER STYLING*/
 
 .top-img {
