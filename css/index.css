@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -155,10 +155,11 @@ footer nav a {
 
 .nav .nav__item {
   text-decoration: none;
+  color: black;
 }
 
 .hero {  
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 
@@ -200,4 +201,14 @@ footer nav a {
 
 .boxes .boxDodgerBlue {
   background-color: dodgerblue;
+}
+
+.about {
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+.customHR {
+  border-top: dashed 1px;
+  margin: 25px 0;
 }
