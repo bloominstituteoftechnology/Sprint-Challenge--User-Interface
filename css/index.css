@@ -74,15 +74,27 @@ p {
     padding: 20px;
     align-items: flex-end;
 }
+.navBar{
+    margin: 10px;
+}
+.navagation img{
+    padding: 10px;
+}
 
 .navBar a {
     text-decoration: none;
     font-family: 'Roboto' , sans-serif;
     color: black;
     padding: 40px;
+
    
 }
-
+.navBar a:hover{
+    color: #ffb07c;
+    background-color: #45648f;
+    border-radius: 75px;
+    opacity: 10%;
+}
 .headerImg {
     width: 0 auto;
     padding: 20px 0px 30px 0px;
@@ -136,36 +148,151 @@ p {
     align-items: center;
     justify-content: center;
 }
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      background:lightgray;
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 #box1 {
    background-color: teal;
+   animation: bounceIn 1s;
+   -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box1:hover{
+    transform: rotate(360deg);
+    border:10px #773355 solid;
+    padding:15px;
 }
 #box2 {
     background-color: gold;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+   #box2:hover{
+    transform: rotate(360deg);
+    border:10px #773355 solid;
+    padding:15px;
 }
 #box3 {
     background-color: cadetblue;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box3:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 #box4 {
     background-color: coral;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box4:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 #box5 {
     background-color:crimson;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box5:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 #box6 {
     background-color: forestgreen;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box6:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 #box7 {
     background-color: darkorchid;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box7:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 #box8 {
     background-color: hotpink;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box8:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 #box9 {
     background-color: indigo;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box9:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 #box10 {
     background-color: dodgerblue;
+    animation: bounceIn 1s;
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
+}
+#box10:hover{
+ transform: rotate(360deg);
+ border:10px #773355 solid;
+ padding:15px;
 }
 .bottom-content {
     display: flex;
@@ -183,7 +310,7 @@ p {
 
 .headerBlock {
     padding: 20px 0px;
-    border-bottom: 1px dotted black;
+    border-bottom: 2px dotted black;
 }
 .abouttextContainter1{
     padding: 20px 0px 30px 0px;
@@ -199,10 +326,12 @@ p {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border-bottom: 1px dotted black;
+    border-bottom: 2px dotted black;
     width: 375px;
     padding: 30px 0px 20px 0px;
+    
 }
+
 .infoBlock h2 {
     padding-top: 10px;
 }
@@ -214,8 +343,18 @@ p {
     border-radius: 10px;
     border: 1px solid black;
     width: 125px;
-
+    -webkit-border-radius:0%;
+   -moz-border-radius:0%;
+   -o-border-radius:0%;
+   transition: all 800ms ease-in-out;
 }
+.infoBlock button:hover{
+    transform: rotate(360deg);
+    border:10px #773355 solid;
+    padding:15px;
+}
+
+
 footer {
     width: 100%;
     background: black;
