@@ -3,6 +3,24 @@
    License: none (public domain)
 */
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,12 +84,44 @@ p {
     line-height: 1.4;
 }
 
+body > header {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+body > header > nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+body > header > nav > a {
+    color: black;
+    text-decoration: none;
+}
+
+body > header > nav > a:hover {
+    text-shadow: 1px 1px 8px darkorchid;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-.top-content {
+.head-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.homepage .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,29 +129,29 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.homepage .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.homepage .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.homepage .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.homepage .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.homepage .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,20 +160,105 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-animation: rotation 2s infinite linear;
 }
 
-.bottom-content {
+.homepage .middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.homepage .middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.homepage .middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.homepage .middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.homepage .middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.homepage .middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.homepage .middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.homepage .middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.homepage .middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.homepage .middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+.homepage .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.homepage .bottom-content .text-container {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.homepage .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-page .top-content {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .middle-content .two-column {
+    width: 47%;
+    padding: 15px 0;
+    margin: 0 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content h2 {
+    margin-top: 12px;
+}
+
+.about-page .middle-content .button {
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.about-page .middle-content .button:hover {
+    text-decoration: underline;
+}
+
+.about-page .bottom-content {
+    padding: 11px;
+    margin-bottom: 14px;
 }
 
 footer {
