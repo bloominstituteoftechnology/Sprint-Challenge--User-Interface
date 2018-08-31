@@ -259,3 +259,13 @@ footer nav a {
     margin-top: 20px;
     font-weight: bold;
  }
+
+ .products-card-section button:hover {
+     background: white;
+     color: black;
+ }
+
+ .products-card-section img {
+     width: 200px;
+     height: auto;
+ }
