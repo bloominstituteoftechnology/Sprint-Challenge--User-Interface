@@ -2,61 +2,152 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,6 +162,31 @@ p {
     margin: 0 auto;
 }
 
+.index-page-header {
+    display: flex;
+    justify-content: flex-start space-around;
+    height: 75px;
+    align-items: flex-end;
+    margin-bottom: 35px;
+}
+
+.index-page-header nav {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    margin-right: 25px;
+}
+
+.index-page-header nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +198,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,10 +217,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +358,117 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page styling starts here \M/ */
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-section {
+    border-bottom: 1px dashed black;
+    padding: 25px 20px;
+}
+
+.main-section1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 0px;
+}
+
+.main-section1 h1 {
+    margin-top: 15px;
+}
+
+.main-section1 img {
+    height: 220px;
+    width: auto;
+}
+
+.strategy {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    width: 375px;
+    margin-right: 30px
+}
+
+.how-we-work {
+    border-bottom: 1px dashed black;
+    width: 375px;
+}
+
+.main-section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 0px;
+}
+
+.main-section2 h1 {
+    margin-top: 15px;
+}
+
+.main-section2 img {
+    height: 220px;
+    width: auto;
+}
+
+.places-we-work {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    width: 375px;
+    margin-right: 30px;
+}
+
+.collaboration {
+    border-bottom: 1px dashed black;
+    width: 375px;
+}
+
+button {
+    background-color: white;
+    height: 35px;
+    width: 110px;
+    border: 1.4px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.lets-work-together {
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+/* contact page styling begins here */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex start;
+    justify-items: space-around;
+    height: 600px;
+    padding: 10px;
+}
+
+/* .contact-container form input  {
+    margin: 20px;
+} */
+.contact-container form label {
+    margin: 20px;
+}
+
+textarea {
+    height: 200px;
+    width: auto;
+}
+
+.contactus {
+    margin: 50px;
 }
