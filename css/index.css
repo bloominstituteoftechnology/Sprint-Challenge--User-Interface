@@ -67,7 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -222,8 +223,8 @@ footer nav a {
     margin-top: 15px;
 }
 .resizable{
-    height:100%;
-    width:auto;
+    width:100%;
+    height:auto;
 }
 
 .col-1 {width: 8.33%;}
@@ -238,3 +239,10 @@ footer nav a {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
