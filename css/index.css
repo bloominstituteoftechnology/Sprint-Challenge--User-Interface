@@ -413,6 +413,42 @@ header img {
     padding: 30px;
 }
 
+.contact-page form {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 15px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px 0 10px 0;
+    resize: vertical;
+}
+
+.subject {
+    height: 200px;
+}
+
+input[type=submit] {
+    border: 2px double black;
+    font-size: 16px;
+    background: white;
+    margin: 20px 40% 20px 40%;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+input[type=submit]:hover {
+    background: black;
+    color: white;
+}
+
 footer {
     width: 100%;
     background: black;
