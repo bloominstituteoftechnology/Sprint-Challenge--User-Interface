@@ -375,6 +375,7 @@ footer nav a {
     list-style-position: inside;
     font-size: 14px;
     line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 .contact-page .form .form-text span {
