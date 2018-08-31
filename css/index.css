@@ -88,8 +88,8 @@ header nav {
     width: 700px;
     margin-top: 20px;
     justify-content: space-evenly;
-    transition-duration: 3s;
     padding: 0 10px;
+    color: black;
 }
 
 header nav a {
@@ -97,8 +97,8 @@ header nav a {
 }
 
 header nav :hover{
-    font-size: 25px;
-    transform: rotateY(36deg);
+    transform: rotateY(360deg);
+    transition-duration: 3s;
 }
 
 .homePic {
@@ -144,10 +144,21 @@ header nav :hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation:  10s colorChange;
+}
+
+@keyframes colorChange{
+    from, 50%, to {
+    opacity: 1;
+    }
+    25%, 75% {
+    opacity: 0;
+    }
 }
 
 .middle-content .boxes .box2{
     background-color: gold;
+    
 }
 
 .middle-content .boxes .box3{
