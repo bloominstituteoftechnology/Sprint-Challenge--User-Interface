@@ -190,23 +190,46 @@ footer nav a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	align-items: center;
+    align-items: center;
+    width: 1000px;
+    margin-left: 250px;
 }
-
+.container #navBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+    align-items: center;
+    width: 750px;
+    margin-left: 50px;
+    
+}
 #navBar nav {
 	display: flex;
 	flex-direction:row;
 }
 
+.container #navBarHome nav {
+	display: flex;
+	flex-direction:row;
+}
 #navBar nav a {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left:50px;
+    margin-right:50px;
   	padding:4px;
-  	color: lightgrey;
+    color: black;
   	text-decoration: none;
   	font-weight: lighter;
+}
+
+.container #navBar nav a {
+    margin-left:40px;
+    margin-right:40px;
+
 }
 
 h1 {
