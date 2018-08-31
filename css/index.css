@@ -70,7 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
     height: 100%;
-    border: 1px solid seagreen;
+    
     
 }
 .container .header{
@@ -170,8 +170,12 @@ footer nav a {
 }
 
 /*  ABOUT       PAGE            STARTS              HERE*/
-.top-content{
+
+.top-AboutContent{
+    display: flex;
     justify-content: flex-start;
+    padding-bottom: 3%;
+   
 }
 .about-page{
     width: 100%;
@@ -186,41 +190,54 @@ footer nav a {
 .middleAboutPage{
     display: flex;
     
-    border:1px solid red;
+    
     flex-wrap: nowrap;
     height: 70%;
    
 }
 .strategy{
     height: 45%;
-   
+    width: 90%;
     border-bottom: 1px dashed black;
+   
     
 }
+.topOfBox{
+    
+}
+
 .howWeWork{
     height: 45%;
-   
+   width: 95%;
     border-bottom: 1px dashed black;
 }
 .placesWeWork{
     height: 45%;
+    width: 90%;
     padding-top: 5%;
-    border:1px solid red;
+    border-bottom: 1px dashed black;
    
 
 }
 .collaboration{
     height: 45%;
+    width: 90%;
     padding-top: 5%;;
     border-bottom: 1px dashed black;
 }
+.buttonDiv{
+    padding-top: 5%;
+}
 .learnMoreButton{
+    background: white;
+    width:40%;
     border-radius: 5%;
+    
 }
 .bottom-contentAbout{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding-bottom: 20px;
-    border: 1px solid blue;
+    
 }
