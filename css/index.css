@@ -71,6 +71,50 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display : flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+     align-items: flex-end;
+    margin : 20px 0;
+background : white;
+position : sticky;
+top : 0px;
+    z-index: 100;
+}
+
+header nav{
+    width : 600px;
+    display : flex;
+    justify-content: space-around;
+    }
+header nav a{
+    text-decoration: none;
+    color:black;
+ 
+
+}
+@keyframes example {
+   
+    50% {background-color: yellow;
+        text-decoration: underline;
+        color: red;
+    font-size: 2em;}
+  
+
+}
+header nav a:hover {
+    animation: example 5s ;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+
+.title-img{
+    padding : 20px 0;
+    animation: example 10 sec linear infinite;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +156,40 @@ p {
     justify-content: center;
 }
 
+
+.middle-content .boxes .box:nth-of-type(1) {
+    background : teal;
+}
+
+.middle-content .boxes .box:nth-of-type(2) {
+    background : gold;
+}
+.middle-content .boxes .box:nth-of-type(3) {
+    background : cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4) {
+    background : coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5) {
+    background : crimson;
+}
+.middle-content .boxes .box:nth-of-type(6) {
+    background : forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7) {
+    background : darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8) {
+    background : hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9) {
+    background : indigo;
+}
+.middle-content .boxes .box:nth-of-type(10) {
+    background : dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +221,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*  ABOUT PAGE CSS  */
+
+.about-intro{
+    padding-bottom : 30px;
+    border-bottom: 1px solid black;
+}
+
+.about-content{
+    padding : 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content .card{
+    width : 48%;
+    padding : 20px 0;
+    border-bottom: 1px dotted black;
+    margin-bottom: 10px;
+}
+.about-content .card h3{
+    margin-top : 10px;
+}
+.about-content .card img{
+    width : 100%;
+}
+
+.about-content .card button{
+    padding : 5px 10px;
+    background: white;
+    margin-top : 5px;
+}
+
+.about-below{
+    margin : 10px 0 30px 0;
 }
