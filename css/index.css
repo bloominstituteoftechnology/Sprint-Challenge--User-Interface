@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: space-around;
+}
+
+header nav a {
+    display: flex;
+    width: 690px;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+header nav a:hover{
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
