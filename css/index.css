@@ -180,25 +180,25 @@ p {
 
 @-webkit-keyframes color-change-3x {
     0% {
-        background: #19dcea;
+        color: #19dcea;
     }
     50% {
-        background: #b22cff;
+        color: #b22cff;
     }
     100% {
-        background: #ea2222;
+        color: #ea2222;
     }
 }
 
 @keyframes color-change-3x {
     0% {
-        background: #19dcea;
+        color: #19dcea;
     }
     50% {
-        background: #b22cff;
+        color: #b22cff;
     }
     100% {
-        background: #ea2222;
+        color: #ea2222;
     }
 }
 
