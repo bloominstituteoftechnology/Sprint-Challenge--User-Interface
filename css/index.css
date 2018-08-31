@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+.boxTeal {
+  background-color: teal;
+}
+
+.boxGold {
+  background-color: gold;
+}
+
+.boxCadetBlue {
+  background-color: cadetblue;
+}
+
+.boxCoral {
+  background-color: coral;
+}
+
+.boxCrimson {
+  background-color: crimson;
+}
+
+.boxForestGreen {
+  background-color: forestgreen;
+}
+
+.boxDarkOrchid {
+  background-color: darkorchid;
+}
+
+.boxHotPink {
+  background-color: hotpink;
+}
+
+.boxIndigo {
+  background-color: indigo;
+}
+
+.boxDodgerBlue {
+  background-color: dodgerblue;
 }
