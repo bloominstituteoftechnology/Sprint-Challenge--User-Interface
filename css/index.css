@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display : flex;
+    justify-content: space-between;
+     align-items: flex-end;
+    margin : 20px 0;
+}
+
+header nav{
+    width : 550px;
+    display : flex;
+    justify-content: space-around;
+    }
+header nav a{
+    text-decoration: none;
+    color:black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: red;
+    background-color: dimgray;
+}
+
+.title-img{
+    padding : 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
