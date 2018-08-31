@@ -258,6 +258,7 @@ footer nav a {
 }
 
 .about-page .middle div .button:hover {
+    cursor: pointer;
     animation-name: fade;
     animation-duration: 0.2s;
     background: black;
