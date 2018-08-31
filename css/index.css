@@ -271,7 +271,7 @@ footer nav a {
 
 
 .containerAboutPage {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap; 
@@ -279,11 +279,13 @@ footer nav a {
  .containerAboutPage .bigAboutImage {
      display: block;
     align-self: auto;
+    justify-content: flex-start;
     margin: 20px;
 }
 
 .containerAboutPage .aboutInfo {
     align-self: auto;
+    padding-left: 3%;
 }
 
 .containerAboutPage .stratHowWeWorkRow{
@@ -291,8 +293,7 @@ footer nav a {
     flex-wrap: wrap;
     border-top: dotted black 1px;
     justify-content: flex-start;
-    
-    
+    margin-top: 4%;
     
 }
 .containerAboutPage .stratHowWeWorkRow .strat {
