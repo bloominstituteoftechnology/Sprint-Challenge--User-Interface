@@ -360,6 +360,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* about page styling starts here \M/ */
 .container-about-page {
     width: 800px;
     margin: 0 auto;
@@ -367,27 +368,75 @@ footer nav a {
 
 .about-section {
     border-bottom: 1px dashed black;
-    padding-bottom: 25px;
+    padding: 25px 20px;
 }
 
 .main-section1 {
     display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 0px;
+}
+
+.main-section1 h1 {
+    margin-top: 15px;
+}
+
+.main-section1 img {
+    height: 220px;
+    width: auto;
+}
+
+.strategy {
     border-bottom: 1px dashed black;
-    padding-bottom: 20px;
-    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 375px;
+    margin-right: 30px
+}
+
+.how-we-work {
+    border-bottom: 1px dashed black;
+    width: 375px;
 }
 
 .main-section2 {
     display: flex;
+    justify-content: space-between;
+    padding: 25px 20px 0px;
+}
+
+.main-section2 h1 {
+    margin-top: 15px;
+}
+
+.main-section2 img {
+    height: 220px;
+    width: auto;
+}
+
+.places-we-work {
     border-bottom: 1px dashed black;
-    padding-bottom: 20px;
-    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 375px;
+    margin-right: 30px;
+}
+
+.collaboration {
+    border-bottom: 1px dashed black;
+    width: 375px;
 }
 
 button {
     background-color: white;
-    height: 30px;
-    width: 100px;
+    height: 35px;
+    width: 110px;
     border: 1.4px solid black;
-    border-radius: 5px
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.lets-work-together {
+    padding: 30px 20px;
+    margin-top: 20px;
 }
