@@ -66,6 +66,12 @@ p {
     line-height: 1.4;
 }
 
+
+/* Page starts here  */
+* {
+    box-sizing: border-box;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +83,32 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content .nav-sec {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+}
+
+.top-content .nav-sec nav {
+    display: flex;
+    width: 65%;
+
+}
+
+.top-content .nav-sec nav a {
+    margin: 0 65px 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+.top-content .nav-sec nav a:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 .top-content .text-container {
