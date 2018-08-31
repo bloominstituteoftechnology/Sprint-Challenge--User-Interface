@@ -3,60 +3,154 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,9 +160,76 @@ p {
     line-height: 1.4;
 }
 
+
+/*color change animation*/
+
+.color-change-3x {
+    -webkit-animation: color-change-3x 4s linear infinite alternate both;
+    animation: color-change-3x 4s linear infinite alternate both;
+}
+
+
+/*color change keyframes*/
+
+
+/**
+ * ----------------------------------------
+ * animation color-change-3x
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes color-change-3x {
+    0% {
+        color: #19dcea;
+    }
+    50% {
+        color: #b22cff;
+    }
+    100% {
+        color: #ea2222;
+    }
+}
+
+@keyframes color-change-3x {
+    0% {
+        color: #19dcea;
+    }
+    50% {
+        color: #b22cff;
+    }
+    100% {
+        color: #ea2222;
+    }
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+nav .menu a {
+    font-size: .8em;
+    color: black;
+    text-decoration: none;
+}
+
+header .header-img {
+    margin: 40px 0;
 }
 
 .top-content {
@@ -82,7 +243,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +304,113 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*About Page Styles*/
+
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-page .about-main {
+    border-bottom: dotted black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    margin: 20px auto;
+}
+
+.about-page .about-main #about-par {
+    border-bottom: dotted black 1px;
+    padding-bottom: 20px;
+}
+
+.about-page .about-main .card {
+    padding: 20px;
+    width: 400px;
+    background: whitesmoke;
+    margin: 20px 0;
+}
+
+.about-page .about-main .card-button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.about-page .about-main .card-button:hover {
+    background: black;
+    color: white;
+}
+
+.about-page .lets-work {
+    margin: 20px auto;
+}
+
+
+/*Contact Page Styles*/
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+.contact-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-page .contact-form input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+.contact-page .contact-form input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: solid black 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+.contact-page .contact-form input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.contact-form {
+    border: black dotted 1px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 40px;
 }
