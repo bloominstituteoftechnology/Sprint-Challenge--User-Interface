@@ -73,18 +73,43 @@ p {
 
 header {
     display: flex;
-    align-items: space-around;
+    align-items: baseline;
+    margin-bottom: 50px;
 }
 
-header nav a {
+header .logo {
+    display: flex;
+    margin-top: 25px;
+    margin-right: 50px;
+    align-items: flex-start;
+}
+
+hedaer nav {
     display: flex;
     width: 690px;
-    justify-content: flex-start;
-    margin-top: 30px;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+header nav a {
+    margin-right: 65px;
+    text-decoration: none;
+    color: black;
 }
 
 header nav a:hover{
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 0;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+.top-content .top-image {
+    margin-bottom: 30px
 }
 
 .top-content {
@@ -126,6 +151,46 @@ header nav a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .a {
+    background: teal;
+}
+
+.middle-content .boxes .b {
+    background: gold;
+}
+
+.middle-content .boxes .c {
+    background: cadetblue;
+}
+
+.middle-content .boxes .d {
+    background: coral;
+}
+
+.middle-content .boxes .e {
+    background: crimson;
+}
+
+.middle-content .boxes .f {
+    background: forestgreen;
+}
+
+.middle-content .boxes .g {
+    background: darkorchid;
+}
+
+.middle-content .boxes .h {
+    background: hotpink;
+}
+
+.middle-content .boxes .i {
+    background: indigo;
+}
+
+.middle-content .boxes .j {
+    background: dodgerblue;
 }
 
 .bottom-content {
