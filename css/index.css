@@ -274,7 +274,9 @@ footer nav a {
     width: 850px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+
 }
  .containerAboutPage .bigAboutImage {
      display: block;
@@ -302,7 +304,7 @@ footer nav a {
     align-items: flex-start;
     justify-content: flex-start;
     margin: 10px 4%;
-    width: 40%;
+    width: 42%;
     border-bottom: dotted lightgrey 1px;
 
 }
@@ -324,7 +326,7 @@ footer nav a {
     align-items: flex-start;
     justify-content: center;
     margin: 10px 4%;;
-    width: 40%;
+    width: 42%;
     border-bottom: dotted lightgrey 1px;
 
 }
@@ -355,7 +357,7 @@ footer nav a {
     align-items: flex-start;
     justify-content: flex-start;
     margin: 10px 4%;;
-    width: 40%;
+    width: 42%;
 
 }
 
@@ -377,7 +379,7 @@ footer nav a {
     align-items: flex-start;
     justify-content: center;
     margin: 10px 4%;;
-    width: 40%;
+    width: 42%;
 
 }
 
@@ -397,12 +399,19 @@ footer nav a {
     display: flex;
     align-items: flex-start;
     margin-bottom: 7%;
+    flex-direction: column;
 }
 
 .containerAboutPage .workTogether h2{
     flex-wrap: wrap;
-}
+    flex-direction: column;
+    margin-left: 2%;
+    padding: 3%;
 
+}
+.containerAboutPage .workTogether p{
+ margin-left: 5%;
+}
 .containerAboutPage .footer .bottomNav {
     margin-top: 7%;
 }
