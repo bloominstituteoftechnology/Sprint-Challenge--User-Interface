@@ -246,11 +246,20 @@ footer nav a {
 
 body, html {
 	height: 100%;
-	
+	font-family: Montserrat-Regular, sans-serif;
 }
 
-/*---------------------------------------------*/
-
+a {
+	font-family: Montserrat-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
 
 a:focus {
 	outline: none !important;
@@ -261,17 +270,22 @@ a:hover {
 	color: #57b846;
 }
 
-/*---------------------------------------------*/
 
 
-
-ul, li {
+h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
-	list-style-type: none;
+}
+
+p {
+	font-family: Montserrat-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
 }
 
 
-/*---------------------------------------------*/
+
 input {
 	outline: none;
 	border: none;
@@ -296,7 +310,6 @@ textarea:-moz-placeholder { color: #999999; }
 textarea::-moz-placeholder { color: #999999; }
 textarea:-ms-input-placeholder { color: #999999; }
 
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -622,5 +635,4 @@ textarea.input1 + .shadow-input1 {
   .alert-validate::before {
     visibility: visible;
     opacity: 1;
-  }
 }
