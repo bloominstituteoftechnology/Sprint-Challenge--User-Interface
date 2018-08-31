@@ -188,7 +188,34 @@ p {
 .abouttextContainter1{
     padding: 20px 0px 30px 0px;
 }
+.blockContainers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
+}
+.infoBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    width: 375px;
+    padding: 30px 0px 20px 0px;
+}
+.infoBlock h2 {
+    padding-top: 10px;
+}
+.infoBlock button{
+    padding: 10px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 125px;
+
+}
 footer {
     width: 100%;
     background: black;
