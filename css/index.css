@@ -75,21 +75,25 @@ p {
 
 .container header {
     display: flex;
-    flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    width:100%;
-    margin-bottom: 5%
+    margin-bottom: 5%;
+    width: 100%;
 }
 
-.container header topNav {
+.container header .topNav {
     display: flex;
-    flex-wrap: wrap;
     text-decoration: none;
     justify-content: space-evenly;
     padding: 20px;
-    border: red solid 5px;
+    width: 75%;
+    color: black;
+}
+
+.container header .topNav a {
+    text-decoration: none;
+    color: black;
 }
 
 .container header .nav logo{
