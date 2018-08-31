@@ -71,6 +71,38 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start ;
+}
+
+.header .nav-bar{ 
+    width: 95%;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.header .nav-bar .nav-links{
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
+.header .nav-bar .nav-links:hover{
+  color: teal;
+}
+
+.header .nav-bar .nav-link-img{
+    text-decoration: none;
+}
+
+.header .header-jumbo-img{
+    margin: 40px 0 30px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +144,36 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+}
+.middle-content .boxes .box3{
+    background: cadetblue;
+}
+.middle-content .boxes .box4{
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}.middle-content .boxes .box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,8 +188,71 @@ p {
     padding-right: 0;
 }
 
+/******** ABOUT PAGE******/
+
+.content-about{
+    padding: 20px 30px;
+    display:flex;
+    flex-flow: column wrap;
+}
+
+.content-about h2{
+    font-size: 25px;
+}
+.content-about p{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.middle-content-about{
+    margin: 20px 0;
+    border-top-style: dotted;
+    border-top-width: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-info{
+    width: 370px;
+    margin: 30px 10px;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+.middle-content-info .middle-content-about-img{
+    align-self: flex-start;    
+}
+
+.middle-content-about .middle-content-info h2{
+    margin: 30px 0;  
+    font-size: 20px;
+}
+
+.middle-content-about .middle-content-info p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.middle-content-about .middle-content-info button{
+    margin: 40px 0;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.middle-content-about .middle-content-info button:hover{
+   background: teal;
+   color: white;
+}
+
+
 footer {
     width: 100%;
+    margin-top: 50px;
     background: black;
 }
 
@@ -143,4 +268,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: teal;
 }
