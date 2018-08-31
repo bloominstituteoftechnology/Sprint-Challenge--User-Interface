@@ -73,16 +73,16 @@ p {
 
 .container header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
     margin-bottom: 30px;
 }
 
 .container header nav {
     display: flex;
-    justify-content: space-around;
-    align-content: flex-end;
-    flex-grow: 1;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
 }
 
 .container header nav a {
