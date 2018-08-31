@@ -56,7 +56,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -210,3 +210,47 @@ header {
 }
 
 /* /////////////////////////// */
+
+.container.about-page .container.main {
+    width: 96%;
+}
+
+.container.about-page .about {
+    border-bottom: 1.5px dotted black;
+    padding-bottom: 20px;   
+    justify-content: center;
+}
+
+.about p, h1 {
+    margin: 10px 15px 0px 15px;
+}
+
+.container.about-page .learnmore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container.about-page .strategy, .how, .places, .collaboration {
+    width: 47%;
+    margin: 30px  0px;
+    border-bottom: 1.5px dotted black;
+}
+
+.container.about-page .learnmore button {
+    margin: 20px 0px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+.container.about-page .learnmore img {
+    margin-bottom: 10px;
+}
+
+.container.about-page .together{
+    padding: 20px 0px 35px 0px;
+}
