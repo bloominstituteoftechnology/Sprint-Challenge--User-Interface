@@ -201,3 +201,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page css */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page .about-section {
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+
+}
+
+.about-page .box-section {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding-top: 30px;
+}
+
+.about-page .box-section section {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    padding: 10px 20px;
+}
+
+.about-page .box-section section button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+
+.about-page .box-section section h3 {
+    margin-top: 15px;
+}
+
+.about-page .bottom-content-about {
+    padding: 40px 20px;
+}
