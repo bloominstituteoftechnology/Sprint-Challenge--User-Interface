@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+.navi {
+    display: flex; 
+    height: 30px; 
+}
+
+.navi nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navi img {
+    height: auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +126,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
