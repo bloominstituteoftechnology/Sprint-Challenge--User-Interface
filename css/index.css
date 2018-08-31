@@ -79,10 +79,8 @@ header {
     display: flex;
     margin-top: 20px;
     margin-bottom: 30px;
-    border: 1px solid blue;
 }
 header nav {
-    border: 1px solid black;
     display: flex;
     width: 100%;
     justify-content: space-around;
