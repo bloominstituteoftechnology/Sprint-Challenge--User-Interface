@@ -226,3 +226,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page .about-top-content {
+    margin: 10px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.container-about-page .about-bottom-content {
+    margin: 10px 0px 20px 0px;
+    padding: 20px 0px;
+    border-top: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+}
