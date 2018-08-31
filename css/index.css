@@ -101,16 +101,16 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .bottom-content {
     display: flex;
@@ -144,3 +144,274 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* navigation and header CSS */
+.container .header1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: baseline;
+}
+.container .nav1 {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .nav1 a {
+    text-decoration: none;
+    color: black;
+}
+.container .front-img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* Start of box coloring */
+.container .middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background-color: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background-color: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background-color: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background-color: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background-color: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background-color: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background-color: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background-color: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Start of about page */
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.container-about-page .about-banner1 {
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.container-about-page .header1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: baseline;
+}
+.container-about-page .nav1 {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-about-page .nav1 a {
+    text-decoration: none;
+    color: black;
+}
+.container-about-page .about-section {
+   margin-left: 10px;
+}
+/* Middle section start */
+.container-about-page .about-middle-section {
+    border-top: 1px dotted black;
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.container-about-page .about-middle-section .left-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.container-about-page .about-middle-section .right-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.container-about-page .about-middle-section .left-side .strategy {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+}
+/* animation */
+@keyframes color1 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+.container-about-page .about-middle-section .left-side .strategy button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+    animation-name: color1;
+    animation-duration: 30s;
+}    
+.container-about-page .about-middle-section .left-side .places-we-work {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+/* animation */
+@keyframes color2 {
+    0%   {background-color: rgb(0, 255, 64);}
+    25%  {background-color: rgb(0, 119, 255);}
+    50%  {background-color: rgba(225, 0, 255, 0.774);}
+    100% {background-color: rgba(0, 128, 0, 0.767);}
+}
+.container-about-page .about-middle-section .left-side .places-we-work button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+    animation-name: color2;
+    animation-duration: 30s;
+}  
+.container-about-page .about-middle-section .right-side .how-we-work {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+}
+/* animation */
+@keyframes color3 {
+    0%   {background-color: rgb(255, 0, 0);}
+    25%  {background-color: rgb(0, 4, 255);}
+    50%  {background-color: rgba(21, 255, 0, 0.774);}
+    100% {background-color: rgba(128, 0, 128, 0.438);}
+}
+.container-about-page .about-middle-section .right-side .how-we-work button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+    animation-name: color3;
+    animation-duration: 30s;
+}  
+.container-about-page .about-middle-section .right-side .collaboration {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+@keyframes color4 {
+    0%   {background-color: rgba(0, 255, 85, 0.705);}
+    25%  {background-color: rgb(255, 145, 0);}
+    50%  {background-color: rgba(17, 0, 255, 0.459);}
+    100% {background-color: rgba(0, 128, 122, 0.89);}
+}
+.container-about-page .about-middle-section .right-side .collaboration button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+    animation-name: color4;
+    animation-duration: 30s;
+}  
+/* footer css */
+.container-about-page .footer1 {
+    width: 780px;
+    margin-left: 10px;
+}
+.container-about-page .bottom1 {
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
