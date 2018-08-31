@@ -50,7 +50,7 @@ You will also notice there are 10 boxes on the home page that need background co
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 * [X] Copy and paste your home page navigation and header into the about page
 * [X] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [X] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
 ## Task 5: Push Updates and Pull Request
