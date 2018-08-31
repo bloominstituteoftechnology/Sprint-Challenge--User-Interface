@@ -257,6 +257,7 @@ body {
   text-decoration: none;
   opacity: 0.6;
   font-weight: 600;
+  padding: 0 20px;
 }
 .container nav a:hover {
   opacity: 1;
@@ -383,4 +384,63 @@ hr {
 /* footer spacing */
 footer {
   margin-top: 40px;
+}
+
+/* media queries */
+
+/* change container to 90% at 850px */
+@media (max-width: 850px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* change flex direction to flex column at 768px */
+
+@media (max-width: 768px) {
+  .container .nav-bar {
+    flex-wrap: wrap;
+  }
+  .container .nav-bar a {
+    padding: 20px;
+  }
+  .container .top-content {
+    flex-direction: column;
+    width: 100%;
+  }
+  .container .text-container {
+    width: 100%;
+  }
+  .container .middle-content .boxes {
+    flex-direction: column;
+  }
+  .container .boxes .box {
+    width: 100%;
+  }
+  .container .bottom-content {
+    flex-direction: column;
+  }
+  .container .bottom-content p {
+    margin-bottom: 20px;
+  }
+  footer nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer nav a {
+    padding: 10px;
+  }
+}
+
+/* about media queries */
+@media (max-width: 768px) {
+  .about-page .about-services {
+    flex-direction: column;
+  }
+  .about-page .about-services div {
+    width: 100%;
+  }
+  .about-page .about-services div img {
+    object-fit: cover;
+  }
 }
