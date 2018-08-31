@@ -297,3 +297,78 @@ footer nav a {
 .container-about-page .about-section {
    margin-left: 10px;
 }
+/* Middle section start */
+.container-about-page .about-middle-section {
+    border-top: 1px dotted black;
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.container-about-page .about-middle-section .left-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.container-about-page .about-middle-section .right-side {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.container-about-page .about-middle-section .left-side .strategy {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+}
+.container-about-page .about-middle-section .left-side .strategy button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+}    
+.container-about-page .about-middle-section .left-side .places-we-work {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.container-about-page .about-middle-section .left-side .places-we-work button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+}  
+.container-about-page .about-middle-section .right-side .how-we-work {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+}
+.container-about-page .about-middle-section .right-side .how-we-work button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+}  
+.container-about-page .about-middle-section .right-side .collaboration {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.container-about-page .about-middle-section .right-side .collaboration button {
+    border-radius: 10px;
+    background: white;
+    padding: 8px 20px;
+    border: 2px solid black;
+    align-self: flex-start;
+}  
+
