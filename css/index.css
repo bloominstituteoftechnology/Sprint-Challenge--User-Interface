@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height:1;
+    min-height;
 }
 ol, ul {
 	list-style: none;
@@ -54,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -68,6 +70,8 @@ p {
 
 
 /* Page starts here  */
+
+
 * {
     box-sizing: border-box;
 }
@@ -191,6 +195,8 @@ p {
     background: dodgerblue;
 }
 
+        /* Bottom Content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -206,8 +212,12 @@ p {
 }
 
 footer {
-    width: 100%;
+    bottom: 0;
+    height: 50px;
+    width: 53%;
+    overflow: hidden;
     background: black;
+    position: absolute;
 }
 
 footer nav {
@@ -222,4 +232,5 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
 }
