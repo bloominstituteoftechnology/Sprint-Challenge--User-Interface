@@ -263,3 +263,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*About Page Styles*/
+
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-page .about-main {
+    border-bottom: dotted black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    margin: 20px auto;
+}
+
+.about-page .about-main #about-par {
+    border-bottom: dotted black 1px;
+    padding-bottom: 20px;
+}
+
+.about-page .about-main .card {
+    padding: 20px;
+    width: 400px;
+    background: whitesmoke;
+    margin: 20px 0;
+}
+
+.about-page .about-main .card-button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.about-page .about-main .card-button:hover {
+    background: black;
+    color: white;
+}
+
+.about-page .lets-work {
+    margin: 20px auto;
+}
