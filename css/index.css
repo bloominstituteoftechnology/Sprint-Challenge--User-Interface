@@ -201,3 +201,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Css for about ---*/
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    line-height: 1.1;
+}
+.about-content .para-text {
+ /*border-bottom: 1px solid black;*/
+ padding-bottom: 40px;
+ margin-bottom: 2px
+}
+.about-content .card {
+    padding: 10px;    
+    width: 390px;
+    margin: 10px 0;
+}
+.about-content .card.about-content-img{
+    width : 380px;
+}
+.about-content .card button {
+    padding: 10px 30px;
+    margin-top: 1px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+   
+}
+
+.about-content .card button:hover {
+    background: black;
+    color: white;
+} 
+
+
+.line{
+    border : 0.4px solid black;
+}
