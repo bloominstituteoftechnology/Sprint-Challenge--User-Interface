@@ -117,8 +117,8 @@ p {
     border: 2px solid black;
     font-size: 16px;
     border-radius: 10px;
-    padding: 8px;
-    width: 120px;
+    padding: 8px 15px;
+    width: 130px;
     margin-top: 20px;
 }
 .middle-content {

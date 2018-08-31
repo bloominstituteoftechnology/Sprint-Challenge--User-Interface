@@ -51,7 +51,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [X] Copy and paste your home page navigation and header into the about page
 * [X] Update the header image with the about page image
 * [X] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Build the rest of the about page layout to match the design
 
 ## Task 5: Push Updates and Pull Request
 * [ ] Once you have completed tasks 1-4, push all your commits up to your master branch  
