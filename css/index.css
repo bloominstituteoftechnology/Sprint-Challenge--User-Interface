@@ -273,6 +273,9 @@ footer nav a {
     margin: 20px 20px 15px 0;
     padding: 10px 10px;
     border-radius: 8px;
+    background: white;
+    transition-property: background;
+    transition-duration: 1s;
 }
 
 .middle-section-boxes .learn-more-btn:hover {
