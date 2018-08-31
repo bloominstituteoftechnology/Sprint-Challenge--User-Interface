@@ -175,9 +175,13 @@ p {
 }
 
 .nav-links a,
-.nav-links a:hover {
+.nav-links a:visited {
   color: #000;
   text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: cadetblue;
 }
 
 .top-content {
@@ -300,11 +304,12 @@ footer nav a {
   margin-bottom: 30px;
 }
 
-.about-page .top-content .text-container {
+.about-page .top-content .text-container,
+.contact-page .top-content .text-container {
   width: 100%;
 }
 
-.about-page .about-main {
+.about-main {
   width: 97%;
   margin: 0 auto;
 }
@@ -334,7 +339,7 @@ footer nav a {
   margin-bottom: 20px;
 }
 
-.card .btn {
+.btn {
   border: 2px solid #000;
   padding: 10px 20px;
   border-radius: 10px;
@@ -344,4 +349,44 @@ footer nav a {
 
 .about-page .bottom-content {
   margin: -10px 1% 36px;
+}
+
+.home-main,
+.about-main {
+  animation: fadein 500ms ease-in forwards;
+}
+
+/* CONTACT */
+.contact-form {
+  width: 100%;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+}
+
+.text-input {
+  font-size: 14px;
+  padding: 15px 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+/* ANIMATIONS */
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
