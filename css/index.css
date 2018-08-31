@@ -84,7 +84,7 @@ header {
     align-items: flex-end;
     display: flex;
     justify-content: space-between;
-    padding: 0 40px 0 0;
+    padding: 0 70px 0 0;
     width: 100%;
 }
 
@@ -127,7 +127,6 @@ header {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -139,15 +138,41 @@ header {
     background: teal;
 }
 
-.box2
-.box3
-.box4
-.box5
-.box6
-.box7
-.box8
-.box9
-.box10
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
