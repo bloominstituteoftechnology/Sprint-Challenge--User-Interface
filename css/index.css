@@ -245,3 +245,28 @@ footer nav a {
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
+
+.about-content .box-content {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    width: 400px;
+    margin: 20px 0;
+}
+
+.about-content .box-content button {
+    padding: 10px 40px;
+	margin-top: 20px;
+	cursor: pointer;
+	background: white;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.about-content .box-content button:hover {
+    background: black;
+	color: white;
+}
+
+.about-content .lets-work {
+    margin: 40px 0;
+}
