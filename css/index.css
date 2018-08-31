@@ -221,7 +221,8 @@ footer nav a {
 
 .aboutPage .topContent .textContainer {
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    margin: 0 12px;
 }
 
 .aboutPage .middleContent {
@@ -256,7 +257,5 @@ footer nav a {
 }
 
 .aboutPage .bottomContent {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin: 0 20px 30px 20px;
 }
