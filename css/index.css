@@ -164,7 +164,7 @@ p {
 
 .index-page-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start space-around;
     height: 75px;
     align-items: flex-end;
     margin-bottom: 35px;
@@ -172,8 +172,9 @@ p {
 
 .index-page-header nav {
     display: flex;
-    width: 575px;
+    width: 600px;
     justify-content: space-around;
+    margin-right: 25px;
 }
 
 .index-page-header nav a {
@@ -357,4 +358,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main-section1{
+
+    
 }
