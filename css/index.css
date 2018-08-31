@@ -266,3 +266,15 @@ footer nav a {
         position: relative;
         top: -15px;
     }
+
+   
+.double-line{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tiny-line {
+    width: 372px;
+    border: 1px dashed black;
+} 
