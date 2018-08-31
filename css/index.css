@@ -71,6 +71,19 @@ p {
     margin: 0 auto;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    margin: 20px 10px;
+}
+
+.nav-logo nav a{
+    margin: 20px 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
