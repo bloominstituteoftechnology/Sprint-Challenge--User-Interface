@@ -26,8 +26,11 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+/*	display: block; */
 }
+
+
+
 body {
 	line-height: 1;
 }
@@ -71,6 +74,32 @@ p {
     margin: 0 auto;
 }
 
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 20px 0px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.nav-bar nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.top-content img {
+    margin: 20px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -95,21 +124,136 @@ p {
     margin-bottom: 0;
 }
 
+@keyframes flashing-boxes {
+    0% {
+        opacity : 1;
+    }
+    50% {
+        opacity : 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .middle-content .boxes {
+    animation-name: flashing-boxes;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* .middle-content .boxes {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +287,164 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About section */
+
+.top-picture {
+    margin: 40px 0px 20px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px 20px;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+    border-top: 2px dotted black;
+}
+
+.about-boxes .learn-more {
+    border: 1px solid black;
+    border-radius: 10%;
+    background: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.strategy-box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.strategy-box img {
+    margin-bottom: 20px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-one .strategy-box {
+    border-bottom: 2px dotted gray;
+    padding: 40px 0px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two .strategy-box {
+    border-bottom: 2px dotted black;
+    padding: 60px 0px 40px;
+}
+
+.work-together {
+    margin: 0px 20px 40px 20px;
+}
+
+/* Blog Code */
+
+.blog .top-picture {
+    overflow: hidden;
+    height: 200px;
+    width: 800px;
+
+}
+
+.blog .top-picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.blog .content {
+    display: flex;
+    order: 0;
+}
+
+.blog .post-photo {
+width: 100%;
+height: 100%
+}
+
+.blog .post-photo img {
+    max-width: 600px;
+    max-height: 600px;
+    height: auto;
+    width: auto;
+}
+
+.blog .side-bar {
+    display: flex;
+    order: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.blog .portrait {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blog .portrait img {
+    max-width: 280px;
+    max-height: 280px;
+    height: auto;
+    width: auto;
+}
+
+.blog .social-media {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blog .social-media h3 {
+    font-size: 20px;
+    align-content: center;
+}
+
+.blog .most-popular {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orange;
+    padding: 5px;
+    margin: 5px;
+}
+
+.blog .most-popular h3 {
+    font-size: 20px;
+}
+
+.blog .most-popular ul {
+    font-size:15px;
+}
+
+
+.blog .recent-post {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.blog .post-title {
+    font-size: 40px;
 }
