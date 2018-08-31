@@ -285,3 +285,28 @@ footer nav a {
     width: 94%;
     margin: 40px auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .middle-section-boxes {
+        width: 100%;
+        text-align: center;
+    }
+    .middle-section-boxes img {
+        width: 100%;
+    }
+    .middle-section-boxes .learn-more-btn {
+        margin: 15px auto;
+        /* margin-bottom: 30px; */
+    }
+    .container {
+        width: 100%;
+    }
+
+    .about-page  .about-top-content {
+        text-align: center;
+    }
+
+    .about-bottom-section{
+        text-align: center;
+    }
+}
