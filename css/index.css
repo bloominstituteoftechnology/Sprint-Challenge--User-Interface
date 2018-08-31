@@ -106,10 +106,15 @@ header .fixed-header-nav {
     /* border: 1px solid red; */
 }
 
-.jumbo {
+/* page header and image */
+.page-header {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.header-img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
 }
 
 /* Top content container for page */
@@ -189,6 +194,7 @@ footer nav a {
     text-decoration: none;
 }
 
+/* backgrounds for individual box items */
 .box1 {background: teal;}
 .box2 {background: gold;}
 .box3 {background: cadetblue;}
