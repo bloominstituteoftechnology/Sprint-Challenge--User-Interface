@@ -273,3 +273,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About section */
+
+.top-picture {
+    margin: 40px 0px 20px;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px 20px;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+    border-top: 2px dotted black;
+}
+
+.about-boxes .learn-more {
+    border: 1px solid black;
+    border-radius: 10%;
+    background: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.strategy-box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.strategy-box img {
+    margin-bottom: 20px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-one .strategy-box {
+    border-bottom: 2px dotted gray;
+    padding: 40px 0px;
+}
+
+.section-two {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two .strategy-box {
+    border-bottom: 2px dotted black;
+    padding: 60px 0px 40px;
+}
+
+.work-together {
+    margin: 0px 20px;
+}
