@@ -285,3 +285,53 @@ nav a:hover{
 .last-text{
     padding:20px;
 }
+.contacts{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    padding-bottom:10px;
+}
+.contact-card{
+    margin:10px 0px;
+}
+.contacts img{
+    margin-bottom:10px;
+    height:85%;
+    width:100%;
+}
+.last-text-contact{
+    width:100%;
+    margin:10px 0px;
+    text-align:center;
+}
+.my-form{
+    padding:20px;
+  }
+  .my-form  .form-group{
+    padding-bottom: 20px;
+  }
+  
+  .my-form label{
+    width:100%;
+  }
+  
+  .my-form input[type="text"]{
+    padding:8px;
+    width:100%;
+  }
+  .my-form textarea{
+    padding:8px;
+    width:100%;
+  }
+  .my-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    width: default;
+  }
+
+
+
+
