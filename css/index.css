@@ -276,3 +276,68 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* Started About.html Styling */
+
+
+.top-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content2 .text-container2 {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.row-sect {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-sect .first-sect {
+    margin: 10px 22px 50px 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.learn-more {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 8px 27px;
+    text-decoration: none;
+    background: white;
+}
+
+.first-sect p {
+    margin-bottom: 25px;
+}
+
+.col-section h2 {
+    margin-top: 10px;
+}
+
+
+.bttm-col-section {
+    margin: 0px 20px;;
+    display: flex;
+    flex-direction: column;
+}
+
+.bttm-col-section h2 {
+    margin-top: 10px;
+}
+
+.bttm-sect {
+    margin-bottom: 30px;
+}
+
+/* About.html style end */
