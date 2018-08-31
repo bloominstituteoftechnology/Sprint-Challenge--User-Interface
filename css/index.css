@@ -66,10 +66,50 @@ p {
     line-height: 1.4;
 }
 
+/* //// BEGINNING OF HOME PAGE //// */
+
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+
+/* //// NAV BAR SECTION //// */
+
+
+.main-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-right: 7%;
+    font-weight: bold;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* //// HEADER BANNER SECTION //// */
+
+
+.banner-img {
+    margin-bottom: 25px;
+    
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+/* //// TOP CONTENT SECTION //// */
+
 
 .top-content {
     display: flex;
@@ -101,16 +141,31 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 { background: teal;}
+.box2 { background: gold;}
+.box3 { background: cadetblue;}
+.box4 { background: coral;}
+.box5 { background: crimson;}
+.box6 { background: forestgreen;}
+.box7 { background: darkorchid;}
+.box8 { background: hotpink;}
+.box9 { background: indigo;}
+.box10 { background: dodgerblue;}
+
+
+/* //// BOTTOM CONTENT SECTION //// */
+
 
 .bottom-content {
     display: flex;
@@ -125,6 +180,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* //// FOOTER NAV SECTION //// */
+
 
 footer {
     width: 100%;
@@ -143,4 +202,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ///// BEGINNING OF ABOUT PAGE ///// */
+
+
+
+.about-page .cta {
+    padding: 0 25px 25px 25px;
+    font-weight: bold;
+    margin: 25px auto 5px auto;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-info-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+/* //// Information Blocks //// */
+
+.middle-info-content .info-box {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 26px 0px;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    padding: 0px;
+}
+
+.middle-info-content .info-box h2 {
+    margin-top: 10px;
+}
+
+
+.info-box button {
+	border: 2px solid black;
+	width: 30%;
+	background: white;
+	border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+
+}
+
+.info-box button:hover {
+	border: 1px solid black;
+
+	background: black;
+	color: white;
+	border-radius: 8px;
+}
+
+
+/* //// Let's Work Together Section //// */
+
+.about-page .cta2 {
+    padding: 0 25px 25px 25px;
+    font-weight: bold;
+    margin: 25px auto;
 }
