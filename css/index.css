@@ -211,7 +211,7 @@ p {
     padding-right: 0;
 }
 
-footer {
+.home-foot {
     bottom: 0;
     height: 50px;
     width: 53%;
@@ -220,7 +220,7 @@ footer {
     position: absolute;
 }
 
-footer nav {
+.home-foot nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -229,7 +229,7 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+.home-foot nav a {
     color: white;
     text-decoration: none;
 
@@ -243,7 +243,6 @@ footer nav a {
 }
 
 .about-page header {
-    border: 1px solid red;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -253,12 +252,10 @@ footer nav a {
 }
 
 .about-page header nav {
-    border: 1px solid red;
     display: flex; 
 }
 
 .about-page header nav a {
-    border: 1px solid red;
     margin-left: 80px;
     margin-right: 10px;
     text-decoration: none;
@@ -269,7 +266,21 @@ footer nav a {
 }
 
 .about-page header .about-logo {
-    border: 1px solid red;
     /* align-self: flex-start; */
 
+}
+
+.about-content {
+
+}
+
+.introduction {
+    margin: 20px;
+    padding: 0 5px 0 5px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+}
+
+.about-main-content {
+   
 }
