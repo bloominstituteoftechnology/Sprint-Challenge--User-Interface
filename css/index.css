@@ -69,6 +69,35 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container header {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width:98%;
+    border: green solid 1px;
+}
+
+.container nav {
+    display: flex;
+    flex-wrap: wrap;
+    text-emphasis: none;
+    justify-content: flex-end;
+    padding: 20px;
+    border: blue solid 1px;
+}
+
+.conatiner header .nav logo{
+    align-self: flex-start;
+}
+
+.conatiner bigImage {
+    display: block;
 }
 
 .top-content {
