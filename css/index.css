@@ -216,8 +216,13 @@ body > header > nav {
     margin-top: 15px;
     border: 2px solid black;
     border-radius: 5px;
+    padding: 5px 12px;
     color: black;
     text-decoration: none;
+}
+
+.about-page .middle-content .button:hover {
+    text-decoration: underline;
 }
 
 footer {
