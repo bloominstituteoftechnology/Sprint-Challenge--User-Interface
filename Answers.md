@@ -24,4 +24,22 @@
     <nav></nav>
     ```
 
-    In each case, how certain are you of what comes between the tags?  Turns out, they are both navigation bars, and without any other information about the `div` tag you will just have to trust me.  In fact, the `div` really could have any meaning and that depends on you as the developer; however when it comes to the `nav`you are a bit more certain that a navigation structure will follow because of the meaning that tag carries or conveys.  When meaning about the structure or content of what is in between the tags is explicit and conveys meaning about the information of that content, then it is referred to as a semantic HTML tag.  If there is no explicit meaning content wise it is not a semantic element and you will then see it used in a presentational manner.
+    In each case, how certain are you of what comes between the tags?  Turns out, they are both navigation bars, and without any other information about the ```div``` tag you will just have to trust me.  In fact, the ```div``` really could have any meaning and that depends on you as the developer; however when it comes to the ```nav```you are a bit more certain that a navigation structure will follow because of the meaning that tag carries or conveys.  When meaning about the structure or content of what is in between the tags is explicit and conveys meaning about the information of that content, then it is referred to as a semantic HTML tag.  If there is no explicit meaning content wise it is not a semantic element and you will then see it used in a presentational manner.
+
+2. Block vs. Inline
+
+    Block:
+    * Take up as much horizontal space as they can and fill the parent container when width is not set.
+    * Always start on a new line.
+    * If no height is set, will expand to fit its child elements if the children are not floated or positioned.
+    * Are placed below previous elements by default.
+    * Not influenced by the ```vertical-align``` property.
+        Some examples of block elements: ```<p></p>```, ```<div></div>```, ```<form></form>```, ```<ul></ul>```, ```<li></li>```, and ```<h1></h1>``` - ```<h6></h6>```
+
+    Inline elements:
+    * flow along with text content and will not drop to the next line like block elements.
+    * are influenced by left and right margins and padding but ignore top and bottom margin settings.
+    * ignore width and height properties.
+    * take on block element properties if floated left or right.
+    * can be influenced by the ```vertical-align``` property.
+        Some examples of inline elements: ```<a></a>```, ```<span></span>```, ```<i></i>```, and ```<em></em>```
