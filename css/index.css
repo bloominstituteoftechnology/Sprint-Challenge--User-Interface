@@ -56,6 +56,11 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+  /* over flow so that header doesn't jump when contact page loads*/
+  overflow-y: scroll;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -67,8 +72,40 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav button {
+  border: transparent;
+  background: transparent;
+  transition: all .1s ease-out;
+}
+
+header nav button:hover {
+  transform: scale(1.5) rotateZ(5deg);
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.top-image {
+  margin: 20px 0;
 }
 
 .top-content {
@@ -77,12 +114,6 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
 }
 
 .middle-content {
@@ -143,4 +174,147 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* index page specific */
+
+.index-page .top-content .text-container {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;  
+}
+
+.index-page .boxes .box1 {
+  background-color: teal;
+}
+
+.index-page .boxes .box2 {
+  background-color: gold;
+}
+
+.index-page .boxes .box3 {
+  background-color: cadetblue;
+}
+
+.index-page .boxes .box4 {
+  background-color: coral;
+}
+
+.index-page .boxes .box5 {
+  background-color: crimson;
+}
+
+.index-page .boxes .box6 {
+  background-color: forestgreen;
+}
+
+.index-page .boxes .box7 {
+  background-color: darkorchid;
+}
+
+.index-page .boxes .box8 {
+  background-color: hotpink;
+}
+
+.index-page .boxes .box9 {
+  background-color: indigo;
+}
+
+.index-page .boxes .box10 {
+  background-color: dodgerblue;
+}
+
+/* about page specific */
+
+.about-page .top-content .text-container {
+  padding: 0 1%;
+  padding-bottom: 20px;  
+}
+
+.about-page .content-boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-page .content-box {
+  width: 350px;
+  margin: 25px;
+  border-bottom: 1px dashed black;
+}
+
+.about-page .content-box h2 {
+  margin-top: 15px;
+}
+
+.about-page .content-box button {
+  margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 7px 20px;
+}
+
+/* contact page */
+
+.container.contact-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.contact-page .content {
+  padding: 20px 0;
+}
+
+.contact-page .form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-page form label {
+  padding-top: 20px;
+}
+
+.contact-page form textarea {
+  height: 200px;
+}
+
+/* media queries */
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+  }
+
+  .flex-image {
+    width: 100%;
+  }
+
+  .index-page .top-content, .index-page .bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .index-page .top-content .text-container {
+    width: 100%;
+  }
+
+  .index-page .bottom-content .text-container {
+    margin-top: 20px;
+  }
 }
