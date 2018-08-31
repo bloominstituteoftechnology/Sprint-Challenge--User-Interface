@@ -12,6 +12,15 @@
     }
 }
 
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -147,6 +156,7 @@ body > header > nav > a {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-animation: rotation 2s infinite linear;
 }
 
 .homepage .middle-content .boxes .box:first-child {
