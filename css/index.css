@@ -310,6 +310,11 @@ nav a {
   margin: 0;
 }
 
+.about-page .middle-content {
+  border: none;
+  margin-bottom: 0px;
+}
+
 .about-page .middle-content .categories button {
   background: white;
   border: 2px solid black;
@@ -323,4 +328,7 @@ nav a {
 }
 
 .about-page .bottom-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
 }
