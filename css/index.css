@@ -275,6 +275,11 @@ footer nav a {
     border-radius: 8px;
 }
 
+.middle-section-boxes .learn-more-btn:hover {
+    color: white;
+    background: black;
+}
+
 /*
 ======================================================================
     ABOUT BOTTOM SECTION
@@ -308,5 +313,18 @@ footer nav a {
 
     .about-bottom-section{
         text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    footer nav {
+        width: 100%;
     }
 }
