@@ -144,3 +144,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Didn't add specificity here since nav and header dimensions were the same"*/
+.navigation{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.navigation nav {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.navigation nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin: 15px 0px;
+}
+ 
+/* /////////////////////////////// */
+
+#box1 {
+    background: teal;
+}
+
+#box2{
+    background: gold;   
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;   
+}
+
+#box6{
+    background: forestgreen;   
+}
+
+#box7{
+    background: darkorchid;   
+}
+
+#box8{
+    background: hotpink;    
+}
+
+#box9{
+    background: indigo;  
+}
+
+#box10{
+    background: dodgerblue;   
+}
+
+/* /////////////////////////// */
