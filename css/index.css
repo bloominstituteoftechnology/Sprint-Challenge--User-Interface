@@ -103,6 +103,10 @@ body > header > nav > a {
     text-decoration: none;
 }
 
+body > header > nav > a:hover {
+    text-shadow: 1px 1px 4px darkorchid;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
