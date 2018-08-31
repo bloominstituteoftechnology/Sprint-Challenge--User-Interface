@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+/* RDesai added the following CSS for the header section */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+header nav { 
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header .header-img {
+    margin: 40px 0;
+}
+
+/* end header CSS */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +139,58 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* RDesai added the following CSS to color the boxes */
+
+.middle-content .boxes .box1 { 
+    background: teal;
+}
+ 
+.middle-content .boxes .box2 { 
+    background: gold;
+}
+
+.middle-content .boxes .box3 { 
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 { 
+    background: coral;
+}
+
+.middle-content .boxes .box5 { 
+    background: crimson;
+}
+ 
+.middle-content .boxes .box6 { 
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 { 
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 { 
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 { 
+    background: indigo;
+}
+
+.middle-content .boxes .box10 { 
+    background: dodgerblue;
+}
+
+/* end box color CSS */
+
 
 .bottom-content {
     display: flex;
