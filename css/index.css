@@ -73,15 +73,27 @@ p {
 
 .nav-logo {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .nav-logo img {
     margin: 20px 10px;
 }
 
-.nav-logo nav a{
+.nav-logo nav a {
     margin: 20px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.home header {
+    display: flex;
+    flex-direction: column;
+}
+
+.home .header-img {
+    width: 100%;
+    margin-top: 20px;
 }
 
 .top-content {
