@@ -72,12 +72,22 @@ p {
 }
 
 
+
 .top-nav-logo {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-end;
 	justify-content: space-between;
 	height: 250px;
+	margin: 20px;
+}
+
+.contact-page .top-nav-logo {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 75px; 
 	margin: 20px;
 }
 
@@ -274,7 +284,7 @@ p {
 	border:1px solid grey;
 	background-color: lightgray;
 	padding: 5px 30px;
-	margin-left: 15px; 
+	margin-left: 15px;
 }
 
 .contact-page textarea {
