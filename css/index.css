@@ -244,3 +244,74 @@ footer nav a {
     display: block;
     margin: 35px 25px;
 }
+
+/* contact page */
+.contact-page .top-content {
+    background-image: url('https://placeimg.com/900/400/people');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border: none;
+}
+
+.contact-page .top-content h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact-page .top-content p {
+    font-size: 25px;
+}
+
+.contact-page h2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.contact-page .form {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.contact-page .form .form-text {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.contact-page .form .form-text li {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.contact-page .form .form-text span {
+    color: #0a6aff;
+}
+
+.contact-page .form input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.contact-page .form .submit {
+    display: block;
+    margin: 10px auto 0 ;
+    width: 200px;
+    height: 40px;
+    background: #0a6aff;
+    color: white;
+}
+
+.contact-page .form select {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+}
