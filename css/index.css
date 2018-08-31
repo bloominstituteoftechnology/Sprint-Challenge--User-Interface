@@ -352,3 +352,10 @@ footer nav a {
 .work-together {
     margin: 0px 20px 40px 20px;
 }
+
+/* Blog Code */
+
+.blog .top-picture img {
+    width: 800px;
+    height: auto;
+}
