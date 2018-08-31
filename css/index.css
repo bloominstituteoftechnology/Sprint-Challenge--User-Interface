@@ -104,7 +104,7 @@ body > header > nav > a {
 }
 
 body > header > nav > a:hover {
-    text-shadow: 1px 1px 4px darkorchid;
+    text-shadow: 1px 1px 8px darkorchid;
 }
 
 .container {
