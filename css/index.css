@@ -79,24 +79,24 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    width:98%;
+    width:100%;
     border: green solid 1px;
 }
 
-.container nav {
+.container header topNav {
     display: flex;
     flex-wrap: wrap;
-    text-emphasis: none;
+    text-decoration: none;
     justify-content: flex-end;
     padding: 20px;
-    border: blue solid 1px;
+    border: red solid 5px;
 }
 
-.conatiner header .nav logo{
+.container header .nav logo{
     align-self: flex-start;
 }
 
-.conatiner bigImage {
+.container bigImage {
     display: block;
 }
 
@@ -265,4 +265,136 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.containerAboutPage {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+}
+ .containerAboutPage .bigAboutImage {
+    justify-content:center;
+    margin: 20px;
+}
+
+
+.containerAboutPage .stratHowWeWorkRow{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: dotted black 1px;
+    
+    
+    
+}
+.containerAboutPage .stratHowWeWorkRow .strat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 4%;
+    width: 40%;
+    border-bottom: dotted lightgrey 1px;
+
+}
+
+.containerAboutPage .stratHowWeWorkRow .strat h2 {
+    margin-top: 10px;
+}
+
+.containerAboutPage .stratHowWeWorkRow .strat .learnMore {
+    border: black solid 1px;
+    border-radius: 10%;
+    background-color: lightgrey;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+.containerAboutPage .stratHowWeWorkRow .howWeWork {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 4%;;
+    width: 40%;
+    border-bottom: dotted lightgrey 1px;
+
+}
+
+.containerAboutPage .stratHowWeWorkRow .howWeWork h2 {
+    margin-top: 10px;
+}
+
+.containerAboutPage .stratHowWeWorkRow .howWeWork .learnMore {
+    border: black solid 1px;
+    border-radius: 10%;
+    background-color: lightgrey;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+
+.containerAboutPage .PlaceWeWorkCollabRow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7%;
+    
+}
+.containerAboutPage .PlaceWeWorkCollabRow .placeWeWork {
+    border-bottom: dotted black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 4%;;
+    width: 40%;
+
+}
+
+.containerAboutPage .PlaceWeWorkCollabRow .placeWeWork h2 {
+    margin-top: 10px;
+}
+
+.containerAboutPage .PlaceWeWorkCollabRow .placeWeWork .learnMore {
+    border: black solid 1px;
+    border-radius: 10%;
+    background-color: lightgrey;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+.containerAboutPage .PlaceWeWorkCollabRow .collab {
+    border-bottom: dotted black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 4%;;
+    width: 40%;
+
+}
+
+.containerAboutPage .PlaceWeWorkCollabRow .collab h2 {
+    margin-top: 10px;
+}
+
+.containerAboutPage .PlaceWeWorkCollabRow .collab .learnMore {
+    border: black solid 1px;
+    border-radius: 10%;
+    background-color: lightgrey;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+.containerAboutPage .workTogether {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 7%;
+}
+
+.containerAboutPage .workTogether h2{
+    align-items: flex-start;
+}
+
+.containerAboutPage .footer .bottomNav {
+    margin-top: 7%;
 }
