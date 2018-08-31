@@ -365,7 +365,29 @@ footer nav a {
     margin: 0 auto;
 }
 
-.main-section1{
+.about-section {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
 
-    
+.main-section1 {
+    display: flex;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.main-section2 {
+    display: flex;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+button {
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border: 1.4px solid black;
+    border-radius: 5px
 }
