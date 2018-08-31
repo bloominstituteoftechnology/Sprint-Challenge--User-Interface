@@ -71,6 +71,20 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+
+header nav a {
+    margin-right: 70px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,10 +93,54 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .top-image {
+    margin: 20px 0;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .middle-content {
@@ -101,10 +159,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +200,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE CSS ONLY */
+/* ABOUT PAGE CSS ONLY */
+/* ABOUT PAGE CSS ONLY */
+/* ABOUT PAGE CSS ONLY */
+/* ABOUT PAGE CSS ONLY */
+
+.aboutPage .topContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutPage .topContent .topImage {
+    margin: 20px 0;
+}
+
+.aboutPage .topContent .textContainer {
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    margin: 0 12px;
+}
+
+.aboutPage .middleContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 970px;
+}
+
+.aboutPage .middleContent div {
+    width: 45%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutPage .middleContent h2 {
+    margin-top: 10px;
+}
+
+.aboutPage .middleContent button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding:  10px 20px;
+}
+
+.aboutPage .middleContent button:hover {
+    background: black;
+    color: white;
+}
+
+.aboutPage .bottomContent {
+    margin: 0 20px 30px 20px;
 }
