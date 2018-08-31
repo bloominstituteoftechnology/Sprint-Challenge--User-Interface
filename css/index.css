@@ -80,9 +80,19 @@ p {
 
 .main-nav {
     display: flex;
+    align-items: flex-end;
     justify-content: space-between;
-    align-items: center;
     margin-bottom: 30px;
+    padding-right: 7%;
+    font-weight: bold;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
 }
 
 
@@ -194,18 +204,20 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover {
+    text-decoration: underline;
+}
+
 
 /* ///// BEGINNING OF ABOUT PAGE ///// */
 
 
-.about-page {
-    border: 1px solid black;
-}
 
-.about-page .about-summary {
-    border-bottom: 1px dashed black;
+.about-page .cta {
     padding: 0 25px 25px 25px;
     font-weight: bold;
+    margin: 25px auto 5px auto;
+    border-bottom: 1px dashed black;
 }
 
 .about-page .middle-info-content {
@@ -215,13 +227,16 @@ footer nav a {
     
 }
 
+/* //// Information Blocks //// */
+
 .middle-info-content .info-box {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    padding: 3%;
+    width: 46%;
+    margin: 26px 0px;
     font-weight: bold;
     border-bottom: 1px dashed black;
+    padding: 0px;
 }
 
 .middle-info-content .info-box h2 {
@@ -235,6 +250,7 @@ footer nav a {
 	background: white;
 	border-radius: 8px;
     margin-top: 15px;
+    margin-bottom: 15px;
     padding: 5px 10px;
     font-weight: bold;
 
@@ -245,5 +261,14 @@ footer nav a {
 
 	background: black;
 	color: white;
-	border-radius: 5%;
+	border-radius: 8px;
+}
+
+
+/* //// Let's Work Together Section //// */
+
+.about-page .cta2 {
+    padding: 0 25px 25px 25px;
+    font-weight: bold;
+    margin: 25px auto;
 }
