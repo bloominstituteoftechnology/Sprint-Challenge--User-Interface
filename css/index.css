@@ -66,6 +66,31 @@ p {
     line-height: 1.4;
 }
 
+.navagation {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    width: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.navBar a {
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    color: black;
+    padding: 40px;
+   
+}
+
+.headerImg {
+    width: 0 auto;
+    padding: 20px 0px 30px 0px;
+}
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
