@@ -166,7 +166,22 @@ footer nav a {
 }
 
 .nav-bar a:hover {
-  background: #ccc;
+  background: #ddd;
+  font-size: 20px;
+  animation-name: nav-hover;
+  animation-duration: .5s;
+}
+
+@keyframes nav-hover {
+  0% {
+    background: #fff;
+    font-size: inherit;
+  }
+
+  100% {
+    background: #ddd;
+    font-size: 20px;
+  }
 }
 
 header .banner {
