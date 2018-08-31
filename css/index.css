@@ -278,3 +278,17 @@ footer nav a {
     width: 372px;
     border: 1px dashed black;
 } 
+
+#work-together{
+    width: 800px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+#work-together-container{
+    width: 764px;
+    height: auto;
+}
