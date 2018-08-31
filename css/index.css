@@ -145,9 +145,20 @@ footer nav a {
     text-decoration: none;
 }
 .about-page {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 .middle-top {
-    border-top: 1px dotted black;
+    border-top: 2px dotted black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+}
+.middle-bottom {
+    display: flex;
+}
+.quick-info {
+    border-bottom: 2px dotted black;
 }
