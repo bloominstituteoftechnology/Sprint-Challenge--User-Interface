@@ -172,3 +172,27 @@ footer nav a {
     height: 160px;
     margin-bottom: 20px;
 }
+
+.about-section {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: dotted black 2px;
+}
+ .card {
+     display: flex;
+     width: 50%;
+     font-weight: bold;
+     border-bottom: dotted black 2px;
+     padding-bottom: 20px;
+     margin-bottom: 50px;
+ }
+
+ .card button {
+     background: white;
+     border-radius: 10px;
+     border-color: black;
+     height: 40px;
+     width: 130px;
+     margin-top: 20px;
+ }
