@@ -7,7 +7,7 @@ Corey Gumbs FSW14 Lambda School August 31, 2018
 
 ---
 
-####Answer 
+
 I would describe semantic HTML to the next cohort of students as a way to use html elements for what they are rather than use them for presentation in the browser. It is the difference between using something that was built for a specific use compared to using that same thing with "poetic license". 
 
 A good example would be using a tire on a car vs. using a tire as a flower pot in a yard.  They both serve a use both practically as well as presentationally (think white walls on a 70's caddy) but when on a car, the tires are serving their intended use. 
@@ -20,7 +20,6 @@ Semantic HTML is important for communication. It gives readers the ability to de
 
 ---
 
-####Answer
 
 ```display: block```:  most html elements by default are block. This means they "stack" on top of each other or shown as "rows". display: block is a property that insures that a particular element (that may not necessarily be a "block" element by default) adheres to this rule.
 
@@ -31,15 +30,15 @@ Semantic HTML is important for communication. It gives readers the ability to de
 3. What are the 4 areas of the box model?
 
 ---
-####Answer
 
-4 areas of box model are margin, border, padding, content.
+
+Four areas of box model are margin, border, padding, content.
 
 --- 
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 ---
-####Answer
+
 
 you are using the cross-axis when using the property ```align-items```
 
@@ -48,7 +47,7 @@ you are using the cross-axis when using the property ```align-items```
 5. What is the git command to commit staged changes as well as write a message? 
 
 --- 
-####Answer
+
 
 git add --all or filename(s)
 git commit -m "commit message goes here"
