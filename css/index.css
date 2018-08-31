@@ -175,9 +175,6 @@ header nav a{
 header .logo {
 }
 
-/* ======================
-header
-====================== */
 
 /* ======================
 body
@@ -231,4 +228,54 @@ boxes
 
 #box10 {
     background-color: dodgerblue;
+}
+
+/* ======================
+About page
+====================== */
+
+.about-intro {
+    border-bottom: 1px dashed black;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 30px;
+}
+
+
+.about-corp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.about-types {
+    border-bottom: 1px dashed black; 
+    margin: 20px;
+    width: 358px    
+}
+
+.about-types img {
+    width: 100%;
+}
+
+.about-types button {
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.about-types button:hover {
+    background: black;
+    color: white;
+}
+
+/* ======================
+About page Lets work together
+====================== */
+
+.services-together {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 30px;
 }
