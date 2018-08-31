@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -71,12 +72,36 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    height: 70px;
+    align-items: flex-end;
+}
+
+.header button {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding-left: 75px;
+    color: black;
+
+}
+.header button a {
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 0px;
     border-bottom: 1px dashed black;
+}
+
+.top-content .top-img {
+    margin-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -101,6 +126,48 @@ p {
     justify-content: space-evenly;
 }
 
+@keyframes box1 {
+    from {background-color: black;}
+    to {background-color: teal}
+}
+@keyframes box2 {
+    from {background-color: black;}
+    to {background-color: gold}
+}
+@keyframes box3 {
+    from {background-color: black;}
+    to {background-color: cadetblue}
+}
+@keyframes box4 {
+    from {background-color: black;}
+    to {background-color: coral}
+}
+@keyframes box5 {
+    from {background-color: black;}
+    to {background-color: crimson}
+}
+@keyframes box6 {
+    from {background-color: black;}
+    to {background-color: forestgreen}
+}
+@keyframes box7 {
+    from {background-color: black;}
+    to {background-color: darkorchid}
+}
+@keyframes box8 {
+    from {background-color: black;}
+    to {background-color: hotpink}
+}
+@keyframes box9 {
+    from {background-color: black;}
+    to {background-color: indigo}
+}
+@keyframes box10 {
+    from {background-color: black;}
+    to {background-color: dodgerblue}
+}
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,6 +177,56 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box1 {
+    background-color: teal;
+    animation-name: box1;
+    animation-duration: 1s;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+    animation-name: box2;
+    animation-duration: 1.5s;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+    animation-name: box3;
+    animation-duration: 1.5s;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+    animation-name: box4;
+    animation-duration: 2s;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+    animation-name: box5;
+    animation-duration: 2.5s;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+    animation-name: box6;
+    animation-duration: 3s;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+    animation-name: box7;
+    animation-duration: 3.5s;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+    animation-name: box8;
+    animation-duration: 4s;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+    animation-name: box9;
+    animation-duration: 4.5s;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+    animation-name: box10;
+    animation-duration: 5s;
 }
 
 .bottom-content {
@@ -137,10 +254,52 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 14px
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*ABOUT PAGE STYLES YO*/
+
+.about-page {
+    padding:15px;
+}
+
+.about-page .about-top {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted lightgray;
+}
+
+
+.about-page .about-boxes {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 47%;
+    height: 450px;
+    align-content: space-evenly;
+    border-bottom: 2px dotted lightgray;
+}
+
+.about-page .box button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15%;
+    padding: 5px 10px;
+}
+
+.about-page .about-closer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    align-content: space-evenly;
 }
