@@ -51,3 +51,5 @@
     * Margin
 
 4. You are working on the cross-axis when you are using the ```align-items``` property with flexbox.  With flexboxes that have ```flex-direction``` of the default row this would be the axis that is vertically positioned.  However if the ```flex-direction``` is set to column now this cross-axis is the horizontal with respect to the flexbox.
+
+5. `$ git commit -m "Your message here"` is the command that will commit stage changes and include the commit message without opening the default text editor.
