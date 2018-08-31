@@ -91,16 +91,27 @@ header nav{
 header nav a{
     text-decoration: none;
     color:black;
-}
+ 
 
+}
+@keyframes example {
+   
+    50% {background-color: yellow;
+        text-decoration: underline;
+        color: red;
+    font-size: 2em;}
+  
+
+}
 header nav a:hover {
-    text-decoration: underline;
-    color: red;
-    background-color: dimgray;
+    animation: example 5s ;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
 }
 
 .title-img{
     padding : 20px 0;
+    animation: example 10 sec linear infinite;
 }
 
 
