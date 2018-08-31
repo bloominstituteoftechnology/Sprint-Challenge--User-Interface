@@ -260,3 +260,63 @@ footer nav a {
     margin: 10px;
     padding-bottom: 30px;
 }
+
+/* Contact Page */
+
+.contact-top {
+    margin: 40px 0;
+}
+
+.sheep {
+    width: 800px;
+    height: auto;
+    border: 3px solid #f6f6f6;
+}
+
+.contact-top h1 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 50px;
+    width: 650px;
+    height: 600px;
+    border: 4px double black;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+.contact-form input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.submit {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background: #f3f3f3;
+}
+
+.btm-sheep {
+    width: 800px;
+    height: auto;
+    margin-bottom: 50px;
+    border: 3px solid #f6f6f6;
+}
