@@ -257,3 +257,12 @@ footer nav a {
     position: relative;
     top: 20px;
 }
+
+.info-section {
+    width: 372px;
+    }
+    
+    .section-image{
+        position: relative;
+        top: -15px;
+    }
