@@ -72,16 +72,16 @@ p {
 }
 
 
-/* .lambda-logo {
-	width: 70px;
-} */
+.lambda-logo {
+	width: 150px;
+}
 
 .top-nav-logo {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-end;
 	justify-content: space-around;
-	height: 250px;
+	height: 150px;
 	margin: 10px;
 }
 
@@ -94,6 +94,11 @@ p {
 .top-nav-bar a {
 	text-decoration: none;
   color: black;
+}
+
+header img {
+	display: block;
+	width: 100%;
 }
 
 .top-img {
@@ -109,10 +114,12 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .top-content .text-container {
     width: 90%;
     padding: 0 1%;
     padding-bottom: 20px;
+		text-align: center;
 }
 
 .middle-content {
@@ -123,6 +130,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+		text-align: center;
 }
 
 .middle-content .boxes {
@@ -185,13 +193,14 @@ p {
 .bottom-content {
     display: flex;
 		flex-direction: column;
-		height: 400px;
+		height: 350px;
     /* margin: 0 2% 20px; */
     justify-content: space-around;
+		text-align: center;
 }
 
 .bottom-content .text-container {
-		width: 90%;
+		width: 100%;
   	padding-right: 4%;
 }
 
