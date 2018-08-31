@@ -162,6 +162,16 @@ header nav {
 header nav a {
     color: black;
     text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+header nav a:hover {
+    
+}
+
+.logo {
+    margin-right: 10px;
 }
 
 .header-img {
@@ -258,4 +268,71 @@ header nav a {
 
 .about-bottom-content {
     margin: 40px 0;
+}
+
+/* MEDIA QUERIES */
+/* MOBILE */
+@media (max-width: 480px) {
+    .container {
+        width: 93%;
+    }
+
+    header nav {
+        flex-flow: column nowrap;
+        align-items: center;
+        height: 180px;
+    }
+
+    header nav a {
+        margin: 5px;
+        padding: 3px;
+        width: 100%;
+    }
+
+    .logo {
+        padding-top: 10px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header-img img {
+        width: 100%;
+    }
+
+    .container .top-content,
+    .container .bottom-content {
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        /* width: 100%; */
+    }
+
+    .container .top-content .text-container,
+    .container .bottom-content .text-container {
+        width: 100%;
+    }
+
+    .container .bottom-content .text-container {
+        margin-top: 20px;
+    }
+
+    .about-middle-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .about-middle-content .about-box {
+        width: 90%;
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        flex-flow: row wrap;
+
+    }
+
+    .middle-content .boxes .box {
+        width: 33.3333%;
+    }
 }
