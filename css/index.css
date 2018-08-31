@@ -81,6 +81,7 @@ p {
     align-items: baseline;
     width:100%;
     border: green solid 1px;
+    margin-bottom: 5%
 }
 
 .container header topNav {
@@ -98,6 +99,7 @@ p {
 
 .container bigImage {
     display: block;
+    margin-top: 5%;
 }
 
 .top-content {
