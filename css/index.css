@@ -371,4 +371,13 @@ footer nav a {
     border: 2px solid black;
     align-self: flex-start;
 }  
+/* footer css */
+.container-about-page .footer1 {
+    width: 780px;
+    margin-left: 10px;
+}
+.container-about-page .bottom1 {
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
 
