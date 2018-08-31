@@ -212,3 +212,15 @@ header .banner {
 .box10 {
   background: dodgerblue;
 }
+
+
+/**************/
+/* About Page */
+/**************/
+
+.about-page .top-content .text-container {
+  width: 100%;
+  padding: 20px 1%;
+  padding-bottom: 20px;  
+}
+
