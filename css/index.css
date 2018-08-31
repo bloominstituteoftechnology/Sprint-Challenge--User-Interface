@@ -94,7 +94,11 @@ header nav a:hover {
     text-decoration: underline;
     color: black;
 }
-
+header img {
+width: 157px;
+height: 40px;
+align-self: flex-end;
+}
 .top-img {
 margin-bottom: 20px;
 }
@@ -273,3 +277,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.jum
