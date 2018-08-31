@@ -3,6 +3,15 @@
    License: none (public domain)
 */
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -80,9 +89,17 @@ body > header > nav {
     justify-content: space-around;
 }
 
+body > header > nav > a {
+    color: black;
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .head-image {
