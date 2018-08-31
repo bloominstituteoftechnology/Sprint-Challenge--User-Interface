@@ -65,12 +65,28 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* End of Reset */
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+.top-nav{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:2em;
+}
+.top-nav nav a{
+    margin-right:3.5em;
+    color:black;
+    text-decoration: none;
+}
+.top-nav nav a:hover{
+    color:grey;
+    text-decoration: underline;
+    transition:0.5s;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,7 +94,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.header-img{
+    margin-bottom:2em;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -101,7 +119,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +128,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* Probably should have used more in depth classes but I'm keeping it for now */
+.middle-content .boxes .box:first-child{
+    background:teal;
+}
+.middle-content .boxes .box:nth-last-child(9){
+    background:gold;
+}
+.middle-content .boxes .box:nth-last-child(8){
+    background:cadetblue;
+}
+.middle-content .boxes .box:nth-last-child(7){
+    background:coral;
+}
+.middle-content .boxes .box:nth-last-child(6){
+    background:crimson;
+}
+.middle-content .boxes .box:nth-last-child(5){
+    background:forestgreen;
+}
+.middle-content .boxes .box:nth-last-child(4){
+    background:darkorchid;
+}
+.middle-content .boxes .box:nth-last-child(3){
+    background:hotpink;
+}
+.middle-content .boxes .box:nth-last-child(2){
+    background:indigo;
+}
+.middle-content .boxes .box:nth-last-child(1){
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +193,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* 
+
+About Section CSS Only
+
+*/
+.container .about-page .about-section{
+    border-bottom:1px dashed black;
+    padding-bottom:2em;
+}
+.container .about-page .card-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.container .about-page .card-container .card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:48%;
+    height:450px;
+    padding-bottom:40px;
+    padding-top:40px;
+    border-bottom:1px dashed black;
+}
+
+.container .about-page .card-container .card .learn-more-btn{
+    display:flex;
+    color:black;
+    text-decoration: none;
+    border:3px solid black;
+    height:50px;
+    width:150px;
+    border-radius:7px;
+    align-items:center;
+    justify-content: center;
+}
+.container .about-page .card-container .card .learn-more-btn:hover{
+    color:white;
+    background-color:black;
+    transition:1.0s;
+}
+.container .about-page .lets-work-together{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+/* 
+
+Contact Us CSS Only
+
+*/
+.container.contact .contact-us{
+    display:flex;
+    flex-direction: column;
+}
+.container.contact .contact-us .contact-us-header{
+    text-align:center;
+}
+.container.contact .contact-us .contact-us-header h1{
+    font-size:3em;
+}
+.container.contact .contact-us .contact-form{
+    display:flex;
+    justify-content: center;
+}
+/**/
