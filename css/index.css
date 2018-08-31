@@ -282,10 +282,16 @@ footer nav a {
     width: 100px;
     height: 35px;
     width: 110px;
-    border: 1px solid black;
-    border-radius: 5px
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 12px;
     margin-top: 20px;
     font-size: 14px;
     line-height: 10px;
+}
+
+.final-section {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+
 }
