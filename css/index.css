@@ -91,7 +91,6 @@ header .navigation nav a {
 }
 
 header .logo {
-    display: flex;
     order: -1;
 }
 
@@ -212,3 +211,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page styles */
+
