@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
 }
 
+
 header{
     display: flex;
     justify-content: space-between;
@@ -87,16 +88,32 @@ header nav {
     width: 700px;
     margin-top: 20px;
     justify-content: space-evenly;
+    transition-duration: 3s;
+    
 }
 
 header nav a {
     text-decoration: none;
 }
 
+header nav :hover{
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 5px;
+    transform: rotateY(36deg);
+}
+
 .homePic {
     padding-bottom: 25px;
 }
 
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
 .top-content .text-container {
     width: 48%;
