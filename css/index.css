@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 10px 0px;
+}
+
+.navigation-bar a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 38px;
+}
+
+.jumbo {
+    margin: 20px 0px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +129,70 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+
+/*
+* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue`
+*/
 
 .bottom-content {
     display: flex;
