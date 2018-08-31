@@ -219,8 +219,12 @@ footer nav a {
     padding-top: 15px;
 }
 .about-card-container button {
+    padding: 10px 0;
     margin: 15px 0;
     background-color: white;
     width: 130px;
-    border-radius: 15px;
+    border-radius: 10px;
+}
+.cta-section {
+    padding: 25px;
 }
