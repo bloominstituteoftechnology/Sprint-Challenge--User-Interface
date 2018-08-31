@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-weight: bold;
 }
 
 .container {
@@ -71,11 +72,25 @@ p {
     margin: 0 auto;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 35px 0;
+}
+
+.nav a {
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -112,6 +127,165 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    animation-name: color-change1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box2 {
+    background-color: gold;
+    animation-name: color-change2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box3 {
+    background-color: cadetblue;
+    animation-name: color-change3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box4 {
+    background-color: coral;
+    animation-name: color-change4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box5 {
+    background-color: crimson;
+    animation-name: color-change5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box6 {
+    background-color: forestgreen;
+    animation-name: color-change6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box7 {
+    background-color: darkorchid;
+    animation-name: color-change7;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box8 {
+    background-color: hotpink;
+    animation-name: color-change8;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box9 {
+    background-color: indigo;
+    animation-name: color-change9;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#box10 {
+    background-color: dodgerblue;
+    animation-name: color-change10;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change1 {
+    0% {background-color: teal}
+    20% {background-color: gold}
+    40% {background-color: cadetblue}
+    60% {background-color: coral}
+    80% {background-color: crimson}
+    100% {background-color: teal}
+}
+
+@keyframes color-change2 {
+    0% {background-color: crimson}
+    20% {background-color: teal}
+    40% {background-color: gold}
+    60% {background-color: cadetblue}
+    80% {background-color: coral}
+    100% {background-color: crimson}
+}
+
+@keyframes color-change3 {
+    0% {background-color: coral}
+    20% {background-color: crimson}
+    40% {background-color: teal}
+    60% {background-color: gold}
+    80% {background-color: cadetblue}
+    100% {background-color: coral}
+}
+
+@keyframes color-change4 {
+    0% {background-color: cadetblue}
+    20% {background-color: coral}
+    40% {background-color: crimson}
+    60% {background-color: teal}
+    80% {background-color: gold}
+    100% {background-color: cadetblue}
+}
+
+@keyframes color-change5 {
+    0% {background-color: gold}
+    20% {background-color: cadetblue}
+    40% {background-color: coral}
+    60% {background-color: crimson}
+    80% {background-color: teal}
+    100% {background-color: gold}
+}
+
+@keyframes color-change6 {
+    0% {background-color: forestgreen}
+    20% {background-color: darkorchid}
+    40% {background-color: hotpink}
+    60% {background-color: indigo}
+    80% {background-color: dodgerblue}
+    100% {background-color: forestgreen}
+}
+
+@keyframes color-change7 {
+    0% {background-color: dodgerblue}
+    20% {background-color: forestgreen}
+    40% {background-color: darkorchid}
+    60% {background-color: hotpink}
+    80% {background-color: indigo}
+    100% {background-color: dodgerblue}
+}
+
+@keyframes color-change8 {
+    0% {background-color: indigo}
+    20% {background-color: dodgerblue}
+    40% {background-color: forestgreen}
+    60% {background-color: darkorchid}
+    80% {background-color: hotpink}
+    100% {background-color: indigo}
+}
+
+@keyframes color-change9 {
+    0% {background-color: hotpink}
+    20% {background-color: indigo}
+    40% {background-color: dodgerblue}
+    60% {background-color: forestgreen}
+    80% {background-color: darkorchid}
+    100% {background-color: hotpink}
+}
+
+@keyframes color-change10 {
+    0% {background-color: darkorchid}
+    20% {background-color: hotpink}
+    40% {background-color: indigo}
+    60% {background-color: dodgerblue}
+    80% {background-color: forestgreen}
+    100% {background-color: darkorchid}
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +317,136 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page h2 {
+    font-weight: 500;
+}
+
+.about-page .top-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-page .top-content .text-container {
+    width: 98%;
+    margin-top: 15px;
+}
+
+.about-page .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-page .main-content .text-container {
+    width: 48%;
+}
+
+.about-page .info h2 {
+    margin-top: 5px;
+}
+
+.about-page .bottom-content {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-page .bottom-content h2 {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.about-page .main-content button {
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border-style: solid;
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.products-page .main-content #slideshow {
+    overflow: hidden;
+    height: 300x;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.products-page .main-content .slide-wrapper {
+    width: 3200px;
+    animation: slide 18s ease infinite;
+}
+
+.products-page .main-content .slide {
+    float: left;
+    display: flex;
+    height: 300px;
+    width: 800px;
+}
+
+/* .products-page .main-content .slide:nth-child(1) {
+
+}
+.products-page .main-content .slide:nth-child(2) {
+    
+}
+.products-page .main-content .slide:nth-child(3) {
+    
+}
+.products-page .main-content .slide:nth-child(4) {
+    
+} */
+
+@keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -800px;}
+    50% {margin-left: -800px;}
+    60% {margin-left: -1600px;}
+    70% {margin-left: -1600px;}
+    80% {margin-left: -2400px;}
+    90% {margin-left: -2400px;}
+  }
+
+.products-page .top-content .text-container {
+    width: 800px;
+}
+
+.products-page .main-content .image-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.products-page .main-content .image-container img {
+    width: 380px;
+    height: 300px;
+}
+
+.products-page .main-content .text-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 380px;
+    height: 300px;
+    justify-content: center;
+}
+
+.products-page .main-content .text-container h2 {
+    align-self: center;
+}
+
+.products-page .main-content .text-container p {
+    margin-left: 20px;
+}
+
+.products-page .bottom-content {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-page .bottom-content h2 {
+    display: flex;
+    width: 98%;
 }
