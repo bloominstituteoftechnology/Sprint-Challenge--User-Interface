@@ -97,12 +97,6 @@ p {
     margin: 0 0 20px 0;
 }
 
-.text-container-about {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    padding: 20px;
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -118,12 +112,14 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .learn-more-buttons {
     border: 2px solid black;
     font-size: 16px;
     border-radius: 10px;
     padding: 8px;
     width: 120px;
+    margin-top: 20px;
 }
 .middle-content {
     margin-bottom: 20px;
@@ -133,6 +129,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    
 }
 
 .middle-content .boxes {
@@ -228,3 +225,13 @@ footer nav a {
 }
 
 /* about page stylings */
+
+.text-container-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.text-container .aboutpgimg {
+    margin-bottom: 20px;
+}
