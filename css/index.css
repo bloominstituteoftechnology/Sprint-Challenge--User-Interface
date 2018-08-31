@@ -206,3 +206,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.about-summary {
+    border-bottom: 2px dotted black;
+}
+
+.about-summary img {
+    margin-top: 20px;
+}
+
+.about-summary .summary-text {
+    margin: 25px;
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.about-box {
+    border-bottom: 2px dotted black;
+    margin: 0 10px;
+}
+
+.about-box h1 {
+    margin-top: 15px;
+}
+
+.learn-more {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.work-together {
+    margin: 10px;
+    padding-bottom: 30px;
+}
