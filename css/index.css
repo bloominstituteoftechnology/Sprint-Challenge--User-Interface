@@ -291,13 +291,21 @@ footer nav a {
     border-bottom: 1px dotted black;
     margin-bottom: 40px;
 }
-
+@keyframes runaway {
+    from {margin-left: 0px}
+    to {margin-left: 250px}
+}
 .container-about-page .about-middle-content div button {
     margin-top: 10px;
-    background: white;
+    background-color: white;
     padding: 10px;
     border-radius: 25%;
     border: 1px solid black;
+}
+
+.container-about-page .about-middle-content div button:hover {
+    animation-name: runaway;
+    animation-duration: 5s;
 }
 
 .container-about-page .about-bottom-content {
