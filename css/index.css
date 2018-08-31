@@ -161,10 +161,11 @@ footer nav a {
 .nav-bar .link {
   text-decoration: none;
   padding-top: 27px;
+  padding-bottom: 3px;
   color: black; 
 }
 
-.nav-bar .link:hover {
+.nav-bar a:hover {
   background: #ccc;
 }
 
@@ -224,3 +225,36 @@ header .banner {
   padding-bottom: 20px;  
 }
 
+.strategy-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-box {
+  padding-bottom: 15px;
+  margin: 20px 10px 0;
+  border-bottom: 1px dashed black;
+  flex: 1;
+}
+
+.about-box h2 {
+  padding-top: 15px;
+}
+
+.about-box p {
+  padding-bottom: 15px;
+}
+
+.about-box button {
+  background: white;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin-bottom: 8px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.about-page .bottom-content {
+  margin-top: 40px;
+}
