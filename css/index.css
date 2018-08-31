@@ -203,6 +203,10 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box .one {
+    color: teal;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -259,3 +263,39 @@ footer nav a {
     /* border: 1px solid green; */
 }
 
+.about-page .about {
+    border-bottom: 1px dotted black;
+    padding: 20px 0;
+}
+
+.about-page .middle-blocks {
+    width: 380px;
+    border-bottom: 1px dotted black;
+    padding: 20px 0;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-middle h2 {
+    margin-top: 10px;
+}
+
+.about-middle button {
+    border: 1px solid black;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.header-image {
+    margin-top: 20px;
+}
+
+.about-bottom {
+    margin: 20px 0;
+}
