@@ -140,6 +140,10 @@ p {
     padding-right: 0;
 }
 
+.box {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: all 0.3s ease-in-out;
+}
 .boxes .box.teal {
     background-color: teal;
 }
@@ -178,6 +182,28 @@ p {
 
 .boxes .box.dodgerblue {
     background-color: dodgerblue;
+}
+
+.box::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Scale up the box */
+.box:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.box:hover::after {
+  opacity: 1;
 }
 
 /* shared styles */
@@ -315,4 +341,66 @@ button:hover {
     margin: 0px;
     padding: 0px;
     margin-bottom: 25px;
+}
+
+/* products 1 */
+.products-page h1 {
+    font-size: 40px;
+    padding: 25px;
+}
+
+.products-page .products {
+    display: flex;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px dotted black;
+}
+
+.products-page .products h2 {
+    margin-bottom: 0;
+    padding-left: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* read more animation */
+
+.products-page .products .description .read-more-state {
+  display: none;
+}
+
+.products-page .products .description .read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.products-page .products .description .read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.products-page .products .description .read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.products-page .products .description .read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.products-page .products .description .read-more-div {
+    width: 430px;
+}
+
+.products-page .products .description .read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
 }
