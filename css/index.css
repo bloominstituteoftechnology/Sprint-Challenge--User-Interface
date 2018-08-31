@@ -208,7 +208,36 @@ footer nav a {
   margin-left: 20px;
 }
 
+.hero__img {
+  width: 100%;
+}
+
 .customHR {
   border-top: dashed 1px;
   margin: 25px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  /* border: 1px solid black; */
+}
+
+.cards__card {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  margin: 15px;
+}
+
+.cards__btn {
+  border-radius: 7px;
+  border: 2px solid black;
+  height: 40px;
+  width: 150px;
+  font-size: 17px;
+  letter-spacing: .8px;
+  margin: 20px 0 0 0;
 }
