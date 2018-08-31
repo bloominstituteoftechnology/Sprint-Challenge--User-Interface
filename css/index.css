@@ -183,37 +183,78 @@ footer nav a {
 }
 /* END OF TOP CONTENT STYLING */
 
+/* BOX ANIMATIONS */
+
+@keyframes left2right {
+    0% {
+        transform:  translateX(-1000px);
+    }
+    100% {
+        transform:  translateX(0);
+    }
+}
+
+@keyframes right2left {
+    0% {
+        transform:  translateX(1000px);
+    }
+    100% {
+        transform:  translateX(0);
+    }
+}
+
+/* BOX ANIMATIONS */
 
 /* BOX COLOR STYLING */
 .boxes .box:nth-child(1) {
     background-color: teal;
+    transform:  translateX(-1000px);
+    animation: left2right 1s 0.25s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(2) {
     background-color: gold;
+    transform:  translateX(-1000px);
+    animation: left2right 1s 0.50s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(3) {
     background-color: cadetblue;
+    transform:  translateX(-1000px);
+    animation: left2right 1s 0.75s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(4) {
     background-color: coral;
+    transform:  translateX(-1000px);
+    animation: left2right 1s 1s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(5) {
     background-color: crimson;
+    transform:  translateX(-1000px);
+    animation: left2right 1s 1.25s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(6) {
     background-color: forestgreen;
+    transform:  translateX(1000px);
+    animation: right2left 1s 1.5s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(7) {
     background-color: darkorchid;
+    transform:  translateX(1000px);
+    animation: right2left 1s 1.75s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(8) {
     background-color: hotpink;
+    transform:  translateX(1000px);
+    animation: right2left 1s 2s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(9) {
     background-color: indigo;
+    transform:  translateX(1000px);
+    animation: right2left 1s 2.25s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 .boxes .box:nth-child(10) {
     background-color: dodgerblue;
+    transform:  translateX(1000px);
+    animation: right2left 1s 2.50s cubic-bezier(0,1.12,1,1.09) forwards;
 }
 /* END BOX COLOR STYLING */
 
