@@ -203,8 +203,44 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box .one {
-    color: teal;
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#crimson {
+    background-color: crimsonl;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#darkorchild {
+    background-color: darkorchild;
+}
+
+#hotpink {
+    background-color: hotpink;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
