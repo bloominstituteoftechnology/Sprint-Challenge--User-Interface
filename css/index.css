@@ -244,7 +244,19 @@ footer nav a {
     margin-bottom: 20px;
 }
 
+.about-middle-content .row .column p{
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
 button {
     border-radius: 5px;
     border: 1.5px solid black;
+}
+
+button:hover {
+    border-radius: 5px;
+    border: 1.5px solid black;
+    background-color: teal;
+    color: white;
 }
