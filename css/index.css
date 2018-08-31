@@ -335,12 +335,18 @@ footer nav a {
     justify-content: center;
 }
 
-header nav {
+header {
+    width: 100%;
     display: flex;
+    margin-top: 20px
+}
+
+header nav {
+    align-items: flex-end;
     justify-content: space-between;
-    align-items: center;
-    margin-left: 250px;
-    margin-bottom: 30px;
+    display: flex;
+    width: 600px;
+    margin-left: 40px
 }
 
 header nav a {
@@ -352,9 +358,6 @@ header nav a {
     margin-top: 25px;
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.bigpic1 {
+    margin-top: 35px;
 }
-
