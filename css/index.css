@@ -109,10 +109,12 @@ p {
 }
 .main-content div{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding:10px;
     width: 400px;
     flex-direction: column;
+    border-bottom:2px dashed black;
+    margin-bottom:50px;
 }
 
 .main-content div h2{
@@ -129,8 +131,11 @@ p {
     border: 2px solid black;
     justify-content: center;
 }
+
+
 .container .info{
-    border:1px solid black;
+    padding:0 10px;
+    margin-bottom:40px;
 }
 
 .top-content {
