@@ -223,3 +223,35 @@ header nav a {
     border-bottom: 1px dashed black;
     padding: 25px 0;
 }
+
+.about-middle-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-middle-content .about-box {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 30px 0;
+}
+
+.about-middle-content .about-box h2,
+.about-middle-content .about-box p,
+.about-middle-content .about-box button {
+    margin: 15px 0;
+}
+
+.about-middle-content .about-box button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.about-bottom-content {
+    margin: 40px 0;
+}
