@@ -113,7 +113,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -122,6 +122,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* Probably should have used more in depth classes but I'm keeping it for now */
+.middle-content .boxes .box:first-child{
+    background:teal;
+}
+.middle-content .boxes .box:nth-last-child(9){
+    background:gold;
+}
+.middle-content .boxes .box:nth-last-child(8){
+    background:cadetblue;
+}
+.middle-content .boxes .box:nth-last-child(7){
+    background:coral;
+}
+.middle-content .boxes .box:nth-last-child(6){
+    background:crimson;
+}
+.middle-content .boxes .box:nth-last-child(5){
+    background:forestgreen;
+}
+.middle-content .boxes .box:nth-last-child(4){
+    background:darkorchid;
+}
+.middle-content .boxes .box:nth-last-child(3){
+    background:hotpink;
+}
+.middle-content .boxes .box:nth-last-child(2){
+    background:indigo;
+}
+.middle-content .boxes .box:nth-last-child(1){
+    background:dodgerblue;
 }
 
 .bottom-content {
