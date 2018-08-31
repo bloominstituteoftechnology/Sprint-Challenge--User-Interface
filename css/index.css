@@ -90,6 +90,26 @@ p {
     font-size: 13px;
 }
 
+.container .top{
+    margin: 10px 0;
+    border-bottom: 1px dashed black;
+}
+
+.container .top img{
+    width: 100%;
+}
+
+.container .top .top-text{
+    margin: 20px;
+}
+
+
+.container .bottom{
+    margin: 30px 20px 40px;
+}
+
+/*Global ^^^^ index\/\/\/\/*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -207,20 +227,6 @@ footer nav a {
 
 /*about \/\/\/\/\/ index^^^^^*/
 
-
-.about-page .about{
-    margin: 10px 0;
-    border-bottom: 1px dashed black;
-}
-
-.about-page .about img{
-    width: 100%
-}
-
-.about-page .about-text{
-    margin: 20px;
-}
-
 .about-page .about-cards{
     margin: 0 20px;
     display: flex;
@@ -252,6 +258,56 @@ footer nav a {
     border-radius: 10px;
 }
 
-.about-page .work-together{
-    margin: 30px 20px 40px;
+
+/* contact\/\/\/\/\/ about^^^^ */
+
+.contact-page .contact-form{
+    margin: 40px 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-page .contact-form .basic-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    align-items: center;
+}
+
+.contact-page .contact-form .text-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    align-items: center;
+}
+
+.contact-page .contact-form .form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:95%;
+    margin: 7px 0;
+}
+
+.contact-page .contact-form .form-item #question{
+    height: 100px;
+    margin-top: 15px;
+}
+
+.contact-page .contact-form .form-item .submit{
+    margin: 10px 100px;
+    font-size: 14px;
+    border: black 1px solid;
+    border-radius: 7px;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
