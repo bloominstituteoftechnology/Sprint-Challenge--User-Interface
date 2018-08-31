@@ -84,6 +84,16 @@ header nav {
   justify-content: space-around;
 }
 
+header nav button {
+  border: transparent;
+  background: transparent;
+  transition: all .1s ease-out;
+}
+
+header nav button:hover {
+  transform: scale(1.5) rotateZ(5deg);
+}
+
 header nav a {
   color: black;
   text-decoration: none;
