@@ -144,3 +144,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* top header nav */
+
+header {
+    display: flex;
+    flex-flow: wrap;
+}
+
+header nav { 
+
+    display: flex;
+    width: 880px;   
+    justify-content: space-evenly;
+    border: solid black;
+    margin: 20px 0 20px;
+    align-items: center;
+
+}
+
+.lambda-logo {
+    order: -1;
+}
+
+.header-logo {
+
+    margin-bottom: 20px;
+}
