@@ -70,6 +70,33 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*header  added  ...*/
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-around;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header .logo {
+    margin: 22px 0 0 60px;
+}
+
 
 .top-content {
     display: flex;
