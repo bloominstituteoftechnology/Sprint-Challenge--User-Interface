@@ -247,3 +247,21 @@ footer nav a {
   width: 100%;
   margin-bottom: 40px;
 }
+
+.animate {
+  animation-name: fade;
+  animation-delay: 0;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
