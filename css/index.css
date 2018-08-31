@@ -71,20 +71,56 @@ p {
     margin: 0 auto;
 }
 
+.navwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+}
+
+.navtext {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.navtext a {
+    padding: 0 40px;
+    font-size: 14px;   
+}
+
+.navtext a:link {
+    text-decoration: none;
+}
+
+.header-lg {
+    margin: 0 0 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 20px;
+    border-bottom: 1px dashed black;
 }
 
+
+.learn-more-buttons {
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 8px 15px;
+    width: 130px;
+    margin-top: 20px;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -93,6 +129,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    
 }
 
 .middle-content .boxes {
@@ -110,6 +147,48 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Individual box stylings */
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +222,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page stylings */
+
+.text-container-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.text-container .aboutpgimg {
+    margin-bottom: 20px;
+}
+
+/* blog styles*/
+
+.header-lg-blog {
+   box-shadow: transparent;
+}
+
+.top-content-blog {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.top-content-blog .text-container-blog {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    padding-top: 20px;
+    border-bottom: 1px dashed black;
 }
