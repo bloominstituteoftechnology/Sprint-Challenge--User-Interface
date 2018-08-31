@@ -69,11 +69,13 @@ p {
 .container {
     width: 800px;
     margin: 20px auto 0;
+    font-weight: 600;
 }
 .container header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    font-weight: normal;
 }
 .container header nav{
     margin-bottom: 20px;
@@ -229,8 +231,27 @@ footer nav a {
 .about-page .about-cards .card{
     margin: 20px 0;
     width: 48%;
+    padding: 10px 0 30px;
+    border-bottom: 1px dashed black;
 }
 
 .about-page .about-cards .card img{
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.about-page .about-cards .card p{
+    margin-bottom: 25px;
+}
+
+.about-page .about-cards .card .learn-more{
+    color: black;
+    text-decoration: none;
+    padding: 7px 23px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+.about-page .work-together{
+    margin: 30px 20px 40px;
 }
