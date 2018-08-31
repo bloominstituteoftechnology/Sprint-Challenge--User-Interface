@@ -192,7 +192,7 @@ footer nav a {
      border-bottom: dotted black 2px;
      padding-bottom: 20px;
      margin-bottom: 50px;
-     margin: 20px;
+     margin: 15px;
  }
 
  .card-section .card img {
@@ -212,5 +212,12 @@ footer nav a {
      height: 40px;
      width: 130px;
      margin-top: 20px;
+     font-weight: bold;
+ }
+
+ .about-bottom-section {
+     padding: 20px;
+     margin-top: 20px;
+     margin-bottom: 20px;
      font-weight: bold;
  }
