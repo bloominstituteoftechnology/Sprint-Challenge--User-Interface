@@ -206,19 +206,25 @@ p {
 
 .about-page .content {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	flex-wrap: column;
+	justify-content: center;
 	align-items: center;
-	height: 975px;
+	height: 1600px;
+}
+
+.about-page .learn-more img{
+	width: 100%;
+	margin-bottom: 10px;
 }
 
 .about-page .learn-more {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	height: 450px;
+	height: 400px;
+	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 375px;
+	width: 100%
 	border-bottom: 1px dashed black;
 }
 
@@ -232,8 +238,8 @@ p {
 .about-page .bottom-content {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	height: 100px;
+	justify-content: center;
+	height: 225px;
 }
 
 footer {
