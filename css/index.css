@@ -71,7 +71,14 @@ a {
     color: inherit;
 }
 
-/*== Layout ==================================================================*/
+a.button {
+    padding: 10px 25px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+
+/*== Global Layout ===========================================================*/
 
 /*-- Container ---------------------------------*/
 .container {
@@ -85,9 +92,8 @@ header {
 }
 .main-navigation {
     height: 100px;
-    border: red 1px solid;
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 .main-navigation > * {
     border: blue 1px solid;
@@ -97,28 +103,54 @@ header {
     display: flex;
     justify-content: space-around;
 }
+.main-navigation nav a {
+    font-size: 14px;
+}
 
-/*-- Content -----------------------------------*/
-.top-content {
+/*-- Footer ------------------------------------*/
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*== Individual Pages ========================================================*/
+
+/*-- Home --------------------------------------*/
+.container.home-page .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px 0px;
     border-bottom: 1px dashed black;
+    margin: 20px 0px;
 }
 
-.top-content .text-container {
+.container.home-page .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.container.home-page .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.container.home-page .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -151,7 +183,7 @@ header {
 .middle-content .boxes .box:nth-child( 9) { background: indigo;}
 .middle-content .boxes .box:nth-child(10) { background: dodgerblue;}
 
-.bottom-content {
+.container.home-page .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
@@ -161,26 +193,37 @@ header {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.container.home-page .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
-/*-- Footer ------------------------------------*/
-footer {
-    width: 100%;
-    background: black;
+/*-- About -------------------------------------*/
+.container.about-page .top-content, .container.about-page .middle-content, .container.about-page .bottom-content {
+    padding: 15px 15px;
 }
-
-footer nav {
-    width: 60%;
+.container.about-page .middle-content {
+    height: 980px;
+    border-top: 1px dashed black;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    align-content: space-around;
 }
-
-footer nav a {
-    color: white;
-    text-decoration: none;
+.explore {
+    max-width: 370px;
+    height: 428px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    align-items: flex-start;
+}
+.explore h2{
+    /* Have to override margin settings from provided style. */
+    margin: 0px;
+}
+.container.about-page .bottom-content {
+    margin-bottom: 2em;
 }
