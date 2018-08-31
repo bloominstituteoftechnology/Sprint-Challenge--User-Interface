@@ -261,11 +261,42 @@ footer nav a {
  }
 
  .products-card-section button:hover {
-     background: white;
-     color: black;
+     background: red;
+     color: white;
  }
 
  .products-card-section img {
      width: 200px;
      height: auto;
  }
+
+ .explosion {
+    transform: translate(258px);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transition: 1s;
+  }
+  
+  .explosion:hover {
+    box-shadow: 0 0 0 30px rgba(236, 8, 8,.1), 
+                0 0 0 60px rgba(236, 8, 8,.1), 
+                0 0 0 120px rgba(236, 8, 8,.1),
+                0 0 0 240px rgba(236, 8, 8,.1),
+                0 0 0 480px rgba(236, 8, 8,.1),
+                0 0 0 960px rgba(236, 8, 8,.1);
+  }
+
+  @keyframes nav-anim {
+    from {background-color: lightblue;}
+    to {background-color: black;}
+}
+
+button {
+    width: 240px;
+    height: auto;
+    background-color: lightgray;
+    animation-name: nav-anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
