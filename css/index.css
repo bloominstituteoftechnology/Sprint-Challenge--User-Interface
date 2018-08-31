@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+/*	display: block; */
 }
 
 
@@ -74,21 +74,26 @@ p {
     margin: 0 auto;
 }
 
+
 .nav-bar {
     display: flex;
-    margin: 20px;
     justify-content: space-between;
+    text-decoration: none;
+    margin: 20px 0px;
+    width: 100%;
+    align-items: flex-end;
 }
 
-.nav-bar .main-nav {
+.nav-bar a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.nav-bar nav {
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
-}
-
-.nav-bar .main-nav a{
-    text-decoration: none;
-    align-items: center;
+    width: 80%;
 }
 
 .top-content img {
