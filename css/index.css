@@ -251,6 +251,31 @@ footer nav a {
   padding: 7px 20px;
 }
 
+/* contact page */
+
+.contact-page .content {
+  padding: 20px 0;
+}
+
+.contact-page .form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.contact-page form label {
+  padding-top: 20px;
+}
+
+.contact-page form textarea {
+  height: 200px;
+}
+
 /* media queries */
 
 @media (max-width: 800px) {
