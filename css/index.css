@@ -119,6 +119,12 @@ header nav a:hover {
     padding-bottom: 20px;  
 }
 
+/*
+======================================================================
+    MIDDLE CONTENT
+======================================================================
+*/
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -145,6 +151,52 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: teal;
+}
+
+/*
+======================================================================
+    BOTTOM CONTENT
+======================================================================
+*/
 
 .bottom-content {
     display: flex;
