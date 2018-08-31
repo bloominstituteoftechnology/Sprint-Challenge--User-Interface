@@ -73,16 +73,18 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+   
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
 }
 
 .middle-content {
@@ -144,3 +146,191 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* Index Page Katie's Classes */
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+
+
+.index#container {
+	width: 1200px;
+	height: auto;
+}
+
+#navBar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#navBar nav {
+	display: flex;
+	flex-direction:row;
+}
+
+#navBar nav a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px;
+  	padding:4px;
+  	color: lightgrey;
+  	text-decoration: none;
+  	font-weight: lighter;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	margin-right: 25px;
+
+}
+
+h2 {
+	text-align: left;
+}
+
+
+
+.cta {
+	border: 1px solid black;
+	background: white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+	width: 100px;
+}
+
+
+
+/* About Page Classes */
+
+#copyright {
+	text-align: center;
+	margin: 25px;
+	margin-left: 250px;
+	width: 1000px;
+	
+}	
+#featureBoxSection {
+	width:1000px;
+	margin-left: 250px;
+	padding-top:30px;
+	border-top: 2px solid black;
+	padding-bottom: 60px;
+	border-bottom: 2px solid black;
+}
+.about section .featureBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 25px;
+    width: 1000px;
+    border: 1px solid green;
+}
+
+.about .featureItem {
+	background: lightgrey;
+	border: 1px solid blueviolet;
+	width: 430px;
+	padding: 20px;
+	
+}
+
+.about .featureItem p {
+    margin-bottom: 25px;
+    border: 1px solid blue
+	
+}
+
+.ctaRounded {
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+	width: 100px;
+}
+.about .featureBox div h2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+    width: 530px;
+    border: 1px solid red;
+}
+
+
+.about .marketingBlurb {
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left:250px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 1000px;
+}
+
+.about #servicesFacts {
+	font-size: 20px;
+	margin: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left:250px;
+	width: 1000px;
+}
+
+.about #servicesIntro p {
+	width: 1000px;
+	font-size:16px;
+	border: 1px solid black;
+}
+
+.about #servicesIntro h2 {
+	margin-top: 25px;
+
+}
+
+.about #servicesFactsPara {
+	font-size: 16px;
+	width: 400px;
+	margin-right: 25px;
+}
+
