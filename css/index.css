@@ -144,3 +144,71 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* MY CODE STARTS HERE */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+    align-content: center;
+    padding: 24px 0;
+    margin-bottom: 15px;
+}
+
+header nav {
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-img {
+    margin-bottom: 25px;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
