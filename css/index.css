@@ -94,11 +94,16 @@ header .fixed-header-nav {
     width: 80%;
 }
 
-.fixed-header-nav a{
+.fixed-header-nav a {
 	color: #000;
     text-decoration: none;
     font-size: 14px;
+    -webkit-transition: color 0.5s ease;
 } 
+
+.fixed-header-nav a:hover {
+    color: red;
+}
 
 /* Main container for all pages */
 .container {
@@ -162,6 +167,11 @@ header .fixed-header-nav {
     border: 2px solid black;
     border-radius: 10px;
     padding: 9px 21px;
+    -webkit-transition: background 1s ease;
+}
+
+.learn-more-button:hover {
+    background: #c9c9c9;
 }
 
 /* Middle content container for page */
@@ -228,6 +238,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    -webkit-transition: color 0.5s ease;
+}
+
+footer nav a:hover {
+    color: #666;
 }
 
 /* backgrounds for individual box items */
@@ -252,3 +267,6 @@ footer nav a {
     border-bottom: none;
 }
 
+article {
+    padding: 20px 20px;
+}
