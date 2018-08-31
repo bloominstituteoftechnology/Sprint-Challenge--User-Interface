@@ -440,3 +440,35 @@ button {
     padding: 30px 20px;
     margin-top: 20px;
 }
+
+/* contact page styling begins here */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex start;
+    justify-items: space-around;
+    height: 600px;
+    padding: 10px;
+}
+
+/* .contact-container form input  {
+    margin: 20px;
+} */
+.contact-container form label {
+    margin: 20px;
+}
+
+textarea {
+    height: 200px;
+    width: auto;
+}
+
+.contactus {
+    margin: 50px;
+}
