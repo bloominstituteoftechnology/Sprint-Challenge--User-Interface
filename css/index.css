@@ -132,6 +132,8 @@ p {
     width: 130px;
     padding: 5px 20px;
     margin-top: 25px;
+    text-decoration: none;
+    color: black;
 }
 
 .about-page .together-section {
