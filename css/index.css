@@ -85,6 +85,11 @@ p {
     margin-bottom: 40px;
 }
 
+.container header nav div {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
 .container header nav a {
     color: black;
     text-decoration: none;
