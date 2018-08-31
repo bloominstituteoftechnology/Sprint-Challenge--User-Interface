@@ -315,3 +315,43 @@ hr {
     
 }
 
+.middle-content .boxes .box.red{
+background-color: teal;
+}
+
+.middle-content .boxes .box.blue {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.green {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.orange {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.yellow {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.aqua {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.black {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.light-green {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.cyan {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.white {
+    background-color: dodgerblue;
+}
+
