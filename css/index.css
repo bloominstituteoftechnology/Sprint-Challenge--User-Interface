@@ -199,5 +199,11 @@ footer nav a {
     text-decoration: none;
 }
 
-
+.about-page .top-section{
+    border-bottom: 2px dotted black;
+    margin-bottom: 30px;
+}
+.about-page .top-section p{
+    margin-bottom: 20px;
+}
 
