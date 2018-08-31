@@ -149,7 +149,7 @@ footer nav a {
 .navigation{
     display: flex;
     align-items: flex-end;
-    margin-bottom: 30px;
+    margin: 15px 0px 30px 0px;
 }
 
 .navigation nav {
