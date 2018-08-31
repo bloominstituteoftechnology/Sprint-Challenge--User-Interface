@@ -178,6 +178,7 @@ p {
 .nav-links a:visited {
   color: #000;
   text-decoration: none;
+  transition: all 300ms;
 }
 
 .nav-links a:hover {
@@ -345,6 +346,12 @@ footer nav a {
   border-radius: 10px;
   font-size: inherit;
   cursor: pointer;
+  transition: all 300ms;
+}
+
+.btn:hover {
+  border: 2px solid cadetblue;
+  color: cadetblue;
 }
 
 .about-page .bottom-content {
@@ -357,6 +364,12 @@ footer nav a {
 }
 
 /* CONTACT */
+.contact-page .middle-content {
+  padding-bottom: 20px;
+}
+.contact-page .middle-content h2 {
+  margin-bottom: 20px;
+}
 .contact-form {
   width: 100%;
   border: 1px solid black;
@@ -368,6 +381,20 @@ footer nav a {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+}
+
+.form-group-radio {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.radio-input {
+  margin: 0 5px 0 10px;
+}
+
+.form-group-radio label {
+  margin-right: 10px;
 }
 
 .form-group label {
