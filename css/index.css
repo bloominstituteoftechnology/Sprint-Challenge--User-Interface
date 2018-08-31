@@ -161,35 +161,35 @@ header nav a:hover {
 }
 
 .middle-content .boxes .box:nth-child(3) {
-    background: teal;
+    background: cadetblue;
 }
 
 .middle-content .boxes .box:nth-child(4) {
-    background: teal;
+    background: coral;
 }
 
 .middle-content .boxes .box:nth-child(5) {
-    background: teal;
+    background: crimson;
 }
 
 .middle-content .boxes .box:nth-child(6) {
-    background: teal;
+    background: forestgreen;
 }
 
 .middle-content .boxes .box:nth-child(7) {
-    background: teal;
+    background: darkorchid;
 }
 
 .middle-content .boxes .box:nth-child(8) {
-    background: teal;
+    background: hotpink;
 }
 
 .middle-content .boxes .box:nth-child(9) {
-    background: teal;
+    background: indigo;
 }
 
 .middle-content .boxes .box:nth-child(10) {
-    background: teal;
+    background: dodgerblue;
 }
 
 /*
