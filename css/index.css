@@ -324,7 +324,7 @@ margin-bottom: 25px;
 
 /* Bottom Cotent */
 
-.bottom-content {
+.about-bottom-content {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -332,11 +332,11 @@ margin-bottom: 25px;
     margin-bottom: 30px;
 }
 
-.about-main-content .bottom-content h1 {
+.about-bottom-content h1 {
 font-weight: bold;
 }
 
-.about-main-content .bottom-content p {
+.about-bottom-content p {
 
 }
 
