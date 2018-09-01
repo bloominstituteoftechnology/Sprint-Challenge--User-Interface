@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1 {
+.middle-content .boxes box1 {
     width: 12.5%;
     height: 100px;
     background: teal;
@@ -296,7 +296,7 @@ section.about1 {
     border-bottom: dotted black 3px;
 }
 
-section.row1 {
+.row1 {
     display: flex;
     justify-content: space-around;
     padding-top: 25px;
@@ -304,20 +304,14 @@ section.row1 {
     padding-bottom: 25px;
 }
 
-section.row1 .div1 {
-    border-bottom: dotted black 3px;
-    width: 350px;
-    padding-bottom: 25px;
-}
-
-section.row1 .div2 {
+.section-div1 {
     border-bottom: dotted black 3px;
     width: 350px;
     padding-bottom: 25px;
 }
 
 
-section.row2 {
+.row2 {
     display: flex;
     justify-content: space-around;
     padding-top: 25px;
@@ -325,53 +319,23 @@ section.row2 {
     padding-bottom: 25px;
 }
 
-section.row2 .div1 {
+.div1 {
     border-bottom: dotted black 3px;
     width: 350px;
     padding-bottom: 25px;
 }
 
-section.row2 .div2 {
-    border-bottom: dotted black 3px;
-    width: 350px;
-    padding-bottom: 25px;
-}
 
-section.row1 .div1 button {
+
+.button {
     margin-top: 25px;
-    width: 150px;
-    height: 50px;
+    padding: 10px 30px;
     font-size: 20px;
     border-radius: 0.5em;
     border: solid black 1px;
 }
 
-section.row1 .div2 button {
-    margin-top: 25px;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 0.5em;
-    border: solid black 1px;
-}
 
-section.row2 .div1 button {
-    margin-top: 25px;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 0.5em;
-    border: solid black 1px;
-}
-
-section.row2 .div2 button {
-    margin-top: 25px;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 0.5em;
-    border: solid black 1px;
-}
 
 button:hover {
     background: black;
