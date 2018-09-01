@@ -100,6 +100,47 @@ p {
     width: 100%;
 }
 
+.s-atck {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .bottom {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .top {
+    position: absolute;
+    top: 67px;
+    left: 2px;
+  }
+
+@keyframes s-atck {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  
+  .s-atck img.top {
+  animation-name: s-atck;
+  animation-timing-function: ease-in-out;
+  animation-duration: 10s;
+  /* animation-delay: 10s; */
+  animation-direction: reverse;
+  animation-fill-mode: forwards;
+ anim
+  }
+
 .top-content .nav-sec nav {
     display: flex;
     width: 65%;
@@ -162,6 +203,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: background, border-radius;
+    transition-duration: 1s;
     
 }
 
@@ -198,21 +241,20 @@ p {
 
 
 .middle-content .boxes .box:hover {
-    animation-name: bradius-box;
+    /* animation-name: bradius-box;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+    background: red;
+    border-radius: 50%;
 }
 
-
+/* 
 @keyframes bradius-box {
-    /* 0% {border-radius: 0;} */
-    /* 25% {border-radius: 25px;} */
-    /* 50% {border-radius: 50px;} */
-    /* 75% {border-radius: 75px;} */
+   
     100% {border-radius: 100%}
 
-}
+} */
 
 
 
