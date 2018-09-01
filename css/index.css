@@ -214,7 +214,7 @@ p {
 .home-foot {
     bottom: 0;
     height: 50px;
-    width: 53%;
+    width: 800px;
     overflow: hidden;
     background: black;
     position: absolute;
@@ -236,7 +236,7 @@ p {
 }
 
 
-            /* About Page */
+        /* About Page */
 
 .container .about-page {
 
@@ -244,15 +244,14 @@ p {
 
 .about-page header {
     display:flex;
-    flex-wrap: wrap;
+    flex-flow:row wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     width: 100%;
-    height: 80px;
+    height:80px;
 }
 
 .about-page header nav {
-    display: flex; 
 }
 
 .about-page header nav a {
@@ -305,19 +304,20 @@ p {
     border: 2px solid black;
     padding: 5px 20px;
     border-radius: 20%;
+    width: 200px;
 
 }
 
-/* footer {
-    bottom: 0;
+footer {
+    /* bottom: 0; */
     height: 50px;
-    width: 53%;
+    width: 800px;
     overflow: hidden;
     background: black;
     position: absolute;
 }
 
-.home-foot nav {
+footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -326,8 +326,6 @@ p {
     font-size: 14px;
 }
 
-.home-foot nav a {
+footer nav a {
     color: white;
     text-decoration: none;
-
-} */
