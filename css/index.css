@@ -211,7 +211,6 @@ footer nav a {
     margin-left: 35px;
 }
 
-
 a {
     text-decoration: none;
     color: slategrey;
@@ -253,7 +252,6 @@ section.about1 {
     padding-bottom: 25px;
 }
 
-
 .row2 {
     display: flex;
     justify-content: space-around;
@@ -268,8 +266,6 @@ section.about1 {
     padding-bottom: 25px;
 }
 
-
-
 .button {
     margin-top: 25px;
     padding: 10px 30px;
@@ -278,15 +274,12 @@ section.about1 {
     border: solid black 1px;
 }
 
-
-
 button:hover {
     background: black;
     color: white;
     cursor: pointer;
     text-decoration: underline;
 }
-
 
 img {
     -webkit-transition: all 1s ease;
