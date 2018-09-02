@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height:1;
-    min-height;
 }
 ol, ul {
 	list-style: none;
@@ -203,6 +202,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+      /* animation-name: bradius-box;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; */
     transition-property: background, border-radius;
     transition-duration: 1s;
     
@@ -241,16 +244,12 @@ p {
 
 
 .middle-content .boxes .box:hover {
-    /* animation-name: bradius-box;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards; */
     background: red;
     border-radius: 50%;
 }
 
-/* 
-@keyframes bradius-box {
+
+/* @keyframes bradius-box {
    
     100% {border-radius: 100%}
 
@@ -382,8 +381,6 @@ margin-bottom: 25px;
     color: black;
 
 }
-
-
 
 /* Bottom Cotent */
 
