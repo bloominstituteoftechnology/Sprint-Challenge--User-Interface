@@ -48,6 +48,8 @@ table {
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -66,26 +68,54 @@ p {
     line-height: 1.4;
 }
 
-.container {
+/* TO DO: 
+
+@media (max-width:800px) {  
+  .container-home {
     width: 800px;
+  }*/
+
+.container-home {
     margin: 0 auto;
 }
 
-.navigation-bar {
+
+.container-home .navigation-bar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 10px 0px;
+    margin: 20px 100px 40px 100px;
 }
 
-.navigation-bar a{
+
+.container-home .navigation-bar img {
+    /* border: 1px solid green; */
+}
+
+.container-home .navigation-bar nav {
     color: black;
     text-decoration: none;
-    padding: 0px 38px;
+    font-size: 0.88rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.container-home .navigation-bar nav a {
+    color: black;
+    text-decoration: none;
+    /* margin-left: -20px; */
+    padding: 0px 33px 0px 54px;
+}
+
+.nav-home {
+    margin-left: -20px;
 }
 
 .jumbo {
-    margin: 20px 0px;
+    margin: 0px 0px 0px 100px;
 }
 
 
@@ -93,8 +123,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin: 20px 90px 0px 100px;
 }
 
 .top-content .text-container {
@@ -103,8 +132,14 @@ p {
     padding-bottom: 20px;  
 }
 
+.text-container-the-past {
+
+}
+
 .middle-content {
+    border-top: 1px dashed black;
     margin-bottom: 20px;
+    padding: 20px 90px 0px 100px;
     border-bottom: 1px dashed black;
 }
 
@@ -188,18 +223,20 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    margin: 0px 110px 0px 115px;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding-right: 5%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding-right: 2px;
 }
 
 footer {
-    width: 100%;
+    /* width: 100%; */
+    margin: 20px 90px 0px 100px;
     background: black;
 }
 
