@@ -219,3 +219,49 @@ footer nav a {
     margin:10px;
 
 }
+.mid-about{
+    display:flex;
+    /* justify-content: space-between; */
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%; 
+    height:auto;
+}
+.midfirst{
+    width:375px;
+
+}
+.midsecond{
+    align-self: flex-end;
+    width:375px;
+}
+.midthird{
+    /* flex-wrap: wrap; */
+    width:375px;
+}
+.midfourth{
+    align-self: flex-end;
+    width:375px;
+}
+/* .mid-about:nth-child(1n){
+    
+    justify-self: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:200px;
+} */
+/* .mid-about img{
+    width: 200px;
+
+}
+.mid-about button {
+
+    width: 200px;
+}
+.mid-about h2 {
+    
+}
+.mid-about p {
+    width: 200px;
+} */
