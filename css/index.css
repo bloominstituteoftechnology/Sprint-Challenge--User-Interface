@@ -70,20 +70,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-header nav {
-     margin-top: 30px; 
-     margin-left:220px;
-      width:600px; 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+   header nav{
+       width: 600px;
     justify-content: space-between;
     display: flex;
-    color:black;
+   }
+header nav a {
+  color: black;
+    display: inline-block;
 }
-header a { 
-    color:black;
-    margin-bottom:30px; 
-    display:inline-block;
-}
-
 .boxes{
   display:flex;
   flex-direction: row;
@@ -151,7 +154,6 @@ footer nav a {
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
 } 
 .boxes .box1{
@@ -163,11 +165,27 @@ background:gold;
 .boxes .box3{
     background: cadetblue;
 }
-.boxes .box3{
+.boxes .box4{
     background:coral;
 }
-.boxes .box4{
+.boxes .box5{
     background: crimson;
+}
+
+.boxes .box6{
+background: forestgreen;
+}
+.boxes .box7{
+background:darkorchid;
+}
+.boxes .box8{
+background:hotpink;
+}
+.boxes .box9{
+background:indigo;
+}
+.boxes .box10{
+background:dodgerblue;
 }
 .middle-content {
     margin-bottom: 20px;
@@ -179,6 +197,10 @@ background:gold;
     margin-bottom: 0;
     width:120px;
     height: 120px;
+}
+.middle-content h2:hover{
+       text-decoration: underline;
+    color: black;
 }
 .top-content {
     display: flex;
