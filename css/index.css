@@ -71,6 +71,47 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+header .logo {
+    display: flex;
+    margin-top: 25px;
+    margin-right: 50px;
+    align-items: flex-start;
+}
+
+hedaer nav {
+    display: flex;
+    width: 690px;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+header nav a {
+    margin-right: 65px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 0;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+.top-content .top-image {
+    margin-bottom: 30px
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +153,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .a {
+    background: teal;
+}
+
+.middle-content .boxes .b {
+    background: gold;
+}
+
+.middle-content .boxes .c {
+    background: cadetblue;
+}
+
+.middle-content .boxes .d {
+    background: coral;
+}
+
+.middle-content .boxes .e {
+    background: crimson;
+}
+
+.middle-content .boxes .f {
+    background: forestgreen;
+}
+
+.middle-content .boxes .g {
+    background: darkorchid;
+}
+
+.middle-content .boxes .h {
+    background: hotpink;
+}
+
+.middle-content .boxes .i {
+    background: indigo;
+}
+
+.middle-content .boxes .j {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +224,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.aboout-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+
+.about-content .about-text {
+    border-bottom: 1px dashed black;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.about-content .boxes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.about-content .box-content {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    width: 390px;
+    margin: 20px 0;
+}
+
+.about-content .box-content button {
+    padding: 10px 40px;
+	margin-top: 20px;
+	cursor: pointer;
+	background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.about-content .box-content button:hover {
+    background: black;
+	color: white;
+}
+
+.about-content .lets-work {
+    margin: 40px 0;
 }
