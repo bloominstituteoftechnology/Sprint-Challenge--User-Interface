@@ -62,14 +62,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
- .topnav{
-   justify-content:space-around;
+ .header {
+ display:flex;
+justify-content: space-around;
+height: 50px;
+padding: 5%;
 }
-.header{
-  display: flex;
-  justify-content: center;
-  color:black;
-  }
+
 
 
 p {
@@ -109,8 +108,39 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  
 }
 
+#box1 {
+   background-color:teal;
+  }
+#box2 {
+   background-color:gold;
+  }
+#box3 {
+   background-color:cadetblue;
+  }
+#box4 {
+   background-color:coral;
+  }
+#box5 {
+   background-color:crimson;
+  }
+#box6 {
+   background-color:forestgreen;
+  }
+#box7 {
+   background-color:darkorchid;
+  }
+#box8 {
+   background-color:hotpink;
+  }
+#box9 {
+   background-color:indigo;
+  }
+#box10 {
+   background-color:dodgerblue;
+  }
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -153,4 +183,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+                    /* About Style */
+
+
+.container about-page{
+    display: flex;
+    justify-content: center;
+    flex: 33.33%;
+    padding: 5px;
+}
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-about .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+  
+}
+.bot-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bot-content .text-container {
+    padding-right: 4%;
+}
+
+.bot-content .text-container:last-child {
+    padding-right: 0;
 }
