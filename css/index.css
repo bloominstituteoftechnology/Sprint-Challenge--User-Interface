@@ -75,15 +75,19 @@ p {
 nav {
 	width: 700px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-between;;
 	align-items: center;
-    margin: 20px 0px 30px 0px;
-    align-items: flex-end;
+    margin: 20px 0px 20px 0px;
+    align-items: center;
 }
 
 nav a {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: flex-start;
     text-decoration: none;
     color: black;
+    
 }
 
 .topimg {
@@ -309,7 +313,7 @@ footer nav a {
     padding: 0px 20px 20px 20px;
 }
 
-.descript h2 {
+.descript h2 {\
     margin-top: 5px;
 }
 
@@ -395,6 +399,7 @@ button {
 	width: 10%;
     margin: 10px 0px 0px 0px;
     font-family: 'Montserrat';
+    font-weight: 800;
     
 }
 
