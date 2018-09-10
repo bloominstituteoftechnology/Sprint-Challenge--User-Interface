@@ -54,6 +54,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,11 +66,33 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 16px;
 }
 
 .header {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.header-img {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 .header-img {
@@ -83,16 +107,21 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-evenly;
+    margin-top: 25px;
     margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    margin-right: 10x;
+    padding-bottom: 10px;  
+    margin-left: 10x;
 }
 
 .middle-content {
@@ -101,14 +130,14 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0 1%;
     margin-bottom: 0;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box1 {
@@ -228,7 +257,8 @@ p {
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding-right: 5%;
+    font-size: 15.5;
 }
 
 .bottom-content .text-container:last-child {
