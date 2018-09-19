@@ -46,7 +46,151 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*****************END RESET*******************/
 
-.toppic2 { 
-    margin:auto;
+/*Main*/
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	width:800px;
+	margin:auto;
+}
+
+/*Header*/
+.header {
+	display:flex;
+	align-items:center;
+	margin: 20px 0 40px 0;
+}
+
+.navBar {
+	width:640px;
+	display:flex;
+	justify-content:space-around;
+}
+
+.navBar a {
+	color:black;
+	text-decoration-line: none;
+}
+
+/*About + image*/
+.about-banner {
+	width:800px;
+	margin-bottom:25px;
+}
+
+.about-text {
+	width:775px;
+	margin:auto;
+}
+
+#aboutHr {
+	margin:25px 0 25px 0;
+	border:1px dashed black;
+}
+
+/*innerBody*/
+.innerbody {
+	width:770px;
+	margin:auto;
+}
+
+/*innerbody-upper row*/
+.innerbody_upperrow {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom:60px;
+}
+
+.innerbody .innerbody_upperrow .info {
+	display:flex;
+	flex-direction:column;
+	width:370px;
+}
+
+.innerbody .innerbody_upperrow .info h2 {
+	margin:15px 0 20px 0;
+}
+
+.innerbody .innerbody_upperrow .info button {
+	width:125px;
+	height:38px;
+	margin:25px 0 20px 0;
+	font-weight:bold;
+	background:white;
+	border:1.5px solid black;
+	border-radius: 6%;
+}
+
+.innerbody .innerbody_upperrow .info hr {
+	width:100%;
+	border:1px dotted black;
+}
+
+/**innerbody-lower row*/
+.innerbody .innerbody_lowerrow {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom:50px;s
+}
+
+.innerbody .innerbody_lowerrow .info {
+	display:flex;
+	flex-direction:column;
+	width:370px;
+}
+
+.innerbody .innerbody_lowerrow .info h2 {
+	margin:15px 0 20px 0;
+}
+
+.innerbody .innerbody_lowerrow .info button {
+	width:125px;
+	height:38px;
+	margin:25px 0 20px 0;
+	font-weight:bold;
+	background:white;
+	border:1.5px solid black;
+	border-radius: 8%;
+}
+
+.innerbody .innerbody_lowerrow .info hr {
+	width:100%;
+	border:1px dotted black;
+}
+
+/*innerbody - bottom*/
+.innerbody .innerbody_bottom {
+	margin-bottom:50px;
+}
+
+/*footer*/
+.footer {
+	display:flex;
+	align-items: center;
+	width:800px;
+	height:55px;
+	margin:auto;
+	background:black;
+}
+.navBottom {
+	width:450px;
+	display: flex;
+	justify-content: space-between;
+	margin-left:15px;
+}
+
+.navBottom a {
+	color:white;
+	text-decoration-line: none;
 }
