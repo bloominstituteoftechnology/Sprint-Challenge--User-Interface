@@ -1,15 +1,3 @@
-1. If you had to describe semantic HTML to the next cohort of students, what would you say?
-
-2. Describe some differences between ```display: block;``` and ```display: inline;```.
-
-3. What are the 4 areas of the box model?
-
-4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
-
-5. What is the git command to commit staged changes as well as write a message?  
-
-// Answers
-
 1- As far as my understanding to the semantic HTMl is that elements that define and contain contents with in the non semantic html . For example tags that are semantic ( <header> <nav> <section> <footer> <a> ...etc) these can contain contents with in them . non semantic elemnts that says nothing about contents and it is more likley used to style and specifity in CSS ( <div> < span>). In other words semantic represents information and eaning instead of being presentational. 
 
 2- display: inline; // it is an elemnt that is used to style HTML which it makes a box inside of a line that doesnt give hight and width but only puts the inline targeted html element . 
