@@ -28,6 +28,76 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    width: 876px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    margin-left: 300px;
+}
+
+header img.lambda-logo{
+    position: absolute;
+    left: 65px;
+    top: 0px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 0px 15px;
+}
+
+.container .about-page{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 1px;
+    width: 876px;
+    border: 10px dashed black;
+
+}
+
+section.about-page-stuff {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px 20px;
+
+}
+
+div.blurb{
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px;
+    padding: 30px 30px;
+
+}
+
+.learn-more{
+    border: 1px solid black;
+    padding: 5px 30px;
+}
+
+section.jumbo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+}
+
 body {
 	line-height: 1;
 }
@@ -104,12 +174,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.teal {
+    background-color: teal;
+}
+.gold {
+    background-color: gold;
+}
+.cadetblue {
+    background-color: cadetblue;
+}
+.coral {
+    background-color: coral;
+}
+.crimson {
+    background-color: crimson;
+}
+.forestgreen {
+    background-color: forestgreen;
+}
+.darkorchid {
+    background-color: darkorchid;
+}
+.hotpink {
+    background-color: hotpink;
+
+}
+.indigo {
+    background-color: indigo;
+}
+.dodgerblue {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
