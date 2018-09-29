@@ -73,13 +73,11 @@ p {
 
 .container-about-page {
     width: 95%;
-    height:60%;
     margin: 0 auto;
 }
 .container-contact-page {
      width: 95%;
     margin: 0 auto;
-    height:100%;
     background-color:#D3CCE3;
 }
 .container-contact-page .content {
@@ -95,13 +93,21 @@ font-size:20px;
 }
 .container-contact-page .contact-us .reach-us h1{
     font-size:40px; 
+    padding:20px;
     margin-left:40%;
     margin-top:20%;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    border:solid black;
+    border-radius: 15px;
+    background-color: lightyellow;
     margin-bottom:25%;
     
 }
 .container-contact-page .content {
 font-style: oblique;
+margin-top:37%;
 
 }
 .container-contact-page .contact-us .reach-us p {
@@ -146,6 +152,7 @@ font-style: oblique;
     display: flex;
     margin-left:2.5%;
 }
+
 .container-home-page header nav {
     margin-left:100px; 
     margin-top:20px;
@@ -276,4 +283,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#1 {
+    background-color:teal;
+}
+#2 {
+    background-color:gold;
+}
+#3 {
+    background-color: cadetblue;
+}
+#4 { 
+    background-color:coral;
+}
+#5 {
+    background-color: crimson;
+}
+#6 {
+    background-color: forestgreen;
+}
+#7{ 
+    background-color:darkorchid;
+}
+#8{
+    background-color:hotpink;
+}
+#9 {
+    background-color:indigo;
+}
+#10 {
+    background-color:dodgerblue;
 }
