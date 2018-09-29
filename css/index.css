@@ -144,3 +144,116 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ABOUT PAGE CSS STUFFS ------------------------------------------------------*/
+
+
+/* NAVBAR ------------------------------*/
+nav {
+    display:flex;
+    margin-bottom:30px;
+}
+
+#logo {
+    display:flex;
+}
+
+.link {
+    flex-basis:15%;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-decoration: none;
+    color:black;
+}
+
+/*BIG IMAGE -----------------------------*/
+#jumbo {
+    margin-bottom:30px;
+}
+
+
+/*ALL THE BOXES ------------------------*/
+#box1 {
+    background-color:teal;
+}
+
+#box2 {
+    background-color:gold;
+}
+
+#box3 {
+    background-color:cadetblue;
+}
+
+#box4 {
+    background-color:coral;
+}
+
+#box5 {
+    background-color:crimson;
+}
+
+#box6 {
+    background-color:forestgreen;
+}
+
+#box7 {
+    background-color:darkorchid;
+}
+
+#box8 {
+    background-color:hotpink;
+}
+
+#box9 {
+    background-color:indigo;
+}
+
+#box10 {
+    background-color:dodgerblue;
+}
+
+
+/*ABOUT PAGE NAVBAR IS THE SAME-------------------------------------------------*/
+
+
+hr {
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.row {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.row1-1 {
+    display:flex;
+    flex-direction: column;
+    width:45%;
+
+}
+
+.title {
+    margin-top:30px;
+}
+
+.learn_more {
+    text-decoration: none;
+    color:black;
+    border:solid black 2px;
+    border-radius:5px;
+    width:30%;
+    display:flex;
+    justify-content:center;
+    padding:10px 0px;
+    margin-top:10px;
+}
+
+#move_footer {
+    margin-top:30px;
+}
+
+
