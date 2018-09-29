@@ -172,7 +172,12 @@ footer nav a {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 20px;
-      width: 90%;
+  }
+
+  /* About top-container */
+.about-top-container {
+    margin: 30px auto;
+    width: 95%;
   }
 
   .middle-content .boxes .box1 {
