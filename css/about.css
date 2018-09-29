@@ -74,6 +74,7 @@ p {
 .top-nav{
     display:flex;
     justify-content:space-between;
+    margin-top: 20px;
 }
 .top-nav a{
     text-decoration: none;
@@ -82,96 +83,57 @@ p {
     position:relative;
     top:25px;
     right:45px;
+
 }
 
 header{
-margin-top:30px;
-margin-bottom: 20px;
+margin-top:35px;
+margin-bottom: 10px;
 }
 
 .top-content {
     display: flex;
+    flex-flow: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom:10px;
+}
+.about-container{
+    padding: 2%;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.text-container{
+    margin-top: 15px;
 }
 
-.middle-content {
+.middle-section{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.box{
+    border-bottom: 2px dotted grey;
+    width:350px;
+    height:440px;
+    padding: 0%;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#box1{
-    background-color:teal;
-}
-#box2{
-    background-color:gold;
-}
-#box3{
-    background-color:cadetblue;
-}
-#box4{
-    background-color:coral;
-}
-#box5{
-    background-color:crimson;
-}
-#box6{
-    background-color:forestgreen;
-}
-#box7{
-    background-color:darkorchid;
-}
-#box8{
-    background-color:hotpink;
-}
-#box9{
-    background-color:indigo;
-}
-#box10{
-    background-color:dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    margin-top: 30px;
+    }
+button{
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 15px;
+    font-size: 17px;
+    margin-top: 5px;
+    position:relative;
+    top: 25px;
+    }    
+.bottom-section{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 2%;
 }
 
 footer {
