@@ -24,17 +24,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-.about-page {
-    width:800px;
-    margin: 0 auto;
-}
-
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -71,19 +66,6 @@ p {
     line-height: 1.4;
 }
 
-hr {
-    border-top: 2px dotted black;
-}
-
-button {
-    width: 30%;
-    border-radius: 8px;
-    border: 1px solid black;
-    background-color: white;
-    padding: 1% 3%;
-    margin: 1% 0 1% 0;
-}
-
 header {
     width: 800px;
     margin: 0 auto;
@@ -107,55 +89,12 @@ header img {
     margin-bottom: 3%;
 }
 
-.top-section {
-    width: 98%;
+.form {
+    width:50px;
     margin: 0 auto;
 }
 
-.top-section h1 {
-    margin: 0 1% 0 1.5%;
-}
 
-.top-section p {
-    margin: 1%;
-}
-
-.section-container {
-    width: 99%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.sub-section {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 2%;
-}
-
-.sub-section img {
-    margin: 1% 0 2% 0;
-}
-
-.sub-section hr {
-    border-top: 3px dotted black;
-    margin: 3% 0 3% 0;
-}
-
-.bottom-section {
-    width: 99%;
-    margin: 3% 0 3% 0;
-}
-
-.bottom-section h2 {
-    margin-left: 3%;
-}
-
-.bottom-section p {
-    margin-left: 3%;
-}
 
 footer {
     width: 100%;
