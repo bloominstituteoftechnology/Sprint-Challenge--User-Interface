@@ -12,39 +12,45 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -82,7 +88,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -145,115 +151,225 @@ footer nav a {
     text-decoration: none;
 }
 
-
 /* ABOUT PAGE CSS STUFFS ------------------------------------------------------*/
-
 
 /* NAVBAR ------------------------------*/
 nav {
-    display:flex;
-    margin-bottom:30px;
+    display: flex;
+    margin-bottom: 30px;
+    animation-name: moveFromTop;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
 }
 
 #logo {
-    display:flex;
+    display: flex;
 }
 
 .link {
-    flex-basis:15%;
-    display:flex;
+    flex-basis: 15%;
+    display: flex;
     justify-content: center;
-    align-items:flex-end;
+    align-items: flex-end;
     text-decoration: none;
-    color:black;
+    color: black;
+}
+
+.link:hover {
+    animation-name: fontChanger;
+    animation-iteration-count:infinite;
+    animation-duration:.1s;
 }
 
 /*BIG IMAGE -----------------------------*/
 #jumbo {
-    margin-bottom:30px;
+    margin-bottom: 30px;
+    animation-name:moveFromRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
-
 
 /*ALL THE BOXES ------------------------*/
 #box1 {
-    background-color:teal;
+    background-color: teal;
+    animation-name:moveFromLeft;
+    animation-duration:1s;
+    animation-iteration-count: 1;
 }
 
 #box2 {
-    background-color:gold;
+    background-color: gold;
+    animation-name:moveFromLeft;
+    animation-duration:1.2s;
+    animation-iteration-count: 1;
 }
 
 #box3 {
-    background-color:cadetblue;
+    background-color: cadetblue;
+    animation-name:moveFromLeft;
+    animation-duration:1.4s;
+    animation-iteration-count: 1;
 }
 
 #box4 {
-    background-color:coral;
+    background-color: coral;
+    animation-name:moveFromLeft;
+    animation-duration:1.6s;
+    animation-iteration-count: 1;
 }
 
 #box5 {
-    background-color:crimson;
+    background-color: crimson;
+    animation-name:moveFromLeft;
+    animation-duration:1.8s;
+    animation-iteration-count: 1;
 }
 
 #box6 {
-    background-color:forestgreen;
+    background-color: forestgreen;
+    animation-name:moveFromLeft;
+    animation-duration:1s;
+    animation-iteration-count: 1;
 }
 
 #box7 {
-    background-color:darkorchid;
+    background-color: darkorchid;
+    animation-name:moveFromLeft;
+    animation-duration:1.2s;
+    animation-iteration-count: 1;
 }
 
 #box8 {
-    background-color:hotpink;
+    background-color: hotpink;
+    animation-name:moveFromLeft;
+    animation-duration:1.4s;
+    animation-iteration-count: 1;
 }
 
 #box9 {
-    background-color:indigo;
+    background-color: indigo;
+    animation-name:moveFromLeft;
+    animation-duration:1.6s;
+    animation-iteration-count: 1;
 }
 
 #box10 {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
+    animation-name:moveFromLeft;
+    animation-duration:1.8s;
+    animation-iteration-count: 1;
 }
-
 
 /*ABOUT PAGE NAVBAR IS THE SAME-------------------------------------------------*/
 
-
 hr {
     margin-bottom: 30px;
-    margin-top:30px;
+    margin-top: 30px;
 }
+
 .row {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
 }
 
 .row1-1 {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width:45%;
+    width: 45%;
 
 }
 
 .title {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .learn_more {
     text-decoration: none;
-    color:black;
-    border:solid black 2px;
-    border-radius:5px;
-    width:30%;
-    display:flex;
-    justify-content:center;
-    padding:10px 0px;
-    margin-top:10px;
+    color: black;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-top: 10px;
 }
 
 #move_footer {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
+/*ANIMATIONS AND OTHER STUFF------------------------------------------------------------------------*/
 
+@keyframes fontChanger {
+    20% {
+        font-family: Times;
+    }
+    40% {
+        font-family: serif;
+    }
+    60% {
+        font-family: serif;
+    }
+    80% {
+        font-family: Monospace;
+    }
+    100% {
+        font-family: Arial;
+    }
+}
+
+@keyframes moveFromLeft {
+    0% {
+        transform: translate(-1000%,0);
+    }
+    
+    100% {
+        transform: translate(0%, 0);
+    }
+}
+
+@keyframes moveFromTop {
+    0% {
+        transform: translate(0,-1000%);
+    }
+    
+    100% {
+        transform: translate(0,0%);
+    }
+}
+
+@keyframes moveFromRight {
+    0% {
+        transform: translate(1000%,0);
+    }
+
+    100% {
+        transform: translate(0%, 0);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale3d(0.1, 0.5, 0.2);
+    }
+
+    20% {
+        transform: scale3d(1.6, 1.6, 1.8);
+    }
+
+    40% {
+        transform: scale3d(.5, 0.7, 1);
+    }
+
+    60% {
+        transform: scale3d(1.2, 1.4, 1.3);
+    }
+
+    80% {
+        transform: scale3d(0.98, 0.96, 0.95);
+    }
+}
