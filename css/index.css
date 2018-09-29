@@ -209,3 +209,24 @@ header nav a {
 .border-bottom {
     border-bottom: 1px dashed black;
 }
+
+article {
+    padding: 0 0 0 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+article section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%
+}
+button {
+    padding: 5px 10px;
+    margin: 20px 0; 
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
