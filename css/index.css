@@ -219,3 +219,42 @@ footer nav a {
   .middle-content .boxes .box10 {
     background-color: dodgerblue;
   }
+
+  hr {
+    border: 0;
+    border-bottom: 2px dashed black;
+}
+
+.about-main-container {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: space-evenly;
+  }
+
+  .divbox-about-box {
+    margin: 20px;
+  }
+
+  .divbox-about-box h1 {
+      margin: 10px;
+  }
+
+  .about-main-container p {
+    width: 400px;
+    margin: 25px 0px;
+  }
+
+  .about-main-container .learn-more-btn {
+    text-decoration: none;
+    text-decoration-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .divbox-about-box hr {
+    border: 0;
+    border-bottom: 2px dashed black;
+    padding: 10px;
+}
