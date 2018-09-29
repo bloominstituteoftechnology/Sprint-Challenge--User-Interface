@@ -159,6 +159,7 @@ footer nav a {
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+    margin-left: 30px;
   }
   
   .menu {
@@ -271,3 +272,24 @@ footer nav a {
     margin: 20px auto;
     justify-content: space-evenly;
 }
+
+@keyframes colorchange {
+    0% { background: white }
+    100% { background: black }
+    0% {color: black}
+    100% {color: white}
+  }
+  
+  .about-main-container .learn-more-btn:hover {
+    background: black;
+    color: white;
+    animation: colorchange 2s;
+  }
+
+.bottom-menu-container nav a:hover {
+    color: lightseagreen;
+}
+
+.menu:hover {
+    color: lightseagreen;
+  }
