@@ -163,6 +163,11 @@ p {
     margin: 0 auto;
 }
 
+/* UNIVERSAL SELECTOR */
+* {
+    box-sizing: border-box;
+}
+
 /* Header Section */
 .container header {
     margin-bottom: 20px;
@@ -345,6 +350,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 30px;
 }
 
 footer nav {
@@ -366,15 +372,71 @@ footer nav a {
     margin-bottom: 25px;
 }
 
-.container .second-content .second {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 10px;
+.container .content .content-container {
+    margin-top: 25px;
     border-top: 1px dashed black;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.container .second-content .second img {
-    margin-top: 15px;
+.container .content .content-container h2 {
+    margin-top: 10px;
+}
+
+.container .content .content-container .strategy {
+    width: 300px;
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.container .content .content-container .work {
+    width: 300px;
+    margin-left: 130px;
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.container .content .content-container .places {
+    width: 300px;
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.container .content .content-container .collaboration {
+    width: 300px;
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+    margin-left: 130px;
+}
+
+.container .content button {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container .together {
+    margin-top: 60px;
+}
+
+.container .together h2 {
+    margin-top: 20px;
 }
