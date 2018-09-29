@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, article {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -210,6 +210,29 @@ img.jumbo{
 .contact form a{
     align-self: flex-start;
 }
+
+section.blog-section{
+    margin: 100px 0px;
+}
+
+section.blog-section article{
+    margin: 25px 0px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+section.blog-section article section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+section.blog-section article section p{
+    margin: 10px 0px;
+}
+
+
+
 
 .bottom-content {
     display: flex;
