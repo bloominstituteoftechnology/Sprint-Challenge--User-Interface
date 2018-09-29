@@ -181,7 +181,7 @@ header nav a {
 
 .lambdaLogo {
 	display: block;
-	position: fixed;
+	position: absolute;
 	margin: -46px 0 0 0;
 }
 
