@@ -164,7 +164,11 @@ header nav a {
 	width: 80%;
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	align-items: flex-end;
+}
+
+.top-content {
+	margin-top: 20px;
 }
 
 #box-1 {
