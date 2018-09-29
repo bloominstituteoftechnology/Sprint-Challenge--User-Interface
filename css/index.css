@@ -201,3 +201,11 @@ header nav a {
 .jumbo {
     padding: 20px 0px;
 }
+
+.about {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.border-bottom {
+    border-bottom: 1px dashed black;
+}
