@@ -100,36 +100,39 @@ nav {
     border-bottom: 1px dashed black;
 }
 
-/*-----------------------------------------Top Two Boxes*/
+/*-----------------------------------------BOXES*/
 article {
-    width: 600px;
+    width: 650px;
 }
-section {
+.boxes {
     display: flex;
     justify-content: flex-start;
     align-items: space-around; 
+    height: 450px;
 }
 
-section div {
+.boxes div {
     margin: 10px;
+    border-bottom: 1px dashed black;
 }
 
-section div img {
+.boxes div img {
     padding-bottom: 10px;
 }
-section div p {
+.boxes div p {
     padding: 10px 0 20px;
 }
 
 .button {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     padding: 5px 20px;
-    box-shadow: 2px 1px black;
 }
 
-
-
+/*-------------------------------------------Bottom Content*/
+.together {
+    padding: 40px 10px;
+}
 
 /*--------------------------------------------------Footer and Bottom NAV*/
 footer {
