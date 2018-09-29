@@ -71,16 +71,20 @@ p {
     margin: 0 auto;
 }
 
-nav .index-nav{
+nav.index-nav{
     display: flex;
     justify-content:space-between;
 }
 
-nav .index-nav a:link{
+nav.index-nav a:link{
     margin-left: -10px;
     position: relative;
     top:25px;
     text-decoration: none;
+    color:black;
+}
+
+nav.index-nav a:visited{
     color:black;
 }
 img.jumbotron{
