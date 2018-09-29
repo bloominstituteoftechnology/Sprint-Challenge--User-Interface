@@ -91,5 +91,62 @@ nav {
     padding-bottom: 40px;
 }
 
+.header-img {
+    padding-bottom: 20px;
+}
+
+.about {
+    padding: 0 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+/*-----------------------------------------Top Two Boxes*/
+article {
+    width: 600px;
+}
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-around; 
+}
+
+section div {
+    margin: 10px;
+}
+
+section div img {
+    padding-bottom: 10px;
+}
+section div p {
+    padding: 10px 0 20px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    box-shadow: 2px 1px black;
+}
 
 
+
+
+/*--------------------------------------------------Footer and Bottom NAV*/
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
