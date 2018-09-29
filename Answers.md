@@ -4,7 +4,7 @@ Html are the building blocks of your webpage. It provides structure such as bloc
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
-display inling takes up an entire row and block allows for a width to be assigned and the block allows for customization and position minipulation. 
+display inline takes up an entire row and block allows for a width to be assigned and the block allows for customization and position minipulation. 
 
 
 3. What are the 4 areas of the box model?
