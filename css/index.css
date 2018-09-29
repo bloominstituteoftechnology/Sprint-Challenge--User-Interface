@@ -182,17 +182,22 @@ footer nav a {
 header {
     display: flex;
     justify-content: flex-start;
-    align-content: flex-end;
+    align-content: center;
     padding: 20px 0;
 }
 header nav {
     display: flex;
     height: 100%;
     width: 100%;
-    align-content: center;
+    padding-top: 20px;
+    align-content: center; 
     justify-content: space-around;
 }
 header nav a {
     color: black;
+    text-decoration: none;
 }
 
+.jumbo {
+    padding: 20px 0px;
+}
