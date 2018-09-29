@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -144,3 +144,152 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Menu */
+.top-menu-container {
+    display: flex;
+    width: 90%;
+    margin: 25px auto;
+  }
+  
+  .nav-container {
+    display: flex;
+    width: 600px;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 30px;
+  }
+  
+  .menu {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* main image */
+  .main-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      width: 90%;
+  }
+
+  /* About top-container */
+.about-top-container {
+    margin: 30px auto;
+    width: 100%;
+  }
+
+  .middle-content .boxes .box1 {
+    background-color: teal;
+  }
+  
+  .middle-content .boxes .box2 {
+    background-color: gold;
+  }
+  
+  .middle-content .boxes .box3 {
+    background-color: cadetblue;
+  }
+  
+  .middle-content .boxes .box4 {
+    background-color: coral;
+  }
+  
+  .middle-content .boxes .box5 {
+    background-color: crimson;
+  }
+  
+  .middle-content .boxes .box6 {
+    background-color: forestgreen;
+  }
+  
+  .middle-content .boxes .box7 {
+    background-color: darkorchid;
+  }
+  
+  .middle-content .boxes .box8 {
+    background-color: hotpink;
+  }
+  
+  .middle-content .boxes .box9 {
+    background-color: indigo;
+  }
+  
+  .middle-content .boxes .box10 {
+    background-color: dodgerblue;
+  }
+
+  hr {
+    border: 0;
+    border-bottom: 2px dashed black;
+}
+
+.about-main-container {
+    display: flex;
+    width: 99%;
+    margin: 10px auto;
+    justify-content: space-between;
+  }
+
+  .divbox-about-box {
+    margin: 20px;
+  }
+
+  .divbox-about-box h1 {
+      margin: 10px;
+  }
+
+  .about-main-container p {
+    width: 400px;
+    margin: 25px 0px;
+  }
+
+  .about-main-container .learn-more-btn {
+    text-decoration: none;
+    text-decoration-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .about-main-container .learn-more-btn:link {
+    color: black;
+  }
+
+  .divbox-about-box hr {
+    border: 0;
+    border-bottom: 2px dashed black;
+    padding: 10px;
+}
+
+/* bottom-container */
+.bottom-container {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+
+@keyframes colorchange {
+    0% { background: white }
+    100% { background: black }
+    0% {color: black}
+    100% {color: white}
+  }
+  
+  .about-main-container .learn-more-btn:hover {
+    background: black;
+    color: white;
+    animation: colorchange 2s;
+  }
+
+.bottom-menu-container nav a:hover {
+    color: lightseagreen;
+}
+
+.menu:hover {
+    color: lightseagreen;
+  }
