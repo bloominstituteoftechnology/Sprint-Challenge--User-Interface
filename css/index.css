@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, article {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -66,6 +66,41 @@ p {
     line-height: 1.4;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+a.button{
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+hr{
+    border: 1px dashed black;
+    margin: 30px 0px;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-start;
+    /* aligns all the text by the base */
+    align-items: baseline;
+}
+/* all the list elements not the logo */
+header ul li:not(:nth-of-type(1)){
+    padding-left: 70px;
+    transition: transform 500ms;
+    text-align: center;
+}
+header ul li:not(:nth-of-type(1)):hover{
+    transform: scale(1.1,1.1);
+}
+
+img.jumbo{
+    margin: 30px 0px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +147,97 @@ p {
     justify-content: center;
 }
 
+/* changing boxes color */
+.middle-content .boxes .box:nth-of-type(1){
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-of-type(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-of-type(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-of-type(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-of-type(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9){
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-of-type(10){
+    background-color: dodgerblue;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.about-section .about-boxes{
+    flex-basis: 50%;
+}
+
+.about-section .about-boxes h2{
+    margin: 10px 0px;
+}
+.about-section .about-boxes p{
+    margin-bottom: 30px;
+}
+
+.about-section .about-boxes hr{
+    width: 92%;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+.contact form input {
+    align-self: flex-start;
+}
+
+.contact form a{
+    align-self: flex-start;
+}
+
+section.blog-section{
+    margin: 100px 0px;
+}
+
+section.blog-section article{
+    margin: 25px 0px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+section.blog-section article section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+section.blog-section article section p{
+    margin: 10px 0px;
+}
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +270,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* animations */
