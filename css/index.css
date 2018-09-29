@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -67,7 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
+		max-width: 800px;
     margin: 0 auto;
 }
 
@@ -82,7 +83,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +144,155 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+
+nav {
+	width:680px;
+	display: flex;
+	margin: 10px;
+	justify-content:space-evenly;
+	align-items:flex-end;
+}
+
+header nav a {
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+.lambda-logo {
+	margin: 0 auto;
+}
+
+.jumbo-img {
+	margin: 25px 0 20px 0;
+}
+
+.boxes {
+	display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-1 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: teal;
+}
+.box-2 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: gold;
+}
+
+.box-3 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: cadetblue;
+}
+
+.box-4 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: coral;
+}
+
+.box-5 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: crimson;
+}
+
+.box-6 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: forestgreen;
+}
+
+.box-7 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: darkorchid;
+}
+
+.box-8 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: hotpink;
+}
+
+.box-9 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: indigo;
+}
+
+.box-10 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: dodgerblue;
+}
+
+.box {
+
+    width:100px;
+    height: 100px;
+    margin: 20px 3.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
