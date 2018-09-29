@@ -76,6 +76,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -143,4 +144,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*  My CSS  */
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	color: gray;
+
+}
+.top-nav ul{
+	padding-top: 22px;
+    list-style: none;
+}
+.top-nav li{
+	display: inline;
+    padding-right: 70px;
+}
+
+.top-nav a:link, .top-nav a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav a:hover{
+    color: lightgray;
 }
