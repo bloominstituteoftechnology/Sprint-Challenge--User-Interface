@@ -253,3 +253,11 @@ button {
 .b-border h2 {
     padding-top: 10px;
 }
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
