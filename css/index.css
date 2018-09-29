@@ -199,6 +199,42 @@ header nav a{
     padding-right: 0;
 }
 
+.about-info{
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+hr{
+	border-bottom: 1px dashed #000;
+}
+
+.strategy_collection{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.strategy{
+	width: 48%;
+}
+
+.strategy hr{
+	width: 95%;
+}
+
+.strategy button{
+	font-size: 12px;
+	border: 1.5px solid black;
+	border-radius: 8px;
+	margin: 10px 0px;
+	padding: 5px 15px;
+}
+
+.about_bottom{
+	margin: 30px 0px;
+}
+
 footer {
     width: 100%;
     background: black;
