@@ -219,3 +219,44 @@ header nav a {
 #box10 {
     background-color: dodgerblue;
 }
+
+.about {
+    /* background: forestgreen; */
+    border-bottom: 2px dashed black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.aboutmaincontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* border-bottom: 1px dashed black; */
+}
+
+.aboutbox {
+    width: 45%;
+    /* margin: 2.5%; */
+    border-bottom: 2px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+button {
+	background: white;
+	border: 2px solid black;
+	font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.prefooter {
+    margin-bottom: 50px;
+}
+
+.aboutimg {
+    margin-bottom: 10px;
+}
