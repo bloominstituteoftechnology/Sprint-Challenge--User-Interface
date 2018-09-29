@@ -71,12 +71,12 @@ p {
     margin: 0 auto;
 }
 
-nav{
+nav .index-nav{
     display: flex;
     justify-content:space-between;
 }
 
-nav a:link{
+nav .index-nav a:link{
     margin-left: -10px;
     position: relative;
     top:25px;
