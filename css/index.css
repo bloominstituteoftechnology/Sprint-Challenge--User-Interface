@@ -70,24 +70,24 @@ section.about-page-stuff {
     align-items: center;
     width: 100%;
     margin: 10px;
-    padding: 10px 20px;
+    padding: 10px 0;
 
 }
 
 div.blurb{
 	display: flex;
-    align-items: center;
+    align-items: left;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 40%;
-    margin: 20px;
-    padding: 30px 30px;
+    width: 50%;
+    padding: 30px 0px;
 
 }
 
 .learn-more{
-    border: 1px solid black;
-    padding: 5px 30px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
 section.jumbo {
