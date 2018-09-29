@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    margin: 15px 0;
+    align-items: flex-end;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 642px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin: 15px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
