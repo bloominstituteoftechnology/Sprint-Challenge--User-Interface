@@ -250,6 +250,47 @@ footer nav a {
     margin: 20px;
 }
 
+/* contact page css */
+/* FORM STYLES */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    animation: slideInLeft 1s linear;
+}
+
+.contact form .field {
+    margin: 10px;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #1c2663;
+}
+
+.contact form button {
+    background: #1c2663;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 30%;
+    align-self: center;
+}
+
+.contact form button:hover {
+    color:#f9d541;
+}
+
+.contact h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 /* animations */
 @keyframes slideInDown {
     from {
@@ -295,5 +336,18 @@ footer nav a {
     90% {
         -webkit-transform: translate3d(0, -4px, 0);
         transform: translate3d(0, -4px, 0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
 }
