@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+a:hover{
+    color:white;
+    font-size:25px;
+}
+nav img.logo{
+    position: relative;
+    top:5px;
+}
+button:hover{
+    border:2px solid teal;
+    box-shadow: 0px 2px 5px 0px rgba(0,128,128,0.53);
+}
 nav.index-nav{
     display: flex;
     justify-content:space-between;
@@ -129,6 +141,11 @@ img.jumbotron{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:hover{
+    width:15%;
+    height: 110px;
 }
 
 .middle-content .boxes .box:nth-child(1){
@@ -202,3 +219,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+

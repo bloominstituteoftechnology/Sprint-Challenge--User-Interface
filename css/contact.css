@@ -158,105 +158,28 @@ p {
     line-height: 1.4;
 }
 
-.container.about-page {
+div.container .contact{
+    display: flex;
+}
+header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-
+    align-items: center;
+    margin: 50px 0px;
 }
 
-nav {
+form{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0px;
 }
 
-nav img.logo-about{
-    position: relative;
-    top:-20px;
-}
-
-section.about {
-    margin: 25px 0px;
-    border-bottom: dashed 1px black;
-}
-
-section.about img {
-    margin-bottom: 25px;
-}
-
-section.about p {
-    margin-bottom: 25px;
-}
-
-section.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.about-plan,
-.working,
-.about-office,
-.about-meeting{
-    width: 48%;
-    margin-bottom: 40px;
-    border-bottom: dashed 1px black;
-}
-
-.about-plan p{
-    margin-bottom: 15px;
-}
-
-.working p{
-    margin-bottom: 15px;
-}
-
-.about-office p{
-    margin-bottom: 15px;
-}
-
-.about-meeting p{
-    margin-bottom: 15px;
-}
-.about-plan button{
-    margin-bottom: 25px;
-}
-
-.working button{
-    margin-bottom: 25px;
-}
-
-.about-office button{
-    margin-bottom: 25px;
-}
-
-.about-meeting button{
-    margin-bottom: 25px;
-}
-
-button{
+input{
+    height: 25px;
     border-radius: 5px;
-    border: 1.5px solid black;
-    background: white;
-    height:30px;
-    width:100px;
-    font-weight: 550;
 }
+input:hover{
 
-section.work-together{
-    margin-bottom:30px;
-}
-
-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-footer nav{
-    position: relative;
-    color:white;
+    box-shadow: 0px 2px 5px 0px rgba(0,128,128,0.53);
 }
