@@ -1,0 +1,43 @@
+/* TOP */
+.aboutIMG{
+  padding: 20px 0;
+}
+
+.top{
+  border-bottom: 1px dashed black;
+  padding: 5px 10px 15px 10px;
+}
+
+/* MIDDLE */
+.row{
+  width: 100%;
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+  .card{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+  }
+
+    .card h2{padding-top: 10px;}
+    .card p{padding-bottom: 25px;}
+    .card a{
+      border: 2px solid black;
+      border-radius: 7px;
+      padding: 5px 15px;
+      text-decoration: none;
+      color: black;
+      transition: 0.2s;
+    }
+    .card a:hover{
+      background-color: black;
+      color: white;
+    }
+  
+/* BOTTOM */
+.bottom{
+  padding: 30px 0;
+}
