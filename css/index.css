@@ -195,6 +195,22 @@ img.jumbo{
     width: 92%;
 }
 
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+.contact form input {
+    align-self: flex-start;
+}
+
+.contact form a{
+    align-self: flex-start;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
