@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-start;
+    /* aligns all the text by the base */
+    align-items: baseline;
+}
+/* all the list elements not the logo */
+header ul li:not(:nth-of-type(1)){
+    padding-left: 70px;
+}
+
+
+img.jumbo{
+    margin: 30px 0px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -110,6 +131,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* changing boxes color */
+.middle-content .boxes .box:nth-of-type(1){
+    background-color: teal;
 }
 
 .bottom-content {
