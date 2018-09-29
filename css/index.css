@@ -66,6 +66,30 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 2.5% 0 3.5% 0;
+}
+
+nav a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    margin-bottom: 3%;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +128,60 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one {
+    background-color: teal;
+    color: white;
+}
+
+#two {
+    background-color: gold;
+    color: white;
+}
+
+#three {
+    background-color: cadetblue;
+    color: white;
+}
+
+#four {
+    background-color: coral;
+    color: white;
+}
+
+#five {
+    background-color: crimson;
+    color: white;
+}
+
+#six {
+    background-color: forestgreen;
+    color: white;
+}
+
+#seven {
+    background-color: darkorchid;
+    color: white;
+}
+
+#eight {
+    background-color: hotpink;
+    color: white;
+}
+
+#nine {
+    background-color: indigo;
+    color: white;
+}
+
+#ten {
+    background-color: dodgerblue;
+    color: white;
 }
 
 .bottom-content {
