@@ -90,8 +90,12 @@ header ul{
 /* all the list elements not the logo */
 header ul li:not(:nth-of-type(1)){
     padding-left: 70px;
+    transition: transform 500ms;
+    text-align: center;
 }
-
+header ul li:not(:nth-of-type(1)):hover{
+    transform: scale(1.1,1.1);
+}
 
 img.jumbo{
     margin: 30px 0px;
@@ -266,3 +270,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* animations */
