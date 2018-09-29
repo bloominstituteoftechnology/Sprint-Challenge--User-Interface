@@ -211,6 +211,27 @@ Navigation Bar
 .navigation a {
 	color: black;
 	text-decoration: none;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 5px 12px;
+}
+
+.navigation a:hover {
+	animation: grow .5s ease-in-out 1 forwards;
+}
+
+@keyframes grow {
+	0% {
+		font-size: 16px;
+		background-color: rgba(0, 0, 0, 0);
+		color: black;
+	}
+
+	100% {
+		font-size: 24px;
+		background-color: rgba(0, 0, 0, .8);
+		color: white;
+	}
 }
 
 /*
