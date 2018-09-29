@@ -206,6 +206,32 @@ header nav a {
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+.contact {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+input {
+    width: 75%;
+    margin: 20px 0;
+}
+textarea {
+    width: 75%;
+    margin: 20px 0;
+}
+.contact-btn {
+    width: 25%;
+}
 .border-bottom {
     border-bottom: 1px dashed black;
 }
@@ -229,4 +255,20 @@ button {
     background-color: white;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+.grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.grow:hover,
+.grow:focus,
+.grow:active {
+    transform: scale(1.2);
 }
