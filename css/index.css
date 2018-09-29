@@ -110,7 +110,42 @@ nav {
     padding-bottom: 20px;  
 }
 
+
+
+/*-----------------------------------------------BOX COLORS*/
+#one {
+    background: teal;
+}
+#two {
+    background: gold;
+}
+#three {
+    background: cadetblue;
+}
+#four {
+    background: coral;
+}
+#five {
+    background: crimson;
+}
+#six {
+    background: forestgreen;
+}
+#seven {
+    background: darkorchid;
+}
+#eight {
+    background: hotpink;
+}
+#nine {
+    background: indigo;
+}
+#ten {
+    background: dodgerblue;
+}
+
 /*-------------------------------------------Middle and Boxes*/
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -130,13 +165,13 @@ nav {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 /*------------------------------------------------Bottom Content*/
 .bottom-content {
