@@ -139,14 +139,46 @@ nav a{
 }
 
 .middle-content .boxes .box {
+    flex-wrap: nowrap;
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxes-about{
+width: 400px;
+}
+
+.boxes-individual{
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    margin: 10px 10px 60px;
+    /* background-color: whitesmoke; */
+    border-bottom: 1px dashed black;
+}
+
+/* .middle-content img{
+    width: 330px;
+} */
+
+button {
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 20px;
+    border: solid 2px black;
+    /* border-bottom: solid 2px lightgrey; */
+    background: white;
+    margin: 17px 0;
 }
 
 .box1{
@@ -202,6 +234,10 @@ nav a{
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content .about-text-container{
+    margin-bottom: 30px;
 }
 
 footer {
