@@ -233,7 +233,7 @@ About Page
 .all-tiles {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -245,4 +245,23 @@ About Page
 	margin-bottom: 2em;
 	padding-bottom: 1em;
 	border-bottom: 1px dotted grey;
+}
+
+.tile h2 {
+	margin-top: 1em;
+}
+
+.tile a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid black;
+	width: 35%;
+	padding: 10px 0;
+	border-radius: 10px;
+	margin-top: 1em;
+}
+
+.closing {
+	margin-bottom: 2em;
 }
