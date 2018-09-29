@@ -157,3 +157,45 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*---------------------------------------------------Media Queries*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header, footer {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .headline-img {
+        width: 100px;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
