@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,9 +66,46 @@ p {
     line-height: 1.4;
 }
 
+header{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.logo{
+	display: inline-block;
+	margin-top: 0px;
+}
+
+header{
+	display: flex;
+	padding: 20px 0px;
+	justify-content: space-between;
+}
+
+header nav {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+header nav a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.jumbo{
+	display: block;
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+		padding-top: 15px;
 }
 
 .top-content {
@@ -82,7 +119,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +147,42 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1){
+	background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+	background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+	background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+	background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+	background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+	background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+	background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+	background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+	background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+	background: dodgerblue;
 }
 
 .bottom-content {
