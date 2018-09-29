@@ -1,4 +1,4 @@
-1. If you had to describe semantic HTML to the next cohort of students, what would you say?
+1. If you had to describe semantic HTML to the next cohort of students, what would you say?     >My answer to this question would have to be that semantic HTML is used to describe different portions of your website in a clear and concise manner so that the next developer can be aware of what you were trying to do when they get their hands on yourt code, and to optimize for things like SEO and other browser based features.
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
