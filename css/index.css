@@ -149,6 +149,7 @@ footer nav a {
     width: 850px;
     margin: 0 auto;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-between; 
     padding: 20px;
 }
@@ -157,6 +158,14 @@ a{
     color: grey;
     text-decoration: none;
    align-items: center;
+=======
+    justify-content: space-around;
+   
+}
+a{
+    color: grey;
+    text-decoration: none;
+>>>>>>> d3533a5955a118296e161ff09858c4496506e17f
     
 }
 .logo1{
@@ -200,6 +209,7 @@ background-color: teal;
 hr{
     border-top: 1px dashed black;
 }
+<<<<<<< HEAD
 .topPart{
 	display: flex;
 width: 800px;   
@@ -215,6 +225,21 @@ border-bottom: 1px black dashed;
 margin: 20px;
 height: 400px;
 
+=======
+.parent1{
+	display: flex;
+width: 850px;
+	flex-wrap: wrap;
+	padding: 20px;
+
+}
+.child{
+display: flex;
+flex-direction: column;
+width: 43%;
+border-bottom: 1px black dashed;
+margin: 5px 20px;
+>>>>>>> d3533a5955a118296e161ff09858c4496506e17f
 }
 button{
     margin: 10px;
@@ -226,6 +251,7 @@ button{
 h4{
     padding: 10px; 
 }
+<<<<<<< HEAD
 .HeaderPart{
 padding: 20px;
 }
@@ -233,3 +259,8 @@ padding: 20px;
 {
     padding: 20px;
 }
+=======
+.parent2{
+padding: 20px;
+}
+>>>>>>> d3533a5955a118296e161ff09858c4496506e17f
