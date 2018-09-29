@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    display: block;
+    padding-top: 27px;
+    font-size: 13px;
+    color: black;
+}
+
+.top-content img {
+    margin: 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +129,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
