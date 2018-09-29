@@ -74,6 +74,13 @@ button {
     height: 30px;
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -99,8 +106,12 @@ header nav a {
 
 header img {
     padding-bottom: 20px;
+    max-width: 100%;
 }
 
+header .banner {
+    animation: fadeIn 4s;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -247,6 +258,7 @@ footer nav a {
 }
 
 /* Contact Page */
+
 .contact-desc-container {
     display: flex;
     align-items: center;
@@ -264,4 +276,35 @@ footer nav a {
 
 .contact-desc-container p {
     padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .top-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .middle-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-content .boxes .box {
+        width: 100px;
+    }
+    .bottom-content {
+        flex-direction: column;
+    }
+    .bottom-content > * {
+        width: 90%;
+        text-align: center;
+        padding: 50px 0;
+    }
 }
