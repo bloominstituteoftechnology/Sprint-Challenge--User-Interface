@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,87 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 0 0 0;
+}
+.nav-bar img{
+    margin: 20px 0 20px 0px;
+}
+.nav-bar a{
+    text-decoration: none;
+    margin: 40px 0 0 0;
+    color: black;
+}
+.jumbo{
+    margin: 25px 0 25px 0;
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}.box10{
+    background-color: dodgerblue;
+}
+.mid-about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    border-top: 1px dotted black;
+    width: 800px;
+}
+.mid-about-content .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    width: 45%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin: 20px 0 20px 0;
+    border-bottom: 2px dotted lightgray;  
+}
+.text-container button{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    margin-top:  20px;
+}
+.text-container h2{
+    margin-top: 20px;
+}
+.about-bottom{
+    width: 800px;
+    margin: auto;
+    padding-left: 45px;
+    margin-bottom: 45px;
 }
