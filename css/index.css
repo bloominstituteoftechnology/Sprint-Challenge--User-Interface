@@ -79,7 +79,7 @@ p {
 .container-contact-page {
      width: 95%;
     margin: 0 auto;
-    height:120%;
+    height:100%;
     background-color:#D3CCE3;
 }
 .container-contact-page .content {
@@ -173,10 +173,11 @@ font-style: oblique;
     margin-bottom:3%;
 }
 .about-page-content .box {
-    padding: 40px;
-    width: 47%;
+    padding: 30px;
+    width: 49%;
     background: white;
-    margin: 20px 0;
+    margin-top:10px;
+    margin-left:10px;
     border-bottom:1px dashed black;
 }
 .about-page-content .box button {
@@ -228,10 +229,12 @@ font-style: oblique;
     margin-left:2%;
 }
 
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -239,7 +242,6 @@ font-style: oblique;
     justify-content: center;
     
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
