@@ -220,6 +220,47 @@ header nav a {
     background-color: dodgerblue;
 }
 
+.about {
+    /* background: forestgreen; */
+    border-bottom: 2px dashed black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.aboutmaincontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* border-bottom: 1px dashed black; */
+}
+
+.aboutbox {
+    width: 45%;
+    /* margin: 2.5%; */
+    border-bottom: 2px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+button {
+	background: white;
+	border: 2px solid black;
+	font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.prefooter {
+    margin-bottom: 50px;
+}
+
+.aboutimg {
+    margin-bottom: 10px;
+}
+
 body {
     animation-name: pulse;
     animation-duration: 5s;
@@ -230,4 +271,44 @@ body {
 @keyframes pulse {
     from {background-color: white;}
     to {background-color: #C5C6C7;}
+}
+
+.formbox {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#message {
+    height: 200px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+#fname {
+    width: 400px;
+}
+
+#lname {
+    width: 400px;
+}
+
+input[type=text] {
+    width: 400px;
+    padding-left: 5px;
+}
+
+input[type=submit] {
+    background-color: #66FCF1;
+    border-radius:5px;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    
+}
+
+label {
+    margin-bottom: 5px;
 }
