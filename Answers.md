@@ -12,7 +12,8 @@
     inline elements can affect the horizontal flow, but not the vertical flow
     other elements, i.e. setting a bottom or top margin on an inline element
     will not cause the text below or above to be positioned any farther away
-    than it already would in the normal flow of the page.
+    than it already would in the normal flow of the page.  Styling block
+    elements will affect the positioning of other elements around it.
 
 
 3. What are the 4 areas of the box model?
