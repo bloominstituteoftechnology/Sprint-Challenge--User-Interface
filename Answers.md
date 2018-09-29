@@ -2,7 +2,7 @@
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.  >A block takes up an entire width of the page unless specified other wise, where as an `inline` element is inline with other elements on the same line. These elements do not respect the height and width set to it, amongst other things. 
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? >Content, Padding, Border, Margin
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
