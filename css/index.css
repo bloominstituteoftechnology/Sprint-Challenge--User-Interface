@@ -158,23 +158,24 @@ footer nav a {
     background-color: cadetblue;
 } 
 .boxes .box:nth-child(4) {
-    background-color: crimson;
+    background-color: coral;
 } 
 .boxes .box:nth-child(5) {
-    background-color: teal;
+    background-color: crimson;
 } 
 .boxes .box:nth-child(6) {
-    background-color: teal;
+    background-color: forestgreen;
 } 
 .boxes .box:nth-child(7) {
-    background-color: teal;
+    background-color: darkorchid;
 } 
 .boxes .box:nth-child(8) {
-    background-color: teal;
+    background-color: hotpink;
 } 
 .boxes .box:nth-child(9) {
-    background-color: teal;
+    background-color: indigo;
 } 
 .boxes .box:nth-child(10) {
-    background-color: teal;
+    background-color: dodgerblue;
 } 
+
