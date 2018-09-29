@@ -78,6 +78,10 @@ p {
     margin-top: 10px;
 }
 
+.nav a:hover {
+    background: grey;
+}
+
 .nav a:link {
 	text-decoration: none;
 	color: black;
@@ -237,4 +241,10 @@ footer nav a {
 .working-together {
     
     margin: 40px 15px;
+}
+
+/* Contact us Page*/
+
+.map {
+    border: 1px solid black;
 }
