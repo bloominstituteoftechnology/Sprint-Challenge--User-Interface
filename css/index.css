@@ -163,6 +163,9 @@ font-style: oblique;
     flex-wrap: wrap;
     justify-content: space-between;
     line-height: 2;
+    margin-left:3%;
+     align-items: center;
+     margin-bottom:3%;
 }
 .about {
     border-bottom:1px dashed black;
@@ -173,11 +176,10 @@ font-style: oblique;
     margin-bottom:3%;
 }
 .about-page-content .box {
-    padding: 30px;
-    width: 49%;
+    padding: 70px;
+    width: 40%;
     background: white;
     margin-top:10px;
-    margin-left:10px;
     border-bottom:1px dashed black;
 }
 .about-page-content .box button {
