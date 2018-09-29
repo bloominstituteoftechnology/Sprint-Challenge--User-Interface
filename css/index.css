@@ -71,11 +71,49 @@ p {
     margin: 0 auto;
 }
 
+/*
+    HEADER DECLARATIONS
+*/
+
+header{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    margin:15px 0;
+}
+
+nav a{
+    justify-content: space-around;
+    margin: 30px;
+}
+
+header img{
+ 
+}
+
+.headerBanner{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-self: flex-end;
+    align-content: flex-end; */
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -133,10 +171,12 @@ footer {
 
 footer nav {
     width: 60%;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    margin: 2px 0;
+    padding: 2px 2%;
     font-size: 14px;
 }
 
