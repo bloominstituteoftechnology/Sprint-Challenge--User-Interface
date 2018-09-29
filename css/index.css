@@ -66,6 +66,27 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    animation: slideInDown 1s linear;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:last-child {
+    margin-right: 30px; 
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +133,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +204,150 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page css */
+
+.about-page .top-content {
+    justify-content: flex-start;
+}
+
+.about-page .top-content .text-container {
+    width: 100%;
+}
+
+.about-page .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-content .about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 45%;
+}
+
+.about-content .about img {
+    margin-bottom: 20px;
+}
+
+.about-content .about button {
+    padding: 3px 20px;
+    margin: 20px;
+    margin-left: 0px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.about-content .about button:hover {
+    background-color: black;
+    color: grey;
+    animation: bounce 1s linear;
+}
+
+.about-page .bottom-about {
+    margin: 20px;
+}
+
+/* contact page css */
+/* FORM STYLES */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    animation: slideInLeft 1s linear;
+}
+
+.contact form .field {
+    margin: 10px;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #1c2663;
+}
+
+.contact form button {
+    background: #1c2663;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 30%;
+    align-self: center;
+}
+
+.contact form button:hover {
+    color:#f9d541;
+}
+
+.contact h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* animations */
+@keyframes slideInDown {
+    from {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes bounce {
+
+    from,
+    20%,
+    53%,
+    80%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
