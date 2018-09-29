@@ -260,3 +260,15 @@ button {
 .aboutimg {
     margin-bottom: 10px;
 }
+
+body {
+    animation-name: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    from {background-color: white;}
+    to {background-color: #C5C6C7;}
+}
