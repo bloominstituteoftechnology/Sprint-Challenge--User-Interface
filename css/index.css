@@ -66,11 +66,146 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
+.container-home-page {
+    width: 95%;
     margin: 0 auto;
 }
 
+.container-about-page {
+    width: 95%;
+    margin: 0 auto;
+}
+.container-contact-page {
+     width: 95%;
+    margin: 0 auto;
+    background-color:#D3CCE3;
+}
+.container-contact-page .content {
+    margin-top:40%;
+    margin-left:10%;
+    font-size:40px;
+}
+.container-contact-page .content .phone {
+    font-size:30px;
+}
+.container-contact-page .content p {
+font-size:20px;
+}
+.container-contact-page .contact-us .reach-us h1{
+    font-size:40px; 
+    padding:20px;
+    margin-left:40%;
+    margin-top:20%;
+    width:40%;
+    display:flex;
+    justify-content: center;
+    border:solid black;
+    border-radius: 15px;
+    background-color: lightyellow;
+    margin-bottom:25%;
+    
+}
+.container-contact-page .content {
+font-style: oblique;
+margin-top:37%;
+
+}
+.container-contact-page .contact-us .reach-us p {
+    font-size:20px;
+    margin-bottom:-30%;
+    margin-left:10%;
+}
+.container-about-page header{
+    width: 91.7%;
+    display: flex;
+    margin-left:3.5%;
+}
+.container-contact-page header{
+    width: 91.7%;
+    display: flex;
+    margin-left:3.5%;
+}
+.container-about-page header nav {
+     margin-left:8%; 
+    margin-top:2%;
+    width: 90%;
+    justify-content: space-between;
+    display: flex; 
+}
+.container-contact-page header nav {
+     margin-left:8%; 
+    margin-top:2%;
+    width: 90%;
+    justify-content: space-between;
+    display: flex; 
+}
+.container-about-page header nav a {
+    color:black;
+    text-decoration: none; 
+}
+.container-contact-page header nav a {
+    color:black;
+    text-decoration: none; 
+}
+.container-home-page header {
+     width: 90.7%;
+    display: flex;
+    margin-left:2.5%;
+}
+
+.container-home-page header nav {
+    margin-left:100px; 
+    margin-top:20px;
+    width: 90%;
+    justify-content: space-between;
+    display: flex; 
+}
+
+ .container-home-page header nav a {
+  color:black;
+    text-decoration: none;  
+}
+.about-page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 2;
+    margin-left:3%;
+     align-items: center;
+     margin-bottom:3%;
+}
+.about {
+    border-bottom:1px dashed black;
+    padding-top:20px;
+    margin-left:4%;
+}
+.about p {
+    margin-bottom:3%;
+}
+.about-page-content .box {
+    padding: 70px;
+    width: 40%;
+    background: white;
+    margin-top:10px;
+    border-bottom:1px dashed black;
+}
+.about-page-content .box button {
+    padding: 12px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 10px;
+    font-size:20px;
+    border: 2px solid black;
+}
+.top-img img {
+    width:90%;
+    margin: 60px 0 60px 50px;
+}
+.about-top-img img {
+     width: 92%;
+    margin: 60px 0 60px 50px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +215,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 45%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -88,10 +223,11 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0 4%;
     margin-bottom: 0;
 }
 
@@ -99,19 +235,22 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-left:2%;
 }
+
+
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,6 +268,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top:3%;
 }
 
 footer nav {
@@ -143,4 +283,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#b1 {
+    background-color:teal;
+}
+#b2 {
+    background-color:gold;
+}
+#b3 {
+    background-color: cadetblue;
+}
+#b4 { 
+    background-color:coral;
+}
+#b5 {
+    background-color: crimson;
+}
+#b6 {
+    background-color: forestgreen;
+}
+#b7{ 
+    background-color:darkorchid;
+}
+#b8{
+    background-color:hotpink;
+}
+#b9 {
+    background-color:indigo;
+}
+#b10 {
+    background-color:dodgerblue;
 }
