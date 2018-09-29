@@ -16,4 +16,4 @@ Y axis
 
 5. What is the git command to commit staged changes as well as write a message? 
 
-git commit -m "message"
+git commit -m "message to others"  
