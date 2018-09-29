@@ -227,17 +227,37 @@ header nav a {
 }
 
 .text-container-middle {
-	border: 1px solid black;
 	width: 372px;
+	margin-top: 25px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 25px;
 }
 
 .middle-section-about {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+
 }
 
+.button {
+	 /* Green */
+    border: 2px solid black;
+		border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		margin-bottom: 15px;
 
+}
+
+.bottom-paragraph {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
 
 
 /* ----------------------------------------- */
