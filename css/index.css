@@ -204,3 +204,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page css */
+
+.about-page .top-content {
+    justify-content: flex-start;
+}
+
+.about-page .top-content .text-container {
+    width: 100%;
+}
+
+.about-page .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-content .about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 45%;
+}
+
+.about-content .about img {
+    margin-bottom: 20px;
+}
+
+.about-content .about button {
+    padding: 3px 20px;
+    margin: 20px;
+    margin-left: 0px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.about-page .bottom-about {
+    margin: 20px;
+}
