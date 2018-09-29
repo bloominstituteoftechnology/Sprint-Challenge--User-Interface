@@ -26,4 +26,4 @@
     1. Cross-Axis
 
 5. What is the git command to commit staged changes as well as write a message? 
-    1. git commit-m"Comments"
+    1. git commit -m"Comments"
