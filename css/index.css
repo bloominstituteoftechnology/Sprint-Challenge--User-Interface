@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -172,12 +172,13 @@ footer nav a {
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 20px;
+      width: 90%;
   }
 
   /* About top-container */
 .about-top-container {
     margin: 30px auto;
-    width: 95%;
+    width: 100%;
   }
 
   .middle-content .boxes .box1 {
@@ -227,9 +228,9 @@ footer nav a {
 
 .about-main-container {
     display: flex;
-    width: 90%;
-    margin: 20px auto;
-    justify-content: space-evenly;
+    width: 99%;
+    margin: 10px auto;
+    justify-content: space-between;
   }
 
   .divbox-about-box {
@@ -253,8 +254,20 @@ footer nav a {
     padding: 5px;
   }
 
+  .about-main-container .learn-more-btn:link {
+    color: black;
+  }
+
   .divbox-about-box hr {
     border: 0;
     border-bottom: 2px dashed black;
     padding: 10px;
+}
+
+/* bottom-container */
+.bottom-container {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    justify-content: space-evenly;
 }
