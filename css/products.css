@@ -93,6 +93,11 @@ nav {
     padding-bottom: 40px;
 }
 
+a:hover {
+    color: darkgrey;
+    font-size: 1.2em;
+}
+
 .header-img {
     padding-bottom: 20px;
 }
