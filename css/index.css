@@ -206,3 +206,39 @@ header nav a {
 #box-10 {
 	background-color: dodgerblue;
 }
+
+.about-top {
+	padding: 15px 15px;
+	border-bottom: 1px dashed black;
+}
+
+.about-middle {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.about-content-container {
+	width: 45%;
+	height: 445px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 15px 0px;
+	margin: 15px 0px;
+	border-bottom: 1px dashed black;
+}
+
+.about-content-container a {
+	text-decoration: none;
+	color: #000000;
+	padding: 10px 25px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.about-bottom {
+	margin: 30px 0px;
+}
