@@ -253,3 +253,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.contact-image img{
+	height: 400px;
+	width: 600px;
+}
+
+.contact_blurb{
+	text-align: center;
+	margin: 20px auto;
+}
+
+
+form label{
+	padding: 20px;
+	font-size: 20px;
+}
+
+form input, form textarea{
+	width: 100%;
+	margin: 20px;
+}
+
+form button{
+	background: lightgrey;
+	margin: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+a:hover{
+	animation-name: linkHover;
+	animation-duration: 2s;
+}
+
+@keyframes linkHover {
+	0% { color: black;}
+	100%{ color: blue; font-size: 30px;}
+}
+
+@media all and (max-width: 799px){
+	header{
+		flex-direction: column;
+	}
+
+	header nav{
+		width: 100%;
+		text-decoration: underline;
+		padding: 10px;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	header nav a{
+		margin: 5px 0px;
+	}
+
+
+	.container{
+		width: 100%;
+	}
+	.strategy, .about_bottom, .about-info{
+		width: 90%;
+		text-align: center;
+	}
+
+}
