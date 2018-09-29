@@ -66,11 +66,34 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+.container header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.container header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container header nav a{
+    margin: 0 40px;
+}
+
+.header-img {
+    margin: 20px 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
