@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    margin: 15px 0;
 }
 
 a {
@@ -88,7 +89,7 @@ a:hover {
 .container header nav{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .container header nav a{
@@ -201,4 +202,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page */
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    /* margin: 10px 15px; */
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle-content-about div {
+    width: 50%;
+    padding: 15px;
+    justify-content: space-between;
+    /* border-bottom: 1px dashed black; */
+}
+
+hr {
+    border-top: 1px dashed black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.middle-content-about div h2{
+    margin-top: 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-content-about {
+    margin: 10px 15px;
 }
