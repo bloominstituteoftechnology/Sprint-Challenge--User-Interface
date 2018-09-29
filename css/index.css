@@ -179,6 +179,12 @@ header img {
     margin: 0 auto;
 }
 
+.top-content .one-container {
+    width: 98%;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +197,36 @@ header img {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.card {
+    width: 48%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 0 25px 0;
+}
+
+.card h2 {
+    margin: 10px 0 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card a {
+    padding: .3rem 1rem;
+    border: 1px solid black;
+    border-radius: 7px;
 }
 
 .middle-content {
@@ -282,6 +318,19 @@ header img {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-container .bottom-text {
+    width: 98%;
+    padding: 20px 20px;
+    padding-bottom: 20px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 footer {
