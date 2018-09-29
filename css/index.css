@@ -99,11 +99,6 @@ nav a{
 }
 
 .headerBanner{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-self: flex-end;
-    align-content: flex-end; */
     width: 100%;
 }
 
@@ -119,6 +114,12 @@ nav a{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-page{
+ width: 100%;
+ padding: 0 1%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
