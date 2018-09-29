@@ -26,7 +26,8 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+
+    
 }
 body {
 	line-height: 1;
@@ -144,3 +145,122 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.container1{
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+<<<<<<< HEAD
+    justify-content: space-between; 
+    padding: 20px;
+}
+a{
+    display: flex;
+    color: grey;
+    text-decoration: none;
+   align-items: center;
+=======
+    justify-content: space-around;
+   
+}
+a{
+    color: grey;
+    text-decoration: none;
+>>>>>>> d3533a5955a118296e161ff09858c4496506e17f
+    
+}
+.logo1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+#one{
+background-color: teal;
+}
+#two{
+    background-color: gold;
+}
+#three{
+    background-color: cadetblue;
+}
+#four{
+    background-color: coral;
+}
+#five{
+    background-color: crimson;
+}
+#six{
+    background-color: forestgreen;
+}
+#seven{
+    background-color: darkorchid;
+}
+#eight{
+    background-color: hotpink;
+}
+#nine{
+    background-color: indigo;
+}
+#ten{
+    background-color: dodgerblue;
+}
+
+/* for about page */
+hr{
+    border-top: 1px dashed black;
+}
+<<<<<<< HEAD
+.topPart{
+	display: flex;
+width: 800px;   
+	flex-wrap: wrap;
+	padding-right: 50px;
+
+}
+.article{
+display: flex;
+flex-direction: column;
+width: 330px;
+border-bottom: 1px black dashed;
+margin: 20px;
+height: 400px;
+
+=======
+.parent1{
+	display: flex;
+width: 850px;
+	flex-wrap: wrap;
+	padding: 20px;
+
+}
+.child{
+display: flex;
+flex-direction: column;
+width: 43%;
+border-bottom: 1px black dashed;
+margin: 5px 20px;
+>>>>>>> d3533a5955a118296e161ff09858c4496506e17f
+}
+button{
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border:1 px black;
+    background-color: white;
+}
+h4{
+    padding: 10px; 
+}
+<<<<<<< HEAD
+.HeaderPart{
+padding: 20px;
+}
+.bottomPart
+{
+    padding: 20px;
+}
+=======
+.parent2{
+padding: 20px;
+}
+>>>>>>> d3533a5955a118296e161ff09858c4496506e17f
