@@ -66,11 +66,21 @@ p {
     line-height: 1.4;
 }
 
+/*--------------------------------------------Wrapper*/
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+/*-------------------------------------------HEADER AND NAV*/
 
+
+
+
+
+
+
+/*-------------------------------------------Top Content*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +95,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/*-------------------------------------------Middle and Boxes*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +123,7 @@ p {
     justify-content: center;
 }
 
+/*------------------------------------------------Bottom Content*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +138,8 @@ p {
     padding-right: 0;
 }
 
+
+/*--------------------------------------------------Footer and Bottom NAV*/
 footer {
     width: 100%;
     background: black;
