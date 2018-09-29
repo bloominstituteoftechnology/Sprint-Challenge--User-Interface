@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.navbar a{
+    margin: 0 10px;
+  padding: 21px;
+  color:black;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+    padding: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.header-img{
+    width: 100%;
+    padding: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +127,123 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background-color:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    background-color:gold;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    background-color:cadetblue;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4{
+    background-color:coral;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5{
+    background-color:crimson;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6{
+    background-color:forestgreen;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7{
+    background-color:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8{
+    background-color:hotpink;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9{
+    background-color:indigo;
+    width: 12.5%;
+    height: 100px;
+    
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10{
+    background-color:dodgerblue;
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -128,7 +267,7 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    background-color:black;
 }
 
 footer nav {
@@ -141,6 +280,57 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color:white;
     text-decoration: none;
+
+}
+.pineapples{
+    width:46%;
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.pineapples h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.pineapples a{
+  padding: 15px;
+  color: grey;
+  text-decoration: none;
+  font-size:16px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color:white;
+  border-radius: 10px;
+  padding:10px 15px 10px 15px;
+  margin: 10px 15px 10px 15px;
+ width:30%;
+}
+
+
+.fruits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:105%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.fruits div{
+    border-bottom: 1px solid rgb(105, 99, 99);
+    margin: 10px;
+
+}
+.head{
+    border-bottom:1px solid black;
+    padding-bottom: 20px;
+}
+.header-2img{
+    margin-bottom:20px;
+}
+.c{
+    padding-bottom: 5%;
 }
