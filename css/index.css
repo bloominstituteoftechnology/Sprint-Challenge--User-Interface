@@ -70,6 +70,10 @@ a {
     text-decoration: none;
     color: black;
 }
+
+a:hover {
+    color: dodgerblue;
+}
 .container {
     width: 800px;
     margin: 0 auto;
