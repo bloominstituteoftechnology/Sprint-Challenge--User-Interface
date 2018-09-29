@@ -284,3 +284,53 @@ footer nav a {
     text-decoration: none;
 
 }
+.pineapples{
+    width:46%;
+    display:flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.pineapples h2{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.pineapples a{
+  padding: 15px;
+  color: grey;
+  text-decoration: none;
+  font-size:16px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color:white;
+  border-radius: 10px;
+  padding:10px 15px 10px 15px;
+  margin: 10px 15px 10px 15px;
+ width:30%;
+}
+
+
+.fruits{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:105%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.fruits div{
+    border-bottom: 1px solid rgb(105, 99, 99);
+    margin: 10px;
+
+}
+.head{
+    border-bottom:1px solid black;
+    padding-bottom: 20px;
+}
+.header-2img{
+    margin-bottom:20px;
+}
+.c{
+    padding-bottom: 5%;
+}
