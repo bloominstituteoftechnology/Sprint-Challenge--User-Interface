@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+.nav {
+    display: flex;
+	justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.nav a:hover {
+    background: grey;
+}
+
+.nav a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:visited {
+	color: black;
+}
+
+.header-img {
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +129,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-child(1) {
+    background: teal;
+}
+
+.box:nth-child(2) {
+    background: gold;
+}
+
+.box:nth-child(3) {
+    background: cadetblue;
+}
+
+.box:nth-child(4) {
+    background: coral;
+}
+
+.box:nth-child(5) {
+    background: crimson;
+}
+
+.box:nth-child(6) {
+    background: forestgreen;
+}
+
+.box:nth-child(7) {
+    background: darkorchid;
+}
+
+.box:nth-child(8) {
+    background: hotpink;
+}
+
+.box:nth-child(9) {
+    background: indigo;
+}
+
+.box:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +207,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.about-content {
+    margin: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-row {
+    display: flex;
+    margin: 15px ;
+    padding-bottom: 20px 0px;
+}
+
+.about-box {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.button {
+	border: 2px black solid;
+	display: inline-block;
+	border-radius: 5px;
+	background: white;
+	margin: 20px 0px 0px 0px;
+	padding: 8px 30px;
+	font-size: 14px;
+}
+
+.working-together {
+    
+    margin: 40px 15px;
+}
+
+/* Contact us Page*/
+
+.map {
+    border: 1px solid black;
 }
