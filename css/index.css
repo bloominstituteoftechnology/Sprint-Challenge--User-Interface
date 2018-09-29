@@ -179,3 +179,20 @@ footer nav a {
     background-color: dodgerblue;
 } 
 
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    padding: 20px 0;
+}
+header nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+}
+header nav a {
+    color: black;
+}
+
