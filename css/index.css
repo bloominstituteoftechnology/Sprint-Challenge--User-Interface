@@ -208,3 +208,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* --------about page begins here--------- */
+.banner{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about {
+    margin:12px;
+}
+.mid-about{
+    border-top:1px dotted grey;
+    display:flex;
+    
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%; 
+    height:auto;
+}
+.mid-about h2{
+    margin-top: 7px;
+}
+.mid-about button{
+width:130px;
+background-color: white;
+border-radius: 7px;
+height:30px;
+}
+.midfirst{
+    width:375px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.midsecond{
+    align-self: flex-end;
+    width:375px;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.midthird{
+    width:375px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.midfourth{
+    align-self: flex-end;
+    width:375px;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
