@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +110,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one {
+	background: teal;
+}
+
+#two {
+	background: gold;
+}
+
+#three {
+	background: cadetblue;
+}
+
+#four {
+	background: coral;
+}
+
+#five {
+	background: crimson;
+}
+
+#six {
+	background: forestgreen;
+}
+
+#seven {
+	background: darkorchid;
+}
+
+#eight {
+	background: hotpink;
+}
+
+#nine {
+	background: indigo;
+}
+
+#ten {
+	background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +183,177 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*
+
+Navigation Bar
+
+*/
+
+.header-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2em 0;
+}
+
+.navigation {
+	width: 800px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1.5em
+}
+
+.navigation a {
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 10px;
+	padding: 5px 12px;
+}
+
+.navigation a:hover {
+	animation: grow .5s ease-in-out 1 forwards;
+}
+
+@keyframes grow {
+	0% {
+		font-size: 16px;
+		background-color: rgba(0, 0, 0, 0);
+		color: black;
+	}
+
+	100% {
+		font-size: 24px;
+		background-color: rgba(0, 0, 0, .8);
+		color: white;
+	}
+}
+
+/*
+
+About Page
+
+*/
+
+.about-page h2 {
+	font-weight: bold;
+	letter-spacing: .75px;
+}
+
+.intro {
+	padding-bottom: 1em;
+	border-bottom: 1px dashed black;
+	margin-bottom: 2em;
+}
+
+.all-tiles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tile {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	border-bottom: 1px dotted grey;
+}
+
+.tile h2 {
+	margin-top: 1em;
+}
+
+.tile a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid black;
+	width: 35%;
+	padding: 10px 0;
+	border-radius: 10px;
+	margin-top: 1em;
+}
+
+.tile a:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+.closing {
+	margin-bottom: 2em;
+}
+
+/*
+
+Contact Page
+
+*/
+
+.contact-page h2 {
+	font-weight: bold;
+}
+
+.contact-text {
+	margin-bottom: 2em;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-bottom: 2em;
+}
+
+.form-box {
+	margin: 1em 0;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-box label {
+	margin: 0.5em 0;
+}
+
+.form-box select {
+	margin: 0.5em 0;
+}
+
+.goodbye {
+	text-align: center;
+	margin: 5em 0;
+	border: 3px dotted black;
+}
+
+.goodbye h2 {
+		font-size: 60px;
+		font-weight: 200;
+		line-height: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 500px;
+	}
+
+	.navigation {
+		width: 500px;
+	}
+
+	.all-tiles {
+		flex-direction: column;
+	}
 }
