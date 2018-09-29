@@ -246,3 +246,22 @@ footer nav a {
     margin: 0 auto 50px auto;
 }
 
+/* Contact Page */
+.contact-desc-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.contact-desc-container img {
+    max-width: 200px;
+}
+
+.contact-desc-container .text-container {
+    padding-left: 20px;
+}
+
+.contact-desc-container p {
+    padding-bottom: 20px;
+}
