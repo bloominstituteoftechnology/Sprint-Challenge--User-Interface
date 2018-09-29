@@ -151,7 +151,7 @@ h5 {
 p {
   line-height: 1.4;
 }
-
+/* containers */
 .container {
   width: 800px;
   margin: 0 auto;
@@ -188,6 +188,19 @@ p {
   justify-content: space-evenly;
 }
 
+.main-content {
+  border-top: dotted black 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section {
+  width: 45%;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  border-bottom: dotted black 1px;
+}
 .box {
   width: 12.5%;
   height: 100px;
@@ -211,6 +224,26 @@ p {
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
+}
+
+/* styling */
+.space {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.button {
+  padding-top: 15px;
+}
+
+.learn-more {
+  border: solid 2px black;
+  border-radius: 15%;
+  background-color: none;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
 }
 
 .img {
@@ -257,6 +290,8 @@ p {
   background: dodgerblue;
 }
 
+/* header */
+
 header {
   width: 100%;
 }
@@ -275,6 +310,8 @@ header nav ul {
   color: black;
   text-decoration: none;
 }
+
+/* footer */
 
 footer {
   width: 100%;
