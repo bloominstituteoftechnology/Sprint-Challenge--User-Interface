@@ -270,6 +270,10 @@ footer nav a {
     margin:20px 0px 20px 18px;
 }
 
+hr {
+    border-top: 1px dashed black;
+}
+
 .body {
     display:flex;
     flex-wrap:wrap;
@@ -297,6 +301,7 @@ footer nav a {
 article {
     width:370px;
     margin: 20px 0px;
+    border-bottom: 1px dashed black;
 }
 
 article h2 {
