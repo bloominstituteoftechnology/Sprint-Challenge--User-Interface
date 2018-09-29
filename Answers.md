@@ -1,6 +1,6 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
     
-    I would describe semantic HTML as HTML with meaning. Using tags like <article>, <section>, <header>, etc, allows you to write HTML that is more readable and optimized for SEO purposes. 
+    I would describe semantic HTML as HTML with meaning. Using tags like ```<article>, <section>, <header>,``` etc, allows you to write HTML that is more readable and optimized for SEO purposes. 
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
