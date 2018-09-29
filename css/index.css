@@ -133,6 +133,37 @@ nav .logo{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.middle-content .boxes .box:nth-child(1n) {
+        background-color: teal;
+     }
+     
+.middle-content .boxes .box:nth-child(2n) {
+        background-color: gold;
+     }
+.middle-content .boxes .box:nth-child(3n) {
+        background-color: cadetblue;
+     }
+.middle-content .boxes .box:nth-child(4n) {
+       background-color: coral;
+     }
+.middle-content .boxes .box:nth-child(5n) {
+       background-color: crimson;
+     }
+.middle-content .boxes .box:nth-child(6n) {
+       background-color: forestgreen;
+     }
+.middle-content .boxes .box:nth-child(7n) {
+       background-color: darkorchid;
+     }
+     .middle-content .boxes .box:nth-child(8n) {
+       background-color: hotpink;
+     }
+.middle-content .boxes .box:nth-child(9n) {
+       background-color: indigo;
+     }
+.middle-content .boxes .box:nth-child(10n) {
+       background-color: dodgerblue;
+     }
 
 .middle-content .boxes .box {
     width: 12.5%;
