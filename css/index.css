@@ -288,3 +288,67 @@ footer nav a:hover::after {
 .work-together {
     padding: 20px;
 }
+
+/* contact page */
+
+.jumbo-contact {
+    width: 800px;
+    height: 153px;
+    margin: 15px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+
+label {
+    margin-left: 100px;
+}
+
+
+input {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 219px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    align-self: center;
+}
+
+#firstname {
+    margin-left: 33px;
+}
+
+#lastname {
+    margin-left: 33px;
+}
+
+#email {
+    margin-left: 35px;
+}
+
+#message {
+    margin-left: 9px;
+    width: 500px;
+    height: 100px;
+    text-align: left;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
