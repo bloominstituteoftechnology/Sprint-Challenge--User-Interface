@@ -1,6 +1,6 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML clearly describes elements ( i.e <footer> <article> <figure> <header> ) 
+    Semantic HTML clearly describes elements for example : <footer> <article> <figure> <header>
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
