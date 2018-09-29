@@ -144,3 +144,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Menu */
+.top-menu-container {
+    display: flex;
+    width: 90%;
+    margin: 25px auto;
+  }
+  
+  .nav-container {
+    display: flex;
+    width: 600px;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .menu {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* main image */
+  .main-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      width: 90%;
+  }
+
+  .middle-content .boxes .box1 {
+    background-color: teal;
+  }
+  
+  .middle-content .boxes .box2 {
+    background-color: gold;
+  }
+  
+  .middle-content .boxes .box3 {
+    background-color: cadetblue;
+  }
+  
+  .middle-content .boxes .box4 {
+    background-color: coral;
+  }
+  
+  .middle-content .boxes .box5 {
+    background-color: crimson;
+  }
+  
+  .middle-content .boxes .box6 {
+    background-color: forestgreen;
+  }
+  
+  .middle-content .boxes .box7 {
+    background-color: darkorchid;
+  }
+  
+  .middle-content .boxes .box8 {
+    background-color: hotpink;
+  }
+  
+  .middle-content .boxes .box9 {
+    background-color: indigo;
+  }
+  
+  .middle-content .boxes .box10 {
+    background-color: dodgerblue;
+  }
