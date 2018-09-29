@@ -112,6 +112,46 @@ p {
     justify-content: center;
 }
 
+#one {
+	background: teal;
+}
+
+#two {
+	background: gold;
+}
+
+#three {
+	background: cadetblue;
+}
+
+#four {
+	background: coral;
+}
+
+#five {
+	background: crimson;
+}
+
+#six {
+	background: forestgreen;
+}
+
+#seven {
+	background: darkorchid;
+}
+
+#eight {
+	background: hotpink;
+}
+
+#nine {
+	background: indigo;
+}
+
+#ten {
+	background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -156,6 +196,7 @@ Navigation Bar
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin: 2em 0;
 }
 
 .navigation {
@@ -164,4 +205,10 @@ Navigation Bar
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding-bottom: 1.5em
+}
+
+.navigation a {
+	color: black;
+	text-decoration: none;
 }
