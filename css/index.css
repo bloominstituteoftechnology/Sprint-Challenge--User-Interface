@@ -70,12 +70,25 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+#topnav {
+    display: flex;
+    padding: 25px 0px 35px;
+    justify-content: space-around;
+}
+#topnav a {
+    text-decoration: none;
+    color: black;
+    align-self: baseline;
+}
+#topnav a:first-child, #topnav a:nth-child(2) {
+    margin-left: -40px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    /*justify-content: space-evenly;*/
+    margin: 20px auto;
+    padding: 0px 15px;
     border-bottom: 1px dashed black;
 }
 
@@ -93,6 +106,36 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color:  dodgerblue;
 }
 
 .middle-content .boxes {
@@ -126,6 +169,47 @@ p {
     padding-right: 0;
 }
 
+.about-page .box {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: none;
+}
+.about-page p {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.about-page h2 {
+    font-size: 22px;
+}
+.about-page .middle-content .boxes {
+    width: 48%;
+    margin: 20px auto;;
+    justify-content: flex-start;
+    border-bottom: 1px dashed black;
+}
+.about-page .middle-content h2 {
+    padding-left: 0px;
+    padding: 15px 10px 15px 0px;
+}
+.about-page .btn {
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px 21px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about-page .bottom-content h2{
+    margin-top: 20px;
+}
+.about-page .bottom-content {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 footer {
     width: 100%;
     background: black;
