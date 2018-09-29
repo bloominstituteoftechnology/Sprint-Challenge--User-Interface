@@ -2,7 +2,7 @@
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.  - Display: block displays each item always on a new line because each item always uses up the maximum width available.  Display: inline displays horizontally, or next to each other because each item only uses up enough width for the item.  Generally display: block displays vertically and display: inline displays horizontally.
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? 1.) Content 2.) Padding 3.) Border 4.) Margin
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```? 
 
