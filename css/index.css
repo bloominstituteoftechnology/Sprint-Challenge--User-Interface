@@ -252,13 +252,13 @@ footer nav a {
     margin-top: 7px;
 }
 .mid-about button{
-width:130px;
+width:25%;
 background-color: white;
 border-radius: 7px;
 height:30px;
 }
 .midfirst{
-    width:375px;
+    width:47%;
     margin-top: 20px;
     margin-right: 15px;
     margin-left: 15px;
@@ -267,12 +267,12 @@ height:30px;
 }
 .midsecond{
     align-self: flex-end;
-    width:375px;
+    width:47%;
     border-bottom:1px dotted grey;
     padding-bottom: 13px;
 }
 .midthird{
-    width:375px;
+    width:47%;
     margin-top: 20px;
     margin-right: 15px;
     margin-left: 15px;
@@ -281,7 +281,7 @@ height:30px;
 }
 .midfourth{
     align-self: flex-end;
-    width:375px;
+    width:47%;
     border-bottom:1px dotted grey;
     padding-bottom: 13px;
 }
@@ -457,6 +457,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* --------about page begins here--------- */
+.banner{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about {
+    margin:12px;
+}
+.mid-about{
+    border-top:1px dotted grey;
+    display:flex;
+    
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%; 
+    height:auto;
+}
+.mid-about h2{
+    margin-top: 7px;
+}
+.mid-about button{
+width:25%;
+background-color: white;
+border-radius: 7px;
+height:30px;
+}
+.midfirst{
+    width:47%;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.midsecond{
+    align-self: flex-end;
+    width:47%;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.midthird{
+    width:47%;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.midfourth{
+    align-self: flex-end;
+    width:47%;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+}
+.bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 }
@@ -635,5 +695,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* --------about page begins here--------- */
+.banner{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about {
+    margin:1% 0% 4% 10%;
+}
+.mid-about{
+    border-top:1px dotted grey;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:100%; 
+    height:auto;
+}
+.mid-about h2{
+    margin-top: 7px;
+}
+.mid-about button{
+width:25%;
+background-color: white;
+border-radius: 7px;
+height:30px;
+}
+.midfirst{
+    width:95%;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+    margin: 5% 39% 3% 1%;
+}
+.midsecond{
+    align-self: flex-end;
+    width:95%;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+    margin: 5% 45% 3% 1%;
+}
+.midthird{
+    width:95%;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+    margin: 5% 39% 3% 1%;
+}
+.midfourth{
+    align-self: flex-end;
+    width:95%;
+    border-bottom:1px dotted grey;
+    padding-bottom: 13px;
+    margin: 5% 45% 3% 1%;
+}
+.bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 }
