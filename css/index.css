@@ -162,12 +162,13 @@ header {
 }
 
 header nav {
-	width: 60%;
+	width: 70%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 2%;
 	font-size: 14px;
+	margin: 10px 0px -5px 246px;
 
 
 }
@@ -179,9 +180,9 @@ header nav a {
 }
 
 .lambdaLogo {
-	display: inline;
-	position: absolute;
-	margin: 0 0 0 50%;
+	display: block;
+	position: fixed;
+	margin: -46px 0 0 0;
 }
 
 .jumboimg {
