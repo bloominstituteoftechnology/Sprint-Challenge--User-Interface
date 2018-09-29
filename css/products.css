@@ -71,6 +71,8 @@ a {
     color: inherit;
 }
 
+
+
 /*--------------------------------------------Wrapper*/
 
 .container{
@@ -91,103 +93,50 @@ nav {
     padding-bottom: 40px;
 }
 
+a:hover {
+    color: darkgrey;
+    font-size: 1.2em;
+}
 
+.header-img {
+    padding-bottom: 20px;
+}
 
-
-
-/*-------------------------------------------Top Content*/
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+.headline {
+    margin: 10px 0;
+    padding: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+/*--------------------------------------------------main-content*/
+.photos {
+    width: 24em;
+    height: 18em;
 }
 
+/* article {
+    width: px;
+} */
 
-
-/*-----------------------------------------------BOX COLORS*/
-#one {
-    background: teal;
-}
-#two {
-    background: gold;
-}
-#three {
-    background: cadetblue;
-}
-#four {
-    background: coral;
-}
-#five {
-    background: crimson;
-}
-#six {
-    background: forestgreen;
-}
-#seven {
-    background: darkorchid;
-}
-#eight {
-    background: hotpink;
-}
-#nine {
-    background: indigo;
-}
-#ten {
-    background: dodgerblue;
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: space-around;
 }
 
-/*-------------------------------------------Middle and Boxes*/
-
-.middle-content {
-    margin-bottom: 20px;
+section div {
     border-bottom: 1px dashed black;
+    padding: 5px;
+    margin: 20px 0;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+section div p {
+    padding-bottom: 20px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+section div h2 {
+    padding-top: 10px;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-/*------------------------------------------------Bottom Content*/
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 
 /*--------------------------------------------------Footer and Bottom NAV*/
 footer {
@@ -207,4 +156,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*---------------------------------------------------Media Queries*/
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header, footer {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .headline-img {
+        width: 100px;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
