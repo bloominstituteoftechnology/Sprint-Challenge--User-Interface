@@ -66,6 +66,14 @@ p {
     line-height: 1.4;
 }
 
+button {
+    border-radius: 5px;
+    background: none;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -205,3 +213,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* --------------- About Page ---------------*/
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-page .text-container-about {
+    width: 100%;
+}
+
+.about-desc-container {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content-about .text-container {
+    padding: 15px 0;
+}
+
+.middle-content-about .text-container p{
+    padding-bottom: 15px;
+}
+
+.bottom-content-about .text-container {
+    width: 92%;
+    margin: 0 auto 50px auto;
+}
+
