@@ -6,4 +6,4 @@
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```? >The cross axis.
 
-5. What is the git command to commit staged changes as well as write a message?
+5. What is the git command to commit staged changes as well as write a message? > ```git commit -m```
