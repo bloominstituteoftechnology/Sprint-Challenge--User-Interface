@@ -71,10 +71,43 @@ p {
     margin: 0 auto;
 }
 
+nav {
+	display: flex;
+	width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.jumbo-img {
+    margin-bottom: 20px;
+    width: 98%;
+    }
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -85,9 +118,23 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content-about .text-container {
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border-bottom: 1px dashed black; */
 }
 
 .middle-content h2 {
@@ -112,7 +159,58 @@ p {
     justify-content: center;
 }
 
+.middle-content-about .box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    justify-content: start;
+    margin: 0px auto;
+    border-bottom: 1px dashed black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.middle-content-about h2 {
+    margin-top: 20px;
+}
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content-about {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
@@ -122,8 +220,17 @@ p {
     padding-right: 4%;
 }
 
+.bottom-content-about .text-container {
+    padding-right: 4%;
+}
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about .text-container:last-child {
+    padding-right: 0;
+    margin-top: 30px;
 }
 
 footer {
@@ -143,4 +250,13 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: solid black 1px;
+    margin: 10px 0px;
 }
