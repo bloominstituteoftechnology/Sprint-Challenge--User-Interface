@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+a:hover{
+    color:white;
+    font-size:25px;
+}
+nav img.logo{
+    position: relative;
+    top:5px;
+}
+button:hover{
+    border:2px solid teal;
+    box-shadow: 0px 2px 5px 0px rgba(0,128,128,0.53);
+}
+nav.index-nav{
+    display: flex;
+    justify-content:space-between;
+}
+
+nav.index-nav a:link{
+    margin-left: -10px;
+    position: relative;
+    top:25px;
+    text-decoration: none;
+    color:black;
+}
+
+nav.index-nav a:visited{
+    color:black;
+}
+img.jumbotron{
+    margin:25px 0px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +113,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +143,50 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:hover{
+    width:15%;
+    height: 110px;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +219,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
