@@ -73,9 +73,48 @@ p {
 
 .container-about-page {
     width: 95%;
+    height:60%;
     margin: 0 auto;
 }
+.container-contact-page {
+     width: 95%;
+    margin: 0 auto;
+    height:120%;
+    background-color:#D3CCE3;
+}
+.container-contact-page .content {
+    margin-top:40%;
+    margin-left:10%;
+    font-size:40px;
+}
+.container-contact-page .content .phone {
+    font-size:30px;
+}
+.container-contact-page .content p {
+font-size:20px;
+}
+.container-contact-page .contact-us .reach-us h1{
+    font-size:40px; 
+    margin-left:40%;
+    margin-top:20%;
+    margin-bottom:25%;
+    
+}
+.container-contact-page .content {
+font-style: oblique;
+
+}
+.container-contact-page .contact-us .reach-us p {
+    font-size:20px;
+    margin-bottom:-30%;
+    margin-left:10%;
+}
 .container-about-page header{
+    width: 91.7%;
+    display: flex;
+    margin-left:3.5%;
+}
+.container-contact-page header{
     width: 91.7%;
     display: flex;
     margin-left:3.5%;
@@ -87,7 +126,18 @@ p {
     justify-content: space-between;
     display: flex; 
 }
+.container-contact-page header nav {
+     margin-left:8%; 
+    margin-top:2%;
+    width: 90%;
+    justify-content: space-between;
+    display: flex; 
+}
 .container-about-page header nav a {
+    color:black;
+    text-decoration: none; 
+}
+.container-contact-page header nav a {
     color:black;
     text-decoration: none; 
 }
