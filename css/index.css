@@ -73,8 +73,9 @@ p {
 
 .nav {
     display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
     align-items: flex-end;
+    margin-top: 10px;
 }
 
 .nav a:link {
@@ -87,7 +88,8 @@ p {
 }
 
 .header-img {
-    padding: 15px 0px;
+    margin: 10px 0px;
+    padding: 10px 0px;
 }
 
 .top-content {
@@ -201,4 +203,38 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+
+.about-content {
+    margin: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-row {
+    display: flex;
+    margin: 15px ;
+    padding-bottom: 20px 0px;
+}
+
+.about-box {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.button {
+	border: 2px black solid;
+	display: inline-block;
+	border-radius: 5px;
+	background: white;
+	margin: 20px 0px 0px 0px;
+	padding: 8px 30px;
+	font-size: 14px;
+}
+
+.working-together {
+    
+    margin: 40px 15px;
 }
