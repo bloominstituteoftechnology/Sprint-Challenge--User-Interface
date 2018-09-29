@@ -1,8 +1,8 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
 
-	Semantic HTML involves using HTML tags that convey the meaning of their content through the tag name itself. Such as a <nav> tag
+	Semantic HTML involves using HTML tags that convey the meaning of their content through the tag name itself. Such as a nav tag
 	conveys the message that it's contents are navigation items, just by reading the tag. An example of non-semantic, or presentational
-	HTML would be like a <div> tag.
+	HTML would be like a div tag.
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
