@@ -170,7 +170,27 @@ header ul {
     align-items: baseline;
 }
 
-header img {
+header li {
+    position: relative;
+}
+
+header li::after {
+    content: '';
+    display: block;
+    background: black;
+    right: 100%;
+    left: 0;
+    height: 2px;
+    bottom: -1rem;
+    position: absolute;
+    transition: right 150ms ease-in-out;
+}
+
+header li:hover::after {
+    right: 0;
+}
+
+header .nav-img {
     margin-bottom: 20px;
 }
 
@@ -189,8 +209,85 @@ header img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 10px 0 20px;
     border-bottom: 1px dashed black;
+}
+
+.forms {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms input {
+    padding: 15px;
+    border: 1px solid #aaa;
+}
+
+.input-item {
+    width: 100%;
+    position: relative;
+}
+
+.input-item input {
+    width: 100%;
+}
+
+.side {
+    background: rgb(17, 204, 95, .75);
+    position: absolute;
+    padding: 15px;
+    right: -8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.forms input[type="text"]:not(:placeholder-shown)+.side {
+    opacity: 1;
+}
+
+.side-1 {
+    background: rgb(17, 204, 95, .75);
+    position: absolute;
+    padding: 15px;
+    right: -8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.forms input[type="email"]:not(:placeholder-shown)+.side-1 {
+    opacity: 1;
+}
+
+.forms textarea {
+    resize: none;
+    margin-bottom: 2rem;
+}
+
+.forms button {
+    align-self: center;
+    background: white;
+    padding: .5em 1em;
+    border: 1px solid #aaa;
+    font-size: 1.2em;
+    transition: background 100ms ease-in-out;
+    cursor: pointer;
+}
+
+.forms button:hover {
+    background: #DDD;
+}
+
+.forms h3 {
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -350,4 +447,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 830px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+        padding: 0 1rem;
+    }
+
+    header>img {
+        width: 100%;
+    }
+
+    header ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    header ul .nav-img {
+        flex: 1 1 100%;
+        padding: 0 40%;
+    }
+
+    footer nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
 }
