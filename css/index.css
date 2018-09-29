@@ -198,7 +198,7 @@ header nav a {
 
 }
 
-.top-content-about .text-container-about {
+.top-content-about {
     width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;
@@ -206,6 +206,36 @@ header nav a {
 		line-height: 1.5px;
 }
 
+.text-container-about {
+	width: 100%;
+}
+.middle-content-about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.middle-content-about {
+    width: 12.5%;
+    height: 100px;
+    /* background: black; */
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container-middle {
+	border: 1px solid black;
+	width: 372px;
+}
+
+.middle-section-about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 
 
 
