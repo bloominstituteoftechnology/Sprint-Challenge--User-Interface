@@ -360,3 +360,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page */
+.container .first-content {
+    margin-bottom: 25px;
+}
+
+.container .second-content .second {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    border-top: 1px dashed black;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .second-content .second img {
+    margin-top: 15px;
+}
