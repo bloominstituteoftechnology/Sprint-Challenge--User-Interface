@@ -71,9 +71,46 @@ p {
     margin: 0 auto;
 }
 
+.middle-content {
+  width: 100%;
+  border-top: 1px dashed black;
+  margin-top: 15px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.middle-content-items {
+  width: 370px;
+  height: 410px;
+  margin-bottom: 40px;
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-content {
+  width: 760px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
 .jumbo {
 	padding-top: 40px;
 	padding-bottom: 20px;
+}
+
+.button {
+  height: 35px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 header {
@@ -94,6 +131,11 @@ header nav a {
 	text-decoration: none;
 	font-size: 14px;
 	color: black;
+}
+
+section a {
+  text-decoration: none;
+  color: black;
 }
 
 footer {
