@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    display: flex;  
+    flex-direction: column;
+    /* margin-top: 20px;    */
+}
+
+.navigation {
+    width: 800px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    width: 643px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-menu a {
+    text-decoration: none;  
+    color: black;
+}
+
+.header-image {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +140,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:first-child {
+    background: teal;   
+}
+
+.middle-content .boxes .box:last-child{
+    background: dodgerblue;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
 
 .bottom-content {
     display: flex;
