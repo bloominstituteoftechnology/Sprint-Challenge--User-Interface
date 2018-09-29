@@ -66,11 +66,52 @@ p {
     line-height: 1.4;
 }
 
+button {
+    border-radius: 5px;
+    background: none;
+    border: 1px solid black;
+    width: 100px;
+    height: 30px;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity:1;}
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header img {
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+header .banner {
+    animation: fadeIn 4s;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +153,45 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +223,97 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* --------------- About Page ---------------*/
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-page .text-container-about {
+    width: 100%;
+}
+
+.about-desc-container {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content-about .text-container {
+    padding: 15px 0;
+}
+
+.middle-content-about .text-container p{
+    padding-bottom: 15px;
+}
+
+.bottom-content-about .text-container {
+    width: 92%;
+    margin: 0 auto 50px auto;
+}
+
+/* Contact Page */
+
+.contact-desc-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.contact-desc-container img {
+    max-width: 200px;
+}
+
+.contact-desc-container .text-container {
+    padding-left: 20px;
+}
+
+.contact-desc-container p {
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .top-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .middle-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .middle-content .boxes .box {
+        width: 100px;
+    }
+    .bottom-content {
+        flex-direction: column;
+    }
+    .bottom-content > * {
+        width: 90%;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .middle-content-about {
+        flex-direction: auto;
+    }
+    .about-desc-container {
+        width: 90%;
+    }
+    .about-desc-container img {
+        max-width: 100%;
+    }
 }
