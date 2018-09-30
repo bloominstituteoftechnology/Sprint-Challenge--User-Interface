@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,9 +66,40 @@ p {
     line-height: 1.4;
 }
 
+
+/* WHOLE CONTENT */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+
+/* HEADER */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 690px;
+	margin: 25px 35px 30px 45px;
+}
+
+header nav a {
+	display: flex;
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+}
+
+header a img {
+	display: flex;
+	margin-bottom: 30px;
 }
 
 .top-content {
@@ -77,12 +108,13 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+		margin-top: 25px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +142,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-of-type(1) {
+	background: teal;
+}
+.middle-content .boxes .box:nth-of-type(2) {
+	background: gold;
+}
+.middle-content .boxes .box:nth-of-type(3) {
+	background: cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4) {
+	background: coral;
+}
+.middle-content .boxes .box:nth-of-type(5) {
+	background: crimson;
+}
+.middle-content .boxes .box:nth-of-type(6) {
+	background: forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7) {
+	background: darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8) {
+	background: hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9) {
+	background: indigo;
+}
+.middle-content .boxes .box:nth-of-type(10) {
+	background: dodgerblue;
 }
 
 .bottom-content {
