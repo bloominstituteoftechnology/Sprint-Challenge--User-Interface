@@ -61,10 +61,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
-header {
-
-}
 .navigation {
     display: flex;
     flex-direction: row;
@@ -92,11 +88,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-}
-.containerabout-page {
-    width: 800px;
-    margin: 0 auto;
-
 }
 
 .top-content {
@@ -211,4 +202,94 @@ footer nav a {
 
 #b10 {
     background-color: dodgerblue;
+}
+
+/*about.html css*/
+.containerabout-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.text-container1 p {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    margin-bottom: 20px;
+}
+
+.middle-content1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    
+}
+
+.mcpt1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.mcpt2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.middle-content2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.mc2pt1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.mc2pt2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.bc1 p {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    margin-top: 20px;
+}
+
+.h2 {
+    margin: 20px 0px;
+}
+
+.lasth2 {
+    margin: 20px 0px;
+}
+
+.bottom-content1 span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 40px;
+    width: 125px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.nav {
+    margin-top: 20px;
 }
