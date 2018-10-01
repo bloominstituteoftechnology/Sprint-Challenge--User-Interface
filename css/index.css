@@ -80,15 +80,21 @@ div.blurb{
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
-    padding: 30px 0px;
+    padding: 30px 20px;
 
 }
 
 .learn-more{
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
     border: 2px solid black;
-    padding: 10px 30px;
+    padding: 10px 10px;
     border-radius: 10px;
+    width: 110px;
 }
+
+
 
 section.jumbo {
     display: flex;
