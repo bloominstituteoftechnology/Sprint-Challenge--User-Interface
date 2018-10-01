@@ -79,8 +79,6 @@ nav{
     to{color:red;}
 }
 
-
-
 header nav a{
 
     text-decoration:none;
@@ -89,4 +87,32 @@ header nav a{
     animation-duration: 4s;
 
 
+}
+
+
+.form1 {
+    margin-top: 100px;
+    margin-left : 240px;
+    margin-right: 240px;
+}
+
+
+footer {
+    margin-top: 150px;
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
