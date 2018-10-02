@@ -301,21 +301,30 @@ header nav a:hover {
 .top-section {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	border: 1px solid red;
+	justify-content: center;
+
+	padding: 1%;
+	/* border: 1px solid red; */
 
 }
 .top-boxes {
 
-		width: 350px;
-		margin: 2%;
-		padding: 2%;
-		border: 1px solid black;
+		width: 390px;
+		margin: 0 auto;
+		padding: 1%;
+		/* border: 1px solid black; */
 
 		/* line-height: 125%; */
 }
 
 .top-boxes img {
-	width: 330px;
-	
+	width: 360px;
+
+}
+
+.top-boxes button {
+	border-radius: 25px;
+}
+.top boxes button:hover {
+
 }
