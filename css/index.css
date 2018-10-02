@@ -105,6 +105,13 @@ li a:hover {
     padding: 0 1%;
     padding-bottom: 20px; 
 }
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
 /*End of my code*/
 
 .top-content {
