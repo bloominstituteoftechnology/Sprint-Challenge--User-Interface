@@ -210,6 +210,12 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover{
+    animation: aDarkAnim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 .about-content{
     display: flex;
     align-content: space-between;
@@ -272,6 +278,13 @@ a:hover {
     0%{}
     100%{
         color:blue;
+    }
+}
+
+@keyframes aDarkAnim {
+    0%{}
+    100%{
+        color: cyan;
     }
 }
 
