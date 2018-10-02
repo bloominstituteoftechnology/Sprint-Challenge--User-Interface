@@ -71,6 +71,49 @@ p {
     margin: 0 auto;
 }
 
+/*Start of my code*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 25px 40px;
+    text-decoration: none;
+    border-radius: 10px
+}
+
+li a:hover {
+    background-color: rgb(113, 227, 255);
+}
+
+#banner{
+    padding: 20px 0px;
+}
+
+.top-content .text-full{
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+/*End of my code*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +132,22 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+/*Also mine*/
+.more-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.more-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+/*No longer mine*/
 
 .middle-content h2 {
     padding: 0 2%;
@@ -111,6 +170,56 @@ p {
     align-items: center;
     justify-content: center;
 }
+/*Start my code*/
+#one{
+    background-color: teal;
+}
+
+#two{
+    background-color: gold;
+}
+
+#three{
+    background-color: cadetblue;
+}
+
+#four{
+    background-color: coral;
+}
+
+#five{
+    background-color: crimson;
+}
+
+#six{
+    background-color: forestgreen;
+}
+
+#seven{
+    background-color: darkorchid;
+}
+
+#eight{
+    background-color: hotpink;
+}
+
+#nine{
+    background-color: indigo;
+}
+
+#ten{
+    background-color: dodgerblue;
+}
+
+.button{
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 20%;
+    width: 110px;
+    justify-content: center;
+}
+/*End my code*/
 
 .bottom-content {
     display: flex;
