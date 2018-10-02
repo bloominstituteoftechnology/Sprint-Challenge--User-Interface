@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+t/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -213,7 +213,7 @@ header nav a {
 }
 .contact-form {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     width: 100%;
     justify-content: center;
     padding-bottom: 20px;
