@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav .navButtons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 643px;
+    height: inherit;
+    justify-content: space-around;
+}
+
+.navButtons a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +130,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes :nth-child(1){
+    background: teal;
+}
+
+.boxes :nth-child(2){
+    background: gold;
+}
+
+.boxes :nth-child(3){
+    background: cadetblue;
+}
+
+.boxes :nth-child(4){
+    background: coral;
+}
+
+.boxes :nth-child(5){
+    background: crimson;
+}
+
+.boxes :nth-child(6){
+    background: forestgreen;
+}
+
+.boxes :nth-child(7){
+    background: darkorchid;
+}
+
+.boxes :nth-child(8){
+    background: hotpink;
+}
+
+.boxes :nth-child(9){
+    background: indigo;
+}
+
+.boxes :nth-child(10){
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +208,92 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover{
+    animation: aDarkAnim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.about-content{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.organizer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.organizer .about-content {
+    width: 48%;
+}
+
+.organizer .about-content h2{
+    margin-top: 14px;
+}
+
+.organizer :nth-child(3) img{
+    padding-top: 20px;
+}
+
+.organizer :nth-child(4) img{
+    padding-top: 20px;
+}
+
+.organizer .about-content button{
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    margin-top: 14px;
+    border-radius: 7px;
+    border-color: black;
+    background: white;
+}
+
+#work-together{
+    margin-bottom: 0px;
+    border: none;
+}
+
+button:hover{
+    animation: buttonAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+a:hover {
+    animation: aAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aAnimation {
+    0%{}
+    100%{
+        color:blue;
+    }
+}
+
+@keyframes aDarkAnim {
+    0%{}
+    100%{
+        color: cyan;
+    }
+}
+
+@keyframes buttonAnimation {
+    0% {
+
+    }
+
+    100% {
+        background: lightgray;
+    }
 }
