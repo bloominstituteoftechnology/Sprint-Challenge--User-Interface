@@ -286,7 +286,7 @@ header nav a:hover {
 	align-items: center;
 	background: dodgerblue;
 }
-
+/*
 .box {
 
     width:100px;
@@ -295,4 +295,23 @@ header nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+/* about page section */
+.top-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border: 1px solid red;
+
+}
+.top-boxes {
+	width: 300px;
+		margin: 2%;
+		padding: 2%;
+		border: 1px solid black;
+
+		line-height: 125%;
+
+
 }
