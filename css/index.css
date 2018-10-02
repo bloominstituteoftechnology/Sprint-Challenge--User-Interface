@@ -255,3 +255,32 @@ footer nav a {
     margin-bottom: 0px;
     border: none;
 }
+
+button:hover{
+    animation: buttonAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+a:hover {
+    animation: aAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aAnimation {
+    0%{}
+    100%{
+        color:blue;
+    }
+}
+
+@keyframes buttonAnimation {
+    0% {
+
+    }
+
+    100% {
+        background: lightgray;
+    }
+}
