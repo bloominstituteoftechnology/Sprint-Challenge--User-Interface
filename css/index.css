@@ -306,12 +306,16 @@ header nav a:hover {
 
 }
 .top-boxes {
-	width: 300px;
+
+		width: 350px;
 		margin: 2%;
 		padding: 2%;
 		border: 1px solid black;
 
-		line-height: 125%;
+		/* line-height: 125%; */
+}
 
-
+.top-boxes img {
+	width: 330px;
+	
 }
