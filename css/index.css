@@ -260,13 +260,24 @@ header a:hover{
 
 .skyline-pic{
     width:800px;
-    height: 180px;
+    height: 153px;
+    
+}
+.our-products{
+    padding: 30px 0px;
+    padding-left: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.product-top{
+    border-bottom: 1px dashed gray;
 }
 
 .product-content img{
     height:250px;
     width: 352px;
 }
+
 
 .product-content{
     display: flex;
@@ -281,10 +292,6 @@ header a:hover{
 }
 .product-content section h2{
     margin-top: 30px;
-}
-
-.product-top{
-    border-bottom: 1px dashed gray;
 }
 
 .product-content section button{
@@ -323,8 +330,4 @@ header a:hover{
     margin-bottom: 30px;
     padding-top: 30px;
     border-top: 1px dashed black;
-}
-.our-products{
-    padding: 30px 0px;
-    border-bottom: 1px dashed black;
 }
