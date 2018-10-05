@@ -266,23 +266,15 @@ header nav a:hover {
 	 display: block;
  } */
 
-.container about-page .Home .middle-row {
-	width: 80%;
-	height: 60%
-	 display: flex;
-	 flex-wrap: wrap;
-	 justify-content:flex-start;
-	 margin-bottom: 20px;
-	 border-bottom: 1px dashed black;
+/* .container about-page .Home  */
+.middle-row {
+	width: 99%;
 
- 	/* display: inline-block; */
- 	padding: 10px;
- 	margin: 10px;
- 	display: flex;
- 	flex-direction: row;
- 	justify-content: center;
- 	/* align-content: center; */
- 	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	 margin-bottom: 1%;
 
  }
 
@@ -295,7 +287,7 @@ header nav a:hover {
 	width:130px;
 	text-align: center;
 	/* justify-content: space-between; */
-	align-self: center;
+	align-items: flex-start;
 	background-color: white;
 	margin: 10px 0;
   }
@@ -311,14 +303,14 @@ header nav a:hover {
 	display: inline-block;
 }
 
-.container about-page .Home .middle-row .div1of4{
-	width: 44%;
-}
+/* .container about-page .Home .middle-row .div1of4{
+	width: 39%;
+} */
 
 .bottomLayer {
-    	padding-bottom: 30px;
-    	border-bottom: 1px solid black;
-    	margin-bottom: 30px;
+    	padding-bottom: 2%;
+    	/* border-bottom: 1px solid black;
+    	margin-bottom: 30px; */
 }
 
 .paraAll {
@@ -327,16 +319,18 @@ header nav a:hover {
 
 .div1of4 {
 	border-bottom: 1px dashed black;
-	width: 44%;
-	height:
+	width: 47%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: flex-start;
+	/* align-items: */
 
 	/* display: inline-block; */
-	padding: 10px;
+
 	margin: 10px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	/* align-content: center; */
+
 	flex-wrap: wrap;
 }
 
