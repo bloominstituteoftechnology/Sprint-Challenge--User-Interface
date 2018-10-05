@@ -157,6 +157,12 @@
     p {
         line-height: 1.4;
     }
+    /* Container Styles */
+    
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
     /* Header Styles */
     
     header {
@@ -166,6 +172,10 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 25px;
+    }
+    
+    #logo:hover {
+        background-image: url('../img/lambda-red.png');
     }
     
     nav {
@@ -178,11 +188,10 @@
         color: black;
         text-decoration: none;
     }
-    /* Container Styles */
     
-    .container {
-        width: 800px;
-        margin: 0 auto;
+    nav a:hover {
+        color: #a0001e;
+        transform: scale(1.5);
     }
     /* Top Content Styles */
     
