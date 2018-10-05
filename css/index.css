@@ -725,3 +725,21 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
+
+
+/* attempting to add break points - final stretch goal */
+
+@media (max-width:600px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .middle-content .boxes .box {
+        width: 100%;
+    }
+}
