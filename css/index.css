@@ -146,6 +146,15 @@ footer nav a {
 }
 
 /*   --	my code	--		*/
+/* animation */
+@keyframes example {
+    0%   {text-shadow: 4px 4px 5px white; }
+    25%  {text-shadow: 4px 4px 5px red; }
+    50%  {text-shadow: 4px 4px 5px black; }
+    75%  {text-shadow: 2px 2px 5px red; }
+    100% {text-shadow: 2px 2px 5px white; }
+	}
+/*animation */
 
 header{
 	display: flex;
@@ -163,6 +172,10 @@ header nav{
 header nav a{
 	text-decoration: none;
 	color: black;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
 }
 header img{
 	justify-content: flex-start;
@@ -244,4 +257,16 @@ header .jumbo{
 
 .text-bottom{
 	margin: 10px 20px 40px;
+}
+
+/* 		contact page			*/
+
+address{
+	font-style: italic;
+}
+.contact-container{
+	text-align: center;
+}
+.contact-bottom{
+	align-items: center;
 }
