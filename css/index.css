@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -67,27 +67,54 @@ p {
 }
 
 .container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
     width: 800px;
     margin: 0 auto;
 }
+
+.header {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+		align-items: baseline;
+		margin: 20px 0 40px 0;
+}
+
+.header nav {
+		display: flex;
+		flex-direction: row;
+		width: 80%;
+		justify-content: space-around;
+}
+
+.header nav a {
+		text-decoration: none;
+		color: #000;
+}
+
+/* Home */
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+		width: 100%;
 }
 
 .middle-content h2 {
@@ -104,12 +131,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-child(1) {
+		background: teal;
+}
+
+.box:nth-child(2) {
+		background: gold;
+}
+
+.box:nth-child(3) {
+		background: cadetblue;
+}
+
+.box:nth-child(4) {
+		background: coral;
+}
+
+.box:nth-child(5) {
+		background: crimson;
+}
+
+.box:nth-child(6) {
+		background: forestgreen;
+}
+
+.box:nth-child(7) {
+		background: darkorchid;
+}
+
+.box:nth-child(8) {
+		background: hotpink;
+}
+
+.box:nth-child(9) {
+		background: indigo;
+}
+
+.box:nth-child(10) {
+		background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +209,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About */
+
+.about-first {
+		padding: 20px 20px 10px 20px;
+		border-bottom: 1px dotted #000;
+}
+
+.about-second section {
+		width: 48%;
+}
+
+.about-second section img {
+		margin-bottom: 20px;
+}
+
+.about-second section .btn {
+		border: 1.5px solid #000;
+		padding: 8px;
+		text-align: center;
+		width: 35%;
+		border-radius: 10px;
+}
+
+.about-second {
+		display: flex;
+		flex-direction: row;
+		width: 95%;
+		justify-content: space-between;
+		border-bottom: 1px dotted #000;
+		padding: 30px 0 20px 0;
+}
+
+.about-third {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		padding: 40px 0;
+}
+
+/* Products */
+
+.products {
+		display: flex;
+		flex-direction: row;
+		width: 95%;
+		justify-content: space-around;
+		border-bottom: 1px dotted #000;
+		padding: 30px 0;
+}
+
+.products section {
+		width: 40%;
+}
+
+.products section img {
+		margin-bottom: 20px;
+		width: 300px;
+		height: auto;
+}
+
+.products section .btn {
+		border: 1.5px solid #000;
+		padding: 8px;
+		text-align: center;
+		width: 35%;
+		border-radius: 10px;
+}
+
+/* Contact */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+		width: 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+		margin: 50px;
 }
