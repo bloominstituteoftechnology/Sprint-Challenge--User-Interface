@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* End Reset */
+
 * {
     box-sizing: border-box;
 }
@@ -75,32 +77,28 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 28px;
-    /* border: 1px solid blue; */
     justify-content: flex-end;
 
 }
 
 .container header .navContainer {
     width: 800px;
-    height: 100px;
+    height: 95px;
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: baseline;
-    /* border: 1px solid goldenrod; */
 }
 
 .container header .navContainer .logo {
     height: 40px;
     display: inline-block;
-    /* border: 1px solid green; */
 }
 
 .container header .navContainer nav {
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
     justify-content: flex-end;
     align-items: center;
 }
@@ -110,7 +108,6 @@ p {
     text-decoration: none;
     font-size: 14px;
     color: black;
-    /* border: 1px solid dodgerblue; */
 }
 
 .top-content {
@@ -185,6 +182,7 @@ p {
 .middle-content .boxes .dodgerblue {
     background-color: dodgerblue;
 }
+/* End index box colors */
 
 .bottom-content {
     display: flex;
