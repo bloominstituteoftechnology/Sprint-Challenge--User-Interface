@@ -285,7 +285,7 @@ body#contact {
 }
 
 .container.about-page {
-    height: calc(100vh - 160px);
+    height: calc(100vh - 55px);
 }
 
 section form {
@@ -294,17 +294,23 @@ section form {
     height: auto;
     width: 48%;
     border-right: 2px solid #000;
-    float: left;
-
 }
 
 .section-right {
-    border: 1px solid red;
     height: auto;
-    width: 40%;
-    border: 1px solid red;
-    /* float: right; */
-    
+    display: inline-block;
+    position: absolute;
+top: 250px;
+right: 50px;
+font-size: 1.5rem;
+text-align: center;
+    width: 40%;    
+}
+
+.section-right h1 {
+    font-size: 2.5rem;
+    border-bottom: 5px solid #000;
+    padding-bottom: 20px;
 }
 
 form input,
