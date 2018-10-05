@@ -79,11 +79,6 @@ header {
 	margin-bottom: 35px;
 }
 
-header nav {
-  vertical-align: top;
-
-}
-
 header nav a {
   margin-right: 90px;
   font-size: 14px;
@@ -102,9 +97,6 @@ header nav a:first-child {
 header nav a:last-child {
   margin-right: 0;
 }
-
-
-
 
 .top-content {
     display: flex;
@@ -139,12 +131,51 @@ header nav a:last-child {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+		color: white;
+}
+
+.middle-content .boxes .one{
+	background-color: teal;
+}
+
+.middle-content .boxes .two{
+	background-color: gold;
+}
+
+.middle-content .boxes .three{
+	background-color: cadetblue;
+}
+
+.middle-content .boxes .four{
+	background-color: coral;
+}
+
+.middle-content .boxes .five{
+	background-color: crimson;
+}
+
+.middle-content .boxes .six{
+	background-color: forestgreen;
+}
+
+.middle-content .boxes .seven{
+	background-color: darkorchid;
+}
+
+.middle-content .boxes .eight{
+	background-color: hotpink;
+}
+
+.middle-content .boxes .nine{
+	background-color: indigo;
+}
+
+.middle-content .boxes .ten{
+	background-color: dodgerblue;
 }
 
 .bottom-content {
