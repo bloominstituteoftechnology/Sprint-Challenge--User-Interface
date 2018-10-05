@@ -75,7 +75,7 @@ p {
 .container .header-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     margin: 20px 0;
     margin-bottom: 40px;
 }
@@ -259,4 +259,8 @@ footer nav a {
     text-align: center;
     padding: 5px 10px;
     margin-top: 15px;
+}
+
+.about-page .bottom-content {
+    margin-bottom: 40px;
 }
