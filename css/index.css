@@ -207,3 +207,8 @@ footer nav a {
     padding: 2% 0;
     border-radius: 10px;
 }
+
+.about-page .bottom-content {
+    padding: 0 3%;
+    margin-bottom: 4%;
+}
