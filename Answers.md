@@ -1,7 +1,7 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
 
    Semantic HTML is about giving meaning to the code. So, a semantc tag example would be a ```<article>``` or a ```<section>```, because
-   they have meaning and tell us something about their content.(ie heading and paragraph). A ```<div>``` or ```<span>``` don't say 
+   they have meaning and tell us something about their content.(ie artical and section). A ```<div>``` or ```<span>``` don't say 
    anthing about the content.
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
