@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -93,6 +93,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+		display: block;
 }
 
 .middle-content .boxes {
@@ -143,4 +144,207 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+	padding-top: 18px;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+
+header nav {
+  width: 75%;
+  margin-top: 35px;
+	display: flex;
+	justify-content: space-around;
+	/* border: 1px solid red; */
+}
+
+header nav a {
+
+
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+header .logo {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+	padding: 5px;
+}
+
+header .logo:hover {
+	transform-origin: top right;
+  transform scale(1.75);
+  border-radius: 10px;
+	border: 1px dashed gray;
+	padding: 5px;
+
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  transform-origin: top right;
+  transform scale(1.75);
+  border-radius: 10px;
+	border: 1px dashed gray;
+	padding: 15px;
+	/* background-color: red; */
+}
+.bigPic{
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+
+#box1 {
+	background-color: teal;
+
+}
+#box2 {
+	background-color: gold;
+
+}
+#box3 {
+	background-color: cadetblue;
+
+}
+#box4 {
+	background-color: coral;
+
+}
+#box5 {
+	background-color: crimson;
+
+}
+#box6 {
+	background-color: forestgreen;
+
+}
+#box7 {
+	background-color: darkorchid;
+
+}
+#box8 {
+	background-color: hotpink;
+
+}
+#box9 {
+	background-color: indigo;
+
+}
+#box10 {
+	background-color: dodgerblue;
+
+}
+#box1 {
+	background-color: teal;
+
+}
+
+.boxes:hover {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+
+}
+
+
+.middle-content .boxes .box {
+	 width: 12.5%;
+	 height: 100px;
+	 background: black;
+	 margin: 20px 2.5%;
+	 color: white;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+ /* h2 {
+	 display: block;
+ } */
+
+/* .container about-page .Home  */
+.middle-row {
+	width: 99%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	 margin-bottom: 1%;
+
+ }
+
+/* .middle-row .div1of4 */
+.bttn {
+  border: 1px solid black;
+	padding: 10px;
+	border-radius: 10%;
+	border: 1px solid black;
+	width:130px;
+	text-align: center;
+	/* justify-content: space-between; */
+	align-items: flex-start;
+	background-color: white;
+	margin: 10px 0;
+  }
+
+
+ .bttn:hover {
+		background-color: black;
+		color: white;
+
+}
+
+.container about-page .Home .middle-row .div1of4 paraAll {
+	display: inline-block;
+}
+
+/* .container about-page .Home .middle-row .div1of4{
+	width: 39%;
+} */
+
+.bottomLayer {
+    	padding-bottom: 2%;
+    	/* border-bottom: 1px solid black;
+    	margin-bottom: 30px; */
+}
+
+.paraAll {
+	display: inline-block;
+}
+
+.div1of4 {
+	border-bottom: 1px dashed black;
+	width: 47%;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: flex-start;
+	/* align-items: */
+
+	/* display: inline-block; */
+
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+}
+
+.container about-page .Home .artiDiv1ofa {
+	margin: 17px;
+	border-bottom: 2px dashed black;
+}
+
+
+.artiDiv1of {
+
+	padding-bottom: 4%;
+}
+.artiDiv1of1 {
+	border-bottom: 1px dashed black;
+	padding-bottom: 4%;
 }
