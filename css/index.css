@@ -165,6 +165,10 @@ header nav a {
 }
 .head-image {
     margin-bottom: 30px;
+    position: relative;
+    animation-name: move-header-img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .middle-content .boxes .box1 {
     background-color: teal;
@@ -271,7 +275,34 @@ form input {
     border-radius: 5px;
     background: white;
 }
-.content-container form button:hover {
+.content-container form button:hover,
+.boxed-content button:hover {
     cursor: pointer;
-
 }
+@keyframes move-header-img {
+    0% {top: 0;}
+    50% {top: 10px;}
+    100% {top: 0;}
+}
+@media only screen and (max-width: 500px) {
+    body, .container, .head-image {
+      width: 100%;
+    }
+    /* form input {
+        width: 75%;
+    } */
+    form input, #message {
+         width: 100%;
+     }
+    .flex-textarea-container, nav,
+    .top-content, .bottom-content,
+    .middle-content .boxes {
+        flex-direction: column;
+    }
+    .top-content .text-container,
+    .bottom-content .text-container,
+    .middle-content .boxes .box{
+        width: 100%;
+        margin: 10px;
+    }
+  }
