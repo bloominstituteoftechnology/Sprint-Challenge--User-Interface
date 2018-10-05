@@ -88,6 +88,14 @@ p {
     align-self: flex-end;
 }
 
+.container .navigation a:hover {
+    animation-name: nav-buttons;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    text-decoration: underline;
+
+}
+
 .jumbo-img {
     margin: 40px 0 30px 0;
 }
@@ -109,6 +117,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    animation-name: nav-buttons;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    text-decoration: underline;
+}
+
+@keyframes nav-buttons {
+    from {color: black;}
+    to {color: red;}
 }
 
 
@@ -244,12 +264,23 @@ header .about-content {
     margin-bottom: 30px;
 }
 
+@keyframes buttonAnim {
+    from {color: black; background-color: white; border-color: black;}
+    to {color: white; background-color: darkgray; border-color: lightgray;}
+}
+
 .about-page .about-middle-box a {
     border: 2px solid black;
     padding: 8px 30px;
     border-radius: 10px;
     text-decoration: none;
     color: black;
+}
+
+.about-page .about-middle-box a:hover {
+    animation-name: buttonAnim;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .about-page .about-middle-box .dashed-border-box {
