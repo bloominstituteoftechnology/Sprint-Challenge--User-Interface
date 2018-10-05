@@ -19,4 +19,5 @@ Whereas, when you use display: inline; the element will not start a new line and
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 cross-axis
 
-5. What is the git command to commit staged changes as well as write a message? git commit -m "text about changes here inside the quotes you must use'
+5. What is the git command to commit staged changes as well as write a message? 
+git commit -m "text about changes here inside the quotes you must use'

@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+     width: 100%
+     display: flex;
+}
+
+header .logo {
+    margin-left: -19px;
+    /* padding-right: 20px; */
+}
+
+header nav {
+    margin: 15px 0px 30px 0;
+    width: 750px;
+    justify-content: space-around;
+    display: flex;
+    align-items: baseline;
+}
+
+header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #0b1118;
+}
+
+header .home-header-img {
+    padding-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +140,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-of-type(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-of-type(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(7) {
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box:nth-of-type(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-of-type(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +212,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container .about-top-content {
+    margin: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+   
+        display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+    
+}
+
+.about-middle-content .about-strategy  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    padding-bottom: 20px;
+    
+}
+
+.about-middle-content .about-strategy button {
+    border-radius: 10px;
+    border: 2px double black;
+    font-size: 16px;
+    background: white;
+    width: 120px;
+    height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.about-bottom-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
