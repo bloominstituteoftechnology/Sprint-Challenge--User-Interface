@@ -278,11 +278,11 @@ header .jumbo {
   background-color: crimson;
 }
 
-.boxes .box:nth-child(1) {
+.boxes .box:nth-child(6) {
   background-color: forestgreen;
 }
 
-.boxes .box:nth-child(6) {
+.boxes .box:nth-child(7) {
   background-color: darkorchid;
 }
 
@@ -346,7 +346,7 @@ header .jumbo {
   margin-bottom: 40px;
 }
 
-/* products page */
+/* products page - stretch goal */
 
 .product-page img.skyline {
   width: 100%;
@@ -360,4 +360,248 @@ header .jumbo {
 .product-page .box img {
   width: 100%;
   height: 100%;
+}
+
+/* hover animations - Stretch goal */
+
+/* .boxes .box:hover {
+  width: 500px;
+  height: 500px;
+} */
+
+@keyframes change-background {
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: lightgreen;
+  }
+
+  80% {
+    background-color: aqua;
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
+.animated-background {
+  animation-name: change-background;
+  animation-duration: 4s;
+}
+
+/* box color animation */
+
+@keyframes teal-animate {
+  0% {
+    background-color: teal;
+    color: white:
+  }
+  50% {
+    background-color: white;
+    color: gray;
+  }
+  100% {
+    background-color: teal;
+    color: white;
+  }
+}
+
+@keyframes gold-animate {
+    0% {
+      background-color: gold;
+
+    }
+    50% {
+      background-color: gray;
+
+    }
+    100% {
+      background-color: gold;
+    }
+  }
+
+  @keyframes cadetblue-animate {
+    0% {
+      background-color: gray;
+    }
+    50% {
+      background-color: cadetblue;
+    }
+    100% {
+      background-color: gray;
+    }
+  }
+  
+@keyframes coral-animate {
+    0% {
+    background-color: white;
+    color: gray;
+    }
+    50% {
+    background-color: coral;
+    color: white;
+    }
+    100% {
+    background-color: white;
+    color: gray;
+    }
+}
+
+@keyframes crimson-animate {
+    0% {
+      background-color: crimson;
+      color: white:
+    }
+    50% {
+      background-color: white;
+      color: gray;
+    }
+    100% {
+      background-color: crimson;
+      color: white;
+    }
+  }
+
+  @keyframes forestgreen-animate {
+    0% {
+      background-color: white;
+      color: gray:
+    }
+    50% {
+      background-color: forestgreen;
+      color: white;
+    }
+    100% {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  @keyframes darkorchid-animate {
+    0% {
+      background-color: black;
+      color: lightgray:
+    }
+    50% {
+      background-color: darkorchid;
+      color: white;
+    }
+    100% {
+      background-color: lightgray;
+      color: black;
+    }
+  }
+
+  @keyframes hotpink-animate {
+    0% {
+      background-color: hotpink;
+      color: lightgray:
+    }
+    50% {
+      background-color: pink;
+      color: white;
+    }
+    100% {
+      background-color: hotpink;
+      color: black;
+    }
+  }
+
+  @keyframes indigo-animate {
+    0% {
+      background-color: white;
+      color: indigo:
+    }
+    50% {
+      background-color: indigo;
+      color: white;
+    }
+    100% {
+      background-color: white;
+      color: indigo;
+    }
+  }
+
+  @keyframes dodgerblue-animate {
+    0% {
+      background-color: dodgerblue;
+      color: white:
+    }
+    20% {
+      background-color: black;
+      color: white;
+    }
+    100% {
+      background-color: dodgerblue;
+      color: white;
+    }
+  }
+
+.boxes .box:nth-child(1) {
+  animation-name: teal-animate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(2) {
+  animation-name: gold-animate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(3) {
+  animation-name: cadetblue-animate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(4) {
+    animation-name: coral-animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(5) {
+    animation-name: crimson-animate;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(6) {
+    animation-name: forestgreen-animate;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(7) {
+    animation-name: darkorchid-animate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(8) {
+    animation-name: hotpink-animate;
+    animation-delay: 1.5s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.boxes .box:nth-child(9) {
+    animation-name: indigo-animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+.boxes .box:nth-child(10) {
+    animation-name: dodgerblue-animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
