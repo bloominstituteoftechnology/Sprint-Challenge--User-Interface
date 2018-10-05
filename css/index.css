@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -220,4 +219,52 @@ header img {
 .about-page .closing-text {
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.home-page main box1 {
+    background: teal;
+}
+
+.home-page main .box1 {
+    background: teal;
+}
+
+.home-page main .box1 {
+    background: teal;
+}
+
+.home-page main .box2 {
+    background: gold;
+}
+
+.home-page main .box3 {
+    background: cadetblue;
+}
+
+.home-page main .box4 {
+    background: coral;
+}
+
+.home-page main .box5 {
+    background: crimson;
+}
+
+.home-page main .box6 {
+    background: forestgreen;
+}
+
+.home-page main .box7 {
+    background: darkorchid;
+}
+
+.home-page main .box8 {
+    background: hotpink;
+}
+
+.home-page main .box9 {
+    background: indigo;
+}
+
+.home-page main .box10 {
+    background: dodgerblue;
 }
