@@ -255,3 +255,58 @@ footer nav a {
     margin-bottom: 40px;
 }
 
+/* Product Page */
+.product-page header .banner-image{
+    width: 100%;
+    max-width: 900px;
+}
+
+.product-page .top-content {
+    justify-content: left;
+}
+
+.product-page .top-content .text-container{
+    width: 100%;
+}
+
+
+.product-page .middle-content .boxes .box {
+    width: 25%;
+    height: 150px;
+}
+
+.product-page .middle-content .boxes .box1 {
+    background: black;
+}
+.product-page .middle-content .boxes .box2 {
+    background: gold;
+    color: black;
+}
+.product-page .middle-content .boxes .box3 {
+    background: black;
+}
+.product-page .middle-content .boxes .box4 {
+    background: gold;
+    color: black;
+}
+.product-page .middle-content .boxes .box5 {
+    background: black;
+}
+.product-page .middle-content .boxes .box6 {
+    background: gold;
+    color: black;
+}
+.product-page .middle-content .boxes .box7 {
+    background: black;
+}
+.product-page .middle-content .boxes .box8 {
+    background: gold;
+    color: black;
+}
+.product-page .middle-content .boxes .box9 {
+    background: black;
+}
+.product-page .middle-content .boxes .box10 {
+    background: gold;
+    color: black;
+}
