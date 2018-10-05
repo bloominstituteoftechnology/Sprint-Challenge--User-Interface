@@ -71,6 +71,51 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    display: flex;
+    flex-direction: row
+    justify-content: flex-end;
+    
+  }
+
+  .header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  .header nav a:last-child {
+    margin-right: 0;
+  }
+
+.header nav {
+    display: flex;
+    display: flex-wrap;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 0px;
+    padding-top: 20px
+}
+
+.header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 20px
+}
+
+.header.middleDiv {
+    align-self: flex-end;
+}
+
+.header .logo {
+ float: left;
+
+}
+
+.header .middleimg {
+
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
