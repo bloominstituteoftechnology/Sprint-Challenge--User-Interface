@@ -99,7 +99,12 @@ header nav a {
 }
 
 .banner {
-    margin: 20px 0px 40px;
+    margin: 30px 0px 20px;
+}
+
+.about-section {
+    padding:0px 20px 20px;
+    border-bottom:1px dashed black;
 }
 
 .top-content {
@@ -110,10 +115,37 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
+.top-content--noBorder {
+    border-bottom: 0px dashed black;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container--border {
+    width: 370px;
+    margin-top:30px;
+    border-bottom:1px dashed black;
+    padding-bottom:20px;
+}
+
+.top-panel {
+    margin-bottom: 20px;
+}
+.text-container--border h2{
+    margin-top:10px;
+}
+
+.text-container--border button{
+    width: 130px;
+    height: 35px;
+    margin-top:10px;
+    font-size:15px;
+    border-radius: 10px;
+    border:2px solid black;
 }
 
 .middle-content {
@@ -167,6 +199,11 @@ header nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.about-bottom-content {
+    padding:20px;
+}
+
 
 footer {
     width: 100%;
