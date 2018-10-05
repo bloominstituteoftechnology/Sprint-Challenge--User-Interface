@@ -282,3 +282,21 @@ footer nav a {
     justify-content: flex-start;
     padding: 0 20px 20px 20px;
 }
+
+@media (max-width:700px) {
+    .container {
+        width: 500px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header nav {
+        width: 60%;
+    }
+
+    header .logo {
+        display: none;
+    }
+}
