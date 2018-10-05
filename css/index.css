@@ -309,3 +309,18 @@ div.box:nth-child(10) {
     width: 94%;
     margin-bottom: 2em;
 }
+
+.contact-page form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-page form div{
+    width: 100%;
+    display: flex;
+}
+
+.contact-page form div p {
+    width: 20%;
+}
