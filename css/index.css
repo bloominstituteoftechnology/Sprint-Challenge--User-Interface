@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,169 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    margin:0 55px;
+}
+
+/* ---------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+@keyframes enlarge {
+    from {font-size: 18px;}
+    to {font-size: 20px;}
+}
+
+@keyframes color-change {
+    from { 
+        background: white;
+        color: black;
+        border: 2px solid black;
+    }
+    to {
+        background: black;
+        color: white;
+        border: 2px solid white;    
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(359deg);
+      }
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.about-page header {
+    border-bottom: 1px dashed black;
+
+}
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
+.top-bar nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-bar nav a {
+    padding: 0 20px 0;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.top-bar nav a:hover {
+    animation-name: enlarge;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+footer nav a:hover {
+    animation-name: enlarge;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
+.about-info{
+    padding: 10px 20px;
+}
+
+.about-page main {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.about-page main .box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-page main .box p, img, button {
+    margin-bottom: 20px;
+}
+
+.about-page main .box button {
+    width: 150px;
+    padding: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-page main .box button:hover {
+    animation-name: color-change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
+.about-page .closing-text {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.home-page main .box:hover {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;    
+}
+
+.home-page main .box1 {
+    background: teal;
+}
+
+.home-page main .box2 {
+    background: gold;
+}
+
+.home-page main .box3 {
+    background: cadetblue;
+}
+
+.home-page main .box4 {
+    background: coral;
+}
+
+.home-page main .box5 {
+    background: crimson;
+}
+
+.home-page main .box6 {
+    background: forestgreen;
+}
+
+.home-page main .box7 {
+    background: darkorchid;
+}
+
+.home-page main .box8 {
+    background: hotpink;
+}
+
+.home-page main .box9 {
+    background: indigo;
+}
+
+.home-page main .box10 {
+    background: dodgerblue;
 }
