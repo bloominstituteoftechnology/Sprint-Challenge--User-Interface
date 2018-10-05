@@ -293,3 +293,16 @@ header .about-content {
     margin: 30px 20px;
     margin-top: 50px;
 }
+
+
+/* --------------------- */
+/* Product Page Settings */
+
+header img {
+    margin: 30px 0;
+    width: 800px;
+}
+
+header div {
+    margin: 0 30px 30px 30px;
+}
