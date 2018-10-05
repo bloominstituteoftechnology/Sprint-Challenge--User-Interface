@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -67,14 +68,15 @@ p {
 }
 
 header {
-
+		display: flex;
+		justify-content: space-between;
+}
+header .nav-bar {
+	display: block;
 }
 
-.nav-bar {
-	   width: 100%;
-		 display: flex;
-		 justify-content: space-around;
-		 padding: 20px;
+header .nav-bar .logo {
+	display: block;
 }
 
 .container {
@@ -220,6 +222,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content-about-2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.text-content-about-2 {
+	display: inline-flex;
+	justify-content: center;
 }
 
 .bottom-content {
