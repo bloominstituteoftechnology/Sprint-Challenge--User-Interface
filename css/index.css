@@ -144,3 +144,108 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+header nav {
+    display: flex;
+    margin-top: 20px;
+    width: 75%;
+    justify-content: space-around;
+}
+
+header nav a {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.header-img {
+    margin: 10px 0px 25px 0px;
+}
+
+.middle-content .boxes :first-child { 
+    background: teal;
+}
+
+.middle-content .boxes :nth-child(2) { 
+    background: gold;
+}
+
+.middle-content .boxes :nth-child(3) { 
+    background: cadetblue;
+}
+
+.middle-content .boxes :nth-child(4) { 
+    background: coral;
+}
+
+.middle-content .boxes :nth-child(5) { 
+    background: crimson;
+}
+
+.middle-content .boxes :nth-child(6) { 
+    background: forestgreen;
+}
+
+.middle-content .boxes :nth-child(7) { 
+    background: darkorchid;
+}
+
+.middle-content .boxes :nth-child(8) { 
+    background: hotpink;
+}
+
+.middle-content .boxes :nth-child(9) { 
+    background: indigo;
+}
+
+.middle-content .boxes :nth-child(10) { 
+    background: dodgerblue;
+}
+
+.about-intro {
+    padding: 20px;   
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-box {
+    width: 47%;
+    padding: 20px 0px;
+    margin: 20px 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box h3 {
+    margin-top: 10px;
+}
+
+.about-box button {
+    padding: 10px 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 8px;
+    border: 1.8px solid black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+}
+
+.about-box button:hover {
+    background: black;
+    color: white;
+}
+
+.about-bottom-content {
+    padding: 30px 20px 45px 20px;
+}
