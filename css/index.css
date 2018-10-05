@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*reset ends here*/
+
 * {
     box-sizing: border-box;
 }
@@ -66,9 +68,29 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-end {
+    padding-right: 25px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.header-img {
+    padding: 15px 0;
 }
 
 .top-content {
@@ -81,6 +103,11 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-content .about-top-content {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -104,13 +131,81 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+ .about-box {
+    width: 390px;
+    height: 400px;
+    margin: 10px 0;
+    border-bottom: 1px dashed black;
+} 
+
+.about-box h2 {
+    padding-top: 10px;
+}
+
+.about-box button {
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border: 2px solid black;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
 
 .bottom-content {
     display: flex;
@@ -124,6 +219,32 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding-left: 15px;
+}
+
+input[type=submit] {
+    height: 50px;
+    width: 100px;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    color: black;
+    font-size: 14px;
 }
 
 footer {
