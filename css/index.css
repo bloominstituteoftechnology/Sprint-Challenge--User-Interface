@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+/* ↓ Header nav bar and logo style start ↓ */
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 35px;
+}
+
+header nav {
+  display: flex;
+  width: 630px;
+  margin-top: 35px;
+  justify-content: space-around;
+}
+
+header nav a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ↑ Header nav bar and logo style end ↑ */
+
+/* ↓ Top image ↓ */
+.top-image {
+    margin-bottom: 35px;
+} 
+
+/* ↑ ↑ ↑ */
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +149,48 @@ p {
     justify-content: center;
 }
 
+/* ↓ Applying a different color to each box ↓*/
+
+.middle-content .boxes div:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes div:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes div:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes div:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes div:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes div:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes div:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes div:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes div:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +223,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* About Page */
+
+/* ↓ About Section description ↓ */
+
+.about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* ↓ Flex container with 4 images-sections start ↓ */
+
+.flex-container__middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.flex-container__middle .description-block {
+	width: 385px;
+    height: 445px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.flex-container__middle div:nth-child(1), .flex-container__middle div:nth-child(3) {
+    padding-right: 0;
+    padding-left: 15px;
+} 
+
+.flex-container__middle div:nth-child(2), .flex-container__middle div:nth-child(4) {
+    padding-left: 0;
+    padding-right: 15px;
+} 
+
+.flex-container__middle .description-block h2 {
+    margin-top: 12px;
+}
+
+.flex-container__middle .description-block p {
+    margin-bottom: 16px;
+}
+
+
+.flex-container__middle .description-block button {
+	background: white;
+	vertical-align: top;
+	padding: 9px 24px;
+    font-size: inherit;
+	border: 1.5px solid black;
+	cursor: pointer;
+	border-radius: 9px;
+  }
+  
+  .flex-container__middle .description-block button:hover {
+	background: black;
+	color: white;
+  }
+
+  /* ↑ Flex container with 4 images-sections end ↑ */
+
+/* ↓ Bottom section above footer ↓ */
+
+.bottom-slogan {
+    margin-bottom: 20px;
+    padding: 0 20px;
+    padding-bottom: 20px; 
+}
+
+
