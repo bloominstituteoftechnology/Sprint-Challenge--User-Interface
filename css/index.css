@@ -222,7 +222,7 @@ p {
 }
 
 .home-page .middle-content .boxes .box {
-  width: 12.5%;
+  width: 100px;
   height: 100px;
   background: black;
   margin: 20px 2.5%;
@@ -383,7 +383,7 @@ footer nav a {
     }
 
     .container .content-container {
-        width: 90%;
+        padding: 0 1em;
         margin: 0 auto;
     }
 
@@ -406,8 +406,24 @@ footer nav a {
         display: none;
     }
 
-    
+    .home-page .top-content {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .home-page .top-content .text-container {
+        width: 100%;
+    }
+
+    .home-page .bottom-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-page .bottom-content .text-container {
+        width: 100%;
+        margin: 10px 0;
+    }
 
 
     footer nav {
