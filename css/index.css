@@ -215,3 +215,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* CSS FOR ABOUT PAGE */
+
+.about-intro {
+    margin: 0 25px;
+    padding-bottom: 25px; 
+}
+
+.middle-section {
+    border-top: 2px dotted black;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.middle-section div {
+    width: 350px;
+    margin: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.middle-section div h3 {
+    margin-top: 15px;
+}
+
+.middle-section div p {
+    margin-bottom: 15px;
+}
+
+.middle-section div button {
+    margin-bottom: 25px;
+    padding: 7px 20px;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+
+.about-outro {
+    margin: 0 30px;
+    padding-bottom: 25px; 
+}
+
+.footer a.homey{
+    color: white;
+}
+
+.final-footer {
+    display: flex;
+   
+}
+
+.final-footer .footer{
+    width: 500px;
+   
+}
