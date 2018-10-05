@@ -47,7 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-/* End Reset */
+/* End reset */
+/* Begin general styles */
 
 * {
     box-sizing: border-box;
@@ -216,3 +217,51 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Begin About styles */
+
+.about-top-content {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+    border-top: 1px dashed black;
+}
+
+.about-middle-content .about-box img {
+    width: 100%;
+}
+
+.about-middle-content .about-box {
+    width: 46%;
+    display: inline-block;
+    padding: 25px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content .about-box h2 {
+    margin-top: 2%;
+}
+
+.about-middle-content .about-box a.button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 12%;
+}
+
+.about-bottom-content {
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* End About styles */
