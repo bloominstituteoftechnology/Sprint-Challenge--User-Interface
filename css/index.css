@@ -181,7 +181,7 @@ p {
 }
 
 .box:hover {
-    font-size: 120%
+    font-size: 120%;
     -webkit-animation: rotate-scale-up 0.65s linear both;
 	        animation: rotate-scale-up 0.65s linear both;
 }
@@ -309,7 +309,7 @@ footer nav a {
  button:hover {
     background: black;
     color: white;
-    font-size: 120%
+    font-size: 120%;
     -webkit-animation: rotate-scale-up 0.65s linear both;
 	        animation: rotate-scale-up 0.65s linear both;
   }
