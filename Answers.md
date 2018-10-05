@@ -7,4 +7,4 @@
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
     You are using what I like to call the secondary axis, but this is better known as the perpendicular axis. Obviously, it runs perpendicular to the principal axis (i.e. horizontal for column or vertical for row alignment)
 5. What is the git command to commit staged changes as well as write a message? 
-    The command is git commit -m "insert message here"
+    The command is git commit -m "insert message here".

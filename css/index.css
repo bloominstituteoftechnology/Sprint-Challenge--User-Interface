@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -76,12 +76,12 @@ header {
     flex-direction: row;
     padding-bottom: 30px;
 }
+
 header nav {
     display: flex;
     justify-content: space-around;
     width: 75%;
     align-items: flex-end;
-
 }
 
 header nav a {
@@ -93,6 +93,7 @@ header nav a {
 .block {
     display: block;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .top-content {
@@ -206,4 +207,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Style Rules */
+.about-page {
+    width:100%;
+}
+.about-page h3 {
+    font-size: 18px;
+    padding-top:15px;
+}
+
+.about-page p {
+    font-size: 14px;
+}
+
+.about-page button {
+    font-size: 12px;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 8%;
+    padding:5px 20px;
+    margin-top: 20px;
+}
+
+.about-page .about {
+    display: flex;
+    flex-direction: column;
+    margin:0 2.5%;
+    margin-top: -20px;
+    padding: 10px 10px;  
+}
+
+.about-page .generic {
+    display:flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom:1px dashed black;
+    margin-top:20px;
+    align-items: flex-start;
+}
+
+.about-page .middle-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border-top:1px dashed black;
+    padding-top: 20px;
+}
+
+.middle-container img {
+    width: 100%;
+}
+
+.together {
+    display: flex;
+    flex-direction: column;
+    margin:0 2.5%;
+    padding: 20px 10px;
 }
