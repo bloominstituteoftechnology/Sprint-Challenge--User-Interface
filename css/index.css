@@ -242,7 +242,7 @@
     .middle-content .boxes .box {
         width: 12.5%;
         height: 100px;
-        background: black;
+        border: 2px dotted black;
         margin: 20px 2.5%;
         color: white;
         display: flex;
@@ -251,43 +251,103 @@
     }
     
     .middle-content .boxes .box:first-child {
+        color: teal;
+        border: 2px dotted teal;
+    }
+    
+    .middle-content .boxes .box:first-child:hover {
         background-color: teal;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(2) {
+        color: gold;
+        border: 2px dotted gold;
+    }
+    
+    .middle-content .boxes .box:nth-child(2):hover {
         background-color: gold;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(3) {
+        color: cadetblue;
+        border: 2px dotted cadetblue;
+    }
+    
+    .middle-content .boxes .box:nth-child(3):hover {
         background-color: cadetblue;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(4) {
+        color: coral;
+        border: 2px dotted coral;
+    }
+    
+    .middle-content .boxes .box:nth-child(4):hover {
         background-color: coral;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(5) {
+        color: crimson;
+        border: 2px dotted crimson;
+    }
+    
+    .middle-content .boxes .box:nth-child(5):hover {
         background-color: crimson;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(6) {
+        color: forestgreen;
+        border: 2px dotted forestgreen;
+    }
+    
+    .middle-content .boxes .box:nth-child(6):hover {
         background-color: forestgreen;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(7) {
+        color: darkorchid;
+        border: 2px dotted darkorchid
+    }
+    
+    .middle-content .boxes .box:nth-child(7):hover {
         background-color: darkorchid;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(8) {
+        color: hotpink;
+        border: 2px dotted hotpink;
+    }
+    
+    .middle-content .boxes .box:nth-child(8):hover {
         background-color: hotpink;
+        color: white;
     }
     
     .middle-content .boxes .box:nth-child(9) {
+        color: indigo;
+        border: 2px dotted indigo;
+    }
+    
+    .middle-content .boxes .box:nth-child(9):hover {
         background-color: indigo;
+        color: white;
     }
     
     .middle-content .boxes .box:last-child {
+        color: dodgerblue;
+        border: 2px dotted dodgerblue;
+    }
+    
+    .middle-content .boxes .box:last-child:hover {
         background-color: dodgerblue;
+        color: white;
     }
     
     .about-page .middle-content .text-container {
