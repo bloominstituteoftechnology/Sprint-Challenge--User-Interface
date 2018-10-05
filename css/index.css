@@ -66,10 +66,41 @@ p {
     line-height: 1.4;
 }
 
+/* Global Styles */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 3%;
+    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Index Styles */
 
 .top-content {
     display: flex;
@@ -83,6 +114,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 40px;
 }
 
 .middle-content {
@@ -112,6 +144,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +198,58 @@ p {
     padding-right: 0;
 }
 
+/* About Styles */
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container-about {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    padding-top: 40px;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about .box {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    /* flex-direction: column; */
+    width: 50%;
+
+}
+
+.middle-content-about button {
+    display: flex;
+    max-width: 100px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.middle-content-about h3 {
+    padding: 0 2%;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.middle-content-about p {
+    padding: 0 2%;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
 footer {
     width: 100%;
     background: black;
