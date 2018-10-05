@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px 0px 40px;
+}
+
+.navigation nav {
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.jum {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +137,47 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +210,125 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-text {
+    margin: 0 auto;
+    width: 95%;
+    /* border: 1px solid red; */
+    /* padding-bottom: 10px; */
+    /* margin: 0px 20px 20px; */
+}
+
+hr {
+    border-top: 1px dashed black;
+    margin-bottom: 35px;
+}
+
+.main-about {
+    margin: 0 auto;
+    width: 95%;
+}
+
+.con-flex {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+   width: 48%;
+   margin: 0px;
+}
+
+.main-container img {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+ .main-container p {
+    margin-bottom: 20px;
+ }
+
+ .main-container .button {
+    margin-bottom: 20px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    max-width: 30%;
+    padding: 10px 10px 10px
+ }
+
+ .lets-work {
+    margin: 0px auto 40px;
+    width: 93%;
+ }
+
+ .form {
+     padding: 40px 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px solid black;
+     border-radius: 5%;
+     /* height: 600px; */
+     max-width: 80%;
+     margin: 100px auto;
+ }
+
+ .contact .form input,  
+ .contact .form label, 
+ .contact .form textarea, 
+ .contact .form select{
+    /* margin: 0 auto; */
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 5px 0px;
+ }
+
+ .contact .form input,
+ .contact .form select {
+     height: 30px;
+     border-radius: 10px;
+ } 
+
+ .contact .form textarea{
+    border-radius: 10px;
+ }
+ 
+ .contact .form label, 
+ .contact .form h1{
+    font-weight: bold;
+ }
+
+ /* .contact .form h1{
+    text-align: center;
+ } */
+
+
+ .contact .form input.button {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color:lightgrey;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    padding: 10px 0px;
+    height: auto;
+ }
+
+
