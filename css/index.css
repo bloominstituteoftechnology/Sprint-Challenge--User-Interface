@@ -273,3 +273,62 @@ hr {
     margin: 0px auto 40px;
     width: 93%;
  }
+
+ .form {
+     padding: 40px 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     border: 1px solid black;
+     border-radius: 5%;
+     /* height: 600px; */
+     max-width: 80%;
+     margin: 100px auto;
+ }
+
+ .contact .form input,  
+ .contact .form label, 
+ .contact .form textarea, 
+ .contact .form select{
+    /* margin: 0 auto; */
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: 5px 0px;
+ }
+
+ .contact .form input,
+ .contact .form select {
+     height: 30px;
+     border-radius: 10px;
+ } 
+
+ .contact .form textarea{
+    border-radius: 10px;
+ }
+ 
+ .contact .form label, 
+ .contact .form h1{
+    font-weight: bold;
+ }
+
+ /* .contact .form h1{
+    text-align: center;
+ } */
+
+
+ .contact .form input.button {
+    border: 1.5px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color:lightgrey;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    padding: 10px 0px;
+    height: auto;
+ }
+
+
