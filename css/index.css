@@ -158,6 +158,7 @@ p {
 
 .container {
   width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -394,5 +395,40 @@ END ABOUT LOWER SECTION
 *******************/
 
 /******************** 
+ABOUT FOOTER
+*******************/
+
+footer .secondary-nav {
+  display: flex;
+}
+
+/******************** 
+END ABOUT FOOTER
+*******************/
+
+/******************** 
 END ABOUT PAGE
 *******************/
+
+@media (max-width: 700px) {
+  header .main-nav,
+  footer .secondary-nav,
+  .main-container .col2 {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header .main-nav a,
+  footer .secondary-nav a {
+    padding: 15px 50px;
+    margin-top: 10px;
+  }
+
+  header .main-nav img {
+    margin-bottom: 10px;
+  }
+
+  footer .secondary-nav {
+    width: 100%;
+  }
+}
