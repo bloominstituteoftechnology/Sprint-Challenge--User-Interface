@@ -94,6 +94,9 @@ header nav a {
 
 header nav a:hover {
     text-decoration: underline;
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+     transform: rotateZ(-30deg);
 }
 
 /* Footer styles */
@@ -256,6 +259,23 @@ border: 2px solid black;
 border-radius: 10px;
 }
 
+.about-box .button:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    -webkit-transition: background-color 2s ease-out;
+}
+
 .bottom {
     margin: 40px 0;
 }
+
+/* .container header nav a:hover {
+    background: white;
+    color: pink;
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+     transform: rotateZ(-30deg);
+   
+    
+  } */
