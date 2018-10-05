@@ -78,16 +78,16 @@ p {
     margin: 30px 0;
 }
 
-.container .top-content .top-contentImg {
+.home .top-content .top-contentImg {
     margin-bottom: 30px;
 }
 
-.container .header a {
+.home .header a {
     text-decoration: none;
     color: black;
 }
 
-.top-content {
+.home .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -95,29 +95,29 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.home .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.home .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.home .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.home .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.home .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -128,17 +128,17 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+.home .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.home .bottom-content .text-container {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.home .bottom-content .text-container:last-child {
     padding-right: 0;
 }
 
@@ -159,4 +159,16 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page .top-content {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .top-content .text-container {
+    padding: 0 2%;
+    padding-bottom: 20px; 
+    margin-top: 20px;
 }
