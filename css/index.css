@@ -71,6 +71,42 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+}
+
+/* header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+} */
+
+header nav {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav a {
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner {
+    margin: 30px 0px 20px;
+}
+
+.about-section {
+    padding:0px 20px 20px;
+    border-bottom:1px dashed black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,10 +115,37 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content--noBorder {
+    border-bottom: 0px dashed black;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container--border {
+    width: 370px;
+    margin-top:30px;
+    border-bottom:1px dashed black;
+    padding-bottom:20px;
+}
+
+.top-panel {
+    margin-bottom: 20px;
+}
+.text-container--border h2{
+    margin-top:10px;
+}
+
+.text-container--border button{
+    width: 130px;
+    height: 35px;
+    margin-top:10px;
+    font-size:15px;
+    border-radius: 10px;
+    border:2px solid black;
 }
 
 .middle-content {
@@ -104,13 +167,24 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1{background: teal;}
+.box2{background: gold;}
+.box3{background: cadetblue;}
+.box4{background: coral;}
+.box5{background: crimson;}
+.box6{background: forestgreen;}
+.box7{background: darkorchid;}
+.box8{background: hotpink;}
+.box9{background: indigo;}
+.box10{background: dodgerblue;}
+
 
 .bottom-content {
     display: flex;
@@ -125,6 +199,11 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.about-bottom-content {
+    padding:20px;
+}
+
 
 footer {
     width: 100%;
