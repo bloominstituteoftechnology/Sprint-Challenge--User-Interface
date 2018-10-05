@@ -9,10 +9,10 @@
 3. What are the 4 areas of the box model?
 
 - the 4 areas of the box moedel from indwards to outwards are,
-  content
-  padding
-  border
-  margin
+  ⋅⋅⋅content⋅⋅
+  ⋅⋅⋅padding⋅⋅
+  ⋅⋅⋅border⋅⋅
+  ⋅⋅⋅margin⋅⋅
 
 4. While using flexbox, what axis are you using when you use the property: `align-items: center`?
 
