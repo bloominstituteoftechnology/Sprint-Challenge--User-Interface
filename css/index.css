@@ -342,10 +342,10 @@ footer nav a {
     /* margin-top: 20px; */
     cursor: pointer;
     background: white;
-    border-radius: 5px;
+    border-radius: 15px;
     /* width: 10px;
     height: 15px; */
-    border: 1px solid black;
+    border: 2px solid black;
     margin-bottom: 10px;
 }
 
@@ -357,7 +357,7 @@ footer nav a {
 .about-card .about-head {
     padding: 20px;
     width: 100%;
-    border-bottom: 1px dotted black;
+    border-bottom: 2px dotted black;
 }
 
 .work-together {
