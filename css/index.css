@@ -214,8 +214,8 @@ footer nav a {
 }
 
 .container .about-top-content {
-    margin: 25px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
+    padding: 25px;
     border-bottom: 1px dashed black;
 }
 
@@ -236,7 +236,7 @@ footer nav a {
     flex-wrap: wrap;
     flex-basis: 30%;
     padding: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
     
 }
 
@@ -251,7 +251,12 @@ footer nav a {
     cursor: pointer;
 }
 
+.about-middle-content .about-strategy article{
+    padding-bottom: 35px;
+    border-bottom: 1px dashed black;
+}
+
 .about-bottom-content {
     margin-top: 30px;
     margin-bottom: 30px;
-    }
+    }    
