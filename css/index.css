@@ -298,11 +298,61 @@ header .about-content {
 /* --------------------- */
 /* Product Page Settings */
 
-header img {
+header {
+    border: none;
+}
+
+.product-header img {
     margin: 30px 0;
     width: 800px;
 }
 
-header div {
+.product-header div {
     margin: 0 30px 30px 30px;
+}
+
+.product-choice {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 20px;
+    margin-top: 30px;
+}
+
+.product-choice .product-content-box {
+    width: 30%;
+}
+
+.product-choice .product-content-box img {
+    /* border: 1px solid red; */
+    width: 200px;
+    margin: 30px 0;
+}
+
+.product-spacing {
+    margin-bottom: 40px;
+}
+
+.product-choice .product-content-box p {
+    padding-bottom: 30px;
+}
+
+.product-choice .product-content-box a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 70%;
+    text-align: center;
+    padding: 5px 30px;
+    border: 1px solid black;    
+    border-radius: 5px;
+}
+
+.product-choice .product-content-box a:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+.hr-content {
+    margin-bottom: 40px;
 }
