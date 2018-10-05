@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain) */
-
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,10 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers 
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block; */
+	display: block;
 }
 body {
 	line-height: 1;
@@ -66,55 +66,37 @@ p {
     line-height: 1.4;
 }
 
-img{
-    padding-bottom: 15px;
-} 
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
- header {
-	display:flex;
-	justify-content:space-between;
-	margin-top: 35px;
-} 
+/* Stuff in the header */
 
 
-
-header nav {
-	display: flex;
-	width:650px;
-	justify-content:space-around;
-	align-items:flex-end;
+header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    margin: 20px auto;
 }
 
-header nav a {
-    font-size: 14px;
+.header-text {
+    flex-grow: 5;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
     color: black;
     text-decoration: none;
 }
-  
-header nav a:hover {
-    text-decoration: underline;
-}
-  
-header nav a:first-child {
-    margin-left: 0;
-}
-  
-header nav a:last-child {
-    margin-right: 0;
-}
-  
-header .logo {
-    margin-top: 28px 0 0 91px;
- }
 
-.cars {
-    margin-top: 30px;
-    margin-bottom: 20px;
+header .banner {
+    margin: 20px auto;
 }
+
+/* stuff at the top*/
+
 
 
 .top-content {
@@ -130,6 +112,11 @@ header .logo {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Stuff in the middle */
+
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -147,145 +134,50 @@ header .logo {
     justify-content: space-evenly;
 }
 
-.boxes {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.box {
-   
-    width:100px;
+.middle-content .boxes .box {
+    width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.box1 {
-   
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box1 {
     background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box2 {
-   
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box2 {
     background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box3 {
-    
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box3 {
     background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box4 {
-  
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box4 {
     background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box5 {
-   
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box5 {
     background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box6 {
-  
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box6 {
     background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box7 {
-   
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box7 {
     background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box8 {
-  
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box8 {
     background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.box9 {
-    
-    width:100px;
-    height: 100px;
+.middle-content .boxes .box9 {
     background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
-.box10 {
-   
-    width:100px;
-    height: 100px;
-    background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* stuff at the bottom */
+
+
 
 .bottom-content {
     display: flex;
@@ -301,6 +193,7 @@ header .logo {
     padding-right: 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
@@ -320,51 +213,55 @@ footer nav a {
     text-decoration: none;
 }
 
+/* About page */
+.about-page .about-intro {
+    padding-left: 20px;
+    padding right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 10px;
+}
 
- 
-
-/* experimental css code below*/
-
-
-
-.services-content {
+.about-page .middle-content {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    line-height: 1.3;
+    justify-content: space-around;
+    border-bottom: none;
 }
 
-
-.services-content h3 {
-    font-size: 26px;
-    margin: 10px 0;
+.about-page .middle-content .box {
+    max-width: 360px;
+    margin: 20px;
+    border-bottom: 1px dashed black;
 }
 
-.services-content .services-text {
- border-bottom: 1px solid black;
- padding-bottom: 40px;
- margin-bottom: 20px
+.about-page .middle-content h2 {
+    padding: 0 0;
+    margin: 10px auto;
 }
 
-.services-content .card {
-    padding: 20px;
-    border: 1px solid black;
-    width: 420px;
+.about-page .middle-content p {
+    margin-bottom: 10px;
+}
+
+.about-page .middle-content button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px 22px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     background: white;
-    margin: 20px 0;
 }
 
-.services-content .card-button {
-    padding: 10px 40px;
-    margin-top: 20px;
-    cursor: pointer;
-    background: white;
-    border-radius: 5px;
-    border: 1px solid black;
+.about-page .middle-content button:active {
+    color: gray;
+    border: 2px solid gray;
 }
 
-.services-content .card button:hover {
-    background: black;
-    color: white;
-} 
-
+.about-page .bottom-content {
+    display: block;
+    margin: 20px;
+    margin-bottom: 40px;
+}
