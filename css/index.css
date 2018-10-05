@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+/* General Styles */
 
 p {
     line-height: 1.4;
@@ -70,7 +71,30 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Header Styles */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+}
+
+header nav {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
