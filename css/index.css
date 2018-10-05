@@ -132,7 +132,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -141,43 +140,43 @@ p {
 }
 
 .box:nth-child(1) {
-	background-color: teal;
+	background: teal;
 }
 
 .box:nth-child(2) {
-	background-color: gold;
+	background: gold;
 }
 
 .box:nth-child(3) {
-	background-color: cadetblue;
+	background: cadetblue;
 }
 
 .box:nth-child(4) {
-	background-color: coral;
+	background: coral;
 }
 
 .box:nth-child(5) {
-	background-color: crimson;
+	background: crimson;
 }
 
 .box:nth-child(6) {
-	background-color: forestgreen;
+	background: forestgreen;
 }
 
 .box:nth-child(7) {
-	background-color: darkorchid;
+	background: darkorchid;
 }
 
 .box:nth-child(8) {
-	background-color: hotpink;
+	background: hotpink;
 }
 
 .box:nth-child(9) {
-	background-color: indigo;
+	background: indigo;
 }
 
 .box:nth-child(10) {
-	background-color: dodgerblue;
+	background: dodgerblue;
 }
 
 .bottom-content {
