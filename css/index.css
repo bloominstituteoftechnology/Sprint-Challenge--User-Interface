@@ -261,6 +261,11 @@ footer nav a {
     margin-top: 15px;
 }
 
+.about-page .content-box .btn:hover {
+    background: black;
+    color: white;
+}
+
 .about-page .bottom-content {
     margin-bottom: 40px;
 }
