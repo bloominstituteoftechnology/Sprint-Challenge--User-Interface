@@ -402,6 +402,30 @@
     .bottom-content .text-container:last-child {
         padding-right: 0;
     }
+    /* contact form */
+    
+    form {
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    form button,
+    input {
+        height: 50px;
+        width: 97%;
+        padding: 5px;
+        margin: 5px auto;
+        align-self: center;
+    }
+    
+    input {
+        border: 2px dotted black;
+    }
+    /* Footer Styles */
     
     footer {
         width: 100%;
