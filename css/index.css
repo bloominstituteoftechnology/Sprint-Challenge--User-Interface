@@ -70,7 +70,30 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Header Content */
+header nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline; 
+    margin: 20px auto;
+}
 
+.header-text {
+    flex-grow: 5;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header .banner-image {
+    margin: 20px auto;
+}
+
+/* Top Content */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +108,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +136,7 @@ p {
     justify-content: center;
 }
 
+/* Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +151,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
