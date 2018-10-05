@@ -108,6 +108,11 @@ nav a {
     padding-bottom: 20px;  
 }
 
+.top-content .about-top-content {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -132,6 +137,12 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .box1 {
@@ -174,6 +185,28 @@ nav a {
     background-color: dodgerblue;
 }
 
+ .about-box {
+    width: 390px;
+    height: 400px;
+    margin: 10px 0;
+    border-bottom: 1px dashed black;
+} 
+
+.about-box h2 {
+    padding-top: 10px;
+}
+
+.about-box button {
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border: 2px solid black;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
 
 .bottom-content {
     display: flex;
@@ -187,6 +220,14 @@ nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding-left: 15px;
 }
 
 footer {
