@@ -70,7 +70,6 @@ p {
     width: 90%;
     max-width: 880px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .container .header-section {
@@ -90,13 +89,18 @@ p {
     text-decoration: none;
     color: black;
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.container .header-section .navigation a:hover {
+/* .container .header-section .navigation a:hover {
     color: blue;
-}
+} */
 
+.banner {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 .top-content {
     display: flex;
@@ -138,6 +142,50 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .teal {
+    background: teal;
+}
+
+.middle-content .boxes .gold {
+    background: gold;
+}
+
+.middle-content .boxes .cadetblue {
+    background: cadetblue;
+}
+
+.middle-content .boxes .coral {
+    background: coral;
+}
+
+.middle-content .boxes .crimson {
+    background: crimson;
+}
+
+.middle-content .boxes .forestgreen {
+    background: forestgreen;
+}
+
+.middle-content .boxes .darkorchid {
+    background: darkorchid;
+}
+
+.middle-content .boxes .hotpink {
+    background: hotpink;
+}
+
+.middle-content .boxes .indigo {
+    background: indigo;
+}
+
+.middle-content .boxes .dodgerblue {
+    background: dodgerblue;
+}
+
+
+
+
 
 .bottom-content {
     display: flex;
