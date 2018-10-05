@@ -67,6 +67,9 @@ p {
 }
 
 .container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
     width: 800px;
     margin: 0 auto;
 }
@@ -74,13 +77,10 @@ p {
 .header {
 		display: flex;
 		flex-direction: row;
+		width: 100%;
 		justify-content: space-between;
 		align-items: baseline;
-		margin: 10px 0;
-}
-
-.header img {
-		/* align-self: baseline; */
+		margin: 20px 0 40px 0;
 }
 
 .header nav {
@@ -95,15 +95,13 @@ p {
 		color: #000;
 }
 
-.container img {
-	margin: 20px 0;
-}
+/* Home */
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -116,6 +114,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+		width: 100%;
 }
 
 .middle-content h2 {
@@ -140,43 +139,43 @@ p {
 }
 
 .box:nth-child(1) {
-	background: teal;
+		background: teal;
 }
 
 .box:nth-child(2) {
-	background: gold;
+		background: gold;
 }
 
 .box:nth-child(3) {
-	background: cadetblue;
+		background: cadetblue;
 }
 
 .box:nth-child(4) {
-	background: coral;
+		background: coral;
 }
 
 .box:nth-child(5) {
-	background: crimson;
+		background: crimson;
 }
 
 .box:nth-child(6) {
-	background: forestgreen;
+		background: forestgreen;
 }
 
 .box:nth-child(7) {
-	background: darkorchid;
+		background: darkorchid;
 }
 
 .box:nth-child(8) {
-	background: hotpink;
+		background: hotpink;
 }
 
 .box:nth-child(9) {
-	background: indigo;
+		background: indigo;
 }
 
 .box:nth-child(10) {
-	background: dodgerblue;
+		background: dodgerblue;
 }
 
 .bottom-content {
@@ -212,6 +211,41 @@ footer nav a {
     text-decoration: none;
 }
 
+/* About */
 
+.about-first {
+		padding: 20px;
+		border-bottom: 1px dotted #000;
+}
 
-/* my code */
+.about-second section {
+		width: 48%;
+}
+
+.about-second section img {
+		margin-bottom: 20px;
+}
+
+.btn {
+		border: 1.5px solid #000;
+		padding: 8px;
+		text-align: center;
+		width: 35%;
+		border-radius: 10px;
+}
+
+.about-second {
+		display: flex;
+		flex-direction: row;
+		width: 95%;
+		justify-content: space-between;
+		border-bottom: 1px dotted #000;
+		padding: 30px 0 20px 0;
+}
+
+.about-third {
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		padding: 40px 0;
+}
