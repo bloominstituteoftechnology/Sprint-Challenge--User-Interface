@@ -193,3 +193,31 @@ footer nav a {
     text-decoration: none;
 }
 
+/* about page starts here */
+.about-page div.about{
+    width:100%;
+}
+.middle-content-about{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.about-box{
+    width:46.5%;
+    border-bottom:1px dashed rgb(48, 20, 20);    
+    margin-bottom:20px;
+}
+.middle-content-about button{
+    border:2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 8px 20px;
+    margin-bottom: 20px;   
+}
+.middle-content-about h2, p{
+    margin:10px 0;
+}
+
+.work-together{
+    display:block;
+}
