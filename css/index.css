@@ -231,10 +231,12 @@ footer nav a {
 }
 
 .about-middle-content .about-strategy  {
+    width: 400px;
     display: flex;
     flex-wrap: wrap;
     flex-basis: 30%;
-    padding-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
     
 }
 
