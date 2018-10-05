@@ -221,3 +221,26 @@ footer nav a {
 .work-together{
     display:block;
 }
+/* product page starts here */
+.product-page .cat{
+    width:360px;
+    margin:10px 0;
+}
+.product-page .cat:hover{
+    width:800px;
+    margin:10px 0;
+    transform: scale(1.1);
+}
+.product-page div.products{
+    width:100%;
+}
+.gallery{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    border-bottom: 1px dashed black;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+
