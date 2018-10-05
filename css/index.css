@@ -267,6 +267,8 @@ header nav a:hover {
  } */
 
 .container about-page .Home .middle-row {
+	width: 80%;
+	height: 60%
 	 display: flex;
 	 flex-wrap: wrap;
 	 justify-content:flex-start;
@@ -299,7 +301,7 @@ header nav a:hover {
   }
 
 
-.container about-page .Home .middle-row .div1of4 .bttn:hover {
+ .bttn:hover {
 		background-color: black;
 		color: white;
 
@@ -325,6 +327,7 @@ header nav a:hover {
 
 .div1of4 {
 	border-bottom: 1px dashed black;
+	width: 44%;
 	height:
 
 	/* display: inline-block; */
@@ -344,7 +347,7 @@ header nav a:hover {
 
 
 .artiDiv1of {
-	
+
 	padding-bottom: 4%;
 }
 .artiDiv1of1 {
