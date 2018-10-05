@@ -88,17 +88,12 @@ header nav a {
     justify-content: space-around;
    display: inline-block;
    margin-top: 10px;
-    
-
 
 }
 
-/* .jumbo-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px; 
-} */
+hr {
+    border-top: 1px dashed black;
+}
 
 .top-content {
     display: flex;
@@ -221,9 +216,26 @@ header nav a {
     padding-right: 0;
 }
 
+.container-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container-row button {
+    border: solid 1px black;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
