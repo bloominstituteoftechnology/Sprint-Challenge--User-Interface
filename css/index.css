@@ -144,3 +144,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Home */
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+a {
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.top-content img {
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(4n+2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(4n+3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4n+4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(4n+5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(4n+6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(4n+7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(4n+8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(4n+9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background-color: dodgerblue;
+}
