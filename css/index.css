@@ -166,6 +166,14 @@ a {
 
 }
 
+button {
+
+	border: 2px solid black;
+	padding: 10px 25px;
+	border-radius: 10px;
+
+}
+
 .header-img {
 
 	margin: 20px 0px;
@@ -239,5 +247,46 @@ a {
 #box10 {
 
 	background-color: dodgerblue;
+
+}
+
+/* About styles */
+
+.about-section {
+
+	margin: 0px 20px;
+	margin-bottom: 20px;
+
+}
+
+.info-section {
+
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px dashed black;
+	padding-top: 10px;
+
+}
+
+.info-box {
+
+	margin: 20px;
+	margin-bottom: 40px;
+	width: 360px;
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+
+}
+
+.work-together {
+
+	margin: 0px 20px;
+	margin-bottom: 40px;
+
+}
+
+.info-box img {
+
+	margin-bottom: 10px;
 
 }
