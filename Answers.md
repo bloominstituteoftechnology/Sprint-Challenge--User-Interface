@@ -5,5 +5,5 @@
 3. What are the 4 areas of the box model?
 > Content, Padding, Border, Margin
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
-
+>cross-axis
 5. What is the git command to commit staged changes as well as write a message? 
