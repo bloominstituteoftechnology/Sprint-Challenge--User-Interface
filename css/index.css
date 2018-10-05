@@ -66,10 +66,40 @@ p {
     line-height: 1.4;
 }
 
+body.style {
+    margin: 0px;
+    background: #0e0e0e;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 2px solid red;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+   
+   
+}
+
+.container nav {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 800px;  
+}
+
+.container nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.container .header-img {
+    margin: 20px 0;
 }
 
 .top-content {
