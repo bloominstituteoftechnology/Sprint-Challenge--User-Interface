@@ -13,7 +13,7 @@ The 4 areas of the box model are content, padding, border, and margin, they allo
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
-Using the align-items property will use the cross axis, or horizontal.
+Using the align-items property will use the cross axis, or vertical.
 
 5. What is the git command to commit staged changes as well as write a message?
 
