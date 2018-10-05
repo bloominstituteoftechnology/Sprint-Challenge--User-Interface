@@ -195,8 +195,8 @@ header nav a:hover {
 	/* background-color: red; */
 }
 .bigPic{
-	padding-top: 50px;
-	padding-bottom: 25px;
+	padding-top: 35px;
+	padding-bottom: 20px;
 }
 
 #box1 {
@@ -266,8 +266,13 @@ header nav a:hover {
 	 display: block;
  } */
 
-.middle-row {
-  border-bottom: 1px dashed black;
+.container about-page .Home .middle-row {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content:flex-start;
+	 margin-bottom: 20px;
+	 border-bottom: 1px dashed black;
+
  	/* display: inline-block; */
  	padding: 10px;
  	margin: 10px;
@@ -294,18 +299,17 @@ header nav a:hover {
   }
 
 
-.middle-row .div1of4 .bttn {
-	button:hover {
+.container about-page .Home .middle-row .div1of4 .bttn:hover {
 		background-color: black;
 		color: white;
 
 }
 
-.middle-row .div1of4 paraAll {
+.container about-page .Home .middle-row .div1of4 paraAll {
 	display: inline-block;
 }
 
-.middle-row .div1of4{
+.container about-page .Home .middle-row .div1of4{
 	width: 44%;
 }
 
@@ -320,7 +324,9 @@ header nav a:hover {
 }
 
 .div1of4 {
-  border: 1px solid black;
+	border-bottom: 1px dashed black;
+	height:
+
 	/* display: inline-block; */
 	padding: 10px;
 	margin: 10px;
@@ -334,4 +340,14 @@ header nav a:hover {
 .container about-page .Home .artiDiv1ofa {
 	margin: 17px;
 	border-bottom: 2px dashed black;
+}
+
+
+.artiDiv1of {
+	
+	padding-bottom: 4%;
+}
+.artiDiv1of1 {
+	border-bottom: 1px dashed black;
+	padding-bottom: 4%;
 }
