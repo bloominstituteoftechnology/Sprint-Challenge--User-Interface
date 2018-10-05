@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 0 40px 0 0;
+}
+
+.top-page img{
+    margin: 10px 0 25px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -100,17 +119,47 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .one {
+       background: teal;
+}
+.middle-content .boxes .two {
+       background: gold;
+}
+.middle-content .boxes .three {
+       background: cadetblue;
+}
+.middle-content .boxes .four {
+        background: coral;
+}
+.middle-content .boxes .five {
+     background: crimson;
+}
+.middle-content .boxes .six {
+    background: forestgreen;
+}
+.middle-content .boxes .seven {
+     background: darkorchid;
+}
+.middle-content .boxes .eight {
+    background: hotpink;
+}
+.middle-content .boxes .nine {
+    background: indigo;
+}
+.middle-content .boxes .ten {
+     background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +192,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about */
+
+.about-paragraph {
+   padding: 0 0 15px 15px;
+   border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content {
+    height: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    border: none;
+}
+
+.about-page .content{
+    width: 370px;
+    padding: 25px 0 15px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content h2{
+   padding: 10px 0 15px 0;
+}
+.about-page .middle-content button{
+    margin-top: 15px;
+    background: white;
+    color: black;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 7px 20px
+}
+.about-page .middle-content button:hover{
+    background: black;
+    color: white;
+    
+}
+.about-page .bottom-page{
+    margin: 50px 0 50px 19px;
 }
