@@ -142,6 +142,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    margin:0 55px;
 }
 
 /* ---------------------------------------- */
