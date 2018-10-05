@@ -104,6 +104,7 @@ header nav a {
     color: black;
     text-decoration: none;
     transition: background 0.5s linear;
+    font-size: 0.9em;
 }
 
 header nav a:hover {
