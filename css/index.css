@@ -259,4 +259,63 @@ footer nav a {
 .about-bottom-content {
     margin-top: 30px;
     margin-bottom: 30px;
-    }    
+    }
+    
+    /* products page */
+    .container .products-top-content {
+    margin-bottom: 15px;
+    padding: 25px;
+    border-bottom: 1px dashed black;
+}
+
+.products-middle-content {
+   
+        display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+    
+}
+
+.products-middle-content .product-card  {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    padding: 20px;
+    /* border-bottom: 1px dashed black; */
+    
+}
+
+.products-middle-content .product-card button {
+    border-radius: 10px;
+    border: 2px double black;
+    font-size: 16px;
+    background: white;
+    width: 120px;
+    height: 32px;
+    margin-top: 10px;
+    animation: colorRound 10s infinite;
+    
+    cursor: pointer;
+}
+
+.products-middle-content .product-card article{
+    padding-bottom: 35px;
+    border-bottom: 1px dashed black;
+}
+
+.products-bottom-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    
+    @keyframes colorRound {
+        50% {border-color: red}
+        50% {color: red;}
+        50% {background:grey;}
+    }
+
+    
