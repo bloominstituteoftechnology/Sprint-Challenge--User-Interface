@@ -275,38 +275,27 @@ footer nav a {
     height: 150px;
 }
 
-.product-page .middle-content .boxes .box1 {
+.product-page .middle-content .boxes .box1,
+.product-page .middle-content .boxes .box2,
+.product-page .middle-content .boxes .box3,
+.product-page .middle-content .boxes .box4,
+.product-page .middle-content .boxes .box5,
+.product-page .middle-content .boxes .box6,
+.product-page .middle-content .boxes .box7,
+.product-page .middle-content .boxes .box8,
+.product-page .middle-content .boxes .box9  
+  {
     background: black;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
-.product-page .middle-content .boxes .box2 {
-    background: gold;
-    color: black;
-}
-.product-page .middle-content .boxes .box3 {
-    background: black;
-}
-.product-page .middle-content .boxes .box4 {
-    background: gold;
-    color: black;
-}
-.product-page .middle-content .boxes .box5 {
-    background: black;
-}
-.product-page .middle-content .boxes .box6 {
-    background: gold;
-    color: black;
-}
-.product-page .middle-content .boxes .box7 {
-    background: black;
-}
-.product-page .middle-content .boxes .box8 {
-    background: gold;
-    color: black;
-}
-.product-page .middle-content .boxes .box9 {
-    background: black;
-}
-.product-page .middle-content .boxes .box10 {
-    background: gold;
-    color: black;
+
+@keyframes animation1 {
+    0%   {background-color: black;}
+    50%  {background-color: yellow;}
+    100%  {background-color: black;}
+    0%   {color: yellow;}
+    50%  {color: black;}
+    100%  {color: yellow;}
 }
