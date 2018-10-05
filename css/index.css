@@ -180,6 +180,12 @@ p {
     justify-content: center;
 }
 
+.box:hover {
+    font-size: 120%
+    -webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
+}
+
 /* box id section */
 
 #box1 {
