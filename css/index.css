@@ -119,106 +119,45 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box1 {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: teal;
     margin: 20px 2.5%;
     color: white;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box2 {
-    width: 12.5%;
-    height: 100px;
-    background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .boxes .one {
+       background: teal;
 }
-.middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
-    background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .boxes .two {
+       background: gold;
 }
-.middle-content .boxes .box4 {
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .boxes .three {
+       background: cadetblue;
 }
-.middle-content .boxes .box5 {
-    width: 12.5%;
-    height: 100px;
-    background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .boxes .four {
+        background: coral;
 }
-.middle-content .boxes .box6 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .five {
+     background: crimson;
+}
+.middle-content .boxes .six {
     background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box7 {
-    width: 12.5%;
-    height: 100px;
-    background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .boxes .seven {
+     background: darkorchid;
 }
-.middle-content .boxes .box8 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .eight {
     background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box9 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .nine {
     background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box10 {
-    width: 12.5%;
-    height: 100px;
-    background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .boxes .ten {
+     background: dodgerblue;
 }
 
 
@@ -253,4 +192,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about */
+
+.about-paragraph {
+   padding: 0 0 15px 15px;
+   border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content {
+    height: 930px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    border: none;
+}
+
+.about-page .content{
+    width: 370px;
+    padding: 25px 0 15px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content h2{
+   padding: 10px 0 15px 0;
+}
+.about-page .middle-content button{
+    margin-top: 15px;
+    background: white;
+    color: black;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding: 7px 20px
+}
+.about-page .middle-content button:hover{
+    background: black;
+    color: white;
+    
+}
+.about-page .bottom-page{
+    margin: 50px 0 50px 19px;
 }
