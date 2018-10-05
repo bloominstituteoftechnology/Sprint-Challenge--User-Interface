@@ -345,3 +345,19 @@ header .jumbo {
   justify-content: center;
   margin-bottom: 40px;
 }
+
+/* products page */
+
+.product-page img.skyline {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product-page .top-content .text-container {
+  width: 97%;
+}
+
+.product-page .box img {
+  width: 100%;
+  height: 100%;
+}
