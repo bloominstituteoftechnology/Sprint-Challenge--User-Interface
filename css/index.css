@@ -66,6 +66,56 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header .navigation-bar{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    width: 595px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 45px 0 0;
+}
+
+header nav a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* styles for index.html */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +162,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,21 +216,87 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
+/* Styles for about.html */
+
+.container .top-about {
+    justify-content: flex-start;
+    padding: 0 20px 20px 20px;
 }
 
-footer nav {
-    width: 60%;
+.middle-about {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-between;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.middle-about .about-box {
+    width: 370px;
+    padding: 0 0 20px 0;
+    border-bottom: 1px dashed black;
+    margin: 10px 0 50px 0;
+}
+
+.middle-about .about-box h2 {
+    margin: 10px 0 15px 0;
+}
+
+.middle-about .about-box p {
+    margin: 0 0 15px 0;
+}
+
+.middle-about .about-box button {
+    width: 130px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-about .bottom-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-evenly;
+    margin-bottom: 20px;
+}
+
+.middle-about .bottom-text {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px 20px 20px;
+}
+
+.bottom-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.container .bottom-about {
+    justify-content: flex-start;
+    padding: 0 20px 20px 20px;
+}
+
+@media (max-width:700px) {
+    .container {
+        width: 500px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header nav {
+        width: 60%;
+    }
+
+    header .logo {
+        display: none;
+    }
 }
