@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+/* ↓ Header nav bar and logo style start ↓ */
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 35px;
+}
+
+header nav {
+  display: flex;
+  width: 630px;
+  margin-top: 35px;
+  justify-content: space-around;
+}
+
+header nav a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ↑ Header nav bar and logo style end ↑ */
+
+/* ↓ Top image ↓ */
+.top-image {
+    margin-bottom: 35px;
+} 
+
+/* ↑ ↑ ↑ */
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +147,48 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* ↓ Applying a different color to each box ↓*/
+
+.middle-content .boxes div:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes div:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes div:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes div:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes div:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes div:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes div:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes div:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes div:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
