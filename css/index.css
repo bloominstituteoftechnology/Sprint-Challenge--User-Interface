@@ -150,6 +150,30 @@ footer nav a {
     box-sizing: border-box;
 }
 
+@keyframes enlarge {
+    from {font-size: 18px;}
+    to {font-size: 20px;}
+}
+
+@keyframes color-change {
+    from { 
+        background: white;
+        color: black;
+        border: 2px solid black;
+    }
+    to {
+        background: black;
+        color: white;
+        border: 2px solid white;    
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(359deg);
+      }
+}
+
 
 header {
     display: flex;
@@ -186,6 +210,17 @@ header img {
     color: black;
 }
 
+.top-bar nav a:hover {
+    animation-name: enlarge;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+footer nav a:hover {
+    animation-name: enlarge;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
 .about-info{
     padding: 10px 20px;
 }
@@ -216,17 +251,21 @@ header img {
     border-radius: 10px;
 }
 
+.about-page main .box button:hover {
+    animation-name: color-change;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+}
+
 .about-page .closing-text {
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.home-page main box1 {
-    background: teal;
-}
-
-.home-page main .box1 {
-    background: teal;
+.home-page main .box:hover {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;    
 }
 
 .home-page main .box1 {
