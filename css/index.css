@@ -184,8 +184,8 @@
         width: 800px;
         margin: 0 auto;
     }
-    
     /* Top Content Styles */
+    
     .top-content {
         display: flex;
         flex-wrap: wrap;
@@ -200,18 +200,17 @@
         padding-bottom: 20px;
         padding-top: 20px;
     }
-
+    
     .about-page .top-content .text-container {
         width: 100%;
     }
-
     /* Middle Content Styles */
     
     .middle-content {
         margin-bottom: 20px;
         border-bottom: 1px dashed black;
     }
-
+    
     .about-page .middle-content {
         display: flex;
         flex-wrap: wrap;
@@ -242,65 +241,66 @@
         justify-content: center;
     }
     
-    #teal {
+    .middle-content .boxes .box:first-child {
         background-color: teal;
     }
     
-    #gold {
+    .middle-content .boxes .box:nth-child(2) {
         background-color: gold;
     }
     
-    #cadetblue {
+    .middle-content .boxes .box:nth-child(3) {
         background-color: cadetblue;
     }
     
-    #coral {
+    .middle-content .boxes .box:nth-child(4) {
         background-color: coral;
     }
     
-    #crimson {
+    .middle-content .boxes .box:nth-child(5) {
         background-color: crimson;
     }
     
-    #forestgreen {
+    .middle-content .boxes .box:nth-child(6) {
         background-color: forestgreen;
     }
     
-    #darkorchid {
+    .middle-content .boxes .box:nth-child(7) {
         background-color: darkorchid;
     }
     
-    #hotpink {
+    .middle-content .boxes .box:nth-child(8) {
         background-color: hotpink;
     }
     
-    #indigo {
+    .middle-content .boxes .box:nth-child(9) {
         background-color: indigo;
     }
     
-    #dodgerblue {
+    .middle-content .boxes .box:last-child {
         background-color: dodgerblue;
     }
-
+    
     .about-page .middle-content .text-container {
         width: 48%;
         padding: 0 1%;
         padding-bottom: 20px;
         padding-top: 20px;
     }
-
+    
     .about-page .middle-content .text-container h2 {
         padding: 5px 0;
     }
-
+    
     .middle-content .text-container img {
         width: 100%;
     }
-
-    #office, #meeting {
+    
+    #office,
+    #meeting {
         border-bottom: 1px dashed black;
     }
-
+    
     button {
         border: 2px solid black;
         border-radius: 5px;
@@ -309,8 +309,6 @@
         padding: 5px;
         margin-top: 10px;
     }
-
-
     /* Bottom Content Styles */
     
     .bottom-content {
