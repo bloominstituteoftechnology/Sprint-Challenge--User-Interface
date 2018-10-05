@@ -112,7 +112,7 @@ header .jumbo-wrapper {
 }
 
 
-/* Style for the middle content */
+/* Style for the middle content of index.html */
 
 .middle-content {
     margin-bottom: 20px;
@@ -181,6 +181,10 @@ header .jumbo-wrapper {
     background-color: dodgerblue;
 }
 
+
+
+/* Styling for bottom content of index.html */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -212,4 +216,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Styling for about.html */
+/* Styling for top content of about.html */
+
+.about-page .about-top-content .text-container {
+    padding: 0 2%;
+    padding-bottom: 20px; 
+}
+
+.about-top-content {
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evently;
+    height: 950px;
+
+}
+
+.about-middle-content .about-box-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1%;
+}
+
+.about-middle-content .about-box {
+    width: 48%;
+    height: 420px;
+    border-bottom: 1px dashed black;
+    margin: 1%;
+    margin-bottom: 50px;
+
+}
+
+.about-middle-content .about-box h3 {
+    padding-top: 10px;
+}
+
+.about-middle-content .about-box button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+/* Styling for the bottom content of about.html */
+
+.about-bottom-content {
+    margin-bottom: 40px;
+    padding: 0 2%;
 }
