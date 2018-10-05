@@ -93,6 +93,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+		display: block;
 }
 
 .middle-content .boxes {
@@ -241,4 +242,96 @@ header nav a:hover {
 #box1 {
 	background-color: teal;
 
+}
+
+.boxes:hover {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+
+}
+
+
+.middle-content .boxes .box {
+	 width: 12.5%;
+	 height: 100px;
+	 background: black;
+	 margin: 20px 2.5%;
+	 color: white;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+ /* h2 {
+	 display: block;
+ } */
+
+.middle-row {
+  border-bottom: 1px dashed black;
+ 	/* display: inline-block; */
+ 	padding: 10px;
+ 	margin: 10px;
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ 	/* align-content: center; */
+ 	flex-wrap: wrap;
+
+ }
+
+/* .middle-row .div1of4 */
+.bttn {
+  border: 1px solid black;
+	padding: 10px;
+	border-radius: 10%;
+	border: 1px solid black;
+	width:130px;
+	text-align: center;
+	/* justify-content: space-between; */
+	align-self: center;
+	background-color: white;
+	margin: 10px 0;
+  }
+
+
+.middle-row .div1of4 .bttn {
+	button:hover {
+		background-color: black;
+		color: white;
+
+}
+
+.middle-row .div1of4 paraAll {
+	display: inline-block;
+}
+
+.middle-row .div1of4{
+	width: 44%;
+}
+
+.bottomLayer {
+    	padding-bottom: 30px;
+    	border-bottom: 1px solid black;
+    	margin-bottom: 30px;
+}
+
+.paraAll {
+	display: inline-block;
+}
+
+.div1of4 {
+  border: 1px solid black;
+	/* display: inline-block; */
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/* align-content: center; */
+	flex-wrap: wrap;
+}
+
+.container about-page .Home .artiDiv1ofa {
+	margin: 17px;
+	border-bottom: 2px dashed black;
 }
