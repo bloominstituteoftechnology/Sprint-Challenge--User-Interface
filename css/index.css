@@ -210,3 +210,86 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Page CSS*/
+
+.about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+button{
+  background: white;
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+.about-subheader{
+	padding: 17px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 25px;
+}
+
+.about-boxed-content{
+  line-height: 22px;
+}
+
+.about-boxed-content .toprow{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-boxed-content .toprow .toprow-left{
+  padding: 15px;
+  margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-bottom: 1px dashed black;
+}
+
+.about-boxed-content .toprow .toprow-right{
+  padding: 15px;
+  margin-bottom: 15px;
+	margin-right: 20px;
+	margin-left: 10px;
+	border-bottom: 1px dashed black;
+}
+
+.about-boxed-content{
+  line-height: 22px;
+}
+
+.about-boxed-content .midrow{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-boxed-content .midrow .midrow-left{
+	padding: 15px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-bottom: 1px dashed black;
+}
+
+.about-boxed-content .midrow .midrow-right{
+	padding: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	margin-left: 10px;
+	border-bottom: 1px dashed black;
+}
+
+.bottom{
+	margin: 25px 10px;
+
+}
