@@ -105,7 +105,9 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
+    /* background-color: black; */
     margin: 20px 2.5%;
+    /* border: 1px solid red; */
     color: white;
     display: flex;
     align-items: center;
@@ -143,4 +145,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* border: 1px solid red; */
+    width: 80%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 85%;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .b1 {
+    background: teal;
+}
+
+.middle-content .boxes .b2 {
+    background: gold;
+}
+
+.middle-content .boxes .b3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .b4 {
+    background: coral;
+}
+
+.middle-content .boxes .b5 {
+    background: crimson;
+}
+
+.middle-content .boxes .b6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .b7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .b8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .b9 {
+    background: indigo;
+}
+
+.middle-content .boxes .b10 {
+    background: dodgerblue;
 }
