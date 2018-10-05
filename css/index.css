@@ -285,7 +285,7 @@ form input {
     50% {top: 10px;}
     100% {top: 0;}
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     body, .container, .head-image {
       width: 100%;
     }
