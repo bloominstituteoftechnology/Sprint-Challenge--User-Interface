@@ -14,6 +14,6 @@ From the inside out: content, padding, border, margin.
 
 align-items uses the cross axis. For example, the default flow-direction is row which displays content from left to right (main axis). The cross axis would be vertical alignment,top to bottom. ```align-items``` will align items perpendicular to the main axis and the main axis can change depedind how it's defined by flow-direction. ```align-items:center``` will center items together in the cross axis. If there is rectangle displayed long ways from left to right with squares nested in it that are smaller than the rectangle, ```align-items:center``` will move the boxes down verticaly to have even space on the top and bottom.
 
-##5. What is the git command to commit staged changes as well as write a message? 
+## 5. What is the git command to commit staged changes as well as write a message? 
 
 git commit -m "Commit message."
