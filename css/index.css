@@ -297,3 +297,51 @@ header .jumbo {
 .boxes .box:nth-child(10) {
   background-color: dodgerblue;
 }
+
+/* about page */
+
+.top-content-about .text-container {
+  width: 97%;
+}
+
+.middle-content-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.middle-content-about .text-container img {
+  margin: 0 0 10px 0;
+  padding: 0px;
+}
+
+.middle-content-about .text-container h2 {
+  margin: 0 0 20px 0;
+  padding: 0px;
+}
+
+.middle-content-about .text-container {
+  width: 372px;
+  border-bottom: 1px dashed black;
+  margin: 10px 0 50px;
+}
+
+.middle-content-about a {
+  display: inline-block;
+  color: black;
+  border: 2px solid black;
+  text-decoration-line: none;
+  border-radius: 10px;
+  margin: 20px 0;
+  width: 35%;
+  text-align: center;
+  line-height: 2.1;
+}
+
+.bottom-content-about {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
