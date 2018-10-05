@@ -3,7 +3,7 @@
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 >```Display: block;``` organizes the content it applies to as an item on the page such that each item does not "play well" with eachother, block is an entirely new element on the page with its own set of rules. ```Display: inline;``` is far more friendly. It conforms to that which is around it by sharing a baseline. Inline elements feel like words in a sentance that line up nicely with eachother and respect boundaries. Block elements feel more like paragraphs, chapters, or even entire books.   
 3. What are the 4 areas of the box model?
-
+> Content, Padding, Border, Margin
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
 5. What is the git command to commit staged changes as well as write a message? 
