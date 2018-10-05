@@ -270,3 +270,73 @@ footer nav a {
     margin-bottom: 30px;
     padding: 0 20px;
 }
+
+body#contact {
+    background: rgb(172, 168, 168);
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#contact section {
+    margin: 60px 0;
+    border: rgba(0, 0, 0, 0.507) 6px double;
+    border-radius: 10px; 
+}
+
+.container.about-page {
+    height: calc(100vh - 160px);
+}
+
+section form {
+    margin-top: 30px;
+    padding: 30px;
+    height: auto;
+    width: 48%;
+    border-right: 2px solid #000;
+    float: left;
+
+}
+
+.section-right {
+    border: 1px solid red;
+    height: auto;
+    width: 40%;
+    border: 1px solid red;
+    /* float: right; */
+    
+}
+
+form input,
+form label {
+    margin: 10px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+    /* font-size: 1.2rem; */
+}
+
+form label {
+    font-size: 1.5rem;
+    color: sienna;
+}
+
+input {
+    box-shadow: -2px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+#contact section {
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+    flex-wrap: nowrap;
+}
+
+#submit {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background: white;
+    border: 1px solid #000;  
+
+}
