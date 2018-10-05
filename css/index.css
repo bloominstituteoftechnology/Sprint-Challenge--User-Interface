@@ -66,6 +66,10 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -105,9 +109,7 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
-    /* background-color: black; */
     margin: 20px 2.5%;
-    /* border: 1px solid red; */
     color: white;
     display: flex;
     align-items: center;
@@ -157,7 +159,6 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    /* border: 1px solid red; */
     width: 80%;
 }
 
@@ -209,4 +210,56 @@ header nav a {
 
 .middle-content .boxes .b10 {
     background: dodgerblue;
+}
+
+.top-content .about-top {
+    width: 100%;
+}
+
+.middle-content .about-mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 930px;
+}
+
+.middle-content .about-mid .about-box {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.middle-content .about-mid .about-box a {
+    color: black;
+    border: 3px solid black;
+    width: 33%;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.middle-content .about-mid h2 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.about-mid-bot {
+    margin-top: 60px;
+}
+
+.about-bot {
+    flex-flow: column;
+    margin: 50px 0 40px;
+    width: 100%;
+    position: relative;
+    left: 10px;
+}
+
+.middle-content-no-border {
+    border: none;
 }
