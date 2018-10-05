@@ -67,9 +67,36 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
+    max-width: 880px;
     margin: 0 auto;
+    border: 1px solid red;
 }
+
+.container .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.container .header-section .navigation {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .header-section .navigation a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.container .header-section .navigation a:hover {
+    color: blue;
+}
+
 
 .top-content {
     display: flex;
