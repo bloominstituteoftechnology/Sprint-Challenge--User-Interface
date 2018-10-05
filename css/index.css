@@ -252,7 +252,7 @@ form input {
     font-size: 16px;
 }
 #message {
-    width: 400px;
+    width: 100%;
     min-height: 300px;
     background-color: white;
     border-radius: 10px;
@@ -262,8 +262,9 @@ form input {
 }
 .flex-textarea-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
     margin-top: 10px;
 }
 .content-container form button {
