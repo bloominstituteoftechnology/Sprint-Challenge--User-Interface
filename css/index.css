@@ -314,13 +314,33 @@ div.box:nth-child(10) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border: black solid 1px;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 3em;
 }
 
 .contact-page form div{
     width: 100%;
     display: flex;
+    margin: 2em;
+    align-items: center;
 }
 
 .contact-page form div p {
     width: 20%;
+}
+
+.contact-page .submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-page .submit input {
+    width: 10em;
+    height: 2.9em;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
