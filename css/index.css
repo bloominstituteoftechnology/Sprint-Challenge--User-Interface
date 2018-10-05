@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -75,14 +75,14 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 30px 0 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -134,7 +134,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +143,105 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*   --	my code	--		*/
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+
+}
+header nav{
+	/* margin: 60px 20px 40px 20px; */
+	width: 560px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 35px;
+}
+header nav a{
+	text-decoration: none;
+	color: black;
+}
+header img{
+	justify-content: flex-start;
+	margin: 40px 20px 40px 0;
+}
+header .jumbo{
+	margin-bottom: 50px;
+}
+
+/* boxes  */
+.middle-content .boxes .box1{
+	background-color: teal;
+}
+.middle-content .boxes .box2{
+	background-color: gold;
+}
+.middle-content .boxes .box3{
+	background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+	background-color: coral;
+}
+.middle-content .boxes .box5{
+	background-color: crimson;
+}
+.middle-content .boxes .box6{
+	background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+	background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+	background-color: hotpink;
+}
+.middle-content .boxes .box9{
+	background-color: indigo;
+}
+.middle-content .boxes .box10{
+	background-color: dodgerblue;
+}
+
+
+/*  		about page			*/
+.text-top{
+	border-bottom: 1px dashed black;
+	padding: 30px 10px 20px 20px;
+
+}
+
+.middle-content-about{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.middle-content-about .box{
+	width: 45%;
+	border-bottom: 1px dashed black;
+	margin: 30px 20px;;
+}
+.middle-content-about .box h2{
+	margin-top: 10px;
+}
+.button:hover{
+	cursor: pointer;
+	background: black;
+	color: white;
+
+}
+
+.middle-content-about .button{
+	font-size: 14px;
+	width: 110px;
+	padding: 5px 15px;
+	border: 1px solid black;
+	border-radius: 6px;
+	margin: 15px 0;
+}
+
+
+.text-bottom{
+	margin: 10px 20px 40px;
 }
