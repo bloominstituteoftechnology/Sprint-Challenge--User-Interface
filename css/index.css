@@ -150,3 +150,74 @@ footer nav a {
 * {
     box-sizing: border-box;
 }
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.about-page header {
+    border-bottom: 1px dashed black;
+
+}
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+header img {
+    margin-bottom: 20px;
+}
+
+.top-bar nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-bar nav a {
+    padding: 0 20px 0;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-info{
+    padding: 10px 20px;
+}
+
+.about-page main {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.about-page main .box {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-page main .box p, img, button {
+    margin-bottom: 20px;
+}
+
+.about-page main .box button {
+    width: 150px;
+    padding: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-page .closing-text {
+    padding: 20px;
+    margin-bottom: 20px;
+}
