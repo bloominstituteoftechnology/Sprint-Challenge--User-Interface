@@ -343,4 +343,11 @@ div.box:nth-child(10) {
     border: 2px black solid;
     border-radius: 8px;
     margin-bottom: 10px;
+    transition: background 0.5s linear;
+}
+
+.contact-page .submit input:hover {
+    background-color: lightgray;
+    color: darkgray;
+    cursor: pointer;
 }
