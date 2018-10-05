@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 800px;
+    height: auto;
+    margin: 30px 18.72%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header img {
+    margin-right: 50px;
+}
+
+header nav {
+    width: 700px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a {
+    color: black;
+}
+
+.container img .jumbo {
+    width: auto;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -80,9 +113,9 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 800px;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px 0;  
 }
 
 .middle-content {
@@ -101,15 +134,108 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    background: teal;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: darkorchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box-shape .box1 {
+    background: teal;
 }
 
 .bottom-content {
@@ -143,4 +269,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page */
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page img .jumbo-about {
+    width: auto;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container-about-page .about {
+    width: auto;
+    margin: 0 20px;
+    padding: 0 10%;
+    padding: 20px 0;
+    border-bottom: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-about-page .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container-about-page .content .about-box {
+    width: 371px;
+    height: auto;
+    padding: 0 1%;
+    padding: 20px 0;  
+    border-bottom: 1px dotted black;
+}
+
+.container-about-page .content .about-box img {
+    width: auto;
+    height: auto;
+}
+
+.container-about-page .content .about-box button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.container-about-page .together {
+    width: auto;
+    margin: 0 20px;
+    padding: 0 10%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
