@@ -392,16 +392,16 @@ footer nav a {
 }
 
 .labelForm {
-    display: inline-block;
+    display: flex;
     text-align: right;
-    width: 80px;
+    justify-content: left;
     padding: 5px;
-    vertical-align: top;
-    margin-top: 10px;
+    /* vertical-align: top; */
+    margin: 20px 0;
 }
 
 .tabs {
-    display: inline-block;
+    display: flex;
     text-align: left;
     width: 48%;
     vertical-align: middle;
@@ -413,5 +413,32 @@ footer nav a {
     padding: 5px;
     margin: 10px;
     border: 1px solid #c0c0c0;
+    width: 90%;
+    height: 30px;
     border-radius: 2px;
+}
+
+.userRatings,
+input[type="radio"] {
+    float: left;
+    margin-right: 5px;
+}
+
+.radio {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#submit {
+    background-color: crimson;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
 }
