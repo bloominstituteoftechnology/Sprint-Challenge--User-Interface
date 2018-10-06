@@ -370,6 +370,21 @@ footer nav a {
 
 /* Contact */
 
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem) scale(.8);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.container .animate-pop-in {
+    animation: pop-in .6s ease-out forwards;
+}
+
 .contact-us {
     font-size: 50px;
     border: 20px 0;
@@ -441,4 +456,8 @@ input[type="radio"] {
     width: 96px;
     margin: 10px;
     border: 0px solid;
+}
+
+.animate-pop-in {
+    animation: pop-in .6s ease-out forwards;
 }
