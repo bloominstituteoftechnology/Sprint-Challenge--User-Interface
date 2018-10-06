@@ -349,19 +349,18 @@ footer nav a {
     margin-top: 20px;
 }
 
-.card-header {
-    margin: 20px 0;
-}
-
-
-.header-wrap {
-    margin: 15px;
-}
-
 .about-card .about-head {
     padding: 20px;
     width: 100%;
     border-bottom: 2px dotted black;
+}
+
+.card-header {
+    margin: 20px 0;
+}
+
+.header-wrap {
+    margin: 15px;
 }
 
 .work-together {
