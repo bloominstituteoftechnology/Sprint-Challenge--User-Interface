@@ -78,9 +78,9 @@ header {
 header nav {
     margin-bottom: 30px;
     display: flex;
-    justify-content: space-between;
     width: 650px;
     justify-content: space-around;
+    align-items: center;
 }
 header nav a {
     text-decoration: none;
@@ -103,6 +103,46 @@ header .logo {
     margin-bottom: 60px;
 }
 
+.container .top-content {
+    display: flex;
+    width: 750px;
+    margin-top: 20px;
+
+}
+
+.container header {
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+.about-page {
+    flex-wrap: wrap;
+     display: flex;
+     justify-content: space-between;
+
+}
+.txt{
+    margin-bottom: 20px;
+}
+
+.strg {
+    width: 48%;
+    margin-top: 20px;
+    border-bottom: 1px dotted gray;
+
+}
+.strg button {
+    background-color: white;
+    font: black;
+    height: 25px;
+    width: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +156,20 @@ header .logo {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+.container h1 {
+    font-size: 26px;
+    display: flex;
+    
+}
+
+.container 
+
+
+
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -281,6 +335,13 @@ header .logo {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.wrk {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
 
 footer {
     width: 100%;

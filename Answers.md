@@ -9,4 +9,4 @@ Margin, Border, Padding, and Content.
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
  it would be the cross axis, Justify is the Main axis.
 5. What is the git command to commit staged changes as well as write a message? 
-git commit -m"this is where the message is left"
+git commit -m"this is where the message is
