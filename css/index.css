@@ -313,14 +313,14 @@ footer nav a {
 
 /* About */
 
-.about-card {    
+.about-card {
     padding-bottom: 20px;
     width: 880px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: space-between;
-    justify-content: space-between;        
+    justify-content: space-between;
 }
 
 .about-card div {
@@ -331,7 +331,7 @@ footer nav a {
     align-content: space-between;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 48%;    
+    width: 48%;
     padding: 20px;
     /* margin: 10px; */
     /* background: rgb(241,241,241);     */
@@ -368,10 +368,50 @@ footer nav a {
 }
 
 
+/* Contact */
 
+.contact-us {
+    font-size: 50px;
+    border: 20px 0;
+    display: flex;
+    justify-content: center;
+}
 
+#outer-form #description {
+    display: flex;
+    justify-content: center;
+}
 
+#outer-form {
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+}
 
+.labelForm {
+    display: inline-block;
+    text-align: right;
+    width: 80px;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
 
+.tabs {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
 
-
+.inputFields {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
