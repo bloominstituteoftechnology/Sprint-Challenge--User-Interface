@@ -277,3 +277,12 @@ footer nav a {
     margin-bottom: 40px;
     padding: 0 2%;
 }
+
+
+
+/* Styling for the content of blog.html */
+
+.blog-posts article a {
+    text-decoration: none;
+    color: black;
+}
