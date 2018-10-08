@@ -251,3 +251,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Product CSS */
+.container .product-page img {
+    width: 100px;
+}
