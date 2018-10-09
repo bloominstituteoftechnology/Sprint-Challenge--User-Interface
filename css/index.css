@@ -71,12 +71,45 @@ p {
     margin: 0 auto;
 }
 
+img {
+    margin-top: 2%;
+}
+
+header {
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+}
+
+header nav a, a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+header nav a a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+.top-about h2, p {
+    padding: 1%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 2%;
+    
+    
 }
 
 .top-content .text-container {
@@ -88,11 +121,26 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.middle-content .content-container {
+    
+    display: flex;
+    flex-direction: column;
+    width: 47%;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
 }
 
 .middle-content .boxes {
@@ -112,10 +160,43 @@ p {
     justify-content: center;
 }
 
+.middle-content button {
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    /* padding: 15px 32px; */
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 15px;
+    height: 40px;
+}
+
+.bottom-content h2 {
+    display: flex;
+
+}
+
+.bottom-content-about {
+display: flex;
+flex-direction: column;
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    /* flex-direction: column; */
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+
+    border: 1px solid red;
+    
+    
 }
 
 .bottom-content .text-container {
@@ -140,7 +221,47 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer nav a, a:visited {
     color: white;
     text-decoration: none;
+}
+
+#one.box {
+    background: teal;
+}
+
+#two.box {
+    background: gold;
+}
+
+#three.box {
+    background: cadetblue;
+}
+
+#four.box {
+    background: coral;
+}
+
+#five.box {
+    background: crimson;
+}
+
+#six.box {
+    background: forestgreen;
+}
+
+#seven.box {
+    background: darkorchid;
+}
+
+#eight.box {
+    background: hotpink;
+}
+
+#nine.box {
+    background: indigo;
+}
+
+#ten.box {
+    background: dodgerblue;
 }
