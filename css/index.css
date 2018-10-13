@@ -158,8 +158,11 @@ footer nav a {
 }
 .top-nav a {
     color: black;
+    font-size: 14px;
     text-decoration: none;
-    padding-right: 20px;
+    letter-spacing: 0.25px;
+    padding-right: 42px;
+    margin-bottom: 20px;
 }
 #box1 {
     background-color: teal;
