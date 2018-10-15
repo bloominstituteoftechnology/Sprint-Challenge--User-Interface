@@ -74,9 +74,9 @@ p {
 .header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     flex-direction: row
     
   }
@@ -91,10 +91,10 @@ p {
 
 header nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
-    border: 5px solid purple;
-    width: 800px;
+    /* border: 5px solid purple; */
+    width: 550px;
     vertical-align: top;
     margin-top: 0px;
     padding-top: 20px
@@ -112,7 +112,7 @@ header .logo {
  display: flex;
  justify-content: flex-start;
  order: -1;
- border: 5px dashed blue;
+ /* border: 5px dashed blue; */
 
 }
 
@@ -120,7 +120,8 @@ header .middleimg {
 display: flex;
 display: wrap;
 align-self: flex-end;
-border: 5px dashed green;
+/* border: 5px dashed green; */
+padding-bottom: 20px
 }
 
 .top-content {
@@ -164,16 +165,16 @@ border: 5px dashed green;
     justify-content: center;
 }
 
-.middle-content .boxes .box Box 1: {background: teal;} 
-.middle-content .boxes .box Box 2: {background: gold;}
-.middle-content .boxes .box Box 3: {background: cadetblue;}
-.middle-content .boxes .box Box 4: {background: coral;}
-.middle-content .boxes .box Box 5: {background: crimson;}
-.middle-content .boxes .box Box 6: {background: forestgreen;}
-.middle-content .boxes .box Box 7: {background: darkorchid;}
-.middle-content .boxes .box Box 8: {background: hotpink;}
-.middle-content .boxes .box Box 9: {background: indigo;}
-.middle-content .boxes .box Box 10: {background: dodgerblue;}
+.middle-content .boxes .box:nth-child(1) {background: teal;} 
+.middle-content .boxes .box:nth-child(2) {background: gold;}
+.middle-content .boxes .box:nth-child(3) {background: cadetblue;}
+.middle-content .boxes .box:nth-child(4) {background: coral;}
+.middle-content .boxes .box:nth-child(5) {background: crimson;}
+.middle-content .boxes .box:nth-child(6) {background: forestgreen;}
+.middle-content .boxes .box:nth-child(7) {background: darkorchid;}
+.middle-content .boxes .box:nth-child(8) {background: hotpink;}
+.middle-content .boxes .box:nth-child(9){background: indigo;}
+.middle-content .boxes .box:nth-child(10){background: dodgerblue;}
 
 .bottom-content {
     display: flex;
