@@ -73,29 +73,34 @@ p {
 
 .header{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid red;
     flex-direction: row
-    justify-content: flex-end;
     
   }
 
-  .header nav a:first-child {
+  header nav a:first-child {
     margin-left: 0;
   }
   
-  .header nav a:last-child {
+  header nav a:last-child {
     margin-right: 0;
   }
 
-.header nav {
+header nav {
     display: flex;
-    display: flex-wrap;
-    width: 500px;
+    justify-content: flex-end;
+    align-items: center;
+    border: 5px solid purple;
+    width: 800px;
     vertical-align: top;
     margin-top: 0px;
     padding-top: 20px
 }
 
-.header nav a {
+header nav a {
     margin-right: 65px;
     font-size: 14px;
     color: black;
@@ -103,17 +108,19 @@ p {
     padding-bottom: 20px
 }
 
-.header.middleDiv {
-    align-self: flex-end;
+header .logo {
+ display: flex;
+ justify-content: flex-start;
+ order: -1;
+ border: 5px dashed blue;
+
 }
 
-.header .logo {
- float: left;
-
-}
-
-.header .middleimg {
-
+header .middleimg {
+display: flex;
+display: wrap;
+align-self: flex-end;
+border: 5px dashed green;
 }
 
 .top-content {
@@ -156,6 +163,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box Box 1: {background: teal;} 
+.middle-content .boxes .box Box 2: {background: gold;}
+.middle-content .boxes .box Box 3: {background: cadetblue;}
+.middle-content .boxes .box Box 4: {background: coral;}
+.middle-content .boxes .box Box 5: {background: crimson;}
+.middle-content .boxes .box Box 6: {background: forestgreen;}
+.middle-content .boxes .box Box 7: {background: darkorchid;}
+.middle-content .boxes .box Box 8: {background: hotpink;}
+.middle-content .boxes .box Box 9: {background: indigo;}
+.middle-content .boxes .box Box 10: {background: dodgerblue;}
 
 .bottom-content {
     display: flex;
