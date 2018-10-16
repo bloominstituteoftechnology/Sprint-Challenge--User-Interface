@@ -176,6 +176,47 @@ padding-bottom: 20px
 .middle-content .boxes .box:nth-child(9){background: indigo;}
 .middle-content .boxes .box:nth-child(10){background: dodgerblue;}
 
+.middle-content-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.middle-content-about-page .about-middle-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.middle-content-about-page .article-about{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ width: 385px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ justify-content: center; 
+ /* border: 5px solid blue; */
+}
+
+button {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+    border-radius: 12px;
+    
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
