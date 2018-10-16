@@ -162,33 +162,59 @@ footer nav a {
 .quick-info {
     border-bottom: 2px dotted black;
 }
-.box1 {
+#box1 {
     background-color: teal;
 }
-.box2 {
+#box2 {
     background-color: gold;
 }
-.box3 {
+#box3 {
     background-color: cadetblue;
 }
-.box4 {
+#box4 {
     background-color: coral;
 }
-.box5 {
+#box5 {
     background-color: crimson;
 }
-.box6 {
+#box6 {
     background-color: forestgreen;
 }
-.box7 {
+#box7 {
     background-color: darkorchid;
 }
-.box8 {
+#box8 {
     background-color: hotpink;
 }
-.box9 {
+#box9 {
     background-color: indigo;
 }
-.box10 {
+#box10 {
     background-color: dodgerblue;
+}
+header {
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+}
+header img {
+    width: 25%;
+}
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0% 0px 5%;
+    font-size: 14px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+.under-header-img {
+}
+.under-header-img img {
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 2%; 
 }
