@@ -164,6 +164,9 @@ footer nav a {
     margin: 20px 4%;
     border-bottom: 2px dotted black;
 }
+.quick-info img {
+    margin-bottom: 20px;
+}
 #box1 {
     background-color: teal;
 }
@@ -224,4 +227,13 @@ nav a {
 }
 .about-section {
     margin-bottom: 20px;
+}
+button {
+    height: 50px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
