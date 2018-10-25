@@ -258,43 +258,43 @@ nav-text {
 
 /*boxen*/
 
-middle-content box box1 {
+.middle-content .box .box1 {
   background-color: teal;
 }
 
-middle-content box box2 {
+.middle-content .box .box2 {
   background-color: gold;
 }
 
-middle-content box box3 {
+.middle-content .box .box3 {
   background-color: cadetblue;
 }
 
-middle-content box box4 {
+.middle-content .box .box4 {
   background-color: coral;
 }
 
-middle-content box box5 {
+.middle-content .box .box5 {
   background-color: crimson;
 }
 
-middle-content box box6 {
+.middle-content .box .box6 {
   background-color: forestgreen;
 }
 
-middle-content box box7 {
+.middle-content .box .box7 {
   background-color: darkorchid;
 }
 
-middle-content box box8 {
+.middle-content .box .box8 {
   background-color: hotpink;
 }
 
-middle-content box box9 {
+.middle-content .box .box9 {
   background-color: indigo;
 }
 
-middle-content box box10 {
+.middle-content .box .box10 {
   background-color: dodgerblue;
 }
 /*about styleez*/
@@ -332,6 +332,6 @@ button {
   border-radius: 10px;
 }
 
-top-image {
+top-banner {
   margin-top: 25px;
 }
