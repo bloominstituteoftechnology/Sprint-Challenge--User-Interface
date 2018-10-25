@@ -234,7 +234,7 @@ footer nav a {
 header {
   display: flex;
   justify-content: space-between;
-  flex-direction: row-reverse;
+  flex-direction: row;
   margin-top: 20px;
 }
 header nav {
@@ -258,43 +258,43 @@ nav-text {
 
 /*boxen*/
 
-.middle-content .box .box1 {
+middle-content .boxes .box1 {
   background-color: teal;
 }
 
-.middle-content .box .box2 {
+.middle-content .boxes .box2 {
   background-color: gold;
 }
 
-.middle-content .box .box3 {
+.middle-content .boxes .box3 {
   background-color: cadetblue;
 }
 
-.middle-content .box .box4 {
+.middle-content .boxes .box4 {
   background-color: coral;
 }
 
-.middle-content .box .box5 {
+.middle-content .boxes .box5 {
   background-color: crimson;
 }
 
-.middle-content .box .box6 {
+.middle-content .boxes .box6 {
   background-color: forestgreen;
 }
 
-.middle-content .box .box7 {
+.middle-content .boxes .box7 {
   background-color: darkorchid;
 }
 
-.middle-content .box .box8 {
+.middle-content .boxes .box8 {
   background-color: hotpink;
 }
 
-.middle-content .box .box9 {
+.middle-content .boxes .box9 {
   background-color: indigo;
 }
 
-.middle-content .box .box10 {
+.middle-content .boxes .box10 {
   background-color: dodgerblue;
 }
 /*about styleez*/
