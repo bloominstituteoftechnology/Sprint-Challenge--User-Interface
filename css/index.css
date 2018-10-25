@@ -144,3 +144,96 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*header styles*/
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 20px auto;
+}
+
+nav-text {
+    flex-grow: 5;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*boxen*/
+
+box box1 {
+    background-color: teal
+}
+
+box box2 {
+    background-color: gold
+}
+
+box box3 {
+    background-color: cadetblue
+}
+
+box box4 {
+    background-color: coral
+}
+
+box box5 {
+    background-color: crimson
+}
+
+box box6 {
+    background-color: forestgreen
+}
+
+box box7 {
+    background-color: darkorchid
+}
+
+box box8 {
+    background-color: hotpink
+}
+
+box box9 {
+    background-color: indigo
+}
+
+box box10 {
+    background-color: dodgerblue
+}
+/*about styleez*/
+about-image {
+    margin-top: 25px
+}
+
+about-top  nav-text {
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+}
+
+about-bottom {
+    margin: 30px 0;
+}
+
+button {
+    align-self: flex-start;
+    height: 25px;
+    margin: 20px 0;
+    font-size: 15px;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+
