@@ -90,6 +90,14 @@ header nav a {
     color: black;
 }
 
+nav a {
+    transition: all .5s;
+}
+
+nav a:hover {
+    transform: scale(1.4);
+}
+
 header nav a:visited {
     text-decoration: none;
     color: black;
@@ -271,6 +279,16 @@ footer nav a {
     border: 2px solid black;
     border-radius: 8px;
     padding: 8px 22px;
+}
+
+#about .main-content .info-panel a:hover {
+    animation: grow 2s infinite;
+}
+
+@keyframes grow {
+    0% {border-radius: 8px; background-color: white; color: black;}
+    50% {border-radius: 12px; background-color: grey; color: white;}
+    100% {border-radius: 8px; background-color: white; color: black;}
 }
 
 #about .main-content .info-panel a:visited {

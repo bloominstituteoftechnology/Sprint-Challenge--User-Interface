@@ -63,6 +63,6 @@ You will also notice there are 10 boxes on the home page that need background co
 ## Stretch Goals
 Stretch goals are only available if you complete every task listed above.  **Do not work on them until your pull request is in.**
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
+* [X] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [X] Add responsive breakpoints to your code by using media queries
