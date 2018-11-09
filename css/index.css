@@ -89,6 +89,7 @@ p {
 } 
 
 #logo {
+
     padding: 0px;
 }
 
@@ -125,10 +126,15 @@ footer nav a {
 .description-header {
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    margin-bottom: 20px;
+    padding: 0 20px 25px;
+    border-bottom: 1px dashed black;
 }
 
 .banner-image {
     width: 100%;
+    margin: 0;
     padding-bottom: 30px
 }
 
