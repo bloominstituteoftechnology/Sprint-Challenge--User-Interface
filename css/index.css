@@ -52,7 +52,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+    /* height: 100%; */
+    padding-bottom: 60px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -61,6 +62,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+
 
 p {
     line-height: 1.4;
@@ -199,6 +201,11 @@ header{
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
     background: black;
 }
@@ -276,3 +283,53 @@ button:hover {
     background-color: blue;
     border-radius: 0;
 }
+
+
+
+/* -------------------------- contact page styles ---------------------------- */
+
+.contact-info h3{
+    font-size: 25px;
+}
+
+.contact-info{
+    padding: 40px 0;
+}
+
+address{
+    color: grey;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.contact-form h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.contact-form label {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 500px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 500px;
+    height: 200px;
+    font-size: 14px;
+    padding: 5px;
+}
+.contact-form button {
+    padding: 10px;
+    width: 150px;
+}
+
