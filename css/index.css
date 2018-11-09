@@ -74,6 +74,17 @@ p {
 }
 
 /* ---- Nav ---- */
+@keyframes cool-nav {
+    0% {transform: translate(-5px, -5px);}
+  12.5% {transform: translate(-5px, 0px);}
+  25%  {transform: translate(-5px, 5px);}
+  37.5% {transform: translate(0px, 5px);}
+  50%    {transform: translate(5px, 5px);}
+  62.5% {transform: translate(5px, 0px);}
+    75% {transform: translate(5px, -5px);}
+  87.5% {transform: translate(0px, -5px);}
+  100% {transform: translate(-5px, -5px);}
+}
 
 header {
     width: 100%;
@@ -92,6 +103,15 @@ nav {
 nav a {
     color: black;
     text-decoration: none;
+    transition: all 1s ease;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    font-size: 150%;
+    animation-name: cool-nav;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
 }
 
 /* ---- Footer ---- */
@@ -216,3 +236,45 @@ footer nav a {
     padding-right: 0;
 }
 
+/* ---- ABOUT PAGE ---- */
+/* ---- Top ---- */
+
+.about-page .top {
+    border-bottom: 2px dotted black;
+}
+
+.about-page .top .about {
+    margin: 20px;
+}
+
+/* ---- Middle ---- */
+
+.about-page .middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-page .middle div {
+    width: 46%;
+    border-bottom: 2px dotted black;
+    margin: 30px 0;
+}
+
+.about-page .middle div .text {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.about-page .middle button {
+    font-size: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 35%;
+    margin: 18px 0 10px;
+}
+
+/* ---- Bottom ---- */
+.about-page .bottom {
+    margin: 20px 20px 39px;
+}
