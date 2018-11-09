@@ -100,6 +100,25 @@ p {
 .header-links nav a {
     color: black;
     text-decoration: none;
+    text-align: center;
+    padding: 10px 0 10px;
+    font-weight: bold;
+    width: 16%;
+}
+
+.header-links nav a:hover {
+    background-color: grey;
+    color: white;
+    transition-duration: 375ms;
+    transition-property: all;
+}
+
+.header-links nav a:active {
+    background-color: silver;
+    color: snow;
+    font-weight: normal;
+    transition-duration: 125ms;
+    transition-property: all;
 }
 
 .header-image:empty {
@@ -230,6 +249,17 @@ p {
     margin: 15px 0 25px;
 }
 
+.learn-more-link:hover {
+    background-color: rgb(226, 226, 226);
+    font-weight: bold; 
+    transition-duration: 125ms;
+    transition-property: all;
+}
+
+.learn-more-link:active {
+    font-weight: normal;
+}
+
 .strategy-info-preview-img {
     background-image: url('http://i63.tinypic.com/2q8c5lh.png');    
 }
@@ -275,6 +305,19 @@ footer nav {
 }
 
 footer nav a {
+    display: block;
+    padding: inherit 0;
     color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer nav a:active {
+    color: silver;
+    text-decoration: none;
+    font-weight: normal;
 }
