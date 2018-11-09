@@ -94,10 +94,17 @@ p {
     line-height: 1.4;
 }
 
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid blue;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
-    
+    border: 2px solid blue;
 }
 
 .top-content {
@@ -128,6 +135,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border: 2px solid red;
 }
 
 .middle-content .boxes .box {
@@ -268,14 +276,14 @@ p {
 footer {
     width: 100%;
     background: black;
+    border: 2px solid gold;
+    
 }
 
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+   
     font-size: 14px;
 }
 
@@ -299,9 +307,41 @@ footer nav a {
     
 }
 
-content {
-    width: 52%;
+.content {
+    border: 2px solid orange;
+    width: 50%;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid orange;
+   
+}
+
+.content img {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid pink;
+    
+}
+
+
+button {
+    background-color: white;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border: 3px solid green;
+}
+
+.fonav {
+    width: 82%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 220px;
 }
