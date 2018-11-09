@@ -200,3 +200,53 @@ footer nav a {
 }
 
 /* About Styling */
+.top-content-about{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.text-container-about{
+    width: 96%;
+    padding: 15px 1%;
+    padding-bottom: 20px;  
+}
+/* Middle content  */
+.middle-content-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 46%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.card h3{
+    padding-top: 10px;
+}
+.card button{
+    padding: 9px 23px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+    margin: 10spx 0;
+   
+}
+/* Last two cards extra margin-top */
+.card:nth-last-child(-n+2){
+    margin-top: 30px;
+}
+
+/* Bottom content */
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-top: 50px;
+}
+.bottom-cta{
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
