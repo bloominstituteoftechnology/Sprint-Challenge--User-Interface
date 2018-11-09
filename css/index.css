@@ -212,6 +212,7 @@ footer nav a {
     flex-direction: column;
     width: calc(100%/2 - 1.25vw);
     border-bottom: 1.25px dashed black;
+    padding-bottom: 2vh;
 }
 
 .card.row2 {
@@ -227,7 +228,7 @@ footer nav a {
     background: transparent;
     width: 32%;
     height: 4vh;
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 .about-bottom {
