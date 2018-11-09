@@ -85,6 +85,8 @@ header nav {
 
 header nav a {
     margin-right: 35%;
+    color: black;
+	text-decoration: none;
 }
 
 header .jumbo {
@@ -203,4 +205,11 @@ footer nav a {
 
 #box10 {
     background-color: dodgerblue;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px dashed black;
 }
