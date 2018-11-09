@@ -65,25 +65,33 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* Universal Classes */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
 .flex{
     display:flex;
 }
+/* Navigation */
 .navbar{
     justify-content: space-between;
     padding: 40px 0;
     /* border: 1px solid red; */
 }
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
 nav{
     justify-content: space-around; 
     align-items: center;
     width: 75%;
     border: 1px solid red;
 }
+
 /* Home Page Styles */
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
 /* Top */
 .top-content {
     display: flex;
