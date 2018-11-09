@@ -72,7 +72,7 @@ p {
 
 .top-nav {
     /* height: 100px; */
-    padding: 20px 0 35px 0;
+    padding: 10px 0 25px 0;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -89,7 +89,7 @@ p {
 } 
 
 #logo {
-    padding: 0px;
+    padding: 10px 0px;
 }
 
 /* Footer Styling */
@@ -188,6 +188,7 @@ footer nav a {
     justify-content: center;
 }
 
+
 #box1 {
     background-color: teal;
 }
@@ -234,6 +235,18 @@ footer nav a {
     padding-right: 0;
 }
 
+/* home page animations */
+.box:hover {
+    box-shadow:
+    1px 1px grey,
+    2px 2px grey,
+    3px 3px grey;
+    transform: translateX(-3px);
+ }
+
+#logo:hover {
+    transform: rotateZ(-10deg);
+}
 
 /* About Page Specific Styling */
 
@@ -265,3 +278,6 @@ footer nav a {
 .about-card button:hover {
     background-color: lightgrey;
 }
+
+
+/* about page animations */
