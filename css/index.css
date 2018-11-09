@@ -186,3 +186,25 @@ footer nav a {
 #bx10 {
     background-color: dodgerblue;
 }
+
+/** NAV CSS **/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#navimg {
+    display: inline;
+    background-image: url("/img/lambda-black.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 157px;
+    width: 40px;
+}
