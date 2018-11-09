@@ -230,6 +230,27 @@ footer nav a {
 .about-page-card img {
     margin-bottom: 20px;
 }
+
+.about-page-card button {
+    width: 35%;
+    margin: 15px 0;
+    padding: 10px 15px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-page-card button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+#second-row-img {
+    margin-top: 30px;
+}
+
 .about-page-cta {
-    padding-top: 30px;
+    padding-top: 25px;
+    margin-bottom: 35px;
 }
