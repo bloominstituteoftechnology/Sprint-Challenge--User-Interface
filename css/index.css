@@ -220,3 +220,41 @@ footer nav a {
     padding: 20px;
     border-bottom: 1px dashed black;
 }
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section .top-card .card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px dashed gray;
+    width: 415px;
+    margin: 15px 0;
+}
+
+.info-section .bottom-card .card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px dashed gray;
+    width: 415px;
+    margin: 15px 0;
+}
+
+
+.info-section .card button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.info-section .card button:hover {
+    background: crimson;
+}
