@@ -295,3 +295,21 @@ footer nav a {
 .aboutBottom {
   margin: 8px 24px 30px 24px;
 }
+
+.products {
+  height: 170px;
+}
+
+#productsMain img {
+  height: 236px;
+  width: 370px;
+  margin: 40px 20px 30px 10px;
+  padding: 0;
+}
+
+#productsMain2 img {
+  height: 228px;
+  width: 370px;
+  margin: 34px 20px 45px 10px;
+  padding-top: 0;
+}
