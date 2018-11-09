@@ -188,6 +188,51 @@ nav a {
     padding-right: 0;
 }
 
+/* About page */
+
+.about-top-content {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    width: 800px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.about-main-content {
+    height: 500px;
+    width: 370px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+}
+
+.about-main .bottom-content {
+    padding-top: 50px;
+}
+
+.about-main-content button {
+    border-radius: 5px;
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.about-bottom-content {
+    padding: 40px 20px;
+}
+
+
+
 footer {
     width: 100%;
     background: black;
