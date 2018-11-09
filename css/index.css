@@ -86,6 +86,15 @@ p {
     text-decoration: none;
     color:black;
     margin-left: 70px;
+    transition: .2s;
+}
+
+.nav-bar header nav a:hover{
+    background-color:black;
+    transform: scale(1.1);
+    color:white;
+    padding: 5px 10px;
+    margin-left: 50px;
 }
 
 .top-content {
@@ -234,6 +243,11 @@ footer nav a {
     border: 1px solid black;
     border-radius: 8px;
     margin-top: 15px;
+    transition:.2s;
+}
+.itemContainer .item a:hover{
+    background-color: black;
+    color:white;
 }
 .aboutEnd{
     margin: 15px 15px 25px 15px;
