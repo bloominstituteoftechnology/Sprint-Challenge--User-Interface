@@ -150,13 +150,42 @@ h5 {
 
 p {
   line-height: 1.4;
+  font-size: 16px;
 }
 
 .container {
   width: 800px;
   margin: 0 auto;
 }
+/* nav content */
+header {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
 
+header nav {
+  font-size: 16px;
+  margin-top: 40px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+  display: flex;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #b0b0b0;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.head-image {
+  margin-bottom: 20px;
+}
 .top-content {
   display: flex;
   flex-wrap: wrap;
