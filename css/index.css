@@ -254,4 +254,48 @@ footer nav a {
 	font-size: 60px;
     border-bottom: dashed gray 1px;
     padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.container .form{
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+    padding: 30px;
+    background-color: #F4F7F6;
+}
+
+.form form{
+    width: 50%;
+}
+.form .form-list label{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.form .form-list input, .form .form-list textarea{
+    margin: 10px;
+    border: none;
+    width: 200px;
+    border: 1px black solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+.form .form-list li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .form-list button{
+    border: 2px solid black;
+	padding: 10px 40px;
+	text-decoration: none;
+	color: black;
+    margin-left: auto;
+    border-radius: 10px;
 }
