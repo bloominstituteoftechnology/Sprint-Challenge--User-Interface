@@ -65,11 +65,27 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* Global */
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Navigation */
+.navigation-style{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+}
+.navigation-style a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/* Top Content */
+
 
 .top-content {
     display: flex;
@@ -78,13 +94,16 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content img{
+    margin-bottom: 25px;
+}
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +131,7 @@ p {
     justify-content: center;
 }
 
+/* Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +145,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -144,3 +166,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Styling */
