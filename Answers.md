@@ -1,9 +1,10 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
-
+- Semantic HTML is the use of HTML to convey meaning to machines, such as screen readers and search engines. There are specific tags for this, such as ```<header>```, ```<article>```, ```<section>```, ```<nav>```, etc. all with the same function of a ```<div>``` content division element in formatting, but conveys special meaning to the machines parsing the HTML. This is important for SEO, accessibility, and conveying meaning to other developers. It is recommended to semantically format HTML with semantic tags and use content division tags for formatting purposes.
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
-
+- Block display identifies that this element will use the box model for formatting, while inline display indicates to simply use the immediate dimensions of the content to fit it inline with text elements.
 3. What are the 4 areas of the box model?
-
+- The four area of box model, from innermost to outermost, are content, padding, border, and margin. **Content** describes the region of space immediately available to be populated by content. **Padding** describes the region of space around the content before the border. **Border** describes the outline region around the padding area. **Margin** describes the empty space between this box element and others.
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
-
+- As the keyword ```align``` is used in the context of flexbox, this is used on the CROSS axis of flexbox. This is the axis that runs perpendicular to the MAIN axis of flexbox.
 5. What is the git command to commit staged changes as well as write a message? 
+- ```git commit -m <message>``` This assumes that you have staged changes prior to the commit with ```git add <path>```.
