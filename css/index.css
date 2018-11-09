@@ -159,7 +159,8 @@ footer nav a {
 .nav a {
     text-decoration: none;
     color:black;
-    margin-right: 4vw;
+    margin-right: 3vw;
+    margin-left: 2vw;
     font-weight: bolder;
 }
 
