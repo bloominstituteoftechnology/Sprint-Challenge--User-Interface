@@ -68,7 +68,6 @@ p {
 .flex{
     display:flex;
 }
-
 .navbar{
     justify-content: space-between;
     padding: 40px 0;
@@ -121,7 +120,7 @@ nav{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -160,4 +159,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* Background Colors */
+.bg-teal{
+    background-color:teal;
+}
+.bg-gold{
+    background-color: gold;
+}
+.bg-cadetblue{
+    background-color: cadetblue;
+}
+.bg-coral{
+    background-color:coral;
+}
+.bg-crimson{
+    background-color:crimson;
+}
+.bg-forestgreen{
+    background-color:forestgreen;
+}
+.bg-darkorchid{
+    background-color: darkorchid;
+}
+.bg-hotpink{
+    background-color: hotpink;
+}
+.bg-indigo{
+    background-color:indigo;
+}
+.bg-dodgerblue{
+    background-color:dodgerblue;
 }
