@@ -311,10 +311,7 @@ margin-left: 310px;
 }
 
 .header-text{
-border-top:1px dotted black;
-  color:#fff;
-  height:1px;
-  width:80%;
+
     display:flex;
     width: 50%;
     justify-content: center;
