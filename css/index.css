@@ -203,3 +203,28 @@ footer nav a {
 .bg-dodgerblue{
     background-color:dodgerblue;
 }
+/* Middle Page */
+.middle-about{
+    flex-wrap: wrap;
+}
+
+.middle-card{
+    width: 48%;
+    border-bottom: 1px dotted black;
+    padding: 0 0 5%;
+    margin: 0 0 5%;
+}
+.middle-card h2{
+    padding: 3% 0;
+}
+.middle-card p{
+    margin: 3% 0 40px;
+}
+.middle-card a{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 35px;
+    margin: 20px 0 0;
+}
