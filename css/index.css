@@ -165,6 +165,10 @@ footer nav a {
     margin: 20px 0;
 }
 
+.container .main-image_contact img{ 
+    width: 800px;
+    height: 153px;
+}
 /* Box Styling */
 
 .box1{
@@ -240,4 +244,14 @@ footer nav a {
 
 .container .about-page-bottom{
     padding: 40px;
+}
+
+/* Contact Page Styling */
+
+
+.container .contact-heading{
+	text-align: center;
+	font-size: 60px;
+    border-bottom: dashed gray 1px;
+    padding-bottom: 10px;
 }
