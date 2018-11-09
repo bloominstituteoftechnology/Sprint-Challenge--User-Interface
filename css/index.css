@@ -307,4 +307,69 @@ footer nav a {
 display:flex;
 flex-direction: row;
 justify-content: center;
+margin-left: 310px;
 }
+
+.header-text{
+border-top:1px dotted black;
+  color:#fff;
+  height:1px;
+  width:80%;
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: 310px;
+    margin-top: 20px;
+}
+
+.main-top{
+    display:flex;
+    width:50%;
+    justify-content: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-left: 310px;
+    
+}
+.main-top .strategy {
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.main-top .How-We-Work {
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.main-bottom{
+    display:flex;
+    width:50%;
+    justify-content: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-left: 310px;
+}
+
+.main-bottom .Places-We-Work{
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.main-bottom .Collaboration{
+    text-align: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-text{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction:column;
+    margin-left: 310px;
+    margin-top: 20px;
+}
+
