@@ -68,9 +68,30 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 20px auto 0px;
 }
-
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+    margin-bottom: 30px;
+}
+.nav-links {
+	display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.nav-links a {
+	color: gray;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+.nav-links a:hover {
+	color: black;
+}
+.header-img {
+    margin-bottom: 30px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
