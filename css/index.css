@@ -267,6 +267,14 @@ footer nav a {
     border-bottom: 2px dotted black;
     margin-bottom: 30px;
 }
+@media (max-width: 750px) {
+    .about-summary {
+        padding-top: 0;
+    }
+    .about-summary h2 {
+        font-size: 1.5rem;
+    }
+}
 .about-header-img {
     margin-bottom: 0px;
 }
@@ -279,6 +287,11 @@ footer nav a {
     width: 370px;
     margin: 15px;
     padding-bottom: 20px;
+}
+@media(max-width: 750px) {
+    .service-card img {
+        width: 100%;
+    }
 }
 .service-card img, .service-card p {
     margin-bottom: 10px;
@@ -297,4 +310,9 @@ footer nav a {
 .services-summary {
     padding: 30px;
     margin-bottom: 30px;
+}
+@media (max-width: 750px) {
+    .services-summary h2 {
+        font-size: 1.5rem;
+    }
 }
