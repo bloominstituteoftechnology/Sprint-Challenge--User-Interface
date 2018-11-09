@@ -1,3 +1,5 @@
+## finished the project sprint one :)
+
 # Assessing Your User Interface and Git Learning
 
 [This is a quick video preview of what to expect from sprint challenges.](https://youtu.be/daFDLHMPdjw)
