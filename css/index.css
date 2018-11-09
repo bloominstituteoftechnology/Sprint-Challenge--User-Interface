@@ -69,7 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    padding: 25px;
+    padding: 25px 25px 0 25px;
 }
 
 header {
@@ -208,17 +208,45 @@ footer nav a {
     width: 98%;
 }
 
+.middle-content.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: none;
+}
+
+.about-box img {
+    display: inline-block;
+    width: 100%;
+}
+
 .about-box {
     width: 48%;
-    margin-bottom: 40px;
-    padding: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+    padding: 10px;
 }
 
 .about-box-blurb {
-    
+    padding: 15px 0;
+    border-bottom: 1px dashed black;
 }
 
-.about-box-blub h2 {
+.about-box-blurb h2 {
     padding: 0;
+}
+
+.about-box p {
+    padding: 20px 0;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.bottom-content.about {
+    display: inline-block;
+    margin: 0 0 50px 20px;
 }
