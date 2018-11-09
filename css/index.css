@@ -208,8 +208,33 @@ footer nav a {
 }
 
 .about-content {
+    border-top: 1px dashed black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-top: 1px dashed black;
+}
+
+.about-content .content {
+    margin: 5% 7% 2% 1%;
+    width: 40%;
+    border-bottom: 1px dashed grey;
+}
+
+.about-content .content button {
+    background-color: white;
+    border: 2px solid black;
+	cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px 0;
+    padding: 7px 20px 7px 20px;
+}
+
+.about-content .content h2 {
+    margin: 5% 0;
+}
+
+.about-bottom {
+    margin: 3%;
+    padding-bottom: 3%;
 }
