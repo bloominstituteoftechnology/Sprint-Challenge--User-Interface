@@ -1,5 +1,5 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
-Semantic html refers to code that actually has meaning to your website as opposed to code that is only there to help style.
+Semantic html refers to code that actually adds meaning to the content of a website as opposed to code that is only written to help a user style certain areas of the webiste.
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 ```display: block;``` wants to take as much room as possible going left and righ and completely ignores height. 
