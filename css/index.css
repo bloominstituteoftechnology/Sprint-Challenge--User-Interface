@@ -92,6 +92,10 @@ header nav a{
     border-bottom: 1px dashed black;
 }
 
+.top-content-hero-img{
+    margin-bottom: 30px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
