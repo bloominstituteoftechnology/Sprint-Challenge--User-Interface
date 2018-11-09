@@ -66,9 +66,43 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    width: 643px;
+    justify-content: space-around;
+    padding: 20px;
+   padding-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0;
 }
 
 .top-content {
@@ -126,21 +160,46 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
+#home-main-img {
+ padding-bottom: 20px;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+#box1 {
+    background-color: teal;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
