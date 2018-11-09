@@ -207,3 +207,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About-Page Styles */
+.about-page-main-content header {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.about-page-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-page-card {
+    display: flex;
+    flex-flow: column wrap;
+    width: 370px;
+    margin: 35px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-page-card img {
+    margin-bottom: 20px;
+}
+.about-page-cta {
+    padding-top: 30px;
+}
