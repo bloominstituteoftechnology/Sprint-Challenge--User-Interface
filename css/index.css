@@ -220,6 +220,29 @@ a {
     padding: 0px 30px 30px 30px;
 }
 
+.middle-content-products {
+    margin: 20px 0px;
+    text-align: center;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-products .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-products .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer {
     width: 100%;
     background: black;
