@@ -85,6 +85,13 @@ nav a {
 
 }
 
+nav a:hover {
+    color: white;
+    background-color: darkgrey;
+    box-shadow: 0 0 5px 10px darkgrey;
+    transition: color .5s, background-color .5s, box-shadow .5s;
+}
+
 .top-image {
     margin: 40px 0 20px 0;
 }
