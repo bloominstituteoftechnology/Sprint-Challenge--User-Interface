@@ -239,15 +239,27 @@ nav {
     margin: 10px;
 }
 
+.abtcnt img {
+    margin-bottom: 10px;
+}
+
 .abtcnt a {
     text-decoration: none;
     display: flex;
-    border: 1px solid black;
-    border-radius: 5px;
-    height: 30px;
-    width: 50%;
+    border: 1.5px solid black;
+    border-radius: 7px;
+    height: 38px;
+    width: 38%;
+    color: black;
+    margin: 17px 0px;
+    font-size: .95em;
+    font-family: 'Helvetica';
     justify-content: center;
     align-items: center;
+}
+
+.abtcnt p {
+    margin: 5px 0px;
 }
 
 .abtcnthold {
