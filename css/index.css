@@ -179,6 +179,10 @@ p {
   margin-right: 6.66vw;
 }
 
+.navbar-links a:hover {
+  color: grey;
+}
+
 .navbar-links a:last-child {
   margin-right: 0;
 }
@@ -302,5 +306,53 @@ footer nav a {
 
 /* About Styles */
 
-.header {
+.about-header {
+  margin-top: 38px;
+  border-bottom: 1px dashed black;
+}
+
+.about-header-content {
+  margin: 20px;
+}
+
+.about-top-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.about-top-content-box {
+  margin-top: 32px;
+  border-bottom: 1px dashed black;
+  width: 371px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 21px;
+  margin-bottom: 28px;
+}
+
+.about-top-content-box h2 {
+  margin-top: 10px;
+}
+
+.about-top-content-box a {
+  margin-top: 21px;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+}
+
+.about-top-content a:hover {
+  color: white;
+  background-color: black;
+}
+
+.about-bottom-content {
+  margin: 22px 20px 40px;
 }
