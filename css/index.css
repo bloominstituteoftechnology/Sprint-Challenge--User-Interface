@@ -189,22 +189,64 @@ footer nav a {
 
 /** NAV CSS **/
 
-nav {
+nav #topof {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav a {
+nav a #tn {
     text-decoration: none;
     color: black;
+    padding: 30px;
 }
 
 #navimg {
-    display: inline;
-    background-image: url("/img/lambda-black.png");
+    background-image: url('/img/lambda-black.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 157px;
-    width: 40px;
+    height: 40px;
 }
+
+/** Index CSS **/
+
+#indexhead {
+    background-image: url('/img/jumbo.jpg');
+    height: 153px;
+    margin-bottom: 20px;
+}
+
+/** About CSS **/
+
+#abouthead {
+    background-image: url('/img/jumbo-about.png');
+    height: 153px;
+    margin-bottom: 20px;
+}
+
+.abtcnt {
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    border-bottom: 1px dashed grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+.abtcnt a {
+    text-decoration: none;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.abtcnthold {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
