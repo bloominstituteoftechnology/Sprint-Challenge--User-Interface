@@ -15,16 +15,35 @@
 
   <body>
     <div class="container about-page">
-      <header>
-        <nav>
-          <a href="index.html"
-            ><img src="./img/lambda-black.png" alt="logo" />
-          </a>
-          <a href="#">Home</a> <a href="about.html">About</a>
-          <a href="#">Products</a> <a href="#">Blog</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </header>
+        <header>
+            <!-- desktop -->
+            <nav class="desktop">
+              <a href="index.html" class="logo"
+                ><img src="./img/lambda-black.png" alt="logo" />
+                <a href="#">Home</a></a
+              >
+              <a href="about.html">About</a> <a href="#">Products</a>
+              <a href="#">Blog</a> <a href="contact.html">Contact</a>
+            </nav>
+    
+            <!-- hamburger and nav menu for moblie -->
+            <nav role="navigation" class="navigation">
+              <div id="menuToggle">
+                <input type="checkbox" /> <span></span> <span></span> <span></span>
+                <ul id="menu">
+                  <a href="#">Home</a>
+                  <a href="about.html">About</a>
+                  <a href="#">Products</a>
+                  <a href="#">Blog</a>
+                  <a href="contact.html">Contact</a>
+                </ul>
+              </div>
+              <a href="index.html" class="logo"
+              ><img src="./img/lambda-black.png" alt="logo"
+            /></a>
+            </nav>
+      
+          </header>
 
       <section class="jumbo_banner_about">
         <img src="./img/jumbo-about.png" alt="sky-tower" />
