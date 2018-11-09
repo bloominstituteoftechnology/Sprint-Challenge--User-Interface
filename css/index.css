@@ -67,21 +67,21 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 800px; 
+
+    margin: 0 auto; 
 }
 /********************* Header **********************/
   header {
-    width: 1500px;
+    /* width: 1500px; */
     display: flex;
-    /* flex-direction: row-reverse; */
 
  }
 
  header nav{
     margin-top: 20px;
     margin-left: 20px;
-    width: 700px;
+    width: 760px;
     display: flex;
     flex-direction: row;    
     justify-content: space-between;
@@ -97,10 +97,12 @@ p {
 header .logo {
     margin-bottom: 10px;
     align-self: flex-start;
+    order: -1;
 } 
 
 .logo1 {
     margin-bottom: 10px;
+    
 }
 
 /******************** Top Content ***********************/
@@ -188,7 +190,7 @@ header .logo {
 /************************* Bottom Content ***************/
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 20px;
     justify-content: space-around;
 }
 
@@ -236,34 +238,67 @@ footer nav a {
     flex-wrap: wrap;
 }
 
+/*********** FIRST SECTION *************/
+
+ .whole-section button {
+    font-size: 15px;
+    font-family: bold;
+    padding: 10px 30px; 
+    margin-top: 20px; 
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.whole-section button:hover {
+    background: black;
+    color: white;
+}  
+
+
 .whole-section .middle-content2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    justify-content: center;
 
-}
+} 
 
-.middle-content2 .first {
+
+ .middle-content2 .first {
     display: column;
-    border-bottom: 3px dashed black;
+    border-bottom: 2px dashed black;
+    padding: 10px;
+        
 }
 
-.middle-content2 .second {
+ .middle-content2 .second {
     display: column;
-    border-bottom: 3px dashed black;
-}
-
-.whole-section .middle-content3 {
-    display: flex;
-    flex-direction: row;
+    border-bottom: 2px dashed black;
+    padding: 10px;
     
 }
+
+
+/*********** SECTION SECTION *************/
+
+ .whole-section .middle-content3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+} 
 .middle-content3 .third {
     display: column;
-    border-bottom: 3px dashed black;
+    border-bottom: 2px dashed black;  
+    padding: 10px;
 }
 
 .middle-content3 .fourth {
     display: column;
-    border-bottom: 3px dashed black;
+    border-bottom: 2px dashed black;
+    padding: 10px;
+   
 }
-
+ 
