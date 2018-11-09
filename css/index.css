@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -69,6 +69,29 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    margin: 0px 30px 60px 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    margin: 40px 0px 60px 0px;
+}
+
+header img {
+    margin-top: -19px;
+}
+
+.jumbo {
+    margin: 0px 0px 25px 0px;
 }
 
 .top-content {
@@ -111,6 +134,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box:nth-child(1){
+    background-color: teal;
+}
+.boxes .box:nth-child(2){
+    background-color: gold;
+}
+.boxes .box3:nth-child(3){
+    background-color: cadetblue;
+}
+.boxes .box4:nth-child(4){
+    background-color: coral;
+}
+.boxes .box5:nth-child(5){
+    background-color: crimson;
+}
+.boxes .box6:nth-child(6){
+    background-color: forestgreen;
+}
+.boxes .box7:nth-child(7){
+    background-color: darkorchid;
+}
+.boxes .box8:nth-child(8){
+    background-color: hotpink;
+}
+.boxes .box9:nth-child(9){
+    background-color: indigo;
+}
+.boxes .box10:nth-child(10){
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -131,6 +184,7 @@ footer {
     background: black;
 }
 
+
 footer nav {
     width: 60%;
     display: flex;
@@ -140,7 +194,160 @@ footer nav {
     font-size: 14px;
 }
 
+/********Second page Styling*******/
+.cont{
+    display: fles;
+}
+
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/********/
+.cont{
+    display: flex;
+}
+
+.right-side{
+    margin: 0px 60px 9px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20%;
+    margin: 20px 0px 20px 0px;
+}
+
+hr{
+    border: 1px dashed black;
+}
+
+.lastDiv{
+    margin: 20px 0px 30px 0px;
+}
+
+footer nav a {
+    margin: 0px 40px 0px 120px;
+}
+
+
+/*
+
+footer {
+     position:fixed;
+     bottom:0px;
+     left:0px;
+     right:0px;
+     width:100%;
+    margin: 0px 900px 0px 270px;
+}*/
+
+/********** contact form *****************/
+
+.container2{
+    width: 500px;
+    height: 900px;
+    margin:  0 auto;
+    background-color: #021a2b;
+    color: white;
+}
+
+.container2 h2{
+    text-align: center;
+    margin: 17px 0px 0px 0px;
+}
+
+form{
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+
+label {
+    margin: 10px 20px 20px 20px;
+}
+
+input{
+    margin:14px 0px 10px 0px;
+}
+
+input[type="email"]{
+    margin-left: 55px
+}
+
+input[type="text"]{
+    margin-left: 55px;
+    
+}
+
+
+input {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+input,input[type="submit"] {
+    height: 30px;
+    width: 380px;
+    border-radius: 8px;
+    box-shadow: 2px 3px gray;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+}
+
+.home{
+    margin: 13px 0px 94px 0px;
+}
+
+.container2 button {
+    display: block;
+    margin: 0 auto;
+    background-color: #091323;
+}
+
+/*****animate button*****/
+.container2 button {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: animate;
+    animation-duration: 4s;
+}
+
+@keyframes animate {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:400px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/*********************/
+
+textArea {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 30px;
+}
+
+label {
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 20px;
 }
