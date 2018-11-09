@@ -323,3 +323,49 @@ footer nav a {
 .form-style button:hover{
     color: black;
 }
+
+/* Mobile display */
+
+@media only screen and (max-width: 800px){
+    /* Global */
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Home page */
+    .middle-content .boxes .box {
+        width: 45%;
+        height: 150px;
+        margin: 20px .5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* About page */
+
+    .card{
+        display: flex;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px dashed black;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    /* Blog */
+    .top-content-blog h2{
+        text-align: center;
+    }
+
+    /* Contact */
+    .form-style input{
+        width: 100%;
+        height: 50px;
+        margin: 5px;
+        font-size: 1.8em;
+    }
+}
