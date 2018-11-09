@@ -73,6 +73,48 @@ p {
     margin: 0 auto;
 }
 
+/* ---- Nav ---- */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ---- Footer ---- */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
 /* ---- HOME ---- */
 /* --- TOP ---- */
 
@@ -174,23 +216,3 @@ p {
     padding-right: 0;
 }
 
-/* ---- Footer ---- */
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
