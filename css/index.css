@@ -59,25 +59,27 @@ html, body {
 header {
     display: flex;
     justify-content: flex-end;
-    border: 2px solid blue;
     width: 1050px;
     padding-top: 30px;
    
     
 }
 
+header nav {
+    padding-top: 30px;
+}
+
+
 a {
     padding: 40px;
     margin-top: 20px;
-    a
+    
 }
 
-
-nav {
-    align-items: flex-end;
-
+.container img {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
-
 
 
 h1, h2, h3, h4, h5 {
@@ -95,7 +97,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 2px solid red;
+    
 }
 
 .top-content {
@@ -280,4 +282,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.main {
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+}
+
+content {
+    width: 52%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid orange;
 }
