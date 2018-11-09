@@ -226,7 +226,6 @@ header nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-bottom: dotted black 2px;
 }
 
 .box {
@@ -235,7 +234,7 @@ header nav a {
     justify-content: space-around;
     width: 400px;
     padding: 30px;
-
+    border-bottom: dotted black 2px;
 }
 
 .box h2 {
