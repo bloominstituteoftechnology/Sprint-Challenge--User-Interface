@@ -206,13 +206,16 @@ footer nav a {
 /* Middle Page */
 .middle-about{
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-
 .middle-card{
     width: 48%;
     border-bottom: 1px dotted black;
     padding: 0 0 5%;
     margin: 0 0 5%;
+}
+.middle-card img{
+    width: 100%;
 }
 .middle-card h2{
     padding: 3% 0;
