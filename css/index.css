@@ -75,22 +75,27 @@ p {
 header{
    display: flex; 
    justify-content: space-between;
+   align-content: flex-end;
    margin: 15px 0 25px 0;
 }
 header nav{
     display: flex;
+    width: 100%;
     justify-content: space-around;
-    align-content: flex-end;
 }
 header nav a{
     text-decoration: none;
     color: black;
-    font-size: 15px;
-    padding: 5px 40px 3px;
+    font-size: 14px;
+    justify-content: space-between;
     align-self: flex-end;
+    padding-bottom: 2px;
 }
+
 .hero{
-    margin: 15px 0;
+    margin: 12px 0 22px 0;
+    height: 153px;
+    width:800px;
 }
 
 .top-content {
@@ -200,27 +205,48 @@ footer nav a {
 }
 
 /* About Page */
-.about{
-    border-bottom: 1px dotted gray;
-    padding-bottom: 15px;
-    margin-bottom: 25px;
+.container .hero{
+    margin: 12px 0 25px; 0;
+    height: 153px;
+    width: 800px;
 }
-.bodyContainer .text-container img,
-.bodyContainer .text-container p,{
+
+.about{
+    border-bottom: 1px dashed gray;
+    padding: 0 5px 20px 20px;
+    margin-top: -4px;
+    
+}
+.aboutImg{
     margin-bottom: 10px;
 }
+
 .bodyContainer{
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.bx, .bx p{
-    margin-bottom: 25px;
+
+.bx{
+    width: 46%;
+    border-bottom: 1px dashed gray;
+    padding: 0 0 32px 0;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.bx p{
+    padding-bottom: 37px;
 }
 .learnMoreBtn{
     text-decoration: none;
     color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    padding: 5px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 8px 23px;
     margin-top:40px;
 }
+.foot{
+    padding: 2px 0 0 19px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    }
