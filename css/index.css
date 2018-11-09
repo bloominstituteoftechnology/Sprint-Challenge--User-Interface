@@ -69,6 +69,31 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 25px 25px 0 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/* TODO more tweaking on margin */
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+
+}
+
+nav a:hover {
+    color: white;
+    background-color: darkgrey;
+    box-shadow: 0 0 5px 10px darkgrey;
+    transition: color .5s, background-color .5s, box-shadow .5s;
+}
+
+.top-image {
+    margin: 40px 0 20px 0;
 }
 
 .top-content {
@@ -112,6 +137,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +208,52 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page-specific styling */
+.top-content .text-container.about {
+    width: 98%;
+}
+
+.middle-content.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: none;
+}
+
+.about-box img {
+    display: inline-block;
+    width: 100%;
+}
+
+.about-box {
+    width: 48%;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.about-box-blurb {
+    padding: 15px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-box-blurb h2 {
+    padding: 0;
+}
+
+.about-box p {
+    padding: 20px 0;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.bottom-content.about {
+    display: inline-block;
+    margin: 0 0 50px 20px;
 }
