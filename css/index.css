@@ -204,6 +204,13 @@ nav {
     padding: 30px;
 }
 
+#tn:hover {
+    animation-name: linkbreath;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
 #navimg {
     background-image: url('/img/lambda-black.png');
     background-repeat: no-repeat;
@@ -280,12 +287,43 @@ nav {
     height: 153px;
 }
 
+.blogpost {
+    margin: 20px 3px;
+}
 
+#blogtitle {
+    font-family: 'Helvetica';
+    font-size: 2em;
+}
+
+#blogdate {
+    font-family: 'Courier';
+    font-size: .75em;
+}
+
+#blogcontent {
+    font-size: .95em;
+    padding: 3px 10px;
+}
 
 /**Animation Keyframes**/
 
 @keyframes linkbreath {
     0% {font-size: inherit;}
     50% {font-size: 1.1em;}
-    0% {font-size: inherit;}
+    100% {font-size: inherit;}
+}
+
+@keyframes boxhovercolorflash {
+    0% {background-color: inherit;}
+    10% {background-color: inherit;}
+    20% {background-color: inherit;}
+    30% {background-color: inherit;}
+    40% {background-color: inherit;}
+    50% {background-color: inherit;}
+    60% {background-color: inherit;}
+    70% {background-color: inherit;}
+    80% {background-color: inherit;}
+    90% {background-color: inherit;}
+    100% {background-color: inherit;}
 }
