@@ -135,6 +135,7 @@ nav a{
 }
 
 .aboutContent{
+	width:100%;
 	display:flex;
 	justify-content: space-around;
 	align-content: space-around;
@@ -231,6 +232,10 @@ nav a{
 	padding: 2%;
 	padding-bottom: 4%;
 }
+
+.contact-top-container p{
+	padding-bottom: 20px;
+}
 footer {
     width: 100%;
     background: black;
@@ -248,4 +253,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+form{
+	width:80%;
+	margin: 0 auto;
+}
+label{
+	margin:2%;
+}
+input{
+	width: 100%;
+	margin: 2%;
+}
+
+textarea{
+	width:100%;
+	margin:2%;
 }
