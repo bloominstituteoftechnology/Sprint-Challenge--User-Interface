@@ -268,7 +268,8 @@ footer nav a {
         flex-direction: column;
         align-items: center;
     }
-    header nav{
+
+    header nav {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -346,6 +347,41 @@ footer nav a {
     }
 
     .about-top-content h2 {
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-main {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-main-content {
+        width: 90%;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-main-content h2 {
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-main-content img {
+        width: 300px;
+    }
+
+    .about-bottom-content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .about-bottom-content h2 {
         font-weight: bold;
         font-size: 24px;
         text-align: center;
