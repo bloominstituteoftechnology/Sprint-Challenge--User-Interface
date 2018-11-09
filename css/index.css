@@ -159,6 +159,30 @@ p {
   margin: 0 auto;
 }
 
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 19px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-left: 3.35vw;
+  font-size: 15px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: black;
+  margin-right: 6.66vw;
+}
+
+.navbar-links a:last-child {
+  margin-right: 0;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
