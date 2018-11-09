@@ -88,6 +88,7 @@ header {
 .top-nav a {
     color: black;
     text-decoration: none;
+    margin: 0px 0px 0px 75px;
 }
 
 .top-nav a:hover{
@@ -196,8 +197,9 @@ button {
     padding: 10px;
     border: 2px solid black;
     border-radius: 8px;
-    width: 25%;
-    font-weight: bold;
+    width: 30%;
+    font-size: 12px;
+    line-height: 100%;
 }
 
 .about-bottom-para {
