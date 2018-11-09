@@ -144,3 +144,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Header Styling */
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.nav a{
+	display: inline-flex;
+	margin: 30px;
+	text-decoration: none;
+
+	font-weight: 200;
+}
