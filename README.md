@@ -11,9 +11,9 @@
 
 ## Task 1: Set Up The Project With Git
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] You are now ready to build this project with your preferred IDE
+* [X] Fork the project into your GitHub user account
+* [X] Clone the forked project into a directory on your machine
+* [X] You are now ready to build this project with your preferred IDE
 
 #### Pro tip: Commit every time you have completed a task or feature!
 
@@ -32,20 +32,20 @@ Answer the following questions to the best of your ability. You can exercise you
 
 ## Task 3: Home Page
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link up the `About` navigation item to the [about.html](about.html) page
+* [X] Build the HTML and CSS to create the missing navigation and header.
+* [X] Link up the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [X] box1: `teal`
+* [X] box2: `gold`
+* [X] box3: `cadetblue`
+* [X] box4: `coral`
+* [X] box5: `crimson`
+* [X] box6: `forestgreen`
+* [X] box7: `darkorchid`
+* [X] box8: `hotpink`
+* [X] box9: `indigo`
+* [X] box10: `dodgerblue`
 
 ## Task 4: About page
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.

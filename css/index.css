@@ -71,6 +71,42 @@ p {
     margin: 0 auto;
 }
 
+header {
+    padding: 16px 0;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-logo {
+    justify-self: flex-start;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+.header-picture {
+    width: 100%;
+    padding: 28px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +147,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* Perhaps find a more elegant solution for coloring boxes? */
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+/* Perhaps find a more elegant solution for coloring boxes above? */
 
 .bottom-content {
     display: flex;
