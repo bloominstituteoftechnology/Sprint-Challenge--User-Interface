@@ -71,10 +71,37 @@ p {
     margin: 0 auto;
 }
 
+.container header {
+    /* added */
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.container header nav {
+    /* added */
+    display: flex;
+    width: 643px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.container header nav a {
+    /* added */
+    text-decoration: none;
+    color: black;
+}
+
+.container header nav a:hover {
+    /* added */
+    text-decoration: underline;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -83,6 +110,12 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content2 {
+    /* added */
+    padding: 15px 15px;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content {
@@ -112,10 +145,101 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    /* added */
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    /* added */
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    /* added */
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    /* added */
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    /* added */
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    /* added */
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    /* added */
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    /* added */
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    /* added */
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    /* added */
+    background: dodgerblue;
+}
+
+.middle-content-top, .middle-content-bottom {
+    /* added */
+    display: flex;
+    margin-top: 20px;
+}
+
+.middle-container {
+    /* added */
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 0 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-container h2 {
+    /* added */
+    margin-top: 10px;
+}
+
+.middle-container button {
+    /* added */
+    width: 120px;
+    padding: 10px;
+    margin: 20px 0;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.middle-container button:hover {
+    /* added */
+    background: black;
+    color: white;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content2 {
+    /* added */
+    padding: 15px 15px;
 }
 
 .bottom-content .text-container {
