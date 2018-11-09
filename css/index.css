@@ -231,6 +231,20 @@ p {
   justify-content: center;
 }
 
+.middle-content .boxes .box:hover {
+  animation-name: box-highlight;
+  animation-duration: 0.5s;
+  animation-direction: reverse;
+}
+
+@keyframes box-highlight {
+  to {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+}
+
 .box-one {
   background-color: teal;
 }
@@ -348,9 +362,21 @@ footer nav a {
   color: black;
 }
 
+@keyframes button-fade {
+  from {
+    background-color: black;
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
 .about-top-content a:hover {
   color: white;
-  background-color: black;
+  animation-name: button-fade;
+  animation-duration: 0.5s;
 }
 
 .about-bottom-content {
