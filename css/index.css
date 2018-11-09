@@ -136,46 +136,6 @@ header nav a {
     justify-content: center;
 }
 
-#box1 {
-    background: teal;
-}
-
-#box2 {
-    background: gold;
-}
-
-#box3 {
-    background: cadetblue;
-}
-
-#box4 {
-    background: coral;
-}
-
-#box5 {
-    background: crimson;
-}
-
-#box6 {
-    background: forestgreen;
-}
-
-#box7 {
-    background: darkorchid;
-}
-
-#box8 {
-    background: hotpink;
-}
-
-#box9 {
-    background: indigo;
-}
-
-#box10 {
-    background: dodgerblue;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -207,4 +167,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* HOME PAGE */
+
+#box1 {background: teal;}
+#box2 {background: gold;}
+#box3 {background: cadetblue;}
+#box4 {background: coral;}
+#box5 {background: crimson;}
+#box6 {background: forestgreen;}
+#box7 {background: darkorchid;}
+#box8 {background: hotpink;}
+#box9 {background: indigo;}
+#box10 {background: dodgerblue;}
+
+/* ABOUT PAGE */
+
+.about-page .top-content .text-container {
+    width: 100%;
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: none;
+}
+
+.about-page .middle-content .text-container {
+    width: 370px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content .text-container h2 {
+    padding: 2% 0;
+}
+
+.about-page .middle-content .text-container button {
+    width: 125px;
+    height: 2.5em;
+    margin: 4% 0;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black; 
 }
