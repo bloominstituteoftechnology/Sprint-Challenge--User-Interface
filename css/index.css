@@ -297,3 +297,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE */
+
+
+
+
+.top-half .header-img {
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
