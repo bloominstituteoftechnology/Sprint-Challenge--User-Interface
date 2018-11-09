@@ -264,3 +264,51 @@ footer nav a:hover {
 .about-page footer{
     margin-top: 40px;
 }
+
+/* Contact Page styles */
+
+.contact-page h1{
+    font-size: 28px;
+}
+
+.forum-flexwrap{
+    display: flex;
+    justify-content: center;
+}
+
+.border-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+    border: 2px dashed black;
+}
+
+
+
+
+.contact-page input{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.input-info-text{
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.contact-page textarea{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.contact-btn{
+    border: 2px solid black;
+    padding: 12px 20px;
+    width: 400px;
+    text-align: center;
+    cursor: pointer;
+}
