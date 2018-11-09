@@ -234,6 +234,10 @@ footer nav a {
     margin: 15px 0;
 }
 
+.top-content-about {
+    margin: 0 20px;
+}
+
 .top-about {
     display: flex;
     border-top: 1px dashed black;
