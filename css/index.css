@@ -156,26 +156,26 @@ h2 {
   font-size: 22px;
 }
 
-img {
-  margin-bottom: 10px;
-}
-
 .container {
   width: 800px;
   margin: 0 auto;
 }
 
-header {
+.container-about-page {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header nav {
   display: flex;
-  justify-content: flex-start;
-  margin: 25px 0;
+  justify-content: space-between;
   align-items: baseline;
+  margin: 20px 15px 20px auto;
 }
 
 nav a {
   color: black;
   text-decoration: none;
-  margin: 35px;
 }
 
 nav a:hover {
@@ -184,10 +184,6 @@ nav a:hover {
 }
 
 .home-image {
-  margin-bottom: 15px;
-}
-
-.about-image {
   margin-bottom: 15px;
 }
 
@@ -266,6 +262,10 @@ button:hover {
 button:active {
   background-color: black;
   transform: translateY(4px);
+}
+
+.square {
+  margin-bottom: 15px;
 }
 
 #box1 {
