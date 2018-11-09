@@ -144,3 +144,186 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/** Box Colors **/
+
+#bx1 {
+    background-color: teal;
+}
+
+#bx2 {
+    background-color: gold;
+}
+
+#bx3 {
+    background-color: cadetblue;
+}
+
+#bx4 {
+    background-color: coral;
+}
+
+#bx5 {
+    background-color: crimson;
+}
+
+#bx6 {
+    background-color: forestgreen;
+}
+
+#bx7 {
+    background-color: darkorchid;
+}
+
+#bx8 {
+    background-color: hotpink;
+}
+
+#bx9 {
+    background-color: indigo;
+}
+
+#bx10 {
+    background-color: dodgerblue;
+}
+
+/** NAV CSS **/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+#tn:hover {
+    animation-name: linkbreath;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+#navimg {
+    background-image: url('/img/lambda-black.png');
+    background-repeat: no-repeat;
+    height: 40px;
+}
+
+/** Index CSS **/
+
+#indexhead {
+    background-image: url('/img/jumbo.jpg');
+    height: 153px;
+    margin-bottom: 20px;
+}
+
+/** About CSS **/
+
+#abouthead {
+    background-image: url('/img/jumbo-about.png');
+    height: 153px;
+}
+
+#aboutinfo {
+    padding: 20px;
+    border-bottom: 1px grey dashed;
+}
+
+.abtcnt {
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    border-bottom: 1px dashed grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+.abtcnt img {
+    margin-bottom: 10px;
+}
+
+.abtcnt a {
+    text-decoration: none;
+    display: flex;
+    border: 1.5px solid black;
+    border-radius: 7px;
+    height: 38px;
+    width: 38%;
+    color: black;
+    margin: 17px 0px;
+    font-size: .95em;
+    font-family: 'Helvetica';
+    justify-content: center;
+    align-items: center;
+}
+
+.abtcnt p {
+    margin: 5px 0px;
+}
+
+.abtcnthold {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#aboutbelow {
+    padding: 20px;
+}
+
+/** Blog CSS **/
+
+#bloghead {
+    background-image: url('/img/jumbo-blog.jpg');
+    height: 153px;
+}
+
+.blogpost {
+    margin: 20px 3px;
+}
+
+#blogtitle {
+    font-family: 'Helvetica';
+    font-size: 2em;
+}
+
+#blogdate {
+    font-family: 'Courier';
+    font-size: .75em;
+}
+
+#blogcontent {
+    font-size: .95em;
+    padding: 3px 10px;
+}
+
+/**Animation Keyframes**/
+
+@keyframes linkbreath {
+    0% {font-size: inherit;}
+    50% {font-size: 1.1em;}
+    100% {font-size: inherit;}
+}
+
+@keyframes boxhovercolorflash {
+    0% {background-color: inherit;}
+    10% {background-color: inherit;}
+    20% {background-color: inherit;}
+    30% {background-color: inherit;}
+    40% {background-color: inherit;}
+    50% {background-color: inherit;}
+    60% {background-color: inherit;}
+    70% {background-color: inherit;}
+    80% {background-color: inherit;}
+    90% {background-color: inherit;}
+    100% {background-color: inherit;}
+}
