@@ -89,7 +89,6 @@ p {
 } 
 
 #logo {
-
     padding: 0px;
 }
 
@@ -127,15 +126,21 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-evenly; */
-    margin-bottom: 20px;
-    padding: 0 20px 25px;
+    margin-bottom: 0px;
+    padding: 25px;
     border-bottom: 1px dashed black;
+}
+
+.description-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    margin-bottom: 0px;
+    padding: 25px;
 }
 
 .banner-image {
     width: 100%;
-    margin: 0;
-    padding-bottom: 30px
 }
 
 
@@ -148,8 +153,6 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-
 
 .top-content .text-container {
     width: 48%;
@@ -232,3 +235,32 @@ footer nav a {
 
 /* About Page Specific Styling */
 
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    border-bottom: 1px dashed black;
+    width: 45%;
+    margin: 20px;
+    padding: 20px 10px;
+}
+
+.about-card img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.about-card button {
+    margin: 15px 0 10px 0;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px;
+}
+
+.about-card button:hover {
+
+    background-color: lightgrey;
+}
