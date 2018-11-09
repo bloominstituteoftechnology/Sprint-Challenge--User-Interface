@@ -112,6 +112,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content2 {
+    /* added */
+    padding: 15px 15px;
+    border-bottom: 1px dashed black;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -189,10 +195,51 @@ p {
     background: dodgerblue;
 }
 
+.middle-content-top, .middle-content-bottom {
+    /* added */
+    display: flex;
+    margin-top: 20px;
+}
+
+.middle-container {
+    /* added */
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin: 0 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-container h2 {
+    /* added */
+    margin-top: 10px;
+}
+
+.middle-container button {
+    /* added */
+    width: 120px;
+    padding: 10px;
+    margin: 20px 0;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.middle-container button:hover {
+    /* added */
+    background: black;
+    color: white;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content2 {
+    /* added */
+    padding: 15px 15px;
 }
 
 .bottom-content .text-container {
