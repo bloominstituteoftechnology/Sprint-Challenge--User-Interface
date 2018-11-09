@@ -414,6 +414,11 @@ color: red;
         text-align: center;
     }
 
+    form {
+        width: 90%;
+        margin: auto;
+    }
+
     footer nav {
         width: 100%;
         display: flex;
