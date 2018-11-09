@@ -70,6 +70,33 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    align-items: flex-end;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.lambda-logo{
+    display:flex;
+    width:150px;
+    height: 40px;
+    margin-top:20px;
+}
+
+.highway{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .top-content {
     display: flex;
@@ -144,3 +171,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+#Box1 {
+    background-color: teal;
+}
+#Box2 {
+    background-color: gold;
+}
+#Box3 {
+    background-color: cadetblue;
+}
+#Box4 {
+    background-color: coral;
+}
+#Box5 {
+    background-color: crimson;
+}
+#Box6 {
+    background-color: forestgreen;
+}
+#Box7 {
+    background-color: darkorchid;
+}
+#Box8 {
+    background-color: hotpink;
+}
+#Box9 {
+    background-color: indigo;
+}
+#Box10 {
+    background-color: dodgerblue;
+}
+/* This is my about services page*/
+.city {
+    margin: 20px 0 20px 0;
+}
+.about-section { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    border-bottom: 3px dotted black;
+}
+.about-section .about-text {
+    border-bottom: 3px dotted black;
+
+}
+.about-text{
+    margin-bottom: 20px;
+}
+.about-section .card {
+    width: 320px;
+    margin-top: 30px;
+    margin-right:40px;
+}
+ .card button {
+     height:30px;
+     width:100px;
+     margin-top:10px;
+     margin-bottom:10px;
+     background:white;
+     color:black;
+     border: 3px solid black;
+     border-radius: 10%;
+     
+ }
+ .work-together{
+     padding: 20px;
+ }
