@@ -266,15 +266,64 @@ header img.banner {
     align-self: center;
 }
 
-.about-page section.work-together {
+section.last-section {
     padding: 10px 25px;
     margin-bottom: 20px;
 }
 
-.about-page section.work-together h2 {
+section.last-section  h2 {
     font-size: 18px;
 }
 
-.about-page section.work-together p {
+section.last-section  p {
     font-size: 14px;
+}
+
+.products-page header div.products-header {
+    padding: 0 20px;
+}
+
+.products-page header p {
+    font-size: 14px;
+}
+
+.products-page hr {
+    border: 0.5px black dashed;
+    margin: 20px 0 30px 0;
+    width: 100%;
+}
+
+.products-page div.products {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.products-page div.products .product {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.products-page div.products .product div {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+}
+
+.products-page div.products .product h2 {
+    font-size: 18px;
+}
+
+.products-page div.products .product p {
+    font-size: 14px;
+}
+
+.products-page div.products .product a {
+    padding: 9px 18px;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 10px 0;
+    align-self: flex-start;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
 }
