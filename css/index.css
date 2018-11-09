@@ -112,6 +112,55 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .a {
+    background: teal;
+}
+
+.middle-content .boxes .b {
+    background: gold;
+}
+
+
+.middle-content .boxes .c {
+    background: cadetblue;
+}
+
+
+.middle-content .boxes .d {
+    background: coral;
+}
+
+
+.middle-content .boxes .e {
+    background: crimson;
+}
+
+
+.middle-content .boxes .f {
+    background: forestgreen;
+}
+
+
+.middle-content .boxes .g {
+    background: darkorchid;
+}
+
+
+.middle-content .boxes .h {
+    background: hotpink;
+}
+
+
+.middle-content .boxes .i {
+    background: indigo;
+}
+
+
+.middle-content .boxes .j {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +192,25 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header div.top {
+    margin: 20px 0 20px 0;
+}
+
+header nav {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 639px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header img.banner {
+    margin: 20px 0 20px 0;
 }
