@@ -167,10 +167,12 @@ header nav {
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
+	margin-bottom: 40px;
 }
 
 header nav a {
 	text-decoration: none;
+	color: black;
 }
 
 .top-content {
