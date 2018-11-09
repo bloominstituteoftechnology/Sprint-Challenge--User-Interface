@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* General Styling */
+
 * {
     box-sizing: border-box;
 }
@@ -66,10 +68,72 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation Styling */
+
+.top-nav {
+    /* height: 100px; */
+    padding: 20px 0 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.top-nav a {
+    text-decoration: none;
+    padding: 0 35px;
+    color: black;
+}
+
+.top-nav a:hover {
+    color: grey;
+} 
+
+#logo {
+    padding: 0px;
+}
+
+/* Footer Styling */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Class Styling */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.description-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-image {
+    width: 100%;
+    padding-bottom: 30px
+}
+
+
+/* Home Page Specific Styling */
 
 .top-content {
     display: flex;
@@ -78,6 +142,8 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+
 
 .top-content .text-container {
     width: 48%;
@@ -111,6 +177,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -126,21 +223,6 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-}
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
+/* About Page Specific Styling */
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
