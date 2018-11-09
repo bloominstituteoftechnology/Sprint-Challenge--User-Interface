@@ -204,3 +204,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE */
+
+.about-top {
+    margin-top: 25px;
+    border-bottom: 1px dashed gray;
+}
+.about-top h1 {
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+.about-top p {
+    padding-bottom: 35px;
+    line-height: 1.25;
+    margin-left: 15px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    
+}
+
+.about-middle-boxes {
+    /* width: 420px; */
+    /* background-color: #eff0f2; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    /* border: 1px solid black; */
+    /* padding: 15px; */
+    /* margin: 20px 0; */
+    line-height: 1.25;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.about-middle-boxes img {
+    width: 95%;
+    padding-bottom: 10px;
+}
+
+.about-middle-boxes button {
+    background-color: white;
+    margin-top: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    /* border: 1px solid black; */
+}
+
+.about-bottom p {
+    padding-bottom: 25px;
+}
+
+.about-bottom footer {
+    height: 50px;
+}
