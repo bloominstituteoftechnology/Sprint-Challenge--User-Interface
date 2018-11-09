@@ -157,6 +157,19 @@ p {
 	margin: 0 auto;
 }
 
+/* --------------General Styles----------------- */
+.move {
+	margin-top: 40px;
+}
+
+button {
+	background-color: white;
+	padding: 5px 20px;
+	border: 1px double black;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
 /* --------------Header Section----------- */
 header {
 	width: 100%;
@@ -291,4 +304,33 @@ footer nav {
 footer nav a {
 	color: white;
 	text-decoration: none;
+}
+
+/* ----------------------------About Page------------------- */
+/* -----------------Top Content------------------- */
+.top-content {
+	justify-content: flex-start;
+	margin-bottom: 30px;
+}
+
+.top-content p {
+	margin-bottom: 20px;
+}
+
+/* -------------------Main Section------------------- */
+#about-page .main-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#about-page .main-section div {
+	width: 47%;
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+}
+
+/* ----------------Bottom Section------------------------- */
+#about-page .bottom-section {
+	margin: 40px 0 30px;
 }
