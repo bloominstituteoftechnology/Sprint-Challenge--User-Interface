@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -104,13 +104,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box 
 
 .bottom-content {
     display: flex;
@@ -143,4 +144,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+title {
+  background-color: blue;
+}
+.middle-content .boxes .box .box1 {
+  
+}
+/*.container header nav a {
+  margin: 0 10px;
+  padding: 20px;
+}*/
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+header nav a {
+    
+    text-decoration: none;
+    color: black;
+}
+img {
+  margin: 
 }
