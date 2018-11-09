@@ -51,6 +51,36 @@ table {
     box-sizing: border-box;
 }
 
+header {
+    width: 100%;
+    display: flex;
+}
+
+header .logo {
+    width: 29px 0 0 90px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    width: 600px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: crimson;
+}
+
+.jumbo-img {
+    margin: 25px 0;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -110,6 +140,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background:hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
