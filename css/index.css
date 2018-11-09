@@ -103,7 +103,6 @@ p {
 }
 
 .header-image:empty {
-    background-image: url('http://i65.tinypic.com/w8uzya.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -111,23 +110,29 @@ p {
     margin: 30px 0;
 }
 
+.home-header-image:empty {
+    background-image: url('http://i65.tinypic.com/w8uzya.jpg');
+}
+
+.about-header-image:empty {
+    background-image: url('http://i66.tinypic.com/10cn8yf.png')
+}
+
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
+    
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -139,6 +144,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content .boxes .box {
@@ -191,9 +197,58 @@ p {
     background-color: dodgerblue;
 }
 
+.middle-content .info-previews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .info-previews article.info-preview {
+    width: 45%;
+    margin: 25px 2.5%;
+    border-bottom: 1px dotted black;
+}
+
+.info-preview-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 236px;
+    margin-bottom: 10px;
+}
+
+.learn-more-link {
+    display: block;
+    width: 125px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px 0 25px;
+}
+
+.strategy-info-preview-img {
+    background-image: url('http://i63.tinypic.com/2q8c5lh.png');    
+}
+
+.how-we-work-info-preview-img {
+    background-image: url('http://i67.tinypic.com/35lvur6.jpg');
+}
+
+.places-we-work-info-preview-img {
+    background-image: url('http://i66.tinypic.com/8z03m8.png');
+}
+
+.collaboration-info-preview-img {
+    background-image: url('http://i67.tinypic.com/m79o2c.png');
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 35px;
     justify-content: space-around;
 }
 
