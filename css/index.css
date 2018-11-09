@@ -273,3 +273,42 @@ footer nav a {
 
 /*****About Page***********/
 
+.container .about-middle {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 15px 0;
+    line-height: 1.2;
+    border-top: 1px dashed black;
+}
+
+.about-div {
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.bottom-div {
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-middle .box {
+	width: 390px;
+	margin: 10px 0;
+    border-bottom: 1px dashed black;
+    padding: 0 1%;
+    padding-bottom: 10px; 
+}
+
+.about-middle h2, .bottom-div h3 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.about-middle button {
+    border: 1.3px solid black;
+	border-radius: 5px;
+	padding: 8px 30px;
+	margin: 15px 0;
+	background-color: white;
+}
