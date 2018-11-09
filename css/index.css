@@ -71,18 +71,56 @@ p {
     margin: 0 auto;
 }
 
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+@keyframes expand {
+    from {font-family: 'Roboto', sans-serif; font-size: 100%}
+    to {font-family: 'Rubik', sans-serif; font-size: 120%}
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: teal;
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .about-top {
+    display: flex;
+    width: 98%;
+    flex-wrap: wrap;
+}
+
+.top-content .about-top p:hover{
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 .middle-content {
@@ -112,6 +150,89 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+.about-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1%;
+}
+
+.about-boxes-block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.about-boxes-single {
+    width: 48%;
+    /* padding: 0 1%; */
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+    line-height: 1.5;
+}
+
+.about-boxes-single p:hover{
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.learn-more {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 20px;
+    background-color: white;
+    margin: 15px 0px 10px;
+}
+
+.learn-more:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    margin: 10px 0px 5px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +245,17 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-bottom {
+    margin-top: 20px;
+    margin-left: 1%;
+}
+
+.about-bottom:hover {
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 footer {
@@ -144,3 +276,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
