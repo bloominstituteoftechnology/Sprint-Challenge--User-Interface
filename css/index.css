@@ -292,4 +292,8 @@ footer nav a {
         flex-wrap: wrap;
         align-content: center;
     }
+    .jumboHeader{
+        width: 100%;
+        height: auto;
+    }
 }
