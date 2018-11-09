@@ -78,23 +78,22 @@ p {
     color: black;
     margin: 0 40px;
 } 
-.headerbanner {
-    margin-bottom: 20px;
-}
+
 .topnav a:hover {
     color: orangered;
 }
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    padding: 15px 10px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    margin: 0 10px;
+}
+.aboutcontainer {
+    flex-wrap: wrap;
 }
 .middle-content {
     margin-bottom: 20px;
@@ -147,6 +146,34 @@ p {
 }
 .box10 {
     background-color: dodgerblue 
+}
+.mcduo  {
+    display: flex;
+}
+.mccontainer {
+    border-bottom: 1px dashed black;
+    margin: 10px 15px; 
+    padding: 20px 0;
+}
+.mccontainer img {
+    margin-bottom: 10px;
+}
+.mccontainer a	{
+	border: 1px solid black;
+	text-decoration: none;
+	height: 40px;
+	width: 40%;
+	margin-top: 15px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.mccontainer a:hover {
+    color: white;
+    background-color: orangered;
 }
 .bottom-content {
     display: flex;
