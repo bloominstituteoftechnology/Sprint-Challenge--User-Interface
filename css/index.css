@@ -94,6 +94,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .about-top {
+    display: flex;
+    width: 98%;
+    flex-wrap: wrap;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -159,6 +165,35 @@ p {
 
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
+}
+
+.about-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-boxes-block {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+
+.about-boxes-single {
+    width: 48%;
+    /* padding: 0 1%; */
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+    line-height: 1.5;
+}
+
+.learn-more {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 20px;
+    background-color: white;
+    margin: 15px 0px 10px;
 }
 
 .bottom-content {
