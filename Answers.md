@@ -4,7 +4,7 @@ Semantic HTML is using the proper HTML tags for the necessary sections being bui
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
-Block elements take up the full width of the page. THey will rspect height and width commands. Inline items, jhowever, do not respect heigh, and also do not take up the full width, but let other elements flow around them if wanted, like an anchor tag or a span.
+Block elements take up the full width of the page. They will respect height and width commands. Inline items, however, do not respect height, and also do not take up the full width, but let other elements flow around them if wanted, like an anchor tag or a span.
 
 3. What are the 4 areas of the box model?
 
@@ -16,4 +16,4 @@ Align-items will always be the cross axis.
 
 5. What is the git command to commit staged changes as well as write a message? 
 
-The git command would be "git commit -m 'this is where your description message would go'"
+The git command would be "git commit -m 'this is where your description message would'".
