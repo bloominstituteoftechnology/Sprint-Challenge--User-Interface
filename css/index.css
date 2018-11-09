@@ -71,12 +71,36 @@ p {
     margin: 0 auto;
 }
 
+header nav{
+    display: flex;
+    align-items: baseline;
+    padding: 30px 0 25px 0;
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 72px;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.2s ease;
+    padding-bottom: 2px;
+}
+
+header nav a:hover{
+    border-color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content-hero-img{
+    margin-bottom: 30px;
 }
 
 .top-content .text-container {
@@ -112,6 +136,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-of-type(1){
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-of-type(2){
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3){
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4){
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5){
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6){
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7){
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(8){
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-of-type(9){
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-of-type(10){
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +208,165 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+/* about page styles */
+
+.about-page .top-content{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.padding-style{
+    padding: 0 20px;
+}
+
+.about-page .middle-content{
+    border-bottom: none;
+}
+
+.about-page .middle-content h2{
+    padding: 0px;
+    margin: 10px 0;
+}
+
+.middle-cont-flexwrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-block{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-block-btn{
+    display: inline-block;
+    padding: 6px 20px;
+    margin: 15px 0; 
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.about-block-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.about-page footer{
+    margin-top: 40px;
+}
+
+/* Contact Page styles */
+
+.contact-page h1{
+    font-size: 28px;
+}
+
+.forum-flexwrap{
+    display: flex;
+    justify-content: center;
+}
+
+.border-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px 20px 15px;
+    border: 2px dashed black;
+}
+
+
+
+
+.contact-page input{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.input-info-text{
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.contact-page textarea{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.contact-btn{
+    border: 2px solid black;
+    padding: 12px 20px;
+    width: 400px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* product page styles */
+
+.product-page{
+    width: 100vw;
+}
+
+.product-page nav{
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px dashed black;
+}
+
+.sidebar{
+    border-right: 1px dashed black;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    padding: 40px 10px;
+}
+
+.sidebar p{
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+}
+
+.lastcheck{
+    margin-bottom: 30px;
+}
+
+.products-flex-cont{
+    display: flex;
+    padding: 10px 10px 10px 310px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.fake-prod{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+
