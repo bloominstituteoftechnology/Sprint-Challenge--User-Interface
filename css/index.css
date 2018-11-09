@@ -179,13 +179,13 @@ footer nav a {
     text-decoration: none;
 }
 
-.container .aboutPage {
+/*.container .aboutPage {
     width: 800px;
     margin: 0 auto;
     padding: 0 40px;
     border: 1px solid black;  
 }
-
+*/
 .aboutPageTop {
     border-bottom: 1px dashed black;
     margin: 0px 20px 20px 20px;
@@ -194,8 +194,9 @@ footer nav a {
 
 .cardbox {
     display: flex;
+    width: 200px;
     flex-wrap: nowrap;
-    margin: 0  10px 40px 10px;
+    margin: 0  0 40px 10px;
 }
 
 .carddetails {
@@ -204,6 +205,7 @@ footer nav a {
 }
 
 .carddetails img{
+    width: 350px;
     padding: 10px;
     padding-bottom: 20px;
 }
@@ -224,3 +226,8 @@ button {
     margin: 10px 0 20px 10px;
  }
  
+ .aboutPageBottom {
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+} 
+
