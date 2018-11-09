@@ -155,10 +155,10 @@ header {
 header nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+
     align-items: flex-end;
 	font-size: 14px;
-	margin-right: 30px;
 }
 
 header nav a {
