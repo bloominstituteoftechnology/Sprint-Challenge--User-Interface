@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+/***************************/
+
+header {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 20px 0;
+    padding-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.headerimage {
+    margin-bottom: 20px;
+}
+
+/***************************/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +136,107 @@ p {
     align-items: center;
     justify-content: center;
 }
+/******************************/
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/******************************/
 
 .bottom-content {
     display: flex;
@@ -144,3 +270,72 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*****About Page***********/
+
+.container .about-middle {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 15px 0;
+    line-height: 1.2;
+    border-top: 1px dashed black;
+}
+
+.about-div {
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+.bottom-div {
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-middle .box {
+	width: 390px;
+	margin: 10px 0;
+    border-bottom: 1px dashed black;
+    padding: 0 1%;
+    padding-bottom: 10px; 
+}
+
+.about-middle h2, .bottom-div h3 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+.about-middle button {
+    border: 1.3px solid black;
+	border-radius: 5px;
+	padding: 8px 30px;
+	margin: 15px 0;
+	background-color: white;
+}
+
+.about-middle button:hover  {
+    border: 1.3px solid black;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0);
+	border-radius: 5px;
+	padding: 8px 30px;
+	margin: 15px 0;
+    background-color: white;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(.9);
+        background-color: rgb(100, 100, 100);
+      }
+      50% {
+        background-color: rgb(158, 158, 158);
+      }
+      100% {
+        color: white;
+        transform: scale(1.2);
+        background-color: rgb(59, 59, 59);
+      }
+    }
