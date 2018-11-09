@@ -338,6 +338,19 @@ footer nav a {
         text-align: center;
     }
 
+    /* About Page */
+
+    .about-top-content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .about-top-content h2 {
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+    }
+
     footer nav {
         width: 100%;
         display: flex;
