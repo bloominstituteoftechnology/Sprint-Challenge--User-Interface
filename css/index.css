@@ -180,6 +180,21 @@ footer nav a {
 #box9 { background: indigo;}
 #box10 { background: dodgerblue;}
 
+.box:hover {
+    /* name duration timing-function delay iteration-count direction fill-mode; */
+    animation: spinAndBorder 3s;
+}
+
+@keyframes spinAndBorder {
+    50% {
+        border: 2px dashed black;
+    }
+    100% {
+        transform: rotate(360deg) scaleX(1.5) scaleY(1.5);
+        border: 5px dashed black;
+    }
+}
+
 
 
 
