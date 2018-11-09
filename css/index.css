@@ -245,6 +245,47 @@ footer nav a {
 }
 
 .top-about .card {
-    padding: 20px;
-    margin: 
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+    margin: 20px;
+}
+
+.middle-about .card {
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+    margin: 20px;
+}
+
+.h2-about {
+    padding: 7px 0;
+}
+
+.p-about{
+    padding: 7px 0;
+}
+
+.top-about img {
+    padding: 7px 0;
+}
+
+button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.middle-about img {
+    padding: 7px 0;
+}
+
+.bottom-about {
+    margin: 30px;
+    padding-bottom: 15px;
+}
+
+footer {
+    width: 100%
 }
