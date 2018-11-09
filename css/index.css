@@ -375,7 +375,6 @@ footer nav a {
 }
 
 .about-top-content a:hover {
-  color: white;
   animation-name: button-fade;
   animation-duration: 0.5s;
 }
@@ -420,4 +419,23 @@ footer nav a {
 
 .form-container form textarea {
   width: 100%;
+}
+
+.form-submit-button {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.form-submit-button:hover {
+  animation-name: button-fade;
+  animation-duration: 0.5s;
 }
