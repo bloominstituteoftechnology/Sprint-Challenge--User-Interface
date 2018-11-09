@@ -77,7 +77,7 @@ p {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 35px;
+    margin: 20px 0 35px 0;
 }
 
 .top-nav-container nav {
@@ -97,6 +97,10 @@ p {
 
 .top-nav-container nav a:hover {
     text-decoration: underline;
+}
+
+.header-img {
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -138,6 +142,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
