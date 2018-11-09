@@ -125,7 +125,6 @@ footer nav a {
 .description-header {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
     margin-bottom: 0px;
     padding: 25px;
     border-bottom: 1px dashed black;
@@ -151,6 +150,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    padding-top: 25px;
     border-bottom: 1px dashed black;
 }
 
