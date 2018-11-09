@@ -229,6 +229,52 @@ header {
 }
 
 header p {
-    margin: 0 2.5% 0 2.5%;
+    margin: 0 2.5% ;
 }
 
+.about-content {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.about-inner {
+    margin: 0 2.5% ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textitems {
+    display: flex;
+    flex-direction: column;
+}
+
+.strategy .about-inner .textitems{
+    margin-left: 20px;
+}
+
+.how-we-work .about-inner {
+    flex-direction: row-reverse;
+}
+
+.places-we-work .about-inner .textitems{
+    margin-left: 20px;
+}
+
+.collab .about-inner {
+    flex-direction: row-reverse;
+}
+
+.about-content a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    font-weight: 800;
+    font-size: large;
+
+}
+
+.worktogether {
+    margin: 20px 2.5% ;
+    text-align: center;
+}
