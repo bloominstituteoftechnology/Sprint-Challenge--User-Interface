@@ -140,6 +140,61 @@ nav a {
     justify-content: center;
 }
 
+/* Box Colors Start 
+
+* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue` */
+
+.middle-content .boxes .box1 {
+    background: teal
+}
+
+.middle-content .boxes .box2 {
+    background: gold
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue
+}
+
+.middle-content .boxes .box4 {
+    background: coral
+}
+
+.middle-content .boxes .box5 {
+    background: crimson
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink
+}
+
+.middle-content .boxes .box9 {
+    background: indigo
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue
+}
+
+/* Box Colors End */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
