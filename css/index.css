@@ -201,3 +201,39 @@ footer nav a {
 #Box10 {
     background-color: dodgerblue;
 }
+/* This is my about services page*/
+.city {
+    margin: 20px 0 20px 0;
+}
+.about-section { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    border-bottom: 3px dotted black;
+}
+.about-section .about-text {
+    border-bottom: 3px dotted black;
+
+}
+.about-text{
+    margin-bottom: 20px;
+}
+.about-section .card {
+    width: 320px;
+    margin-top: 30px;
+    margin-right:40px;
+}
+ .card button {
+     height:30px;
+     width:100px;
+     margin-top:10px;
+     margin-bottom:10px;
+     background:white;
+     color:black;
+     border: 3px solid black;
+     border-radius: 10%;
+     
+ }
+ .work-together{
+     padding: 20px;
+ }
