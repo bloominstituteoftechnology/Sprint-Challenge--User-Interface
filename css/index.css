@@ -215,17 +215,20 @@ footer nav a {
 
 #home .bottom-content {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
 #home .bottom-content .text-container {
+    width: 30%;
     padding-right: 4%;
+    padding-bottom: 16px;
 }
 
-#home .bottom-content .text-container:last-child {
+/* #home .bottom-content .text-container:last-child {
     padding-right: 0;
-}
+} */
 
 /* About page styles */
 
@@ -278,4 +281,111 @@ footer nav a {
 #about .bottom-content {
     padding: 16px;
     margin-bottom: 18px;
+}
+
+@media (max-width: 799px) {
+    .container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    header .header-picture img {
+        width: 100%;
+    }
+
+    header nav .nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav .nav-logo img {
+        width: 25%;
+        margin-bottom: 16px;
+    }
+    
+    header nav .nav-links {
+        width: 100%;
+    }
+
+    #about .main-content .info-panel{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #about .main-content .info-panel img {
+        width: 100%;
+    }
+
+    #home .top-content .text-container {
+        width: 50%;
+    }
+
+    #home .middle-content .boxes .box {
+        width: 20%;
+    }
+
+    #home .bottom-content .text-container {
+        width: 51%;
+    }
+
+    #home .bottom-content .text-container:last-child {
+        padding-right: 4%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    header .header-picture img {
+        width: 100%;
+    }
+
+    header nav .nav-logo img {
+        width: 45%;
+        margin-bottom: 16px;
+    }
+    
+    header nav .nav-links {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav .nav-links a {
+        width: 33%;
+        padding: 12px;
+    }
+
+    footer nav {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    footer nav a {
+        width: 20%;
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    #home .top-content .text-container {
+        width: 100%;
+    }
+
+    #home .middle-content .boxes .box {
+        width: 25%;
+    }
+
+    #about .main-content .info-panel{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #about .main-content .info-panel img {
+        width: 100%;
+    }
 }

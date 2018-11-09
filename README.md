@@ -65,4 +65,4 @@ Stretch goals are only available if you complete every task listed above.  **Do 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
-* [ ] Add responsive breakpoints to your code by using media queries
+* [X] Add responsive breakpoints to your code by using media queries
