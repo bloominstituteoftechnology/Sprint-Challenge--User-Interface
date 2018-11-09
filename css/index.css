@@ -71,59 +71,51 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+/* Global Header and Footer styles */
+
+header {
+    padding: 8px 0;
+    margin-top: 16px;
+}
+
+header nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+header nav a {
+    text-decoration: none;
+    color: black;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+nav a {
+    transition: all .5s;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+nav a:hover {
+    transform: scale(1.4);
 }
 
-.middle-content .boxes {
+header nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-logo {
+    justify-self: flex-start;
+}
+
+.nav-links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
     justify-content: space-around;
+    width: 80%;
 }
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.header-picture {
+    width: 100%;
+    padding-top: 28px;
 }
 
 footer {
@@ -136,11 +128,363 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Home page styles */
+
+#home .top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#home .top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+#home .middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#home .middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+#home .middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#home .middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Perhaps find a more elegant solution for coloring boxes? */
+#home .middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+#home .middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+#home .middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+#home .middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+#home .middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+#home .middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+#home .middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+#home .middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+#home .middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+#home .middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+/* Perhaps find a more elegant solution for coloring boxes above? */
+
+#home .bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+#home .bottom-content .text-container {
+    width: 30%;
+    padding-right: 4%;
+    padding-bottom: 16px;
+}
+
+/* #home .bottom-content .text-container:last-child {
+    padding-right: 0;
+} */
+
+/* About page styles */
+
+#about .heading-info {
+    padding: 10px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed black;
+}
+
+#about .main-content {
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#about .main-content .info-panel {
+    width: 47%;
+    padding-bottom: 32px;
+    border-bottom: 1px dashed black; 
+    margin-bottom: 24px;
+}
+
+#about .main-content .info-panel img {
+    margin-top: 16px;
+}
+
+#about .main-content .info-panel h2 {
+    margin: 10px 0;
+}
+
+#about .main-content .info-panel p {
+    margin: 10px 0;
+}
+
+#about .main-content .info-panel a {
+    box-sizing: content-box;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px 22px;
+}
+
+#about .main-content .info-panel a:hover {
+    animation: grow 2s infinite;
+}
+
+@keyframes grow {
+    0% {border-radius: 8px; background-color: white; color: black;}
+    50% {border-radius: 12px; background-color: grey; color: white;}
+    100% {border-radius: 8px; background-color: white; color: black;}
+}
+
+#about .main-content .info-panel a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#about .bottom-content {
+    padding: 16px;
+    margin-bottom: 18px;
+}
+
+/* Contact Page Styles */
+
+#contact {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+#contact header .header-picture img {
+    width: 100%;
+}
+
+#contact h1 {
+    font-size: 36px;
+}
+
+#contact label {
+    font-size: 24px;
+    width: 90%;
+}
+
+#contact input {
+    width: 90%;
+    margin: 12px auto;
+    border-radius: 8px;
+    border: 1px solid black;
+    line-height: 32px;
+    font-size: 22px;
+    padding: 0 4px;
+    transition: all .25s;
+}
+
+#contact input:last-child {
+    width: 50%;
+    transition: all .25s;
+}
+
+#contact input:last-child:hover {
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+#contact input:focus {
+    outline: none;
+    border-radius: 4px;
+    background-color: #dfdfdf;
+}
+
+#contact textarea {
+    width: 90%;
+    margin: 12px auto;
+    border-radius: 8px;
+    border: 1px solid black;
+    line-height: 32px;
+    font-size: 22px;
+    padding: 0 4px;
+    transition: all .25s;
+}
+
+#contact textarea:focus {
+    outline: none;
+    border-radius: 4px;
+    background-color: #dfdfdf;
+}
+
+#contact .main-content .contact-form {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+#contact .main-content .contact-form form {
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width: 799px) {
+    .container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    header .header-picture img {
+        width: 100%;
+    }
+
+    header nav .nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav .nav-logo img {
+        width: 25%;
+        margin-bottom: 16px;
+    }
+    
+    header nav .nav-links {
+        width: 100%;
+    }
+
+    #about .main-content .info-panel{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    #about .main-content .info-panel img {
+        width: 100%;
+    }
+
+    #home .top-content .text-container {
+        width: 50%;
+    }
+
+    #home .middle-content .boxes .box {
+        width: 20%;
+    }
+
+    #home .bottom-content .text-container {
+        width: 51%;
+    }
+
+    #home .bottom-content .text-container:last-child {
+        padding-right: 4%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    header .header-picture img {
+        width: 100%;
+    }
+
+    header nav .nav-logo img {
+        width: 45%;
+        margin-bottom: 16px;
+    }
+    
+    header nav .nav-links {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header nav .nav-links a {
+        width: 33%;
+        padding: 12px;
+    }
+
+    footer nav {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    footer nav a {
+        width: 20%;
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    #home .top-content .text-container {
+        width: 100%;
+    }
+
+    #home .middle-content .boxes .box {
+        width: 25%;
+    }
+
+    #about .main-content .info-panel{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #about .main-content .info-panel img {
+        width: 100%;
+    }
 }
