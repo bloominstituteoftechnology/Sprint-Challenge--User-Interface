@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    padding: 15px 0px;
+}
+
+nav a {
+    padding: 35px 0px 10px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    padding: 15px 0px 20px 0px;;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +125,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -129,6 +190,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
@@ -136,11 +198,76 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 0px 2% ;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page specific styling */
+
+.top-content-about h3 {
+    margin: 10px 20px;
+}
+
+.top-content-about p {
+    margin: 10px 20px;
+}
+
+.dividing-line {
+    height: 5px;
+    border-top: 1px dashed black;
+    margin: 20px 0px;
+}
+
+.main-content h3 {
+    padding: 10px 0px 5px 0px;
+}
+
+.main-content p {
+    padding: 0px 0px 25px 0px;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.breakout-columns {
+    width: 50%;
+    padding: 10px 10px;;
+}
+
+@keyframes button-hover {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 6px;
+       
+}
+
+.button:hover {
+   animation-name: button-hover;
+   animation-duration: 3s; 
+   color: white;
+}
+
+.bottom-content-about h3 {
+    margin: 10px 20px 10px 20px;
+}
+
+.bottom-content-about p {
+    margin: 10px 20px 30px 20px;
 }
