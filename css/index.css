@@ -81,7 +81,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 20px;
+    /* margin-top: 10px; */
 }
 
 header nav a {
@@ -204,4 +204,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Styles */
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-content h1 {
+    padding: 0 20px;
+}
+
+.about-content .about-text {
+    border-bottom: 1px dashed black;
+    padding: 0 20px 30px;
+    margin-bottom: 10px;
+}
+
+.about-content .card {
+    width: 340px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content .card h4 {
+    margin-top: 15px;
+}
+
+.about-content .card p{
+    margin-bottom: 15px;
+}
+
+.about-content .about-card-button {
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 150px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.about-content .about-card-button:hover {
+    background: black;
+    color: white;
+} 
+
+.about-content .about-info {
+    padding: 0 20px 30px;
 }
