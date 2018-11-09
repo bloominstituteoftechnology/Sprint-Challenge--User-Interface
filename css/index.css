@@ -144,9 +144,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-
-/*    ----------------- HOME PAGE -------------------- */
+/* added some extra to the general section */
 .header {
     margin: 5vh 0;
 }
@@ -165,6 +163,9 @@ footer nav a {
     font-weight: bolder;
 }
 
+/*    ----------------- HOME PAGE -------------------- */
+
+
 #box1 { background:teal;}
 #box2 { background: gold;}
 #box3 { background: cadetblue;}
@@ -180,3 +181,56 @@ footer nav a {
 
 
 /*    ----------------- ABOUT PAGE -------------------- */
+
+.jumbo {
+    margin-top:2vh;
+}
+
+.about__main {
+    margin: 4.5vh 0;
+    padding: 0 1.5vw;
+    border-bottom: 1.25px dashed black;
+}
+
+.about__main h1 {
+    margin-bottom: 3vh;
+}
+
+.about__main p {
+    margin-bottom: 2vh;
+}
+
+.about__middle {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1.5vw;
+}
+
+.card {
+    display:inline-flex;
+    flex-direction: column;
+    width: calc(100%/2 - 1.25vw);
+    border-bottom: 1.25px dashed black;
+}
+
+.card.row2 {
+    margin-top: 7vh;
+}
+
+.card * {
+    margin-bottom: 2vh;
+}
+
+.card button {
+    border: 2px solid black;
+    background: transparent;
+    width: 32%;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+.about-bottom {
+    margin: 4.5vh 0;
+    padding: 0 1.5vw;
+}
