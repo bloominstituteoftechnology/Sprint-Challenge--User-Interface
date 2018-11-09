@@ -216,7 +216,8 @@ footer nav a {
 
 /* -- ABOUT PAGE STYLES -- */
 
-.about-top-container {
+.about-top-container,
+.products-top-container {
     border-bottom: 1px dashed black;
     margin: 30px 0;
     padding-bottom: 20px;
@@ -231,7 +232,7 @@ footer nav a {
 }
 
 
-.about-middle-container {
+.middle-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -263,4 +264,67 @@ footer nav a {
     margin: 30px;
     display: flex;
     flex-direction: column;
+}
+
+
+
+/* -- PRODUCTS PAGE STYLES --*/
+
+.products-video {
+    width: 100%;
+    height: 480px;
+    margin: 20px 0;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+.products-top-content h2 {
+   font-size: 30px;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.products-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* border-bottom: 1px dashed black; */
+}
+
+.products-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* border-bottom: 1px dashed black; */
+   
+}
+
+.products-right p {
+    width: 100%;
+    text-align: right;
+}
+
+
+
+.products-right img {
+    width: 500px;
+    height: 300px;
+}
+
+.products-left iframe, 
+.products-right img {
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.products-left h2,
+.products-right h2 {
+    margin: 20px 0;
 }
