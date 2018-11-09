@@ -397,6 +397,27 @@ footer nav a {
 }
 
 .form-container {
+  margin-bottom: 38px;
+  padding-bottom: 38px;
+  border-bottom: 1px dashed black;
+}
+
+.form-container form {
   display: flex;
   flex-direction: column;
+  height: 400px;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.form-container form input {
+  width: 200px;
+}
+
+.form-container form select {
+  width: 200px;
+}
+
+.form-container form textarea {
+  width: 100%;
 }
