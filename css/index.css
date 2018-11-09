@@ -89,9 +89,6 @@ nav a {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     padding: 15px 0px 20px 0px;;
 }
 
@@ -207,4 +204,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page specific styling */
+
+.top-content-about h3 {
+    margin: 10px 20px;
+}
+
+.top-content-about p {
+    margin: 10px 20px;
+}
+
+.dividing-line {
+    height: 5px;
+    border-top: 1px dashed black;
+    margin: 20px 0px;
+}
+
+.main-content h3 {
+    padding: 10px 0px 5px 0px;
+}
+
+.main-content p {
+    padding: 0px 0px 25px 0px;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.breakout-columns {
+    width: 50%;
+    padding: 10px 10px;;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 6px;
+    
+}
+
+.bottom-content-about h3 {
+    margin: 10px 20px 10px 20px;
+}
+
+.bottom-content-about p {
+    margin: 10px 20px 30px 20px;
 }
