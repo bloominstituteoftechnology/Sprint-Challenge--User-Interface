@@ -222,3 +222,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.about-content {
+    display: flex;
+    margin: 25px 0;
+}
+
+.about-content .jumbo-about {
+    margin: 15px 0;
+}
+
+.top-about {
+    display: flex;
+    border-top: 1px dashed black;
+    padding-top: 25px;
+}
+
+.middle-about {
+    display: flex;
+}
+
+.top-about .card {
+    padding: 20px;
+    margin: 
+}
