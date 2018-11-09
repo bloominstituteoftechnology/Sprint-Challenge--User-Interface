@@ -279,6 +279,29 @@ color: red;
     justify-content: space-between;
 }
 
+/* Prodcuts Page */
+
+.products-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0;
+    border-top: 1px dashed black;
+}
+
+.products-content {
+    width: 400px;
+    padding: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.products-content button {
+    margin: 10px 3px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
 @media(max-width: 500px) {
     .body {
         width: 100%;
@@ -412,6 +435,38 @@ color: red;
         font-weight: bold;
         font-size: 24px;
         text-align: center;
+    }
+
+    .products-top {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+
+    .products-top h1 {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .products-main {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-main .products-content h2 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .products-main .products-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     form {
