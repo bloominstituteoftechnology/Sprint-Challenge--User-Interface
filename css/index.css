@@ -228,7 +228,7 @@ footer nav a {
 }
 
 .about-text {
-    margin: 0px 15px;
+    margin: 0px 15px 15px;
 }
 
 .main-content{
@@ -237,6 +237,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .content-box {
@@ -251,4 +252,28 @@ footer nav a {
 
 .box-text{
     margin: 10px 0px;
+}
+
+.button a {
+    padding: 7.5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+     width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.button a:hover {
+    background: black;
+    color: white;
+}
+
+.work-together {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px 50px;
+    
 }
