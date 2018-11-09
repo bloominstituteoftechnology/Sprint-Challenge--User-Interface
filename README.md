@@ -51,12 +51,12 @@ You will also notice there are 10 boxes on the home page that need background co
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 * [x] Copy and paste your home page navigation and header into the about page
 * [x] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Link the `Home` navigation item back to the `index.html` page.
+* [x] Build the rest of the about page layout to match the design
 
 ## Task 5: Push Updates and Pull Request
-* [ ] Once you have completed tasks 1-4, push all your commits up to your master branch  
-* [ ] Create a pull request back to the original `fork`
+* [x] Once you have completed tasks 1-4, push all your commits up to your master branch  
+* [x] Create a pull request back to the original `fork`
 
 **Congratulations, you completed the sprint challenge!**
 

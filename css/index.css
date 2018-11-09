@@ -107,11 +107,59 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+.bot-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.about-text-cont {
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0px;
+}
+
+.about-2box {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.about-innerbox {
+    display: flex;
+    border-bottom: 1px dashed black;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0 0 20px 0;
+}
+
+.about-innerbox img {
+    margin: 0 0 10px 0;
+}
+
+div.learn-more {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7px 20px 5px 20px;
+    margin: 20px 0 0 0;
+    width: 130px;
+    height: 35px;
+    background: white;
+    text-align: center;
+  }
 
 .middle-content {
     margin-bottom: 20px;
@@ -140,18 +188,7 @@ nav a {
     justify-content: center;
 }
 
-/* Box Colors Start 
-
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue` */
+/* Box Colors Start */
 
 .middle-content .boxes .box1 {
     background: teal
