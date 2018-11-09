@@ -71,11 +71,39 @@ p {
     margin: 0 auto;
 }
 
+/* Header Styles */
+
+header {
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: b0b0b0;
+}
+
+header img {
+    margin-top: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -110,6 +138,39 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Indiv. Box Styles */
+
+.middle-content .boxes .teal {
+    background: teal;
+}
+.middle-content .boxes .gold {
+    background: gold;
+}
+.middle-content .boxes .cadetblue {
+    background: cadetblue;
+}
+.middle-content .boxes .coral {
+    background: coral;
+}
+.middle-content .boxes .crimson {
+    background: crimson;
+}
+.middle-content .boxes .forestgreen {
+    background: forestgreen;
+}
+.middle-content .boxes .darkorchid {
+    background: darkorchid;
+}
+.middle-content .boxes .hotpink {
+    background: hotpink;
+}
+.middle-content .boxes .indigo {
+    background: indigo;
+}
+.middle-content .boxes .dodgerblue {
+    background: dodgerblue;
 }
 
 .bottom-content {
