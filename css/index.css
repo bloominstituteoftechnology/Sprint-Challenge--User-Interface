@@ -273,3 +273,19 @@ nav {
     padding: 20px;
 }
 
+/** Blog CSS **/
+
+#bloghead {
+    background-image: url('/img/jumbo-blog.jpg');
+    height: 153px;
+}
+
+
+
+/**Animation Keyframes**/
+
+@keyframes linkbreath {
+    0% {font-size: inherit;}
+    50% {font-size: 1.1em;}
+    0% {font-size: inherit;}
+}
