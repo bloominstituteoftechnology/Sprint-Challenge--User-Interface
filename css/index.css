@@ -80,6 +80,16 @@ nav {
     padding-top: 30px;
 }
 
+header img:hover {
+    animation-name: spin;
+    animation-duration: 1s;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
 nav a {
     text-decoration: none;
     color: black;
