@@ -236,6 +236,22 @@ p {
     margin-bottom: 10px;
 }
 
+.strategy-info-preview-img {
+    background-image: url('http://i63.tinypic.com/2q8c5lh.png');    
+}
+
+.how-we-work-info-preview-img {
+    background-image: url('http://i67.tinypic.com/35lvur6.jpg');
+}
+
+.places-we-work-info-preview-img {
+    background-image: url('http://i66.tinypic.com/8z03m8.png');
+}
+
+.collaboration-info-preview-img {
+    background-image: url('http://i67.tinypic.com/m79o2c.png');
+}
+
 .learn-more-link {
     display: block;
     width: 125px;
@@ -258,22 +274,6 @@ p {
 
 .learn-more-link:active {
     font-weight: normal;
-}
-
-.strategy-info-preview-img {
-    background-image: url('http://i63.tinypic.com/2q8c5lh.png');    
-}
-
-.how-we-work-info-preview-img {
-    background-image: url('http://i67.tinypic.com/35lvur6.jpg');
-}
-
-.places-we-work-info-preview-img {
-    background-image: url('http://i66.tinypic.com/8z03m8.png');
-}
-
-.collaboration-info-preview-img {
-    background-image: url('http://i67.tinypic.com/m79o2c.png');
 }
 
 .contact-details {
@@ -374,4 +374,62 @@ footer nav a:active {
     color: silver;
     text-decoration: none;
     font-weight: normal;
+}
+
+@media (max-width: 700px) {
+    .top-content {
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .top-content .text-container{
+        margin: 20px 0;
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .middle-content .boxes .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 40%;
+        height: 100px;
+    }
+
+    .middle-content .info-previews {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .middle-content .info-previews article.info-preview {
+        width: 90%;
+        margin: 25px 2.5%;
+        border-bottom: 1px dotted black;
+    }
+
+    .middle-content .info-previews article.info-preview .info-preview-image {
+        margin: 37.5px 2.5%;
+    }
+
+    .middle-content .info-previews article.info-preview p{
+        width: 45%;
+        margin: 25px 2.5%;
+        padding-bottom: 10px;
+        border-bottom: 1px dotted black;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .bottom-content .text-container{
+        margin: 20px 0;
+    }
 }
