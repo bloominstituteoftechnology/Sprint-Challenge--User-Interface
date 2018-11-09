@@ -349,3 +349,24 @@ footer nav a:hover {
     margin-bottom: 30px;
 }
 
+.products-flex-cont{
+    display: flex;
+    padding: 10px 10px 10px 310px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.fake-prod{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+
