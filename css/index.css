@@ -208,4 +208,33 @@ footer nav a {
     display: flex;
     justify-content: flex-start;
     padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.about-page .middle-content{
+    border-bottom: none;
+}
+
+.about-page .middle-content h2{
+    padding: 0px;
+    margin: 10px 0;
+}
+
+.middle-cont-flexwrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-block{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-block-btn{
+    display: inline-block;
+    padding: 6px 20px;
+    margin: 15px 0; 
+    border: 2px solid black;
+    border-radius: 8px;
 }
