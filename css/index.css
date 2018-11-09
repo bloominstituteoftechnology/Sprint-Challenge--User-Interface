@@ -110,6 +110,11 @@ nav a {
 	text-decoration: none;
 }
 
+nav a:hover{
+    color: rgb(121, 6, 6);
+    transition: 0.4s;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +175,14 @@ div.learn-more {
     height: 35px;
     background: white;
     text-align: center;
+    
   }
+
+div.learn-more:hover{
+	color: rgb(236, 236, 236);
+	background: #111111;
+	transition: 0.2s;
+}
 
 div.read-more {
     border: 2px solid black;
@@ -182,6 +194,12 @@ div.read-more {
     background: white;
     text-align: center;
   }
+
+div.read-more:hover{
+	color: rgb(236, 236, 236);
+	background: #111111;
+	transition: 0.2s;
+}
 
 .blogpost {
     padding: 10px 10px 10px 10px;
