@@ -52,17 +52,17 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x] Copy and paste your home page navigation and header into the about page
 * [x] Update the header image with the about page image
 * [x] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Build the rest of the about page layout to match the design
 
 ## Task 5: Push Updates and Pull Request
-* [ ] Once you have completed tasks 1-4, push all your commits up to your master branch  
-* [ ] Create a pull request back to the original `fork`
+* [x] Once you have completed tasks 1-4, push all your commits up to your master branch  
+* [x] Create a pull request back to the original `fork`
 
 **Congratulations, you completed the sprint challenge!**
 
 ## Stretch Goals
 Stretch goals are only available if you complete every task listed above.  **Do not work on them until your pull request is in.**
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
-* [ ] Build a contact page and create a form with several inputs of your choosing
-* [ ] Add responsive breakpoints to your code by using media queries
+* [x] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [x] Introduce CSS animations to your site.
+* [x] Build a contact page and create a form with several inputs of your choosing
+* [x] Add responsive breakpoints to your code by using media queries
