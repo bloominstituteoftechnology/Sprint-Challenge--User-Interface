@@ -301,6 +301,87 @@ footer nav a {
     margin-bottom: 18px;
 }
 
+/* Contact Page Styles */
+
+#contact {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+#contact header .header-picture img {
+    width: 100%;
+}
+
+#contact h1 {
+    font-size: 36px;
+}
+
+#contact label {
+    font-size: 24px;
+    width: 90%;
+}
+
+#contact input {
+    width: 90%;
+    margin: 12px auto;
+    border-radius: 8px;
+    border: 1px solid black;
+    line-height: 32px;
+    font-size: 22px;
+    padding: 0 4px;
+    transition: all .25s;
+}
+
+#contact input:last-child {
+    width: 50%;
+    transition: all .25s;
+}
+
+#contact input:last-child:hover {
+    background-color: #b3b3b3;
+    cursor: pointer;
+}
+
+#contact input:focus {
+    outline: none;
+    border-radius: 4px;
+    background-color: #dfdfdf;
+}
+
+#contact textarea {
+    width: 90%;
+    margin: 12px auto;
+    border-radius: 8px;
+    border: 1px solid black;
+    line-height: 32px;
+    font-size: 22px;
+    padding: 0 4px;
+    transition: all .25s;
+}
+
+#contact textarea:focus {
+    outline: none;
+    border-radius: 4px;
+    background-color: #dfdfdf;
+}
+
+#contact .main-content .contact-form {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+#contact .main-content .contact-form form {
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 @media (max-width: 799px) {
     .container {
         width: 100%;
