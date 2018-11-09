@@ -206,3 +206,38 @@ footer nav a {
 .box10{
     background-color:dodgerblue;
 }
+
+/* About Page Styling */
+
+.container .about-page{
+    padding: 0 30px 30px 30px;
+    border-bottom: black dashed 1px;
+}
+
+.container .cta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .cta .cta-section{
+    margin: 20px;
+    width: 45%;
+    border-bottom: gray 1px dashed;
+}
+
+.container .cta .cta-section img{
+    margin-bottom: 15px;
+}
+
+.container .cta .cta-section a{
+    padding: 10px 25px;
+    display: inline-block;
+    border: black solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.container .about-page-bottom{
+    padding: 40px;
+}
