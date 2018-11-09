@@ -165,6 +165,9 @@ footer nav a {
 
 /*    ----------------- HOME PAGE -------------------- */
 
+.home-jumbo {
+    margin-bottom: 3vh;
+}
 
 #box1 { background:teal;}
 #box2 { background: gold;}
