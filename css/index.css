@@ -71,11 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+header > nav, nav > .nav-list {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+header > nav {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+header .nav-list > .nav-list__item {
+    margin: 0 39px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -104,13 +123,44 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink
+}
+.box9 {
+    background-color: indigo
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +194,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* START OF ABOUT PAGE STYLING */
+h1, h2 {
+    font-weight: 600;
+}
+.about-page hr {
+    border: .5px dashed #000;
+}
+.about-page__header-text {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.main-info {
+    margin: 30px 0;
+    padding: 0 15px;
+}
+.main-info__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.main-info__square {
+    border-bottom: 1px dashed #000;
+    width: 370px;
+}
+.main-info__button {
+    height: 38px;
+    width: 140px;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 20px 0;
+}
+.main-info__title {
+    margin-top: 10px;
+}
+.work-together {
+    margin-bottom: 40px;
+    padding: 0px 20px;
+}
+/* END OF ABOUT PAGE STYLING */
