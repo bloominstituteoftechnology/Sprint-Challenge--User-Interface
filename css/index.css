@@ -254,3 +254,10 @@ footer nav a {
     margin: 4.5vh 0;
     padding: 0 1.5vw;
 }
+
+/* --------------------------- PRODUCT PAGE ---------------------------*/
+
+.product-jumbo {
+    min-width: 100%;
+    max-height: 20vh;
+}
