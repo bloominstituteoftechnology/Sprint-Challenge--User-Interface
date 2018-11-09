@@ -235,7 +235,7 @@ footer nav a {
     padding-right: 0;
 }
 
-/* home page animations */
+/* Home Page Animations */
 .box:hover {
     box-shadow:
     1px 1px grey,
@@ -280,4 +280,39 @@ footer nav a {
 }
 
 
-/* about page animations */
+/* Contact Page Specific Styling */
+
+.contact-container {
+    margin: 40px;
+}
+
+.input-field {
+    margin: 10px 0;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px;
+}
+
+.input-name {
+    width: 300px;
+}
+
+.input-message {
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 100px;
+}
+
+.contact-container button {
+    margin: 15px 0 10px 0;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 2px;
+}
+
+.contact-container button:hover {
+    background-color: lightgrey;
+}
