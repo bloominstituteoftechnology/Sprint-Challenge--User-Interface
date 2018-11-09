@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* General Styles */
 * {
     box-sizing: border-box;
 }
@@ -65,12 +65,27 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.flex{
+    display:flex;
+}
 
+.navbar{
+    justify-content: space-between;
+    padding: 40px 0;
+    /* border: 1px solid red; */
+}
+nav{
+    justify-content: space-around; 
+    align-items: center;
+    width: 75%;
+    border: 1px solid red;
+}
+/* Home Page Styles */
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+/* Top */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,13 +93,15 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img{
+    margin: 10px 0 40px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* Middle */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,7 +128,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/* Bottom */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +142,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* Footer */
 footer {
     width: 100%;
     background: black;
