@@ -289,3 +289,47 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* About page styles */
+img {
+  margin-bottom: 10px;
+}
+.about-container {
+  height: 120px;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.cards {
+  width: 47%;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.learn-more {
+  width: 100px;
+  height: 25px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.lets-work-together-container {
+  height: 120px;
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.about-footer {
+  margin-top: 40px;
+}
