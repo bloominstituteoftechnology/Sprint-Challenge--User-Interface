@@ -94,6 +94,7 @@ header {
     font-size: 14px;
     margin-bottom: 40px;
 }
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -150,6 +151,7 @@ footer nav a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin: 22px 0 0;
 }
 
 /* ---- Middle ---- */
@@ -277,4 +279,65 @@ footer nav a {
 /* ---- Bottom ---- */
 .about-page .bottom {
     margin: 20px 20px 39px;
+}
+
+/* ---- Media Queries ---- */
+
+@media (max-width: 600px) {
+    .container {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    .top-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-content img {
+        display: none;
+    }
+
+    .middle-content .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box {
+        width: 75%;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+    }
+
+    .bottom-content div {
+        margin-bottom: 10px;
+    }
+
+    footer nav {
+        width: 100%;
+    }
 }
