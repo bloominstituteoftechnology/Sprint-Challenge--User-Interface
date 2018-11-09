@@ -71,6 +71,46 @@ p {
     margin: 0 auto;
 }
 
+.logo-link:empty {
+    background-image: url('http://i65.tinypic.com/npmmte.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+}
+
+.header-links {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.header-links nav {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 100%;
+}
+
+.header-links nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-image:empty {
+    background-image: url('http://i65.tinypic.com/w8uzya.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 187.5px;
+    margin: 30px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +144,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
