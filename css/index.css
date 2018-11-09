@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.nav-bar header{
+    margin: 30px 0;
+    display: flex;
+    align-items: flex-end;
+}
+
+.jumboHeader{
+    margin-bottom: 30px;
+}
+
+.nav-bar header nav a{
+    align-content: center;
+    text-decoration: none;
+    color:black;
+    margin-left: 70px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +127,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
