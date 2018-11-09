@@ -125,7 +125,41 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+.about-middle-content {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-text {
+    margin: auto 10px 20px 10px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-content .blocks {
+    width: 360px;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content .block-button {
+    margin-top: 20px;
+    border: 1 px solid black;
+    background: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+}
+
+.middle-content h1 {
+    margin: auto 10px 20px 10px;
 }
 
 .middle-content h2 {
