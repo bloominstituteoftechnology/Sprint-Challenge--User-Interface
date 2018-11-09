@@ -1,11 +1,12 @@
 # Assessing Your User Interface and Git Learning
 
+[This is a quick video preview of what to expect from sprint challenges.](https://youtu.be/daFDLHMPdjw)
+
 * The objective of this challenge is test your knowledge on all of the topics surrounding user interface and git you learned this week.
 
 * Answers to your written questions will be recorded in [Answers.md](Answers.md)
 
 * This is to be worked on alone but you can use outside resources. You can _reference_ any old code you may have and the training kit content, however, please refrain from copying and pasting any of your answers. Try and understand the question and put your responses in your own words. Be as thorough as possible when explaining something.
-
 
 
 ## Task 1: Set Up The Project With Git
