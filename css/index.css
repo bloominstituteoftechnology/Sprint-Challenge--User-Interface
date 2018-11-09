@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -224,4 +224,41 @@ footer nav a {
 
 #box10 {
   background-color: dodgerblue;
+}
+
+.aboutIntro {
+  margin: 0px 0px 10px 14px;
+  padding-bottom: 20px;
+}
+
+.fullBorder {
+  height: 10px;
+  width: 100%;
+  border-bottom: 2px dotted black;
+}
+
+.mainContainer {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainBox {
+  width: 45%;
+  margin: 40px 30px 30px 10px;
+  padding-bottom: 16px;
+  border-bottom: 2px dotted black;
+}
+
+.mainBox img {
+  margin-bottom: 10px;
+}
+
+.mainBox button {
+  padding: 5px 20px;
+  margin: 16px 0px;
+  background-color: white;
+  border-radius: 10%;
+  font-size: 14px;
+  border: 2px solid black;
 }
