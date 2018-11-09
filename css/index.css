@@ -345,3 +345,56 @@ button {
     justify-content: flex-end;
     padding-left: 220px;
 }
+
+.container3 {
+    border: 3px solid pink ;
+    width: 90%;
+}
+
+
+
+.cp {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nd {
+    padding-bottom: 40px;
+}
+
+
+
+.cp img {
+    width: 100%;
+    height: 250px;
+    padding-left: 100px;
+    
+}
+
+
+.header1 h1 {
+    font-size: 30px;
+    text-align: center;
+} 
+
+.fp {
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.com img {
+    display:flex;
+    border: 2px solid  blue;
+}
+
+
+
+.fp img {
+    width:20%;
+}
+
+
+
+
