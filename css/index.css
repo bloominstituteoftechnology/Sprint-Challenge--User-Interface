@@ -66,6 +66,23 @@ p {
     line-height: 1.4;
 }
 
+.navigation {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation nav a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
