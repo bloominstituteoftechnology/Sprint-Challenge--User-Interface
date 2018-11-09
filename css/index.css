@@ -85,7 +85,7 @@ nav a {
 
 }
 
-.top-image-index {
+.top-image {
     margin: 40px 0 20px 0;
 }
 
@@ -201,4 +201,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page-specific styling */
+.top-content .text-container.about {
+    width: 98%;
+}
+
+.about-box {
+    width: 48%;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box-blurb {
+    
+}
+
+.about-box-blub h2 {
+    padding: 0;
 }
