@@ -108,6 +108,10 @@ nav{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-content .text-about{
+    padding: 0 2%;
+    padding-bottom: 20px;  
+}
 /* Middle */
 .middle-content {
     margin-bottom: 20px;
