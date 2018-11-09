@@ -69,7 +69,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 20px auto 0px;
 }
 .navbar {
@@ -77,6 +77,15 @@ p {
 	justify-content: space-between;
 	align-items: flex-end;
     margin-bottom: 30px;
+}
+@media(max-width: 750px) {
+	.navbar {
+        flex-direction: column;
+        align-items: initial;
+	}
+	.nav-logo {
+		margin: 0 auto 5px;
+	}
 }
 .nav-links {
 	display: flex;
@@ -91,8 +100,24 @@ p {
 .nav-links a:hover {
 	color: black;
 }
+@media(max-width: 750px) {
+	.nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+	.nav-links a {
+		margin: 0 0 3px 0;
+	}
+}
 .header-img {
     margin-bottom: 30px;
+}
+@media(max-width: 750px) {
+    .header-img {
+        display: none;
+    }
 }
 .top-content {
     display: flex;
@@ -101,13 +126,24 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+@media (max-width: 750px) {
+    .top-content {
+        flex-direction: column;
+    }
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+@media (max-width: 750px) {
+    .top-content .text-container {
+        width: auto;
+        padding: 0 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -117,7 +153,11 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+@media (max-width: 750px) {
+    .middle-content h2 {
+        text-align: center;
+    }
+}
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -133,6 +173,12 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 750px) {
+    .middle-content .boxes .box {
+        width: 150px;
+        height: 150px;
+    }
 }
 .middle-content .boxes .box1 {
     background-color: teal;
@@ -173,7 +219,15 @@ p {
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
+@media (max-width: 750px) {
+    .bottom-content {
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    .bottom-content .text-container {
+        margin-bottom: 20px;
+    }
+}
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -196,7 +250,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+@media (max-width: 750px) {
+    footer nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+    }
+    footer nav a {
+        margin-bottom: 3px;
+    }
+}
 /* *******STYLINGS FOR ABOUT PAGE **************** */
 
 .about-summary {
