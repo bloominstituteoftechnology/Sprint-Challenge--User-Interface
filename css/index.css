@@ -200,6 +200,11 @@ header nav a:hover {
   padding-bottom: 20px;
 }
 
+.top-content .full-text-container {
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
