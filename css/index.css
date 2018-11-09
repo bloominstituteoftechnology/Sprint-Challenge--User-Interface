@@ -213,3 +213,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* About Section */
+
+.cta-about {
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
