@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* ---- General Styles ---- */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +73,9 @@ p {
     margin: 0 auto;
 }
 
+/* ---- HOME ---- */
+/* --- TOP ---- */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +89,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* ---- Middle ---- */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +111,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background: dodgerblue;
+}
+
+/*  ---- Bottom ---- */
 
 .bottom-content {
     display: flex;
@@ -125,6 +173,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* ---- Footer ---- */
 
 footer {
     width: 100%;
