@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sprint Challenge - Contact</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="container about-page">
+        <header>
+            <div class="bar">
+                <img class="lambda-black" src="img/lambda-black.png" alt="Main logo">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Products</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <img class="jumbo-blog" src="img/jumbo-contact.jpg" alt="Contacting real spiffily.">
+        </header>
+
+        <section class="top-content-contact">
+            <div class="contact-text-cont">
+                <h2>We want to hear from you!</h2>
+                <p>Use the form below to reach us.</p>
+            </div>
+            <div class="contact-text-cont">
+            <div id="thank-you" style="display:none">
+                    Thank you for submitting your message!<br>
+                  </div></div>
+
+            <form onsubmit="showSubmitted(); return false;">
+                Name:<br>
+                <input type="text" name="name"><br><br>
+                Email address:<br>
+                <input type="text" name="email"><br><br>
+                Message: <br>
+                <textarea rows="15" cols="80">
+                </textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+        </section>
+
+        <footer>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Products</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </footer>
+        </div><!-- container -->
+<script>
+        function showSubmitted() {
+            var x = document.getElementById("thank-you");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    </body>
+    
+    </html>

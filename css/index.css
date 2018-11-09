@@ -71,6 +71,50 @@ p {
     margin: 0 auto;
 }
 
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px 0;
+    width: 800px;
+}
+
+.jumbo {
+    margin: 0 0 30px 0;
+}
+
+.jumbo-blog {
+    height: 153px;
+    width: 800px;
+    margin: 0 0 30px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 10px;
+    width: 620px;
+}
+
+nav a {
+    padding: 0 20px 0 20px;
+    color: black;
+	text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(121, 6, 6);
+    transition: 0.4s;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,11 +123,132 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-contact {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#thank-you {
+    background-color: rgba(118, 238, 102, 0.137);
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    padding: 16px;
+}
+
+.textbox {
+    height: 200px;
+    width: 500px;
+}
+
+form {
+    margin: 0 0 30px 0;
+}
+
+.bot-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.about-text-cont {
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.contact-text-cont {
+    padding: 0 1%;
+    padding-bottom: 10px;
+}
+
+.about-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 0px;
+}
+
+.about-2box {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.about-innerbox {
+    display: flex;
+    border-bottom: 1px dashed black;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0 0 20px 0;
+}
+
+.about-innerbox img {
+    margin: 0 0 10px 0;
+}
+
+div.learn-more {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7px 20px 5px 20px;
+    margin: 20px 0 0 0;
+    width: 130px;
+    height: 35px;
+    background: white;
+    text-align: center;
+    
+  }
+
+div.learn-more:hover{
+	color: rgb(236, 236, 236);
+	background: #111111;
+	transition: 0.2s;
+}
+
+div.read-more {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7px 20px 5px 20px;
+    margin: 20px 0 30px 0;
+    width: 130px;
+    height: 35px;
+    background: white;
+    text-align: center;
+  }
+
+div.read-more:hover{
+	color: rgb(236, 236, 236);
+	background: #111111;
+	transition: 0.2s;
+}
+
+input[type="text"],
+textarea {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.blogpost {
+    padding: 10px 10px 10px 10px;
+}
+
+.blogpost:after {
+    border-bottom: 1px dashed black;
+    content: '';
+    display: block;
+    margin: auto;
+    width: 25%;
+  }
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +276,50 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* Box Colors Start */
+
+.middle-content .boxes .box1 {
+    background: teal
+}
+
+.middle-content .boxes .box2 {
+    background: gold
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue
+}
+
+.middle-content .boxes .box4 {
+    background: coral
+}
+
+.middle-content .boxes .box5 {
+    background: crimson
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink
+}
+
+.middle-content .boxes .box9 {
+    background: indigo
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue
+}
+
+/* Box Colors End */
 
 .bottom-content {
     display: flex;
