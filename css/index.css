@@ -144,3 +144,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*    ----------------- HOME PAGE -------------------- */
+.header {
+    margin: 5vh 0;
+}
+
+
+.nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color:black;
+    margin-right: 4vw;
+    font-weight: bolder;
+}
+
+#box1 { background:teal;}
+#box2 { background: gold;}
+#box3 { background: cadetblue;}
+#box4 { background: coral;}
+#box5 { background: crimson;}
+#box6 { background: forestgreen;}
+#box7 { background: darkorange;}
+#box8 { background: hotpink;}
+#box9 { background: indigo;}
+#box10 { background: dodgerblue;}
+
+
+
+
+/*    ----------------- ABOUT PAGE -------------------- */
