@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,10 +66,47 @@ p {
     line-height: 1.4;
 }
 
+header{
+	display: flex;
+	align-items: flex-end;
+
+}
+
+nav{
+	width: 75%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+.topPic{
+	width: 100%;
+	margin: 40px 0 0 0;
+	opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 
 .top-content {
     display: flex;
@@ -79,10 +116,12 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +151,85 @@ p {
     justify-content: center;
 }
 
+.aboutContent{
+	width:100%;
+	display:flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+.aboutBox{
+	width:45%;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom:6%;
+	border-bottom: 1px dashed black;
+	margin-top: 4%;
+
+
+
+
+}
+
+.aboutBox button{
+	width: 40%;
+	margin-top: 6%;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.aboutBox button span{
+	font-size: 18px;
+	padding: 1%;
+}
+
+.aboutBox img{
+	width:100%;
+}
+ #teal{
+	background: teal;
+}
+
+ #gold{
+	 background: gold;
+ }
+
+ #cadetblue{
+	 background: cadetblue;
+ }
+
+ #coral{
+	 background: coral;
+ }
+
+ #crimson{
+	 background: crimson;
+
+ }
+
+ #forestgreen{
+	 background: forestgreen;
+ }
+
+ #darkorchid{
+	 background: darkorchid;
+ }
+
+ #hotpink{
+	 background: hotpink;
+ }
+
+ #indigo{
+	 background: indigo;
+ }
+
+ #dodgerblue{
+	 background: dodgerblue;
+ }
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +244,15 @@ p {
     padding-right: 0;
 }
 
+.aboutBottomContent{
+	width:100%;
+	padding: 2%;
+	padding-bottom: 4%;
+}
+
+.contact-top-container p{
+	padding-bottom: 20px;
+}
 footer {
     width: 100%;
     background: black;
@@ -143,4 +270,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+form{
+	width:80%;
+	margin: 0 auto;
+}
+label{
+	margin:2%;
+}
+input{
+	width: 100%;
+	margin: 2%;
+}
+
+textarea{
+	width:100%;
+	margin:2%;
 }
