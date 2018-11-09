@@ -8,6 +8,7 @@
     content, padding, border, margin
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
+`align-items: center` centers the content vertically along the cross axis.
 
 5. What is the git command to commit staged changes as well as write a message? 
     `git commit -m "message goes here"`
