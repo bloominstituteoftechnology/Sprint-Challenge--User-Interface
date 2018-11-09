@@ -179,13 +179,14 @@ p {
 }
 
 .bottom-content {
-    display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-around;    
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    
 }
 
 .bottom-content .text-container:last-child {
@@ -212,6 +213,8 @@ footer nav a {
 }
 
 /* ABOUT PAGE STYLING GOES HERE */
+
+/* Top Content */
 
 .jumbo-about-img {
     display: flex;
@@ -265,6 +268,7 @@ footer nav a {
     /* width: 20% */
 }
 
+<<<<<<< HEAD
 /* Bottom Content */
 
 .about-bottom-content {
@@ -274,3 +278,14 @@ footer nav a {
     flex-direction: column;
     justify-content: space-evenly
  }
+=======
+/* Bottom Content  */
+
+.bottom-content {
+   padding: 20px 0;
+   margin: 30px 0; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly
+}
+>>>>>>> 1797155f0946a339cdee862edca2562bd44750fe
