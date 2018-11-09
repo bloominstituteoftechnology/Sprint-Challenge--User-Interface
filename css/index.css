@@ -169,7 +169,17 @@ footer nav a {
     text-decoration: none;
 }
 
-/* HOME PAGE */
+button {
+    width: 125px;
+    height: 2.5em;
+    margin: 4% 0;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black; 
+    cursor: pointer;
+}
 
 #box1 {background: teal;}
 #box2 {background: gold;}
@@ -205,13 +215,145 @@ footer nav a {
     padding: 2% 0;
 }
 
-.about-page .middle-content .text-container button {
-    width: 125px;
-    height: 2.5em;
-    margin: 4% 0;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: white;
-    border: 2px solid black; 
+/* PRODUCTS PAGE */
+
+.products-page .top-content .text-container {
+    width: 100%;
 }
+
+.products-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.products-page .middle-content .text-container {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.products-page .box {
+    width: 100px;
+    height: 100px;  
+    margin: 5px auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.products-page .box:hover {
+    -webkit-animation: rotate 2s ease-out;
+    -webkit-animation-iteration-count: 1; 
+}
+
+@-webkit-keyframes rotate { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+    } 
+}
+
+.products-page button {
+    cursor: pointer;
+    box-shadow: 0 5px gray;
+}
+
+.products-page button:hover {
+    -webkit-animation: pulse 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+}
+
+@-webkit-keyframes pulse {
+    0% { 
+        font-size: inherit;
+    }
+    50% { 
+		font-size: 150%;
+    }
+    100% { 
+        font-size: inherit;
+    }
+}
+
+.products-page button:active {
+    background-color: lightgray;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
+
+
+/* CONTACT PAGE */
+
+.contact-page .top-content .text-container {
+    width: 100%;
+}
+
+.contact-page .contact-info {
+    text-align: center;
+}
+
+.form-outer {
+    margin: 0 auto;
+    width: 75%;
+    padding: 10px;
+  }
+  
+  .labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+
+  .rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: top;
+  }
+
+  .input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  .userRatings,
+  input[type="checkbox"] {
+    margin-right: 20px;
+  }
+  
+  .dropdown {
+    height: 35px;
+    width: 170px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  .radio, .checkbox {
+    position: relative;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  #submit {
+    background-color: #59ace0;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    margin: 10px;
+    border: 0px solid;
+  }

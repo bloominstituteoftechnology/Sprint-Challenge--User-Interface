@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sprint Challenge - Contact</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="container contact-page">
+
+        <header>
+            <div class="header-nav">
+                <img src="img/lambda-black.png" alt="black lambda logo">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Products</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <img src="https://as2.ftcdn.net/jpg/00/91/16/69/500_F_91166937_lEysUb9mwpcAZhrvCXqqN4qEZJCzvdBW.jpg" alt="city skyline daytime" height="153px" width="800px">
+        </header>
+
+        <section class="top-content">
+            <div class="text-container">
+                <h2>Contact Us</h2>
+                <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+            </div>
+        </section>
+        
+        <section class="middle-content">
+
+            <div class="form-outer">
+                <form class="form">
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="name-label" for="name">* Your Name: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your Name" required>
+                        </div>
+                    </div>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label id="email-label" for="email">* Email: </label>
+                        </div>
+                        <div class="rightTab">
+                            <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+                        </div>
+                    </div>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="currentPos">* Where do you live in the USA?</label>
+                        </div>
+                        <div class="rightTab">
+                            <select id="dropdown" name="currentPos" class="dropdown">
+                                <option disabled value>Choose your Community</option>
+                                <option  value="midwest"> Midwest</option>
+                                <option value="northeast">Northeast</option>
+                                <option value="southeast">Southeast</option>
+                                <option value="southwest">Southwest</option>
+                                <option value="west">West</option>
+                                <option value="other">I do not live in the USA</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="preferences">Which product did you buy and/or want to buy?<br /><i>(Check all that apply)</i>: </label>
+                        </div>
+                        <div class="rightTab">
+                            <ul id="preferences" style="list-style: none;">
+                                <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Box 1 - Box 5</label></li>
+                                <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Box 6 - Box 10</li>
+                                <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Other</label></li>
+                                <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">None</label></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="comments">Why have you contacted us today?</label>
+                        </div>
+                        <div class="rightTab">
+                            <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your pet type(s) here..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="rowTab">
+                        <div class="labels">
+                            <label for="userRating">How likely are you to recommend us to a friend?</label>
+                        </div>
+                        <div class="rightTab">
+                            <ul style="list-style: none;">
+                                <li class="radio"><input name="radio-buttons" value="1"  type="radio"><label>"Will tell all my friends!"</label></li>
+                                <li class="radio"><input name="radio-buttons" value="2"  type="radio"><label>"I might tell one or two of my friends."</label></li>
+                                <li class="radio"><input name="radio-buttons" value="3"  type="radio"><label>"I would never tell my friends."</label></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+            </div>
+
+        </section>
+
+        <section class="bottom-content">
+            <section class="contact-info">
+                <h2>Contact</h2>
+                <address>
+                <p>
+                    123 Way 456 Street <br/>
+                    Somewhere, USA
+                </p>
+                <p>1 (888) 888-8888</p>
+                <p>sales@greatidea.io</p>
+                </address>  
+            </section>
+        </section>
+        
+      <footer>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </nav>
+      </footer>
+    </div><!-- container -->        
+</body>
+</html>
