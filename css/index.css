@@ -226,6 +226,10 @@ footer nav a {
     justify-content: space-between;
 }
 
+.info-section img {
+    padding: 15px;
+}
+
 .info-section .top-card .card {
     display: flex;
     flex-direction: column;
@@ -239,7 +243,7 @@ footer nav a {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    border-bottom: 1px dashed gray;
+    border-bottom: 1px dashed black;
     width: 415px;
     margin: 15px 0;
 }
@@ -248,7 +252,7 @@ footer nav a {
 .info-section .card button {
     width: 100px;
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px;
     cursor: pointer;
     background: white;
     border-radius: 5px;
@@ -257,4 +261,10 @@ footer nav a {
 
 .info-section .card button:hover {
     background: crimson;
+}
+
+.work-together {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
 }
