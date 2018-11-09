@@ -72,19 +72,24 @@ p {
 }
 
 /* -------Header CSS Properies ------------ */
-header nav {
+
+header{
     display: flex;
-    width: 691px;
-    vertical-align: top;
-    margin-top: 35px;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+    width: 1100px;
 }
 
-header nav a {
+
+header nav {
     display: flex;
-    margin-right: 65px;
+    width: 691 px;
+    margin-top: 25px;
+    flex-direction: row;
+    align-items:center;
+}
+
+  header nav a {
+    display: flex;
+    margin-right:93px;
     font-size: 14px;
     color: black;
     text-decoration: none;
@@ -105,10 +110,10 @@ header nav a {
   header .logo {
     display: flex;
     margin-top: 30px auto;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-self: center;
-    
+    padding: 30px;
+    order: -1;
+    flex-direction: row;
+    align-items: center;
   }
 
 /* ----Top Content---- */
@@ -209,6 +214,10 @@ header nav a {
     padding-right: 0;
 }
 
+.logo2{
+    padding: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -231,13 +240,59 @@ footer nav a {
 
 /* About Page CSS */
 
+.container about-page{
+    display: flex;
+    
+}
+
 .aboutsection{
-    border-bottom: 1px dotted black;
+    border-bottom: 1.5px dotted indigo;
+    padding:20px
 }
 
-.tophalf{
-
+.Entire-Middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.bottomhalf{
+.Entire-Middle .tophalf button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+  .Entire-Middle .bottomhalf button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+
+ .half1{
+    border-bottom: 1.5px dotted indigo;
+    padding: 20px;
 }
+
+.half2{
+    border-bottom: 1.5px dotted indigo;
+    padding:20px;
+}
+
+.bhalf1{
+    border-bottom: 1.5px dotted indigo;
+    padding:20px;
+}
+
+.bhalf2{
+    border-bottom: 1.5px dotted indigo;
+    padding:20px;
+}
+ 
+
