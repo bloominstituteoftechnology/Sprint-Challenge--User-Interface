@@ -299,3 +299,13 @@ footer nav a {
     margin-left: auto;
     border-radius: 10px;
 }
+
+/* Animations */
+h2{
+    transition: all .5s;
+}
+
+h2:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1)
+}
+
