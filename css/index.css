@@ -203,3 +203,34 @@ footer nav a {
 #box10 {
     background-color: dodgerblue;
 }
+
+#about-main-img {
+    padding-bottom: 20px;
+}
+
+.about-header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: 370px;
+    padding: 20px 0; 
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
