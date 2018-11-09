@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* ---- General Styles ---- */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +73,72 @@ p {
     margin: 0 auto;
 }
 
+/* ---- Nav ---- */
+@keyframes cool-nav {
+    0% {transform: translate(-5px, -5px);}
+  12.5% {transform: translate(-5px, 0px);}
+  25%  {transform: translate(-5px, 5px);}
+  37.5% {transform: translate(0px, 5px);}
+  50%    {transform: translate(5px, 5px);}
+  62.5% {transform: translate(5px, 0px);}
+    75% {transform: translate(5px, -5px);}
+  87.5% {transform: translate(0px, -5px);}
+  100% {transform: translate(-5px, -5px);}
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: all 1s ease;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    font-size: 150%;
+    animation-name: cool-nav;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+/* ---- Footer ---- */
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---- HOME ---- */
+/* --- TOP ---- */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +151,10 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin: 22px 0 0;
 }
+
+/* ---- Middle ---- */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +175,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box-1 {
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+}
+
+.middle-content .boxes .box-3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box-4 {
+    background: coral;
+}
+
+.middle-content .boxes .box-5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box-6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box-7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box-8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box-9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box-10 {
+    background: dodgerblue;
+}
+
+/*  ---- Bottom ---- */
 
 .bottom-content {
     display: flex;
@@ -126,21 +238,123 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
+/* ---- ABOUT PAGE ---- */
+/* ---- Top ---- */
+
+.about-page .top {
+    border-bottom: 2px dotted black;
 }
 
-footer nav {
-    width: 60%;
+.about-page .top .about {
+    margin: 20px;
+}
+
+/* ---- Middle ---- */
+
+.about-page .middle {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.about-page .middle div {
+    width: 46%;
+    border-bottom: 2px dotted black;
+    margin: 30px 0;
+}
+
+.about-page .middle div .text {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.about-page .middle button {
+    font-size: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 35%;
+    margin: 18px 0 10px;
+}
+
+/* ---- Bottom ---- */
+.about-page .bottom {
+    margin: 20px 20px 39px;
+}
+
+/* ---- Media Queries ---- */
+
+@media (max-width: 800px) {
+    .container {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    .top-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-content img {
+        display: none;
+    }
+
+    .middle-content .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-content .boxes .box {
+        width: 75%;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+    }
+
+    .bottom-content div {
+        margin-bottom: 10px;
+    }
+
+    footer nav {
+        width: 100%;
+    }
+
+    .about-page .top img {
+        display: none;
+    }
+
+    .about-page .middle {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-page .middle div {
+        width: 100%;
+    }
+
+    .about-page .middle img {
+        width: 100%;
+    }
 }
