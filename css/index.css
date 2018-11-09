@@ -72,6 +72,17 @@ p {
 }
 
 /* Header */
+.logo{
+    animation: fadeIn 5s;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 header{
    display: flex; 
    justify-content: space-between;
@@ -206,7 +217,7 @@ footer nav a {
 
 /* About Page */
 .container .hero{
-    margin: 12px 0 25px; 0;
+    margin: 12px 0 25px 0;
     height: 153px;
     width: 800px;
 }
