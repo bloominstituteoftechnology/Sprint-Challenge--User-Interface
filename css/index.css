@@ -198,3 +198,29 @@ footer nav a {
 #box10{
     background-color: dodgerblue;
 }
+
+/* About Page */
+.about{
+    border-bottom: 1px dotted gray;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.bodyContainer .text-container img,
+.bodyContainer .text-container p,{
+    margin-bottom: 10px;
+}
+.bodyContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bx, .bx p{
+    margin-bottom: 25px;
+}
+.learnMoreBtn{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top:40px;
+}
