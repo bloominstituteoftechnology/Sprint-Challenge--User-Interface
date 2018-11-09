@@ -156,7 +156,6 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     align-items: flex-end;
 	font-size: 14px;
 }
@@ -218,25 +217,24 @@ header nav a {
 }
 
 .main-content-about {
-    border-top: 2px dotted black;
     padding: 30px;
+    border-top: 2px dotted black;
+    width: 800px;
 }
 
 .container1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 800px;
-
+    justify-content: center;
 }
 
-.container1 .box {
+.box {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 400px;
+    justify-content: space-around;
+    width: 600px;
     padding: 30px;
-    border-bottom: 2px dotted black;
+    border-bottom: dotted black 2px;
 }
 
 .container1 .box button {
