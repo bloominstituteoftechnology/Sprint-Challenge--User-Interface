@@ -185,6 +185,44 @@ p {
     padding-right: 0;
 }
 
+.about-top {
+    border-bottom: 1px dashed black;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+.row1 {
+    display: inline-flex;
+}
+
+.row2 {
+    display: inline-flex;
+}
+
+.box {
+    margin: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+.box h2 {
+    padding-top: 5px;
+}
+
+.box button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 5px 25px;
+	font-size: 17px;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.bottom {
+    margin: 20px 15px 25px 15px;
+}
+
 footer {
     width: 100%;
     background: black;
