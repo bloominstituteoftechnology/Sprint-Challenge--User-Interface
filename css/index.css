@@ -404,7 +404,7 @@ footer nav a {
 .form-container form {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 450px;
   justify-content: space-between;
   margin: 0 20px;
 }
@@ -432,7 +432,7 @@ footer nav a {
   justify-content: center;
   align-items: center;
   font-size: 12px;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .form-submit-button:hover {
