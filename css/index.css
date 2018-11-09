@@ -227,6 +227,11 @@ nav a {
     padding: 10px 20px;
 }
 
+.about-main-content button:hover {
+    background: black;
+    color: white;
+}
+
 .about-bottom-content {
     padding: 40px 20px;
 }
@@ -250,6 +255,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+ /* Contact Page */
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+::placeholder { 
+color: red;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
 @media(max-width: 500px) {
