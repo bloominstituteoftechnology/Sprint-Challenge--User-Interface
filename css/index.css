@@ -318,3 +318,34 @@ footer nav a:hover {
     background-color: black;
     color: white;
 }
+
+/* product page styles */
+
+.product-page{
+    width: 100vw;
+}
+
+.product-page nav{
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px dashed black;
+}
+
+.sidebar{
+    border-right: 1px dashed black;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    padding: 40px 10px;
+}
+
+.sidebar p{
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    bottom: 2px;
+}
+
+.lastcheck{
+    margin-bottom: 30px;
+}
+
