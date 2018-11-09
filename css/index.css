@@ -211,6 +211,10 @@ footer nav a {
     margin-bottom: 30px;
 }
 
+.padding-style{
+    padding: 0 20px;
+}
+
 .about-page .middle-content{
     border-bottom: none;
 }
@@ -237,4 +241,8 @@ footer nav a {
     margin: 15px 0; 
     border: 2px solid black;
     border-radius: 8px;
+}
+
+.about-page footer{
+    margin-top: 40px;
 }
