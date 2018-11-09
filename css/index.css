@@ -287,3 +287,37 @@ header nav a {
 .header-img-jumbo {
   margin: 10px 0 15px;
 }
+
+.top-content-about {
+  margin: 10px;
+}
+
+.main-content-about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-top: 1px dashed black;
+}
+.main-content-about .text-container {
+  width: 45%;
+  margin: 20px 18px;
+}
+
+.text-container button {
+  text-decoration: none;
+  font-size: 100%;
+  border: 2px solid black;
+  background: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.text-container {
+  border-bottom: 1px dashed black;
+  padding: 10px 0;
+}
+
+.bottom-content-about {
+  margin: 25px;
+}
