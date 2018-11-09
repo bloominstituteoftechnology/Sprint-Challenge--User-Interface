@@ -183,6 +183,10 @@ p {
   margin-right: 0;
 }
 
+.home-header-img {
+  margin: 38px 0 20px;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
