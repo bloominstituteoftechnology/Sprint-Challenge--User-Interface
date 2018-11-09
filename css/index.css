@@ -190,6 +190,7 @@ header {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
@@ -197,7 +198,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2% ;
+    padding: 0px 2% ;
     font-size: 14px;
 }
 
@@ -243,13 +244,24 @@ footer nav a {
     padding: 10px 10px;;
 }
 
+@keyframes button-hover {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
 .button {
     text-decoration: none;
     color: black;
     border: 2px solid black;
     padding: 5px 20px;
     border-radius: 6px;
-    
+       
+}
+
+.button:hover {
+   animation-name: button-hover;
+   animation-duration: 3s; 
+   color: white;
 }
 
 .bottom-content-about h3 {
