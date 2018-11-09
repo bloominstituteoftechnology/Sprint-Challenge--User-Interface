@@ -168,22 +168,28 @@ nav a {
 }
 
 footer {
-    width: 100%;
+    display: flex;
+    width: 800px;
     background: black;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    justify-content: flex-start;
 }
 
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 20px 2%;
     font-size: 14px;
+    margin: 20px 30px 20px -6px;
 }
 
 footer nav a {
+    display: flex;
     color: white;
     text-decoration: none;
+    margin: 0px 32px;
 }
 
 #box1 {
@@ -261,4 +267,8 @@ footer nav a {
   border-radius: 10%;
   font-size: 14px;
   border: 2px solid black;
+}
+
+.aboutBottom {
+  margin: 8px 24px 30px 24px;
 }
