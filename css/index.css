@@ -278,3 +278,42 @@ header nav a {
 #box10 {
   background: dodgerblue;
 }
+
+.about-section {
+  margin: 0 20px 20px 20px;
+}
+
+.main-section {
+  border-top: 2px dotted black;
+}
+
+.row {
+  margin: 20px;
+  display: flex;
+}
+
+.section-card {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px dotted grey;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+.action-btn {
+  margin: 10px 0;
+  background: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  width: 125px;
+  box-shadow: 1px 1px;
+}
+
+.bottom-section {
+  margin: 0 20px 20px 20px;
+  padding: 20px 0;
+}
