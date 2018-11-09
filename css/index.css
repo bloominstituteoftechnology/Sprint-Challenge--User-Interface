@@ -279,7 +279,12 @@ input[type=text] {
 }
 
 ::placeholder { 
-color: red;
+    color: red;
+}
+
+input:placeholder-shown {
+    border-color: purple;
+    margin-bottom: 20px;
 }
 
 .contact {
