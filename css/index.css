@@ -66,6 +66,9 @@ p {
     line-height: 1.4;
 }
 
+hr {
+    border-top: 1px dashed;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -100,6 +103,38 @@ nav a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-about {
+    margin-left: 15px;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 890px;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 350px;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+}
+
+.about-box h2 {
+    margin-top: 10px;
+}
+
+button {
+    border: 1.2px solid black;
+    background: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .middle-content {
@@ -168,6 +203,7 @@ nav a {
 .box10 {
     background-color: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -182,6 +218,9 @@ nav a {
     padding-right: 0;
 }
 
+.bottom-about {
+    margin: 20px 0px 20px 15px;
+}
 footer {
     width: 100%;
     background: black;
