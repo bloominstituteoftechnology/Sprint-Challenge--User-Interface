@@ -226,15 +226,20 @@ header nav a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border-bottom: dotted black 2px;
 }
 
 .box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 600px;
+    width: 400px;
     padding: 30px;
-    border-bottom: dotted black 2px;
+
+}
+
+.box h2 {
+    margin-top: 20px;
 }
 
 .container1 .box button {
