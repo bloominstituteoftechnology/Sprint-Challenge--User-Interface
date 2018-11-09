@@ -363,3 +363,40 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+.about-box {
+  width: 370px;
+  height: 430px;
+  margin-bottom: 40px;
+  border-bottom: 1px dashed black;
+}
+
+.about-box p {
+  font-size: 16px;
+  line-height: 1.2;
+  padding-bottom: 22px;
+}
+
+.about-box h2 {
+  padding-top: 12px;
+  font-size: 16px;
+}
+
+.learn-more {
+  width: 131px;
+  height: 40px;
+  background: white;
+  font-size: 16px;
+  border: 2px solid black;
+  border-color: black;
+  border-radius: 5px;
+}
+
+.about-boxes {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-top: 10px;
+}
