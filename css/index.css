@@ -156,6 +156,10 @@ h2 {
   font-size: 22px;
 }
 
+img {
+  margin-bottom: 10px;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -252,6 +256,16 @@ button {
   padding: 8px 15px;
   border-radius: 8px;
   border: 1px solid black;
+}
+
+button:hover {
+  color: white;
+  background: black;
+}
+
+button:active {
+  background-color: black;
+  transform: translateY(4px);
 }
 
 #box1 {
