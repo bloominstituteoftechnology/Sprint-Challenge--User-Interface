@@ -252,3 +252,44 @@ footer nav a {
 .aboutEnd{
     margin: 15px 15px 25px 15px;
 }
+@media(max-width:845px){
+    .itemContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .jumboAbout{
+        width: 100%;
+        height: auto;
+    }
+    .nav-bar header nav a{
+        margin:unset;
+    }
+    .nav-bar header a img{
+        margin: 15px;
+    }
+    .nav-bar header nav a:hover{
+        margin:unset;
+    }
+    .nav-bar header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .bottom-content{
+        flex-direction: column;
+    }
+    .text-container{
+        width: 60%;
+        margin: 15px auto;
+    }
+    .top-content{
+        flex-direction: column;
+    }
+    .boxes{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
