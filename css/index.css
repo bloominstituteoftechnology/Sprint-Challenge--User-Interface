@@ -276,6 +276,60 @@ p {
     background-image: url('http://i67.tinypic.com/m79o2c.png');
 }
 
+.contact-details {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.contact-details h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-details form {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.contact-details form .sender-info {
+    font-weight: bold;
+    margin: 15px 0;
+    display: flex;
+}
+
+.contact-details form .sender-info span {
+    width: 30%;
+}
+
+.contact-details form .sender-info input {
+    width: 35%;
+}
+
+.contact-details form .message {
+    margin: 37.5px 0 10px;
+    width: 100%;
+}
+
+.contact-details form .message textarea {
+    margin: 15px;
+    width: 90%;
+    height: 100px;
+}
+
+.contact-details form input[type="submit"] {
+    text-align: right;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: darkred;
+}
+
+.contact-details form input[type="submit"]:hover {
+    background-color: crimson;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 35px;
