@@ -106,6 +106,11 @@ a {
     padding-bottom: 20px;  
 }
 
+.top-content-about {
+    padding: 0px 30px 30px 30px;
+    border-bottom: 1px dashed black;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -130,6 +135,31 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.textbox {
+    width: 370px;
+    margin: 30px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.textbox img {
+    margin: 0px 0px 15px 0px;
+}
+
+.button1 {
+    width: 130px;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 20px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .b1 {
@@ -184,6 +214,10 @@ a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about {
+    padding: 0px 30px 30px 30px;
 }
 
 footer {
