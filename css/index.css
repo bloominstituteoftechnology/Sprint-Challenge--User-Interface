@@ -330,6 +330,10 @@ footer nav a {
 	padding-bottom: 20px;
 }
 
+#about-page .main-section div h2 {
+	margin-top: 20px;
+}
+
 /* ----------------Bottom Section------------------------- */
 #about-page .bottom-section {
 	margin: 40px 0 30px;
