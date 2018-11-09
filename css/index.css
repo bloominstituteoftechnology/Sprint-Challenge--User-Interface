@@ -104,13 +104,23 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2{
+    background: gold;
+}
+
+
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +153,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About Styles*/
+.container-about {
+    width: 880px;
+    
+
+}
+
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    
 }

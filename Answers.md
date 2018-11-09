@@ -1,9 +1,10 @@
-1. If you had to describe semantic HTML to the next cohort of students, what would you say?
+1. If you had to describe semantic HTML to the next cohort of students, what would you say? semantic html has meaning to fellow devs and the browser 
 
-2. Describe some differences between ```display: block;``` and ```display: inline;```.
+2. Describe some differences between ```display: block;``` and ```display: inline;``` inline doesn't allow for width and height. block elements allow for setting width and height
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? content, padding, border, margin.
 
-4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
+4. While using flexbox, what axis are you using when you use the property: ```align-items: center```? cross
 
 5. What is the git command to commit staged changes as well as write a message? 
+git commit -m "message"
