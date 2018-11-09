@@ -257,3 +257,6 @@ input{
 .name{
     width: 48%;
 }
+form label{
+    margin: 15px 0 10px;
+}
