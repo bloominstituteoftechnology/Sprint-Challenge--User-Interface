@@ -144,3 +144,82 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*--------------------------------------------------------*/
+
+.container{
+    
+        width: 900px;
+        margin: 0 auto;
+        border: .8px solid red;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo { margin-left: 2%;
+
+}
+
+.headnav {
+    padding-top: 3%;
+    justify-content: space-evenly;
+    margin-right: 2%;
+    
+}
+
+.s {
+    padding-right:3em;
+    text-decoration: none;
+    color:black;
+    
+}
+.p {
+  padding-right:3em;
+  text-decoration: none;
+  color:black;
+  padding-top: 20px;
+}
+.v {
+  padding-right:3em;
+  text-decoration: none;
+  color:black;
+}
+.f {
+  padding-right:3em;
+  text-decoration: none;
+  color:black;
+}
+.a {
+  padding-right:3em;
+  text-decoration: none;
+  color:black;
+      
+}
+.c {
+  padding-right:3em;
+  text-decoration: none;
+  color:black; }
+
+.col0 {
+    margin: 7% 4% 7% 4%;
+}
+.col-0-1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.par-1{
+    display:grid;
+}
+
+[class*="col-1" ] {
+	width: 372px;
+	border: 1px solid #646464;
+
+	background-color: #f1f1f1;
+	
+}
