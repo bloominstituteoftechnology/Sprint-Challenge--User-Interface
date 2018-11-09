@@ -75,13 +75,18 @@ p {
 
 .top-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
+    margin: 15px 0 15px 0;
 }
 
  .top-nav a {
     color: black;
     text-decoration: none;
+}
+
+.top-pic {
+    margin: 15px 0 20px 0;
 }
 
 .top-content {
