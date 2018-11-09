@@ -70,6 +70,33 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    height: 60px;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    align-items: flex-end;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+}
+.lambda-logo{
+    display:flex;
+    width:150px;
+    height: 40px;
+    margin-top:20px;
+}
+
+.highway{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 .top-content {
     display: flex;
@@ -143,4 +170,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#Box1 {
+    background-color: teal;
 }
