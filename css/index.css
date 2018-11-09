@@ -159,6 +159,50 @@ header {
     margin-top: 20px;
 }
 
+.about-top .about-top-para {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+}
+
+.about-main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.about-main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    width: 90%;
+    border-bottom: 1px dashed black;
+
+}
+
+.about-main-box h2 {
+    margin-top: 10px;
+}
+
+button {
+    margin: 10px 10px 20px 0px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 25%;
+    font-weight: bold;
+}
+
+.about-bottom-para {
+    margin: 20px 0px 30px 0px;
+    
+}
+
+/* BOTH PAGES  */
+
 footer {
     width: 100%;
     background: black;
