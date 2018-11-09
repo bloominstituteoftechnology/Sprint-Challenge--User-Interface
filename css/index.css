@@ -69,7 +69,39 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 0 40px;
+    border: 1px solid black;
 }
+.navbar {
+	margin: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+	width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+header img { 
+    display: block;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 18%;
+    }
 
 .top-content {
     display: flex;
@@ -112,6 +144,30 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}#box3{
+    background-color: cadetblue;
+}#box4{
+    background-color: coral;
+}#box5{
+    background-color: crimson;
+}#box6{
+    background-color: forestgreen;
+}#box7{
+    background-color:darkorchid;
+}#box8{
+    background-color:hotpink;
+}#box9{
+    background-color:indigo;
+}#box10{
+    background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +200,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*.container .aboutPage {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+    border: 1px solid black;  
+}
+*/
+.aboutPageTop {
+    border-bottom: 1px dashed black;
+    margin: 0px 20px 20px 20px;
+    padding-bottom: 20px;
+} 
+
+.cardbox {
+    display: flex;
+    
+    flex-wrap: nowrap;
+    margin: 0  0 40px 10px;
+}
+
+.carddetails {
+    border-bottom: 1px dashed black;
+
+}
+
+.carddetails img{
+    width: 350px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.carddetails p {
+    padding: 10px;
+}
+
+.carddetails h2 {
+    margin-left: 10px;
+}
+button {
+    font-size: 14px;
+    border: 1px black solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    margin: 10px 0 20px 10px;
+ }
+ 
+ .aboutPageBottom {
+    margin: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+} 
+
