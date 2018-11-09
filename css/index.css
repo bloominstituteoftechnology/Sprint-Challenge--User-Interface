@@ -77,7 +77,7 @@ p {
 .navbar{
     justify-content: space-between;
     padding: 40px 0;
-    /* border: 1px solid red; */
+    align-items: baseline;
 }
 .navbar a{
     color: black;
@@ -88,7 +88,6 @@ nav{
     justify-content: space-around; 
     align-items: center;
     width: 75%;
-    border: 1px solid red;
 }
 
 /* Home Page Styles */
@@ -109,7 +108,7 @@ nav{
     padding-bottom: 20px;  
 }
 .top-content .text-about{
-    padding: 0 2%;
+    width: 95%;
     padding-bottom: 20px;  
 }
 /* Middle */
@@ -203,10 +202,12 @@ footer nav a {
 .bg-dodgerblue{
     background-color:dodgerblue;
 }
-/* Middle Page */
+/* About Middle Page */
 .middle-about{
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 95%;
+    margin: 4% auto 1%;
 }
 .middle-card{
     width: 48%;
@@ -230,4 +231,10 @@ footer nav a {
     border-radius: 15px;
     padding: 10px 35px;
     margin: 20px 0 0;
+}
+
+.about-bottom{
+    margin-bottom: 5%;
+    width: 95%;
+    margin: 0 auto 5%;
 }
