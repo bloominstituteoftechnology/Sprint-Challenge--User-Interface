@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* project css */
+
 * {
     box-sizing: border-box;
 }
@@ -144,3 +146,89 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my code here */
+
+/* navbar */
+
+.nav-container {
+    background: black;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-container nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.nav-container nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* header img*/
+
+header {
+    margin-bottom: 20px;
+}
+
+/* home content */
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* border-bottom: 1px dashed black; */
+
+/* about page css */
+
+.about-header {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+header p {
+    margin: 0 2.5% 0 2.5%;
+}
+
