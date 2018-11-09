@@ -383,3 +383,20 @@ footer nav a {
 .about-bottom-content {
   margin: 22px 20px 40px;
 }
+
+/* Contact Styles */
+
+.contact-header {
+  margin: 38px 0 38px 0;
+  padding-bottom: 38px;
+  border-bottom: 1px dashed black;
+}
+
+.contact-header img {
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
