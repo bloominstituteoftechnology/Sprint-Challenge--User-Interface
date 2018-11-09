@@ -80,6 +80,11 @@ p {
     color: black;
     text-decoration: none;
 }
+.navbar a:hover{
+    color:red;
+    font-size: 1.5em;
+}
+
 nav{
     justify-content: space-around; 
     align-items: center;
@@ -224,4 +229,31 @@ footer nav a {
     margin-bottom: 5%;
     width: 95%;
     margin: 0 auto 5%;
+}
+/***CONTACT PAGE STYLES***/
+.contact-header{
+    width: 95%;
+    margin: 30px auto;
+}
+.full-name{
+    width: 100%;
+    justify-content: space-between;
+}
+.contact-form{
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 20px auto 100px;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px 0 gray;
+    border-width: 1px;
+    border-radius: .25rem;
+    border-color: cadetblue;
+    background-color: white;
+}
+.name{
+    width: 48%;
 }
