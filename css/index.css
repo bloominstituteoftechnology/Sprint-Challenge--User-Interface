@@ -146,7 +146,8 @@ footer nav a {
 }
 /* added some extra to the general section */
 .header {
-    margin: 5vh 0;
+    
+    width:100%;
 }
 
 .img {
@@ -278,8 +279,29 @@ footer nav a {
     display:flex;
 }
 
+.main-section {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
 .product-card {
     z-index: 99999;
     background: grey;
     border: 2px dashed white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    max-height: 60%;
+}
+
+.product-card p{
+    font-size: 10px;
 }
