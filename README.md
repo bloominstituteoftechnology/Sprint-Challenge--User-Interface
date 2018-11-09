@@ -55,8 +55,8 @@ You will also notice there are 10 boxes on the home page that need background co
 * [*] Build the rest of the about page layout to match the design
 #### Pro tip: Commit every time you have completed a task or feature!
 ## Task 5: Push Updates and Pull Request
-* [ ] Once you have completed tasks 1-4, push all your commits up to your master branch  
-* [ ] Create a pull request back to the original `fork`
+* [*] Once you have completed tasks 1-4, push all your commits up to your master branch  
+* [*] Create a pull request back to the original `fork`
 
 **Congratulations, you completed the sprint challenge!**
 #### Pro tip: Commit every time you have completed a task or feature!
