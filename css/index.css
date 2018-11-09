@@ -78,7 +78,6 @@ p {
     padding: 20px 0;
     font-size: 14px;
     color: grey;
-
 }
 
 .nav-content a {
@@ -216,4 +215,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/* <----------------------- about page styles ------------------ */
+
+
+.top-content-about {
+    padding: 25px;
+    padding-top: 0;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20px;
+    width: 800px;
+}
+
+.middle-content-about div {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+.middle-content-about p {
+    padding-bottom: 20px;
+}
+
+.middle-content-about img {
+    padding-bottom: 10px;
+}
+
+.middle-content-about .office,
+.middle-content-about .collaboration {
+    margin-bottom: 30px;
+}
+
+
+.bottom-content-about {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 0;
 }
