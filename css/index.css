@@ -75,12 +75,14 @@ p {
 
 .navigation nav {
     width: 80%;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 .navigation nav a {
     text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -88,6 +90,11 @@ p {
     margin: 0 auto;
 }
 
+.jumbo-img {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
