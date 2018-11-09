@@ -77,6 +77,11 @@ header {
     flex-wrap: wrap;
 }
 
+header .logo, nav {
+    position: relative;
+    animation: move 4s 1;
+    animation-timing-function:ease-out;
+}
 header nav {
     display: flex;
     align-items: flex-end; 
@@ -86,7 +91,7 @@ header nav {
 header nav a {
     margin-right: 35%;
     color: black;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 header .jumbo {
@@ -237,4 +242,10 @@ footer nav a {
 .about-bottom {
     margin: 3%;
     padding-bottom: 3%;
+}
+
+@keyframes move {
+    from {transform: translateX(-2500px);}
+    50% {transform: translateX(500px) rotate(6deg);}
+    to {transform: translate(0) rotate(-4deg);}
 }
