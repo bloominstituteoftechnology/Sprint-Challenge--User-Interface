@@ -97,6 +97,7 @@ p {
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
@@ -186,6 +187,7 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+
 #box1 {
     background-color: teal;
 }
@@ -261,6 +263,5 @@ footer nav a {
 }
 
 .about-card button:hover {
-
     background-color: lightgrey;
 }
