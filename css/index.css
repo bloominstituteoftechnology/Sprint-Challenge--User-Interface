@@ -196,6 +196,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 50px;
 }
 
 footer nav {
@@ -270,6 +271,7 @@ footer nav a {
 
 /* -- PRODUCTS PAGE STYLES --*/
 
+
 .products-video {
     width: 100%;
     height: 480px;
@@ -307,6 +309,19 @@ footer nav a {
    
 }
 
+.products-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.products-middle img {
+    height: 500px;
+    width: 100%;
+}
+
 .products-right p {
     width: 100%;
     text-align: right;
@@ -325,6 +340,7 @@ footer nav a {
 }
 
 .products-left h2,
-.products-right h2 {
+.products-right h2,
+.products-middle h2 {
     margin: 20px 0;
 }
