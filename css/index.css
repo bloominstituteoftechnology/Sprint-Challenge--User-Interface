@@ -66,9 +66,37 @@ p {
     line-height: 1.4;
 }
 
+/* Page Styles Start */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-nav-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.top-nav-container nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 690px;
+    height: 40px;
+}
+
+.top-nav-container nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+.top-nav-container nav a:hover {
+    text-decoration: underline;
 }
 
 .top-content {
