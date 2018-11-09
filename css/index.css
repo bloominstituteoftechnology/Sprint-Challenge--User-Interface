@@ -83,7 +83,9 @@ nav {
 }
 
 nav a {
-    padding: 10px;
+    padding: 35px 0px 10px 0px;
+    text-decoration: none;
+    color: black;
 }
 
 header {
@@ -198,7 +200,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 2% ;
     font-size: 14px;
 }
 
