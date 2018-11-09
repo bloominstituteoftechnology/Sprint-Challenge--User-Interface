@@ -115,7 +115,7 @@ footer nav a {
     margin: 0 auto;
 }
 
-/* Home Stlyes */
+/* Home Styles */
 
 .top-content {
     display: flex;
@@ -212,7 +212,7 @@ footer nav a {
     padding-right: 0;
 }
 
-/*About Styles */
+/* About Styles */
 
 .about-page {
     display: flex;
@@ -233,7 +233,6 @@ footer nav a {
     border-bottom: 1px dashed black;
     width: 370px;
     margin: 30px 15px;
-    /* padding: 0 15px; */
 }
 
 .about-content img {
@@ -256,5 +255,4 @@ footer nav a {
 .work-together {
     padding: 0 15px;
     margin: 20px 0 40px 0;
-
 }
