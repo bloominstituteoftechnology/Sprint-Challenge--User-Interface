@@ -214,3 +214,67 @@ header nav a {
 header img.banner {
     margin: 20px 0 20px 0;
 }
+
+.about-page header div.about-header {
+    padding: 0 20px;
+}
+
+.about-page header p {
+    font-size: 14px;
+}
+
+.about-page hr {
+    border: 0.5px black dashed;
+    margin: 20px 0 30px 0;
+    width: 100%;
+}
+
+.about-page div.content-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.about-page section.content-box {
+    display: inline-flex;
+    flex-flow: column nowrap;
+    width: 371px;
+}
+
+.about-page section.content-box h2 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.about-page section.content-box p {
+    font-size: 15px;
+}
+
+.about-page section.content-box a {
+    padding: 9px 18px;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin: 10px 0;
+    align-self: flex-start;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.about-page section.content-box hr {
+    align-self: center;
+}
+
+.about-page section.work-together {
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}
+
+.about-page section.work-together h2 {
+    font-size: 18px;
+}
+
+.about-page section.work-together p {
+    font-size: 14px;
+}
