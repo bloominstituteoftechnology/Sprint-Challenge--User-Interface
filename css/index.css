@@ -332,6 +332,16 @@ footer nav a {
         width: 100%;
         margin: 0;
     }
+    /* Navigation */
+    .navigation-style{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation-style a{
+        padding: 20px;
+    }
 
     /* Home page */
     .middle-content .boxes .box {
