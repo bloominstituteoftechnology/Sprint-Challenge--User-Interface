@@ -238,11 +238,11 @@ footer nav a {
     margin-top: 15px;
 }
 
-.about-content .card p{
+.about-content .card p {
     margin-bottom: 15px;
 }
 
-.about-content .about-card-button {
+.about-content button {
     cursor: pointer;
     background: white;
     border-radius: 5px;
@@ -252,7 +252,7 @@ footer nav a {
     font-size: 16px;
 }
 
-.about-content .about-card-button:hover {
+.about-content button:hover {
     background: black;
     color: white;
 } 
@@ -313,28 +313,28 @@ footer nav a {
     font-size: 12px;
 }
 
-.blog-content .top-stories .top-story-container {
+.blog-content .top-story-container {
     margin: 10px 0 0 0;
     display: flex;
     justify-content: space-between;
 }
 
-.blog-content .top-stories .top-story-card {
+.blog-content .top-story-card {
     padding: 10px 0;
     margin: 10px 20px 10px 0;
     width: 220px;
 }
 
-.blog-content .top-stories .top-story-card img {
+.blog-content .top-story-card img {
     width: 220px;
     margin: 0;
 }
 
-.blog-content .top-stories .top-story-card .top-story-head {
+.blog-content .top-story-head {
     font-size: 30px;
 }
 
-.blog-content .top-stories .top-story-card p {
+.blog-content .top-story-card p {
     font-size: 14px;
     margin-bottom: 15px;
 }
@@ -356,7 +356,7 @@ footer nav a {
     font-size: 14px;
 }
 
-.blog-content .story-summary p.time {
+.blog-content .story-summary .time {
     font-size: 10px;
     margin: 0 0 5px 0;
 }
