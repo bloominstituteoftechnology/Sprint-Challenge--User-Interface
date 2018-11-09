@@ -66,9 +66,32 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    padding-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-image {
+    margin-bottom: 30px;
 }
 
 .top-content {
@@ -112,6 +135,45 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
