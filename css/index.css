@@ -208,23 +208,48 @@ footer nav a {
 .container-about-page {
     width: 800px;
     margin: 0 auto;
+  
 }
 
 
  .about-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 1.3;
 }
 .about-section {
     margin: 10px;
     padding: 5px;
     border-bottom: 1px dashed black;
+    
+
+}
+.about-text {
+    margin-bottom: 20px;
+}
+.options {
+   width: 360px;
+   border-bottom: 1px dashed black;
+   margin: 15px 20px 15px 15px;
+   padding: 15px 0 20px 0;
 }
 
-.options {
-   width: 350px;
+.options button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.options button:hover {
+    background: black;
+    color: white;    
+}
 
+    
+    .bottom-portion .bottom-text {
+    margin: 25px 5px 25px 25px;
 
 }
