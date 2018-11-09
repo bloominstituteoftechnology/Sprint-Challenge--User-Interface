@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 643px;    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.topImage {
+    margin: 30px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +104,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content-about {
+    padding: 0px 30px 30px 30px;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content {
@@ -104,12 +130,76 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.textbox {
+    width: 370px;
+    margin: 30px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.textbox img {
+    margin: 0px 0px 15px 0px;
+}
+
+.button1 {
+    width: 130px;
+    text-align: center;
+    padding: 5px 0px;
+    margin: 20px 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.b1 {
+    background-color: teal;
+}
+
+.b2 {
+    background-color: gold;
+}
+
+.b3 {
+    background-color: cadetblue;
+}
+
+.b4 {
+    background-color: coral;
+}
+
+.b5 {
+    background-color: crimson;
+}
+
+.b6 {
+    background-color: forestgreen;
+}
+
+.b7 {
+    background-color: darkorchid;
+}
+
+.b8 {
+    background-color: hotpink;
+}
+
+.b9 {
+    background-color: indigo;
+}
+
+.b10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +214,33 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about {
+    padding: 0px 30px 30px 30px;
+}
+
+.middle-content-products {
+    margin: 20px 0px;
+    text-align: center;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-products .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content-products .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
