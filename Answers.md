@@ -4,7 +4,7 @@ Semantic HTML is HTML that can be easily read and maintained. It replaces the ne
  
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
-Display block is the main display style for most html elements. It is great when you want one section/tag to be the full width of the page. It also allows you to set the width and height. Inline on the other hand is everything else. These elemens, like span, allow you to put elements in the normal flow of the page. You can set width but not height.
+Display block is the main display style for most html elements. It is great when you want one section/tag to be the full width of the page. It also allows you to set the width and height. Inline on the other hand is everything else. These elements, like span, allow you to put elements in the normal flow of the page. You can set width but not height.
 
 3. What are the 4 areas of the box model?
 
