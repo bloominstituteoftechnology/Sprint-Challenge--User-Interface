@@ -76,12 +76,14 @@ p {
   width: 800px;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 auto;
   margin-top: 10px;
+  /* border: 1px solid red; */
 }
 
 nav {
   display: flex;
-  margin: 20px 30px;
+  margin: 20px 45px 20px 10px;
 }
 
 nav a {
@@ -98,7 +100,7 @@ nav a {
 }
 
 .logoContainer img {
-  margin: 10px 0px 40px 180px;
+  margin: 10px 0px 38px 90px;
 }
 
 .headerImg {
