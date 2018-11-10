@@ -75,8 +75,6 @@ p {
 header {
 	display: flex;
     width: 100%;
-    
-    
 }
 
 .main-nav {
@@ -104,8 +102,6 @@ header {
     color: black;
 }
 
-
-
 /* the top image */
 
 .top-content .top-image{
@@ -113,32 +109,17 @@ header {
 }
 
 .text-container-a{
-    
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+/* the whole content */
 .about-content{
     display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-line-height: 1.3;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
 }
-
-
-.about-content .mcontent {
-   
-    padding: 20px;
-border-bottom: 1px dashed black;
-width: 400px;
-
-margin: 20px 0;
-}
-
-
-
-
-
 
 .top-content {
     display: flex;
@@ -153,6 +134,27 @@ margin: 20px 0;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* the middle/descritopn content */
+.mcontent {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    width: 380px;
+    margin: 20px 0;
+}
+
+.mcontent button {
+    background: white;
+    vertical-align: top;
+    margin: 15px 0;
+    padding: 8px 44px;
+    font-size: 14px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -169,6 +171,24 @@ margin: 20px 0;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+/* the buttons */
+.about-content .mcontent .button {
+    background-color:white; /* Green */
+    border: 2px solid black;
+    border-radius: 12px;
+    color: black;
+    padding: 5px 18px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+/* the buttons hovering */
+.about-content .mcontent button:hover {
+    background: black;
+    color: white;
+    }
 
 
 .middle-content .boxes .box1 {
@@ -315,3 +335,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
