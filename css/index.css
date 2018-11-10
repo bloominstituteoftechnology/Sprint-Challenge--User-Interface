@@ -396,7 +396,7 @@ header .about-header nav a {
 .about-middle .strat {
   display: inline-block;
   padding: 20px;
-  width: 380px;
+  width: 400px;
   margin: 20px 0;  
   margin-bottom: 20px;
   border-bottom: 1px dashed lightgray;
@@ -405,7 +405,7 @@ header .about-header nav a {
 .about-middle .how {
     display: inline-block;
     padding: 20px;
-    width: 380px;
+    width: 400px;
     margin: 20px 0;  
     margin-bottom: 20px;
     border-bottom: 1px dashed lightgray;
@@ -414,7 +414,7 @@ header .about-header nav a {
   .about-middle .places {
     display: inline-block;
     padding: 20px;
-    width: 380px;
+    width: 400px;
     margin: 20px 0;  
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -423,7 +423,7 @@ header .about-header nav a {
   .about-middle .collab {
     display: inline-block;
     padding: 20px;
-    width: 380px;
+    width: 400x;
     margin: 20px 0;  
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
