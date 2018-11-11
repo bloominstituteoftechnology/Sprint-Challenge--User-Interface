@@ -280,14 +280,17 @@ header .logo {
 }
 
 footer {
-    width: 100%;
+    width: 60%;
     background: black;
+    display:flex;
+    justify-content:center;
+    align-content:center;
 }
 
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -296,6 +299,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    justify-content: center;
+    margin-left:40px;
 }
 
 /* ABOUT PAGE */
