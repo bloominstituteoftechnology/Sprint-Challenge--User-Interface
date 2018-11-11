@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Sprint Challenge - Blog</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container contact">
+      <header class="contact-header">
+        <nav>
+          <img src="img/lambda-black.png" alt="logo" />
+          <a href="index.html">Home</a> <a href="about.html">About</a>
+          <a href="product.html">Products</a> <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <img class="jumbo-contact" src="img/jumbo-contact.jpg" alt="blog" />
+      </header>
+      <section class="contact-us">
+        <h2>Contact Us!</h2>
+        <p>
+          We're happy to hear any feedback or concerns you have. Just send us a
+          message and we'll get back to you soon.
+        </p>
+        <div class="contact-border">
+        <form action="contact-page">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name..."
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name..."
+          />    
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="canada">Canada</option>
+            <option value="usa">United States</option
+            >
+          </select>
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something..."
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form></div>
+      </section>
+      <footer>
+        <nav>
+          <a href="index.html">Home</a> <a href="about.html">About</a>
+          <a href="product.html">Products</a> <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

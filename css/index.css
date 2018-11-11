@@ -159,8 +159,7 @@ p {
 
 .top-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding: 20px;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
@@ -314,6 +313,7 @@ p {
 .container footer {
   width: 100%;
   background: black;
+  margin-left: 20px;
 }
 
 .container footer nav {
@@ -372,9 +372,14 @@ header .about-header nav a {
   padding: 20px;
 }
 
+.blog-header .jumbo-blog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
 .about-top {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -393,42 +398,14 @@ header .about-header nav a {
   line-height: 1.3;
 }
 
-.about-middle .strat {
+.about-middle .text-container {
   display: inline-block;
   padding: 20px;
   width: 400px;
   margin: 20px 0;  
   margin-bottom: 20px;
-  border-bottom: 1px dashed lightgray;
+  border-bottom: 1px dashed black;
 }
-
-.about-middle .how {
-    display: inline-block;
-    padding: 20px;
-    width: 400px;
-    margin: 20px 0;  
-    margin-bottom: 20px;
-    border-bottom: 1px dashed lightgray;
-  }
-
-  .about-middle .places {
-    display: inline-block;
-    padding: 20px;
-    width: 400px;
-    margin: 20px 0;  
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-  }
-
-  .about-middle .collab {
-    display: inline-block;
-    padding: 20px;
-    width: 400x;
-    margin: 20px 0;  
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-  }
-
   .about-middle button {
     padding: 10px 40px;
     margin-top: 20px;
@@ -446,3 +423,83 @@ header .about-header nav a {
   .about-bottom .text-container {
       padding: 20px;
   }
+
+.blog-slides {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.blog-slides h2 {
+font-size: 30px;
+border-radius: 5px;
+border-bottom: 1px dashed black;
+padding: 20px
+}
+
+.blog-slideshow .slideshow {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.blog-slideshow .slideshow1 {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.5;
+  height: 400px;
+}
+
+.blog-slideshow .slideshow1:hover {
+  opacity: 1;
+}
+
+header .jumbo-contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact-us {
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  margin-bottom: 20px;
+}
+
+.contact-border {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}

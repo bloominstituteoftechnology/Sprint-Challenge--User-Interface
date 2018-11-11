@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Sprint Challenge - Blog</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container blog-page">
+      <header class="blog-header">
+        <nav>
+          <img src="img/lambda-black.png" alt="logo" />
+          <a href="index.html">Home</a> <a href="about.html">About</a>
+          <a href="product.html">Products</a> <a href="blog.html">Blog</a> <a href="contact.html">Contact</a>
+        </nav>
+        <img class="jumbo-blog" src="img/jumbo-blog.jpg" alt="blog" />
+      </header>
+      <section class="blog-slides">
+        <h2>Top Posts</h2>
+        <div class="blog-slideshow">
+          <img class="slideshow" src="img/blog-1.jpg" alt="blog1" />
+          <img
+            class="slideshow"
+            src="img/blog-2.jpg"
+            alt="blog2"
+            style="display:none"
+          />
+          <img
+            class="slideshow"
+            src="img/blog-3.jpg"
+            alt="blog3"
+            style="display:none"
+          />
+          <img
+            class="slideshow"
+            src="img/blog-4.jpg"
+            alt="blog4"
+            style="display:none"
+          />
+          <div class="blog-small">
+            <div class="small1">
+              <img
+                class="slideshow1"
+                src="img/blog-1.jpg"
+                onclick="currentDiv(1)"
+              />
+            </div>
+            <div class="small2">
+              <img
+                class="slideshow1"
+                src="img/blog-2.jpg"
+                onclick="currentDiv(2)"
+              />
+            </div>
+            <div class="small3">
+              <img
+                class="slideshow1"
+                src="img/blog-3.jpg"
+                onclick="currentDiv(3)"
+              />
+            </div>
+            <div class="small4"> 
+              <img
+                class="slideshow1"
+                src="img/blog-4.jpg"
+                onclick="currentDiv(4)"
+              />
+            </div>
+
+            <div class="slideshow1">
+              <a href="blog1" class="slideshow"><h3>Reasons for Lambda</h3></a>
+              <a href="blog2" class="slideshow"><h3>Lambda Success</h3></a>
+              <a href="blog3" class="slideshow"><h3>Reasonable Goals</h3></a>
+              <a href="blog4" class="slideshow"><h3>Marketing Yourself</h3></a>
+            </div>
+
+            <script>
+              function currentDiv(n) {
+                showDivs((slideIndex = n));
+              }
+
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("slideshow");
+                var dots = document.getElementsByClassName("slideshow1");
+                if (n > x.length) {
+                  slideIndex = 1;
+                }
+                if (n < 1) {
+                  slideIndex = x.length;
+                }
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(
+                    " slideshow1",
+                    ""
+                  );
+                }
+                x[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " slideshow1";
+              }
+            </script>
+          </div>
+        </div>
+      </section>
+      <section class="most-recent">
+        <h2>Most Recent</h2>
+        <img src="img/blog-1.jpg" alt="blog1" />
+        <a href="blog1.html"><h3>Reasons for Lambda</h3></a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          viverra erat nec commodo posuere.
+        </p>
+        <button>Read More</button>
+
+        <img src="img/blog-2.jpg" alt="blog2" />
+        <a href="blog2.html"><h3>Lambda Success</h3></a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          viverra erat nec commodo posuere.
+        </p>
+        <button>Read More</button>
+
+        <img src="img/blog-3.jpg" alt="blog3" />
+        <a href="blog3.html"><h3>Reasonable Goals</h3></a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          viverra erat nec commodo posuere.
+        </p>
+        <button>Read More</button>
+
+        <img src="img/blog-4.jpg" alt="blog4" />
+        <a href="blog4.html"><h3>Marketing Yourself</h3></a>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          viverra erat nec commodo posuere.
+        </p>
+        <button>Read More</button>
+      </section>
+      <footer>
+        <nav>
+          <a href="index.html">Home</a> <a href="about.html">About</a>
+          <a href="product.html">Products</a> <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
