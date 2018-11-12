@@ -56,19 +56,65 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: flex-end;
+    width: 1050px;
+    padding-top: 30px;
+    
+    padding-bottom: 30px;
+   
+    
+}
+
+header nav {
+    padding-top: 30px;
+}
+
+.navtag {
+    
+   
+}
+
+
+
+a {
+    padding: 40px;
+    margin-top: 20px;
+    
+}
+
+.container img {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
 }
+
 
 p {
     line-height: 1.4;
 }
 
+
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+   
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
@@ -99,6 +145,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .middle-content .boxes .box {
@@ -110,6 +157,66 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    
+    background: teal;
+    
+}
+
+.middle-content .boxes .box2 {
+  
+    background: gold;
+   
+}
+
+.middle-content .boxes .box3 {
+  
+    background: cadetblue;
+    
+}
+
+.middle-content .boxes .box4 {
+   
+    background: coral;
+   
+}
+
+.middle-content .boxes .box5 {
+   
+    background: crimson;
+    
+}
+
+.middle-content .boxes .box6 {
+   
+    background:forestgreen;
+    
+}
+
+.middle-content .boxes .box7 {
+   
+    background: darkorchid;
+
+}
+
+.middle-content .boxes .box8 {
+    
+    background: hotpink;
+    
+}
+
+.middle-content .boxes .box9 {
+    
+    background: indigo;
+   
+}
+
+.middle-content .boxes .box10 {
+   
+    background: dodgerblue;
+    
 }
 
 .bottom-content {
@@ -129,14 +236,14 @@ p {
 footer {
     width: 100%;
     background: black;
+   
+    
 }
 
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+   
     font-size: 14px;
 }
 
@@ -144,3 +251,148 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* SERVICES PAGE */
+
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.main {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 876px;
+    
+    
+}
+
+.content {
+   
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.content img {
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+
+button {
+    background-color: white;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+.fonav {
+    width: 82%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 220px;
+}
+
+/* CONTACT PAGE */
+
+.container3 {
+    border: 3px solid pink ;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 80px;
+    
+}
+
+
+
+.cp {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid grey;
+   padding-left: 120px;
+
+}
+
+.nd {
+    padding-bottom: 20px;
+    border:2px solid purple;
+   
+}
+
+
+
+.cp img {
+    width: 100%;
+    height: 250px;
+    padding-left: 100px;
+    
+}
+
+
+.header1 h1 {
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid yellow;
+    padding-left: 175px;
+} 
+
+
+
+.fp {
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 2px solid orchid;
+    width: 80%;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.com img {
+    display:flex;
+    border: 2px solid  blue;
+    
+}
+
+.tele {
+    width:  600%;
+    border: 3px solid gold;
+}
+
+.tele img {
+    width: 400%;
+    border: 3px solid blue;
+    height: 100%;
+}
+
+.fp img {
+    width:20%;
+}
+
+.com {
+    width: 200%;
+}
+
+
+
+
+
