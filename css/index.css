@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    
+}
+header nav{
+    display: flex;
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    justify-content:space-evenly;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.lambda-image{
+    margin-bottom: 10px;
+
+
+}
+.city-image{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +141,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box1{
+    background: teal;
+} 
+.middle-content .boxes .box2{
+    background: gold;
+} 
+.middle-content .boxes .box3{
+    background: cadetblue;
+} 
+.middle-content .boxes .box4{
+    background: coral;
+} 
+.middle-content .boxes .box5{
+    background: crimson;
+} 
+.middle-content .boxes .box6{
+    background: forestgreen;
+} 
+.middle-content .boxes .box7{
+    background: darkorchid;
+} 
+.middle-content .boxes .box8{
+    background: hotpink;
+} 
+.middle-content .boxes .box9{
+    background: indigo;
+} 
+.middle-content .boxes .box10{
+    background: dodgerblue;
+} 
 
 .bottom-content {
     display: flex;
@@ -143,4 +203,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-title{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.strat{
+    width: 350px;
+    margin-right: 50px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.HWW{
+    width: 350px;
+    margin-right: 50px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.PWW{
+    width:350px;
+    margin-right: 50px;
+    border-bottom: 1px dashed black;
+    margin-bottom:30px;
+}
+.Collab{
+    width: 350px;
+    margin-right: 50px;
+    border-bottom: 1px dashed black;
+    margin-bottom:30px;
+}
+.middle-content-about img{
+margin-bottom: 10px;
+}
+
+.middle-content-about button{
+border-radius: 12px;
+font-size: 16px;
+padding: 9px 24px;
+border: 2px solid black;
+margin-top: 12px;
+margin-bottom: 20px;
+background-color: white;
+}
+ .bottom-content{
+    margin-bottom: 30px;
+}
+ .bottom{
+    margin-bottom: 40px;
 }
