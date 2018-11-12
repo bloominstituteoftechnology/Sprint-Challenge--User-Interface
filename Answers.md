@@ -5,7 +5,7 @@ Semantic HTML gives meaning to the browser through statements like "header", "h1
 The "display: block" property is the default property for most elements. It forces each element to take up the entire width of the page, therefore not allowing elements to be nested next to each other, but rather on top of each other vertically. The "display: block" property respects the set "width" and "height" properties, whereas the "display: inline" property does not. The inline property forces each element to take up the least amount of space possible and includes elements such as "span" and "a" tags that are typically placed on one line.
 
 3. What are the 4 areas of the box model?
-The four areas of the box model (in order) are: 1) content, 2) padding, 3) border, and 4) margin.
+The four areas of the box model (in order) are 1) content, 2) padding, 3) border, and 4) margin.
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 You would be using the "cross" axis.
