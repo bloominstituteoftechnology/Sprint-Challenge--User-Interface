@@ -17,7 +17,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 2%;
+	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -28,6 +28,48 @@ article, aside, details, figcaption, figure,
 footer, hgroup, menu, nav, section {
 	display: block;
 }
+
+.Section {
+    display: flex;
+}
+
+.Section2 {
+    display: flex;
+}
+
+
+.Office {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Meeting {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Strategy {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Working {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
 
 header{
     display: flex;
