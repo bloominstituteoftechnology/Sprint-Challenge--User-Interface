@@ -1,73 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Sprint Challenge - About</title>
+    <title>Sprint Challenge - About</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container about-page">
-     
-    About
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-
-    <img src="img/about-plan.png" alt="strategy">
+        <header>
+            <!-- desktop -->
+            <nav class="desktop">
+              <a href="index.html" class="logo"
+                ><img src="./img/lambda-black.png" alt="logo" />
+                <a href="index.html">Home</a></a
+              >
+              <a href="about.html">About</a> <a href="#">Products</a>
+              <a href="#">Blog</a> <a href="contact.html">Contact</a>
+            </nav>
     
-    Strategy
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+            <!-- hamburger and nav menu for moblie -->
+            <nav role="navigation" class="navigation">
+              <div id="menuToggle">
+                <input type="checkbox" /> <span></span> <span></span> <span></span>
+                <ul id="menu">
+                  <a href="index.html">Home</a>
+                  <a href="about.html">About</a>
+                  <a href="#">Products</a>
+                  <a href="#">Blog</a>
+                  <a href="contact.html">Contact</a>
+                </ul>
+              </div>
+              <a href="index.html" class="logo"
+              ><img src="./img/lambda-black.png" alt="logo"
+            /></a>
+            </nav>
+      
+          </header>
 
-    Learn More
+      <section class="jumbo_banner_about">
+        <img src="./img/jumbo-about.png" alt="sky-tower" />
+        <h2>About</h2>
+        <p>
+          Leverage agile frameworks to provide a robust synopsis for high level
+          overviews. Iterative approaches to corporate strategy foster
+          collaborative thinking to further the overall value proposition.
+          Organically grow the holistic world view of disruptive innovation via
+          workplace diversity and empowerment.
+        </p>
+      </section>
 
+      <section class="main">
+        <div>
+          <img src="img/about-plan.png" alt="strategy" />
+          <h2>Strategy</h2>
+          <p>
+            Iterative approaches to corporate strategy foster collaborative
+            thinking to further the overall value proposition.
+          </p>
+          <button class="bubbly-button">Learn More</button>
+        </div>
 
+        <div>
+          <img src="img/about-working.png" alt="strategy" />
+          <h2>How We Work</h2>
+          <p>
+            Iterative approaches to corporate strategy foster collaborative
+            thinking to further the overall value proposition.
+          </p>
+          <button class="bubbly-button">Learn More</button>
+        </div>
+        <div>
+          <img src="img/about-office.png" alt="strategy" />
+          <h2>Places We Work</h2>
+          <p>
+            Iterative approaches to corporate strategy foster collaborative
+            thinking to further the overall value proposition.
+          </p>
+          <button class="bubbly-button">Learn More</button>
+        </div>
+        <div>
+          <img src="img/about-meeting.png" alt="strategy" />
+          <h2>Collaboration</h2>
+          <p>
+            Iterative approaches to corporate strategy foster collaborative
+            thinking to further the overall value proposition.
+          </p>
+          <button class="bubbly-button">Learn More</button>
+        </div>
+      </section class="bubbly-button">
 
-    <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+      <section class="lets_work">
+        <h2>Let's Work Together</h2>
+        <p>
+          Leverage agile frameworks to provide a robust synopsis for high level
+          overviews. Iterative approaches to corporate strategy foster
+          collaborative thinking to further the overall value proposition.
+          Organically grow the holistic world view of disruptive innovation via
+          workplace diversity and empowerment.
+        </p>
+      </section class="bubbly-button">
 
-    Learn More
-
-
-
-    <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
-
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    Let's Work Together
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
       <footer>
         <nav>
-          <a href="index.html">Home</a>
-          <a href="#">About</a>
-          <a href="#">Products</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
+          <a href="index.html">Home</a> <a href="about.html">About</a>
+          <a href="#">Products</a> <a href="#">Blog</a>
+          <a href="contact.html">Contact</a>
         </nav>
       </footer>
-    </div><!-- container -->        
-</body>
+    </div>
+    <!-- container -->
+    <script src="index.js"></script>
+  </body>
 </html>
