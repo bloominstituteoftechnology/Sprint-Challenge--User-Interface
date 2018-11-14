@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +144,168 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Header Styling */
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.nav a{
+	display: inline-flex;
+	margin: 30px;
+	text-decoration: none;
+
+	font-weight: 200;
+}
+
+/* img Styling */
+.container .main-image {
+    margin: 20px 0;
+}
+
+.container .main-image_contact img{ 
+    width: 800px;
+    height: 153px;
+}
+/* Box Styling */
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color:dodgerblue;
+}
+
+/* About Page Styling */
+
+.container .about-page{
+    padding: 0 30px 30px 30px;
+    border-bottom: black dashed 1px;
+}
+
+.container .cta {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .cta .cta-section{
+    margin: 20px;
+    width: 45%;
+    border-bottom: gray 1px dashed;
+}
+
+.container .cta .cta-section img{
+    margin-bottom: 15px;
+}
+
+.container .cta .cta-section a{
+    padding: 10px 25px;
+    display: inline-block;
+    border: black solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.container .about-page-bottom{
+    padding: 40px;
+}
+
+/* Contact Page Styling */
+
+
+.container .contact-heading{
+	text-align: center;
+	font-size: 60px;
+    border-bottom: dashed gray 1px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.container .form{
+    display: flex;
+    justify-content: center;
+    border: black 2px solid;
+    padding: 30px;
+    background-color: #F4F7F6;
+}
+
+.form form{
+    width: 50%;
+}
+.form .form-list label{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.form .form-list input, .form .form-list textarea{
+    margin: 10px;
+    border: none;
+    width: 200px;
+    border: 1px black solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+.form .form-list li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .form-list button{
+    border: 2px solid black;
+	padding: 10px 40px;
+	text-decoration: none;
+	color: black;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+/* Animations */
+h2{
+    transition: all .5s;
+}
+
+h2:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1)
+}
+
