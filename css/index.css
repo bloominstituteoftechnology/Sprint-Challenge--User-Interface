@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* project css */
+
 * {
     box-sizing: border-box;
 }
@@ -144,3 +146,226 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my code here */
+
+/* navbar */
+
+.nav-container {
+    background: black;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-container nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.nav-container nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-container p {
+    color: white;
+    display: none;
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+/* header img*/
+
+header {
+    margin-bottom: 20px;
+}
+
+/* home content */
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* border-bottom: 1px dashed black; */
+
+/* about page css */
+
+.about-header {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+header p {
+    margin: 0 2.5% ;
+}
+
+.about-content {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.about-inner {
+    margin: 0 2.5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textitems {
+    display: flex;
+    flex-direction: column;
+}
+
+.strategy .about-inner .textitems{
+    margin-left: 20px;
+}
+
+.how-we-work .about-inner {
+    flex-direction: row-reverse;
+}
+
+.places-we-work .about-inner .textitems{
+    margin-left: 20px;
+}
+
+.collab .about-inner {
+    flex-direction: row-reverse;
+}
+
+.about-content a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    font-weight: 800;
+    font-size: large;
+
+}
+
+.worktogether {
+    margin: 20px 2.5% ;
+    text-align: center;
+}
+
+.about-content img {
+    width: 370px;
+}
+
+/* contact page */
+header h1 {
+    margin: 0 2.5%;
+    font-size: xx-large;
+}
+
+/* css animations */
+.about-content a:hover {
+    animation-name: learn-more;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* blog page */
+
+.blogspace {
+    margin: 2rem 2.5%;
+}
+
+.blogitem img {
+    width: 400px;
+}
+
+@keyframes learn-more {
+    0% {
+        color: blue;
+    }
+    50%{
+        color: red;
+    }
+    100% {
+        font-size: 50px;
+        color: yellow;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    footer {
+        display: none;
+    }
+    nav a{
+        display: none;
+    }
+    .nav-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-container p {
+        margin-bottom: 5px;
+        display: block;
+    }
+  
+    header img{
+        display: none;
+    }
+    .about-inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collab .about-inner{
+        flex-direction: column;
+    }
+
+    .how-we-work .about-inner{
+        flex-direction: column;
+    }
+
+    section {
+        max-width: 100%;
+    }
+
+}
+
