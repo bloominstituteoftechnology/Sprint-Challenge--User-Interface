@@ -46,31 +46,83 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* General Styles */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
+/***UNIVERSAL CLASSES***/
 .container {
     width: 800px;
     margin: 0 auto;
 }
+.flex{
+    display:flex;
+}
+/* Navigation */
+.navbar{
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: baseline;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:red;
+    font-size: 1.5em;
+}
 
+nav{
+    justify-content: space-around; 
+    align-items: center;
+    width: 75%;
+}
+/* Background Colors */
+.bg-teal{
+    background-color:teal;
+}
+.bg-gold{
+    background-color: gold;
+}
+.bg-cadetblue{
+    background-color: cadetblue;
+}
+.bg-coral{
+    background-color:coral;
+}
+.bg-crimson{
+    background-color:crimson;
+}
+.bg-forestgreen{
+    background-color:forestgreen;
+}
+.bg-darkorchid{
+    background-color: darkorchid;
+}
+.bg-hotpink{
+    background-color: hotpink;
+}
+.bg-indigo{
+    background-color:indigo;
+}
+.bg-dodgerblue{
+    background-color:dodgerblue;
+}
+/***HOME PAGE STYLES***/
+/* Top */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,59 +130,59 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img{
+    margin: 10px 0 40px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.top-content .text-about{
+    width: 95%;
+    padding-bottom: 20px;  
+}
+/* Middle */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+/* Bottom */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* Footer */
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,8 +191,72 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/***ABOUT PAGE STYLES***/
+.about-middle{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 4% auto 1%;
+}
+.middle-card{
+    width: 48%;
+    border-bottom: 1px dotted black;
+    padding: 0 0 5%;
+    margin: 0 0 5%;
+}
+.middle-card img{
+    width: 100%;
+}
+.middle-card h2{
+    padding: 3% 0;
+}
+.middle-card p{
+    margin: 3% 0 40px;
+}
+.middle-card a{
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 35px;
+    margin: 20px 0 0;
+}
+.about-bottom{
+    margin-bottom: 5%;
+    width: 95%;
+    margin: 0 auto 5%;
+}
+/***CONTACT PAGE STYLES***/
+.contact-header{
+    width: 95%;
+    margin: 30px auto;
+}
+.full-name{
+    width: 100%;
+    justify-content: space-between;
+}
+.contact-form{
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 20px auto 100px;
+}
+input{
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px 0 gray;
+    border-width: 1px;
+    border-radius: .25rem;
+    border-color: cadetblue;
+    background-color: white;
+}
+.name{
+    width: 48%;
+}
+form label{
+    margin: 15px 0 10px;
 }
