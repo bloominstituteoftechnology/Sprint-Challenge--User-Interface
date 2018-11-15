@@ -22,9 +22,9 @@ In this challenge, you build a missing header (navigation and image) on the home
 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
 
-[Screenshot of home page](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png){:target="_blank"}
+[Screenshot of home page](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png){target="_blank"}
 
-[Screenshot of about page](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png){:target="_blank"}
+[Screenshot of about page](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png){target="_blank"}
 
 ## Self-Study Questions
 
