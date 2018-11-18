@@ -76,13 +76,31 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    padding: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+
+.nav-img {
+    margin-left: -20px;
+}
+
+.box1{background-color: teal;}
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
+}
+
+.top-content-border {
+    border-bottom: 1px dashed black;
 }
 
 .middle-content {
@@ -104,13 +122,23 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.b-1 {background-color: teal;}
+.b-2 {background-color: gold;}
+.b-3 {background-color: cadetblue;}
+.b-4 {background-color: coral;}
+.b-5 {background-color: crimson;}
+.b-6 {background-color: forestgreen;}
+.b-7 {background-color: darkorchid;}
+.b-8 {background-color: hotpink;}
+.b-9 {background-color: indigo;}
+.b-10 {background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -143,4 +171,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*About page //////////////////////////////////*/
+
+.top-content-about {
+    margin-left: 30px;
+    padding-bottom: 8px;
+}
+
+.jumbo-img {
+    margin-top: 20px;
+        
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.section-one-bb {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+
+.div-sec-one {
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.about-info {
+    display: flex;
+    margin-top: 2px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+   
+}
+
+.selections {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+
+}
+
+.selections-2 {
+    border-bottom: 1px dashed black;
+}
+
+button {
+    margin-top: 10px;
+    padding: 6px 20px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.last-min-spacing {
+    margin-top: 30px;
+}
+
+.div-sec-mar {
+    margin-bottom: 20px;
+}
+
+.selections-h2 {
+    margin-top: 10px;
 }
