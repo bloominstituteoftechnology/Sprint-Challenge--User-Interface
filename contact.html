@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav-bar animate-pop-in">
+            <img class="lambda-logo" src="img/lambda-black.png" alt="Lambda School Logo">
+
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#">Products</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <h1 class="contact-us animate-pop-in">Contact Us</h1>
+
+        <div id="outer-form">
+            <p id="description">Please contact us with any question you may have</p>
+
+            <form action="contact-form">
+
+                <div class="formRow">
+                    <div class="labelForm">
+                        <label id="labelName" for="name">* Name:</label>
+                    </div>
+                    <div class="tabs">
+                        <input autofocus type="text" id="name" name="name" class="inputFields" placeholder="Enter your name" required>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="labelForm">
+                        <label id="email-label" for="email">* Email:</label>
+                    </div>
+                    <div class="tabs">
+                        <input autofocus type="text" id="email" name="email" class="inputFields" placeholder="Enter your E-mail" required>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="labelForm">
+                        <label id="number-label" for="name">* Age:</label>
+                    </div>
+                    <div class="tabs">
+                        <input autofocus type="number" id="number" min="1" max="125" name="age" class="inputFields" placeholder="Age" required>
+                    </div>
+                    <div class="labelForm">
+                        <label for="current-role">* What information are you looking for?</label>
+                    </div>
+                    <div class="tabs">
+                        <select name="current-role" id="dropdown" class="dropdown">
+                            <option disabled value>Select an option</option>
+                            <option value="admission">Admission</option>
+                            <option value="finacial aid">Financial Aid</option>
+                            <option value="curriculum">Curriculum</option>
+                            <option value="preferNot">Prefer not to answer</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="formRow">
+                    <div class="labelForm">
+                        <label for="userRating">* How likely is it that you would recommend Lambda to a friend?</label>
+                    </div>
+                    <div class="tabs">
+                        <ul style="list-style: none;">
+                            <li><label>Definitely<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+                            <li><label>Maybe<input name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+                            <li><label>Not sure<input name="radio-buttons" value="3" type="radio" class="userRatings"></label></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="labelForm">
+                        <label for="comments">Any Comments or Suggestions?</label>
+                    </div>
+                    <div class="tabs">
+                        <textarea id="comments" class="inputFields" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div>
+                <button id="submit" type="submit">Submit</button>
+
+
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
