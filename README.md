@@ -13,9 +13,11 @@
 
 * [ ] Fork the project into your GitHub user account
 * [ ] Clone the forked project into a directory on your machine
+* [ ] Create a branch called `develop` on your local build
+* [ ] Set your HEAD to your newly created `develop` branch
 * [ ] You are now ready to build this project with your preferred IDE
 
-#### Pro tip: Commit every time you have completed a task or feature!
+#### Pro tip: Commit every time you complete a task or feature!
 
 ## Task 2: Comprehension Questions
 Answer the following questions to the best of your ability. You can exercise your Googling skills and use training kit.  Open up the [Answers.md](Answers.md) file and record your responses there.
@@ -54,8 +56,11 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
-## Task 5: Push Updates and Pull Request
-* [ ] Once you have completed tasks 1-4, push all your commits up to your master branch  
+## Task 5: Merge & Pull Request
+* [ ] Once you have completed tasks 1-4, push all your commits up to your `develop` branch.  
+* [ ] Switch your HEAD to `master`
+* [ ] Merge the `develop` branch into `master`
+* [ ] Push all your updates up to master
 * [ ] Create a pull request back to the original `fork`
 
 **Congratulations, you completed the sprint challenge!**
@@ -64,5 +69,5 @@ You will also notice there are 10 boxes on the home page that need background co
 Stretch goals are only available if you complete every task listed above.  **Do not work on them until your pull request is in.**
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
-* [ ] Build a contact page and create a form with several inputs of your choosing
+* [ ] Build the contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
