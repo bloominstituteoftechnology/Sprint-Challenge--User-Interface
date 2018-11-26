@@ -299,3 +299,7 @@ button {
     font: 1em sans-serif;
     cursor: pointer;
 }
+
+.bottom-about {
+    margin: 40px auto;
+}
