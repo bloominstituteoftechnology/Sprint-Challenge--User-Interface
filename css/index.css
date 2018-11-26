@@ -274,12 +274,28 @@ footer nav a {
 .top-about{
     display: flex;
     padding: 15px auto;
+
 }
 
 .middle-about{
     display: flex;
+    padding: 15px auto;
 }
 
 section {
     padding: 25px 0;
+    border-bottom: dashed 1px black;
+
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 15px 0;
+    font: 1em sans-serif;
+    cursor: pointer;
 }
