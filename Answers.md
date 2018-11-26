@@ -12,3 +12,5 @@ margin, border, padding, and the elements itself
 
 
 5. What is the git command to commit staged changes as well as write a message?
+
+git commit -m
