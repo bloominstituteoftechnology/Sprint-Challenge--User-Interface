@@ -66,6 +66,35 @@ p {
     line-height: 1.4;
 }
 
+body{
+    border: 0px solid black;
+    width: 800px;
+    margin: 0 auto;
+}
+
+ header{
+    width: 800px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+ nav{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    width: 800px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.road {
+    width: 800px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +141,116 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7 {
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +283,108 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about.html */
+.jumbo {
+    padding-bottom: 10px;
+}
+
+#about {
+    border-bottom: 2px dotted black;
+}
+
+#about h2 {
+    margin-left: 25px;
+}
+
+#about p {
+    margin-left: 25px;
+    padding-bottom: 15px;
+}
+
+#strategy-work {
+    display: flex;
+    width: 800px;
+    margin: 20px 0px 40px 0px;
+}
+
+.strategy {
+    width: 400px;
+    margin: 8px;
+    border-bottom: 1px dotted black;
+}
+
+.strategy h2 {
+    margin: 10px 0px 10px 0px
+}
+
+.strategy p {
+    margin: 10px 0px 10px 0px
+}
+
+.work {
+    width: 400px;
+    margin: 8px;
+    border-bottom: 1px dotted black;
+}
+
+.work h2 {
+    margin: 10px 0px 10px 0px
+}
+
+.work p {
+    margin: 10px 0px 10px 0px
+}
+
+#places-collab {
+    display: flex;
+    width: 800px;
+    margin: 20px 0px 40px 0px;
+}
+
+.places {
+    width: 400px;
+    margin: 8px;
+    border-bottom: 2px dotted black;
+}
+
+.places h2 {
+    margin: 10px 0px 10px 0px
+}
+
+.places p {
+    margin: 10px 0px 10px 0px
+}
+
+.collab {
+    width: 400px;
+    margin: 8px;
+    border-bottom: 2px dotted black;
+}
+
+.collab h2 {
+    margin: 10px 0px 10px 0px
+}
+
+.collab p {
+    margin: 10px 0px 10px 0px
+}
+
+button {
+    padding: 6px 15px 6px 15px;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+#together {
+    width: 800px;
+    margin: 20px 0px 40px 10px;
+}
+
+
+
+
+
+
