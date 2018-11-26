@@ -263,3 +263,23 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px auto;
+    border-bottom: dashed 1px black;
+}
+
+.top-about{
+    display: flex;
+    padding: 15px auto;
+}
+
+.middle-about{
+    display: flex;
+}
+
+section {
+    padding: 25px 0;
+}
