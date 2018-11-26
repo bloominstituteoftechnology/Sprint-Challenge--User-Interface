@@ -1,0 +1,91 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header nav  {
+  margin-top: 10px;
+  display: flex;
+  padding: 30px 2%;
+  background: none;
+  font-size: 16px;
+}
+header nav, a {
+  text-decoration: none;
+  padding: 28px 40px 1px 15px;
+  width: 900px;
+  color: black;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.lam-img {
+  padding: 0px 40px 0px 80px;
+  width: 300px;
+  background: none;
+}
+.skyline {
+  background: none;
+  display: flex;
+  align-item: stretch;
+  justify-content: flex-start;
+  padding: 15px 40px 0px 90px;
+  width: 300px;
+}
+p {
+  line-height: 1.4;
+}
+
+.page-pos .card {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.4;
+}
