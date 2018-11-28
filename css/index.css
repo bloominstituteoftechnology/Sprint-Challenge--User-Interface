@@ -306,6 +306,10 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+footer nav a:hover {
+  color: #888;
+  transition: color 0.5s;
+}
 
 /* ABOUT PAGE */
 
@@ -334,7 +338,7 @@ footer nav a {
 .about_middle-btm__right {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  flex-basis: 45%;
 }
 
 .about_middle-top__left-h2,
@@ -371,4 +375,47 @@ footer nav a {
 
 .about-bottom {
   padding: 50px 15px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .jumbo-about {
+    width: 100%;
+    height: 200px;
+  }
+
+  .about-middle-top,
+  .about-middle-btm {
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .about_middle-top__left,
+  .about_middle-top__right,
+  .about_middle-btm__left,
+  .about_middle-btm__right {
+    flex-direction: column;
+    flex-basis: 100%;
+    margin-bottom: 50px;
+    padding: 0 15px;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  footer nav {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  footer nav a {
+    line-height: 30px;
+  }
 }
