@@ -242,6 +242,38 @@ p {
   justify-content: center;
 }
 
+.middle-content > .boxes > .boxes__box-1 {
+  background-color: teal;
+}
+
+.middle-content > .boxes > .boxes__box-2 {
+  background-color: gold;
+}
+.middle-content > .boxes > .boxes__box-3 {
+  background-color: cadetblue;
+}
+.middle-content > .boxes > .boxes__box-4 {
+  background-color: coral;
+}
+.middle-content > .boxes > .boxes__box-5 {
+  background-color: crimson;
+}
+.middle-content > .boxes > .boxes__box-6 {
+  background-color: forestgreen;
+}
+.middle-content > .boxes > .boxes__box-7 {
+  background-color: darkorchid;
+}
+.middle-content > .boxes > .boxes__box-8 {
+  background-color: hotpink;
+}
+.middle-content > .boxes > .boxes__box-9 {
+  background-color: indigo;
+}
+.middle-content > .boxes > .boxes__box-10 {
+  background-color: dodgerblue;
+}
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
