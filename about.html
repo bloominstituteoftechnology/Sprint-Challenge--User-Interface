@@ -11,27 +11,67 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
     <div class="container about-page">
-      <nav class="navbar">
-        <a href="index.html"
+      <nav class="navbar" id="nav">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <a href="index.html" class="nav-brand"
           ><img
             class="navbar__logo"
             src="img/lambda-black.png"
             alt="Lambda Logo"
         /></a>
-        <ul class="navbar__links">
-          <li class="navbar__links-link"><a href="index.html">Home</a></li>
+        <ul class="navbar__links" id="js-menu">
           <li class="navbar__links-link">
-            <a class="active" href="about.html">About</a>
+            <a class="nav-links" href="index.html">Home</a>
           </li>
-          <li class="navbar__links-link"><a href="#">Products</a></li>
-          <li class="navbar__links-link"><a href="#">Blog</a></li>
-          <li class="navbar__links-link"><a href="#">Contact</a></li>
+          <li class="navbar__links-link">
+            <a class="nav-links active" href="about.html">About</a>
+          </li>
+          <li class="navbar__links-link">
+            <a class="nav-links" href="#">Products</a>
+          </li>
+          <li class="navbar__links-link">
+            <a class="nav-links" href="#">Blog</a>
+          </li>
+          <li class="navbar__links-link">
+            <a class="nav-links" href="#">Contact</a>
+          </li>
         </ul>
       </nav>
+
+      <script>
+        let mainNav = document.getElementById("js-menu");
+        let navBarToggle = document.getElementById("js-navbar-toggle");
+
+        navBarToggle.addEventListener("click", function() {
+          mainNav.classList.toggle("activeM");
+        });
+
+        let nav = document.getElementById("nav");
+
+        window.onscroll = () => {
+          if (window.pageYOffset > 100) {
+            nav.style.background = "white";
+            nav.style.boxShadow = "0px 3px 5px 1px #E5E5E5";
+            nav.style.opacity = "0.95";
+          } else {
+            nav.style.background = "white";
+            nav.style.boxShadow = "none";
+            nav.style.opacity = "1";
+          }
+        };
+      </script>
 
       <img
         src="img/jumbo-about.png"
