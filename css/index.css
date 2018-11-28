@@ -306,3 +306,69 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+/* ABOUT PAGE */
+
+.jumbo-about {
+  margin-bottom: 50px;
+}
+
+.about-top {
+  padding: 0px 15px;
+  padding-bottom: 50px;
+  border-bottom: 1px dashed black;
+}
+
+.about-middle-top,
+.about-middle-btm {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dashed black;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.about_middle-top__left,
+.about_middle-top__right,
+.about_middle-btm__left,
+.about_middle-btm__right {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.about_middle-top__left-h2,
+.about_middle-top__right-h2,
+.about_middle-btm__left-h2,
+.about_middle-btm__right-h2 {
+  margin-top: 15px;
+}
+
+.about-middle-top > .about_middle-top__left > a,
+.about-middle-top > .about_middle-top__right > a,
+.about-middle-btm > .about_middle-btm__left > a,
+.about-middle-btm > .about_middle-btm__right > a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 35%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  color: black;
+}
+.about-middle-top > .about_middle-top__left > a:hover,
+.about-middle-top > .about_middle-top__right > a:hover,
+.about-middle-btm > .about_middle-btm__left > a:hover,
+.about-middle-btm > .about_middle-btm__right > a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.about-bottom {
+  padding: 50px 15px;
+}
