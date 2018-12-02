@@ -151,6 +151,11 @@ nav > a:hover, a:focus {
     margin-top: 1rem;
 }
 
+.card > button:hover, button:focus {
+    background-color: #111;
+    color: #fff;
+}
+
 /* Bottom Section
 =========================*/
 
