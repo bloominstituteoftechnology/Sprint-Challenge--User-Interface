@@ -74,6 +74,12 @@ p {
 /* Custom Styles 
 =========================*/
 
+:root {
+    --dark: #111;
+    --light: #fff;
+    --grey: #7b7b7b;
+}
+
 
 /* Navigation
 =========================*/
@@ -93,12 +99,13 @@ nav {
 
 nav > a {
     text-decoration: none;
-    color: #111;
+    color: var(--dark);
     font-weight: 600;
 }
 
 nav > a:hover, a:focus {
-    color: #7b7b7b;
+    color: var(--grey);
+    outline: none;
 }
 
 /* Header image
@@ -114,7 +121,7 @@ nav > a:hover, a:focus {
 
 .about {
     padding: 0 0 2rem;
-    border-bottom: 2px dotted #111;
+    border-bottom: 2px dotted var(--dark);
 }
 
 
@@ -129,7 +136,7 @@ nav > a:hover, a:focus {
 
 .card {
     padding: 2rem 0;
-    border-bottom: 2px dotted #111;
+    border-bottom: 2px dotted var(--dark);
 }
 
 .card > h3 {
@@ -147,13 +154,14 @@ nav > a:hover, a:focus {
     border-radius: 0.7rem;
     background-color: transparent;
     font-size: 1rem;
-    border: 2px solid #111;
+    border: 2px solid var(--dark);
     margin-top: 1rem;
 }
 
 .card > button:hover, button:focus {
-    background-color: #111;
-    color: #fff;
+    background-color: var(--dark);
+    color: var(--light);
+    outline: none;
 }
 
 /* Bottom Section
@@ -167,10 +175,10 @@ nav > a:hover, a:focus {
 =========================*/
 
 footer {
-    background-color: #111;
+    background-color: var(--dark);
     bottom:0;
 }
 
 footer > nav > a {
-    color: #fff;
+    color: var(--light);
 }
