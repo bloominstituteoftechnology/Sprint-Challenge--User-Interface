@@ -87,6 +87,7 @@ nav {
 nav > a {
     text-decoration: none;
     color: #111;
+    font-weight: 600;
 }
 
 nav > a:hover, a:focus {
