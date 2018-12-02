@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+.nav-container {
+    margin: 2rem 0 0 0.5rem;
+    display: flex;
+    align-items: baseline;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #111;
+}
+
+nav > a:hover, a:focus {
+    color: #7b7b7b;
+}
+
+#jumbo {
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
