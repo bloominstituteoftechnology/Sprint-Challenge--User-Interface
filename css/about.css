@@ -74,6 +74,10 @@ p {
 /* Custom Styles 
 =========================*/
 
+
+/* Navigation
+=========================*/
+
 .nav-container {
     margin: 2rem 0 0 0.5rem;
     display: flex;
@@ -97,7 +101,71 @@ nav > a:hover, a:focus {
     color: #7b7b7b;
 }
 
+/* Header image
+=========================*/
+
 #jumbo {
     max-width: 100%;
     margin: 2rem 0;
+}
+
+/* About Section
+=========================*/
+
+.about {
+    padding: 0 0 2rem;
+    border-bottom: 2px dotted #111;
+}
+
+
+/* Card Section
+=========================*/
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.card {
+    padding: 2rem 0;
+    border-bottom: 2px dotted #111;
+}
+
+.card > h3 {
+    padding-top: 0.5rem;
+}
+
+.card > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card > button {
+    width: 8rem;
+    height: 2.4rem;
+    border-radius: 0.7rem;
+    background-color: transparent;
+    font-size: 1rem;
+    border: 2px solid #111;
+    margin-top: 1rem;
+}
+
+/* Bottom Section
+=========================*/
+
+.bottom-section {
+    padding: 4rem 0 3rem;
+}
+
+/* Bottom Section
+=========================*/
+
+footer {
+    background-color: #111;
+    bottom:0;
+}
+
+footer > nav > a {
+    color: #fff;
 }
