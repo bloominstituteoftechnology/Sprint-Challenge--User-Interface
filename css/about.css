@@ -67,7 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -162,6 +163,7 @@ nav > a:hover, a:focus {
     background-color: var(--dark);
     color: var(--light);
     outline: none;
+    cursor: pointer;
 }
 
 /* Bottom Section
