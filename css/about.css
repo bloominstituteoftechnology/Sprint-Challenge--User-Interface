@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 100%;
+    width: 95%;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -183,4 +183,19 @@ footer {
 
 footer > nav > a {
     color: var(--light);
+}
+
+/* Media Queries
+=========================*/
+
+@media (max-width: 600px) {
+    .card-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-container {
+        display: block;
+    }
 }
