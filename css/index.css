@@ -71,11 +71,42 @@ p {
     margin: 0 auto;
 }
 
+/*
+    HEADER DECLARATIONS
+*/
+
+header{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    margin:35px 0 15px;
+}
+
+nav a{
+    justify-content: space-around;
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.headerBanner{
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -83,6 +114,12 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-page{
+ width: 100%;
+ padding: 0 1%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -102,15 +139,88 @@ p {
 }
 
 .middle-content .boxes .box {
+    flex-wrap: nowrap;
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxes-about{
+width: 400px;
+}
+
+.boxes-individual{
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    margin: 10px 10px 60px;
+    /* background-color: whitesmoke; */
+    border-bottom: 1px dashed black;
+}
+
+/* .middle-content img{
+    width: 330px;
+} */
+
+button {
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 20px;
+    border: solid 2px black;
+    /* border-bottom: solid 2px lightgrey; */
+    background: white;
+    margin: 17px 0;
+}
+
+.box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -126,6 +236,10 @@ p {
     padding-right: 0;
 }
 
+.bottom-content .about-text-container{
+    margin-bottom: 30px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -133,10 +247,12 @@ footer {
 
 footer nav {
     width: 60%;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    margin: 2px 0;
+    padding: 2px 2%;
     font-size: 14px;
 }
 
