@@ -71,6 +71,59 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 10px solid red; */
+    flex-direction: row
+    
+  }
+
+  header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 5px solid purple; */
+    width: 550px;
+    vertical-align: top;
+    margin-top: 0px;
+    padding-top: 20px
+}
+
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 20px
+}
+
+header .logo {
+ display: flex;
+ justify-content: flex-start;
+ order: -1;
+ /* border: 5px dashed blue; */
+
+}
+
+header .middleimg {
+display: flex;
+display: wrap;
+align-self: flex-end;
+/* border: 5px dashed green; */
+padding-bottom: 20px
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +164,59 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:nth-child(1) {background: teal;} 
+.middle-content .boxes .box:nth-child(2) {background: gold;}
+.middle-content .boxes .box:nth-child(3) {background: cadetblue;}
+.middle-content .boxes .box:nth-child(4) {background: coral;}
+.middle-content .boxes .box:nth-child(5) {background: crimson;}
+.middle-content .boxes .box:nth-child(6) {background: forestgreen;}
+.middle-content .boxes .box:nth-child(7) {background: darkorchid;}
+.middle-content .boxes .box:nth-child(8) {background: hotpink;}
+.middle-content .boxes .box:nth-child(9){background: indigo;}
+.middle-content .boxes .box:nth-child(10){background: dodgerblue;}
+
+.middle-content-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.middle-content-about-page .about-middle-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.middle-content-about-page .article-about{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ width: 385px;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ /* justify-content: center;  */
+ border-bottom: 1px dashed black;
+ /* border: 5px solid blue; */
+}
+
+button {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+    border-radius: 12px;
+    
+}
+
 
 .bottom-content {
     display: flex;
