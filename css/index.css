@@ -65,11 +65,58 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* ----------BEGINNING------------*/
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* -------Header CSS Properies ------------ */
+
+header{
+    display: flex;
+    width: 1100px;
+}
+
+
+header nav {
+    display: flex;
+    width: 691 px;
+    margin-top: 25px;
+    flex-direction: row;
+    align-items:center;
+}
+
+  header nav a {
+    display: flex;
+    margin-right:93px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+  }
+
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  header .logo {
+    display: flex;
+    margin-top: 30px auto;
+    padding: 30px;
+    order: -1;
+    flex-direction: row;
+    align-items: center;
+  }
+
+/* ----Top Content---- */
 
 .top-content {
     display: flex;
@@ -112,6 +159,47 @@ p {
     justify-content: center;
 }
 
+#Box1 {
+    background-color: teal;
+}
+
+#Box2 {
+    background-color: gold;
+}
+
+#Box3 {
+    background-color: cadetblue;
+}
+
+#Box4 {
+    background-color: coral;
+}
+
+#Box5 {
+    background-color: crimson;
+}
+
+#Box6 {
+    background-color: forestgreen;
+}
+
+#Box7 {
+    background-color: darkorchid;
+}
+
+#Box8 {
+    background-color: hotpink;
+}
+
+#Box9 {
+    background-color: indigo;
+}
+
+#Box10 {
+    background-color: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +212,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.logo2{
+    padding: 20px;
 }
 
 footer {
@@ -144,3 +236,63 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* About Page CSS */
+
+.container about-page{
+    display: flex;
+    
+}
+
+.aboutsection{
+    border-bottom: 1.5px dotted indigo;
+    padding:20px
+}
+
+.Entire-Middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Entire-Middle .tophalf button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+  .Entire-Middle .bottomhalf button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+
+
+ .half1{
+    border-bottom: 1.5px dotted indigo;
+    padding: 20px;
+}
+
+.half2{
+    border-bottom: 1.5px dotted indigo;
+    padding:20px;
+}
+
+.bhalf1{
+    border-bottom: 1.5px dotted indigo;
+    padding:20px;
+}
+
+.bhalf2{
+    border-bottom: 1.5px dotted indigo;
+    padding:20px;
+}
+ 
+
