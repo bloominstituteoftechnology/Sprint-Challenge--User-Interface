@@ -1,62 +1,155 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,10 +159,35 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.container header {
+    margin: 20px auto;
+}
+
+header nav{
+    margin: 25px auto;
+
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: black;
+}
+
 
 .top-content {
     display: flex;
@@ -82,7 +200,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -100,6 +218,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -133,7 +252,7 @@ footer {
 
 footer nav {
     width: 60%;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
@@ -143,4 +262,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px auto;
+    border-bottom: dashed 1px black;
+}
+
+.top-about{
+    display: flex;
+    padding: 15px auto;
+
+}
+
+.middle-about{
+    display: flex;
+    padding: 15px auto;
+}
+
+section {
+    padding: 25px 0;
+    border-bottom: dashed 1px black;
+
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 15px 0;
+    font: 1em sans-serif;
+    cursor: pointer;
+}
+
+.bottom-about {
+    margin: 40px auto;
 }
