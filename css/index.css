@@ -70,19 +70,45 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header nav{
+	display: flex;
+	vertical-align: top;
+	margin-top: 35px;
+	justify-content: space-between;
+	align-content: flex-end;
+    margin-bottom: 30px;
+}
 
+header nav a {
+    display: flex;
+    justify-content: space-between;
+	align-items: flex-end;
+	margin-right: 25px;
+ 	font-family: 'Rubik';
+ 	font-size: 14px;
+    text-decoration: none;
+    color: black;
+
+}
+
+header nav a:hover {
+	text-decoration: underline;
+  }
+  
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    margin-top: 30px; 
 }
 
 .middle-content {
@@ -111,7 +137,42 @@ p {
     align-items: center;
     justify-content: center;
 }
+#one {
+    background: teal;
+}
+#two {
+    background: gold;
+}
 
+#three {
+    background: cadetblue;
+}
+
+#four {
+    background: coral;
+}
+
+#five {
+    background: crimson;
+}
+#six {
+    background: forestgreen;
+}
+
+#seven {
+    background: darkorchid;
+}
+
+#eight {
+    background: hotpink;
+}
+#nine {
+    background: indigo;
+}
+
+#ten {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +204,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about page  */
+.about-top-content {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+}
+.about-pic {
+    margin: 10px 0 20px;
+}
+
+.about-middle-content {
+    margin-top: 30px;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box-content {
+		
+    width: 380px;
+    margin: 15px 0;
+    border-bottom: 1px dashed black;
+}
+.box-content h4 {
+    margin-top: 15px;
+}
+.box-content p {
+    line-height: 1.25;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.box-content button {
+background: white;
+vertical-align: top;
+margin: 15px 0;
+padding: 8px 44px;
+font-size: 14px;
+border: 1px solid black;
+cursor: pointer;
+border-radius: 6px;
+}
+.box-content button:hover {
+background: black;
+color: white;
+}
+
+.about-bottom-content {
+    margin: 25px 0;
 }
