@@ -148,7 +148,16 @@ footer nav a {
 
 /* start of my code */
 
+html {
+    background: black;
+}
 
+.container {
+    background: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    box-sizing: content-box;
+}
 
 .nav-header {
     display: flex;
