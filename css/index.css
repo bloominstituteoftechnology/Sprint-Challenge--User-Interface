@@ -144,3 +144,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Header/NavBar==================================*/
+.navigationBar {
+	height: 60px;
+	width: 800px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.navigationBar nav {
+    align-self: center;
+}
+
+.navigationBar img {
+	align-self: center;
+}
+
+.navigationBar nav a {
+    margin: 0px 20px 0px 50px;
+    color: black;
+}
+
+/*Top Image==================================*/
+.banner {
+    width: 800px;
+    height: 153px;
+}
+
+.topImg {
+    margin-bottom: 30px;
+}
