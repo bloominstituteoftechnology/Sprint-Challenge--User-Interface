@@ -298,3 +298,14 @@ header nav a {
 .hero img {
   margin-bottom: 2rem;
 }
+
+.btn-primary:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-nav:hover {
+  transform: scale(1.25) translateY(-1px);
+  transition: 0.3s;
+}

@@ -1,0 +1,33 @@
+.contact-us h2 {
+  font-size: 20px;
+}
+.contact-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.form-contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form a {
+  border: 2px solid black;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  height: 2rem;
+  width: 50%;
+}
