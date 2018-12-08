@@ -250,7 +250,6 @@ nav a {
     justify-content: space-evenly;
     flex: 50%;
     padding: 4% 1%;
-    border: 1px solid black;
 }
 
 .about-middle-content {
@@ -259,7 +258,7 @@ nav a {
     flex-direction: column;
     width: 300px;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border-bottom: 1px dash black;
 }
 
 .about-middle-content .text-container {
