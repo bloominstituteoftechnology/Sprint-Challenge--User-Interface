@@ -24,6 +24,41 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+
+.navBar  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    background: white;
+    width: 800px;
+    margin-bottom: 10px;
+   }
+
+   .ops {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    width: 800px;
+    padding-bottom: 10px;
+  
+ }
+ 
+ .serv, .prod, .vis, .feat, .abou, .cont {
+    background-color: white;
+    margin-top: 16px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+     
+ }
+ 
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -75,6 +110,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 70px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -84,7 +120,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.jumbo {
+    padding-bottom: 20px;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
