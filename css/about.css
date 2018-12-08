@@ -1,0 +1,19 @@
+.jumbo-img {
+  padding-bottom: 35px; 
+}
+
+.about-header {
+  display: flex;
+
+}
+
+.about-header h2 {
+  
+
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
