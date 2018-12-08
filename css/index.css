@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+	display: flex;
+	vertical-align: top;
+	margin-top: 34px;
+	justify-content: space-between;
+	align-content: flex-end;
+    margin-bottom: 32px;
+}
+
+ header nav a {
+    display: flex;
+    justify-content: space-between;
+	align-items: flex-end;
+	margin-right: 22px;
+ 	font-family: 'Rubik';
+ 	font-size: 15px;
+    text-decoration: none;
+    color: black;
+ }
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +106,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 30px;
 }
 
 .middle-content {
@@ -110,6 +135,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one {
+    background: teal;
+}
+#two {
+    background: gold;
+}
+ #three {
+    background: cadetblue;
+}
+ #four {
+    background: coral;
+}
+ #five {
+    background: crimson;
+}
+#six {
+    background: forestgreen;
+}
+ #seven {
+    background: darkorchid;
+}
+ #eight {
+    background: hotpink;
+}
+#nine {
+    background: indigo;
+}
+#ten {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +199,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about.html*/
+
+.top1 {
+    border-bottom: 1px dashed black;
+    padding-bottom: 23px;
+}
+
+.about-long {
+    margin: 10px 0 19px;
+}
+
+.top2 {
+    width: 350px;
+    margin: 15px 0;
+    border-bottom: 1px dashed black;
+}
+
+.box-content h3 {
+    margin-top: 15px;
+}
+
+.box-content p {
+    line-height: 1.5;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.box-content button {
+    background: white;
+    vertical-align: top;
+    margin: 12px 0;
+    padding: 9px 44px;
+    font-size: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.box-content button:hover {
+    background: black;
+    color: white;
+}
+
+.bottom2 {
+    margin: 24px 0;
 }
