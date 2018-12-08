@@ -145,6 +145,8 @@ footer nav a {
     text-decoration: none;
 }
 
+/* My code below */
+
 .top-nav{
     width: 80%;
     display: flex;
@@ -160,6 +162,6 @@ footer nav a {
     text-decoration: none;
 }
 
-.nav-logo{
-
+.header-img{
+    margin: 20px;
 }
