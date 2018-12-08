@@ -74,7 +74,16 @@ p {
 .topnav{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+}
 
+.topbar{
+    color: black;
+}
+
+.jumbo{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .top-content {
