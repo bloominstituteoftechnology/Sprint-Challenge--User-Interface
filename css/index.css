@@ -51,9 +51,69 @@ table {
     box-sizing: border-box;
 }
 
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+header {
+	width: 100%;
+	display: flex;
+    align-items: flex-end;
+    height: 30px;
+    margin-bottom: 24px;
+}
+
+nav {
+	width: 100%;
+	height: 100%;
+	border: 1px solid red;
+    padding-top: 8px;
+
+}
+
+nav a{
+	margin-right: 60px;
+	text-decoration: none;
+	font-size: 20px;
+	height: 150px;
+	color: black;
+}
+
+.logo {
+    margin-right: 18px;
+}
+
+.jumbotron {
+    margin-bottom: 10px;
+}
+
+/* header {
+    display: flex;
+    border: 1px solid black;
+    height: 40px;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 1px solid purple;
+
+} */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    border: 1px solid red;
 }
 
 h1, h2, h3, h4, h5 {
@@ -129,6 +189,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    height: 30px;
 }
 
 footer nav {
