@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* starting code for sprint challenge here */
+body {
+    box-sizing: border-box;
+}
+header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+    padding-right: 30px;
+}
+header{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.header-img {
+    width: 100%;
+}
