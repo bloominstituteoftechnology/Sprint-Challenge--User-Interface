@@ -216,6 +216,10 @@ p {
     border-radius: 5px;
 }
 
+.bottom-about {
+    padding: 0 1% 20px;
+}
+
 footer {
     width: 100%;
     background: black;
