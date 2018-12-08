@@ -155,7 +155,7 @@ footer nav a {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .top-nav a{
@@ -215,4 +215,24 @@ div #box9 {
 div #box10 {
     background: dodgerblue;
     color: white;
+}
+
+.top-content-about .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-page .middle-content .text-container{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    line-height: 10px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid black;
+    background: white;
 }
