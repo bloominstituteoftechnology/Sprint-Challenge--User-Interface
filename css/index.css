@@ -349,3 +349,13 @@ footer nav a {
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }
+
+@media all and (max-width: 800px){
+    header, .container, .cards, .card, .jumbo {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
