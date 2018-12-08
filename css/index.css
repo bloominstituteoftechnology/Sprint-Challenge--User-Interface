@@ -90,19 +90,36 @@ header nav {
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
-    /* border: 1px solid blue; */
 }
 
 header nav a {  
     font-size: 0.85rem;
     color: black;
     text-decoration: none;
-    /* border: 1px solid purple; */
+    transition: transform .2s;
 }
+
+header nav a:hover, footer nav a:hover {
+    text-decoration: underline;
+}
+
 
 header #logo-wrapper {
     width: 20%;
-    /* border: 1px solid green; */
+}
+
+#logo {
+  animation-name: logo-appearance;  
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+@keyframes logo-appearance {
+  0%   {width: 0%}
+  25%  {width: 25%}
+  50%  {width: 50%}
+  75%  {width: 75%}
+  100% {width: 100%}
 }
 
 .top-content {
@@ -252,7 +269,14 @@ footer nav a {
 	border: 2px solid black;
 	border-radius: 10px;
 	text-align: center;
-	cursor: pointer;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.button:hover {
+    color: white;
+    background: black;
+    transform: scale(1.25);
 }
 
 .call-to-action {
