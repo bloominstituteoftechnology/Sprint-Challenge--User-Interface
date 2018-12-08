@@ -70,11 +70,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    margin-left: 250px;
+    width: 880px;
+}
+
+header nav a{
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 12px;
+    width: 50px;
+    border: 1px solid blue;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -98,7 +110,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .middle-content .boxes .box1 {
