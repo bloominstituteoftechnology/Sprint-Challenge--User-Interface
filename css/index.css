@@ -69,12 +69,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    background-color: white;
 }
-
+nav { 
+    margin-bottom: 40px;
+}
+.navigation {
+    margin-top: 15px;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -112,6 +130,45 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +200,76 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page specifics */
+
+.container-about-page header{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.linething {
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-about-page main {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; 
+    width: 375px;
+    border-bottom: 1px dashed grey;
+    margin-bottom: 50px;
+}
+
+main div h2 {
+    margin-top: 10px;
+}
+
+.ender {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container-products-page header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-products-page main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-products-page main div {
+    border: 1px dashed black;
+    width: 800px;
 }
