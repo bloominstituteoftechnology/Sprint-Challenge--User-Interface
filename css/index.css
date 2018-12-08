@@ -69,9 +69,11 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* font-weight: bold; */
 }
 
 /*Code Begins*/
+
 
 .navigation-bar nav{
     display: flex;
@@ -190,11 +192,15 @@ p {
     padding: 20px;
 }
 
+.about-middle-content h2 {
+    padding-top: 15px;
+}
+
 .about-middle-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .about-middle-content .text-container {
@@ -203,12 +209,17 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.about-middle-content h2 {
-    padding-top: 15px;
+.about-middle-content button {
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 7px 15px;
+    margin-top: 20px;
+    background: white;
 }
 
 .about-bottom-content {
-    padding-top: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 
