@@ -114,8 +114,56 @@ nav a {
 
 .jumbo {
     width: 800px;
-
 }
+
+/* about page info */
+.about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    /* height: 100px; */
+}
+
+.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 365px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 25px;
+}
+
+.learn {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.together {
+    margin-bottom: 45px;
+}
+/* index.html */
 .top-content {
     display: flex;
     flex-wrap: wrap;
