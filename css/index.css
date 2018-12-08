@@ -146,15 +146,20 @@ footer nav a {
 }
 
 .top-nav{
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    border: 2px solid blue;
 }
 
 .top-nav a{
     color: black;
     text-decoration: none;
+}
+
+.nav-logo{
+
 }
