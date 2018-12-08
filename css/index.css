@@ -196,12 +196,26 @@ main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 40px;
   padding-bottom: 40px;
 }
 
 .info-box {
   max-width: 48%;
+	padding-top: 40px;
+	padding-bottom:20px;
+	border-bottom: 2px dotted #333;
+}
+
+.info-box h2 {
+	padding-top: 10px;
+}
+
+button {
+	padding: 10px 30px;
+	margin-top: 20px;
+	border: 2px solid #000;
+	border-radius: 8px;
+	cursor: pointer;
 }
 
 footer {
