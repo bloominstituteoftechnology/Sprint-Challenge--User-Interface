@@ -148,7 +148,8 @@ footer nav a {
 
 
 /* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
-
+    /* INDEX.HTML */
+/* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
 .nav {
     display: flex;
     flex-direction: row;
@@ -211,3 +212,51 @@ footer nav a {
     .middle-content .boxes .box-10 {
         background-color: dodgerblue;
     }
+
+/* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
+    /* ABOUT.HTML */
+/* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
+
+.header-content {
+    padding: 25px 0px 25px 0px;
+    border-bottom: 1px;
+    border-bottom-style: dashed;
+}
+
+.about-content-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+    .content {
+        display:flex;
+        flex-direction: column;
+        
+        margin-top: 40px;
+        border-bottom: 1px dashed black;
+
+        width: 48%;
+    }
+
+        .content-MIDDLE {
+            margin: 15px 0px 15px 0px;
+        }
+
+        .content-BOTTOM {
+            display: flex;
+            justify-content: center;
+
+            width: 33%;
+            padding: 10px 0px 10px 0px;
+
+            margin-bottom: 25px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+.footer {
+    margin: 30px 0px 30px 0px;
+}
