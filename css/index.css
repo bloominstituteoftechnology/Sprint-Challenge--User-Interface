@@ -194,6 +194,24 @@ header nav a {
 	padding-bottom: 20px;
 }
 
+.top-col {
+	margin: 10px;
+	display: flex;
+}
+
+.top-col .text-container {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	border: 1px solid black;
+	background: white;
+	width: 100px;
+}
+.bottom-col {
+	display: flex;
+}
 footer {
     width: 100%;
     background: black;
