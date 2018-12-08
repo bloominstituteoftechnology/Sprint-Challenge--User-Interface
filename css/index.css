@@ -233,3 +233,35 @@ footer nav a {
 .aboutFooter {
     padding: 30px 15px 30px 15px;
 }
+
+.resized-header {
+    width: 800px;
+    height: 153px;
+}
+
+.productsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productsContent {
+    width: 250px;
+    height: auto;
+    margin: 40px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+    display: flex;
+    flex-direction: column;
+}
+
+.productsContent img {
+    width: 250px;
+    height: auto;
+}
+
+.productsContent h2 {
+    margin: 15px 0px 15px 0px;
+}
+
