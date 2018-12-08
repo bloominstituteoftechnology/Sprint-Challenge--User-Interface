@@ -310,8 +310,30 @@ footer nav a {
     .products-content h1 {
         font-weight: bold;
         text-align: center;
+
+        animation-name: products;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
 
     .footer address h1 {
         margin-bottom: 0px;
     }
+
+/* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
+    /* Animations */
+/* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
+
+@keyframes products {
+    0% {
+
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
