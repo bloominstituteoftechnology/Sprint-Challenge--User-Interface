@@ -79,15 +79,25 @@ p {
 
 .navigation {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
-    width: 700px;
+    width: 650px;\
+    margin: 10px 0 0 40px
 
 }
 
 .navigation a {
     color: black;
     text-decoration: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+navigation a:hover{
+    text-decoration: underline;
+    color: #3CE3D4;
+    transition: 0.2s;  
 }
 
 .top-content .jumbo {
@@ -209,3 +219,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* About */
+
+.about-section{
+    border-bottom: 2px dotted blacck;
+}
+
+.about-section img{
+    margin-top: 20px;
+}
+
+.about-section .about-text{
+    margin:25px;
+}
+
+.page-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+
+}
+
+.page-box{
+    border-bottom: 2px dotted black;
+    margin: 0 10px;
+}
+
+.page-box h1{
+    margin-top: 15px;
+}
+
+.work-together {
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
