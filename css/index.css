@@ -119,7 +119,6 @@ p {
 }
 
 .middle-content {
-    border-top: 1px dashed black;
 
     margin-top: 60px;
     position: relative;
@@ -234,9 +233,24 @@ footer nav a {
     position: relative;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
 }
 
+.middlebox p {
+    padding-right: 10px;
+}
 
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: white;
+    padding: 20px auto;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+}
 
 .topcontent {
     position: relative;
