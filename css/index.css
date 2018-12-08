@@ -123,10 +123,6 @@ img[src="img/lambda-black.png"] {
     padding-bottom: 20px;  
 }
 
-.top-content h2 {
-    font-weight: bold;
-}
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -233,5 +229,56 @@ footer nav a {
 /*About.html*/
 
 .container about-page {
+}
+
+.about-text {
     width: 100%;
+    padding-left: 10px;
+}
+
+.about-text p{
+    padding-bottom: 20px;
+}
+
+hr {
+    border-top: 1px dashed;
+    margin-bottom: 20px;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row-item {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.row-item h2 {
+    margin-top: 10px;
+}
+
+.row-item a {
+    width: 126px;
+    height: 36px;
+    text-align: center;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.footer-content {
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
