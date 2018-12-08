@@ -69,6 +69,35 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid orange; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    /* border: 1px solid red; */
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    /* border: 1px solid blue; */
+}
+
+header nav a {  
+    font-size: 0.85rem;
+    color: black;
+    text-decoration: none;
+    /* border: 1px solid purple; */
+}
+
+header #logo-wrapper {
+    width: 20%;
+    /* border: 1px solid green; */
 }
 
 .top-content {
