@@ -104,6 +104,10 @@ nav a{
     padding-bottom: 20px;  
 }
 
+.about-container{
+    margin: 0 15px 20px 15px;
+}
+
 .container .main-content{
     display: flex;
     flex-direction: row;
@@ -112,7 +116,23 @@ nav a{
 }
 
 .main-content .half-box{
-    width: 48%;
+    width: 47%;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.half-box button{
+    margin: 20px 0;
+    font-size: 14px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.half-box h2{
+    margin-top: 10px;
 }
 
 .middle-content {
@@ -193,6 +213,10 @@ nav a{
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-container .bottom-content .text-container{
+    margin: 50px 0;
 }
 
 footer {
