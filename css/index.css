@@ -28,9 +28,31 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
 }
+.nav {
+    
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    
+   
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -70,7 +92,10 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.container img {
+    width: 850px;
+    padding-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
