@@ -87,11 +87,8 @@ p {
 }
 
 .header-image {
-    padding: 25px 0;
+    padding: 18px 0;
 }
-
-
-
 
 .top-content {
     display: flex;
@@ -187,6 +184,33 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.about-top-content {
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.about-middle-content .text-container {
+    width: 48%;
+    padding: 20px 0;  
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content h2 {
+    padding-top: 15px;
+}
+
+.about-bottom-content {
+    padding-top: 25px;
+}
+
 
 footer {
     width: 100%;
