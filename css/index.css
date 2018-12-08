@@ -70,6 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
 .nav {
 	border: 1px solid red;
 	display: flex;
@@ -78,17 +79,22 @@ p {
 	/* margin-left: 10px; */
 	/* margin-right: 100px; */
 }
+
+
 nav>a {
-	display: inline-block;
+	display: flex;
 	border: 1px solid red;
 	flex-direction: row;
-	padding: 20px;
+	padding: 10px;
 	/* margin-left: inherit; */
 	/* margin-right: inherit; */
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
 
+}
+.lambda-black {
+	display: inline;
 }
 .starlightimg {
 	margin-bottom: 33px;
@@ -263,8 +269,10 @@ footer nav a {
 }
 /* ABOUT PAGE STYLE */
 .about {
-	padding-bottom: 15px;
-	margin-bottom: 15px;
+	/* padding-bottom: 15px; */
+	/* margin-bottom: 15px; */
+	padding: 15px;
+	margin: 15px;
 	border-bottom: 1px dashed black;
 }
 .top-boxes {
