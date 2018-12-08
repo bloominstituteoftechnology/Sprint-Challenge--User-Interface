@@ -94,6 +94,18 @@ header nav a {
     margin-top: 33px;
     margin-bottom: 20px;
 }
+
+.jumbo-about-img {
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
