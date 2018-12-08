@@ -159,6 +159,15 @@ header a {
     font-size: 90%
 }
 
+.logo {
+    margin-right: -40px;
+}
+
+.top-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #box1 {
     background-color: teal;
 }
