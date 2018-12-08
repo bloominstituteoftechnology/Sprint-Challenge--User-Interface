@@ -16,4 +16,4 @@
 
 5. What is the git command to commit staged changes as well as write a message?
 
-  * The command is git commit -m "insert message here"
+  * The command is git commit -m "insert message here."
