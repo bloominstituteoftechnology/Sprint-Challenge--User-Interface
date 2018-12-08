@@ -99,6 +99,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: center;
+    flex-flow: row wrap;
 }
 
 .middle-content .boxes .box {
@@ -144,3 +146,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.box1 {
+    background:teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background:coral;
+}
+.box5 {
+    background:crimson;
+}
+.box6 {
+    background:forestgreen;
+}
+.box7 {
+    background:darkorchid;
+}
+.box8 {
+    background:hotpink;
+}
+.box9 {
+    background:indigo;
+}
+.box10 {
+    background:dodgerblue;
+}
+
+
+header nav {
+    display: inline-block;
+    width: 691px;
+    vertical-align: top;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  
+  header nav a {
+    display: inline-block;
+    margin-right: 60px;
+    font-size: 14px;
+    font: bold;
+    color: gray;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0px;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0px;
+  }
+  
+  
+  header .logo {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 60px;
+  }
+
+    
+
