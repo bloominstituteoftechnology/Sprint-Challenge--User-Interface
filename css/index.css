@@ -103,6 +103,38 @@ a:hover {
       margin: 40px 0 0 0 ;
   }
 
+  .about{
+      margin: 25px 10px 20px 10px;
+      
+  }
+  .top-about-text{
+     display: flex;
+	margin: 0;
+	align-content: space-around;
+  }
+  .top-box{
+    margin: 15px 0 0 15px ;  }
+
+button{
+      margin: 15px 0 0 0 ;
+      border: 1px solid black;
+      border-radius: 10px;
+      border-width: 2px;
+      text-align: center;
+      font-size: 15px;
+
+      width: 130px;
+      height: 40px;
+    
+  }
+
+  .top-about{
+      display: flex;
+      border-top: 1px dashed black;
+      margin: 25px 0 0 0 ;
+      padding: 25px 0 0 0 ;
+      justify-content: space-evenly;
+  }
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +142,13 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.middle-about{
+    display: flex;
+    border-top: 1px dashed black;
+    margin: 25px 0 0 0 ;
+    padding: 50px 0 25px 0 ;
+    justify-content: space-evenly;
 }
 
 .top-content .text-container {
