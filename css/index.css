@@ -292,3 +292,47 @@ footer nav a {
     text-decoration: none;
     color: black;
 }
+
+.item-half a:hover {
+    color: white;
+    background-color: black;
+    transition: color 0.25s ease-out;
+    transition: background-color 0.5s ease-in;
+}
+
+/*Contact Styles*/
+@media (max-width: 700px) {
+    .container {
+        max-width: 400px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sub-container,
+    .item-full,
+    .item-half,
+    .home-jumbo,
+    .about-jumbo,
+    header nav,
+    .top-content .text-container {
+        width: 400px;
+    }
+
+    .box {
+    }
+
+    header nav {
+        height: 30px;
+        padding: 0;
+    }
+
+    .item-half a {
+        margin: 0 auto 30px auto;
+        font-size: 12px;
+    }
+
+    h2 {
+        margin-top: 30px;
+    }
+}
