@@ -65,11 +65,27 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* Global */
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Navigation */
+.navigation-style{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+}
+.navigation-style a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/* Top Content */
+
 
 .top-content {
     display: flex;
@@ -78,13 +94,16 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content img{
+    margin-bottom: 25px;
+}
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +131,39 @@ p {
     justify-content: center;
 }
 
+/* Individual box styling */
+#box1{ 
+    background-color:teal;
+}
+#box2{ 
+    background-color:gold;
+}
+#box3{ 
+    background-color:cadetblue;
+}
+#box4{ 
+    background-color:coral;
+}
+#box5{ 
+    background-color: crimson;
+}
+#box6{ 
+    background-color: forestgreen;
+}
+#box7{ 
+    background-color: darkorchid;
+}
+#box8{ 
+    background-color: hotpink;
+}
+#box9{ 
+    background-color: indigo;
+}
+#box10{ 
+    background-color: dodgerblue;
+}
+
+/* Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +177,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -143,4 +197,185 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Styling */
+.top-content-about{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.text-container-about{
+    width: 96%;
+    padding: 15px 1%;
+    padding-bottom: 20px;  
+}
+/* Middle content  */
+.middle-content-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 46%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.card h3{
+    padding-top: 10px;
+}
+.card button{
+    padding: 9px 23px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+    margin: 10spx 0;
+   
+}
+/* Last two cards extra margin-top */
+.card:nth-last-child(-n+2){
+    margin-top: 30px;
+}
+
+/* Bottom content */
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-top: 50px;
+}
+.bottom-cta{
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+
+/* Blog styling */
+/* Top content */
+
+.top-content-blog img{
+    width: 100%;
+    height: 100%;
+}
+.top-content-blog h2{
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Blog content */
+
+.blog{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px 0;
+    padding: 20px;
+}
+.blog:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.blog h3{
+    font-size: 2em;
+}
+.blog button{
+    padding: 10px 23px;
+    font-size: 15px;
+    border-radius: 4px;
+    background: rgba( 22, 230, 137, 1 );
+    color: #fff;
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+    transition: all 0.4s ease;
+}
+.blog button:hover{
+    color:black;
+}
+
+/* Contact */
+.top-content-contact h2{
+    text-align: center;
+    font-size: 5em;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+.form-style{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.form-style input{
+    width: 50%;
+    height: 50px;
+    margin: 20px 0;
+    font-size: 2em;
+}
+.form-style button{
+    width:50%;
+    padding: 20px 23px;
+    font-size: 15px;
+    border-radius: 4px;
+    background: rgba( 22, 230, 137, 1 );
+    color: #fff;
+    box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+    transition: all 0.4s ease;
+}
+.form-style button:hover{
+    color: black;
+}
+
+/* Mobile display */
+
+@media only screen and (max-width: 800px){
+    /* Global */
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+    /* Navigation */
+    .navigation-style{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation-style a{
+        padding: 20px;
+    }
+
+    /* Home page */
+    .middle-content .boxes .box {
+        width: 45%;
+        height: 150px;
+        margin: 20px .5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* About page */
+
+    .card{
+        display: flex;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px dashed black;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    /* Blog */
+    .top-content-blog h2{
+        text-align: center;
+    }
+
+    /* Contact */
+    .form-style input{
+        width: 100%;
+        height: 50px;
+        margin: 5px;
+        font-size: 1.8em;
+    }
 }
