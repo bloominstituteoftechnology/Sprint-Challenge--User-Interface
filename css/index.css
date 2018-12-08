@@ -73,7 +73,6 @@ p {
 
 .nav-content {
     display: flex;
-    justify-content: space-between;
     align-items: baseline;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -81,22 +80,23 @@ p {
 
 nav {
 	display: flex;
-	width: 75%;
-	justify-content: space-between;
+	width: 100%;
+	justify-content: space-around;
 }
 
 .nav-button {
 	text-decoration: none;
     color: black;
-	transition: transform 0.4s;
+    transition: transform 0.4s;
+    font-size: 14px;
 }
 
 .nav-button:hover {
 	transform: scale(1.2);
 }
 
-.jumbo {
-    margin-bottom: 30px;
+.top-img {
+    margin-bottom: 24px;
 }
 
 .top-content {
@@ -113,9 +113,27 @@ nav {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container.about {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .top-content .about {
     width: 100%;
+}
+
+.learn-more {
     border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 35%;
+    background: white;
 }
 
 .middle-content {
@@ -126,6 +144,30 @@ nav {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content.about h2 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.middle-content.about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    border-bottom: none;
+    padding: 0 2%;
+    padding-top: 10px;
+}
+
+.middle-content.about div {
+    width: 48%;
+    margin-bottom: 60px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
 }
 
 .middle-content .boxes {
@@ -198,9 +240,18 @@ nav {
     padding-right: 0;
 }
 
+.bottom-content.about {
+    width: 800px;
+    position: absolute;
+    margin-left: 0;
+    top: 1390px;
+    padding: 0 1%;
+}
+
 footer {
     width: 100%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
@@ -210,6 +261,10 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+}
+
+.about-footer {
+    margin-top: 130px;
 }
 
 footer nav a {
