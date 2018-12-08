@@ -72,9 +72,9 @@ img {
 }
 
 .container {
-    width: 800px;
+    width: 90%;
+    max-width: 800px;
     margin: 0 auto;
-    /* border: 1px solid orange; */
 }
 
 header {
@@ -82,7 +82,6 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 1rem 0;
-    /* border: 1px solid red; */
 }
 
 header nav {
@@ -327,5 +326,38 @@ footer nav a {
   letter-spacing: 0.12rem;
   text-transform: uppercase;
   cursor: pointer;
+}
 
+/* Responsive Design */
+/* Medium Size Screens (Tablets) */
+@media only screen and (max-width: 991px) {
+
+	header {
+		/* justify-content: center; */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    
+    header nav, header #logo-wrapper {
+        margin: 0.5rem;
+    }
+
+    footer nav {
+        margin: 0 auto;
+    }
+}
+
+/* Small Screens (Mobile Phones) */
+@media only screen and (max-width: 568px) {
+    header nav, footer nav {
+        justify-content: center;
+    }
+
+    header nav a, footer nav a {
+        margin: 0 0.5rem;
+    }
 }
