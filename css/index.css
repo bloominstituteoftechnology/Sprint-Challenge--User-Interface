@@ -144,3 +144,20 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*======================================*/
+/*===============NEW CODE===============*/
+/*======================================*/
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+header nav img {
+    margin-top: -1px;
+}
+header nav a {
+    margin-right: 43px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
