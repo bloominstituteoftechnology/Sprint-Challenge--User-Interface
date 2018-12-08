@@ -185,6 +185,48 @@ header {
     background: dodgerblue;
 }
 
+section {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.about {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.card h2 {
+    margin-top: 20px;
+}
+
+.card {
+    width: 48%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    border-bottom: 1px dotted black;
+    margin-top: 30px;
+}
+
+.learn-more {
+    margin: 15px 0;
+    padding: 5px 10px;
+    display: inline;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 footer {
     width: 100%;
     background: black;
