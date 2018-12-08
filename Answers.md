@@ -8,6 +8,7 @@
    Cross-axis
 5. What is the git command to commit staged changes as well as write a message?
    git commit -m
+   <!-- I answered both from both files. -->
 
 5) Explain why git is valuable to a team of developers.
    It helps keep track of every change that occurs throughtout the duration of a project.
