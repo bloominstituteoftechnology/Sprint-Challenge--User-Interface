@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Custom Styles 
+=========================*/
+
+:root {
+    --dark: #111;
+    --light: #fff;
+    --grey: #7b7b7b;
+}
+
+
+/* Navigation
+=========================*/
+
+.nav-container {
+    margin: 2rem 0 0 0.5rem;
+    display: flex;
+    align-items: baseline;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+nav > a:hover, a:focus {
+    color: var(--grey);
+    outline: none;
+}
+
+/* Header image
+=========================*/
+
+#jumbo {
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+/* About Section
+=========================*/
+
+.about {
+    padding: 0 0 2rem;
+    border-bottom: 2px dotted var(--dark);
+}
+
+
+/* Card Section
+=========================*/
+
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.card {
+    padding: 2rem 0;
+    border-bottom: 2px dotted var(--dark);
+}
+
+.card > h3 {
+    padding-top: 0.5rem;
+}
+
+.card > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card > button {
+    width: 8rem;
+    height: 2.4rem;
+    border-radius: 0.7rem;
+    background-color: transparent;
+    font-size: 1rem;
+    border: 2px solid var(--dark);
+    margin-top: 1rem;
+}
+
+.card > button:hover, button:focus {
+    background-color: var(--dark);
+    color: var(--light);
+    outline: none;
+    cursor: pointer;
+}
+
+/* Bottom Section
+=========================*/
+
+.bottom-section {
+    padding: 4rem 0 3rem;
+}
+
+/* Bottom Section
+=========================*/
+
+footer {
+    background-color: var(--dark);
+    bottom:0;
+}
+
+footer > nav > a {
+    color: var(--light);
+}
+
+/* Media Queries
+=========================*/
+
+@media (max-width: 600px) {
+    .card-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-container {
+        display: block;
+    }
+}
