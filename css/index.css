@@ -28,6 +28,24 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.header-box{
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    margin: 1.5em 0 0 5%;
+}
+header ul li {
+    display: inline;
+    padding: 0 1.4em 0 0;
+    font-size: 16px;
+    color: black;
+}
+.nav-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+}
 body {
 	line-height: 1;
 }
