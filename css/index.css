@@ -52,8 +52,7 @@ table {
 }
 
 html, body {
-    border: 4px solid purple;
-  /*  height: 100%;   */
+  height: 100%;  
     font-family: 'Roboto', sans-serif;
     width: 880px;
     margin: 0 auto;
@@ -129,19 +128,20 @@ header a:hover {
 /* ABOUT VVVVVVVVVVVVVVV  here */
 
 .about-container {
-    border: 2px solid green;
+    border-top: 1px dotted green;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 20px auto;
 }
 
 .about-info {
-    border: 1px solid hotpink;
+    border-bottom: 1px dotted black;
     display: flex;
     flex-direction: column;
     width: 48%;
     justify-content: space-evenly;
-    height: 450px;
+    height: 470px;
 }
 
 .about-container .about-info .about_h2 {
