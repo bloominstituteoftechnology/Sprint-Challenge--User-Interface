@@ -210,24 +210,32 @@ main {
   padding-top: 10px;
 }
 
-.blog-box {
+.blog-box, .contact-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   padding: 20px 0;
   border-bottom: 1px dashed #333;
-  /* width: 100%; */
+  width: 100%;
 }
 
-.blog-image {
+.blog-image, .contact-image {
   max-width: 20%;
 }
 
-.blog-snippet {
+.blog-snippet  {
   max-width: 50%;
 }
 
+.contact-form-box {
+	width: 48%;
+}
+
+input {
+	margin: 10px 0;
+	width: 100%;
+}
 
 button {
   padding: 10px 30px;
