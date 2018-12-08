@@ -144,3 +144,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Header/Nav Content */
+.container header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.container header nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.container header nav li {
+    margin: 0 15% 0 15%;
+}
+
+.container header nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+img.road-picture {
+    margin-bottom: 3%;
+}
