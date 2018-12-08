@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    display:flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 650px;
+    margin: 10px 0 0 40px
+
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+navigation a:hover{
+    text-decoration: underline;
+    color: #3CE3D4;
+    transition: 0.2s;  
+}
+
+.top-content .jumbo {
+    margin: 20px 0
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +117,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +145,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+
+}
+#box10{
+    background: dodgerblue;
+}
+    
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +219,53 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* About */
+
+.about-section{
+    border-bottom: 2px dotted black;
+}
+
+.about-section img{
+    margin-top: 20px;
+}
+
+.about-section .about-text{
+    margin:25px;
+}
+
+.page-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+
+}
+
+.page-box{
+    border-bottom: 2px dotted black;
+    margin: 0 10px;
+}
+
+.page-box h1{
+    margin-top: 15px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.work-together {
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
