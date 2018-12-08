@@ -223,7 +223,6 @@ button {
     background: white;
 }
 
-
 .border{ 
     display:  flex;
 }
@@ -244,7 +243,14 @@ button {
 .top-section, .bottom-section {
     display: flex;
     margin-bottom: 40px;
-    
+}
+
+.top-section div img {
+    padding-bottom: 10px;
+}
+
+.bottom-section div img {
+    padding-bottom: 10px;
 }
 
 .work-together-box {
