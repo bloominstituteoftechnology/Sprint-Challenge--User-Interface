@@ -18,3 +18,7 @@ Answer:  The cross axis, or the vertical axis.
 5. What is the git command to commit staged changes as well as write a message? 
 
 Answer: ```git commit -m "message"```
+
+6. Explain why git is valuable to a team of developers.
+
+Answer:  Git allows developers to manage their repository and to collaborate on edits.  It allows for easy tracking of changes and allows developers to go back to "commit points" in their project.
