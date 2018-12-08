@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+h1 {
+    width: 18%;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    width: 80%;
+    padding: 29px;
+}
+
+.top-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
 .container {
     width: 800px;
     margin: 0 auto;
