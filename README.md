@@ -36,6 +36,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Block elements force a line break after the block element while inline elements allow other elements to sit to their left and right. Inline elements respect left and right margins + padding, but not top and bottom while block elements respect left, right, top, and bottom
+
 3. What are the 4 areas of the box model?
 
 margin, border, padding, content
@@ -45,6 +47,8 @@ margin, border, padding, content
 cross axis
 
 5. Explain why git is valuable to a team of developers.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
