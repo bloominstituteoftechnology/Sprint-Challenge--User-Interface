@@ -214,3 +214,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+.introduction {
+    padding-bottom: 1.25rem;
+    border-bottom: 1px dashed black;
+}
