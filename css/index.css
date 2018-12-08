@@ -66,6 +66,44 @@ p {
     line-height: 1.4;
 }
 
+header {
+    height: 50px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    /* align-items: space-between; */
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+nav {
+    width: 750px;
+ }
+  
+ .navbar>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+    text-decoration: none;
+    color: black;
+    margin-right: 60px;
+    padding-top: 15px;
+ }
+
 .container {
     width: 800px;
     margin: 0 auto;
