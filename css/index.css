@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+nav {
+	display: flex;
+	width: 75%;
+	justify-content: space-between;
+}
+
+.nav-button {
+	text-decoration: none;
+    color: black;
+	transition: transform 0.4s;
+}
+
+.nav-button:hover {
+	transform: scale(1.2);
+}
+
+.jumbo {
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
