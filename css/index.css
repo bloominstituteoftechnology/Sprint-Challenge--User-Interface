@@ -52,8 +52,12 @@ table {
 }
 
 html, body {
+    border: 1px solid purple;
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width: 880px;
+    margin: 0 auto;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,17 +70,49 @@ p {
     line-height: 1.4;
 }
 
+/* My CODE HERE */
+
+header {
+  width: 880px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: teal;
+}
+
+#jumboIMG {
+  width: 880px;
+}
+
+
 .container {
+    border: 1px solid green;
     width: 800px;
     margin: 0 auto;
 }
 
 .top-content {
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 20px 0;
 }
 
 .top-content .text-container {
