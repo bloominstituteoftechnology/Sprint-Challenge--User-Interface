@@ -314,8 +314,10 @@ header nav {
 
 
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    position: relative;
+    left: 100px;
 }
 
 footer nav {
@@ -338,20 +340,17 @@ footer nav a {
 /*  ABOUT Page CSS */
 
 
-.full-container1 {
-    width: 950px;
-    margin: 0 auto;
-    background-color: white;
+
 }
 
 .Middle-Content {
-    width: 850px;
+    width: 800px;
     margin: 0 auto;
 }
 
 
 .top-content-about{
-    width: 850px;
+    width: 800px;
     margin: 0 auto;
     border-bottom: 1px dashed black;
     margin-bottom: 20px;
@@ -360,9 +359,9 @@ footer nav a {
 
 .text-container-about{
 
-    padding: 15px 1%;
+    padding: 15px;
     padding-bottom: 20px;  
-    width: 850px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -373,11 +372,14 @@ footer nav a {
 .middle-content-about{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 .info{
-    width: 50%;
+    width: 37%;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-bottom: 10px;
+    position: relative;
+    left: 100px;
     padding-top: 10px;
     border-bottom: 1px dashed black;
 }
@@ -401,12 +403,13 @@ footer nav a {
  /* Bottom content */
 
 
-
 .bottom-content-about{
     display: flex;
     flex-wrap: wrap;
-    width: 96%;
+    position: relative;
+    width: 80%;
     margin-top: 50px;
+    left: 100px;
 }
 .bottom-cta{
     padding-left: 20px;
