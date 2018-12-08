@@ -73,6 +73,7 @@ p {
 
 header {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 nav {
@@ -82,7 +83,8 @@ nav {
 nav > ul {
     display: flex;
     align-items: flex-end;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-right: 40px;
 }
 
 nav a {
@@ -208,4 +210,52 @@ footer nav a {
 
 .box:nth-child(10) {
     background: dodgerblue;
+}
+
+hr {
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.about-us > div {
+    width: 390px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+.about-us > div img {
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+
+
+}
+
+.about-top, .work-together {
+    padding-left: 20px;
+}
+
+.work-together {
+    margin-bottom: 40px;
 }
