@@ -236,6 +236,19 @@ main {
 input {
 	margin: 10px 0;
 	width: 100%;
+	background-color: #f4f4f4;
+	border: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	-webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.05);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.05);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.05);
+}
+
+form p {
+	color: #333;
+	padding-bottom: 4px;
 }
 
 button {
@@ -265,6 +278,8 @@ button {
 
 button:hover {
 	animation: bounce 1s;
+	background-color: #000;
+	color: #fff;
 }
 
 footer {
