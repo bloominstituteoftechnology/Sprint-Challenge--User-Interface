@@ -210,7 +210,7 @@ footer nav a {
     margin-left: 20px;
 }
 
-#linething {
+.linething {
     border: 1px dashed black;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -252,4 +252,24 @@ main div h2 {
     margin-bottom: 20px;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.container-products-page header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container-products-page main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.container-products-page main div {
+    border: 1px dashed black;
+    width: 800px;
 }
