@@ -71,27 +71,33 @@ p {
     margin: 0 auto;
 }
 
-.header {
-    border: 1px solid black;
+header {
     width: 100%;
-    background: white;
-}
-
-.header nav {
-    border: 1px solid red;
-    width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
 }
 
+header nav {
+    border: 1px solid red;
+    margin: 60px 0 40px 0;
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
 
 header .logo {
-    display: flex;
-    justify-content: flex-start;
-    /*margin: 28px 0 0 91px;*/
+    border: 1px solid red;
+
+    margin: 30px 33px 40px 0;
 }
 
 .top-content {
