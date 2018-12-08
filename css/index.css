@@ -76,18 +76,18 @@ p {
 	justify-content: space-between;
     margin: 30px auto 40px auto;
     align-items: flex-end;
-    border: 1px solid red;
+
 }
 
 .links {
     display: flex;
-    width: 400px;
-    justify-items: space-between;
+    width: 600px;
+    justify-content: space-around;
 	align-items: flex-end;
-    padding-right: 30px;
+
     word-spacing: 50px;
     color: black;
-    border: 1px solid blue;
+
 }
 
 .header-image {
@@ -220,7 +220,9 @@ p {
 }
 
 button {
-    
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
 }
 
 .about {
@@ -233,6 +235,7 @@ button {
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
