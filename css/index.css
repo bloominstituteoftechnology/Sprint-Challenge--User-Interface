@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -143,4 +144,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 7px;
+    color: black;
+    padding: 30px;
 }
