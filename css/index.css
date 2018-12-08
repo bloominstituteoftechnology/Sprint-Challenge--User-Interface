@@ -82,7 +82,6 @@ Added nav and header below
     top: 0;
     width: 100%;
     z-index: 1;
-    margin-top: 20px;
 }
 
 .nav-item-wrapper {
@@ -228,11 +227,31 @@ Boxes color styling above
 
 /*ABOUT PAGE*/
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    border: 1px solid;
+    margin-bottom: 40px;
+}
 
+.column-left {
+    margin-left: 20px;
+}
 
+.column-right {
+    margin-right: 20px;
+}
 
-
+/*ABOUT PAGE*/
 
 
 footer {
