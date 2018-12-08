@@ -87,12 +87,12 @@ nav {
 .nav-button {
 	text-decoration: none;
     color: black;
-    transition: transform 0.4s;
+    transition: transform 0.5s;
     font-size: 14px;
 }
 
 .nav-button:hover {
-	transform: scale(1.2);
+	transform: scale(1.15);
 }
 
 .top-img {
