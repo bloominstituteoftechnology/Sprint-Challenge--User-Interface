@@ -71,6 +71,41 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.IndexNav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    order: 1;
+}
+
+.IndexNav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+
+.imglogo{
+    display: flex;
+}
+
+
+.topImg, .aboutImg{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,9 +139,9 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,6 +164,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
@@ -138,6 +174,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
 
 footer nav a {
