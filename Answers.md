@@ -13,3 +13,8 @@ Brandi -->  When using align-items: center; you're aligning items along the cros
 5. What is the git command to commit staged changes as well as write a message?
 Brandi -->  The command to commit staged changes and writing a message are as follows:
   git commit -m"Insert meaningful text related to commit here"
+
+Added missing question from Instructions here:
+
+5. Explain why git is valuable to a team of developers.
+Brandi -->  git is valuable to a team of developers as it allows a team to work simultaneously on the same project and codebase while tracking changes and allowing version control.  Documents can be checked out and worked on and allows the tracking and resolution of conflicting changes.
