@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+/* Main Page CSS */
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +71,41 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    margin-bottom: 20px;
 }
 
 .top-content {
