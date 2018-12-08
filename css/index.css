@@ -230,11 +230,13 @@ hr {
     padding-right: 10px;
     margin-bottom: 40px;
     margin-right: 10px;
+    position: relative;
 }
 
 .about-us > div img {
     margin-bottom: 10px;
 }
+
 
 
 .btn {
@@ -247,9 +249,13 @@ hr {
     color: black;
     text-decoration: none;
     display: block;
-    width: 150px;
+    width: 150px;  
+}
 
-
+.btn:hover {
+    transition: .5s all ease;
+    background: black;
+    color: white;
 }
 
 .about-top, .work-together {
