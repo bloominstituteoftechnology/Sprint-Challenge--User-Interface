@@ -69,23 +69,42 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    /* font-weight: bold; */
+    font-weight: 500;
 }
 
 /*Code Begins*/
-
+/*STRETCH CODE BEGINS */
 body {
     background-color: white;
   }
   
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 600px) {
     body {
       background-color: blanchedalmond;
     }
   }
 
-/*The above code changes the background of the website when the document is 650 pixels or less.
+/*The above code changes the background of the website when the document is 60 pixels or less.
 Otherwise the background stays white.*/
+
+  
+  @media only screen and (max-width: 600px) {
+    h2 {
+      font-size: 15px;
+    }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    p {
+      font-size: 12px;
+    }
+  }
+
+/*above code changes the font size based on screen sizes.*/
+/*STRETCH CODE ENDS */
+
+
 
 .navigation-bar nav{
     display: flex;
@@ -98,6 +117,12 @@ Otherwise the background stays white.*/
     color: black;
     padding-left: 70px;
     align-items: flex-end;
+}
+
+.navigation-bar header nav a:hover {
+    text-decoration-line: underline;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .header-image {
@@ -203,32 +228,34 @@ Otherwise the background stays white.*/
 
 .about-top-content {
     border-bottom: 1px dashed black;
-    padding: 20px;
+    padding: 0 18px 18px;
 }
 
 .about-middle-content h2 {
-    padding-top: 15px;
+    padding-top: 15px; 
 }
 
 .about-middle-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 20px 0;
 }
 
 .about-middle-content .text-container {
-    width: 48%;
+    width: 365px;
     padding: 20px 0;  
     border-bottom: 1px dashed black;
 }
 
 .about-middle-content button {
     border: 2px solid black;
-    border-radius: 7px;
-    padding: 7px 15px;
+    border-radius: 10px;
+    padding: 8px 20px;
     margin-top: 20px;
     background: white;
+    font-family: inherit;
+    font-size: 15px;
 }
 
 .about-bottom-content {
