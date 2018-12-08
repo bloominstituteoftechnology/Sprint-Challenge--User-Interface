@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -80,8 +75,20 @@ nav > a {
 }
 
 header {
-	width: 800px;
-	margin: 20px auto;
+  width: 800px;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  border-bottom: 1px dashed black;
+}
+
+header > img {
+  margin-bottom: 20px;
+}
+
+header > p,
+header > h2 {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container {
@@ -89,103 +96,37 @@ header {
     margin: 0 auto;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.about-page {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
+.about {
+  width: 350px;
+  margin: 20px;
+  border-bottom: 1px dashed black;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.about >img {
+  margin-bottom: 10px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 8px 25px;
+  font-size: 14px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box1 {
-	background-color: teal;
-}
-
-.box2 {
-	background-color: gold;
-}
-
-.box3 {
-	background-color: cadetblue;
-}
-
-.box4 {
-	background-color: coral;
-}
-
-.box5 {
-	background-color: crimson;
-}
-
-.box6 {
-	background-color: forestgreen;
-}
-
-.box7 {
-	background-color: darkorchid;
-}
-
-.box8 {
-	background-color: hotpink;
-}
-
-.box9 {
-	background-color: indigo;
-}
-
-.box10 {
-	background-color: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.work {
+  margin: 40px auto;
+  width: 800px;
 }
 
 footer {
     width: 100%;
-    background: black;
 }
 
 footer nav {
@@ -195,6 +136,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    background: black;
 }
 
 footer nav a {

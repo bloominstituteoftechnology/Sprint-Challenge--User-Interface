@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -79,9 +74,9 @@ nav > a {
 	color: black;
 }
 
-header {
-	width: 800px;
-	margin: 20px auto;
+h2:hover {
+  font-size: 24px;
+  color: #212F3D;
 }
 
 .container {
@@ -89,103 +84,96 @@ header {
     margin: 0 auto;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.top {
+  width: 800px;
+  margin: 0 auto;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
+.top > p,
+.top > h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.author {
+  border: 1px dashed black;
+  width: 160px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 20px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.mid {
+  width: 350px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.mid > p,
+.mid > h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
 
-.box1 {
-	background-color: teal;
+.subscribe {
+  width: 800px;
+  height: 250px;
+  background: #EBF5FB;
+  margin: 20px auto;
+  border: 15px solid #212F3D;
+  text-align: center;
 }
 
-.box2 {
-	background-color: gold;
+.subscribe > h2 {
+  font-size: 30px;
+  padding-top: 20px;
+  font-family: 'Quicksand', sans-serif;
 }
 
-.box3 {
-	background-color: cadetblue;
+.subscribe input {
+	width: 210px;
+	display: inline-block;
+  text-align: center;
+	border-radius: 7px;
+	background: #eee;
+	padding: 10px 20px;
+	outline: none;
+	border: none;
+	color: #222;
+	transition: 0.3s linear;
+  margin-top: 10px;
 }
 
-.box4 {
-	background-color: coral;
-}
 
-.box5 {
-	background-color: crimson;
-}
+.subscribe button {
+	background-color: #212F3D;
+	box-shadow: 0 9px 25px -5px #A9CCE3;
+	font-family: 'Quicksand', sans-serif;
+	padding: 15px 20px;
+	margin: 20px 0 0 0;
+	border-radius: 7px;
+	font-size: 1.4em;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 1em;
+	outline: none;
+	border: none;
+	transition: 0.3s linear;
 
-.box6 {
-	background-color: forestgreen;
-}
-
-.box7 {
-	background-color: darkorchid;
-}
-
-.box8 {
-	background-color: hotpink;
-}
-
-.box9 {
-	background-color: indigo;
-}
-
-.box10 {
-	background-color: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
 }
 
 footer {
     width: 100%;
-    background: black;
 }
 
 footer nav {
@@ -195,6 +183,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    background: black;
 }
 
 footer nav a {
