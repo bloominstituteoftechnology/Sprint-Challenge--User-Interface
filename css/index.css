@@ -72,6 +72,10 @@ header {
     display: flex;
 }
 
+.title {
+    border-bottom: 1px dashed black;
+}
+
 .navbar {
     display: flex;
     height: 100%;
@@ -291,4 +295,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.block {
+    border-bottom: 1px dashed black;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    display: block;
+}
+
+.top-blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.bottom-blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+button {
+    background: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
 }
