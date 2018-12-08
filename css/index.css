@@ -276,6 +276,62 @@ footer nav a {
 
 .middle-about .firstrow .Strategy{
 
-    border: 2px solid blue;
+    
     width:378px;
+    border-bottom: 1px dashed black;
 }
+
+.middle-about .firstrow .HWW{
+
+    
+    width:378px;
+    border-bottom: 1px dashed black;
+
+}
+
+.middle-about .secondrow .PWW{
+
+    
+    width:378px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-about .secondrow .Collab{
+
+    
+    width:378px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-about .firstrow{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.middle-about .secondrow{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.middle-about button{
+   
+    border-radius: 8px;
+    border: 1px solid black;
+    background: white;
+    padding: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+
+}
+
+.content-bottom{
+    display:flex;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-bottom:35px;
+}
+
