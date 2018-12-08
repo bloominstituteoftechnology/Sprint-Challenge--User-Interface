@@ -213,6 +213,7 @@ header nav a {
      display: inline-block;
      padding: 20px;
      border-bottom: 1px dashed black;
+     margin-bottom: 10px;
  }
 
  /* ABOUT MAIN CONTENT */
@@ -237,4 +238,14 @@ button {
     border-radius: 6px;
     padding: 4px 10px 4px;
     margin-top: 10px;
+}
+
+.about-img {
+    margin-bottom: 10px;
+}
+
+/*  WORK TOGEHTER */    
+
+.work-together {
+    padding: 0 25px 25px;
 }
