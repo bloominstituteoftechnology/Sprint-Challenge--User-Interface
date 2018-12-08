@@ -191,3 +191,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ~~~~~~~~~~~aboutpage css~~~~~~~~~~~~~~~~~ */
+
+
+.learn{
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+}
+
+.abttop-content{
+    border-bottom: 2px dashed darkgray;
+    padding-bottom: 20px;
+}
+
+.abtmiddlecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.abtbox{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-basis: 40%;
+    border-bottom: 2px dashed darkgray;
+}
+
+.closing{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
