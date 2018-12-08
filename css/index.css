@@ -87,7 +87,11 @@ header nav {
 }
 
 header nav a {
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80px;
+    height: 40px;
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -251,6 +255,10 @@ footer nav a {
     border-radius: 10px;
     border: 2px solid black;
     margin: 20px 0px;
+}
+
+.about-item button:hover {
+    cursor: pointer;
 }
 
 .about-bottom {
