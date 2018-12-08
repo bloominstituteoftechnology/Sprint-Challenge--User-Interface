@@ -270,6 +270,7 @@ footer nav a:hover {
     border: 2px solid #000;
     font-size: 1em;
     margin: 20px 0 5px 0;
+    background: #fff;
 }
 
 hr {
@@ -370,30 +371,3 @@ footer {
 
 
 
-/****** mobile responsiveness ******/
-@media screen and (max-width: 700px) {
-    .container .about-page {
-        background: red;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .aboutInfo {
-        background: red;
-        /* flex-direction: row; */
-
-    }
-
-    .input-form {
-		flex-direction: column;
-	}
-
-	.input:first-child > input {
-		margin-bottom: 20px;
-	}
-
-	.form .input > input {
-		width: 100%;
-	}
-
-}
