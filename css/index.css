@@ -218,7 +218,7 @@ footer nav a {
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
-    top: 80px;
+    top: 20px;
     display: flex;
     position: relative;
     flex-flow: row wrap;
@@ -254,8 +254,23 @@ button {
 
 .topcontent {
     position: relative;
-    top: 80px;
+    top: 10px;
     padding: 20px;
     border-bottom: 1px dashed black;
 }
 
+.jumbo-about {
+    margin-bottom: 10px;
+    height: 250px;
+    width: 100%;
+}
+
+.bottomstuffs {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
