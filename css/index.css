@@ -68,11 +68,12 @@ p {
 
 .full-container {
     width: 1000px;
-    margin: 0 auto;    
+    margin: 0 auto; 
+    background-color: white;   
 }
 
 .header-container {
-    width: 850px;
+    width: 835px;
     margin: 0 auto;
 }
 
@@ -329,4 +330,85 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/*  ABOUT Page CSS */
+
+
+.full-container1 {
+    width: 950px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.Middle-Content {
+    width: 850px;
+    margin: 0 auto;
+}
+
+
+.top-content-about{
+    width: 850px;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+
+.text-container-about{
+
+    padding: 15px 1%;
+    padding-bottom: 20px;  
+    width: 850px;
+    margin: 0 auto;
+}
+
+
+/* Middle content */
+
+
+.middle-content-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.info{
+    width: 50%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.info h3{
+    padding-top: 10px;
+}
+.info button{
+    padding: 9px 23px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 15px;
+    background-color: white;
+    margin: 10spx 0;
+   
+}
+
+.info:nth-last-child(-n+2){
+    margin-top: 30px;
+}
+
+ /* Bottom content */
+
+
+
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-top: 50px;
+}
+.bottom-cta{
+    padding-left: 20px;
+    margin-bottom: 35px;
 }
