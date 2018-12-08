@@ -144,3 +144,151 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 90%;
+}
+
+.logo {
+    margin-right: -40px;
+    margin-top: 10px;
+}
+
+.top-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+.about-top {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.boxed-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
+.boxed-content section {
+    width: 370px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+}
+
+.learn-more {
+	border: 2px solid black;
+	width: 130px;
+	height: 40px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.boxed-content img {
+    padding-bottom: 10px;
+}
+
+.bottom-box {
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom {
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.form {
+	list-style-type: none;
+	list-style-position: inside;
+	line-height: 2;
+    margin: 0 20px 25px 10px;
+    padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+    width: 350px;
+    font-size: 90%;
+}
+
+.contact-method {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+.contact-form input {
+	width: 100%;
+}
+
+.contact-form textarea {
+	width: 100%;
+}
+
+.contact-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-content h1 {
+    font-size: 200%;
+}
+
+.contact-content p {
+    margin-bottom: 1em;
+}
