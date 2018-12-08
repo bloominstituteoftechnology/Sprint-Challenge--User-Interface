@@ -145,6 +145,23 @@ footer nav a {
     text-decoration: none;
 }
 /* starting code for sprint challenge here */
+.box{
+    animation:spin 2s linear infinite;
+}
+@keyframes spin { 
+    100% {
+        transform:rotate(360deg);    
+    } 
+}
+.box:hover{
+    animation:reverse-spin 2s linear infinite;
+}
+@keyframes reverse-spin{
+    100%{
+        transform:rotate(-360deg);
+    }
+}
+}
 body {
     box-sizing: border-box;
     background-color: black;
