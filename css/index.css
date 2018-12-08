@@ -145,35 +145,21 @@ footer nav a {
     text-decoration: none;
 }
 
-
+/* Index.html CSS*/
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     margin: 25px 0;
-  
 }
 
 .a-link{
     text-decoration: none;
-    color: black;
-    
+    color: black;  
 }
 .header-img{
     margin: 10px 0 20px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .middle-content .boxes .box1{
   background: teal;
 }
@@ -204,3 +190,39 @@ footer nav a {
   .middle-content .boxes .box10{
     background: dodgerblue;
   }
+
+  /*About.html CSS*/
+.about{
+  margin-left: 20px; 
+}
+  .flex-section-1, .flex-section-2{
+      display: flex;
+      
+  }
+
+  .divider{
+      border: .5px dashed black;
+      margin: 25px 0;
+  }
+
+  .divider-content{
+    border: .5px dashed black;
+    margin-top: 25px;
+    margin-bottom: 55px; 
+    width: 93%;
+  }
+
+  .closing{
+      margin-bottom: 25px;
+  }
+.content-img {
+    margin-bottom: 10px;
+}
+.btn-learn{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7px 15px;
+    background: white;
+    margin-top: 15px;
+    outline: none;
+}
