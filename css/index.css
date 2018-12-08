@@ -206,3 +206,13 @@ header nav a {
  #box10 {
     background-color: dodgerblue;
  }
+
+ /* ABOUT TOP CONTENT */
+
+ .about-top-content {
+     display: inline-block;
+     padding: 20px;
+     border-bottom: 1px dashed black;
+ }
+
+ /* ABOUT MAIN CONTENT */
