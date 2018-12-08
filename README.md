@@ -32,23 +32,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1 If you were to describe semantic HTML to the next cohort of students, what would you say?
 
 Semantic elements allows us to indicate what type of content an element holds.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2 Name two big differences between ```display: block;``` and ```display: inline;```.
 
 Block elements force a line break after the block element while inline elements allow other elements to sit to their left and right. Inline elements respect left and right margins + padding, but not top and bottom while block elements respect left, right, top, and bottom
 
-3. What are the 4 areas of the box model?
+3 What are the 4 areas of the box model?
 
 margin, border, padding, content
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4 While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 cross axis
 
-5. Explain why git is valuable to a team of developers.
+5 Explain why git is valuable to a team of developers.
 
 Git keeps track of source code changes over time. If someone introduces a bug, it's easy to go back to a working version of the project.
 
