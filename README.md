@@ -34,15 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+ The role of HTML is not only to structure documents for the web, but also to describe the meaning of content present in these documents through semantic tags. The semantic HTML helps you describe the meaning of the content present in HTML documents, making it clearer for both programmers and browsers, and other engines that process information.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display:inline is an inline element that has no line break before and after of its neighbour elements and it allows HTML next to it. However, display: block is placed as an inline element (on the same line as adjacent content). It looks like a inline element but actually its behaves as a block element and don’t force to line break.
 
 3. What are the 4 areas of the box model?
 
+The CSS box model is the foundation of layout on the Web — each element is represented as a rectangular box, with the box's content, padding, border, and margin built up around one another like the layers. 
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+Cross Axis
 
 5. Explain why git is valuable to a team of developers.
 
+Git is important to developers because it is a reliable and stable revision control software. Git allows developers to make changes and see progress of projects in real time. Git also makes sharing files among co workers seamless. 
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
 
 ## Project Set Up
 
