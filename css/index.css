@@ -147,6 +147,12 @@ footer nav a {
 /* starting code for sprint challenge here */
 body {
     box-sizing: border-box;
+    background-color: black;
+}
+.super-container {
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
 }
 header nav {
     display: flex;
@@ -154,6 +160,7 @@ header nav {
     justify-content: space-between;
     margin: 10px;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 header nav a{
     text-decoration: none;
@@ -168,4 +175,34 @@ header{
 }
 .header-img {
     width: 100%;
+}
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box8{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
 }
