@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -106,6 +111,10 @@ header #logo-wrapper {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+#hero-image-wrapper {
+    margin: 2rem 0;
 }
 
 .top-content .text-container {
