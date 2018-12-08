@@ -217,6 +217,11 @@ div #box10 {
     color: white;
 }
 
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .top-content-about .text-container {
     width: 100%;
     padding: 0 1%;
@@ -225,8 +230,10 @@ div #box10 {
 
 .about-page .middle-content .text-container{
     margin-bottom: 20px;
+    display: flex;
     border-bottom: 1px dashed black;
-    line-height: 10px;
+    line-height: 20px;
+    width: 48%;
 }
 
 button {
@@ -235,4 +242,8 @@ button {
     width: 100px;
     border: 1px solid black;
     background: white;
+}
+
+.about-page .middle-content .text-container .grouping{
+    display: fle;
 }
