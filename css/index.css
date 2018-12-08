@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+.full-container {
+    width: 1000px;
+    margin: 0 auto;    
+}
+
 .header-container {
     width: 850px;
     margin: 0 auto;
@@ -76,6 +81,13 @@ p {
     margin: 0 auto;
 }
 
+body {
+    background-color: #0e0e0e;
+}
+
+.full-container {
+    background-color: white;
+}
 
 
 
@@ -88,6 +100,7 @@ header nav {
    align-items: baseline;
    padding: 20px 0 40px 0;
    margin-bottom: -25px;
+   margin-top: -20px
    
   }
   
