@@ -50,6 +50,9 @@ time, mark, audio, video {
     padding-bottom: 10px;
   
  }
+ .logoImg {
+     margin-top: 25px;
+ }
  
  .serv, .prod, .vis, .feat, .abou, .cont {
     background-color: white;
@@ -60,8 +63,16 @@ time, mark, audio, video {
     transition: 0.3s;
     font-family: 'Permanent Marker', cursive;
     text-decoration: none;
-     
+    padding: 25px;
  }
+ .serv:hover, .prod:hover, .vis:hover, .feat:hover, .abou:hover, .cont:hover {
+     background-color: gray;
+     color: white;
+ }
+
+.jumbo{
+    margin-top: 60px;
+}
  .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -71,6 +82,27 @@ time, mark, audio, video {
     border-bottom: 1px dashed black;
 }
 
+.top-container, .container-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+    
+}
+
+.box1, .box3{
+    margin-right: 20px;
+    border-bottom: dotted black;
+}
+.box2, .box4 {
+    margin-left: 20px;
+    border-bottom: dotted black;
+}
+
+.box-text{
+    padding-top: 20px;
+    padding-bottom:10px;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -98,6 +130,25 @@ footer nav {
     font-size: 14px;
 }
 
+.learn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+    width: 180px;
+    padding-top: 15px;
+    border: 1px solid black;
+    border-radius: 6%;
+    
+}
+.learn:hover {
+    background-color:  #d9d9d9;
+    color: black;
+    cursor: pointer;
+}
+.together {
+    margin: 30px auto 50px;
+}
 footer nav a {
     color: white;
     text-decoration: none;

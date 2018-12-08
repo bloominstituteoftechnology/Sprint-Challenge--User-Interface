@@ -25,7 +25,6 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 
-
 .navBar  {
     display: flex;
     flex-direction: row;
@@ -45,6 +44,9 @@ time, mark, audio, video {
     padding-bottom: 10px;
   
  }
+ .logoImg {
+     margin-top: 25px;
+ }
  
  .serv, .prod, .vis, .feat, .abou, .cont {
     background-color: white;
@@ -55,7 +57,11 @@ time, mark, audio, video {
     transition: 0.3s;
     font-family: 'Permanent Marker', cursive;
     text-decoration: none;
-     
+    padding: 25px;
+ }
+ .serv:hover, .prod:hover, .vis:hover, .feat:hover, .abou:hover, .cont:hover {
+     background-color: gray;
+     color: white;
  }
  
 
@@ -121,6 +127,7 @@ p {
     padding-bottom: 20px;  
 }
 .jumbo {
+    margin-top: 60px;
     padding-bottom: 20px;
 }
 .middle-content {
