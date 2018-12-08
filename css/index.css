@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html, body {
@@ -66,9 +67,46 @@ p {
     line-height: 1.4;
 }
 
+/* Start Index Page*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 800px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+header .nav-pic {
+    height: 40px;
+    width: auto;
+}
+
+header .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header li {
+    margin: 25px 35px 40px 48px;
+    font-size: 14px;
+}
+
+header .clicks {
+    color: black;
+    font-weight: bold;
+}
+
+.top-pic {
+    display: flex;
+    margin: auto;
+}
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .top-content {
@@ -101,15 +139,54 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10  {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +220,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* End Index Page */
+
+/* Start About Page */
+
+.about-para {
+    margin: 17px 17px 25px 17px;
+    font-size: 16px;
+}
+
+.dot-line {
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.breakdown {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.breakdown div {
+    margin-top: 20px;
+	padding: 0px;
+    width: 375px;
+    border-bottom: 1px dashed black;
+}
+
+.breakdown h1 {
+    margin-top: 10px;
+}
+.breakdown p {
+	font-size: 17px;
+    line-height: 19px;
+}
+
+.breakdown .learn-more {
+    width: 125px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 28px 250px 20px 0px;
+    padding: 8px 10px 8px 15px;
+    font-size: 17px;
+}
+
+.breakdown .list3 {
+    margin-top: 60px;
+}
+
+.breakdown .list4 {
+    margin-top: 60px;
+}
+
+.teamwork {
+    margin: 45px 15px;
 }
