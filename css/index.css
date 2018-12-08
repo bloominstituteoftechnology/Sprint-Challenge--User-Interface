@@ -68,16 +68,16 @@ p {
 
 header {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     margin-top: 10px;
 }
 
 .top-nav {
-    margin-left: 30px;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .nav-links {
