@@ -98,7 +98,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
@@ -129,6 +129,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 35px;
 }
 
 footer nav {
@@ -145,65 +146,56 @@ footer nav a {
     text-decoration: none;
 }
 
+/* start of about page */ 
+.border {
+
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
 header nav ul{
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin: 15px 0 15px 0;
     align-items: flex-end;
+    margin: 15px 0 15px 0;
+
 }
 
-.middle-content .boxes .box:nth-child(1) {
+.row1 {
 
-    background: teal;
+display: flex;
+flex-direction: row;
+
 }
 
-.middle-content .boxes .box:nth-child(2) {
+.ind_section {
 
-    background: gold;
+display: flex;
+flex-direction: column;
+
+
+
 }
 
-.middle-content .boxes .box:nth-child(3) {
+.button {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 15px 2px;
+  border-radius: 12px;
+  width: 43%;
 
-    background: cadetblue;
 }
 
-.middle-content .boxes .box:nth-child(4) {
+h4 {
 
-    background: coral;
+    margin-top: 20px;
 }
-
-.middle-content .boxes .box:nth-child(5) {
-
-    background: crimson;
-}
-
-.middle-content .boxes .box:nth-child(6) {
-
-    background: forestgreen;
-}
-
-.middle-content .boxes .box:nth-child(7) {
-
-    background: darkorchid;
-}
-
-.middle-content .boxes .box:nth-child(8) {
-
-    background: hotpink;
-}
-
-.middle-content .boxes .box:nth-child(9) {
-
-    background: indigo;
-}
-
-.middle-content .boxes .box:nth-child(10) {
-
-    background: dodgerblue;
-}
-
-
-
