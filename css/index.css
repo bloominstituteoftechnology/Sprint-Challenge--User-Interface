@@ -70,6 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    margin-top: 20px;
+    margin-bottom: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav  a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .top-content {
     display: flex;
@@ -77,6 +100,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.top-content img {
+    margin-bottom: 50px;
+    order: -1;
 }
 
 .top-content .text-container {
@@ -111,6 +138,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:nth-of-type(1) {
+    background: teal;
+}
+.middle-content .boxes .box:nth-of-type(2) {
+    background: gold;
+}
+.middle-content .boxes .box:nth-of-type(3) {
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4) {
+    background: coral;
+}
+.middle-content .boxes .box:nth-of-type(5) {
+    background: crimson;
+}
+.middle-content .boxes .box:nth-of-type(6) {
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7) {
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8) {
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9) {
+    background: indigo;
+}
+.middle-content .boxes .box:nth-of-type(10) {
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +200,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ------ About ------ */
+
+.about-top-content {
+    border-bottom: 1px dashed black;
+}
+.about-text-container {
+    margin: auto;
+    padding: 40px 0;
+    width: 95%;
+}
+
+.about-middle-content {
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-middle-content .about-card {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 380px;
+}
+.about-middle-content .about-card img {
+    margin: 40px 0 20px 0;
+    width: 100%;
+}
+.about-middle-content .about-card button {
+    margin: 20px 0;
+    height: 50px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
 }
