@@ -80,6 +80,7 @@ p {
 }
 
 .top-content .text-container {
+    margin-top: 23px;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -143,4 +144,138 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header img {
+  margin-bottom: 2px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 750px;
+  font-size: 14px;
+  margin-bottom: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.boxes .box:nth-child(1) {
+  background-color: teal;
+}
+.boxes .box:nth-child(2) {
+  background-color: gold;
+}
+.boxes .box:nth-child(3) {
+  background-color: cadetblue;
+}
+.boxes .box:nth-child(4) {
+  background-color: coral;
+}
+.boxes .box:nth-child(5) {
+  background-color: crimson;
+}
+.boxes .box:nth-child(6) {
+  background-color: forestgreen;
+}
+.boxes .box:nth-child(7) {
+  background-color: darkorchid;
+}
+.boxes .box:nth-child(8) {
+  background-color: hotpink;
+}
+.boxes .box:nth-child(9) {
+  background-color: indigo;
+}
+.boxes .box:nth-child(10) {
+  background-color: dodgerblue;
+}
+
+.about-page .top-content .text-container {
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 23px;
+}
+
+.stuff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.stuff div {
+  width: 370px;
+  border-bottom: 1px dashed black;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.stuff h2 {
+  padding-top: 10px;
+}
+
+.stuff button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 40px;
+  width: 130px;
+  font-family: inherit;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.about-page .bottom-content .text-container {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.about-page .top-content {
+  margin-bottom: 0px;
+}
+
+.contact-page .top-content {
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: none;
+}
+
+.contact-page .top-content img {
+  width: 100%;
+  height: auto;
+}
+
+form {
+  margin-top: 30px;
+}
+
+label, input, textarea {
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 300px;
+}
+
+input, textarea {
+  margin-bottom: 20px;
 }
