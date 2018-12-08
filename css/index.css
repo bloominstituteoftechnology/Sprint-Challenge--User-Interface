@@ -72,7 +72,7 @@ nav a {
     font-size: 14px;
 }
 
-.carLights {
+.headerImg {
     margin-bottom: 25px;
 }
 
@@ -103,6 +103,21 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-contentAbout {
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.top-containerAbout p {
+    font-weight: bold;
+}
+
+hr {
+    border: 1px dashed;
+    margin-bottom: 25px;
 }
 
 .middle-content {
@@ -203,4 +218,29 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-contentAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-contentAbout .text-container {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 100px;
+    background: white;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid black;
 }
