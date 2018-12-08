@@ -211,3 +211,42 @@ a{
 #box10{
     background-color:dodgerblue;
 }
+
+/* Additional css for about */
+
+.info-box-conatainer{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 425px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 5%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin:%;
+    padding-bottom: 2.5%;
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    border:2px solid black;
+    border-radius: 8px;
+    height: 10%;
+    width:35.5%;
+    padding-left: 5.5%;
+    margin-top:5.5%;
+}
