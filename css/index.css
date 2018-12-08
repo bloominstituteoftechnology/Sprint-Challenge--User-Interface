@@ -192,8 +192,8 @@ section {
 
 .about {
     width: 100%;
-    border-bottom: 1px solid black;
-    padding-bottom: 10px;
+    border-bottom: 1px dotted black;
+    padding: 0 20px 15px 20px;
     margin-bottom: 10px;
 }
 
@@ -203,6 +203,7 @@ section {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 30px 0;
+    padding: 0 20px
 }
 
 .card h2 {
@@ -225,6 +226,11 @@ section {
     background: white;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+.bottom-section {
+    margin-bottom: 15px;
+    padding: 0 20px;
 }
 
 footer {
