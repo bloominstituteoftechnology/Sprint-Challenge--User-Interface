@@ -228,12 +228,35 @@ main {
   max-width: 50%;
 }
 
+
 button {
   padding: 10px 30px;
   border: 2px solid #000;
    border-radius: 8px;
    cursor: pointer;
  }
+
+ @keyframes bounce {
+  0%, 20%, 60%, 100% {
+ 	 -webkit-transform: translateY(0);
+ 	 transform: translateY(0);
+  }
+
+  40% {
+ 	 -webkit-transform: translateY(-20px);
+ 	 transform: translateY(-20px);
+  }
+
+  80% {
+ 	 -webkit-transform: translateY(-10px);
+ 	 transform: translateY(-10px);
+  }
+ }
+
+
+button:hover {
+	animation: bounce 1s;
+}
 
 footer {
   width: 100%;
