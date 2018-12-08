@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+a {
+	text-decoration: none;
+	color: #333;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +82,14 @@ nav {
 	align-items: baseline;
 	padding-top: 20px;
 	padding-bottom: 40px;
+}
+
+/* nav a {
+	justify-content: space-evenly;
+} */
+
+header img {
+padding-bottom: 20px;
 }
 
 .top-content {
