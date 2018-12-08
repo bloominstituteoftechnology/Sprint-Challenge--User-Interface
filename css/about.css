@@ -74,6 +74,23 @@ nav > a {
 	color: black;
 }
 
+header {
+  width: 800px;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  border-bottom: 1px dashed black;
+}
+
+header > img {
+  margin-bottom: 20px;
+}
+
+header > p,
+header > h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
