@@ -206,3 +206,11 @@ header{
 #box10{
     background-color: dodgerblue;
 }
+
+
+/* classes for about page*/
+.container-about {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
