@@ -51,7 +51,7 @@ table {
     box-sizing: border-box;
 }
 
-/* Main Page CSS */
+/* General CSS */
 
 html, body {
     height: 100%;
@@ -107,6 +107,8 @@ nav a:hover {
 header img {
     margin-bottom: 20px;
 }
+
+/* Main Page CSS */
 
 .top-content {
     display: flex;
