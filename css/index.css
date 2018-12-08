@@ -61,16 +61,64 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+h2 {
+	font-size: 1.2rem;
+}
 p {
     line-height: 1.4;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 20px auto 0px;
 }
-
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+    margin-bottom: 30px;
+}
+@media(max-width: 750px) {
+	.navbar {
+        flex-direction: column;
+        align-items: initial;
+	}
+	.nav-logo {
+		margin: 0 auto 5px;
+	}
+}
+.nav-links {
+	display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.nav-links a {
+	color: gray;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+.nav-links a:hover {
+	color: black;
+}
+@media(max-width: 750px) {
+	.nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+	.nav-links a {
+		margin: 0 0 3px 0;
+	}
+}
+.header-img {
+    margin-bottom: 30px;
+}
+@media(max-width: 750px) {
+    .header-img {
+        display: none;
+    }
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,13 +126,24 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+@media (max-width: 750px) {
+    .top-content {
+        flex-direction: column;
+    }
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+@media (max-width: 750px) {
+    .top-content .text-container {
+        width: auto;
+        padding: 0 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -94,7 +153,11 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+@media (max-width: 750px) {
+    .middle-content h2 {
+        text-align: center;
+    }
+}
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +174,42 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+@media (max-width: 750px) {
+    .middle-content .boxes .box {
+        width: 150px;
+        height: 150px;
+    }
+}
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -121,7 +219,15 @@ p {
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
+@media (max-width: 750px) {
+    .bottom-content {
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    .bottom-content .text-container {
+        margin-bottom: 20px;
+    }
+}
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -143,4 +249,70 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+@media (max-width: 750px) {
+    footer nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15px;
+    }
+    footer nav a {
+        margin-bottom: 3px;
+    }
+}
+/* *******STYLINGS FOR ABOUT PAGE **************** */
+
+.about-summary {
+    padding: 30px;
+    border-bottom: 2px dotted black;
+    margin-bottom: 30px;
+}
+@media (max-width: 750px) {
+    .about-summary {
+        padding-top: 0;
+    }
+    .about-summary h2 {
+        font-size: 1.5rem;
+    }
+}
+.about-header-img {
+    margin-bottom: 0px;
+}
+.services-blurbs {
+    display: flex;
+	flex-wrap: wrap;
+}
+.service-card {
+    border-bottom: 2px dotted;
+    width: 370px;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+@media(max-width: 750px) {
+    .service-card img {
+        width: 100%;
+    }
+}
+.service-card img, .service-card p {
+    margin-bottom: 10px;
+}
+.service-card button {
+    padding: 10px 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.service-card button:hover {
+    border-color: #232426;
+    background-color: #232426;
+    color: white;
+}
+.services-summary {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+@media (max-width: 750px) {
+    .services-summary h2 {
+        font-size: 1.5rem;
+    }
 }
