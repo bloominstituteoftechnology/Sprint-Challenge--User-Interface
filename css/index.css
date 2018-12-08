@@ -79,6 +79,11 @@ nav > a {
 	color: black;
 }
 
+header {
+	width: 800px;
+	margin: 20px auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
