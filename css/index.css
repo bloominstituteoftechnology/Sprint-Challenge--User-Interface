@@ -146,7 +146,6 @@ footer nav a {
 
 .nav-1-content {
     display: flex;
-    border: 1px solid red;
     margin-bottom: 40px;
     justify-content: space-between;
     align-items: flex-end;
@@ -187,4 +186,44 @@ nav a {
 }
 .box.box10 {
     background: dodgerblue;
+}
+
+.container.about-page
+{
+    width:800px;
+}
+
+.about-info {
+    border-top: 2px dotted black;
+    border-bottom: 1px dotted black;
+    margin: 30px 0px;
+    padding: 30px 0px;
+    
+}
+
+.first-block {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.second-block {
+    display: flex;
+    
+}
+
+.end-nav {
+    margin-top: 30px;
+}
+
+.about-txt{
+    margin-top: 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
 }
