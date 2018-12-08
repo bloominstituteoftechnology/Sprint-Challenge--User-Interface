@@ -32,9 +32,9 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say? Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. Examples of semantic HTML tags include the header tags <h1> through <h6>, <blockquote>, <code> and <em>. 
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a p tag indicates that the enclosed text is a paragraph. Examples of semantic HTML tags include the header tags h1 through h6, blockquote, code and em. 
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```. Display:block displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width. While display:inline displays an element as an inline element (like <span>). Any height and width properties will have no effect.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. Display:block displays an element as a block element. It starts on a new line, and takes up the whole width. While display:inline displays an element as an inline element. Any height and width properties will have no effect.
 
 3. What are the 4 areas of the box model? The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
 
