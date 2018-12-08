@@ -208,20 +208,24 @@ header a {
     background-color: dodgerblue;
 }
 
-.about-content {
-    padding-left: 15px;
+.about-top {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding-left: 20px;
 }
 
 .boxed-content {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 15px;
 }
 
 .boxed-content section {
-    width: 50%;
-    border-bottom: 1px dashed black;
+    width: 370px;
     padding-bottom: 10px;
     margin-bottom: 60px;
+    margin-right: 20px;
 }
 
 .learn-more {
@@ -239,4 +243,13 @@ header a {
 
 .boxed-content img {
     padding-bottom: 10px;
+}
+
+.bottom-box {
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom {
+    padding-left: 20px;
+    margin-bottom: 40px;
 }
