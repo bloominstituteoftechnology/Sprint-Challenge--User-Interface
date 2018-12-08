@@ -9,10 +9,13 @@ Block-level elements take up the full available width of its container and won't
  Inline-level elements do not break the flow of the document and allow things to be placed next to them. They're meant for text. They don't respect top and bottom margins or even widths and heights. 
 
 3. What are the 4 areas of the box model?
+
 Margin, Border, Padding, Content
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
+
 Cross axis
 
 5. What is the git command to commit staged changes as well as write a message? 
+
 git commit -m "adding extra container div" 
