@@ -138,9 +138,56 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Start Navigation and Header */
+/* Start Home Navigation and Header */
+
+.home-nav {
+  /* border: 3px solid red; */
+  display: flex;
+  margin: 35px 0;
+  justify-content: space-between;
+}
+
+.home-nav img {
+  /* border: 3px solid red; */
+  /* margin-right: 35px; */
+  margin-top: -10px;
+}
+nav {
+  /* border: 3px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+a {
+  display: flex;
+  justify-content: space-around;
+  /* border: 3px solid red; */
+  margin-right: 50px;
+  border-radius: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 10px 10px 0 10px;
+}
+
+/* a:hover {
+  background: black;
+  color: white;
+} */
 
 /* End Navigation and Header */
+
+/* Start Header Image */
+.heaher-img {
+  text-align: center;
+}
+
+.text-container {
+  margin-top: 35px;
+}
+/* End Header Image */
 
 h1,
 h2,
