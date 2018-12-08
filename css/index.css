@@ -283,3 +283,49 @@ footer nav a {
   margin: 2rem 0;
   padding: 0 1%;  
 }
+
+/* Contact Form */
+.contact-form-instructions {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact-form-instructions h1 {
+    font-size: 2.5rem;
+}
+
+.contact-form-container {
+    margin: 2rem 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+  display: block;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 90%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+.contact-submit-btn {
+  width: 30%;
+  padding: 1rem;
+  border-radius: 25px;
+  margin-bottom: 2rem;
+  color: white;
+  background: crimson;
+  font-size: 1rem;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
