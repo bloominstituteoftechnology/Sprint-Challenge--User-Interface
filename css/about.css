@@ -86,9 +86,6 @@ h2 {
 
 
 
-nav a:hover{
-    text-decoration: underline;
-}
 
 
 /* Header & Nav */
@@ -109,6 +106,17 @@ header nav {
 header nav a {
     text-decoration: none;
     color: black;
+}
+
+header .link {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px 15px;
+    transition: 250ms;
+}
+
+header .link:hover {
+    background: aquamarine;
 }
 
 
@@ -216,5 +224,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
 }
 
