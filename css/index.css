@@ -75,16 +75,26 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 nav a{
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
+    background-position: right bottom;
+    transition: all .25s ease-in-out;
+    box-sizing: content-box;
+    padding: 15px;
 }
+
+nav a:hover{
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    color: white;
+    background-position: left bottom;
+  }
 
 .top-content {
     display: flex;
