@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+:root {
+    --border: 2px solid red;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -66,9 +70,42 @@ p {
     line-height: 1.4;
 }
 
+
+/* general styles  */
 .container {
     width: 800px;
+    max-width: 100%;
     margin: 0 auto;
+    border: var(--border);
+}
+
+/* top nav bar */
+
+.topNav {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.mainNav {
+    display: flex;
+    /* border: var(--border); */
+    width: 100%;
+    justify-content: space-around;
+}
+
+.mainNav li {
+    list-style: none;
+    align-self: flex-end;
+}
+
+.mainNav li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    /* background: red; */
+}
+
+.headerIMG {
+    margin: 0 0 20px 0;
 }
 
 .top-content {
