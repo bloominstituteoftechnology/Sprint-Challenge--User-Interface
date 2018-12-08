@@ -71,15 +71,25 @@ p {
     margin: 0 auto;
 }
 
-header nav {
+/*home header*/
+
+header {
 	display: flex;
-	vertical-align: top;
+    width: 100%;
+    vertical-align: top;
 	margin-top: 34px;
 	justify-content: space-between;
 	align-content: flex-end;
     margin-bottom: 32px;
 }
 
+header nav {
+    margin: 40px 0 40px 0;
+    width: 880px;
+    justify-content: space-around;
+    display: flex;
+   
+}
  header nav a {
     display: flex;
     justify-content: space-between;
@@ -95,11 +105,18 @@ header nav a:hover {
     text-decoration: underline;
 }
 
+header .logo {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+/*home top*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 40px 0 50px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -111,7 +128,7 @@ header nav a:hover {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-bottom: 1px dashed black;
 }
 
@@ -137,34 +154,34 @@ header nav a:hover {
     justify-content: center;
 }
 
-#one {
+.middle-content .boxes .box1 {
     background: teal;
 }
-#two {
+.middle-content .boxes .box2 {
     background: gold;
 }
- #three {
+ .middle-content .boxes .box3 {
     background: cadetblue;
 }
- #four {
+ .middle-content .boxes .box4 {
     background: coral;
 }
- #five {
+ .middle-content .boxes .box5 {
     background: crimson;
 }
-#six {
+ .middle-content .boxes .box6 {
     background: forestgreen;
 }
- #seven {
+ .middle-content .boxes .box7 {
     background: darkorchid;
 }
- #eight {
+ .middle-content .boxes .box8 {
     background: hotpink;
 }
-#nine {
+ .middle-content .boxes .box9 {
     background: indigo;
 }
-#ten {
+ .middle-content .boxes .box10 {
     background: dodgerblue;
 }
 
@@ -203,47 +220,69 @@ footer nav a {
 
 /*about.html*/
 
-.top1 {
+.about-content {
     border-bottom: 1px dashed black;
     padding-bottom: 23px;
 }
 
-.about-long {
+.about-content .jumbo-about {
     margin: 10px 0 19px;
 }
 
-.top2 {
-    width: 350px;
-    margin: 15px 0;
+.top-content-about {
+    margin: 0 19px;
+}
+
+.top-about {
+    display: flex;
+    border-top: 1px dashed black;
+    padding-top: 23px;
+}
+
+.middle-about {
+    display: flex;
+}
+
+.top-about .box-content {
+    padding: 20px 0;
     border-bottom: 1px dashed black;
+    margin: 20px;
 }
 
-.box-content h3 {
-    margin-top: 15px;
+.middle-about .box-content {
+    padding-top: 500px;
+    border-bottom: 1px dashed black;
+    margin: 2px;
+    
 }
 
-.box-content p {
-    line-height: 1.5;
-    margin: 15px 0;
-    font-size: 15px;
+.h2-about {
+    padding: 9px 0;
 }
 
-.box-content button {
+.p-about {
+    padding: 9px 0;
+}
+
+.top-about img {
+    padding: 9px 0;
+}
+
+.button {
+    padding: 10px 35px;
+    margin-top: 25px;
     background: white;
-    vertical-align: top;
-    margin: 12px 0;
-    padding: 9px 44px;
-    font-size: 15px;
+    border-radius: 4px;
     border: 1px solid black;
     cursor: pointer;
-    border-radius: 6px;
 }
 
-.box-content button:hover {
-    background: black;
-    color: white;
+.middle-about img {
+    padding: 9px 0;
 }
 
-.bottom2 {
-    margin: 24px 0;
+.bottom-about {
+    margin: 32px;
+    padding-bottom: 15px
 }
+
