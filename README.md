@@ -34,7 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+### Semantic HTML
+#### It provides precise meaning to your content. In other words, we describe tags with meaning.
+#### For example:
+
+#### <header>
+#### <footer>
+#### <main>
+#### <section>
+
+##### Link: https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+
+#### To better understand semantics, it makes your websites readable and easily interpreted by the screen-readers and search-engines. As a fellow developer, it helps the next developers to read and understand the code and easier to maintain as it is organized. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+###Inline-block
+
+####Block element
+####Takes up the entire page
+
+####Ex.
+<p style= “background: green;”>Block</p>
+
 
 3. What are the 4 areas of the box model?
 
