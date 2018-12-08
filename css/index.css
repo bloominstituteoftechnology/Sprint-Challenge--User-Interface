@@ -71,6 +71,10 @@ p {
     margin: 0 auto;
 }
 
+header .logo-nav {
+    display: flex;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +103,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.boxes .box1 {
+    background-color: teal;
 }
 
 .middle-content .boxes .box {
