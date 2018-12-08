@@ -180,14 +180,72 @@ a {
 /* End Navigation and Header */
 
 /* Start Header Image */
-.heaher-img {
+.header {
+  border-bottom: 1px dashed black;
+}
+.header-img {
   text-align: center;
 }
 
 .text-container {
   margin-top: 35px;
 }
+
+.header-text {
+  margin: 25px 20px;
+}
+
+.header-text p {
+  margin-bottom: 15px;
+}
+
 /* End Header Image */
+
+/* Start Main section */
+.firstrow {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.box {
+  padding-left: 10px;
+}
+
+.strategy {
+  margin: 20px 0;
+  border-bottom: 1px dashed black;
+}
+
+button {
+  margin: 15px 0;
+}
+
+#firstbox {
+  margin-right: 30px;
+}
+
+.box h2 {
+  margin-top: 15px;
+}
+
+button {
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  color: black;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+/* End Main section */
+
+/* Start bottom */
+.bottom {
+  margin: 25px 0 45px 0;
+  padding-left: 5px;
+}
+/* End bottom */
 
 h1,
 h2,
