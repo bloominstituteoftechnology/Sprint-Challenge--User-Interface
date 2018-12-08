@@ -52,7 +52,6 @@ table {
 }
 
 html, body {
-    border: 1px solid purple;
     height: 100%;
     font-family: 'Roboto', sans-serif;
     width: 880px;
@@ -101,7 +100,6 @@ header a:hover {
 
 
 .container {
-    border: 1px solid green;
     width: 800px;
     margin: 0 auto;
 }
@@ -148,6 +146,47 @@ header a:hover {
     justify-content: center;
 }
 
+.middle-content .boxes .box_01 {
+    background: teal;
+}
+
+.middle-content .boxes .box_02 {
+    background: gold;
+}
+
+.middle-content .boxes .box_03 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box_04 {
+    background: coral;
+}
+
+.middle-content .boxes .box_05 {
+    background: crimson;
+}
+
+.middle-content .boxes .box_06 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box_07 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box_08 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box_09 {
+    background: indigo;
+}
+
+.middle-content .boxes .box_10 {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -165,6 +204,8 @@ header a:hover {
 footer {
     width: 100%;
     background: black;
+    display:flex;
+    justify-content: flex-start;
 }
 
 footer nav {
@@ -174,6 +215,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 0;
 }
 
 footer nav a {
