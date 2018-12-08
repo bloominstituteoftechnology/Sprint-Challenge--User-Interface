@@ -211,5 +211,29 @@ img.road-picture {
     background: dodgerblue;
 }
 
+/* About Page */
+.about-page section.about {
+    display: flex;
+    flex-direction: column;
+    border-bottom: dashed 1px black;
+    width: 100%;
+    margin-bottom: 3%
+}
+
+section.about h1, section.about p {
+    margin-left: 2%;
+}
+
+p {
+    margin-bottom: 3%;
+}
+
+.about-page .categories {
+    display: flex;
+}
+
+section.strategy {
+    display: flex;
+}
 
 
