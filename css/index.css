@@ -87,6 +87,8 @@ div.top-header {
     margin-bottom: 30px;
 }
 
+/* ==== navigation starts ==== */
+
 div.top-header > nav {
     display: flex;
     width: 70%;
@@ -96,7 +98,38 @@ div.top-header > nav {
 div.top-header > nav > a {
     text-decoration: none;
     color: black;
+    font-size: 14px;
 }
+
+@keyframes increase {
+	from {
+		font-size: 14px;
+		color: gray;
+		font-weight: normal;
+		border: none;
+		background-color: transparent;
+	}
+	to {
+		font-size: 20px;
+		color: rgb(63, 62, 61);
+		font-weight: bold;
+		border: 1px dotted rgb(63, 62, 61);
+		border-radius: 5px;
+		background-color: rgb(221, 216, 216);
+		padding: 5 auto;
+	}
+}
+
+div.top-header > nav > a:hover {
+    font-size: 14px;
+    padding: 5px;
+	color: gray;
+	animation-name: increase;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* ==== navigation ends ==== */
 
 .bottom-header > img {
     width: 100%;
@@ -240,8 +273,20 @@ footer nav a {
 button {
     margin: 15px auto 15px 0;
     padding: 5px 15px;
-    border: 1px solid black;
+    border: 1px 3px 3px 1px solid black;
     border-radius: 5px;
+}
+
+@keyframes spin {
+        to { transform: rotate(1turn); }
+}
+
+button:hover {
+    background-color: lightgray;
+    color: dodgerblue;
+    font-weight: bold;
+    animation: spin 1s linear;
+    transform-origin: 30% 50px;
 }
 
 /* ----- Top content STARTS here ---- */
