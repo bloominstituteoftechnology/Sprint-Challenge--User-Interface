@@ -144,3 +144,102 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* LM CSS */
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.inner-header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-header>img {
+    
+ padding-bottom: 24px;
+   
+}
+
+.inner-header>nav {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.inner-header>nav>a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    color: black;
+    width: 20%;
+    height: 100%;
+
+}
+
+.inner-header>nav>a:hover {
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid lightgray;
+}
+
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
