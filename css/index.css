@@ -201,3 +201,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page specifics */
+
+.container-about-page header{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#linething {
+    border: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-about-page main {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; 
+    width: 375px;
+    border-bottom: 1px dashed grey;
+    margin-bottom: 50px;
+}
+
+main div h2 {
+    margin-top: 10px;
+}
+
+.ender {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
