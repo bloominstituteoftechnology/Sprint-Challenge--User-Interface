@@ -208,14 +208,6 @@ footer nav a {
 	margin: 10px 0;
 }
 
-/*section.whole.top {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 4%;
-    justify-content: space-between;
-    width: 462px;
-}
-*/
 .button {
 	display: flex;
 	background-color: white;
@@ -233,15 +225,6 @@ footer nav a {
 	align-items: center;
 }
 
-/*.images {
-    width: 50%;
-}
-*/
-/*.top {
-    display: flex;
-
-}
-*/
 .whole {
     display: flex;
     flex-wrap: wrap;
@@ -255,3 +238,11 @@ h2 {
 .about-footer {
     margin-top: 5%;
 }
+
+.short-line {
+    display: flex;
+    border: 1px dotted black;
+    border-right: none;
+    border-left: none;
+}
+
