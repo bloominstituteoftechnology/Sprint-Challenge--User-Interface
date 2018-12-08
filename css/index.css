@@ -194,13 +194,13 @@ p {
     flex-direction: column;
 } 
 
-.about {
+.main-content {
     border-bottom: 2px dotted black;
     margin: 15px 15px 30px;
     padding: 10px;
 }
 
-.about p {
+.main-content p {
     padding-bottom: 20px;
 }
 
@@ -238,6 +238,11 @@ p {
     padding: 20px;
 }
 
+.products-img {
+    height: 153px;
+    width: 100%;
+}
+
 
 footer {
     width: 100%;
@@ -256,4 +261,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+img:hover {
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+    z-index: -1;
+
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {left: 0px;}
+    100% {left: 75px;}
 }
