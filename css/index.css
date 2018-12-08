@@ -248,3 +248,7 @@ footer nav a {
     margin-right: 20px;
     margin-left: 10px;
 }
+
+.closing .closing-text {
+    padding: 10px 30px 30px 30px;
+}
