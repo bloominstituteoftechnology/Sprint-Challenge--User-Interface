@@ -47,7 +47,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
   _The 4 areas of the box model are:_
 
-    _1. margin_
+    *1. margin*
 
     _2. border_
 
@@ -64,11 +64,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
   _Git is a valuable tool for development team because it provides the following features:_
 
-    _- Ability to share and work on source code in a distributed manner_
+    *- Ability to share and work on source code in a distributed manner*
 
-      _- Each developer can have their own copy of the source code which then can be merged back to the original_
+      - Each developer can have their own copy of the source code which then can be merged back to the original
 
-    _- Ability to save, track, and rollback changes made to the source code_
+    - Ability to save, track, and rollback changes made to the source code
 
     _- Ability for 2 or more developers to work on source code without the risk of overwriting each other's work_
 
