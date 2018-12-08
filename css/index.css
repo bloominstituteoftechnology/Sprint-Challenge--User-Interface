@@ -149,4 +149,24 @@ footer nav a {
 
 /* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
 
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 
+    height: 50px;
+    margin: 25px 0px 25px 0px
+
+}
+
+    .nav-RIGHT {
+        flex-grow: 1;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .top-content {
+        margin-top: 20px;
+    }
