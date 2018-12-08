@@ -104,6 +104,17 @@ nav a{
     padding-bottom: 20px;  
 }
 
+.container .main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-content .half-box{
+    width: 48%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
