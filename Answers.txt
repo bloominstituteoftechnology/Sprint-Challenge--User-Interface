@@ -1,0 +1,14 @@
+1. If you had to describe semantic HTML to the next cohort of students, what would you say?
+   Semantic Html gives meaning to web pages rather then just presenting them. We could have
+   a web page full of divs but how would you know what a <p> or even <h1>? That where semantic
+   html comes in. 
+2. Name two big differences between display: block; and display: inline;?
+   Block means that the element is displayed as a block. Inline means that the 
+   element is displayed inline.
+3.What are the 4 areas of the box model?
+  Padding, Border, Margin and Content. 
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+    Cross Axis
+5. What is the git command to commit staged changes as well as write a message? 
+   git commit -m ""
