@@ -209,16 +209,21 @@ header{
 
 
 /* classes for about page*/
-.container-about {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
+.container-about{
     border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+}
+.container-about-text{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .middle-container {
     /* border: 1px solid red; */
     display: flex;
     flex-flow: wrap row;
+    margin-bottom: 30px;
 }
 .little-boxes {
     /* border: 1px solid green; */
@@ -234,12 +239,20 @@ header{
       margin: 10px 0px;
 }
 .little-boxes p {
-    margin: 10px 0px; 
+    margin: 15px 0px; 
 }
 .learn-more{
     border: 3px solid black;
     border-radius: 10px;
     width: 35%;
     padding: 10px;
-    margin: 10px 0px;
+    margin: 0px 0px;
+    text-align: center;
+}
+
+.work-together {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
