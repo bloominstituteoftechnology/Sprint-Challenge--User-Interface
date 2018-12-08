@@ -81,6 +81,7 @@ header {
 div.top-header {
     display: flex;
     width: 100%;
+    height: 55px;
     justify-content: space-between;
     align-items: baseline;
     margin-top: 10px;
@@ -92,6 +93,9 @@ div.top-header {
 div.top-header > nav {
     display: flex;
     width: 75%;
+    height: 55px;
+    padding-top: 14px;
+    padding-bottom: 14px;  
     justify-content: space-between;
 }
 
@@ -99,6 +103,7 @@ div.top-header > nav > a {
     text-decoration: none;
     color: black;
     font-size: 14px;
+    padding: 5px;
 }
 
 div.top-header > nav > a:last-child {
@@ -106,15 +111,45 @@ div.top-header > nav > a:last-child {
 }
 
 @keyframes increase {
-	from {
+	0% {
 		font-size: 14px;
 		color: gray;
 		font-weight: normal;
 		border: none;
 		background-color: transparent;
+    }
+	25% {
+		font-size: 15px;
+		color: rgb(63, 62, 61);
+		font-weight: bold;
+		border: 1px dotted rgb(63, 62, 61);
+		border-radius: 5px;
+		background-color: rgb(221, 216, 216);
+		padding: 5 auto;
+    }
+
+    50% {
+		font-size: 16px;
+		color: rgb(63, 62, 61);
+		font-weight: bold;
+		border: 1px dotted rgb(63, 62, 61);
+		border-radius: 5px;
+		background-color: rgb(221, 216, 216);
+		padding: 5 auto;
+    }
+    
+    75% {
+		font-size: 17px;
+		color: rgb(63, 62, 61);
+		font-weight: bold;
+		border: 1px dotted rgb(63, 62, 61);
+		border-radius: 5px;
+		background-color: rgb(221, 216, 216);
+		padding: 5 auto;
 	}
-	to {
-		font-size: 20px;
+    
+    100% {
+		font-size: 18px;
 		color: rgb(63, 62, 61);
 		font-weight: bold;
 		border: 1px dotted rgb(63, 62, 61);
@@ -125,13 +160,13 @@ div.top-header > nav > a:last-child {
 }
 
 div.top-header > nav > a:hover {
-    font-size: 14px;
+    font-size: 18px;
     padding: 5px;
 	color: gray;
 	animation-name: increase;
 	animation-duration: 3s;
     animation-iteration-count: infinite;
-    align-self: baseline;
+    /* position: static; */
 }
 
 /* ==== navigation ends ==== */
@@ -290,7 +325,7 @@ button:hover {
     background-color: lightgray;
     color: dodgerblue;
     font-weight: bold;
-    animation: spin 1s linear;
+    animation: spin 2s linear;
     transform-origin: 30% 50px;
 }
 
