@@ -231,7 +231,7 @@ footer nav a {
   text-decoration: none;
 }
 .container-about-page {
-  width: 800px;
+  width: 90%;
   margin: 0 auto;
 }
 header {
@@ -258,6 +258,9 @@ header {
 }
 .about p {
   margin-bottom: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
 }
 section {
   display: flex;
@@ -268,4 +271,28 @@ div .box {
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+}
+h3 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.learn-more {
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 15%;
+  padding: 10px 30px;
+  width: 50%;
+  text-align: center;
+}
+.last-para {
+  display: flex;
+  flex-direction: column;
+}
+.last-para p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
 }
