@@ -2,8 +2,8 @@
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model?content,border,margin,padding
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
-5. What is the git command to commit staged changes as well as write a message? 
+5. What is the git command to commit staged changes as well as write a message? commit -m ""
