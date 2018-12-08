@@ -4,7 +4,7 @@ Tech: Flexbox.
 Lambda School. 
 
 ## View the Index Page of Project
-1. <a href="https://davidaceves.github.io/Sprint-Challenge--User-Interface/index.html>Click here</a>
+1. <a href="https://davidaceves.github.io/Sprint-Challenge--User-Interface/index.html">Click here</a>
 
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
