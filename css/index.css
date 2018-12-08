@@ -141,12 +141,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-1 {
+    background-color: #027F7F;
+}
+
+.box-2 {
+    background-color: #FFD602;
+}
+
+.box-3 {
+    background-color: #5F9D9F;
+}
+
+.box-4 {
+    background-color: #FF7E51;
+}
+
+.box-5 {
+    background-color: #DB1B3E;
+}
+
+.box-6 {
+    background-color: #278A27;
+}
+
+.box-7 {
+    background-color: #9835CB;
+}
+
+.box-8 {
+    background-color: #FF69B3;
+}
+
+.box-9 {
+    background-color: #4C0081;
+}
+
+.box-10 {
+    background-color: #238FFF;
 }
 
 
