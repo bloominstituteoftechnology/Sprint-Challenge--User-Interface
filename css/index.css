@@ -105,6 +105,7 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
+    /* background: teal; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -164,4 +165,54 @@ footer nav a {
 
 .header-img{
     margin: 20px;
+}
+
+div #box1 {
+    background: teal;
+    color: white;
+}
+
+div #box2 {
+    background: gold;
+    color: white;
+}
+
+div #box3 {
+    background: cadetblue;
+    color: white;
+}
+
+div #box4 {
+    background: coral;
+    color: white;
+}
+
+div #box5 {
+    background: crimson;
+    color: white;
+}
+
+div #box6 {
+    background: forestgreen;
+    color: white;
+}
+
+div #box7 {
+    background: darkorchid;
+    color: white;
+}
+
+div #box8 {
+    background: hotpink;
+    color: white;
+}
+
+div #box9 {
+    background: indigo;
+    color: white;
+}
+
+div #box10 {
+    background: dodgerblue;
+    color: white;
 }
