@@ -114,14 +114,23 @@ nav a {
 
 
 /* About */
+.container-about { display: flex; margin: 0 auto; }
 .full-content { 
 	display: block; 
 	width: 100%;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black; }
+	margin-bottom: 20px; }
 .full-content .text-container {
-    padding: 0 1%;
-    padding-bottom: 20px;  }
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;  }
+.about-content { 
+	flex: 0 1 auto; 
+	padding: 24px 0 24px 0;
+	margin: 0 12px 24px 12px;
+	border-bottom: 1px dashed black; }
+.about-content img { width: 100%; }
+.about-content h3 { margin: 12px 0 18px 0; }
+
+
 
 /* Bottom Footer Content */
 .bottom-content {
@@ -133,7 +142,7 @@ nav a {
 
 .bottom-content .text-container:last-child { padding-right: 0; }
 
-footer { width: 100%; background: black; }
+footer { position: relative; width: 100%; background: black; }
 
 footer nav {
     width: 60%;
@@ -145,3 +154,29 @@ footer nav {
 }
 
 footer nav a { color: white; text-decoration: none; }
+
+/**************************
+Button styling override
+https://css-tricks.com/overriding-default-button-styles
+**************************/
+button {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+    color: #000000;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px 24px 6px 24px;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+button:hover, button:focus { border: 1px solid white; background: #030303; color: #ffffff; }
+button:focus { outline: 1px solid #ffffff; outline-offset: -4px; }
+button:active { transform: scale(0.99); }
