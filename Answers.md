@@ -11,4 +11,4 @@ Margin, Border, paddig, content//
 Cross axis because justify is main axis
 
 5. What is the git command to commit staged changes as well as write a message?
-git commit -m 
+git commit -m    

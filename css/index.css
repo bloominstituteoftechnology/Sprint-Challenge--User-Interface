@@ -81,7 +81,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width: 650px;\
+    width: 650px;
     margin: 10px 0 0 40px
 
 }
@@ -250,6 +250,18 @@ footer nav a {
 
 .page-box h1{
     margin-top: 15px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 120px;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+
+
 }
 
 .work-together {
