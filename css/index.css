@@ -62,6 +62,12 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+nav ul {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between
+}
+
 p {
     line-height: 1.4;
 }
