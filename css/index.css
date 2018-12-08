@@ -25,9 +25,72 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, hgroup, menu, nav, section {
 	display: block;
 }
+
+.Section {
+    display: flex;
+}
+
+.Section2 {
+    display: flex;
+}
+
+
+.Office {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Meeting {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Strategy {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Working {
+    background-color: lightgrey;
+    width: 460px;
+    border: 10px solid blue;
+    padding: 3px;
+    margin: 3px;
+}
+
+
+header{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav {
+    display: inline-flex;
+    
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    padding: 16px 14px;
+    
+}
+
+
 body {
 	line-height: 1;
 }
