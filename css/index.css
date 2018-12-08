@@ -150,12 +150,10 @@ footer nav a {
 .navwrapper {
     display: flex;
     align-items: baseline;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* justify-content: center; */
+    /* ^that right there is magic  */
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
-
-
 
 .navigation a {
     text-decoration: none;
@@ -169,4 +167,48 @@ footer nav a {
     border-bottom: 1px solid #FE2E2E;
     padding-bottom: 3px;
     color: #FE2E2E;
+}
+
+.top-content .bannerimg {
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .one {
+    background-color: teal;
+}
+
+.middle-content .boxes .two {
+    background-color: gold;
+}
+
+.middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .nine {
+    background-color: indigo;
+}
+
+.middle-content .boxes .ten {
+    background-color: dodgerblue;
 }
