@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5 {
 
 p {
   line-height: 1.4;
+	padding-bottom: 20px;
 }
 
 a {
@@ -188,7 +189,6 @@ header img {
 }
 
 .about-header-section {
-  padding-bottom: 20px;
   border-bottom: 2px dotted #333;
 }
 
