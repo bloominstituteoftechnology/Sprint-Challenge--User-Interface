@@ -101,7 +101,8 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6,
+.box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +144,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes .box1 {
+	background-color: teal;
+}
+
+.boxes .box2 {
+	background-color: gold;
+}
+
+.boxes .box3 {
+	background-color: cadetblue;
+}
+
+.boxes .box4 {
+	background-color: coral;
+}
+
+.boxes .box5 {
+	background-color: crimson;
+}
+
+.boxes .box6 {
+	background-color: forestgreen;
+}
+
+.boxes .box7 {
+	background-color: darkorchid;
+}
+
+.boxes .box8 {
+	background-color: hotpink;
+}
+
+.boxes .box9 {
+	background-color: indigo;
+}
+
+.box10 {
+	background-color: dodgerblue;
+}
+
+.header{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 25px;
+}
+
+.header a{
+	text-decoration: none;
+	color: black;
+}
+
+.aboutMain, .together, footer {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.aboutMain {	
+	display: flex;
+	width: 800px;
+	height: 1000px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 25px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	align-items: center;
+
+}
+
+.aboutMain div {
+	display: flex;
+	width: 350px;
+	height: 400px;
+	flex-direction: column;
+	
+	border-bottom: 2px dashed black;
+}
+
+.aboutMain a {
+	border: 2px solid black;
+	border-radius: 15px;
+	width: 200px;
+	height: 25px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin: 15px;
+}
+
+.together {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
