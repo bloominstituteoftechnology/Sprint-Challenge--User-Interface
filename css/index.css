@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -53,6 +53,8 @@ table {
 
 html, body {
     height: 100%;
+    width: 75%;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -143,4 +145,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.nav-item {
+    margin-right: 22%;
+}
+.navbar {
+    width: 100%
+}
+.wide-img {
+    margin: 10px 0;
+    width: 100%;
 }
