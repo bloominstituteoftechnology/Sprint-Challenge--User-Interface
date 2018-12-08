@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+@mixin for-size($range) {
+    $phone-upper-boundary: 600px;
+    $tablet-portrait-upper-boundary: 900px;
+    $tablet-landscape-upper-boundary: 1200px;
+    $desktop-upper-boundary: 1800px;
+  
+    @if $range == phone-only {
+      @media (max-width: #{$phone-upper-boundary - 1}) { @content; }
+    } @else if $range == tablet-portrait-up {
+      @media (min-width: $phone-upper-boundary) { @content; }
+    } @else if $range == tablet-landscape-up {
+      @media (min-width: $tablet-portrait-upper-boundary) { @content; }
+    } @else if $range == desktop-up {
+      @media (min-width: $tablet-landscape-upper-boundary) { @content; }
+    } @else if $range == big-desktop-up {
+      @media (min-width: $desktop-upper-boundary) { @content; }
+    }
+  }
+  
+  /* // usage */
+  .my-box {
+    padding: 10px;
+    
+    @include for-size(desktop-up) {
+      padding: 20px;
+    }
+  }
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -235,27 +263,6 @@ span a {
     margin: 40px 0 40px 0;
     padding-left: 15px;
 }
-
-
-
-/* DELETE? */
-/* .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-} */
-
-/* till boxes */
 
 
 /* bottom */
