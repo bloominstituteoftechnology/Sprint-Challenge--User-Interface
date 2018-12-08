@@ -147,6 +147,9 @@ footer nav a {
 
 
 
+/* start of my code */
+
+
 
 .nav-header {
     display: flex;
@@ -164,7 +167,11 @@ a {
 	color: black;
 	font-size: 14px;
 	margin: 0 30px 0 0;
-	padding: 0 10px 0 40px;
+	padding: 0 10px 0 45px;
     text-decoration: none;
     display: flex;
+}
+
+.logo-2 {
+    padding-bottom: 40px;
 }
