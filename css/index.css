@@ -150,7 +150,7 @@ footer nav a {
 header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5%;
+    margin: 5% 0;
 }
 
 nav{
@@ -158,14 +158,18 @@ nav{
     justify-content: space-around;
     align-items: flex-end;
     width: 100%;
-
 }
 
 a{
     text-decoration: none;
     color: #000000;
     font-size: .9em;
+    animation: bounce 1s linear infinite;
+    animation-play-state: paused;
+}
 
+a:hover{
+    animation-play-state: running;
 }
 
 .jumbo{
@@ -225,18 +229,20 @@ a{
 .info-box{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     width: 46%;
-    height: 425px;
+    height: 450px;
     border-bottom: 1px dashed black;
+    padding-bottom: 2%;
     margin-bottom: 5%;
 }
 
-.about {
+.about, .workTogether {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 95%;
-    margin:%;
-    padding-bottom: 2.5%;
+    margin-bottom:2.5%;
 }
 
 .button{
@@ -244,9 +250,33 @@ a{
     align-items: center;
     justify-items: center;
     border:2px solid black;
-    border-radius: 8px;
+    border-radius: 12px;
     height: 10%;
     width:35.5%;
     padding-left: 5.5%;
     margin-top:5.5%;
 }
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@keyframes bounce {
+    0%{
+      transform: translateY(0);
+    }
+    25%{
+      transform: translateY(-2.5px);
+    }
+    50%{
+      transform: translateY(0);
+    }
+    75%{
+      transform: translateY(-5px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
