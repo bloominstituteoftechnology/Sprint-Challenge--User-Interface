@@ -52,7 +52,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+    border: 4px solid purple;
+  /*  height: 100%;   */
     font-family: 'Roboto', sans-serif;
     width: 880px;
     margin: 0 auto;
@@ -94,14 +95,15 @@ header a:hover {
   color: teal;
 }
 
-#jumboIMG {
-  width: 880px;
+.topIMG {
+  /*  margin-bottom: 30px; */
+    width: 100%;
 }
 
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .top-content {
@@ -123,6 +125,40 @@ header a:hover {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+/* ABOUT VVVVVVVVVVVVVVV  here */
+
+.about-container {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    border: 1px solid hotpink;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.about-container .about-info .about_h2 {
+    margin: 0;
+}
+
+
+.about-info button{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    line-height: 20px;
+    padding: 5px 0;
+}
+
+
+
 
 .middle-content h2 {
     padding: 0 2%;
