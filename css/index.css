@@ -153,13 +153,15 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    /* look into why I need a negative margin to bring the header to the top*/
 }
 header nav a {
     margin-right: 43px;
     text-decoration: none;
     font-size: 14px;
-    color: black;
+    color: #000;
+}
+header nav a:hover {
+    padding-left: 20px;
 }
 header nav img {
     margin-top: 20px;
