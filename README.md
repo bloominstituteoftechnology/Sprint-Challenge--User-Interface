@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would describe semantic HTML as way to define sections of the web page. Instead of using a `<div>` for every section in a web page you can use semantic HTML to make it easier to read and understand by using `<header> <section> <article> <nav` etc. Websites that have helped me understand this topic are https://developer.mozilla.org/en-US/docs/Glossary/Semantics and https://www.w3schools.com/html/html5_semantic_elements.asp .
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+`display:block` The content will be vertical and adds a line break and also takes up the width that it has available.
+`display: inline;` Content is horizontal and only takes a small amount of the width.
 
 3. What are the 4 areas of the box model?
 
+margin, border, padding, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git is very important important to developes because it allows each developer to work on a part of the web page without interfering with the other developer's work. It also allows devvelopers to have a place that can go back to if they need to change something without starting all over again. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -48,10 +59,10 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up your project:
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
