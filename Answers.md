@@ -29,3 +29,7 @@
 5. What is the git command to commit staged changes as well as write a message? 
 
     'git commit -m '[add message here]'
+
+6. Explain why git is valuable to a team of developers.
+
+    git is a version control service. A version control service allows multiple developers to work on the same codebase at one time. It allows various changes to be tracked and verified BEFORE (with branches) or WHILE (master) changes are made. 
