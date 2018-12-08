@@ -24,6 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -76,6 +77,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 25px;
     border-bottom: 1px dashed black;
 }
 
@@ -144,3 +146,136 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 7px;
+    color: black;
+    padding: 30px;
+}
+
+/* BOXES */
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+ #box7 {
+    background-color: darkorchid;
+ }
+
+ #box8 {
+    background-color: hotpink;
+ }
+
+ #box9 {
+    background-color: indigo;
+ }
+
+ #box10 {
+    background-color: dodgerblue;
+ }
+
+ /* ABOUT TOP CONTENT */
+
+ .about-top-content {
+     display: inline-block;
+     padding: 20px;
+     border-bottom: 1px dashed black;
+     margin-bottom: 10px;
+ }
+
+ /* ABOUT MAIN CONTENT */
+
+ .about-main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    width: 100%;
+    justify-content: space-between;
+ }
+
+ .about-main-box {
+     height: 400px;
+     width: 370px;
+     border-bottom: 1px dashed black;
+     margin: 15px;
+ }
+
+button {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 4px 10px 4px;
+    margin-top: 10px;
+}
+
+.about-img {
+    margin-bottom: 10px;
+}
+
+/*  WORK TOGEHTER */    
+
+.work-together {
+    padding: 0 25px 25px;
+}
+
+/* FORM */
+ form {
+     border-radius: 6px;
+     margin: 20px;
+     padding: 25px;
+     font-size: 20px;
+     border: 1px dashed black
+ }
+
+ input[type=text],
+ select,
+ textarea {
+     border-radius: 6px;
+     resize: vertical;
+     width: 100%;
+     font-size: 16px;
+ }
+
+ label {
+     display: inline-block;
+     margin: 5px 0 5px;
+ }
+
+ #submit {
+      border: 2px solid black;
+      border-radius: 6px;
+      padding: 4px 10px 4px;
+      margin-top: 10px;
+ }
