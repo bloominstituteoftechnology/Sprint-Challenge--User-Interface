@@ -233,6 +233,12 @@ footer nav a {
     margin-bottom: 20px;
 }
 
+.cardrow .card button:hover{
+    text-decoration: underline;
+    color: #FE2E2E;
+    border: 2px solid #FE2E2E;
+}
+
 .cardrow .card h2 {
     font-weight: bold;
     margin-top: 10px;
