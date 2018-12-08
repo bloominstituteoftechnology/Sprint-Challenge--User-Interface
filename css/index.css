@@ -90,7 +90,16 @@ p {
 }
 
 .nav a {
+	opacity: 80%;
+	color: grey;
+}
+
+.nav a:hover {
+	opacity: 100%;
+	text-shadow: black 1px 1px;
 	color: black;
+	transform: scale(1.1);
+	transition: 1.0s;
 }
 
 .imgslot {
@@ -197,6 +206,7 @@ p {
 }
 
 .topimg {
+	justify-content: center;
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -204,9 +214,9 @@ p {
 }
 
 .about-page {
-	justify-content: space-between;
+	justify-content: center;
 	height: 880px;
-	padding: 15px 0px 15px 0px;
+	padding: 15px 0px 15px 30px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -237,6 +247,7 @@ p {
 	margin: 5px;
 	width: 40%;
 }
+
 
 button {
 	height: 35px;
