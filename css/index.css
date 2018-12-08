@@ -154,14 +154,20 @@ header nav {
     justify-content: space-between;
     align-items: flex-end;
 }
+header nav #header-nav-links {
+    display: flex;
+    width: 642px;
+    justify-content: flex-start;
+}
 header nav a {
-    margin-right: 43px;
     text-decoration: none;
     font-size: 14px;
     color: #000;
+    width: 128px;
+    text-align: center;
 }
 header nav a:hover {
-    padding-left: 20px;
+    animation: .01s ease-in-out 0s infinite alternate move_link;
 }
 header nav img {
     margin-top: 20px;
@@ -228,3 +234,6 @@ header > img {
     margin-bottom: 40px;
     padding-left: 20px;
 }
+/*===ANIMATIONS===*/
+@-webkit-keyframes move_link { from { padding-left: 0px; } to { padding-left: 25px; }  }
+@keyframes move_link { from { padding-left: 0px; } to { padding-left: 25px; }  }
