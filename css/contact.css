@@ -1,0 +1,37 @@
+.contact-us h2 {
+  font-size: 20px;
+}
+.contact-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.contact-form {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+
+.form-contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form a {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  height: 2rem;
+  width: 50%;
+}

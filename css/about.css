@@ -1,0 +1,59 @@
+/*Hero section*/
+.about-hero {
+  margin-bottom: 2rem;
+}
+
+.about-details {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2.5%;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed black;
+}
+
+/*Info card section*/
+.info-cards {
+  margin: 0 auto;
+  padding: 0 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: column;
+  border-bottom: 1px dashed black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  width: 47%;
+}
+
+.info-card img {
+  width: 100%;
+}
+
+.info-card h2 {
+  margin: 1rem 0;
+}
+
+.info-card p {
+  margin-bottom: 1rem;
+}
+
+.info-card a {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+/*Collaborate Section*/
+.collaborate {
+  width: 95%;
+  margin: 2rem auto;
+}
