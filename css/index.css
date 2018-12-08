@@ -85,26 +85,25 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.middle-content-index {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.middle-content-index h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content-index .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content-index .boxes .box1, .box2, .box3, .box4, .box5, .box6 ,.box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -114,7 +113,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 10px 2% 20px;
     justify-content: space-around;
 }
 
@@ -136,11 +135,199 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Header and Boxes CSS After This Line */
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    width: 800px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    top: 50px;
+    height: 40px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 600px;
+  }
+
+
+nav a {
+    margin: 30px auto;
+    text-decoration: none;
+    color: black;
+  }
+
+.top-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 20px auto;
+  }
+
+.box1 {
+    background: teal;
+  }
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+  }
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+  }
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+  }
+
+/* About CSS After This Line */
+
+.top-about-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 20px auto;
+  }
+
+.about-middle-content .first-row {
+    display: flex;
+    display: inline-block;
+    height: 780px;
+    width: 350px;
+}
+
+.about-middle-content2 .second-row {
+    display: flex;
+    display: inline-block;
+    height: 780px;
+    width: 350px;
+    margin-left: 20px;
+}
+
+.about-middle-content a {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.about-middle-content2 a {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.about-middle-content, .about-middle-content2 .text-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 350px;
+}
+
+.learn-more {
+    padding: 5px 30px;
+    margin-top: 10px;	
+    margin-bottom: 20px;
+    width: 150px;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid black;
+}
+
+.mid-imgs {
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    height: 220px;
+    border-bottom: 1px dashed black;
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+    height: 220px;
+    border-bottom: 1px dashed black;
+}
+
+h5 { 
+    font-size: 18px;
+    height: 20px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 800px;
+    border-top: 1px dashed black;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
