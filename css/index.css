@@ -98,7 +98,17 @@ div.top-header > nav > a {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 /* ------- styling for header ends here ---- */
+
+hr {
+    margin-top: 15px;
+    width: 100%;
+    border: 0.5px black dashed;
+}
 
 .top-content {
     display: flex;
