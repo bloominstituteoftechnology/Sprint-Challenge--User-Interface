@@ -69,6 +69,11 @@ nav ul {
     justify-content: space-between
 }
 
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
 .jumbo {
     margin: 20px 0;
 }
