@@ -278,6 +278,7 @@ header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  margin-top: 2rem;
 }
 
 header nav {
