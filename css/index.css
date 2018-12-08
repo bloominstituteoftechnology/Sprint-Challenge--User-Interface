@@ -66,6 +66,47 @@ p {
     line-height: 1.4;
 }
 
+.button2 {
+	align-self: flex-end;
+}
+.aboutdiv {
+	margin-bottom: 50px;
+}
+.master1 {
+	display: flex;
+	margin-top: 50px;
+	height: 400px;
+}
+
+.container-a {
+
+}
+
+.container-a {
+
+}
+
+.master2 {
+	display: flex;
+	margin-top: 50px;
+	height: 400px;
+}
+
+.container-a {
+
+}
+
+.container-a {
+
+}
+
+
+.indy {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
 a {
   text-decoration: none;
 }
@@ -81,9 +122,13 @@ a:visited {
 
 a:hover {
   border-bottom: 1px solid;
+	border-right: 1px dotted;
   background: #b0e0e6;
 }
 
+span {
+	border: 2px solid black;
+}
 
 .container {
     width: 800px;
