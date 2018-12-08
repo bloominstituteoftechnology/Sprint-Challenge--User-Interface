@@ -7,4 +7,3 @@
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
 5. What is the git command to commit staged changes as well as write a message? 
-h
