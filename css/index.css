@@ -255,3 +255,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#about .intro {
+    border: 3px solid magenta;
+}
