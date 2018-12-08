@@ -66,6 +66,25 @@ p {
     line-height: 1.4;
 }
 
+a {
+  text-decoration: none;
+}
+
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #b0e0e6;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,19 +94,53 @@ p {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row-reverse;
-	border: 1px solid red;
 }
 
 .bar {
 	display: flex;
-	justify-content: space-between;
-	border: 1px solid red;
-	width: 60%;
 }
 
 nav ul li{
 
-border: 1px solid blue;
+margin-right: 70px;
+margin-top: 15px;
+}
+
+.banner {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#a{
+	background-color: teal;
+}
+#b {
+background-color:gold ;
+}
+#c {
+background-color: cadetblue;
+}
+#d {
+background-color:coral ;
+}
+#e {
+background-color:crimson ;
+}
+#f {
+background-color: #6d9bc3;
+}
+
+#g {
+background-color:darkorchid ;
+}
+#h {
+background-color:hotpink ;
+}
+#i {
+background-color:indigo ;
+}
+#j {
+background-color: dodgerblue;
 }
 
 
