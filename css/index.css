@@ -214,7 +214,7 @@ p {
 
 .toprow {
 	flex-wrap: wrap;
-	padding: 5px 25px 18px 25px;
+	padding: 5px 15px 18px 15px;
 	border-bottom: 1px solid black;
 	display: flex;
 	flex-direction: row;
@@ -222,9 +222,9 @@ p {
 }
 
 .bottomrow {
+	margin: 15px 0 15px 0;
 	flex-wrap: wrap;
-	padding: 15px 25px 18px 25px;
-	border-top: 1px solid black;
+	padding: 15px 15px 18px 15px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
