@@ -221,10 +221,15 @@ footer nav a {
     border-bottom: 1px dashed black;
 }
 
+.introduction .text-container {
+    padding: 0 1%;
+}
+
 .items-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 1%;
 }
 
 .item {
@@ -248,4 +253,9 @@ footer nav a {
 	border-radius: 10px;
 	text-align: center;
 	cursor: pointer;
+}
+
+.call-to-action {
+  margin: 2rem 0;
+  padding: 0 1%;  
 }
