@@ -249,3 +249,33 @@ button {
 .work-together {
     padding: 0 25px 25px;
 }
+
+/* FORM */
+ form {
+     border-radius: 6px;
+     margin: 20px;
+     padding: 25px;
+     font-size: 20px;
+     border: 1px dashed black
+ }
+
+ input[type=text],
+ select,
+ textarea {
+     border-radius: 6px;
+     resize: vertical;
+     width: 100%;
+     font-size: 16px;
+ }
+
+ label {
+     display: inline-block;
+     margin: 5px 0 5px;
+ }
+
+ #submit {
+      border: 2px solid black;
+      border-radius: 6px;
+      padding: 4px 10px 4px;
+      margin-top: 10px;
+ }
