@@ -65,10 +65,16 @@ header{
 }
 
 nav {
-    width: 80%;
+    width: 75%
+}
+
+nav ul {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
+
 nav a {
     text-decoration: none;
     color: black;
@@ -125,7 +131,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -133,6 +139,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -166,4 +212,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 700px) {
+    /* For small tablets and phones */
+    .container {
+        width: 96%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav ul {
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .primary {
+        width: 100%;
+    }
+
+    .top-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .top-content .text-container{
+        width: 100%;
+    }
+    
+    .middle-content .boxes {
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .middle-content .boxes .box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .middle-sections {
+        width: 96%;
+    }
+
+    .middle-content img {
+        width: 100%;
+    }
+
+    .sections-content {
+        width: 100%;
+    }
+
+    .bottom-content {
+        flex-direction: column
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space around;
+    }
 }
