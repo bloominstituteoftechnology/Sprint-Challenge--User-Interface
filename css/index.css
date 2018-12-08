@@ -108,7 +108,43 @@ header .jumbo {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+}
+
+.top-content .text-container-about {
+    width: 100%;
+    margin: 0 25px;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.services-main {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-grow: 1;
+	flex-wrap: wrap;
+}
+
+.service-description {
+	width: 48%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	margin-top: 20px;
+	padding: 20px;
+}
+.service-description p {
+	margin-bottom: 20px;
+}
+
+.services-buttons {
+	border: 1px solid black;
+	border-radius: 8px;
+	background-color: white;
+	font-size: 10px;
+	padding: 5px 15px;
 }
 
 .middle-content {
@@ -171,7 +207,11 @@ header .jumbo {
 }
 
 .middle-content .boxes #box9 {
-    background-color: ;
+    background-color: indigo;
+}
+
+.middle-content .boxes #box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
