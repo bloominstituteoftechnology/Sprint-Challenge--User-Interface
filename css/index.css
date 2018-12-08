@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +123,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +162,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Boxes */
+.boxes {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.box:nth-child(1) {
+    background: teal;
+}
+
+.box:nth-child(2) {
+    background: gold;
+}
+
+.box:nth-child(3) {
+    background: cadetblue;
+}
+
+.box:nth-child(4) {
+    background: coral;
+}
+
+.box:nth-child(5) {
+    background: crimson;
+}
+
+.box:nth-child(6) {
+    background: forestgreen;
+}
+
+.box:nth-child(7) {
+    background: darkorchid;
+}
+
+.box:nth-child(8) {
+    background: hotpink;
+}
+
+.box:nth-child(9) {
+    background: indigo;
+}
+
+.box:nth-child(10) {
+    background: dodgerblue;
 }
