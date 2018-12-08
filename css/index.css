@@ -110,7 +110,7 @@ nav a {
 }
 
 .jumbo-img {
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 25px;
 }
 
@@ -230,6 +230,8 @@ Boxes color styling above
 .about-section {
     border-bottom: 1px dashed;
     margin-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .about-top-paragraph {
@@ -255,6 +257,23 @@ Boxes color styling above
 .design-column {
     border-bottom: 1px dashed;
     margin-right: 28px;
+}
+
+.about-bottom-section {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.btn-learn {
+    border: 2px solid;
+    border-radius: 9px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 120px;
 }
 
 /*.column-left {*/
