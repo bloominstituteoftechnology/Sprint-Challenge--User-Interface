@@ -212,3 +212,39 @@ footer nav a {
 .middle-content .boxes .ten {
     background-color: dodgerblue;
 }
+
+.about-banner-text {
+    padding-bottom: 20px;
+}
+
+.cardrow {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.cardrow .card button{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cardrow .card h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cardrow .card p {
+    margin-bottom: 15px;
+}
+
+.card {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    margin-left: 10px;
+}
