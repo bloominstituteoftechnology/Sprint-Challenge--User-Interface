@@ -113,9 +113,11 @@ a:hover {
 	align-content: space-around;
   }
   .top-box{
-    margin: 15px 0 0 15px ;  }
-
-button{
+    margin: 15px 0 10px 15px ; 
+    padding: 10px 10px 25px 10px;
+    border-bottom:1px dashed black;
+  }
+button {
       margin: 15px 0 0 0 ;
       border: 1px solid black;
       border-radius: 10px;
@@ -145,9 +147,8 @@ button{
 }
 .middle-about{
     display: flex;
-    border-top: 1px dashed black;
     margin: 25px 0 0 0 ;
-    padding: 50px 0 25px 0 ;
+    padding: 25px 0 25px 0 ;
     justify-content: space-evenly;
 }
 
@@ -159,7 +160,7 @@ button{
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /*border-bottom: 1px dashed black;*/
 }
 
 .middle-content h2 {
@@ -305,6 +306,12 @@ button{
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.bottom-about{
+    margin: 25px 10px 20px 10px;
+    padding: 25px 0 10px 0 ;
+    line-height: 1.5;
+    
 }
 
 footer {
