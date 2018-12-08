@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  Semantic HTML is HTML that provides context to users, screenreaders, search engines, and other programmers.  When reading semantic html, meaning is understood. For example, a `<div>` can be used for style or structure but the tag itself doesn't infer as to which. On the contrary, using a `<container>` or a `<section>` clearly describes their purposes.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
