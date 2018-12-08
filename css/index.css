@@ -227,6 +227,7 @@ button {
     display:  flex;
 }
 
+
 .border p{
     width: 370px;
     margin-top: 20px;
@@ -243,6 +244,7 @@ button {
 .top-section, .bottom-section {
     display: flex;
     margin-bottom: 40px;
+    margin-left: 15px;
 }
 
 .top-section div img {
