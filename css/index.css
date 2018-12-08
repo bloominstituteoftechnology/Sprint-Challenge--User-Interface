@@ -157,6 +157,7 @@ html {
     padding-left: 75px;
     padding-right: 75px;
     box-sizing: content-box;
+
 }
 
 .nav-header {
@@ -222,4 +223,17 @@ a {
 
 .box10 {
     background-color: dodgerblue;
+}
+
+
+
+
+/* about page styles */
+
+.container .about-page{
+    background: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    box-sizing: content-box;
+
 }
