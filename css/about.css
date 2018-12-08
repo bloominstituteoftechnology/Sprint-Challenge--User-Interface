@@ -230,10 +230,12 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+/* about.html css */
 .container-about-page {
   width: 90%;
   margin: 0 auto;
 }
+/* header */
 header {
   display: flex;
   flex-direction: row;
@@ -256,6 +258,9 @@ header {
   margin: 50px 0px;
   width: 100%;
 }
+/* header ^^^^ */
+
+/*middle-section vvvv  */
 .about p {
   margin-bottom: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -284,6 +289,7 @@ h3 {
   width: 50%;
   text-align: center;
 }
+/* middle-section ^^^ */
 .last-para {
   display: flex;
   flex-direction: column;
