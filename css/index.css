@@ -193,3 +193,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.one {
+	display: flex;
+	width: 364px;
+	flex-wrap: wrap;
+	padding: 10px;
+    margin: 10px 0;
+}
+
+section.whole.one {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 4%;
+    justify-content: space-between;
+    width: 462px;
+}
+
+.button {
+	display: flex;
+	background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 12px;
+	cursor: pointer;
+	border-radius: 5px;
+	margin: 5% 0 3%;
+	width: 40%;
+	justify-content: center;
+	height: 10px;
+	align-items: center;
+}
