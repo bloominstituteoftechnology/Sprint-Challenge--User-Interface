@@ -75,7 +75,7 @@ p {
 .navigation{
     width: 800px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .navigation a{
@@ -99,6 +99,9 @@ a:hover {
     100% { transform: translate(.5px, -1px) rotate(-.5deg); }
   }
   
+  .banner{
+      margin: 50px 0 0 0 ;
+  }
 
 .top-content {
     display: flex;
