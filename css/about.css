@@ -187,12 +187,16 @@ header{
 }
 .button a{
   text-decoration: none;
-  border: black 1px solid;
+  border: black 2px solid;
   padding: .5em; 
   font-size: 12px;
   color: black;
   text-align: center;
   border-radius: 8%;
+}
+
+.button a:hover{
+  background-color: #EAEAEA;
 }
 
 footer{
