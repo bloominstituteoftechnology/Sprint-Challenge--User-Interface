@@ -98,11 +98,35 @@ header > h2 {
 
 .about-page {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.about {
+  width: 350px;
+  margin: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.about >img {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 8px 25px;
+  font-size: 14px;
+}
+
+.work {
+  margin: 40px auto;
+  width: 800px;
 }
 
 footer {
     width: 100%;
-    background: black;
 }
 
 footer nav {
@@ -112,6 +136,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    background: black;
 }
 
 footer nav a {
