@@ -65,16 +65,18 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
 .container {
+    width: 800px;
+    margin: 0 auto;
+}
+.container-about-page {
     width: 800px;
     margin: 0 auto;
 }
 
 header nav {
     display: flex;
-
-    
+    align-items: baseline;
 }
 
 nav a {
@@ -194,22 +196,26 @@ footer nav a {
     text-decoration: none;
 }
 
-.one {
-	display: flex;
-	width: 364px;
-	flex-wrap: wrap;
-	padding: 10px;
-    margin: 10px 0;
+.about-top-image {
+    margin-top: 5%
 }
 
-section.whole.one {
+.one {
+	display: flex;
+	width: 395px;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+/*section.whole.top {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 4%;
     justify-content: space-between;
     width: 462px;
 }
-
+*/
 .button {
 	display: flex;
 	background-color: white;
@@ -225,4 +231,27 @@ section.whole.one {
 	justify-content: center;
 	height: 10px;
 	align-items: center;
+}
+
+/*.images {
+    width: 50%;
+}
+*/
+/*.top {
+    display: flex;
+
+}
+*/
+.whole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-top: 5%;
+}
+
+.about-footer {
+    margin-top: 5%;
 }
