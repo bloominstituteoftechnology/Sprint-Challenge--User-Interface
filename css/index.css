@@ -100,18 +100,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-/*
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
+
 
 .bottom-content {
     display: flex;
@@ -145,45 +134,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/*
-.box1 {
-    background:teal;
-}
-.box2 {
-    background: gold;
-}
-.box3 {
-    background: cadetblue;
-}
-.box4 {
-    background:coral;
-}
-.box5 {
-    background:crimson;
-}
-.box6 {
-    background:forestgreen;
-}
-.box7 {
-    background:darkorchid;
-}
-.box8 {
-    background:hotpink;
-}
-.box9 {
-    background:indigo;
-}
-.box10 {
-    background:dodgerblue;
-}
- /*.boxes {
-    display: flex;
-    flex-direction: row;
-}
-.boxes > div {
-    text-align: center;
-}
-*/
+
 
 header nav {
     display: inline-block;
