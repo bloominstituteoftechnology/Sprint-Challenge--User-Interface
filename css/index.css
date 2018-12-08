@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    position: relative;
+    /* border: 1px solid red; */
 }
 
 .header{
@@ -93,16 +95,27 @@ p {
     color: black;
 }
 
+.IndexNav a:hover{
+    background: black;
+    color: white;
+    width: 50px;
+    height: 25px;
+}
 
 .imglogo{
     display: flex;
 }
 
+.LLogo:hover {
+    background: grey;
+    transform: rotate(10deg);
+}
 
 .topImg, .aboutImg{
     width: 100%;
     margin-bottom: 15px;
 }
+
 
 
 
@@ -180,4 +193,177 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.About-SectionHead{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.About-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    justify-content: space-between;
+    /* background: pink; */
+}
+
+.aboutSect{
+    /* border: 1px solid black; */
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+
+.about-container1{
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  padding: 0 15px 15px;
+    /* border: 1px solid blue; */
+}
+
+.About-Section h2, .About-Section p {
+    /* display: flex;
+    background: pink; */
+}
+
+.aboutSect h2 {
+    padding-top: 10px;
+    /* background: yellow; */
+}
+
+.aboutSect p{
+    margin-bottom: 5px;
+    /* background: teal; */
+}
+
+
+
+.aboutSect button{
+    margin: 15px 0 20px;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    background:white;
+    border: 2px solid black;
+    
+}
+
+button:hover{
+    background: grey;
+    width: 150px;
+    height: 60px;
+}
+
+.endSect{
+    margin: 0px 0 75px 0;
+    padding:  0 20px; 
+
+}
+/* 
+.bottomASect{
+    background:teal;
+    display: flex;
+    align-items: flex-end;
+} */
+
+ .aboutFooter {
+    position: absolute;
+    bottom: 0px;
+   
+}
+
+.aboutFooter {
+    width: 100%;
+    background: black;
+    bottom: 0px;
+    margin-top: 30px;
+    
+}
+
+.aboutFooter nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.aboutFooter nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.aboutFooter nav a:hover{
+    background: white;
+    color: black;
+     transform: rotate(20deg);
+}
+
+.topImgContact {
+    width: 800px;
+    height: 153px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
+
+.topImg1Contact{
+    width: 100%;
+    display: flex;
+}
+
+.contactContent{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    justify-content: space-between;
+}
+
+.contactForm{
+    width: 385px;
+    border-bottom: 1px dashed black;
+    border-top:1px dashed black;
+    margin-bottom: 50px;
+    margin-top: 20px;
+   background: whitesmoke;
+   align-content: center;
+   color: grey;
+   
+}
+
+
+.headphoneImg{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    margin-bottom: 50px;
+    margin-top: 20px;
+   
+}
+
+.submitbutton{
+    margin: 15px 0 20px;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    background:white;
+    border: 2px solid black;
+    
+}
+
+.submitbutton:hover{
+    background: grey;
+    width: 150px;
+    height: 60px;
 }
