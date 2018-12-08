@@ -203,7 +203,13 @@ p {
 }
 
 .btn {
-    
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 footer {
