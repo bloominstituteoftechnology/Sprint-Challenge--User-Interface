@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+
+/* ----- header starts here ------ */
+div.top-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+div.top-header > nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+div.top-header > nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-header > img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
