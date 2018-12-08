@@ -71,6 +71,44 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+img[src="img/lambda-black.png"] {
+    margin-right: 42px;
+}
+
+#nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.header-nav {
+    width: 80%;
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +139,20 @@ p {
     justify-content: space-evenly;
 }
 
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,11 +162,57 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    /*Animations*/
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
+
+/*Boxes styling*/
+
+.middle-content .boxes div:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background: gold;
+}
+ 
+.middle-content .boxes div:nth-child(3) {
+    background: cadetblue;
+}
+ 
+.middle-content .boxes div:nth-child(4) {
+    background: coral;
+}
+ 
+.middle-content .boxes div:nth-child(5) {
+    background: crimson;
+}
+ 
+.middle-content .boxes div:nth-child(6) {
+    background: forestgreen;
+}
+ 
+.middle-content .boxes div:nth-child(7) {
+    background: darkorchid;
+}
+ 
+.middle-content .boxes div:nth-child(8) {
+    background: hotpink;
+}
+ 
+.middle-content .boxes div:nth-child(9) {
+    background: indigo;
+}
+ 
+.middle-content .boxes div:nth-child(10) {
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 30px;
     justify-content: space-around;
 }
 
@@ -143,4 +241,99 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About.html*/
+
+.about-text {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.about-text p{
+    padding-bottom: 20px;
+}
+
+hr {
+    border-top: 1px dashed;
+    margin-bottom: 20px;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row-item {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.row-item h2 {
+    margin-top: 10px;
+}
+
+.row-item a {
+    width: 126px;
+    height: 36px;
+    text-align: center;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.footer-content {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+/*Contact page*/
+
+img[src="img/contact_us_keyboard.jpg"] {
+    width: 800px;
+    height: 200px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+img[src="img/contact_us.jpg"] {
+    width: 800px;
+    height: 300px;
+    margin-bottom: 30px;
 }
