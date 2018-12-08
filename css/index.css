@@ -80,6 +80,7 @@ p {
 }
 
 .top-content .text-container {
+    margin-top: 25px;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -143,4 +144,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 750px;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
