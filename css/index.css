@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+
+.banner {
+    margin: 20px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
