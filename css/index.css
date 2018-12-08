@@ -253,3 +253,41 @@ header a {
     padding-left: 20px;
     margin-bottom: 40px;
 }
+
+.form {
+	list-style-type: none;
+	list-style-position: inside;
+	line-height: 2;
+    margin: 0 20px 25px 10px;
+    padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+    width: 350px;
+    font-size: 90%;
+}
+
+.contact-method {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+.contact-form input {
+	width: 100%;
+}
+
+.contact-form textarea {
+	width: 100%;
+}
+
+.contact-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-content h1 {
+    font-size: 200%;
+}
+
+.contact-content p {
+    margin-bottom: 1em;
+}
