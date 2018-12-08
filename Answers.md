@@ -4,7 +4,7 @@
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
-    display: block; would arrange the specified item in a column below the previous item while display: inline; would arrangee the items in a line adjacent to one another
+    display: block; would arrange the specified item in a column below the previous item while display: inline; would arrange the items in a line adjacent to one another
 
 3. What are the 4 areas of the box model?
 
@@ -17,3 +17,5 @@
 5. What is the git command to commit staged changes as well as write a message? 
 
     git commit -m"Type your message here."
+
+    Git is valuable because it allows for version control through the whole process of development as well as the use of different branches to achieve goals witout having to worry about breaking what you have already built so far. It allows for members of a project to track each others progress and work together more efficiently.
