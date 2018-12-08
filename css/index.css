@@ -170,11 +170,11 @@ header > img {
 /* ------------ */
 /* MAIN CONTENT */
 /* ------------ */
-/* SECTION TOP-CONTENT */
+/* SECTION INDEX TOP-CONTENT */
 .top-content {
     margin-top: 20px;
 }
-/* SECTION MIDDLE-CONTENT */
+/* SECTION INDEX MIDDLE-CONTENT */
 .middle-content .boxes .box:nth-of-type(1) {background-color: teal;}
 .middle-content .boxes .box:nth-of-type(2) {background-color: gold;}
 .middle-content .boxes .box:nth-of-type(3) {background-color: cadetblue;}
@@ -185,3 +185,10 @@ header > img {
 .middle-content .boxes .box:nth-of-type(8) {background-color: hotpink;}
 .middle-content .boxes .box:nth-of-type(9) {background-color: indigo;}
 .middle-content .boxes .box:nth-of-type(10) {background-color: dodgerblue;}
+/* SECTION ABOUT ABOUT-HEADER */
+#about-header {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
