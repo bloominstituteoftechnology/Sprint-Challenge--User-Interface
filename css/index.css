@@ -161,3 +161,6 @@ header nav a {
     font-size: 14px;
     color: black;
 }
+header img {
+    margin-top: 40px;
+}
