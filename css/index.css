@@ -99,9 +99,6 @@ p {
     margin-bottom: 20px;
 }
 
-
-
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -213,4 +210,22 @@ footer nav a {
 
 .box10 {
     background: dodgerblue;
+}
+
+/* about page */
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.first-content-row {
+    display: flex;
+
+}
+
+.second-content-row {
+    display: flex;
+    
 }
