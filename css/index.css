@@ -113,7 +113,7 @@ header #logo-wrapper {
     border-bottom: 1px dashed black;
 }
 
-#hero-image-wrapper {
+.banner-image-wrapper {
     margin: 2rem 0;
 }
 
