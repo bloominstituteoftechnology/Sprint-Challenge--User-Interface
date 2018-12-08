@@ -288,7 +288,7 @@ footer nav a {
 
 @media screen and (max-width: 768px){
 	.container, header, footer {
-		width: 100%;
+		max-width: 98%;
 	}
 
 nav {
@@ -311,7 +311,7 @@ nav a {
 
 	}
 .info-box, .blog-box, .contact-box, .blog-image, .contact-image, .blog-snippet, .contact-form-box {
-	min-width: 80%;
+	min-width: 98%;
 	margin: 0 auto;
 }
 
@@ -323,11 +323,22 @@ nav a {
 	padding-right: 10px;
 }
 
-/* .text-container {
+.middle-content .boxes .box {
+  width: 96%;
+}
 
-	padding-left: 10px;
-	padding-right: 10px;
-	border: 2px solid red;
-} */
+.bottom-content {
+	display: block;
+	width: 98%;
+}
+
+footer nav {
+	display: inline-block;
+	width: 100%;
+}
+
+footer nav a {
+	padding: 10px;
+}
 
 }
