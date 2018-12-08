@@ -66,6 +66,58 @@ p {
     line-height: 1.4;
 }
 
+.navBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    margin-top: 23px;
+    padding: 0 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 5s;
+}
+
+@webkit-keyframes example {
+    from {color: grey;}
+    to {color: blue;}
+  }
+
+@keyframes example {
+    from {color: grey;}
+    to {color: blue;}
+  }
+
+
+
+.mainPic {
+    margin: 15px;
+}
+
+.mainPicTwo {
+    margin: 15px;
+    width: 876px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -102,9 +154,115 @@ p {
 }
 
 .middle-content .boxes .box {
+    
+}
+
+/* Box Colors */
+
+
+.boxOne {
+    background-color: teal;
     width: 12.5%;
     height: 100px;
-    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTwo {
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxThree {
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxFour {
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxFive {
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxSix {
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxSeven {
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxEight {
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxNine {
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxTen {
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +284,74 @@ p {
     padding-right: 0;
 }
 
+.strategy {
+    margin: 25px;
+    padding: 25px;
+}
+
+.howWeWork {
+    margin: 25px;
+    padding: 25px;
+}
+
+.placesWeWork {
+    margin: 25px;
+    padding: 25px;
+}
+
+.collaboration {
+    margin: 25px;
+    padding: 25px;
+}
+
+.aboutContainer {
+    width: 876px;
+}
+
+.sectionContainer {
+    width: 876px;
+}
+
+.sectionBlockZero {
+    margin: 20px ;
+}
+
+.sectionBlockOne {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.sectionBlockTwo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ 
+
+ button {
+     width: 100px;
+     margin: 10px;
+     margin-left: -5px;
+ }
+
+ button:hover {
+     color: white;
+     background-color: black;
+ }
+
+ .bottomSection {
+     margin: 50px;
+ }
+
+ .hr {
+    border: 2px solid black;
+    width: 100%;
+ }
+
 footer {
     width: 100%;
     background: black;
@@ -144,3 +370,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
