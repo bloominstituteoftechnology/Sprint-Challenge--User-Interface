@@ -144,6 +144,8 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Header and Boxes CSS After This Line */
+
 header {
     display: flex;
     align-items: baseline;
@@ -230,3 +232,65 @@ nav a {
 .box10 {
     background: dodgerblue;
   }
+
+/* About CSS After This Line */
+
+.top-about-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin: 20px auto;
+  }
+
+
+.middle-content {
+    display: flex;
+    display: block;
+    justify-content: space-evenly;
+    flex: 50%;
+    padding: 4% 1%;
+    border: 1px solid black;
+}
+
+.about-middle-content {
+    display: flex;
+    display: block;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.about-middle-content .text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1%;
+    padding-bottom: 30px;  
+    border-bottom: 1px dashed black;
+}
+
+.learn-more {
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 30px;
+    margin-top: 10px;	
+}
+
+.mid-imgs {
+    height: 200px;
+    width: 300px;
+}
+
+/* .first-row{
+ display: block;
+ height: 500px;
+}
+
+.second-row{
+    display: block;
+    height: 500px;
+} */
