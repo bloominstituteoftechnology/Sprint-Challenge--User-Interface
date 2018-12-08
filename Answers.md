@@ -39,3 +39,7 @@ Cross Axis
 5. What is the git command to commit staged changes as well as write a message? 
 
 git commit -m "Insert-Message-Here"
+
+- Part 2 (in github repo) -
+
+Git is a valuable resources to developers due to being able to have multiple people work on the same project at once, as well as being able to see the differences in versions of a project
