@@ -48,6 +48,12 @@ p {
   line-height: 1.4;
 }
 
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 /* NAV */
 .nav-container{
     display: flex;
@@ -103,17 +109,75 @@ header{
 }
 
 /* ROW 2 */
+.row2{
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+}
 
+#strategy{
+  width: 48%;
+  padding-bottom: 1em;
+}
 
+#strategy img{
+  width: 100%;
+}
 
+#how-we-work{
+  width: 48%;
+  padding-bottom: 1em;
+}
 
+#how-we-work img{
+  width: 100%;
+  padding-bottom: 1em;
+}
 
+/* ROW 3 */
 
+.row3{
+  width: 90%;
+  margin: auto;
+}
 
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
+}
+#places{
+  width: 48%;
+}
 
+#places img{
+  width: 100%;
+}
 
+#collab{
+  width: 48%;
+}
 
+#collab img{
+  width: 100%;
+}
+
+.row4{
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+/* BUTTONS */
+.button{
+  margin-top: 1.5em;
+}
+.button a{
+  text-decoration: none;
+  border: black 1px solid;
+  padding: .5em; 
+}
 
 
 
