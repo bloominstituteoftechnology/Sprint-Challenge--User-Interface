@@ -81,7 +81,7 @@ p {
 
 .links {
     display: flex;
-    justify-items: space-between:
+    justify-items: space-between;
 	align-items: flex-end;
     padding-right: 30px;
     word-spacing: 50px;
@@ -185,35 +185,40 @@ p {
 	justify-content: space-between;
     margin: 20px auto;
     flex-wrap: wrap;
+
+
 }
 
 .strategy {
     display: flex;
     flex-direction: column;
-
+    border-bottom: 1px dashed black;
 
 }
 
 .how-we-work {
     display: flex;
     flex-direction: column;
-
+    border-bottom: 1px dashed black;
 
 }
 
 .places-we-work {
     display: flex;
     flex-direction: column;
-
+    border-bottom: 1px dashed black;
 }
 
 .collaboration {
     display: flex;
     flex-direction: column;
-
+    border-bottom: 1px dashed black;
 }
 
-
+.about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
 
 
