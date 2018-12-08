@@ -66,6 +66,265 @@ p {
     line-height: 1.4;
 }
 
+
+.header-about {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.lambda-logo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    width: 600px;
+    padding-left: 120px;
+    margin-bottom: 30px;
+}
+
+.navigation-about {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    padding-left: 120px;
+    margin-bottom: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 22px;
+    padding-left: 14px;
+}
+
+.navigation-about a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 22px;
+    padding-left: 14px;
+}
+
+.large-top-image {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 22px;
+}
+
+
+.large-top-image-about {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 22px;
+    padding-left: 350px;
+    
+}
+
+.about-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.about-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 16px;
+    border-bottom: 1.1px dashed black;
+    padding-bottom: 20px;
+
+}
+
+.strategy-section {
+    border-bottom: 1.1px dashed black;
+    width: 375px;
+    margin-bottom: 24px;
+    padding-top: 12px;
+    
+}
+
+.strategy-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 8px;
+}
+
+.strategy-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.strategy-button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 140px;
+    height: 60px;
+}
+
+
+.how-we-work-section {
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    top: -473px;
+    border-bottom: 1.1px dashed black;
+    width: 375px;
+    padding-top: 12px;
+}
+
+.how-we-work-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-top: 8px;
+}
+
+.how-we-work-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.how-we-work-button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 140px;
+    height: 60px;
+}
+
+.places-we-work-section {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    bottom: 400px;
+    border-bottom: 1.1px dashed black;
+    width: 427px;
+}
+
+.places-we-work-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 8px;
+}
+
+.places-we-work-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.places-we-work-button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 140px;
+    height: 60px;
+}
+
+.collaboration-section {
+    display: inline-block;
+    position: relative;
+    left: 415px;
+    bottom: 815px;
+    border-bottom: 1.1px dashed black;
+}
+
+.collaboration-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 8px;
+}
+
+.collaboration-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.collaboration-button {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 140px;
+    height: 60px;
+}
+
+.work-together-section {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    bottom: 760px;
+}
+
+.work-together-title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.work-together-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 16px;
+    border-bottom: 1.1px dashed black;
+    padding-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,10 +360,121 @@ p {
     justify-content: space-evenly;
 }
 
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -125,6 +495,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
 
 footer {
     width: 100%;
