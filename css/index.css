@@ -71,6 +71,44 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+
+img[src="img/lambda-black.png"] {
+    margin-right: 42px;
+}
+
+#nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.header-nav {
+    width: 80%;
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +121,10 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content h2 {
+    font-weight: bold;
 }
 
 .middle-content {
@@ -111,6 +153,49 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*Boxes styling*/
+
+.middle-content .boxes div:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background: gold;
+}
+ 
+.middle-content .boxes div:nth-child(3) {
+    background: cadetblue;
+}
+ 
+.middle-content .boxes div:nth-child(4) {
+    background: coral;
+}
+ 
+.middle-content .boxes div:nth-child(5) {
+    background: crimson;
+}
+ 
+.middle-content .boxes div:nth-child(6) {
+    background: forestgreen;
+}
+ 
+.middle-content .boxes div:nth-child(7) {
+    background: darkorchid;
+}
+ 
+.middle-content .boxes div:nth-child(8) {
+    background: hotpink;
+}
+ 
+.middle-content .boxes div:nth-child(9) {
+    background: indigo;
+}
+ 
+.middle-content .boxes div:nth-child(10) {
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +228,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About.html*/
+
+.container about-page {
+    width: 100%;
 }
