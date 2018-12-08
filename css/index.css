@@ -190,6 +190,10 @@ header nav a {
     padding-right: 0;
 }
 
+.about-text-container {
+	padding-bottom: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
