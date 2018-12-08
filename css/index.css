@@ -71,15 +71,15 @@ p {
 }
 
 
-/* general styles  */
+/******* general styles  *******/
 .container {
     width: 800px;
     max-width: 100%;
     margin: 0 auto;
-    border: var(--border);
+    /* border: var(--border); */
 }
 
-/* top nav bar */
+/******* top nav bar *******/
 
 .topNav {
     display: flex;
@@ -150,11 +150,7 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box {
-    /* background: red; */
-    /* color: red; */
-}
-
+/******* targeting each of the boxes *******/
 .middle-content .boxes .box:nth-child(1) {
     background: teal;
 }
@@ -163,7 +159,7 @@ p {
     background: gold;
 }
 
-.middle-content .boxes .boxes:nth-child(3) {
+.middle-content .boxes .box:nth-child(3) {
     background: cadetblue;
 }
 
@@ -226,4 +222,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+/************* ABOUT US PAGE *************/
+.aboutIMG {
+    width: 100%;
+}
+
+.aboutInfo {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 600px; */
+    /* width: 50%; */
+}
+
+.moreInfo {
+    /* align-self: stretch; */
+    align-content: space-between;
+    width: 49%;
+    margin: .5%;
+}
+
+/* .moreInfo hr {
+    margin-top: 20px;
+} */
+
+.learnMore {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 1em;
+    margin: 20px 0 5px 0;
+}
+
+hr {
+    padding-bottom: 20px;
+    border: 1px dotted #000;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+    width: 100%;
 }
