@@ -236,7 +236,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 .navbar {
   display: flex;
@@ -248,4 +248,38 @@ header {
   padding: 10px 40px;
   color: black;
   text-decoration: none;
+}
+.first-section-img {
+  margin: 30px 0px;
+  width: 100%;
+}
+.middle-content .boxes .box:first-child {
+  background: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+  background: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+  background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+  background: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+  background: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+  background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+  background: darkorchid;
+}
+.middle-content .boxes .box:nth-last-child(3) {
+  background: hotpink;
+}
+.middle-content .boxes .box:nth-last-child(2) {
+  background: indigo;
+}
+.middle-content .boxes .box:last-child {
+  background: dodgerblue;
 }
