@@ -76,16 +76,18 @@ p {
 	justify-content: space-between;
     margin: 30px auto 40px auto;
     align-items: flex-end;
-
+    border: 1px solid red;
 }
 
 .links {
     display: flex;
+    width: 400px;
     justify-items: space-between;
 	align-items: flex-end;
     padding-right: 30px;
     word-spacing: 50px;
     color: black;
+    border: 1px solid blue;
 }
 
 .header-image {
@@ -183,36 +185,42 @@ p {
 .four-parts {
 	display: flex;
 	justify-content: space-between;
-    margin: 20px auto;
+    margin: 0 2% 20px 2%;
     flex-wrap: wrap;
-
 
 }
 
 .strategy {
-    display: flex;
-    flex-direction: column;
+
+    width: 48%;
     border-bottom: 1px dashed black;
+    margin-bottom: 20px;
 
 }
 
 .how-we-work {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px dashed black;
 
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
 }
 
 .places-we-work {
-    display: flex;
-    flex-direction: column;
+
+    width: 48%;
     border-bottom: 1px dashed black;
+    margin-bottom: 20px;
 }
 
 .collaboration {
-    display: flex;
-    flex-direction: column;
+
+    width: 48%;
     border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+button {
+    
 }
 
 .about {
@@ -240,3 +248,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
