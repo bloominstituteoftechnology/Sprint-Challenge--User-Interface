@@ -144,3 +144,185 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* LM CSS */
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.inner-header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-header>img {
+    
+ padding-bottom: 24px;
+   
+}
+
+.inner-header>nav {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.inner-header>nav>a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
+    color: black;
+    width: 20%;
+    height: 100%;
+
+}
+
+.inner-header>nav>a:hover {
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid lightgray;
+}
+
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/* about */
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+
+.content>section {
+    display: flex;
+    margin-bottom: 20px;
+    width: 48%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border-bottom: 1px dashed gray;
+}
+
+
+.content>section>img, .content>section>h2, .content>section>p, .content>section>a {
+    margin-bottom: 20px;
+}
+
+.content>section>a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 120px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-style: bold;
+    border-radius: 10px;
+    color: black;
+}
+
+#letsworktogether {
+    margin-bottom: 30px;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+
+form {
+    height: 260px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+
