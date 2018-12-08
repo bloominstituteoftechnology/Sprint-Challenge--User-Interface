@@ -211,3 +211,37 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+button {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+}
+
+.strategy-box{
+    border-bottom: 1px dotted black;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.about-top {
+    padding-left: 15px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.top-section, .bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-together-box {
+    padding-left: 15px;
+    margin-bottom: 35px;
+}
