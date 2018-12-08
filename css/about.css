@@ -284,7 +284,7 @@ h3 {
 .learn-more {
   margin-top: 20px;
   border: 2px solid black;
-  border-radius: 15%;
+  border-radius: 18%;
   padding: 10px 30px;
   width: 50%;
   text-align: center;
@@ -301,4 +301,8 @@ h3 {
 footer nav {
   display: flex;
   justify-content: space-between;
+}
+hr {
+  height: 1px;
+  color: black;
 }
