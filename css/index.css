@@ -165,12 +165,6 @@ a {
   color: black;
 }
 
-.about-page .top-content .text-container {
-  width: 100%;
-  margin-left: 12px;
-  margin-top: 23px;
-}
-
 .middle-content .boxes div:nth-child(1) {
   background-color: teal;
 }
@@ -200,6 +194,12 @@ a {
 }
 .middle-content .boxes div:nth-child(10) {
   background-color: dodgerblue;
+}
+
+.about-page .top-content .text-container {
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 23px;
 }
 
 .stuff {
