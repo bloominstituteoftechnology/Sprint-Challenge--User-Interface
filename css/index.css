@@ -278,6 +278,10 @@ article {
     border-radius: 6px;
 }
 
+.content img {
+    width: 95%;
+}
+
 .section-bottom{
     display: flex;
     flex-wrap: wrap;
