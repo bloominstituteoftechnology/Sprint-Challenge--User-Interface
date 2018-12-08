@@ -66,10 +66,67 @@ p {
     line-height: 1.4;
 }
 
+.header-container {
+    width: 850px;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+
+
+
+/* Header - Nav & Logo */
+
+
+header nav {
+    display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   padding: 20px 0 40px 0;
+   margin-bottom: -25px;
+   
+  }
+  
+  header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px;
+    
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+
+
+
+
+/* Top Image Region */
+
+
+
+.top-image {
+    margin-bottom: 25px;
+}
+
+
+
+/* Top-Content Region */
+
+
 
 .top-content {
     display: flex;
@@ -84,6 +141,12 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+
+/* Middle-Content Region  */
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +164,119 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bottom-Content Region */
+
+
 
 .bottom-content {
     display: flex;
@@ -125,6 +291,13 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+
+
+/* Footer Nav */
+
+
 
 footer {
     width: 100%;
