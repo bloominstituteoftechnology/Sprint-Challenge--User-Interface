@@ -196,7 +196,9 @@ header{
 }
 
 footer{
-  
+  background-color: black;
+  width: 90%;
+  margin: auto;
 }
 footer nav {
     width: 60%;
@@ -205,8 +207,6 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    background-color: black;
-    margin:auto;
     margin-top: 2em;
 }
 
