@@ -227,6 +227,15 @@ Boxes color styling above
 
 /*ABOUT PAGE*/
 
+.about-section {
+    border-bottom: 1px dashed;
+    margin-bottom: 30px;
+}
+
+.about-top-paragraph {
+    margin-bottom: 30px;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -239,17 +248,22 @@ Boxes color styling above
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    border: 1px solid;
+    /*border: 1px solid;*/
     margin-bottom: 40px;
 }
 
-.column-left {
-    margin-left: 20px;
+.design-column {
+    border-bottom: 1px dashed;
+    margin-right: 28px;
 }
 
-.column-right {
-    margin-right: 20px;
-}
+/*.column-left {*/
+    /*margin-left: 20px;*/
+/*}*/
+
+/*.column-right {*/
+    /*margin-right: 20px;*/
+/*}*/
 
 /*ABOUT PAGE*/
 
