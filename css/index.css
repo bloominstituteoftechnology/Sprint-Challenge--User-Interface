@@ -157,6 +157,9 @@ footer nav a {
     animation:reverse-spin 2s linear infinite;
 }
 @keyframes reverse-spin{
+    0% {
+        padding: 100px 100px;
+    }
     100%{
         transform:rotate(-360deg);
     }
