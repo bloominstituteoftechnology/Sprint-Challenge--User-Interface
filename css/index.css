@@ -218,7 +218,7 @@ footer nav a {
 /* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
 
 .header-content {
-    padding: 25px 0px 25px 0px;
+    padding: 25px 0px 25px 20px;
     border-bottom: 1px;
     border-bottom-style: dashed;
 }
@@ -229,6 +229,8 @@ footer nav a {
     flex-wrap: wrap;
 
     justify-content: space-between;
+
+    padding: 0px 20px 0px 20px;
 }
 
     .content {
