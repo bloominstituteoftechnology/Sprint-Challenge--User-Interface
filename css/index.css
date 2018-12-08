@@ -68,6 +68,10 @@ nav ul {
     justify-content: space-between
 }
 
+.jumbo {
+    margin: 20px 0;
+}
+
 p {
     line-height: 1.4;
 }
