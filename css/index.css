@@ -230,10 +230,34 @@ p {
 
 .about-page .categories {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-section.strategy {
+.strategy, .how, .places, .collaboration {
     display: flex;
+    flex-direction: column;
+    border-bottom: dashed 1px black;
+    width: 45%;
+    margin-bottom: 3%;
 }
 
+.categories h2 {
+    margin-top: 3%;
+}
+.categories a {
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    margin-bottom: 3%
+}
 
+.together {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
