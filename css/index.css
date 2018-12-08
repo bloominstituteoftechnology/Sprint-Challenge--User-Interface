@@ -64,11 +64,41 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    flex-direction: nowrap;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-end;
+    display: flex;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.header-logo {
+   display: flex;
 }
 
 .top-content {
@@ -108,7 +138,7 @@ p {
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
 }
 
