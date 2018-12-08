@@ -144,3 +144,106 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My Code Below */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+header nav {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+.about-paragraph {
+    padding: 10px;
+}
+
+.bottom-paragraph {
+    padding: 0px 10px 10px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px dashed black;
+}
+
+.learn-more {
+    width: 45%;
+}
+
+button {
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.learn-more-section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0px;
+    align-items: stretch;
+}
+
+.bottom-more {
+    margin-top: 50px;
+}
