@@ -144,3 +144,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.middle-content .boxes .box .box1 {
+
+    background-color: teal;
+}
+
+.middle-content .boxes .box .box2 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box3 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box4 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box5 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box6 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box7 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box8 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box9 {
+
+    background-color: teal;
+}
+.middle-content .boxes .box .box10 {
+
+    background-color: teal;
+}
+
