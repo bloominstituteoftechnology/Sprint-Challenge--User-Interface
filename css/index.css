@@ -144,3 +144,117 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* new code starts here */
+
+.navwrapper {
+    display: flex;
+    align-items: baseline;
+    /* ^that right there is magic  */
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: .9em;
+    color: black;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    border-bottom: 1px solid #FE2E2E;
+    padding-bottom: 3px;
+    color: #FE2E2E;
+}
+
+.top-content .bannerimg {
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .one {
+    background-color: teal;
+}
+
+.middle-content .boxes .two {
+    background-color: gold;
+}
+
+.middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .four {
+    background-color: coral;
+}
+
+.middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .nine {
+    background-color: indigo;
+}
+
+.middle-content .boxes .ten {
+    background-color: dodgerblue;
+}
+
+.about-banner-text {
+    padding-bottom: 20px;
+}
+
+.cardrow {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.cardrow .card button{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    width: 120px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cardrow .card button:hover{
+    text-decoration: underline;
+    color: #FE2E2E;
+    border: 2px solid #FE2E2E;
+}
+
+.cardrow .card h2 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cardrow .card p {
+    margin-bottom: 15px;
+}
+
+.card {
+    border-bottom: 1px dashed black;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.closing .closing-text {
+    padding: 10px 30px 30px 30px;
+}
