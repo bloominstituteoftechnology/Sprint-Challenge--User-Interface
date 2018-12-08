@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+.top-nav{
+    margin-top: 20px;
+}
+
+.top-logo {
+    display: inline-block;
+}
+
+.nav {
+    display: inline-block;
+    margin: 0px 0px 4px 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.nav-items {
+    margin-left: 80px; 
+}
+
+.top-pic{
+    margin-top: 34px;
+    margin-bottom: 20px;
+}
+
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
