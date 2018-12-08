@@ -47,13 +47,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
   _The 4 areas of the box model are:_
 
-    *1. margin*
+    1. margin
 
-    _2. border_
+    2. border
 
-    _3. padding_
+    3. padding
 
-    _4. content_
+    4. content
 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
@@ -64,17 +64,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
   _Git is a valuable tool for development team because it provides the following features:_
 
-    *- Ability to share and work on source code in a distributed manner*
+    - Ability to share and work on source code in a distributed manner
 
       - Each developer can have their own copy of the source code which then can be merged back to the original
 
     - Ability to save, track, and rollback changes made to the source code
 
-    _- Ability for 2 or more developers to work on source code without the risk of overwriting each other's work_
+    - Ability for 2 or more developers to work on source code without the risk of overwriting each other's work
 
-    _- Ability to easily create different "branches" (i.e. versions) of the source code to development and test new code_
+    - Ability to easily create different "branches" (i.e. versions) of the source code to development and test new code
 
-    _- Ease of backing up and restoring source code and relevant save points._
+    - Ease of backing up and restoring source code and relevant save points.
     
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
