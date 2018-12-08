@@ -201,6 +201,46 @@ nav a{
     background-color: dodgerblue;
 }
 
+.contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-form-container{
+    width: 49%;
+    margin: 15px;
+}
+
+.contact-form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container form button{
+
+    margin: 20px 0;
+    font-size: 14px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+
+.follow-box ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+}
+
+.follow-box img{
+    width: 24px;
+    margin-right: 10px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
