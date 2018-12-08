@@ -220,3 +220,32 @@ footer nav a {
     padding-bottom: 1.25rem;
     border-bottom: 1px dashed black;
 }
+
+.items-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 0 0 48%;
+    padding: 1rem 0;
+    margin: 1.5rem 0;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-image-wrapper, .item-text, .button {
+    margin: 1rem 0;
+}
+
+.button {
+    width: 140px;
+	padding: 0.65rem 1rem;
+	margin-top: 1rem;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+}
