@@ -65,3 +65,184 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+.container {
+    width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	margin-top: 10px;
+}
+
+nav {
+	width: 635px;
+}
+
+nav a {
+	padding: 37px;
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover {
+	color: blue;
+}
+
+.services-header-img {
+	padding: 35px 0 15px 0;
+}
+
+.top-content1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.top-content-text1 {
+	width: 370px;
+	padding-bottom: 20px;	
+}
+
+.top-content-text1 h2 {
+	padding: 10px 0 10px 0px;
+}
+
+.middle-content1  {
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+} 
+
+.middle-content1 h2 {
+	padding: 20px 0 10px 20px;	
+}
+
+/* .......................colored boxes................. */
+.middle-content1 .square {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+  }
+
+.middle-content1 .square .box {
+	width: 90px;
+  	height: 90px;
+	border: 1px solid black;
+	color: white;
+	margin: 1px 25px 35px;
+	padding: 35px 18px 35px 18px;
+}
+
+.teal .box {
+	background: teal;
+}
+.gold .box {
+	background: gold;
+}
+.cadetblue .box {
+	background: cadetblue;
+}
+.coral .box {
+	background: coral;
+}
+.crimson .box {
+	background: crimson;
+}
+.forestgreen .box {
+	background: forestgreen;
+}
+.darkorchid .box {
+	background: darkorchid;
+}
+.hotpink .box {
+	background: hotpink;
+}
+.indigo .box {
+	background: indigo;
+}
+.dodgerblue .box {
+	background: dodgerblue;
+}
+
+.bottom-content1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.bottom-content1-text1 {
+	width: 230px;
+	padding-bottom: 20px;
+}
+
+.bottom-content1-text1 h2{
+	padding: 20px 0 10px 0px;
+}
+
+footer {
+	background: black;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer .footer a {
+	color: white;
+	padding: 25px;
+	font-size: 14px;
+}
+
+/* ------------------About Page---------------------------- */
+.top-content-text {
+	padding: 0px 15px 15px;
+	border-bottom: 1px dashed black;
+}
+
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.middle-content .box {
+	width: 370px;
+	padding: 20px 0;
+	border-bottom: 2px dotted gray;
+}
+
+.middle-content .box h4 {
+	padding-top: 10px;
+}
+
+.middle-content .box p {
+	padding-bottom: 20px;
+}
+
+.middle-content .box button {
+	border-radius: 8px;
+	background: white;
+	padding: 5px 15px;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.middle-content .box button:hover {
+	background-color: lightblue;
+}
+
+.bottom-content-text {
+	padding: 30px 25px 20px 20px;
+}
+
+/* .............Contact Page....................................... */
+
+.contact h1 {
+	font-size: 90px;
+	color: red;
+	padding: 290px 150px;
+	text-align: center;
+}
