@@ -150,21 +150,21 @@ footer nav a {
 
 /* HEADER AND NAVIGATION */
 header nav {
+    align-items: flex-end;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 header nav #header-nav-links {
     display: flex;
-    width: 642px;
     justify-content: flex-start;
+    width: 642px;
 }
 header nav a {
-    text-decoration: none;
-    font-size: 14px;
     color: #000;
-    width: 128px;
+    font-size: 14px;
     text-align: center;
+    text-decoration: none;
+    width: 128px;
 }
 header nav a:hover {
     animation: .01s ease-in-out 0s infinite alternate move_link;
@@ -195,39 +195,43 @@ header > img {
 .middle-content .boxes .box:nth-of-type(10) {background-color: dodgerblue;}
 /* SECTION ABOUT ABOUT-HEADER */
 #about-header {
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 /* SECTION ABOUT ABOUT-TOPICS */
-#about-topics {
+.topics {
     padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#about-topics .about-topic {
-    width: 370px;
-    height: 430px;
+.topics .topic {
+    border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
-    border-bottom: 1px dashed black;
-    margin-bottom: 30px;
+    height: 430px;
     margin-top: 29px;
+    margin-bottom: 30px;
+    width: 370px;
 }
-#about-topics .about-topic h2 {
+.topics .topic h2 {
     margin-top: 13px;
 }
-#about-topics .about-topic a {
-    margin-top: 21px;
+.topics .topic a {
     border: 2px solid black;
-    width: 130px;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 21px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    color: #000;
-    border-radius: 10px;
+    width: 130px;
+}
+.topics .topic a:hover {
+    background-color: #000;
+    color: #fff;
 }
 #about-leverage {
     margin-top: 20px;
