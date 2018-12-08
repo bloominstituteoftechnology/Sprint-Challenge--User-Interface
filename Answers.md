@@ -12,3 +12,6 @@ Main
 
 5. What is the git command to commit staged changes as well as write a message? 
 git commit -m"message here"
+
+5. Explain why git is valuable to a team of developers?
+You could update code from anywhere and monitor what each developer is doing and how often they are contributing to project.
