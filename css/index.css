@@ -84,9 +84,6 @@ nav {
 	padding-bottom: 40px;
 }
 
-/* nav a {
-	justify-content: space-evenly;
-} */
 
 header img {
 padding-bottom: 20px;
@@ -125,7 +122,6 @@ padding-bottom: 20px;
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
