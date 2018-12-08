@@ -188,8 +188,8 @@ header img {
   padding-right: 0;
 }
 
-.about-header-section {
-  border-bottom: 2px dotted #333;
+.header-section {
+  border-bottom: 1px dashed #333;
 }
 
 main {
@@ -203,11 +203,30 @@ main {
   max-width: 48%;
   padding-top: 40px;
   padding-bottom: 20px;
-  border-bottom: 2px dotted #333;
+  border-bottom: 1px dashed #333;
 }
 
 .info-box h2 {
   padding-top: 10px;
+}
+
+.blog-box {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+		align-items: center;
+		padding: 20px 0;
+		border-bottom: 1px dashed #333;
+	/* width: 100%; */
+}
+
+.blog-image {
+	max-width: 20%;
+}
+
+.blog-snippet {
+	max-width: 50%;
+
 }
 
 button {
