@@ -153,17 +153,19 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-}
-header nav img {
-    margin-top: -1px;
+    /* look into why I need a negative margin to bring the header to the top*/
 }
 header nav a {
     margin-right: 43px;
+    margin-bottom: 1px;
     text-decoration: none;
     font-size: 14px;
     color: black;
 }
-header img {
+header nav img {
+    margin-top: 20px;
+}
+header > img {
     margin-top: 40px;
 }
 /* ------------ */
