@@ -72,6 +72,20 @@ header {
     margin-top: 10px;
 }
 
+.header-img {
+    width: 800px;
+    height: 153px;
+    animation: header-in 1.0s forwards;
+}
+
+.header-about {
+    background-image: url("../img/jumbo-about.png");
+}
+
+.header-index {
+    background-image: url("../img/jumbo.jpg");
+}
+
 .top-nav {
     width: 100%;
     display: flex;
@@ -250,4 +264,15 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@keyframes header-in {
+    from {
+        opacity: 0.25;
+
+    }
+    to {
+        opacity: 1;
+    }
+
 }
