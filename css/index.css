@@ -284,3 +284,14 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+	.container, nav, header, footer {
+		width: 80%;
+	}
+.info-box, .blog-box, .contact-box, .blog-image, .contact-image, .blog-snippet, .contact-form-box {
+	min-width: 80%;
+	margin: 0 auto;
+}
+
+}
