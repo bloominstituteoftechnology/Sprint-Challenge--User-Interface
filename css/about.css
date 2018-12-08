@@ -230,7 +230,12 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
-
+/* about.html css */
+.container-about-page {
+  width: 90%;
+  margin: 0 auto;
+}
+/* header */
 header {
   display: flex;
   flex-direction: row;
@@ -249,37 +254,55 @@ header {
   color: black;
   text-decoration: none;
 }
-.first-section-img {
-  margin: 30px 0px;
+.jumbo-about-img {
+  margin: 50px 0px;
   width: 100%;
 }
-.middle-content .boxes .box:first-child {
-  background: teal;
+/* header ^^^^ */
+
+/*middle-section vvvv  */
+.about p {
+  margin-bottom: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
 }
-.middle-content .boxes .box:nth-child(2) {
-  background: gold;
+section {
+  display: flex;
+  width: 100%;
 }
-.middle-content .boxes .box:nth-child(3) {
-  background: cadetblue;
+div .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
 }
-.middle-content .boxes .box:nth-child(4) {
-  background: coral;
+h3 {
+  margin-top: 20px;
+  font-weight: bold;
 }
-.middle-content .boxes .box:nth-child(5) {
-  background: crimson;
+.learn-more {
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 15%;
+  padding: 10px 10px;
+  width: 40%;
+  text-align: center;
 }
-.middle-content .boxes .box:nth-child(6) {
-  background: forestgreen;
+/* middle-section ^^^ */
+.last-para {
+  display: flex;
+  flex-direction: column;
 }
-.middle-content .boxes .box:nth-child(7) {
-  background: darkorchid;
+.last-para p {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.middle-content .boxes .box:nth-last-child(3) {
-  background: hotpink;
+footer nav {
+  display: flex;
+  justify-content: space-between;
 }
-.middle-content .boxes .box:nth-last-child(2) {
-  background: indigo;
-}
-.middle-content .boxes .box:last-child {
-  background: dodgerblue;
+hr {
+  height: 1px;
+  color: black;
 }
