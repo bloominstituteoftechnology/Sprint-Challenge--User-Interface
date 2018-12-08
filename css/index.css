@@ -145,72 +145,85 @@ header nav a:hover {
 
 .middle-content .boxes .box1 {
     background-color: teal;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 12px 0px 20px 40px;
+   
 }
 
 .middle-content .boxes .box2 {
     background-color: gold;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 12px 0px 20px 40px;
 }
 
 .middle-content .boxes .box3 {
     background-color: cadetblue;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 12px 0px 20px 40px;
+
+    
 }
 
 .middle-content .boxes .box4 {
     background-color: coral;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 12px 0px 20px 40px;
 }
 
 .middle-content .boxes .box5 {
     background-color: crimson;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 12px 0px 20px 40px;
 }
 
 .middle-content .boxes .box6 {
     background-color: forestgreen;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 0px 10px 20px 125px;
 }
 
 .middle-content .boxes .box7 {
     background-color: darkorchid;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 0px 10px 20px 40px;
 }
 
 .middle-content .boxes .box8 {
     background-color: hotpink;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 0px 10px 20px 40px;
 }
 
 .middle-content .boxes .box9 {
     background-color: indigo;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 0px 10px 20px 40px;
 }
 
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed black;
+    margin: 0px 10px 20px 40px;
 }
 
 .bottom-content {
