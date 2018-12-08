@@ -73,17 +73,19 @@ p {
 }
 
 header {
-    width: 100%;
+    width: 800px;
+
     display: flex;
-    border: 1px solid black;
     justify-content: flex-end;
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 header nav {
     margin-top: 40px; 
     width: 610px;
+    top: 10px;
     justify-content: space-between;
     display: flex;
 }
@@ -99,8 +101,16 @@ header nav a:hover {
 }
 
 .header-logo {
-   display: flex;
+   display: block;
+   position: absolute;
+   top: 15px;
+   left: 280px;
 }
+
+.top-image {
+    margin: 3px 5px 20px 5px;
+}
+
 
 .top-content {
     display: flex;
