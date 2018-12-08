@@ -78,6 +78,10 @@ p {
     overflow: hidden;
 }
 
+nav a:hover{
+    text-decoration: underline;
+}
+
 
 /* Header & Nav */
 
