@@ -79,6 +79,46 @@ p {
     border-bottom: 1px dashed black;
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    height: 60px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+header>a:nth-child(1) {
+    display: flex;
+    height: 60px;
+    margin-bottom: 40px;
+    align-content: flex-end;
+    align-self: flex-end;
+}
+
+header nav a {
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+.lambda-black {
+    align-self: flex-end;
+}
+
+p {
+    font-size: 16px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -110,6 +150,51 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.boxes>.box:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes>.box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes>.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes>.box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes>.box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes>.box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.boxes>.box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes>.box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes>.box:nth-child(9) {
+    background-color: indigo;
+}
+
+.boxes>.box:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +229,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Page Stylings*/
