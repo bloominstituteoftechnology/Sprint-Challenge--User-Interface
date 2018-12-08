@@ -134,7 +134,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/*Header/NavBar==================================*/
+/*Header/Navigation==================================*/
 .navigationBar {
 	height: 60px;
 	width: 800px;
@@ -153,8 +153,9 @@ footer nav a {
 }
 
 .navigationBar nav a {
-    margin: 0px 20px 0px 50px;
+    margin: 0px 25px 0px 50px;
     color: black;
+    font-size: 13px;
 }
 
 /*Top Image==================================*/
