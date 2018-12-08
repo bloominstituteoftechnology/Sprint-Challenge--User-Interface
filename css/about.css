@@ -128,15 +128,17 @@ p {
 .middle-content {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     /* border: 1px solid red; */
 }
 
 /* strategy */
 .strategy {
     border-bottom: 1px dashed black;
-    width: 50%;
+    width: 48%;
     padding: 2%;    
-    /* margin: 10px 25px 25px 0px; */
+    /* margin: 10px 25px 25px 0px; */    
+    padding-bottom: 25px;
 }
 
 .strategy h2 {
@@ -151,7 +153,7 @@ p {
 
 span {
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px 20px 5px 20px;
     /* margin-top: 20px; */
 }
@@ -165,42 +167,60 @@ span a {
 /* How we work */
 .how-we-work {
     border-bottom: 1px dashed black;
-    width: 50%;
+    width: 48%;
     padding: 2%;
-    /* margin: 10px 15px 25px 10px; */
+    /* margin: 10px 15px 25px 10px; */        
+    padding-bottom: 25px;
 }
 
-.how-we-work h2, p {
+.how-we-work h2 {
     margin: 10px 0 10px 0;
     /* border: 1px solid red; */
+}
+
+.how-we-work p {
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
 }
 /* How we work */
 
 /* places */
 .places-we-work {
     border-bottom: 1px dashed black;
-    width: 50%;
+    width: 48%;
     padding: 2%;
-    /* margin: 10px 15px 25px 10px; */
+    /* margin: 10px 15px 25px 10px; */    
+    padding-bottom: 25px;
 }
 
-.places-we-work h2, p {
+.places-we-work h2 {
     margin: 10px 0 10px 0;
     /* border: 1px solid red; */
+}
+
+.places-we-work p {
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
 }
 /* places */
 
 /* collab */
 .collaboration {
     border-bottom: 1px dashed black;
-    width: 50%;
+    width: 48%;
     padding: 2%;
-    /* margin: 10px 15px 25px 10px; */
+    /* margin: 10px 15px 25px 10px; */    
+    padding-bottom: 25px;
 }
 
-.collaboration h2, p {
+.collaboration h2 {
     margin: 10px 0 10px 0;
     /* border: 1px solid red; */
+}
+
+.collaboration p {
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
 }
 /* collab */
 /* middle content */
