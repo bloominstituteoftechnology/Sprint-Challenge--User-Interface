@@ -1,27 +1,95 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-  <title>Sprint Challenge - Home</title>
+        <title>Sprint Challenge - Home</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
 
-</head>
+    </head>
 
-<body>
+    <body>
         <header>
-                <img src="img/lambda-black.png" alt="Lambda Logo" class="logo">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Products</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contact</a>
-                </nav>
-            </header>
-</body>
+            <img src="img/lambda-black.png" alt="Lambda Logo" class="logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="jumbotron">
+            <img src="img/contact.jpeg" alt="">
+        </div>
+
+        <div class="about-paragraph">
+            <h1>Contact Us</h1>
+            <p>
+                We strive to become better each day. Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Illum deleniti tempore incidunt et magnam sequi voluptas, esse
+                cumque quae laborum soluta eveniet vitae ipsum, doloribus debitis exercitationem
+                quo error adipisci.
+            </p>
+        </div>
+
+        <div class="contact-form">
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">Australia</option>
+                </select>
+
+                <input type="radio" name="gender" value="male" checked>
+                Front End Dev<br>
+                <input type="radio" name="gender" value="female">
+                Back End Dev<br>
+                <input type="radio" name="gender" value="other">
+                Full Stack Dev<br>
+                <br>
+                <label for="subject">Subject</label>
+                <textarea
+                    id="subject"
+                    name="subject"
+                    placeholder="Write something.."
+                    style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="contact-bottom-section">
+            <h3>Let's Work Together</h3>
+            <p>
+                Together Leverage agile frameworks to provide a robust synopsis for high level
+                overviews. Iterative approaches to corporate strategy foster collaborative
+                thinking to further the overall value proposition. Organically grow the holistic
+                world view of disruptive innovation via workplace diversity and empowerment.
+            </p>
+        </div>
+        <footer>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </footer>
+    </body>
 
 </html>
