@@ -159,39 +159,70 @@ a:hover {
 }
 
 .strategy {
-
+    margin: 25px;
+    padding: 25px;
 }
 
 .howWeWork {
-
+    margin: 25px;
+    padding: 25px;
 }
 
 .placesWeWork {
-
+    margin: 25px;
+    padding: 25px;
 }
 
 .collaboration {
+    margin: 25px;
+    padding: 25px;
+}
 
-    
+.aboutContainer {
+    width: 876px;
 }
 
 .sectionContainer {
-
+    width: 876px;
 }
 
 .sectionBlockZero {
-    margin: 20px;
+    margin: 20px ;
 }
 
 .sectionBlockOne {
-    margin: 50px;
+   width: 45%;
+   display: flex;
+   flex-direction: row;
 }
 
 .sectionBlockTwo {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+ }
 
-    margin: 50px;
-}
+ 
 
+ button {
+     width: 100px;
+     margin: 10px;
+     margin-left: -5px;
+ }
+
+ button:hover {
+     color: white;
+     background-color: black;
+ }
+
+ .bottomSection {
+     margin: 50px;
+ }
+
+ .hr {
+    border: 2px solid black;
+    width: 100%;
+ }
 
 footer {
     width: 100%;
