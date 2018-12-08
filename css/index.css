@@ -360,4 +360,29 @@ footer nav a {
     header nav a, footer nav a {
         margin: 0 0.5rem;
     }
+
+    .top-content, .bottom-content {
+        flex-direction: column;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    .bottom-content {
+        display: block;
+    }
+
+    .bottom-content .text-container {
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .items-list {
+        flex-direction: column;
+    }
+
+    .contact-submit-btn {
+        width: 60%;
+    }
 }
