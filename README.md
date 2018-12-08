@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic elements allows us to indicate what type of content an element holds.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 Block elements force a line break after the block element while inline elements allow other elements to sit to their left and right. Inline elements respect left and right margins + padding, but not top and bottom while block elements respect left, right, top, and bottom
