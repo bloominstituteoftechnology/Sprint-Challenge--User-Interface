@@ -36,7 +36,7 @@ table {	border-collapse: collapse;border-spacing: 0; }
 /****************            *******************/
 /***********************************************/
 
-* { box-sizing: border-box; }
+* { box-sizing: border-box; transition-duration: 0.75s; }
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif; }
@@ -55,6 +55,7 @@ nav a {
 	font-size: 14px;
 	text-decoration: none;
 	color: #000000; }
+nav .nav-item a:hover { color: white; background-color: black; padding: 24px; margin: -24px; }
 .nav-bar-top { display: flex; }
 .nav-logo { flex: 0 1 auto; }
 .nav-item { flex: 1 1 auto; align-self: flex-end; text-align: center; }
@@ -142,18 +143,20 @@ nav a {
 
 .bottom-content .text-container:last-child { padding-right: 0; }
 
-footer { position: relative; width: 100%; background: black; }
-
+footer { 
+	background: black;
+	overflow: hidden;
+	margin: 48px 0 0 0; }
 footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
+    padding: 0 2% 4px 2%;
+    font-size: 14px; }
+footer nav a { color: white; text-decoration: none; padding: 24px; margin: -24px -24px -28px -24px;}
+footer nav a:hover { color: black; background-color: white; }
 
-footer nav a { color: white; text-decoration: none; }
 
 /**************************
 Button styling override
