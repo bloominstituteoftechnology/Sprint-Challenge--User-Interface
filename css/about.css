@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+@mixin for-size($range) {
+    $phone-upper-boundary: 600px;
+    $tablet-portrait-upper-boundary: 900px;
+    $tablet-landscape-upper-boundary: 1200px;
+    $desktop-upper-boundary: 1800px;
+  
+    @if $range == phone-only {
+      @media (max-width: #{$phone-upper-boundary - 1}) { @content; }
+    } @else if $range == tablet-portrait-up {
+      @media (min-width: $phone-upper-boundary) { @content; }
+    } @else if $range == tablet-landscape-up {
+      @media (min-width: $tablet-portrait-upper-boundary) { @content; }
+    } @else if $range == desktop-up {
+      @media (min-width: $tablet-landscape-upper-boundary) { @content; }
+    } @else if $range == big-desktop-up {
+      @media (min-width: $desktop-upper-boundary) { @content; }
+    }
+  }
+  
+  /* // usage */
+  .my-box {
+    padding: 10px;
+    
+    @include for-size(desktop-up) {
+      padding: 20px;
+    }
+  }
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Header section */
+
+.header-bar {
+    margin: 25px 0 40px 0;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.nav .lambda {
+    width: 25%;
+    /* border: 1px solid red; */
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-bar a {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.jumbo {
+    margin-bottom: 25px;
+}
+
+/* Header section */
+
+
+
+
+
+/* about */
+.about-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content .text-container {
+    padding: 0 2%;
+    padding-bottom: 20px;  
+}
+/* about */
+
+
+/* middle content */
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+/* strategy */
+.strategy {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    padding: 2%;    
+    /* margin: 10px 25px 25px 0px; */    
+    padding-bottom: 25px;
+}
+
+.strategy h2 {
+    margin: 10px 0 10px 0;
+    /* border: 1px solid red; */
+}
+
+.strategy p {
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
+}
+
+span {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px 20px 5px 20px;
+    /* margin-top: 20px; */
+}
+
+span a {    
+    color: black;
+    text-decoration: none;
+}
+/* strategy */
+
+/* How we work */
+.how-we-work {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    padding: 2%;
+    /* margin: 10px 15px 25px 10px; */        
+    padding-bottom: 25px;
+}
+
+.how-we-work h2 {
+    margin: 10px 0 10px 0;
+    /* border: 1px solid red; */
+}
+
+.how-we-work p {
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
+}
+/* How we work */
+
+/* places */
+.places-we-work {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    padding: 2%;
+    /* margin: 10px 15px 25px 10px; */    
+    padding-bottom: 25px;
+}
+
+.places-we-work h2 {
+    margin: 10px 0 10px 0;
+    /* border: 1px solid red; */
+}
+
+.places-we-work p {
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
+}
+/* places */
+
+/* collab */
+.collaboration {
+    border-bottom: 1px dashed black;
+    width: 48%;
+    padding: 2%;
+    /* margin: 10px 15px 25px 10px; */    
+    padding-bottom: 25px;
+}
+
+.collaboration h2 {
+    margin: 10px 0 10px 0;
+    /* border: 1px solid red; */
+}
+
+.collaboration p {
+    margin: 10px 0 10px 0;
+    padding-bottom: 15px;
+}
+/* collab */
+/* middle content */
+
+/* together */
+.together-content {
+    margin: 40px 0 40px 0;
+    padding-left: 15px;
+}
+
+
+/* bottom */
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* bottom */

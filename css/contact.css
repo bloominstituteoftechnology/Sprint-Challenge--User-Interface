@@ -109,6 +109,55 @@ a:hover {
 
 /* Header section */
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 300px;
+}
+
+.name {
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    height: 33%;
+}
+
+.name-box {
+    height: 30px;
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.email {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    height: 33%;
+}
+
+.email-box {
+    height: 30px;
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    height: 33%;
+}
+
+.phone-box {
+    height: 30px;
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 25px;
+}
+
 
 /* till boxes */
 .top-content {
