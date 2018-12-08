@@ -90,9 +90,9 @@ nav a{
 }
 
 nav a:hover{
-    background: linear-gradient(to right, black 50%, white 50%);
+    background: linear-gradient(to right, pink 50%, white 50%);
     background-size: 200% 100%;
-    color: white;
+    color: red;
     background-position: left bottom;
   }
 
