@@ -144,3 +144,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* new code starts here */
+
+.navwrapper {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+}
+
+
+
+.navigation a {
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: .9em;
+    color: black;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    border-bottom: 1px solid #FE2E2E;
+    padding-bottom: 3px;
+    color: #FE2E2E;
+}
