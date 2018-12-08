@@ -98,6 +98,11 @@ p {
     color: black;
 }
 
+a:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
 .jumbo {
     margin-bottom: 25px;
 }
