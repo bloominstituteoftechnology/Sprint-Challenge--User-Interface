@@ -26,10 +26,35 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+    /* border: 1px solid red; */
 }
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 30px 0px 30px 0px; 
+}
+.header-content nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content nav a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 80px;
+}
+
 body {
-	line-height: 1;
+    line-height: 1;
+
+}
+.container {
+    width: 800px;
+    margin: auto;
+    
+
 }
 ol, ul {
 	list-style: none;
@@ -44,16 +69,19 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+   
 }
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,11 +92,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    margin: 0 auto;
+   
 }
 
 .top-content {
@@ -76,13 +100,52 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 30px;
     border-bottom: 1px dashed black;
+}
+.top-content-about {
+    width: 800px;
+    margin: 30px 0px 30px 0px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px;
+    
+}
+.about-images {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.about-images .about-logo{
+    width: 380px;
+}
+.text-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around; 
+    border-bottom: 1px dashed black;
+    width: 400px;
+    height: 180px;
+    margin: 0px 5px 0px 5px;
+}
+button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+.about-middle-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 30px 0px;
+}
+.about-bottom-content {
+    display: flex;
+    margin: 30px 0px 30px 0px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
 }
 
 .middle-content {
