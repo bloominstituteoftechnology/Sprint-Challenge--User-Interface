@@ -84,6 +84,7 @@ a {
 
 nav {
   display: flex;
+	flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
   padding-top: 20px;
@@ -286,13 +287,24 @@ footer nav a {
 }
 
 @media screen and (max-width: 768px){
-	.container, nav, header, footer {
-		width: 96%;
+	.container, header, footer {
+		width: 100%;
 	}
 
-	nav {
-		
-	}
+nav {
+	width: 100%;
+	text-align: center;
+}
+
+nav a {
+	width: 100%;
+}
+
+.logo {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}
 
 	header img {
 		width: 100%;
@@ -302,5 +314,20 @@ footer nav a {
 	min-width: 80%;
 	margin: 0 auto;
 }
+
+.top-content .text-container {
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* .text-container {
+
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid red;
+} */
 
 }
