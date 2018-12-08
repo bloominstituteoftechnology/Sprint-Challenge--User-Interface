@@ -28,31 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
-
 body {
-    line-height: 1;
-    margin: 0 auto;
-    padding: 0;
-    width: 1000px;
+	line-height: 1;
 }
-.nav {
-    
-    padding-bottom: 40px;
-    padding-left: 20px;
-}
-nav {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-    
-   
-}
-nav a {
-    text-decoration: none;
-    color: black;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -88,14 +66,35 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.header-nav {
+    display: flex;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
-.container img {
-    width: 850px;
-    padding-bottom: 20px;
-}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -169,3 +168,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+button {
+    width: 125px;
+    height: 2.5em;
+    margin: 4% 0;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black; 
+    cursor: pointer;
+}
+
+#box1 {background: teal;}
+#box2 {background: gold;}
+#box3 {background: cadetblue;}
+#box4 {background: coral;}
+#box5 {background: crimson;}
+#box6 {background: forestgreen;}
+#box7 {background: darkorchid;}
+#box8 {background: hotpink;}
+#box9 {background: indigo;}
+#box10 {background: dodgerblue;}
+
+/* ABOUT PAGE */
+
+.about-page .top-content .text-container {
+    width: 100%;
+}
+
+.about-page .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: none;
+}
+
+.about-page .middle-content .text-container {
+    width: 370px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content .text-container h2 {
+    padding: 2% 0;
+}
+
