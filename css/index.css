@@ -101,7 +101,14 @@ p {
 .mainNav li a {
     text-decoration: none;
     padding: 5px 10px;
+    color: #000;
     /* background: red; */
+}
+
+.mainNav li a:hover {
+    color: #fff;
+    background: #000;
+    transition: 1s all ease;
 }
 
 .headerIMG {
@@ -222,8 +229,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
+footer nav a:hover {
+    color: black;
+    background: #fff;
+    transition: .5s all ease-in;
+}
 
 
 
@@ -266,4 +279,121 @@ hr {
     color: #fff; 
     background-color: #fff;
     width: 100%;
+}
+
+footer {
+    margin: 20px 0 0 0;
+}
+
+
+/************* ABOUT US PAGE *************/
+.contact-page {
+    max-width: 100%;
+	margin: 50px auto;
+	padding: 40px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.address {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.inner-address p {
+	font-size: 18px;
+}
+
+.inner-address .fas {
+	font-size: 30px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.form h2 {
+    font-size: 60px;
+}
+.form-title {
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.input-form {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.inner-msg {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.input > input {
+	width: 260px;
+	padding: 10px 20px;
+    outline: none;
+    background: #ddd;
+}
+
+.msg > textarea {
+	width: 100%;
+	padding: 10px 20px;
+	height: 80px;
+    outline: none;
+    background: #ddd;
+}
+
+.msgBtn {
+	border: 2px solid #000;
+	padding: 20px 30px;
+	cursor: pointer;
+	background: black;
+	color: #fff;
+	transition: all 0.5 ease;
+}
+
+.msgBtn:hover {
+	background: grey;
+	border: 1px solid grey;
+}
+
+
+
+
+
+/****** mobile responsiveness ******/
+@media screen and (max-width: 700px) {
+    .container .about-page {
+        background: red;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutInfo {
+        background: red;
+        /* flex-direction: row; */
+
+    }
+
+    .input-form {
+		flex-direction: column;
+	}
+
+	.input:first-child > input {
+		margin-bottom: 20px;
+	}
+
+	.form .input > input {
+		width: 100%;
+	}
+
 }
