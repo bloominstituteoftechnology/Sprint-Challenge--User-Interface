@@ -243,3 +243,24 @@ header {
 #box10 {
     background: dodgerblue;
 }
+
+/* about */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.content>section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 44%;
+}
+
+#about {
+    border-bottom: 1px dashed gray;
+    margin-bottom: 20px
+    padding: 20px;
+}
