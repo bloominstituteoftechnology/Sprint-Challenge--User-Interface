@@ -216,3 +216,25 @@ header nav a {
  }
 
  /* ABOUT MAIN CONTENT */
+
+ .about-main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    width: 100%;
+    justify-content: space-between;
+ }
+
+ .about-main-box {
+     height: 400px;
+     width: 370px;
+     border-bottom: 1px dashed black;
+     margin: 15px;
+ }
+
+button {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 4px 10px 4px;
+    margin-top: 10px;
+}
