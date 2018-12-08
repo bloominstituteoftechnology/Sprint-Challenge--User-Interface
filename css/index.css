@@ -139,6 +139,20 @@ img[src="img/lambda-black.png"] {
     justify-content: space-evenly;
 }
 
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -148,6 +162,9 @@ img[src="img/lambda-black.png"] {
     display: flex;
     align-items: center;
     justify-content: center;
+    /*Animations*/
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 /*Boxes styling*/
@@ -195,7 +212,7 @@ img[src="img/lambda-black.png"] {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 30px;
     justify-content: space-around;
 }
 
@@ -227,9 +244,6 @@ footer nav a {
 }
 
 /*About.html*/
-
-.container about-page {
-}
 
 .about-text {
     width: 100%;
@@ -280,5 +294,46 @@ hr {
 
 .footer-content {
     margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+/*Contact page*/
+
+img[src="img/contact_us_keyboard.jpg"] {
+    width: 800px;
+    height: 200px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+img[src="img/contact_us.jpg"] {
+    width: 800px;
+    height: 300px;
     margin-bottom: 30px;
 }
