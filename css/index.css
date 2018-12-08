@@ -257,6 +257,17 @@ footer nav a {
     justify-content: space-evenly;
 }
 
+@keyframes button-anim {
+    from {
+        background-color: white;
+        color: black;
+    }
+    to {
+        background-color: black;
+        color: white;
+    }
+}
+
 .about-snippet a {
     width: 130px;
     height: 35px;
@@ -271,6 +282,10 @@ footer nav a {
 
 .about-snippet a:hover {
     text-decoration: underline;
+    background-color: black;
+    color: white;
+    animation-name: button-anim;
+    animation-duration: 1s;
 }
 
 .about-top, .about-snippet {
