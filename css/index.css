@@ -73,6 +73,11 @@ p {
 
 
 /* ----- styling for header starts here ------ */
+header {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 div.top-header {
     display: flex;
     width: 100%;
@@ -105,9 +110,9 @@ h2 {
 /* ------- styling for header ends here ---- */
 
 hr {
-    margin-top: 15px;
     width: 100%;
     border: 0.5px black dashed;
+    margin: 0;
 }
 
 .top-content {
@@ -230,4 +235,101 @@ footer nav a {
 }
 
 
-/* ============ Code starts here ============= */
+/* ======== Styling for ABOUT page starts here ======== */
+
+button {
+    margin: 15px auto 15px 0;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* ----- Top content STARTS here ---- */
+
+.top-content-about {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.top-content-about > .top-left {
+    flex: 1;
+    padding: 10px;
+}
+
+.top-content-about > .top-left > img {
+    width: 100%;
+}
+.top-content-about > .top-left > h2 {
+    margin-top: 10px;
+}
+
+.top-content-about > .top-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.top-content-about > .top-right >img {
+    width: 100%;
+}
+
+.top-content-about > .top-right > h2 {
+    margin-top: 10px;
+}
+
+/* ----- Top content ENDS here ---- */
+
+/* ----- Middle content STARTS here ---- */
+
+.middle-content-about {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+
+}
+
+.middle-content-about > .middle-left {
+    flex: 1;
+    padding: 10px;
+}
+
+.middle-content-about > .middle-left > img {
+    width: 100%;
+}
+
+.middle-content-about > .middle-left > h2 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.middle-content-about > .middle-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.middle-content-about > .middle-right > img {
+    width: 100%;
+}
+
+.middle-content-about > .middle-right > h2 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* ----- Middle content ENDS here ---- */
+
+/* ----- Bottom content STARTS here ---- */
+
+.bottom-content-about {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+/* ----- Bottom content ENDS here ---- */
+
+
+
+
