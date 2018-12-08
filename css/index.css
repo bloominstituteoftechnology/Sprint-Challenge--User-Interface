@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -70,6 +70,30 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.nav {
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+  margin-bottom: 33px;
+	/* margin-left: 10px; */
+	/* margin-right: 100px; */
+}
+nav>a {
+	display: inline-block;
+	border: 1px solid red;
+	flex-direction: row;
+	padding: 20px;
+	/* margin-left: inherit; */
+	/* margin-right: inherit; */
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+
+}
+.starlightimg {
+	margin-bottom: 33px;
+	/* padding-bottom: 33px; */
+}
 
 .top-content {
     display: flex;
@@ -82,7 +106,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -99,12 +123,13 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+		border: 1px solid red ;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +137,98 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +260,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* ABOUT PAGE STYLE */
+.about {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px dashed black;
+}
+.top-boxes {
+	display: flex;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+.fingertext {
+	padding: 10px;
+	margin: 10px;
+	/* border: 1px solid red; */
+	border-bottom: 1px dashed black;
+	/* padding-top: 15px; */
+	/* margin-bottom: 15px; */
+}
+.headphonestext {
+	padding: 10px;
+	margin: 10px;
+	/* border: 1px solid red; */
+	border-bottom: 1px dashed black;
+}
+.bottom-boxes {
+	display: flex;
+}
+.guy-workplace{
+	padding: 10px;
+	margin: 10px;
+	/* border: 1px solid red; */
+	border-bottom: 1px dashed black;
+}
+.girl-collab {
+	padding: 10px;
+	margin: 10px;
+	/* border: 1px solid red; */
+	border-bottom: 1px dashed black;
+}
+.together-text {
+	/* padding-top: 10px; */
+	/* margin-top: 10px; */
+	padding: 15px;
+	margin: 15px;
+}
+.learn-more {
+	text-decoration: none;
+	border: 2px solid black;
+	color: black;
+	padding: 10px;
+	margin: 10px;
+
+	/* border-radius: 12%; */
 }
