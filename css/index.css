@@ -66,6 +66,38 @@ p {
     line-height: 1.4;
 }
 
+.navBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    margin-top: 23px;
+    padding: 0 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.mainPic {
+    margin: 15px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -125,6 +157,41 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.strategy {
+
+}
+
+.howWeWork {
+
+}
+
+.placesWeWork {
+
+}
+
+.collaboration {
+
+    
+}
+
+.sectionContainer {
+
+}
+
+.sectionBlockZero {
+    margin: 20px;
+}
+
+.sectionBlockOne {
+    margin: 50px;
+}
+
+.sectionBlockTwo {
+
+    margin: 50px;
+}
+
 
 footer {
     width: 100%;
