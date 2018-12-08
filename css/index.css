@@ -171,34 +171,34 @@ a {
   color: black;
 }
 
-.middle-content .boxes div:nth-child(1) {
+.boxes .box:nth-child(1) {
   background-color: teal;
 }
-.middle-content .boxes div:nth-child(2) {
+.boxes .box:nth-child(2) {
   background-color: gold;
 }
-.middle-content .boxes div:nth-child(3) {
+.boxes .box:nth-child(3) {
   background-color: cadetblue;
 }
-.middle-content .boxes div:nth-child(4) {
+.boxes .box:nth-child(4) {
   background-color: coral;
 }
-.middle-content .boxes div:nth-child(5) {
+.boxes .box:nth-child(5) {
   background-color: crimson;
 }
-.middle-content .boxes div:nth-child(6) {
+.boxes .box:nth-child(6) {
   background-color: forestgreen;
 }
-.middle-content .boxes div:nth-child(7) {
+.boxes .box:nth-child(7) {
   background-color: darkorchid;
 }
-.middle-content .boxes div:nth-child(8) {
+.boxes .box:nth-child(8) {
   background-color: hotpink;
 }
-.middle-content .boxes div:nth-child(9) {
+.boxes .box:nth-child(9) {
   background-color: indigo;
 }
-.middle-content .boxes div:nth-child(10) {
+.boxes .box:nth-child(10) {
   background-color: dodgerblue;
 }
 
