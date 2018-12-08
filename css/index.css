@@ -67,10 +67,33 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
+    background-color: white;
+    padding: 3px 103px;
 }
 
+.navbar {
+    margin-top: 19px;
+    align-items: baseline;
+}
+
+header nav a {
+    margin: 10px 40px;
+    font-size: 14px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+
+.black-lambda-logo-img {
+    padding-right: 9px;
+}
+
+.lambda-header-img {
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +112,8 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+
 
 .middle-content h2 {
     padding: 0 2%;
