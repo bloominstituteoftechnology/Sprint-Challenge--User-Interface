@@ -192,3 +192,37 @@ header > img {
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+/* SECTION ABOUT ABOUT-TOPICS */
+#about-topics {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#about-topics .about-topic {
+    width: 370px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    margin-top: 29px;
+}
+#about-topics .about-topic h2 {
+    margin-top: 13px;
+}
+#about-topics .about-topic a {
+    margin-top: 21px;
+    border: 2px solid black;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+}
+#about-leverage {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
