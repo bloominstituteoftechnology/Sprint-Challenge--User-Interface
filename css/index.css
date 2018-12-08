@@ -214,3 +214,32 @@ header{
     padding-bottom: 20px;
     border-bottom: 1px dotted black;
 }
+
+.middle-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: wrap row;
+}
+.little-boxes {
+    /* border: 1px solid green; */
+    border-bottom: 1px dotted black;
+    width: 45%;
+    margin: 20px;
+}
+.little-boxes img {
+    width: 100%;
+    height: 50%;
+}
+.little-boxes h2{
+      margin: 10px 0px;
+}
+.little-boxes p {
+    margin: 10px 0px; 
+}
+.learn-more{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 35%;
+    padding: 10px;
+    margin: 10px 0px;
+}
