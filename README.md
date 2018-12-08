@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantics is the study of language meaning. For language this is the words we use to communicate, and for HTML it's the tags we use to mark a document. For example, a <p> tag indicates a paragraph. This tag is semantic and presentational because people know what paragraphs are and browsers know how to display them.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+With display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not. Compared to display: block , the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
 
 3. What are the 4 areas of the box model?
 
+Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+On the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+It's valueable because it's easy to use git to work with multiple people using version control branches and being able to test that code before pushing it live.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
