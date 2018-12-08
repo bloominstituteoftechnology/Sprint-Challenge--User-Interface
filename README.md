@@ -46,10 +46,15 @@ Edit this document to include your answers after each question. Make sure to lea
 3. What are the 4 areas of the box model?
 
   _The 4 areas of the box model are:_
+
     _1. margin_
+
     _2. border_
+
     _3. padding_
-    _4. content_  
+
+    _4. content_
+
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
@@ -58,12 +63,19 @@ Edit this document to include your answers after each question. Make sure to lea
 5. Explain why git is valuable to a team of developers.
 
   _Git is a valuable tool for development team because it provides the following features:_
+
     _- Ability to share and work on source code in a distributed manner_
+
       _- Each developer can have their own copy of the source code which then can be merged back to the original_
+
     _- Ability to save, track, and rollback changes made to the source code_
+
     _- Ability for 2 or more developers to work on source code without the risk of overwriting each other's work_
+
     _- Ability to easily create different "branches" (i.e. versions) of the source code to development and test new code_
+
     _- Ease of backing up and restoring source code and relevant save points._
+    
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
