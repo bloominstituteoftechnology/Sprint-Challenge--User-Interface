@@ -80,10 +80,17 @@ p {
 .navigation a {
     padding-top: 20px;
     width: 100px;
-    height: 40px;
+    height: 50px;
     text-align: center;
     text-decoration: none;
     color: black;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.navigation a:hover {
+    background-color: dodgerblue;
+    color: white;
 }
 
 .header {
@@ -228,6 +235,13 @@ footer nav a {
     text-align: center;
     text-decoration: none;
     color: black;
+    transition-duration: 1s;
+}
+
+.learnmore:hover {
+    background-color: coral;
+    color: white;
+    width: 200px;
 }
 
 .aboutFooter {
