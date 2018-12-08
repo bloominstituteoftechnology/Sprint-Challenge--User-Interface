@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    width: 128px;
+    justify-content: center;
+    color: black;
+}
+
+.top-image {
+    margin: 30px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +128,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one.box {
+    background: teal;
+}
+#two.box {
+    background: gold;
+}
+#three.box {
+    background: cadetblue;
+}
+#four.box {
+    background: coral;
+}
+#five.box {
+    background: crimson;
+}
+#six.box {
+    background: forestgreen;
+}
+#seven.box {
+    background: darkorchid;
+}
+#eight.box {
+    background: hotpink;
+}
+#nine.box {
+    background: indigo;
+}
+#ten.box {
+    background: dodgerblue;
 }
 
 .bottom-content {
