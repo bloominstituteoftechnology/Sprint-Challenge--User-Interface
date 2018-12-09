@@ -242,6 +242,7 @@ div #box10 {
     width: 48%;
     height: 400px;
     justify-content: center;
+    float: left;
 }
 
 button {
@@ -254,5 +255,5 @@ button {
 
 .about-page .middle-content .text-container .grouping{
     display: flex;
-
+    float: left;
 }
