@@ -25,14 +25,12 @@
   </nav>
 </header>
 
-<div class="container ">
-
-
+<div class="container">
 
 
   <form class = "customer-form" action="/formscript" method="post">
     <div class="form-container">
-      <h1 class = "form_h1">Describe what you require, our team is hear to help! </h1>
+      <h1 class = "form_h1">Describe what you require, our team is here to help! </h1>
     </div>
 
 
@@ -51,14 +49,15 @@
 
 
     <div class = "form_field">
-      <div class = "address_fields">
-        <label for="address_line1">Address</label>
+      <div class = "two_fields">
+        <label for="address_line1">Address Line 1</label>
         <input type="text" id="address_line1" name="address_line1" placeholder="address line 1">
-        <input type="text" id="address_line2" name="address_line2" placeholder="address line 2">
+        <label for="aptNum">Apt. Number</label>
+        <input type="text" id="aptNum" name="apartment_number" placeholder=" Apt. number">
       </div>
-      <div class = "address_fields">
-        <label for="address_line1">Apt. Number</label>
-        <input type="text" id="apartment_number" name="apartment_number" placeholder=" Apt. number">
+      <div class = "two_fields">
+        <label for="address_line2">Address Line 2</label>
+        <input type="text" id="address_line2" name="address_line2" placeholder="address line 2">
       </div>
 
       <div class = "two_fields">
@@ -118,7 +117,7 @@
           <option value="WY">Wyoming</option>
 
         </select>
-        <label for="address_line1">Zip</label>
+        <label class = "zipLabel" for="address_line1">Zip</label>
         <input class = "zipcode" type="text" id="zip" name="zip" placeholder="zip code">
       </div>
 
@@ -128,24 +127,59 @@
     <div class = "form_field">
       <div class = "email_field">
         <label for="email_address">Email: </label>
-        <input type="email" id="email_address" name="user_mail">
+        <input type="email" id="email_address" name="user_mail" placeholder = "email">
       </div>
+
+    </div>
+
+    <div class = "surveyInfo">
+      <h2 class = "form_h2"> What are your needs? </h2>
+
+      <div class = "checkboxes">
+
+        <div class = "checkboxfields">
+          <label for="Marketing">Marketing</label>
+          <input type="checkbox" id="Marketing" name="Marketing" value="marketing_needs">
+        </div>
+        <div class = "checkboxfields">
+          <label for="ProductDev">Product Development</label>
+          <input type="checkbox" id="ProductDev" name="ProductDev" value="productDev_needs">
+        </div>
+        <div class = "checkboxfields">
+          <label for="partners">Strategic Partnerships</label>
+          <input type="checkbox" id="partners" name="partners" value="partner_needs">
+        </div>
+
+        <div class = "checkboxfields">
+          <label for="Public Relations">Public Relations</label>
+          <input type="checkbox" id="Public Relations" name="Public Relations" value="PR_needs">
+        </div>
+        <div class = "checkboxfields">
+          <label for="Supply Chain Management">Supply Chain Management</label>
+          <input type="checkbox" id="Supply Chain Management" name="Supply" value="Supply_needs">
+        </div>
+        <div class = "checkboxfields">
+          <label for="Customer Service">Strategic Partnerships</label>
+          <input type="checkbox" id="Customer Service" name="service" value="service_needs">
+        </div>
+
+      </div>  <!-- checkboxes end -->
 
     </div>
 
 
     <div class = "form_field">
       <div class = "message_field">
-        <label for="msg">What do you need?</label>
-        <textarea id="msg" name="user_needs" placeholder="please describe your requirements"></textarea>
+        <label for="msg">Please describe the details of your requirements</label>
+        <textarea id="msg" name="user_needs" placeholder=" enter details here"></textarea>
       </div>
     </div>
 
+     <div class = "submit">
+       <button>Submit</button>
+     </div>
+
   </form>
-
-
-
-
 
 
 </div><!-- container -->

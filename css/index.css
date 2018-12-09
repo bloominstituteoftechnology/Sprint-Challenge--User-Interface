@@ -70,11 +70,14 @@ p {
 
 /* My CODE HERE */
 
-header {
+header {;
   width: 880px;
   display: flex;
   align-items: flex-end;
-  margin-bottom: 30px;
+
+  height: 40px;
+  justify-content: space-around;
+
 }
 
 nav {
@@ -85,17 +88,24 @@ nav {
 }
 
 header a {
+  display: flex;
   text-decoration: none;
   color: black;
+  align-items: flex-end;
+  font-size: 100%;
 }
 
 header a:hover {
-  color: teal;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  font-size: 30px;
 }
 
 .topIMG {
   /*  margin-bottom: 30px; */
     width: 100%;
+    margin-top : 30px;
 }
 
 
@@ -248,8 +258,9 @@ header a:hover {
 
 
 /* VVVVVVV   form-contact VVVVVVV   */
+
 .customer-form {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -276,6 +287,7 @@ input {
 
 label {
     margin: 10px;
+    width: 50px;
 }
 
 .form_h2 {
@@ -293,25 +305,39 @@ label {
 
 .two_fields {
     display: flex;
-    padding: 10px;
+    padding: 0 10px;
     width: 95%;
     align-items: center;
 }
 
+#address_line1  {
+    width: 1500px;
+}
+
+#address_line2 {
+    width: 51%;
+}
 
 .address_fields {
+    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     padding: 10px;
     width: 95%;
 }
 
+.zipLabel {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .zipcode {
     width: 30%;
+    text-align: center:
 }
 
 .two_fields:nth-child(3) {
-    margin-right: 10px
+    margin-right: 2px
 }
 
 .two_fields select {
@@ -326,17 +352,76 @@ label {
     margin: 0 auto;
 }
 
-.message_field {
+.surveyInfo {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
 
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 130px;
+}
+
+.checkboxfields {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 33%;
+    height: 50%;
+}
+
+.checkboxfields input {
+    width:  18px;
+    height: 18px;
+
+}
+
+.message_field {
+  display: flex;
+  flex-direction: column;
+}
+
+.message_field label {
+    width: 200px;
+}
+
 .message_field textarea {
+    border: 1px solid grey;
+    border-radius: 10px;
     height: 300px;
     width: 100%;
     text-align: left;
 }
 
+.submit {
+    width: 100%;
+    height: 80px;
+}
+
+.submit button {
+    border: 1px solid black;
+    color: lightblue;
+    background: dodgerblue;
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.submit button:hover {
+    color: white;
+    background: seagreen;
+    border: 3px solid darkgreen;
+}
 
 /* ∆∆∆∆∆∆∆  form-contact  ∆∆∆∆∆∆∆  */
 
@@ -422,6 +507,7 @@ label {
 
 footer {
     width: 100%;
+    height: 40px;
     background: black;
     display:flex;
     justify-content: flex-start;
@@ -440,4 +526,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: teal;
+    font-size: 30px;
 }
