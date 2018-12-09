@@ -90,6 +90,15 @@ p {
     text-decoration: none;
 
 }
+
+.nav-menu a:hover {
+    color: lightgray;
+}
+
+.nav-menu a:active {
+    color: red;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -218,6 +227,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 47%;
+    padding-top: 20px;
    
     
 }
@@ -226,12 +236,18 @@ p {
 }
 
 .sub-container button {
+    border: 1px solid black;
     background: white;
     color: black;
     width: 30%;
     padding: 5px;
-    border-radius: 12px;
+    border-radius: 5px;
     margin: 15px 0;
+}
+
+.sub-container button:hover {
+    background: lightgray;
+    transition: 1s;
 }
 
 .work-together {
@@ -261,18 +277,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-
-img:hover {
-    position: relative;
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-    animation: mymove 5s infinite;
-    z-index: -1;
-
-}
-
-/* Standard syntax */
-@keyframes mymove {
-    0%   {left: 0px;}
-    100% {left: 75px;}
 }
