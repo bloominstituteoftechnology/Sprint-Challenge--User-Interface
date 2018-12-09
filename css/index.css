@@ -77,10 +77,11 @@ header {
 
 header nav a{
     display: inline-block;
-    margin-right: 100px;
+    margin-right: 50px;
+    margin-left: 20px;
     font-size: 12px;
+    color: black;
     width: 70px;
-    border: 1px solid blue;
 }
 
 .top-content {
@@ -256,6 +257,39 @@ footer nav a {
     text-decoration: none;
 }
 
+
+
 #about .intro {
     border: 3px solid magenta;
 }
+
+
+
+
+/* #about .strategy-how-we-work .leftside  {
+    display: inline-block;
+    height: 125px;
+	width: 300px;
+}
+
+#about .strategy-how-we-work .rightside  {
+    display: inline-block;
+    height: 125px;
+	width: 300px;
+}
+
+ 
+}
+
+#about .places-collaboration .leftside  {
+    display: inline-block;
+    height: 125px;
+	width: 300px;
+}
+
+#about .places-collaboration .rightside {
+    display: inline-block;
+    height: 125px;
+	width: 300px;
+}
+ */
