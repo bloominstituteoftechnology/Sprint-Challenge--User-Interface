@@ -105,6 +105,7 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
+    /* background: teal; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My code below */
+
+.top-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    /* border: 2px solid blue; */
+}
+
+.top-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-img{
+    margin: 20px;
+}
+
+div #box1 {
+    background: teal;
+    color: white;
+}
+
+div #box2 {
+    background: gold;
+    color: white;
+}
+
+div #box3 {
+    background: cadetblue;
+    color: white;
+}
+
+div #box4 {
+    background: coral;
+    color: white;
+}
+
+div #box5 {
+    background: crimson;
+    color: white;
+}
+
+div #box6 {
+    background: forestgreen;
+    color: white;
+}
+
+div #box7 {
+    background: darkorchid;
+    color: white;
+}
+
+div #box8 {
+    background: hotpink;
+    color: white;
+}
+
+div #box9 {
+    background: indigo;
+    color: white;
+}
+
+div #box10 {
+    background: dodgerblue;
+    color: white;
+}
+
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-header{
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.top-content-about .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-page .middle-content .text-container{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    line-height: 20px;
+    width: 48%;
+    height: 400px;
+    justify-content: center;
+    float: left;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid black;
+    background: white;
+}
+
+.about-page .middle-content .text-container .grouping{
+    display: flex;
+    float: left;
 }
