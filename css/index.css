@@ -75,14 +75,14 @@ header {
     width: 880px;
 }
 
-header nav a{
+ header nav a{
     display: inline-block;
-    margin-right: 50px;
-    margin-left: 20px;
+    margin: 20px 30px ;
     font-size: 12px;
     color: black;
     width: 70px;
-}
+} 
+
 
 .top-content {
     display: flex;
@@ -265,31 +265,6 @@ footer nav a {
 
 
 
-
-/* #about .strategy-how-we-work .leftside  {
-    display: inline-block;
-    height: 125px;
-	width: 300px;
+#about  button {
+    border-radius: 15%;
 }
-
-#about .strategy-how-we-work .rightside  {
-    display: inline-block;
-    height: 125px;
-	width: 300px;
-}
-
- 
-}
-
-#about .places-collaboration .leftside  {
-    display: inline-block;
-    height: 125px;
-	width: 300px;
-}
-
-#about .places-collaboration .rightside {
-    display: inline-block;
-    height: 125px;
-	width: 300px;
-}
- */
