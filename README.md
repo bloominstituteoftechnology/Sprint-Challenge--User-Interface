@@ -51,7 +51,7 @@ cross-axis
 
 5. Explain why git is valuable to a team of developers.
 
-Git is very important important to developes because it allows each developer to work on a part of the web page without interfering with the other developer's work. It also allows devvelopers to have a place that can go back to if they need to change something without starting all over again. 
+Git is very important important to developers because it allows each developer to work on a part of the web page without interfering with the other developer's work. It also allows developers to have a place that can go back to if they need to change something without starting all over again. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
