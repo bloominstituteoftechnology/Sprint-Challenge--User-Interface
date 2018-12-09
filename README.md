@@ -47,26 +47,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 #### To better understand semantics, it makes your websites readable and easily interpreted by the screen-readers and search-engines. As a fellow developer, it helps the next developers to read and understand the code and easier to maintain as it is organized. 
 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 ### Differences between ```display: block;``` and ```display: inline;```
 
-####Inline-block
+### Inline-block
+#### allows you to cut out the page into multiple parts and have block level elements inside of them without taking up the entire page.
 
-####Block element
-Takes up the entire page
+#### Ex.: https://codepen.io/iteldomingo/pen/pqooMJ?editors=1100 
 
-Ex.
-<p style= “background: green;”>Block</p>
+### Block element
+#### Takes up the entire length of the page.
+#### Ex.: https://codepen.io/iteldomingo/pen/dwyPPm
 
 
 3. What are the 4 areas of the box model?
 
+#### Content, Margin, Border, Padding
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+#### It controls alignment of all items on the cross axis.
+
 
 5. Explain why git is valuable to a team of developers.
 
+### Git is crucial as developers use it to store projects and keep track of real-time changes to their files, it makes a collaborative work between teams. Let's say a group of developers uploads code to git and other developers can access and edit it. With that said, it is to avoid confusion with having multiple people work on the same file at the same time.
+
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
 
 ## Project Set Up
 
