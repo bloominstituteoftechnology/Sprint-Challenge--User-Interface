@@ -1,0 +1,166 @@
+header {
+    display: flex;
+    width: 880px;
+}
+
+body {
+    font-family: cursive;
+}
+
+p {
+    color: gray;
+}
+
+.top-nav {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    animation-name: moveIt;
+    animation-duration: 4s;
+}
+
+@keyframes moveIt {
+    0% {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    50% {}
+    100% {
+        opacity: 2;
+        transfor: translate(0);
+    }
+}
+
+.skyline-img {
+    margin-left: 50px;
+    width: 800px;
+}
+
+.about-text {
+    border-bottom: dashed-line;
+    width: 800px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px dashed black
+}
+
+.about-pict {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.big-middle-box {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border: ;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.middle-boxes {
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin-left: 20px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    background-color: ;
+}
+
+ul li {
+    list-style: none;
+    color: whitesmoke;
+}
+
+.container {
+    margin: 0px auto;
+    width: 880px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.top-li {
+    margin-top: 25px;
+}
+
+.top-li:hover {
+    animation: wiggle 1s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes wiggle {
+    20% {
+        transform: translateX(4px);
+    }
+    40% {
+        transform: translateX(-4px);
+    }
+    60% {
+        transform: translateX(2px);
+    }
+    80% {
+        transform: translateX(-1px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+body {
+    background-image: linear-gradient(rgba(999, 993, 991, 0.1), rgba(51, 51, 51, 0.2));
+    ;
+}
+
+button {
+    background-color: white;
+    color: black;
+    width: 100px;
+    border-radius: 15px;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-ul {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    width: 750px;
+    margin-left: 27px;
+}
+
+bottom nav {
+    width: 810px;
+    display: flex;
+    justify-content: space-evenly;
+}
