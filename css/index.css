@@ -153,6 +153,7 @@ header nav a {
 footer {
     width: 100%;
     background: black;
+    align-items: flex-end;
 }
 
 footer nav {
@@ -214,4 +215,41 @@ button {
 .about-page .middle-content .text-container h2 {
     padding: 2% 0;
 }
+
+/*BlOG PAGE*/
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
