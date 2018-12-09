@@ -278,3 +278,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#name {
+    height: 20px;
+    width: 50%;
+}
+
+#email {
+    width: 50%;
+    height: 20px;
+}
+
+#message {
+    height: 100px;
+    width: 50%;
+}
