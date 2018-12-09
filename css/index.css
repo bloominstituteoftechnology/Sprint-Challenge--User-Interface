@@ -84,10 +84,25 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-content .text-about {
+    width: 100%;
+    padding: 0 1%;
+    padding-top: 25px;
+    padding-bottom: 20px;  
+}
 
 .middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
 
 .middle-content h2 {
@@ -146,11 +161,12 @@ header nav {
   
   header nav a {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 50px;
     font-size: 14px;
     font: bold;
     color: gray;
     text-decoration: none;
+    text-align: center;
   }
   
   header nav a:hover {
@@ -282,6 +298,8 @@ header nav {
     justify-content: center;
 }
 
- 
-    
-
+.button {
+    border-radius: 12px;
+    border: 2px bold solid;
+    font: bold;
+}
