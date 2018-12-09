@@ -75,6 +75,7 @@ header {
     margin: 10px 0;
 }
 
+
 h1 {
     width: 18%;
 
@@ -254,11 +255,28 @@ button {
 
 /* blog.html styles */
 
-.blog-img{
+.blog-img {
     display: flex;
     flex-direction: row;
-    flex-wrap: ;
     justify-content: center;
     margin-bottom: 20px; 
+}
 
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-heading {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.begin, .mid, .end{
+    border-bottom: 2px dotted black;
+    padding: 10px;
+    margin-bottom: 20px;
 }
