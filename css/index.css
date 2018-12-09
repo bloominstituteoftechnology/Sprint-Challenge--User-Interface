@@ -222,6 +222,11 @@ div #box10 {
     margin: 0 auto;
 }
 
+.about-header{
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
 .top-content-about .text-container {
     width: 100%;
     padding: 0 1%;
@@ -231,9 +236,12 @@ div #box10 {
 .about-page .middle-content .text-container{
     margin-bottom: 20px;
     display: flex;
+    flex-direction: column;
     border-bottom: 1px dashed black;
     line-height: 20px;
     width: 48%;
+    height: 400px;
+    justify-content: center;
 }
 
 button {
@@ -245,5 +253,6 @@ button {
 }
 
 .about-page .middle-content .text-container .grouping{
-    display: fle;
+    display: flex;
+
 }
