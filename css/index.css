@@ -230,10 +230,9 @@ footer nav a {
     text-decoration: none;
 }
 
-/*About Page Stylings*/
+/*About Page Styles*/
 
-.about-page,
-.sub-container {
+.about-page {
     display: flex;
     flex-wrap: wrap;
     width: 800px;
@@ -300,7 +299,7 @@ footer nav a {
     transition: background-color 0.5s ease-in;
 }
 
-/*Contact Styles*/
+/*Responsive Styles*/
 @media (max-width: 700px) {
     .container {
         max-width: 400px;
@@ -309,7 +308,6 @@ footer nav a {
         flex-wrap: wrap;
     }
 
-    .sub-container,
     .item-full,
     .item-half,
     .home-jumbo,
@@ -319,7 +317,16 @@ footer nav a {
         width: 400px;
     }
 
-    .box {
+    .middle-content .boxes {
+        justify-content: space-between;
+    }
+
+    .middle-content .boxes .box {
+        height: 50px;
+        width: 50px;
+        margin: 3%;
+        padding: 0;
+        font-size: 12px;
     }
 
     header nav {
