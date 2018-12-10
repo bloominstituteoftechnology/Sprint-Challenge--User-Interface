@@ -1,3 +1,5 @@
+--Update for initial pull--
+
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
@@ -34,13 +36,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML provides more meaning to the HTML document by giving the elements names that have a more *semantic* meaning. Before semantic HTML, many companies and groupd had their own tags that held meaning for their purposes. In order to standardize HTML and assist search engines in properly displaying search results, semantic HTML was introduced.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+One big difference is that inline elements will not cause a page break, while block elements will cause a line break before and after their position. Another difference is that inline elements will ignore certain style rules, such as width and height. Block elements can take up the width of their parent element and the size can be updated, but inline elements sizing is specifically defined by the content inside of them.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Margin, Border.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross Axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows multiple developrs to work on the same project, and even the same page of a project. It does this by allowing them to make their changes and share their changes with the team, while preserving the changes other developers make to the project as well. Git will automatically merge the changes without the developers needing to update each other's code directly into their own portion of the project.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
