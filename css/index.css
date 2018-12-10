@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -75,14 +75,14 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,13 +104,24 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+ .box1 { background-color: teal;}
+ .box2 { background-color: gold;}
+ .box3 { background-color: cadetblue;}
+ .box4 { background-color: coral;}
+ .box5 { background-color: crimson;}
+ .box6 { background-color: forestgreen;}
+ .box7 { background-color: darkorchid;}
+ .box8 { background-color: hotpink;}
+ .box9 { background-color: indigo;}
+ .box10 { background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -144,3 +155,109 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+	width: 100%;
+	background: white;
+}
+
+header nav {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	font-size: 14px;
+	margin: 10px 0px -5px 246px;
+
+
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.lambdaLogo {
+	display: block;
+	position: absolute;
+	margin: -46px 0 0 0;
+}
+
+.jumboimg {
+	margin: 25px 0 25px 0;
+}
+
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+}
+
+.top-content-about {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+		border-bottom: 1px dashed black;
+		line-height: 1.5px;
+}
+
+.text-container-about {
+	width: 100%;
+}
+.middle-content-about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.middle-content-about {
+    width: 12.5%;
+    height: 100px;
+    /* background: black; */
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container-middle {
+	width: 372px;
+	margin-top: 25px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 25px;
+}
+
+.middle-section-about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.button {
+	 /* Green */
+    border: 2px solid black;
+		border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		margin-bottom: 15px;
+
+}
+
+.bottom-paragraph {
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+
+
+/* ----------------------------------------- */
