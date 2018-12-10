@@ -99,14 +99,29 @@ nav>a {
     margin-bottom: 20px;
     margin-top: 38px;
     border-bottom: 1px dashed black;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes example {
+    /* from {background-color: red;} */
+    to {background-color: black;}
+    to {font-stretch: ultra-expanded;}
+    /* to {text-decoration-color: white;} */
+    to {color: whitesmoke;}
+  }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
     margin-top: 26px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
+
 
 .middle-content {
     margin-bottom: 20px;
