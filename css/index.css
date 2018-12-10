@@ -54,6 +54,8 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width: 880px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,17 +68,59 @@ p {
     line-height: 1.4;
 }
 
+/* My CODE HERE */
+
+header {;
+  width: 880px;
+  display: flex;
+  align-items: flex-end;
+
+  height: 40px;
+  justify-content: space-around;
+
+}
+
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+header a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: flex-end;
+  font-size: 100%;
+}
+
+header a:hover {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+.topIMG {
+  /*  margin-bottom: 30px; */
+    width: 100%;
+    margin-top : 30px;
+}
+
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .top-content {
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 20px 0;
 }
 
 .top-content .text-container {
@@ -89,6 +133,300 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+/* ABOUT VVVVVVVVVVVVVVV  here */
+
+.about-page .text-container{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.about-container {
+    border-top: 1px dotted green;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.about-info {
+    border-bottom: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    justify-content: space-evenly;
+    height: 470px;
+}
+
+.about-container .about-info .about_h2 {
+    margin: 0;
+}
+
+.about-info button{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    line-height: 20px;
+    padding: 5px 0;
+}
+
+/* ∆∆∆∆∆∆∆  about  ∆∆∆∆∆∆∆  */
+
+
+
+/* VVVVVVV   contact  VVVVVVV   */
+.catHeader {
+    height: 300px;
+}
+
+.contactIMG {
+    width: 33%;padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+.contact-info {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+
+}
+
+.contact-info:nth-child(2) img {
+    order: 2;
+
+}
+
+.contacts_h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+}
+
+.contact_h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+}
+
+ .contact-container .contact-info p {
+     font-family: 'Maitree', serif;
+ }
+
+ .contact-bio {
+     display: flex;
+     flex-direction: column;
+     padding: 30px;
+
+ }
+
+.contactBTN-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.contactBTN {
+    border: 1.5px solid black;
+    color: black;
+    font-family: 'Squada One', cursive;
+
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contactBTN:hover {
+    background: lavender;
+}
+
+.contactBTN:active {
+    background: lightgrey;
+}
+
+/* ∆∆∆∆∆∆∆  contact  ∆∆∆∆∆∆∆  */
+
+
+
+
+
+/* VVVVVVV   form-contact VVVVVVV   */
+
+.customer-form {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form_h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+input {
+    width: 100%;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+label {
+    margin: 10px;
+    width: 50px;
+}
+
+.form_h2 {
+    margin: 0;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.form_field {
+    margin: 20px 0;
+    font-family: 'Palanquin', sans-serif;
+    width: 100%;
+}
+
+.two_fields {
+    display: flex;
+    padding: 0 10px;
+    width: 95%;
+    align-items: center;
+}
+
+#address_line1  {
+    width: 1500px;
+}
+
+#address_line2 {
+    width: 51%;
+}
+
+.address_fields {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 95%;
+}
+
+.zipLabel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.zipcode {
+    width: 30%;
+    text-align: center:
+}
+
+.two_fields:nth-child(3) {
+    margin-right: 2px
+}
+
+.two_fields select {
+    margin-right: 10px;
+}
+
+
+.email_field {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.surveyInfo {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 130px;
+}
+
+.checkboxfields {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 33%;
+    height: 50%;
+}
+
+.checkboxfields input {
+    width:  18px;
+    height: 18px;
+
+}
+
+.message_field {
+  display: flex;
+  flex-direction: column;
+}
+
+.message_field label {
+    width: 200px;
+}
+
+.message_field textarea {
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    text-align: left;
+}
+
+.submit {
+    width: 100%;
+    height: 80px;
+}
+
+.submit button {
+    border: 1px solid black;
+    color: lightblue;
+    background: dodgerblue;
+    font-family: 'Squada One', cursive;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.submit button:hover {
+    color: white;
+    background: seagreen;
+    border: 3px solid darkgreen;
+}
+
+/* ∆∆∆∆∆∆∆  form-contact  ∆∆∆∆∆∆∆  */
+
+
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -112,6 +450,47 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box_01 {
+    background: teal;
+}
+
+.middle-content .boxes .box_02 {
+    background: gold;
+}
+
+.middle-content .boxes .box_03 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box_04 {
+    background: coral;
+}
+
+.middle-content .boxes .box_05 {
+    background: crimson;
+}
+
+.middle-content .boxes .box_06 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box_07 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box_08 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box_09 {
+    background: indigo;
+}
+
+.middle-content .boxes .box_10 {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,7 +507,10 @@ p {
 
 footer {
     width: 100%;
+    height: 40px;
     background: black;
+    display:flex;
+    justify-content: flex-start;
 }
 
 footer nav {
@@ -138,9 +520,15 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 0;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: teal;
+    font-size: 30px;
 }
