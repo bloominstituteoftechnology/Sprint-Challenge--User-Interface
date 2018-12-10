@@ -73,6 +73,8 @@ p {
 
 .container header {
     position: relative;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .container header nav {
@@ -80,12 +82,15 @@ p {
     position: absolute;
     right: 20px;
     bottom: 0px;
-    width: 600px;
-    justify-content: space-evenly;
+    width: 580px;
+    justify-content: space-between;
+    top: 25px;
 }
 
 .container header nav a {
-   font-size: 12px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
