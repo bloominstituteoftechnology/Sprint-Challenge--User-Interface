@@ -109,15 +109,11 @@ header #logo-wrapper {
 
 #logo {
   animation-name: logo-appearance;  
-  animation-duration: 4s;
-  animation-delay: 2s;
+  animation-duration: 2s;
 }
 
 @keyframes logo-appearance {
   0%   {width: 0%}
-  25%  {width: 25%}
-  50%  {width: 50%}
-  75%  {width: 75%}
   100% {width: 100%}
 }
 
