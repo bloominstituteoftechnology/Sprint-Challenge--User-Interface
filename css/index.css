@@ -288,7 +288,7 @@ footer nav a:hover {
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 825px) {
     .container{
         width: 100%;
         margin: 0 auto;
@@ -297,7 +297,6 @@ footer nav a:hover {
     .top-content .text-container {
         width: 100%;
         text-align: center;
-        width: 100%;
         margin: 0;
         padding: 10px;
     }
@@ -316,7 +315,6 @@ footer nav a:hover {
 
     }
      .bottom-content .text-container{
-        width: 100%;
         text-align: center;
         width: 100%;
         margin: 15px 0;
@@ -329,14 +327,23 @@ footer nav a:hover {
     .logo{
         margin: 10px;
     }
-    .a-link{
+    .logo:hover{
+        animation: scale 1.5s ease-in-out alternate-reverse infinite;
 
+    }
+    .a-link{
         color: black;
         text-align: center;
-        padding: 10px;    
+        padding: 10px; 
+        display: none;   
+    }
+    .nav-container .active{
+        color:white;
+        background-color: black;
+        width: 100%;
     }
     .responsive{
-        display: none;
+        display: block;
     }
     .a-link:hover{
         color: white;
@@ -348,18 +355,56 @@ footer nav a:hover {
         max-width: 100%;
     }
      footer nav a{
-        padding: 20px;
+        padding: 15px;
+    }
+
+
+
+    /* About.html */
+
+    .about{
+        text-align: center;
+    }
+    .flex-section-1, .flex-section-2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-img{
+        width: 70%;
+    }
+
+    .closing{
+        flex-direction: column;
+        text-align: center;
+    }
+    .closing p{
+        font-size: .9rem
     }
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...} 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...} 
+@media only screen and (min-width: 768px) {} 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...} 
+@media only screen and (min-width: 992px) {} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
+
+/* Animations */
+
+@keyframes scale{
+    0% {transform: scale(1);}
+
+    50%{transform: scale(.85);}
+
+    100%{transform: scale(1);}
+
+}
