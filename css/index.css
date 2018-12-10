@@ -148,6 +148,20 @@ p {
     padding-right: 0;
 }
 
+.button {
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    width: 125px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     width: 100%;
     background: black;
