@@ -342,6 +342,10 @@ footer nav a {
         margin: 0.5rem;
     }
 
+    .middle-content .boxes .box {
+        width: 18.75%;
+    }    
+
     footer nav {
         margin: 0 auto;
     }
@@ -363,6 +367,10 @@ footer nav a {
 
     .top-content .text-container {
         width: 100%;
+    }
+
+    .middle-content .boxes .box {
+        width: 25%;
     }
 
     .bottom-content {
