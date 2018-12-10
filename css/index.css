@@ -366,7 +366,58 @@ textarea {
     transition-duration: 0.4s;
 }
 
-
 .submit-button:hover {
+    background-color: coral;
+}
+
+/* products.html styles */
+.product-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.product-rows {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 30px 0;
+    width: 280px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px gray;
+}
+
+.products h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.products img {
+    padding: 0 0 10px 20px;
+}
+
+
+.more{
+    background-color: whitesmoke;
+    border: 1px solid coral;
+    text-align: center;
+    display: inline-block;
+    font-size:  14px;
+    border-radius: 8px;
+    height: 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-left: 60px;
+}
+
+.more:hover {
     background-color: coral;
 }
