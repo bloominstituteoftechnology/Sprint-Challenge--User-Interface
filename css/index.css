@@ -71,6 +71,109 @@ p {
     margin: 0 auto;
 }
 
+
+/* ----- styling for HEADER starts here ------ */
+header {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+div.top-header {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* ==== NAVIGATION starts ==== */
+
+div.top-header > nav {
+    display: flex;
+    width: 75%;
+    height: 55px;
+    padding-top: 10px;
+    padding-bottom: 11px;  
+    justify-content: space-between;
+}
+
+div.top-header > nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+}
+
+div.top-header > nav > a:last-child {
+    margin-right: 40px;
+}
+
+@keyframes increase {
+	0% {
+		color: black;
+		font-weight: normal;
+		border: none;
+		background-color: white;
+    }
+	25% {
+        color: black;
+		font-weight: bold;
+		background-color: rgb(221, 216, 216);
+    }
+
+    50% {
+		color: rgb(63, 62, 61);
+		font-weight: bold;
+		border: 0.5px dotted rgb(63, 62, 61);
+		background-color: rgb(124, 123, 123);
+    }
+    
+    75% {
+		color: rgb(187, 185, 184);
+		font-weight: bold;
+		border: 1px dashed rgb(63, 62, 61);
+		border-radius: 5px;
+		background-color: rgb(80, 78, 78);
+	}
+    
+    100% {
+		font-size: 14px;
+		color: white;
+		font-weight: bold;
+		border: 1.5px solid rgb(63, 62, 61);
+		border-radius: 5px;
+		background-color: rgb(43, 42, 42);
+	}
+}
+
+div.top-header > nav > a:hover {
+    padding-bottom: 10px;
+	animation-name: increase;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* ==== NAVIGATION ends ==== */
+
+.bottom-header > img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+/* ------- styling for HEADER ends here ---- */
+
+hr {
+    width: 100%;
+    border: 0.5px black dashed;
+    margin: 0;
+}
+
+/* ------- styling for TOP CONTENT starts here ---- */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +187,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* ------- styling for TOP CONTENT ends here ---- */
 
+/* ------- styling for MIDDLE CONTENT starts here ---- */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -95,6 +200,7 @@ p {
     margin-bottom: 0;
 }
 
+        /* ------ Styling for boxes starts here ------ */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +218,50 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background-color:teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+        /* -------- styling for boxes ends here ------- */
+/* ------- styling for MIDDLE CONTENT ends here ---- */
+
+/* ------- styling for BOTTOM CONTENT starts here ---- */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +275,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* ------- styling for BOTTOM CONTENT ends here ---- */
 
+/* -------- styling for footer starts here ------- */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +296,113 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* -------- styling for footer ends here ------- */
+
+
+/* ======== Styling for ABOUT page starts here ======== */
+
+    /* ------- styling for BOTTONS starts here ---- */
+button {
+    margin: 15px auto 15px 0;
+    padding: 5px 15px;
+    border: 1px 3px 3px 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+@keyframes spin {
+        to { transform: rotate(1turn); }
+}
+
+button:hover {
+    background-color: rgb(46, 45, 45);
+    color: white;
+    font-weight: bold;
+    animation: spin 2s linear;
+    transform-origin: 30% 50px;
+}
+    /* ------- styling for BOTTONS starts here ---- */
+
+/* ----- Styling for TOP CONTENT starts here ---- */
+.top-content-about {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.top-content-about > .top-left {
+    flex: 1;
+    padding: 10px;
+}
+
+.top-content-about > .top-left > img {
+    width: 100%;
+}
+.top-content-about > .top-left > h2 {
+    margin-top: 10px;
+}
+
+.top-content-about > .top-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.top-content-about > .top-right >img {
+    width: 100%;
+}
+
+.top-content-about > .top-right > h2 {
+    margin-top: 10px;
+}
+/* ----- Styling for TOP CONTENT ends here ---- */
+
+/* ----- Styling for MIDDLE CONTENT starts here ---- */
+.middle-content-about {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.middle-content-about > .middle-left {
+    flex: 1;
+    padding: 10px;
+}
+
+.middle-content-about > .middle-left > img {
+    width: 100%;
+}
+
+.middle-content-about > .middle-left > h2 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.middle-content-about > .middle-right {
+    flex: 1;
+    padding: 10px;
+}
+
+.middle-content-about > .middle-right > img {
+    width: 100%;
+}
+
+.middle-content-about > .middle-right > h2 {
+    width: 100%;
+    margin-top: 10px;
+}
+/* ----- Styling for MIDDLE CONTENT ends here ---- */
+
+/* ----- Styling for BOTTOM CONTENT starts here ---- */
+.bottom-content-about {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+/* ----- Styling for MIDDLE CONTENT ends here ---- */
+
+
+
+
