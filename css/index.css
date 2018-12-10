@@ -72,7 +72,7 @@ p {
 }
 
 
-/* ----- styling for header starts here ------ */
+/* ----- styling for HEADER starts here ------ */
 header {
     width: 100%;
     margin-bottom: 15px;
@@ -88,7 +88,7 @@ div.top-header {
     margin-bottom: 30px;
 }
 
-/* ==== navigation starts ==== */
+/* ==== NAVIGATION starts ==== */
 
 div.top-header > nav {
     display: flex;
@@ -155,7 +155,7 @@ div.top-header > nav > a:hover {
     animation-iteration-count: infinite;
 }
 
-/* ==== navigation ends ==== */
+/* ==== NAVIGATION ends ==== */
 
 .bottom-header > img {
     width: 100%;
@@ -165,8 +165,7 @@ div.top-header > nav > a:hover {
 h2 {
     font-weight: bold;
 }
-
-/* ------- styling for header ends here ---- */
+/* ------- styling for HEADER ends here ---- */
 
 hr {
     width: 100%;
@@ -174,6 +173,7 @@ hr {
     margin: 0;
 }
 
+/* ------- styling for TOP CONTENT starts here ---- */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -187,7 +187,9 @@ hr {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* ------- styling for TOP CONTENT ends here ---- */
 
+/* ------- styling for MIDDLE CONTENT starts here ---- */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -198,8 +200,7 @@ hr {
     margin-bottom: 0;
 }
 
-
-/* ------ Styling for boxes starts here ------ */
+        /* ------ Styling for boxes starts here ------ */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -216,9 +217,6 @@ hr {
     align-items: center;
     justify-content: center;
 }
-
-
-/* -------- styling for boxes ends here ------- */
 
 .middle-content .boxes .box:nth-child(1) {
     background-color:teal;
@@ -260,6 +258,10 @@ hr {
     background-color: dodgerblue;
 }
 
+        /* -------- styling for boxes ends here ------- */
+/* ------- styling for MIDDLE CONTENT ends here ---- */
+
+/* ------- styling for BOTTOM CONTENT starts here ---- */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -273,7 +275,9 @@ hr {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* ------- styling for BOTTOM CONTENT ends here ---- */
 
+/* -------- styling for footer starts here ------- */
 footer {
     width: 100%;
     background: black;
@@ -292,10 +296,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* -------- styling for footer ends here ------- */
 
 
 /* ======== Styling for ABOUT page starts here ======== */
 
+    /* ------- styling for BOTTONS starts here ---- */
 button {
     margin: 15px auto 15px 0;
     padding: 5px 15px;
@@ -316,9 +322,9 @@ button:hover {
     animation: spin 2s linear;
     transform-origin: 30% 50px;
 }
+    /* ------- styling for BOTTONS starts here ---- */
 
-/* ----- Top content STARTS here ---- */
-
+/* ----- Styling for TOP CONTENT starts here ---- */
 .top-content-about {
     width: 100%;
     display: flex;
@@ -350,17 +356,14 @@ button:hover {
 .top-content-about > .top-right > h2 {
     margin-top: 10px;
 }
+/* ----- Styling for TOP CONTENT ends here ---- */
 
-/* ----- Top content ENDS here ---- */
-
-/* ----- Middle content STARTS here ---- */
-
+/* ----- Styling for MIDDLE CONTENT starts here ---- */
 .middle-content-about {
     width: 100%;
     display: flex;
     margin-top: 25px;
     justify-content: space-between;
-
 }
 
 .middle-content-about > .middle-left {
@@ -390,18 +393,15 @@ button:hover {
     width: 100%;
     margin-top: 10px;
 }
+/* ----- Styling for MIDDLE CONTENT ends here ---- */
 
-/* ----- Middle content ENDS here ---- */
-
-/* ----- Bottom content STARTS here ---- */
-
+/* ----- Styling for BOTTOM CONTENT starts here ---- */
 .bottom-content-about {
     width: 100%;
     margin-top: 45px;
     margin-bottom: 35px;
 }
-
-/* ----- Bottom content ENDS here ---- */
+/* ----- Styling for MIDDLE CONTENT ends here ---- */
 
 
 
