@@ -27,8 +27,8 @@
 
 <div class="container">
 
-
-  <form class = "customer-form" action="/formscript" method="post">
+    <!-- other stuff like action = " URI of script" and method = "post" could go here-->
+  <form class = "customer-form" >
     <div class="form-container">
       <h1 class = "form_h1">Describe what you require, our team is here to help! </h1>
     </div>
@@ -176,7 +176,7 @@
     </div>
 
      <div class = "submit">
-       <button>Submit</button>
+       <button onclick="simpleAlert()">Submit</button>
      </div>
 
   </form>
@@ -193,5 +193,15 @@
     <a href="contact.html">Contact</a>
   </nav>
 </footer>
+
+<script>
+  function simpleAlert() {
+    alert("does nothing but reset form! ");
+
+  }
+
+</script>
+
+
 </body>
 </html>
