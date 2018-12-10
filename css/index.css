@@ -107,6 +107,10 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-1 {
+    width: 48%;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
