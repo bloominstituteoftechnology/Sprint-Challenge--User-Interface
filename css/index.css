@@ -289,3 +289,19 @@ button {
 .blog-button {
     margin-bottom: 20px;
 }
+
+.change-color {
+  animation: pulse 5s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color:white;
+  }
+  50% {
+    background-color: coral;
+  }
+  100% {
+      background-color: whitesmoke;
+  }
+}
