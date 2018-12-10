@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    height: 1574px;
+    padding-top: 16px;
 }
 
 nav {
@@ -81,13 +83,10 @@ nav {
 nav>a {
     text-decoration: none;
     color: black;
-    height: 50px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     margin: 2px;
-    padding-top: 5px;
+    padding: 24px 44px 23px 23px;
+    font-size: 15px;
+    letter-spacing: -1.01px;
 }
 
 .imgbox {
@@ -96,13 +95,8 @@ nav>a {
 }
 
 .about-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-content: center;
-    margin-bottom: 20px;
-    margin-top: 38px;
+    margin-bottom: 196px; 
+    margin-left: 19px;
     border-bottom: 1px dashed black;
 }
 .about-top-content {
@@ -111,7 +105,7 @@ nav>a {
     height: 500px;
     justify-content: space-evenly;
     align-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 295px;
     margin-top: 38px;
     border-bottom: 1px dashed black;
 }
@@ -121,7 +115,41 @@ nav>a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    margin-top: 26px;
+    margin-top: 65px;
     display: flex;
-    align-content: center;
+    flex-wrap: wrap;
+}
+
+.about-top-content .text-container h2{
+    padding: 12px 0px 5px 0px;
+}
+
+.about-top-content .text-container p{
+    padding: 12px 0px 5px 0px;
+}
+
+
+.about-top-content .text-container button {
+    box-sizing: border-box;
+    padding: 8px 26px 8px 27px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.container-about-bottom {
+width: 100%;
+padding-left: 12px;
+padding-bottom: 40px
+}
+
+footer nav {
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+height: 53px;
+}
+
+footer nav a {
+    color: white;
 }
