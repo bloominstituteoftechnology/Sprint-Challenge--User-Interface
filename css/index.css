@@ -37,7 +37,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .header-content nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 .header-content nav a {
