@@ -195,7 +195,6 @@ nav a {
 
 .about-info {
     border-top: 2px dotted black;
-    border-bottom: 1px dotted black;
     margin: 30px 0px;
     padding: 30px 0px;
 }
@@ -224,5 +223,33 @@ nav a {
 button {
     background-color: white;
     color: black;
+    border: 1px solid black;
     border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.topic {
+    margin-top: 10px;
+}
+
+.strategy-block{
+    border-bottom: 2px dotted black;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+
+.working-block {
+    border-bottom: 2px dotted black;
+}
+
+.office-block {
+    border-bottom: 2px dotted black;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+.meeting-block {
+    border-bottom: 2px dotted black;
 }
