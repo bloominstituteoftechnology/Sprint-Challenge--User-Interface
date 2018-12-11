@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,10 +66,141 @@ p {
     line-height: 1.4;
 }
 
+.button2 {
+	align-self: flex-end;
+}
+.aboutdiv {
+	margin-bottom: 50px;
+}
+.master1 {
+	display: flex;
+	margin-top: 50px;
+	height: 400px;
+}
+
+.container-a {
+border-bottom: 1px dashed black;
+margin-right: 25px;
+}
+
+.container-b {
+border-bottom: 1px dashed black;
+}
+
+.master2 {
+	display: flex;
+	margin-top: 50px;
+	height: 400px;
+}
+
+.container-c {
+	border-bottom: 1px dashed black;
+	margin-right: 25px;
+}
+
+.container-d {
+border-bottom: 1px dashed black;
+}
+
+
+.indy {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: cadetblue;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+
+  background: #b0e0e6;
+}
+
+span {
+	border: 2px solid black;
+	display: block;
+	width: 40%;
+	padding: 7px 20px;
+	margin-top: 10px;
+	border-radius: 12px;
+	text-align: center;
+
+
+}
+
+span:hover {
+	background: #b0e0e6;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+.bar {
+	display: flex;
+}
+
+nav ul li{
+
+margin-right: 70px;
+margin-top: 15px;
+}
+
+.banner {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#a{
+	background-color: teal;
+}
+#b {
+background-color:gold ;
+}
+#c {
+background-color: cadetblue;
+}
+#d {
+background-color:coral ;
+}
+#e {
+background-color:crimson ;
+}
+#f {
+background-color: #6d9bc3;
+}
+
+#g {
+background-color:darkorchid ;
+}
+#h {
+background-color:hotpink ;
+}
+#i {
+background-color:indigo ;
+}
+#j {
+background-color: dodgerblue;
+}
+
 
 .top-content {
     display: flex;
@@ -82,7 +213,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -140,7 +271,7 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer nav {
     color: white;
     text-decoration: none;
 }
