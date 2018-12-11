@@ -79,11 +79,12 @@ p {
 }
 
 .container-a {
-
+border-bottom: 1px dashed black;
+margin-right: 25px;
 }
 
-.container-a {
-
+.container-b {
+border-bottom: 1px dashed black;
 }
 
 .master2 {
@@ -92,12 +93,13 @@ p {
 	height: 400px;
 }
 
-.container-a {
-
+.container-c {
+	border-bottom: 1px dashed black;
+	margin-right: 25px;
 }
 
-.container-a {
-
+.container-d {
+border-bottom: 1px dashed black;
 }
 
 
@@ -122,14 +124,25 @@ a:visited {
 
 a:hover {
   border-bottom: 1px solid;
-	border-right: 1px dotted;
+
   background: #b0e0e6;
 }
 
 span {
 	border: 2px solid black;
+	display: block;
+	width: 40%;
+	padding: 7px 20px;
+	margin-top: 10px;
+	border-radius: 12px;
+	text-align: center;
+
+
 }
 
+span:hover {
+	background: #b0e0e6;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -258,7 +271,7 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer nav {
     color: white;
     text-decoration: none;
 }
