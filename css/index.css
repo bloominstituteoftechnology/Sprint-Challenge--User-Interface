@@ -82,14 +82,11 @@ nav {
 
 nav>a {
     text-decoration: none;
-    color: silver;
-    height: 50px; 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    color: black;
     margin: 2px;
-    padding-top: 5px;
+    padding: 24px 44px 23px 23px;
+    font-size: 15px;
+    letter-spacing: -1.01px;
 }
 
 .top-content {
