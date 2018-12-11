@@ -67,7 +67,7 @@ nav a {
   border: 1px solid #D6D9DC;
   border-radius: 3px;
   
-  width: 80%;
+  width: 100%;
   margin: 40px 0;
   padding: 50px;
 }
@@ -82,7 +82,7 @@ nav a {
   border: 1px solid #D6D9DC;
   border-radius: 3px;
   
-  width: 80%;
+  width: 100%;
   padding: 50px;
   margin: 0 0 40px 0;
 }
@@ -95,11 +95,12 @@ nav a {
   flex-wrap: wrap;
 }
 
-.form-row input[type='text'] {
+.form-row input[type='text'],
+.form-row input[type='email'] {
   background-color: #FFFFFF;
   border: 1px solid #D6D9DC;
   border-radius: 3px;
-  width: 100%;
+  /* width: 100%; */
   padding: 7px;
   font-size: 14px;
 }
@@ -115,10 +116,10 @@ nav a {
   border: 1px solid #D6D9DC;
   border-radius: 3px;
 
-  min-height: 200px;
+  min-height: 100px;
   margin-bottom: 10px;
   padding: 7px;
-  resize: none;
+  /* resize: none; */
 }
 
 .form-row .instructions {
@@ -137,7 +138,7 @@ nav a {
     width: 800px;
     height: initial;
   }
-
+/* 
   .legacy-form-row {
     margin-bottom: 10px;
   }
@@ -150,7 +151,7 @@ nav a {
 
   .legacy-form-row legend {
     float: left;
-  }
+  } */
   
   .form-row {
     flex-direction: row;
@@ -160,13 +161,13 @@ nav a {
 
   .form-row input[type='text'], .form-row input[type='email'] {
     background-color: #FFFFFF;
-    width: 250px;
-    height: initial;
+    width: 300px;
+    height: 25px;
   }
 
   .form-row label {
     text-align: right;
-    width: 120px;
+    /* width: 120px; */
     margin-top: 7px;
     padding-right: 20px;
   }
@@ -175,9 +176,7 @@ nav a {
     margin-left: 120px;
   }
 
-  .form-row button {
-    margin-left: 181px;
-  }
+  
 }
 
 .form-row input[type='text']:invalid,
@@ -209,7 +208,7 @@ nav a {
   background-color: #407FC7;
 }
 
-.legacy-form-row {
+/* .legacy-form-row {
   border: none;
   margin-bottom: 40px;
 }
@@ -231,7 +230,7 @@ nav a {
 .legacy-form-row .radio-label,
 .legacy-form-row input[type='radio'] {
   float: left;
-}
+} */
 
 footer {
     width: 800px;
@@ -250,4 +249,84 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
 }
