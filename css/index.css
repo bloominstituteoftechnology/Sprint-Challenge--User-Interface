@@ -189,7 +189,7 @@ footer nav a {
 .header{
 	display: flex;
 	flex-wrap: nowrap;
-	align-items: center;
+	align-items: baseline;
 	justify-content: space-around;
 	margin-bottom: 25px;
 }
@@ -229,14 +229,15 @@ footer nav a {
 
 .aboutMain a {
 	border: 2px solid black;
-	border-radius: 15px;
-	width: 200px;
-	height: 25px;
+	border-radius: 10px;
+	width: 125px;
+	height: 30px;
 	background-color: white;
 	color: black;
 	text-decoration: none;
 	text-align: center;
 	margin: 15px;
+	padding-top: 5px;
 }
 
 .together {
