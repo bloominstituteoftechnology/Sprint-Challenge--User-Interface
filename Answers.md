@@ -4,7 +4,8 @@ Semantics is the study of language meaning. For language this is the words we us
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
-With display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not. Compared to display: block , the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+display: inline Displays an element as an inline element (like <span>). Any height and width properties will have no effect
+display: block Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width 
 
 3. What are the 4 areas of the box model?
 
