@@ -144,3 +144,100 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*======================================*/
+/*===============NEW CODE===============*/
+/*======================================*/
+
+/* HEADER AND NAVIGATION */
+header nav {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+header nav #header-nav-links {
+    display: flex;
+    justify-content: flex-start;
+    width: 642px;
+}
+header nav a {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    width: 128px;
+}
+header nav a:hover {
+    animation: .01s ease-in-out 0s infinite alternate move_link;
+}
+header nav img {
+    margin-top: 20px;
+}
+header > img {
+    margin-top: 40px;
+}
+/* ------------ */
+/* MAIN CONTENT */
+/* ------------ */
+/* SECTION INDEX TOP-CONTENT */
+.top-content {
+    margin-top: 20px;
+}
+/* SECTION INDEX MIDDLE-CONTENT */
+.middle-content .boxes .box:nth-of-type(1) {background-color: teal;}
+.middle-content .boxes .box:nth-of-type(2) {background-color: gold;}
+.middle-content .boxes .box:nth-of-type(3) {background-color: cadetblue;}
+.middle-content .boxes .box:nth-of-type(4) {background-color: coral;}
+.middle-content .boxes .box:nth-of-type(5) {background-color: crimson;}
+.middle-content .boxes .box:nth-of-type(6) {background-color: forestgreen;}
+.middle-content .boxes .box:nth-of-type(7) {background-color: darkorchid;}
+.middle-content .boxes .box:nth-of-type(8) {background-color: hotpink;}
+.middle-content .boxes .box:nth-of-type(9) {background-color: indigo;}
+.middle-content .boxes .box:nth-of-type(10) {background-color: dodgerblue;}
+/* SECTION ABOUT ABOUT-HEADER */
+#about-header {
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+/* SECTION ABOUT ABOUT-TOPICS */
+.topics {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.topics .topic {
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    margin-top: 29px;
+    margin-bottom: 30px;
+    width: 370px;
+}
+.topics .topic h2 {
+    margin-top: 13px;
+}
+.topics .topic a {
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 21px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+}
+.topics .topic a:hover {
+    background-color: #000;
+    color: #fff;
+}
+#about-leverage {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+/*===ANIMATIONS===*/
+@-webkit-keyframes move_link { from { padding-left: 0px; } to { padding-left: 25px; }  }
+@keyframes move_link { from { padding-left: 0px; } to { padding-left: 25px; }  }

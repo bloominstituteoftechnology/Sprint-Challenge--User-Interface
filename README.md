@@ -33,14 +33,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    A quick and easy way to organize your HTML. It provides a loose naming shceme that makes it easier to navigate your code and style specific elements.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+    I'll provide 3:
+        1. The names are different.
+        2. Block positions elements top down while inline positions them left to right and wraps.
+        3. You can set the hight of block elements; inlines remain short.
 3. What are the 4 areas of the box model?
-
+    === Margin | Border = Padding [ Content ] Padding = Border | Margin ===
+    1. Content
+    2. Padding
+    3. Border
+    4. Margin
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+    The up and down one... cross?
 5. Explain why git is valuable to a team of developers.
+    It allows multiple people to work on the same projects with minimal overlap. It also allows you to time travel back to a time before someone (Carlos for exampe) broke everything.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -48,10 +57,10 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up your project:
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
@@ -61,30 +70,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
+* [x] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Copy and paste your home page navigation and header into the about page
+* [x] Update the header image with the about page image
+* [x] Link the `Home` navigation item back to the `index.html` page.
+* [x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -92,7 +101,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
+* [x] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [x] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
