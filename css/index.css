@@ -73,6 +73,7 @@ p {
     margin: 0 auto;
 }
 
+/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -89,6 +90,8 @@ nav a{
     box-sizing: content-box;
     padding: 15px;
 }
+
+/* Navigation - Animate */
 
 nav a {
     position: relative;
