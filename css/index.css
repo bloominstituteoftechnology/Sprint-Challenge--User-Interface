@@ -56,6 +56,33 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display: flex;
+    width: 800px;
+    margin: 10 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 0;
+	height: 100%;
+    width: 80%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin: 0 auto;
+	padding: 0;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -143,4 +170,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#about-text-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#lets-work-together-text-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    height: 33%;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 110px;
+    height: 40%;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.about-content h2 {
+    margin-top: 10px;
 }
