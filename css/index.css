@@ -66,6 +66,35 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+h1 {
+    width: 18%;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    width: 80%;
+    padding: 29px;
+}
+
+.top-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +141,46 @@ p {
     justify-content: center;
 }
 
+.boxes .box:first-child {
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}   
+
+.boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}   
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}   
+
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}   
+
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}   
+
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}   
+
+.boxes .box:nth-last-child(2) {
+    background-color:indigo;
+}   
+
+.boxes .box:last-child {
+    background-color: dodgerblue;
+}   
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +212,212 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about.html page style */
+.top-about {
+    border-bottom: 2px dotted black;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+    margin-top: 20px;
+}
+
+.box1, .box2, .box3, .box4{
+    border-bottom: 2px dotted black;
+    margin-right: 30px;
+    padding-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+.row h2, h3 {
+    font-weight: bold;
+}
+
+
+/* blog.html styles */
+
+.blog-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-heading {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.begin, .mid, .end{
+    border-bottom: 2px dotted black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.past-blog {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-button {
+    margin-bottom: 20px;
+}
+
+.change-color {
+  animation: pulse 5s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color:white;
+  }
+  50% {
+    background-color: coral;
+  }
+  100% {
+      background-color: whitesmoke;
+  }
+}
+
+
+/* contact.html style */
+.contact-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    align-content: center;
+
+}
+
+.contact-form h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.button {
+    text-align: center;
+}
+
+.submit-button {
+    background-color: whitesmoke;
+    border: 1px solid coral;
+    text-align: center;
+    display: inline-block;
+    font-size:  14px;
+    border-radius: 8px;
+    height: 50px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.submit-button:hover {
+    background-color: coral;
+}
+
+/* products.html styles */
+.product-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.product-rows {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 30px 0;
+    width: 280px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px gray;
+}
+
+.products h2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.products img {
+    padding: 0 0 10px 20px;
+}
+
+
+.more{
+    background-color: whitesmoke;
+    border: 1px solid coral;
+    text-align: center;
+    display: inline-block;
+    font-size:  14px;
+    border-radius: 8px;
+    height: 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-left: 60px;
+}
+
+.more:hover {
+    background-color: coral;
 }
