@@ -96,6 +96,7 @@ nav a {
     overflow: hidden;
     z-index: 1;
   }
+  
   nav a:hover {
     color: #fff;
   }
@@ -131,52 +132,20 @@ nav a {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-}
-
-.about-container{
-    margin: 0 15px 20px 15px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
     border-bottom: 1px dashed black;
-   
 }
 
-.about-container h2{
-    margin-top: 20px;
-}
-
-.about-container p{
+.top-content .hero-banner{
     margin-bottom: 20px;
 }
 
-/*Main Content*/
-
-.main-body{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.text-container p{
+    margin-bottom: 20px;
 }
 
-.main-body .first-section{
-    width: 47%;
-    margin: 10px;
-    border-bottom: 1px dashed black;
-    margin-bottom: 40px;
-}
-
-.first-section button{
-    margin: 20px 0;
-    font-size: 14px;
-    border: 2px solid black;
-    background: white;
-    border-radius: 10px;
-    padding: 10px 25px;
-}
-
-.first-section h2{
-    margin-top: 10px;
-}
-
-/* Boxes */
+/* Boxes - index.html */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -243,7 +212,7 @@ nav a {
     background-color: dodgerblue;
 }
 
-/* Another page here ?*/
+/* Last section - index.html */
 
 .bottom-content {
     display: flex;
@@ -253,6 +222,49 @@ nav a {
 
 .bottom-content .second-section {
     padding-right: 4%;
+}
+
+/* Start - about.html */
+.about-container{
+    margin: 0 15px 20px 15px;
+    border-bottom: 1px dashed black;   
+}
+
+.about-container h2{
+    margin-top: 20px;
+}
+
+.about-container p{
+    margin-bottom: 20px;
+}
+
+/* Main Content - about.html */
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-body .first-section{
+    width: 47%;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.first-section button{
+    margin: 20px 0;
+    font-size: 14px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.first-section h2{
+    margin-top: 10px;
 }
 
 /* Footer */
@@ -274,3 +286,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Another page here ?*/
