@@ -17,23 +17,14 @@
 
 body {
     line-height: 1;
-
+    font-family: 'Roboto', sans-serif;
+	background-color: #efefef;
 }
 .container {
     width: 800px;
-    margin: auto;
-    
-
+    margin: auto;    
 }
 
-<!---->
-
-body {
-	
-	font-size: 13pt;
-	background-color: #efefef;
-	
-}
 h1 {
 	font-size: 15pt;
 	color: #20bcd5;
