@@ -31,6 +31,96 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+/* NAV */
+nav{
+    padding-bottom: 3em;
+}
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: em;
+    width: 60%;
+    margin: auto;
+}
+
+.nav-item{
+    margin-top: 2em;
+}
+
+.nav-logo{
+    margin-top: .5em;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover{
+    text-decoration: bold;
+    color: grey;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+header{
+    width: 60%;
+    margin: auto;
+  }
+  
+  .headercontainer{
+    margin-bottom: 2em;
+  }
+  .headercontainer img{
+    width: 100%;
+  }
+
+/* BOXES */
+#one{
+background-color: teal;
+}
+
+#two{
+    background-color:gold;
+}
+
+#three{
+    background-color:cadetblue;
+}
+
+#four{
+    background-color:coral;
+}
+
+#five{
+    background-color: crimson;
+}
+
+#six{
+    background-color:forestgreen;
+}
+
+#seven{
+    background-color:darkorchid;
+}
+
+#eight{
+    background-color:hotpink;
+}
+
+#nine{
+    background-color:indigo;
+}
+
+#ten{
+    background-color:dodgerblue;
+}
+
+
 ol, ul {
 	list-style: none;
 }
