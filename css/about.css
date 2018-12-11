@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    height: 1574px;
+    padding-top: 16px;
+}
+
+nav {
+    width: 100%;
+    height: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+    padding: 24px 44px 23px 23px;
+    font-size: 15px;
+    letter-spacing: -1.01px;
+}
+
+.imgbox {
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    /* margin-bottom: 196px;  */
+    margin-left: 19px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;    
+}
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 295px;
+    margin-top: 208px;
+}
+
+
+.about-top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+    align-content: center;
+}
+
+.about-top-content .text-container h2{
+    padding: 12px 0px 5px 0px;
+}
+
+.about-top-content .text-container p{
+    padding: 12px 0px 5px 0px;
+}
+
+
+.about-top-content .text-container button {
+    box-sizing: border-box;
+    padding: 8px 26px 8px 27px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.container-about-bottom {
+width: 100%;
+padding-left: 12px;
+padding-bottom: 40px
+}
+
+footer nav {
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+height: 53px;
+}
+
+footer nav a {
+    color: white;
+}

@@ -96,14 +96,27 @@ nav>a {
     margin-bottom: 20px;
     margin-top: 38px;
     border-bottom: 1px dashed black;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes example {
+    to {background-color: black;}
+    to {font-stretch: ultra-expanded;}
+    to {color: whitesmoke;}
+  }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
     margin-top: 26px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -129,7 +142,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box2 {
@@ -140,7 +153,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box3 {
@@ -151,7 +164,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box4 {
@@ -162,7 +175,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box5 {
@@ -173,7 +186,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box6 {
@@ -184,7 +197,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box7 {
@@ -195,7 +208,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box8 {
@@ -206,7 +219,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box9 {
@@ -217,7 +230,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 .middle-content .boxes .box10 {
@@ -228,7 +241,7 @@ nav>a {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
 
@@ -259,9 +272,6 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    align-items: center;
-    justify-content: flex-start;
-    height: 53px;
 }
 
 footer nav a {
