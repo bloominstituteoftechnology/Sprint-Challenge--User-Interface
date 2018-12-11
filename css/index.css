@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Body */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +73,65 @@ p {
     margin: 0 auto;
 }
 
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    background-position: right bottom;
+    box-sizing: content-box;
+    padding: 15px;
+}
+
+/* Navigation - Animate */
+
+nav a {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  nav a:before,
+  nav a:after {
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background: #D35400;
+    transition: all .5s;
+    margin: auto;
+    content: '.';
+    color: transparent;
+    z-index: -1;
+    opacity: 0.75;
+  }
+  nav a:before {
+    left: 0;
+  }
+  nav  a:after {
+    right: 0;
+  }
+  
+  nav a:hover:after,
+  nav a:hover:before {
+    width: 100%;
+  }
+  
+/* Hero Banner */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,12 +140,15 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.top-content .hero-banner{
+    margin-bottom: 20px;
 }
 
+.text-container p{
+    margin-bottom: 20px;
+}
+
+/* Boxes - index.html */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +168,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,20 +175,102 @@ p {
     justify-content: center;
 }
 
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
+}
+
+/* Last section - index.html */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .second-section {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+/* Start - about.html */
+.about-container{
+    margin: 0 15px 20px 15px;
+    border-bottom: 1px dashed black;   
 }
 
+.about-container h2{
+    margin-top: 20px;
+}
+
+.about-container p{
+    margin-bottom: 20px;
+}
+
+/* Main Content - about.html */
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-body .first-section{
+    width: 47%;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.first-section button{
+    margin: 20px 0;
+    font-size: 14px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.first-section h2{
+    margin-top: 10px;
+}
+
+/* Footer */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +289,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Another page here ?*/
