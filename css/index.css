@@ -71,6 +71,48 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+header nav a {
+    align-self: flex-end;
+    color: black;
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+a span:after {
+    content: '\00bb';
+    color: black; 
+    opacity: 0;
+    transition: 0.5s;
+}
+
+footer a span:after{
+    color: white; 
+}
+
+a:hover span:after {
+    opacity: 1;
+}
+
+.jumbo-img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;  
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +154,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +225,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    font-weight: 600;
+    margin-top: 15px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+}
+
+.border{ 
+    display:  flex;
+}
+
+
+.border p{
+    width: 370px;
+    margin-top: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top {
+    padding-left: 15px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.top-section, .bottom-section {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.top-section div img {
+    padding-bottom: 10px;
+}
+
+.bottom-section div img {
+    padding-bottom: 10px;
+}
+
+.work-together-box {
+    padding-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
