@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,114 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav-1-content {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.box.box1 {
+    background: teal;
+}
+.box.box2 {
+    background: gold;
+}
+
+.box.box3 {
+    background: cadetblue;
+}
+.box.box4 {
+    background: coral;
+}
+.box.box5 {
+    background: crimson
+}
+.box.box6 {
+    background: forestgreen;
+}
+.box.box7 {
+    background: darkorchid
+}
+.box.box8 {
+    background: hotpink
+}
+.box.box9 {
+    background: indigo
+}
+.box.box10 {
+    background: dodgerblue;
+}
+
+.container.about-page
+{
+    width:800px;
+}
+
+.about-info {
+    border-top: 2px dotted black;
+    margin: 30px 0px;
+    padding: 30px 0px;
+}
+
+.first-block {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.second-block {
+    display: flex;
+    
+}
+
+.end-nav {
+    margin-top: 30px;
+}
+
+.about-txt{
+    margin-top: 30px; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.topic {
+    margin-top: 10px;
+}
+
+.strategy-block{
+    border-bottom: 2px dotted black;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+
+.working-block {
+    border-bottom: 2px dotted black;
+}
+
+.office-block {
+    border-bottom: 2px dotted black;
+    padding-bottom: 30px;
+    margin-right: 30px;
+}
+.meeting-block {
+    border-bottom: 2px dotted black;
 }
