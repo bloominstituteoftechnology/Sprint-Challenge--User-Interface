@@ -212,7 +212,7 @@ footer nav a {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 25px;
-	border-top: 2px solid black;
+	border-top: 2px dashed black;
 	border-bottom: 2px solid black;
 	align-items: center;
 
@@ -221,7 +221,7 @@ footer nav a {
 .aboutMain div {
 	display: flex;
 	width: 350px;
-	height: 400px;
+	height: 425px;
 	flex-direction: column;
 	
 	border-bottom: 2px dashed black;
@@ -231,16 +231,22 @@ footer nav a {
 	border: 2px solid black;
 	border-radius: 10px;
 	width: 125px;
-	height: 30px;
+	height: 40px;
 	background-color: white;
 	color: black;
 	text-decoration: none;
 	text-align: center;
 	margin: 15px;
-	padding-top: 5px;
+	padding-top: 10px;
+	order: 1;
 }
 
 .together {
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+.aboutMain img {
+	order: 0;
+	margin-bottom: 10px;
 }
