@@ -150,21 +150,22 @@ nav a {
     margin: 0 15px 20px 15px;
 }
 
-.container .main-content{
+
+.main-body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.main-content .half-box{
+.main-body .first-section{
     width: 47%;
     margin: 10px;
     border-bottom: 1px dashed black;
     margin-bottom: 40px;
 }
 
-.half-box button{
+.first-section button{
     margin: 20px 0;
     font-size: 14px;
     border: 2px solid black;
@@ -173,7 +174,7 @@ nav a {
     padding: 10px 25px;
 }
 
-.half-box h2{
+.first-section h2{
     margin-top: 10px;
 }
 
@@ -244,45 +245,7 @@ nav a {
     background-color: dodgerblue;
 }
 
-.contact{
-    display: flex;
-    flex-direction: row;
-}
-
-.contact-form-container{
-    width: 49%;
-    margin: 15px;
-}
-
-.contact-form-container form{
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-form-container form button{
-
-    margin: 20px 0;
-    font-size: 14px;
-    border: 2px solid black;
-    background: white;
-    border-radius: 10px;
-    padding: 10px 25px;
-}
-
-
-.follow-box ul li{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 250px;
-    padding: 10px;
-}
-
-.follow-box img{
-    width: 24px;
-    margin-right: 10px;
-}
+/* Another page here ?*/
 
 .bottom-content {
     display: flex;
@@ -302,6 +265,7 @@ nav a {
     margin: 50px 0;
 }
 
+/* Footer */
 footer {
     width: 100%;
     background: black;
