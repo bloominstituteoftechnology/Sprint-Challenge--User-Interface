@@ -102,10 +102,8 @@ nav>a {
 }
 
 @keyframes example {
-    /* from {background-color: red;} */
     to {background-color: black;}
     to {font-stretch: ultra-expanded;}
-    /* to {text-decoration-color: white;} */
     to {color: whitesmoke;}
   }
 
