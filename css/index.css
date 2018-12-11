@@ -126,7 +126,7 @@ nav a {
     width: 100%;
   }
   
-/*Main Content*/
+/* Hero Banner */
 
 .top-content {
     display: flex;
@@ -150,6 +150,7 @@ nav a {
     margin: 0 15px 20px 15px;
 }
 
+/*Main Content*/
 
 .main-body{
     display: flex;
