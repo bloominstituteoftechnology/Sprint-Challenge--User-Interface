@@ -150,7 +150,7 @@ footer nav a {
 /* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
     /* INDEX.HTML */
 /* -- * -- * -- * -- * -- * -- * -- * -- * -- * */
-.nav {
+.header {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -336,4 +336,8 @@ footer nav a {
     100% {
         background-color: yellow;
     }
+}
+
+.products-page img:nth-child(2) {
+    width:100%;
 }
