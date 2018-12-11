@@ -131,23 +131,20 @@ nav a {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .hero-banner {
-    margin-bottom: 20px;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
 }
 
 .about-container{
     margin: 0 15px 20px 15px;
+    border-bottom: 1px dashed black;
+   
+}
+
+.about-container h2{
+    margin-top: 20px;
+}
+
+.about-container p{
+    margin-bottom: 20px;
 }
 
 /*Main Content*/
@@ -254,16 +251,8 @@ nav a {
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .second-section {
     padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-.about-container .bottom-content .text-container{
-    margin: 50px 0;
 }
 
 /* Footer */
