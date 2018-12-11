@@ -238,20 +238,25 @@ Boxes color styling above
     margin-bottom: 30px;
 }
 
+.top-margin {
+    margin-top: 10px;
+}
+
 .row {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
     width: 100%;
 }
 
 .column {
     display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    /*flex-direction: column;*/
+    /*flex-basis: 100%;*/
+    /*flex: 1;*/
     /*border: 1px solid;*/
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 .design-column {
