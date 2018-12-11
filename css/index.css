@@ -255,10 +255,11 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: sflex-start;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    align-items: center;
+    justify-content: flex-start;
     height: 53px;
 }
 
