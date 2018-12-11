@@ -95,7 +95,7 @@ nav>a {
 }
 
 .about-container {
-    margin-bottom: 196px; 
+    /* margin-bottom: 196px;  */
     margin-left: 19px;
     border-bottom: 1px dashed black;
     padding-bottom: 25px;    
@@ -107,7 +107,7 @@ nav>a {
     justify-content: space-evenly;
     align-content: center;
     margin-bottom: 295px;
-    margin-top: 38px;
+    margin-top: 208px;
 }
 
 
