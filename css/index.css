@@ -255,6 +255,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
