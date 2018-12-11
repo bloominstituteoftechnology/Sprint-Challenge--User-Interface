@@ -344,6 +344,8 @@ footer nav a:hover {
     }
     .responsive{
         display: block;
+        animation: menu1 600ms ease-in-out forwards;
+        perspective: 1000px;
     }
     .a-link:hover{
         color: white;
@@ -408,3 +410,15 @@ footer nav a:hover {
     100%{transform: scale(1);}
 
 }
+
+@keyframes menu1 {
+    0% {
+      opacity: 0;
+      transform: rotateY(-90deg) translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateY(0deg) translateY(0px);
+    }
+  }
+  
