@@ -55,6 +55,10 @@ p {
 }
 
 /* NAV */
+nav{
+  width: 60%;
+  margin: auto;
+}
 .nav-container{
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +90,7 @@ p {
 
 /* HEADER */
 header{
-  width: 90%;
+  width: 60%;
   margin: auto;
 }
 
@@ -99,7 +103,7 @@ header{
 
 /* ABOUT */
 .about{
-  width: 90%;
+  width: 60%;
   margin: auto;
 }
 
@@ -110,7 +114,7 @@ header{
 
 /* ROW 2 */
 .row2{
-  width: 90%;
+  width: 60%;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2.5em;
@@ -141,7 +145,7 @@ header{
 /* ROW 3 */
 
 .row3{
-  width: 90%;
+  width: 60%;
   margin: auto;
   padding-bottom: 1em;
 }
@@ -176,7 +180,7 @@ header{
 }
 
 .row4{
-  width: 90%;
+  width: 60%;
   margin: auto;
   margin-top: 2em;
 }
@@ -201,8 +205,9 @@ header{
 
 footer{
   background-color: black;
-  width: 90%;
+  width: 60%;
   margin: auto;
+  
 }
 footer nav {
     width: 60%;
@@ -212,6 +217,7 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
     margin-top: 2em;
+    margin-left: 0%;
 }
 
 footer nav a {
