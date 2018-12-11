@@ -37,7 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
     I'll provide 3:
-        1. The name are different.
+        1. The names are different.
         2. Block positions elements top down while inline positions them left to right and wraps.
         3. You can set the hight of block elements; inlines remain short.
 3. What are the 4 areas of the box model?
@@ -49,7 +49,7 @@ Edit this document to include your answers after each question. Make sure to lea
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
     The up and down one... cross?
 5. Explain why git is valuable to a team of developers.
-    It allows multiple people to work on the same projects with minimal overlap. It also allows you to time travel back time before someone (Carlos for exampe) broke everything.
+    It allows multiple people to work on the same projects with minimal overlap. It also allows you to time travel back to a time before someone (Carlos for exampe) broke everything.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
