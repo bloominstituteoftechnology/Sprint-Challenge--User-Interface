@@ -126,23 +126,42 @@ p {
     padding-right: 0;
 }
 
-footer {
+/* footer {
     width: 100%;
-    background: black;
-}
+    display: flex;
+    justify-content: center;
+} */
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 2%;
+    padding-top: 20px;
+    /* padding: 20px 2%; */
     font-size: 14px;
+
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    background-color: black;
+    display: block;
+    padding: 30px;
+
+
+}
+
+footer nav a:hover {
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+.active{
+    background: white;
+    color: black;
 }
 
 /* Index.html CSS*/
@@ -191,6 +210,28 @@ footer nav a {
     background: dodgerblue;
   }
 
+.header-img{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in;
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
   /*About.html CSS*/
 .about{
   margin-left: 20px; 
@@ -226,3 +267,158 @@ footer nav a {
     margin-top: 15px;
     outline: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 825px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .middle-content{
+        text-align: center;
+    }
+    .middle-content .boxes .box{
+        max-width: 100%;
+        width: 60px;
+        height: 60px;
+    }
+    .bottom-content{
+        max-width: 100%;
+        flex-direction: column;
+
+    }
+     .bottom-content .text-container{
+        text-align: center;
+        width: 100%;
+        margin: 15px 0;
+    }
+    .nav-container{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .logo{
+        margin: 10px;
+    }
+    .logo:hover{
+        animation: scale 1.5s ease-in-out alternate-reverse infinite;
+
+    }
+    .a-link{
+        color: black;
+        text-align: center;
+        padding: 10px; 
+        display: none;   
+    }
+    .nav-container .active{
+        color:white;
+        background-color: black;
+        width: 100%;
+    }
+    .responsive{
+        display: block;
+        animation: menu1 600ms ease-in-out forwards;
+        perspective: 1000px;
+    }
+    .a-link:hover{
+        color: white;
+        background: black;
+        width: 100%;
+    }
+
+    .header-img{
+        max-width: 100%;
+    }
+     footer nav a{
+        padding: 15px;
+    }
+
+
+
+    /* About.html */
+
+    .about{
+        text-align: center;
+    }
+    .flex-section-1, .flex-section-2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-img{
+        width: 70%;
+    }
+
+    .closing{
+        flex-direction: column;
+        text-align: center;
+    }
+    .closing p{
+        font-size: .9rem
+    }
+} 
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
+
+/* Animations */
+
+@keyframes scale{
+    0% {transform: scale(1);}
+
+    50%{transform: scale(.85);}
+
+    100%{transform: scale(1);}
+
+}
+
+@keyframes menu1 {
+    0% {
+      opacity: 0;
+      transform: rotateY(-90deg) translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateY(0deg) translateY(0px);
+    }
+  }
+  

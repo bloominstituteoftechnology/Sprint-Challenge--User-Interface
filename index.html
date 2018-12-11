@@ -8,6 +8,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
+  <script src="script.js"></script>
 
 </head>
 
@@ -15,10 +16,10 @@
     <div class="container">
    
         <header>
-            <nav class="nav-container">
-                <img src="img/lambda-black.png" alt="Lambda Logo">
+            <nav id="toogle"class="nav-container">
+                <img class="logo" src="img/lambda-black.png" alt="Lambda Logo" onclick="foo()">
 
-                <a class="a-link" href="index.html">Home</a>
+                <a class="a-link active" href="index.html">Home</a>
                 <a class="a-link" href="about.html">About</a>
                 <a class="a-link" href="#">Products</a>
                 <a class="a-link" href="#">Blog</a>
@@ -80,7 +81,7 @@
         
         <footer>
             <nav>
-                <a href="index.html">Home</a>
+                <a class="active" href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="#">Products</a>
                 <a href="#">Blog</a>
