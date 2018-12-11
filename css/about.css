@@ -107,7 +107,6 @@ nav>a {
     align-content: center;
     margin-bottom: 295px;
     margin-top: 38px;
-    border-bottom: 1px dashed black;
 }
 
 
@@ -118,6 +117,7 @@ nav>a {
     margin-top: 65px;
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 1px dashed black;
 }
 
 .about-top-content .text-container h2{
@@ -134,6 +134,7 @@ nav>a {
     padding: 8px 26px 8px 27px;
     border-radius: 8px;
     background-color: white;
+    border: 2px solid black;
 }
 
 .container-about-bottom {
