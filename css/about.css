@@ -98,6 +98,7 @@ nav>a {
     margin-bottom: 196px; 
     margin-left: 19px;
     border-bottom: 1px dashed black;
+    padding-bottom: 25px;    
 }
 .about-top-content {
     display: flex;
@@ -118,6 +119,7 @@ nav>a {
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px dashed black;
+    align-content: center;
 }
 
 .about-top-content .text-container h2{
