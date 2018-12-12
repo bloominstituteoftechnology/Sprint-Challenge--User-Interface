@@ -71,28 +71,75 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+/*home header*/
+
+header { /*top navigation bar*/
+    padding-top: 30px;
+    border-top: 35px solid black;
+	display: flex;    
+    vertical-align: top;
+	margin-top: 30px;	
+	align-content: flex-end;
+    margin-bottom: 12px;
+}
+
+header nav { /*top nav bar*/
+    margin: 20px 0 20px 0;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+   
+}
+ header nav a { /*words in nav bar*/
+    display: flex;
+    justify-content: space-between;
+	align-items: flex-end;
+	margin-right: 20px;
+ 	font-family: 'Rubik';
+ 	font-size: 18px;
+    text-decoration: none;
+    color: black;
+ }
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header .logo { /*lambda logo on nav bar*/
+    align-self: flex-start;
+    margin-top: 1px;
+}
+
+/*HOME*/
+
+.top-content { /*top of jumbo to bottom of p "the past"*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     border-bottom: 1px dashed black;
 }
+.jumbo {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
-.top-content .text-container {
+.top-content .text-container { /*the future the past*/
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 10px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
 
-.middle-content h2 {
+.middle-content { /*space above "thats No Moon"*/
     padding: 0 2%;
-    margin-bottom: 0;
+     margin-bottom: 0;
+}
+
+.middle-content h2 { /*space around "Why did it have to be.."*/
+    text-align: left;
+    padding: 2px;
+    margin-bottom: 10px;
 }
 
 .middle-content .boxes {
@@ -112,9 +159,42 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+}
+ .middle-content .boxes .box3 {
+    background: cadetblue;
+}
+ .middle-content .boxes .box4 {
+    background: coral;
+}
+ .middle-content .boxes .box5 {
+    background: crimson;
+}
+ .middle-content .boxes .box6 {
+    background: forestgreen;
+}
+ .middle-content .boxes .box7 {
+    background: darkorchid;
+}
+ .middle-content .boxes .box8 {
+    background: hotpink;
+}
+ .middle-content .boxes .box9 {
+    background: indigo;
+}
+ .middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
+    padding-top: 4%;
+    border-top: 1px dashed black;
     display: flex;
-    margin: 0 2% 20px;
+    margin: 15px 2% 20px;
     justify-content: space-around;
 }
 
@@ -132,15 +212,83 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about.html*/
+
+.about {
+    width: 100%;
+    border-bottom: 1px dashed black;
+    padding: 23px;
+}
+
+.about .jumbo-about {
+    width: 100%;
+}
+
+
+.contentContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+ .about-content {
+    height: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3%;
+    font-size:16px;
+    border-bottom: 1px dashed black;
+}
+ .about-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 110px;
+    height: 40%;
+    margin-top: 8px;
+    padding: 1px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+ .about-content h2 {
+    margin-top: 10px;
+ }
+
+.about-content .pic {
+    width: 100%;
+}
+.button {
+    padding: 8px;
+    margin: 22px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.middle-about img {
+    padding: 9px 0;
+}
+
+.work-together {
+    margin: 32px;
+    padding-bottom: 15px
+}
+
