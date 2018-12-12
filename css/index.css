@@ -67,10 +67,45 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 800px; 
+
+    margin: 0 auto; 
+}
+/********************* Header **********************/
+  header {
+    /* width: 1500px; */
+    display: flex;
+
+ }
+
+ header nav{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 760px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+ }
+
+ header nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
 }
 
+header .logo {
+    margin-bottom: 10px;
+    align-self: flex-start;
+    order: -1;
+} 
+
+.logo1 {
+    margin-bottom: 10px;
+    
+}
+
+/******************** Top Content ***********************/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,10 +146,51 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box-1 {
+    background-color: teal;   
+}
 
+#box-2 {
+    background-color: gold;   
+}
+
+#box-3 {
+    background-color:cadetblue;   
+}
+
+#box-4 {
+    background-color:coral;   
+}
+
+#box-5 {
+    background-color:crimson;   
+}
+
+#box-6 {
+    background-color:forestgreen;   
+}
+
+#box-7 {
+    background-color: darkorchid;   
+}
+
+#box-8 {
+    background-color:hotpink;   
+}
+
+#box-9 {
+    background-color:indigo;   
+}
+
+#box-10 {
+    background-color:dodgerblue;   
+}
+
+
+/************************* Bottom Content ***************/
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 20px;
     justify-content: space-around;
 }
 
@@ -144,3 +220,85 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*********************** ABOUT PAGE  *******************/
+
+.top-content1 {
+    border-bottom: 2px dashed black;
+    margin-bottom: 5px;
+}
+
+.top-content1 p{
+    margin-bottom: 20px;
+}
+
+.whole-section {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/*********** FIRST SECTION *************/
+
+ .whole-section button {
+    font-size: 15px;
+    font-family: bold;
+    padding: 10px 30px; 
+    margin-top: 20px; 
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.whole-section button:hover {
+    background: black;
+    color: white;
+}  
+
+
+.whole-section .middle-content2 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+
+} 
+
+
+ .middle-content2 .first {
+    display: column;
+    border-bottom: 2px dashed black;
+    padding: 10px;
+        
+}
+
+ .middle-content2 .second {
+    display: column;
+    border-bottom: 2px dashed black;
+    padding: 10px;
+    
+}
+
+
+/*********** SECTION SECTION *************/
+
+ .whole-section .middle-content3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+} 
+.middle-content3 .third {
+    display: column;
+    border-bottom: 2px dashed black;  
+    padding: 10px;
+}
+
+.middle-content3 .fourth {
+    display: column;
+    border-bottom: 2px dashed black;
+    padding: 10px;
+   
+}
+ 
