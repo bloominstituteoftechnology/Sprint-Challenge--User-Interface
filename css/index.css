@@ -144,3 +144,121 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Header/Nav Content */
+.container header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.container header nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.container header nav li {
+    margin: 0 15% 0 15%;
+}
+
+.container header nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+img.road-picture {
+    margin-bottom: 3%;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/* About Page */
+.about-page section.about {
+    display: flex;
+    flex-direction: column;
+    border-bottom: dashed 1px black;
+    width: 100%;
+    margin-bottom: 3%
+}
+
+section.about h1, section.about p {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+p {
+    margin-bottom: 3%;
+}
+
+.about-page .categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.strategy, .how, .places, .collaboration {
+    display: flex;
+    flex-direction: column;
+    border-bottom: dashed 1px black;
+    width: 45%;
+    margin-bottom: 3%;
+}
+
+.categories h2 {
+    margin-top: 3%;
+}
+.categories a {
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 33%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+    margin-bottom: 3%
+}
+
+.together {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
