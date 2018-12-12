@@ -240,14 +240,6 @@ nav {
     padding-right: 0;
 }
 
-.bottom-content.about {
-    width: 800px;
-    position: absolute;
-    margin-left: 0;
-    top: 1390px;
-    padding: 0 1%;
-}
-
 footer {
     width: 100%;
     background: black;
@@ -261,10 +253,6 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-}
-
-.about-footer {
-    margin-top: 130px;
 }
 
 footer nav a {
@@ -301,4 +289,16 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
     margin-bottom: 30px;
+}
+
+.bottom-content.about {
+    width: 800px;
+    position: absolute;
+    margin-left: 0;
+    top: 1390px;
+    padding: 0 1%;
+}
+
+.about-footer {
+    margin-top: 130px;
 }
