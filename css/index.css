@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -88,6 +89,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    flex-wrap: wrap;
 }
 
 .middle-content h2 {
@@ -143,4 +145,94 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.logo-image {
+    width: 100px;
+    height: 25px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 10px 20px 0;
+    align-items: baseline;
+}
+nav img {
+    width: 120%;
+}
+.wide-img {
+    width: 100%;
+    margin: 20px 0;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* changing box colors */
+.boxes .box.box1 {
+    background: teal;
+}
+  
+.boxes .box.box2 {
+    background: gold;
+}
+  
+.boxes .box.box3 {
+    background: cadetblue;
+}
+.boxes .box.box4 {
+    background: coral;
+}
+.boxes .box.box5 {
+    background: crimson;
+}
+.boxes .box.box6 {
+    background: forestgreen;
+}
+.boxes .box.box7 {
+    background: darkorchid;
+}
+.boxes .box.box8 {
+    background: hotpink;
+}
+.boxes .box.box9 {
+    background: indigo;
+}
+.boxes .box.box10 {
+    background: dodgerblue;
+}
+/* Cards */
+.container .card {
+    display: flex;
+    width: 45%;
+    border-bottom: 1px  dashed black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin: 2%;
+    text-align: left;
+}
+.card img {
+    width: 100%;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.top-about-content {
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.bottom-about-content {
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+div div button {
+    margin: 10px 0;
+}
+.container.cards {
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
