@@ -134,7 +134,9 @@ footer nav a {
     text-decoration: none;
 }
 
-/*Header/Navigation==================================*/
+/*=============================================================*/
+
+/*Header/Navigstion==================================*/
 .navigationBar {
 	height: 60px;
 	width: 800px;
@@ -144,8 +146,8 @@ footer nav a {
 }
 
 .navigationBar nav {
-    align-self: center;
     margin-top: 20px;
+    align-self: center;
 }
 
 .navigationBar img {
@@ -168,102 +170,38 @@ footer nav a {
     margin-bottom: 30px;
 }
 
-/*Boxes==================================*/
-.box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/*About Top-Content==================================*/
+.aboutTC {
+    margin: 0px 20px 20px;
 }
 
-.middle-content .boxes .box1 {
-    background: teal;
+/*About Middle-Content==================================*/
+.aboutMC {
+    width: 800px;
+    height: 1000px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-.middle-content .boxes .box2 {
-    background: gold;
+.aboutMC div {
+	width: 370px;
 }
 
-.middle-content .boxes .box3 {
-    background: cadetblue;
+.aboutMC div button {
+    background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 15px 0px 10px 0px;
+	height: 36px;
+    width: 110px;
 }
 
-.middle-content .boxes .box4 {
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box5 {
-    width: 12.5%;
-    height: 100px;
-    background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box6 {
-    width: 12.5%;
-    height: 100px;
-    background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box7 {
-    width: 12.5%;
-    height: 100px;
-    background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box8 {
-    width: 12.5%;
-    height: 100px;
-    background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box9 {
-    width: 12.5%;
-    height: 100px;
-    background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box10 {
-    width: 12.5%;
-    height: 100px;
-    background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/*About Bottom-Content==================================*/
+.aboutBC {
+    width: 800px;
+    height: 135px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
