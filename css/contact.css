@@ -1,0 +1,39 @@
+.form{
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0px auto;
+  padding: 30px 0;
+}
+
+  h1{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+
+  input{padding: 10px;}
+  input:nth-child(2){margin: 15px 0;}
+  input:last-child{
+    width: 200px;
+    height: 40px;
+    margin: 0px auto;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+
+  input:last-child:hover{
+    background-color: red;
+  }
+
+  textarea{
+    padding: 10px;
+    margin: 15px 0;
+    height: 200px;
+  }
