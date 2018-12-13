@@ -172,14 +172,13 @@ footer nav a {
 
 /*About Top-Content==================================*/
 .aboutTC {
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 20px;
 }
 
 /*About Middle-Content==================================*/
 .aboutMC {
     width: 800px;
     height: 1000px;
-	margin: 0px 0px 0px 0px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;

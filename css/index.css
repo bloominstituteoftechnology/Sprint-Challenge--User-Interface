@@ -169,37 +169,26 @@ footer nav a {
 }
 
 /*Boxes==================================*/
-.middle-content .boxes .box1 {
+.box {
     width: 12.5%;
     height: 100px;
-    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
 }
 
 .middle-content .boxes .box2 {
-    width: 12.5%;
-    height: 100px;
     background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
     background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .middle-content .boxes .box4 {
