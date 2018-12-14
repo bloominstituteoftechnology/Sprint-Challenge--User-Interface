@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 100%;
-		max-width: 800px;
+	max-width: 800px;
     margin: 0 auto;
 }
 
@@ -309,12 +309,12 @@ header nav a:hover {
 }
 .top-boxes {
 
-		width: 390px;
-		margin: 0 auto;
-		padding: 1%;
-		/* border: 1px solid black; */
+	width: 390px;
+	margin: 0 auto;
+	padding: 1%;
+	/* border: 1px solid black; */
 
-		/* line-height: 125%; */
+	/* line-height: 125%; */
 }
 
 .top-boxes img {
@@ -325,6 +325,6 @@ header nav a:hover {
 .top-boxes button {
 	border-radius: 25px;
 }
-.top boxes button:hover {
+/* .top boxes button:hover {
 
-}
+} */
