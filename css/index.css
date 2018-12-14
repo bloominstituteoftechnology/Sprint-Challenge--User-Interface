@@ -90,7 +90,7 @@ header nav { /*top nav bar*/
     display: flex;
    
 }
- header nav a { /*words in nav bar*/
+header nav a { /*words in nav bar*/
     display: flex;
     justify-content: space-between;
 	align-items: flex-end;
@@ -228,6 +228,8 @@ footer nav a {
 /*about.html*/
 
 .about {
+    margin-top: 14px;
+    margin-bottom: 14px;
     width: 100%;
     border-bottom: 1px dashed black;
     padding: 23px;
