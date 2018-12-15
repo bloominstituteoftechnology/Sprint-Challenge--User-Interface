@@ -157,6 +157,10 @@ nav {
     padding: 20px 10px 20px 0;
     align-items: baseline;
 }
+nav a {
+    text-decoration: none;
+    color: black;
+}
 nav img {
     width: 120%;
 }
