@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -115,7 +114,7 @@ p {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-around;  
 }
 
 .bottom-content .text-container {
@@ -143,4 +142,114 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-bottom: 20px;
+    padding: 20px 1% 0;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+     color: black;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.jumbo {
+    padding-bottom: 20px;
+}
+
+.teal {
+    background: teal;
+}
+
+.gold {
+    background: gold;
+}
+
+.cadetblue {
+    background: cadetblue;
+}
+
+.coral {
+    background: coral;
+}
+
+.crimson {
+    background: crimson;
+}
+
+.forestgreen {
+    background: forestgreen;
+}
+
+.darkorchid {
+    background: darkorchid;
+}
+
+.hotpink {
+    background: hotpink;
+}
+
+.indigo {
+    background: indigo;
+}
+
+.dodgerblue {
+    background: dodgerblue;
+}
+
+.first-row {
+   display: flex;
+    margin-top: 20px;
+    }
+
+.second-row {
+   display: flex;
+    }
+
+.strategy {
+    display: block;
+}
+
+.work {
+    display: block;
+}
+
+.places {
+    display: block;
+}
+
+.collab {
+    display: block;
+}
+
+.lets-work {
+    display: block;
+}
+
+.text {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
