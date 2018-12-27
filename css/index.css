@@ -66,15 +66,14 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-    font-size: 16px;
+    font-size: 14.5px;
 }
 
 .header {
     width: 800px;
     margin: 0 auto;
-    margin-top: 20px;
-    margin-right: 100px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .header-img {
@@ -82,22 +81,13 @@ p {
     margin: 0 auto;
 }
 
-header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header nav a{
+header nav a {
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 14.5px;
     margin-top: 20px;
-}
-
-.header-img {
-    display: flex;
-    justify-content: center;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .container {
@@ -108,24 +98,25 @@ header nav a{
 .top-content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    border-bottom: 1px dashed black;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    margin-right: 10x;
+    padding: 0 2%;
+    margin-right: 20x;
     padding-bottom: 10px;  
-    margin-left: 10x;
+    margin-left: 20x;
 }
 
 .middle-content {
+    padding-top: 20px;
     margin-bottom: 20px;
+    border-top: 1px dashed black;
     border-bottom: 1px dashed black;
 }
 
@@ -257,8 +248,8 @@ header nav a{
 }
 
 .bottom-content .text-container {
-    padding-right: 5%;
-    font-size: 15.5;
+    padding-right: 10%;
+    font-size: 14.5;
 }
 
 .bottom-content .text-container:last-child {
@@ -276,10 +267,149 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 14.5px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-page-full {
+
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.about-page {
+
+    margin-left: 25px; 
+
+}
+
+.about-header-content {
+
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+
+}
+
+.about-middle-content {
+
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+}
+
+.container.about-page h3 {
+
+    margin: 5px;
+
+}
+
+.about-top-content {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+
+}
+
+.about-header-img {
+
+    margin-bottom: 20px;
+    
+}
+
+/*
+.about-plan-img {
+
+
+}
+
+.about-strategy {
+    
+}
+*/
+
+/* .about-strategy p {
+
+    font-size: 15px;
+    margin-right: 400px;
+
+}
+
+.about-working-img {
+
+    font-size: 15px;
+    margin-left: 400px;
+
+}
+
+.about-working h3 {
+
+    margin-left: 400px;
+
+}
+
+.about-working p {
+
+    font-size: 15px;
+    margin-left: 400px;
+
+}
+ */
+.bottom-header {
+
+    padding: 0 25px 25px 25px;
+    font-weight: bold;
+    margin: 25px auto;
+
+}
+
+.about-content {
+
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 26px 0px;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+
+}
+
+.about-content button {
+
+	border: 2px solid black;
+	width: 30%;
+	background: white;
+	border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+
+}
+
+ .about-content h3 {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+ 
+} 
+
+.container .about-page {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
