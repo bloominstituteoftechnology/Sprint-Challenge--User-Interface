@@ -79,10 +79,15 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about{
+    margin-bottom: 20px;
 }
 
 .middle-content {
@@ -196,29 +201,43 @@ header nav{
 
 }
 
-.card{
-    width: 400px;
-    border-bottom: 1px dotted black;
-    padding: 10px;
-    margin: 20px 0;
-}
-
 .parent-card{
     display: flex;
     flex-wrap: wrap;
 
 }
 
+.card{
+    width: 370px;
+    border-bottom: 1px dotted black;
+    margin: 25px 15px;
+}
+
+.card button{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px 18px;
+    font-size: 16px;
+}
+
 .about-bottom{
-    margin-left: 320px;
-    width: 800px;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-content: center;
+    width: 100%;
+}
+
+.about-bottom h4{
+    padding: 10px;
+    margin: 15px;
+}
+
+.about-bottom p{
+    margin: 20px;
+    padding-bottom: 15px;
 }
 
 .Header-picture1{
-    margin: 30px 150px 30px 315px;
+    width: 100%;
+    margin: 20px 0;
 
 }
 .Header-picture{
