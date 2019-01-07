@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* Ares Rx */ 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -27,6 +27,31 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+.header-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav {
+    align-self: center;
+    margin: 1.5em 0 0 5%;
+}
+header ul li a {
+    display: inline;
+    padding: 0 1.4em 0 0;
+    font-size: 16px;
+    color: black;
+}
+header ul{
+    display: flex;
+    flex: row;
+    list-style-type: none;
+}
+.nav-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
 }
 body {
 	line-height: 1;
@@ -70,12 +95,39 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+header nav{
+    margin: 0;
+    width: 800px;
+}
+.nav-menu{
+    width: inherit;
+}
+.nav-menu{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-menu a{
+    margin: 15px;
+    height: auto;
+    padding: 25px 15px;
+    font-size: 14px;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+.hero{
+    height: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 25px 0px 25px;
     border-bottom: 1px dashed black;
 }
 
@@ -133,6 +185,7 @@ footer {
 
 footer nav {
     width: 60%;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,4 +196,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Code */ 
+.about-text{
+    margin: 20px 0px 10px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-text p{
+    font-weight: 400;
+}
+.row{
+	display: flex;
+	width: inherit;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: stretch;
+	align-items: stretch;
+}
+.row > div {
+	width: 370px;
+	height: 420px;
+    padding-bottom: 10px;
+    margin-right: 5px; 
+	margin-bottom: 40px;
+	border-bottom: 1px dashed black;
+}
+h3{
+    margin-top: 15px;
+}
+.learn {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 15px;
+	padding: 15px;
+	color: black;
+	background-color: whitesmoke;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 110px;
+	height: 35px;
+	font-size: 14px;	
+}
+h6 a{ 
+	background-color: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+}
+.bottom-container{
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.bottom-container > h4 + p {
+    font-weight: 700;
 }
