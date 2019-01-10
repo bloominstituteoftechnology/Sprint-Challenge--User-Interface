@@ -48,7 +48,7 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a fork this copy of the project.
+- [ ] Create a forked copy of this project.
 - [ ] Add PM as collaborator on Github.
 - [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
@@ -57,9 +57,11 @@ Follow these steps to set up and work on your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a PR to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a PR to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
+ 
+
 
 ## Minimum Viable Product
 
