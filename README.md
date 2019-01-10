@@ -51,9 +51,9 @@ Follow these steps to set up and work on your project:
 - [ ] Create a fork this copy of the project.
 - [ ] Add PM as collaborator on Github.
 - [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b <firstName-lastName>.
+- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin <firstName-lastName>.
+- [ ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
