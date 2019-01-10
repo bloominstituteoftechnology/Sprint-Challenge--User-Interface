@@ -57,7 +57,7 @@ Follow these steps to set up and work on your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a PR to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
  
