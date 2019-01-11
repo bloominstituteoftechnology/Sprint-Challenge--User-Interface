@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    ;
+    margin-left: 130px;
+    justify-content: space-evenly;
+    margin-top: 46px;
+}
+
+.logo {
+    align-items: flex-start;
+    display: inline;
+    margin-top: -30px;
+}
+
+.pic1 {
+    margin-top: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +100,10 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container h2 {
+
 }
 
 .middle-content {
