@@ -145,6 +145,13 @@ footer nav a {
     text-decoration: none;
 }
 
+.index-nav {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 20px 0 20px;
+}
+
 .index-nav a {
     margin: 30px;
     color: black;
@@ -169,3 +176,37 @@ footer nav a {
 .middle-content .box.box8 { background: hotpink; }
 .middle-content .box.box9 { background: indigo; }
 .middle-content .box:last-child { background: dodgerblue; }
+
+/* About Page */
+
+/* Container that wraps the page */
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-nav a {
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 35px;
+}
+
+/* About page header */
+#about-header-img {
+    margin: 10px 0 10px;
+    width: 100%;
+}
+
+/* About page top content */
+.about-top-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: 1.25px dashed black;
+    margin: 0 10px 10px;
+    padding: 0 10px 10px;
+    font-weight: 600;
+    width: 100%;
+}
