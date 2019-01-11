@@ -183,6 +183,13 @@ header nav a {
     background: dodgerblue;
 }
 
+/* About page */
+.learn-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
