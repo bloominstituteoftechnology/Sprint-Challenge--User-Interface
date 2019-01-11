@@ -107,5 +107,20 @@ p {
 .learn-content {
     display: flex;
     padding-top: 4%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+.learn-content .box p {
+    max-width: 100%;
+}
+
+.box {
+    max-width: 50%;
+    border: 2px solid red;
+
+}
+
+.learn-content .box img {
+    
+}
