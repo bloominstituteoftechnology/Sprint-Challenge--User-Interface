@@ -276,3 +276,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/**   below code only apply to About page selection  **/
+.mid-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 1%;
+}
+
+.mid-content {
+	width: 390px;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+.mid-content img {
+	width: 360px;
+}
+
+.mid-content button {
+	border-radius: 25px;
+}
