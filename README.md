@@ -38,7 +38,7 @@ At their core, semantic HTML elements have a dual function; they tell the browse
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-
+First off, `display: block;` and `display: inline;` are practically mutually-exclusive. A block-element (which is the term for something that has the `display: block;` property), takes up the entire width of the page and causes a line-break to happen between it and preceding content. An inline-element (which - you guessed it - is the term for something has the `display: inline;` property) is simply 'integrated' in the rest of the surrounding content. It doesn't cause a line-break and it only takes a much space as is needed by it's opening and closing tag.
 
 3. What are the 4 areas of the box model?
 
@@ -53,6 +53,9 @@ The 4 areas of the box model are:
 `align items: center;` works on the cross-axis. However, it's not possible to simply state that it works on the _horizontal_ or _vertical_ axis. Depending on your `flex-direction`, the axes can flip, which would make the cross-axis (which is the vertical axis when using `flex-direction: row;` - the default) horizontal, when using `flex-direction: column; `. 
 
 5. Explain why git is valuable to a team of developers.
+
+In a nutshell, Git, being a Version Control System, allows you to collaborate on large projects without running the risk of conflicting or site-breaking changes. It also allows you to have multiple sequential development processes running simultaneously, keep track of any and all changes, and to revert to a previous version should the need arise.
+Git makes it easy to split tasks among a team, each working on their own little section or piece, and review and further improve them individually without them affecting the 'master' version of the software. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
