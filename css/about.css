@@ -77,3 +77,34 @@ h1, h2, h3, h4, h5 {
 p {
  line-height: 1.4;
 }
+
+/**************end css reset, begin page updates*******/
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*********nav css from index.html*********/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: baseline;
+    width: 95%;
+    height: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    font-size: 14px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/******************************************************/
