@@ -231,9 +231,7 @@ nav figure {
         border: 0px solid black;
         padding-bottom: 0;
     }
-    
 }
-
 
 @media only screen and (min-width: 900px) {
     .bottom-content .text-container:last-child {
@@ -241,7 +239,6 @@ nav figure {
         
     }
 }
-
 
 /* END OF INDEX */
 
@@ -261,10 +258,19 @@ nav figure {
 }
 
 .about-section {
-    width: 47%;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
     padding-bottom: 30px;
     border-bottom: 1px dashed black;
     margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 900px) {
+    .about-section {
+        width: 47%;
+        text-align: start;
+    }
 }
 
 .about-section h2{
@@ -286,6 +292,13 @@ nav figure {
 
 summary {
     margin-bottom: 40px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+    summary {
+        text-align: start;
+    }
 }
 
 /* END OF ABOUT PAGE */
