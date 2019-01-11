@@ -71,7 +71,7 @@ p {
 .container {
     width: 800px;
     margin: auto;
-    flex-direction: row;
+    flex-direction:
     
 }
 
@@ -105,18 +105,21 @@ header nav a:hover {
 
 header .logo {
     margin: 28px 0 0 91px;
-    margin-left: -800px;
+    margin-left: -200px;
+    margin-top: -30px;
+
+    
 }
 
 /* About Styles */
 
 
-.about-content {
+/* .about-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     line-height: 1.3;
-}
+} */
 
 .about-text {
     font-size: 16px;
