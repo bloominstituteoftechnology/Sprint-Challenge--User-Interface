@@ -144,3 +144,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-header {
+    width: 800px;
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.nav-top {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+.nav-top a {
+    font-size: 15px;
+    color: grey;
+    margin: 0 auto;
+    text-decoration: none;
+     
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
