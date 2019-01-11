@@ -71,7 +71,7 @@ p {
     line-height: 1.4;
 }
 
-/* PAGE CONTENT */
+/* MAIN CONTAINER */
 
 .container {
     border:1px solid red;
@@ -81,8 +81,9 @@ p {
     flex-direction:column;
 }
 
+/* HEADER NAV */
 header {
-    border:1px solid green;
+    /* border:1px solid green; */
     width:100%;
     display:flex;
     justify-content: space-between;
@@ -107,6 +108,7 @@ header nav a:hover {
     color:grey;
 }
 
+/* TOP CONTENT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -114,13 +116,16 @@ header nav a:hover {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img {
+    margin:20px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+/* MIDDLE CONTENT */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -137,6 +142,7 @@ header nav a:hover {
     justify-content: space-evenly;
 }
 
+/* BOX PARTY */
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -147,6 +153,39 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box#boxA {
+    background:teal 
+}
+.middle-content .boxes .box#boxB {
+    background:gold;
+}
+.middle-content .boxes .box#boxC {
+    background:cadetblue;
+}
+.middle-content .boxes .box#boxD {
+    background:coral;
+}
+.middle-content .boxes .box#boxE {
+    background:crimson;
+}
+.middle-content .boxes .box#boxF {
+    background:forestgreen;
+}
+.middle-content .boxes .box#boxG {
+    background:darkorchid;
+}
+.middle-content .boxes .box#boxH {
+    background:hotpink;
+}
+.middle-content .boxes .box#boxI {
+    background:indigo;
+}
+.middle-content .boxes .box#boxJ {
+    background: dodgerblue;
+}
+
+/* BOTTOM CONTENT */
 
 .bottom-content {
     display: flex;
