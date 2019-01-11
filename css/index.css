@@ -68,6 +68,7 @@ p {
 
 .container {
     width: 800px;
+    height: 2500px;
     margin: 0 auto;
 }
 
@@ -100,7 +101,7 @@ nav a {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -204,4 +205,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.about-splash{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+.about-splash div{
+    margin-bottom: 20px;
+}
+
+/*-------------------------------------------------------*/
+
+.about-main{
+    height: 800px;
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.about-main div{
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.about-together{
+    display: flex;
+    height: 300px;
+}
+
+.about-footer{
+
 }
