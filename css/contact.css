@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    max-width: 50%;
 }
 
 .navigation {
@@ -87,70 +88,49 @@ p {
     margin: 0 auto;
 }
 
-.header-image {
-    padding-bottom: 40px;
-    max-width: 100%;
+.contactform-about-info {
+    width: 750px;
+    margin: 0 auto;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 2px solid rgb(226, 33, 33); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+  
+  input[type=submit] {
+    background-color: black;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
 
-
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
+  input[type=submit]:hover {
+    background-color: #e71818;
+  }
+  
+  .contactform {
+    border-radius: 5px;
+    padding: 20px;
+  }
 
 footer {
-    width: 100%;
+    width: 50%;
     background: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
+    margin: 0 auto;
 }
 
 footer nav {
