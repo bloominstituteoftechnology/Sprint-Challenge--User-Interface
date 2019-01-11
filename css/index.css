@@ -161,12 +161,13 @@ nav{
 a{
     margin: 20px;
     color: gray;
+    text-decoration: none;
 }
 
 .fluidcontainer{
 	display: flex;
     flex-wrap: wrap;
-    width: 900px;
+    width: 100%;
 	height: auto;
 
 	justify-content: center;
@@ -180,11 +181,10 @@ a{
 }
 
 .infobox{
-    width: 400px;
+    width: 49%;
     height: auto;
-    
-    padding: 20px 0px;
-    margin: 0px 20px;
+    margin: 20px 0px;
+
 }
 
 button{
