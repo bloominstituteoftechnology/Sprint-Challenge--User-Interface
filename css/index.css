@@ -205,3 +205,32 @@ footer nav a {
 #box10 {
     background: dodgerblue;
 }
+
+.about-content p {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0 0 1px 0 solid black;
+
+
+}
+
+.about {
+    width: 480;
+    display: flex;
+    flex-direction: column;
+}
+
+.strategy { 
+    width: 480;
+    display: flex;
+    flex-direction: column;  
+}
+
+.strategy-content p {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0 0 1px 0 solid black;    
+}
+
