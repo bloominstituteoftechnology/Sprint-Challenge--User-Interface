@@ -144,3 +144,34 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My Added Code! */
+
+header{
+    width: 100%;
+   
+   
+}
+
+.pngAndNav{
+    display: flex;
+    align-items: baseline; 
+    justify-content: space-around;
+}
+
+	
+	.pngAndNav nav{
+		display: flex;
+		
+		
+	}
+		.pngAndNav nav a{
+			margin:30px 40px 30px 40px;
+            color:black;
+			text-decoration-line: none;
+			justify-content: space-between;
+		}
+	
+    header img{
+        margin: 20px;
+    }
