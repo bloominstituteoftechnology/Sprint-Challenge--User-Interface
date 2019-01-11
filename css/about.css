@@ -106,5 +106,26 @@ a:link {
     text-decoration: none;
     color: black;
 }
-
 /******************************************************/
+
+.about {
+    border-bottom: 1px dashed black;
+    height: 115px;
+    margin-top: 15px;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.info-box {
+    border-bottom: 1px dashed black;
+    width: 50%;
+    padding-bottom: 25px;
+    padding-top: 45px;
+}
