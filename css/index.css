@@ -144,3 +144,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    margin-top: 25px; 
+}
+
+nav{
+    display: inline-flex;
+    justify-content: space-evenly;
+    border: solid black 1px;
+}
+
+a{
+    margin: 20px;
+}
+
+.fluidcontainer{
+	display: flex;
+	
+	height: 800px;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center ;
+	flex-wrap: wrap;
+	border-bottom: solid black 1px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-top: solid black 1px;
+	padding-top: 15px;
+	margin-top: 15px;
+}
