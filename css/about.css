@@ -80,13 +80,13 @@ p {
 /* ========================== Variables ========================== */
 
 :root {
-
+    --font-size: .8rem;
 }
 
 /* ========================== Nav ========================== */
 
 nav {
-    padding-top: 15px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -115,3 +115,11 @@ nav a {
     margin-top: 30px;
     width: 100%;
 }
+
+.top-content {
+    margin-top: 20px;
+    font-size: var(--font-size);
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
