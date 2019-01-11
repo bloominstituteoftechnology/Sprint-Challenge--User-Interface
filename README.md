@@ -43,7 +43,7 @@ Edit this document to include your answers after each question. Make sure to lea
 5. Explain why git is valuable to a team of developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
-
+ty
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
