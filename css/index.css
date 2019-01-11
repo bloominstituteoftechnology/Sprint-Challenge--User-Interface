@@ -225,7 +225,7 @@ footer nav a {
 /*-------------------------------------------------------*/
 
 .about-main{
-    height: 800px;
+    height: 600px;
     width:800px;
     display: flex;
     flex-wrap: wrap;
@@ -247,8 +247,26 @@ footer nav a {
 .about-together{
     display: flex;
     height: 300px;
+    /*margin-bottom: 20px;*/
+}
+
+.about-together img{
+    margin-bottom: 15px;
+}
+
+h3{
+    margin-top: 15px;
 }
 
 .about-footer{
+    margin-top: 20px;
 
+}
+
+button{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    background: white;
 }
