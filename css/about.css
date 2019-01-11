@@ -123,3 +123,44 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+/* ========================== Middle Content ========================== */
+
+.middle-content {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 50%;
+    margin: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    font-size: var(--font-size);
+}
+
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin-bottom: 25px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
