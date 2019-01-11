@@ -95,7 +95,7 @@ header nav a{
     text-decoration: none;
 }
 
-.jumbo-img {
+.jumbo-img, .jumbo-about {
     margin-bottom: 20px;
 }
 
