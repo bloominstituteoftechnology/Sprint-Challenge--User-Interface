@@ -128,56 +128,106 @@ p {
     margin: 20px 0;
 }
 
-.about-page .about-top {
- display: flex;
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
-.about-page .about-text {
-  width: 350px;
-}
-.about-page .about-intro {
-  padding: 0 20px 20px;
-  border-bottom: 1px dashed black;
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
 }
 
-.about-page .about-content {
-  display: flex;
-  flex-wrap: wrap;
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
-
-.about-page .about-content .about-box h2 {
-  margin-top: 10px;
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
 }
 
-.about-page .about-content .about-box .about-btn {
-  border: 1px solid #585656;
-  border-radius: 6px;
-  padding: 10px;
-  width: 130px;
-  text-align: center;
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.about-page .about-content .about-box .about-btn:hover {
-  background: #7c7979;
-  color: white;
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    /* background-image: linear-gradient(260deg, #a09c9c 10%, #312e2e 90%); */
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
 
-.about-page .about-footer-content {
-  margin-bottom: 20px;
-  padding: 20px;
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
 }
 
 footer {
     width: 100%;
     background-image: linear-gradient(260deg, #a09c9c 10%, #312e2e 90%);
 }
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color:forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 
+#png{
+    height: 50px;
+    width: 100px;
+}
+
+#g{
+    height: 90px;
+    width: 100%;
+
+}
 footer nav {
     width: 60%;
     display: flex;
@@ -190,25 +240,6 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-/* aditional */
-
-.contact {
-    width: 50%;
-    margin: 2% 5%;
-}
-
-.top {
-    display: flex;
-    flex-direction: row;
-}
-.box-left {
-    padding-bottom: 3.5rem;
-}
-
-.top {
-    display: flex;
-    flex-direction: row;
 }
 
 @media screen and (min-width: 380px) {
