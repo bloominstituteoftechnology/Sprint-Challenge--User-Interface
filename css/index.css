@@ -73,6 +73,8 @@ p {
     margin: 0 auto;
 }
 
+
+/* Site-wide Navigation bar and header image */
 header {
     padding-bottom: 20px;
 }
@@ -103,14 +105,15 @@ nav a:last-child {
     width: 250px;
 }
 
-nav a img {
-    
-}
 
 nav figure {
     width: 100%;
-    
 }
+/* END OF HEADER */
+
+
+
+/* INDEX */
 
 .top-content {
     display: flex;
@@ -153,6 +156,39 @@ nav figure {
     justify-content: center;
 }
 
+/* COMPACTED BOX STYLING */
+.middle-content .boxes .box.teal {
+    background: teal;
+}
+.middle-content .boxes .box.gold {
+    background: gold;
+}
+.middle-content .boxes .box.cadetblue {
+    background: cadetblue;
+}
+.middle-content .boxes .box.coral {
+    background: coral;
+}
+.middle-content .boxes .box.crimson {
+    background: crimson;
+}
+.middle-content .boxes .box.forestgreen {
+    background: forestgreen;
+}
+.middle-content .boxes .box.darkorchid {
+    background: darkorchid;
+}
+.middle-content .boxes .box.hotpink {
+    background: hotpink;
+}
+.middle-content .boxes .box.indigo {
+    background: indigo;
+}
+.middle-content .boxes .box.dodgerblue {
+    background: dodgerblue;
+}
+/* END OF BOX STYLING */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -166,6 +202,11 @@ nav figure {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* END OF INDEX */
+
+
+/* ABOUT PAGE */
 
 .description {
     padding: 0 20px 20px 20px;
@@ -206,6 +247,10 @@ nav figure {
 summary {
     margin-bottom: 40px;
 }
+
+/* END OF ABOUT PAGE */
+
+/* FOOTER */
 
 footer {
     width: 100%;
