@@ -250,6 +250,30 @@ summary {
 
 /* END OF ABOUT PAGE */
 
+/* PRODUCTS PAGE */
+
+.about-section.full-width-section {
+    width: 100%;
+    text-align: center;
+}
+
+.about-section.third {
+    width: 30%;
+}
+
+.about-section .buynow {
+    background-color: crimson;
+    color: #EEE;
+    border-color: #DDD;
+    text-decoration: underline; 
+}
+
+.about-section .buynow:hover {
+    background-color: crimson;
+}
+
+/* END OF PRODUCTS PAGE */
+
 /* FOOTER */
 
 footer {
