@@ -56,6 +56,11 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -66,11 +71,55 @@ p {
     line-height: 1.4;
 }
 
+/* MAIN CONTAINER */
+
 .container {
+    /* border:1px solid red; */
     width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
+    display:flex;
+    flex-direction:column;
 }
 
+/* HEADER NAV */
+header {
+    /* border:1px solid green; */
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+header nav {
+    /* border:1px solid green; */
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header nav a {
+    /* border:1px solid red; */
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+}
+header nav a:hover {
+    color:grey;
+}
+
+/* TOP CONTENT */
+.about-top-content {
+    /* border:1px solid red; */
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content .about-top-para, .products-top-content .products-top-para, .contact-top-content .contact-top-para {
+    padding:20px;
+}
+
+/* HOME PAGE TOP CONTENT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,13 +127,102 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img {
+    margin-bottom:20px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+/* CONTACT MIDDLE CONTENT */
+.contact-middle-content {
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    /* flex-wrap:wrap; */
+    /* width: 800px; */
+}
+.contact-middle-content form {
+    /* background:grey; */
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+
+.contact-middle-content form input {
+    margin:20px;
+}
+
+/* PRODUCTS MIDDLE CONTENT */
+
+.products-middle-content {
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.product-box {
+    /* border:1px solid green; */
+    /* width:100%; */
+    padding:20px;
+    margin:20px;
+}
+
+@keyframes product {
+0%   {background-color:rgb(222, 222, 222);}
+50%  {background-color:rgb(255, 247, 0);}
+}
+
+.product-box:hover {
+    animation-name: product;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+
+/* ABOUT PAGE MIDDLE CONTENT */
+
+.about-middle-content {
+    /* border:1px solid red; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    /* align-items:center; */
+}
+
+.about-middle-content .strategy, .how-we-work, .places-we-work, .collab {
+    border-bottom:1px dashed black;
+    /* border:1px solid green; */
+    width:370px;
+    height:420px;
+    margin:20px 0;
+}
+.about-middle-content img {
+    margin-bottom:20px;
+}
+.about-middle-content button {
+    border:1px solid black;
+    border-radius: 10px;
+    padding:10px;
+    font-weight: bold;
+
+    animation-name: button;
+	animation-duration: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
+}
+@keyframes button {
+	0%   {background-color:orange;}
+	25%  {border-color:red;}
+	50%  {border-color:black;}
+	75%  {border-color:yellow;}
+	100% {border-color:red;}
+  }
+
+/* HOME PAGE MIDDLE CONTENT */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,6 +239,7 @@ p {
     justify-content: space-evenly;
 }
 
+/* HOME PAGE BOX PARTY */
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,6 +251,49 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box#boxA {
+    background:teal 
+}
+.middle-content .boxes .box#boxB {
+    background:gold;
+}
+.middle-content .boxes .box#boxC {
+    background:cadetblue;
+}
+.middle-content .boxes .box#boxD {
+    background:coral;
+}
+.middle-content .boxes .box#boxE {
+    background:crimson;
+}
+.middle-content .boxes .box#boxF {
+    background:forestgreen;
+}
+.middle-content .boxes .box#boxG {
+    background:darkorchid;
+}
+.middle-content .boxes .box#boxH {
+    background:hotpink;
+}
+.middle-content .boxes .box#boxI {
+    background:indigo;
+}
+.middle-content .boxes .box#boxJ {
+    background: dodgerblue;
+}
+
+/* PRODUCTS BOTTOM CONTENT */
+.products-bottom-content {
+    border-top:1px dashed black;
+    padding:20px;
+}
+
+/* ABOUT BOTTOM CONTENT */
+.about-bottom-content {
+    padding:20px;
+}
+
+/* HOME PAGE BOTTOM CONTENT */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +325,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color:grey;
 }
