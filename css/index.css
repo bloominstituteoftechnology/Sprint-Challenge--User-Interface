@@ -306,8 +306,14 @@ summary {
 /* PRODUCTS PAGE */
 
 .about-section.full-width-section {
-    width: 100%;
+    width: 75%;
     text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+    .about-section.full-width-section {
+    width: 100%;
+    }
 }
 
 
