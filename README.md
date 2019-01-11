@@ -43,9 +43,11 @@ Edit this document to include your answers after each question. Make sure to lea
     The second big difference is in what you can do with each one's styling.  Block elements all of the box model elements changed. Inline elements cannot have their vertical portions of the box model changed.
 
 3. What are the 4 areas of the box model?
+
     Content, padding, border and margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
     The cross axis.
 
 5. Explain why git is valuable to a team of developers.
