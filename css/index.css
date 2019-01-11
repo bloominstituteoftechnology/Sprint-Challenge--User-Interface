@@ -153,8 +153,17 @@ header nav a:hover {
     border-bottom:1px dashed black;
     /* border:1px solid green; */
     width:370px;
-    height:400px;
+    height:420px;
     margin:20px 0;
+}
+.about-middle-content img {
+    margin-bottom:20px;
+}
+.about-middle-content button {
+    border:1px solid black;
+    border-radius: 10px;
+    padding:10px;
+    font-weight: bold;
 }
 
 /* HOME PAGE MIDDLE CONTENT */
