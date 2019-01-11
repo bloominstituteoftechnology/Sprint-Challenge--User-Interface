@@ -122,7 +122,7 @@ header nav a:hover {
     padding:20px;
 }
 
-/* INDEX TOP CONTENT */
+/* HOME PAGE TOP CONTENT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +139,25 @@ header nav a:hover {
     padding-bottom: 20px;  
 }
 
-/* MIDDLE CONTENT */
+/* ABOUT PAGE MIDDLE CONTENT */
+
+.about-middle-content {
+    /* border:1px solid red; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    /* align-items:center; */
+}
+
+.about-middle-content .strategy, .how-we-work, .places-we-work, .collab {
+    border-bottom:1px dashed black;
+    /* border:1px solid green; */
+    width:370px;
+    height:400px;
+    margin:20px 0;
+}
+
+/* HOME PAGE MIDDLE CONTENT */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -156,7 +174,7 @@ header nav a:hover {
     justify-content: space-evenly;
 }
 
-/* BOX PARTY */
+/* HOME PAGE BOX PARTY */
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -204,7 +222,7 @@ header nav a:hover {
     padding:20px;
 }
 
-/* INDEX BOTTOM CONTENT */
+/* HOME PAGE BOTTOM CONTENT */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
