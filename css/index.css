@@ -108,17 +108,17 @@ header nav a:hover {
     color:grey;
 }
 
-/* ABOUT TOP CONTENT */
+/* TOP CONTENT */
 .about-top-content {
     /* border:1px solid red; */
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 
 }
-.about-top-content img {
+.about-top-content img, .products-top-content img {
     margin-bottom:20px;
 }
-.about-top-content .about-top-para {
+.about-top-content .about-top-para, .products-top-content .products-top-para {
     padding:20px;
 }
 
@@ -137,6 +137,34 @@ header nav a:hover {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/* PRODUCTS MIDDLE CONTENT */
+
+.products-middle-content {
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.product-box {
+    /* border:1px solid green; */
+    /* width:100%; */
+    padding:20px;
+    margin:20px;
+}
+
+@keyframes product {
+0%   {background-color:rgb(222, 222, 222);}
+50%  {background-color:rgb(255, 247, 0);}
+}
+
+.product-box:hover {
+    animation-name: product;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
 }
 
 /* ABOUT PAGE MIDDLE CONTENT */
@@ -236,6 +264,12 @@ header nav a:hover {
 }
 .middle-content .boxes .box#boxJ {
     background: dodgerblue;
+}
+
+/* PRODUCTS BOTTOM CONTENT */
+.products-bottom-content {
+    border-top:1px dashed black;
+    padding:20px;
 }
 
 /* ABOUT BOTTOM CONTENT */
