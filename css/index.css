@@ -180,13 +180,18 @@ header{
    
     #firstTwo{
         display: flex;
-        
+        padding-top: 20px;
         border-top:  1px dotted black;
+        
+
+        
     }
     #secondTwo{
         display: flex;
     }
     .img-text-button{
+        margin-left: 20px;
+        margin-bottom: 20px;
         flex-direction: column;
         border-bottom: 1px dotted gray;
     }
@@ -197,4 +202,13 @@ header{
         border: 1px solid black;
         padding: 6px 18px;
         margin: 12px 0px
+    }
+    #about{
+      
+        padding: 20px 30px 20px 30px;
+        
+    }
+
+    #worktogether{
+        margin: 30px;
     }
