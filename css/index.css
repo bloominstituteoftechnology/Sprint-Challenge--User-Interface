@@ -98,9 +98,15 @@ header nav a:hover {
 	margin: 0 auto;
 }
 
-.jumbo {
+.jumbo, mod-heading {
 	margin: 25px 0 20px 0;
 }
+
+/*
+.jumbo, .mid1, .mid2, .mid3, .mid4, button {
+	margin: 25px 0 20px 0;
+}
+*/
 
 .top-content {
     display: flex;
@@ -282,13 +288,15 @@ footer nav a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 1%;
+    padding: 1%;
+    margin: 0;
 }
 
 .mid-content {
 	width: 390px;
-	margin: 0 auto;
-	padding: 1%;
+	/*margin: 0 auto; */
+    padding: 1%;
+    margin: 25px 0 20px 0;
 }
 
 .mid-content img {
@@ -297,4 +305,16 @@ footer nav a {
 
 .mid-content button {
 	border-radius: 25px;
+}
+
+button {
+    width: 130px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
 }
