@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -47,9 +47,14 @@ table {
 	border-spacing: 0;
 }
 
+/* ===================== Initial Page Wide Settings ===================== */
+
+
 * {
     box-sizing: border-box;
+    /* border: 1px solid red !important; */
 }
+
 
 html, body {
     height: 100%;
@@ -67,9 +72,44 @@ p {
 }
 
 .container {
-    width: 800px;
+    max-width: 775px;
+    width: 80%;
     margin: 0 auto;
 }
+
+/* ========================== Variables ========================== */
+
+:root {
+
+}
+
+/* ========================== Nav ========================== */
+
+nav {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav img {
+    height: 30px;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+}
+
+/* ========================== Top-Content ========================== */
 
 .top-content {
     display: flex;
