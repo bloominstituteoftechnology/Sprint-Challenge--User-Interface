@@ -149,7 +149,8 @@ footer nav a {
 
 header{
     width: 100%;
-   
+   display: flex;
+   flex-direction: column;
    
 }
 
@@ -168,10 +169,32 @@ header{
 		.pngAndNav nav a{
 			margin:30px 40px 30px 40px;
             color:black;
+
 			text-decoration-line: none;
 			justify-content: space-between;
 		}
 	
     header img{
         margin: 20px;
+    }
+   
+    #firstTwo{
+        display: flex;
+        
+        border-top:  1px dotted black;
+    }
+    #secondTwo{
+        display: flex;
+    }
+    .img-text-button{
+        flex-direction: column;
+        border-bottom: 1px dotted gray;
+    }
+
+    button{
+        background: white;
+        border-radius: 8px;
+        border: 1px solid black;
+        padding: 6px 18px;
+        margin: 12px 0px
     }
