@@ -254,8 +254,9 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-between;
     height-line: 1.2px;
+    border-bottom: 1px dashed black;
     
-    border-bottom: 1px dash black;
+    
     
 }
 
@@ -265,7 +266,7 @@ footer nav a {
     width: 75%;
 }
 
-.about-content .about-text {
+ .about-text {
     border-bottom: 1px dash black;
     padding-bottom: 10px;
     margin-bottom: 20px
@@ -279,12 +280,13 @@ footer nav a {
     align-items: center;
     border-top: 1px dash black;
     margin: 0 auto;
+    width: 100%;
     
 }
 
 .strategy-content {
-    padding: 10px;
-    
+    padding: 20px;
+    border-bottom: 1px dashed black;
     width: 49%;
     background:white;
     margin: 20px 0;
@@ -295,7 +297,7 @@ footer nav a {
 
 .how {
     padding: 20px;
-    
+    border-bottom: 1px dashed black;
     width: 49%;
     background: white;
     margin: 20px 0;
@@ -304,7 +306,7 @@ footer nav a {
 
 .places {
     padding: 20px;
-    border: 1px solid white;
+    border-bottom: 1px dashed black;
     width: 49%;
     background: white;
     margin: 20px 0;
@@ -312,7 +314,7 @@ footer nav a {
 
 .collab {
     padding: 20px;
-    border: 1px solid white;
+    border-bottom: 1px dashed black;
     width: 49%;
     background: white;
     margin: 20px 0;
