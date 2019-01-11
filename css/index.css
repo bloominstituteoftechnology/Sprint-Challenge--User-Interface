@@ -229,6 +229,10 @@ header nav a:hover {
        padding-top: 30px;
        border-top: 1px dotted black;
    }
+
+   .bottom-content, .together {
+       margin: 20px 0 20px 0;
+   }
    
    .about-text {
        width: 400px;
