@@ -207,7 +207,20 @@ footer nav a:hover {
 /* --About Page-- */
 
 header {
-    border: 2px solid magenta;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+header nav a {
+	margin: 0 50px 0 20px;
+	padding: 10px;
+}
+
+header nav a:hover {
+	color: red;
+	font-weight: bold;
+	cursor: pointer;
 }
 .about-middle-content {
        display: flex;
