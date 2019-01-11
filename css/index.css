@@ -193,3 +193,15 @@ button{
     margin: 10px 0px;
     padding: 10px;
 }
+
+.about-top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+#h1{
+    margin: 0px;
+    text-size: 22px;
+}
