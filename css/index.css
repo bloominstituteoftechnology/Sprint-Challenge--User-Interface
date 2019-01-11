@@ -245,6 +245,7 @@ footer nav a {
 .about-content h1 {
     font-size: 25 px;
     margin: 10px 0;
+    width: 75%;
 }
 
 .about-content .about-text {
@@ -257,7 +258,7 @@ footer nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     
     margin: 0 auto;
@@ -267,8 +268,8 @@ footer nav a {
 .strategy-content {
     padding: 20px;
     
-    width: 300px;
-    background: white;
+    width: 49%;
+    background:white;
     margin: 20px 0;
     border-bottom: 1px dash black;
 }
@@ -276,7 +277,7 @@ footer nav a {
 .how {
     padding: 20px;
     border: 1px solid white;
-    width: 300px;
+    width: 49%;
     background: white;
     margin: 20px 0;
 }
@@ -284,7 +285,7 @@ footer nav a {
 .places {
     padding: 20px;
     border: 1px solid white;
-    width: 300px;
+    width: 49%;
     background: white;
     margin: 20px 0;
 }
@@ -292,9 +293,23 @@ footer nav a {
 .collab {
     padding: 20px;
     border: 1px solid white;
-    width: 300px;
+    width: 49%;
     background: white;
     margin: 20px 0;
+}
+
+button {
+  border-color: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: 40%;
+  
 }
 
 
