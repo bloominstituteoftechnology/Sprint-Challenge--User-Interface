@@ -165,7 +165,7 @@ a{
 .fluidcontainer{
 	display: flex;
 	
-	height: 800px;
+	height: 2000px;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center ;
