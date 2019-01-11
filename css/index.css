@@ -75,7 +75,8 @@ p {
 
 header {
     display: flex;
-    margin: 25px 0
+    margin: 25px 0;
+    margin-bottom: 40px;
 }
 
 header a img {
@@ -95,7 +96,6 @@ header nav a{
 }
 
 .jumbo-img {
-    margin-top: 15px;
     margin-bottom: 20px;
 }
 
