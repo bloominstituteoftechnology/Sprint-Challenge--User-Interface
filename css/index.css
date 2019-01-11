@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -77,6 +78,10 @@ header {
 
 header nav a {
     padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
     margin: 0 45px 0 25px;
 }
 
@@ -96,6 +101,7 @@ header nav a:hover {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    margin-top: 15px;
     padding-bottom: 20px;  
 }
 
@@ -236,10 +242,10 @@ header nav a:hover {
    
    .about-text {
        width: 400px;
-       height: 400px;
+       height: 450px;
        padding: 25px;
        margin: 5px 0 30px 0;
-       /* border-bottom: 1px dotted black; */
+       border-bottom: 1px dotted black;
    }
 
    button {
