@@ -272,3 +272,78 @@ header nav a {
 .top-content {
     margin-top: 40px;
 }
+
+
+
+.about-content {
+    margin: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+/* .about-middle-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+} */
+
+.about-middle-top h4 {
+    padding-top: 10px;
+    
+}
+
+.about-middle-bottom h4 {
+    padding-top: 10px;
+}
+
+button {
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.strategy {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+}
+
+.how-work {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+}
+
+.places-work {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+    margin-top: 40px;
+}
+
+.collab {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+    margin-top: 40px;
+}
+
+
+
+.work-together {
+    margin-top: 40px;
+}
+
+.about-main-content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
