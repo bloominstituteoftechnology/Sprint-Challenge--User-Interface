@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Think of a website like a body. HTML (Hyper Text Markup Language) is the language you use to make the skeleton of a website or web application. It is the structure of the webpage, while CSS is the skin (makes things pretty / styling) and javascript is the muscle (makes it move and function).  HTML is a semantic markup language that provides meaning and context to both the browser and to people with accessibility issues.  Meaning such as what is most important; what should be read; what should the site visitor fill out etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
