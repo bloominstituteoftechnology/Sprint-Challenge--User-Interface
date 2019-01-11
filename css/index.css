@@ -157,3 +157,15 @@ footer nav a {
     margin: 20px 0;
     width: 100%
 }
+
+/* Home Page Boxes */
+.middle-content .box.box1:first-child {background: teal; }
+.middle-content .box.box2 { background: gold; }
+.middle-content .box.box3 { background: cadetblue; }
+.middle-content .box.box4 { background: coral; }
+.middle-content .box.box5 { background: crimson; }
+.middle-content .box.box6 { background: forestgreen; }
+.middle-content .box.box7 { background: darkorchid; }
+.middle-content .box.box8 { background: hotpink; }
+.middle-content .box.box9 { background: indigo; }
+.middle-content .box:last-child { background: dodgerblue; }
