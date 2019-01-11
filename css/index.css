@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,6 +66,21 @@ p {
     line-height: 1.4;
 }
 
+.map {
+	border: ;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+nav a {
+	border: ;
+	vertical-align: middle;
+	color: black;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,7 +97,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +119,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +158,82 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+	background-color: teal;
+}
+
+.box2 {
+	background-color: gold;
+}
+
+.box3 {
+	background-color: cadetblue;
+}
+
+.box4 {
+	background-color: coral;
+}
+
+.box5 {
+	background-color: crimson;
+}
+
+.box6 {
+	background-color: forestgreen;
+}
+
+.box7 {
+	background-color: darkorchid;
+}
+
+.box8 {
+	background-color: hotpink;
+}
+
+.box9 {
+	background-color: indigo;
+}
+
+.box0 {
+	background-color: dodgerblue;
+}
+
+.hea-img {
+	margin: 10px auto;
+
+}
+
+.top-a {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px auto;
+	text-align: left;
+}
+
+.bot-a {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px auto;
+	text-align: left;
+}
+
+article {
+	width: 49%;
+	border-bottom: 1px dashed black;
+}
+
+button {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 5px 10px;
+	background: white;
+	margin: 15px auto;
+}
+
+.feet {
+	background-color: white;
+	text-align: left;
+	margin: 20px auto;
 }
