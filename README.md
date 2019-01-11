@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is markup that introduces meaning to a webpage rather than presentation only. It creates a more open web regardless of a users disabilities.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Block level elements take up the full width of a webpage while inline elements only take up the horizontal space based on the box model. Examples of block level elements includes divs, heading tags and list tags. Examples of inline tags include anchor tags, the strong tag, the emphasis tag and image tags.
 
 3. What are the 4 areas of the box model?
 
+    Starting from the inside the box model consists of content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    It depends on the flex-direction property. By default flex-direction is set to row. In that example the content would be vertically centered. If the flex-direction property was set to column then the content would be centered horizontally.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is a distributed version control system. It is useful for a team of developers because each developer can clone a remote repo on their own computer. This allows a developer to modify any part of the entire code base. Typically the workflow process is that a developer will create their branch from master. They will work on building a specific feature. After the feature is built they can push their code back up to the remote repository. Then a pull request can be submitted to the master branch of the remote remote and merged by a senior engineer or DevOps specialist.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
