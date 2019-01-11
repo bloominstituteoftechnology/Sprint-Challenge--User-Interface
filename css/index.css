@@ -81,7 +81,7 @@ header {
 	justify-content: space-between;
 	margin-top: 20px;
 	flex-wrap: now-wrap;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 header .navigation {
@@ -95,14 +95,16 @@ header nav {
 	display: flex;
 	flex-direction: row;
 	width: 600px;
-	margin-left: 20px;
-  justify-content: space-evenly;
-  align-items: center;
+	margin-left: 45px;
+	margin-right: 45px;
+  justify-content: space-between;
 }
 
 header nav a {
   text-decoration: none;
-  color: black;
+	color: black;
+	font-size: 14px;
+	font-weight: 600;
 }
 
 /* ---TOP CONTENT - HOME---  */
@@ -130,7 +132,8 @@ header nav a {
 }
   
 .top-content.about-top h2{
-  align-items: left;
+	align-items: left;
+	font-weight: 600;
 }
   
 .top-content.about-top p {
@@ -227,21 +230,21 @@ background: gold;
   flex-direction: column;
   width: 360px;
   border-bottom: 2px dotted lightgray;
-  margin: 20px 0;
+  margin: 20px 0 15px;
   align-content: flex-start;
 }
 
 .main-content.about-main .text-container h2{
-  margin-top: 15px;
+  margin-top: 20px;
   font-weight: 600;
 }
   
 button {
-  width: 150px;
+  width: 130px;
   font-size: 14px;
   padding: 10px;
   border-radius: 5px;
-  margin: 25px 0;
+  margin: 20px 0;
   border: 2px solid black;
   border-radius: 8px;
   font-weight: 600;
