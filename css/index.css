@@ -234,9 +234,34 @@ footer nav a {
 .butn {
     height: 30px;
     width: 100px;
+    color: black;
     background: white;
     border: 1px solid black;
     border-radius: 5px;
 }
 
+.butn:hover {
+    animation-name: butn-hov;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards; 
+}
 
+@keyframes butn-hov {
+    100% {
+        color: white;
+        background: black;
+        font-size: 15px;
+    }
+}
+
+a:hover {
+    animation-name: a-hov;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes a-hov {
+    100% {
+        font-size: 20px;
+    }
+}
