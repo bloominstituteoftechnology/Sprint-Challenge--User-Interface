@@ -108,7 +108,21 @@ header nav a:hover {
     color:grey;
 }
 
-/* TOP CONTENT */
+/* ABOUT TOP CONTENT */
+.about-top-content {
+    /* border:1px solid red; */
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+.about-top-content img {
+    margin-bottom:20px;
+}
+.about-top-content .about-top-para {
+    padding:20px;
+}
+
+/* INDEX TOP CONTENT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -185,8 +199,12 @@ header nav a:hover {
     background: dodgerblue;
 }
 
-/* BOTTOM CONTENT */
+/* ABOUT BOTTOM CONTENT */
+.about-bottom-content {
+    padding:20px;
+}
 
+/* INDEX BOTTOM CONTENT */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
