@@ -58,17 +58,58 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    font-weight: 600;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-weight: 500;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0 35px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+nav a:last-child {
+    margin-right: 50px;
+}
+
+.logo {
+    width: 250px;
+}
+
+nav a img {
+    
+}
+
+nav figure {
+    width: 100%;
+    
 }
 
 .top-content {
