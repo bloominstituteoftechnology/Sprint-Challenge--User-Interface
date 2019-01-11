@@ -69,7 +69,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
+}
+
+/* header */
+
+header {
+    display: flex;
+    margin: 25px 0
+}
+
+header a img {
+    margin-right: 20px;
+}
+
+header nav {
+    width: 593px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+
+header nav a{
+    color: black;
+    text-decoration: none;
 }
 
 .top-content {
