@@ -90,7 +90,7 @@ header nav a {
     font-weight: 700;
 }
 
-.home-image {
+.top-image {
     padding-bottom: 20px;
 }
 
@@ -105,6 +105,13 @@ header nav a {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* About page text */
+.top-content .text-container-about {
+    width: 800px;
+    padding: 0 16px;
     padding-bottom: 20px;  
 }
 
