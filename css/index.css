@@ -286,6 +286,22 @@ header {
 } 
 
 .freeway {
-    margin-left: 110px;
-    margin-bottom: 15px;
+    /* margin-left: 110px;*/
+    
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 15px; 
+}
+
+.about {
+    /* width: 750px;
+    margin: 0 auto; */
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+.packages {
+    display: flex;
+    width: 400 px;
 }
