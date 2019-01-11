@@ -99,6 +99,7 @@ a:link {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -196,13 +197,15 @@ a:link {
 footer {
     width: 100%;
     background: black;
+    margin-top: 40px;
 }
 
 footer nav {
     width: 60%;
+    height: 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: flex-start;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -210,4 +213,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:link {
+    text-decoration: none;
+    color: white;
 }

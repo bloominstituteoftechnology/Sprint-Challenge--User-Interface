@@ -26,6 +26,10 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
+
+
+##**************QUESTIONS ARE ANSWERED BELOW**********************
+
 ## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
@@ -34,13 +38,45 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is written with meaning. It is tags such as <section>, <header>, <footer>, and <nav>, which explain what the contained content is.  Search engines look for meaning and can find that in semantic tags. 
+
+    Semantic HTML does not include tags like <div> which do not convey any meaning. Search engines cannot get meaning from classes and require a meaningful tag for readers and accessibility.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    display: block --
+        This display option has some white space above and below and is shown as a block like a header or paragraph. This display style will not allow HTML elements next to it unless specifically coded to do so. It will be as big or small as it’s parent element allows and will break the flow of content, creating a new line. Traits such as height and width can be used to control this behavior. 
+
+    display: inline -- 
+        This display is a part of the box model. It only takes up the space of its content and will not be affected by traits such as “height” or “width”. It allows for elements to be nested within other elements while not interrupting the content flow. <span> is an example of this display.
+
+
 
 3. What are the 4 areas of the box model?
 
+    Margin - creates a transparent space outside of the box border. 
+    Border - surrounds the content and padding, and can be colored or styled.
+    Padding - creates a transparent space between the border and content. 
+    Content - the innermost part of the box that contains images and text.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    This aligns items to the center on the cross-axis, which is the vertical axis running perpendicular to the main-axis.
+    
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is a form of version control that allows multiple team members to work on one project at the same time without the need to manually merge all versions into one. All versions of the project can be saved individually and added the main project (repo) as needed. 
+
+    Git uses a master version (repo) that can be forked and branched. This will prevent many people from changing the master at the same time, causing confusion. 
+
+    A fork will create your own version of the main repo locally (on your computer). This will allow you to make changes without hurting anything on the main repo.
+
+    Branching allows the user to create another local “fork” from the actual fork. This will prevent the user from doing any damage to the fork while working on changes in the branch. The user can make sure all changes are working on the branch before merging it to the fork. A pull request (PR) can be made specifically for the branch so a project manager (PM) can decide to merge it with the main repo, or mention and further changes that need to be made before a merge. 
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
