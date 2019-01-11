@@ -143,6 +143,8 @@ header nav a:hover {
     justify-content: space-evenly;
 }
 
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -153,12 +155,48 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box .one {
+    background: teal;
+}
+.middle-content .boxes .box .two {
+    background: gold
+}
+
+.middle-content .boxes .box .three {
+    background: cadetblue;
+}
+.middle-content .boxes .box .four {
+    background: coral;
+}
+.middle-content .boxes .box .five {
+    background: crimson;
+}
+.middle-content .boxes .box .six {
+    background: forestgreen;
+}
+.middle-content .boxes .box .seven {
+    background: darkorchid;
+}
+.middle-content .boxes .box .eight {
+    background: hotpink;
+}
+
+.middle-content .boxes .box .nine {
+    background: indigo;
+}
+.middle-content .boxes .box .ten {
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
+
+
+
 
 .bottom-content .text-container {
     padding-right: 4%;
