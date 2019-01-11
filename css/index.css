@@ -167,6 +167,46 @@ nav figure {
     padding-right: 0;
 }
 
+.description {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.sectiongrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-section {
+    width: 47%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.about-section h2{
+    padding-top: 12px;
+}
+
+.about-section p {
+    margin-bottom: 30px;
+}
+
+.about-section a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    border: 3px solid black;
+    border-radius: 12px;
+    font-weight: 900;
+}
+
+summary {
+    margin-bottom: 40px;
+}
+
 footer {
     width: 100%;
     background: black;
