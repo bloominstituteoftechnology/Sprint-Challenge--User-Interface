@@ -95,10 +95,6 @@ header nav a{
     text-decoration: none;
 }
 
-.jumbo-img, .jumbo-about {
-    margin-bottom: 20px;
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -211,4 +207,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page */
+
+.about-top-content {
+    margin-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+.about-text-container {
+    width: 45%;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-text-container img {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.about-text-container button {
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 6px 20px;
+    margin-top: 15px;
+}
+
+.bottom-content {
+    margin: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
