@@ -88,6 +88,7 @@ header nav a {
     align-self: center;
     flex-grow: 1;
     font-family: cursive;
+    text-decoration: none;
     
     
     
@@ -249,7 +250,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height-line: 1.3px;
+    height-line: 1.2px;
     
     border-bottom: 1px dash black;
     
@@ -263,7 +264,7 @@ footer nav a {
 
 .about-content .about-text {
     border-bottom: 1px dash black;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     margin-bottom: 20px
 }
 
@@ -271,7 +272,7 @@ footer nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     border-top: 1px dash black;
     margin: 0 auto;
@@ -279,20 +280,23 @@ footer nav a {
 }
 
 .strategy-content {
-    padding: 20px;
+    padding: 10px;
     
     width: 49%;
     background:white;
     margin: 20px 0;
     border-bottom: 1px dash black;
+    
 }
+
 
 .how {
     padding: 20px;
-    border: 1px solid white;
+    
     width: 49%;
     background: white;
     margin: 20px 0;
+    align-self: center;
 }
 
 .places {
