@@ -66,9 +66,30 @@ p {
     line-height: 1.4;
 }
 
+.navigation {
+    max-width: 100%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 4%;
+    color: black;
+}
+
+.nav-logo {
+    padding-right: 30px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.header-image {
+    padding-bottom: 40px;
+    max-width: 100%;
 }
 
 .top-content {
