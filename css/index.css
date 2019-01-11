@@ -144,3 +144,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {
+    position: fixed;
+    top: relative;
+    left: relative;
+    width: 100%;
+
+}
