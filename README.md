@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Programming "language" is an attempt to make machine code human readable. It is an abstraction. In HTML5 makes another one. It attempts to describe a web page's different parts while still defining it's layout. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display:block cover the width of the page with it's content overflow going out the bottom of the block. Display:inline is the default behaviour of elements like span, displaying on a single line within the block.
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding, content; 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The Cross axis of the current line.. aka baseline. 
+
 5. Explain why git is valuable to a team of developers.
+
+It facilitates collaboration by allowing succesive revisons of a project to be tracked, edited and rolled back if need be. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
