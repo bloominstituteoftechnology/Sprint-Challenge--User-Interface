@@ -253,3 +253,23 @@ footer nav a {
 	padding: 10px 20px;
     font-size: 15px;
 }
+
+/* About page bottom section */
+.about-bottom-content {
+    margin: 20px 20px 30px;
+}
+
+.about-footer {
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#blog {
+    margin-left: 10px;
+}
+
+.about-footer a {
+    width: 100px;
+    color: rgba(255, 255, 255, 0.75);
+}
