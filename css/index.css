@@ -185,9 +185,31 @@ header nav a {
 
 /* About page */
 .learn-content {
+    height: 850px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: space-between;
+}
+
+section.top-content div.text-container-about.bottom {
+    border-bottom: none;
+    margin-top: 20px;
+}
+
+.learn-content .learn-text {
+    width: 400px;
+    padding: 0 1%;
+    border-bottom: 1px dashed black;
+}
+
+.learn-content .learn-text button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 8px 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .bottom-content {
@@ -221,4 +243,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.bottom-content-about {
+    width: 98%;
+    padding: 20px 1%;
+    padding-bottom: 20px;  
 }
