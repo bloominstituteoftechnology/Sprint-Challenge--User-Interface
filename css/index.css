@@ -76,7 +76,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
@@ -170,10 +170,10 @@ a{
 	border: dashed red 1px;
 	justify-content: flex;
 	align-items: center ;
-	border-bottom: solid black 1px;
+	border-bottom: dashed black 1px;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
-	border-top: solid black 1px;
+	border-top: dashed black 1px;
 	padding-top: 15px;
 	margin-top: 15px;
 }
