@@ -88,65 +88,55 @@ p {
     margin: 0 auto;
 }
 
-.container-about-info {
+.contactform-about-info {
     width: 750px;
     margin: 0 auto;
 }
 
-.about {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    border-bottom: 1px dashed black;
-}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 2px solid rgb(226, 33, 33); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
 
-#title-p {
-    line-height: 1.4;
-    max-width: 100%;
-}
-
-.learn-content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 723px;
-    height: 912px;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-}
-
-.learn-content .box img {
-    padding-bottom: 20px;
-}
-
-.learn-content .box p {
-    font-size: 15px;
-    max-width: 100%;
-    padding-bottom: 20px;
-}
-
-.box {
-    max-width: 45%;
-    padding-bottom: 20px;
-    padding-top: 50px;
-    border-bottom: 1px dashed black;
-}
-
-button {
-    background-color: white;
-    border: 1.5px solid black;
+  input[type=submit]:hover {
+    background-color: #e71818;
+  }
+  
+  .contactform {
     border-radius: 5px;
-    height: 40px;
-    width: 120px;
-}
+    padding: 20px;
+  }
 
-.closing {
-    padding-top: 10%;
-    padding-bottom: 30px;
-}
+
+
+
+
+
 
 footer {
-    width: 100%;
+    width: 50%;
     background: black;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
+    margin: 0 auto;
 }
 
 footer nav {
