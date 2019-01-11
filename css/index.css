@@ -67,8 +67,42 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 20px;
+	flex-wrap: now-wrap;
+	padding-bottom: 30px;
+}
+
+header .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 40px;
+}
+
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	margin-left: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav a {
+	/* font-size: 14px; */
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
@@ -112,6 +146,43 @@ p {
     justify-content: center;
 }
 
+/* ---BOXES--- */
+
+.middle-content .boxes .box.one {
+    background: teal;
+  }
+  
+  .middle-content .boxes .box.two {
+    background: gold;
+  }
+  
+  .middle-content .boxes .box.three {
+    background: cadetblue;
+  }
+  .middle-content .boxes .box.four {
+    background: coral;
+  }
+  .middle-content .boxes .box.five {
+    background: crimson;
+  }
+  .middle-content .boxes .box.six {
+    background: forestgreen;
+  }
+  .middle-content .boxes .box.seven {
+    background: darkorchid;
+  }
+  .middle-content .boxes .box.eight {
+    background: hotpink;
+  }
+  .middle-content .boxes .box.nine {
+    background: indigo;
+  }
+  .middle-content .boxes .box.ten {
+    background: dodgerblue;
+  }
+
+  /* ---------- */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +215,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ---ABOUT PAGE--- */
+
+.top-content.about-top {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top-content.about-top h2{
+    align-items: left;
+  }
+  
+  .top-content.about-top p {
+    padding-bottom: 20px;
+    margin:0
+  }
+  
+  .bottom-content.about-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content.about-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  
+  .main-content.about-main .text-container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border-bottom: 2px dotted lightgray;
+    margin: 20px 0;
+    align-content: flex-start;
+  }
+
+  .main-content.about-main .text-container h2{
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  button {
+    width: 150px;
+      font-size: 14px;
+      padding: 10px;
+      border-radius: 5px;
+    margin: 25px 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: 2px 2px 22px 4px lightgrey;
+    background: #1b1d1b;
+    color: white;
+  }
+  
+  .bottom-content.about-bottom {
+    margin: 20px 20px 60px 20px;
+  }
