@@ -37,7 +37,6 @@
 
 #### It controls alignment of all items on the cross axis.
 
-
 5. What is the git command to commit staged changes as well as write a message? 
 
 $ git commit -m "insert meaningful comment"

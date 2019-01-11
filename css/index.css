@@ -135,16 +135,17 @@ nav a {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .hero-banner{
+.text-container{
+    width: 47%;
     margin-bottom: 20px;
 }
 
-.text-container p{
+.top-content .hero-banner{
     margin-bottom: 20px;
 }
 
@@ -290,4 +291,5 @@ footer nav a {
     text-decoration: none;
 }
 
-/* Another page here ?*/
+/* contact.html */
+
