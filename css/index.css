@@ -198,8 +198,8 @@ section.top-content div.text-container-about.bottom {
 }
 
 .learn-content .learn-text {
-    width: 400px;
-    padding: 0 1%;
+    width: 370px;
+    margin: 0 1px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -246,7 +246,7 @@ footer nav a {
 }
 
 .bottom-content-about {
-    width: 98%;
-    padding: 20px 1%;
+    width: 800px;
+    padding: 20px 2%;
     padding-bottom: 20px;  
 }
