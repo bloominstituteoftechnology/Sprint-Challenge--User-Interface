@@ -34,11 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+At their core, semantic HTML elements have a dual function; they tell the browser _what content to show_ and tell search engines and other machines _what the content is_. Normal HTML tags like a `<p>` or `div` tell the browser what to show (and gives us a nice way way of styling and manipulating them), but they don't tell us exactly what's _in_ the tag. Think of it as a way to add further meaning to your HTML tags.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are:
+..* The content. This would you HTML elements like `<p>`, `<div>` or `<body>`. Think of it as the canvas itself in a framed painting.
+..* The padding. This is the area between the content itself and the border that surrounds it. To use the painting analogy, it's the space that's left between the canvas and the frame.
+..* The border. Most elements like `<button>` often have a border to denote their boundaries. For the painting, this would be the frame itself.
+..* Finally, there's the margins. This is the empty space around the border between it and the other elements on the page. For our painting, this would be the empty space between the paintings.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+`align items: center;` works on the cross-axis. However, it's not possible to simply state that it works on the _horizontal_ or _vertical_ axis. Depending on your `flex-direction`, the axes can flip, which would make the cross-axis (which is the vertical axis when using `flex-direction: row;` - the default) horizontal, when using `flex-direction: column; `. 
 
 5. Explain why git is valuable to a team of developers.
 
