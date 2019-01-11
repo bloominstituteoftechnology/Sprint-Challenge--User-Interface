@@ -164,7 +164,19 @@ header nav a:hover {
     border-radius: 10px;
     padding:10px;
     font-weight: bold;
+
+    animation-name: button;
+	animation-duration: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
 }
+@keyframes button {
+	0%   {background-color:orange;}
+	25%  {border-color:red;}
+	50%  {border-color:black;}
+	75%  {border-color:yellow;}
+	100% {border-color:red;}
+  }
 
 /* HOME PAGE MIDDLE CONTENT */
 .middle-content {
