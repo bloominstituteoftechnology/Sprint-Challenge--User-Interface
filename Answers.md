@@ -38,7 +38,6 @@
 #### It controls alignment of all items on the cross axis.
 
 5. What is the git command to commit staged changes as well as write a message? 
-
-$ git commit -m "insert meaningful comment"
+##$ git commit -m "insert meaningful comment"##
 
 #### Git is crucial as developers use it to store projects and keep track of real-time changes to their files, it makes a collaborative work between teams. Let's say a group of developers uploads code to git and other developers can access and edit it. With that said, it is to avoid confusion with having multiple people work on the same file at the same time.
