@@ -118,6 +118,7 @@ nav a {
 
 .top-content {
     margin-top: 20px;
+    padding: 0 10px;
     font-size: var(--font-size);
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -164,3 +165,15 @@ nav a {
     border: 2px solid black;
     border-radius: 7px;
 }
+
+/* ========================== Bottom Content ========================== */
+
+
+.bottom-content {
+    margin-top: 30px;
+    font-size: var(--font-size);
+    padding: 0 10px;
+}
+
+/* ========================== Footer ========================== */
+
