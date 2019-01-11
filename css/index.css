@@ -75,7 +75,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 .nav .nav-bar {
@@ -130,6 +130,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -162,4 +202,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.abtpg-top-content {
+    height: 300px;
+}
+
+.abtpg-top-content img, h2 {
+    padding-bottom: 10px;
+}
+
+.abtpg-middle-content {
+    margin: 50px 0;
+    padding: 50px 0;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abtpg-midblox {
+    align-content: space-between;
+    height: 420px;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.abtpg-midblox img, h2, p {
+    padding-bottom: 10px;
+}
+
+.butn {
+    height: 30px;
+    width: 100px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 
