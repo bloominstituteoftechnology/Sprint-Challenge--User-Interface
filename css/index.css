@@ -74,7 +74,7 @@ p {
 
 .navigation a {
     text-decoration: none;
-    padding: 4%;
+    padding-right: 8%;
     color: black;
 }
 
@@ -125,13 +125,13 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: rgb(11, 137, 255);
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 
 .bottom-content {
