@@ -164,10 +164,11 @@ a{
 
 .fluidcontainer{
 	display: flex;
-	
-	height: 800px;
-	flex-direction: column;
-	justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+	height: auto;
+	border: dashed red 1px;
+	justify-content: flex;
 	align-items: center ;
 	border-bottom: solid black 1px;
 	padding-bottom: 15px;
@@ -175,4 +176,20 @@ a{
 	border-top: solid black 1px;
 	padding-top: 15px;
 	margin-top: 15px;
+}
+
+.infobox{
+    width: 400px;
+    height: auto;
+    border: dashed red 1px;
+    padding: 20px 0px;
+    margin: 0px 20px;
+}
+
+button{
+    border: solid black 2px;
+    border-radius: 10px;
+    box-shadow: 2px 0px 1px 3px;
+    margin: 10px 0px;
+    padding: 10px;
 }
