@@ -144,3 +144,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.index-nav a {
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 35px;
+}
+
+#index-header-img {
+    margin: 20px 0;
+    width: 100%
+}
