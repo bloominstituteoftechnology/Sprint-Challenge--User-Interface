@@ -166,10 +166,9 @@ a{
 	display: flex;
 	
 	height: 800px;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	align-items: center ;
-	flex-wrap: wrap;
 	border-bottom: solid black 1px;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
