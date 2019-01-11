@@ -236,7 +236,7 @@ header nav a:hover {
        border-top: 1px dotted black;
    }
 
-   .bottom-content, .together {
+   .about-bottom-content {
        margin: 20px 0 20px 0;
    }
    
@@ -247,6 +247,8 @@ header nav a:hover {
        margin: 5px 0 30px 0;
        border-bottom: 1px dotted black;
    }
+
+
 
    button {
        border: 1px solid black;
