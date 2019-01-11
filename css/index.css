@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container-about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -78,6 +78,11 @@ header {
 header nav a {
     padding: 20px;
     margin: 0 45px 0 25px;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    color: red;
 }
 
 .top-content {
@@ -194,3 +199,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    font-weight: bold; 
+    color: red;
+}
+
+/* --About Page-- */
+
+
