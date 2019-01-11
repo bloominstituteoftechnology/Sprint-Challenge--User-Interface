@@ -119,7 +119,7 @@ nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -198,4 +198,8 @@ footer nav a {
 
 .box0 {
 	background-color: dodgerblue;
+}
+
+.hea-img {
+	margin: 10px auto;
 }

@@ -58,12 +58,12 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [ x ] Create a forked copy of this project.
+- [ x ] Add PM as collaborator on Github.
+- [ x ] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [ x ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [ x ] Implement the project on this Branch, committing changes regularly.
+- [ x ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -81,21 +81,21 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ x ] Build the HTML and CSS to create the missing navigation and header.
+* [ x ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ x ] box1: `teal`
+* [ x ] box2: `gold`
+* [ x ] box3: `cadetblue`
+* [ x ] box4: `coral`
+* [ x ] box5: `crimson`
+* [ x ] box6: `forestgreen`
+* [ x ] box7: `darkorchid`
+* [ x ] box8: `hotpink`
+* [ x ] box9: `indigo`
+* [ x ] box10: `dodgerblue`
 
 ### About Page
 
