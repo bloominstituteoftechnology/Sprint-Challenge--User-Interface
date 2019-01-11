@@ -155,11 +155,12 @@ footer nav a {
 nav{
     display: inline-flex;
     justify-content: space-evenly;
-    border: solid black 1px;
+ 
 }
 
 a{
     margin: 20px;
+    color: gray;
 }
 
 .fluidcontainer{
