@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: rgb(11, 137, 255);
     margin: 20px 2.5%;
     color: white;
     display: flex;
