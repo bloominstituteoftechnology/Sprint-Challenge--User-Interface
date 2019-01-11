@@ -299,7 +299,7 @@ footer nav a {
 }
 
 button {
-  border-color: 2px solid black;
+  border-color: 5px solid black;
   border-radius: 8px;
   background-color: white;
   color: black;
@@ -309,6 +309,7 @@ button {
   cursor: pointer;
   font-size: 16px;
   width: 40%;
+  margin-top: 20px;
   
 }
 
