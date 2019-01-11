@@ -221,3 +221,35 @@ footer nav a {
     font-weight: 600;
     width: 100%;
 }
+
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* About page cards */
+.card {
+    width: 45%;
+    margin: 20px;
+    font-weight: 600;
+    border-bottom: 1.25px dashed black;
+}
+
+.about-cards .card img {
+    margin: 20px 0;
+}
+
+.about-cards .card h2 {
+    font-weight: 600;
+}
+
+.about-cards .card button {
+    margin: 20px 10px 20px 0;
+	border-radius:10px;
+	border: 1.5px solid black;
+	display: inline-block;
+	font-weight: bold;
+	padding: 10px 20px;
+    font-size: 15px;
+}
