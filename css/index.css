@@ -165,10 +165,10 @@ a{
 .fluidcontainer{
 	display: flex;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 900px;
 	height: auto;
-	border: dashed red 1px;
-	justify-content: flex;
+
+	justify-content: center;
 	align-items: center ;
 	border-bottom: dashed black 1px;
 	padding-bottom: 15px;
@@ -181,7 +181,7 @@ a{
 .infobox{
     width: 400px;
     height: auto;
-    border: dashed red 1px;
+    
     padding: 20px 0px;
     margin: 0px 20px;
 }
