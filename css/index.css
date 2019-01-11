@@ -73,16 +73,18 @@ p {
 }
 
 header {
+    display: flex;
+   align-content: flex-end;
     width: 880px;
+   
 }
 
+
 header nav a {
-    padding: 20px;
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     color: black;
     font-weight: bold;
-    margin: 0 45px 0 25px;
 }
 
 header nav a:hover {
@@ -103,6 +105,9 @@ header nav a:hover {
     padding: 0 1%;
     margin-top: 15px;
     padding-bottom: 20px;  
+}
+.about-intro {
+    width: 880px;
 }
 
 .middle-content {
@@ -132,46 +137,44 @@ header nav a:hover {
     justify-content: center;
 }
 
-#box1 {
+.middle-content .boxes .box1 {
     background:teal;
 }
 
-#box2 {
+.middle-content .boxes .box2 {
     background:gold;
 }
 
-#box3 {
+.middle-content .boxes .box3 {
     background:cadetblue;
 }
 
-#box4 {
+.middle-content .boxes .box4 {
     background:coral;
 }
 
-#box5 {
+.middle-content .boxes .box5 {
     background:crimson;
 }
 
-#box6 {
+.middle-content .boxes .box6 {
     background:forestgreen;
 }
-#box7 {
+.middle-content .boxes .box7 {
     background:darkorchid;
 }
 
-#box8 {
+.middle-content .boxes .box8 {
     background:hotpink;
 }
 
-#box9 {
+.middle-content .boxes .box9 {
     background:indigo;
 }
 
-#box10 {
+.middle-content .boxes .box10 {
     background:dodgerblue;
 }
-
-
 
 .bottom-content {
     display: flex;
@@ -229,33 +232,39 @@ header nav a:hover {
 	cursor: pointer;
 }
 .about-middle-content {
-       display: flex;
-       flex-wrap: wrap;
-       margin-top: 50px;
-       padding-top: 30px;
-       border-top: 1px dotted black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 880px;
+    margin: 5px;
+    padding-top: 30px;
+    border-top: 1px dotted black;
    }
 
-   .about-bottom-content {
-       margin: 20px 0 20px 0;
+.about-bottom-content {
+    margin: 20px 0 20px 0;
+    width: 880px;
    }
    
-   .about-text {
-       width: 400px;
-       height: 450px;
-       padding: 25px;
-       margin: 5px 0 30px 0;
-       border-bottom: 1px dotted black;
+.about-text {
+    width: 400px;
+    height: 450px;
+    padding: 25px;
+    margin: 5px 0px 30px 15px;
+    border-bottom: 1px dotted black;
    }
 
-
-
-   button {
-       border: 1px solid black;
-       border-radius: 5px;
-       height: 30px;
-       width: 100px;
-       background: white;
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background: white;
    }
+
+button:hover {
+    background: gray; 
+    color: white;
+    font-weight: bold;
+}
    
    

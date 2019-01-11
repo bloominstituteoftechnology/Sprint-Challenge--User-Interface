@@ -53,7 +53,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
-    Git is valuable because of its branching capabilities.  It allows members of a team to make changes to a document in an isolated environment without altring the original document.
+    Git is valuable because of its branching capabilities.  It allows members of a team to make changes to a document in an isolated environment without altering the original document.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
