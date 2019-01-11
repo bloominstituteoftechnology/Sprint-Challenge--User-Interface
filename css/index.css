@@ -273,3 +273,67 @@ footer nav a {
     width: 100px;
     color: rgba(255, 255, 255, 0.75);
 }
+
+/* Contact Us Form */
+
+.contact-top-content h1 {
+    font-size: 2rem;
+    margin: 25px 0;
+}
+.contact-top-content h2 {
+    font-size: 1.125rem;
+    margin: 15px 0;
+}
+
+body .form-container {
+	line-height:30px;
+	color:#777;
+}
+
+.form-container {
+	max-width:700px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font-size: 14px; }
+
+#contact {
+	background:rgba(0, 0, 0, .05);
+	padding:20px;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+
+fieldset {
+	margin: 0x 0 10px;
+	min-width: 100%;
+	padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+    border:1px solid #CCC;
+    border-radius: 10px;
+	background:#FFF;
+	margin: 5px 0;
+	/* padding:10px; */
+}
+
+
+#contact textarea {
+    height:125px;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(92, 123, 247);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
