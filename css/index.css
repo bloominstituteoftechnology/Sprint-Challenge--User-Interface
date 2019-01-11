@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+/* Header and Navigation */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav img {
+    padding-bottom: 20px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.top-image {
+    padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +105,13 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* About page text */
+.top-content .text-container-about {
+    width: 800px;
+    padding: 0 16px;
     padding-bottom: 20px;  
 }
 
@@ -110,6 +140,76 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Changing box colors */
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background: dodgerblue;
+}
+
+/* About page */
+.learn-content {
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+section.top-content div.text-container-about.bottom {
+    border-bottom: none;
+    margin-top: 20px;
+}
+
+.learn-content .learn-text {
+    width: 370px;
+    margin: 0 1px 0;
+    border-bottom: 1px dashed black;
+}
+
+.learn-content .learn-text button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 8px 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .bottom-content {
@@ -143,4 +243,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.bottom-content-about {
+    width: 800px;
+    padding: 20px 2%;
+    padding-bottom: 20px;  
 }
