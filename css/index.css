@@ -301,7 +301,35 @@ header {
     margin-bottom: 25px;
 }
 
+.packagesof2 {
+    display:flex;
+    width: 800px;
+}
+
 .packages {
-    display: flex;
-    width: 400 px;
+    /* display: flex; */
+    /* width: 50%; */
+    padding-bottom: 15px;
+    border-bottom: 2px dotted black;
+}
+
+.images {
+    /* display: inline-block; */
+    width: 375px;
+    /* border: solid black; */
+    margin: 10px 0;
+}
+
+.learnmore {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px 0;
+    width: 110px;
+
+}
+
+.outro {
+    margin: 30px 0;
+
 }
