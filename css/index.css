@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+/*******Added missing nav bar css**************/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: baseline;
+    width: 95%;
+    height: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    font-size: 14px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+/**********************************************/
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
