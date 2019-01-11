@@ -318,3 +318,7 @@ button {
     font-weight: 600;
     cursor: pointer;
 }
+
+hr{
+	border-top: 1px dashed;
+}
