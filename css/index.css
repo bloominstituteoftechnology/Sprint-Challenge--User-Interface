@@ -82,7 +82,7 @@ header nav a {
     flex-basis: 1 1 20px;
     padding: 30px;
     color: black;
-    border: 1px solid red;
+    
     
 }
 
@@ -96,7 +96,7 @@ header nav a:hover {
     margin: 28px 0 0 25px;
     padding-right: 20px;
     padding-left: 0;
-    border: 1px solid red;
+   
 
 }
 
@@ -155,36 +155,36 @@ header nav a:hover {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box .one {
+.middle-content .boxes .one {
     background: teal;
 }
-.middle-content .boxes .box .two {
+.middle-content .boxes .two {
     background: gold
 }
 
-.middle-content .boxes .box .three {
+.middle-content .boxes .three {
     background: cadetblue;
 }
-.middle-content .boxes .box .four {
+.middle-content .boxes  .four {
     background: coral;
 }
-.middle-content .boxes .box .five {
+.middle-content .boxes .five {
     background: crimson;
 }
-.middle-content .boxes .box .six {
+.middle-content .boxes  .six {
     background: forestgreen;
 }
-.middle-content .boxes .box .seven {
+.middle-content .boxes .seven {
     background: darkorchid;
 }
-.middle-content .boxes .box .eight {
+.middle-content .boxes .eight {
     background: hotpink;
 }
 
-.middle-content .boxes .box .nine {
+.middle-content .boxes .nine {
     background: indigo;
 }
-.middle-content .boxes .box .ten {
+.middle-content .boxes .ten {
     background: dodgerblue;
 }
 
@@ -224,3 +224,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ---------------------container about page------------------- */
+
+
+
