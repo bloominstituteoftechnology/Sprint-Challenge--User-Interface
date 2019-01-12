@@ -145,25 +145,25 @@ footer nav a {
     text-decoration: none;
 }
 
-.top-header {
-    width: 800px;
+nav .nav-top {
     display: flex;
+    align-content: flex-end;
+    width: 800px;
     margin: 0 0 20px 0;
-}
+    justify-content: space-between;
+} 
 
-.nav-top {
-    width: 800px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-
-}
 .nav-top a {
     font-size: 15px;
     color: grey;
-    margin: 0 auto;
-    text-decoration: none;
-     
+    text-decoration: none;    
+}
+
+.menu {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
 }
 
 #box1 {
@@ -206,14 +206,6 @@ footer nav a {
     background: dodgerblue;
 }
 
-.about-content p {
-    display: flex;
-    font-size: 12px;
-    font-weight: bold;
-    border: 0 0 1px 0 solid black;
-
-
-}
 
 .about {
     width: 480;
@@ -221,16 +213,88 @@ footer nav a {
     flex-direction: column;
 }
 
-.strategy { 
-    width: 480;
-    display: flex;
-    flex-direction: column;  
-}
-
-.strategy-content p {
+.about-content p {
     display: flex;
     font-size: 12px;
     font-weight: bold;
-    border: 0 0 1px 0 solid black;    
+    border: 0 0 1px 0 solid black;
 }
 
+.boxes {
+    width: 800;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+.Strategy { 
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Strategy img {
+    border-top:  1px  dashed rgb(0,0,0);
+    padding: 20px;
+}
+
+.Strategy-button {
+    width: 100px;
+    border-radius: 25px;
+}
+
+.How {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.How img {
+    border-top: 1px dashed rgb(0,0,0);
+    padding: 20px;
+}
+
+.How-button {
+    width: 100px;
+    border-radius: 25px;
+}
+
+.Places {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Places img {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.Places button {
+    width: 100px;
+    border-radius: 25px;  
+}
+
+.Collaboration {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 
+}
+
+.Collaboration img {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.Collaboration button {
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    
+}
+
+#Summary {
+    padding: 20px;
+}
