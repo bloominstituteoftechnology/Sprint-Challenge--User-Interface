@@ -86,6 +86,11 @@ header nav {
 header nav a {
     margin-top: 46px;
     margin: 47px 73px 17px 0;
+    color: black;
+    background:rgb(236, 231, 231);
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
 }
 
 .logo {
@@ -285,3 +290,11 @@ button {
     margin-bottom: 4px;
 }
 
+header nav a {
+    color: black;
+    background:rgb(236, 231, 231);
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 54px;
+}
