@@ -233,13 +233,28 @@ nav .nav-top {
     
 }
 .Strategy img {
-    border-top:  1px  dashed rgb(0,0,0);
-    padding: 20px;
+   padding: 20px;
+    margin: 10px;
 }
 
 .Strategy-button {
     width: 100px;
     border-radius: 25px;
+    margin: 10px;
+}
+
+.Strategy p {
+    /* width: 400;
+    display: flex;
+    justify-content: center;*/
+    width: 80%;
+    margin: 20px;      
+}
+
+.Strategy h4 {
+    width: 80%;
+    margin: 20px;   
+    
 }
 
 .How {
@@ -249,15 +264,25 @@ nav .nav-top {
 }
 
 .How img {
-    border-top: 1px dashed rgb(0,0,0);
     padding: 20px;
+    margin: 10px;
 }
 
 .How-button {
     width: 100px;
     border-radius: 25px;
+    margin: 10px;
 }
 
+.How h4 {
+    width: 80%;
+    margin: 20px;   
+}
+
+.How p {
+    width: 80%;
+    margin: 20px;   
+}
 .Places {
     width: 400px;
     display: flex;
@@ -265,36 +290,60 @@ nav .nav-top {
 }
 
 .Places img {
-    border-top: 1px dashed black;
-    border-bottom: 1px dashed black;
     padding: 20px;
+    margin: 10px;
+    border-top: 1px dashed black;
 }
 
 .Places button {
     width: 100px;
-    border-radius: 25px;  
+    border-radius: 25px;
+    margin: 10px; 
 }
 
+.Places p {
+    width: 80%;
+    margin: 20px;
+}
+.Places h4 {
+    width: 80%;
+    margin: 20px;   
+}
 .Collaboration {
     width: 400px;
     display: flex;
-    flex-direction: column;
-    padding: 
+    flex-direction: column;   
 }
 
 .Collaboration img {
-    border-top: 1px dashed black;
-    border-bottom: 1px dashed black;
     padding: 20px;
+    margin: 10px;
+    border-top: 1px dashed black;
 }
 
 .Collaboration button {
     width: 100px;
-    margin-bottom: 10px;
     border-radius: 25px;
-    
+    margin: 10px;    
+}
+
+.Collaboration p {
+    width: 80%;
+    margin: 20px;   
+}
+
+.Collaboration h4 {
+    width: 80%;
+    margin: 20px;   
 }
 
 #Summary {
-    padding: 20px;
+   width: 100%;
 }
+
+hr {
+    border-style: dashed;
+    width: 100%;
+}
+
+
