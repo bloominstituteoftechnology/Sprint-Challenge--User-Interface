@@ -89,7 +89,7 @@ p {
     color: black;
 }
 
-.top-content {
+.home .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -207,7 +207,7 @@ footer nav a {
     height: 300px;
 }
 
-.abtpg-top-content img, h2 {
+.about-page .top-content img, h2 {
     padding-bottom: 10px;
 }
 
@@ -262,6 +262,7 @@ a:hover {
 
 @keyframes a-hov {
     100% {
+        position: ;
         font-size: 20px;
     }
 }
