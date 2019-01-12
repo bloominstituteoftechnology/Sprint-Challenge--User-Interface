@@ -72,11 +72,11 @@ p {
     margin: 0 auto;
 }
 
-header {
+header nav{
     display: flex;
-   align-content: flex-end;
-    width: 880px;
-   
+    align-items: flex-end;
+    height: 60px;
+    width: 880px;  
 }
 
 
@@ -190,7 +190,7 @@ header nav a:hover {
 }
 
 footer {
-    width: 100%;
+    width: 105%;
     background: black;
 }
 
@@ -269,5 +269,6 @@ button:hover {
     color: white;
     font-weight: bold;
 }
+
    
    
