@@ -72,7 +72,7 @@ p {
     margin: 0 auto;
 }
 
-header nav{
+header nav {
     display: flex;
     align-items: flex-end;
     height: 60px;
@@ -252,7 +252,7 @@ header nav a:hover {
     width: 400px;
     /* height: 450px; */
     padding: 25px;
-    margin: 5px 0px 30px 10px;
+    margin: 5px 10px 30px 15px;
     border-bottom: 1px dotted black;
    }
 
