@@ -231,11 +231,14 @@ header nav a:hover {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+.about-middle-content img {
+    width: 100%;
+}
 .about-middle-content {
     display: flex;
     flex-wrap: wrap;
     width: 880px;
-    margin: 5px;
     padding-top: 30px;
     border-top: 1px dotted black;
    }
@@ -247,9 +250,9 @@ header nav a:hover {
    
 .about-text {
     width: 400px;
-    height: 450px;
+    /* height: 450px; */
     padding: 25px;
-    margin: 5px 0px 30px 15px;
+    margin: 5px 0px 30px 10px;
     border-bottom: 1px dotted black;
    }
 
