@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    I would tell them that semantic HTML is HTML markup that adds meaning to a webpage rather than just presentation (ie.: <header>, <section>, <p>)
+    I would tell them that semantic HTML is HTML markup that adds meaning to a webpage rather than just presentation (ie.: <header>, <section>, <p>).  It also contributes to search engine optimization and aids accessibility.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
