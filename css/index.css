@@ -106,7 +106,7 @@ header nav a:hover {
     margin-top: 15px;
     padding-bottom: 20px;  
 }
-.about-intro {
+.about-intro, .contact-intro {
     width: 880px;
 }
 
