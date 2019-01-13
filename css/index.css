@@ -67,7 +67,7 @@ p {
     line-height: 1.4;
 }
 
-.container, .container-about-page {
+.container, .container-about-page, .container-contact-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -232,13 +232,13 @@ header nav a {
 
 header nav a:hover {
 	color: red;
-	font-weight: bold;
+    font-weight: bold;
+    background: black;
 	cursor: pointer;
 }
 
 .top-image {
-    border: 3px solid deeppink;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .about-image {
     margin-top: 100px;
@@ -284,8 +284,8 @@ button:hover {
     background: gray; 
     color: white;
     font-weight: bold;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
-   
+
    
