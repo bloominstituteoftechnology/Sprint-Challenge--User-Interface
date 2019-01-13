@@ -50,6 +50,12 @@ table {
 * {
     box-sizing: border-box;
 }
+.header {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: 
+}
 
 html, body {
     height: 100%;
@@ -69,6 +75,20 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
+}
+.layer1 {
+    margin: 0
+}
+.header {
+    display: flex ;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav{
+    display: inline-block;
+    justify-content: space-evenly;
 }
 
 .top-content {
@@ -81,13 +101,15 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 10 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
+    padding: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    box-sizing: border-box;
 }
 
 .middle-content h2 {
@@ -143,4 +165,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.pic {
+    margin: 10px;
+}
+.text-container {
+    padding: 10px;
+    margin: 10px;
+}
+.level2 {
+    margin: 10px;
 }
