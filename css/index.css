@@ -216,6 +216,7 @@ footer nav a:hover {
 /* --About Page-- */
 
 header {
+    /* border: 2px dashed magenta; */
     display: flex;
     align-items: center;
     margin-bottom: 15px;
@@ -230,6 +231,13 @@ header nav a:hover {
 	color: red;
 	font-weight: bold;
 	cursor: pointer;
+}
+.about-image {
+    /* border: 4px solid green; */
+    margin-left: 15px;
+}
+.about-intro {
+    margin: 15px 0 15px 0;
 }
 
 .about-middle-content img {
