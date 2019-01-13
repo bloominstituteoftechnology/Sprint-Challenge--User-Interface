@@ -219,6 +219,10 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background: white;
 }
 
 header nav a {
@@ -231,7 +235,13 @@ header nav a:hover {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+.top-image {
+    border: 3px solid deeppink;
+    margin-top: 120px;
+}
 .about-image {
+    margin-top: 100px;
     margin-left: 15px;
 }
 .about-intro {
