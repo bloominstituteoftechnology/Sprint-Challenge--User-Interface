@@ -322,10 +322,8 @@ footer nav a {
 nav a:hover {
     background-color: black;
     color: white;
-    transition: .5s ;
-    -webkit-transform: rotate(-8deg) scale(1.2);
-    -moz-transform: rotate(-8deg) scale(1.2);
-    -o-transform: rotate(-8deg) scale(1.2);
+    transition: .5s;
+    font-size: 30px;
 }
 
 button:hover {
@@ -338,5 +336,7 @@ footer a:hover {
     background-color: white;
     color: black;
 }
+
+
 
 
