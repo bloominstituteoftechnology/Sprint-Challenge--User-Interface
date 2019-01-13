@@ -218,7 +218,7 @@ footer nav a {
     box-sizing: border-box;
     border-bottom: 1px dashed black;
 }
-
+ 
 .about-middle-content {
     display: flex;
     flex-flow: row wrap;
