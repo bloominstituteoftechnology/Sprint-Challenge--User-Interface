@@ -216,7 +216,6 @@ footer nav a:hover {
 /* --About Page-- */
 
 header {
-    /* border: 2px dashed magenta; */
     display: flex;
     align-items: center;
     margin-bottom: 15px;
@@ -233,7 +232,6 @@ header nav a:hover {
 	cursor: pointer;
 }
 .about-image {
-    /* border: 4px solid green; */
     margin-left: 15px;
 }
 .about-intro {
@@ -258,11 +256,11 @@ header nav a:hover {
    
 .about-text {
     width: 400px;
-    /* height: 450px; */
     padding: 25px;
     margin: 5px 10px 30px 15px;
     border-bottom: 1px dotted black;
    }
+
 
 button {
     border: 1px solid black;
@@ -276,6 +274,7 @@ button:hover {
     background: gray; 
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
    
