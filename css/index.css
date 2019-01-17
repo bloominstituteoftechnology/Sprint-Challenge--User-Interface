@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+.top {
+    border:1px solid red;
+}
+
+header .logo {
+    border:1px solid blue;
+    display:flex;
+    width:100px;
+}
+
+header nav {
+    border:1px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:500px;
+}
+
+.jumbo {
+    margin: 30px 0 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +133,61 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bottom-content {
     display: flex;
