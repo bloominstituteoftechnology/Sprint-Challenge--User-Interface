@@ -1,3 +1,5 @@
+/* SPRINT WEEK ONE  */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -10,7 +12,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, form, label, legend,boxes
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
@@ -68,7 +70,8 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 80px;
+    /* margin: 0 auto; */
 }
 
 .top-content {
@@ -104,7 +107,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -137,7 +140,7 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 14px;2   
 }
 
 footer nav a {
@@ -145,9 +148,56 @@ footer nav a {
     text-decoration: none;
 }
 header {
-    position: fixed;
-    top: relative;
-    left: relative;
+    position: relative;
     width: 100%;
+} 
+nav.Top-navigation {
+    display: inline-block;
+}
+img.logo {
+     display: inline-flex;
+}
+h1 + img {
+    display: inline-block;
+    
+}
+li {
+    display: inline;
+    text-decoration: none;
+    margin: 10px;
+}
+.box1 {
+    background-color: teal;
+    border: 1px black solid;
+    height: 83px;
+    width: 83px;
+    padding:5px;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color:cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
 
 }
