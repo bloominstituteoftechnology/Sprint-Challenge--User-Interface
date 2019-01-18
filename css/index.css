@@ -66,16 +66,48 @@ p {
     line-height: 1.4;
 }
 
+/* HOME PAGE */
+
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 10px;
+}
+
+header .top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px 0 20px 0;
+}
+
+header .logo {
+    width:170px;
+    padding: 20px 0 0 0;
+}
+
+.top nav {
+    display: flex;
+    justify-content: space-around;
+    width:610px;
+    margin: 0 180px;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.jumbo {
+    margin: 30px 0 0;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     border-bottom: 1px dashed black;
 }
 
@@ -112,6 +144,46 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +215,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE */
+	
+.about-content {
+	margin: 20px 0 0;
+    padding: 10px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.abouttop-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    margin: 10px 0px;
+}
+	
+.abouttop-content .abouttext-container {
+	width: 46%;
+	padding: 0 1%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-bottom: 1px dashed black;  
+}
+
+.abouttop-content .abouttext-container p {
+    margin: 20px 0 30px;
+}
+
+.abouttext-container .images {
+    width: 102%;
+    padding-bottom: 10px;
+}
+
+.abouttext-container .button {
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+	text-decoration: none;
+    padding: 8px 20px;
+}
+
+.aboutbottom-content {
+    margin: 40px 0 20px;
+    padding: 10px 20px 20px;
 }
