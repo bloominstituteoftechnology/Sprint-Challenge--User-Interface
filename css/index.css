@@ -68,25 +68,32 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
-.top {
-    border:1px solid red;
+header .top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px 0 20px 0;
 }
 
 header .logo {
-    border:1px solid blue;
-    display:flex;
-    width:100px;
+    width:180px;
+    padding: 20px 0 0 0;
 }
 
-header nav {
-    border:1px solid green;
+.top nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width:500px;
+    justify-content: space-around;
+    width:600px;
+    margin: 0 180px;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-size: 13px;
 }
 
 .jumbo {
