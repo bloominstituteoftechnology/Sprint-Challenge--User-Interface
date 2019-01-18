@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+header {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+	width:680px;
+	display: flex;
+	margin: 10px;
+	justify-content:space-evenly;
+	align-items:flex-end;
+}
+
+header nav a {
+	color: black;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+.company-logo {
+	margin: 0 auto;
+}
+
+.jumbo, mod-heading {
+	margin: 25px 0 20px 0;
+}
+
+/*
+.jumbo, .mid1, .mid2, .mid3, .mid4, button {
+	margin: 25px 0 20px 0;
+}
+*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +136,107 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: teal;
+}
+.box-2 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: gold;
+}
+
+.box-3 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: cadetblue;
+}
+
+.box-4 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: coral;
+}
+
+.box-5 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: crimson;
+}
+
+.box-6 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: forestgreen;
+}
+
+.box-7 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: darkorchid;
+}
+
+.box-8 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: hotpink;
+}
+
+.box-9 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: indigo;
+}
+
+.box-10 {
+	width:100px;
+	height: 100px;
+	margin: 20px 3.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: dodgerblue;
 }
 
 .middle-content .boxes .box {
@@ -143,4 +281,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/**   below code only apply to About page selection  **/
+.mid-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    padding: 1%;
+    margin: 0;
+}
+
+.mid-content {
+	width: 390px;
+	/*margin: 0 auto; */
+    padding: 1%;
+    margin: 25px 0 20px 0;
+}
+
+.mid-content img {
+	width: 360px;
+}
+
+.mid-content button {
+	border-radius: 25px;
+}
+
+button {
+    width: 130px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+hr{
+	border-top: 1px dashed;
 }
