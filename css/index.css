@@ -144,3 +144,206 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav .nav-top {
+    display: flex;
+    align-content: flex-end;
+    width: 800px;
+    margin: 0 0 20px 0;
+    justify-content: space-between;
+} 
+
+.nav-top a {
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;    
+}
+
+.menu {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+
+.about {
+    width: 480;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content p {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0 0 1px 0 solid black;
+}
+
+.boxes {
+    width: 800;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+.Strategy { 
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Strategy img {
+   padding: 20px;
+    margin: 10px;
+}
+
+.Strategy-button {
+    width: 100px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.Strategy p {
+    /* width: 400;
+    display: flex;
+    justify-content: center;*/
+    width: 80%;
+    margin: 20px;      
+}
+
+.Strategy h4 {
+    width: 80%;
+    margin: 20px;   
+    
+}
+
+.How {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.How img {
+    padding: 20px;
+    margin: 10px;
+}
+
+.How-button {
+    width: 100px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.How h4 {
+    width: 80%;
+    margin: 20px;   
+}
+
+.How p {
+    width: 80%;
+    margin: 20px;   
+}
+.Places {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Places img {
+    padding: 20px;
+    margin: 10px;
+    border-top: 1px dashed black;
+}
+
+.Places button {
+    width: 100px;
+    border-radius: 25px;
+    margin: 10px; 
+}
+
+.Places p {
+    width: 80%;
+    margin: 20px;
+}
+.Places h4 {
+    width: 80%;
+    margin: 20px;   
+}
+.Collaboration {
+    width: 400px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.Collaboration img {
+    padding: 20px;
+    margin: 10px;
+    border-top: 1px dashed black;
+}
+
+.Collaboration button {
+    width: 100px;
+    border-radius: 25px;
+    margin: 10px;    
+}
+
+.Collaboration p {
+    width: 80%;
+    margin: 20px;   
+}
+
+.Collaboration h4 {
+    width: 80%;
+    margin: 20px;   
+}
+
+#Summary {
+   width: 100%;
+}
+
+hr {
+    border-style: dashed;
+    width: 100%;
+}
+
+
