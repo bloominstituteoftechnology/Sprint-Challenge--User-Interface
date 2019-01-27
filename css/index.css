@@ -80,6 +80,7 @@ p {
 }
 
 .top-content .text-container {
+    margin-top: 15px;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -143,4 +144,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.jumbo {
+    margin-top: 30px;
 }
