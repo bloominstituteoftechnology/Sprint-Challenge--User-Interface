@@ -4,6 +4,10 @@ semantic html is code that reads like english very straight forward naming conve
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
+display block fills content from left to right and starts on a new line.
+Inline elements show up right next to content.  You have no control over the height of display inline. the cross (or X axis)
+
+
 3. What are the 4 areas of the box model?
 
 margin, border, padding, and the elements itself
