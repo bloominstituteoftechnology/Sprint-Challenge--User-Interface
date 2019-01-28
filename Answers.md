@@ -13,7 +13,7 @@ Inline elements show up right next to content.  You have no control over the hei
 margin, border, padding, and the elements itself
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
-
+the cross axis (the x axis if you prefer)
 
 5. What is the git command to commit staged changes as well as write a message?
 
