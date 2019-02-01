@@ -1,3 +1,50 @@
+- [ ] ## Task 1: Set Up The Project With Git
+  - [ ] Fork the project into your GitHub user account
+  - [ ] Clone the forked project into a directory on your machine
+  - [ ] You are now ready to build this project with your preferred IDE
+
+
+- [ ] ## Task 2: Comprehension Questions
+  - [ ] 1. What is the difference between an adaptive website and a fully responsive website?
+  - [ ] 2. Describe what it means to be mobile first vs desktop first.
+  - [ ] 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+  - [ ] 4. How would you describe preprocessing to someone new to CSS?
+  - [ ] 5. What is your favorite concept in preprocessing?  What is the concept that gives you the most trouble?
+
+- [ ] ## Task 3: Set up your preprocessor
+  - [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+  - [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
+  - [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+  - [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+  - [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+
+- [ ] ## Task 4: Import LESS Files
+  - [ ] Navigate to your `index.less` file. Notice the file is blank.  You have been asked to use a certain import order. That order is as follows:
+    - [ ] 1. `variables.less`
+    - [ ] 2. `mixins.less`
+    - [ ] 3. `reset.less`
+    - [ ] 4. `global.less`
+    - [ ] 5. `navigation.less`
+    - [ ] 6. `footer.less`
+    - [ ] 7. `home-page.less`
+
+- [ ] ## Task 5: Home Page - Desktop HTML & LESS
+  - [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the home page HTML and LESS from scratch.  You have been provided content in the [index.html file](index.html)
+  - [ ] Navigation: Use the `navigation.less` file for styling.
+  - [ ] Main Content: Use the `home-page.less` file for styling
+  - [ ] Footer: Use the `footer.less` file for styling
+  - [ ] Mixins: Create and use 2 different mixins to aid your styling.  Use the `mixins.less` file for your mixins
+  - [ ] Parametric Mixin: create a parametric mixin that is used to create the `sign up` button.
+  - [ ] Variables: Use `variables.less` to contain colors or media query strings for the site design.  You have been provided the hex codes for each color used in the site.
+
+- [ ] ## Task 6: Home Page - Mobile HTML & LESS
+  - [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+  - [ ] Create a `@phone` variable that contains a `max-width: 500px` media query string.  Use the `@phone` variable for all your nested mobile styling.
+
+
+
+
+
 # Assessing Your User Interface and Git Learning
 
 * The objective of this challenge is test your knowledge on all of the topics surrounding user interface and git you learned this week.
@@ -29,7 +76,7 @@ Answer the following questions to the best of your ability. You can exercise you
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```?
 
-5. What is the git command to commit staged changes as well as write a message? 
+5. What is the git command to commit staged changes as well as write a message?
 
 ## Task 3: Home Page
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
