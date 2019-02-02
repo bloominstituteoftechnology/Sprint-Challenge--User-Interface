@@ -1,13 +1,13 @@
+1.) Semantic HTML differs from traditional HTML in that Semantic mark ups do more than just dictate the look of the page, they convey meaning.
+    Using the <section> tag rather than a <div>, a page creator can communicate that this section contains content to be viewed while a <div> tag simply acts as a container, with no information on what it contains. similarly, a tag like <b> doesn't do much except change the font weight to bold. However, by using <strong> not only is the style changed but the page creator is able to place emphasis through the elements. "This is an important, strong statement. Pay attention". Using semantic HTML will organize your webpage in a more meaningful way which will lead to greater hits from a search engine leading to higher visits.
 
-1.) Adaptive web design & responsive design each have their own advantages but differ in many ways. The prime intended function is what will decide which format a coder will use. Adaptive is designed to fit into various resolutions across many devices. However, it relies on fixed screen sizes and several different layouts will have to be made to account for all devices.  A responsive design requires only one template and will adjust itself accordingly to the different screen sizes through the use of media queries.
+2.) Display Block vs Display Inline: when an HTML tag is used it creates a block on the page that contains the content between the  tags. when a tag is display block, the block extends across the whole line to the end of the page. All content added after that tag will be placed on a new line below the block. When a tag is inline, the created block extends only as far as needed to contain what is between the open and close tag. This also means that an inline element will respect specified margin and padding allowing it to be displayed around other elements in the line. This is not possible with block elements.
 
-2.) A desktop first design is a layout built for the highest resolution and details commonly seen on desktop computers. A desktop site will be content rich and then adapt to smaller sizes through adaptive or responsive design. A mobile first strategy will prioritize focusing on the core elements of a web page to better optimized for smaller screens (tablets, phones ect..
+3.) Content - self explanatory;
+Padding - used to generate space around an element's content, inside of any defined borders.
+Border - used to manipulate the style, width, and color of an element's border.
+Margin - used to create space around elements, outside of any defined borders.
 
-3.) Using font-size 62.5% in the HTML tag allows for easier calculations when converting font-sizes from pixels to rem by allowing us to use base of 10 calculations instead of 16.
+4.) Cross axis.
 
-4.) CSS is a tedious way to code and shares little in familiarity with higher level languages. Pre-processors make life easier on a coder by allowing a him/her to use more common syntax, like javaScript, to pass styling instructions into a compiler, which then converts and formats those instructions properly to be read by CSS.
-
-5.) My favorite pre-processing concept is being able to use nesting like one does in javaScript. javaScript was the first coding
-language I learned so it's always been the language I feel most comfortable with, so using a preprocessor really helps me with my
-thought process and planning. The most difficult part about pre-processing at first was the initial set up and
-functioning through git bash. However, after just a few days of using it, it has become a second language.
+5.) git commit -m
