@@ -54,12 +54,14 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -208,4 +210,35 @@ a {
 
 #box10 {
     background-color: dodgerblue;
+}
+
+.about-section {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.about-middle-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.hr-left {
+    display: inline-block;
+    width: 45%;
+    border-top: 1px solid black;
+}
+
+.hr-right {
+    display: inline-block;
+    margin-left: 40px;
+    width: 45%;
+    border-top: 1px solid black;
+}
+
+button {
+    border-radius: 9px;
+    padding: 10px 24px;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
 }
