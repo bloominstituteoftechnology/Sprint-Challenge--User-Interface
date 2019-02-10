@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Think of a website like a body. HTML (Hyper Text Markup Language) is the language you use to make the skeleton of a website or web application. It is the structure of the webpage, while CSS is the skin (makes things pretty / styling) and javascript is the muscle (makes it move and function).  HTML is a semantic markup language that provides meaning and context to both the browser and to people with accessibility issues.  Meaning such as what is most important; what should be read; what should the site visitor fill out etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Block level elements take up the entire width of their parent element.  Inline elements nest next to each other on a page, kind of like the text you are reading.
+
+    The second big difference is in what you can do with each one's styling.  Block elements all of the box model elements changed. Inline elements cannot have their vertical portions of the box model changed.
 
 3. What are the 4 areas of the box model?
 
+    Content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable for several reasons.  The first is the ability to have the code distributed among the members of the team.  Having multiple points of failure means it's extremely unlikely for the entire code base to get corrupted when a hard drive or server fails somewhere.
+
+    Git is also valuable because everyone can work on different parts of a project at the same time.  It also allows for tracking the history of the project and if something goes wrong, it can be reverted to a previous state very quickly while the problem is being located and fixed.
+
+    git also allows for taking projects into several different directions, or sudden changes of direction from a previous state if necessary. without having to go recreate lots of previous work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
