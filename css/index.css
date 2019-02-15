@@ -55,8 +55,7 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
-h1, h2, h3, h4, h5 {
+ h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -70,14 +69,18 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+h1 {
+    margin-left:350px;
+    font-size: 40px;
+}
 header nav {
-    margin-left: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-around;   
 }
 header nav a {
     color: black;
-    font-size: 14px;
     text-decoration: none;
     padding-top: 40px;
 }
@@ -91,10 +94,8 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 840px;
-    
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    width: 840px;    
+   
 }
 
 .top-content .text-container {
@@ -103,17 +104,17 @@ header nav a {
     padding-bottom: 20px;
     padding-top: 20px;  
 }
-h2 {
-    
-}
+
 
 .middle-content {
+    width: 800px;
+    border-top: 1px dashed black;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding-top: 20px;
     margin-bottom: 0;
 }
 
