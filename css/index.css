@@ -270,3 +270,29 @@ button:hover {
 .mid-par {
 	padding-bottom: 5px;
 }
+
+.bot-par {
+	padding-top: 20px;
+}
+
+
+/*     Products     */
+
+.bot-4 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bot-4 .child-item1 {
+	width: 375px;
+	height: 425px;
+	border-bottom: 1px dashed black;
+	margin-top: 25px;
+}
+
+.bot-4 .child-item1 img {
+justify-content: center;
+}
