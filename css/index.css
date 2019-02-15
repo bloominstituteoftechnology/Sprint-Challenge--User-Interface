@@ -92,6 +92,12 @@ a {
 .jumbo-about {
     margin-bottom: 20px;
 }
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
 /* end of my CSS */
 
 .top-content {
