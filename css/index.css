@@ -311,6 +311,27 @@ footer nav a {
 
 }
 
+.img-strategy, .img-how-we-work, .img-places-we-work, .img-collaboration {
+    margin-bottom: 10px;
+}
+
+.p-strategy, .p-how-we-work, .p-places-we-work, .p-collaboration {
+    margin-bottom: 10px;
+}
+
+.about-content-button {
+    font-size: 15px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-content-button:hover {
+	background: black;
+	color: white;
+}
 
 /* About Bottom Section */
 
