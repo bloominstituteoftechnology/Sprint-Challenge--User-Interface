@@ -114,13 +114,14 @@ header nav a {
 }
 
 .top-content h2{
-    padding-right: 722px;
+    padding-right: 713px;
     font-size: 20px;
 }
 
 .top-content p {
     padding-bottom: 3px;
-    padding-top: 17px
+    padding-top: 17px;
+    line-height: 1.25;
 }
     
 .container header {
@@ -151,9 +152,9 @@ header nav a {
     margin-bottom: 24px;
 }
 
-.maincontent{
+.main-content{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -168,10 +169,12 @@ header nav a {
 
 .main-content  h2 {
     margin: 10px 0px;
+    font-size: 20px;
 }
 
 .main-content p {
     margin-bottom: 23px;
+    line-height: 1.25;
 }
 
 .main-content button {
@@ -180,4 +183,40 @@ header nav a {
     border-radius: 10px;
     background: white;
     margin-bottom: -3px;
+}
+
+
+.bottom-content {
+    display: inline;
+}
+
+.bottom-content h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 19px;
+}
+
+.bottom-content p {
+    margin-left: 20px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
