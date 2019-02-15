@@ -75,9 +75,9 @@ p {
 
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
-    margin: 20px auto;
+    margin: 20px 0;
 }
 
 .navigation a{
@@ -85,9 +85,10 @@ p {
     color: black;
 }
 
-/* .nav-logo {
-    margin-left: 0px;
-} */
+.last-anchor {
+    margin-right: 50px;
+}
+
 
 
 /* Header Image */
