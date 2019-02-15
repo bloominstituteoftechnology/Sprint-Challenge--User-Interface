@@ -297,7 +297,7 @@ header nav a {
   display: flex;
   flex-direction: column;
   width: 48%;
-  border-bottom: 2px dotted black;
+  border-bottom: 1px dashed black;
   margin-bottom: 50px;
 }
 
