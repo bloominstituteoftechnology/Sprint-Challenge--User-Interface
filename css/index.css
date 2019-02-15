@@ -73,7 +73,7 @@ p {
 .lambda header{
     display: flex;
     justify-content: center;
-    align-items: baseline
+    align-items: flex-end
 
 }
 .top-content {
