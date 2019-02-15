@@ -281,6 +281,7 @@ footer nav a {
 
 /* ------------- ABOUT PAGE ----------------- */
 
+/* About Header Text */
 .h2-about {
     margin-left: 20px;
 }
@@ -290,4 +291,25 @@ footer nav a {
     border-bottom: 1px dashed black;
     margin-bottom: 30px;
 
+}
+
+/* About Main Content Section */
+
+.about-content {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.strategy, .how-we-work, .places-we-work, .collaboration {
+    /* border: 1px solid gray; */
+    width: 50%;
+
+}
+
+/* About Bottom Section */
+
+.lets-work-together {
+    margin: 40px auto 40px 20px;
 }
