@@ -278,3 +278,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ------------- ABOUT PAGE ----------------- */
+
+.h2-about {
+    margin-left: 20px;
+}
+.p-about {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+
+}
