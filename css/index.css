@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 header {
     display: flex;
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 header nav {
@@ -42,7 +44,7 @@ header nav {
 
 header nav a {
 
-  margin-right: 65px;
+  margin-right: 70px;
   font-size: 14px;
   color: black;
   text-decoration: none;
@@ -51,6 +53,11 @@ header nav a {
 header nav a:hover {
   text-decoration: underline;
 }
+
+.logo {
+    margin-right: 50px;
+    margin-top: 10px;
+  }
 
 body {
 	line-height: 1;
@@ -125,16 +132,6 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .bottom-content {
     display: flex;
@@ -168,3 +165,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* boxe colors*/
+/*.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
