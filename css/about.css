@@ -107,7 +107,7 @@ header nav a {
 .middle-content .cta-content {
     width: 45%;
     border-bottom: 1px dashed black;
-    padding-bottom: 3%;
+    padding-bottom: 2.5%;
     margin-bottom: 7%;
 }
 
@@ -120,8 +120,29 @@ header nav a {
     border: 2px solid black;
     border-radius: 10px;
     padding: 2.5% 6%;
-    margin-top: 3%;
+    margin-top: 5%;
     font-size: 100%;
     cursor: pointer;
 }
 
+.bottom-content {
+    margin: 0 2.5%;
+}
+
+footer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 2.5% 2.5%;
+}
+
+footer nav{
+    width: 100%;
+}
+
+footer nav a {
+    margin: 0 3%;
+    color: white;
+    text-decoration: none;
+}
