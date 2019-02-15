@@ -60,15 +60,36 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
 }
 
-.container {
+.container, .container-about-page, .container-contact-page {
     width: 800px;
     margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    align-items: flex-end;
+    height: 60px;
+    width: 880px;  
+}
+
+
+header nav a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    color: red;
 }
 
 .top-content {
@@ -82,7 +103,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    margin-top: 15px;
     padding-bottom: 20px;  
+}
+.about-intro, .contact-intro {
+    width: 880px;
 }
 
 .middle-content {
@@ -112,10 +137,48 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background:teal;
+}
+
+.middle-content .boxes .box2 {
+    background:gold;
+}
+
+.middle-content .boxes .box3 {
+    background:cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background:coral;
+}
+
+.middle-content .boxes .box5 {
+    background:crimson;
+}
+
+.middle-content .boxes .box6 {
+    background:forestgreen;
+}
+.middle-content .boxes .box7 {
+    background:darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background:hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background:indigo;
+}
+
+.middle-content .boxes .box10 {
+    background:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    margin:20px;
 }
 
 .bottom-content .text-container {
@@ -127,7 +190,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 105%;
     background: black;
 }
 
@@ -144,3 +207,85 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    font-weight: bold; 
+    color: red;
+}
+
+/* --About Page-- */
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
+header nav a {
+	margin: 0 50px 0 20px;
+	padding: 10px;
+}
+
+header nav a:hover {
+	color: red;
+    font-weight: bold;
+    background: black;
+	cursor: pointer;
+}
+
+.top-image {
+    margin-top: 100px;
+}
+.about-image {
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.about-intro {
+    margin: 15px 0 15px 0;
+}
+
+.about-middle-content img {
+    width: 100%;
+}
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 880px;
+    padding-top: 30px;
+    border-top: 1px dotted black;
+   }
+
+.about-bottom-content {
+    margin: 20px 0 20px 0;
+    width: 880px;
+   }
+   
+.about-text {
+    width: 400px;
+    padding: 25px;
+    margin: 5px 10px 30px 15px;
+    border-bottom: 1px dotted black;
+   }
+
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    background: white;
+   }
+
+button:hover {
+    background: gray; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+
+   
