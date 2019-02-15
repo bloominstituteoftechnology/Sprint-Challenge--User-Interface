@@ -109,6 +109,7 @@ a {
     /*I would expect them to leave space / separatation
     because they are each their own box. Instead, I'm getting
     one continuous, ugly border across them all */
+    padding-top: 30px;
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
