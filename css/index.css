@@ -70,6 +70,19 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header nav {
+    display: flex;
+    justify-content: space-evenly;   
+}
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+ .jumbo {
+    padding-top: 60px;
+    margin-left: 140px;
+
+}
 
 .top-content {
     display: flex;
