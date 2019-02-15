@@ -53,7 +53,6 @@ table {
 
 html, body {
     height: 100%;
-    width: 800px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -69,7 +68,9 @@ p {
 
 .container {
     width: 800px;
+    height: 100%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 /*brock*/
@@ -83,12 +84,12 @@ header {
 header nav {
     margin-top: 40px; 
     width: 800px;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
+    align-items: center;
 }
 
 header nav a {
-    width: 800px;
     text-decoration: none;
     color: black;
 }
@@ -98,16 +99,12 @@ header nav a:hover {
     color: black;
 }
 
-.jumbo {
-    margin: 20px 0px 50px 0px;
-    align-self: center;
+.new-jumbo {
+    width: 800px;
+    align-content: center;
+    padding: 20px;
 }
 
-#new-jumbo {
-    border-bottom: 2px dotted black;
-    width: 800px;
-    margin: 15px;
-}
 /* brock */
 
 .top-content {
