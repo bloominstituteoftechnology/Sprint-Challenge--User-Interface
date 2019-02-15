@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is basically just adding meaning to your content.  Making it readable by both people and machines.  Being organized and following the HTML standards are a big part of it.  Using things like proper html elements and indentation.  Just being smart and thinking about the fact that other people have to read your code as well.  Making sure that computers can read it as well.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    I'll start with display: block.  This one uses html elements such as <div> and <p>.  It is meant to take up as much space as its parent element will allow.  Height and width is used to control this one.
+
+    For display: inline, this one uses different html elements, such as <a> & <span>.  Height and width have no effect on this one.
 
 3. What are the 4 areas of the box model?
+    The 4 areas are Margin, Border, Padding, Content.  In that order descending inwards towards the content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    Align-items: center; controls the cross axis.  This is the axis that goes from the top of the page downwards.
 
 5. Explain why git is valuable to a team of developers.
+    Git allows multiple people to simultaneously work on the same project.  It allows for save on the go so that if any mistakes occur there are always backup files.  It is far easier to access files using git than doing something like emailing them.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +60,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
