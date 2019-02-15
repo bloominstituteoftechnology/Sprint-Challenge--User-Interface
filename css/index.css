@@ -70,14 +70,10 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-header {
-
-    vertical-align: baseline
-
-}
-
 .lambda header{
-    display: flex
+    display: flex;
+    justify-content: center;
+    align-items: baseline
 
 }
 .top-content {
@@ -119,9 +115,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-box { red
-
 }
 
 .bottom-content {
