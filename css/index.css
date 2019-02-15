@@ -98,6 +98,10 @@ a {
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
+.row {
+    display: flex;
+}
 /* end of my CSS */
 
 .top-content {
