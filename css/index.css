@@ -226,3 +226,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*             About.HTML             */
+.about {
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+}
+
+button {
+  background: white;
+  vertical-align: top;
+	border-radius: 10px;
+  margin-top: 6px;
+  padding: 8px 24px;
+  font-size: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+.parent-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.parent-container .child-item {
+	width: 350px;
+	height: 425px;
+}
