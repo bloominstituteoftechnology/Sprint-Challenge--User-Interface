@@ -77,14 +77,38 @@ header nav{
     justify-content: space-between;
     align-items: baseline;
     margin: 5% 0;
-    margin-right: 6%;
+    margin-right: 8%;
 }
 
-header nav a{
+header nav .nav-btn{
     text-decoration: none;
     color: black;
     font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2%;
 }
+
+@keyframes nav-btn-switch {
+    from{background-color: white;}
+    to {background-color: black;}
+    from {color: black;}
+    to {color: white;}
+    
+}
+
+header nav .nav-btn:hover{
+    animation: nav-btn-switch .2s;
+    animation-fill-mode: forwards;
+    border: 1px solid black;
+}
+
+/*    color: white;
+    background: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1% 2%;
+    */
 
 .top-content .img-container{
     margin-bottom: 3%;
@@ -120,6 +144,8 @@ header nav a{
     justify-content: space-evenly;
 }
 
+
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -129,6 +155,14 @@ header nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@keyframes spin {
+    100% { -webkit-transform: rotate(360deg);
+    transform:rotate(360deg); }
+}
+.middle-content .boxes .box:hover{
+    animation: spin .5s linear;
 }
 
 .middle-content .boxes .box1 {
