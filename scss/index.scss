@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -88,8 +89,8 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
-
+  vertical-align: baseline;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -102,37 +103,40 @@ hgroup,
 menu,
 nav,
 section {
-  display: block; }
-
+  display: block;
+}
 body {
-  line-height: 1; }
-
+  line-height: 1;
+}
 ol,
 ul {
-  list-style: none; }
-
+  list-style: none;
+}
 blockquote,
 q {
-  quotes: none; }
-
+  quotes: none;
+}
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: "";
-  content: none; }
-
+  content: none;
+}
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html,
 body {
   height: 100%;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+}
 
 h1,
 h2,
@@ -141,39 +145,47 @@ h4,
 h5 {
   font-size: 18px;
   margin-bottom: 15px;
-  font-family: "Rubik", sans-serif; }
+  font-family: "Rubik", sans-serif;
+}
 
 p {
-  line-height: 1.4; }
+  line-height: 1.4;
+}
 
 .container {
   width: 800px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .top-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 20px;
-  border-bottom: 1px dashed black; }
+  border-bottom: 1px dashed black;
+}
 
 .top-content .text-container {
   width: 48%;
   padding: 0 1%;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 .middle-content {
   margin-bottom: 20px;
-  border-bottom: 1px dashed black; }
+  border-bottom: 1px dashed black;
+}
 
 .middle-content h2 {
   padding: 0 2%;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+}
 
 .middle-content .boxes .box {
   width: 12.5%;
@@ -183,22 +195,27 @@ p {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .bottom-content .text-container {
-  padding-right: 4%; }
+  padding-right: 4%;
+}
 
 .bottom-content .text-container:last-child {
-  padding-right: 0; }
+  padding-right: 0;
+}
 
 footer {
   width: 100%;
-  background: black; }
+  background: black;
+}
 
 footer nav {
   width: 60%;
@@ -206,93 +223,106 @@ footer nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 2%;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 footer nav a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /* My Styles */
+
 .navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 10px 0; }
+  padding: 10px 0;
+}
 
 .navbar a {
   text-decoration: none;
   color: black;
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 .navbar a:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .banner {
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 .boxes .box:nth-child(1) {
-  background: teal; }
-
+  background: teal;
+}
 .boxes .box:nth-child(2) {
-  background: gold; }
-
+  background: gold;
+}
 .boxes .box:nth-child(3) {
-  background: cadetblue; }
-
+  background: cadetblue;
+}
 .boxes .box:nth-child(4) {
-  background: coral; }
-
+  background: coral;
+}
 .boxes .box:nth-child(5) {
-  background: crimson; }
-
+  background: crimson;
+}
 .boxes .box:nth-child(6) {
-  background: forestgreen; }
-
+  background: forestgreen;
+}
 .boxes .box:nth-child(7) {
-  background: darkorchid; }
-
+  background: darkorchid;
+}
 .boxes .box:nth-child(8) {
-  background: hotpink; }
-
+  background: hotpink;
+}
 .boxes .box:nth-child(9) {
-  background: indigo; }
-
+  background: indigo;
+}
 .boxes .box:nth-child(10) {
-  background: dodgerblue; }
+  background: dodgerblue;
+}
 
 section.full {
-  padding-bottom: 10px; }
-
+  padding-bottom: 10px;
+}
 section.full p {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .border-bottom {
-  border-bottom: 1px dashed black; }
+  border-bottom: 1px dashed black;
+}
 
 .cards {
   width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
-
+  justify-content: space-around;
+}
 .card {
   flex-basis: 45%;
   display: flex;
   flex-direction: column;
   border-bottom: 1px dashed black;
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
 .card img {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .card-body {
   padding: 5px;
-  padding-bottom: 30px; }
-
+  padding-bottom: 30px;
+}
 .card-body p {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 .card-button {
   font-size: 18px;
@@ -301,28 +331,44 @@ section.full p {
   background: white;
   padding: 7px 15px;
   border: 2px solid black;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
+
+$breakpoints: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+// Breakpoints
+@mixin breakpoint($breakpoint) {
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Get the breakpoint value.
+    $value: map-get($breakpoints, $breakpoint); // Write the media query.
+    @media (min-width: $value) {
+      @content;
+    } // If the breakpoint doesn't exist in the map.
+  } @else {
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+%container {
+  width: 100%;
+  @each $breakpoint, $value in $breakpoints {
+    @include breakpoint($breakpoint) {
+      max-width: $value;
+      margin: 0 auto;
+    }
+  }
+}
 
 .container {
-  width: 100%; }
-  @media (min-width: 540px) {
-    .container {
-      max-width: 540px;
-      margin: 0 auto; } }
-  @media (min-width: 720px) {
-    .container {
-      max-width: 720px;
-      margin: 0 auto; } }
-  @media (min-width: 960px) {
-    .container {
-      max-width: 960px;
-      margin: 0 auto; } }
-  @media (min-width: 1140px) {
-    .container {
-      max-width: 1140px;
-      margin: 0 auto; } }
-
-.container img {
-  width: 100%; }
-
-/*# sourceMappingURL=index.css.map */
+  @extend %container;
+  img {
+    width: 100%;
+  }
+}
