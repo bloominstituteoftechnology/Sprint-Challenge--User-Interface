@@ -180,16 +180,17 @@ header nav a {
   color: black;
   font-size: 14px;
   font-weight: 600;
-  transition: background 0.2s;
+  transition: background 0.3s;
 }
 
 header nav .current {
   background: #f0f0f0;
+  color: crimson;
   border-radius: 5px;
 }
 
 header nav a:hover {
-  background: rgba(76, 0, 130, 0.7);
+  background: crimson;
   color: white;
   border-radius: 5px;
 }
@@ -238,6 +239,21 @@ header nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@keyframes round {
+  0% {
+    border-radius: 0px;
+  }
+  100% {
+    border-radius: 50px;
+  }
+}
+
+.middle-content .boxes .box:hover {
+  animation-name: round;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 
 .middle-content .boxes .teal {
@@ -329,6 +345,13 @@ header nav a:hover {
   border-radius: 8px;
   border: 2px solid black;
   font-size: 13px;
+  transition: background 0.3s;
+}
+
+.about-page .process .skill .learn-more:hover {
+  background: crimson;
+  border: white;
+  color: white;
 }
 
 .about-page .about-bottom {
@@ -352,8 +375,9 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+  transition: opacity 0.2s;
 }
 
 footer nav a:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
