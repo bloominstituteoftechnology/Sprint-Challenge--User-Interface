@@ -53,6 +53,7 @@ table {
 
 html, body {
     height: 100%;
+    width: 800px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -70,6 +71,44 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/*brock*/
+
+header {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 800px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    width: 800px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.jumbo {
+    margin: 20px 0px 50px 0px;
+    align-self: center;
+}
+
+#new-jumbo {
+    border-bottom: 2px dotted black;
+    width: 800px;
+    margin: 15px;
+}
+/* brock */
 
 .top-content {
     display: flex;
@@ -112,6 +151,9 @@ p {
     justify-content: center;
 }
 
+.teal {
+    background-color: teal;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
