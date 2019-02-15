@@ -102,6 +102,32 @@ a {
 .row {
     display: flex;
 }
+
+.box {
+    width: 50%;
+    border-bottom: 1px dashed black; 
+    /*I would expect them to leave space / separatation
+    because they are each their own box. Instead, I'm getting
+    one continuous, ugly border across them all */
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.box h2 {
+    margin-top: 10px;
+}
+
+.box p {
+    margin-bottom: 20px;
+}
+
+.box button {
+    background: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
 /* end of my CSS */
 
 .top-content {
