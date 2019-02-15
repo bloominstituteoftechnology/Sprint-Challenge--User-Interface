@@ -299,17 +299,21 @@ footer nav a {
     display: flex;
     margin: auto;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .strategy, .how-we-work, .places-we-work, .collaboration {
     /* border: 1px solid gray; */
-    width: 50%;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
 
 }
+
 
 /* About Bottom Section */
 
 .lets-work-together {
-    margin: 40px auto 40px 20px;
+    margin: 0px auto 40px 20px;
 }
