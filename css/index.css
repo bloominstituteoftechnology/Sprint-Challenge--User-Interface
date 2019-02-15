@@ -171,11 +171,18 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px 2%;
     font-size: 14px;
 }
 
+footer nav a:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+
 footer nav a {
+    padding: 10px 20px;
     color: white;
     text-decoration: none;
 }
