@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,6 +144,22 @@ header.flex nav.flex {
     align-items: flex-end;
 
 }
+header.flex nav.flex a:hover {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 5px 20px;
+}
+header.flex nav.flex a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    /*border: 1px solid black;*/
+}
+
+.container img#jumbo {
+    margin: 10px 0 20px;
+}
 
 footer {
     width: 100%;
@@ -162,4 +178,83 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
+
+.about-box {
+    margin: 45px 15px 5px 5px;
+    border-bottom: 1px dashed black;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-box h2 {
+    margin: 10px 0 15px;
+}
+.about-box p {
+    margin: 0 0 20px;
+    padding: 10px;
+}
+.about-box a:hover {
+    border: 1px solid black;
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px 20px;
+    margin: 0 0 20px;
+}
+.about-box a {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    width: 123px;
+    border-radius: 10px;
+}
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-bottom-content {
+    margin: 20px 20px;
+}
+.about-top-content {
+    margin: 10px 0;
+    padding: 0 20px;
+    border-bottom: 1px dashed black;
+}
+.about-top-content p {
+    margin: 10px 0 20px;
 }
