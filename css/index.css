@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    align-items:center;
+    padding-top: 20px;
+}
+
+header nav a{
+ text-decoration: none;
+ color: black;
+ padding-right: 60px;
+ font-size: 15px
+
+}
+.logo{
+ padding-right: 80px
+}
+.head-image{
+    padding: 20px 0 20px 0;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +123,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black;  */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +162,92 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+   
+}
+
+.box1{
+    background:teal;
+}
+.box2{
+    background:gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+ background: crimson;
+}
+.box6{
+ background:forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+    }
+.box9{
+    background:indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+/* About Page CSS */
+.about-image{
+    padding: 20px;
+}
+.about{
+    padding: 20px;
+    border-bottom: 2px dotted black;
+}
+.about-middlecontent{
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+}
+.midcontent1{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-bottom: 150px;
+    flex-direction: center;
+}
+.midcontent1 div{
+    display: inline-block;
+    text: wrap;
+    height: 236px;
+    width: 370px; 
+    margin: 20px;
+    border-bottom: 2px dotted black;
+    
+    
+}
+.midcontent2{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction:center;
+    padding-bottom: 100px;
+}
+.midcontent2 div{
+    display: inline-block;
+    text: wrap;
+    height: 236px;
+    width: 370px; 
+    border-bottom: 2px dotted black;
+    margin:20px
+}
+
+.together{
+    padding: 100px 0 20px 0
+}
+button{
+    display:block;
+    border-radius: 50px;
+    border: 1px solid black;
+    background: white;
+    padding: 14px 40px;
 }
