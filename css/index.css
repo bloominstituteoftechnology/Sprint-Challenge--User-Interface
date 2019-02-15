@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+/* beginning of my CSS */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+/* end of my CSS */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
