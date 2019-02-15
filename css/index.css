@@ -293,18 +293,47 @@ footer nav a {
 .rows {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    justify-content: space-around;
+
+
+    
 }
 
 
 .rows .info {
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
+
 }
 
 .info {
     border-top:20px;
+    padding: 20px;
+
+
+    
 }
+
+button {
+	background: white;
+	vertical-align: top;
+	margin-top: 25px;
+	padding: 8px 20px;
+	font-size: 14px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 10px;
+  }
+  
+ button:hover {
+	background: black;
+	color: white;
+  }
+
+  .bottom-container {
+    padding: 0 1%;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
