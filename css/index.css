@@ -285,6 +285,39 @@ header nav a {
   padding-right: 0;
 }
 
+/* About Page  */
+.about-page .process {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0 30px 0;
+}
+
+.about-page .process .skill {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  border-bottom: 2px dotted black;
+  margin-bottom: 50px;
+}
+
+.about-page .process .skill img {
+  margin-bottom: 20px;
+}
+
+.about-page .process .skill p {
+  margin-bottom: 20px;
+}
+
+.about-page .process .skill .learn-more {
+  margin-bottom: 20px;
+  width: 30%;
+  height: 34px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-size: 16px;
+}
+
 footer {
   width: 100%;
   background: black;
