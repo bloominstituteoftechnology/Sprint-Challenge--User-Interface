@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1.25;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav{
+    display: flex;
+	justify-content: space-around;
+	vertical-align: top;
+    margin-top: 35px;
+    width: 577px;
+}
+
+header .logo {
+    height: 57px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:black;
+  }
+
+  .top-image img {
+    margin-bottom: 24px;
+  }
+
+.container header {
+    display: flex;
+    height: 75px;
+    margin-top: 32px;
+    margin-bottom: 27px;
+}
+
+header nav{
+    display: flex;
+	justify-content: space-around;
+	vertical-align: top;
+    margin-top: 35px;
+    width: 577px;
+}
+
+header .logo {
+    height: 57px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:black;
+}
+
+.top-image img {
+    margin-bottom: 24px;
+}
+
+.top-content {
+    border-bottom: 1px dashed black;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 32px;
+
+}
+
+.top-content h2{
+    padding-right: 722px;
+    font-size: 20px;
+}
+
+.top-content p {
+    padding-bottom: 3px;
+    padding-top: 17px
+}
+    
+.container header {
+    display: flex;
+    height: 75px;
+    margin-top: 32px;
+    margin-bottom: 27px;
+}
+
+header nav{
+    display: flex;
+	justify-content: space-around;
+	vertical-align: top;
+    margin-top: 35px;
+    width: 577px;
+}
+
+header .logo {
+    height: 57px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:black;
+  }
+
+.top-image img {
+    margin-bottom: 24px;
+}
+
+.maincontent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.main-content  div{
+    display: flex;
+    flex-flow: column;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+}
+
+.main-content  h2 {
+    margin: 10px 0px;
+}
+
+.main-content p {
+    margin-bottom: 23px;
+}
+
+.main-content button {
+    padding: 10px 1px;
+    width: 144px;
+    border-radius: 10px;
+    background: white;
+    margin-bottom: -3px;
+}
