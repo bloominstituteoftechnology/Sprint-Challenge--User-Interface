@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+/* Navigation Section */
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 20px auto;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .nav-logo {
+    margin-left: 0px;
+} */
+
+/* Header Image */
+.header-image-home {
+    width: 100%;
+    margin: 25px auto;
+}
+
+
+/* Top Content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
