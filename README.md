@@ -34,11 +34,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+If I were to describe semantic HTML to the next cohort of students, I would tell that semantic HTML gives meaning so that the web browsers can structure them in a certain way.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
 
+1.Content
+2.Padding
+3.Border
+4.Margin
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Cross Axis
 
 5. Explain why git is valuable to a team of developers.
 
