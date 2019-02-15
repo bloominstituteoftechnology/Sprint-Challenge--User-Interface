@@ -165,10 +165,53 @@ a {
     justify-content: space-evenly;
 }
 
+/*beginning of CSS for box colors*/
+
+.middle-content .boxes div:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes div:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes div:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes div:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes div:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes div:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes div:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes div:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes div:nth-child(10) {
+    background: dodgerblue;
+}
+
+/*end of box colors*/
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
