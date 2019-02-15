@@ -68,15 +68,46 @@ p {
 
 .container {
     width: 800px;
+    height: 2500px;
     margin: 0 auto;
+}
+
+header {
+    width: 800px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin:20px;
+}
+
+header nav{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header img{
+    /*margin: 20px 0;*/
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 125%;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.jumbo{
+    margin-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -112,6 +143,37 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background: gold;
+}
+.middle-content .boxes .box3{
+    background: cadetblue ;
+}
+.middle-content .boxes .box4{
+    background: coral;
+}
+.middle-content .boxes .box5{
+    background: crimson ;
+}
+.middle-content .boxes .box6{
+    background: forestgreen ;
+}
+.middle-content .boxes .box7{
+    background: darkorchid;
+}
+.middle-content .boxes .box8{
+    background: hotpink;
+}
+.middle-content .boxes .box9{
+    background: indigo;
+}
+.middle-content .boxes .box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +205,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.about-splash{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+.about-splash div{
+    margin-bottom: 20px;
+}
+
+/*-------------------------------------------------------*/
+
+.about-main{
+    height: 600px;
+    width:800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.about-main div{
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.about-together{
+    display: flex;
+    height: 300px;
+    /*margin-bottom: 20px;*/
+}
+
+.about-together img{
+    margin-bottom: 15px;
+}
+
+h3{
+    margin-top: 15px;
+}
+
+.about-footer{
+    margin-top: 20px;
+
+}
+
+button{
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    background: white;
 }
