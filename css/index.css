@@ -28,6 +28,30 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    display: flex;
+}
+
+header nav {
+
+  width: 691px;
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+header nav a {
+
+  margin-right: 65px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
 body {
 	line-height: 1;
 }
