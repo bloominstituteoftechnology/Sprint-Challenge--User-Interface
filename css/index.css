@@ -242,6 +242,19 @@ p {
     justify-content: center;
 }
 
+.boxes {
+    animation: pulse 5s;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: black;
+    }
+    100% {
+      background-color: white;
+    }
+  }
+
 /* Bottom Content */
 
 .bottom-content {
