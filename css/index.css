@@ -174,9 +174,10 @@ header nav {
 
 header nav a {
   margin-left: 40px;
-  padding-right: 40px;
+  padding-right: 45px;
   text-decoration: none;
   color: black;
+  font-size: 14px;
 }
 
 /* Home Page */
@@ -196,11 +197,6 @@ header nav a {
 .top-content .text-container {
   width: 48%;
   padding: 0 1%;
-  padding-bottom: 20px;
-}
-
-.top-content .text-container-max-w {
-  padding: 0 20px;
   padding-bottom: 20px;
 }
 
@@ -286,11 +282,15 @@ header nav a {
 }
 
 /* About Page  */
+.top-content .text-container-max-w {
+  margin: 0 16px 0 16px;
+  padding-bottom: 20px;
+}
 .about-page .process {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 30px 0 30px 0;
+  margin-top: 30px;
 }
 
 .about-page .process .skill {
@@ -315,7 +315,11 @@ header nav a {
   height: 34px;
   border-radius: 8px;
   border: 2px solid black;
-  font-size: 16px;
+  font-size: 15px;
+}
+
+.about-page .about-bottom {
+  margin: 0 16px 30px 16px;
 }
 
 footer {
