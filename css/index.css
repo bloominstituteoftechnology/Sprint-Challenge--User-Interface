@@ -190,11 +190,22 @@ header nav a {
 	width:50%;
 	margin-bottom: 20px ;
 	border-bottom: 1px solid black;
-
+	margin-left: -15px;
+	border-style: dashed;
 }
 
 .aboutBoxes button {
 	background-color: white;
 	border-radius: 10px;
-	border: 5px solid black;
+	border: 2px solid black;
+	border: 2px solid black;
+  padding: 4px;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+.about-intro {
+	border-bottom: 1px solid black;
+	border-style: dashed;
+	margin-bottom: 20px;
 }
