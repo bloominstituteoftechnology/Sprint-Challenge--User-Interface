@@ -126,6 +126,14 @@ p {
     padding-right: 0;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-justify-even {
+    justify-content: space-around;
+}
+
 footer {
     width: 100%;
     background: black;
