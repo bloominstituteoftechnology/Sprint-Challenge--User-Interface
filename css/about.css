@@ -72,12 +72,12 @@ p {
     margin: 0 auto;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 5% 0;
-    margin-right: 8%;
+    margin-top: 5%;
+    margin-right: 6%;
 }
 
 header nav .nav-btn{
@@ -89,7 +89,7 @@ header nav .nav-btn{
     padding: 2%;
 }
 
-@keyframes nav-btn-switch {
+@keyframes btn-switch {
     from{background-color: white;}
     to {background-color: black;}
     from {color: black;}
@@ -98,125 +98,57 @@ header nav .nav-btn{
 }
 
 header nav .nav-btn:hover{
-    animation: nav-btn-switch .2s;
+    animation: btn-switch .2s;
     animation-fill-mode: forwards;
     border: 1px solid black;
 }
 
-/*    color: white;
-    background: black;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 1% 2%;
-    */
-
-.top-content .img-container{
-    margin-bottom: 3%;
-}
-
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-top: 3%;
+    padding-bottom: 3%;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 4%;
 }
 
-
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content .cta-content {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2.5%;
+    margin-bottom: 7%;
 }
 
-@keyframes spin {
-    100% { -webkit-transform: rotate(360deg);
-    transform:rotate(360deg); }
-}
-.middle-content .boxes .box:hover{
-    animation: spin .5s linear;
+.cta-content img {
+    margin-bottom: 2%;
 }
 
-.middle-content .boxes .box1 {
-    background: teal;
+.cta-content button{
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2.5% 6%;
+    margin-top: 5%;
+    font-size: 100%;
+    cursor: pointer;
 }
 
-.middle-content .boxes .box2 {
-    background: gold;
-}
-
-.middle-content .boxes .box3 {
-    background: cadetblue;
-}
-
-.middle-content .boxes .box4 {
-    background: coral;
-}
-
-.middle-content .boxes .box5 {
-    background: crimson;
-}
-
-.middle-content .boxes .box6 {
-    background: forestgreen;
-}
-
-.middle-content .boxes .box7 {
-    background: darkorchid;
-}
-
-.middle-content .boxes .box8 {
-    background: hotpink
-}
-
-.middle-content .boxes .box9 {
-    background: indigo;
-}
-
-.middle-content .boxes .box10 {
-    background: dodgerblue;
+.cta-content button:hover{
+    animation: btn-switch .2s;
+    animation-fill-mode: forwards;
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    margin: 0 2.5%;
 }
 
 footer {
