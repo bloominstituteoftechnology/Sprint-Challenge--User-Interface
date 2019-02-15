@@ -72,7 +72,7 @@ p {
     margin: 0 auto;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -80,20 +80,48 @@ header nav{
     margin-right: 6%;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: black;
     font-size: 15px;
 }
 
-.top-content{
+.top-content {
     margin-top: 3%;
     padding-bottom: 3%;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
 }
 
-.top-content .text-container{
+.top-content .text-container {
     margin-top: 3%;
     margin-left: 3%;
+}
+
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.middle-content .cta-content {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    margin-bottom: 7%;
+}
+
+.cta-content img {
+    margin-bottom: 2%;
+}
+
+.cta-content button{
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2.5% 6%;
+    margin-top: 3%;
+    font-size: 100%;
+    cursor: pointer;
 }
 
