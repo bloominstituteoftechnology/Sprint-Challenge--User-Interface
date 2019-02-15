@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,12 +24,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+	/* background: ; */
 }
 ol, ul {
 	list-style: none;
@@ -69,7 +70,50 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+		margin-top: 20px
+		/* background: white; */
 }
+/*----- Navagation -----*/
+
+.main-nav{
+	display: flex;
+	margin-top: 20px
+
+}
+
+.main-nav, img{
+	margin: 0;
+
+
+}
+
+.n1{
+	text-decoration: none;
+  margin-left: 60px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: Black;
+
+
+}
+.nav1  {
+	margin: 2.5% 0;
+	padding-right: 12px;
+}
+
+
+
+
+/*----- Hero Section -----*/
+
+.hero-section img {
+
+	padding: 20px 0 20px 0;
+}
+
+
+
+/*----- Top Content ------*/
 
 .top-content {
     display: flex;
@@ -82,8 +126,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
+
+
+/*----- Middle Content -----*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +151,117 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+	background: teal;
+}
+.box2{
+	background: gold;
+}
+
+.box3{
+	background: cadetblue;
+}
+
+.box4{
+	background: coral;
+}
+
+.box5{
+	background: crimson;
+}
+
+.box6{
+	background: forestgreen;
+}
+
+.box7{
+	background: darkorchid;
+}
+
+.box8{
+	background: hotpink;
+}
+
+.box9{
+	background: indigo;
+}
+
+.box10{
+	background: dodgerblue;
+}
+
+/*----- About Page start -----*/
+
+.about-section{
+		margin: 20px 0 20px 0;
+}
+
+.about-text{
+	padding: 15px;
+	border-bottom: 1px dashed black;
+}
+
+
+
+
+/*-------- mid1 ------*/
+
+.mid1 .mid2{
+
+	display: flex;
+	margin: 20px 0 30px 0;
+}
+
+.main-content1 {
+	border-bottom: 1px dashed black;
+	display: flex;
+
+}
+.main-content2 {
+	border-bottom: 1px dashed black;
+	display: flex;
+
+}
+.con1 {
+	margin: 20px 0 20px 0;
+}
+.con2{
+	margin: 20px 0 20px 0;
+}
+
+.con3 {
+	margin: 20px 0 20px 0;
+}
+.con4{
+	margin: 20px 0 20px 0;
+}
+
+.con1 .con2 .con3 .con4, img {
+	margin: 0px 0 20px 0;
+
+}
+
+.con1 .con2 .con3 .con4, button {
+		width: 105px;
+		height: 35px;
+		margin: 15px 0 0 0;
+		border-radius: 7px;
+		border: 2px solid black;
+		font-weight: bold;
+
+}
+
+
+
+/*----- Bottom Content -----*/
 
 .bottom-content {
     display: flex;
@@ -125,6 +276,19 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/*----- Footer Section -----*/
+
+.footer-section {
+
+	margin: 50px 0 35px 0;
+}
+
+
+
+
+/*----- Footer -----*/
 
 footer {
     width: 100%;
