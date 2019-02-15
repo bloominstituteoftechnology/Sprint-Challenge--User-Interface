@@ -181,12 +181,15 @@ header nav a {
 }
 
 .about-mid-section {
-	border: 1px black solid;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
 }
 
 .aboutBoxes {
-	display: flex;
-	border: solid 1px blue;
+	width:50%;
+	margin-bottom: 20px ;
+	border-bottom: 1px solid black;
 
 }
 
@@ -194,5 +197,4 @@ header nav a {
 	background-color: white;
 	border-radius: 10px;
 	border: 5px solid black;
-	text
 }
