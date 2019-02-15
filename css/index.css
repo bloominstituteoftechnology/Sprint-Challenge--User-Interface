@@ -131,7 +131,18 @@ p {
 }
 
 .flex-justify-even {
+    display: flex;
     justify-content: space-around;
+}
+header.flex {
+    margin: 20px 0 30px 0;
+    justify-content: space-between;
+}
+
+header.flex nav.flex {
+    width: 600px;
+    align-items: flex-end;
+
 }
 
 footer {
