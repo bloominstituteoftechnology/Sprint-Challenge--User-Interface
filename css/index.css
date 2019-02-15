@@ -220,20 +220,35 @@ header nav .nav-btn:hover{
 }
 
 footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    background: black;
+    padding: 2.5% 2.5%;
+}
+
+footer nav{
+    width: 100%;
 }
 
 footer nav a {
+    margin-right: 2%;
     color: white;
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+@keyframes footer-btn-switch {
+    from{background-color: black;}
+    to {background-color: white;}
+    from {color: white;}
+    to {color: black;}
+    
+}
+
+footer nav a:hover {
+    animation: footer-btn-switch .2s;
+    animation-fill-mode: forwards;
 }

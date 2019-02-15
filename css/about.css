@@ -80,10 +80,27 @@ header nav {
     margin-right: 6%;
 }
 
-header nav a {
+header nav .nav-btn{
     text-decoration: none;
     color: black;
     font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+@keyframes btn-switch {
+    from{background-color: white;}
+    to {background-color: black;}
+    from {color: black;}
+    to {color: white;}
+    
+}
+
+header nav .nav-btn:hover{
+    animation: btn-switch .2s;
+    animation-fill-mode: forwards;
+    border: 1px solid black;
 }
 
 .top-content {
@@ -125,6 +142,11 @@ header nav a {
     cursor: pointer;
 }
 
+.cta-content button:hover{
+    animation: btn-switch .2s;
+    animation-fill-mode: forwards;
+}
+
 .bottom-content {
     margin: 0 2.5%;
 }
@@ -142,7 +164,23 @@ footer nav{
 }
 
 footer nav a {
-    margin: 0 3%;
+    margin-right: 2%;
     color: white;
     text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+@keyframes footer-btn-switch {
+    from{background-color: black;}
+    to {background-color: white;}
+    from {color: white;}
+    to {color: black;}
+    
+}
+
+footer nav a:hover {
+    animation: footer-btn-switch .2s;
+    animation-fill-mode: forwards;
 }
