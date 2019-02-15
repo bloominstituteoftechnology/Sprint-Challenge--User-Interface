@@ -70,13 +70,14 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+		margin-top: 20px
 		/* background: white; */
 }
 /*----- Navagation -----*/
 
 .main-nav{
 	display: flex;
-	/* justify-content: ; */
+	margin-top: 20px
 
 }
 
