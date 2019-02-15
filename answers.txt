@@ -1,0 +1,36 @@
+## Self-Study Questions
+
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML contains tags with meaning.  A person should be able to look at the tags and understand their function within the HTML document.  This differs from presentational tags. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display-block - taskes up as much space as their parent element will allow and the height and width properties can be applied
+WHILE
+inline-block- only takes up as much space as it's content and can not me used with the height and width properties
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. What are the 4 areas of the box model?
+
+from inside to outside, the 4 areas of box model are: content, padding, border and margin
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+the cross axis
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. Explain why git is valuable to a team of developers.
+
+Git is valuable for a team of developers because it provides version to the project.  It allows the entire team to have access to the code on their local machies and can isolate that code with their own individual branch if needed.  They then are able to merge their branches together.  It offers a way to track changes made and by whom.
