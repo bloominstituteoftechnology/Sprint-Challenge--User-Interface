@@ -228,9 +228,10 @@ footer nav a {
 }
 
 /*             About.HTML             */
-.about {
-	border-bottom: 1px solid black;
-	margin: 20px 0;
+.indentation {
+	border-bottom: 1px dashed black;
+	padding: 20px;
+
 }
 
 button {
@@ -255,9 +256,17 @@ button:hover {
 	flex-wrap: wrap;
 	justify-content: space-around;
 
+
 }
 
 .parent-container .child-item {
-	width: 350px;
+	width: 372px;
 	height: 425px;
+	border-bottom: 1px dashed black;
+	padding-top: 25px;
+
+}
+
+.mid-par {
+	padding-bottom: 5px;
 }
