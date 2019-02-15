@@ -71,16 +71,19 @@ p {
     margin: 0 auto;
 }
 header nav {
+    margin-left: 60px;
     display: flex;
     justify-content: space-evenly;   
 }
 header nav a {
     color: black;
+    font-size: 14px;
     text-decoration: none;
+    padding-top: 40px;
 }
  .jumbo {
     padding-top: 60px;
-    margin-left: 140px;
+    margin-left: 560px;
 
 }
 
@@ -88,6 +91,8 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 840px;
+    
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -95,7 +100,11 @@ header nav a {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+h2 {
+    
 }
 
 .middle-content {
