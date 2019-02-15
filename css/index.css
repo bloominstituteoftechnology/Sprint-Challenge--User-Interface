@@ -71,6 +71,70 @@ p {
     margin: 0 auto;
 }
 
+/* beginning of my CSS */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
+.jumbo-about {
+    margin-bottom: 20px;
+}
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    border-bottom: 1px dashed black; 
+    /*I would expect them to leave space / separatation
+    because they are each their own box. Instead, I'm getting
+    one continuous, ugly border across them all */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.box h2 {
+    margin-top: 10px;
+}
+
+.box p {
+    margin-bottom: 20px;
+}
+
+.box button {
+    background: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.bottom-content-about {
+    margin-bottom: 30px;
+}
+
+/* end of my CSS */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +165,53 @@ p {
     justify-content: space-evenly;
 }
 
+/*beginning of CSS for box colors*/
+
+.middle-content .boxes div:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes div:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes div:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes div:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes div:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes div:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes div:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes div:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes div:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes div:nth-child(10) {
+    background: dodgerblue;
+}
+
+/*end of box colors*/
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
