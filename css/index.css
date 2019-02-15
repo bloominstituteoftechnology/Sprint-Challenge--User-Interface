@@ -70,7 +70,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
 
+    vertical-align: baseline
+
+}
+
+.lambda header{
+    display: flex
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,8 +120,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.box
-    
+box { red
 
 }
 
