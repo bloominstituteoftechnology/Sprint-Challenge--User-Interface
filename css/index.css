@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.index-h {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 20px 40px 40px 0px;
+}
+
+.index-h a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +127,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box0 {
+    background: dodgerblue;
 }
 
 .bottom-content {
