@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,10 +66,46 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/*            Header            */
+
+nav a {
+	font-family: 'Rubik';
+	text-decoration: none;
+	color: black;
+	padding: 0 40px;
+	font-size: 14px
+}
+
+
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 20px 0;
+	align-items: baseline;
+	padding-bottom: 20px
+
+}
+
+header img {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.top-page {
+	justify-content: center;
+}
+
+/*            Main Two Paragraphs             */
 
 .top-content {
     display: flex;
@@ -77,13 +113,17 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+		margin-top: 20px;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
+
+/*            Box Section            */
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +144,55 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+	background: teal;
+}
+
+.box2 {
+	background: gold;
+}
+
+.box3 {
+	background: cadetblue;
+}
+
+.box4 {
+	background: coral;
+}
+
+.box5 {
+	background: crimson;
+}
+
+.box6 {
+	background: forestgreen;
+}
+
+.box7 {
+	background: darkorchid;
+}
+
+.box8 {
+	background: hotpink;
+}
+
+.box9 {
+	background: indigo;
+}
+
+.box10 {
+	background: teal;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +225,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*             About.HTML             */
+.indentation {
+	border-bottom: 1px dashed black;
+	padding: 20px;
+
+}
+
+button {
+  background: white;
+  vertical-align: top;
+	border-radius: 10px;
+  margin-top: 6px;
+  padding: 8px 24px;
+  font-size: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+.parent-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+
+}
+
+.parent-container .child-item {
+	width: 372px;
+	height: 425px;
+	border-bottom: 1px dashed black;
+	padding-top: 25px;
+
+}
+
+.mid-par {
+	padding-bottom: 5px;
+}
+
+.bot-par {
+	padding-top: 20px;
+}
+
+
+/*     Products     */
+
+.bot-4 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.bot-4 .child-item1 {
+	width: 375px;
+	height: 425px;
+	border-bottom: 1px dashed black;
+	margin-top: 25px;
+}
+
+.bot-4 .child-item1 img {
+justify-content: center;
 }
