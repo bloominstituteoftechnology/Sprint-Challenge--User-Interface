@@ -83,6 +83,10 @@ header a{
     text-decoration: none
 
 }
+header a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
 .lambda-logo{
     padding-bottom: 20px;
 }
@@ -178,6 +182,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 /*about.css*/
 
@@ -224,6 +232,11 @@ button{
     padding: 5px 15px;
     border: 2px solid black;
 }
+button:hover{
+    border: 2px solid white;
+    background: black;
+    color: white;
+}
 
 .work-together{
     display: flex;
@@ -231,4 +244,49 @@ button{
     align-content: center;
     margin: 20px 15px 0 15px;
     
+}
+img{
+    margin-bottom: 8px;
+}
+
+/*contac-css*/
+
+.contact-us{
+    
+    margin: 50px 0;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width:340px;
+    height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    padding:20px 30px;
+    position:relative
+}
+
+input{width:100%;
+    padding:10px;
+    background: none;
+    resize:none;
+    border:0;
+    border-bottom:2px solid black;
+}
+.messages{
+    margin-bottom: 20px;
+}
+
+.phone-us{
+    display:flex;
+    justify-content: center;
+}
+.email-us{
+    
+    text-decoration: none;
 }
