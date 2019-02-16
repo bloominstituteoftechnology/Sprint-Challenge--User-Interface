@@ -52,7 +52,6 @@ table {
 }
 
 html, body {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -98,13 +97,20 @@ header nav a:hover {
     text-decoration: underline;
     color: black;
 }
-
+.jumbo{
+    width: 760px;
+    align-self: center;
+    margin: 20px;
+}
 .new-jumbo {
     width: 800px;
-    align-content: center;
-    padding: 20px;
 }
 
+button {
+    background-color:white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
 /* brock */
 
 .top-content {
@@ -183,3 +189,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* brock below */
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    justify-content: flex-end;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0px 10px 20px 25px;
+}
+
+.squad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
