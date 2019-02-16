@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantics is cleanliness. Semantics is Organization. Semantics is preofessionalism. The semantics of the code is how it is percieved by other humans. It is how your code looks, feels and is deigned based on accountability of a set of standards. Semantics reinforce meaning of the information in webpages and web applications rather than merely define its presentation or look.    
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Display block:
+        1) respects top / bottom margins
+        2) respects height / width when specified
 
 3. What are the 4 areas of the box model?
 
+        Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The Cross Axis
+
 5. Explain why git is valuable to a team of developers.
+
+    It is open source with branching features that allow teams to all work seperatly on one particular project all at the same time.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

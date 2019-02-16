@@ -52,7 +52,6 @@ table {
 }
 
 html, body {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -68,8 +67,51 @@ p {
 
 .container {
     width: 800px;
+    height: 100%;
     margin: 0 auto;
+    border: 1px solid red;
 }
+
+/*brock*/
+
+header {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 800px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.jumbo{
+    width: 760px;
+    align-self: center;
+    margin: 20px;
+}
+.new-jumbo {
+    width: 800px;
+}
+
+button {
+    background-color:white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+/* brock */
 
 .top-content {
     display: flex;
@@ -112,6 +154,9 @@ p {
     justify-content: center;
 }
 
+.teal {
+    background-color: teal;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +189,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* brock below */
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 72px;
+    justify-content: flex-end;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0px 10px 20px 25px;
+}
+
+.squad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
