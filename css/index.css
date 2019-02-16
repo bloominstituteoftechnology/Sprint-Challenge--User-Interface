@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+/* Header */
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +101,11 @@ p {
     border-bottom: 1px dashed black;
 }
 
+/* top-content img */
+
+.top-content img {
+    margin: 20px 0;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -101,16 +128,118 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* boxes */
+
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +272,94 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page css *?
+/* header, header nav recycled from index */
+
+/* top content styles */
+
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about img {
+    margin: 20px 0;
+}
+
+.top-content-about .text-container {
+    padding: 0 1%;
+    padding-bottom: 20px; 
+}
+
+/* mid content styles */
+
+.mid-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* card styles */
+
+.mid-content-about .card {
+    padding: 10px;
+    width: 380px;
+    border-bottom: 1px dashed black;
+}
+
+.mid-content-about .card button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+/* button animation gif on hover */
+
+.afterdark:hover {
+    width: 380px;
+    height: 525px;
+    background-size: contain;
+    background: url("https://media.giphy.com/media/3o6UB117P7KdPnnpNC/giphy.gif") no-repeat;
+    background-position: center;
+    position: top;
+}
+
+.conjure:hover {
+    width: 380px;
+    height: 525px;
+    background-size: contain;
+    background: url("https://media.giphy.com/media/3o6UBedJJfaxXHvZyU/giphy.gif");
+    background-position: center;
+    position: top;
+}
+
+.planet:hover {
+    width: 380px;
+    height: 525px;
+    background: url("https://media.giphy.com/media/26zzgaDnp9HgPX1uw/giphy.gif") no-repeat;
+    background-position: center;
+    position: top;
+}
+
+.touch:hover {
+    width: 380px;
+    height: 525px;
+    background: url("https://media.giphy.com/media/xT77Y4x27Rq3ZrrteM/giphy.gif");
+    background-position: center;
+    position: top;
+}
+
+/* bot content about */
+
+.bot-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
 }
