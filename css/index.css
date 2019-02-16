@@ -71,7 +71,7 @@ p {
 }
 
 header nav {
-    margin-left: 515px;
+    margin-left: 485px;
     margin-right: 525px;
     display: flex;
     justify-content: space-evenly;
@@ -171,3 +171,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.box1 {
+    color: teal;
+}
+.jumbo-about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 550px;
+}
+.about-images {
+    
+    border-bottom: 1px dashed black;
+}
+
+
+ 
