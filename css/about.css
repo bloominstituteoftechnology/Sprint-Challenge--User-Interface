@@ -1,0 +1,169 @@
+/* I tried my best but couldn't go far enough to replicate pixel-for-pixel design */
+
+
+/* My code starts here */
+
+.navigation {
+    margin: 5px;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.logo {
+    margin: 15px;
+    /* position: absolute; */
+    padding: 10px;
+    left: 0;
+    /* top: 10; */
+    /* display:  */
+}
+
+p {
+    padding: 10px auto;
+    font-size: 18px;
+}
+
+h2 {
+    padding: 5px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+.jumbo-about {
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+button {
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 10px;
+    margin: 20px auto;
+    display: inline;
+    cursor: pointer;
+}
+
+.about-top {
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.strategy-top {
+    /* border: 1px solid red; */
+    /* border: 1px solid gray; */
+    margin: 20px 10px;
+    /* line-height: 1.25; */
+    padding: 10px 10px;
+}
+
+.strategy {
+    padding: 5px;
+    /* margin: 10px; */
+    text-align: left;
+}
+
+.p-strategy {
+    /* padding: 5px; */
+    /* margin: 10px; */
+    line-height: 1.25;
+}
+
+.working-top {
+    /* border: 1px solid gray; */
+    margin: 20px 10px;
+    /* line-height: 1.25; */
+    padding: 5px 5px;
+}
+
+.p-work {
+    padding: 5px;
+    /* margin: 10px; */
+    line-height: 1.25;
+}
+
+.about-middle {
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.places-middle {
+    /* border: 1px solid red; */
+    /* border: 1px solid gray; */
+    margin: 20px 10px;
+    /* line-height: 1.25; */
+    padding: 10px 10px;
+}
+
+.places {
+    padding: 5px;
+    /* margin: 10px; */
+    text-align: left;
+}
+
+.p-places {
+    /* padding: 5px; */
+    margin: 10px;
+    line-height: 1.25;
+}
+
+.collaboration-middle {
+    /* border: 1px solid gray; */
+    margin: 20px 10px;
+    /* line-height: 1.25; */
+    padding: 5px 5px;
+}
+
+.p-collaboration {
+    padding: 5px;
+    /* margin: 10px; */
+    line-height: 1.25;
+}
+
+.bottom {
+    padding: 5px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* .plan {
+    padding: 5px;
+} */
