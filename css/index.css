@@ -374,6 +374,10 @@ header nav a:hover {
   color: white;
 }
 
+.about-page .process .skill .learn-more:focus {
+  outline: none;
+}
+
 .about-page .about-bottom {
   margin: 0 16px 50px 16px;
 }
