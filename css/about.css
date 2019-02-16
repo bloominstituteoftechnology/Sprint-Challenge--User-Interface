@@ -11,11 +11,21 @@
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center
 }
 
 .container {
     width: 1000px;
     margin: 0px auto;
+}
+
+.logo {
+    margin: 15px;
+    /* position: absolute; */
+    padding: 10px;
+    left: 0;
+    /* top: 10; */
+    /* display:  */
 }
 
 p {
@@ -31,20 +41,12 @@ h3 {
     padding: 5px;
 }
 
-.logo {
-    margin: 15px;
-    position: absolute;
-    padding: 10px;
-    left: 0;
-    /* top: 10; */
-    /* display:  */
-}
-
 .jumbo-about {
+    margin: auto;
     width: 1000px;
     padding: 10px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 button {
