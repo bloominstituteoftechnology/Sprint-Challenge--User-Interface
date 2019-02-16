@@ -283,7 +283,7 @@ footer nav a {
 .top-content-about {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -293,7 +293,7 @@ footer nav a {
 
 .top-content-about .text-container {
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
 }
 
 /* mid content styles */
@@ -302,13 +302,14 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20[x;]
 }
 
+/* card styles */
+
 .mid-content-about .card {
-    padding: 20px;
-    width: 400px;
-    border-bottom: 2px dashed black;
+    padding: 10px;
+    width: 380px;
+    border-bottom: 1px dashed black;
 }
 
 .mid-content-about .card button {
@@ -319,8 +320,41 @@ footer nav a {
     border-radius: 5px;
     border: 1px solid black;
 }
+/* button animation gif on hover */
 
-/* card styles */
+.afterdark:hover {
+    width: 380px;
+    height: 525px;
+    background-size: contain;
+    background: url("https://media.giphy.com/media/3o6UB117P7KdPnnpNC/giphy.gif") no-repeat;
+    background-position: center;
+    position: top;
+}
+
+.conjure:hover {
+    width: 380px;
+    height: 525px;
+    background-size: contain;
+    background: url("https://media.giphy.com/media/3o6UBedJJfaxXHvZyU/giphy.gif");
+    background-position: center;
+    position: top;
+}
+
+.planet:hover {
+    width: 380px;
+    height: 525px;
+    background: url("https://media.giphy.com/media/26zzgaDnp9HgPX1uw/giphy.gif") no-repeat;
+    background-position: center;
+    position: top;
+}
+
+.touch:hover {
+    width: 380px;
+    height: 525px;
+    background: url("https://media.giphy.com/media/xT77Y4x27Rq3ZrrteM/giphy.gif");
+    background-position: center;
+    position: top;
+}
 
 /* bot content about */
 
