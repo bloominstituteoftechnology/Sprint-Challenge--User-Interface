@@ -192,12 +192,14 @@ header nav .current {
   background: #e1e0e0;
   color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.05);
 }
 
 header nav a:hover {
   background: crimson;
   color: white;
   border-radius: 5px;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
 }
 
 /* Home Page */
@@ -251,6 +253,7 @@ header nav a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.05);
 }
 
 @keyframes round {
@@ -266,6 +269,7 @@ header nav a:hover {
   animation-name: round;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
 }
 
 .middle-content .boxes .teal {
@@ -344,7 +348,7 @@ header nav a:hover {
   border-radius: 5px;
   padding: 30px;
   /* border-bottom: 1px dashed rgba(0, 0, 0, 0.2); */
-  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.04);
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.03);
   margin-bottom: 50px;
 }
 
@@ -354,7 +358,7 @@ header nav a:hover {
 }
 
 .about-page .process .skill p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
@@ -369,11 +373,14 @@ header nav a:hover {
   font-size: 13px;
   font-weight: 400;
   transition: background 0.3s;
+  padding: 0;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.05);
 }
 
 .about-page .process .skill .learn-more:hover {
   background: crimson;
   color: white;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
 }
 
 .about-page .process .skill .learn-more:focus {
@@ -391,7 +398,7 @@ header nav a:hover {
   padding: 30px;
   padding-top: 15px;
   /* border-bottom: 1px dashed rgba(0, 0, 0, 0.2); */
-  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.04);
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.03);
   margin-bottom: 40px;
 }
 .contact-page form .fields {
@@ -469,10 +476,12 @@ header nav a:hover {
   font-weight: 500;
   font-size: 14px;
   transition: background 0.1s;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.05);
 }
 
 .contact-page form .fields input[type='submit']:hover {
   background: coral;
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
 }
 
 .contact-page form .fields input[type='submit']:focus {
