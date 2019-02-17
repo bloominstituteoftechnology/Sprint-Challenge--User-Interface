@@ -389,6 +389,7 @@ header nav a:hover {
   background: #fafafa;
   border-radius: 5px;
   padding: 30px;
+  padding-top: 15px;
   /* border-bottom: 1px dashed rgba(0, 0, 0, 0.2); */
   box-shadow: 0 5px 10px rgb(0, 0, 0, 0.04);
   margin-bottom: 40px;
@@ -401,9 +402,10 @@ header nav a:hover {
 }
 
 .contact-page form .fields label {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin: 0px 30px;
-  font-weight: 500;
+  padding-top: 15px;
+  font-weight: 700;
   color: black;
 }
 
