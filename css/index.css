@@ -278,7 +278,7 @@ footer nav a {
 .main-content .info-box {
   padding: 20px;
   border-bottom: 1px dashed black;
-  width: 400px;
+  width: 365px;
   margin: 20px 0;
 }
 
@@ -286,7 +286,8 @@ footer nav a {
 
 }
 
-.main-content .info-box p {
+.main-content .info-box .box-img {
+    width: 320px;
 
 }
 
@@ -294,4 +295,8 @@ footer nav a {
   padding: 10px 40px;
   border: 1.5px solid black;
   margin-top: 20px;
+}
+
+.end {
+    margin-bottom: 30px;
 }
