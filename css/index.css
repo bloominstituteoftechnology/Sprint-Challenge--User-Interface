@@ -268,14 +268,14 @@ footer nav a {
 
 /*about page*/
 .header-img {
-    margin: 0 180px;
+    margin: 0 10px;
     padding-bottom: 30px;
 }
 
 .about {
    border-bottom: 1px dashed black;  
    padding-bottom: 30px;  
-   margin-left: 40px;
+   margin-left: 30px;
 }
 
 .main-content {
