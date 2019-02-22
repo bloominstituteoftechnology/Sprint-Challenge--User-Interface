@@ -195,36 +195,33 @@ background: cadetblue;
 .header {
     width: 800px;
     margin: 0 auto;
-}
-.top-content2 {
-    width: 750px;
-    margin: 0 auto;   
-}
+} 
+
+
 .about-top {
     text-align: left;
     padding-left: 35px;
+    border-bottom: 1px dashed black;
 }
 h1 {
     text-align: left;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 .first-p {
 text-align: center;
-width: 740px;
-border-bottom: 1px dashed black;
 padding-bottom: 30px;
-margin-bottom: 30px;
 }
 .block1 {
     display: flex;
+    justify-content: center;
 }
 
 .block2 {
     display: flex;
+    justify-content: center;
 }
 .second-p {
-    text-align: start;
-    width: 785px;
+    text-align: start;   
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -236,8 +233,6 @@ button {
     margin-bottom: 10px;
 }
 .image1, .image2, .image3, .image4 {
-    border-bottom: 1px dashed black;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;        
+    width: 370px;
+    margin: 20px;  
 }
