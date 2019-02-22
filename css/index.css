@@ -266,6 +266,7 @@ footer nav a {
 .about {
    border-bottom: 1px dashed black;  
    padding-bottom: 30px;  
+   margin-left: 40px;
 }
 
 .main-content {
