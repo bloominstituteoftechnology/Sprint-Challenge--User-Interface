@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +143,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-of-page {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 26px 0;
+}
+
+header nav a {
+margin: 0 38px;
+}
+
+.top-of-page img {
+	margin-bottom: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color:black;
+}
+
+.about-page-intro {
+	border-bottom:1px dashed black;
+	padding-bottom: 23px;
+	margin-bottom: 38px;
+}
+
+.mid-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mid-content {
+	width: 46%;
+	border-bottom:1px dashed black;
+	margin-bottom: 50px;
+}
+
+button {
+	margin: 20px 0;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	padding: 5px 22px;
+	border:2px solid black;
+}
+
+footer nav {
+	margin-top: 39px;
+}
+
+.about-page-intro h1 {
+	margin-top: 17px;
 }
