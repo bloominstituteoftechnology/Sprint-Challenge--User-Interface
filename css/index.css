@@ -263,3 +263,35 @@ footer nav a {
 
 /*about page*/
 
+.about {
+   border-bottom: 1px dashed black;  
+   padding-bottom: 30px;  
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1.5;
+}
+
+.main-content .info-box {
+  padding: 20px;
+  border-bottom: 1px dashed black;
+  width: 400px;
+  margin: 20px 0;
+}
+
+.main-content .info-box h1 {
+
+}
+
+.main-content .info-box p {
+
+}
+
+.main-content .info-box .button {
+  padding: 10px 40px;
+  border: 1.5px solid black;
+  margin-top: 20px;
+}
