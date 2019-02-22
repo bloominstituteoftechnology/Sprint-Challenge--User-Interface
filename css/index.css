@@ -66,9 +66,34 @@ p {
     line-height: 1.4;
 }
 
+.test {
+    border: 2px solid red;
+}
+
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 30px;
+}
+
+header img.jumbo {
+    width: 100%;
+}
+
+.banner nav a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 35px;
 }
 
 .top-content {
@@ -112,6 +137,46 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +209,96 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.about-page .top-content {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.about-page .middle-content {
+    width: 100%;
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.about-page .middle-content .content-block {
+    border-bottom: 1px dashed black;
+    width: 47%;
+    margin-bottom: 50px;
+}
+
+.about-page .middle-content .content-block img {
+    width: 100%;
+}
+
+.about-page .middle-content .content-block h2 {
+    margin-top: 15px;
+}
+
+.about-page .middle-content .content-block p {
+    padding-left: 7.4px;
+    margin: 15px 0;
+}
+
+.about-page .middle-content .content-block button {
+    background: inherit;
+    font-family: inherit;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    margin-left: 7.4px;
+    margin-bottom: 15px;
+}
+
+.about-page .bottom-content {
+    display: block;
+}
+/* Was going to try to make it responsive but ran out of time and havent gone over the unit yet  */
+
+/* after doing some reading I didnt thing 550-600px was wide enough so I am going a bit higher in pixels */
+@media only screen and (max-width: 675px){
+
+    .flex-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .content-block, .text-container {
+        margin-top: 15px;
+        width: 96% !important;
+    }
+/*  And that was my failed attempt at three stars laughing out loud    */
+    .container .middle-content .boxes {
+        flex-wrap: wrap;
+        align-items: space-between
+    }
+
+    .container .middle-content .boxes .box {
+        width: 100px;
+    }
+
+    .container header .banner nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container header .banner nav a {
+        display: inline-block;
+        height: 20px;
+        
+    }
+    
+
+
+
+
+
+
