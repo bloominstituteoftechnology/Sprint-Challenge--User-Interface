@@ -66,7 +66,29 @@ p {
     line-height: 1.4;
 }
 
-.about-page {
-   display: flex;
-   
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 30px; 
+}
+
+header img.logo2 {
+    width: 100%;
+
+}
+
+.top nav a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 35px;
 }
