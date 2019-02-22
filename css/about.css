@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -75,20 +76,138 @@ header {
     margin-bottom: 20px;
 }
 
-.top {
+.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0 30px; 
+    padding: 20px 0 30px;
 }
 
-header img.logo2 {
+header img.large {
     width: 100%;
-
 }
 
-.top nav a {
+.main nav a {
     text-decoration: none;
     color: inherit;
     margin: 0 35px;
 }
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+
+
+.about-page .top-content {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.about-page .middle-content {
+    width: 100%;
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.about-page .middle-content .content-block {
+    border-bottom: 1px dashed black;
+    width: 47%;
+    margin-bottom: 50px;
+}
+
+.about-page .middle-content .content-block img {
+    width: 100%;
+}
+
+.about-page .middle-content .content-block h2 {
+    margin-top: 15px;
+}
+
+.about-page .middle-content .content-block p {
+    padding-left: 7.4px;
+    margin: 15px 0;
+}
+
+.about-page .middle-content .content-block button {
+    background: inherit;
+    font-family: inherit;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    margin-left: 7.4px;
+    margin-bottom: 15px;
+}
+
+.about-page .bottom-content {
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+
+    .flex-container {
+        flex-direction: column !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .content-block, .text-container {
+        margin-top: 15px;
+        width: 96% !important;
+    }
+    
+    .container .middle-content .boxes {
+        flex-wrap: wrap;
+        align-items: space-between
+    }
+
+    .container .middle-content .boxes .box {
+        width: 100px;
+    }
+
+    .container header .main nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container header .main nav a {
+        display: inline-block;
+        height: 20px;
+        
+    }
+
+    .container header .big-pic {
+        max-width: 100vw;
+        min-height: 110px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .container header div img.large {
+        position: absolute;
+        left: 60%;
+        margin: 0 -100%;
+        width: auto;
+        vertical-align: center;
+
+    }
+}
+© 2019 GitHub, Inc.
+
+
