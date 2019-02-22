@@ -66,33 +66,48 @@ p {
     line-height: 1.4;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 header {
-    width: 100%;
-    display: flex;
-}
-
-
-
-header nav {
-   border: 1px solid red;
-   margin-top: 40px; 
-    width: 610px;
-    justify-content: space-between;
-    display: flex; 
-}
-
-header .logo {
-    margin: auto;
+    margin-bottom: 20px;
     
 }
 
-
-
-
-.container {
-    width: 800px;
-    margin: 0 auto;
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 30px;
 }
+
+header img.logo2 {
+    width: 100%;
+
+}
+
+.top nav a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .top-content {
     display: flex;
