@@ -79,15 +79,10 @@ p {
     border-bottom: 1px dashed black;
 }
 
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-}
-
-.about{
-    margin-bottom: 20px;
 }
 
 .middle-content {
@@ -149,98 +144,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-#teal{
-    background: teal;
-}
-#gold{
-    background: gold;
-}
-#cadetblue{
-    background: cadetblue;
-}
-#crimson{
-    background: crimson;
-}
-#coral{
-    background: coral;
-}
-#forestgreen{
-    background: forestgreen;
-}
-#darkorchid{
-    background: darkorchid;
-}
-#hotpink{
-    background: hotpink;
-}
-#indigo{
-    background: indigo;
-}
-#dodgerblue{
-    background: dodgerblue;
-}
-/* .top-content .text-container .text-container2{
-    align-self: flex-end;
-} */
-/* #bacon{
-    display: flex;
-justify-content: space-between;
-align-items: center;
-
-} */
-header{
-    display: flex;
-    width: 100%;
-}
-
-header nav{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin-top: 22px;
-
-}
-
-.parent-card{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.card{
-    width: 370px;
-    border-bottom: 1px dotted black;
-    margin: 25px 15px;
-}
-
-.card button{
-    margin: 10px;
-    border: 2px solid black;
-    border-radius: 6px;
-    padding: 7px 18px;
-    font-size: 16px;
-}
-
-.about-bottom{
-    width: 100%;
-}
-
-.about-bottom h4{
-    padding: 10px;
-    margin: 15px;
-}
-
-.about-bottom p{
-    margin: 20px;
-    padding-bottom: 15px;
-}
-
-.Header-picture1{
-    width: 100%;
-    margin: 20px 0;
-
-}
-.Header-picture{
-    margin: 30px 150px 30px;
-
+.header{
+    display:flex;
 }
