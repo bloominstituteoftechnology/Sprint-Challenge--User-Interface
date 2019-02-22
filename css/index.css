@@ -149,6 +149,7 @@ footer nav a {
     margin-bottom: 40px;
 }
 header {
+
     margin-top: 30px;
     margin-bottom: 30px; 
 }
@@ -190,4 +191,8 @@ background: cadetblue;
 }
 #b10 {
     background: dodgerblue;
+}
+.header {
+    width: 800px;
+    margin: 0 auto; 
 }
