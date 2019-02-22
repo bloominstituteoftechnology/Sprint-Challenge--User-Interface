@@ -169,3 +169,34 @@ nav a {
 	text-decoration: none;
 	color:black;
 }
+
+.about-page-intro {
+	border-bottom:1px dashed black;
+	padding-bottom: 23px;
+	margin-bottom: 38px;
+}
+
+.mid-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mid-content {
+	width: 46%;
+	border-bottom:1px dashed black;
+	margin-bottom: 50px;
+}
+
+button {
+	margin: 20px 0;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	padding: 5px 22px;
+	border:2px solid black;
+}
+
+footer nav {
+	margin-top: 39px;
+}
