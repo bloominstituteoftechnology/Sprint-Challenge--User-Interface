@@ -72,18 +72,25 @@ p {
 }
 
 header {
-    display: flex;
-    flex-direction: row;
     
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    
+}
+
+header nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between; 
+    
 }
+   
 
 .top-content {
     display: flex;
