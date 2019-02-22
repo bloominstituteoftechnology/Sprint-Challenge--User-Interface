@@ -144,3 +144,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.top-line {
+    display: flex;
+   justify-items: flex-start;
+}
+
