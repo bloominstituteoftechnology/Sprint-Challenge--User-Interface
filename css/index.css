@@ -82,7 +82,7 @@ header {
 header nav {
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 170px;
+    margin-left: 20px;
     width: 600px;
     justify-content: space-between;
     display: flex;
@@ -93,7 +93,7 @@ header nav a {
     color: black;
 }
    
-header nav .logo {
+.logo {
     padding-bottom: 0px;
 }
 
