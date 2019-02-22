@@ -52,6 +52,13 @@ table {
     }
 
 
+}
+.header {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: 
+}
 
 html, body {
     height: 100%;
@@ -115,6 +122,21 @@ header nav a {
 nav {
      display: inline-block;
     justify-content: space-evenly; 
+    margin: 0 auto;
+
+}
+.layer1 {
+    margin: 0
+}
+.header {
+    display: flex ;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav{
+    display: inline-block;
+    justify-content: space-evenly;
 }
 
 .top-content {
