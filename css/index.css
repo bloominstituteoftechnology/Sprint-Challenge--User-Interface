@@ -194,5 +194,20 @@ background: cadetblue;
 }
 .header {
     width: 800px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+.top-content2 {
+    display: flex;
+    width: 750px;
+    margin: 0 auto;
+    
+   
+}
+.first-p {
+text-align: start;
+width: 785px;
+border-bottom: 1px dashed black;
+padding-bottom: 30px;
+margin-bottom: 30px;
+}
+
