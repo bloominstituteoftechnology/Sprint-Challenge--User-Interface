@@ -70,7 +70,12 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.lambda header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
 
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
