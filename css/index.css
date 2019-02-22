@@ -67,19 +67,27 @@ p {
 }
 
 header {
+    width: 100%;
     display: flex;
 }
 
-.logo {
-    align-items: flex-end;
-}
+
+
 header nav {
    border: 1px solid red;
-    margin-top: 15px;
-    margin-left: 150px;
-    align-items: stretch;
-
+   margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex; 
 }
+
+header .logo {
+    margin: auto;
+    
+}
+
+
+
 
 .container {
     width: 800px;
