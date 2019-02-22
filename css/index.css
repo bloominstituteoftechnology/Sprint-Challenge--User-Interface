@@ -162,7 +162,7 @@ margin: 0 38px;
 }
 
 .top-of-page img {
-	margin-bottom: 27px;
+	margin-bottom: 0;
 }
 
 nav a {
@@ -199,4 +199,8 @@ button {
 
 footer nav {
 	margin-top: 39px;
+}
+
+.about-page-intro h1 {
+	margin-top: 17px;
 }
