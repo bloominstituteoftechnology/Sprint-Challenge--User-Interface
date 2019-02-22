@@ -72,25 +72,30 @@ p {
 }
 
 header {
-    
+    width: 100%;
     display: flex;
-    /* flex-direction: row;
-    justify-content: space-between; */
+    /* flex-direction: row;*/
+    
     
 }
 
 header nav {
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 170px;
+    width: 600px;
+    justify-content: space-between;
+    display: flex;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    justify-content: space-between; 
-    
 }
    
+header nav .logo {
+    padding-bottom: 0px;
+}
 
 .top-content {
     display: flex;
