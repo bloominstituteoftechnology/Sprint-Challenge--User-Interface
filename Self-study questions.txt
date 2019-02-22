@@ -24,4 +24,4 @@ Self-Study questions:
         ii. It can recall and revert the whole project back to the pervious state.
         iii. This allows developers to Compare the code over a period of time.
         vi. It allows the developers to see who last modified something.
-        v. There is more but these are a few of them.
+        v. There is more but these are a few of them..
