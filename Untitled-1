@@ -1,0 +1,24 @@
+//CODING CHALLENGE: Consultwebs
+
+'use strict';
+var a = 1
+ 
+for( var i = 0; i <= 1; i++ ) {       //there was a keyword var added based on the debugging that happened
+    var b = a + i;
+}
+ 
+function Math(a) {
+    console.log(a, ' + ', b, ' = 3');
+}
+ 
+Math(a);
+
+
+FOR LOOP IS KINDA WONKED ---- 
+;jh
+
+
+
+[]
+Need to declare variable using the var or let keywork
+
