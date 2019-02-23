@@ -1,4 +1,9 @@
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,6 +29,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.header-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 15px 0 25px 0;
+    
+}
+
+.lambda-logo {
+    display: flex; 
+    justify-content: flex-start;
+    padding-right: 40px
+}
+
+header nav a {
+    padding: 0 40px 0 30px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.header-photo {
+    padding: 5px 0 15px 0;
+}
+
 body {
 	line-height: 1;
 }
@@ -55,7 +86,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 p {
@@ -76,7 +107,6 @@ p {
 }
 
 .top-content .text-container {
-    margin-top: 15px;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -99,15 +129,54 @@ p {
 }
 
 .middle-content .boxes .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,65 +212,51 @@ footer nav a {
     text-decoration: none;
 }
 
-.jumbo {
-    margin-top: 30px;
+
+
+
+/* ABOUT PAGE */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
 }
 
-.nav-bar img {
+.about-header {
+    padding-left: 25px;
+    padding-bottom: 15px;
+    border-bottom: dashed 1px black;
+
+}
+
+.about-us {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: -15px;
+    flex-wrap: wrap;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 140px;
-    margin-bottom: 10px;
-    
+.card {
+    padding-top: 15px;
+    content: 20px;
+    width: 380px;
+    margin: 10px;
+    border-bottom: dashed 1px black;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.card img {
+    padding-bottom: 10px;
+    width: 100%;
 }
 
-#box1 {
-    background-color: teal;
+button {
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 28px;
+    border: solid 1px black;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    margin-top: 15px;
 }
 
-#box2 {
-    background-color: gold;
-}
-
-#box3 {
-    background-color: cadetblue;
-}
-
-#box4 {
-    background-color: coral;
-}
-
-#box5 {
-    background-color: crimson;
-}
-
-#box6 {
-    background-color: forestgreen;
-}
-
-#box7 {
-    background-color: darkorchid;
-}
-
-#box8 {
-    background-color:hotpink;
-}
-/* change */
-#box9 {
-    background-color: indigo;
-}
-
-#box10 {
-    background-color: dodgerblue;
+.work-together {
+    padding: 35px 0 35px 15px
 }
