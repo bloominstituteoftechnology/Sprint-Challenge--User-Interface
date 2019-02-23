@@ -1,0 +1,64 @@
+/*
+THIS IS THE FLEXBOX ADDITIONS FOR THE CARDS
+by Steven Craig Moss
+*/
+.test {
+	border: 5px solid orangered;
+}
+nav.Top-navigationBar {
+display: flex;
+align-items: center;
+justify-content: center;  
+}
+a {
+	color: yellow
+}
+li.cards--item {
+	display: flex;
+	display: flex;
+}
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.cards--item {
+	display: flex;
+	padding: 160 px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.card--content {
+	display: flex;
+/*	below is me trying to  dazzle  */
+	flex: 1 1 auto;
+	flex-direction: column;
+}
+/*please dont kick me out of Lambda*/
+.card--image  {
+	background-position: center center;
+	background-repeat: no -repeat;
+	background-size: cover;
+}
+.card--title {
+	color: dimgray;
+/*	convert  px to rem*/
+	font-size: 1.25 rem;
+	text-transform: uppercase;
+}
+.card--text {
+	flex : 1 1 auto;
+	font-size: 0.875 rem;
+	line-height: 1.5;
+	margin-bottom: 1.25 rem;
+}
+button {
+	background-color: aliceblue;
+	border: 1px solid  lightgray;
+	text-transform: lowercase;
+}
