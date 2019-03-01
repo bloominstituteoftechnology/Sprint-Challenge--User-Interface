@@ -285,7 +285,7 @@ footer nav a {
     margin-bottom: 30px;
     border-bottom: black dotted 1px;
     padding-bottom: 15px;
-    
+
     }
 .collab {
     width: 370px;
@@ -301,8 +301,17 @@ padding-left: 15px;
     margin-bottom: 20px;
 }
 button {
-padding-left: 5px;
+    margin-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border: 2px solid black;
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 6px;
 
+}
+#HowButton {
+    margin-top: 18px;
 }
 
 
