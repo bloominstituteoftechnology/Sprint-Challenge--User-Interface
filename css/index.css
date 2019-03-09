@@ -144,6 +144,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.top-part {
-    flex-wrap:wrap;
+.this {
+    padding: 10px;
+    justify-content: center; 
 }
