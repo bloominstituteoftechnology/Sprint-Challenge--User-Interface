@@ -145,10 +145,11 @@ footer nav a {
     text-decoration: none;
 }
 
-box1 {
-    color: teal;
+
+.box1 {
+    background: teal;
 }
-box2 {
+.box2 {
     color: gold;
 }
 box3 {
