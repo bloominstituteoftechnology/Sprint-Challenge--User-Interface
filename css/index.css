@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +146,208 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+	text-align: center;
+}
+
+.nav-bar{
+	width:800px;
+    flex-wrap: nowrap;
+
+
+}
+
+.navigation a {
+    display: flex;
+
+	color: black;
+    padding: 30px;
+    font-size: 15px;
+	text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    display:flex;
+    justify-content: flex-start;
+    align-content: left;
+    height: 45px;
+    padding-right: 30px;
+}
+.top-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+        text-align: left;
+        width: 44%;
+        padding-top: 20px;
+    }
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.learn-more {
+    border-color:black;
+	border-radius: 10px;
+    font-size: 15px;
+    background: white;
+    width: 120px;
+    height: 35px;
+
+	
+}
+
+.bottom-content-about {
+    padding-top: 40px;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.top-content-about {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.phone-img {
+    width: 370px;
+    height: 370px;
+}
+
+.phone-tag {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
