@@ -150,5 +150,14 @@ footer nav a {
     margin-top: 10px;
     margin-left: 15px;
 }
+#box1 {
+    background: teal;
+}
 
+.middle {
+    display:flex;
+}
 
+.bottom {
+    display:flex;
+}
