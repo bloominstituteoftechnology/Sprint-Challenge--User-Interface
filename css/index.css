@@ -74,8 +74,20 @@ p {
 .top-nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: nowrap;
+	margin-top: 20px;
+	font-size: 90%;
+}
+
+.top-nav a {
+	text-decoration: none;
+	color: black;
+	margin-top: auto;
+}
+
+#road-img {
+	margin: 40px 0px 20px 0px;
 }
 
 .top-content {
