@@ -78,7 +78,7 @@ header {
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 50px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .top-nav {
@@ -98,6 +98,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -132,6 +133,46 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background-color: teal
+}
+
+#box2 {
+    background-color: gold
+}
+
+#box3 {
+    background-color: cadetblue
+}
+
+#box4 {
+    background-color: coral
+}
+
+#box5 {
+    background-color: crimson
+}
+
+#box6 {
+    background-color: forestgreen
+}
+
+#box7 {
+    background-color: darkorchid
+}
+
+#box8 {
+    background-color: hotpink
+}
+
+#box9 {
+    background-color: indigo
+}
+
+#box10 {
+    background-color: dodgerblue
 }
 
 .bottom-content {
