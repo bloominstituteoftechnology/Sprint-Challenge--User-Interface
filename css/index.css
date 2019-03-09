@@ -73,17 +73,9 @@ p {
 
 .top-nav {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
-}
-
-.nav-menu {
-	display: flex;
-	justify-content: space-around;
-}
-
-.top-nav a {
-	text-decoration: none;
-	color: black;
+	flex-wrap: nowrap;
 }
 
 .top-content {
@@ -127,6 +119,54 @@ p {
     justify-content: center;
 }
 
+#box1 {
+	background-color: teal;
+}
+
+#box2 {
+	background-color: gold;
+
+}
+
+#box3 {
+	background-color: cadetblue;
+
+}
+
+#box4 {
+	background-color: coral;
+
+}
+
+#box5 {
+	background-color: crimson;
+
+}
+
+#box6 {
+	background-color: forestgreen;
+
+}
+
+#box7 {
+	background-color: darkorchid;
+
+}
+
+#box8 {
+	background-color: hotpink;
+
+}
+
+#box9 {
+	background-color: indigo;
+
+}
+
+#box10 {
+	background-color: dodgerblue;
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
