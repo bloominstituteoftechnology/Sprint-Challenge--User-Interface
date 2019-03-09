@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
