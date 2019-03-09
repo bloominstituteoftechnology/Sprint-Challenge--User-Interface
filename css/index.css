@@ -77,6 +77,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8%;
+    text-decoration: none;
+}
+
+.top-section {
+    display: flex;
+    flex-flow: column wrap;
+    width: 96%;
+    margin-bottom: 5%;
+    align-items: left;
+    margin-left: 2%;
 }
 
 .header-div:last-child {
@@ -124,6 +134,28 @@ nav {
     justify-content: center;
 }
 
+.about-page .body-section {
+    display: flex;
+    flex-flow: row wrap;
+    border-top: 1px dashed black;
+    justify-content: space-evenly;
+}
+
+.about-page .body-section div {
+    width: 48%;
+    box-sizing: border-box;
+    padding: 2% 0% 2% 0%;
+    margin-bottom: 1.5%;
+    border-bottom: 1px dashed black;
+}
+.about-page .body-section div a {
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 11%;
+    margin-top: 4.5%;
+    margin-bottom: 1%;
+}
+
 .boxes .box:nth-child(1) {
     background-color: teal;
 }
@@ -168,6 +200,10 @@ nav {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.lets-work {
+    margin: 6% 2% 5% 2%;
 }
 
 footer {
