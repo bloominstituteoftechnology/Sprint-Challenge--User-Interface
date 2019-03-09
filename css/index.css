@@ -149,6 +149,20 @@ footer nav a {
     margin-top: 10px;
     margin-left: 15px;
 }
+
+.middle {
+    display:flex;
+}
+
+.bottom {
+    display:flex;
+}
+header nav {
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+
 #box1 {
     background: teal;
 }
@@ -179,12 +193,6 @@ footer nav a {
 #box10 {
     background: dodgerblue;
 }
-
-
-.middle {
-    display:flex;
-}
-
-.bottom {
-    display:flex;
+.logo {
+    display:flex; 
 }
