@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    border: 1px dotted black;
 }
 
 .top-content {
@@ -144,7 +145,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.this {
-    padding: 10px;
-    justify-content: center;
+
+.text-container {
+    margin-top: 10px;
+    margin-left: 15px;
 }
+
+
