@@ -247,6 +247,18 @@ button {
 	margin: 20px 0px;
 }
 
+.products-content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-left: 15px;
+}
+
+.products-content section {
+	width: 50%;
+	margin: 20px 0px;
+}
+
 .about-content h2 {
 	margin-top: 10px;
 }
