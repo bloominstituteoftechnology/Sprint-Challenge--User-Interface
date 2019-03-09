@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,26 +65,49 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    margin-bottom: 10px;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        width: 90%;
+        padding: 10px;
+ }
+
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    flex-wrap: wrap;
 }
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
+    padding: 0 2%;
+    
+ }
+
+ .mainPhoto{
+     display:flex;
+     align-self: center;
+     width: 100%;
+     margin-bottom: 10px;
+    margin-top: 10px;
+    
+ }
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,12 +128,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    backgrounnd-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +197,31 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.about-page .text-container{
+    border-bottom: 1px dashed black;
+    font-size: 100%;
+}
+
+.about-page .boxes{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page button{
+    padding: 10px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.middle-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
