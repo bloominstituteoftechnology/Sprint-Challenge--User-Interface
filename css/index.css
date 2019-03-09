@@ -274,3 +274,18 @@ footer nav a {
 .jumbo{
     margin-bottom: 10%;
 }
+.middle-part{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-middle{
+    display: flex;
+}
+
+.content{
+    flex-wrap: wrap;
+}
+.bottom-middle{
+    display: flex;
+}
