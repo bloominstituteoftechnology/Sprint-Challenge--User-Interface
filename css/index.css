@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+  }
+  
+  li {
+	display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 1rem;
+	margin-left: 2rem;
+	margin-right:2rem;
+  }
+  .logo{
+    display: inline-block;
+    width: 100px;
+    vertical-align: middle;
+    height: 3rem;
+	margin-left: 12rem;
+	margin-right:2rem;
+  }
