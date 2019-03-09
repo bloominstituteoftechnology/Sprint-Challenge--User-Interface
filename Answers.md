@@ -1,6 +1,6 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is markup that describe what the content on a web page is. For example labeling a header or paragraph is semantic markup. Anything to do with styling is not, however some HTML elements do have styling built in.
+Semantic HTML is markup that describes what the content on a web page is. For example labeling a header or paragraph is semantic markup. Anything to do with styling is not, however some HTML elements do have styling built in.
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
@@ -16,4 +16,4 @@ Cross axis
 
 5. What is the git command to commit staged changes as well as write a message? 
 
-git add
+git commit -m "message"
