@@ -156,6 +156,7 @@ footer nav a {
 
 .bottom {
     display:flex;
+    margin-top: 50px;
 }
 header nav {
     margin-top: 10px;
@@ -197,6 +198,10 @@ header nav {
     display:flex; 
 }
 button {
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 30px;
+    border-radius: 10px;
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -205,4 +210,11 @@ button {
 }
 p {
     margin-bottom: 30px;
+}
+
+hr {
+    border-top: 1px dotted black;
+}
+h2 {
+    margin-top: 10px;
 }
