@@ -104,3 +104,17 @@ nav a {
   border-bottom: 1px dashed black;
   margin-bottom: 20px;
 }
+
+.mid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: solid red 5px;
+  width: 100%;
+}
+
+.mid .mid-box {
+  width: 50%;
+  border: solid black 5px;
+}
