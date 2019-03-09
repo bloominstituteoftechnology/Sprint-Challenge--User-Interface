@@ -86,3 +86,21 @@ nav a {
   margin-top: 2%;
   margin-bottom: 1%;
 }
+
+.top-text-page div p {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3%;
+}
+
+.top-text-page h1 {
+  margin-left: 3%;
+}
+
+.top-text-page p {
+  margin-bottom: 10px;
+}
+.top-text-page {
+  border-bottom: 1px dashed black;
+  margin-bottom: 20px;
+}
