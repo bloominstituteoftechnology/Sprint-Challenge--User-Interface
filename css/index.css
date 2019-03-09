@@ -219,27 +219,31 @@ button {
 	color: black;
 	background-color: white;
 	border:	2px solid black;
-	font-size: 18px;
-	font-weight: 600;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px 0px;
 }
 
 .about-title {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	margin: 0px 20px;
+	margin: 0px 20px 20px 20px;
 }
 
 .about-content {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-}
-
-.about-content p {
-	width: 40%;
+	margin-left: 15px;
 }
 
 .about-content section {
 	width: 50%;
+	margin: 20px 0px;
+}
+
+hr {
+	border-top: 1px dashed black;
+margin-right: 20px;
 }
