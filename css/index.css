@@ -222,3 +222,24 @@ button {
 	font-size: 18px;
 	font-weight: 600;
 }
+
+.about-title {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0px 20px;
+}
+
+.about-content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.about-content p {
+	width: 40%;
+}
+
+.about-content section {
+	width: 50%;
+}
