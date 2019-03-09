@@ -1,0 +1,73 @@
+.navigation {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:white;
+    animation-name: nav;
+    animation-duration: 6s;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 32px;
+}
+
+@keyframes nav {
+    from {background-color: white}
+    to {background-color: gray;}
+  }
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.4;
+}
+
+button {
+    border-radius: 15cm;
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: 120px;
+    height: 20px;
+}
+
+.text1, .text2 {
+    display: flex;
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    width: 800px;
+    background: black;
+    margin: 8px;
+    margin-left: 376px;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
