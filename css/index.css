@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+@keyframes navigation {
+    from {background-color: white}
+    to {background-color: dodgerblue;}
+  }
+
+  .navigation {
+    padding-top: 20px; 
+    background-color:white;
+    animation-name: navigation;
+    animation-duration: 6s; 
+  }
+
 .navigation a {
     color: black;
     text-decoration: none;
