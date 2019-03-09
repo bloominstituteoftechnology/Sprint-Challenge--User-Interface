@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-top: 20px;
+	font-size: 90%;
+}
+
+.top-nav a {
+	text-decoration: none;
+	color: black;
+	margin-top: auto;
+}
+
+.top-nav a:hover {
+	color: maroon;
+}
+
+.top-img {
+	margin: 40px 0px 20px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +105,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +135,54 @@ p {
     justify-content: center;
 }
 
+#box1 {
+	background-color: teal;
+}
+
+#box2 {
+	background-color: gold;
+
+}
+
+#box3 {
+	background-color: cadetblue;
+
+}
+
+#box4 {
+	background-color: coral;
+
+}
+
+#box5 {
+	background-color: crimson;
+
+}
+
+#box6 {
+	background-color: forestgreen;
+
+}
+
+#box7 {
+	background-color: darkorchid;
+
+}
+
+#box8 {
+	background-color: hotpink;
+
+}
+
+#box9 {
+	background-color: indigo;
+
+}
+
+#box10 {
+	background-color: dodgerblue;
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +214,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+	border-radius: 10px;
+	padding: 10px 25px;
+	border-color: black
+	color: black;
+	background-color: white;
+	border:	2px solid black;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 10px 0px;
+}
+
+.about-title {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 0px 20px 20px 20px;
+}
+
+.about-content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-left: 15px;
+}
+
+.about-content section {
+	width: 50%;
+	margin: 20px 0px;
+}
+
+.products-content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-left: 15px;
+}
+
+.products-content section {
+	width: 50%;
+	margin: 20px 0px;
+}
+
+.about-content h2 {
+	margin-top: 10px;
+}
+
+hr {
+	border-top: 1px dashed black;
+margin-right: 20px;
+}
+
+.about-bottom {
+	margin: 20px 20px 40px 20px;
+
 }

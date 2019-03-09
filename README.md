@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  It's a way of adding meaningful context to your code. Instead of calling every element a <div>, you can tell the browser some basic information about each element by using semantic HTML
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+  display: block; starts the element on its own line and has a width equal to the width of the page, while display: inline; is used for in-line text elements. Height and width properties have no effect on the inline element.
 
 3. What are the 4 areas of the box model?
 
+  Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  align-items; center; works on the "cross" axis
+
 5. Explain why git is valuable to a team of developers.
+
+  git is valuable because it allows developers to work on a number of different versions of the same project at once without overwriting each others' changes. From each version changes are reviewed to make sure there are no conflicts with other changes before the master code is updated.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +62,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
