@@ -243,7 +243,16 @@ button {
 	margin: 20px 0px;
 }
 
+.about-content h2 {
+	margin-top: 10px;
+}
+
 hr {
 	border-top: 1px dashed black;
 margin-right: 20px;
+}
+
+.about-bottom {
+	margin: 20px 20px 40px 20px;
+
 }
