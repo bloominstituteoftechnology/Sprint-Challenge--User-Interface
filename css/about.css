@@ -116,4 +116,39 @@ nav a {
 .mid .mid-box {
   width: 50%;
   margin-bottom: 5%;
+  border-bottom: 1px dashed black;
+  padding-left: 25px;
+}
+
+.mid .mid-box button {
+  border-radius: 10px;
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  margin-bottom: 25px;
+}
+
+.bottom-content-about h3 {
+  margin-top: 45px;
+}
+.bottom-content-about p {
+  margin-bottom: 50px;
+}
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: grey;
+  text-decoration: none;
 }
