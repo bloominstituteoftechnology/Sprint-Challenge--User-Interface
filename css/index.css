@@ -86,6 +86,10 @@ p {
 	margin-top: auto;
 }
 
+.top-nav a:hover {
+	color: maroon;
+}
+
 .top-img {
 	margin: 40px 0px 20px 0px;
 }
