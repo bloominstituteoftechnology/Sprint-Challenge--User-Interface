@@ -144,3 +144,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.top-part {
+    flex-wrap:wrap;
+}
