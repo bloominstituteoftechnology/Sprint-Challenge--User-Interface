@@ -76,6 +76,16 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-image {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
