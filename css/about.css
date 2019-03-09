@@ -110,11 +110,10 @@ nav a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  border: solid red 5px;
   width: 100%;
 }
 
 .mid .mid-box {
   width: 50%;
-  border: solid black 5px;
+  margin-bottom: 5%;
 }
