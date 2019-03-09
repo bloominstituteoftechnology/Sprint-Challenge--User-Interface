@@ -79,6 +79,19 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content1 .text-container1 {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -86,6 +99,14 @@ p {
 }
 
 .middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content1{
+    display: flex;
+    justify-content: center;
+    float: left;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -168,6 +189,12 @@ ul {
   }
   
   .jumboimage{
+    width:100%;
+    height:400px;
+    padding:5em;
+  }
+
+  .jumboaboutimage{
     width:100%;
     height:400px;
     padding:5em;
