@@ -152,6 +152,7 @@ footer nav a {
 
 .middle {
     display:flex;
+    margin-top:30px;
 }
 
 .bottom {
@@ -217,4 +218,7 @@ hr {
 }
 h2 {
     margin-top: 10px;
+}
+.lambda {
+    display:flex;
 }
