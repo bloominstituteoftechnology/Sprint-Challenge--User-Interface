@@ -197,3 +197,22 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+hr {
+	 margin-bottom: 20px;
+	margin-top:30px;
+    border-bottom: 1px dashed black;
+}
+
+.section2-3 {
+	display:flex;
+	
+	justify-content: flex-start;
+}
+button {
+	margin-top:20px;
+	
+}
+h2 {
+	margin-top:20px;
+}
