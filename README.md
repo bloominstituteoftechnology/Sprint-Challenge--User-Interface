@@ -34,7 +34,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML
+    Semantic HTML offers alternatives to presentational markup by providing a set of 
+    standard or recommended Semantic HTML tags that provide more meaning to the content of your page. 
+    
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
