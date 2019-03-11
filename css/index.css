@@ -75,9 +75,8 @@ p {
     background-color: white;
     width: 100%;
     vertical-align: middle;
-    position: fixed;
+    position: absolute;
     top: 0;
-    bottom: 0;
     right: 0;
     left: 0;
     display: flex;
@@ -86,17 +85,19 @@ p {
     justify-content: left;
     align-items: center;
     align-content: center;
+    margin-bottom: 50px; 
 
 }
 .navlogo{
     vertical-align: middle;
+    margin-top: 100px;
     padding-left: 35px;
 }
 #navitems a{
     padding-left: 35px;
     padding-right: 35px;
 }
-#alogo{
+#aboutlogo{
     padding-top:100px;
 }
 .B{
