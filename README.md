@@ -34,8 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML offers alternatives to presentational markup by providing a set of 
-    standard or recommended Semantic HTML tags that provide more meaning to the content of your page. 
+    Semantic HTML offers a set of standard or reccomended HTML tags that gives more meaning to the content of your page. This allows both developers and machines to better understand the content of your page. 
+    
+    It also faciltates accessibility for physically-impaired users. For example, screen-readers can use semantic HTML tags as queues for determining the appropriate audio-output to provide a hearing impaired user.
+
+    And lastly, it can be leveraged for search engine optimization (SEO).
     
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
