@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.jumbo-logo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +154,38 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+#b1 {
+    background: teal;
+}
+#b2 {
+    background: gold;
+}
+#b3 {
+    background: cadetblue;
+}
+#b4 {
+    background: coral;
+}
+#b5 {
+    background: crimson;
+}
+#b6 {
+    background: forestgreen;
+}
+#b7 {
+    background: darkorchid;
+}
+#b8 {
+    background: hotpink;
+}
+#b9 {
+    background: indigo;
+}
+#b10 {
+    background: dodgerblue;
+}
+
 
 footer {
     width: 100%;
