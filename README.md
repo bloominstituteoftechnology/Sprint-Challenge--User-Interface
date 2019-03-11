@@ -27,20 +27,39 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
 ## Self-Study Questions
-
+-
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+- Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational, because people know what paragraphs are and browsers know how to display them.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+- display: block; creates a block-level element, whereas display: inline; creates an inline-level element. 
+- display: block - a line break before and after the element
+display: inline - no line break before or after the element
 
 3. What are the 4 areas of the box model?
+- Content: The content of the box, where text and images appear
+Padding: Clears an area around the content. The padding is transparent
+Border: A border that goes around the padding and content
+Margin: Clears an area outside the border. The margin is transparent
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+- we use the ```align-items: center``` property To center our box and to align our item on the cross axis, which in this case is the block axis running vertically.
 
 5. Explain why git is valuable to a team of developers.
+- Git records changes carried out to a file, or a set of files over time, and helps you to recall specific versions of the code later on when you need it. If you're a developer or a web designer and want to keep track of each and every version of your code developed for a particular feature, git allows you to:
+* Revert the code files back to their previous state
+* Recall and revert the entire project back to its previous state
+* Compare code changes over specific durations of time
+* Find who last modified a piece of code that might be causing an issue or a problem
+* Who introduced a particular issue and when
+…and much more.
+
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
