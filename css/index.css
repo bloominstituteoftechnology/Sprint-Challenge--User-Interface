@@ -99,6 +99,9 @@ p {
 .B{
     vertical-align: middle;
     width: 40%;
+    border-bottom: dotted;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 #wrapper{
     display: flex;
