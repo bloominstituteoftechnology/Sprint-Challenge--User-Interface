@@ -187,4 +187,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+		font-weight: bold;
+}
+/* About page CSS */
+.about-top-content {
+	width: 800px;
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
+.about-text,.about-text2  {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+.about-text img,
+.about-text2 img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.about-text .strategy {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-right: 10px;
+}
+.about-text .working {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.about-text2 .places {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-right: 10px;
+}
+.about-text2 .collaboration {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.bottom-text {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+.button {
+	text-align: center;
+	font-size: 17px;
+	width: 120px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	padding: 5px;
+	margin-top: 20px;
 }
