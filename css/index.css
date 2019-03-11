@@ -86,6 +86,7 @@ p {
     justify-content: left;
     align-items: center;
     align-content: center;
+
 }
 .navlogo{
     vertical-align: middle;
@@ -95,7 +96,9 @@ p {
     padding-left: 35px;
     padding-right: 35px;
 }
-
+#alogo{
+    padding-top:100px;
+}
 .B{
     vertical-align: middle;
     width: 40%;
