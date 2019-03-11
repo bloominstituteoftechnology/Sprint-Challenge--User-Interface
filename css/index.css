@@ -71,6 +71,13 @@ p {
     margin: 0 auto;
 }
 
+.container .nav-bar a {
+    padding: 2%;
+    background: pink; 
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +150,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* --------Flex codes---------- */
+.nav-bar {
+    display: ;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
 }
