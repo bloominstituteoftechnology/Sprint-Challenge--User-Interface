@@ -103,27 +103,28 @@ header nav a {
 /*******************************************
 *               TOP CONTENT                *
 ********************************************/
-
-.top-content {  
+.top-content {
     padding: 20px;
-    border-bottom: 1px dashed black;
 }
 
 /*******************************************
-*               TOP CONTENT                *
+*               MIDDLE CONTENT                *
 ********************************************/
 
 .middle-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: space-around;
 
-    padding: 30px 10px;
+    height: 975px;
+
+    padding: 0 2%;
+    border-top: 1px dashed black;
 }
 
 .middle-content section {
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 20px;  
     border-bottom: 1px dashed black;
 }
@@ -133,5 +134,116 @@ header nav a {
 }
 
 .middle-content section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+    margin-top: 20px;
+
+    width: 130px;
+    height: 40px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    color: black;
+    text-decoration: none;
 }
+
+/*******************************************
+*              BOTTOM CONTENT              *
+********************************************/
+.bottom-content {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*******************************************
+*                  FOOTER                  *
+********************************************/
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+} */
+
