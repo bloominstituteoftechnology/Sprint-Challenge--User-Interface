@@ -72,7 +72,7 @@ p {
 *                 CONTAINER                *
 ********************************************/
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -108,7 +108,7 @@ header nav a {
 }
 
 /*******************************************
-*               MIDDLE CONTENT                *
+*               MIDDLE CONTENT             *
 ********************************************/
 
 .middle-content {
@@ -117,14 +117,14 @@ header nav a {
     justify-content: space-between;
     align-content: space-around;
 
-    height: 975px;
+    min-height: 975px;
 
     padding: 0 2%;
     border-top: 1px dashed black;
 }
 
 .middle-content section {
-    width: 48%;
+    max-width: 375px;
     padding-bottom: 20px;  
     border-bottom: 1px dashed black;
 }
@@ -181,69 +181,88 @@ footer nav a {
     text-decoration: none;
 }
 
-/* .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+@media screen and (max-width: 796px)
+{
+    .jumbo-image {
+        object-fit: cover;
+    }
+
+    header {
+        padding: 20px 20px 40px 20px;
+    }
+
+    /*******************************************
+    *               TOP CONTENT                *
+    ********************************************/
+    .top-content {
+        padding: 20px;
+        text-align: center;
+    }
+
+    /*******************************************
+    *               MIDDLE CONTENT             *
+    ********************************************/
+    .middle-content {
+        justify-content: center;
+        border-bottom: 1px dashed black;
+    }
+
+    .middle-content section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .middle-content section:last-of-type {
+        border-bottom: none;
+    }
+
+    .middle-content a {
+        margin: 0 auto;
+    }
+
+    /*******************************************
+    *              BOTTOM CONTENT              *
+    ********************************************/
+    .bottom-content {
+        padding: 20px;
+        margin-bottom: 20px;
+
+        text-align: center;
+    }
+
+    /*******************************************
+    *                  FOOTER                  *
+    ********************************************/
+    footer nav {
+        width: 100%;
+        justify-content: space-around;
+    }
 }
+@media screen and (max-width: 500px)
+{
+    /*******************************************
+    *                    HEADER                *
+    ********************************************/
+    header {
+        display: block;
+        text-align: center;
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        
+        margin-top: 10px;
+        color: black;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    
 }
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-} */
-
