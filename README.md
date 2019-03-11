@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
     Semantic HTML offers a set of standard or reccomended HTML tags that gives more meaning to the content of your page. This allows both developers and machines to better understand the content of your page. 
     
-    It also faciltates accessibility for physically-impaired users. For example, screen-readers can use semantic HTML tags as queues for determining the appropriate audio-output to provide a hearing impaired user.
+    It also faciltates accessibility for physically-impaired users. For example, screen-readers can use semantic HTML tags as queues for determining the appropriate audio-output to provide to the hearing impaired user.
 
     And lastly, it can be leveraged for search engine optimization (SEO).
     
@@ -50,9 +50,20 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What are the 4 areas of the box model?
 
+    (From outside-in) Margin, Border, Padding, Content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git offers a team of developers to the ability to work in safe, isolated, branched environments, 
+    and to revert or toggle between previous versions in their commit history, allowing each developer 
+    to work/experiment with the highest degree of autonomy without affecting production code. 
+
+	And, it does so while still relinquishing full control to the Lead Developer to decide which pull requests 
+	to merge or integrate into production code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
