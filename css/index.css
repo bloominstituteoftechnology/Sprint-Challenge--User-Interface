@@ -69,7 +69,9 @@ p {
 .main-header{
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    word-spacing: 70px;
+    margin: 20px 20px 40px 20px;
+    align-items: baseline;
 }
 nav a{
     text-decoration: none;
