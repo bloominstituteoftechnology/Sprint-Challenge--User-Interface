@@ -100,6 +100,13 @@ p {
     margin-bottom: 20px;
 }
 
+
+.jumbo-about-logo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +193,63 @@ p {
     background: dodgerblue;
 }
 
+.about {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px black dotted;
+    padding-bottom: 15px;
+}
+
+.about-top-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.strategy {
+    width: 350px;
+}
+.how {
+    width: 320px;
+}
+.center {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+.about-bottom-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.final {
+    display: flex; 
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border-bottom: black dotted 1px;
+    padding-bottom: 15px;
+    
+    }
+
+.wework {
+    width: 382px;
+        
+    }
+
+.collab {
+    width: 370px;
+padding-left: 15px;
+    }
+
+.last-content {
+    width: 700px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    }
 
 footer {
     width: 100%;
