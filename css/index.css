@@ -268,4 +268,9 @@ footer nav a {
     width:96%;
 }
 
+.middle-content-about button:hover{
+    transform: scale(1.5.1.5);
+    background-color:grey;
+}
+
 /* End about page CSS*/
