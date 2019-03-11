@@ -42,11 +42,11 @@ Edit this document to include your answers after each question. Make sure to lea
     
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    The ```display: block;``` property allows an element to take up the entire width of its parent container.
+    The ```display: block;``` property causes an element to take up the entire width of its parent container.
     It also allows the element to be resized both vertically and horizontally, and can contain other nested block elements.
 
-    The ```display: inline;``` property will cause the element to display inline with the flow of the page.
-    It can be resized horizontally, but not vertically, and cannot contain nested block elements.
+    The ```display: inline;``` property will cause an element to display in line with the flow of the page. In other words,
+    it doesn't break the flow of the page. It can also be resized horizontally, but not vertically, and cannot contain nested block elements.
 
 3. What are the 4 areas of the box model?
 
