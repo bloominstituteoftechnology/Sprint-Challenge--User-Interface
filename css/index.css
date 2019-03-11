@@ -93,6 +93,10 @@ p {
     text-decoration: none;
 }
 
+.navigation a:hover {
+    transform: scale(1.2);
+}
+
 .logo {
     margin-top: 20px;
     margin-left: 15px;
