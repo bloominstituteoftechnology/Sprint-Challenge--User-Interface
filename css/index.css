@@ -227,3 +227,45 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Begin about page CSS*/
+.about-middle-section{
+    margin-bottom: 3%;
+}
+.top-about{
+    padding: 2%;
+    margin: 2% auto;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    width: 100%;
+}
+
+.middle-content-about{
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 2% 2%;
+}
+.middle-content-about img{
+    margin-bottom: 2%;
+}
+
+.middle-content-about button{
+    padding:2% 5%;
+    border-radius: 8px;
+    border: 2px solid black;
+    background: white;
+    margin: 5% auto;
+}
+
+.content-bottom-about{
+    margin: 0 auto;
+    width:96%;
+}
+
+/* End about page CSS*/
