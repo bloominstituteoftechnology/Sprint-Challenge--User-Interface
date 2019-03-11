@@ -70,6 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+#navbar{
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.navlogo{
+    vertical-align: left;
+}
+#navitems a{
+    vertical-align: right;
+}
 
 .top-content {
     display: flex;
@@ -111,6 +134,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+} 
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+} 
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+} 
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+} 
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+} 
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+} 
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+} 
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+} 
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+} 
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+} 
+
 
 .bottom-content {
     display: flex;
