@@ -277,7 +277,7 @@ footer nav a {
     margin-bottom: 10%;
 }
 .middle-part{
-    
+    margin: 3%;
 }
 
 .top-middle{
@@ -292,8 +292,9 @@ footer nav a {
     display: flex;
 }
 .strategy{
-    margin-left: 3%;
+
     margin-right: 3%;
+    
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -304,9 +305,12 @@ footer nav a {
 }
 
 button{
+    width: 35%;
+    height: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
-    border-radius: 15%;
-    padding: 2% 6% 2% 6%;
-    border: 1px solid black;
+    border-radius: 9%;
+    padding: 3% 6% 3% 6%;
+    border: 2px solid black;
+    background-color: azure;
 }
