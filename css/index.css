@@ -144,3 +144,90 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 12px;
+    margin-right: 36px;  
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 14px;  
+}
+.roadway{
+    margin-top: 24px;
+    margin-bottom: 24px; 
+}
+.skyline-image{
+    margin-top: 24px;
+}
+button{
+    border-radius: 10px;
+    margin-top: 12px; 
+    margin-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    background-color: white;
+    border: 2px solid black;  
+   
+}
+.section{
+    display: flex;
+}
+.section div{
+    margin: 12px; 
+}
+h1{
+    margin-top: 12px; 
+}
+hr{
+    margin: 12px, 0px; 
+    border-top: dotted 1px
+}
+.top-bottom{
+    padding: 12px;
+    margin-bottom: 12px;
+}
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+@keyframes button-transition{ 
+    from {backgroun-color: white;}
+    to { background-color: slategray;}
+}
+button:hover{
+    animation-name: button-transition;
+    animation-duration: 2s; 
+}
