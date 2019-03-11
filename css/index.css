@@ -148,6 +148,8 @@ a {
 }
 
 .middle-content {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -161,54 +163,73 @@ a {
     
    
 }
+div.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.for-spacing {
+    width: 400px;
+}
 .box1 {
    
 background-color: teal;
 width: 12.5%;
+margin-right: 10px;
 
 } 
  .box2 {
     
 background-color: gold;
 width: 12.5%;
+margin-right: 10px;
  } 
 
  .box3{
    
     background-color: cadetblue;
     width: 12.5%;
+    margin-right: 10px;
  }
  .box4{
     background-color: coral;
     width: 12.5%;
+    margin-right: 10px;
  }
  .box5{
     background-color: crimson;
     width: 12.5%;
+    margin-right: 10px;
  }
  .box6{
     background-color: forestgreen;
     width: 12.5%;
+    margin-right: 10px;
  }
  .box7{
     background-color: darkorchid;
     width: 12.5%;
+    margin-right: 10px;
  }
  .box8{
     background-color: hotpink;
     width: 12.5%;
+    margin-right: 10px;
  }
  .box9{
     background-color: indigo;
     width: 12.5%;
+    margin-right: 10px;
  }
  .box10{
     background-color: dodgerblue;
     width: 12.5%;
+    margin-right: 10px;
  }
 
- 
- 
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -218,6 +239,7 @@ width: 12.5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 10px;
 }
 
 .middle-content .boxes .box {
