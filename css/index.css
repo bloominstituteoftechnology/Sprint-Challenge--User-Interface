@@ -71,6 +71,10 @@ p {
     justify-content: space-between;
     text-align: center;
 }
+nav a{
+    text-decoration: none;
+     color: black;
+}
 .container {
     width: 800px;
     margin: 0 auto;
