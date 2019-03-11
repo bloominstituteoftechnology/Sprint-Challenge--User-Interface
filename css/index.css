@@ -273,3 +273,93 @@ footer nav a:hover {
 	text-decoration: underline;
 	transition-duration: 0.5s;
 }
+/* CSS FOR CONTACT PAGE */
+.form-title {
+	text-align: center;
+  background-color: #f5f5f5;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  margin: 40px 0;
+  padding: 10px;
+}
+.form-title h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact-form {
+  background-color: #F6F7F8;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+
+  width: 100%;
+  padding: 50px;
+  margin: 0 0 40px 0;
+}
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type='text'],
+.form-row input[type='email'] {
+  background-color: #f5f5f5;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid {
+  border: 1px solid black;
+  color: black;
+  box-shadow: none; /* Remove default red glow in Firefox */
+}
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
+
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+}
+
+.form-row .instructions {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: black;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: white;
+	color: black
+}
+
+.form-row button:active {
+  background-color: #f5f5f5;
+}
