@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Sprint Challenge - Contact</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="main-header">
+                <img class="logo" src="img/lambda-black.png" alt="Lambda logo.">
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="">Products</a>
+                    <a href="">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <img class="top-img" src="img/jumbo.jpg">
+        </header>
+       <section >
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form action="mail_handler.php " method="post" name="form" class="form-box" id="form">
+                <input type="text" name="fname" id="fname" placeholder="First Name" required class="bg-info"/>
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required class="bg-info"/>
+                <input type="email" name="email" id="email" placeholder="Email" required class="bg-info"/>
+                <input type="text" name="phone" id="phone" placeholder="Phone Number" required class="bg-info"/>
+                <textarea  name="msg" id="msg" placeholder="Write Message Here" required class="bg-info"></textarea>
+                <input type="submit" name="submit" class="btn btn-primary"/>
+            </form>
+        </div>
+    </section>
+
+
+
+        <footer>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </footer>
+    </div><!-- container -->
+</body>
+</html>

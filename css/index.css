@@ -224,3 +224,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+#form {
+    width: 300px;
+    border: 3px solid green;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    resize: vertical;
+    max-height: 100px;
+}
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(255,0,0,0.5);
+    border: 1px solid rgba(255,0,0);
+}
