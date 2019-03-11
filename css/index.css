@@ -149,11 +149,15 @@ nav {
     display: flex; 
     justify-content: space-between;
     align-items: baseline;
-    margin: 0; 
+    margin-top: 12px;
 
 }
 nav a {
     text-decoration: none; 
+}
+.roadway{
+    margin-top: 24px;
+    margin-bottom: 24px; 
 }
 .skyline-image{
     margin-top: 24px;
@@ -188,4 +192,34 @@ hr{
 .top-bottom{
     padding: 12px;
     margin-bottom: 12px;
+}
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
 }
