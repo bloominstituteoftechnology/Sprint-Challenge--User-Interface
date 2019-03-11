@@ -150,10 +150,12 @@ nav {
     justify-content: space-between;
     align-items: baseline;
     margin-top: 12px;
+    margin-right: 36px;  
 
 }
 nav a {
-    text-decoration: none; 
+    text-decoration: none;
+    font-size: 14px;  
 }
 .roadway{
     margin-top: 24px;
@@ -166,12 +168,12 @@ button{
     border-radius: 10px;
     margin-top: 12px; 
     margin-bottom: 12px;
-    padding-left: 12px;
-    padding-right: 12px; 
-    padding-top: 6px; 
-    padding-bottom: 6px; 
+    padding-left: 24px;
+    padding-right: 24px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
     background-color: white;
-    border: 10px, black;  
+    border: 2px solid black;  
 }
 .about-section{
     
