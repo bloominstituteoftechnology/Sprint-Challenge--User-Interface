@@ -101,7 +101,6 @@ header .header-Wrapper{
     justify-content: space-between;
     width: 100%;
     margin: 0.5% auto 5% auto;
- 
 }
 
 .nav-Wrapper nav{
@@ -110,17 +109,14 @@ header .header-Wrapper{
     justify-content: space-around;
     align-items: flex-end;
     width: 80%;
- 
 }
 
 .nav-Wrapper nav li {
   display: flex;
   flex-flow: row wrap;
   list-style: none;
-  
-
-
 }
+
 .nav-Wrapper nav li a {
     text-decoration: none;
     color: black;
@@ -155,6 +151,49 @@ header .header-Wrapper{
     align-items: center;
     justify-content: center;
 }
+
+/* Start Box Color Props */
+.boxes #box-one {
+    background: teal;
+}
+ 
+.boxes #box-two {
+    background: gold;
+}    
+
+.boxes #box-three{
+    background: cadetblue;
+}
+
+.boxes #box-four{
+    background: coral;
+}
+
+.boxes #box-five{
+    background: crimson;
+}
+
+.boxes #box-six{
+    background: forestgreen;
+}
+
+.boxes #box-seven{
+    background: darkorchid;
+}
+
+.boxes #box-eight{
+    background: hotpink;
+}
+
+.boxes #box-nine{
+    background: indigo;
+}
+
+.boxes #box-ten{
+    background: dodgerblue;
+}
+
+/* End Box Color Props */
 
 .bottom-content {
     display: flex;
