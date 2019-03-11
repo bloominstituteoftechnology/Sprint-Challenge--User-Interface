@@ -94,7 +94,11 @@ nav a{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content2 {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    line-height: 25px;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -171,12 +175,42 @@ nav a{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.about{
+    margin: 30px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
 
+.div2{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 10px 10px;
+    border-bottom: 1px dashed;
+    padding: 15px;
+
+}
+.div4{
+    margin-bottom: 30px;
+}
 footer {
     width: 100%;
     background: black;
 }
+button{
+    width: 30%;
 
+}
 footer nav {
     width: 60%;
     display: flex;
