@@ -85,6 +85,50 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Start Header CSS */
+header{
+    width:100%;
+    margin: 3% auto;
+}
+header .header-Wrapper{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header-Wrapper .nav-Wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.5% auto 5% auto;
+ 
+}
+
+.nav-Wrapper nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+ 
+}
+
+.nav-Wrapper nav li {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  
+
+
+}
+.nav-Wrapper nav li a {
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+  }
+
+/* End Header CSS */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
