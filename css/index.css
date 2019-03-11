@@ -174,9 +174,7 @@ button{
     padding-bottom: 8px; 
     background-color: white;
     border: 2px solid black;  
-}
-.about-section{
-    
+   
 }
 .section{
     display: flex;
@@ -224,4 +222,12 @@ hr{
 }
 .middle-content .boxes .box:nth-child(10){
     background-color: dodgerblue;
+}
+@keyframes button-transition{ 
+    from {backgroun-color: white;}
+    to { background-color: slategray;}
+}
+button:hover{
+    animation-name: button-transition;
+    animation-duration: 2s; 
 }
