@@ -69,7 +69,47 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    transform: scale(1.2);
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.header-img {
+    max-width: 99%;
+    max-height: 99%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
 
 .top-content {
     display: flex;
@@ -125,6 +165,129 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+#b1 {
+    background: teal;
+}
+#b2 {
+    background: gold;
+}
+#b3 {
+    background: cadetblue;
+}
+#b4 {
+    background: coral;
+}
+#b5 {
+    background: crimson;
+}
+#b6 {
+    background: forestgreen;
+}
+#b7 {
+    background: darkorchid;
+}
+#b8 {
+    background: hotpink;
+}
+#b9 {
+    background: indigo;
+}
+#b10 {
+    background: dodgerblue;
+}
+
+.about {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px black dotted;
+    padding-bottom: 15px;
+}
+
+.about-top-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.strategy {
+    width: 350px;
+}
+.how {
+    width: 320px;
+}
+.center {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 40px;
+}
+.about-bottom-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.final {
+    display: flex; 
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border-bottom: black dotted 1px;
+    padding-bottom: 15px;
+    
+    }
+
+.wework {
+    width: 382px;
+        
+    }
+
+.collab {
+    width: 370px;
+padding-left: 15px;
+    }
+
+.last-content {
+    width: 700px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    }
+
+.contact-us {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 40px;
+        padding-bottom: 15px;
+    }
+
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
 
 footer {
     width: 100%;
