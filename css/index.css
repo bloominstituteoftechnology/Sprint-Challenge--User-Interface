@@ -85,6 +85,46 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Start Header CSS */
+header{
+    width:100%;
+    margin: 3% auto;
+}
+header .header-Wrapper{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header-Wrapper .nav-Wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0.5% auto 5% auto;
+}
+
+.nav-Wrapper nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.nav-Wrapper nav li {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+.nav-Wrapper nav li a {
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+  }
+
+/* End Header CSS */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,6 +151,49 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* Start Box Color Props */
+.boxes #box-one {
+    background: teal;
+}
+ 
+.boxes #box-two {
+    background: gold;
+}    
+
+.boxes #box-three{
+    background: cadetblue;
+}
+
+.boxes #box-four{
+    background: coral;
+}
+
+.boxes #box-five{
+    background: crimson;
+}
+
+.boxes #box-six{
+    background: forestgreen;
+}
+
+.boxes #box-seven{
+    background: darkorchid;
+}
+
+.boxes #box-eight{
+    background: hotpink;
+}
+
+.boxes #box-nine{
+    background: indigo;
+}
+
+.boxes #box-ten{
+    background: dodgerblue;
+}
+
+/* End Box Color Props */
 
 .bottom-content {
     display: flex;
@@ -144,3 +227,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Begin about page CSS*/
+.about-middle-section{
+    margin-bottom: 3%;
+}
+.top-about{
+    padding: 2%;
+    margin: 2% auto;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    width: 100%;
+}
+
+.middle-content-about{
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 2% 2%;
+}
+.middle-content-about img{
+    margin-bottom: 2%;
+}
+
+.middle-content-about button{
+    padding:2% 5%;
+    border-radius: 8px;
+    border: 2px solid black;
+    background: white;
+    margin: 5% auto;
+}
+
+.content-bottom-about{
+    margin: 0 auto;
+    width:96%;
+}
+
+.middle-content-about button:hover{
+    transform: scale(1.5.1.5);
+    background-color:grey;
+}
+
+/* End about page CSS*/
