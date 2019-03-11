@@ -152,3 +152,64 @@ header nav {
 	margin-right: 85px;
 	margin-bottom: 50px;
 }
+
+.container nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+#one {
+    background-color: teal;
+}
+#two {
+    background-color: gold;
+}
+#three {
+    background-color: cadetblue;
+}
+#four {
+    background-color: coral;
+}
+#five {
+    background-color: crimson;
+}
+#six {
+    background-color: forestgreen;
+}
+#seven {
+    background-color: darkorchid;
+}
+#eight {
+    background-color: hotpink;
+}
+#nine {
+    background-color: indigo;
+}
+#ten {
+    background-color: dodgerblue;
+}
+
+.about-content {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.flex-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-two {
+    display: flex;
+    flex-direction: row;
+}
+.bottom-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-content div hr {
+    width: 98%;
+}
