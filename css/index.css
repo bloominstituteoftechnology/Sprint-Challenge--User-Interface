@@ -67,13 +67,13 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 70%;
     margin: 0 auto;
+    height: 100%;
 }
 #navbar{
     height: 100px;
     background-color: white;
-    width: 100%;
     vertical-align: middle;
     position: absolute;
     top: 0;
@@ -82,12 +82,17 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     align-content: center;
     margin-bottom: 50px; 
 
 }
+#mainimg img {
+    width: 100%;
+    height: 100%;
+}
+
 .navlogo{
     vertical-align: middle;
     margin-top: 100px;
@@ -113,14 +118,14 @@ p {
 #wrapper{
     display: flex;
     vertical-align: middle;
-    margin 25px 3px;
+    margin: 25px 3px;
     align-items: center;
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#topofpage {
+/* #topofpage {
     margin-top: 105px;
     width: 100%;
     margin: 0 auto;
@@ -129,12 +134,11 @@ p {
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
-    align-content: stretch;
-}
+    align-content: stretch; */
+/* } */
 .box{
     vertical-align: middle;
     width: 31%;
-    padding-left: 5%;
 }
 .top-content {
     display: flex;
@@ -156,7 +160,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0% 2%;
     margin-bottom: 0;
 }
 
@@ -239,4 +243,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+#about-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#about-top-text {
+    width: 87%;
+    padding: 3% 0%;
+}
+#about-topsection{
+    width: 87%;
+    padding: 3% 0%;
+    
+}
+#topimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
 }
