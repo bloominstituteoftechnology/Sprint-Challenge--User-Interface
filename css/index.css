@@ -117,11 +117,13 @@ font-weight: bold;
 
 .top-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding-bottom: 10px;
     margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .top-content .text-container {
@@ -180,6 +182,18 @@ font-weight: bold;
     justify-content: center;
 }
 
+button {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 7px;
+    width: 100px;
+    height: 35px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer; 
+}
 .middle-content .boxes .box4 {
     width: 12.5%;
     height: 100px;
@@ -260,9 +274,12 @@ font-weight: bold;
 
 .bottom-content {
     display: flex;
-    justify-content: space-aroun;
+    justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 
