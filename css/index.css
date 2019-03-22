@@ -141,13 +141,53 @@ header nav a:hover {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: green;
     margin: 20px 2.5%;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .teal{
+    background-color: teal;
+}
+.middle-content .boxes .gold{
+    background-color: gold;
+}
+
+.middle-content .boxes .cadetblue{
+    background-color: cadetblue
+}
+
+.middle-content .boxes .coral{
+    background-color: coral
+}
+
+.middle-content .boxes .crimson{
+    background-color: crimson;
+}
+
+.middle-content .boxes .forestgreen{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .darkorchid{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .hotpink{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .indigo{
+    background-color: indigo;
+}
+
+.middle-content .boxes .dodgerblue{
+    background-color: dodgerblue;
+}
+
 
 
 .bottom-content {
