@@ -65,10 +65,41 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/*  Begin container */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+header .logo {
+    margin: 25px 98px 0 50px;
+}
+
+.home-header-img {
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .top-content {
