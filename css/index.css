@@ -304,3 +304,11 @@ input[type=submit]:hover {
 .contact-page section div{
 	max-width:50%;
 }
+
+@media only screen and (max-width: 600px) {
+   header nav a img{
+		position: relative;
+	  -webkit-animation: mymove 1s ; /* Safari 4.0 - 8.0 */
+	  animation: mymove 1s;
+	}
+}
