@@ -102,6 +102,12 @@ header .logo {
     margin-bottom: 30px;
 }
 
+/* About page header img*/
+.about-header-img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
