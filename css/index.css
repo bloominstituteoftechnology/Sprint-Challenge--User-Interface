@@ -85,7 +85,7 @@ header {
 
 header nav {
     display:flex;
-    width:500px;
+    width:600px;
     justify-content:space-around;
     margin-top:50px;
 }
@@ -228,13 +228,28 @@ footer nav a {
     width:350px;
     border-bottom:1px dashed black;
     padding:20px;
-    margin:20px 0;
+    margin:25px;
 }
 
 .card button {
     background:white;
     border-radius:5px;
     margin-top:15px;
+    font-size:16px;
 }
+
+.card img {
+    margin-bottom:15px;
+}
+
+.outro {
+    margin-bottom:15px;
+}
+
+#card1, #card3 {
+    margin-right:15px;
+}
+
+
 
 
