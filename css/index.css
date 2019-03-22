@@ -76,7 +76,7 @@ header .logo {
     align-self: flex-start;
 }
 header nav {
-    align-self: flex-end;
+    align-self: center;
     width: 610px;
     justify-content: space-between;
     display: flex;
@@ -91,7 +91,7 @@ header nav a {
     text-decoration: none;
 }
 
-.splash {
+#splash {
     margin-top: 40px;
     margin-bottom:30px;
 }
@@ -205,3 +205,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+
+.content .cards {
+    width: 360px;
+    padding: 20px 0px;
+
+}
+
+img {
+margin-bottom: 30px;80
