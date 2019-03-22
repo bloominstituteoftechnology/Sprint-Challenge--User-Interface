@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+header{
+	margin: 20px 40px 20px 0;
+}
+	
+
+header nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:baseline;
+}
+
+section.jumbo{
+	margin:20px 0;
+}
+
+header nav a{
+	text-decoration:none;
+	color:#000;
+}
+
+header nav a:hover{
+	text-decoration:none;
+	color:#666;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +129,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +150,36 @@ p {
     padding-right: 0;
 }
 
+.b1{
+	background:teal;
+}
+.b2{
+	background:gold;
+}
+.b3{
+	background:cadetblue;
+}
+.b4{
+	background-color:coral;
+}             
+.b5{          
+	background-color:crimson;
+}             
+.b6{          
+	background-color:forestgreen;
+}             
+.b7{          
+	background-color:darkorchid;
+}             
+.b8{          
+	background-color:hotpink;
+}             
+.b9{          
+	background-color:indigo;
+}             
+.b10{         
+	background-color:dodgerblue;
+}
 footer {
     width: 100%;
     background: black;
