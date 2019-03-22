@@ -274,6 +274,10 @@ footer nav a {
     height: 40px;
     font-size: 20px;
 }
+.contact-form form h1{
+    font-size: 32px;
+}
+
 .contact-form form .form-buttons{
     display: flex;
     flex-direction: row;
