@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 0; auto;
 		padding: 40px 0 0 0;
 }
 
@@ -82,6 +82,9 @@ p {
 .navbar a{
 	text-decoration: none;
 	color: black;
+}
+.navbar a:hover{
+	font-weight: bold;
 }
 .img-container{
 	margin: 0 0 25px;
@@ -156,7 +159,6 @@ p {
 #box-color10{
 	background: dodgerblue;
 }
-
 
 .bottom-content {
     display: flex;
