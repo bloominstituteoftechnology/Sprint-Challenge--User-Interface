@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 0; auto;
+    margin: 0 auto;
 		padding: 40px 0 0 0;
 }
 
@@ -128,6 +128,17 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.groups-of-2{
+	border: 2px dashed red;
+	display: flex;
+	margin-bottom: 20px;
+}
+.boxed-content{
+	border: 1px solid green;
+}
+.boxed-content-boxed{
+	border: 1px dotted blue;
 }
 #box-color1{
 	background: teal;
