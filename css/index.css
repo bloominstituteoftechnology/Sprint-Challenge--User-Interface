@@ -94,6 +94,21 @@ header{
 .long{
     margin: 20px 0px;
 }
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.articles{
+    width: 380px;    
+    margin: 20px 0;
+}
+.button{
+    border-radius: 5px;
+}
 
 .top-content {
     display: flex;
@@ -135,10 +150,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.middle-content .boxws .box-1{
-    background-color: cadetblue;
 }
 
 .bottom-content {
