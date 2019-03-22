@@ -76,15 +76,20 @@ header {
     justify-content: space-evenly;
     display: flex;
     width: 100%;
+    margin-bottom: 20px;
+}
+header .black-logo {
+    margin-right: 100px;
 }
 header nav {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 100%;
     margin-right: 40px;
 }
 
 header nav a {
+    margin-top: 20px;
     color: black;
     font-weight: 600;
     text-decoration: none;
@@ -107,6 +112,9 @@ header nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-content .text-container h2, p {
+    font-weight: bold;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -114,6 +122,7 @@ header nav a {
 }
 
 .middle-content h2 {
+    font-weight: bold;
     padding: 0 2%;
     margin-bottom: 0;
 }
