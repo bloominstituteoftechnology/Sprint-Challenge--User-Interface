@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/* Code Start */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -76,11 +78,14 @@ header {
     width:100%;
     margin-top:25px;
     margin-bottom:30px;
+    justify-content:center;
+    flex-wrap:wrap;
 }
+
 
 header nav {
     display:flex;
-    width:700px;
+    width:500px;
     justify-content:space-around;
     margin-top:50px;
 }
@@ -88,6 +93,10 @@ header nav {
 header nav a {
     text-decoration:none;
     color:black;
+}
+
+.jumbo-about {
+    margin-top:25px;
 }
 
 
@@ -205,3 +214,27 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About me Page CSS */
+
+.four {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:left;
+    align-content: 
+}
+
+.card {
+    width:350px;
+    border-bottom:1px dashed black;
+    padding:20px;
+    margin:20px 0;
+}
+
+.card button {
+    background:white;
+    border-radius:5px;
+    margin-top:15px;
+}
+
+
