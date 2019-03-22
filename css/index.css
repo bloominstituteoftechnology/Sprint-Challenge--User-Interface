@@ -70,7 +70,10 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.header{
+    display: flex;
+    justify-content: center;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
