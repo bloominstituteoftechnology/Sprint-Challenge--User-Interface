@@ -238,6 +238,19 @@ footer nav a {
     cursor: pointer; 
 }
 
+.panel button:hover{
+    animation-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+    
+}
+
+.top-nav img:hover{
+    animation-timing-function: ease-in;
+    transition-duration: 1.0s;
+    transform: rotateZ(360deg);
+}
+
 .about-bottom{
     padding: 20px;
 }
