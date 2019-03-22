@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container contact-page">
 		<header>
 			<nav>
 				<a href="index.html"><img src="img/lambda-black.png"></a>
@@ -23,14 +23,44 @@
 				<a href="contact.html">Contact</a>
             </nav>
 		</header>
+		<section>
+		<div>
+			<form action="thankyou.php">
 
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+				  <option value="australia">Australia</option>
+				  <option value="canada">Canada</option>
+				  <option value="usa">USA</option>
+				</select>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<input type="submit" value="Submit">
+
+			</form>
+		</div>
+		<div>
+			<h2>Get Started Today</h2>
+			<p> Get the ball rolling on your future by reaching out to our addmissions team. After you complete the form, one of our representatives will reach out to you and explain the process moving forward. Thank you so much for reaching out to us. We look forward to working with you in the future. 
+			</p>
+			<p>--Lambda Team</p>
+		</div>
+		</section>
 		<footer>
 			<nav>
 				<a href="index.html">Home</a>
-				<a href="#">About</a>
-				<a href="#">Products</a>
-				<a href="#">Blog</a>
-				<a href="#">Contact</a>
+				<a href="about.html">About</a>
+				<a href="products.html">Products</a>
+				<a href="blog.html">Blog</a>
+				<a href="contact.html">Contact</a>
 			</nav>
 		</footer>
     </div><!-- container -->        
