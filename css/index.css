@@ -198,3 +198,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about Page*/
+
+.about-page section{
+	display:flex;
+	margin:20px 0;
+	
+}
+
+.about-page section h2{
+	margin-top:10px;
+}
+
+.about-page section.first{
+	padding:20px;
+	border-bottom:1px dashed #ddd;
+}
+
+.about-page section.middle{
+	justify-content:space-between;
+	flex-wrap:wrap;
+	align-items:;
+	
+}
+
+.about-page section.middle div{
+	width:370px;
+	margin:20px 0;
+	border-bottom:1px dashed #ddd;
+	
+}
+
+.about-page section.middle div button{
+	background:transparent;
+	border-radius:5px;
+	margin:20px 0;
+	padding:5px 20px;
+	border:1px solid black;
+}
