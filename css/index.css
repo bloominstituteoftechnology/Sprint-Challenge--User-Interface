@@ -231,6 +231,15 @@ footer nav a {
     margin-bottom: 20px
    }
 
+   .about-content .card button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
 footer nav {
     width: 100%;
     display: flex;
