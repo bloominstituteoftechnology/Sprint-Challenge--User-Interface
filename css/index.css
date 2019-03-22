@@ -57,7 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -245,7 +245,7 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: Silver;
     text-decoration: none;
 }
 
@@ -267,6 +267,47 @@ footer nav a {
 	margin-top: 30px;
 }
 
-.box:nth-child(4n) {
-	background-color: blue;
+.main section {
+	width: 370px;
+	margin: 15px;
+	border-bottom: 1px dashed black;
+}
+
+.main section h2 {
+	margin-top: 15px;
+}
+
+section img {
+	width: 370px;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.intro p, .intro h2 {
+	margin: 10px;
+}
+
+.intro {
+	padding: 10px;
+	border-bottom: 1px dashed black;
+}
+
+button {
+	font-size: 18px;
+	width: 150px;
+	height: 45px;
+	border-radius: 10px;
+	border: 3px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.bottom {
+	padding: 20px;
 }
