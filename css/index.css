@@ -82,6 +82,13 @@ header {
     justify-content: space-around;
 }
 
+.img img {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
 header nav a {
   display: inline;
   margin: 30px;
@@ -167,4 +174,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container .about {
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0px;
+}
+.container-page2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-page2 .about {
+    display: inline-block;
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0px;
+}
+
+.body-page {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.body-page .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+    margin: 20px 0px;
+}
+
+.lets-work-together {
+    margin: 20px 0px;
 }
