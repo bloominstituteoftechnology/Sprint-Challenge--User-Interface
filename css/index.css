@@ -112,6 +112,12 @@ header nav img {
     padding-bottom: 20px;  
 }
 
+.about-page .top-content .text-container {
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -139,6 +145,34 @@ header nav img {
     justify-content: center;
 }
 
+.middle-content .boxes .card {
+    align-items: center;
+    justify-content: center;
+    /*padding: 20px;
+    width: 420px;
+    margin: 20px 0;*/
+    width: 49%;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.middle-content .card h2 {
+    padding-top: 10px;
+}
+
+.middle-content .card p {
+    padding-top: 15px;
+}
+
+.middle-content .card button {
+        padding: 10px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        background: white;
+        border-radius: 10px;
+        border: 2px solid black;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -151,6 +185,11 @@ header nav img {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-content-about{
+    padding-top: 30px;
+    padding-bottom: 35px;
 }
 
 footer {
