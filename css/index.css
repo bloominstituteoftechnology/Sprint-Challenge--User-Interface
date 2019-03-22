@@ -208,3 +208,47 @@ header nav a{
 .hero{
     margin-bottom: 20px;
 }
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+      align-content: space-between; 
+    margin-bottom: 20px;
+}
+.box-content{
+    width: 390px;
+    border-bottom: 1px dashed gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    padding-bottom: 20px;
+}
+.box-content p{
+    margin: 20px 0;
+}
+.top-content-about{
+    border-bottom: 1px dashed gray;
+    padding: 20px;
+}
+button{
+    width: 100px;
+    background: white;
+    border-radius: 10px;
+}
+.learn{
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 250px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.box-content h2{
+    margin-top: 10px;
+}
+.bottom-content-about{
+    margin-bottom: 20px;
+}
