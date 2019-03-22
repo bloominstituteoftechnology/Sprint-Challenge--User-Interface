@@ -103,6 +103,10 @@ header .logo {
 }
 
 /* About page header img*/
+.about-container {
+    width: 800px;
+    margin: 0 auto;
+}
 .about-header-img {
     margin-top: 50px;
     margin-bottom: 30px;
@@ -225,7 +229,7 @@ footer nav a {
 
 .about-middle-content .card {
     padding: 20px;
-    width: 500px;
+    width: 400px;
     margin: 20px 0;
     border-bottom: 1px dotted black;
 }
