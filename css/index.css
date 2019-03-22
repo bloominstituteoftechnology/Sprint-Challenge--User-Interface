@@ -51,7 +51,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, header{
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -167,7 +167,6 @@ footer nav a {
     border-width: 1px 0px 0px 0px;
 }
 button{
-
     margin:10px 0px 0px 0px;
     width: 90px;
     border: 2px solid black ;
@@ -176,7 +175,20 @@ button{
     border-radius: 5px;
 }
 
-.tnav{
+header{
+    line-height: 1;
+    display: flex;
+    margin: 20px 10px 30px 10px;
+    width: 800px;
+    height: 50px;
+}
+a{
+    padding:0px 10px 0px 10px;
+    justify-content: space-between;
+    width: 50px;
     text-decoration: none;
     color: black;
+}
+.tnav{
+    padding: 30px 5px 0px 20px;
 }
