@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 header {
 	display: flex;
     justify-content: space-between;
@@ -72,6 +73,7 @@ header {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 header nav {
     padding: 0px 20px;
     margin: 0px 20px;
@@ -91,109 +93,53 @@ header nav a:hover {
   text-decoration: underline;
   color: red;
 }
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
-.top-image {
-    margin: 15px 0px;
+
+.about-image {
+    margin: 20px 0px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+.about-content {
+    padding: 5px 20px 20px 20px;
     border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box:nth-child(1) {
-    background-color: teal;
-}
-
-.middle-content .boxes .box:nth-child(2) {
-    background-color: gold;
-}
-
-.middle-content .boxes .box:nth-child(3) {
-    background-color: cadetblue;
-}
-
-.middle-content .boxes .box:nth-child(4) {
-    background-color: coral;
-}
-
-.middle-content .boxes .box:nth-child(5) {
-    background-color: crimson;
-}
-
-.middle-content .boxes .box:nth-child(6) {
-    background-color: forestgreen;
-}
-
-.middle-content .boxes .box:nth-child(7) {
-    background-color: darkorchid;
-}
-
-.middle-content .boxes .box:nth-child(8) {
-    background-color: hotpink;
-}
-
-.middle-content .boxes .box:nth-child(9) {
-    background-color: indigo;
-}
-
-.middle-content .boxes .box:nth-child(10) {
-    background-color: dodgerblue;
 }
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px 0px 40px 0px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding-bottom: 20px;
+    width: 420px;
+    border-bottom: 1px dashed black;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+button {
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
+.content-image {
+    padding-bottom: 15px;
+}
+
+.together-content {
+    padding: 10px 20px 40px 20px;
+}
 footer {
     width: 100%;
     background: black;
