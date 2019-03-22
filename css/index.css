@@ -112,6 +112,37 @@ p {
 
 
 /*********************************************************************/
+/*James about page flex boxes */
+
+.cards{        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cardContent {
+    width: 49.5%;
+    padding: 2%;
+    border-bottom: 1px dotted black;
+    margin-bottom:20px;
+}
+.cards .learnmore {
+    padding: 5px 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-decoration: none; 
+    color:black;
+}
+.cards .cardContent p {
+    padding-bottom:10%;
+}
+.wideInfo {
+    
+}
+/*********************************/
 
 .top-content {
     display: flex;
@@ -153,6 +184,8 @@ p {
     justify-content: center;
 }
 
+/*James box Colors */
+
 .box:nth-child(1) {
     background: teal;
   }
@@ -183,7 +216,7 @@ p {
   .box:nth-child(10) {
     background: dodgerblue;
   }
-
+/********************************************/
 
 .bottom-content {
     display: flex;
