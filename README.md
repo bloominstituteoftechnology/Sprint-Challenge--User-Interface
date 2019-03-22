@@ -34,13 +34,38 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+A: Semantic html is code with meaning and describes what the developer was trying to accomplish with the code in terms of 
+organization, purpose, or function. For example, an html document with header, section, or aside tags have more structure 
+than a document with full div tags. The header could indicate an introduction to the main contents, sections are probably 
+the meat of the document, and asides can be advertisement or sidebar. The div are all the same so you won't necessarily know 
+what their contents are used for.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A: Display: block will set content to a block structure where it will take up the entire line pushing everything else out. 
+Height and width of content can be adjusted. Display: inline will set the content to an inline structure where the content(s) 
+will play "nice" and align themselves next to each other on the same line. Width and height adjustments have no effect. 
+The other difference is inline children can be nested inside a block parent but block children cannot be nested within an 
+inline parent.
 
 3. What are the 4 areas of the box model?
 
+A: The four areas (going outward) are the content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+A: Align properties in flexbox works on the cross axis which is perpendicular to the main axis. 
+This is relative of course.
+
 5. Explain why git is valuable to a team of developers.
+
+A: Git is valuable tool for developers in terms of organization and version control. 
+Developers can work on the same project files at the same time through branching without affecting each other's work. 
+The individual work can be pushed for evaluation and merged to the main or master file if the changes match or fit the 
+requirements of the project. When done across an entire staff or group of people, projects will be done much quicker and more 
+safely without having to worry about possible deletions or missing files. Documents can also be reverted back to instances in 
+time (if you commit or save regularly using the git tools) when you happen to make a major booboo.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
