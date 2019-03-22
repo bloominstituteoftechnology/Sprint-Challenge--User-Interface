@@ -272,9 +272,10 @@ footer nav {
     justify-content: space-between;
 }
 
-*/ Contact Page styling */
+/* Contact Page styling */
 
 .contact-container {
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -284,6 +285,7 @@ form {
     padding: 1em;
     border: 1px solid lightgray;
     border-radius: 1em;
+    margin-bottom: 25px;
   }
   
   div + div {
@@ -299,8 +301,7 @@ form {
   input, textarea {
     font: 1em sans-serif;
     width: 300px;
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
+    box-sizing: border-box;
     border: 1px solid lightgray;
   }
   
