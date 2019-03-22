@@ -206,19 +206,34 @@ header nav a {
 }
 
 
-.about-page {
-
+a:hover {
+	color: violet;
 }
 
 .divider {
 	border-top: 1px solid gray;
-	width: 55%;
+	width: 45%;
+	margin-top: 20px;
 }
 
+.mid-dividers{
+	display: flex;
+}
+
+.bottom-dividers {
+	display: flex;
+}
+
+.top-divider {
+	border-top: 1px solid gray;
+	width: 95%;
+	margin-top: 20px;
+}
 .strategy {
 	width: 53%;
 	display: flex;
 	flex-wrap: wrap;
+	margin: 20px;
 
 }
 
@@ -226,27 +241,45 @@ header nav a {
 	width: 53%;
 	display: flex;
 	flex-wrap: wrap;
-
+	margin: 20px;
 }
 
 .places {
 	width: 53%;
 	display: flex;
 	flex-wrap: wrap;
+	margin: 20px;
 }
 
 .collab {
 	width: 53%;
 	display: flex;
 	flex-wrap: wrap;
+	margin: 20px;
 }
 
-.body-container {
-display: flex;
-flex-wrap: wrap;
-display: inline;
+.body-container1 {
+	display: flex;
+
+}
+
+.body-container2 {
+	display: flex;
 }
 
 button {
 	padding: 10px 20px;
+	margin-right: 50px;
+}
+
+.last-content {
+	margin: 20px;
+}
+
+.about {
+	margin: 10px;
+}
+
+header {
+	margin-bottom: 10px;
 }
