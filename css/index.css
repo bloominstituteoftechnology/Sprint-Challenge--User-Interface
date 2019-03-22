@@ -310,5 +310,5 @@ input[type=submit]:hover {
 		position: relative;
 	  -webkit-animation: mymove 1s ; /* Safari 4.0 - 8.0 */
 	  animation: mymove 1s;
-	}
+	} 
 }
