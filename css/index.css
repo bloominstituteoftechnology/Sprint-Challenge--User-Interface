@@ -135,13 +135,19 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
     font-size: 14px;
+    margin-top: 20px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 14px 28px;
+}
+
+footer nav a:hover{
+    background-color: white;
+    color: black;
 }
 
 /******** Navigation  ********/
@@ -241,4 +247,53 @@ header img {
 .about-bottom-content {
     margin: 10px 0;
     padding: 10px;
+}
+
+/**** Contact Page  ******/
+
+.contact-header{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-img {
+    margin: 20px 0;
+    width: 600px;
+    height: 360px;
+    border-radius: 5px;
+}
+.form  {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.contact-form input{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.contact-form textarea {
+    resize: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact-form input[type=button]{
+    font-size: 15px;
+}
+
+.contact-form input[type=button]:hover{
+    background-color: black;
+    color: white;
 }
