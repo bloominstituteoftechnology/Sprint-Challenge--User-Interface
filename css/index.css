@@ -150,16 +150,17 @@ footer nav a {
 
 .small {
     width: 370px;
-    height: 400px;
+    height: 420px;
     border: 1px dotted black;
     border-width: 0px 0px 1px 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .mids{
     margin: 50px 0px 1px 0px;
     align-content: center;
     border: 1px dotted black ;
-    height: 900px;
+    height: 1000px;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -182,14 +183,26 @@ header{
     height: 50px;
 }
 a{
-    padding:0px 0px 0px 72px;
+    margin: 0px 0px 0px 60px;
+    padding:5px;
     justify-content: space-between;
     width: 50px;
     text-decoration: none;
     color: black;
 }
+a:hover{
+    animation: ah 5s infinite;
+}
+@keyframes ah{
+    100%{
+        border-radius: 3px;
+        background-color: black;
+        color: white;
+    }
+}
 .tnav{
-    padding: 30px 5px 0px 20px;
+    margin:  30px 5px 0px 20px;
+
 }
 .jum{
     margin: 0px 0px 20px 0px;
@@ -228,4 +241,7 @@ background:indigo;
 }
 .box-10{
 background: dodgerblue;
+}
+.h2{
+    padding: 10px 0px 0px 0px;
 }
