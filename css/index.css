@@ -219,7 +219,7 @@ button {
     cursor: pointer;
     background: white;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .content {
@@ -232,8 +232,14 @@ button {
 .content .cards {
     width: 360px;
     padding: 20px 0px;
+    border-bottom: 1px dashed black;
 
 }
 
 img {
-margin-bottom: 30px;80
+margin-bottom: 30px;
+}
+
+.work-together {
+    padding: 30px;
+}
