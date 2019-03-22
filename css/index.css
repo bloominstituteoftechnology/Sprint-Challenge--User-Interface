@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-image {
+	margin-bottom: 10px;
+	margin-top: 35px;
+}
+
+header {
+display: flex;
+align-items: baseline;
+}
+
+header nav a {
+	margin: 30px;
+	text-decoration: none;
+	color: gray;
+}
+
+.logo {
+	margin-right: 10px;
+}
+
+#box1 {
+	background: #008080;
+}
+
+#box2 {
+	background: #ffd700;
+}
+
+#box3 {
+	background: #5f9ea0;
+}
+
+#box4 {
+	background: #ff7f50;
+}
+
+#box5 {
+	background: #dc143c;
+}
+
+#box6 {
+	background: #228b22;
+}
+
+#box7 {
+	background: #9932cc;
+}
+
+#box8 {
+	background: #ff69b4;
+}
+
+#box9 {
+	background: #4b0082;
+}
+
+#box10 {
+	background: #1e90ff;
 }
