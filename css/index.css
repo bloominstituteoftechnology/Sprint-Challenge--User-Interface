@@ -169,3 +169,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about.html */
+
+.about-header{
+    margin-left: 25px;
+    margin-top: 18px;
+}
+
+.about-text{
+    margin-bottom: 20px;
+}
+
+.about-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content .card{
+    width: 49%;
+    margin-bottom:20px;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 10px 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
