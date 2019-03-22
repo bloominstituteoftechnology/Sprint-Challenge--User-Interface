@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-right: 40px;
+}
+
+header nav a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container .jumbo-logo {
+    margin: 15px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +127,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background-color: teal;
+  }
+  .box2 {
+    background-color: gold;
+  }
+  .box3 {
+    background-color: cadetblue;
+  }
+  .box4 {
+    background-color: coral;
+  }
+  .box5 {
+    background-color: crimson;
+  }
+  .box6 {
+    background-color: forestgreen;
+  }
+  .box7 {
+    background-color: darkorchid;
+  }
+  .box8 {
+    background-color: hotpink;
+  }
+  .box9 {
+    background-color: indigo;
+  }
+  .box10 {
+    background-color: dodgerblue;
+  }
 
 .bottom-content {
     display: flex;
