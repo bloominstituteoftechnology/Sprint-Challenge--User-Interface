@@ -62,6 +62,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     line-height: 1.4;
 }
@@ -71,11 +75,31 @@ p {
     margin: 0 auto;
 }
 
+header {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+  display: inline;
+  margin: 30px;
+  color: black;
+    
+}
+
+.top-photo img {
+    display: flex;
+    margin: 20px 0px;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     border-bottom: 1px dashed black;
 }
 
