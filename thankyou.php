@@ -24,7 +24,7 @@
             </nav>
 		</header>
 		<section class="thankyou">
-			<h1>Thank You <? echo $_POST['firstname'].' '.$_POST['lastname'];?> for your information Request
+			<h1>Thank You <? echo $_Request['firstname'].' '.$_Request['lastname'];?> for your information Request
         
         </section>
 		<footer>
