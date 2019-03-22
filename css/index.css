@@ -101,16 +101,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: teaL;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +236,94 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About.html*/
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+} 
+
+header{
+    display:flex;
+}
+
+header nav {
+    display:flex;
+    justify-content: space-between;
+    width: 550px;
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+
+ header nav a {
+    font-size: 14px;
+    color: black;
+    text-decoration:none;
+   
+}
+
+header nav a:hover{
+    background: black;
+    color: white;
+    transition: all 2s;
+}
+
+header .lambda-logo {
+    margin-right: 10%;
+}
+
+/*jumbo image*/
+.jumbo-img {
+     padding: 25px
+ }
+
+.about-img {
+    padding:25px;
+}
+
+.first-section{
+    display: flex;
+}
+
+
+.first-section .first-content{
+    vertical-align: top;
+    margin: 25px;
+    padding: 10px;
+    border-bottom: 2px dotted black;
+    
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-content {
+    padding: 20px;
+}
+
+.main-section .section-content{
+    justify-content: space-between;
+    margin: 5px;
+    width: 45%;
+    border-bottom: 2px dotted black;
+}
+
+.section-content button{
+    background: white;
+    margin:15px 0px;
+    padding: 8px 30px;
+    font-size: 12px;
+    border: 2px solid black;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.bottom-section {
+    margin:35px
+    
 }
