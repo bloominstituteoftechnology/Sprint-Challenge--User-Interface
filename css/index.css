@@ -51,7 +51,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, header{
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -67,6 +67,10 @@ p {
 }
 
 .container {
+    
+    /*
+    my code above
+    */
     width: 800px;
     margin: 0 auto;
 }
@@ -104,7 +108,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +146,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.small {
+    width: 370px;
+    height: 420px;
+    border: 1px dotted black;
+    border-width: 0px 0px 1px 0px;
+    margin: 50px 0px 0px 0px;
+}
+
+.mids{
+    margin: 50px 0px 1px 0px;
+    align-content: center;
+    border: 1px dotted black ;
+    height: 1000px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 1px 0px 0px 0px;
+}
+button{
+    margin:10px 0px 0px 0px;
+    width: 90px;
+    border: 2px solid black ;
+    padding:10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+header{
+    line-height: 1;
+    display: flex;
+    margin: 20px 10px 30px 10px;
+    width: 800px;
+    height: 50px;
+}
+a{
+    margin: 0px 0px 0px 60px;
+    padding:5px;
+    justify-content: space-between;
+    width: 50px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    animation: ah 5s infinite;
+}
+@keyframes ah{
+    100%{
+        border-radius: 3px;
+        background-color: black;
+        color: white;
+    }
+}
+.tnav{
+    margin:  30px 5px 0px 20px;
+
+}
+.jum{
+    margin: 0px 0px 20px 0px;
+}
+.bot{
+
+    height: 150px;
+}
+
+.box-1{
+background-color: teal;
+}
+.box-2{
+background-color:gold;
+}
+.box-3{
+background-color: cadetblue;
+}
+.box-4{
+background-color: coral;
+}
+.box-5{
+background-color:crimson;
+}
+.box-6{
+background-color: forestgreen;
+}
+.box-7{
+background-color:darkorchid;
+}
+.box-8{
+background-color: hotpink;
+}
+.box-9{
+background:indigo;
+}
+.box-10{
+background: dodgerblue;
+}
+.h2{
+    padding: 10px 0px 0px 0px;
 }
