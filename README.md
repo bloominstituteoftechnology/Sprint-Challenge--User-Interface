@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+A: I would describe semantic HTML as being the standard for defining meaning in your code for the browser to read as well as other coders.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A: ```display:inline``` cannot have height modified, whereas ```display:block``` can.
 
 3. What are the 4 areas of the box model?
 
