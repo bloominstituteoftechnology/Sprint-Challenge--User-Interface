@@ -91,6 +91,24 @@ header nav a{
 	color:#000;
 }
 
+header nav a img{
+	position: relative;
+  -webkit-animation: mymove 2s ; /* Safari 4.0 - 8.0 */
+  animation: mymove 2s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: -200px;}
+  to {left: 0px;}
+}
+
+@keyframes mymove {
+  from {left: -200px;}
+  to {left: 0px;}
+}
+
+
 header nav a:hover{
 	text-decoration:none;
 	color:#666;
@@ -236,4 +254,53 @@ footer nav a {
 	margin:20px 0;
 	padding:5px 20px;
 	border:1px solid black;
+}
+
+/*contact Page*/
+.contact-page section{
+	display:flex;
+	justify-content:space-between;
+}
+
+.contact-page section div{
+	width:50%;
+	padding:40px;
+}
+
+.contact-page section div form{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: transparent;
+  color: #000;
+  width:50%;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.contact-page section div{
+	max-width:50%;
 }
