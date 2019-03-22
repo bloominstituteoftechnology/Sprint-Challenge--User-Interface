@@ -71,11 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.top-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:space-between;
+}
+
+.top-nav a{
+    text-decoration: none;
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+ 
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -83,6 +101,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 20px;
 }
 
 .middle-content {
@@ -110,6 +129,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes div:nth-child(1){
+    background: teal;
+}
+
+.middle-content .boxes div:nth-child(2){
+    background: gold;
+}
+
+.middle-content .boxes div:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes div:nth-child(4){
+    background: coral;
+}
+
+.middle-content .boxes div:nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes div:nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes div:nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes div:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes div:nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes div:nth-child(10){
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +201,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+ 
+.about .description{
+    padding: 20px;
+}
+
+.about-main-content{
+    border-top: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.panel{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin:15px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+ }
+
+.panel h2{
+     
+}
+ 
+.panel button{
+    width: 35%;
+    height: 35px;
+    margin-top: 20px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.about-bottom{
+    padding: 20px;
 }
