@@ -235,6 +235,7 @@ footer nav a {
     border: 2px solid black;
     border-radius: 5px;
     font-size: 14px;
+    cursor: pointer; 
 }
 
 .about-bottom{
