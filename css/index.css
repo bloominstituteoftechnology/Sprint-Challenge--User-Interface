@@ -66,6 +66,67 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 100%;
+    display: flex;
+}
+
+header .logo {
+    margin-top: 30px;
+    align-self: flex-start;
+}
+header nav {
+    align-self: flex-end;
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a:first-child {
+    margin-left: 60px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.splash {
+    margin-top: 40px;
+    margin-bottom:30px;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
