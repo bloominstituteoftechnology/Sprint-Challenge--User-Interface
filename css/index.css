@@ -204,3 +204,41 @@ header img {
 
 /******* About Page ********/
 
+.about-top-content {
+    padding-bottom: 20px;
+}
+.about-middle-content {
+    border-top: 1px dashed black;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding: 20px 10px;
+    margin: 5px;
+}
+
+.content-container h3 {
+    padding-top: 10px;
+}
+
+.content-container button{
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    padding: 5px 20px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.content-container img{
+    text-align: center;
+}
+
+.about-bottom-content {
+    margin: 10px 0;
+    padding: 10px;
+}
