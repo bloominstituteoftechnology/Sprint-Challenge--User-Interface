@@ -112,6 +112,46 @@ p {
     justify-content: center;
 }
 
+#teal {
+    background:teal;
+}
+
+#gold {
+    background:gold;
+}
+
+#cadetblue {
+    background:cadetblue;
+}
+
+#coral {
+    background:coral;
+}
+
+#crimson {
+    background:crimson;
+}
+
+#forestgreen {
+    background:forestgreen;
+}
+
+#darkorchid {
+    background:darkorchid;
+}
+
+#hotpink {
+    background:hotpink;
+}
+
+#indigo {
+    background:indigo;
+}
+
+#dodgerblue {
+    background:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
