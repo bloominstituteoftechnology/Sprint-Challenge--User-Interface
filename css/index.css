@@ -66,13 +66,33 @@ p {
     line-height: 1.4;
 }
 /* index.html page */
-header nav{
-    display: flex;
-    
-}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header nav{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+}
+
+header .LambdaHeader{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+header nav a{
+    display: flex;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+
+header nav a:hover{
+    text-decoration: underline;
 }
 
 .top-content {
