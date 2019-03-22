@@ -95,6 +95,10 @@ header nav a {
     text-decoration: none;
 }
 
+header nav a:hover {
+    color: blue;
+}
+
 .container .jumbo-logo {
     margin: 15px 0;
 }
@@ -184,6 +188,14 @@ header nav a {
     padding-right: 4%;
 }
 
+.bottom-content .text-container h2 {
+    font-weight: bold;
+}
+
+.bottom-content .text-container p {
+    font-weight: lighter;
+}
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
@@ -205,4 +217,101 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: blue;
+}
+
+/* About Page */
+
+.container .about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-page .jumbo-about-logo {
+    padding: 20px 0 20px 0;
+}
+
+.about-page .top-about {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-left: 20px;
+}
+
+.about-page .top-about h2 {
+    font-weight: bold;
+}
+
+.about-page .top-about p {
+    font-weight: lighter;
+}
+
+.about-page button {
+    border: 1px double black;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.about-page button:hover {
+    background: black;
+    color: white;
+}
+.about-page .middle-about-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.about-page .middle-about-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxsect {
+    padding: 20px;
+    width: 400px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page p {
+    padding-bottom: 15px;
+}
+
+.about-page .bottom-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-page header {
+    padding-bottom: 20px;
+}
+
+.contact-page .red-lambda-logo {
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+.contact-page h1 {
+    font-size: 30px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-page .top-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
