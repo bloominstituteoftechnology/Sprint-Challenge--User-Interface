@@ -66,14 +66,44 @@ p {
     line-height: 1.4;
 }
 
+/* Code Start */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+header {
+    display:flex;
+    width:100%;
+    margin-top:25px;
+    margin-bottom:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+header nav {
+    display:flex;
+    width:600px;
+    justify-content:space-around;
+    margin-top:50px;
+}
+
+header nav a {
+    text-decoration:none;
+    color:black;
+}
+
+.jumbo-about {
+    margin-top:25px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
+    margin-top:20px;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +142,46 @@ p {
     justify-content: center;
 }
 
+#teal {
+    background:teal;
+}
+
+#gold {
+    background:gold;
+}
+
+#cadetblue {
+    background:cadetblue;
+}
+
+#coral {
+    background:coral;
+}
+
+#crimson {
+    background:crimson;
+}
+
+#forestgreen {
+    background:forestgreen;
+}
+
+#darkorchid {
+    background:darkorchid;
+}
+
+#hotpink {
+    background:hotpink;
+}
+
+#indigo {
+    background:indigo;
+}
+
+#dodgerblue {
+    background:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +214,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About me Page CSS */
+
+.four {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:left;
+    align-content: 
+}
+
+.card {
+    width:350px;
+    border-bottom:1px dashed black;
+    padding:20px;
+    margin:25px;
+}
+
+.card button {
+    background:white;
+    border-radius:5px;
+    margin-top:15px;
+    font-size:16px;
+}
+
+.card img {
+    margin-bottom:15px;
+}
+
+.outro {
+    margin-bottom:15px;
+}
+
+#card1, #card3 {
+    margin-right:15px;
+}
+
+
+
+
