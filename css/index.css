@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 30px;
+    
+}
+
+header nav{
+    justify-content: space-between;
+    display: flex;
+    
+}
+header nav a{
+    text-decoration: none;
+    display: flex;
+    align-items: space-evenly;
+    margin-left: 60px;
+    color: black;
+}
+
+.box1{
+    background-color: teal;
+    order: 1;
+}
+.box2{
+    background-color: gold;
+    order: 2;
+}
+.box3{
+    background-color: cadetblue;
+    order: 3;
+}
+.box4{
+    background-color: coral;
+    order: 4;
+}
+.box5{
+    background-color: crimson;
+    order: 5;
+}
+.box6{
+    background-color: forestgreen;
+    order: 6;
+}
+.box7{
+    background-color: darkorchid;
+    order: 7;
+}
+.box8{
+    background-color: hotpink;
+    order: 8;
+}
+.box9{
+    background-color: indigo;
+    order: 9;
+    }
+.box10{
+    background-color: dodgerblue;
+    order: 10;
+}
+
+.hero{
+    margin-bottom: 20px;
+}
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+      align-content: space-between; 
+    margin-bottom: 20px;
+}
+.box-content{
+    width: 390px;
+    border-bottom: 1px dashed gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    padding-bottom: 20px;
+}
+.box-content p{
+    margin: 20px 0;
+}
+.top-content-about{
+    border-bottom: 1px dashed gray;
+    padding: 20px;
+}
+button{
+    width: 100px;
+    background: white;
+    border-radius: 10px;
+}
+.learn{
+    text-decoration: none;
+    vertical-align: middle;
+    border-radius: 5px;
+    width: 250px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.box-content h2{
+    margin-top: 10px;
+}
+.bottom-content-about{
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
 }
