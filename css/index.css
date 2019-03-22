@@ -163,6 +163,41 @@ nav a {
     text-decoration: none;
 }
 
- .middle-content .boxes .box  {
+ .middle-content .boxes .box.teal  {
     background-color:teal;
 }
+.middle-content .boxes .box.gold  {
+    background-color:gold;
+}
+.middle-content .boxes .box.cadetblue  {
+    background-color:cadetblue;
+}
+.middle-content .boxes .box.coral  {
+    background-color:coral;
+}
+.middle-content .boxes .box.crimson  {
+    background-color:crimson;
+}
+.middle-content .boxes .box.forestgreen  {
+    background-color:forestgreen;
+}
+.middle-content .boxes .box.darkorchild  {
+    background-color:darkorchid;
+}
+.middle-content .boxes .box.hotpink  {
+    background-color:hotpink;
+}
+.middle-content .boxes .box.indigo  {
+    background-color:indigo;
+}
+.middle-content .boxes .box.dodgerblue  {
+    background-color:dodgerblue;
+}
+
+
+
+
+
+
+
+
