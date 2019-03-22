@@ -192,8 +192,7 @@ h4 {
 }
 
 .card {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     width: 49%;
     border-bottom: 1px dashed black;
 }
