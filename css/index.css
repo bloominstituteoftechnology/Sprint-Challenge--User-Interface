@@ -254,3 +254,32 @@ footer nav a {
 .about-bottom{
     padding: 20px;
 }
+
+.contact-form form
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form form textarea{
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.contact-form form input{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 10px 0;
+    height: 40px;
+    font-size: 20px;
+}
+.contact-form form .form-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.contact-form form .form-buttons input{
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
