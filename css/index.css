@@ -204,3 +204,43 @@ header nav a {
 #box10 {
 	background: #1e90ff;
 }
+
+
+.about-page {
+
+}
+
+.divider {
+	border-top: 1px solid gray;
+	width: 55%;
+}
+
+.strategy {
+	width: 53%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.working {
+	width: 53%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.places {
+	width: 53%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.collab {
+	width: 53%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+button {
+	padding: 10px 20px;
+}
