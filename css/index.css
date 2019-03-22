@@ -71,12 +71,49 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: 10px 50px;
+justify-content: space-evenly
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.quarter {
+   display: flex;
+   flex-direction: column;
+}
+
+.main-content {
+    border-top: 1px dashed black;
+    margin-top: 15px;
+    padding-top: 39px;
+}
+  
+.main-content .top-content {
+    padding: 0 10px;
+}
+  
+.main-content .top-content .text-content {
+    width: 410px;
+    display: inline-block;
+    margin-right: 34px;
+}
+
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-aroun;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 10px;
 }
 
 .top-content .text-container {
@@ -88,6 +125,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px
 }
 
 .middle-content h2 {
@@ -114,8 +152,10 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-aroun;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 20px;
 }
 
 .bottom-content .text-container {
@@ -124,6 +164,12 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
 }
 
 footer {
