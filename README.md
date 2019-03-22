@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is more than code, it has meaning to it.  Giving meaning to tags such as <h1>, <p>, <footer>, <nav>, <section> and <article> etc.  You can read the tag and understand what it is so it has meaningm, thus it is symantic! 
+Semantic HTML is more than code, it has meaning to it.  Giving meaning to tags such as h1, p, footer, nav, section and article etc.  You can read the tag and understand what it is so it has meaningm, thus it is symantic! 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
