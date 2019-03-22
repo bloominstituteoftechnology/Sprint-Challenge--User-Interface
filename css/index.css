@@ -142,53 +142,52 @@ header nav a:hover {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
-    background-color: black;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.middle-content .boxes .teal{
+.middle-content .boxes .box:first-child {
     background-color: teal;
 }
-.middle-content .boxes .gold{
-    background-color: gold;
+
+.middle-content .boxes .box:nth-child(2){
+    background-color:gold;
 }
 
-.middle-content .boxes .cadetblue{
-    background-color: cadetblue
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
 }
 
-.middle-content .boxes .coral{
-    background-color: coral
+.middle-content .boxes .box:nth-child(4){
+    background-color:coral;
 }
 
-.middle-content .boxes .crimson{
+.middle-content .boxes .box:nth-child(5){
     background-color: crimson;
 }
 
-.middle-content .boxes .forestgreen{
+.middle-content .boxes .box:nth-child(6){
     background-color: forestgreen;
 }
 
-.middle-content .boxes .darkorchid{
+.middle-content .boxes .box:nth-child(7){
     background-color: darkorchid;
 }
 
-.middle-content .boxes .hotpink{
+.middle-content .boxes .box:nth-child(8){
     background-color: hotpink;
 }
 
-.middle-content .boxes .indigo{
+.middle-content .boxes .box:nth-child(9){
     background-color: indigo;
 }
 
-.middle-content .boxes .dodgerblue{
+.middle-content .boxes .box:last-child {
     background-color: dodgerblue;
 }
-
-
 
 .bottom-content {
     display: flex;
