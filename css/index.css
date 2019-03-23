@@ -71,7 +71,6 @@ p {
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
 .container header nav {
     margin: 20px;
     display: flex;
@@ -91,15 +90,6 @@ p {
     margin: 15px 0;
 }
 
-=======
-.container .nav-bar a {
-    padding: 2%;
-    background: pink; 
-    color: black;
-    text-decoration: none;
-}
-
->>>>>>> 723ebc742c5bfa77abc2b4ea462ae53fe016e50d
 .top-content {
     display: flex;
     flex-wrap: wrap;
