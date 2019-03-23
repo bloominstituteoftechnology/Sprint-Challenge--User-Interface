@@ -203,3 +203,74 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* ---------------------About Page----------------- */
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page header nav {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    right: 20px;
+}
+
+.container-about-page header nav a{
+    color: black;
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+.container-about-page .about-head-img {
+    margin-top: 20px;
+}
+
+.container-about-page .about-top-content {
+    margin-top: 30px;
+}
+
+.container-about-page .about-middle-content {
+  border-top: 1px dashed black;
+  margin-top: 60px;
+  padding-top: 40px;
+}
+
+.container-about-page .about-middle-content .middle-sec1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-about-page .about-middle-content .middle-sec2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-about-page .about-middle-content h2 {
+    margin-top: 10px;
+}
+
+.container-about-page .about-middle-content .click-here {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    padding: 15px 30px;
+}
+
+.container-about-page .about-middle-content .para {
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 30px; 
+}
+
+.container-about-page .about-bottom-content {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
