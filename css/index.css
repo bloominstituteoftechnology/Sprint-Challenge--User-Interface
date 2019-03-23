@@ -203,13 +203,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-/* --------Flex codes---------- */
-.nav-bar {
-    display: ;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-around;
-}
