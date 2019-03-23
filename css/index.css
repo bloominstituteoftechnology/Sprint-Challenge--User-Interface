@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    /*margin-top: 46px;*/
+}
+
+header nav a {
+    margin-top: 46px;
+    margin: 47px 73px 17px 0;
+    color: black;
+    background:rgb(236, 231, 231);
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.logo {
+    display: inline;
+    margin-right:30px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.pic1 {
+    margin-top: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,8 +118,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.text-container h2 {
+    margin-top: 21px;
+}
+
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-bottom: 1px dashed black;
 }
 
@@ -104,7 +141,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,14 +149,56 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 0px;
     justify-content: space-around;
+    margin-bottom: 17px;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    margin-bottom: 2px;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +222,79 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+ /* This is where the about page starts */
+
+
+.about p {
+    line-height: 21px;
+    margin-left: 21px;
+    margin-bottom: 52px;
+}
+
+.about h4 {
+    margin-left: 21px;
+    margin-bottom: 17px;
+    margin-top: 19px;
+}
+
+ /* .middle-content {
+    display: flex;
+} */
+
+.row1 {
+    display: flex;
+}
+
+.strategy {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.strategy h4 {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 22px;
+    padding: 9px;
+    width: 131px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid black;
+    background:white;
+}
+
+.how-we-work {
+    margin-bottom: 10px;
+    margin-left: 11px;
+}
+
+.how-we-work h4 {
+    margin-top: 10px;
+}
+
+.row2 {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 19px;
+    margin-bottom: 31px;
+}
+
+.bottom-content2 {
+    margin-top: 62px;
+    margin-bottom: 38px;
+}
+
+.bottom-content2 h4 {
+    margin-bottom: 4px;
+}
+
+header nav a {
+    color: black;
+    background:rgb(236, 231, 231);
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 54px;
 }
