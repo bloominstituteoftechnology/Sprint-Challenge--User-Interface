@@ -293,7 +293,7 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
+    
 footer nav a {
     color: white;
     text-decoration: none;
@@ -323,6 +323,7 @@ h4 {
     border-bottom: 1px dotted black;
     margin-top: 20px;
     width: 400px;
+    height: 400px;
     padding: 19px;
     display: inline-block;
     }
@@ -332,12 +333,16 @@ h4 {
         width: 420px;
         
     }
+    .boxes1 .pictxt {
+        display: flex;
+    }
     .boxz {
         display: flex;
-        flex-wrap: wrap;
+         flex-wrap: wrap; 
         margin: 20px;
         padding: 18px;
-        border: 1px dotted black; 
+        border: 1px dotted black;
+        width:  360px; 
     }
     
  .buttons {
@@ -376,4 +381,7 @@ h1 {
     font-family: optima;
     font-size: 40px;
     margin-top: 30px;
+}
+.b-foot  {
+    width: 100%;
 }
