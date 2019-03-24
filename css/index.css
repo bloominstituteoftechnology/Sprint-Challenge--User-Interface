@@ -56,6 +56,8 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -71,6 +73,42 @@ p {
     margin: 0 auto;
 }
 
+header nav{
+    display: flex;
+    margin-top: px; 
+    width: 610px;
+    justify-content: space-evenly;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.long{
+    margin: 20px 0px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+}
+
+.articles{
+    width: 380px;    
+    margin: 20px 0;
+}
+.button{
+    border-radius: 5px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +121,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
 }
 
 .middle-content {
@@ -111,7 +150,46 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:first-child{
+background-color: teal;
+}
 
+.middle-content .boxes .box:nth-child(2){
+background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+ background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+background-color: darkorchid;
+}
+
+.middle-content .box:nth-child(8){
+background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+background-color: indigo;
+}
+
+.middle-content .boxes .box:last-child{
+ background-color: dodgerblue;
+}
+
+ 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -120,6 +198,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    padding-top: 15px;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +222,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+p{
+    padding-bottom: 15px;
 }
