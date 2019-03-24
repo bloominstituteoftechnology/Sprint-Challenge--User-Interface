@@ -132,14 +132,6 @@ h3 {
 }
 
 
-.bottom-content .text-container {
-    width: 95%;
-    padding: 20px 
-    padding-bottom: 20px;
-    margin-right: 20px;
-}
-
-
 .middle-content {
     display: flex;
     justify-content: space-evenly;
@@ -150,28 +142,27 @@ h3 {
 .middle-content .text-container {
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
+    width: 400px;
 }
 
 .bottom-content {
    
-    border-bottom: 1px dashed black;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
-    margin: 20px;
+    padding: 20px;
 }
 
 .bottom-content .text-container {
-    width: 95%;
-    padding: 20px 5%;
+    border-bottom: 1px dashed black;
     padding-bottom: 20px;
-    margin-right: 20px;
-}
+    width: 400px;
+} 
 
 
 /* Buttons */
 
- .text-container button{
+ .text-container button {
     border: 1px solid black;
     font-size: 16px;
     background: white;
@@ -189,6 +180,17 @@ h3 {
     color: white;
 } 
 
+/* Footer Content */
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px; 
+    margin-bottom: 20px
+}
+
+
+/* Footer */
 
 footer nav {
     display: flex;
@@ -198,10 +200,13 @@ footer nav {
 
 footer nav a {
     color: white; 
-    font-size: 10px
-    padding: 30px;
-    margin: 20px;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
     text-decoration: none;
 }
 
+footer nav a:hover {
+    text-decoration: underline; 
+}
 
