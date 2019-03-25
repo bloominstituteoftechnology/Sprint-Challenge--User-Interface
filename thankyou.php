@@ -24,15 +24,15 @@
             </nav>
 		</header>
 		<section class="thankyou">
-			<h1>Thank You <? echo $_Request['firstname'].' '.$_Request['lastname'];?> for your information Request
-        
+			<h1>Thank You <? echo $_REQUEST['firstname'].' '.$_REQUEST['lastname'];?> for your information Request
+		
         </section>
 		<footer>
 			<nav>
 				<a href="index.html">Home</a>
 				<a href="about.html">About</a>
 				<a href="products.html">Products</a>
-				<a href="blog.html">Blog</a>
+				<a href="blog.html">Blog</a> 
 				<a href="contact.html">Contact</a>
 			</nav>
 		</footer>
