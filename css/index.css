@@ -89,23 +89,52 @@ section.jumbo{
 header nav a{
 	text-decoration:none;
 	color:#000;
+	position: relative;
+	-webkit-animation: mdown 1s ; /* Safari 4.0 - 8.0 */
+	animation: mdown 1s;
+}
+
+header nav a:last{
+	position: relative;
+	-webkit-animation: mright 1s ; /* Safari 4.0 - 8.0 */
+	animation: mright 1s;
 }
 
 header nav a img{
 	position: relative;
-  -webkit-animation: mymove 2s ; /* Safari 4.0 - 8.0 */
-  animation: mymove 2s;
+  -webkit-animation: mright 1s ; /* Safari 4.0 - 8.0 */
+  animation: mright 1s;
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
+@-webkit-keyframes mright {
   from {left: -200px;}
   to {left: 0px;}
 }
 
-@keyframes mymove {
+@keyframes mright {
   from {left: -200px;}
   to {left: 0px;}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mdown {
+  from {top: -200px;}
+  to {top: 0px;}
+}
+
+@keyframes mdown {
+  from {top: -200px;}
+  to {top: 0px;}
+}
+
+@-webkit-keyframes mleft {
+  from {right: -200px;}
+  to {right: 0px;}
+}
+
+@keyframes mleft {
+  from {right: -200px;}
+  to {right: 0px;}
 }
 
 
