@@ -84,7 +84,11 @@
 		</header>
 		<section class="thankyou">
 			<h1>Thank You <? echo $_REQUEST['firstname'].' '.$_REQUEST['lastname'];?> for your information Request
+<<<<<<< HEAD
 			<p>I am PUSHTEST</p>
+=======
+		
+>>>>>>> 8ad5dc353ab89b0447139888a88cc8f37302b09a
         </section>
 		<img class="mailbox-letter" src="img/letter.png">
 		<section>
