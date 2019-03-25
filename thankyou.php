@@ -31,8 +31,8 @@
 	.mailbox-letter{
 		width:150px;
 		position: absolute;
-		top:45%;
-		left:768px;
+		top:42%;
+		left:748px;
 	    -webkit-animation: mright2 3s ; /* Safari 4.0 - 8.0 */
 	    animation: mright2 3s;
 	}
@@ -84,11 +84,6 @@
 		</header>
 		<section class="thankyou">
 			<h1>Thank You <? echo $_REQUEST['firstname'].' '.$_REQUEST['lastname'];?> for your information Request
-<<<<<<< HEAD
-			<p>I am PUSHTEST</p>
-=======
-		
->>>>>>> 8ad5dc353ab89b0447139888a88cc8f37302b09a
         </section>
 		<img class="mailbox-letter" src="img/letter.png">
 		<section>
