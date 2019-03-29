@@ -62,6 +62,20 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header {
+    width: 800px;
+    display: flex;
+    margin: 20px auto 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +83,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container .banner {
+    margin: 20px 0;
 }
 
 .top-content {
