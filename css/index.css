@@ -144,3 +144,105 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 40px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav img.logo {
+    margin-top: -1%;
+}
+
+header img.jumbo {
+    margin-bottom: 40px;
+}
+
+div.boxes div.box.box-1 {
+    background-color: teal;
+}
+
+div.boxes div.box.box-2 {
+    background-color: gold;
+}
+
+div.boxes div.box.box-3 {
+    background-color: cadetblue;
+}
+
+div.boxes div.box.box-4 {
+    background-color: coral;
+}
+
+div.boxes div.box.box-5 {
+    background-color: crimson;
+}
+
+div.boxes div.box.box-6 {
+    background-color: forestgreen;
+}
+
+div.boxes div.box.box-7 {
+    background-color: darkorchid;
+}
+
+div.boxes div.box.box-8 {
+    background-color: hotpink;
+}
+
+div.boxes div.box.box-9 {
+    background-color: indigo;
+}
+
+div.boxes div.box.box-10 {
+    background-color: dodgerblue;
+}
+
+div.container.about-page div.about {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+div.container.about-page div.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.container.about-page div.info div {
+    width: 350px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 30px;
+}
+
+div.container.about-page div.info div p {
+    padding-bottom: 15px;
+}
+
+div.container.about-page div.info div h3 {
+    padding-top: 15px;
+}
+
+.learn-btn {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    height: 25px;
+    width: 100px;
+}
+
+div.together {
+    padding-bottom: 20px;
+}
