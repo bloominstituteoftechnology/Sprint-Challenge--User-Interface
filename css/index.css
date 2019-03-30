@@ -20,7 +20,11 @@ time, mark, audio, video, button {
 	padding: 0;
     border: 0;
     font: inherit;
-    /* I'm not sure if this line is necessary, but it made the output look most like source file.*/
+    /* I'm not sure if this line is necessary.
+    It made the index.html output look most like source file, 
+    however appears to be too thick for the about page file. 
+    Assuming differences in capturing source file image.
+    Can comment out to reduce weight of font across pages.*/
     font-weight: 600;
 	vertical-align: baseline;
 }
@@ -220,7 +224,6 @@ footer nav a {
     flex-wrap: wrap;
     padding: 25px 15px;
     border-top: 1px dashed black;
-
 }
 
 .about-box {
