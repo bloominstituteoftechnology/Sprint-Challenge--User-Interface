@@ -78,13 +78,14 @@ p {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 35px;
 }
 
 .top-nav {
     display: flex;
     justify-content: space-evenly;
-
+    width: 100%;
 }
 
 .top-nav a {
