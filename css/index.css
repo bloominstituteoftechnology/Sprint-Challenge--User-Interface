@@ -58,6 +58,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    letter-spacing: 1px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -67,8 +68,34 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 880px;
     margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 600px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header .logo {
+    margin: 50px 0 0 91px;
 }
 
 .top-content {
@@ -104,7 +131,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -114,7 +141,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 30px;
     justify-content: space-around;
 }
 
@@ -132,12 +159,12 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 footer nav a {
