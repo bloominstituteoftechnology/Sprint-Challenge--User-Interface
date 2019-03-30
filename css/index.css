@@ -98,7 +98,7 @@ header {
 }
 
 .jumbo-image {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -136,6 +136,7 @@ header {
     height: 100px;
     margin: 20px 2.5%;
     color: white;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,5 +205,6 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    font-weight: 500;
 }
 
