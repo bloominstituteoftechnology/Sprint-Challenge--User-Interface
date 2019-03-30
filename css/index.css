@@ -208,3 +208,16 @@ footer nav a {
     font-weight: 500;
 }
 
+
+/* ABOUT PAGE SPECIFIC */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.about-box {
+    width: 46%;
+}
+
