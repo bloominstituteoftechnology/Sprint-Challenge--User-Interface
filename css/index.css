@@ -85,8 +85,47 @@ p {
     margin: 0 auto;
 }
 
-.container .banner {
+.banner {
     margin: 20px 0;
+}
+
+.overview {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.learn-more {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards {
+    width: 370px;
+    height: 450px;
+    padding: 40px 0 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    align-items:flex-start;
+}
+
+.cards h2 {
+    margin: 0;
+}
+
+.cards button {
+    background: white;
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cards button:hover {
+    background: crimson;
+    color: white;
 }
 
 .top-content {
@@ -191,6 +230,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.work-together {
+    margin: 30px 0;
 }
 
 footer {
