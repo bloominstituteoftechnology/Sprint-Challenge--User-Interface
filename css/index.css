@@ -130,6 +130,55 @@ p {
     justify-content: center;
 }
 
+#b1.box {
+    background: teal;
+}
+
+#b2.box {
+    background: gold;
+}
+
+
+#b3.box {
+    background: cadetblue;
+}
+
+
+#b4.box {
+    background: coral;
+}
+
+
+#b5.box {
+    background: crimson;
+}
+
+
+#b6.box {
+    background: forestgreen;
+}
+
+
+#b7.box {
+    background: darkorchid;
+}
+
+
+#b8.box {
+    background: hotpink;
+}
+
+
+#b9.box {
+    background: indigo;
+}
+
+
+#b10.box {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
