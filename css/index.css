@@ -101,10 +101,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +243,85 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+ display:flex;
+ justify-content: space-around;
+ align-items: flex-end;
+}
+
+nav a {
+    color:black;
+}
+
+header {
+    margin: 35px 0 35px 0;
+}
+
+.all-sections {
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+    
+}
+
+.how-work {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+   
+}
+
+.places-work {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+    
+}
+
+.collab {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+   
+}
+
+.all-sections img {
+    width: 370px;
+    height: 250px;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.dash{
+    border: 0 none;
+    border-top: 2px dashed #322f32;
+    background: none;
+    height:0;
+  } 
+
+  .about{
+
+    margin: 0 0 28px 0;
+  }
+  
