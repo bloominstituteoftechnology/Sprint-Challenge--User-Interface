@@ -259,6 +259,8 @@ footer {
 
 }
 
+
+
 .services-content .indented {
     margin-left: 40px;
 }
@@ -291,7 +293,7 @@ footer {
 
 
 
-/*
+
  .services-content .services-info .facts {
    width: 400px;
    margin: 0 60px 20px 0;
@@ -312,6 +314,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 2px dashed black;
 }
 
 .middle-content .boxes .box1 {
@@ -472,4 +475,3 @@ footer nav a {
     text-decoration: none;
 }
 
-*/
