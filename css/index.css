@@ -258,3 +258,70 @@ header {
     margin: 35px 0 35px 0;
 }
 
+.all-sections {
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+    
+}
+
+.how-work {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+   
+}
+
+.places-work {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+    
+}
+
+.collab {
+    order: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 38%;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+   
+}
+
+.all-sections img {
+    width: 370px;
+    height: 250px;
+}
+
+button {
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.dash{
+    border: 0 none;
+    border-top: 2px dashed #322f32;
+    background: none;
+    height:0;
+  } 
+
+  .about{
+
+    margin: 0 0 28px 0;
+  }
+  
