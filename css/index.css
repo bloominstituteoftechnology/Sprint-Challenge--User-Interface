@@ -315,6 +315,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-bottom: 2px dashed black;
+    padding-bottom: 20px;
 }
 
 .middle-content .boxes .box1 {
@@ -380,6 +381,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .middle-content .boxes .box7 {
@@ -428,7 +430,6 @@ footer {
 */
 .button {
     border: black, 4px;
-    background-color: white;
     color: rgb(14, 12, 12);
     text-align: center;
     text-decoration: none;
