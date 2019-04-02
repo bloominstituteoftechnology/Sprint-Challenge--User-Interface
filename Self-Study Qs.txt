@@ -1,0 +1,9 @@
+1. Semantic HTML is used like how a newspaper is formatted.
+
+2. display: block; is an element that in like using a solid shape and will now interfere with other elements. display: inline; is an element that can phase into other elements and can have is not limited to the same content size.
+
+3. content, padding, border, margin
+
+4. y-axis
+
+5. Git is valueable because it alows multiple developers to work on a single project without having to ruin any previous work, and to find more efficient ways of codeing a project.
