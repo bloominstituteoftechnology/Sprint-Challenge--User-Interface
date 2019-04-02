@@ -15,17 +15,12 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, button {
+time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-    border: 0;
-    font: inherit;
-    /* I'm not sure if this line is necessary.
-    It made the index.html output look most like source file, 
-    however appears to be too thick for the about page file. 
-    Assuming differences in capturing source file image.
-    Can comment out to reduce weight of font across pages.*/
-    font-weight: 600;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -59,7 +54,6 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    background-color: #111;
 }
 
 h1, h2, h3, h4, h5 {
@@ -75,34 +69,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    padding: 20px 100px 0px;
-    background-color: white;
-    box-sizing: content-box;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 35px;
-}
-
-.top-nav {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.top-nav a {
-    color: black;
-    text-decoration: none;
-    font-size:90%;
-    /* Quick workaround for alignment of nav items with header image. Unknown 3px padding being added by <a> tag around the header image. */
-    padding-bottom: 3px;
-}
-
-.jumbo-image {
-    margin-bottom: 20px;
 }
 
 .top-content {
@@ -138,44 +104,12 @@ header {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
+    background: black;
     margin: 20px 2.5%;
     color: white;
-    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-/* I was looking for a more creative way to do this, but settled on KISS. */
-.box1 {
-    background-color: teal;
-}
-.box2 {
-    background-color: gold;
-}
-.box3 {
-    background-color: cadetblue;
-}
-.box4 {
-    background-color: coral;
-}
-.box5 {
-    background-color: crimson;
-}
-.box6 {
-    background-color: forestgreen;
-}
-.box7 {
-    background-color: darkorchid;
-}
-.box8 {
-    background-color: hotpink;
-}
-.box9 {
-    background-color: indigo;
-}
-.box10 {
-    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -209,44 +143,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-    font-weight: 500;
-}
-
-
-/* ABOUT PAGE SPECIFIC */
-.about-main {
-    padding: 0px 20px 20px;
-}
-
-.about-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 25px 15px;
-    border-top: 1px dashed black;
-}
-
-.about-box {
-    width: 48%;
-    border-bottom: 1px dashed black;
-    margin-bottom: 50px;
-}
-
-.about-box img {
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.about-box button {
-    background-color: white;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 10px 30px;
-    margin: 15px 0;
-    
-}
-
-.about-bottom {
-    padding: 0px 20px 50px;
-
 }
