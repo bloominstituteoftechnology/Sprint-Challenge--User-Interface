@@ -144,3 +144,17 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.logo {
+    display: inline;
+}
+
+.nav-bar{
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+.nav-obj{
+    padding: 0 4%;
+    text-decoration: none;
+    color: black;
+}
