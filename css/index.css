@@ -210,3 +210,22 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Begin About Page CSS */
+
+.top-bot    {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 49%;
+    justify-content: space-around;
+    padding: 2%;
+}
