@@ -110,6 +110,8 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    padding-top:20px;
+    border-top: 1px dashed black;
     border-bottom: 1px dashed black;
 }
 
@@ -235,4 +237,25 @@ footer nav a {
 .hr{
     border-bottom: 1px dashed black;
     margin-bottom:35px;
+}
+
+
+/* css for contact page */
+.form-container{
+    background:lightgray;
+    margin-bottom:25px;
+    padding:25px;
+}
+
+.form-control{
+    display:flex;
+    justify-content: space-around;
+}
+
+.email-cont{
+    margin-top:25px;
+}
+
+.text-area-container{
+    margin-top:25px;
 }
