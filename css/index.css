@@ -89,6 +89,11 @@ header nav {
     flex-grow: 1;
     justify-content: space-around;
 }
+
+header nav a{
+    color:darkslategray;
+    text-decoration: none;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -320,3 +325,4 @@ button{
 .about-image {
     margin: 50px 0px 0px;
 }
+
