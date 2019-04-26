@@ -334,3 +334,17 @@ header nav a{
     margin-bottom: 25px;
     margin-top: 25px;
 }
+ header nav a:hover {
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: white;
+      color:pink;
+    }
+    100% {
+      background-color: #ffddf4;
+      color:black;
+    }
+  }
