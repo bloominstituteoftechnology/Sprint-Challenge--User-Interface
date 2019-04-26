@@ -271,3 +271,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page CSS */
+
+.about{
+    padding: 20px 15px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.card-content{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.card img{
+    margin-bottom: 10px;
+}
+.card{
+    height 450px;
+    width: 49%;
+    padding: 0px 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+
+button{
+    width: 100px;
+    height: 30px;
+    margin: 20px 0px 10px;
+    border: 1px solid black;
+    background: white;
+    font: black;
+}
+
