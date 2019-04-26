@@ -58,8 +58,8 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: 600;
 }
 
 p {
@@ -220,28 +220,51 @@ a {
     display: flex;
     flex-wrap: wrap;
     line-height: 1.4;
-    border-bottom: dashed black 1px;
     padding-bottom: 20px;
-    margin-bottom: 30px;
     padding-left: 20px;
 }
 
 .aboutContent {
-    border-bottom: 1px dashed black;
-    padding-bottom: 20px;
-    margin-bottom: 50px;
+
 }
 
-.contentHalf {
+.contentHalfOne {
     display: flex;
+    padding-top: 30px;
+    border-top: 1px dashed black;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.contentHalfTwo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
 }
 
 .contentQuarter {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    height: 450px;
+    justify-content: space-between;
+    width: 46%;
 }
 
+.butoni {
+    background: white;
+    border: black solid 3px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+}
 
-
-
-
+.preFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 40px;
+}
