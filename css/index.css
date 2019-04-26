@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+
+.top-nav-container{
+    display:flex;
+    align-content:end;
+    border:2px solid blue;
+}
+
+.top-nav{
+    border:1px solid red;
+    width:500px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.top-nav a{
+    text-decoration:none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
