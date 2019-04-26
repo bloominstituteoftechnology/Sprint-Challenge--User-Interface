@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+hr{
+    margin:35px 0;
+    border-top: 1px dashed black;
+}
+
 p {
     line-height: 1.4;
 }
@@ -94,7 +99,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
@@ -162,6 +167,30 @@ footer nav a {
     text-decoration: none;
 }
 
+.about-content{
+    padding:20px;
+}
+
+.about-box{
+    border-bottom:1px dotted black;
+}
+
+.about-box > h2{
+    margin: 15px 0;
+}
+
+.about-box > p{
+    margin-bottom: 15px;
+}
+
+.about-box > button{
+    background:none;
+    font-weight:bold;
+    border-radius:10px;
+    border:1px solid black;
+    padding:8px;
+}
+
 .box1{
     background-color:teal;
 }
@@ -201,4 +230,9 @@ footer nav a {
 
 .jumbo-image{
     margin:25px 0;
+}
+
+.hr{
+    border-bottom: 1px dashed black;
+    margin-bottom:35px;
 }
