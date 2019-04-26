@@ -295,3 +295,33 @@ footer nav a {
   width: 100%;
   padding: 0 1%;
 }
+
+.content-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-row div {
+  border-bottom: 1px dashed black;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 25px 0px;
+}
+
+.content-row div h3 {
+  margin-top: 20px;
+}
+
+.content-row div button {
+  width: 125px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: solid black 2px;
+  font-weight: 700;
+}
+
+.bottom-section {
+  padding: 25px 0px;
+}
