@@ -152,6 +152,18 @@ p {
   line-height: 1.4;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -159,6 +171,7 @@ p {
 
 .heading {
   display: flex;
+  margin-top: 10px;
 }
 
 .heading nav {
@@ -176,6 +189,8 @@ nav a {
 
 .jumbo {
   margin: 25px auto;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .top-content {
@@ -307,6 +322,11 @@ footer nav a {
   flex-direction: column;
   width: 45%;
   padding: 20px 0px;
+}
+
+.content-row div img {
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .content-row div h3 {
