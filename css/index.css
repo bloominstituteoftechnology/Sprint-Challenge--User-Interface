@@ -86,6 +86,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-about {
+    /* width: 48%; */
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    text-align: left;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -116,7 +122,6 @@ p {
 .boxes .box:first-child {
     background-color: teal;
 }
-
 .boxes .box:nth-child(2) {
     background-color: gold;
 }
@@ -244,5 +249,73 @@ footer nav a {
     left: 0;
     z-index: 5000;
   }
+
+  .flexbox {
+    display: flex;
+      flex-wrap: wrap;
+      padding:10px 0px;
+      margin:0px;
+      justify-content: space-between;
+  }
+  .flexbox div {
+          /* height: 100%; */
+          /* width: 450px; */
+      margin: 10px;
+      min-width: 350px;
+          background:white;
+          border-bottom: 1px dashed black;
+          padding-top: 10px;
+          /* align-self: auto */
+          display: flex;
+          flex-direction: column;
+          /* padding: 2%; */
+          flex: 2 16%;
+            background-color: #FFF;
+
+  }
+
+  .box-head {
+	padding: 10px;
+	margin: 0px;
+	
+}
+.paragraphs {
+	padding: 10px;
+	margin: 0px;
+
+}
+
+.button {
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 8px;
+	padding: 7px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 12px;
+	
+}
+
+
+/* .fb-border {
+	border-top: 1px dashed black;
+
+} */
+.flexbox div.facts {
+	height: 100%;
+	width: auto;
+	margin: 15px 0px;
+	background:white;
+	border:0px;
+	padding: 10px 0px;
+
+ }
+
+ .services-info-img {
+    width: 100%;
+}
 
 
