@@ -89,7 +89,19 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.nav-logo{
+    margin-left: -54px
+}
+.navigation{
+    font-size: 16px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;      
+}
+.header-image{
+    margin: 10px;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
