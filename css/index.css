@@ -77,19 +77,20 @@ p {
 }
 
 .header-nav {
-    width: 70%;
+    width: 80%;
     /* border: 1px solid blue; */
 }
 
 .header-img {
-    width: 29%;
+    width: 20%;
+    margin-bottom: 8px;
     /* border: 1px solid red; */
 }
 
 .header a   {
     color: black;
     text-decoration: none;
-    padding: 3%;
+    padding: 5%;
     justify-content: center;
 }
 
@@ -219,16 +220,29 @@ button  {
     background: white;
     padding: 10px 24px;
 }
+
+#top-cont   {
+    border-bottom: 1px dashed black;
+}
 .top-bot    {
     display: flex;
     flex-wrap: wrap;
     padding: 2%;
-    
 }
+
+.top-bot h2  {
+    padding-left: 0%;
+    padding-bottom: 2%;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around
+}
+
+.card p    {
+    padding: 2%;
 }
 
 .card {
@@ -236,4 +250,6 @@ button  {
     justify-content: space-around;
     padding: 3%;
     border-bottom: 1px dashed black;
+    text-align: left;
+    margin-bottom: 20px;
 }
