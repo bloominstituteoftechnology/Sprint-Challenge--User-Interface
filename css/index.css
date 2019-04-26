@@ -144,3 +144,88 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+body {
+    width: 1005px; 
+    margin: auto; 
+}
+header nav {
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: space-evenly; 
+    align-items: flex-end;
+    margin: 30px; 
+     
+}
+header nav a {
+    color: black; 
+    text-decoration: none; 
+    font-size: 14px;  
+}
+
+.topimage {
+    margin: 30px 10px 30px 10px; 
+}
+.boxes #box1 {
+    background-color: teal;  
+}
+.boxes #box2 {
+    background-color: gold; 
+}
+.boxes #box3 {
+    background-color: cadetblue; 
+}
+.boxes #box4 {
+    background-color: coral; 
+}
+.boxes #box5 {
+    background-color: crimson; 
+}
+.boxes #box6 {
+    background-color: forestgreen; 
+}
+.boxes #box7 {
+    background-color: darkorchid; 
+}
+.boxes #box8 {
+    background-color: hotpink; 
+}
+.boxes #box9 {
+    background-color: indigo; 
+}
+.boxes #box10 {
+    background-color: dodgerblue; 
+}
+#aboutintro {
+    border-bottom: 1px dashed black; 
+    padding-bottom: 15px; 
+}
+#abouth2 {
+    padding-top: 10px; 
+    padding-left: 10px
+}
+#aboutintro p {
+    padding-left: 10px; 
+}
+.foursections {
+    display: flex; 
+    flex-flow: row wrap; 
+}
+.foursections div {
+    width: 45%;  
+    border-bottom: 1px dashed black; 
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
+    align-items: center;   
+}
+h2 {
+    padding-top: 10px; 
+}
+button {
+    background-color: white; 
+    border-color: black; 
+    border-radius: 7px; 
+    width: 140px; 
+    height: 40px;
+    margin-top: 10px; 
+    font-size: 16px;  
+}
