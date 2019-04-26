@@ -66,6 +66,34 @@ p {
     line-height: 1.4;
 }
 
+
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin: 2%;
+}
+
+.header-nav {
+    width: 80%;
+    /* border: 1px solid blue; */
+}
+
+.header-img {
+    width: 20%;
+    margin-bottom: 8px;
+    /* border: 1px solid red; */
+}
+
+.header a   {
+    color: black;
+    text-decoration: none;
+    padding: 5%;
+    justify-content: center;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +140,45 @@ p {
     justify-content: center;
 }
 
+#box1   {
+    background: teal;
+}
+
+#box2   {
+    background: gold;
+}
+
+#box3   {
+    background: cadetblue;
+}
+
+#box4   {
+    background: coral;
+}
+
+#box5   {
+    background: crimson;
+}
+
+#box6   {
+    background: forestgreen;
+}
+
+#box7   {
+    background: darkorchid;
+}
+
+#box8   {
+    background: hotpink;
+}
+
+#box9   {
+    background: indigo;
+}
+
+#box10  {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +210,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Begin About Page CSS */
+
+button  {
+    border-radius: 8px;
+    border: 2px solid black;
+    background: white;
+    padding: 10px 24px;
+}
+
+#top-cont   {
+    border-bottom: 1px dashed black;
+}
+.top-bot    {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.top-bot h2  {
+    padding-left: 0%;
+    padding-bottom: 2%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.card p    {
+    padding: 2%;
+}
+
+.card {
+    width: 49%;
+    justify-content: space-around;
+    padding: 3%;
+    border-bottom: 1px dashed black;
+    text-align: left;
+    margin-bottom: 20px;
 }
