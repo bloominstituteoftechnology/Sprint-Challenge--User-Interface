@@ -93,6 +93,27 @@ header img {
     flex-basis: 18%;
 }
 
+/*All pages*/
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
 nav a {
     text-decoration: none;
     font-size: 0.8em;
@@ -101,6 +122,8 @@ nav a {
 .jumbo {
     margin:42px 0 22px 0;
 }
+
+/*Home Page*/
 
 .top-content {
     display: flex;
@@ -196,21 +219,11 @@ nav a {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
+/*About Page*/
+
+.about-content {
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.7em;
-}
