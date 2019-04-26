@@ -245,6 +245,7 @@ footer nav a {
 header{
     width: 100%;
     display: flex;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
 
