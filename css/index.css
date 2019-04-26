@@ -203,37 +203,51 @@ footer nav a {
 
 .about-top {
     padding-bottom: 5px;
-    margin: 17px;
+    margin: 20px;
 }
 .about-sections {
-    margin: auto;
+    margin: 20%px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    align-items: stretch;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-top: 1px dashed black;
 }
 .about-box {
-width: 290px;
-padding: 10px; 
-margin: 10px;
+width: 300px;
+padding: 7px; 
+margin-right: 90px;
+margin-bottom: 40px;
 border-bottom: 1px dashed black;
 }
 
-.about-bottom {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 17px;
+.about-box-title {
+    padding-top: 10px;
 }
+
 .learn-more {
     display: block;
     border-radius: 10px;
     border: 2px solid black;
     text-align: center;
     padding: 10px;
-    width: 120px;
+    width: 128px;
     font-size: 15px;
+    margin: 5px; 
 }
+
+.about-bottom {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+
+
+
+
+
+
 
