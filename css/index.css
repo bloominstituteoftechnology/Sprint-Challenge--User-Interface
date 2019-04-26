@@ -74,19 +74,19 @@ p {
 
 .top-nav-container{
     display:flex;
-    align-content:end;
-    border:2px solid blue;
 }
 
 .top-nav{
-    border:1px solid red;
     width:500px;
     display:flex;
     justify-content:space-around;
+    align-items:flex-end;
 }
 
 .top-nav a{
     text-decoration:none;
+    color:#000;
+    font-weight:bold;
 }
 
 .top-content {
@@ -197,4 +197,8 @@ footer nav a {
 }
 .box10{
     background-color:dodgerblue;
+}
+
+.jumbo-image{
+    margin:25px 0;
 }
