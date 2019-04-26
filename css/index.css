@@ -221,9 +221,26 @@ nav a {
 
 /*About Page*/
 
-.about-content {
-    margin: 20px;
-    padding-bottom: 20px;
+.about-top {
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
     border-bottom: 1px dashed black;
 }
 
+.about-middle {
+     margin: 30px 20px;
+     border-bottom: 1px dashed black;
+    /*Flex Container*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-middle div {
+    flex-basis: 40%;
+}
+
+.about-bottom {
+    margin-bottom: 20px;
+    padding: 0 20px 20px 20px;
+}
