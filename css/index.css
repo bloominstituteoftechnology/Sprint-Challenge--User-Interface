@@ -201,8 +201,8 @@ footer nav a {
 .infoGrid{
     display: flex;
     flex-wrap: wrap;
-    border top: 1px dotted black;
-    border bottom: 1px dotted black;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
     justify-content: space-between;
 
 }
@@ -224,5 +224,5 @@ footer nav a {
     margin: 2%;
 }
 .container-about-page {
-    text-align: justify;
+    text-align: justify;        
 }
