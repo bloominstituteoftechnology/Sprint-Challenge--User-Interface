@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -62,8 +62,46 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;    
+    padding: 15px 0px 15px 0px;
+}
+
+.header-a {
+    color: black;
+    text-decoration: none;   
+    margin: 25px 0px 0px 0px; 
+}
+
+.div-jumbo {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 25px 0;
+}
+
 p {
     line-height: 1.4;
+}
+.mid-p {
+    padding: 0px 0px 15px 0px;
+}
+button {
+    background: white;
+    border-radius: 6px;
+    margin: 0px 0px 15px 0px;
+    width: 90px;
+    height: 20px;
+}
+hr {
+    width: 100%;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+}
+h4 {
+    padding: 15px 0px 15px 0;
 }
 
 .container {
@@ -103,13 +141,51 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
-    background: black;
+    height: 100px;    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section-mid {
+    display: flex;
+}
+.section-mid-div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.box-1 {
+    background: teal;
+}
+.box-2 {
+    background: gold;
+}
+.box-3 {
+    background: cadetblue;
+}
+.box-4 {
+    background: coral;
+}
+.box-5 {
+    background: crimson;
+}
+.box-6 {
+    background: forestgreen;
+}
+.box-7 {
+    background: darkorchid;
+}
+.box-8 {
+    background: hotpink;
+}
+.box-9 {
+    background: indigo;
+}
+.box-10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
