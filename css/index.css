@@ -53,7 +53,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,7 +65,32 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.container .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: flex-start;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 20px 2%;
+    width: 80%;
+}
+.navbar img {
+    width: 20%
+}
+.navbar a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.banner {
+    width: 100%;
+    margin-bottom: 25px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,17 +126,46 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
 
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +197,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.infoGrid{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    justify-content: space-between;
+
+}
+.infoGrid .box {
+    width: 45%;
+    padding: 5%, 5%;
+    margin: 5% 0;
+}
+.infoGrid .box p {
+    width: 100%;
+}
+.infoGrid .box img {
+    width: 100%;
+}
+.learnMore {
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin: 2%;
+}
+.container-about-page {
+    text-align: justify;        
 }
