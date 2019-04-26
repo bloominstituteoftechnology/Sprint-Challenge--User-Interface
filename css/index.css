@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+hr{
+    margin:35px 0;
+    border-top: 1px dashed black;
+}
+
 p {
     line-height: 1.4;
 }
@@ -71,12 +76,30 @@ p {
     margin: 0 auto;
 }
 
+
+.top-nav-container{
+    display:flex;
+}
+
+.top-nav{
+    width:500px;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+.top-nav a{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
@@ -87,6 +110,8 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    padding-top:20px;
+    border-top: 1px dashed black;
     border-bottom: 1px dashed black;
 }
 
@@ -104,7 +129,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +167,95 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-content{
+    padding:20px;
+}
+
+.about-box{
+    border-bottom:1px dotted black;
+}
+
+.about-box > h2{
+    margin: 15px 0;
+}
+
+.about-box > p{
+    margin-bottom: 15px;
+}
+
+.about-box > button{
+    background:none;
+    font-weight:bold;
+    border-radius:10px;
+    border:1px solid black;
+    padding:8px;
+}
+
+.box1{
+    background-color:teal;
+}
+
+.box2{
+    background-color:gold;
+}
+
+.box3{
+    background-color:cadetblue;
+}
+
+.box4{
+    background-color:coral;
+}
+
+.box5{
+    background-color:crimson;
+}
+
+.box6{
+    background-color:forestgreen;
+}
+
+.box7{
+    background-color:darkorchid;
+}
+.box8{
+    background-color:hotpink;
+}
+.box9{
+    background-color:indigo;
+}
+.box10{
+    background-color:dodgerblue;
+}
+
+.jumbo-image{
+    margin:25px 0;
+}
+
+.hr{
+    border-bottom: 1px dashed black;
+    margin-bottom:35px;
+}
+
+
+/* css for contact page */
+.form-container{
+    background:lightgray;
+    margin-bottom:25px;
+    padding:25px;
+}
+
+.form-control{
+    display:flex;
+    justify-content: space-around;
+}
+
+.email-cont{
+    margin-top:25px;
+}
+
+.text-area-container{
+    margin-top:25px;
 }
