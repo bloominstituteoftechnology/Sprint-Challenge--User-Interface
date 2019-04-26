@@ -98,17 +98,21 @@ header nav a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 2em 2em 0 2em;
+    padding: 0 2em;
 }
 
 .card {
     max-width: 48%;
     border-bottom: 1px dashed black;
-
+    padding-top: 2em;
 }
 
 .card img {
     width: 100%;
+}
+
+.card h2 {
+    padding-top: 1em;
 }
 
 button {
