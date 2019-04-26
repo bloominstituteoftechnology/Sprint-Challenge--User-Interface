@@ -62,6 +62,23 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header {}
+
+nav {
+    word-spacing: 40px;
+    line-height: 2.0em;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.jumbo-header {
+    padding-bottom: 20px;
+}
+
 p {
     line-height: 1.4;
 }
@@ -104,13 +121,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+     background: teal;
+}
+ .box2 { 
+    background: gold;
+}
+
+ .box3 { 
+    background:  cadetblue; 
+}
+
+ .box4 { 
+    background:  coral;
+}
+
+ .box5 { 
+    background:  crimson;
+}
+
+ .box6 { 
+    background:  forestgreen;
+}
+
+ .box7 { 
+    background:  darkorchid;
+}
+
+ .box8 { 
+    background:  hotpink;
+}
+
+ .box9 { 
+    background:  indigo;
+}
+
+ .box10 { 
+    background:  dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
