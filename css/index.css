@@ -282,18 +282,21 @@ footer nav a {
 .card-content{
     display:flex;
     flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .card img{
-    margin-bottom: 10px;
+    margin: 10px 0 10px;
 }
 .card{
     height 450px;
     width: 49%;
-    padding: 0px 20px 20px;
+    padding: 30px 20px 20px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    border-bottom: 1px dashed black;
+    border-width: 40%;
 
 }
 
@@ -302,8 +305,18 @@ button{
     width: 100px;
     height: 30px;
     margin: 20px 0px 10px;
-    border: 1px solid black;
+    border: 2px solid black;
+    font-size: 10pt;
     background: white;
     font: black;
+    border-radius: 7px;
 }
 
+.bottom{
+    margin:40px 20px 40px;
+ 
+}
+
+.about-image {
+    margin: 50px 0px 0px;
+}
