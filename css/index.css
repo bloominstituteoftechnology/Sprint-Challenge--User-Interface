@@ -56,6 +56,30 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.header{
+    display:flex;
+}
+
+
+
+.header-nav{
+    width:100%;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+nav a{
+    color: black;
+}
+
+.img2{
+    margin-bottom: 20px;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -101,16 +125,112 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +263,108 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+.header{
+width: 70%;
+margin-left: 170px;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+
+
+.index{
+    margin-left:20px;
+    width:80%;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.index a{
+    text-decoration: none; 
+}
+
+.img-jumbo{
+    display:flex;
+    justify-content: center;
+}
+
+
+.about{
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.picture{
+    margin-top: 20px;
+   display:flex;
+   justify-content: space-between;
+}
+
+.parent1{
+    padding:10px;
+    border-bottom: 2px dotted black;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.strategy{
+    width: 48%;
+    display:flex;
+    flex-flow: column;
+}
+
+.how-we-work{
+    width: 48%;
+    padding:20px;
+    display:flex;
+    flex-flow: column;
+    
+}
+
+.picture2{
+    margin-top: 20px;
+   display:flex;
+   justify-content: space-between;
+}
+
+.parent2{
+    padding:10px;
+    border-bottom: 2px dotted black;
+    display:flex;
+    justify-content: space-between;
+}
+
+.places{
+    width: 47%;
+    display:flex;
+    flex-flow: column;
+}
+
+.collab{
+    width: 47%;
+    display:flex;
+    flex-flow: column;
+}
+
+.ending-para{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 20px;
+    width:30%;
+    background: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
