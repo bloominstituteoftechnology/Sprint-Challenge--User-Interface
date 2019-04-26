@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display:flex;
+    align-items:flex-end;
+    margin: 50px 0px 0px 0px;   
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.top-image {
+    margin: 50px 0px 30px;
+}
+header nav {
+    display:flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
