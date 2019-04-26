@@ -175,7 +175,7 @@ nav a {
 }
 
 .jumbo {
-  margin: 50px auto;
+  margin: 25px auto;
 }
 
 .top-content {
@@ -293,7 +293,7 @@ footer nav a {
 
 .top-content-about .text-container {
   width: 100%;
-  padding: 0 1%;
+  padding: 0 3%;
 }
 
 .content-row {
@@ -324,4 +324,9 @@ footer nav a {
 
 .bottom-section {
   padding: 25px 0px;
+}
+
+.bottom-section .text-container {
+  padding: 0 3%;
+  padding-bottom: 20px;
 }
