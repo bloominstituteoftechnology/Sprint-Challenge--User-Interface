@@ -58,8 +58,8 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: 600;
 }
 
 p {
@@ -77,6 +77,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -104,12 +105,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+ background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +183,88 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.topnav {
+    display: flex;
+    height: 55px;
+    margin-bottom: 33px;
+    margin-top: 10px;
+}
+
+.bannerImage {
+    display: flex;
+    align-items: center;
+}
+
+.anchors {
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 643px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutBanner {
+    margin-bottom: 20px;
+}
+
+.aboutHeader {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.4;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.aboutContent {
+
+}
+
+.contentHalfOne {
+    display: flex;
+    padding-top: 30px;
+    border-top: 1px dashed black;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.contentHalfTwo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+.contentQuarter {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    height: 450px;
+    justify-content: space-between;
+    width: 46%;
+}
+
+.butoni {
+    background: white;
+    border: black solid 3px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+}
+
+.preFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 40px;
 }

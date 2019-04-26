@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic means meaning. Using semantic HTML means organizing your markup with tags that give meaning that has been agreed upon by the community. The purpose of semantic HTML is to make your code easier to read not only for other developers, but also for screen-readers and SEO's.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Display:block takes up all the width available to it and has a line break before and after it.
+
+    Display:inline takes up only as much width as its elements require, and doesn't force new lines.
 
 3. What are the 4 areas of the box model?
 
+    Content, Padding, Border, and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    It works on the cross axis. Whether the cross axis is the X axis or the Y axis changes based on the assigned value of flex-direction.
+
 5. Explain why git is valuable to a team of developers.
+
+    With git, you can have 100 developers working on the same project, all of them having access to eachothers work without any of the risks that you might expect to be associated with such a system. No one is going to save over another's work, no one is going to see your work before you decide it's ready to be added to the master. 
+
+    Additionally, you can go back to any version of the document that has been committed/pushed to see where something may have gone awry.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -104,3 +118,5 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+
