@@ -62,13 +62,14 @@ html, body {
 
 
 
-.header-nav{
+.container .header-nav{
     width:100%;
     padding:20px;
-    display:flex;
+     display:flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 20px;
+    
 }
 
 nav a{
@@ -125,109 +126,48 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1 {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .teal {
     background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    }
 
-.middle-content .boxes .box2 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .gold {
     background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
-.middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .cadetblue {
     background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box4 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .coral {
     background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box5 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .crimson {
     background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box6 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .forestgreen {
     background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box7 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .darkorchid {
     background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.middle-content .boxes .box8 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .hotpink {
     background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box9 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .indigo {
     background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box10 {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes .dodgerblue {
     background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -266,10 +206,6 @@ footer nav a {
 }
 
 
-
-
-
-
 .header{
 width: 70%;
 margin-left: 170px;
@@ -278,19 +214,7 @@ margin-bottom: 30px;
 }
 
 
-.index{
-    margin-left:20px;
-    width:80%;
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-.index a{
-    text-decoration: none; 
-}
-
-.img-jumbo{
+.top-img{
     display:flex;
     justify-content: center;
 }
@@ -302,14 +226,14 @@ margin-bottom: 30px;
     border-bottom: 2px dotted black;
 }
 
-.picture{
+.middle-img{
     margin-top: 20px;
    display:flex;
    justify-content: space-between;
 }
 
-.parent1{
-    padding:10px;
+.center-content{
+    /* padding:10px; */
     border-bottom: 2px dotted black;
     display:flex;
     justify-content: space-between;
@@ -318,6 +242,7 @@ margin-bottom: 30px;
 
 .strategy{
     width: 48%;
+    padding:20px;
     display:flex;
     flex-flow: column;
 }
@@ -330,13 +255,13 @@ margin-bottom: 30px;
     
 }
 
-.picture2{
-    margin-top: 20px;
+.bottom-img{
+    margin-top: 5%;
    display:flex;
    justify-content: space-between;
 }
 
-.parent2{
+.bottom-content{
     padding:10px;
     border-bottom: 2px dotted black;
     display:flex;
@@ -355,7 +280,7 @@ margin-bottom: 30px;
     flex-flow: column;
 }
 
-.ending-para{
+.ending-paragraph{
     margin-top: 30px;
     margin-bottom: 20px;
 }
