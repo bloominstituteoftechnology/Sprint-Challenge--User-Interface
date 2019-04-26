@@ -1,0 +1,19 @@
+body {
+    height: 3000px;
+    background-image:  url("/img/matrix.jpg");
+}
+
+.ian {
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: rgb(229, 245, 7);
+}
+
+.ian h1 {
+    font-size: 200px;
+}
+
+.ian p {
+    font-size: 120px;
+}
