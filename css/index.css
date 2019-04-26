@@ -70,7 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/*index*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -95,16 +95,17 @@ p {
     margin-bottom: 0;
 }
 
+/*boxes*/
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +113,101 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*bottom-content*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +221,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*footer*/
 footer {
     width: 100%;
     background: black;
@@ -144,3 +240,111 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 60px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+header .logo{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.top-content .home-top-img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+header nav a{
+    display: flex;
+    justify-content: space-between;
+}
+/*top-content*/
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-content .home-top-img-about{
+    margin-bottom: 20px;
+    width:100%;   
+}
+.top-content-about h2{
+    margin-top: 20px;
+    padding-left: 25px;
+    
+}
+
+.top-content-about p{
+    padding-left: 25px;
+    margin-bottom: 25px;
+}
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.2;
+}
+/*info cards*/
+.infoCard{
+    border-bottom: 2px dashed black;
+    width: 48%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+
+.infoCard button{
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 14px;
+    padding: 8px;
+    width: 140px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+
+.infoCard img{
+    margin-bottom: 20px;
+}
+
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+ header nav a:hover {
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: white;
+      color:pink;
+    }
+    100% {
+      background-color: #ffddf4;
+      color:black;
+    }
+  }
