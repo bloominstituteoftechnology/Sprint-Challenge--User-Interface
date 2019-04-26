@@ -78,12 +78,12 @@ p {
 
 .header-nav {
     width: 70%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .header-img {
     width: 29%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header a   {
@@ -213,6 +213,12 @@ footer nav a {
 
 /* Begin About Page CSS */
 
+button  {
+    border-radius: 8px;
+    border: 2px solid black;
+    background: white;
+    padding: 10px 24px;
+}
 .top-bot    {
     display: flex;
     flex-wrap: wrap;
@@ -222,10 +228,12 @@ footer nav a {
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around
 }
 
 .card {
     width: 49%;
     justify-content: space-around;
-    padding: 2%;
+    padding: 3%;
+    border-bottom: 1px dashed black;
 }
