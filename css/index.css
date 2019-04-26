@@ -211,8 +211,34 @@ a {
     color: black;
 }
 
-.aboutbanner {
+.aboutBanner {
     margin-bottom: 20px;
+}
+
+.aboutHeader {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.4;
+    border-bottom: dashed black 1px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.aboutContent {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.contentHalf {
+    display: flex;
+}
+
+.contentQuarter {
+    display: flex;
+    flex-direction: column;
 }
 
 
