@@ -270,17 +270,24 @@ header nav a {
 
 
 }
+.about {
+    padding:1em;
+    border-bottom: 1px dashed black;
+}
+ 
 
 
+.boxa1 {
 
-    
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px dashed black;
+    padding:2em;
+}
+.boxa2 {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px dashed black;
+    padding:2em;
 
-
-
-
-
-    
-  
-
-
-
+} 
