@@ -33,20 +33,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+
 Semantic HTML uses tags that have specific meaning. When the tag is used correctly anyone can read the code and know what is in between the tags. Ex..
 
 
 
-or .
+
 Name two big differences between display: block; and display: inline;.
+
+
 Display block will display the element in a "block" form. A new line will be started and the element will take up the width of the container.
 
 Display inline will continue to flow in the same line. It does not require to start a new line code it will allow a blank space to the margin.
 
 What are the 4 areas of the box model?
+
+
 Content, margin, border and padding
 
 While using flexbox, what axis does the following property work on: align-items: center?
+
+
 The cross axis.
 
 Explain why git is valuable to a team of developers.
