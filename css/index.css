@@ -139,6 +139,16 @@ header nav a {
 
 .about-mid .mid-top .mid-text {
     display: inline;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    border: solid black;
+    border-radius: 9px;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 12px;
+    margin: 10px;
 }
 
 
@@ -152,6 +162,7 @@ header nav a {
 
 .about-mid .mid-bottom .mid-text {
     display: inline;
+    padding-bottom: 20px;
 }
 
 
@@ -285,7 +296,7 @@ header nav a {
 
 .bottom-about {
     display: inline;
-    justify-content: space-evenly;
+    margin: 20px;
 }
 
 .bottom-about .text-container {
