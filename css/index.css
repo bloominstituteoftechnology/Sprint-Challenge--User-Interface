@@ -71,12 +71,34 @@ p {
     margin: 0 auto;
 }
 
+.heading {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.lights {
+    display: block;
+    margin-top: 20px;
+
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 0px 0px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
