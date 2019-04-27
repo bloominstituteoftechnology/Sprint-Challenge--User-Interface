@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
 If you were to describe semantic HTML to the next cohort of students, what would you say?
 
 
-Semantic HTML uses tags that have specific meaning. When the tag is used correctly anyone can read the code and know what is in between the tags. Ex..
+Semantic HTML uses tags that have specific meaning. When the tag is used correctly anyone can read the code and know what is suppossed to be in between the tags. Ex. <address> <h1>
 
 
 
