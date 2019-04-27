@@ -70,8 +70,6 @@ h1, h2, h3, h4, h5 {
   justify-content: space-evenly;
 }
 
-
-
 .parent {
   background-color: red;
   display: flex;
