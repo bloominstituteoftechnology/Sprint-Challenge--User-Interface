@@ -95,6 +95,14 @@ header nav a {
 }
 
 
+
+
+
+
+
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +112,7 @@ header nav a {
     margin-top: 20px;
 }
 
-.top-content .lights {
+.top-content .jumbo {
     padding-bottom: 20px;
 }
 
@@ -112,6 +120,12 @@ header nav a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .about-text {
+    display: inline;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
