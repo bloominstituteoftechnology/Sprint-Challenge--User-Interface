@@ -32,15 +32,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is the “meaningful” part of your code. It should convey the underlying meaning of your content. Think of it as the “blueprint” for the way that data is displayed. 
+
+
+2. Name two big differences between display: block; and display: inline;.
+display: block; == elements displayed will take up as much space as their parent element will allow; both height and width can be used to adjust sizing of the element; can nest both block and inline elements; always beings on a new line.
+
+display: inline; == elements displayed only take up as much space as their content needs; using height and width properties has no effect; block elements cannot be nested inside inline elements; does not begin on a new line.
+
 
 3. What are the 4 areas of the box model?
+*Content: where text and images appear.
+*Padding: space around the content and border to keep it clear.
+*Border: goes around the padding and content; can be styled.
+*Margin: space between the border and the rest of the webpage.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: align-items: center?
+align-items: center works along the cross-axis.
+
 
 5. Explain why git is valuable to a team of developers.
+Git allows developers to collaborate on projects by keeping each team member’s work on a project from being mixed up by using branches. At the same time each member can commit their individual code in small, manageable sections that are shared with the rest of the development team. Each time work is committed, it is annotated by a short message from the individual who made the commitment so that all team members can easily understand what was done and why.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

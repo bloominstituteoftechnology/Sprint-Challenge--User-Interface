@@ -71,12 +71,43 @@ p {
     margin: 0 auto;
 }
 
+
+
+
+
+header {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 0px 0px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
+}
+
+.top-content .jumbo {
+    padding-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -84,6 +115,58 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.top-content .about-text {
+    display: inline;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-mid {
+    align-content: center;
+    border-bottom: 1px dashed black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.about-mid .mid-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.about-mid .mid-top .mid-text {
+    display: inline;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    border: solid black;
+    border-radius: 9px;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 12px;
+    margin: 10px;
+}
+
+
+.about-mid .mid-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.about-mid .mid-bottom .mid-text {
+    display: inline;
+    padding-bottom: 20px;
+}
+
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +184,127 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-about {
+    display: inline;
+    margin: 20px;
+}
+
+.bottom-about .text-container {
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
 
 .bottom-content {
     display: flex;
