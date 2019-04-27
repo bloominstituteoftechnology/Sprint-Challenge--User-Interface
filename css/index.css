@@ -71,17 +71,15 @@ p {
     margin: 0 auto;
 }
 
+
+
+
+
 .heading {
     display: flex;
     margin-top: 20px;
 }
 
-
-.lights {
-    display: block;
-    margin-top: 20px;
-
-}
 
 .nav {
     width: 100%;
@@ -92,6 +90,8 @@ p {
 }
 
 
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +99,10 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     margin-top: 20px;
+}
+
+.lights {
+    padding-bottom: 20px;
 }
 
 .top-content .text-container {
