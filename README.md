@@ -32,17 +32,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML uses tags that have specific meaning. When the tag is used correctly anyone can read the code and know what is in between the tags. Ex..
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+or .
+Name two big differences between display: block; and display: inline;.
+Display block will display the element in a "block" form. A new line will be started and the element will take up the width of the container.
 
-5. Explain why git is valuable to a team of developers.
+Display inline will continue to flow in the same line. It does not require to start a new line code it will allow a blank space to the margin.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+What are the 4 areas of the box model?
+Content, margin, border and padding
+
+While using flexbox, what axis does the following property work on: align-items: center?
+The cross axis.
+
+Explain why git is valuable to a team of developers.
+
+It is a cloud based platform that allows many people to work on the same code. At the same time. All while protecting the code with its version control It also allows developer to have an offsite storage for there code or student developers to take tests from home with ease.
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section will prevent you from passing this challenge.
 
 ## Project Set Up
 
