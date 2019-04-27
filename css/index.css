@@ -56,6 +56,31 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.header{
+    display:flex;
+}
+
+
+
+.container .header-nav{
+    width:100%;
+    padding:20px;
+     display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    
+}
+
+nav a{
+    color: black;
+}
+
+.img2{
+    margin-bottom: 20px;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -104,13 +129,48 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .teal {
+    background: teal;
+    }
+
+.middle-content .boxes .gold {
+    background: gold;
+}
+.middle-content .boxes .cadetblue {
+    background: cadetblue;
+}
+.middle-content .boxes .coral {
+    background: coral;
+}
+.middle-content .boxes .crimson {
+    background: crimson;
+}
+.middle-content .boxes .forestgreen {
+    background: forestgreen;
+}
+.middle-content .boxes .darkorchid {
+    background: darkorchid;
+}
+.middle-content .boxes .hotpink {
+    background: hotpink;
+}
+
+.middle-content .boxes .indigo {
+    background: indigo;
+}
+
+.middle-content .boxes .dodgerblue {
+    background: dodgerblue;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +203,93 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.header{
+width: 70%;
+margin-left: 170px;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+
+
+.top-img{
+    display:flex;
+    justify-content: center;
+}
+
+
+.about{
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.middle-img{
+    margin-top: 20px;
+   display:flex;
+   justify-content: space-between;
+}
+
+.center-content{
+    /* padding:10px; */
+    border-bottom: 2px dotted black;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.strategy{
+    width: 48%;
+    padding:20px;
+    display:flex;
+    flex-flow: column;
+}
+
+.how-we-work{
+    width: 48%;
+    padding:20px;
+    display:flex;
+    flex-flow: column;
+    
+}
+
+.bottom-img{
+    margin-top: 5%;
+   display:flex;
+   justify-content: space-between;
+}
+
+.bottom-content{
+    padding:10px;
+    border-bottom: 2px dotted black;
+    display:flex;
+    justify-content: space-between;
+}
+
+.places{
+    width: 47%;
+    display:flex;
+    flex-flow: column;
+}
+
+.collab{
+    width: 47%;
+    display:flex;
+    flex-flow: column;
+}
+
+.ending-paragraph{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 20px;
+    width:30%;
+    background: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid black;
 }
