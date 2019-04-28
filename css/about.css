@@ -75,7 +75,7 @@ p {
 header nav{
     display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: baseline;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -91,26 +91,38 @@ header nav{
 .middle-content{
     display: flex;
     flex-wrap: wrap;
+    width: 800px;
+    justify-content: space-between;
 }
 
 .middle-content .card-content {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 47%;
     padding: 20px;
+    margin-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+
+.card-content h2{
+    margin-top: 20px;
 }
 
 .card-content button {
-	border: 1px solid black;
-	width: 150px;
+    border: 2px solid black;
+    width: 145px;
 	padding: 10px 30px 10px 30px;
 	margin-top: 15px;
-	border-radius: 5px;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
-
+.bottom-content {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
 
 footer {
