@@ -78,8 +78,16 @@ header nav{
 	justify-content: space-between;
 	align-items: baseline;
 	margin-top: 25px;
-	margin-bottom: 25px;
+    margin-bottom: 25px;
 }
+
+/* header nav a:hover {
+    color: yellow;
+} */
+header nav a {
+    text-decoration: none;
+}
+
 
 .top-content {
     display: flex;

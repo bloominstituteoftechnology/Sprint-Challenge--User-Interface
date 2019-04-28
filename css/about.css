@@ -79,6 +79,15 @@ header nav{
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
+header nav a {
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
 
 .top-content {
     display: flex;
@@ -116,6 +125,30 @@ header nav{
 	margin-top: 15px;
     border-radius: 10px;
     font-size: 15px;
+}
+
+.card-content button {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  /* background-color: lightgrey; */
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.card-content button:hover {
+    border: 1px solid coral;
+    color: coral;
+    /* background-color: #3e8e41} */
+}
+.card-content button:active {
+  /* background-color: lightgrey; */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .bottom-content {
