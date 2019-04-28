@@ -1,0 +1,9 @@
+- If you were to describe semantic HTML to the next cohort of students, what would you say?....Semantic HTML is a way of marking your code in a meaningful and descriptive way. For example, if you're building out a page that has distinct sections on the page (top content, middle content, about content, etc,) we would want to use semantic HTML to help us as well as future coders understand what our code is doing at a glance. 
+
+- Name two big differences between display: block; and display: inline;....Display block stacks elements vertically, respect margin, takes up as much space as the parent allows. Inline stacks elements horizontally, respects horizontal margins but not vertical. Inline lets you nest elements without disrupting the flow of content, and only takes up as much space as the content does.
+
+- What are the 4 areas of the box model? Content, padding, border, margin
+
+- While using flexbox, what axis does the following property work on: align-items: center?...cross axis
+
+- Explain why git is valuable to a team of developers. Git is a source code management tool that allows you to work on different components of a project at the same time, with and easy merging process. It allows you to backup data, revert to older versions, shows you your progress, allows you to work offline and more.
