@@ -92,3 +92,41 @@ article{
     color: black;
     padding: 5px 20px;
 }  
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.top-bar nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-bar nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.top-bar .logo-link{
+    order: -1;
+    padding-bottom: 5px;
+}
