@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 0 200px 0 200px;
 }
 ol, ul {
 	list-style: none;
@@ -71,6 +72,34 @@ p {
     margin: 0 auto;
 }
 
+.top-header {
+	display: flex;
+	Justify-content: space-around;
+    align-items: flex-end;
+    margin: 10px 0 30px 0;
+    }
+    
+.nav  {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}  
+
+.top-header nav a {
+	color: black;
+	text-decoration: none;
+    margin: 0;
+    padding-right: 30px;
+    
+}
+
+.header-img{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +111,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;  
 }
 
 .middle-content {
@@ -112,6 +142,45 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+   background-color: cadetblue; 
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +212,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes {
+    display: flex;
+    
+	justify-content: space-evenly;
+	align-items: space-between;
+    margin: 20px;
+    
+}
+
+.box1 {
+	padding: 30px;
+    margin: 20px;
+    border-bottom: 1px solid black;
+}
+
+.cta-button {
+    width: 150px;
+	height: 40px;
+	color: black;
+	text-decoration: none;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+.about-section {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.work-together {
+    padding: 20px;
 }
