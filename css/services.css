@@ -35,7 +35,6 @@
         display: inline-flex ;
         flex-wrap:wrap ;
         justify-content: space-evenly;
-        border-bottom: .5px dashed black;
         width: 880px;
         margin-left: 300px;
         padding-bottom: 25px;
@@ -51,7 +50,6 @@
     #how {
         text-align: left;
         border: 1px;
-        height: ;
         width: 300px;
         padding: 10px;
         margin: 10px;
@@ -87,7 +85,6 @@
     #foot{ max-width: 800px;
         display:flex;
         justify-content: space-between;
-        flex-wrap: ;
         background-color: black;
         color: white;
         margin-left: 330px;
