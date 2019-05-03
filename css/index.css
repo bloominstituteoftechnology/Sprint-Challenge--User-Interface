@@ -79,6 +79,14 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-top-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 0px dashed black;
+}
+
 .about-content {
     display: inline-block;
     margin: 0 10px 20px 30px;
@@ -89,6 +97,14 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.about-top-content .text-container2 {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+    margin: 20px 0 20px 0;
 }
 
 .middle-content {
@@ -233,7 +249,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.bottom-text-container2{
+ margin-left: 20px;
 
+}
 footer {
     width: 100%;
     background: black;
@@ -251,4 +270,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+button{
+    background-color: white;
+    border: 1px solid black;
+    height: 25px;
+
 }
