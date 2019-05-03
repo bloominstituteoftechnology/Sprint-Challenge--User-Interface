@@ -81,7 +81,7 @@ p {
 
 .about-content {
     display: inline-block;
-    margin-bottom: 10px;
+    margin: 0 10px 20px 30px;
     border-bottom: 1px dashed black;
 }
 
@@ -96,7 +96,7 @@ p {
     border-bottom: 1px dashed black;
 }
 .nav-logo{
-    margin-left: -54px
+    margin-left: -45px
 }
 .navigation{
     font-size: 16px;
@@ -107,6 +107,7 @@ p {
 }
 .header-image{
     margin: 10px;
+    width: 800px;
 }
 .middle-content h2 {
     padding: 0 2%;
