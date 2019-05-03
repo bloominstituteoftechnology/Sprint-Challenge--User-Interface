@@ -270,17 +270,60 @@ header nav a {
 
 
 }
+.about {
+    padding:1em;
+    border-bottom: 1px dashed black;
+}
+ 
 
 
+.boxa1 {
 
+    display: flex;
+    align-items: stretch;
+    border-bottom: dashed black 1px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: space-between;
     
 
 
 
+}
+.boxa1 h3 {
+    margin-top: 15px;
+}
+.boxa2 h3 {
+    margin-top: 15px;
+}
 
 
-    
-  
+.boxa2 {
+    display: flex;
+    align-items: stretch;
+    border-bottom:  dashed 1px black;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    justify-content: space-between;
+} 
+.boxa1b {
+    padding-left: 60px;
+}
+.boxa2b {
+    padding-left: 60px;
+}
 
-
-
+button {
+    margin-top: 15px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    border-color: black;
+    background: white;
+    font-weight: bold;
+    height: 11%;
+    width: 34%;
+}
+.box5 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
