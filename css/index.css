@@ -65,7 +65,21 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.header{
+    align-content: center;
+    display:flex;
+    justify-content: space-between;
+    margin: 40px; 
+    max-width: 60%;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+a {
+    color: black;
+}
+.container img{
+    padding-bottom: 20px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -100,11 +114,39 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.box:nth-child(1){
+    background: teal; 
+} 
+.box:nth-child(2){
+    background: gold;
+}
+.box:nth-child(3){
+    background: cadetblue;
+}
+.box:nth-child(4){
+    background: coral;
+}
+.box:nth-child(5){
+    background: crimson;
+}
+.box:nth-child(6){
+    background: forestgreen;
+}
+.box:nth-child(7){
+    background:darkorchid
+}
+.box:nth-child(8){ 
+    background:hotpink;
+}
+.box:nth-child(9){
+    background: indigo;
+}
+.box:nth-child(10){
+    background:dodgerblue;
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;

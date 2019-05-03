@@ -1,0 +1,19 @@
+.top-Links
+{display: flex;
+justify-content: space-evenly;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.top-img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.container-about-page{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-bottom: 2px solid black;
+	width: 880px;
+	margin-left: 300px;
+	padding-bottom: 25px;}
