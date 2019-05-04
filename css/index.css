@@ -112,6 +112,19 @@ p {
     justify-content: center;
 }
 
+/* Boxes */
+.middle-content .boxes .box1  {background-color: teal;}
+.middle-content .boxes .box2  {background-color: gold;}
+.middle-content .boxes .box3  {background-color: cadetblue;}
+.middle-content .boxes .box4  {background-color: coral;}
+.middle-content .boxes .box5  {background-color: crimson;}
+.middle-content .boxes .box6  {background-color: forestgreen;}
+.middle-content .boxes .box7  {background-color: darkorchid;}
+.middle-content .boxes .box8  {background-color: hotpink;}
+.middle-content .boxes .box9  {background-color: indigo;}
+.middle-content .boxes .box10 {background-color: dodgerblue;}
+/* Boxes */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +156,79 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+header {
+    margin-top: 15px;
+    display: flex;
+}
+
+.logo {
+    width: 160px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+
+    width: 800px;
+    margin: 0 auto;
+}
+
+.intro {
+    margin: 30px 0px 30px 0px;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 30px 0px;
+}
+
+.image {
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 30px 0px;
+}
+
+.img-about {
+    margin-bottom: 15px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    width: 370px;
+    margin: 10px 30px 30px 0px;
+    border-bottom: 1px dashed  black;
+}
+
+.content-box h2 {
+    margin-top: 10px;
+}
+
+button {
+    margin: 15px 0px 30px 0px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.closer {
+    margin-bottom: 30px;
 }
