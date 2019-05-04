@@ -326,8 +326,18 @@ header nav a {
 }
 .about-box {
   width: 370px;
+  border-bottom: 1px dashed black;
+  margin-bottom: 60px;
 }
 
 .about-box h2 {
   margin: 15px 0;
+}
+
+.about-box button {
+  margin: 20px 0 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 10px 15px;
 }
