@@ -172,6 +172,8 @@ body {
     margin: 0 auto;
     padding-bottom: 30px;
     padding-top: 50px;
+    align-content: flex-start;
+
 }
 
 .TopNav a {
@@ -180,12 +182,12 @@ body {
     color: black;
     font-size: 14px;
     padding: 0px 30px 0px 30px;
-    position: relative;
+   
 
 }
 
 .logo {
-    position: relative;
+    
     padding: 0px 30px 0px 0px;
     width: 20%;
     margin: 0 auto;
