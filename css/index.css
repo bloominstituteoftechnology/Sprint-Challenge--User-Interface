@@ -266,6 +266,10 @@ header nav a {
   margin-bottom: 25px;
 }
 
+.about-jumbo {
+  background: url("../img/jumbo-about.png");
+}
+
 .home-jumbo {
   background: url("../img/jumbo.jpg");
 }
@@ -308,4 +312,8 @@ header nav a {
 
 .middle-content .boxes .box:last-child {
   background-color: dodgerblue;
+}
+
+.about-top-text {
+  padding: 0 20px 20px 20px;
 }
