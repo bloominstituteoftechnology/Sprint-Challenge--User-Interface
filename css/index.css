@@ -260,9 +260,52 @@ header nav a {
   text-decoration: none;
 }
 
-.home-jumbo-img {
+.jumbo-img {
   width: 100%;
   height: 153px;
-  background: url("../img/jumbo.jpg");
   margin-bottom: 25px;
+}
+
+.home-jumbo {
+  background: url("../img/jumbo.jpg");
+}
+
+.middle-content .boxes .box:first-child {
+  background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+  background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+  background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+  background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+  background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+  background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+  background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+  background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+  background-color: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+  background-color: dodgerblue;
 }
