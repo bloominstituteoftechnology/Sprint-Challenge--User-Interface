@@ -186,3 +186,13 @@ footer nav a {
 .box:nth-child(10){
     background-color: dodgerblue;
 }
+
+/* START OF ABOUT PAGE CSS */
+
+.about-page-head{
+    padding-top: 20px;
+}
+hr{
+    border: 1px dashed gray;
+}
+.flex-content
