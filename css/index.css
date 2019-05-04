@@ -200,3 +200,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Styling About section............. */
+.about-img{
+    width: 100%;
+    height: 150px;
+    background-image: url("../img/jumbo-about.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-bottom: 20px;
+}
+
+.intro-p{
+    padding: 20px 0;
+    border-bottom: 1px dashed black;
+}
