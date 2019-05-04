@@ -144,3 +144,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+html {
+	display: table;
+	margin: 0 auto;
+}
+
+body {
+
+	display: table;
+	text-align: left;
+	align-content: center;
+	vertical-align: middle;
+
+}
+
+
+/* My Code Starts here */
+
+/* Top Nav Links */
+
+.TopNav {
+    
+    display: flex;		
+	flex-direction: row;
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.TopNav a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 0px 30px 0px 30px;
+    position: relative;
+
+}
+
+.logo {
+    position: relative;
+    padding: 0px 30px 0px 0px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+#TopImage {
+
+    width: 800px;
+    margin: 0 auto;
+   
+}
+
+p {
+
+    font-size: 16px
+
+}
+
+h2 { 
+
+    ;
+
+}
