@@ -205,8 +205,8 @@ header nav a:visited {
 }
 
 .main-content {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
     margin: 75px 0 35px 0;
     padding: 35px 0;
     font-size: 16px;
@@ -237,7 +237,7 @@ footer {
 }
 
 .top-content {
-    border-bottom: 2px dashed black;
+  
 }
 /* Services Styles */
 
@@ -259,7 +259,23 @@ footer {
 
 }
 
+.line{
 
+    border-top: dashed black;
+    border-width:1.5px;
+    width: 370px;
+    margin-top: 25px;
+
+}
+
+.long-line{ 
+
+    border-top: dashed black;
+    border-width:1.5px;
+    width: auto;
+    margin-top: 25px;
+    
+}
 
 .services-content .indented {
     margin-left: 40px;
@@ -267,12 +283,13 @@ footer {
 
 
 .services-content .card button {
-    padding: 10px 40px;
+    padding: 10px 30px;
     margin-top: 20px;
-    cursor: pointer;
+    background: white;
     border-radius: 5px;
     border: 2px solid black;
-
+    font-size: 12pt;
+    
 }
 
 .services-content .card button:hover {
@@ -283,10 +300,10 @@ footer {
 
 
 
-.services-content .services-info {
+ .services-info {
     display: flex;
     flex-wrap: wrap;
-    border-top: 2px solid black;
+   
     margin: 20px 0 35px 0;
     padding-top: 40px;
 }
@@ -314,7 +331,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border-bottom: 2px dashed black;
+    border-bottom: 1.5px dashed black;
     padding-bottom: 20px;
 }
 
