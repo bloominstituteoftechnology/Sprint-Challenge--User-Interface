@@ -86,7 +86,7 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-evenly;
@@ -121,6 +121,11 @@ p {
 
 .bottom-content {
 	width:800px;
+	margin: 0px 0px 60px 25px;
+}
+
+.bottom-content h2{
+	margin:0px 0px 20px 0px;
 }
 
 .bottom-content .text-container {
