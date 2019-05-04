@@ -75,47 +75,57 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 0px 0px 20px 0px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+	padding-bottom: 20px;  
+	width:800px;
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+}
+
+.middle-content .content{
+	width:370px;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+	margin: 0px 0px 20px 0px;
+	
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.middle-content p{
+	margin: 0px 0px 20px 0px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.middle-content button{
+    border-radius: 11px;
+    border: 2px solid black;
+    margin: 0px 0px 20px 0px;
+    font-size: 17px;
+    height: 40px;
+    width: 130px;
 }
+
+
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+	width:800px;
+	margin: 0px 0px 60px 25px;
+}
+
+.bottom-content h2{
+	margin:0px 0px 20px 0px;
 }
 
 .bottom-content .text-container {
@@ -167,42 +177,6 @@ header nav a{
     margin-bottom: 25px;
 }
 
-.middle-content .boxes .box1{
-    background-color:teal;
-}
-
-.middle-content .boxes .box2{
-    background-color:gold;
-}
-
-.middle-content .boxes .box3{
-    background-color:cadetblue;
-}
-
-.middle-content .boxes .box4{
-    background-color:coral;
-}
-
-.middle-content .boxes .box5{
-    background-color:crimson;
-}
-
-.middle-content .boxes .box6{
-    background-color:forestgreen;
-}
-
-.middle-content .boxes .box7{
-    background-color:darkorchid;
-}
-
-.middle-content .boxes .box8{
-    background-color:hotpink;
-}
-
-.middle-content .boxes .box9{
-    background-color:indigo;
-}
-
-.middle-content .boxes .box10{
-    background-color:dodgerblue;
+.top-content .text-container{
+	margin:0px 0px 0px 0px;
 }
