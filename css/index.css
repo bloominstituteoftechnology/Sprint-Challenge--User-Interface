@@ -76,10 +76,28 @@ p {
 }
 .middleBoxes {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .about-card {
-    width: 50%;
+    width: 48%;
+    padding: 25px 5px 15px 0;
+    border-bottom: 1px dashed black;
+}
+.about-card p {
+    font-size: 1.2rem;
+    padding-bottom: 11px;
+}
+.about-card button {
+    background: white;
+    font-size:16px;
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.about-card h2 {
+    font-size: 1.4rem;
+    padding-top: 10px;
 }
 nav a {
     text-decoration: none;
@@ -89,7 +107,7 @@ nav a {
 nav {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 35px;
+    margin: 17px 0 35px 0;
     align-items: flex-end;
 }
 .home {
