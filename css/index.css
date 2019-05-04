@@ -317,3 +317,13 @@ header nav a {
 .about-top-text {
   padding: 0 20px 20px 20px;
 }
+
+.about-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 15px 0;
+}
+.about-box {
+  width: 370px;
+}
