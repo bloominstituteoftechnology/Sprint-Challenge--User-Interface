@@ -215,3 +215,21 @@ footer nav a {
     padding: 20px 0;
     border-bottom: 1px dashed black;
 }
+
+main{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.blocks{
+    width: 45%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.final-section{
+    padding: 20px 0;
+}
