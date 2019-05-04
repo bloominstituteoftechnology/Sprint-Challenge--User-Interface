@@ -87,27 +87,40 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-	border-bottom: 1px dashed black;
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-evenly;
 }
 
 .middle-content .content{
-	width:400px;
+	width:370px;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+	margin: 0px 0px 20px 0px;
+	
+}
+
+.middle-content p{
+	margin: 0px 0px 20px 0px;
+}
+
+.middle-content button{
+    border-radius: 11px;
+    border: 2px solid black;
+    margin: 0px 0px 20px 0px;
+    font-size: 17px;
+    height: 40px;
+    width: 130px;
 }
 
 
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+	width:800px;
 }
 
 .bottom-content .text-container {
