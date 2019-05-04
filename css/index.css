@@ -70,7 +70,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.header nav{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    padding: 0px 38px;
+    color: black;
+    font-weight: 600;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,6 +92,9 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.text-container{
+    margin-top: 30px;
 }
 
 .middle-content {
@@ -140,7 +152,7 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: rgb(170, 170, 170);
     text-decoration: none;
 }
 /* START OF BOXES CSS */
