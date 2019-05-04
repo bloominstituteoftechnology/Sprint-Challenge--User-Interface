@@ -153,11 +153,18 @@ header{
     display:flex;
     justify-content:space-evenly;
     align-items: flex-end;
-    margin: 30px -57px 30px -57px;
+    margin:35px -36px 35px -8px;
 }
 
 header nav a{
-    margin:30px;
+    margin:30px 58px 30px 30px;
     text-decoration: none;
     color:black;
+    font-size: 14px;
 }
+
+.top-content img{
+    margin-bottom: 25px;
+}
+
+
