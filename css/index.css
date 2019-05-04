@@ -7,9 +7,10 @@ html,
 body,
 div,
 span,
-applet,
+a applet,
 object,
 iframe,
+button,
 h1,
 h2,
 h3,
@@ -232,6 +233,12 @@ footer nav a {
 }
 
 /* Start Custom CSS */
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
 header {
   display: flex;
   height: 40px;
@@ -284,6 +291,10 @@ footer nav a:hover {
   background: url("../img/jumbo.jpg");
 }
 
+.contact-jumbo {
+  background: url("../img/jumbo-contact.jpg");
+}
+
 .middle-content .boxes .box:first-child {
   background-color: teal;
 }
@@ -324,7 +335,8 @@ footer nav a:hover {
   background-color: dodgerblue;
 }
 
-.about-text {
+.about-text,
+.contact-text {
   padding: 0 20px 20px 20px;
 }
 
@@ -344,12 +356,47 @@ footer nav a:hover {
   margin: 15px 0;
 }
 
-.about-box button {
+button {
   margin: 20px 0 20px;
   border: 2px solid black;
   border-radius: 8px;
   font-size: 1rem;
   padding: 10px 15px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+input {
+  height: 40px;
+  padding: 5px 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+button.submit {
+  border: none;
+  background-color: cornflowerblue;
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 10px 30px;
+}
+
+button.submit:hover {
+  background: dodgerblue;
+}
+
+textarea {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  padding: 5px 8px;
 }
 
 @media only screen and (max-width: 500px) {
