@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between; 
+}
+
+header nav {
+  vertical-align: top;
+  margin-top: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.main-img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +140,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +192,75 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.about-top-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content .text-container {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-top-body {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.about-top-body .about-text-content {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+}
+
+.about-bottom-body {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.about-bottom-body .about-text-content {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+}
+
+.about-img {
+    padding-bottom: 10px;
+}
+
+button {
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 8px 20px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background: black;
+    color: white;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+
+.bottom-section .lets-work {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
