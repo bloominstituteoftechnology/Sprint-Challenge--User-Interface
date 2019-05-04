@@ -327,3 +327,7 @@ header nav a {
 .about-box {
   width: 370px;
 }
+
+.about-box h2 {
+  margin: 15px 0;
+}
