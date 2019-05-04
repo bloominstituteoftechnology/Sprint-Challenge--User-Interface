@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.logo {
+  height: 30px;
+  width: 40%;
+}
+
+nav { 
+  display: flex;
+  Justify-content: space-between;
+  color:gray;
+}
+
+.traffic {
+  width: 100%;
+  max-width: 1000px;
+  height: 175px;
+  margin: 40px  0
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,6 +119,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,6 +130,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box-1{
+  width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
