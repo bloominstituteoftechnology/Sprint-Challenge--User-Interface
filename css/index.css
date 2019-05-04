@@ -64,11 +64,15 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 1.2rem;
 }
 .about {
     border-bottom: 1px dashed black;
     padding-left: 10px;
     padding-bottom: 25px;
+}
+.about h2 {
+    font-size: 1.4rem;
 }
 .container {
     width: 800px;
@@ -85,7 +89,6 @@ p {
     border-bottom: 1px dashed black;
 }
 .about-card p {
-    font-size: 1.2rem;
     padding-bottom: 11px;
 }
 .about-card button {
@@ -192,7 +195,12 @@ nav {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.letsWork {
+    padding-top: 20px;
+}
+.letsWork h2 {
+    font-size: 1.4rem;
+}
 footer {
     width: 100%;
     background: black;
