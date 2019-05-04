@@ -66,9 +66,43 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+     margin: 20px 400px;
+    padding: 20px 0;
+  }
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  font-size: 18px;
+  margin-left: 10px;
+  color:black;
+  margin: 0 50px; 
+}
+
+.jumbo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.about-page h2 p{
+    display: flex;
+    margin: 25px;
+    padding: 10px;
 }
 
 .top-content {
@@ -104,13 +138,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box-1 {
+    background: teal;
+    }
+
+.box-2 {
+        background: gold;
+        }
+ 
+.box-3 {
+            background: cadetblue;
+        }
+
+.box-4 {
+    background: coral;
+    }
+
+ .box-5 {
+        background: crimson;
+        }
+    
+.box-6 {
+     background: forestgreen;
+            }
+        
+.box-7 {
+   background: darkorchid;
+                }
+         
+.box-8 {
+     background: hotpink;
+           }
+        
+.box-9 {
+     background: indigo;
+            }
+        
+.box-10 {
+   background: dodgerblue;
+                }
+            
 
 .bottom-content {
     display: flex;
@@ -127,16 +201,21 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 850px;
     background: black;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px 400px;
+    padding: 10px 50px;
 }
 
 footer nav {
-    width: 60%;
+    width: 800px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    align-items: left;
+    padding: 10px 2%;
     font-size: 14px;
 }
 
@@ -144,3 +223,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.about-mid{
+ max-width: 850px;
+margin: 25px auto 0 auto;
+flex-direction: row;
+display: flex;
+  justify-content: space-between;
+ 
+    }
+
+.area-mid .child{
+    width: 200px;
+    height: 350px;
+   border: 1px solid blue;
+   padding: 25px;
+   /* flex-basis: 25%; */
+   box-sizing: border-box;
+}
+
+.child-1{
+ border-top: 1px dotted black;
+padding: 20px;
+}
+
+.child-2{
+   border-top: 1px dotted black;
+
+    padding: 20px;
+    }
+
+
+     @media(max-width: 800px) {
+  body {
+  }
+} 
