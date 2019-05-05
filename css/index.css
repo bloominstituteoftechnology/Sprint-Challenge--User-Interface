@@ -272,7 +272,6 @@ footer nav a {
     text-decoration: none;
 }
 
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -342,13 +341,14 @@ p {
 }
 
 .logo {
-  height: 30px;
-  width: 40%;
+  height:50px;
+  width:50%;
 }
 
 nav { 
   display: flex;
-  Justify-content: space-between;
+  margin:20px;
+  flex-direction:space-between;
   color:gray;
 }
 
@@ -359,45 +359,16 @@ nav {
   margin: 40px  0
 }
 
-.top-section{
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-left{
+.parent{
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
 }
 
- .child1{
+ .child{
 width:50%;
+padding: 20px;
 }
 
-.middle-right{
-  display:flex;
-}
-.child2{
-  width:50%;
-}
-
-.bottom-left{
-  display:flex;
-  flex-wrap: wrap;
-}
-
-.child3{
-  width:50%;
-}
-
-.bottom-right{
-  display:flex;
-  flex-wrap: wrap;
-  
-} 
-
-.child4{
-  width:50%;
-}
 
 button{
   background:white;
@@ -405,6 +376,7 @@ button{
   border-radius:10px;
   padding:5px;
   width:100px;
+  margin:10
 }
 
 footer {
@@ -413,13 +385,12 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-   text-align:center;
+   align-text:center;
 }
 
 footer nav a {
