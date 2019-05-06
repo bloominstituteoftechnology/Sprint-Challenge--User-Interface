@@ -270,5 +270,37 @@ footer nav a {
     display: flex;
     flex-direction: column;
     border-bottom: 1px dashed black;
-    padding: 20px 0;
+    padding: 20px 0 20px 25px;
+}
+
+.middle-about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 25px 0;
+} 
+
+.middle-about-content .about-us {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    align-items: flex-start;
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.middle-about-content .about-us h3 {
+    margin-top: 10px;
+}
+
+.middle-about-content .about-us button {
+    margin: 20px 0;
+    width: 115px;
+    height: 37px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
 }
