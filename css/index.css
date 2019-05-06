@@ -307,3 +307,19 @@ footer nav a {
     justify-content: space-between;
     margin: 0 0 35px 25px;
 }
+
+/* media query breakpoints */
+
+@media only screen and (max-width: 780px) {
+    .top-img {
+        display: none;
+    }
+
+    .top-about-content {
+        width: 100%;
+    }
+
+    .middle-about-content {
+        flex-direction: column;
+    }
+}
