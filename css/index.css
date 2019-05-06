@@ -78,9 +78,13 @@ p {
     align-self: flex-end;
 }
 
-.main-header nav a:link {
+.main-header nav a {
     color: black;
     text-decoration: none;
+}
+
+.main-header nav a:hover {
+    transform: scale(1.5) translateX(10px);
 }
 
 .top-content {
