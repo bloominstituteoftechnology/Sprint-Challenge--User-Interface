@@ -73,7 +73,7 @@ p {
 
 .logo {
   height: 30px;
-  width: 40%;
+  width: 20%;
 }
 
 nav { 
@@ -272,6 +272,24 @@ footer nav a {
     text-decoration: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -331,25 +349,18 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
-}
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .logo {
-  height:50px;
-  width:50%;
+   display:inline-block;
 }
-
-nav { 
-  display: flex;
-  margin:20px;
-  flex-direction:space-between;
-  color:gray;
+nav {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  margin-top:40px;
 }
 
 .buildings {
@@ -359,24 +370,51 @@ nav {
   margin: 40px  0
 }
 
-.parent{
+.topline {
+ margin-bottom: 10px;
+ padding-bottom: 20px;
+ border-bottom: 1px dashed black;
+}
+
+img {
+  margin-bottom:10px;
+}
+
+.parent1{
+  display:flex;
+  display:flex-end;
+  
+}
+
+.parent {
   display:flex;
   flex-wrap:wrap;
 }
-
- .child{
+p{
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+ .child {
 width:50%;
 padding: 20px;
+margin-bottom: 20px;
+border-bottom: 1px dashed black;
 }
 
-
-button{
+button {
   background:white;
   border: 2px solid black;
   border-radius:10px;
-  padding:5px;
-  width:100px;
-  margin:10
+  padding:7px;
+  width:110px;
+}
+
+.work{
+  margin-top:25px;
+}
+.end {
+  margin-top:15px;
+  margin-bottom:30px;
 }
 
 footer {
@@ -385,12 +423,11 @@ footer {
 }
 
 footer nav {
-    width: 95%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 2%;
+    margin:10px;
     font-size: 14px;
-   align-text:center;
 }
 
 footer nav a {
