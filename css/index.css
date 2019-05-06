@@ -278,7 +278,7 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
-    margin: 25px 0;
+    margin-top: 25px;
 } 
 
 .middle-about-content .about-us {
@@ -303,4 +303,12 @@ footer nav a {
     color: black;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.bottom-about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 35px 25px;
+
 }
