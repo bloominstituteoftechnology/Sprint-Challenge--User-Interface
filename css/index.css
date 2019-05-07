@@ -98,7 +98,7 @@ header .logo{
 
 .middle-image {
     display: block;
-    margin: 350px 25px 350px 25px;
+    text-align: center;
 }
 
 .top-content {
@@ -181,6 +181,8 @@ header .logo{
     background: dodgerblue;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -213,3 +215,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
