@@ -117,114 +117,54 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box-1 {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-1 {
     background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-2 {
-    width: 12.5%;
-    height: 100px;
+.box-2 {
     background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-3 {
-    width: 12.5%;
-    height: 100px;
+.box-3 {
     background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-4 {
-    width: 12.5%;
-    height: 100px;
+.box-4 {
     background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-5 {
-    width: 12.5%;
-    height: 100px;
+.box-5 {
     background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-6 {
-    width: 12.5%;
-    height: 100px;
+.box-6 {
     background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-7 {
-    width: 12.5%;
-    height: 100px;
+.box-7 {
     background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-8 {
-    width: 12.5%;
-    height: 100px;
+.box-8 {
     background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-9 {
-    width: 12.5%;
-    height: 100px;
+.box-9 {
     background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.middle-content .boxes .box-10 {
-    width: 12.5%;
-    height: 100px;
+.box-10 {
     background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bottom-content {
@@ -280,7 +220,7 @@ footer nav a {
 .middle-about-content .about-us {
     display: flex;
     flex-direction: column;
-    justify-items: space-evenly;
+    justify-content: space-evenly;
     align-items: flex-start;
     width: 45%;
     border-bottom: 1px dashed black;
@@ -314,11 +254,9 @@ footer nav a {
     .top-img {
         display: none;
     }
-
     .top-about-content {
         width: 100%;
     }
-
     .middle-about-content {
         flex-direction: column;
     }
