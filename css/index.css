@@ -224,12 +224,21 @@ main{
 }
 .blocks{
     width: 45%;
-    margin: 0 20px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .final-section{
-    padding: 20px 0;
+    padding: 30px 0;
+    border-top: 2px dashed black;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid black
 }
