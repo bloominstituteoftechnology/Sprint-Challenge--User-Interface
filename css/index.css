@@ -181,7 +181,28 @@ header .logo{
     background: dodgerblue;
 }
 
+.About {
+    border-bottom: 1px dashed black;
+}
 
+.Top-Pair {
+    border-bottom: 1px dashed black;
+}
+
+.Strategy {
+    width: 300px;
+    padding: 20px;
+    margin: 10px 10px 20px 50px;
+    display: inline;
+}
+
+.Bottom-Pair {
+    border-bottom: 1px dashed black;
+}
+
+button {
+
+}
 
 .bottom-content {
     display: flex;
