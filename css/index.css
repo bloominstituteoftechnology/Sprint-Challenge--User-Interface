@@ -73,6 +73,34 @@ p {
     margin: 0 auto;
 }
 
+.Navbar {
+    width: 700px;
+    padding: 20px;
+    margin: 25px 375px 25px 375px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+header .logo{
+    margin: 28px;
+}
+
+.middle-image {
+    display: block;
+    margin: 350px 25px 350px 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +140,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
 }
 
 .bottom-content {
