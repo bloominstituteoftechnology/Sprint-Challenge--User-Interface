@@ -15,10 +15,11 @@ For example:
 <p>This is a paragraph that will go from one margin to another but the <strong>STRONG</strong> element will only apply to the word strong above.</p>
 
 3. What are the 4 areas of the box model?
-Content: text, images, etc.;
-Padding: the SPACE around the content;
-Border: the LINE around the Padding;
-Margin: the SPACE around the border;
+<ul>
+<li><strong>Content</strong>: text, images, etc.;</li>
+<li><strong>Padding</strong>: the SPACE around the content;</li>
+<li><strong>Border</strong>: the LINE around the Padding;</li>
+<li><strong>Margin</strong>: the SPACE around the border;</li>
 
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```? 
