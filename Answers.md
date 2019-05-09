@@ -9,7 +9,7 @@ When elements are in "display: block" they cover the entire width of the page fr
 Some elements have default of "display: block" (e.g., h1-h6, p, etc.); Other elements have a default of "display: inline" (e.g., ```<em>```, ```<strong>```, etc.). However, an element that has a default of "display: block" can be changed to "display: inline" and vice versa.
 
 For example:
-<h1>Title Using H1<h1>
+<h1>Title Using H1</h1>
 <p>This is a paragraph (p) that will go from one margin to another.</p>
 
 <p>This is a paragraph (p) that will go from one margin to another but the <strong>STRONG</strong> element will only apply to the word strong above.</p>
