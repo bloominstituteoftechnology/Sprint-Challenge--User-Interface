@@ -9,10 +9,10 @@ When elements are in "display: block" they cover the entire width of the page fr
 Some elements have default of "display: block" (e.g., h1-h6, p, etc.); Other elements have a default of "display: inline" (e.g., ```<em>```, ```<strong>```, etc.). However, an element that has a default of "display: block" can be changed to "display: inline" and vice versa.
 
 For example:
-<h1>Title<h1>
-<p>This is a paragraph that will go from one margin to another.</p>
+<h1>Title Using H1<h1>
+<p>This is a paragraph (p) that will go from one margin to another.</p>
 
-<p>This is a paragraph that will go from one margin to another but the <strong>STRONG</strong> element will only apply to the word strong above.</p>
+<p>This is a paragraph (p) that will go from one margin to another but the <strong>STRONG</strong> element will only apply to the word strong above.</p>
 
 3. What are the 4 areas of the box model?
 <ul>
@@ -20,6 +20,7 @@ For example:
 <li><strong>Padding</strong>: the SPACE around the content;</li>
 <li><strong>Border</strong>: the LINE around the Padding;</li>
 <li><strong>Margin</strong>: the SPACE around the border;</li>
+ </ul>
 
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```? 
