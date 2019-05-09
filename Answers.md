@@ -23,7 +23,7 @@
  </ul>
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```? 
-"Align-items: center" uses the cross-axis. When flex-direction is set to row and row-reverse, the cross-axis is vertical; when the flex-direction is set to column or column-reverse, the cross-axis is horiontal. 
+  "Align-items: center" uses the cross-axis. When flex-direction is set to row and row-reverse, the cross-axis is vertical; when the flex-direction is set to column or column-reverse, the cross-axis is horiontal. 
 
 5. What is the git command to commit staged changes as well as write a message?
-git commit -m "This is the step after add and before push".
+  git commit -m "This is the step after add and before push".

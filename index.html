@@ -13,39 +13,36 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-home">
         <!-- [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.  
             * [ ] Build the HTML and CSS to create the missing navigation and header.
             * [ ] Link up the `About` navigation item to the [about.html](about.html) page -->
-        <header>
-            <div class="navigation-bar">
-                <img class="logo" src="img/lambda-black.png" alt="Black Lambda Logo">
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="#">Products</a>
-                    <a href="#">Blog</a>
-                    <a href="contact.html">Contact</a>
-
-                </nav>
-            </div>
+        <header class="navigation-bar">
+            <img class="logo" src="img/lambda-black.png" alt="Black Lambda Logo">
+            <nav>
+                <a class="nav-home" href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
 
             <img class="jumbo" src="img/jumbo.jpg" alt="Image of white and red lights.">
-        </header>
 
         <section class="top-content">
             <div class="text-container">
                 <h2>The Future</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur.
-                    Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum
-                    venenatis magna eget finibus.</p>
+                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
             </div>
             <div class="text-container">
-                <h2>The Past</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur.
+                <div class="text-container-the-past">
+                    <h2>The Past</h2>
+                    <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur.
                     Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum
                     venenatis magna eget finibus.</p>
-            </div>
+                </div>
+            </div> 
         </section>
 
         <section class="middle-content">
