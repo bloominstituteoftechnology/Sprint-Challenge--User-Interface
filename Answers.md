@@ -15,10 +15,12 @@ For example:
 <p>This is a paragraph (p) that will go from one margin to another but the <strong>strong</strong> element will only apply to the word strong above. Use <em>em</em> to emphasize a word. Both em and strong are examples of "display: inline".</p>
 
 3. What are the 4 areas of the box model?
-  *<strong>Content</strong>: text, images, etc.;
-  *<strong>Padding</strong>: the SPACE around the content;
-  *<strong>Border</strong>: the LINE around the Padding;
-  *<strong>Margin</strong>: the SPACE around the border;
+<ul>
+  <li><strong>Content</strong>: text, images, etc.;</li>
+  <li><strong>Padding</strong>: the SPACE around the content;</li>
+  <li><strong>Border</strong>: the LINE around the Padding;</li>
+  <li><strong>Margin</strong>: the SPACE around the border;</li>
+ </ul>
 
 4. While using flexbox, what axis are you using when you use the property: ```align-items: center```? 
 "Align-items: center" uses the cross-axis. When flex-direction is set to row and row-reverse, the cross-axis is vertical; when the flex-direction is set to column or column-reverse, the cross-axis is horiontal. 
