@@ -1,18 +1,18 @@
 1. If you had to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is writing code that is functional. Instead of using ```<div>``` for everything, use elements/tags that have more meaning. For example, use <section> to group several elements.
+  Semantic HTML is writing code that is functional. Instead of using ```<div>``` for everything, use elements/tags that have more meaning. For example, use ```<section>``` to group several elements.
 
 2. Describe some differences between ```display: block;``` and ```display: inline;```.
 
-When elements are in "display: block" they cover the entire width of the page from the left margin to the right margin (it is like have a ```</br>``` added on to the end of the element);when elements are in "display: inline" they only cover the width of the element. 
+When elements are in "display: block" they cover the entire width of the page from the left margin to the right margin (it is like have a ```</br>``` added on to the end of the element); when elements are in "display: inline" they only cover the width of the element. 
 
-Some elements have default of "display: block" (e.g., h1-h6, p, etc.); Other elements have a default of "display: inline" (e.g., ```<em>```, ```<strong>```, etc.). However, an element that has a default of "display: block" can be changed to "display: inline" and vice versa.
+Some elements have default of "display: block" (e.g., h1-h6, p, etc.); other elements have a default of "display: inline" (e.g., ```<em>```, ```<strong>```, etc.). However, an element that has a default of "display: block" can be changed to "display: inline" and vice versa.
 
 For example:
-<h1>Title Using H1</h1>
-<p>This is a paragraph (p) that will go from one margin to another.</p>
+<h1>Title Using H1: Example of "display: block"</h1>
+<p>This is a paragraph (p) that will go from one margin to another. Paragraphs are "display: block" as well.</p>
 
-<p>This is a paragraph (p) that will go from one margin to another but the <strong>strong</strong> element will only apply to the word strong above.Use <em>em</em> to emphasize a word.</p>
+<p>This is a paragraph (p) that will go from one margin to another but the <strong>strong</strong> element will only apply to the word strong above. Use <em>em</em> to emphasize a word. Both em and strong are examples of "display: inline".</p>
 
 3. What are the 4 areas of the box model?
 *<strong>Content</strong>: text, images, etc.;
