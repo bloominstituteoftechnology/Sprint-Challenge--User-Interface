@@ -71,6 +71,11 @@ p {
     margin: 0 auto;
 }
 
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -127,8 +132,10 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
+    margin: auto;
     background: black;
+
 }
 
 footer nav {
@@ -145,22 +152,88 @@ footer nav a {
     text-decoration: none;
 }
 
-html {
-	display: table;
-	margin: 0 auto;
-}
-
-body {
-
-	display: table;
-	text-align: left;
-	align-content: center;
-	vertical-align: middle;
-
-}
-
-
 /* My Code Starts here */
+
+* {
+    
+    box-sizing: border-box;
+
+}
+
+.TopInfo {
+    width: 800px;
+    margin: auto;
+    border-bottom: 2px;
+    border-bottom-color: black;
+}
+
+.bottom {
+    
+        width: 800px;
+        margin: auto;
+        
+}
+.container {
+
+    width: 800px;
+    margin: auto;
+    border-top-color: black;
+    border-style: dashed;
+    border-width: 2px;
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.container2 {
+    width: 800px;
+    margin: auto;
+    border-top-color: white;
+    border-style: dashed;
+    border-width: 2px;
+    border-bottom-color: black;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    flex-flow: row;
+    
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    flex-flow: row;
+    
+}
+
+.container .sub1 {
+     
+    padding: 20px;
+    border: 1px transparent white;
+    width: 420px;
+    background: white;
+    margin: 20px 0;
+     
+}
+
+.container2 .sub2 {
+     
+    padding: 20px;
+    border: 1px transparent white;
+    width: 420px;
+    background: white;
+    margin: 20px 0;
+      
+     
+}
 
 /* Top Nav Links */
 
@@ -186,6 +259,21 @@ body {
 
 }
 
+#TopImage {
+
+    width: 800px;
+    margin: 0 auto;
+       
+}
+ 
+.container .about-page {
+
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+
+}
+
+
 .logo {
     
     padding: 0px 30px 0px 0px;
@@ -193,22 +281,17 @@ body {
     margin: 0 auto;
 }
 
-
-#TopImage {
-
-    width: 800px;
-    margin: 0 auto;
-   
-}
-
 p {
 
-    font-size: 16px
+    font-size: 14px
 
 }
 
-h2 { 
+button {
 
-    ;
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+    padding: 3px 8px 3px 8px;
 
 }
