@@ -122,6 +122,7 @@ header figure.jumbotron {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    color: white;
     
 }
 
@@ -134,6 +135,9 @@ header figure.jumbotron {
     align-items: center;
     justify-content: center;
     
+}
+.middle-content .boxes .box:hover{
+    transform:
 }
 .middle-content .boxes .box.box1{
     background-color: teal;
