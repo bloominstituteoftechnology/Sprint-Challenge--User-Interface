@@ -66,9 +66,39 @@ p {
     line-height: 1.4;
 }
 
+/*CODE STARTS HERE*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.Navbar {
+    width: 700px;
+    padding: 20px;
+    margin: 25px 375px 25px 375px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+header .logo{
+    margin: 28px;
+}
+
+.middle-image {
+    display: block;
+    text-align: center;
 }
 
 .top-content {
@@ -111,6 +141,68 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6{
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
+}
+
+.About {
+    border-bottom: 1px dashed black;
+}
+
+.Top-Pair {
+    border-bottom: 1px dashed black;
+}
+
+.Strategy {
+    width: 300px;
+    padding: 20px;
+    margin: 10px 10px 20px 50px;
+    display: inline;
+}
+
+.Bottom-Pair {
+    border-bottom: 1px dashed black;
+}
+
+button {
+
+}
 
 .bottom-content {
     display: flex;
@@ -144,3 +236,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
