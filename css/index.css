@@ -75,8 +75,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-left: 100px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    align-content: center;
 }
 
 .top-content .text-container {
