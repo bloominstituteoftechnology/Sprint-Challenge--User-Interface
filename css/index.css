@@ -150,3 +150,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.title{
+    display: flex;
+}
+
+.about {
+    display: flex;
+    width: 900px;
+}
+
+.strategy {
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 400px;
+    }
