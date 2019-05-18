@@ -113,6 +113,7 @@ header nav a {
     margin-right: 30px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 10px;
 }
 .about-content {
     display: flex;
@@ -126,6 +127,7 @@ header nav a {
     width: 400px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black; 
+    padding-bottom: 10px;
 }
 
 .about-content .card button {
