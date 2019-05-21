@@ -6,7 +6,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
-This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
+This is an Individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
 You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
 
@@ -32,15 +32,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? Semantic HTML is HTML Markup that is used to actually give the desired code/information meaning. Semantic elements define your content a.k.a. gives it meaning.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. An inline element allows HTML elements to sit next to it- block does not, it forces a line-break. Inline elements do not respect top and bottom margin or padding- block does respect top and bottom margin and padding.
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? Ordered outside-to-inside: Margin-Border-Padding-Content.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? Cross-Axis (Perpendicular to main axis) 
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. Git is a version controlling system that can save our code at any point. This allows developers to release updates without losing older versions.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

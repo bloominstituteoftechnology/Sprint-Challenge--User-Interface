@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -67,9 +67,82 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 880px;
     margin: 0 auto;
 }
+
+.container-about {
+    width: 880px;   
+}
+
+header {
+    display: flex;
+    width: 100%;
+
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 880px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 15px;
+
+}
+
+header nav a {
+    width: 600px;
+    margin-left: 30px;
+    color: black;
+}
+
+.cityscape {
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.nightime {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.introduction {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+}
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.about-content .card {
+    width: 400px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+    padding-bottom: 10px;
+}
+
+.about-content .card button {
+    padding: 5px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.about-content .card button:hover {
+    background: black;
+    color: white;
+} 
 
 .top-content {
     display: flex;
@@ -77,6 +150,9 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -88,6 +164,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .middle-content h2 {
@@ -96,26 +174,127 @@ p {
 }
 
 .middle-content .boxes {
+    width: 880px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .bottom-content .text-container {
@@ -127,8 +306,12 @@ p {
 }
 
 footer {
-    width: 100%;
+   
     background: black;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+    
 }
 
 footer nav {
@@ -143,4 +326,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.ending {
+    margin-left: 30px;
+    margin-right: 30px;
+
 }
