@@ -61,6 +61,53 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+/* Code Written Here */
+nav {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 210px;
+    padding-right: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover a {
+    color: red;
+    font-size: 20px;
+}
+
+.futurephoto {
+    padding: 40px 210px 20px 210px;
+}
+
+.cityphoto {
+    padding: 40px 210px 20px 210px;
+}
 
 p {
     line-height: 1.4;
@@ -112,6 +159,44 @@ p {
     justify-content: center;
 }
 
+#A1 {
+    background: teal;
+}
+
+#A2 {
+    background: gold;
+}
+
+#A3 {
+    background: cadetblue;
+}
+
+#A4 {
+    background: coral;
+}
+#A5 {
+    background: crimson;
+}
+
+#A6 {
+    background: forestgreen;
+}
+
+#A7 {
+    background: darkorchid;
+}
+
+#A8 {
+    background: hotpink;
+}
+
+#A9 {
+    background: indigo;
+}
+#A10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +228,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    font-size: 20px;
+}
+
+button {
+    border-radius: 8px;
+    background: white;
+}
+
+.topContent {
+    border-top: 1px dashed black;
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+}
+.box {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.box button {
+    align-self: flex-start;
+}
+
+.middleContent {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.bottomContent {
+    padding: 40px 0px;
+}
+
+.titles:hover {
+    color: lawngreen;
 }
