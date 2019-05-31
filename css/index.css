@@ -87,8 +87,6 @@ nav {
     color: black;
 }
 
-
-
 .logo-container {
 
     flex-wrap: nowrap;
@@ -122,6 +120,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content-img {
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 /*-------------------MIDDLE CONTENT------------ */
