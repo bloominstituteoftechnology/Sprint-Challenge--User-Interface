@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
     flex-wrap: wrap;
     align-content: center;
+  
 }
 
 p {
@@ -71,26 +72,26 @@ p {
 nav{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 40px;
-    
+    align-items: baseline;
 }
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 700px;
     margin: 0 auto;
+    flex-direction: column;
     
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -131,7 +132,37 @@ nav{
     justify-content: center;
     
 }
-
+#teal {
+    background: teal;
+}
+#gold {
+    background: gold;
+}
+#cadetblue {
+    background: cadetblue;
+    
+}
+#coral {
+    background: coral;
+}
+#crimson {
+    background: crimson;
+}
+#forestgreen{
+    background: forestgreen;
+}
+#darkorchid{
+    background: darkorchid;
+}
+#hotpink{
+    background: hotpink;
+}
+#indigo {
+    background: indigo;
+}
+#dodgerblue {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 40px;
