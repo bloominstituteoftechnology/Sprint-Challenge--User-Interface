@@ -65,8 +65,6 @@ h1, h2, h3, h4, h5 {
 
 /* ---------------NAV------------------ */
 
-
-
 nav {
     display: flex;
     justify-content: center;
@@ -224,6 +222,7 @@ p {
 .box10 {
     background-color: dodgerblue;
 }
+/* ---------------------------BOTTOM CONTENT--------------- */
 
 .bottom-content {
     display: flex;
@@ -239,6 +238,11 @@ p {
     padding-right: 0;
 }
 
+.bottom-content-about {
+    padding: 30px 5px 40px;
+}
+
+/* ---------------------------FOOTER / FOOTER NAV------------------- */
 footer {
     width: 100%;
     background: black;
@@ -246,6 +250,7 @@ footer {
 
 footer nav {
     width: 60%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
