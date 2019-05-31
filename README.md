@@ -34,23 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Semantic HTML is a way to label website elements with a meaningful tag, allowing a developer who parses through your code to be able to understand clearly what's going on.
+**Semantic HTML is a way to label website elements with a meaningful tag, allowing a developer who parses through your code to be able to understand clearly what's going on.**
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-Inline allows elements stay on the same line. Block always starts on a new line 
+**Inline allows elements stay on the same line. Block always starts on a new line **
 
 3. What are the 4 areas of the box model?
 
-Starting from innermost to outer most, the box model consists of the content, padding, border, and margin.
+**Starting from innermost to outer most, the box model consists of the content, padding, border, and margin.**
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-The piece of code centers the elements in the cross axis.
+**The piece of code centers the elements in the cross axis.**
 
 5. Explain why git is valuable to a team of developers.
 
-Git allows a team of developers to work on one project, but at the same time perform individual changes based on what has been assigned. Additionaly, git is able to version control, meaning code can be branched, merged, reverted and such, but still able to retain all previous commits made for that particular project if the latest pulls have been performing worse. Git overall enables groups to have better teamwork.
+**Git allows a team of developers to work on one project, but at the same time perform individual changes based on what has been assigned. Additionaly, git is able to version control, meaning code can be branched, merged, reverted and such, but still able to retain all previous commits made for that particular project if the latest pulls have been performing worse. Git overall enables groups to have better teamwork.**
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
