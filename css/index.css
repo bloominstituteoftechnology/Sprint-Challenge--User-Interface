@@ -144,3 +144,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.nav-container{
+    display: flex;
+    width:800px;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:35px 0px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.home-banner{
+    padding-bottom: 20px;
+}
+#box-1{
+    background-color: teal;
+}
+#box-2{
+    background-color: gold;
+
+}
+#box-3{
+    background-color: cadetblue;
+
+}
+#box-4{
+    background-color: coral;
+
+}
+#box-5{
+    background-color: crimson;
+
+}
+#box-6{
+    background-color: forestgreen;
+
+}
+#box-7{
+    background-color: darkorchid;
+
+}
+#box-8{
+    background-color: hotpink;
+
+}
+#box-9{
+    background-color: indigo;
+
+}
+#box-10{
+    background-color: dodgerblue;
+
+}
