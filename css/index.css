@@ -169,13 +169,12 @@ a {
     width: 85%;
     padding-left: 150px;
     padding-bottom: 40px;
-    padding-top: 40px
-
 }
 
-.jumbo {
-    padding-top: 70px;
+.logo {
+    margin: 40px;
 }
+
 
 .middle-content .boxes .teal{
     background-color: teal 
@@ -232,6 +231,10 @@ hr {
 
 h1 {
     padding-top: 20px
+}
+
+.about-page {
+    margin-top: 20px
 }
 button {
     display: flex;
