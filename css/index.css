@@ -66,8 +66,49 @@ p {
     line-height: 1.4;
 }
 
+/*Adding CSS for the header and nav*/
+
+.header-index {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.header-about {
+    width: 850px;
+    margin: 20px auto;
+}
+
+header nav {
+    display: flex;
+	width: 100%;
+    margin: 20px auto;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.header-img {
+    margin-top: 20px;
+    width: 100%;
+}
+
 .container {
     width: 800px;
+    margin: 0 auto;
+}
+
+.container-about {
+    width: 850px;
     margin: 0 auto;
 }
 
@@ -84,6 +125,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,12 +146,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Background color for boxes*/
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +226,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* top content text on about page*/
+
+
+.top-content .text-container-about {
+    width: 100%;
+    margin: 20px 20px;
+}
+
+/* main content: picture-text-button boxes*/
+
+.thirds {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 50px 20px;
+    width: 810px;
+}
+
+.pic-text-button {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+
+}
+
+.pic-text-button h2 {
+    margin-top: 10px;
+}
+
+.pic-text-button button {
+    width: 140px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 100%;
+    margin-top: 25px;
+}
+
+.text-bottom {
+    width: 95%;
+    margin: 20px 20px 40px 20px;
 }
