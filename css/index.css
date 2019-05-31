@@ -289,15 +289,31 @@ p {
     font-size: 15px;
 }
 
-.learn-box {
+/* Added animation to the Learn More box*/
+.learn-box:hover {
     box-sizing: content-box;
     width: 100px;
     padding: 5px;
     border: 2px solid black;
     text-align: center;
-    border-radius: 10px
-  
+    border-radius: 10px;
+    background-color: #FF2E2E;
+    animation-name: background-color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes background-color {
+    100% {
+    background-color: #FFD400;
+    background-color: #48FF00;
+    background-color: #FFD400;
+    background-color: #48FF00;
+    background-color: #4586FF;
+    background-color: #B22EFF;
+    }
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;    
