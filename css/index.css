@@ -190,7 +190,7 @@ p {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
+  background: rgb(185, 21, 21);
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -246,6 +246,7 @@ footer nav a {
 }
 
 .about {
+  margin-top: 10px;
   margin-bottom: 10px;
   border-bottom: 1px dashed;
 }
@@ -277,8 +278,40 @@ footer nav a {
 
 .b button {
   background-color: blue;
+  border-radius: 40px;
 }
 
 .lw {
   margin-bottom: 20px;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+  background-color: blue;
+}
+.middle-content .boxes .box:nth-child(2) {
+  background-color: yellow;
+}
+.middle-content .boxes .box:nth-child(3) {
+  background-color: rgb(0, 204, 255);
+}
+.middle-content .boxes .box:nth-child(4) {
+  background-color: rgb(255, 30, 0);
+}
+.middle-content .boxes .box:nth-child(5) {
+  background-color: rgb(255, 0, 119);
+}
+.middle-content .boxes .box:nth-child(6) {
+  background-color: rgb(60, 255, 0);
+}
+.middle-content .boxes .box:nth-child(7) {
+  background-color: rgb(0, 255, 242);
+}
+.middle-content .boxes .box:nth-child(8) {
+  background-color: rgb(255, 0, 149);
+}
+.middle-content .boxes .box:nth-child(9) {
+  background-color: rgb(0, 140, 255);
+}
+.middle-content .boxes .box:nth-child(10) {
+  background-color: rgb(202, 214, 195);
 }
