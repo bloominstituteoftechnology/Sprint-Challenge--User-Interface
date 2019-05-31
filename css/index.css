@@ -144,3 +144,37 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*My code starts vhere*/
+
+/*header*/
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+/* nav section*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+    }
+nav a {
+text-decoration:none;
+color: black;
+justify-content: flex-end;
+margin-top: 20px;
+}
+
+#logo{
+    justify-content: flex-start;
+    
+}
+
+#headerimage{
+    margin-top: 50px;
+    width: 1200px;
+    height: auto;
+    margin-bottom: 30px;
+}
