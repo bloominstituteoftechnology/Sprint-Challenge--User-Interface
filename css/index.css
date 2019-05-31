@@ -147,7 +147,7 @@ footer nav a {
 
 .nav-container{
     display: flex;
-    width:800px;
+    width:100%;
     height: auto;
     justify-content: space-between;
     align-items: flex-end;
