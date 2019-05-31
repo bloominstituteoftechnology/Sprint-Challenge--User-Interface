@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -65,7 +66,6 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
 
 .container {
     width: 800px;
@@ -146,33 +146,74 @@ footer nav a {
     text-decoration: none;
 }
 
-.menubar {
+
+/* start of code*/
+
+body {
     
-    margin-left:20px;
-    padding-bottom: 40px;
-    width: 100%;
-
+    width: 80%;
 }
 
-.logo {
-    display: flex;
-    flex-wrap: wrap;
-    padding-right: 100px;
-    padding-bottom: 17px;
-}
 a {
-    text-decoration: none;  
+    text-decoration: none;
     color: black;
 }
-.menubar-content {
-    display: flex;
+
+.menubar {
+    display:flex;
     flex-wrap: wrap;
-    width: 75%;
+    align-items: center;
+    justify-content: space-evenly;
     justify-content: space-around;
-    padding-top: 30px
-
-
-
-
+    align-items: baseline;
+    width: 85%;
+    padding-left: 150px;
+    padding-bottom: 40px;
+    padding-top: 40px
 
 }
+
+.jumbo {
+    padding-top: 40px;
+}
+
+.middle-content .boxes .teal{
+    background-color: teal !important
+
+}
+
+.middle-content .boxes .gold{
+    background-color: teal !important
+
+}
+.middle-content .boxes .teal .gold .cadetblue{
+    background-color: teal !important
+
+}
+.middle-content .boxes .teal .cadetblue{
+    background-color: teal !important
+
+}
+.middle-content .boxes .teal .coral{
+    background-color: teal !important
+
+}
+.middle-content .boxes .teal .crimson{
+    background-color: teal !important
+
+}
+.middle-content .boxes .teal .darkorchid{
+    background-color: teal !important
+
+}
+.middle-content .boxes .teal .forestgreen{
+    background-color: teal !important
+
+}
+.middle-content .boxes .teal .forestgreen{
+    background-color: teal !important
+
+}
+
+
+/* About Page */
