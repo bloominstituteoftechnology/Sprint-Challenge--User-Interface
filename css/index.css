@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* ---------------NAV------------------ */
 
+
+
 nav {
     display: flex;
     justify-content: center;
@@ -74,7 +76,7 @@ nav {
 }
 
 .nav-links {
-    width: 0 20%;
+    width: 0 20px;
     padding: 15px 40px;
 }
 
@@ -85,6 +87,17 @@ nav {
     color: black;
 }
 
+
+
+.logo-container {
+
+    flex-wrap: nowrap;
+    padding: 10px 0 60px 0;
+}
+
+.logo {
+    margin-right: auto;
+}
 
 p {
     line-height: 1.4;
