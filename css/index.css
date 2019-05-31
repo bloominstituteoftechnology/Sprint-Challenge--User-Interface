@@ -144,3 +144,103 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My Added Code! */
+
+header{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.pngAndNav{
+    display: flex;
+    align-items: baseline; 
+    justify-content: space-around;
+}
+
+	
+	.pngAndNav nav{
+		display: flex;
+		
+		
+	}
+		.pngAndNav nav a{
+			margin:30px 40px 30px 40px;
+            color:black;
+
+			text-decoration-line: none;
+			justify-content: space-between;
+		}
+	
+    header img{
+        margin: 20px;
+    }
+   
+    #firstTwo{
+        display: flex;
+        padding-top: 20px;
+        border-top:  1px dotted black;
+        
+
+        
+    }
+    #secondTwo{
+        display: flex;
+    }
+    .img-text-button{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        border-bottom: 1px dotted gray;
+    }
+
+    button{
+        background: white;
+        border-radius: 8px;
+        border: 1px solid black;
+        padding: 6px 18px;
+        margin: 12px 0px
+    }
+    #about{
+      
+        padding: 20px 30px 20px 30px;
+        
+    }
+
+    #worktogether{
+        margin: 30px;
+    }
+
+    #box1{
+        background: teal;
+    }
+    #box2{
+        background: gold;
+    }
+    #box3{
+        background: cadetblue;
+    }
+    #box4{
+        background: coral;
+    }
+    #box5{
+        background: crimson;
+    }
+    #box6{
+        background: forestgreen;
+    }
+    #box7{
+        background: darkorchid;
+    }
+    #box8{
+        background: hotpink;
+    }
+    #box9{
+        background: indigo;
+    }
+    #box10{
+        background: dodgerblue;
+    }
+
