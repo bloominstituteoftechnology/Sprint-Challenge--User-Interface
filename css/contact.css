@@ -96,13 +96,16 @@ header nav a:hover {
 .contact-form {
     width: 85%;
     max-width: 600px;
-    background: #f1f1f1;
+    background: lightgrey;
     top: 50%;
     left: 50%;
     padding: 30px 40px;
     box-sizing: border-box;
     border-radius: 10px;
     text-align: center;
+    transform: translate(100px, 0px);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .contact-form h1 {
