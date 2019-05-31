@@ -144,3 +144,138 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Index */
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+header nav {
+margin-top: 20px;
+}
+
+a {
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.top-content img {
+    margin-bottom: 20px;
+}
+
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(4n+2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(4n+3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4n+4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(4n+5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(4n+6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(4n+7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(4n+8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(4n+9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background-color: dodgerblue;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  header nav a {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+
+/* About */
+
+.top-content-about {
+    display: flex;
+    flex-direction: column;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.about-middle-content {
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.about-middle-content div {
+    display: flex;
+    width: 45%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+	flex-wrap: wrap;
+	padding-left: 20px;
+    margin-top: 10px;
+    border-bottom: 1px dotted black;
+}
+
+.container .about-together {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.about-middle-content h2 {
+    margin-top: 15px;
+}
+
+.about-middle-content span {
+	margin-top: 20px;
+	padding: 12px 40px;
+	border: 2px solid black;
+	font-size: 13px;
+	border-radius: 10px;
+}
