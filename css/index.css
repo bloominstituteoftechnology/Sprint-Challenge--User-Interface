@@ -213,7 +213,63 @@ a {
 }
 .middle-content .boxes .dodgerblue{
     background-color: dodgerblue 
-
-
+}
 
 /* About Page */
+
+
+p {
+    font-size: 16px;    
+}
+
+hr {
+    width: 780px;
+    border-top: 1px dashed black;
+    height: 1px;    
+    margin-right: 30px;
+    margin: 40px 0;
+}
+
+hr .sections {
+    width: 20px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: black 1px solid;
+    width: 100%
+}
+
+.strategy {
+    display: flex;
+    flex-wrap: wrap;
+    border: black 1px solid;
+    width: 50%;
+    background-color: yellow
+    
+}
+.how {
+    display: flex;
+    flex-wrap: wrap;
+    border: black 1px solid;
+    width: 50%;
+    background-color: orange
+    
+}
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    border: black 1px solid;
+    width: 50%;
+    background-color: yellow
+    
+}
+.collab {
+    display: flex;
+    flex-wrap: wrap;
+    border: black 1px solid;
+    width: 50%;
+    background-color: orange
+    
+}
