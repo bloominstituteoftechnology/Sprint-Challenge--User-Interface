@@ -35,9 +35,9 @@ nav {
     justify-content: space-between;
     margin-bottom: 20px; 
     margin-top: 40px;
-    
+    font-size: 13px;
+    align-items: baseline;
 }
-
 
 nav a {
     text-decoration: none;
@@ -46,6 +46,12 @@ nav a {
 }
 
 .racelights {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sunrise {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -107,6 +113,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .top-content .text-container {
     width: 48%;
@@ -275,3 +282,87 @@ footer nav a {
     text-decoration: none;
     margin-left: 0px;
 }
+
+.container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutinfo .container-about-page {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .twobox-container-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.container .twobox-container-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.container .twobox-container-one .firstchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.container .twobox-container-one .secondchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.container .twobox-container-two .firstchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.container .twobox-container-two .secondchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+
+/*
+.aboutinfo .container-about-page {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    //maybe add//
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+*/
