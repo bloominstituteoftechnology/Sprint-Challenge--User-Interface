@@ -428,4 +428,50 @@ footer nav a {
     border-bottom: 2px thick red;
 }
 
+#aboutimage-5 {
+    width: 370px;
+    height: 235px;
+}
 
+#aboutimage-5 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+#aboutimgage-6 {
+    width: 370px;
+    height: 235px;
+}
+
+#aboutimgage-6 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+#aboutimgage-7 {
+    width: 370px;
+    height: 235px;
+}
+
+#aboutimgage-7 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+#aboutimgage-8 {
+    width: 370px;
+    height: 235px;
+}
+
+#aboutimgage-8 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
