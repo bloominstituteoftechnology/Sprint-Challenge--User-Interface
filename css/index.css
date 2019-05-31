@@ -246,3 +246,20 @@ footer nav a {
   margin-bottom: 10px;
   border-bottom: 1px dashed;
 }
+
+.sec-2 {
+  margin-top: 20px;
+  border-bottom: 1px dashed;
+
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.p {
+  border-bottom: 1px solid;
+  flex-basis: 10%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
