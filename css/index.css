@@ -117,7 +117,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: auto;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -126,6 +126,8 @@ p {
     justify-content: center;
     padding-bottom: 20px;
 }
+
+.text-container
 
 /*-------------------MIDDLE CONTENT------------ */
 
