@@ -144,3 +144,108 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.nav-container{
+    display: flex;
+    width:100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:35px 0px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.home-banner{
+    padding-bottom: 20px;
+}
+#box-1{
+    background-color: teal;
+}
+#box-2{
+    background-color: gold;
+
+}
+#box-3{
+    background-color: cadetblue;
+
+}
+#box-4{
+    background-color: coral;
+
+}
+#box-5{
+    background-color: crimson;
+
+}
+#box-6{
+    background-color: forestgreen;
+
+}
+#box-7{
+    background-color: darkorchid;
+
+}
+#box-8{
+    background-color: hotpink;
+
+}
+#box-9{
+    background-color: indigo;
+
+}
+#box-10{
+    background-color: dodgerblue;
+
+}
+.about-box{
+padding:20px;
+border-bottom:1px dashed black; 
+}
+.mid-section{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    height:900px;
+    justify-content:space-between;
+    align-content:space-between;
+    padding: 25px 20px;
+}
+.mid-child{
+    display:flex;
+    flex-direction:column;
+    width:48%;
+    height:470px;
+    justify-content:space-between;
+    padding:5px 0px 20px 0px;
+    border-bottom: 1px dashed black;
+}
+button{
+    display:flex;
+    width:30%;
+    height:35px;
+    justify-content:center;
+    align-content:center;
+    background-color:white;
+    border:2px solid black;
+    color:black;
+    border-radius:10%;
+}
+.lower-mid-child{
+    padding-top:50px;
+}
+.mid-child p{
+    margin-bottom:10px;
+}
+.lower-mid-child h2{
+    margin-top:20px;
+}
+.lower-container{
+    display:flex;
+    width:100%;
+    height:100px;
+    flex-direction:column;
+    justify-content:space-between;
+    margin:100px 20px 20px 20px;
+}
