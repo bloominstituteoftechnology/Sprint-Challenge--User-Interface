@@ -89,9 +89,14 @@ header nav a {
 	color: black;
 }
 
+header nav a:hover {
+	color: blue;
+}
+
 footer {
     width: 100%;
     background: black;
+	margin-top: 15px;
 }
 
 footer nav {
