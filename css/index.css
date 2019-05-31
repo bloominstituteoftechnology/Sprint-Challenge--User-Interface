@@ -24,10 +24,39 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/*article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}*/
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    margin-top: 40px;
+    font-size: 13px;
+    align-items: baseline;
 }
+
+nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.racelights {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sunrise {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 body {
 	line-height: 1;
 }
@@ -51,6 +80,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -66,6 +96,11 @@ p {
     line-height: 1.4;
 }
 
+.navigation {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -78,6 +113,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .top-content .text-container {
     width: 48%;
@@ -104,13 +140,113 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -134,13 +270,208 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-left: 0px;
 }
 
 footer nav a {
-    color: white;
+    color: grey;
     text-decoration: none;
+    margin-left: 0px;
+}
+
+.container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutinfo .container-about-page {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .twobox-container-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.container .twobox-container-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.container .twobox-container-one .firstchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.container .twobox-container-one .secondchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.container .twobox-container-two .firstchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.container .twobox-container-two .secondchild {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.buttons {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    width: 125px;
+    padding: 12px 16px;
+ 
+}
+
+
+.ai {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    height: 275px;
+    width: 800px;
+    margin: 0 auto;
+}
+/*
+.aboutinfo .container-about-page {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    //maybe add//
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+*/
+
+.container .twocolumn-one {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstchildcolumn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.secondchildcolumn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.container .twocolumn-two {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.please {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px thick red;
+}
+
+#aboutimage-5 {
+    width: 370px;
+    height: 235px;
+}
+
+#aboutimage-5 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+#aboutimgage-6 {
+    width: 370px;
+    height: 235px;
+}
+
+#aboutimgage-6 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+#aboutimgage-7 {
+    width: 370px;
+    height: 235px;
+}
+
+#aboutimgage-7 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+#aboutimgage-8 {
+    width: 370px;
+    height: 235px;
+}
+
+#aboutimgage-8 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
 }
