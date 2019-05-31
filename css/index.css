@@ -127,7 +127,41 @@ p {
     padding-bottom: 20px;
 }
 
-.text-container
+/* -------------------MAIN SECTION------------------ */
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-container {
+    flex-direction: column;
+    width: 390px;
+    margin: 20px 0;
+    border-bottom: .3px dashed gray;
+}
+
+.section-container h2 {
+    padding: 10px;
+}
+
+.section-container p {
+    padding: 10px;
+}
+
+#button {
+    display: block;
+    margin-top: 15px;
+    padding: 8px 35px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
 
 /*-------------------MIDDLE CONTENT------------ */
 
