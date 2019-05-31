@@ -107,3 +107,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-section {
+    margin: 20px;
+}
+
+.container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: black 1px dashed;
+    padding-top: 25px;
+}
+
+.content-box {
+    width: 45%;
+    border-bottom: black 1px dashed;
+    margin-bottom: 20px;
+    margin: 20px;
+    padding-bottom: 5px;
+}
+
+.container-about-page .content-box button {
+    border: 2px solid black;
+    font-size: 16px;
+    background: white;
+    width: 140px;
+    height: 40px;
+    margin: 10px 0px 15px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-about-page .content-box button:hover {
+    background-color: black;
+    color: white;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.bottom {
+    width: 760px;
+    margin-bottom: 40px;
+}
