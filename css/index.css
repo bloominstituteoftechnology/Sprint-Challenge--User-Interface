@@ -178,42 +178,42 @@ a {
 }
 
 .middle-content .boxes .teal{
-    background-color: teal !important
+    background-color: teal 
 
 }
 
 .middle-content .boxes .gold{
-    background-color: teal !important
+    background-color: gold
 
 }
-.middle-content .boxes .teal .gold .cadetblue{
-    background-color: teal !important
+.middle-content .boxes .cadetblue{
+    background-color: cadetblue 
 
 }
-.middle-content .boxes .teal .cadetblue{
-    background-color: teal !important
+.middle-content .boxes .coral{
+    background-color: coral 
 
 }
-.middle-content .boxes .teal .coral{
-    background-color: teal !important
+
+.middle-content .boxes .crimson{
+    background-color: crimson 
 
 }
-.middle-content .boxes .teal .crimson{
-    background-color: teal !important
+.middle-content .boxes .forestgreen{
+    background-color: forestgreen 
 
 }
-.middle-content .boxes .teal .darkorchid{
-    background-color: teal !important
+.middle-content .boxes .hotpink{
+    background-color: hotpink 
 
 }
-.middle-content .boxes .teal .forestgreen{
-    background-color: teal !important
+.middle-content .boxes .indigo{
+    background-color: indigo 
 
 }
-.middle-content .boxes .teal .forestgreen{
-    background-color: teal !important
+.middle-content .boxes .dodgerblue{
+    background-color: dodgerblue 
 
-}
 
 
 /* About Page */
