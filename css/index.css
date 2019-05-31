@@ -99,6 +99,7 @@ nav {
 .nav-item:hover a {
     color: red;
     font-size: 20px;
+    transition: font-size 0.3s ease;
 }
 
 .futurephoto {
@@ -232,6 +233,7 @@ footer nav a {
 
 footer nav a:hover {
     font-size: 20px;
+    transition: font-size 0.3s ease;
 }
 
 button {
