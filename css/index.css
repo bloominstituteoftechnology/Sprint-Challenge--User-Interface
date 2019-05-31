@@ -325,8 +325,9 @@ footer nav a {
 
 
 .bottom-section-about {
+    flex-wrap: wrap;
     align-content: center;
-    margin: 10px, 50px;
-    padding: 90px;
+    margin: auto;
+    padding: 20px;
     
 }
