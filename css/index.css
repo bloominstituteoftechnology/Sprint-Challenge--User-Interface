@@ -61,6 +61,8 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 p {
@@ -68,6 +70,8 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
     width: 800px;
     margin: 0 auto;
 }
@@ -82,7 +86,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 40%;
     padding: 0 1%;
     padding-bottom: 20px; 
     padding-top: 20px; 
@@ -95,6 +99,7 @@ p {
 }
 
 .middle-content h2 {
+    width: 100%;
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -106,7 +111,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 15%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -114,6 +119,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .bottom-content {
@@ -136,7 +142,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
