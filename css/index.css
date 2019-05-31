@@ -145,6 +145,9 @@ footer nav a {
     text-decoration: none;
 }
 
+/********** Start of personal code **********/
+/********** Site-wide **********/
+
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -168,6 +171,8 @@ footer nav a {
 .index-header-img {
     margin-bottom: 3%;
 }
+
+/********** index.html **********/
 
 .boxes .box:nth-of-type(1) {
     background: teal;
@@ -208,3 +213,13 @@ footer nav a {
 .boxes .box:nth-of-type(10) {
     background: dodgerblue;
 }
+
+/********** about.html **********/
+
+.text-container button {
+    border-radius: 10px;
+    border: 2px solid black;
+    background: white;
+    padding: 1% 3%;
+}
+
