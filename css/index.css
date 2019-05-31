@@ -325,8 +325,8 @@ section{
 }
 .button_css
 {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	width: 150px;
 	height: 40px;
 }
