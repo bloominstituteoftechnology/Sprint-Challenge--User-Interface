@@ -1,0 +1,11 @@
+Answers to questions:
+
+1. Adds meaning to a web page and provides info for SEO.
+
+2. Inline-block allows to set a width and height on the element.  Block: top and bottom margins are not respected and a line break is added.
+
+3. Margin, border, padding and content.
+
+4. Cross-axis within the line.
+
+5. It's allows different versions of your edits to me shared: Time machine.
