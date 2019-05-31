@@ -109,6 +109,9 @@ nav {
 .cityphoto {
     padding: 40px 210px 20px 210px;
 }
+.contactphoto {
+    padding: 40px 210px 20px 210px;
+}
 
 p {
     line-height: 1.4;
@@ -268,4 +271,16 @@ button {
 
 .titles:hover {
     color: lawngreen;
+}
+.cPage {
+    display: flex;
+    flex-direction: column;
+}
+.questions{
+    width:100%;
+}
+
+.cb{
+    background: red;
+    color: white;
 }
