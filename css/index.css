@@ -239,12 +239,18 @@ footer nav a {
 
 .nav-1 {
   margin-left: auto;
+}
+.nav-1 a {
+  text-decoration: none;
   padding-right: 30px;
 }
 
 .about {
   margin-bottom: 10px;
   border-bottom: 1px dashed;
+}
+.about p {
+  margin-bottom: 10px;
 }
 
 .sec-2 {
@@ -261,5 +267,18 @@ footer nav a {
   border-bottom: 1px solid;
   flex-basis: 10%;
   margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.b {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.b button {
+  background-color: blue;
+}
+
+.lw {
   margin-bottom: 20px;
 }
