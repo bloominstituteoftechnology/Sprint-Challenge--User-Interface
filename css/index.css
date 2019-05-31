@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +144,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.menubar {
+    
+    margin-left:20px;
+    padding-bottom: 40px;
+    width: 100%;
+
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    padding-bottom: 17px;
+}
+a {
+    text-decoration: none;  
+    color: black;
+}
+.menubar-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-around;
+    padding-top: 30px
+
+
+
+
+
 }
