@@ -1,0 +1,208 @@
+.MasterContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 890px;
+	margin: 0 0;
+	margin-top: 25px;
+}
+
+.container nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: gray;
+	margin: 10px 15px;
+}
+
+nav a:first {
+	margin-left: 0;
+}
+
+nav a:last {
+	margin-right: 0;
+}
+
+.Inno {
+  display: flex;
+  justify-content: space-around;
+  font-size: 77px;
+  margin-top: 120px;
+  text-align: center;
+  padding: 0px 75px;
+}
+
+.Inno-Bold button {
+	background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;	
+}
+
+.header-img {
+	width: 45%;
+}
+
+.middle-img {
+	display: flex;
+	margin-top: 69px;
+}
+
+.services-header-img {
+	align-content: center;
+	width: 90%;
+}
+
+.services-info-img {
+	
+	width: 100%;
+	margin: auto;
+}
+
+.Top {
+	border-top: 1px solid black;
+  	margin-top: 76px;
+  	padding-top: 39px;
+}
+
+.Top .Top1 {
+	padding: 0 10px;
+}
+
+.Top .Top1 .Top1-text {
+	width: 375px;
+  	display: flex;
+  	margin-right: 34px;
+}
+
+.Top .Top1 .Top1-text:last {
+	margin-right: 0;
+}
+
+.Top .middle-img {
+	margin: 35px;
+}
+
+.Top .Bottom {
+	margin-top: 37px;
+  	padding: 0 10px;
+}
+
+.Top .Bottom .Bottom-text {
+	width: 250px;
+  	display: flex;
+  	margin-right: 12px;
+}
+
+.Top .Bottom .Bottom-text:last {
+	margin-right: 0;
+}
+
+.Contact {
+	margin-top: 57px;
+  	border-top: 1px solid black;
+  	padding: 39px 10px 0;
+}
+
+.Contact p {
+	margin: 20px 0;
+}
+
+footer {
+	margin: 32px 0;
+  	text-align: center;
+  	font-size: 14px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+.Content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.Content2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+	justify-content: space-evenly;
+}
+
+.Content3 {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 50%;
+	justify-content: space-evenly;
+	border: 1px solid blue;
+}
+
+.ContentBox {
+	display: flex;
+	border: 1px solid black;
+	width: 420px;
+	align-content: space-between;
+	flex-direction: column;
+	padding: 10px;
+	margin: 25px 0;
+}
+
+.ContentBox button {
+	font-size: 10px;
+	width: 100px;
+	margin: 15px 0;
+	padding: 15px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.Facts {
+	display: flex;
+	width: 450px;
+	align-content: center;
+	flex-direction: column;
+	padding: 45px;
+	margin: 15px 0;
+}
+
+.Services {
+	display: flex;
+	width: 90%;
+	align-content: flex-start;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 15px;
+	margin: 25px 30px;
+}
+
+.ThingList li {	
+	width: 250px;
+	align-content: flex-start;
+	
+	padding: 5px;
+	margin: 0 45px;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+hr {
+	width: 91%;
+	border: 2px solid black;
+}
