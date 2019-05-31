@@ -174,7 +174,7 @@ a {
 }
 
 .jumbo {
-    padding-top: 40px;
+    padding-top: 70px;
 }
 
 .middle-content .boxes .teal{
@@ -230,46 +230,64 @@ hr {
     margin: 40px 0;
 }
 
-hr .sections {
-    width: 20px;
+h1 {
+    padding-top: 20px
 }
+button {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    border-radius: 5px;
+    border:black 2px solid;
+    margin-top: 20px;
+}
+
+.sections {
+    overflow: hidden;
+    display: flex;
+    width: 92%
+    
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: black 1px solid;
     width: 100%
 }
 
 .strategy {
     display: flex;
     flex-wrap: wrap;
-    border: black 1px solid;
+    
     width: 50%;
-    background-color: yellow
+    
     
 }
 .how {
     display: flex;
     flex-wrap: wrap;
-    border: black 1px solid;
+    
     width: 50%;
-    background-color: orange
+    
     
 }
 .places {
     display: flex;
     flex-wrap: wrap;
-    border: black 1px solid;
     width: 50%;
-    background-color: yellow
+    
     
 }
 .collab {
     display: flex;
     flex-wrap: wrap;
-    border: black 1px solid;
     width: 50%;
-    background-color: orange
+    
     
 }
+
+footer {
+    margin-top: 40px
+}
+
