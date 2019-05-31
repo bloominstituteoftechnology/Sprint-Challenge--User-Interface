@@ -93,103 +93,67 @@ header nav a:hover {
 	color: blue;
 }
 
-.jumbo {
-	margin: 50px 0px 20px 0px;
+.contact-form {
+    width: 85%;
+    max-width: 600px;
+    background: lightgrey;
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    transform: translate(100px, 0px);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.contact-form h1 {
+    margin-top: 0;
+    font-weight: 200;
+
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
+.textbox {
+    border: 1px solid grey;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.textbox label {
+    display: block;
+    text-align: left;
+    color: #333;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.textbox input {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.textbox textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+.button {
+    display: inline-block;
+    width: 100%;
+    background: dodgerblue;
+    padding: 15px 0;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#box1 {
-	background-color: teal;
-}
-
-#box2 {
-	background-color: gold;
-}
-
-#box3 {
-	background-color: cadetblue;
-}
-
-#box4 {
-	background-color: coral;
-}
-
-#box5 {
-	background-color: crimson;
-}
-
-#box6 {
-	background-color: forestgreen;
-}
-
-#box7 {
-	background-color: darkorchid;
-}
-
-#box8 {
-	background-color: hotpink;
-}
-
-#box9 {
-	background-color: indigo;
-}
-
-#box10 {
-	background-color: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    cursor: pointer;
+    margin-top: 8px;
+    border-radius: 10px;
 }
 
 footer {

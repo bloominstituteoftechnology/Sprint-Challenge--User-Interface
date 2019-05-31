@@ -1,0 +1,29 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML allows you to mark up your HTML meaningfully, making the code cleaner, easier to follow/understand and organize, and allows for greater SEO.
+It also gives a uniform standard for all developers to follow so that, assuming proper semantics are followed, any developer from anywhere could look at any given HTML document and understand its various elements and their significance.
+
+Name two big differences between display: block; and display: inline;.
+
+display:block starts on a new line and takes up all available width, stretching as far out as it can
+
+display:inline does not start a new line and only takes up as much width as the content it surrounds
+
+What are the 4 areas of the box model?
+
+Content: The actual content
+Padding: Space between the content and its border
+Border: The border around the content
+Margin: The space between the border and other elements
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+Cross axis
+
+Explain why git is valuable to a team of developers.
+
+1. Version control/time travel: It allows devs to go back to previous versions of a code if something goes wrong along the way
+
+2. Forking/branching: Multiple devs can be working on the same project without fear of saving over each other's work or ruining a project due to different parts of the code not working well together
+
+3. Streamlined Terminal Interface: Allows devs to quickly upload their work to GitHub without having to manually upload files or navigate a GUI-based application
