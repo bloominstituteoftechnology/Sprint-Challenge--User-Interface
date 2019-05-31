@@ -295,18 +295,10 @@ display: flex;
 
   .cards {
     display: flex;
-
-    align-items: stretch;
-  }
-  .card {
-    margin: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  } 
-  .cards {
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
+    border-bottom:1px solid black;
+
   }
   .card {
     flex: 0 0 300px;
@@ -327,3 +319,7 @@ display: flex;
     padding: 10px;
     width: 100%;
     }
+section{
+    border-bottom:1px solid black;
+
+}
