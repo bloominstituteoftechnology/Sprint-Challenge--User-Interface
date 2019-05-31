@@ -232,13 +232,9 @@ footer nav a {
   border-top: 2px dashed;
   padding-top: 10px;
 }
-// about page//
-
-
 .container {
-    width: 820px;
-    padding: 10px;
-    
+  width: 800px;
+  margin: 0 auto;
 }
 .header-img {
   margin: 22px 0px;
@@ -248,7 +244,7 @@ footer nav a {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  margin: 15px 0;
+  margin: 25px 0;
 }
 .nav-bar a {
   display: block;
@@ -256,26 +252,33 @@ footer nav a {
   text-align: center;
   color: black;
   text-decoration: none;
+  width: 115px;
+  height: 35px;
+  padding: 20px 0;
 }
 .about-header {
   padding-bottom: 15px;
   margin-bottom: 15px;
-  border-bottom: 2px dashed;
+  border-bottom: 1px dashed;
 }
-.middle-container {
+.middle-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  border-bottom: 2px dashed;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.middle-container {
+  width: 385px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  border-bottom: 1px dashed;
 }
 .about-container {
-  width: 400px;
-  border-bottom: 2px solid;
-  margin-bottom: 20px;
-  padding: 10px;
+  margin-top: 15px;
 }
 
-}
 .middle-container button {
   font-size: 15px;
   margin: 15px 0px;
@@ -284,55 +287,48 @@ footer nav a {
   border-radius: 9px;
   padding: 8px 30px;
 }
-.container-end {
-    padding: 10px;
-    
+.end-container {
+  margin: 35px 15px;
 }
 
-.about-footer {
-  padding-bottom: 100px;
-  margin: 20px 0px;
-  justify-content: center;
+/*  */
+
+.middle-content .boxes .box:nth-of-type(1) {
+  background-color: teal;
 }
 
-// index //
-
-#box1 {
-  background: teal;
+.middle-content .boxes .box:nth-of-type(2) {
+  background-color: gold;
 }
 
-#box2 {
-  background: gold;
-}
-
-#box3 {
+.middle-content .boxes .box:nth-of-type(3) {
   background: cadetblue;
 }
 
-#box4 {
+.middle-content .boxes .box:nth-of-type(4) {
   background: coral;
 }
 
-#box5 {
+.middle-content .boxes .box:nth-of-type(5) {
   background: crimson;
 }
 
-#box6 {
+.middle-content .boxes .box:nth-of-type(6) {
   background: forestgreen;
 }
 
-#box7 {
-  background: darkorchid;
+.middle-content .boxes .box:nth-of-type(7) {
+  background-color: darkorchid;
 }
 
-#box8 {
+.middle-content .boxes .box:nth-of-type(8) {
   background: hotpink;
 }
 
-#box9 {
+.middle-content .boxes .box:nth-of-type(9) {
   background: indigo;
 }
 
-#box10 {
+.middle-content .boxes .box:nth-of-type(10) {
   background: dodgerblue;
 }
