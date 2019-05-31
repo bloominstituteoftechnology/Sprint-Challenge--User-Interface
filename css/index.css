@@ -189,30 +189,32 @@ footer nav a {
 }
 
 #conab {border-bottom: dashed 1px;
-padding-bottom:20px; }
+padding-bottom:20px; 
+margin-bottom: 40px}
 
 .flex-cont{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align:left;
    justify-content: center;
-   justify-content: space-evenly;
+   justify-content: space-evenly;  width: 800px;
+   margin: 0 auto;
     
 }
  .strategy {
-    border: 1px solid red; 
     border-bottom: dashed 1px;
      padding-bottom: 20px;
-     max-width: 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
      
      
  }
  .How {
     border-bottom: dashed 1px;
     padding-bottom: 20px;
-    max-width: 50%
+    max-width: 50%;
+    margin-bottom: 20px
  }
  .Places{
 
@@ -226,7 +228,11 @@ padding-bottom:20px; }
     max-width: 50%
  }
  .Together{
-     padding-top: 40px;
-margin-left: 10%;
+padding-top: 40px;
+
+margin-left: 32%;
+margin-right: 32%;
+flex-wrap: wrap;
 padding-bottom: 40px;
+line-height: 20px
     }
