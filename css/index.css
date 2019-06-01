@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -71,18 +71,53 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+header nav a {
+	color: black;
+	text-decoration: none;
+	padding-top: 20px;
+	margin-right: 30px;
+    padding-bottom: 10px;
+}
+header nav a:hover {
+	border: 1px solid black;
+	background-color: black;
+	color: green;
+	transition-duration: 1.5s;
+	border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+img:hover {
+	opacity: .7;
+	transition-duration: 2s;
+}
+
+.top-pic {
+	padding-top: 30px;
+}
+
+.top-banner {
+	padding-top: 30px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+	padding-top: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -111,7 +146,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1 {
+	background-color: teal;
+}
+.middle-content .boxes .box2 {
+	background-color: gold;
+}
+.middle-content .boxes .box3 {
+	background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+	background-color: coral;
+}
+.middle-content .boxes .box5 {
+	background-color: crimson;
+}
+.middle-content .boxes .box6 {
+	background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+	background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+	background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+	background-color: indigo;
+}
+.middle-content .boxes .box10 {
+	background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -132,7 +196,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,5 +206,177 @@ footer nav {
 
 footer nav a {
     color: white;
+    font-weight: bold;
     text-decoration: none;
+	
 }
+footer nav a:hover {
+	color: green;
+	text-decoration: none;
+	transition-duration: 2s;
+}
+/* Home page CSS ends here */
+
+/* About Page CSS begins here */
+.about-top-content {
+	width: 800px;
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.about-top {
+	border-bottom: 1px dashed black;
+}
+.about-text,.about-text2  {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+.about-text img,
+.about-text2 img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.about-text .strategy {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-right: 10px;
+}
+.about-text .working {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.about-text2 .places {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-right: 10px;
+}
+.about-text2 .collaboration {
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+.bottom-text {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+.button {
+	text-align: center;
+	font-size: 18px;
+	width: 140px;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	cursor: pointer;
+	padding: 5px;
+	margin-top: 20px;
+}
+.button:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	transition-duration: 0.5s;
+}
+/* About Page CSS ends here */
+
+
+
+/* Contact Page CSS begins here */
+
+.form-title {
+  text-align: center;
+  background-color:lightgrey;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  margin: 40px 0;
+  padding: 10px;
+}
+.form-title h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact-form {
+  background-color: lightgrey;
+  border: 1px solid black;
+  border-radius: 3px;
+
+  width: 100%;
+  padding: 50px;
+  margin: 0 0 40px 0;
+}
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type='text'],
+.form-row input[type='email'] {
+  background-color: lightgrey;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid {
+  border: 1px solid black;
+  color: black;
+  box-shadow: none; 
+ }
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
+
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+}
+
+.form-row .instructions {
+  color: black;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: black;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: white;
+	color: black
+}
+
+.form-row button:active {
+  background-color: black;
+}
+
+/* Contact page CSS ends here */
