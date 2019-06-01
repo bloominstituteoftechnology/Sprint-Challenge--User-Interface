@@ -163,6 +163,10 @@ a {
     color: black;
     text-decoration: none;
     margin-right: 60px;
+    
+      
+
+      
 }
 
 .top-content img {
@@ -171,6 +175,7 @@ a {
 
 .middle-content .boxes .box:first-child {
     background-color: #008080;
+    
 }
 
 .middle-content .boxes .box:nth-child(4n+2) {
@@ -283,3 +288,143 @@ header {
 .button {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+/* Blog */
+.top-content-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    margin: 10% 0;
+    min-height: 200px;
+    background-color: teal;
+    align-items: center;
+    font-style:bold;
+    border-radius: 25px;
+  color:white;
+  
+} 
+
+.bloglogo {
+    width: 100%;
+    height: auto;
+  }
+
+/* contact */
+.contact-us h2 {
+    font-size: 20px;
+  }
+  .contact-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  .contact-form {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0;
+  }
+  
+  .form-contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form a {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    height: 2rem;
+    width: 50%;
+  }
+
+   /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
+
+/* Products /*
+
+
+.product-filter {
+  display: flex;
+}
+
+.product-filter h1 {
+  flex-grow: 1;
+}
+.sort {
+  display: flex;
+}
+
+.collection-sort {
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+
+
+}
+
+.product-card {
+    flex: 1 16%;
+  }
+
+  .product-image img {
+    max-width: 100%;
+  }
