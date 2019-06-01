@@ -1,0 +1,36 @@
+Self Study Questions
+Mark French Web21
+5/31/2019
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+It's using tags that make it more clear what's going on in the code:  <p> instead of <span>, <header> instead of <div>, etc.  Using more decriptive tags to bring new clarity to the code
+
+2. Name two big differences between display: block; and display: inline;.
+
+* Inline lets you more easily manage child elements on the same line.
+
+
+3. What are the 4 areas of the box model?
+
+* Margins on the outside
+ 
+* Borders on the outside
+
+* Padding around the content and inside the borders
+
+* Content
+
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+
+* Works on the cross axis.
+
+
+
+5. Explain why git is valuable to a team of developers.
+
+It's a way to keep your work local so that you don't add to the project until you're ready, and the versions and modifications are managable. 
+
+

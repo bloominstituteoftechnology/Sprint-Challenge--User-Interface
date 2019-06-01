@@ -112,6 +112,37 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -127,12 +158,14 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
+    margin-left: 50px;
+    margin: 0 auto;
 }
 
 footer nav {
-    width: 60%;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,3 +177,132 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*My code starts vhere*/
+
+/*header*/
+header {
+    width: 800px;
+    margin: 0 auto;
+}
+/* nav section*/
+nav {
+    disooter nav
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+}
+
+footer nav a {
+justify-content: flex-end;
+margin-top: 20px;
+}
+    jusooter nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+}
+
+footer nav a {
+justify-content: flex-end;
+margin-top: 20px;
+}
+    fleooter nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+
+}
+
+footer nav a {
+justify-content: flex-end;
+margin-top: 20px;
+}
+   
+    
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+nav a {
+justify-content: flex-end;
+margin-top: 20px;
+text-decoration:none;
+color: black;
+justify-content: flex-end;
+margin-top: 20px;
+}
+
+/*#logo{
+    justify-content: flex-start;
+    
+}*/
+
+#headerimage{
+    margin-top: 50px;
+    width: 1200px;
+    height: auto;
+    margin-bottom: 30px;
+    }
+/*"About" page starts here*/
+
+#about-container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+    padding: 20px;
+      
+}
+#about-text{
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*#about-text p {
+    margin-bottom: 20px;
+}*/
+
+
+.body-images{
+    display: inline-flex;
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+    }
+
+.body-images img {
+    margin: 15px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.body-container{
+    display:flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.body-text {
+    display:inline-flex;
+    width:350px;
+    flex-wrap: wrap;
+    margin-left: 20px; 
+    justify-content: space-between;
+}
+
+/*Finished*/
