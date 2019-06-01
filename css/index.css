@@ -297,20 +297,30 @@ p {
     border: 2px solid black;
     text-align: center;
     border-radius: 10px;
-    background-color: #FF2E2E;
     animation-name: background-color;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
 @keyframes background-color {
-    100% {
-    background-color: #FFD400;
-    background-color: #48FF00;
-    background-color: #FFD400;
-    background-color: #48FF00;
-    background-color: #4586FF;
-    background-color: #B22EFF;
+    0% {
+        background-color: #FF2E2E;
+    }
+    16.7% {
+        background-color: #FFD400;
+    }
+    33.3% {background-color: #48FF00;
+    }
+    50% {
+        background-color: #FFD400;
+    }
+    66.9% { 
+        background-color: #48FF00;
+    }
+    83.4% {
+        background-color: #4586FF;
+    }
+    100% {background-color: #B22EFF;
     }
 }
 
