@@ -1,4 +1,6 @@
 Self Study Questions
+Mark French Web21
+5/31/2019
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
