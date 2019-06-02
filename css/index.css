@@ -190,7 +190,7 @@ p {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
+  /* background: black; */
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -298,4 +298,44 @@ h6 {
 
 .p12 {
   padding-bottom: 40px;
+}
+
+.b1 {
+  background: cadetblue;
+}
+
+.b2 {
+  background: yellow;
+}
+
+.b3 {
+  background: cadetblue;
+}
+
+.b4 {
+  background: orange;
+}
+
+.b5 {
+  background: red;
+}
+
+.b6 {
+  background: green;
+}
+
+.b7 {
+  background: purple;
+}
+
+.b8 {
+  background: palevioletred;
+}
+
+.b9 {
+  background: purple;
+}
+
+.b10 {
+  background: blue;
 }
