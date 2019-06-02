@@ -107,7 +107,9 @@ p {
     padding-bottom: 20px;  
 }
 
-
+.top-image{
+    padding-bottom: 20px;
+}
 
 button{
     border: 2px solid black;
