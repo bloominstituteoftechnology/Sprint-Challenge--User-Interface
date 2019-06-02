@@ -248,13 +248,44 @@ h1 {
 }
 
 h1,
-p {
+.p11 {
   padding-left: 15px;
 }
 
-p {
+.p11,
+.line {
   border-bottom: dashed;
   padding-bottom: 17px;
   border-bottom-width: thin;
-  border-spacing: 50px;
+}
+
+#text {
+  display: flex;
+  flex: 50%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.i1,
+.i2,
+.i3,
+.i4 {
+  padding: 15px;
+}
+
+.lm {
+  border: solid black;
+  max-width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
 }
