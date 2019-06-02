@@ -134,4 +134,4 @@ I found the instructions easy to follow and simple to understand.
 The flex was a bit challenging for me, I think that if I  continue to apply these ontop of what we going to learn, I will really conquer this.
 
 **What are your plan of actions to successfully complete next week's Sprint Challenge on time?**
-I'll continue to build more flex structured layouts to help me understand positionings and the floats better. My first course of action was to spend at least 30 minutes each day building something and understanding why things work and dont work. I want to dedicate more time in the weekends especially now that we are just getting started with this course, I feel it's a perfect opportunity to do so.   
+I'll continue to build more flex structured layouts to help me understand positionings and the floats better. My first course of action was to spend at least 30 minutes each day building something and understanding why things work and dont work. I want to dedicate more time in the weekends especially now that we are just getting started with this course, I feel it's a perfect opportunity to do so..
