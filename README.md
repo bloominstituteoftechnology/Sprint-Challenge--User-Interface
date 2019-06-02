@@ -74,16 +74,16 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ :white_check_mark: ] box1: `teal`
-* [:white_check_mark:  ] box2: `gold`
-* [  :white_check_mark:] box3: `cadetblue`
-* [ :white_check_mark: ] box4: `coral`
-* [ :white_check_mark: ] box5: `crimson`
-* [ :white_check_mark:  ] box6: `forestgreen`
-* [ :white_check_mark:  ] box7: `darkorchid`
-* [ :white_check_mark: ] box8: `hotpink`
-* [  :white_check_mark: ] box9: `indigo`
-* [ :white_check_mark: ] box10: `dodgerblue`
+* :white_check_mark: box1: `teal`
+* :white_check_mark: box2: `gold`
+* :white_check_mark: box3: `cadetblue`
+* :white_check_mark: box4: `coral`
+* :white_check_mark: box5: `crimson`
+* :white_check_mark: box6: `forestgreen`
+* :white_check_mark: box7: `darkorchid`
+* :white_check_mark: box8: `hotpink`
+* :white_check_mark: box9: `indigo`
+* :white_check_mark: box10: `dodgerblue`
 
 ### About Page
 
