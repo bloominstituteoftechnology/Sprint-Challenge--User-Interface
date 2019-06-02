@@ -234,7 +234,7 @@ footer nav a {
 nav > a {
   color: black;
   text-decoration: none;
-  margin: 38px;
+  margin: 0px 38px;
   font-size: 14px;
 }
 
@@ -288,4 +288,14 @@ h1,
   max-width: fit-content;
   border-radius: 10px;
   padding: 10px;
+}
+
+h6 {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.p12 {
+  padding-bottom: 40px;
 }
