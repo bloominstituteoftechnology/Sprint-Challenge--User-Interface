@@ -242,3 +242,19 @@ nav {
   padding-bottom: 35px;
   padding-top: 35px;
 }
+
+h1 {
+  padding-top: 20px;
+}
+
+h1,
+p {
+  padding-left: 15px;
+}
+
+p {
+  border-bottom: dashed;
+  padding-bottom: 17px;
+  border-bottom-width: thin;
+  border-spacing: 50px;
+}
