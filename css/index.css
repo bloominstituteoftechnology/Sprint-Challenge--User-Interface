@@ -301,11 +301,11 @@ h6 {
 }
 
 .b1 {
-  background: cadetblue;
+  background: teal;
 }
 
 .b2 {
-  background: yellow;
+  background: gold;
 }
 
 .b3 {
@@ -313,29 +313,29 @@ h6 {
 }
 
 .b4 {
-  background: orange;
+  background: coral;
 }
 
 .b5 {
-  background: red;
+  background: crimson;
 }
 
 .b6 {
-  background: green;
+  background: forestgreen;
 }
 
 .b7 {
-  background: purple;
+  background: darkorchid;
 }
 
 .b8 {
-  background: palevioletred;
+  background: hotpink;
 }
 
 .b9 {
-  background: purple;
+  background: indigo;
 }
 
 .b10 {
-  background: blue;
+  background: dodgerblue;
 }
