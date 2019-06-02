@@ -61,7 +61,7 @@ You are expected to be able to answer all these questions. Your responses contri
 ## Project Set Up
 
 - :white_check_mark: Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
+- :white_check_mark: Add your project manager as collaborator on Github.
 - :white_check_mark: Clone your OWN version of the repository (Not Lambda's by mistake!).
 - :white_check_mark: Create a new branch: git checkout -b `<firstName-lastName>`.
 - :white_check_mark: Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
@@ -83,7 +83,7 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
+* :white_check_mark: Build the HTML and CSS to create the missing navigation and header.
 * :white_check_mark: Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
@@ -106,7 +106,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * :white_check_mark: Copy and paste your home page navigation and header into the about page
 * :white_check_mark: Update the header image with the about page image
 * :white_check_mark: Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* :white_check_mark: Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
