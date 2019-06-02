@@ -69,7 +69,7 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- :white_check_mark: Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
@@ -118,3 +118,20 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+
+## Additional Questions
+
+**What did you find *difficult* about the Sprint?**
+
+How to get started, and getting into the momentum. I also struggled with pull requests. 
+
+**What did you find *easy* about the Sprint?** 
+I found the instructions easy to follow and simple to understand. 
+
+
+**Are there any concepts that you find that you *don't understand* that was taught from the week?**
+The flex was a bit challenging for me, I think that if I  continue to apply these ontop of what we going to learn, I will really conquer this.
+
+**What are your plan of actions to successfully complete next week's Sprint Challenge on time?**
+I'll continue to build more flex structured layouts to help me understand positionings and the floats better. My first course of action was to spend at least 30 minutes each day building something and understanding why things work and dont work. I want to dedicate more time in the weekends especially now that we are just getting started with this course, I feel it's a perfect opportunity to do so.   
