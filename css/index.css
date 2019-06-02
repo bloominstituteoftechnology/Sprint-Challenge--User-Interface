@@ -93,10 +93,27 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+button{
+    border: 2px solid black;
+    background: white;
+    display: block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0px 0px 20px;
 }
 
 .middle-content {
