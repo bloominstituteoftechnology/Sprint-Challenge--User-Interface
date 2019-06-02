@@ -107,6 +107,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+
 button{
     border: 2px solid black;
     background: white;
@@ -160,7 +162,9 @@ button{
 
 
 
-
+.bottom-content-about{
+    padding: 20px 20px 25px 0px;
+}
 
 .bottom-content {
     display: flex;
