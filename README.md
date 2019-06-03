@@ -5,7 +5,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
-
+Mimi
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
 You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
@@ -33,15 +33,17 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+It's like marking up an essay so it makes more sense to the person who's trying to fix it
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Takes up the full width available, with a new line before and after (display:block;)
+Takes up only as much width as it needs, and does not force new lines (display:inline;)
 
 3. What are the 4 areas of the box model?
-
+Content padding margin and border
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+Cross axis
 5. Explain why git is valuable to a team of developers.
-
+It prevents you from messing with the master file, it allows your team to make appropriate changes in the code. You can also know what changes have be made to the source code and by whom.
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up

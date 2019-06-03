@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    
+    
+  
 }
 
 p {
@@ -67,22 +70,26 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
+    font-weight: bold;
+    
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 40%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+     
 }
 
 .middle-content {
@@ -93,6 +100,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    
 }
 
 .middle-content .boxes {
@@ -110,11 +118,42 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-
+#teal {
+    background: teal;
+}
+#gold {
+    background: gold;
+}
+#cadetblue {
+    background: cadetblue;
+    
+}
+#coral {
+    background: coral;
+}
+#crimson {
+    background: crimson;
+}
+#forestgreen{
+    background: forestgreen;
+}
+#darkorchid{
+    background: darkorchid;
+}
+#hotpink{
+    background: hotpink;
+}
+#indigo {
+    background: indigo;
+}
+#dodgerblue {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 40px;
     justify-content: space-around;
 }
 
@@ -134,7 +173,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +182,85 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    align-items: flex-end;
+    margin-right: 15px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+ 
+nav a:hover{
+    font-size: 16px;
+    transition: 1s;
+}
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.aboutBoxes{
+    width: 40%;
+}
+
+.jumboImg{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .jumboImg{
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
+.about{
+    padding: 0px 20px 20px 20px;
+    font-weight: bold;
+}
+.rowl{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+.aboutBoxes{
+    width: 48%;
+}
+
+.aboutBoxes h2{
+    margin-top: 15px;
+}
+
+.button{
+    margin-top: 20px;
+    border: 2x solid black;
+    border-radius: 10px;
+    width: 130px;
+    padding: 7px;
+    text-align: center;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
 }
