@@ -70,6 +70,37 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Header Styles */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header .logo {
+    margin: 15px 0 0 0;
+}
+
 
 .top-content {
     display: flex;
