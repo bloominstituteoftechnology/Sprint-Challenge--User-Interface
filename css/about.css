@@ -71,14 +71,20 @@ p {
     margin: 0 auto;
 }
 
-header {
+header nav{
     display: flex;
-    width: 95%;
-    margin: 0 auto;
-    padding: 10px 0;
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px 0;
 }
 
-nav { 
+header img.about{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+    
+    nav { 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -96,7 +102,94 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    background-color: skyblue;
+    color: plum;
+}
+
 nav img .about {
-    width: 85%;
-    marin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header-about h1 {
+    padding-top: 20px;
+}
+
+.header-about p {
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px dashed black;
+}
+
+.middle-text {
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+	padding: 20px;
+}
+
+.middle-text h3 {
+    padding-top: 10px;
+}
+
+.pictures-with-text { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 49%;
+    padding:20px;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+    
+button {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 40%;
+    height: 40px;
+}
+
+button:hover {
+    background-color: lightyellow;
+    color: purple;
+}
+
+ .bottom-text {
+     padding: 20px;
+     width: 100%;
+     margin: 0 auto;
+ }
+
+ .bottom-text p {
+     padding-bottom: 30px;
+ }
+
+footer {
+    width: 100%;
+    background: black;
+    height: 60px;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
