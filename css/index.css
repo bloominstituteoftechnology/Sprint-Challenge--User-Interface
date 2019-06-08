@@ -144,3 +144,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.nav-bar{
+    border: 3px solid red;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+ul{
+    background: yellow;
+}
+li{
+    position: relative;
+    display: inline;
+    margin: 0 50px;
+    left: 300px;
+}
+
+.about{
+    border: 3px solid green;
+    margin-top: 200px;
+}
