@@ -71,12 +71,47 @@ p {
     margin: 0 auto;
 }
 
+.header {
+	display: flex;
+	align-items: center;
+	padding-bottom: 60px;
+}
+
+.banner{
+    margin: 20px 0 20px;
+    display: flex;
+}
+.top-navigation{
+	margin-top: 30px;
+	display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.top-navigation nav {
+    margin: 20px 0 0 60px;
+    justify-content: space-evenly;
+}
+
+.top-navigation nav a {
+	margin-right: 68px;
+    color: black;
+    font-size: 15px;
+	text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.inner{
+    display: flex;
+    flex-flow: row wrap;
+  	justify-content: space-between;
 }
 
 .top-content .text-container {
@@ -101,15 +136,47 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-teal{
+    background-color: teal;
+}
+.box-gold{
+    background-color: gold;
+}
+.box-cadetblue{
+    background-color: cadetblue;
+}
+.box-coral{
+    background-color: coral;
+}
+.box-crimson{
+    background-color: crimson;
+}
+.box-forestgreen{
+    background-color: forestgreen;
+}
+.box-darkorchid{
+    background-color: darkorchid;
+}
+
+.box-hotpink{
+    background-color: hotpink;
+}
+.box-indigo{
+    background-color: indigo;
+}
+.box-dodgerblue{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +210,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About CSS */
+.about{
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+}
+.about-content {
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	/* align-content: space-between; */
+}
+
+.about-content button {
+	height: 30px;
+	width: 110px;
+	margin-top: 20px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 8px;
+
+}
+
+ .about-content div {
+	border-bottom: 1px dotted black;
+    width: 48%;
+    margin: 20px 1%;
+    padding-bottom: 20px; 
+    /* margin-top: 20px;  */
+}
+
+.info-module img {
+    margin-bottom: 20px;
+}
+
+.call {
+    padding-bottom: 30px; 
 }
