@@ -71,6 +71,12 @@ p {
     margin: 0 auto;
 }
 
+.navbar-top {
+    color: black;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +149,76 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: teal;
+    margin: 20px 20px 20px 20px;
+}
+
+.box2 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: gold;
+    margin: 20px 20px 20px 20px;
+}
+
+.box3 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: cadetblue;
+    margin: 20px 20px 20px 20px;
+}
+
+.box4 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: coral;
+    margin: 20px 20px 20px 20px;
+}
+
+.box5 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: crimson;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.box6 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: forestgreen;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.box7 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: darkorchid;
+    margin: 20px 20px 20px 20px;
+}
+
+.box8 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: hotpink;
+    margin: 20px 20px 20px 20px; 
+}
+
+.box9 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: indigo;
+    margin: 20px 20px 20px 20px;
+}
+
+.box10 {
+    color: white;
+    padding: 50px 50px 50px 50px;
+    background-color: dodgerblue;
+    margin: 20px 20px 20px 20px;
 }
