@@ -264,6 +264,12 @@ footer nav a {
 
 .section1 {
     display: flex;
-    flex-flow: nowrap;
-    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+.section1 div {
+    width: 900px;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
+    align-items: center;
 }
