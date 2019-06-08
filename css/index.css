@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-    font-size: 90%;
 }
 
 .container {
@@ -90,13 +89,14 @@ p {
 }
 
 .top-navigation nav {
-    margin-left: 60px;
+    margin: 20px 0 0 60px;
     justify-content: space-evenly;
 }
 
 .top-navigation nav a {
-	margin-right: 60px;
-	color: black;
+	margin-right: 68px;
+    color: black;
+    font-size: 15px;
 	text-decoration: none;
 }
 
