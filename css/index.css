@@ -127,7 +127,7 @@ img.Top-picture{
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    
     margin-bottom: 0;
 }
 
@@ -148,6 +148,12 @@ img.Top-picture{
     justify-content: center;
 }
 
+div.boxes .box:first-child{
+    background: teal;
+}
+div.boxes .box:second-child{
+    background: gold;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -188,7 +194,7 @@ width: 375px;
     
 margin-top: 30px;
     
-border: 1px solid black;
+
     
 margin-right: 0px;
 }
@@ -200,13 +206,14 @@ width: 400px;
     
 margin-top: 30px;
     
-border: 1px solid black;
+
     
 margin-right: 0px;
 }
 div.text-container2{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 img.middle-picture2{
     margin-left: 20px;
@@ -215,13 +222,31 @@ div.places{
     height: 150px;
     width: 375px;
     margin-top: 30px;
-    border: 1px solid black;
+    
     margin-right: 0px;
 }
 div.Collaboration{
     height: 150px;
     width: 400px;
     margin-top: 30px;
-    border: 1px solid black;
     margin-right: 0px;
+}
+div.middle-tex{
+    margin-top: 40px;
+}
+footer{
+    margin-top: 40px;
+}
+button{
+    border: 1px double black;
+    font-size: 16px;
+    background: white;
+    width: 150px;
+    height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+    color: white;
 }
