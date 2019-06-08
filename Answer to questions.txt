@@ -1,0 +1,21 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+introduces meaning to the web page rather than just presentation. layers items per priority and which items takes precedence on a webpage.
+
+Name two big differences between display: block; and display: inline;.
+
+the major difference is that display: inline-block allows to set a width and height on the element.
+
+display: block means that the element is displayed as a block, as paragraphs and headers
+
+What are the 4 areas of the box model?
+
+margin, border, content, padding area
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+X axis
+
+Explain why git is valuable to a team of developers.
+
+it allows for easy collaboration and tracking changes within developer codes.

@@ -70,6 +70,40 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Header Styles */
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+header nav {
+    margin: 40px 45px 0 90px;
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header .logo {
+    margin: 20px 0 0 0;
+}
+
+img.Top-picture{
+    margin:0 0 30px 0;
+}
 
 .top-content {
     display: flex;
@@ -80,9 +114,11 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    }
 }
 
 .middle-content {
@@ -91,7 +127,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    
     margin-bottom: 0;
 }
 
@@ -112,6 +148,37 @@ p {
     justify-content: center;
 }
 
+div.boxes .box:first-child{
+    background: teal;
+}
+div.boxes .box:nth-child(2){
+    background: gold;
+}
+div.boxes .box:nth-child(3){
+    background: cadetblue;
+}
+div.boxes .box:nth-child(4){
+    background: coral;
+}
+div.boxes .box:nth-child(5){
+    background: crimson;
+}
+div.boxes .box:nth-child(6){
+    background: forestgreen;
+}
+div.boxes .box:nth-child(7){
+    background: darkorchid;
+}
+div.boxes .box:nth-child(8){
+    background: hotpink;
+}
+div.boxes .box:nth-child(9){
+    background: indigo;
+}
+div.boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+    
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +210,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+div.Strategy{
+    
+height: 150px;
+    
+width: 375px;
+    
+margin-top: 30px;
+    
+
+    
+margin-right: 0px;
+}
+div.How-We-Work{
+    
+height: 150px;
+    
+width: 400px;
+    
+margin-top: 30px;
+    
+
+    
+margin-right: 0px;
+}
+div.text-container2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+img.middle-picture2{
+    margin-left: 20px;
+}
+div.places{
+    height: 150px;
+    width: 375px;
+    margin-top: 30px;
+    
+    margin-right: 0px;
+}
+div.Collaboration{
+    height: 150px;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+div.middle-tex{
+    margin-top: 40px;
+}
+footer{
+    margin-top: 40px;
+}
+button{
+    border: 1px double black;
+    font-size: 16px;
+    background: white;
+    width: 150px;
+    height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+    color: white;
 }
