@@ -73,9 +73,8 @@ p {
 
 header {
     width: 100%;
-    background: yellow;
-    padding: 20px 20px 20px 0px;
-
+    padding: 20px 0px 20px 0px;
+    margin-bottom: 10px;
 }
 
 header nav {
@@ -88,14 +87,19 @@ header nav {
 }
 
 header nav a {
-    color: black;
+    color: #131111;
     text-decoration: none; 
     padding: 0px 20px 0px 30px;
 }
 
 header img{
     display: inline-block;
-    padding: 0px 20px 0px 20px;
+    text-decoration-style: solid;
+    
+}
+
+.jumbo{
+    margin-bottom: 15px;
 }
 
 .top-content {
