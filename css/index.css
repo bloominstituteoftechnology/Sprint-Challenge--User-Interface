@@ -100,6 +100,11 @@ a:hover {
     background-color: lightcoral;
 }
 
+nav img .about {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
