@@ -73,8 +73,20 @@ p {
 
 .navbar-top {
     color: black;
-    margin-right: 30px;
+    margin-right: 20px 20px 20px 20px;
     text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.a {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .top-content {
@@ -151,74 +163,80 @@ footer nav a {
     text-decoration: none;
 }
 
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .box1 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: teal;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px ;
 }
 
 .box2 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: gold;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .box3 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: cadetblue;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .box4 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: coral;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .box5 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: crimson;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 
 }
 
 .box6 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: forestgreen;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 
 }
 
 .box7 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: darkorchid;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .box8 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: hotpink;
-    margin: 20px 20px 20px 20px; 
+    margin: 10px 10px 10px 10px; 
 }
 
 .box9 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: indigo;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 }
 
 .box10 {
     color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 40px 40px 40px 40px;
     background-color: dodgerblue;
-    margin: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
 }
