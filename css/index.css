@@ -180,3 +180,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+div.Strategy{
+    
+height: 150px;
+    
+width: 375px;
+    
+margin-top: 30px;
+    
+border: 1px solid black;
+    
+margin-right: 0px;
+}
+div.How-We-Work{
+    
+height: 150px;
+    
+width: 400px;
+    
+margin-top: 30px;
+    
+border: 1px solid black;
+    
+margin-right: 0px;
+}
+div.text-container2{
+    display: flex;
+    justify-content: space-between
+}
+img.middle-picture2{
+    margin-left: 20px;
+}
+div.places{
+    height: 150px;
+    width: 375px;
+    margin-top: 30px;
+    border: 1px solid black;
+    margin-right: 0px;
+}
+div.Collaboration{
+    height: 150px;
+    width: 400px;
+    margin-top: 30px;
+    border: 1px solid black;
+    margin-right: 0px;
+}
