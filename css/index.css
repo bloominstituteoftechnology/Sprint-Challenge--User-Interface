@@ -138,16 +138,49 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box-teal{
+    background-color: teal;
+}
+.box-gold{
+    background-color: gold;
+}
+.box-cadetblue{
+    background-color: cadetblue;
+}
+.box-coral{
+    background-color: coral;
+}
+.box-crimson{
+    background-color: crimson;
+}
+.box-forestgreen{
+    background-color: forestgreen;
+}
+.box-darkorchid{
+    background-color: darkorchid;
+}
+
+.box-hotpink{
+    background-color: hotpink;
+}
+.box-indigo{
+    background-color: indigo;
+}
+.box-dodgerblue{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
