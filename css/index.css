@@ -96,6 +96,8 @@ header nav a {
 }
 /* header */
 
+/* top-contentt */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +112,10 @@ header nav a {
     padding-bottom: 20px;
     margin-top: 40px;  
 }
+
+/* top-contentt */
+
+/* middle-content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -127,16 +133,50 @@ header nav a {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box-item  {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: teal; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-content .box-1 {
+    background-color: teal;
+}
+.middle-content .box-2 {
+    background-color: gold;
+}
+.middle-content .box-3 {
+    background-color: cadetblue;
+}
+.middle-content .box-4 {
+    background-color: coral;
+}
+.middle-content .box-5 {
+    background-color: crimson;
+}
+.middle-content .box-6 {
+    background-color: forestgreen;
+}
+.middle-content .box-7 {
+    background-color: darkorchid;
+}
+.middle-content .box-8 {
+    background-color: hotpink;
+}
+.middle-content .box-9 {
+    background-color: indigo;
+}
+.middle-content .box-10 {
+    background-color: dodgerblue;
+}
+
+/* middle-content */
+
+/* bottom-content */
 
 .bottom-content {
     display: flex;
@@ -151,6 +191,10 @@ header nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* bottom-content */
+
+/* footer */
 
 footer {
     width: 100%;
@@ -170,3 +214,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* footer */
