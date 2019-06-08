@@ -258,13 +258,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.container about-page {
+    border-bottom: 1px dashed black;
+}
 
 .section1 {
     display: flex;
     flex-flow: nowrap;
 }
-.section1 div {
+.section1 .Strategy {
     width: 45%;
+    display: flex;
+    justify-content: center;
     border-bottom: 1px dashed black;
-    border-top: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
+    align-items: center;
+}
+.section1 .HowWeWork {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
+    align-items: center;
+}
+.section1 .PlacesWeWork {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
+    align-items: center;
+}
+.section1 .Collaboration {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin: 20px;
+    align-items: center;
 }
