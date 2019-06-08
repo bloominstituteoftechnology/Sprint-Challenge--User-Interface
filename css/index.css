@@ -265,40 +265,5 @@ footer nav a {
 .section1 {
     display: flex;
     flex-flow: nowrap;
-}
-.section1 .Strategy {
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px dashed black;
-    padding: 0px 0px 20px 0px;
-    margin: 20px;
-    align-items: center;
-}
-.section1 .HowWeWork {
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px dashed black;
-    padding: 0px 0px 20px 0px;
-    margin: 20px;
-    align-items: center;
-}
-.section1 .PlacesWeWork {
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px dashed black;
-    padding: 0px 0px 20px 0px;
-    margin: 20px;
-    align-items: center;
-}
-.section1 .Collaboration {
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    border-bottom: 1px dashed black;
-    padding: 0px 0px 20px 0px;
-    margin: 20px;
-    align-items: center;
+    justify-content: flex-end;
 }
