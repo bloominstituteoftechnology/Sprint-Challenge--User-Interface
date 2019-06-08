@@ -258,3 +258,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.section1 {
+    display: flex;
+    flex-flow: nowrap;
+}
+.section1 div {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
