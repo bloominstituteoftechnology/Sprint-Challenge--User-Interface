@@ -71,21 +71,20 @@ p {
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    width: 95%;
-    margin: 0 auto;
-    padding: 10px 0;
-}
-
-.container nav {
+header nav{
     display: flex;
     width: 100%;
     margin: 20px auto;
     padding: 5px 0;
 }
 
-nav { 
+header img.about{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+    
+    nav { 
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -103,114 +102,84 @@ nav a {
     color: black;
 }
 
-a:hover {
-    background-color: lightcoral;
+nav a:hover {
+    background-color: skyblue;
+    color: plum;
 }
 
 nav img .about {
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 20px;
+.header-about h1 {
+    padding-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header-about p {
+    padding: 10px 0;
+    width: 95%;
+    margin: 0 auto;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
+.middle-text {
+    margin: auto;
+    display: flex; 
     flex-wrap: wrap;
-    justify-content: space-evenly;
-   align-content: center;
-   align-items: center;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+	padding: 20px;
 }
 
-.boxes > :first-child{
-    background-color: teal;
+.middle-text h3 {
+    padding-top: 10px;
 }
 
-.boxes > :nth-child(2){
-    background-color: gold;
-}
-
-.boxes > :nth-child(3){
-    background-color:cadetblue;
-}
-  
-.boxes > :nth-child(4){
-    background-color: coral;
-}
-
-.boxes > :nth-child(5){
-    background-color: crimson;
-}
-
- .boxes > :nth-child(6){
-    background-color: forestgreen;
-}
-    
- .boxes > :nth-child(7){
-    background-color: darkorchid;
-}
-
- .boxes> :nth-child(8){
-      background-color: hotpink;
-}
-    
-  .boxes > :nth-child(9){
-      background-color: indigo;
-}
-
-.boxes > :nth-child(10){
-    background-color: dodgerblue;
-}
-
-.bottom-content {
+.pictures-with-text { 
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 49%;
+    padding:20px;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+    
+button {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-size: 16px;
+    margin-top: 15px;
+    width: 40%;
+    height: 40px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+button:hover {
+    background-color: lightyellow;
+    color: purple;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
+ .bottom-text {
+     padding: 20px;
+     width: 100%;
+     margin: 0 auto;
+ }
+
+ .bottom-text p {
+     padding-bottom: 30px;
+ }
 
 footer {
     width: 100%;
     background: black;
+    height: 60px;
 }
 
 footer nav {
