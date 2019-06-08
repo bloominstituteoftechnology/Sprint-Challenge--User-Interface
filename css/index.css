@@ -64,14 +64,13 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 90%;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
-/* My CSS */
 
 .header {
 	display: flex;
@@ -80,7 +79,7 @@ p {
 }
 
 .banner{
-    margin: 30px 0 30px;
+    margin: 20px 0 20px;
     display: flex;
 }
 .top-navigation{
@@ -114,7 +113,6 @@ p {
     flex-flow: row wrap;
   	justify-content: space-between;
 }
-
 
 .top-content .text-container {
     width: 48%;
@@ -181,7 +179,6 @@ p {
     background-color: dodgerblue;
 }
 
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -221,32 +218,35 @@ footer nav a {
     padding-bottom: 20px;
 }
 .about-content {
-	margin: 30px 0 30px 0;
+	margin-bottom: 30px;
 	display: flex;
 	flex-wrap: wrap;
-	/* justify-content: space-between; */
+	justify-content: space-evenly;
 	/* align-content: space-between; */
 }
 
 .about-content button {
-	
 	height: 30px;
-	width: 100px;
+	width: 110px;
 	margin-top: 20px;
 	background-color: white;
 	border: 2px solid black;
-	border-radius: 5px;
-	font-size: 15px;
+	border-radius: 8px;
+
 }
 
  .about-content div {
 	border-bottom: 1px dotted black;
     width: 48%;
-    padding: 0 1%;
+    margin: 20px 1%;
     padding-bottom: 20px; 
-    margin-top: 20px; 
+    /* margin-top: 20px;  */
+}
+
+.info-module img {
+    margin-bottom: 20px;
 }
 
 .call {
-    padding-bottom: 20px; 
+    padding-bottom: 30px; 
 }

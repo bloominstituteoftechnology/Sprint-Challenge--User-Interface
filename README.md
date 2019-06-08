@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Hyper tex markup language is our way to code a webpage usually with semantic tags. This way anybody working in the webpage can easily understand what the code is doing.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block works on a new line on its own. If you're using display: block the content will shift to the next line and shif other content beneath to the line after it. Inline instead puts all the content in the same line next to eachother. Furthermore, you can use inline-block to have a combination of both behaviors. 
 
 3. What are the 4 areas of the box model?
 
+margin, border, padding, content. An example would be that if you have a border and want to have a space between the content and the border you'd use padding but if you want space between the boder and the content in the next line, you'd use margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows you to contribute to a project without saving over other teammember's work, instead merging both works effectively. Besides that, it is easy to recover works from previous commits in case the project breaks or is deleted somehow. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
