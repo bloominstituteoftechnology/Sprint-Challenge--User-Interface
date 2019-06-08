@@ -72,6 +72,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* header */
+header {
+    width: 100%;
+    /* background: white; */
+}
+header img {
+    display: flex;
+    align-content
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+/* header */
 
 .top-content {
     display: flex;
@@ -84,7 +107,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 40px;  
 }
 
 .middle-content {
