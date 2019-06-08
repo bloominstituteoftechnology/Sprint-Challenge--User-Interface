@@ -74,14 +74,15 @@ p {
 .navbar-top {
     color: black;
     margin-right: 20px 20px 20px 20px;
-    text-decoration: none;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .a {
     margin-left: 35px;
-    margin-right: 35px;
+    margin-right: 35px;   
+    text-decoration: none;
+    color: black;
 }
 
 .header {
@@ -239,4 +240,21 @@ footer nav a {
     padding: 40px 40px 40px 40px;
     background-color: dodgerblue;
     margin: 10px 10px 10px 10px;
+}
+
+/*About Page CSS Below*/
+
+.about-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-style {
+    border-radius: 5px;
+    
 }
