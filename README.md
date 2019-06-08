@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+- Semanatic HTML is simply giving HTML meaning to humans and the computer.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+- ```display: block ``` displays a element as a block element and fits the entire width. ```display: inline ``` displays a element as a inline element, kind of like a span tag.
 
 3. What are the 4 areas of the box model?
 
+- The four areas are: padding, margin, content, and border.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+-  In the Cross Axis.
+
 5. Explain why git is valuable to a team of developers.
+
+- Git allows developers to go back to previous versions of there codebase and keep track of changes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -89,7 +99,7 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
+* [x] Copy and paste your home page navigation and header into the about page
 * [x] Update the header image with the about page image
 * [x] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
