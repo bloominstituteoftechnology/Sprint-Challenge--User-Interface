@@ -181,6 +181,10 @@ nav>a:hover {
     margin: 0 auto;
 }
 
+.container>img {
+    margin-bottom: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
