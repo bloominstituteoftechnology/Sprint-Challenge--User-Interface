@@ -21,13 +21,30 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline; 
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    height: 45px;
+    width: 70px;
+    margin: 38px;
+    flex-flow: row-wrap;
+}
+
 body {
 	line-height: 1;
 }
@@ -62,9 +79,29 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+#about {
+	display: block;
+    margin-left: 65px;
+}
+
+button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border: 2px solid #333; 
+    border-radius: 8px;
+    width: 115px;
+    height: 40px;
+    font-size: 15px;
+  }
+
 p {
     line-height: 1.4;
 }
+
+hr {
+    border-top: 1px dashed black;
+  }
 
 .container {
     width: 800px;
@@ -83,6 +120,36 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+#box1 { color: teal;
+}
+
+#box2 { color: gold;
+}
+
+#box3 { color: cadetblue;
+}
+
+#box4 { color: coral;
+}
+
+#box5 { color: crimson;
+}
+
+#box6 { color: forestgreen;
+}
+
+#box7 { color: darkorchid;
+}
+
+#box8 { color: hotpink;
+}
+
+#box9 { color: indigo;
+}
+
+#box10 { color: dodgerblue;
 }
 
 .middle-content {
@@ -112,18 +179,28 @@ p {
     justify-content: center;
 }
 
+.top {
+    margin: 20px 20px 20px 55px;
+}
+
+.container-about-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-content {
+    width: 350px;
+    height: 350px;
+    margin: 45px;
+  }
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    margin: 45px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottom-about {
+    margin-left: 45px;
 }
 
 footer {
@@ -132,12 +209,12 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 2px;
+    font-size: 15px;
 }
 
 footer nav a {
