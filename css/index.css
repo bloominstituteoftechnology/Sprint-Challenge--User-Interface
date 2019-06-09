@@ -70,6 +70,25 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    width: 800px;
+    display: flex;
+    justify-items: center;
+    margin-left: 275px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+}
+header nav {
+    margin-top: 40px;
+    width: 600px;
+    justify-content: space-around;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
 
 .top-content {
     display: flex;
