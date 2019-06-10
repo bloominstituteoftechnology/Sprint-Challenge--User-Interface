@@ -352,3 +352,8 @@ button:hover {
         background-color: cadetblue;
     }
 }
+
+.bangkok-skyline>img {
+    height: 450px;
+    width: auto;
+}
