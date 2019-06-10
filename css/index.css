@@ -3,60 +3,154 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,9 +160,30 @@ p {
     line-height: 1.4;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 880px;
+    margin: 25px auto;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+}
+
+nav>a:hover {
+    color: gray;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container>img {
+    margin-bottom: 25px;
 }
 
 .top-content {
@@ -82,7 +197,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +258,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-top-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+.about-top-text {
+    margin: 25px 0;
+}
+
+.about-mid-container {
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+.about-text-container {
+    margin-bottom: 25px;
+}
+
+.about-text-container>img {
+    margin-bottom: 25px;
+}
+
+.about-bottom-container {
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+
+/* Button Style */
+
+button {
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+}
+
+button:hover {
+    background: #EBC8B2;
+}
+
+
+/* Contact Page */
+
+.contact-header>h1 {
+    font-weight: 300;
+    font-size: 70px;
+    font-family: "Chivo", sans-serif;
+    margin: 100px 0;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+.contact-text-container {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: cadetblue;
+    }
+}
+
+.bangkok-skyline>img {
+    height: 450px;
+    width: auto;
 }
