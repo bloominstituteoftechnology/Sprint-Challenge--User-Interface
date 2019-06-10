@@ -1,6 +1,9 @@
 .flex article {
     margin: auto;
     width: 50%;
+    @include respond(tab-port) {
+        width: 75%;
+    }
     & button {
         background: #fff;
         margin: 1em;  

@@ -176,6 +176,11 @@ body {
 .inline-block {
   display: inline-block; }
 
+.block {
+  display: block;
+  padding: 1em;
+  margin: 1em; }
+
 .flex {
   display: flex; }
   @media (max-width: 56.25em) {
@@ -302,6 +307,12 @@ hr {
 .flex article {
   margin: auto;
   width: 50%; }
+  @media (max-width: 56.25em) {
+    .flex article {
+      width: 75%; } }
+  @media (max-width: tab-port) {
+    .flex article {
+      width: 75%; } }
   .flex article button {
     background: #fff;
     margin: 1em;
