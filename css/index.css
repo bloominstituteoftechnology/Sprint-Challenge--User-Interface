@@ -89,6 +89,10 @@ nav a {
     color: black;
     font-size: 12px;
 }
+a:hover {
+    background: black;
+    color: white;
+}
 
 .top-content {
     display: flex;
@@ -192,6 +196,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover {
+    background: white;
+    color: black;
+}
 /* <------About pg starts here */
 hr {
     border-top: 1px dashed black;
@@ -212,6 +220,10 @@ button {
     background: white;
     border: 2px solid black;
     padding: 10px;
+}
+button:hover {
+    background: black;
+    color: white;
 }
 
 footer {
