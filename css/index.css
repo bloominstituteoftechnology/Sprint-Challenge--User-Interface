@@ -69,6 +69,8 @@ p {
 header {
     width: 800px;
     margin: 0 auto;
+    font-size: 14px;
+    font: TimesNewRoman;
 }
 
 .FirstLine{
@@ -76,6 +78,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-right: 5%;
 }
 
 a{
@@ -84,7 +87,7 @@ a{
 }
 
 .jumbo{
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .container {
@@ -214,6 +217,7 @@ footer nav a {
     width: auto;
     padding: 0 2%;
     padding-bottom: 20px;  
+    font: TimesNewRoman;
 }
 
 .LetsWorkTog{
@@ -222,6 +226,7 @@ footer nav a {
     margin-bottom: 20px;
     width: auto;
     padding: 20px 2%;
+    font: TimesNewRoman;
 }
 
 button{
@@ -237,6 +242,7 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font: TimesNewRoman;
 }
 
 .MiddleInfo{
@@ -253,4 +259,43 @@ button{
 
 .MiddleInfo p{
     padding-bottom: 4%;
+}
+
+@keyframes ContUs {
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.contactUs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: ContUs;
+    margin: 5% auto;
+}
+
+.contInfo{
+    font-family: "Times New Roman", Times, serif;
+    padding: 5%;
+    margin: 5% 0;
+}
+
+.contInfo h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contInfo p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
