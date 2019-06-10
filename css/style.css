@@ -313,10 +313,25 @@ hr {
   @media (max-width: tab-port) {
     .flex article {
       width: 75%; } }
+  @media (max-width: 37.5em) {
+    .flex article {
+      width: 100%; } }
+  @media (max-width: phone) {
+    .flex article {
+      width: 100%; } }
+  @media only screen and (min-width: 900px) {
+    .flex article:nth-of-type(3) {
+      height: 25.11em; } }
   .flex article button {
     background: #fff;
-    margin: 1em;
+    margin: .5em;
+    padding: 1em;
     border: 1px solid #000;
-    border-radius: 1em; }
+    border-radius: .5em;
+    transition: all .2s; }
+    .flex article button:hover {
+      background: #000;
+      color: #fff;
+      transform: scale(1.25); }
   .flex article h3 {
     margin-bottom: .5rem; }

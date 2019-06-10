@@ -4,11 +4,26 @@
     @include respond(tab-port) {
         width: 75%;
     }
+    @include respond(phone) {
+        width: 100%;
+    }
+    @media only screen and (min-width: 900px) {
+        &:nth-of-type(3) {
+            height: 25.11em;
+        }
+    }
     & button {
         background: #fff;
-        margin: 1em;  
+        margin: .5em;  
+        padding: 1em;
         border: 1px solid #000;
-        border-radius: 1em;
+        border-radius: .5em;
+        @include transition;
+        &:hover {
+            background: #000;
+            color: #fff;
+            transform: scale(1.25);
+        }
     }
     & h3 {
         margin-bottom: .5rem;
