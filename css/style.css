@@ -55,12 +55,12 @@ body {
   margin: auto; }
   @media (max-width: 56.25em) {
     body {
-      width: 100%;
-      margin: 0; } }
+      width: 85%;
+      margin: auto; } }
   @media (max-width: tab-port) {
     body {
-      width: 100%;
-      margin: 0; } }
+      width: 85%;
+      margin: auto; } }
 
 .u-text-center {
   text-align: center; }
