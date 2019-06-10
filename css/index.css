@@ -319,3 +319,36 @@ button {
 button:hover {
     background: #EBC8B2;
 }
+
+
+/* Contact Page */
+
+.contact-header>h1 {
+    font-weight: 300;
+    font-size: 70px;
+    font-family: "Chivo", sans-serif;
+    margin: 100px 0;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+.contact-text-container {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: cadetblue;
+    }
+}
