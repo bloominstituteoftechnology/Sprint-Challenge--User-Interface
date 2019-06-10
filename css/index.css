@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .top-content {
@@ -144,3 +145,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* header and navigation styling for home and about pages */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 280px;
+    width: 900px;
+    margin-left: 350px;
+}
+
+.header-container nav {
+    margin: 30px;
+}
+
+
+.header-container a {
+    text-decoration: none;
+    margin: 35px;
+    color: black;
+}
+
+.about-header nav a {
+    text-decoration: none;
+    margin: 35px;
+    color: black;
+}
+
+.about-header nav {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 900px;
+}
+
+.about-header {
+    margin-bottom: 30px;
+}
+
+
+
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
+
+.content {
+    width: 270px;
+	flex-grow: 1;
+    padding: 5px;
+    border-bottom: dotted 1px black;
+    margin: 30px 10px;
+}
+
+.main-content button {
+    background-color: white;
+	height: 30px;
+	width: 130px;
+	display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-message {
+    margin: 20px 0;
+}
+
+
