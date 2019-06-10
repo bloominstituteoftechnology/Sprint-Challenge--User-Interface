@@ -179,6 +179,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 30px;
 }
 
 footer nav {
@@ -199,6 +200,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .midsection{
@@ -209,3 +211,4 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: start;
 }
+
