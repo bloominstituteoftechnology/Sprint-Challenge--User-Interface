@@ -1,0 +1,90 @@
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin abs-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+// Media Queries
+/*
+
+/*
+$breakpoint choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+-custom
+*/
+
+// ORDER: Base + Typographry > greneral layout + grid > page layout > components
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width: 37.5em) { @content }; // 600px
+    }
+    @if $breakpoint == tab-port {
+        @media (max-width: 56.25em) { @content }; // 900px
+    }
+    @if $breakpoint == tab-land {
+        @media (max-width: 75em) { @content }; // 1200px
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 112.5em) { @content }; //1800px
+    }@else {
+        @media (max-width: $breakpoint) { @content };
+    }
+}
+
+@mixin transition {
+    transition: all .2s;
+}
+
+@mixin transition-long {
+    transition: all .8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+@mixin border-radius {
+    border-radius: $border-radius-value;
+}
+
+@mixin border-radius-top {
+        border-top-left-radius: $border-radius-value;
+        border-top-right-radius: $border-radius-value;
+}
+
+@mixin border-radius-leaf {
+    border-radius: $border-radius-value;
+    border-top-left-radius: $border-radius-leaf-value;
+    border-bottom-right-radius: $border-radius-leaf-value;
+}
+
+@mixin backface-visibility {
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+@mixin box-shadow-1 {
+    box-shadow: 0 0 20px rgba($color-black,.8);
+}
+
+@mixin box-shadow-2 {
+    box-shadow: 0 1.5 4rem rgba($color-black,.5);
+}
+
+@mixin box-shadow-btn {
+    box-shadow: 0 0 20px rgba($color-black,.8);
+}
+
+@mixin box-shadow-btn-hover {
+    box-shadow: 0 0 20px rgba($color-black,.8);
+}

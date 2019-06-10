@@ -1,0 +1,180 @@
+/*
+COLORS:
+
+Light green: #54c742
+Medium green: #04ad01
+Dark green: #0a7412
+
+*/
+/*
+
+/*
+$breakpoint choices:
+-phone
+-tab-port
+-tab-land
+-big-desktop
+-custom
+*/
+.u-text-center {
+  text-align: center; }
+
+.u-margin-bottom-sm {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-md {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-lg {
+  margin-bottom: 8rem; }
+
+.u-top-lg {
+  margin-top: 8rem; }
+
+.u-top-xl {
+  margin-top: 10rem; }
+
+.u-float-right {
+  float: right; }
+
+.u-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.u-margin-1 {
+  margin: 1em; }
+
+.u-padding-1 {
+  padding: 1em; }
+
+.u-border-1 {
+  border: 1px solid black; }
+
+.color-invert {
+  filter: invert(1); }
+
+.color-black {
+  color: #000; }
+
+.bg-grey {
+  background: #eee;
+  border-radius: 3px; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.inline-block {
+  display: inline-block; }
+
+.flex {
+  display: flex; }
+  @media (max-width: 56.25em) {
+    .flex {
+      flex-direction: column; } }
+  @media (max-width: tab-port) {
+    .flex {
+      flex-direction: column; } }
+  .flex-inline {
+    display: inline-flex; }
+  .flex-column {
+    flex-direction: column; }
+    .flex-column-reverse {
+      flex-direction: column-reverse; }
+  .flex-reverse {
+    flex-direction: row-reverse; }
+  .flex-wrap {
+    flex-wrap: wrap; }
+    .flex-wrap-reverse {
+      flex-wrap: wrap-reverse; }
+  .flex-justify-start {
+    justify-content: flex-start; }
+  .flex-justify-end {
+    justify-content: flex-end; }
+  .flex-justify-center {
+    justify-content: center; }
+  .flex-justify-between {
+    justify-content: space-between; }
+  .flex-justify-around {
+    justify-content: space-around; }
+  .flex-justify-even {
+    justify-content: space-evenly; }
+  .flex-content-start {
+    align-content: flex-start; }
+  .flex-content-end {
+    align-content: flex-end; }
+  .flex-content-center {
+    align-content: center; }
+  .flex-content-stretch {
+    align-content: stretch; }
+  .flex-content-around {
+    align-content: space-around; }
+  .flex-content-between {
+    align-content: space-between; }
+  .flex-items-start {
+    align-items: flex-start; }
+  .flex-items-end {
+    align-items: flex-end; }
+  .flex-items-center {
+    align-items: center; }
+  .flex-items-stretch {
+    align-items: stretch; }
+  .flex-items-baseline {
+    align-items: baseline; }
+  .flex-shrink {
+    flex-shrink: 2; }
+    .flex-shrink-more {
+      flex-shrink: 3; }
+  .flex-grow {
+    flex-grow: 2; }
+    .flex-grow-more {
+      flex-grow: 3; }
+  .flex-self-start {
+    align-self: flex-start; }
+  .flex-self-end {
+    align-self: flex-end; }
