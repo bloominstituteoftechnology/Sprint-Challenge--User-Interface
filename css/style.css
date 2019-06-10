@@ -246,6 +246,7 @@ header {
       color: #0f0; }
 
 footer {
+  margin-top: 5em;
   padding: 1em;
   background: black;
   width: 100%;
@@ -272,3 +273,15 @@ hr {
 .flex div {
   padding: 1rem;
   margin: 1rem; }
+
+.flex article {
+  padding: 0 1em;
+  width: 45%; }
+  .flex article button {
+    background: #fff;
+    margin: 1em;
+    float: right;
+    border: 1px solid #000;
+    border-radius: 1em; }
+  .flex article h3 {
+    margin-bottom: .5rem; }

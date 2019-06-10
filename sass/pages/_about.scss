@@ -1,5 +1,16 @@
 .flex article {
-    padding: 1rem;
-    margin: 1rem;
-    width: 50%;
+    & button {
+        background: #fff;
+        margin: 1em;
+        float: right;
+        border: 1px solid #000;
+        border-radius: 1em;
+    }
+    & h3 {
+        margin-bottom: .5rem;
+    }
+    padding: 0 1em;
+
+    width: 45%;
+
 }
