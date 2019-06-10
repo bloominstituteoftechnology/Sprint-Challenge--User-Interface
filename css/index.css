@@ -70,6 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    width: 800px;
+    display: flex;
+    justify-items: center;
+    margin-left: 275px;
+    margin-bottom: 40px;
+    
+}
+header nav {
+    margin-top: 40px;
+    width: 600px;
+    justify-content: space-around;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+a:hover {
+    background: black;
+    color: white;
+}
 
 .top-content {
     display: flex;
@@ -111,7 +134,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +195,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+footer nav a:hover {
+    background: white;
+    color: black;
+}
+/* <------About pg starts here */
+hr {
+    border-top: 1px dashed black;
+}
+.box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 49%;
+    padding: 20px;  
+    border-bottom: 1px dashed black;
+}
+button {
+    border-radius: 8px;
+    background: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+button:hover {
+    background: black;
+    color: white;
+}
+
+footer {
+    margin: 40px;
 }
