@@ -66,9 +66,33 @@ p {
     line-height: 1.4;
 }
 
-.container {
+header {
     width: 800px;
     margin: 0 auto;
+    font-size: 14px;
+    font: TimesNewRoman;
+}
+
+.FirstLine{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 5%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo{
+    padding-top: 35px;
+}
+
+.container {
+    width: 800px;
+    margin: 25px auto;
 }
 
 .top-content {
@@ -112,6 +136,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +207,95 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: auto;
+    padding: 0 2%;
+    padding-bottom: 20px;  
+    font: TimesNewRoman;
+}
+
+.LetsWorkTog{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: auto;
+    padding: 20px 2%;
+    font: TimesNewRoman;
+}
+
+button{
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2% 6%;
+    margin: 1% 0;
+    font-size: 16px;
+}
+
+.Middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font: TimesNewRoman;
+}
+
+.MiddleInfo{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin: 2% 0;
+}
+
+.MiddleInfo img{
+    padding: 2% 0;
+}
+
+.MiddleInfo p{
+    padding-bottom: 4%;
+}
+
+@keyframes ContUs {
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.contactUs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: ContUs;
+    margin: 5% auto;
+}
+
+.contInfo{
+    font-family: "Times New Roman", Times, serif;
+    padding: 5%;
+    margin: 5% 0;
+}
+
+.contInfo h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contInfo p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
