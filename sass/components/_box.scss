@@ -1,13 +1,12 @@
 .box {
-    background: #000;
-    color: #fff;
     width: 5em;
     height: 5em;
     margin: 1em;
     position: relative;
+    @include transition;
     &-1 {
         background: teal;
-        color: #000;
+        transform: rotate(-45deg);
     }
     &-2 {
         background: gold;
@@ -44,6 +43,18 @@
     &-10 {
         background: dodgerblue;
         color: #000;
-    }
+    }   &:hover { 
+            transform:scale(1.25);
+            box-shadow: 0 1rem 1em rgba(black,.5);
+            @include border-radius-leaf;
+            text-align:center;
+            vertical-align:center;
+            @include transition;
+        }
+        ~ .box{
+            animation: 5.75s hue-rotate infinite;
+            transform: rotate(-45deg);
+     }
 }
+
 

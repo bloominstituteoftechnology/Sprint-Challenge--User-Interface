@@ -1,3 +1,67 @@
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-15rem); }
+  80% {
+    transfrom: translateX(2rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(15rem); }
+  90% {
+    transform: translateX(); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes hue-rotate {
+  0% {
+    filter: hue-rotate(0deg); }
+  100% {
+    filter: hue-rotate(720deg); } }
+
+@keyframes saturate {
+  0% {
+    filter: saturate(0); }
+  100% {
+    filter: saturate(1); } }
+
+@keyframes opacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes blurIn {
+  0% {
+    filter: blur(1000em); }
+  100% {
+    filter: blur(0); } }
+
+@keyframes blurOut {
+  0% {
+    filter: blur(0); }
+  100% {
+    filter: blur(100em); } }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -136,15 +200,14 @@ body {
   border-radius: 3px; }
 
 .box {
-  background: #000;
-  color: #fff;
   width: 5em;
   height: 5em;
   margin: 1em;
-  position: relative; }
+  position: relative;
+  transition: all .2s; }
   .box-1 {
     background: teal;
-    color: #000; }
+    transform: rotate(-45deg); }
   .box-2 {
     background: gold;
     color: #000; }
@@ -172,6 +235,18 @@ body {
   .box-10 {
     background: dodgerblue;
     color: #000; }
+  .box:hover {
+    transform: scale(1.25);
+    box-shadow: 0 1rem 1em rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    text-align: center;
+    vertical-align: center;
+    transition: all .2s; }
+  .box ~ .box {
+    animation: 5.75s hue-rotate infinite;
+    transform: rotate(-45deg); }
 
 .inline-block {
   display: inline-block; }
@@ -303,6 +378,8 @@ hr {
 .flex div {
   padding: 1rem;
   margin: 1rem; }
+  .flex div h3 {
+    padding-bottom: .5em; }
 
 .flex article {
   margin: auto;
