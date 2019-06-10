@@ -164,7 +164,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 25px 0;
+    width: 880px;
+    margin: 25px auto;
 }
 
 nav>a {
@@ -257,4 +258,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About Page */
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about-top-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+.about-top-text {
+    margin: 25px 0;
+}
+
+.about-mid-container {
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+.about-text-container {
+    margin-bottom: 25px;
+}
+
+.about-text-container>img {
+    margin-bottom: 25px;
+}
+
+.about-bottom-container {
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin: 25px 0;
+}
+
+
+/* Button Style */
+
+button {
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+}
+
+button:hover {
+    background: #EBC8B2;
 }
