@@ -19,6 +19,24 @@ $breakpoint choices:
 .u-text-center {
   text-align: center; }
 
+.u-margin-right-sm {
+  margin-right: 1.5rem; }
+
+.u-margin-right-md {
+  margin-right: 3rem; }
+
+.u-margin-right-lg {
+  margin-right: 8rem; }
+
+.u-margin-left-sm {
+  margin-left: 1.5rem; }
+
+.u-margin-left-md {
+  margin-left: 5rem; }
+
+.u-margin-left-lg {
+  margin-left: 8rem; }
+
 .u-margin-bottom-sm {
   margin-bottom: 1.5rem; }
 
@@ -178,3 +196,10 @@ table {
     align-self: flex-start; }
   .flex-self-end {
     align-self: flex-end; }
+
+body {
+  margin: 1em 28%; }
+
+img[src='img/jumbo.jpg'] {
+  width: 100%;
+  margin-top: 2.5em; }

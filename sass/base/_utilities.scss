@@ -4,6 +4,32 @@
     }
 
     &-margin {
+        &-right {
+            &-sm {
+                margin-right: 1.5rem;
+            }
+
+            &-md {
+                margin-right: 3rem;
+            }
+
+            &-lg {
+                margin-right: 8rem;
+            }
+        }
+        &-left {
+            &-sm {
+                margin-left: 1.5rem;
+            }
+
+            &-md {
+                margin-left: 5rem;
+            }
+
+            &-lg {
+                margin-left: 8rem;
+            }
+        }
         &-bottom {
             &-sm {
                 margin-bottom: 1.5rem;
