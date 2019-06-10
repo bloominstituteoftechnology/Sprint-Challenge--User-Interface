@@ -267,7 +267,7 @@ footer nav a {
     flex-flow: row wrap;
 }
 .section1 div {
-    width: 900px;
+    width: 45%;
     border-bottom: 1px dashed black;
     padding: 0px 0px 20px 0px;
     margin: 20px;
