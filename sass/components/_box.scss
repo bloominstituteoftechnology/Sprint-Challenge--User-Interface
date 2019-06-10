@@ -1,11 +1,10 @@
 .box {
     background: #000;
     color: #fff;
-
     width: 5em;
     height: 5em;
     margin: 1em;
-    
+    position: relative;
     &-1 {
         background: teal;
         color: #000;
@@ -47,3 +46,4 @@
         color: #000;
     }
 }
+

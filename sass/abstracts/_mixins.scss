@@ -15,16 +15,7 @@
 }
 
 // Media Queries
-/*
 
-/*
-$breakpoint choices:
--phone
--tab-port
--tab-land
--big-desktop
--custom
-*/
 
 // ORDER: Base + Typographry > greneral layout + grid > page layout > components
 @mixin respond($breakpoint) {

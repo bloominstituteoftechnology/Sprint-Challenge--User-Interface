@@ -1,0 +1,16 @@
+:root {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+body {
+    width: 860px;
+    margin:auto;
+
+    @include respond(tab-port) {
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+}

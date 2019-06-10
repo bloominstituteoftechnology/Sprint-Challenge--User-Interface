@@ -4,6 +4,11 @@
     @include respond(tab-port) {
         flex-direction: column;
     }
+    &-no-respond {
+        @include respond(tab-port) {
+            flex-direction: row;
+        }
+    }
     &-inline {
         display: inline-flex;
     }

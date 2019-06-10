@@ -11,6 +11,9 @@
 
             &-md {
                 margin-right: 3rem;
+                @include respond(phone) {
+                    margin-right: 0;
+                }
             }
 
             &-lg {
@@ -82,6 +85,12 @@
         &-1 {
             border: 1px solid black;
         }
+    }
+}
+
+.w {
+    &-50 {
+        width: 50%;
     }
 }
 

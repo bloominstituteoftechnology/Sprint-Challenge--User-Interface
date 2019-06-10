@@ -1,85 +1,3 @@
-/*
-COLORS:
-
-Light green: #54c742
-Medium green: #04ad01
-Dark green: #0a7412
-
-*/
-/*
-
-/*
-$breakpoint choices:
--phone
--tab-port
--tab-land
--big-desktop
--custom
-*/
-.u-text-center {
-  text-align: center; }
-
-.u-margin-right-sm {
-  margin-right: 1.5rem; }
-
-.u-margin-right-md {
-  margin-right: 3rem; }
-
-.u-margin-right-lg {
-  margin-right: 8rem; }
-
-.u-margin-left-sm {
-  margin-left: 1.5rem; }
-
-.u-margin-left-md {
-  margin-left: 5rem; }
-
-.u-margin-left-lg {
-  margin-left: 8rem; }
-
-.u-margin-bottom-sm {
-  margin-bottom: 1.5rem; }
-
-.u-margin-bottom-md {
-  margin-bottom: 4rem; }
-
-.u-margin-bottom-lg {
-  margin-bottom: 8rem; }
-
-.u-top-lg {
-  margin-top: 8rem; }
-
-.u-top-xl {
-  margin-top: 10rem; }
-
-.u-float-right {
-  float: right; }
-
-.u-fixed-top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%; }
-
-.u-margin-1 {
-  margin: 1em; }
-
-.u-padding-1 {
-  padding: 1em; }
-
-.u-border-1 {
-  border: 1px solid black; }
-
-.color-invert {
-  filter: invert(1); }
-
-.color-black {
-  color: #000; }
-
-.bg-grey {
-  background: #eee;
-  border-radius: 3px; }
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -127,12 +45,103 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px; }
+
+body {
+  width: 860px;
+  margin: auto; }
+  @media (max-width: 56.25em) {
+    body {
+      width: 100%;
+      margin: 0; } }
+  @media (max-width: tab-port) {
+    body {
+      width: 100%;
+      margin: 0; } }
+
+.u-text-center {
+  text-align: center; }
+
+.u-margin-right-sm {
+  margin-right: 1.5rem; }
+
+.u-margin-right-md {
+  margin-right: 3rem; }
+  @media (max-width: 37.5em) {
+    .u-margin-right-md {
+      margin-right: 0; } }
+  @media (max-width: phone) {
+    .u-margin-right-md {
+      margin-right: 0; } }
+
+.u-margin-right-lg {
+  margin-right: 8rem; }
+
+.u-margin-left-sm {
+  margin-left: 1.5rem; }
+
+.u-margin-left-md {
+  margin-left: 5rem; }
+
+.u-margin-left-lg {
+  margin-left: 8rem; }
+
+.u-margin-bottom-sm {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-md {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-lg {
+  margin-bottom: 8rem; }
+
+.u-top-lg {
+  margin-top: 8rem; }
+
+.u-top-xl {
+  margin-top: 10rem; }
+
+.u-float-right {
+  float: right; }
+
+.u-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.u-margin-1 {
+  margin: 1em; }
+
+.u-padding-1 {
+  padding: 1em; }
+
+.u-border-1 {
+  border: 1px solid black; }
+
+.w-50 {
+  width: 50%; }
+
+.color-invert {
+  filter: invert(1); }
+
+.color-black {
+  color: #000; }
+
+.bg-grey {
+  background: #eee;
+  border-radius: 3px; }
+
 .box {
   background: #000;
   color: #fff;
   width: 5em;
   height: 5em;
-  margin: 1em; }
+  margin: 1em;
+  position: relative; }
   .box-1 {
     background: teal;
     color: #000; }
@@ -175,6 +184,12 @@ table {
   @media (max-width: tab-port) {
     .flex {
       flex-direction: column; } }
+  @media (max-width: 56.25em) {
+    .flex-no-respond {
+      flex-direction: row; } }
+  @media (max-width: tab-port) {
+    .flex-no-respond {
+      flex-direction: row; } }
   .flex-inline {
     display: inline-flex; }
   .flex-column {
@@ -237,6 +252,18 @@ table {
 header {
   margin-top: 1em;
   height: 5em; }
+  @media (max-width: 37.5em) {
+    header {
+      height: 100%; } }
+  @media (max-width: phone) {
+    header {
+      height: 100%; } }
+  @media (max-width: 37.5em) {
+    header nav ul li {
+      margin-right: 0; } }
+  @media (max-width: phone) {
+    header nav ul li {
+      margin-right: 0; } }
   header nav ul li a {
     color: #000;
     text-decoration: none;
@@ -246,26 +273,24 @@ header {
       color: #0f0; }
 
 footer {
-  margin-top: 5em;
   padding: 1em;
   background: black;
   width: 100%;
   height: 1.5em; }
-  footer ul .flex * > {
-    display: none; }
+  @media (max-width: 56.25em) {
+    footer {
+      height: 100%; } }
+  @media (max-width: tab-port) {
+    footer {
+      height: 100%; } }
   footer a {
     color: #fff;
     text-decoration: none; }
     footer a:hover {
       color: #0f6; }
 
-:root {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 16px; }
-
-body {
-  margin: 0 28%; }
+.flex .box {
+  flex-direction: row; }
 
 hr {
   border-top: 1px dashed black; }
@@ -275,12 +300,11 @@ hr {
   margin: 1rem; }
 
 .flex article {
-  padding: 0 1em;
-  width: 45%; }
+  margin: auto;
+  width: 50%; }
   .flex article button {
     background: #fff;
     margin: 1em;
-    float: right;
     border: 1px solid #000;
     border-radius: 1em; }
   .flex article h3 {
