@@ -75,7 +75,7 @@ header {
     display: flex;
     justify-items: center;
     margin-left: 275px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     
 }
 header nav {
@@ -191,4 +191,18 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.card {
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid blue;
+    
 }
