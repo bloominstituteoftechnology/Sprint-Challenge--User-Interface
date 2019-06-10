@@ -265,11 +265,40 @@ footer nav a {
 .section1 {
     display: flex;
     flex-flow: row wrap;
-}
-.section1 div {
-    width: 45%;
-    border-bottom: 1px dashed black;
-    padding: 0px 0px 20px 0px;
-    margin: 20px;
+    justify-content: center;
     align-items: center;
 }
+.section1 div {
+    width: 20%;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.section2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div {
+    width: 20%;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 0px; 
+    width: 150px;
+    height: 35px; 
+  }
