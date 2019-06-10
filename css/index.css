@@ -192,17 +192,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* <------About pg starts here */
+hr {
+    border-top: 1px dashed black;
+}
 .box-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    border: 1px solid black;
+    justify-content: space-between;
 }
 .card {
-    width: 40%;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid blue;
-    
+    width: 49%;
+    padding: 20px;  
+    border-bottom: 1px dashed black;
+}
+button {
+    border-radius: 8px;
+    background: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+footer {
+    margin: 40px;
 }
