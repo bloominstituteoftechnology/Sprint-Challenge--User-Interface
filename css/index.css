@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.top-header-container .header-container-items {
+    height: 100px;
+    width: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+   
+}
+
+ .header-items {
+    text-decoration: none;
+    
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
