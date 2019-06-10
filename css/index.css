@@ -195,23 +195,17 @@ footer nav a {
     text-decoration: none;
 }
 
-.container .aboutbox {
+.middle-page{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    flex: 1;
-}
- 
-.abouttopbox{
-
+    justify-content: space-between;
 }
 
-.abouthead{
-
-}
-
-.aboutbox{
-   flex-direction: column;
-   
-    
+.midsection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    flex-wrap: wrap;
+    justify-content: start;
 }
