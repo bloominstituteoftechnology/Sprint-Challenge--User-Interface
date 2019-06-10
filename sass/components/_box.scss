@@ -1,0 +1,49 @@
+.box {
+    background: #000;
+    color: #fff;
+
+    width: 5em;
+    height: 5em;
+    margin: 1em;
+    
+    &-1 {
+        background: rgb(246, 230, 3);
+        color: #000;
+    }
+    &-2 {
+        background: rgb(255, 0, 0);
+        color: #000;
+    }
+    &-3 {
+        background: rgb(0, 255, 119);
+        color: #000;
+    }
+    &-4 {
+        background: rgb(253, 2, 232);
+        color: #000;
+    }
+    &-5 {
+        background: rgb(0, 4, 255);
+        color: #fff;
+    }
+    &-6 {
+        background: rgb(2, 166, 241);
+        color: #000;
+    }
+    &-7 {
+        background: rgb(38, 0, 87);
+        color:#fff;  
+    }
+    &-8 {
+        background: rgb(16, 32, 104);
+        color: #fff;
+    }
+    &-9 {
+        background: rgb(255, 0, 0);
+        color: #000;
+    }
+    &-10 {
+        background: rgb(157, 255, 0);
+        color: #000;
+    }
+}

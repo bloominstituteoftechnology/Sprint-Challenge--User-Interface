@@ -127,6 +127,43 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.box {
+  background: #000;
+  color: #fff;
+  width: 5em;
+  height: 5em;
+  margin: 1em; }
+  .box-1 {
+    background: #f6e603;
+    color: #000; }
+  .box-2 {
+    background: red;
+    color: #000; }
+  .box-3 {
+    background: #00ff77;
+    color: #000; }
+  .box-4 {
+    background: #fd02e8;
+    color: #000; }
+  .box-5 {
+    background: #0004ff;
+    color: #fff; }
+  .box-6 {
+    background: #02a6f1;
+    color: #000; }
+  .box-7 {
+    background: #260057;
+    color: #fff; }
+  .box-8 {
+    background: #102068;
+    color: #fff; }
+  .box-9 {
+    background: red;
+    color: #000; }
+  .box-10 {
+    background: #9dff00;
+    color: #000; }
+
 .inline-block {
   display: inline-block; }
 
@@ -197,9 +234,41 @@ table {
   .flex-self-end {
     align-self: flex-end; }
 
-body {
-  margin: 1em 28%; }
+header {
+  margin-top: 1em;
+  height: 5em; }
+  header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: all .2s; }
+    header nav ul li a:hover {
+      text-decoration: underline;
+      color: #0f0; }
 
-img[src='img/jumbo.jpg'] {
+footer {
+  padding: 1em;
+  background: black;
   width: 100%;
-  margin-top: 2.5em; }
+  height: 1.5em; }
+  footer ul .flex * > {
+    display: none; }
+  footer a {
+    color: #fff;
+    text-decoration: none; }
+    footer a:hover {
+      color: #0f6; }
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px; }
+
+body {
+  margin: 0 28%; }
+
+hr {
+  border-top: 1px dashed black; }
+
+.flex div {
+  padding: 1rem;
+  margin: 1rem; }

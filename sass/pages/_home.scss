@@ -1,10 +1,16 @@
+:root {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
 body {
-    margin: 1em 28%;
+    margin: 0 28%;
+}
+hr {
+    border-top: 1px dashed black;
 }
 
-
-img[src='img/jumbo.jpg'] {
-    width: 100%;
-    margin-top: 2.5em;
-
+.flex div{
+    padding: 1rem;
+    margin: 1rem;
 }

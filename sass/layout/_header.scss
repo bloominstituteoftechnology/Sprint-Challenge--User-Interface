@@ -1,0 +1,13 @@
+header {
+    margin-top: 1em;
+    height: 5em;
+    & nav ul li a {
+    color: #000;
+    text-decoration: none;
+    @include transition;
+    &:hover{
+        text-decoration: underline;
+        color:#0f0;
+    }
+    }
+}
