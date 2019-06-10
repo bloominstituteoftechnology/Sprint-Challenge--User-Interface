@@ -66,9 +66,30 @@ p {
     line-height: 1.4;
 }
 
-.container {
+header {
     width: 800px;
     margin: 0 auto;
+}
+
+.FirstLine{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo{
+    padding-top: 30px;
+}
+
+.container {
+    width: 800px;
+    margin: 25px auto;
 }
 
 .top-content {
@@ -112,6 +133,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +204,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: auto;
+    padding: 0 2%;
+    padding-bottom: 20px;  
+}
+
+.LetsWorkTog{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: auto;
+    padding: 20px 2%;
+}
+
+button{
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2% 6%;
+    margin: 1% 0;
+    font-size: 16px;
+}
+
+.Middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.MiddleInfo{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin: 2% 0;
+}
+
+.MiddleInfo img{
+    padding: 2% 0;
+}
+
+.MiddleInfo p{
+    padding-bottom: 4%;
 }
