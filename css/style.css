@@ -134,34 +134,34 @@ table {
   height: 5em;
   margin: 1em; }
   .box-1 {
-    background: #f6e603;
+    background: teal;
     color: #000; }
   .box-2 {
-    background: red;
+    background: gold;
     color: #000; }
   .box-3 {
-    background: #00ff77;
+    background: cadetblue;
     color: #000; }
   .box-4 {
-    background: #fd02e8;
+    background: coral;
     color: #000; }
   .box-5 {
-    background: #0004ff;
+    background: crimson;
     color: #fff; }
   .box-6 {
-    background: #02a6f1;
+    background: forestgreen;
     color: #000; }
   .box-7 {
-    background: #260057;
+    background: darkorchid;
     color: #fff; }
   .box-8 {
-    background: #102068;
+    background: hotpink;
     color: #fff; }
   .box-9 {
-    background: red;
-    color: #000; }
+    background: indigo;
+    color: #fff; }
   .box-10 {
-    background: #9dff00;
+    background: dodgerblue;
     color: #000; }
 
 .inline-block {
