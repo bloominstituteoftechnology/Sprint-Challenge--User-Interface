@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-header-container nav {
@@ -112,17 +114,27 @@ a {
     padding-top: 30px;
 }
 .mainSection {
+    height: 800px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   
+    flex-flow: row wrap;
+    align-items: baseline;
+    align-content: space-between;
+    justify-content: space-around;
+    margin: 10px;
 }
 
 .subSection  {
-   height: auto;
-   width: 500px;
+    height: auto;
+    width: 40%;
+    margin-right: auto;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;  
+}
 
-   
+.tailSection {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 50px;
 }
 .top-content {
     display: flex;
