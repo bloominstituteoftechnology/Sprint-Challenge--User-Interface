@@ -140,11 +140,155 @@ footer nav a {
     color: white;
     text-decoration: none; */
 
-*{
-    box-sizing: border-box;
+
 }
-    .container{
-    width: 800px;
-    margin: 0 auto;
+.container{
+  width: 800px;
+  margin: 0 auto;
 }
+.road{
+  width: 800px;
+  padding: 20px 10px;
+}
+.container nav a{
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 70px;
+}
+.container .lambda{
+  float:left;
+
+}
+.text-container{
+  display: inline-block;
+  width: 350px
+}
+  div .boxes .box1{
+  background-color: teal;
+  width: 100px;
+  height: 100px;
+    margin: 10px 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+    float: left;
+}
+div .boxes .box2{
+background-color: gold;
+  width: 100px;
+  height: 100px;
+    margin: 10px 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+    float: left;
+}
+div .boxes .box3{
+background-color: cadetblue;
+  width: 100px;
+  height: 100px;
+    margin: 10px 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+    float: left;
+}
+div .boxes .box4{
+background-color: coral;
+  width: 100px;
+  height: 100px;
+    margin: 10px 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+    float: left;
+}
+div .boxes .box5{
+background-color: crimson;
+  width: 100px;
+  height: 100px;
+    margin: 10px 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+    float: left;
+}
+div .boxes .box6{
+background-color: forestgreen;
+  width: 100px;
+  height: 100px;
+    margin: 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+    float: left;
+}
+div .boxes .box7{
+background-color: darkorchid;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+}
+div .boxes .box8{
+background-color: hotpink;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+}
+div .boxes .box9{
+background-color: indigo;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+}
+div .boxes .box10{
+background-color: dodgerblue;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  line-height: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+}
+.bottom-content .text-container{
+  display: inline-block;
+  width:230px;
+  margin: 10px; 50px;
+}
+.border nav{
+  padding: 30px;
+  Overflow: hidden;
+  background-color: black;
+}
+.border nav a{
+    text-decoration: none;
+    color: white;
+}
+
 
