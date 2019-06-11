@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -146,22 +145,82 @@ footer nav a {
 }
 
 
-.nav-bar{
-    border: 3px solid red;
-    margin-bottom: 30px;
-    margin-top: 35px;
-}
-ul{
-    background: yellow;
-}
-li{
-    position: relative;
-    display: inline;
-    margin: 0 50px;
-    left: 300px;
+
+
+/*CSS SECTION FOR INDEX.HTML*/
+
+
+.lambda{
+    position: absolute;
+    bottom: 590px;
+
 }
 
-.about{
-    border: 3px solid green;
-    margin-top: 200px;
+ul{
+    list-style-type: none;
+    margin-left: 120px;
+    margin-bottom: 30px;
 }
+li{
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+    float: left;
+}
+a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+
+/*CSS SECTION FOR INDEX.HTML*/
+
+!!!!!!!!!!!!!-------------------------------------------------------------------------------!!!!!!!!!!!!!!!!!!
+
+
+/*CSS SECTION FOR ABOUT.HTML*/
+
+
+.strategy{
+    border: 3px solid red;
+}
+
+
+
+/*CSS SECTION FOR ABOUT.HTML*/
