@@ -140,8 +140,6 @@ footer nav a {
     color: white;
     text-decoration: none; */
 
-
-}
 .container{
   width: 800px;
   margin: 0 auto;
@@ -152,7 +150,6 @@ footer nav a {
 }
 .container nav a{
   display: inline-block;
-  float: left;
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -279,8 +276,9 @@ background-color: dodgerblue;
 .bottom-content .text-container{
   display: inline-block;
   width:230px;
-  margin: 10px; 50px;
+  margin: 10px 50px;
 }
+
 .border nav{
   padding: 30px;
   Overflow: hidden;
