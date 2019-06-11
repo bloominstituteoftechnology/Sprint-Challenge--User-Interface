@@ -74,7 +74,6 @@ header {
     width: 800px;
     display: flex;
     justify-items: center;
-    margin-left: 275px;
     margin-bottom: 40px;
     
 }
@@ -226,6 +225,3 @@ button:hover {
     color: white;
 }
 
-footer {
-    margin: 40px;
-}
