@@ -111,7 +111,19 @@ a {
 .about-plan {
     padding-top: 30px;
 }
+.mainSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
 
+.subSection  {
+   height: auto;
+   width: 500px;
+
+   
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
