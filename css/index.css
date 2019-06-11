@@ -79,11 +79,11 @@ header  {
     /* background: white; */
 }
 
-header nav {
-    width: 60%;
+header nav { 
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    width: 60%;
     padding: 20px 2%;
     font-size: 14px;
     margin: 25px;

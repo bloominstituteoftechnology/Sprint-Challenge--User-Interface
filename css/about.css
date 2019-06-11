@@ -82,10 +82,10 @@ header  {
 }
 
 header nav {
-    width: 60%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    width: 60%;
     padding: 20px 2%;
     font-size: 14px;
     margin: 25px;
@@ -96,79 +96,57 @@ header nav a {
     text-decoration: none;
 }
 
-/* header .img {
-    margin: 50px;
-/* header */
 
-/* top-contentt */
+/* banner-contentt */
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+.banner-content {
+    display: inline-block;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly; */
+    margin-bottom: 5px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
+.banner-text {
+    width: 100%;
+    /* padding: 0 1%; */
     padding-bottom: 20px;
-    margin-top: 40px;  
+    margin: 20px;  
 }
 
-/* top-contentt */
+/* banner-contentt */
 
-/* middle-content */
+/* mid-content */
 
-.middle-content {
-    margin-bottom: 20px;
+.mid-content {
+    width: 100%;
+    /* margin-bottom: 20px;
+    border-bottom: 1px dashed black; */
+}
+
+/* .upper-content {
+    width: 100%;
+} */
+
+.text-content {
+    display: inline-block;
+    width: 375px;
+    height: 400px;
+    padding: 1px;
+    margin: 10px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+/* buttons */
+button {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 3px 15px;
+    text-align: center;
+    margin 4px, 2px
+    cursor: pointer;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box-item  {
-    width: 12.5%;
-    height: 100px;
-    /* background: teal; */
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* middle-content */
-
-/* bottom-content */
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-/* bottom-content */
-
-/* footer */
 
 footer {
     width: 100%;
