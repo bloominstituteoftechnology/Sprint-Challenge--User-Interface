@@ -289,4 +289,6 @@ background-color: dodgerblue;
     color: white;
 }
 
-
+p{
+  display: flex;
+}
