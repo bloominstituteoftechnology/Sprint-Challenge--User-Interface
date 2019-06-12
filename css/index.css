@@ -209,18 +209,100 @@ a{
     background-color: dodgerblue;
 }
 
-/*CSS SECTION FOR INDEX.HTML*/
+/*CSS SECTION FOR INDEX.HTML--------------------------------------------------------------*/
 
-!!!!!!!!!!!!!-------------------------------------------------------------------------------!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
 
 
 /*CSS SECTION FOR ABOUT.HTML*/
 
+.aboutnav{
+    margin-left: 320px;
+    margin-top: 50px;
+}
 
-.strategy{
-    border: 3px solid red;
+.picture-one{
+    position: absolute;
+    bottom: 565px;
+    left: 300px;
+}
+.picture-two{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.about{
+    width: 800px;
+    margin-left: 320px;
+    margin-top: 30px;
+    border-bottom: 3px dashed black;
+    padding: 25px;
 }
 
 
+
+
+.card-box{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 150px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    justify-content: space-evenly;
+}
+.card{
+    width: 450px;
+    margin-bottom: 40px;
+    margin-left: 74px;
+
+}
+.button{
+    border: 3px solid black;
+    border-radius: 6px;
+    width: 150px;
+    padding: 10px 30px;
+    text-decoration: none; 
+}
+.button-primary:hover{
+    background: slategrey;
+}
+.card1{
+    border-bottom: 3px dashed black;
+    border-width: 2px;
+    padding: 15px;
+}
+.card2{
+    border-bottom: 3px dashed black;
+    border-width: 2px;
+    padding: 15px;
+}
+.card3{
+    border-bottom: 3px dashed black;
+    border-width: 2px;
+    padding: 15px;
+}
+.card4{
+    border-bottom: 3px dashed black;
+    border-width: 2px;
+    padding: 15px;
+}
+
+.bottom-container{
+    width: 900px;
+    margin-left: 240px;
+}
+
+footer{
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
 
 /*CSS SECTION FOR ABOUT.HTML*/
