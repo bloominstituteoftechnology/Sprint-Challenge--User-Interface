@@ -132,9 +132,14 @@ a {
 }
 
 .tailSection {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 50px;
+    width: 780px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tailSection h3 p {
+    
 }
 .top-content {
     display: flex;
