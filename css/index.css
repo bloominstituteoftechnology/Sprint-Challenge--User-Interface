@@ -132,7 +132,10 @@ a {
 }
 
 .tailSection {
-    width: 780px;
+    max-width: 800px;
+    width: 85%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -197,8 +200,12 @@ a {
 }
 
 footer {
-    width: 100%;
+    width: 90%;
     background: black;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 footer nav {
