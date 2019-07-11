@@ -71,30 +71,15 @@ p {
     margin: 0 auto;
 }
 
-nav{
-    display: flex;
-    /* border: 2px solid green; */
-    justify-content: space-between;
-    margin: 30px 0px 30px 0px;
-}
-nav a{
-    text-decoration: none;
-    color:black;
-}
-
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    /* border: 2px solid red; */
-
 }
 
 .top-content .text-container {
-    margin-top:20px;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -126,30 +111,6 @@ nav a{
     align-items: center;
     justify-content: center;
 }
-
-.middle-content .boxes .one{
-    background: teal;
-}
-.middle-content .boxes .two{
-    background: gold;
-}.middle-content .boxes .three{
-    background: cadetblue;
-}.middle-content .boxes .four{
-    background: coral;
-}.middle-content .boxes .five{
-    background: crimson;
-}.middle-content .boxes .six{
-    background: forestgreen;
-}.middle-content .boxes .seven{
-    background: darkorchid;
-}.middle-content .boxes .eight{
-    background: hotpink;
-}.middle-content .boxes .nine{
-    background: indigo;
-}.middle-content .boxes .ten{
-    background: dodgerblue;
-}
-
 
 .bottom-content {
     display: flex;
@@ -183,72 +144,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-
-
-/* .about-page .topaboutimage{
-    margin-bottom: 30px;
-} */
-.about-page .about-text-container{
-    padding: 20px;
-    width: 825px;
-    border-bottom: 1px dashed black;
-}
-
-
-
-.items-about-top{
-    /* border: 2px solid green; */
-    display: flex;
-    flex-wrap: wrap;
-    width: 825px;
-    /* border-bottom: 1px dashed black; */
-}
-
-.items-about-top .boxy{
-    display: flex;
-    flex-direction: column;
-    padding: 5px 0px 10px 0px;
-    width: 400px;
-    margin: 5px;
-    border-bottom: 1px dashed black;
-}
-.items-about-top .boxy h2{
-    margin-top: 10px;
-}
-
-.items-about-top p{
-    padding: 10px 0px 10px 0;
-    width: 400px;
-}
-
-.items-about-top .button{
-    border: 2px solid black;
-    width: 120px;
-    border-radius: 5px;
-    padding: 8px;
-    text-align: center;
-}
-
-.about-page .bottom{
-    border: none;
-}
-
-/* ANIMATION STRETCH */
-
-h2 {
-    animation-duration: 3s;
-    animation-name: slideIn;
-  }
-  
-  @keyframes slideIn {
-    from {
-      margin-left: 100%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
