@@ -144,3 +144,140 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My Code Starts Here */
+
+body{
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    margin: 20px 20px;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+
+
+header nav{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 20px;
+    padding: 40px 20px;
+
+}
+
+.top-content {
+    display: flex;
+   margin:20px;
+}
+
+.top-content .jumbo{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+
+
+/* .top-content .text-container{
+
+} */
+
+.middle-content {
+    display: flex;
+    width: 100%;
+}
+
+.middle-content h2{
+
+
+}
+
+.middle-content .boxes {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.middle-content .boxes .box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.middle-content .boxes #box1{
+    background-color: teal;
+
+}
+
+.middle-content .boxes #box2{
+    background-color: gold;
+
+}
+
+.middle-content .boxes #box3{
+    background-color: cadetblue;
+
+}
+
+.middle-content .boxes #box4{
+    background-color: coral;
+
+}
+
+.middle-content .boxes #box5{
+    background-color: crimson;
+
+}
+
+.middle-content .boxes #box6{
+    background-color: forestgreen;
+
+}
+
+.middle-content .boxes #box7{
+    background-color: darkorchid;
+
+}
+
+.middle-content .boxes #box8{
+    background-color: hotpink;
+
+}
+
+.middle-content .boxes #box9{
+    background-color: indigo;
+
+}
+
+.middle-content .boxes #box10{
+    background-color: dodgerblue;
+
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer nav{
+    display: flex;
+    width: 70%:
+    text-decoration: none;
+}
+
