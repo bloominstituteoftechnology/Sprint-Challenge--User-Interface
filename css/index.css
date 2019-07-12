@@ -188,3 +188,39 @@ ul {
   .headnavbar2{
     margin: 20px;
   }
+
+
+  /*about page */
+
+  .about{
+    border-bottom: 1px dashed black;
+  }
+
+  .container-about{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    border-bottom: 1px dashed black;
+
+}
+
+  .item{
+
+    width:45%;
+  }
+
+  .item img{
+    width:95%;
+  }
+
+  .item button{
+
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+    border-radius: 10%;
+    font-size: 15px;
+    padding: 10px;
+
+  }
