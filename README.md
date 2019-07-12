@@ -42,7 +42,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 * 1. ```:block``` takes the whole block, like ```<p>```. ```:inline``` is like ```<span>``` or ```<em>``` only takes as much space as its content.
 
-* 2. ```:block``` can have ```width```, ```height``` and margin. ```inline``` cannot have them.
+* 2. ```:block``` can have ```width```, ```height``` and ```margin```. ```inline``` cannot have them.
 
 
 
@@ -65,7 +65,7 @@ Edit this document to include your answers after each question. Make sure to lea
 * Git records changes applied to a file/files. Git helps us to change different version of the code later if we need it. Team of people can work on a project, make changes and commit those changes.
 
 
-
+---------------------------------------------------------------------------------
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
