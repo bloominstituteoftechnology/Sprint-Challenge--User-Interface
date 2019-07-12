@@ -303,7 +303,7 @@ footer nav a {
 /* ---about--- */
 
 .about-content {
-  padding: 2%;
+  padding: 0% 2% 2%;
 }
 
 .about-main {
@@ -340,5 +340,5 @@ footer nav a {
 }
 
 .cta {
-  padding: 5% 2%;
+  padding: 2% 2% 5%;
 }
