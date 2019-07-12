@@ -159,7 +159,7 @@ p {
 .button:hover {
     background: black;
     color: whitesmoke;
-    animation-name: lm-button;
+    animation-name: button;
     animation-duration: 500ms;
     padding: 15px 25px 15px;
     margin: 5px 0 5px;
