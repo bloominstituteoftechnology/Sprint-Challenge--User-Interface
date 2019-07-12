@@ -77,10 +77,15 @@ header nav {
     align-items: baseline;
 }
 
+header img {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .top-content {
