@@ -84,7 +84,7 @@ header nav img {
 
 .headerImg {
     margin-top: 4%;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
 }
 
 .container {
@@ -97,6 +97,7 @@ header nav img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 3%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -105,6 +106,33 @@ header nav img {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container2 {
+    padding: 0 3%;
+    padding-bottom: 20px;  
+}
+
+.learn {
+	display: flex;
+    width: 39%;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.container5 {
+    width: min-content;
+}
+
+.supercontainer5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .middle-content {
