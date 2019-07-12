@@ -56,6 +56,12 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
