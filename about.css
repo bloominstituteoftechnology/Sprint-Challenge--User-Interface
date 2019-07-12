@@ -1,22 +1,33 @@
 .top-nav-img {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
+
+    
     /* width: 100%; */
 }
 
 /* |||||||||||||||||||||||||||||||||||\\ */
+.top-nav{ 
+    width: 900px;
+}
+.lambda-logo {
+    padding-left: 80px;
+}
+
 
 .outer-container1 {
     display: flex;
-    
+    width: 90%;
+
 }
 
 .section-container1 {
 width: 90%;
 height: 420px;
 width: 400px;
-border: 2px solid green;
+/* border: 2px solid green; */
 display: flex;
 margin: 3px;
 
@@ -39,8 +50,14 @@ button {
     font-size: 14px;
     font-weight: bold;
 
-    /* padding-bottom: 5px; */
 }
+button:hover {
+    opacity: 0.8;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: beige;
+}
+
 .div-button{
 padding-left: 10px;
 }

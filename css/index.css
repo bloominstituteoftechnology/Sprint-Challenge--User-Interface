@@ -154,6 +154,7 @@ footer nav a {
     justify-content: space-between;
     /* border: 2px solid green; */
     margin-right: 130px;
+    padding-left: 110px;
 }
 
 .lambda-logo{
@@ -161,13 +162,22 @@ footer nav a {
     padding-left: 50px;
 }
 
+.home-nav-photo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+
 .menu {
     /* border: 2px solid red; */
     padding: 30px;
    width: 600px;
    display: flex;
    justify-content: space-between;
-   padding-right: 60px;
+   padding-right: 110px;
 }
  .boxes {
     /* border: 2px solid red; */
@@ -178,6 +188,7 @@ footer nav a {
     padding: 20px;
      margin: 20px;     
 } 
+
 
 .box1-5 {
     display: flex;
@@ -211,10 +222,13 @@ justify-content: center;
 align-items: center;
 padding: 10px;
 }
-
-.text {
-    border: green;
+.box1:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
 }
+
 
 
 .box2 {
@@ -225,6 +239,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.box2:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
+}
 .box3{
     background-color: cadetblue;
     width: 100px;
@@ -232,6 +252,12 @@ height: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.box3:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
 }
 .box4  {
     background-color: coral;
@@ -241,6 +267,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.box4:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
+}
 .box5{
     background-color: crimson;
     width: 100px;
@@ -249,6 +281,17 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.box5:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+.box6:hover{ 
+    font-weight: bold;
+    color: white;    opacity: 0.8;
+    border-radius: 15px;
+}
 .box6 {
     background-color: forestgreen;
     width: 100px;
@@ -256,6 +299,12 @@ height: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.box7:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
 }
 .box7 {
     background-color: darkorchid;
@@ -273,6 +322,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.box8:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
+}
 .box9 {
     background-color: indigo;
     width: 100px;
@@ -281,6 +336,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+.box9:hover{ 
+    font-weight: bold;
+    color: white;   
+     opacity: 0.8;
+    border-radius: 15px;
+}
 .box10 {
     background-color: dodgerblue;
     width: 100px;
@@ -288,4 +349,16 @@ height: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.box10:hover{ 
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+footer {
+    margin: 20px 0px 40px 0px;
+}
+h2 {
+    font-weight: bold;
 }
