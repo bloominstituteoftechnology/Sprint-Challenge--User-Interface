@@ -190,11 +190,38 @@ nav{
 }
 
 .container-about-page{
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+   
+  
 
 }
 .container-about-page2{
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+h2{
+    padding:10px;
+    margin:5px;
+}
+
+.abox{
+    border-bottom: 1px dashed black;
+}
+button{
+    border-radius: 10px;
+    padding: 12px;
+    margin:15px;
+    
+}
+.aboutbot{
+    margin-bottom: 20px;
+}
+.atop{
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
 }
