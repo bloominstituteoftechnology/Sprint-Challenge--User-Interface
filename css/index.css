@@ -127,6 +127,10 @@ header nav img {
 
 .container5 {
     width: min-content;
+    border-bottom: 1px dashed black;
+    margin: 11px;
+    padding-bottom: 2%;
+    margin-bottom: 6%;
 }
 
 .supercontainer5 {
