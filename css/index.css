@@ -124,6 +124,18 @@ header nav img {
     background-color: white;
 }
 
+.learn2 {
+    display: flex;
+    width: 31%;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: white;
+}
+
 .container5 {
     width: min-content;
     border-bottom: 1px dashed black;
