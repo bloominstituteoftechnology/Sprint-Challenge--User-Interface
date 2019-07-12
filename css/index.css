@@ -66,10 +66,16 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+
 
 .top-content {
     display: flex;
