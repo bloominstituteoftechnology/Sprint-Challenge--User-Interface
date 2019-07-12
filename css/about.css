@@ -174,7 +174,7 @@ header {
 header nav {
   display: flex;
   width: 70%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 header nav a {
@@ -238,7 +238,13 @@ p {
 
 }
 
+.work-together h2 {
+margin-left: 20px
+}
 
+.work-together p{
+    justify-content: center;
+}
 footer nav{
     display: flex;
     width: 70%:
