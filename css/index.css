@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+/* Obj1 */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid green;
+}
+.logo {
+    border: 1px solid orange;
+    padding-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    font-size: 12px;
+    border: 1px solid blue;
+}
+.navigation {
+    width: 75%;
+    padding: 5px;
+    margin: 25px 0px;
+    border: 1px solid red;
+}
+.header-image {
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+/* end of obj1 */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
