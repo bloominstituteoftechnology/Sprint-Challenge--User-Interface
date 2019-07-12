@@ -145,6 +145,16 @@ p {
     padding-bottom: 20px;
 }
 
+a.learn-more {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px 10px;
+    margin: 10px 0 10px;
+}
+
 .about-bottom-content {
     padding: 10px 30px 20px;
     margin-bottom: 20px;
