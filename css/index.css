@@ -240,7 +240,6 @@ footer nav a {
     padding: 25px 25px 0 50px;
     text-decoration: none;
     color: black;
-   
 }
 img {
     padding-top: 15px;
@@ -250,12 +249,59 @@ nav {
     margin-bottom: 20px;
     
 }
-.contatiner1 {
-     display: flex;
-     max-width: 900px;
-    border: 1px solid red;
+.container1 {
+    display: flex;
+    max-width: 900px;
+    border-top: 1px dashed black;
+    margin-top: 15px;
+    margin-bottom: 25px; 
+    padding-bottom: 20px;
 }
 
 button{
-    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.aboutcontainer{
+    width: 750px;
+    margin: 0 auto;
+}
+.container2 {
+   display: flex;
+   max-width: 900px;
+   margin-top: 15px;
+   margin-bottom: 25px; 
+   padding-bottom: 20px;
+ }
+.container3 {
+    width: 750px;
+    margin: 0 auto 20px;   
+}
+.sec1{
+    display: flex-wrap;
+    width: 500px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+}
+.sec2 {
+    display: flex-wrap;
+    width: 500px;
+    border-bottom: 1px dashed black;
+    margin-left: 60px;
+    padding-bottom: 15px: 
+    
+}
+.sec3 {
+    display: flex-wrap;
+    width: 500px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px
+}
+.sec4 {
+    display: flex-wrap;
+    width: 500px;
+    border-bottom: 1px dashed black;
+    margin-left: 60px;
+    padding-bottom: 15px
 }
