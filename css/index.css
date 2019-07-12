@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -144,3 +146,108 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+  /* Sprint add ons */
+.navigation > ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 3% 0 5% 0;
+  width: 95%;
+}
+
+.header {
+  display: block;
+  margin-bottom: 3%;
+}
+
+a:hover {
+  color: crimson;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.box {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.box:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+} 
+
+
+  /* about section */
+
+.about {
+  padding: 0 2% 2%;
+}
+
+.top {
+  display: flex;
+  margin: 3% 3%;
+  /* padding: 0 3% 2%; */
+
+}
+
+.middle-area {
+  padding-bottom: 3%;
+  /* padding-right: 2%; */
+  margin-right: 3%;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+  border: 2px solid #008CBA;
+  margin: 2% 0;
+}
+
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}
+
+hr {
+  border-top: dotted 1px;
+}
+
+.middle-area > h1 {
+  margin-top: 3%;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 4% 3%;
+}
+
+.middle-large {
+  width: 95%;
+  margin-left: 3%;
+}
+    /* Sprint add ons */
