@@ -300,12 +300,12 @@ hr {
   body {
     background: ghostwhite;
   }
-  .boxes {
+  .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
-  }
-  .box {
-    
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
   }
 }
 /********** Small devices only **********/
