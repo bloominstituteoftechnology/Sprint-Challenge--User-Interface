@@ -152,6 +152,11 @@ p {
   line-height: 1.4;
 }
 
+header nav > a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   width: 900px;
   margin: 0 auto;
@@ -187,9 +192,9 @@ body {
   text-align: center;
 }
 
-.why {
+/* .why {
   border-top: thin grey dotted;
-}
+} */
 
 .mycontainer2 {
   display: flex;
@@ -438,7 +443,6 @@ h2 {
   justify-content: space-around;
 }
 
-/* 
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -446,7 +450,7 @@ h2 {
   margin-bottom: 40px;
   border-bottom: 1px dashed grey;
   padding-bottom: 40px;
-} */
+}
 
 /* .top-content .text-container {
   width: 48%;
