@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: black
 }
 ol, ul {
 	list-style: none;
@@ -131,9 +132,21 @@ p {
     justify-content: center;
    
 }
+.middle-content .boxes .box:hover {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: 1.5s;
+}
 
 .box1 {
     background: teal;
+    
 }
 .box2 {
     background: gold;
@@ -163,6 +176,7 @@ p {
     background: dodgerblue;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -178,8 +192,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
@@ -206,11 +221,16 @@ and (max-width: 667px) {
     }
     
   }
-
+.about-page {
+    width: 1000px;
+    padding: 10px 0px;
+    margin: 0 auto;
+    background-color: white;
+}
 
 .about { 
     width: 800px;
-    margin: 10px 0px 20px 0px;
+    margin: 10px auto 20px auto;
     padding: 20px 20px;
     
     border-bottom: 1px dashed black;
@@ -218,7 +238,7 @@ and (max-width: 667px) {
 
 .workTogether {
     width: 800px;
-    margin: 10px 0px 40px 0px;
+    margin: 10px auto 40px auto;
     padding: 20px 20px;
     
 }
@@ -228,7 +248,7 @@ and (max-width: 667px) {
     display: flex;
     justify-content: space-between;
     
-    margin: 0px 0px 20px 0px;
+    margin: 0px auto 20px auto;
     
 }
 .contentBox {
@@ -252,8 +272,9 @@ and (max-width: 667px) {
 }
 
 .contentBox h6:hover  {
-    border-radius: 100%;
-    transition-delay: 1.5;
+    
+    padding: 20px;
+   transition: 1.5s;
 
 
 }
