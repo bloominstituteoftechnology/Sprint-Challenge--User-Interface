@@ -144,3 +144,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* bigin of my code*/
+.headnavbar1{
+
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 80px;
+        text-align: center;
+        
+}
+
+
+.container h2{
+   
+    margin: 20px;
+    margin-right: 50px;
+
+}
+
+.container p{
+   margin: 20px;
+
+}
+
+
+ul {
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: black;
+    text-align: center;
+    padding: 1px 38px;
+    text-decoration: none;
+  }
+
+  .headnavbar2{
+    margin: 20px;
+  }
