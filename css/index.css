@@ -363,3 +363,16 @@ footer nav a {
 .cta {
   padding: 2% 2% 5%;
 }
+
+.contact-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+  justify-content: space-around;
+}
