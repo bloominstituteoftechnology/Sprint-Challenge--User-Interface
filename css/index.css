@@ -266,4 +266,14 @@ hr {
   margin: 3% 3%;
   padding: 3% 0;
 }
+
+.bottom-sign {
+  display: flex;
+  justify-content: center;
+  margin: 25% 0 ;
+}
+
+.bottom-sign p {
+  width: 280px;
+}
     /* Sprint add ons */
