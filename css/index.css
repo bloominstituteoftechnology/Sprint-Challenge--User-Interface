@@ -174,8 +174,6 @@ header nav a{
 }
 
 .container{
-    display: flex;
-    justify-content: space-evenly;
     margin: 40px 20px;
     padding: 40px 20px;
 
@@ -200,6 +198,8 @@ header nav a{
 .middle-content {
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .middle-content h2{
@@ -209,15 +209,14 @@ header nav a{
 
 .middle-content .boxes {
     display: flex;
-    width: 200px;
-    height: 200px;
+    flex-wrap: wrap;
 }
 
 .middle-content .boxes .box{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
-    flex-wrap: wrap;
+    width: 100px;
+    height: 100px;
 }
 
 .middle-content .boxes #box1{
