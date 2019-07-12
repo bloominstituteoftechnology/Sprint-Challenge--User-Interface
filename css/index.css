@@ -152,17 +152,17 @@ footer nav a {
     margin: 30px;
     display: flex;
     justify-content: space-between;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-right: 130px;
 }
 
 .lambda-logo{
-    border: 2 px solid black;
+    /* border: 2 px solid black; */
     padding-left: 50px;
 }
 
 .menu {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 30px;
    width: 600px;
    display: flex;
@@ -170,7 +170,7 @@ footer nav a {
    padding-right: 60px;
 }
  .boxes {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 900x;
     height: 400px;
     display: flex;
@@ -182,7 +182,7 @@ footer nav a {
 .box1-5 {
     display: flex;
     justify-content: space-between;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 100px;
     width: 700px;
 
@@ -193,8 +193,8 @@ footer nav a {
     width: 700px;
 }
 .text {
-    border: 3px solid pink;
-    background-color: red;
+    /* border: 3px solid pink; */
+    /* background-color: red; */
     height: 30px;
     width: 240px;
     display: flex;
