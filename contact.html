@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,78 +10,53 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   <title>Sprint Challenge - Contact</title>
 </head>
-
 <body>
 
-  <div class="container about-page">
+    <div class="container about-page">
 
-    <!-- navigation section -->
-    <nav class="navigation">
-      <ul>
-        <li><a href="./index.html"><img class="logo" src="./img/lambda-black.png" alt="Great Idea! Company logo."></a>
-        </li>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="">Products</a></li>
-        <li><a href="./vision.html">Vision</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
+      <!-- navigation section -->
+      <nav class="navigation">
+        <ul>
+          <li><a href="./index.html"><img class="logo" src="./img/lambda-black.png" alt="Great Idea! Company logo."></a>
+          </li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="./vision.html">Vision</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-    <header class="header">
-      <img
-        src="https://res.cloudinary.com/default-ek/image/upload/c_lfill,g_center,h_153,w_800,x_0,y_0,z_1/v1557966014/home-bg_ujbwhp.jpg"
-        alt="desk with notepad">
-    </header>
+      <header class="header">
+          <img src="https://res.cloudinary.com/default-ek/image/upload/c_lfill,g_center,h_153,w_800,x_0,y_0,z_1/v1557966014/home-bg_ujbwhp.jpg" alt="desk with notepad">
+        </header>
+    
 
+      <!-- contact form   -->
 
-    <!-- contact form   -->
+<div class="contact-form">
+  <form action="#">
+    <label for="first-name">First Name</label>
+    <input type="text" id="first-name" name="firstname" placeholder="Enter name">
 
-    <div class="contact-form">
-      <form action="#">
-        <label for="first-name">First Name</label>
-        <input type="text" id="first-name" name="firstname" placeholder="Enter name">
+    <label for="last-name">Last Name</label>
+    <input type="text" id="last-name" name="lastname" placeholder="Enter last name">
 
-        <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" name="lastname" placeholder="Enter last name">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" >
 
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="Enter your email">
-
-        <input class="button" type="submit" value="Submit">
-      </form>
-    </div>
+    <input class="button" type="submit" value="Submit">
+  </form>
+</div>
 
 
-    <div class="footer">
+  <div class="footer">
       <p>Made with <i class="fas fa-heart"></i> by Eralp Korucubasi</p>
-    </div>
-
-
-
-
-
   </div>
 
+   
+  </div>
 
-
-
-
-
-
-
-
-  <script>
-    function classToggle() {
-      const navs = document.querySelectorAll('.Navbar__Items')
-
-      navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-    }
-
-    document.querySelector('.Navbar__Link-toggle')
-      .addEventListener('click', classToggle);
-  </script>
 </body>
-
 </html>

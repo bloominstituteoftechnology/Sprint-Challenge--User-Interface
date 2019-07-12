@@ -250,4 +250,20 @@ hr {
   width: 95%;
   margin-left: 3%;
 }
+
+/* vision section */
+.come-join {
+  display: flex;
+  margin: 7% 3%;
+}
+
+.come-join p {
+  margin: 3%;
+  padding-right: 5%;
+}
+
+.vision {
+  margin: 3% 3%;
+  padding: 3% 0;
+}
     /* Sprint add ons */
