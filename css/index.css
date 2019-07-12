@@ -70,21 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-.navcontainer nav a{
-    margin-left: 100px;
-    padding-top: 15px;
-    text-decoration: none;
-    color: black;
-   
-}
-img {
-    padding-top: 15px;
-}
-nav {
-    display: inline-flex;
-    margin-bottom: 20px;
-    
-}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -158,4 +144,27 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.navcontainer nav a{
+    text-align: center;
+    padding: 25px 25px 0 50px;
+    text-decoration: none;
+    color: black;
+   
+}
+img {
+    padding-top: 15px;
+}
+nav {
+    display: inline-flex;
+    margin-bottom: 20px;
+    
+}
+.contatiner1 {
+     display: flex;
+     max-width: 900px;
+    border: 1px solid red;
+}
 
+button{
+    border: 1px solid black;
+}
