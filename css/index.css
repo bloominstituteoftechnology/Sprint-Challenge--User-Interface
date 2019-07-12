@@ -126,6 +126,29 @@ p {
     padding-right: 0;
 }
 
+header {
+    display: flex;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+header img.logo{
+    height: 40px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin: 0 30px;
+}
+
+header nav a {
+    margin: 25px 0;
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     width: 100%;
     background: black;
