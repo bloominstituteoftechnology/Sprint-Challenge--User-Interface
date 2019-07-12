@@ -81,7 +81,10 @@ p {
     font-size: 14px;
     font-weight: bold;
 }
-
+.jumbo1 {
+    width: 800px;
+    margin: 10px auto;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -120,12 +123,41 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -160,3 +192,88 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page -- starts here!!! */
+@media only screen 
+and (min-width: 375px) 
+and (max-width: 667px) {
+	body  {
+      display: flex;
+	  flex-wrap: wrap;
+    }
+    .mainContent {
+        display: flex;
+        flex-wrap: wrap
+    }
+    .contentBox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+  }
+
+
+body * {
+    font-weight: 595;
+}
+.about { 
+    width: 800px;
+    margin: 10px 0px 20px 0px;
+    padding: 20px 20px;
+    
+    border-bottom: 1px dashed black;
+}
+
+.workTogether {
+    width: 800px;
+    margin: 10px 0px 40px 0px;
+    padding: 20px 20px;
+    
+}
+
+.mainContent {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0px 0px 20px 0px;
+    
+}
+.contentBox {
+    width: 395px;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 20px 0px;
+    margin: 10px 0px;
+    height: auto;
+    
+}
+
+.contentBox h6 {
+    text-align: center;
+    font-size: 15px;
+	width: 120px;
+    margin: 10px 0px 0px 0px;
+    height: auto;
+    padding: 10px;
+	border: 1px solid black;
+	border-radius: 10%;
+}
+
+.contentBox h6:hover  {
+    border-radius: 100%;
+    transition-delay: 1.5;
+
+
+}
+
+.info {
+    width: 0 auto;
+    height: 150px;
+    padding: 10px 0px 10px 0px;
+}
+
+
