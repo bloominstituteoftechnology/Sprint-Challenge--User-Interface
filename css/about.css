@@ -160,7 +160,7 @@ p {
 /* My Code Starts Here */
 
 body {
-  width: 960px;
+  width: 880px;
   margin: auto;
 }
 
@@ -186,6 +186,7 @@ header nav a {
   display: flex;
   margin-bottom: 40px;
 }
+
 p {
   margin: 20px 20 px;
   padding: 20px 20px;
@@ -220,7 +221,20 @@ p {
   margin: 20px 20px;
   padding: 20px 20px;
   border-bottom: 2px dotted black;
+  align-content: center;
 }
+
+.box-section .box-content img{
+    margin-bottom: 20px;
+}
+
+
+.box-section .box-content a{
+    text-decoration: none;
+    color: black;
+
+}
+
 
 footer nav{
     display: flex;
@@ -230,9 +244,11 @@ footer nav{
 
 footer nav{
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: space-between;
     background-color: black;
+    margin: 20px 20px;
+    padding: 40px 40px;
     
 }
 footer nav a{
