@@ -155,6 +155,30 @@ a.learn-more {
     margin: 10px 0 10px;
 }
 
+a.learn-more:hover {
+    background: black;
+    color: whitesmoke;
+    animation-name: lm-button;
+    animation-duration: 500ms;
+    padding: 15px 25px 15px;
+    margin: 5px 0 5px;
+}
+
+@keyframes lm-button {
+    from {
+        background: white;
+        color: black;
+        padding: 10px 20px 10px;
+        margin: 10px 0 10px;
+    }
+    to  {
+        background: black;
+        color: whitesmoke;
+        padding: 15px 25px 15px;
+        margin: 5px 0 5px;
+    }
+}
+
 .about-bottom-content {
     padding: 10px 30px 20px;
     margin-bottom: 20px;
