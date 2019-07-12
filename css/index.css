@@ -205,7 +205,7 @@ footer nav a {
     /* border-bottom: 1px dashed black; */
 }
 
-.items-about-top .boxy{
+.items-about-top .infobox{
     display: flex;
     flex-direction: column;
     padding: 5px 0px 10px 0px;
@@ -213,7 +213,7 @@ footer nav a {
     margin: 5px;
     border-bottom: 1px dashed black;
 }
-.items-about-top .boxy h2{
+.items-about-top .infobox h2{
     margin-top: 10px;
 }
 
