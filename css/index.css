@@ -66,16 +66,22 @@ p {
     line-height: 1.4;
 }
 
-header nav {
+a {
+    text-decoration: none;
+    color: black;
+}
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 2%;
 }
-
-
 
 .top-content {
     display: flex;
