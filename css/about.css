@@ -145,6 +145,7 @@ html,
 body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width: 1000px;
 }
 
 h1,
@@ -209,12 +210,10 @@ footer nav a {
     margin-bottom: 20px
 }
 
-.aboutTheboxes {
+.boxTop,
+.boxbottom {
     display: flex;
-    flex-wrap: wrap;
-    align-items: space-between;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .aboutStrategy,
