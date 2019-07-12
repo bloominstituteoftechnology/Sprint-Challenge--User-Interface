@@ -224,4 +224,22 @@ button{
     padding-bottom: 30px;
     border-bottom: 1px dashed black;
 }
+.container-page{
+    display:flex;
+    justify-content: center;
 }
+ 
+ 
+ .box6 {
+     padding-bottom: 30px;
+    height:20%;
+    width:25%;
+
+    border: 3px solid black;
+    text-align: center;
+    margin: auto;
+    transition:1s ease-in-out;
+ }
+ .box6:hover {
+    transform: rotate(90deg)
+ }
