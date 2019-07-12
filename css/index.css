@@ -228,40 +228,86 @@ footer nav a {
 
 .middle-content .boxes .box1 {
     background: teal;
+    animation: 250ms load-box;
 }
 
 .middle-content .boxes .box2 {
     background: gold;
+    animation: 500ms load-box;
 }
 
 .middle-content .boxes .box3 {
     background: cadetblue;
+    animation: 750ms load-box;
 }
 
 .middle-content .boxes .box4 {
     background: coral;
+    animation: 1000ms load-box;
 }
 
 .middle-content .boxes .box5 {
     background: crimson;
+    animation: 1250ms load-box;
 }
 
 .middle-content .boxes .box6 {
     background: forestgreen;
+    animation: 250ms load-box;
 }
 
 .middle-content .boxes .box7 {
     background: darkorchid;
+    animation: 500ms load-box;
 }
 
 .middle-content .boxes .box8 {
     background: hotpink;
+    animation: 750ms load-box;
 }
 
 .middle-content .boxes .box9 {
     background: indigo;
+    animation: 1000ms load-box;
 }
 
 .middle-content .boxes .box10 {
     background: dodgerblue;
+    animation: 1250ms load-box;
+}
+
+@keyframes load-box {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
 }
