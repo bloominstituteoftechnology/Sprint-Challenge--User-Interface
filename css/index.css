@@ -93,12 +93,15 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+   
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 30px;
+    margin: 40px;
 }
 
 .middle-content .boxes .box {
@@ -143,4 +146,146 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.top-nav {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+    margin-right: 130px;
+}
+
+.lambda-logo{
+    border: 2 px solid black;
+    padding-left: 50px;
+}
+
+.menu {
+    border: 2px solid red;
+    padding: 30px;
+   width: 600px;
+   display: flex;
+   justify-content: space-between;
+   padding-right: 60px;
+}
+ .boxes {
+    border: 2px solid red;
+    width: 900x;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+     margin: 20px;     
+} 
+
+.box1-5 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+    height: 100px;
+    width: 700px;
+
+}
+.box6-10 {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.text {
+    border: 3px solid pink;
+    background-color: red;
+    height: 30px;
+    width: 240px;
+    display: flex;
+    justify-content: flex-start
+  
+}
+
+.box1{
+background-color: teal;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+.text {
+    border: green;
+}
+
+
+.box2 {
+    background-color: gold;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box3{
+    background-color: cadetblue;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box4  {
+    background-color: coral;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box5{
+    background-color: crimson;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box6 {
+    background-color: forestgreen;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box7 {
+    background-color: darkorchid;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box8{
+    background-color: hotpink;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box9 {
+    background-color: indigo;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.box10 {
+    background-color: dodgerblue;
+    width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
