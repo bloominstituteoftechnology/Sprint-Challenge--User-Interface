@@ -88,6 +88,7 @@ a {
     margin: 30px;
     font-size: 12px;
     /* border: 1px solid blue; */
+
 }
 .navigation {
     width: 75%;
@@ -237,4 +238,30 @@ button {
 button a{
     font-size: 14px;
     font-weight: bold;
+}
+
+/* Stretch Goals */
+button:hover {
+    background: black;
+}
+
+
+a:hover {
+    color: blue;
+}
+
+.box:hover {
+    background: mediumseagreen;
+}
+
+/* Blog PG */
+
+.article-section {
+    display: flex;
+    display-wrap: wrap;
+    }
+}
+.articles {
+    width: 49%;
+    border: 1px solid green;
 }
