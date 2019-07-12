@@ -1,0 +1,58 @@
+.top-nav-img {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+.top2-photos {
+    border: 2px solid green;
+    display: flex;
+    padding: 10px;
+    margin: 4px;
+    /* justify-content: column; */
+}
+.bottom2-photos {
+    border: 2px solid brown;
+    display: flex;
+    padding: 10px;
+}
+.subtitles {
+    font-size: 18px
+}
+.container {
+width: 90%;
+}
+.border-1 {
+    border: 1px dashed black;
+    margin-bottom: 10px;
+}
+.first-text {
+    padding: 10px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top:200px;
+    
+}
+.last-sentence {
+    margin: 10px;
+}
+.row-2{
+    background-color: gray;
+}
+
+
+
+
+/* 
+<div class="top2-photos">
+<div class="wrapper1">
+<div class="one"<img src="img/about-plan.png" alt="strategy"></div>
+<div class="two"><div class="title"><p>Strategy</p></div></div>
+<div class="three"> <div>Iterative approaches to corporate strategy foster collaborative thinking to further the overall valueproposition.</div>
+</div>
+<div><button type="button">Learn More</button></div>
+</div> */
