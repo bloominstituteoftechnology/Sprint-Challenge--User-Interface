@@ -106,7 +106,9 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+    display: flex;
+    width: 800px;
+    padding-bottom: 2%;
 }
 
 body {
@@ -163,8 +165,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    /*! display: flex; */
-    /*! flex-direction: column; */
 }
 
 .top-content {
@@ -184,6 +184,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
 }
 
 .middle-content h2 {
@@ -241,11 +243,6 @@ footer nav a {
     text-decoration: none;
 }
 
-div nav a {
-    /*! justify-content: space-between; */
-    /*! width: -9px; */
-}
-
 .nav nav a {
     justify-content: space-between;
     width: 17px;
@@ -267,13 +264,13 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 5%;
     font-size: 14px;
 }
 
 .nav {
     display: flex;
-    margin-left: 25px;
+    /*! margin-left: 25px; */
 }
 
 .nav nav a {
@@ -281,39 +278,19 @@ nav a {
     text-decoration: none;
 }
 
-.logo {
-    margin: 15px;
-    width: 800px;
-}
-
-.lambda\.logo {}
-
 .nav {
     display: flex;
     padding-top: 20px;
+    width: 800px;
 }
 
-.nav nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10%;
-    font-size: 14px;
-}
+.nav nav {}
 
 .nav nav a {
     color: black;
     text-decoration: none;
     width: 17px;
 }
-
-.logo {
-    margin: 0 auto;
-    padding-bottom: 3%;
-}
-
-display {}
 
 .about-text-content {
     flex-direction: column;
@@ -329,10 +306,6 @@ display {}
     display: flex;
     width: 800px;
 }
-
-.about-content {}
-
-.about-content {}
 
 .strategy {
     width: 400px;
