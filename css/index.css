@@ -152,6 +152,12 @@ body {
     align-content: center
     text-decoration: none;
 } */
+.header {
+    display: flex;
+    margin: 15px;
+    
+}
+
 
 .header-nav {
     width: 100%;
@@ -169,6 +175,7 @@ body {
 .navBarLogo {
     display: flex;
     justify-content: space-around;
+    
 }
 h1,
 h2,
