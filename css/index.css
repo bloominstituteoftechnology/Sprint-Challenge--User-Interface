@@ -181,15 +181,18 @@ header nav a{
 
 }
 
+.top-content{
+    display:flex;
+    justify-content: space-between;
+}
+
 .top-content .jumbo{
     display: flex;
     margin-bottom: 40px;
 }
 
-.top-content{
-    display:flex;
-    justify-content: space-between;
-}
+/* .top-content .text-container{
+} */
 
 .middle-content {
     display: flex;
