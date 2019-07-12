@@ -209,3 +209,32 @@ footer nav a {
 }
 
 /* ABOUT PG BEGINS HERE */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+    /* border: 1px solid green; */
+}
+.card {
+    width: 45%;   
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px dashed black; 
+    /* border: 1px solid red; */
+}
+.card-img img{
+    width: 100%;
+    /* border: 5px solid green; */
+}
+button {
+    background: white;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+button a{
+    font-size: 14px;
+    font-weight: bold;
+}
