@@ -181,9 +181,20 @@ a{
     color:black;
 }
 nav{
+    display:flex;
     padding-bottom: 25px;
     padding-top: 25px;
     display:flex;
     align-items: baseline;
+    justify-content: space-between;
+}
+
+.container-about-page{
+    display:flex;
+    justify-content: space-between;
+
+}
+.container-about-page2{
+    display:flex;
     justify-content: space-between;
 }
