@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    font-weight: 595;
 }
 
 html, body {
@@ -128,7 +129,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
+
 .box1 {
     background: teal;
 }
@@ -197,29 +200,14 @@ footer nav a {
 @media only screen 
 and (min-width: 375px) 
 and (max-width: 667px) {
-	body  {
+	body * {
       display: flex;
-	  flex-wrap: wrap;
-    }
-    .mainContent {
-        display: flex;
-        flex-wrap: wrap
-    }
-    .contentBox {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    nav {
-        display: flex;
-        flex-wrap: wrap;
+      flex-wrap: wrap;
     }
     
   }
 
 
-body * {
-    font-weight: 595;
-}
 .about { 
     width: 800px;
     margin: 10px 0px 20px 0px;
