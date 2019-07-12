@@ -70,7 +70,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.navcontainer nav a{
+    margin-left: 100px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+   
+}
+img {
+    padding-top: 15px;
+}
+nav {
+    display: inline-flex;
+    margin-bottom: 20px;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -144,3 +158,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
