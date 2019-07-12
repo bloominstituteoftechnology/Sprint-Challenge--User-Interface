@@ -81,7 +81,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 25px 1%;
     padding-bottom: 20px;  
 }
 
@@ -143,4 +143,25 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    padding: 25px;
+}
+
+div.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+div.box{
+    padding: 5%;
+}
+
+div.work {
+    padding: 5%;
 }
