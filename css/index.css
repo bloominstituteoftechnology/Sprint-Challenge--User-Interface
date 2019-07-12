@@ -197,6 +197,8 @@ p {
     margin: 0 auto;
 }
 
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -210,6 +212,23 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.main-content-container {
+    margin-bottom: 20px;
+    border-bottom: 1px;
 }
 
 .middle-content {
