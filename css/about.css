@@ -160,6 +160,26 @@ p {
     line-height: 1.4;
 }
 
+.container .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 20px;
+}
+
+.headerimage {
+    margin: 20px 0px 20px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -182,6 +202,30 @@ footer nav a {
 .aboutTheboxes {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-evenly;
     border: 1px solid red;
+}
+
+.aboutStrategy {
+    border-bottom: 1px dotted black;
+}
+
+.aboutStrategy h3,
+.aboutStrategy p,
+.aboutHow h3,
+.aboutHow p,
+.aboutPlaces h3,
+.aboutPlaces p,
+.aboutcolab h3,
+.aboutcolab p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.aboutHow {
+    border-bottom: 1px dotted black;
 }
