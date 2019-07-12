@@ -199,10 +199,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*! background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -271,6 +271,7 @@ nav a {
 .nav {
     display: flex;
     /*! margin-left: 25px; */
+    margin-bottom: 20px;
 }
 
 .nav nav a {
@@ -283,8 +284,6 @@ nav a {
     padding-top: 20px;
     width: 800px;
 }
-
-.nav nav {}
 
 .nav nav a {
     color: black;
@@ -349,8 +348,6 @@ button {
     margin-left: 19px;
 }
 
-.about-text-content p {}
-
 .about-text-content h2 {
     margin-left: 20px;
 }
@@ -362,4 +359,44 @@ button {
 
 .about-logo {
     padding-top: 2%;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: yellow;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: darkgreen; 
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: fuchsia;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
