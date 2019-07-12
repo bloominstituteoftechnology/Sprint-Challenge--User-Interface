@@ -66,6 +66,22 @@ p {
     line-height: 1.4;
 }
 
+.header1 {
+    display: flex;
+    margin: 20px auto;
+    width: 800px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ nav {
+    display: flex;
+    width: 625px;
+    margin: 20px auto;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
