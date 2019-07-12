@@ -126,6 +126,30 @@ p {
     padding-right: 0;
 }
 
+.about-top-content {
+    padding: 10px 10px 20px;
+    border-bottom:  1px dashed black;
+    margin-bottom: 20px;
+}
+
+.about-main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-main-content .wrapper {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.about-bottom-content {
+    padding: 10px 10px 20px;
+    margin-bottom: 20px;
+}
+
 header {
     display: flex;
     margin: 20px 0;
