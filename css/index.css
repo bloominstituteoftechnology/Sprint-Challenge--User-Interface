@@ -146,11 +146,30 @@ body {
 
 
 
+/* .header-nav a {
+    display: ;
+    justify-content: center;
+    align-content: center
+    text-decoration: none;
+} */
+
 .header-nav {
+    width: 100%;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
 }
 
+.header-nav a {
+    text-decoration: none;
+}
+
+.navBarLogo {
+    display: flex;
+    justify-content: space-around;
+}
 h1,
 h2,
 h3,
