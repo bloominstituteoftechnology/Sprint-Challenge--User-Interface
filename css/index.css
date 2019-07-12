@@ -150,6 +150,11 @@ footer nav a {
 
 
   /* Sprint add ons */
+  body {
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+  }
 .navigation > ul{
   display: flex;
   justify-content: space-between;
@@ -181,7 +186,17 @@ a {
 .box:hover {
   opacity: 0.6;
   transition: 0.5s;
-} 
+}
+
+.box-about {
+  opacity: 0.6;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.box-about:hover {
+  opacity: 1;
+}
 
 
   /* about section */
@@ -277,3 +292,32 @@ hr {
   width: 280px;
 }
     /* Sprint add ons */
+
+/* media query */
+
+/********* Extra small devices **********/
+@media (min-width: 300px) and (max-width: 790px){
+  body {
+    background: ghostwhite;
+  }
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    
+  }
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/********** Large devices only **********/
+@media (min-width: 1200px){
+
+}
+
