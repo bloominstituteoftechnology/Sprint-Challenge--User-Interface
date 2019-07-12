@@ -175,3 +175,15 @@ background-color: teal ;
 .ten{
     background-color: dodgerblue;
 }
+
+a{
+    text-decoration: none;
+    color:black;
+}
+nav{
+    padding-bottom: 25px;
+    padding-top: 25px;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
