@@ -145,26 +145,28 @@ p {
     padding-bottom: 20px;
 }
 
-a.learn-more {
+.button {
     display: inline-block;
     text-decoration: none;
     color: black;
+    background: white;
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px 20px 10px;
     margin: 10px 0 10px;
 }
 
-a.learn-more:hover {
+.button:hover {
     background: black;
     color: whitesmoke;
     animation-name: lm-button;
     animation-duration: 500ms;
     padding: 15px 25px 15px;
     margin: 5px 0 5px;
+    cursor: pointer;
 }
 
-@keyframes lm-button {
+@keyframes button {
     from {
         background: white;
         color: black;
@@ -310,4 +312,27 @@ footer nav a {
     100% {
         opacity: 1;
     }
+}
+
+.contact-form {
+    padding-bottom: 30px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    height: 400px;
+}
+
+label {
+    margin-left: 15px;
 }
