@@ -163,18 +163,33 @@ header nav {
     margin-bottom: 45px; 
 }
 
-.Lambda{
-    background-color: blueviolet
+
+
+.content-box{
+    flex-flow: row-reverse;
+	justify-content: space-between;
+	align-content: center;
 }
 
-.content1{
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
+.main1{
+  display:flex;
 }
 
-.content2{
+.container{
     display: flex;
-    flex-direction: row;
-    justify-content: baseline;git
+    flex-direction: column;
+
+}
+
+.info1{
+    display: flex;
+    flex-direction: row-reverse;
+
+   
+}
+
+.info2{
+    display: flex;
+    flex-direction: row-reverse;
+   
 }
