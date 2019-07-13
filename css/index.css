@@ -167,8 +167,12 @@ header nav {
 
 .content-box{
     flex-flow: row-reverse;
-	justify-content: space-between;
-	align-content: center;
+	justify-content: space-around;
+    align-content: center;
+    border-bottom: 3px dotted black;
+    padding: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
 }
 
 .main1{
@@ -192,4 +196,20 @@ header nav {
     display: flex;
     flex-direction: row-reverse;
    
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid black; 
+  width: 105px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+a {
+    color: black;
+    padding-top: 15px;
+
 }
