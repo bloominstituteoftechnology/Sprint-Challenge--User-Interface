@@ -155,7 +155,7 @@ body {
 .header {
     display: flex;
     margin: 15px;
-    
+
 }
 
 
@@ -176,8 +176,9 @@ body {
 .navBarLogo {
     display: flex;
     justify-content: space-around;
-    
+
 }
+
 h1,
 h2,
 h3,
@@ -197,7 +198,9 @@ p {
     margin: 0 auto;
 }
 
-
+h2 {
+    font-weight: bold;
+}
 
 .top-content {
     display: flex;
@@ -260,7 +263,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 
 
 }
@@ -362,11 +365,19 @@ p {
     background: dodgerblue;
     color: white;
     text-align: center;
-    
+
     width: 12.5%;
     height: 100px;
 }
 
+
+.topArticle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
 
 .bottom-content {
     display: flex;
@@ -380,6 +391,56 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.strategy {
+    width: 48%;
+    margin: auto;
+}
+
+.how {
+    width: 48%;
+    margin: auto;
+}
+
+.places {
+    width: 48%;
+    margin: auto;
+}
+
+.collaboration {
+    width: 48%;
+    margin: auto;
+}
+
+.middle-img {
+    width: 100%;
+    margin: 2% 0% 2% 0%;
+}
+
+.middleArticle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem
+}
+
+.middleArticle1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem
+}
+
+
+.bottomArticle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem
 }
 
 footer {
