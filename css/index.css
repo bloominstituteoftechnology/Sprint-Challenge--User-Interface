@@ -136,7 +136,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 0px 2%;
     font-size: 14px;
 }
 
@@ -158,10 +158,83 @@ div.boxes {
     padding: 5%;
 }
 
-div.box{
-    padding: 5%;
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color:cadetblue;
+}
+
+#box4 {
+    background-color:coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+div.dotted-line {
+    border-bottom: 1px dotted black;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+div.top-boxes {
+    display: flex;
+    padding-top: 3%;
+}
+
+div.bottom-boxes {
+    display: flex;
+    padding-top: 3%;
+}
+
+ img.office {
+    border-top: 1px dotted black;
+    padding-top: 10%;
+}
+
+img.meeting {
+    border-top: 1px dotted black;
+    padding-top: 10%;
+}
+
+p.invisible {
+    width: 370px;
+    color: transparent;
+    border-bottom: 1px dotted black;
 }
 
 div.work {
     padding: 5%;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 15px;
 }
