@@ -233,3 +233,8 @@ p.invisible {
 div.work {
     padding: 5%;
 }
+
+button {
+    padding: 5px 10px;
+    margin-top: 15px;
+}
