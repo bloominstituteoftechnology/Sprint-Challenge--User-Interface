@@ -3,60 +3,156 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: flex;
+    width: 800px;
+    padding-bottom: 2%;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -82,12 +178,14 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
 }
 
 .middle-content h2 {
@@ -101,10 +199,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*! background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +241,162 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav nav a {
+    justify-content: space-between;
+    width: 17px;
+}
+
+nav a {
+    justify-content: space-between;
+    width: 6px;
+}
+
+.nav nav a {
+    /*! width: 37px; */
+    /*! margin: 0px; */
+    justify-content: space-between;
+}
+
+.nav nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    font-size: 14px;
+}
+
+.nav {
+    display: flex;
+    /*! margin-left: 25px; */
+    margin-bottom: 20px;
+}
+
+.nav nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    padding-top: 20px;
+    width: 800px;
+}
+
+.nav nav a {
+    color: black;
+    text-decoration: none;
+    width: 17px;
+}
+
+.about-text-content {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 800px;
+    margin-top: 15px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.column-content {
+    flex-wrap: wrap;
+    display: flex;
+    width: 800px;
+}
+
+.strategy {
+    width: 400px;
+    border-bottom: 1px dashed black;
+    margin-right: 45px;
+    padding-bottom: 20px;
+}
+
+.howwework {
+    width: 375px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+button {
+    background: white;
+    vertical-align: top;
+    margin-top: 6px;
+    padding: 5px 25px;
+    font-size: 17px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.placeswework {
+    width: 400px;
+    border-bottom: 1px dashed black;
+    margin-right: 45px;
+    padding-bottom: 20px;
+}
+
+.collaboration {
+    width: 375px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.about-bottom-content {
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+.about-text-content h2 {
+    margin-left: 20px;
+}
+
+.about-text-content p {
+    margin-left: 20px;
+    padding-bottom: 23px;
+}
+
+.about-logo {
+    padding-top: 2%;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: yellow;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: darkgreen; 
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: fuchsia;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }

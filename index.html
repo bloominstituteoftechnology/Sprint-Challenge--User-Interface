@@ -1,47 +1,64 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Sprint Challenge - Home</title>
+    <title>Sprint Challenge - Home</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
 
 <body>
     <div class="container">
-   
+        <div class="nav">
+            <img class="lambda.logo" src="img/lambda-black.png" alt="Lambda Logo.">
+            <nav>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products">Products</a>
+                <a href="blog">Blog</a>
+                <a href="contact">Contact</a>
+
+            </nav>
+        </div>
+        <img class="logo" src="img/jumbo.jpg" alt="Great Idea! Company logo.">
+
+
         <section class="top-content">
             <div class="text-container">
                 <h2>The Future</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna
+                    eget finibus.</p>
             </div>
             <div class="text-container">
                 <h2>The Past</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna
+                    eget finibus.</p>
             </div>
         </section>
-        
+
         <section class="middle-content">
-        
+
             <h2>Why Did It Have To Be Boxes...</h2>
-            
+
             <div class="boxes">
-                <div class="box">Box 1</div>
-                <div class="box">Box 2</div>
-                <div class="box">Box 3</div>
-                <div class="box">Box 4</div>
-                <div class="box">Box 5</div>
-                <div class="box">Box 6</div>
-                <div class="box">Box 7</div>
-                <div class="box">Box 8</div>
-                <div class="box">Box 9</div>
-                <div class="box">Box 10</div>
+                <div class="box1">Box 1</div>
+                <div class="box2">Box 2</div>
+                <div class="box3">Box 3</div>
+                <div class="box4">Box 4</div>
+                <div class="box5">Box 5</div>
+                <div class="box6">Box 6</div>
+                <div class="box7">Box 7</div>
+                <div class="box8">Box 8</div>
+                <div class="box9">Box 9</div>
+                <div class="box10">Box 10</div>
             </div>
-        
+
         </section>
 
         <section class="bottom-content">
@@ -60,16 +77,56 @@
             </div>
 
         </section>
-        
+
         <footer>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
                 <a href="#">Products</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
             </nav>
         </footer>
-    </div><!-- container -->        
+    </div>
+    <!-- container -->
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function() {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function(msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        } else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
 </body>
+<style type="text/css"></style>
+
 </html>
