@@ -73,7 +73,7 @@ p {
 
 nav {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 header nav a{
@@ -217,12 +217,24 @@ footer nav a {
 }
 
 .dash{
-    border: 1px dashed #000;
-    width: 800px;
+    border:0 none;
+    border-top: 1px dashed #000;
+    width:100%;
+    height:0px;
+    background:none;
+}
+
+.box-dash {
+    border:0 none;
+    border-top: 1px dashed #000;
+    width:100%;
+    height:0px;
+    background:none; 
+    margin-top: 20px; 
 }
 
 .Top-Page {
-    padding: 10px 15px 10px 15px;
+    padding: 20px 10px 10px 15px;
 }
 
 .button {
