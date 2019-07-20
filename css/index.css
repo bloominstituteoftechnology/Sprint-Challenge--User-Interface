@@ -191,7 +191,9 @@ header nav a{
     background-color: dodgerblue;
 }
 
-
+.bottom-about-content{
+    margin:20px;
+}
 
 .bottom-content {
     display: flex;
