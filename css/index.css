@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +143,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.navbarclass{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    font-size: 14px;
+    float: right;
+    margin-inline-end: 20%;
+    
+}
+.navbarclass a{
+    text-decoration: none;   
+    margin-left: 5%;
+    margin-inline-end: 16.6%;
+    margin-top: 1.2%
+}
+.horizentalimg{
+    margin-bottom: 2%;
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
