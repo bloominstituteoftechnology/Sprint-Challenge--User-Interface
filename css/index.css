@@ -219,9 +219,16 @@ margin: 20px 0px 20px 0px;
 #about-text h2{
     margin-top:10px
 }
+#about-intro{
+    border-bottom: 1px dashed black;
+}
+#about-intro p{
+  margin-bottom: 20px;
+}
 .about-close{
     margin-bottom: 40px;
 }
+
 .after-nav-bar{
     margin-bottom: 30px;
     width: 775px;
