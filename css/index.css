@@ -226,3 +226,32 @@ margin: 19px;
 	border-bottom: 1px dashed black;
 	margin-bottom: 30px;
 }
+.boxarea{
+	flex-flow: column flex;
+	/*margin: 20px; */
+  /*padding:20px; */
+  justify-content: space-between;
+}
+#midbox{
+padding: 20px;
+width: 40%;
+height: 30%;
+margin: 35px;
+display: inline-block;
+border-bottom: 1px dashed black;
+}
+#learn{
+	display: block;
+	background-color: white;
+	border:2px solid black;
+	border-radius: 5px;
+	padding: 15px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	width: 45%;
+	height:5px;
+	margin: 10px 5px 10px 5px;
+	font-size: 15px;
+	align-items: baseline;
+	font-weight: bold;
+}
