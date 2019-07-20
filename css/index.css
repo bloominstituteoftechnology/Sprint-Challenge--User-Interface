@@ -155,16 +155,28 @@ nav{
 	display: flex;
 	flex-display; wrap;
 	justify-content: flex-start;
+	align-items: baseline;
+	width: 95%;
+
 }
 #n {
 width: auto;
 height: auto;
-padding: 30px;
-margin: 20px;
+padding: 20px;
+margin: 19px;
 }
 .lambda{
 	width: 20%;
 	height: 40%;
 	padding: auto;
 	margin: 25px;
+}
+.jumbo{
+	width: 100%;
+	height: 30%;
+	padding: auto;
+	margin: 20px;
+	flex-flow: row wrap;
+	align-items: baseline;
+	justify-content: flex-start;
 }
