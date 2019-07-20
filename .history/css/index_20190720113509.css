@@ -69,8 +69,7 @@ button {
     padding:10px;
     border: 2px solid black;
     background: white;
-    border-radius: 10px;
-    margin-top: 12px;
+    border-radius: 2px;
 }
 .container {
     width: 800px;
@@ -205,16 +204,13 @@ footer nav a {
 .top-section .img-txt-container {
     display: inline-block;
     width: 350px;
+    padding: 20px;
     padding-bottom: 20px; 
-    margin-bottom: 35px;
-    border-bottom: 1px dashed black;
 }
 .bottom-section .img-txt-container {
-    display: inline-block;
-    width: 350px;
-    padding-bottom: 20px; 
-    margin-bottom: 35px;
-    border-bottom: 1px dashed black;
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
 }
 .footer-about {
     padding-bottom: 45px;
