@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    flex-direction: row nowrap;
+    align-items: baseline;
+    align-content: space-between;
+    width:100%;
+}
+
+header nav  {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    text-decoration: none;
+    padding-left: 45px;
+    width:60%;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
