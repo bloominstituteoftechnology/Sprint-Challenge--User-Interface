@@ -210,3 +210,12 @@ margin: 19px;
 .box10{
 	background-color: dodgerblue;
 }
+/*The About page section */
+.jumbo-about{
+	width: 100%;
+	height: 30%;
+	padding: auto;
+	margin: 20px;
+	flex-flow: row wrap;
+	align-items: baseline;
+	justify-content: flex-start;
