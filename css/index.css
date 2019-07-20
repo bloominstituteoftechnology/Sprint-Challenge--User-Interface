@@ -226,3 +226,8 @@ footer nav a {
     text-decoration: none;
 }
 
+.button{
+    border-radius: 15px;
+    height: 45px;
+    width:100px;
+}
