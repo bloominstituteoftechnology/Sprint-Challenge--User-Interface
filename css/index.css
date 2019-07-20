@@ -80,7 +80,7 @@ p {
   align-items: center;
   margin: 0 auto;
   margin-top: 10px;
-  /* border: 1px solid red; */
+
 }
 
 nav {
@@ -119,8 +119,11 @@ nav a {
 
   .top-content {
     display: flex;
-    flex-wrap: wrap;
+    
   }
+  .text-container {
+     padding: 10px;
+      }
   footer {
 
     display: flex;
@@ -149,112 +152,117 @@ footer nav a {
     margin: 0px 32px;
 }
 
+/* index page starts here */    
+
+body {
+    width: 1000px;
+    
+    margin-left: 500px;
+    
+}
+
+.middle-content{ 
+    width: 1000px;
+    justify-content: space-around;
+    border: solid red 4px;
+
+}
 #box1 {
-  background-color: teal;
-}
+    background-color: teal;
+  }
+  
+  #box2 {
+    background-color: gold;
+  }
+  
+  #box3 {
+    background-color: cadetblue;
+  }
+  
+  #box4 {
+    background-color: coral; 
+  }
+  
+  #box5 {
+    background-color: crimson;
+  }
+  
+  #box6 {
+    background-color: forestgreen;
+  }
+  
+  #box7 {
+    background-color: darkorchid;
+  }
+  
+  #box8 {
+    background-color: hotpink;
+  }
+  
+  #box9 {
+    background-color: indigo;
+  }
+  
+  #box10 {
+    background-color: dodgerblue;
+  }
+  
+  .aboutIntro {
+    margin: 0px 0px 10px 14px;
+    padding-bottom: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .fullBorder {
+    height: 10px;
+    width: 100%;
+    border-bottom: 2px dotted black;
+  }
+  
+  .mainContainer {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mainBox {
+    width: 45%;
+    margin: 40px 30px 30px 10px;
+    padding-bottom: 16px;
+    border-bottom: 2px dotted black;
+  }
+  
+  .mainBox img {
+    margin-bottom: 10px;
+  }
+  
+  .mainBox button {
+    padding: 5px 20px;
+    margin: 16px 0px;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 14px;
+    border: 2px solid black;
+  }
+  
+  .mainBox button:hover {
+    font-size: 110%;
+    background-color: lightcyan;
+  }
+  
+  #box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover, #box6:hover, #box7:hover, #box8:hover, #box9:hover, #box10:hover {
+    font-size: 120%;
+  }
+  
+  .aboutBottom {
+    margin: 8px 24px 30px 24px;
+  }
+ .bottom-content{
+     display: flex;
+     padding: 10px;
+ } 
+ 
+  
 
-#box2 {
-  background-color: gold;
-}
 
-#box3 {
-  background-color: cadetblue;
-}
-
-#box4 {
-  background-color: coral; 
-}
-
-#box5 {
-  background-color: crimson;
-}
-
-#box6 {
-  background-color: forestgreen;
-}
-
-#box7 {
-  background-color: darkorchid;
-}
-
-#box8 {
-  background-color: hotpink;
-}
-
-#box9 {
-  background-color: indigo;
-}
-
-#box10 {
-  background-color: dodgerblue;
-}
-
-.aboutIntro {
-  margin: 0px 0px 10px 14px;
-  padding-bottom: 20px;
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-.fullBorder {
-  height: 10px;
-  width: 100%;
-  border-bottom: 2px dotted black;
-}
-
-.mainContainer {
-  width: 800px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.mainBox {
-  width: 45%;
-  margin: 40px 30px 30px 10px;
-  padding-bottom: 16px;
-  border-bottom: 2px dotted black;
-}
-
-.mainBox img {
-  margin-bottom: 10px;
-}
-
-.mainBox button {
-  padding: 5px 20px;
-  margin: 16px 0px;
-  background-color: white;
-  border-radius: 10%;
-  font-size: 14px;
-  border: 2px solid black;
-}
-
-.mainBox button:hover {
-  font-size: 110%;
-  background-color: lightcyan;
-}
-
-#box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover, #box6:hover, #box7:hover, #box8:hover, #box9:hover, #box10:hover {
-  font-size: 120%;
-}
-
-.aboutBottom {
-  margin: 8px 24px 30px 24px;
-}
-
-.products {
-  height: 170px;
-}
-
-#productsMain img {
-  height: 236px;
-  width: 370px;
-  margin: 40px 20px 30px 10px;
-  padding: 0;
-}
-
-#productsMain2 img {
-  height: 228px;
-  width: 370px;
-  margin: 34px 20px 45px 10px;
-  padding-top: 0;
-} 
