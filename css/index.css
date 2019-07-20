@@ -226,3 +226,15 @@ margin: 20px 0px 20px 0px;
     margin-bottom: 30px;
     width: 775px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(238, 227, 81);
+    }
+  }
+  .container header div a:hover{
+    background: white;
+    color: red;
+  }
+  footer a:hover {
+    color: red;
+   }
