@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between
+}
+header div{ 
+    display: flex;
+    margin: 10px auto;
+}
+#logo{
+    height: 46px;
+    margin-top: 20px;
+
+}
+header nav a {
+	padding:20px;
+	margin-top:0px;
+    text-decoration: none;
+    font-weight:bold;
+    color:black;
+}
+header nav{
+    display:flex;
+    width: 600px;
+    justify-content: space-evenly;
+    padding: 25px 0 25px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
