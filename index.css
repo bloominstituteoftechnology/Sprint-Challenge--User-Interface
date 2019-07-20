@@ -1,0 +1,24 @@
+body {
+  margin: 2% 25%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-content {
+  margin: 2% 0% 0% 0%;
+}
+.middle-content {
+  margin: 2% 0% 0% 0%;
+}
+
+.bottom-content {
+  margin: 2% 2% 2% 2%;
+}
+
+.box1 {
+  background-color: teal;
+}
