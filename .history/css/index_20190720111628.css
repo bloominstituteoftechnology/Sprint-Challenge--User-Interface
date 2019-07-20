@@ -65,11 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-button {
-    padding:10px;
-    border: 2px solid black;
-    background: white;
-}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -196,20 +192,13 @@ footer nav a {
     text-decoration: none;
 }
 .about {
-    padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 .top-section .img-txt-container {
-    display: inline-block;
-    width: 350px;
-    padding: 20px;
+    width: 46%;
+    padding: 0 1%;
     padding-bottom: 20px; 
-}
-.bottom-section .img-txt-container {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
 }
 .footer-about {
     padding-bottom: 45px;
