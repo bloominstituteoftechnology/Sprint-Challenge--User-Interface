@@ -116,6 +116,11 @@ header nav a{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.top-content .text-container h2{
+    
+    padding: 10px;
+}
 .middle-about-box{
     margin-top: 20px;
     margin-bottom:20px;
@@ -132,6 +137,7 @@ header nav a{
     margin-bottom: 0;
     display:flex;
     align-content: flex-start;
+    margin-right:-10px;
 }
 
 .middle-content .boxes {
@@ -229,6 +235,7 @@ footer nav a {
 }
 
 .button{
+    margin-top:20px;
     border-radius: 15px;
     height: 45px;
     width:100px;
