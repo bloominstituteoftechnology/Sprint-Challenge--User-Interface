@@ -219,3 +219,10 @@ margin: 19px;
 	flex-flow: row wrap;
 	align-items: baseline;
 	justify-content: flex-start;
+}
+#about {
+	margin: 30;
+	padding: 40px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 30px;
+}
