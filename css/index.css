@@ -194,3 +194,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 0; 
+    border:1px solid black;
+}
+
+ #about-text{
+display:flex;
+flex-direction: column;
+width:49%;
+flex-flow: wrap ;
+border-bottom: 1px dashed black; 
+margin: 20px 0px 20px 0px;
+}
+.main-content .about-container{
+    display:flex;
+    flex-flow: wrap;
+
+}
+#about-text h2{
+    margin-top:10px
+}
+.about-close{
+    margin-bottom: 40px;
+}
+.after-nav-bar{
+    margin-bottom: 30px;
+    width: 775px;
+}
