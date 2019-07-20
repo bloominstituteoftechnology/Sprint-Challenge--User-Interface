@@ -215,3 +215,35 @@ header nav a {
 .middle-content .boxes .box:nth-child(10) {
     background-color: dodgerblue;
 }
+
+
+.about-header-paragraph {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: normal;
+  }
+
+.main-content-about {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.content-container {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+}
+
+
+button {
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.working-together {
+    padding: 20px;
+}
