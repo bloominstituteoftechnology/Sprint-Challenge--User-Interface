@@ -70,17 +70,8 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-.navigation {
-    padding-top: 20px;
-}
-.container .navigation .nav-buttons {
-    display: flex;
-    
-}
-.highway-img {
-    padding-top: 40px;
-    padding-bottom: 25px;
-}
+
+
 
 .top-content {
     display: flex;
@@ -122,35 +113,8 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box.box1 {
+.middle-content .boxes .box .box1 {
     background: teal;
-}
-.middle-content .boxes .box.box2 {
-    background: gold;
-}
-.middle-content .boxes .box.box3 {
-    background: cadetblue;
-}
-.middle-content .boxes .box.box4 {
-    background: coral;
-}
-.middle-content .boxes .box.box5 {
-    background: crimson;
-}
-.middle-content .boxes .box.box6 {
-    background: forestgreen;
-}
-.middle-content .boxes .box.box7 {
-    background: darkorchid;
-}
-.middle-content .boxes .box.box8 {
-    background: hotpink;
-}
-.middle-content .boxes .box.box9 {
-    background: indigo;
-}
-.middle-content .boxes .box.box10 {
-    background: dodgerblue;
 }
 
 .bottom-content {

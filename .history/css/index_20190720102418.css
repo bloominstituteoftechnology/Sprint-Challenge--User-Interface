@@ -74,8 +74,12 @@ p {
     padding-top: 20px;
 }
 .container .navigation .nav-buttons {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
 }
 .highway-img {
     padding-top: 40px;

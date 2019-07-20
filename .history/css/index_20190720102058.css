@@ -75,7 +75,7 @@ p {
 }
 .container .navigation .nav-buttons {
     display: flex;
-    
+    justify-content: space-evenly;
 }
 .highway-img {
     padding-top: 40px;
