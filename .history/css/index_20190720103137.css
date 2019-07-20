@@ -75,13 +75,10 @@ p {
 }
 .container .navigation .nav-buttons {
     display: inline-flex;
-    padding-right: 70px;
-}
-.container .navigation .nav-buttons:last-child {
-    padding-right: 20px;
+    padding-right: 60px;
 }
 .highway-img {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 25px;
 }
 
