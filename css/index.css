@@ -194,3 +194,39 @@ footer nav a {
 #box10 {
 	background: dodgerblue;
 }
+
+/* CSS start for the About page. */
+
+hr {
+	border: 1px dashed black;
+	margin: 20px 0px 20px 0px;
+}
+button {
+	color: black;
+	background: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 125px;
+	height: 40px;
+	font-size: 15px;
+	margin: 20px 0px 20px 0px;
+}
+.aboutSECTION {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.aboutDIV {
+	margin: 15px 15px 40px 15px;
+	width: 45%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px dashed black;
+}
+.aboutH4 {
+	margin: 15px 0px 15px 0px;
+}
+.aboutBOTTOM {
+	margin: 20px;
+}
