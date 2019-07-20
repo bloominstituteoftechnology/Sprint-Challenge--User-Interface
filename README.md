@@ -42,9 +42,9 @@ One big difference between the two is display:inline allows things to stay one l
 
 3. What are the 4 areas of the box model?
 
-The four areas of the box model are context, padding, border, and margin.
+The four areas of the box model are contents, padding, border, and margin.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? 
 
 I believe the main axis
 
