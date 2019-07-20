@@ -175,6 +175,6 @@ nav {
   margin: 2% 2% 2% 2%;
 }
 
-.box .box1 {
-  background-color: teal;
+div .box1 {
+  background: teal;
 }
