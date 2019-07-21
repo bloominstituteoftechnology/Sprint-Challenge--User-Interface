@@ -144,3 +144,77 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.mainNav a{
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    margin-right: 75px;
+    background-image: url(lambda-black.png);
+    
+}
+.logo{
+    
+    margin-left: 20%;
+    margin-right:25px;
+    margin-top: 10px;
+    
+
+}
+.mainImg{
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom:10px;
+  width: 50%;
+}
+
+#boxOne{
+    background-color:teal;
+}
+#boxTwo{
+    background-color: gold;
+}
+#boxThree{
+    background-color: cadetblue;
+}
+
+#boxFour{
+    background-color: coral;
+}
+
+#boxFive{
+    background-color: crimson;
+}
+
+#boxSix{
+    background-color: forestgreen;
+
+}
+
+#boxSev{
+    background-color: darkorchid;
+}
+
+#boxEig{
+    background-color:hotpink
+}
+
+#boxNine{
+    background-color: indigo;
+}
+
+#boxTen{
+    background-color: dodgerblue;
+}
+/* box1: teal
+box2: gold
+box3: cadetblue
+box4: coral
+box5: crimson
+box6: forestgreen
+box7: darkorchid
+box8: hotpink
+box9: indigo
+box10: dodgerblue */
