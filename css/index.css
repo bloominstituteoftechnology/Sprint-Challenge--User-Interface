@@ -68,9 +68,32 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 25px auto;
+    
 }
-
+.logo{
+    margin:-39px -14px;
+}
+header{
+width: 100%
+}
+header nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 97%;
+padding: 20px 2%;
+font-size: 14px;
+margin: 0px 127px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+.roads{
+    margin: 25px 0px;
+    height:160px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,15 +124,44 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box:nth-child(1){
+    background-color: teal;
+}
+.box:nth-child(2) {
+    background-color: gold;
+}
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+.box:nth-child(4){
+    background-color: coral;
+}
+.box:nth-child(5){ 
+    background-color: crimson;
+}
+.box:nth-child(6){
+    background-color: forestgreen;
+}
+.box:nth-child(7){
+    background-color: darkorchid;
+}
+.box:nth-child(8){
+    background-color:hotpink;
+}
+.box:nth-child(9){
+    background-color:indigo;
+}
+.box:nth-child(10){
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +195,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+hr{
+    border: 1px dashed;
+}
+
+.cubes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+ }
+.cubes .random{
+    width: 47%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    margin-bottom: 50px
+}
+.cubes .random button{
+border: solid black 2px;
+width: 120px;
+height: 40px;
+background: none;
+font-size: 15px;
+margin-top: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+.together{
+    margin:20px 10px;
 }
