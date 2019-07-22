@@ -264,6 +264,7 @@ p {
 .middle-content .boxes .dodgerblue {
   background-color: dodgerblue;
 }
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -295,4 +296,22 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* About Page */
+
+.about {
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted black;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-items {
+  width: 48%;
 }
