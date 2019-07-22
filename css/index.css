@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+/* Navigation Bar */
+
+nav{
+    color: black;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.Lambda-Black{
+    display: flex;
+    align-items: baseline;
+    padding: 10px 30px 20px 0px;
+}
+a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    padding-top: 65px;
+    height: 135px;
+    width: 130px;
+    justify-content: center;
+}
+
+/* Top section of the page */
+.jumbo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +113,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Box Section */
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +143,38 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .teal {
+    background-color: teal;
+}
+.middle-content .boxes .gold {
+    background-color: gold;
+}
+.middle-content .boxes .cadetblue {
+    background-color: cadetblue;
+}
+.middle-content .boxes .coral {
+    background-color: coral;
+}
+.middle-content .boxes .crimson {
+    background-color: crimson;
+}
+.middle-content .boxes .forestgreen {
+    background-color: forestgreen;
+}
+.middle-content .boxes .darkorchid {
+    background-color: darkorchid;
+}
+.middle-content .boxes .hotpink {
+    background-color: hotpink;
+}
+.middle-content .boxes .indigo {
+    background-color: indigo;
+}
+.middle-content .boxes .dodgerblue {
+    background-color: dodgerblue;
+}
+/* Bottom Section of page */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -128,6 +191,7 @@ p {
 
 footer {
     width: 100%;
+    height: 75px;
     background: black;
 }
 
@@ -136,11 +200,16 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 10px;
+    margin: 0px;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 25px 0px 0px 20px;
+    height: 60px;
+    width: 130px;
+    justify-content: left;
 }
