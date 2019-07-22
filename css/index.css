@@ -181,6 +181,61 @@ header nav a, a:visited  {
     justify-content: center;
 }
 
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -200,7 +255,7 @@ footer {
     background: black;
 }
 
-footer nav {
+footer .nav-bottom {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -209,7 +264,7 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer .nav-bottom a {
     color: white;
     text-decoration: none;
 }
