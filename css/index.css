@@ -313,5 +313,8 @@ footer nav a {
 }
 
 .grid-items {
-  width: 48%;
+  width: 45%;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted black;
 }
