@@ -144,3 +144,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.nav{
+margin-left: 280px;
+word-spacing: 65px;
+margin-bottom: 30px;
+
+}
+.head-image1{
+    margin-left: 280px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.row-one{
+    display: flex;
+    justify-content: space-between;
+
+}
+.row-two{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.content-one{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    width: 370px;
+}
+.heading{
+    margin-left: 25px;
+}
+article{
+    display: block;
+    padding-bottom: 25px;
+}
+.container-about-page{
+display: flex;
+}
+button{
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
