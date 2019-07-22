@@ -38,12 +38,12 @@ Semantic means context and adding it to your HTML. If you code is just made up o
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-1. Display Block has Height & Width vs display: inline
-2. Inline behavior allows for elements to stack next to each other; while block - starts on a new line
+>Display Block has Height & Width vs display: inline
+>Inline behavior allows for elements to stack next to each other; while block - starts on a new line
 
 3. What are the 4 areas of the box model?
 
-Margin, Border, Padding, Content
+>Margin, Border, Padding, Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
