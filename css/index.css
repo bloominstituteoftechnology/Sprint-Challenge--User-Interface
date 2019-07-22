@@ -215,3 +215,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-text-container {
+  padding: 1.5em;
+}
+
+.about-info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.about-info-container {
+  width: 48%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 3em;
+}
+
+.about-info-container img {
+  margin-bottom: 1em;
+}
+
+.about-info--cta {
+  background: #fff;
+  color: black;
+  border: 2px solid black;
+  padding: 0.8em 1.5em;
+  border-radius: 10px;
+  margin: 1.5em 0;
+  font: inherit;
+}
+
+.work-text-container {
+  padding: 0 0.5em 2em 0.5em;
+}
