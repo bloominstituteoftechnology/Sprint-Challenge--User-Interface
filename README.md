@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
->Semantic means context and adding it to your HTML. If you code is just made up of <div>s it gives no indication of what your code is >trying to do. Adding semantics such as h1, p, a, gives your html context and also helps other users OR coders understand your HTML >code.
+>Semantic means context and adding it to your HTML. If you code is just made up of divs it gives no indication of what your code is >trying to do. Adding semantics such as h1, p, a, gives your html context and also helps other users OR coders understand your HTML >code.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
