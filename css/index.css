@@ -282,6 +282,7 @@ p {
 footer {
   width: 100%;
   background: black;
+  margin-top: 20px;
 }
 
 footer nav {
@@ -317,4 +318,9 @@ footer nav a {
   margin: 10px;
   padding-bottom: 10px;
   border-bottom: 1px dotted black;
+}
+
+button {
+  font-size: 30px;
+  margin: 18px 0;
 }
