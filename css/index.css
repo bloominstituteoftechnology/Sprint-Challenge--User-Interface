@@ -268,3 +268,73 @@ footer .nav-bottom a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+.top-content-about {
+	align-items: flex-start;
+	flex-direction: column;
+	border-bottom: 1px dashed black;
+	padding: 10px 0px;
+}
+
+.top-content-about h2, p {
+	padding: 0px 10px;
+}
+
+.top-content-about img {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.middle-content-about {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 0px auto;
+}
+
+.content-container-about {
+	width: 47%;
+	padding: 20px 0px;
+	height: 440px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+	border-bottom: 1px dashed black;
+}
+
+.content-container-about h2 {
+	margin-bottom: 0px;
+}
+
+.content-container-about p {
+	padding: 0px;
+}
+
+button {
+	width: 35%;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.bottom-content-about {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.bottom-content-about h2 {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.bottom-content-about p {
+	margin-bottom: 30px;
+}
