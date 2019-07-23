@@ -247,12 +247,17 @@ footer nav a {
     font-optical-sizing: auto;
 }
 
-.about-text {
+.about-column-text {
     padding: 0 20px 20px 20px;
     border-bottom: 1px dashed black;
 }
 
-.about-title {
+.about-column-title {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.about-row-title {
     font-size: 18px;
     padding-bottom: 15px;
 }
