@@ -284,15 +284,17 @@ footer nav a {
 
 .about {
     display: flex;
-    flex-wrap: wrap;
-    border-bottom: 5px dotted black;
-    margin-bottom: 30px;
+	margin: 0px 50px 2px 50px;
+	border-bottom: 1px solid black;
 }
 .about h1 {
-    display: flex;
-    font-size: 20px;
-    align-content: center;
-    margin-left: 60px;
+	font-size: 28px;
+	margin-right: 20px;
+}
+.about p {
+	font-size: 20px;
+	position: center;
+	margin-bottom: 20px;
 }
 .boxes {
     display: flex;
