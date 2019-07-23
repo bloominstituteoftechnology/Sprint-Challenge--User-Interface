@@ -111,19 +111,20 @@ nav a {
 }
 
 .headerImg img {
-  display: flex;
-  text-align: center;
+
   margin-bottom: 20px;
 
 }
 
   .top-content {
     display: flex;
+    margin-bottom: 10px;
     
   }
   .text-container {
      padding: 10px;
-      }
+  }
+  
   footer {
 
     display: flex;
@@ -155,19 +156,28 @@ footer nav a {
 /* index page starts here */    
 
 body {
-    width: 1000px;
-    
+    width: 800px;
+   
     margin-left: 500px;
-    
+}
+.top-content {
+  border-bottom: 1px dashed black;
 }
 .middle-content {
+  margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
+  width: 800px;
   
+}
+h2 {
+  margin-left: 20px;
+  font: bold;
 }
 .boxes{
   display:flex;
   flex-wrap: wrap;
+  margin-left: 20px;
 }
 .box {
   width: 12.5%;
