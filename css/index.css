@@ -69,7 +69,50 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-size: 14px;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    line-height: auto;
+    margin-top: 25px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+header img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding-right: 75px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    min-height: 100%;
+    padding-right: 75px;
+    color: black;
+    font-size: 12px;
+}
+
+
 
 .top-content {
     display: flex;
