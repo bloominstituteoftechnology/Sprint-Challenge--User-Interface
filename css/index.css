@@ -50,7 +50,13 @@ table {
 * {
     box-sizing: border-box;
 }
-
+.container a {
+    width: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    align-content: space-between;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -67,10 +73,30 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 20px 40px 20px;
+    position: relative;
 }
+a {
+    display: flex;
+    position: initial;
 
+}
+.jumbo img {
+    flex-wrap: wrap;
+    display: flex;
+    position: absolute;
+    right: 300px;
+    top: 30px;
+    width: 60%;
+    height: 20%;
+}
+.headnav a {
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -80,9 +106,18 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    display: flex;
+    flex-wrap: wrap;
+    width: 38%;
+    padding: 2%;
+    padding-bottom: 20px;
+    height: 160px;  
+}
+.text-container h2 {
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+
 }
 
 .middle-content {
@@ -101,29 +136,126 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin-left: 50px;
     justify-content: space-around;
+    padding: 2%;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding-right: 10%;
+    
 }
 
 footer {
@@ -143,4 +275,103 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*about css */
+.navi2 {
+    display: flex;
+    flex
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 5px dotted black;
+    margin-bottom: 30px;
+}
+.about h1 {
+    display: flex;
+    font-size: 20px;
+    align-content: center;
+    margin-left: 60px;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    align-content: space-between;
+    
+}
+.boxes .boxes1 {
+    width: 500px;
+    height: 550px;
+    margin: 5px 30px 1px 80px;
+    padding: 15px;
+    border-bottom: 2px dotted black;
+}
+.boxes .boxes2 {
+    width: 500px;
+    height: 550px;
+    margin: 5px 30px 1px 80px;
+    padding: 15px;
+    border-bottom: 2px dotted black;
+
+}
+.boxes .boxes3 {
+    width: 500px;
+    height: 550px;
+    margin: 200px 30px 5px 80px;
+    border-bottom: 2px dotted black;
+
+}
+.boxes .boxes4 {
+    width: 500px;
+    height: 550px;
+    margin: 200px 30px 5px 80px;
+    padding: 15px;
+    border-bottom: 2px dotted black;
+}
+button {
+    width: 170px;
+    height: 40px;
+    text-decoration: none;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.lets-work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.lets-work h2 {
+    font-size: 20px;
+    display: flex;
+    position: inherit;
+    width: 200px;
+    margin-left: 110px;
+    margin-bottom: 30px;
+
+}
+.lets-work p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.footer {
+    display: flex;
+    margin-left: 80px;
+}
+.navi {
+    display: flex;
+    text-align: center;
+    background: gray;
+    color: white;
 }
