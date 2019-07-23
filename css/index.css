@@ -70,6 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
     padding: 15px;
+    border: 1px green;
 }
 
 
@@ -219,17 +220,42 @@ h1 {
 }
 
 .header2 {
-    border-bottom: 1px solid gray;
+    border-bottom: 2px dashed gray;
 }
 
-.container-about-page .boxes {
-    max-width: 100%;
+.boxes {
+    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+  }
 
-.info {
-    margin-bottom: 25px;
-    border-bottom: 2px solid gray;
-}
+  .info {
+      margin-right: 400px;
+  }
+  
+  
+  .info .box1 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+  
+  
+  .info .box2 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+  
+  
+  .info .box3 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+  
+  .info .box4 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+    
+  
+     
