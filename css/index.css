@@ -69,14 +69,15 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 12px;
+    font-optical-sizing: auto;
 }
 
 header {
     display: flex;
     flex-direction: row;
     line-height: auto;
-    margin-top: 25px;
+    margin-top: 50px;
     width: 100%;
     align-content: center;
     justify-content: center;
@@ -109,10 +110,21 @@ nav a {
     min-height: 100%;
     padding-right: 75px;
     color: black;
-    font-size: 12px;
+    font-size: 11px;
+    font-optical-sizing: auto;
 }
 
+.banner-image {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 25px;
+}
 
+h2 {
+    font-size: 14px;
+    font-optical-sizing: auto;
+}
 
 .top-content {
     display: flex;
