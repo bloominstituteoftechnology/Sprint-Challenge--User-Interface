@@ -304,7 +304,11 @@ footer nav a {
 .about {
   margin: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px dotted black;
+}
+
+.photo-grid {
+  border-top: 1px dotted black;
+  padding: 20px;
 }
 
 .grid {
@@ -320,7 +324,12 @@ footer nav a {
   border-bottom: 1px dotted black;
 }
 
+.grid-items img {
+  margin-bottom: 5px;
+}
+
 button {
   font-size: 30px;
   margin: 18px 0;
+  border-radius: 10%;
 }
