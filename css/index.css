@@ -254,10 +254,55 @@ footer nav a {
 
 .about-column-title {
     font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container-about-page .about-row-one {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+    margin: 0 5px;
+}
+
+.about-row-one .about-sub-row {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 15px;
+    font-size: 16px;
     padding-bottom: 15px;
 }
 
 .about-row-title {
-    font-size: 18px;
+    padding: 10px 0;
+}
+
+.container-about-page .about-row-two {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+}
+
+.about-row-two .about-sub-row {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 15px;
+    font-size: 16px;
     padding-bottom: 15px;
+}
+
+.about-sub-row .learn {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 20px 0;
+    align-self: flex-start;
+}
+
+.about-sub-row .border {
+    border-bottom: 1px dashed black;
+    border-width: 40%;
 }
