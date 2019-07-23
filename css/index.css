@@ -235,3 +235,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*  additional code for about page  */
+
+.container-about-page {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-optical-sizing: auto;
+}
+
+.about-text {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-title {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
