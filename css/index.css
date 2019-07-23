@@ -281,9 +281,13 @@ footer nav a {
     display: flex;
     flex
 }
-
+.jumbo-about {
+    display: flex;
+    position: initial;
+}
 .about {
     display: flex;
+    flex-wrap: wrap;
 	margin: 0px 50px 2px 50px;
 	border-bottom: 1px solid black;
 }
@@ -294,7 +298,7 @@ footer nav a {
 .about p {
 	font-size: 20px;
 	position: center;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .boxes {
     display: flex;
