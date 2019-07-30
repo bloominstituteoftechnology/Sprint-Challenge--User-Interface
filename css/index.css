@@ -68,7 +68,7 @@ p {
 .container a {
     text-decoration: none;
     margin-bottom: 10px;
-    margin-left: 210px;
+    margin-left: 230px;
     margin-top: 20px;
     color: black;
     
@@ -88,7 +88,7 @@ p {
     display: flex;
     position: absolute;
     top: 1em;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 /* hold */
 .jumbo img {
@@ -134,13 +134,13 @@ p {
     margin-top: 18px;
 }
 
-.middle-content .boxes {
+.middle-content .boxes0 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes {
+.middle-content .boxes0 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -283,63 +283,66 @@ footer nav a {
 /*about css */
 .navi2 {
     display: flex;
-    flex
+    flex-direction: row;
+    margin-top: 30px;
 }
 
 .about {
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 5px dotted black;
     margin-bottom: 30px;
+    margin-left: 200px;
+    width: 70%;
 }
 .about h1 {
     display: flex;
     font-size: 20px;
-    align-content: center;
-    margin-left: 60px;
+    margin-top: 20px;
 }
 .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 79%;
     height: 100%;
+    margin-left: 90px;
     align-content: space-between;
-    
+    border-top: 5px dotted black;
 }
 .boxes .boxes1 {
     width: 500px;
-    height: 550px;
-    margin: 5px 30px 1px 80px;
+    height: 450px;
+    margin: 0px 30px 1px 80px;
     padding: 15px;
     border-bottom: 2px dotted black;
 }
 .boxes .boxes2 {
     width: 500px;
-    height: 550px;
-    margin: 5px 30px 1px 80px;
+    height: 450px;
+    margin: 0px 30px 1px 80px;
     padding: 15px;
     border-bottom: 2px dotted black;
-
 }
 .boxes .boxes3 {
     width: 500px;
-    height: 550px;
-    margin: 200px 30px 5px 80px;
+    height: 450px;
+    margin: 60px 30px 0px 80px;
+    padding: 1px;
     border-bottom: 2px dotted black;
 
 }
 .boxes .boxes4 {
     width: 500px;
-    height: 550px;
-    margin: 200px 30px 5px 80px;
-    padding: 15px;
+    height: 450px;
+    margin: 60px 30px 0px 80px;
+    padding: 1px;
     border-bottom: 2px dotted black;
 }
 button {
     width: 170px;
     height: 40px;
+    margin-top: 50px;
     text-decoration: none;
     position: relative;
     border-style: solid;
@@ -348,18 +351,21 @@ button {
     border-radius: 10px;
 
 }
-.lets-work {
+
+.work {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+    width: 70%;
+    margin-left: 210px;
+    margin-bottom: 20px;
 }
 .footer {
     display: flex;
     margin-left: 80px;
 }
-.navi {
+.navi a {
     display: flex;
     text-align: center;
-    background: gray;
     color: white;
 }
