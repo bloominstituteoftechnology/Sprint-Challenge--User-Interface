@@ -50,13 +50,7 @@ table {
 * {
     box-sizing: border-box;
 }
-.container a {
-    width: 5px;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    align-content: space-between;
-}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -71,44 +65,52 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 40px 20px 40px 20px;
-    position: relative;
+.container a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 210px;
+    margin-top: 20px;
+    color: black;
+    
 }
-a {
-    display: flex;
-    position: initial;
-
+.header-nav, .navbar, a {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
-.jumbo img {
-    flex-wrap: wrap;
+.headnav {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+}
+.logo {
     display: flex;
     position: absolute;
-    right: 300px;
-    top: 30px;
-    width: 60%;
+    top: 1em;
+    margin-left: 20px;
+}
+/* hold */
+.jumbo img {
+    display: flex;
+    margin-top: 20px;
+   margin-left: 200px;
+    width: 70%;
     height: 20%;
 }
-.headnav a {
-    display: flex;
-    width: 600px;
-    justify-content: space-around;
-}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .top-content .text-container {
     display: flex;
     flex-wrap: wrap;
-    width: 38%;
+    width: 31%;
     padding: 2%;
     padding-bottom: 20px;
     height: 160px;  
@@ -122,12 +124,14 @@ a {
 
 .middle-content {
     margin-bottom: 20px;
+    border-top: 1px dashed black;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    margin-top: 18px;
 }
 
 .middle-content .boxes {
@@ -281,24 +285,18 @@ footer nav a {
     display: flex;
     flex
 }
-.jumbo-about {
-    display: flex;
-    position: initial;
-}
+
 .about {
     display: flex;
     flex-wrap: wrap;
-	margin: 0px 50px 2px 50px;
-	border-bottom: 1px solid black;
+    border-bottom: 5px dotted black;
+    margin-bottom: 30px;
 }
 .about h1 {
-	font-size: 28px;
-	margin-right: 20px;
-}
-.about p {
-	font-size: 20px;
-	position: center;
-    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+    align-content: center;
+    margin-left: 60px;
 }
 .boxes {
     display: flex;
@@ -354,22 +352,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
-}
-.lets-work h2 {
-    font-size: 20px;
-    display: flex;
-    position: inherit;
-    width: 200px;
-    margin-left: 110px;
-    margin-bottom: 30px;
-
-}
-.lets-work p {
-    display: flex;
-    flex-wrap: wrap;
-    width: 55%;
-    padding-left: 30px;
-    margin-bottom: 50px;
 }
 .footer {
     display: flex;
