@@ -74,21 +74,52 @@ p {
 nav a {
 	margin: 20px;
 	text-decoration: none;
-	color: black;
+	color: rgb(182, 172, 172);
 	padding: 30px;
 	text: 10em;
+	
 }
 /* MAIN */
 .boxes {
 	display: flex;
 	justify-content: space-between;
-	padding: 10px;
+	
+}
+.items {
+	padding: 16px;
+}
+
+h1 {
+	margin-top: 10px;
 }
 .click {
-	padding: 3px 7px;
-	border: 1px solid black;
-	width: 200px;
+	padding: 3px;
+	border: 2px solid black;
+	width: 120px;
 	text-align: center;
 	border-radius: 5px;
 	box-align: center;
+	margin-top: 10px;
+}
+hr {
+	height: 0px;
+	color: #ffffff;
+	background-color: #ffffff;
+	border: none;
+	border-bottom: 1px dashed black;
+	padding-top: 8px;
+}
+.footer  {
+	background: black;
+	padding: 20px;
+	margin-top: 10px;
+}
+.footer a {
+	background: black;
+	color: white;
+	padding:0px;
+	text-decoration: none;
+	text-align: start;
+	font-size: 12px;
+	margin: 20px;
 }
