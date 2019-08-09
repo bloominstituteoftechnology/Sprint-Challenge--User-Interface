@@ -67,8 +67,6 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 35px;
-
-
 }
 
 h1, h2, h3, h4, h5 {
@@ -94,10 +92,15 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .jumbo {
+    width: 760px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    padding-top: 30px; 
 }
 
 .middle-content {
