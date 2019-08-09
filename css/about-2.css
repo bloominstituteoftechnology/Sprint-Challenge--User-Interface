@@ -182,21 +182,21 @@ header nav a {
 .card-section {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 770px;
   justify-content: space-between;
 }
 
 .card-section .card-content {
   display: flex;
   flex-direction: column;
-  border-bottom: 1px dashed black;
-  padding-bottom: 2%;
   width: 47%;
+  padding-bottom: 2%;
   margin-bottom: 5%;
+  border-bottom: 1px dashed black;
 }
 
 .card-content h2 {
-  margin-top: 2%;
+  margin-top: 3%;
 }
 .card-content button {
   width: 30%;
@@ -209,4 +209,23 @@ header nav a {
 
 .conclusion {
   margin-bottom: 5%;
+}
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
 }
