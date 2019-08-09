@@ -229,7 +229,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
 	width: 100%;
-	justify-content: space-evenly;
+	justify-content: space-between;
     margin-bottom: 20px;
     
 }
@@ -239,9 +239,8 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-direction: column;
-    width: 45%;
-    margin-bottom: 20px;   
+    width: 48%;
+    margin-top: 5%;
     border-bottom: 1px dashed black; 
 }
 
@@ -253,12 +252,12 @@ footer nav a {
     border-radius: 6px;
     border: 2px solid black;
     width: 35%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2.25%;
+    padding-bottom: 2.25%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.15rem;
 }
 
 
