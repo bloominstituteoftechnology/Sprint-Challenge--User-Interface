@@ -71,13 +71,14 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+img{
+    padding: 15px;
+}
 p {
     line-height: 1.4;
 }
