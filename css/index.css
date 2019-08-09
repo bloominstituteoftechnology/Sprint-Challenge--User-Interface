@@ -199,17 +199,19 @@ a:hover {
     margin-bottom: 25px;
 }
 .infoboxes{
- max-width: 80%;
- padding: 20px 18px;
+ width: 100%;
  display: flex;
  flex-wrap: wrap;
- justify-content: space-between;
- padding-left: 20px;
+ flex-direction: row;
+ justify-content: center;
 }
 .inbox{
- width: 40%;
- padding: 15px 20px;
+    border-bottom: 1px dotted black;
+    width: 50%;
+    padding: 30px 0px;
+
 }
+
 .learnbutton{
     border: 1px solid black;
     padding: 4px 20px;
