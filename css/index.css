@@ -183,11 +183,12 @@ p {
 }
 
 .middle-content.about .info button {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     background: none;
     border: 1px solid black;
     border-radius: 5px;
     margin-top: 0.4rem;
+    cursor: pointer;
 }
 
 .bottom-content {
