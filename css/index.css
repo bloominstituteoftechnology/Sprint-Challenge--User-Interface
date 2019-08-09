@@ -334,3 +334,37 @@ footer nav a {
 .about-bot-content_text {
   padding: 0 1%;
 }
+
+/* Stretch Goal CSS Animations for the Nav links*/
+
+@keyframes headerNavColors {
+  from {
+    color: black;
+  }
+  to {
+    color: crimson;
+  }
+}
+
+@keyframes footerNavColors {
+  from {
+    color: white;
+  }
+  to {
+    color: crimson;
+  }
+}
+
+header nav a:hover {
+  animation-name: headerNavColors;
+  animation-duration: 1s;
+  color: crimson;
+}
+
+footer nav a:hover {
+  animation-name: footerNavColors;
+  animation-duration: 1s;
+  color: crimson;
+}
+
+/* contact.html */
