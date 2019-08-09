@@ -236,10 +236,10 @@ footer nav a {
 .weblink{
     color:royalblue;
 }
-.weblink :hover{
-    color:green;
+.weblink:hover{
+    color:green !important;
 }
-.weblink :visited{
+.weblink:visited{
     color:crimson;
 }
 
