@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -69,6 +70,26 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container-1 {
+    width: 100%;
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    border: 1px solid green;
+    text-decoration: none;
+}
+
+.container-1 nav{
+    display: flex;
+    padding: 25px;
+}
+
+nav a{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 130px;
 }
 
 .top-content {
