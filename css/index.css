@@ -184,3 +184,27 @@ footer nav a {
 .box0{
     background:dodgerblue;
 }
+
+.aboutsection{
+    display:flex;
+    flex-wrap:wrap;
+    border-top:1px dashed black;
+}
+.aboutelement{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    padding:20px;
+    margin:20px;
+    border-bottom:1px dashed black;
+}
+.learnmore{
+    border:1px solid black;
+    border-radius:25px;
+    text-align:center;
+    font-size:10px;
+    width:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+}
