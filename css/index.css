@@ -368,3 +368,50 @@ footer nav a:hover {
 }
 
 /* contact.html */
+
+.jumbo-contact {
+  width: 800px;
+  height: 153px;
+}
+.contact-form {
+  padding: 0 2%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-form div {
+  margin: 0.5em 0;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.4em;
+  margin: 0.5em 0;
+}
+
+.contact-form input[type="submit"] {
+  width: 100%;
+  background-color: #24a0ed;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.4em;
+  cursor: pointer;
+  margin: 0.5em 0;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #0b5482;
+}
+
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0.4em;
+  height: 15em;
+}
