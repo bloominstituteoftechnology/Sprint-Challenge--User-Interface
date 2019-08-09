@@ -77,14 +77,14 @@ p {
 header {
     width: 100%;
     background-color: white;
+
+   
 }
 
 header nav {
-    
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -92,10 +92,13 @@ ul{
     width: 100%;
     display: flex;
     justify-content: space-around;
+
 }
 
 
-a{
+a{    display: flex;
+    align-items: flex-end;
+
         color:black;
         text-decoration: none;
     
