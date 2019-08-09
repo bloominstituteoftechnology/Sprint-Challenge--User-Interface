@@ -234,9 +234,13 @@ p {
 
 .middle-content-about .about-boxes{
     display: flex;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     border-bottom: 1px dashed black;
     flex-wrap: wrap;
+}
+
+.middle-content-about h2{
+    margin: 10px 0px
 }
 
 .middle-content-about .about-boxes{
@@ -245,9 +249,13 @@ p {
     width: 48%;
 }
 
-.middle-content-about about-boxes .button{
-    display: flex;
+.middle-content-about .about-boxes .learn{
+    display: block;
     background-color: white;
+    border: 1px solid black;
+    padding: 7px 25px;
+    border-radius: 10px;
+    margin: 20px 0px;
 
     
 
