@@ -176,12 +176,15 @@ nav a {
 }
 .firstrow {
   display:flex;
+  border-top: 1px dashed black;
 }
 .rowtwo {
   display:flex;
 }
 .section1, .section2, .section3, .section4 {
   width:50%;
+  border-bottom: 1px dashed black;
+  margin: 0 10px;
 }
 img {
     margin-top: 14px;
@@ -263,4 +266,8 @@ a {
 }
 .box10 {
     background-color: dodgerblue;
+}
+
+.yay {
+    margin-top: 20px;
 }
