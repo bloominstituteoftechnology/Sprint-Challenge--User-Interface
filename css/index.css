@@ -228,14 +228,15 @@ main img {
     padding: 20px;
 }
 
-
-
-
+.plan-sec .strat h3 {
+    padding-top: 20px;
+}
 .more-con .plan-sec a button {
     background: transparent;
     padding: 5px 20px;
     border: 2px solid #455;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .lwt {

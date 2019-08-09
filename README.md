@@ -36,14 +36,15 @@ Edit this document to include your answers after each question. Make sure to lea
 - Ans: Semantic HTML gives meaning to our code so browsers and other people can understand it.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-- Ans: Display: block aligns elements by stacking them on top each other
+- Ans 1: Display: block aligns elements in a *y* axis (column) and does not accept any elements in it
+- Ans 2: Display: inline aligns elements in an *x* axis (row). Elements displayed inline can accept other elements.
 
 
 3. What are the 4 areas of the box model?
 - Ans: Margin, Border, Padding, Content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-- Ans: 
+- Ans: y axis
 
 5. Explain why git is valuable to a team of developers.
 - Ans: Git makes the process of collaboration between teams easier and allows for tracking of changes in codebases.
