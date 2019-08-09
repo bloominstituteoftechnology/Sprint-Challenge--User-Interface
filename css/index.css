@@ -97,6 +97,9 @@ nav a{
     margin-left: 150px;
 }
 
+.container-2 {
+    display: flex;
+}
 
 .top-content {
     display: flex;
