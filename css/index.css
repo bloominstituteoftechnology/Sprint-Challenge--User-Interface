@@ -46,9 +46,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* This is where I began tinkering with stuff */
 
 * {
     box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.header .text {
+    display: flex;
+	justify-content: space-around;
+    align-content: center;
+	
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 800px;
+    align-content: center;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.longExposure {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 html, body {
@@ -101,15 +142,55 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box, .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
