@@ -172,6 +172,7 @@ header nav a {
 .about-section {
   padding-bottom: 2%;
   border-bottom: 1px dashed black;
+  margin-bottom: 5%;
 }
 
 .hero-img {
@@ -185,9 +186,27 @@ header nav a {
   justify-content: space-between;
 }
 
-.card-content {
+.card-section .card-content {
   display: flex;
   flex-direction: column;
-  border: black;
+  border-bottom: 1px dashed black;
+  padding-bottom: 2%;
   width: 47%;
+  margin-bottom: 5%;
+}
+
+.card-content h2 {
+  margin-top: 2%;
+}
+.card-content button {
+  width: 30%;
+  padding: 1.5% 3%;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-size: 15px;
+  margin-top: 3%;
+}
+
+.conclusion {
+  margin-bottom: 5%;
 }
