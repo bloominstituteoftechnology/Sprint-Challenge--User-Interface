@@ -71,11 +71,7 @@ p {
     margin: 0 auto;
 }
 
-header{
-    display:flex;
-}
-
-nav{
+.navbar{
 	display:flex;
 	align-items:center;
 	justify-content:space-between;
