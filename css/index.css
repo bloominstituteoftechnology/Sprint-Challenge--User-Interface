@@ -237,6 +237,7 @@ p {
     margin: 20px 0px;
     border-bottom: 1px dashed black;
     flex-wrap: wrap;
+    /* width: 48% */
 }
 
 .middle-content-about h2{
