@@ -295,16 +295,15 @@ ul li{
 .contactForm{
     display: flex;
     justify-content: center;
-    margin: 0 5% 0 5%;
+    margin: 0 25% 0 25%;
 }
 .formSection{
-
-    border: 1px solid green;
+    justify-content: center;
 }
+
 label{
     font-size: .75rem;
     width: 25%;
-    border: 1px solid red;
 }
 
 #fname, #lname, #company, #country{
