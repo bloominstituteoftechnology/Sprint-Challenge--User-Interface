@@ -232,34 +232,31 @@ p {
     justify-content: center;
 }
 
+.middle1{
+    display: flex;
+}
+
+.middle2{
+    display: flex;
+}
+
 .middle-content-about .about-boxes{
     display: flex;
-    margin: 20px 0px;
+    margin: 10px;
     border-bottom: 1px dashed black;
     flex-wrap: wrap;
-    /* width: 48% */
 }
 
 .middle-content-about h2{
     margin: 10px 0px
 }
 
-.middle-content-about .about-boxes{
-    display: flex;
-    /* flex-wrap: wrap; */
-    width: 48%;
-}
-
 .middle-content-about .about-boxes .learn{
-    display: block;
     background-color: white;
     border: 1px solid black;
     padding: 7px 25px;
     border-radius: 10px;
     margin: 20px 0px;
-
-    
-
 }
 
 .bottom-content {
