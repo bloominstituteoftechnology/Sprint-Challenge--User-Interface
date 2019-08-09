@@ -1,6 +1,8 @@
-@import "./variables";
-@import "./mixins.scss";
+@import "./_variables";
+@import "./_mixins.scss";
+@import "./_utils.scss";
 @import "./_home.scss";
+@import "./_about.scss";
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -176,9 +178,7 @@ nav{
 }
 
 .navButton:hover{
-  color: #4e4e4e;
-  border: 1px solid black;
-  letter-spacing: normal;
+  color: lightseagreen;
 }
 
 .heroImg {

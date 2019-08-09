@@ -1,3 +1,7 @@
+.bb-dashed {
+  border-bottom: 1px dashed black;
+}
+
 .box1 {
   background-color: teal;
 }
@@ -36,6 +40,11 @@
 
 .box10 {
   background-color: dodgerblue;
+}
+
+.about {
+  width: 100%;
+  padding: 0.8em 2em;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -217,9 +226,7 @@ nav {
 }
 
 .navButton:hover {
-  color: #4e4e4e;
-  border: 1px solid black;
-  letter-spacing: normal;
+  color: lightseagreen;
 }
 
 .heroImg {
