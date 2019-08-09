@@ -51,7 +51,7 @@ cross axis
 
 5. Explain why git is valuable to a team of developers.
 
-git creates a system of version controll for a project that the members are working on. The team can be on the same page when they can monitor new commits, and to be sure they are working on the same thing.
+git creates a system of version controll for a project that the members are working on. The team can be on the same page when they can monitor new commits, and to be sure they are working on the same version of the project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
