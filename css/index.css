@@ -218,11 +218,52 @@ a:hover {
     border-radius: 5px;
     
 }
+.endtext{
+    margin: 40px 0px}
 
 
 /* contact.html */
 
 /* product.html  */
+
+.producttext{
+    margin-top: 30px;
+    width: 40%;
+   
+}
+ul .loremlist{
+    border-bottom: 1px solid black;
+
+}
+.producttitle{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    padding: 15px 0px;
+}
+.productform h2{
+    
+}
+form{
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   margin: 30px;
+}
+input{
+    margin-top: 10px;
+}
+input:hover{
+    border-color: cadetblue;
+}
+
+
+
+
 
 /* breakpoint code */
 
