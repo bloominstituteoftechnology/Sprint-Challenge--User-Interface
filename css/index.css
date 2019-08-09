@@ -278,3 +278,15 @@ footer nav a {
     font-family: 'Rubik', sans-serif;
     margin: 0 2% 0 2%;
 }
+
+/* PRODDUCTS STYLING PAGE */
+
+ul li{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 1.5rem;
+    list-style-type: circle;
+    font-size: .85rem;
+}
+
