@@ -170,3 +170,44 @@ footer nav a {
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
 }
+
+/*rows 1 and 2*/
+.row1{
+    display: flex;
+    padding-top: 15px;
+}
+
+.strat{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.working{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.row2{
+    display: flex;
+    padding-top: 15px;
+}
+
+.office{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+.meeting{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
