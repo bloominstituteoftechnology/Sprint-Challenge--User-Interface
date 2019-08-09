@@ -85,9 +85,9 @@ p {
 }
 nav a, img{
     text-decoration:none;
-    /* align-items:center; */
+    /* align-items:bottom; */
 }
-nav .bottomNav{
+.bottomNav{
     width:900px;
     padding:20px 0;
     background-color:black;
@@ -98,98 +98,43 @@ nav .bottomNav{
     align-items:center;
     position:fixed;
     z-index:999;
-    border:1px solid blue;
-    }
-    .banner{
-        width:100%;
-        margin-top:100px;
-    }
-.top-content {
+}
+.banner{
+    width:100%;
+    margin-top:100px;
+}.topContent {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px 0;
-    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
 }
 
-.top-content .text-container {
+.topContent img, .bottomContent img{
+    padding: 20px 0;
+}
+.bottomContent {
+    display: flex;
+    justify-content: space-evenly;
+}
+.content {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    border: width 30px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+button{
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    border-radius:5px;;
+    padding:5px 20px;
+    margin:20px auto 0;
+    background:white;
+    border:2px solid black;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.textBox{
+margin:20px;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box1{
-    background-color:teal;
-}
-.box2{
-    background-color:gold;
-}
-.box3{
-    background-color:cadetblue;
-}
-.box4{
-    background-color:coral;
-}
-.box5{
-    background-color:crimson;
-}
-.box6{
-    background-color:forestgreen;
-}
-.box7{
-    background-color:darkorchid;
-}
-.box8{
-    background-color:hotpink;
-}
-.box9{
-    background-color:indigo;
-}
-.box10{
-    background-color:do;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 footer {
     width: 100%;
     background: black;
