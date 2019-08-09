@@ -222,22 +222,14 @@ main img {
 }
 
 .more-con .plan-sec {
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    padding: 20px;
 }
 
 
 
-/* main img {
-    padding: 0 auto;
-    width: auto;
-} */
-
-/* .section-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-} */
 
 .more-con .plan-sec a button {
     background: transparent;
