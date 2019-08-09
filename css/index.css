@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    color:black;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -71,6 +72,26 @@ p {
     margin: 0 auto;
 }
 
+.bar{
+    display:flex;
+    justify-content:space-around;
+    margin-left:20px;
+    
+}
+
+.links{
+    display: flex;
+    flex-grow: 1;
+    padding:5px;
+    align-items:center;
+    background-color:white;
+    
+}
+
+.head{
+    
+    margin-left: 22%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,14 +125,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color:black;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
+    
+}
+.box:nth-child(1){
+    background-color:teal !important;
+}
+.box:nth-child(2){
+    background-color:gold !important;
 }
 
+.box:nth-child(3){
+    background-color:cadetblue !important;
+}
+
+.box:nth-child(4){
+    background-color:coral !important;
+}
+
+.box:nth-child(5){
+    background-color:crimson !important;
+}
+
+.box:nth-child(6){
+    background-color:forestgreen !important;
+}
+
+.box:nth-child(7){
+    background-color:darkorchid !important;
+}
+
+.box:nth-child(8){
+    background-color:hotpink !important;
+}
+
+.box:nth-child(9){
+    background-color:indigo !important;
+}
+
+.box:nth-child(10){
+    background-color:dodgerblue !important;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
