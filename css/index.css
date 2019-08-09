@@ -111,11 +111,7 @@ header {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-.top-content .about-text {
-    padding-bottom: 1.5rem;
 
-    
-}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -184,6 +180,43 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+/* About Page */
+.top-content .about-text {
+    padding-bottom: 1.5rem;
+
+    
+}
+.about-middle {
+    display: flex;
+}
+.middle-col{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+
+}
+.thumbnail {
+    margin: 2rem 0;
+    
+
+}
+.thumbnail h2,
+.thumbnail p {
+    text-align: left;
+    padding: .5rem;
+}
+.thumbnail p {
+    margin-bottom: 1rem;
+}
+.btn {
+    text-decoration: none;
+    color: black;
+    border: .12rem solid black;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    
 }
 
 footer {
