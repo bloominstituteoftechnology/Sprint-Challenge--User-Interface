@@ -180,6 +180,7 @@ header nav a {
 }
 
 .banner {
+    margin-top: 20px; /* Fix margin at top of banner */
     margin-bottom: 20px;
 }
 
@@ -225,7 +226,7 @@ footer nav a {
     padding: 20px;
 }
 .border {
-    margin-right: -20px;
+    margin-right: -10px;
     border-bottom: 1px dashed black;
 }
 
