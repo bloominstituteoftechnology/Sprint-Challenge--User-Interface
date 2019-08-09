@@ -144,3 +144,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*My css code*/
+
+.navbar{
+    display: flexbox;
+    text-align: center;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+
+.highway{
+    margin-left: 24%;
+    margin-bottom: 2%;
+}
+
