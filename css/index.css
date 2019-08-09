@@ -94,6 +94,14 @@ ul{
     justify-content: space-around;
 }
 
+
+a{
+        color:black;
+        text-decoration: none;
+    
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
