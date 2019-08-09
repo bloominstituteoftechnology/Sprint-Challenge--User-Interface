@@ -148,12 +148,13 @@ footer nav a {
 /*My css code*/
 
 .navbar{
-    display: flexbox;
     text-align: center;
+    margin: 2% 0%;
 }
 
 .navbar a{
     color: black;
+    padding: 0% 38px;
     text-decoration: none;
 }
 
