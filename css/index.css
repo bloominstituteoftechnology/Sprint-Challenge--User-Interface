@@ -71,6 +71,30 @@ p {
     margin: 0 auto;
 }
 
+header {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+    margin-left: 50px;
+    margin-right: 25px
+}
+
+/* Added a hover effect, because I think it helps users
+    track what they're doing onscreen (and I like hover) */
+nav a:hover {
+	color: gray;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
