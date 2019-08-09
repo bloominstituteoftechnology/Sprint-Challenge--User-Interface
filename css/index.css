@@ -182,6 +182,38 @@ button {
     justify-content: center;
 }
 
+.box1{
+    color:teal;
+}
+.box2{
+    color: gold;
+} 
+ .box3{
+    background-color: cadetblue
+ } 
+ .box4{
+    color: coral;
+ } 
+ .box5{
+    color:crimson;
+ }
+ .box6{
+    color: forestgreen
+ } 
+ .box7{
+    color: darkorchid;
+ } 
+ .box8{
+    color: hotpink;
+ } 
+ .box9{
+    color: indigo;
+ } 
+ .box10{
+    color: dodgerblue;
+ } 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
