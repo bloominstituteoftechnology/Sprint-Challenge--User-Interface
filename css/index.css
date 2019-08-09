@@ -106,7 +106,8 @@ nav a:hover {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 .middle-content {
