@@ -158,3 +158,13 @@ footer nav a {
 	font-size: 12px;
 	margin: 20px;
 }
+
+/* @media only screen and (max-width: 600px) {
+    .top-content, .bottom-content, .box, .boxes {
+        flex-direction: column;    }
+
+        .boxes .box {
+            width: 50%;
+            flex-basis: 50%;
+        }
+  } */
