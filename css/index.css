@@ -161,6 +161,35 @@ p {
     background-color: dodgerblue;
 }
 
+.middle-content.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: none;
+} 
+
+.middle-content.about .info {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+}
+
+.middle-content.about .info img {
+    width: 100%;
+}
+
+.middle-content.about .info h2 {
+    padding: 0.5rem 0;
+}
+
+.middle-content.about .info button {
+    padding: 0.5rem;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 0.4rem;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -187,15 +216,13 @@ p {
     color: #111;
 }
 
-.about-content {
-    margin-bottom: 20px;
-}
-
 footer {
     width: 100%;
     background: black;
     position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer nav {
