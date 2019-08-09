@@ -225,3 +225,77 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT.HTML */
+
+hr {
+    border-top: 1px dashed black;
+    margin: 3% 0 3% 0;
+}
+
+
+/* TOP CONTENT */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+.about {    
+    width: 95%;
+
+}
+
+
+/* MAIN CONTENT */
+
+.main-content-aboutHTML {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.strategy, .working, .places, .collaboration, .w {
+    width: 46%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    align-content: space-between;
+}
+
+.img-main {
+    margin-bottom: 2%;
+}
+
+.button {
+    /* styling */
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    padding: 8px 22px;
+    cursor: pointer;
+    /* misc */
+    margin: 5% 0 3% 0;
+}
+
+.work-together {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.work-together-text {
+    width: 95%;
+}
