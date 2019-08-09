@@ -165,6 +165,10 @@ header nav a {
     margin-right: 40px;
 }
 
+header nav a:hover {
+    border-bottom: 2px solid rgb(14, 14, 14);
+}
+
 header nav a.spacing {
     margin-right: 80px;
 }
