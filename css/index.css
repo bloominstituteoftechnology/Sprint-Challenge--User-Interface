@@ -151,7 +151,7 @@ nav {
     margin-bottom: 2em;
 }
 
-nav a {
+ .topNav a {
     margin-top: 1.4em;
     text-decoration: none;
     color: black;
