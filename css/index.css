@@ -249,9 +249,60 @@ footer nav a {
  .column a:hover {
     cursor: pointer;
     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-    transition: background-size 0.25s ease-in;
+    transition: background 0.25s ease-in;
  }
 
  .teamWork {
      margin:  40px 20px;
  }
+
+ /* Contact Form */
+
+ .form-title {
+    width: 100%;
+    color: #383651;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    color: #383651;
+    font-size: 37px;
+    line-height: 44px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+ }
+
+ .form-p {
+    margin: 20px 0;
+    line-height: 25px;
+    text-align: center;
+ }
+
+ input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: dodgerblue;
+    transition: background 0.25s ease-in;
+  }
+  
+  .wrapper {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
