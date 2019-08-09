@@ -270,6 +270,7 @@ header {
 nav {
   display: flex;
   flex-direction: column;
+  align-self: flex-end;
   width: 100%;
   align-items: center;
   justify-content: space-around;
