@@ -386,6 +386,87 @@ margin-top: 5%;
 
 .sec1{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+
 }
+
+.section1{
+    display: flex;
+    margin-top: 5%;
+}
+
+.section2{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.section1 h4{
+    margin-top: 3%;
+}
+
+.section2 h4{
+    margin-top: 3%;
+}
+
+.section2 img{
+    margin-top: 10%;
+}
+
+/* .section1, .section2 p{
+    margin-bottom: 5%;
+} */
+
+
+
+.strategy{
+    border-bottom: 1px dashed black;
+   
+}
+
+.strategy a{
+    text-decoration: none;
+    border: 1px solid black;
+    /* padding: 5px 20px; */
+    color: black;
+    border-radius: 2%;
+    
+}
+
+.how-we-work{
+    border-bottom: 1px dashed black;
+}
+
+.how-we-work a{
+ text-decoration: none;
+    border: 1px solid black;
+    /* padding: 5px 20px; */
+    color: black;
+    border-radius: 2%;
+}
+
+.places-we-work{
+    border-bottom: 1px dashed black;
+}
+
+.places-we-work a{
+    text-decoration: none;
+    border: 1px solid black;
+    /* padding: 5px 20px; */
+    color: black;
+    border-radius: 2%; 
+}
+
+.collab{
+    border-bottom: 1px dashed black;
+}
+
+.collab a{
+    text-decoration: none;
+    border: 1px solid black;
+    /* padding: 5px 20px; */
+    color: black;
+    border-radius: 2%;
+}
+
