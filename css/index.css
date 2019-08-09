@@ -198,15 +198,11 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    margin: 0 0 70px;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
-
-.bottom-content .text-container.about {
-    padding: 0;
-    margin: 0 0 70px;
 }
 
 .main-navigation {
