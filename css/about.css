@@ -197,3 +197,7 @@ button {
     border: 1px solid black;
     border-radius: 5px;
 }
+
+#section3 {
+    padding: 1em 0;
+}
