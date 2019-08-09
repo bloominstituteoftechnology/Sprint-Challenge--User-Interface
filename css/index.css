@@ -73,19 +73,25 @@ header {
 
 }
 .navBrand {
-    margin-left: 10rem;
+    margin-left: 17rem;
 }
 .links {
-    width: 70%;
+   width: 48%;
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
     margin-top: .5rem;
-    margin-right: 13rem;
+    margin-right: 15rem;
 
 }
 .links a {
+    color: black;
     text-decoration: none;
+}
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
 }
 .container {
     width: 800px;
