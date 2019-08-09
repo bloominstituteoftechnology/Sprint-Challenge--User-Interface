@@ -57,7 +57,7 @@ table {
     width: 800px;
     justify-content: space-around;
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .header .text {
@@ -81,7 +81,7 @@ nav a {
     color: black;
     align-content: center;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .longExposure {
@@ -225,3 +225,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
