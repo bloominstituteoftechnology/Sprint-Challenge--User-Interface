@@ -111,7 +111,11 @@ header {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-content .about-text {
+    padding-bottom: 1.5rem;
 
+    
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
