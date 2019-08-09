@@ -78,7 +78,17 @@ nav a {
 	padding: 30px;
 	text: 10em;
 }
-/* HEADER */
-.about-image {
-
+/* MAIN */
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.click {
+	padding: 3px 7px;
+	border: 1px solid black;
+	width: 200px;
+	text-align: center;
+	border-radius: 5px;
+	box-align: center;
 }
