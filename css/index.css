@@ -79,6 +79,22 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.navigation__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 30px;
+}
+
+.navigation__bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__image {
+    margin: 30px 0px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -88,6 +104,17 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content--about {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: none;
+    justify-content: space-around;
+}
+
+.middle-content--about__box {
+    width: 48%;
 }
 
 .middle-content h2 {
@@ -110,6 +137,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
