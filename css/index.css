@@ -157,12 +157,15 @@ footer nav a {
 }
 .box1{
     background:teal;
+    animation:boxanim1 .5s alternate infinite;
 }
 .box2{
     background:gold;
+    animation:boxanim2 3s alternate infinite;
 }
 .box3{
     background:cadetblue;
+    animation:boxanim3 2s steps(4) alternate infinite;
 }
 .box4{
     background:coral;
@@ -208,4 +211,39 @@ footer nav a {
     padding-top:10px;
     padding-bottom:10px;
     margin-top:10px;
+}
+.contactimg{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    text-align:center;
+}
+
+@keyframes boxanim1{
+    from{
+        transform: rotate(-15deg);
+    }
+    to{
+        transform: rotate(15deg);
+    }
+}
+@keyframes boxanim2{
+    from{
+        
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes boxanim3{
+    25%{
+        transform: translatex(10px);
+    }
+    50%{
+        transform: translatey(-10px);
+    }
+    70%{
+        transform: translatex(-10px);
+    }
 }
