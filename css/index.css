@@ -223,6 +223,10 @@ footer nav a {
 
   /* About.HTML */
 
+  .hr {
+    border: 1px dashed black
+  }
+
  .row {
      display: flex;
      flex-flow: row wrap;
@@ -231,7 +235,7 @@ footer nav a {
 
  .column {
     width: 45%;
-    border-bottom: 1px dotted black;
+    border-bottom: 1px dashed black;
     padding: 20px 0px;
     margin: 20px;
  }
@@ -305,4 +309,29 @@ footer nav a {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+
+  /* Blog Page */
+  .blog-wrapper {
+      max-width: 90%;
+      margin: 40px auto;
+  }
+  .title {
+    width: 100%;
+    font-family: Lato, sans-serif;
+    color: black;
+    font-size: 37px;
+    line-height: 44px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+   .blog-wrapper p {
+    margin: 20px 0;
+    line-height: 25px;
+   }
+  .blog-img {
+      width: 40%;
+      float: left;
+      clear: both;
+      margin-right: 10px;
   }
