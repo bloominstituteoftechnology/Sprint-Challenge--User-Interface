@@ -203,6 +203,7 @@ footer nav a {
     flex-direction: column;
     width: 50%;
     border-bottom: 1px dashed black;
+    margin: 10px;
 }
 
 .meeting{
@@ -210,4 +211,19 @@ footer nav a {
     flex-direction: column;
     width: 50%;
     border-bottom: 1px dashed black;
+    margin: 10px;
+}
+
+.together{
+    margin: 25px 10px;
+}
+
+button{
+    padding: 7px 12px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 15px 0px;
+    background-color: white;
+    width: 120px;
+    font-size: 16px;
 }
