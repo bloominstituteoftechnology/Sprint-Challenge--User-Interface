@@ -173,6 +173,7 @@ nav{
 .navButton {
   display: flex;
   align-items: flex-end;
+  position: relative;
   font-size: 1em;
   height: 34px;
   padding: 0 10px;
@@ -180,11 +181,13 @@ nav{
   text-decoration: none;
   border: 1px solid transparent;
   transition: all  1s;
+  text-align: center;
 }
-
+/*
 .navButton:hover{
   color: lightseagreen;
 }
+*/
 
 .heroImg {
   width: 100%; 
@@ -194,4 +197,32 @@ nav{
 
 .mainContent{
   flex-grow: 1;
+}
+
+.line1:after{
+ content: '';
+ width:0px;
+ height: 2px;
+ position: absolute;
+ left: 50%;
+ bottom: -4px;
+ background-color: lightseagreen;
+ transition: all 0.4s;
+}
+
+.line2:before{
+ content: '';
+ width:0px;
+ height: 2px;
+ position: absolute;
+ left:50%;
+ bottom: -4px;
+ background-color: lightseagreen;
+ transform: rotate(180deg); /* make the line grow from right to left*/
+ transform-origin: left;
+ transition: all 0.4s;
+}
+
+.navButton:hover.line1:before, .navButton:hover.line2:after{
+ width: 40%;
 }
