@@ -154,6 +154,7 @@ footer nav a {
 .navigation{
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -164,7 +165,6 @@ a{
 }
 
 .header-img{
-    
     display: flex;
     margin: 50px auto;
 	padding-bottom: 30px;
@@ -184,6 +184,10 @@ a{
 #b10{background-color: dodgerblue;}
 
 /* about.html */
+.container .about-page{
+    display: flex;
+    
+}
 
 /* contact.html */
 
