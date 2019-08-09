@@ -167,7 +167,7 @@ a{
 .header-img{
     display: flex;
     margin: 50px auto;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 #b1{
     background-color: teal;
@@ -184,11 +184,14 @@ a{
 #b10{background-color: dodgerblue;}
 
 /* about.html */
-.container .about-page{
+.about-page{
     display: flex;
-    
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
 }
 
 /* contact.html */
 
-/*  */
+/* product.html  */
