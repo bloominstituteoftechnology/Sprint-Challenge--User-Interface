@@ -56,6 +56,21 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    display: block;
+    justify-content: space-between;
+    margin: 25px 20px 40px;
+    width: 900px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+
+
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
