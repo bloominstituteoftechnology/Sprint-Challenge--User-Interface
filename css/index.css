@@ -146,6 +146,7 @@ footer nav a {
     text-decoration: none;
 }
 
+
 .topbar{
     display:flex;
     margin: 27px 0 0 0;
@@ -155,10 +156,9 @@ footer nav a {
 }
 .links{
     display: flex;
-
-justify-content: end;
-align-items: center;
-margin: 0px 0px 0px 16px;
+    justify-content: end;
+    align-items: flex-end;
+    margin: 0px 0px 0px 16px;
 }
 a{
     margin:0 0 0 72px
@@ -197,4 +197,32 @@ a{
 } 
 .box10{
     background:dodgerblue;
+}
+/* about css  about css about css about css about css  */
+
+.para1{
+    border-bottom: 1px dashed black;
+    padding: 0 0 17px 0px
+}
+.row1{
+    display: flex;
+    margin: 33px 0 0px 13px
+}
+.group1, .group2, .group3, .group4{
+    border-bottom: 1px dashed black;
+    margin: 0px 10px 0px 10px;
+}
+.row2{
+    display: flex;
+    margin: 33px 0 0px 13px
+}
+button{
+    padding: 9px 17px 9px 17px;
+    font-size: medium;
+    border-radius: 14px;
+    margin: 8px 0 16px 0px;
+    border: 2px solid;
+}
+.lastSection{
+    margin: 47px 0 22px 0;
 }
