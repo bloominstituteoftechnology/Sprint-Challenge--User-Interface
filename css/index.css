@@ -184,3 +184,53 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ---------- About Page ---------- */
+
+.about-page {
+    display: flex;
+    margin-bottom: 10px;
+    /* width: 30%; */
+}
+
+.learnButton {
+	text-align: center;
+	font-size: 75%;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 10px 5px 10px;
+	width: 100px;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.learnButton:hover {
+	color: white;
+	background-color: black;
+}
+
+hr {
+    border-top: 1px dashed black;
+  }
+
+/* .strategyAndHow {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+} */
+
+/* .strategyAndHow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; */
+}
+
+/* .top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+} */
