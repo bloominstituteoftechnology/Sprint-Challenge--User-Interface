@@ -79,6 +79,10 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .hero {
+    margin: 1rem 0;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -129,14 +133,13 @@ p {
 .main-navigation {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
     align-items: flex-end;
+    padding: 1.2rem 0;
 }
 
 .main-navigation a {
     text-decoration: none;
     color: #111;
-    /* align-self: baseline; */
 }
 
 footer {
