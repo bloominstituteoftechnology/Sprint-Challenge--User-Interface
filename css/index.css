@@ -144,3 +144,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my code started here */
+.container{
+    max-width: 80%;
+}
+
+/* index.html + nav */
+.navigation{
+
+}
+#b1{
+    background-color: teal;
+}
+#b2{background-color: gold;
+}
+#b3{background-color: cadetblue}
+#b4{background-color: coral;}
+#b5{background-color: crimson;}
+#b6{background-color: forestgreen;}
+#b7{background-color: darkorange;}
+#b8{background-color: hotpink;}
+#b9{background-color: indigo;}
+#b10{background-color: dodgerblue;}
+
+/* about.html */
+
+/* contact.html */
+
+/*  */
