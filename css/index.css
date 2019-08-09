@@ -99,6 +99,7 @@ nav a{
 
 .container-2 {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .top-content {
