@@ -293,3 +293,64 @@ width: 8%;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+
+/* -------------*/
+.infoBoxMeta{
+    display:flex;
+    flex-direction: row;
+width: 800px; 
+margin:  0 auto;
+flex-wrap: wrap;
+}
+
+.infoBox{
+    
+    width: 50%;
+    
+    margin-bottom: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+.testing{
+    border: 1px dashed black;
+    border-left: none;
+    border-right:none;
+    border-top: none;
+    width: 100%;
+    margin: 5%;
+    
+}
+
+.workTogetherMeta{
+    display:flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.workTogether{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.aboutMeta{
+    display:flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.aboutMinor{
+    margin-bottom: 5%;
+    margin-top: 1%;
+    border: 1px dashed black;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    padding-bottom: 5%;
+}
+
