@@ -223,3 +223,9 @@ button{
     padding-bottom: 23px;
     padding-left: 19px;
 }
+.products{
+    border-bottom: 1px dashed gray;
+    padding-bottom: 23px;
+    margin-top: 23px;
+    padding-left: 19px;
+}
