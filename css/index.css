@@ -28,12 +28,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+img{
+    padding: 15px;
+}
 body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: square;
 }
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+
 blockquote, q {
 	quotes: none;
 }
@@ -50,7 +64,9 @@ table {
 * {
     box-sizing: border-box;
 }
-
+.box .teal{
+    background-color: teal;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +85,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.jumbo-img{
+    display: flex;
+    align-items: center;
 }
 
 .top-content {
