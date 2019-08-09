@@ -71,6 +71,20 @@ p {
     margin: 0 auto;
 }
 
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 25%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
