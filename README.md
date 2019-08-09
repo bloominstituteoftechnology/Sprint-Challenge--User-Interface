@@ -42,6 +42,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What are the 4 areas of the box model?
 
+##Content, Padding, Border and Margin 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 ##The main-axis
