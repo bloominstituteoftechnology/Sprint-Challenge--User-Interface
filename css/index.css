@@ -290,3 +290,30 @@ ul li{
     font-size: .85rem;
 }
 
+/* CONTACT PAGE STYLING */
+
+.contactForm{
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 0 5%;
+}
+.formSection{
+
+    border: 1px solid green;
+}
+label{
+    font-size: .75rem;
+    width: 25%;
+    border: 1px solid red;
+}
+
+#fname, #lname, #company, #country{
+    border: 1px solid gray;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2.25%;
+    padding-bottom: 2.25%;
+    font-family: 'Rubik', sans-serif;
+    font-size: .75rem;
+}
