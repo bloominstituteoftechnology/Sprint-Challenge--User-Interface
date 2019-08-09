@@ -73,11 +73,10 @@ p {
 }
 
 .container-1 {
-    width: 100%;
+    width: 80%;
     display: flex;
     margin-left: 100px;
     align-items: center;
-    border: 1px solid green;
     text-decoration: none;
 }
 
@@ -91,6 +90,13 @@ nav a{
     padding-right: 30px;
     padding-left: 130px;
 }
+
+.container-about-page {
+    width: 91%;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+
 
 .top-content {
     display: flex;
