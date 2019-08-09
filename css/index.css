@@ -144,3 +144,22 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.div-border{
+height: 40px;
+width: 132px;
+border-radius: 13px;
+border:2px solid black;
+margin-top: 5%;
+}
+
+h4{
+font-size: initial;
+width: 100px;
+margin-top: 10px;
+margin-left: 19px;
+background:white;
+}
+
+img{
+margin-bottom: 3%;
+}
