@@ -86,6 +86,7 @@ nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -141,15 +142,17 @@ footer {
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    background: black;
+	padding: 20px;
+	margin-top: 10px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+    background: black;
+	color: white;
+	padding:0px;
+	text-decoration: none;
+	text-align: start;
+	font-size: 12px;
+	margin: 20px;
 }

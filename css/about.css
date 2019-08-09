@@ -74,8 +74,9 @@ p {
 nav a {
 	margin: 20px;
 	text-decoration: none;
-	color: rgb(182, 172, 172);
+	color: black;
 	padding: 30px;
+	font-size: 15px;
 }
 /* MAIN */
 .boxes {
