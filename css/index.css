@@ -99,11 +99,33 @@ p {
 }
 
 
+
+
 /* TOP */
 
 .jumbo-banner {
     margin-top: 5%;
     margin-bottom: 3%;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
 }
 
 .top-content {
@@ -149,6 +171,24 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
 
 .box1 { 
     background: teal;
@@ -299,3 +339,22 @@ hr {
 .work-together-text {
     width: 95%;
 }
+
+
+
+
+/* @keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+} */
