@@ -65,7 +65,28 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
 
+}
+.navBrand {
+    margin-left: 10rem;
+}
+.links {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: .5rem;
+    margin-right: 13rem;
+
+}
+.links a {
+    text-decoration: none;
+}
 .container {
     width: 800px;
     margin: 0 auto;
