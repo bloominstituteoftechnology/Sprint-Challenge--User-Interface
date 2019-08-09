@@ -33,15 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+     Semantic HTML helps bring meaning to the page. Modern Browsers interpret this semantic html using a standard so things are easy to collaborate on.
+     
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    'block' allows you to set a width and height parameter and 'inline' space is based on the content size.
 
 3. What are the 4 areas of the box model?
+    The 4 areas of the box model are the margin, border, padding , and content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    align-items is a vertical based property and only affects the flex container
 
 5. Explain why git is valuable to a team of developers.
-
+    With out git it would be hard to collaborate with out causing errors in our code due to files being worked on at the same time it also helps keep track of changes and differences in our project files.
+ 	  as well asbeing able to track others progress and communicate more effectively.
+       
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
@@ -70,7 +76,7 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
