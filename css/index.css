@@ -137,10 +137,13 @@ nav .bottomNav{
 .middle-content .boxes {
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
-
+.box{
+    display:flex;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 20px;
+}
 .box1{
     background-color:teal;
     width: 12.5%;
