@@ -126,6 +126,19 @@ p {
     padding-right: 0;
 }
 
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: flex-end;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #111;
+    /* align-self: baseline; */
+}
+
 footer {
     width: 100%;
     background: black;
