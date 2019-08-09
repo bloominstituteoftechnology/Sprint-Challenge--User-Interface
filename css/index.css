@@ -219,6 +219,29 @@ footer nav a {
     width:400px;
     text-align:center;
 }
+.form{
+    display:flex;
+    justify-content:center;
+}
+.formrow{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.contactpagetop{
+    padding:20px;
+}
+.contactinfo{
+    padding:20px;
+}
+.weblink{
+    color:royalblue;
+}
+.weblink :hover{
+    color:green;
+}
+.weblink :visited{
+    color:crimson;
+}
 
 @keyframes boxanim1{
     from{
