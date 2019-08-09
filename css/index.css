@@ -42,9 +42,59 @@
   background-color: dodgerblue;
 }
 
-.about {
+.aboutSection {
   width: 100%;
-  padding: 0.8em 2em;
+  padding: 0 2em 1em;
+}
+
+.lastSection {
+  width: 100%;
+  padding: 20px 1em;
+  margin-bottom: 20px;
+}
+
+.cardGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .cardGallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.card {
+  max-width: 47%;
+  margin: 20px 0;
+}
+.card h4, .card p, .card a {
+  margin: 1em 0;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card h4 {
+  font-size: 1.15em;
+}
+
+.learnMore {
+  display: block;
+  width: max-content;
+  padding: 0.5em 1.5em;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.learnMore:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -122,7 +172,11 @@ p {
 
 .container {
   width: 800px;
+  min-height: 100vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top-content {
@@ -182,6 +236,7 @@ p {
 footer {
   width: 100%;
   background: black;
+  flex-grow: 0;
 }
 
 footer nav {
@@ -233,4 +288,8 @@ nav {
   width: 100%;
   height: auto;
   margin: 20px auto;
+}
+
+.mainContent {
+  flex-grow: 1;
 }
