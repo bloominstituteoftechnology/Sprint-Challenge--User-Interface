@@ -89,6 +89,8 @@ nav a{
     display: flex;
     padding-right: 30px;
     padding-left: 130px;
+    text-decoration: none;
+    color: black;
 }
 
 .container-about-page {
@@ -100,6 +102,43 @@ nav a{
 .container-2 {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.strategy {
+    width: 40%;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+
+.working {
+    width: 40%;
+    padding-left: 50px;
+    
+}
+
+.places {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+
+.meeting {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.together {
+    width: 70%;
+    margin-left: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+button {
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
 }
 
 .top-content {
