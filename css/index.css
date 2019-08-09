@@ -144,3 +144,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.Logo {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.Nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border:1px solid red;
+  width:42%;
+  position: relative;
+  top: 35px;
+  right:90px;
+  margin-bottom: 2px;
+}
+nav a {
+  border: 1px solid green;
+  text-decoration: none;
+  color: gray;
+}
+.logoC {
+  border: 2px solid pink;
+  position: relative;
+  left:34px;
+  top: 30px;
+    margin-bottom: 30px;
+    
+}
+.firstrow {
+  display:flex;
+}
+.rowtwo {
+  display:flex;
+}
+.section1, .section2, .section3, .section4 {
+  width:50%;
+}
+img {
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button {
+    border-radius: 10px;
+    margin: 10px;
+    margin: 10px 7px;
+    font-size: 20px;
+    border-color: black;
+}
