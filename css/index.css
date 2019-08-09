@@ -220,3 +220,38 @@ footer nav a {
   .box10 {
       background-color: dodgerblue;
   }
+
+  /* About.HTML */
+
+ .row {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-between;
+ }
+
+ .column {
+    width: 45%;
+    border-bottom: 1px dotted black;
+    padding: 20px 0px;
+    margin: 20px;
+ }
+
+ .column a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 43px;
+    border-radius: 10px;
+    margin-top: 10px;
+ }
+
+ .column a:hover {
+    cursor: pointer;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    transition: background-size 0.25s ease-in;
+ }
+
+ .teamWork {
+     margin:  40px 20px;
+ }
