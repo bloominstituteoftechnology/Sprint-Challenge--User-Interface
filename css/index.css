@@ -162,6 +162,7 @@ a{
     color: black;
     font-size: 18px;
     text-decoration: none;
+
 }
 a:hover { 
     border: 1px black solid;
@@ -216,6 +217,7 @@ a:hover {
     border: 1px solid black;
     padding: 4px 20px;
     border-radius: 5px;
+    margin: 20px 0px;
     
 }
 .endtext{
