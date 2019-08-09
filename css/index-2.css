@@ -178,6 +178,10 @@ nav a {
   border-bottom: 1px dashed black;
 }
 
+.hero-image {
+  margin-bottom: 5%;
+}
+
 .top-content .text-container {
   width: 48%;
   padding: 0 1%;
