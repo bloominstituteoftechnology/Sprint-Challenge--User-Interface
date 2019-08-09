@@ -71,6 +71,10 @@ p {
     margin: 0 auto;
 }
 
+.container .about-page {
+    padding-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +118,26 @@ p {
 }
 
 .middle-content--about__box {
-    width: 48%;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.middle-content--about__box img {
+    margin-bottom: 10px;
+}
+
+.middle-content--about__box .button {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 35%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 5px;
+    margin: 15px 0px;
 }
 
 .middle-content h2 {
@@ -183,6 +206,10 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content--about {
+    flex-direction: column;
 }
 
 .bottom-content .text-container {
