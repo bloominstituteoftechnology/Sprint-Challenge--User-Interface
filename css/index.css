@@ -187,6 +187,10 @@ p {
     color: #111;
 }
 
+.about-content {
+    margin-bottom: 20px;
+}
+
 footer {
     width: 100%;
     background: black;
