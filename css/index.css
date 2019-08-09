@@ -66,6 +66,30 @@ p {
     line-height: 1.4;
 }
 
+ nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .navLinks li{
+    padding: 20px;
+  }
+
+  .navLinks a{
+    color: black;
+    text-decoration: none;
+  }
+
+.logo{
+    margin-right: : 50px;
+   }
+
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,6 +99,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -242,4 +267,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container about-page{
+    display: flex;
+    /*width: 1000px;
+    border: 1px solid black;
+    margin:  0 auto; */
+    justify-content: center;   
+}
+
+.container about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
