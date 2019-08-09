@@ -146,3 +146,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+body { /* centers the website */
+
+	margin: 0 auto;
+}
