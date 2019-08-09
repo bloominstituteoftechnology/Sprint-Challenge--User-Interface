@@ -71,17 +71,26 @@ p {
     margin: 0 auto;
 }
 
-header{
+
+}
+
+header {
+    width: 100%;
+    background: black;
+}
+
+header nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.header nav a {
-    width:100%;
-    display: flex;
     align-items: center;
-    justify-content: space-between;}
+    padding: 20px 2%;
+    font-size: 14px;
+}
+ul{ width: 100%;
+    display: flex;
+    justify-content: space-between
+}
 
 .top-content {
     display: flex;
