@@ -231,12 +231,26 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .about-boxes{
+
+.middle-content-about .about-boxes{
     display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
     flex-wrap: wrap;
-    /* justify-content: space-evenly */
-    /* flex-direction: column; */
-    width: 48%
+}
+
+.middle-content-about .about-boxes{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 48%;
+}
+
+.middle-content-about about-boxes .button{
+    display: flex;
+    background-color: white;
+
+    
+
 }
 
 .bottom-content {
