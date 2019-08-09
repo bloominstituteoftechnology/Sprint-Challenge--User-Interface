@@ -85,35 +85,38 @@ p {
 }
 nav a, img{
     text-decoration:none;
-    /* align-items:center; */
 }
-nav .bottomNav{
-    width:900px;
-    padding:20px 0;
-    background-color:black;
-    color:white;
-    top:0;
+
+img .unicorn{
+    height:100px;
+}
+section div{
     display:flex;
-    justify-content:space-between;
-    align-items:center;
-    position:fixed;
-    z-index:999;
-    border:1px solid blue;
-    }
+}
+
+.blaster {
+        width: 50%;
+        height: auto;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
     .banner{
         width:100%;
         margin-top:100px;
     }
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 20px 0;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
