@@ -152,7 +152,22 @@ footer nav a {
 
 /* index.html + nav */
 .navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
 
+.header-img{
+    
+    display: flex;
+    margin: 50px auto;
+	padding-bottom: 30px;
 }
 #b1{
     background-color: teal;
