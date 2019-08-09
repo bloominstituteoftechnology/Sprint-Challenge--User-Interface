@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav a {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +101,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -111,6 +124,32 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
+#box1{ background-color:teal;}
+#box2{background-color: gold; }
+#box3{ background-color:cadetblue; }
+#box4{ background-color:coral; }
+#box5{  background-color:crimson;}
+#box6{ background-color:forestgreen;}
+#box7{ background-color:darkorchid; }
+#box8{  background-color:hotpink;}
+#box9{   background-color:indigo;}
+#box10{  background-color:dodgerblue;}
+
+    
+    
+   
+   
+   
+    
+   
+   
+  
+   
+
+
+
 
 .bottom-content {
     display: flex;
