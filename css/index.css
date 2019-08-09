@@ -216,21 +216,38 @@ main img {
 
 .more-con {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     border-bottom: 1px dashed black;
 }
 
-.section-1 {
-    display: flex;
-    justify-content: space-between;
+.more-con .plan-sec {
+    width: 50%;
 }
 
-.section-1 .plan-sec {
-    margin: 0 auto;
-}
-.section-1 a button {
+
+
+/* main img {
+    padding: 0 auto;
+    width: auto;
+} */
+
+/* .section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+} */
+
+.more-con .plan-sec a button {
     background: transparent;
     padding: 5px 20px;
     border: 2px solid #455;
     border-radius: 5px;
+}
+
+.lwt {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
 }
