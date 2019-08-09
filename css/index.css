@@ -226,3 +226,78 @@ footer nav a {
     text-decoration: none;
 }
 
+.containerAboutPage .tower {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.containerAboutPage { 
+    border-bottom: 1px dotted black; 
+}
+
+.containerAboutPage h2 {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 68px;
+}
+
+.containerAboutPage p {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 2%; 
+    /* border-bottom: 1px dotted black;  */
+}
+
+.midSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+}
+
+
+.midSection div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 45%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    border-bottom: 1px dotted black; 
+}
+
+.midsection h2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.button2 {
+    display: flex;
+	justify-content: center;
+	background-color: white;
+	width: 40%;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid gray; 
+	margin: 10px 0;
+	border-radius: 5px;
+	padding: 2px auto;
+}
