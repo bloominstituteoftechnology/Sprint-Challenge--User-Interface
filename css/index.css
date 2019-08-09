@@ -66,15 +66,37 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: -8%;
+}
+
+header nav img {
+    margin-left: 16%;
+}
+
+.headerImg {
+    margin-top: 4%;
+    /* margin-bottom: 2%; */
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top: 1%;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-top: 3%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -83,6 +105,57 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container2 {
+    padding: 0 3%;
+    padding-bottom: 20px;  
+}
+
+.text-container3 {
+    padding-bottom: 20px;  
+}
+
+.learn {
+	display: flex;
+    width: 39%;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 9px;
+    border-radius: 7px;
+    font-size: 13px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.learn2 {
+    display: flex;
+    width: 31%;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.container5 {
+    width: min-content;
+    border-bottom: 1px dashed black;
+    margin: 11px;
+    padding-bottom: 2%;
+    margin-bottom: 6%;
+}
+
+.container5 img {
+    padding-bottom: 3%;
+}
+
+.supercontainer5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .middle-content {
@@ -101,16 +174,119 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* --------------- start of boxes -------------- */
+
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --------------- end of boxes -------------- */
 
 .bottom-content {
     display: flex;
