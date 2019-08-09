@@ -359,9 +359,33 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top: 5%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About page styles*/
+
+.about-header {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.about-last-h4{
+margin-top: 5%;
+}
+
+.about-p{
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
