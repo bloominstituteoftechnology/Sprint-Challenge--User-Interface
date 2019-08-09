@@ -218,7 +218,15 @@ header {
     padding: .5rem 1rem;
     
 }
-
+.about-bottom {
+    display: flex;
+    margin: 0 3rem;
+    padding:  0 5%;
+}
+.bottom-text {
+    width: 70%;
+    padding-bottom: 1.5rem;
+}
 footer {
     width: 100%;
     background: black;
