@@ -163,7 +163,13 @@ a{
     font-size: 18px;
     text-decoration: none;
 }
-
+a:hover { 
+    border: 1px black solid;
+    background-color: black;
+    padding: 4px 20px;
+    border-radius: 4px;
+    color: white;
+  }
 .header-img{
     display: flex;
     margin: 50px auto;
@@ -193,9 +199,21 @@ a{
     margin-bottom: 25px;
 }
 .infoboxes{
-
+ max-width: 80%;
+ padding: 20px 18px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding-left: 20px;
 }
 .inbox{
+ width: 40%;
+ padding: 15px 20px;
+}
+.learnbutton{
+    border: 1px solid black;
+    padding: 4px 20px;
+    border-radius: 5px;
     
 }
 
@@ -203,3 +221,9 @@ a{
 /* contact.html */
 
 /* product.html  */
+
+/* breakpoint code */
+
+@media only screen and (max-width: 600px) {
+   .body{background-color: grey;}
+} 
