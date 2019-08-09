@@ -204,6 +204,11 @@ p {
     padding-right: 0;
 }
 
+.bottom-content .text-container.about {
+    padding: 0;
+    margin: 0 0 70px;
+}
+
 .main-navigation {
     display: flex;
     justify-content: space-between;
