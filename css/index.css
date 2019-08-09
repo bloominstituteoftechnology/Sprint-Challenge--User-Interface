@@ -207,7 +207,6 @@ header img {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  /* background: black; */
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -290,4 +289,48 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* About.html */
+
+.about-top-content {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.about-top-content_text {
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+
+.about-mid-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-mid-content_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5em 0;
+  width: 46%;
+  margin-bottom: 1.5em;
+  border-bottom: 1px dashed black;
+}
+
+.about-mid-content_item button {
+  text-decoration: none;
+  background-color: white;
+  border: 0.15em solid black;
+  border-radius: 0.5em;
+  padding: 0.5em 2em;
+}
+
+.about-bot-content {
+  margin: 4% 20px;
+}
+.about-bot-content_text {
+  padding: 0 1%;
 }
