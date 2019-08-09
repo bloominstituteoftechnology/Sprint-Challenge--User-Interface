@@ -1,3 +1,4 @@
+@import "./variables";
 @import "./mixins.scss";
 @import "./_home.scss";
 
@@ -146,4 +147,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navButton {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1em;
+  height: 34px;
+  padding: 0 10px;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all  1s;
+}
+
+.navButton:hover{
+  color: #4e4e4e;
+  border: 1px solid black;
+  letter-spacing: normal;
+}
+
+.heroImg {
+  width: 100%; 
+  height: auto;
+  margin: 20px auto;
 }
