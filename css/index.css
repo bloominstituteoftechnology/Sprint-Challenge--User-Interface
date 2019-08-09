@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/*My css code*/
+/*My css code for home page*/
 
 .navbar{
     text-align: center;
@@ -163,3 +163,10 @@ footer nav a {
     margin-bottom: 2%;
 }
 
+/*about page css code*/
+
+.about{
+    padding: 0px 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
