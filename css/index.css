@@ -123,25 +123,25 @@ p {
     background-color: cadetblue;
 }
 .boxes .box:nth-of-type(4){
-    background-color:coral;
+    background-color: coral;
 }
 .boxes .box:nth-of-type(5){
-    background-color:crimson;
+    background-color: crimson;
 }
 .boxes .box:nth-of-type(6){
-    background-color:forestgreen;
+    background-color: forestgreen;
 }
 .boxes .box:nth-of-type(7){
-    background-color:darkorchid;
+    background-color: darkorchid;
 }
 .boxes .box:nth-of-type(8){
-    background-color:hotpink;
+    background-color: hotpink;
 }
 .boxes .box:nth-of-type(9){
-    background-color:indigo;
+    background-color: indigo;
 }
 .boxes .box:nth-of-type(10){
-    background-color:dodgerblue;
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -178,11 +178,14 @@ header nav a {
     text-decoration: none;
     margin-right:75px;
 }
-.banner{
+
+.banner {
     margin-bottom: 20px;
 }
+
 header img{
     margin-right:40px; 
+    margin-left: -15px;
 }
 
 footer nav {
@@ -198,4 +201,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-div {
+    padding: 0 20px 20px;
+}
+.about-top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
