@@ -88,6 +88,7 @@ header nav a{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -184,4 +185,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about{
+    border-bottom: 1px dashed black;
 }
