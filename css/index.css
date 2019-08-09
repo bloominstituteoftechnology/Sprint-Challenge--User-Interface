@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -80,7 +80,8 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    
+    width: 40%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -144,3 +145,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.wraper{
+    margin-left:15px;
+    margin-right:45px;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+.topnav{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.jumbo{
+    display:flex;
+    width: 100%;
+    align-content: center;
+    padding:40px 80px;
+}
+
+
