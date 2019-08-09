@@ -176,7 +176,7 @@ header nav {
 header nav a {
     color: black;
     text-decoration: none;
-    margin-right:75px;
+    margin-right:20%;
 }
 
 .banner {
@@ -208,4 +208,37 @@ footer nav a {
 .about-top {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.about-middle {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-bottom {
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 20px;
+}
+
+.middle-content-grid {
+    width: 400px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+
+}
+
+.middle-content-grid h3{
+    margin-top: 10px;
+}
+.middle-content-grid img{
+    margin-bottom: 10px;
+}
+
+.middle-content-grid button{
+    text-decoration: none;
+    background-color: white;
+    border: 1.5px solid black;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 5px;
 }
