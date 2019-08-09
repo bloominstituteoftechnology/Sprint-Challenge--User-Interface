@@ -69,6 +69,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
 }
 
 .top-content {
@@ -184,6 +186,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    position: absolute;
+    bottom: 0;
 }
 
 footer nav {
