@@ -22,7 +22,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    color:black;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -76,7 +75,6 @@ p {
     display:flex;
     justify-content:space-around;
     margin-left:20px;
-    
 }
 
 .links{
@@ -85,7 +83,14 @@ p {
     padding:5px;
     align-items:center;
     background-color:white;
-    
+}
+
+.bar a:visited,
+.links a:active,
+.links a:link{
+    color:black;
+    text-decoration: none;
+
 }
 
 .head{
@@ -126,7 +131,6 @@ p {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
-    background-color:black;
     color: white;
     display: flex;
     align-items: center;
@@ -134,42 +138,42 @@ p {
     
 }
 .box:nth-child(1){
-    background-color:teal !important;
+    background-color:teal;
 }
 .box:nth-child(2){
-    background-color:gold !important;
+    background-color:gold;
 }
 
 .box:nth-child(3){
-    background-color:cadetblue !important;
+    background-color:cadetblue;
 }
 
 .box:nth-child(4){
-    background-color:coral !important;
+    background-color:coral;
 }
 
 .box:nth-child(5){
-    background-color:crimson !important;
+    background-color:crimson;
 }
 
 .box:nth-child(6){
-    background-color:forestgreen !important;
+    background-color:forestgreen;
 }
 
 .box:nth-child(7){
-    background-color:darkorchid !important;
+    background-color:darkorchid;
 }
 
 .box:nth-child(8){
-    background-color:hotpink !important;
+    background-color:hotpink;
 }
 
 .box:nth-child(9){
-    background-color:indigo !important;
+    background-color:indigo;
 }
 
 .box:nth-child(10){
-    background-color:dodgerblue !important;
+    background-color:dodgerblue;
 }
 .bottom-content {
     display: flex;
@@ -204,3 +208,35 @@ footer nav a {
     text-decoration: none;
 }
 
+/* Most of the About Page Set-Up Below */
+hr{
+    border-top:1px dashed darkslategray;
+    border-bottom: 1 px dashed darkslategray;
+}
+button{
+	background: #fff;
+	color: black;
+	margin-left:25%;
+	flex-grow: 1;
+	padding:1%;
+	font-size: 16px;
+    margin-bottom: 15px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.line1{
+    display:flex;
+    flex-wrap:wrap;
+    align-self:center;
+    margin:25%;
+}
+
+.line2{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+}
