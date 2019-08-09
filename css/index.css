@@ -185,7 +185,7 @@ footer nav a {
 .middle-content-about {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -196,7 +196,7 @@ footer nav a {
 
 .middle-content-about .boxes {
     
-    width: 30%;
+    width: 40%;
     height: 400px;
     margin: 20px 2.5%;
     display: flex;
