@@ -188,5 +188,38 @@ footer nav a {
 }
 
 .about{
+    border-bottom: 1px dashed gray;
+    padding-bottom: 23px;
+    margin-top: 23px;
+    padding-left: 19px;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 26px;
+}
+.blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 47%;
     border-bottom: 1px dashed black;
+    margin-bottom: 55px;
+}
+.blocks h2{
+    margin-top: 15px;
+}
+button{
+    background-color:white;
+    border: 2px solid black;
+    border-radius:5px;
+    width: 37%;
+    height: 33px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about-bottom-content{
+    padding-bottom: 23px;
+    padding-left: 19px;
 }
