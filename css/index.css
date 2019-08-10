@@ -71,6 +71,13 @@ p {
     margin: 0 auto;
 }
 
+.about {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+}
+
 header {
 	display: flex;
 	align-items: flex-end;
@@ -191,7 +198,15 @@ footer nav a {
     display: flex;
     margin-bottom: 10px;
     margin-top: 30px;
-    /* width: 30%; */
+    justify-content: space-around;
+}
+
+.contentBox {
+    width: 45%;
+}
+
+.contentBox img {
+    width: 100%;
 }
 
 .learnButton {
@@ -202,7 +217,8 @@ footer nav a {
 	padding: 5px 10px 5px 10px;
 	width: 100px;
 	background-color: white;
-	margin-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 	border-radius: 20px;
 }
 
@@ -218,24 +234,3 @@ hr {
 h2 {
     margin-top: 20px;
 }
-
-/* .strategyAndHow {
-    display: flex;
-    flex-direction: column;
-    width: 48%;
-} */
-
-/* .strategyAndHow {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black; */
-}
-
-/* .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
-    margin-top: 20px;
-} */
