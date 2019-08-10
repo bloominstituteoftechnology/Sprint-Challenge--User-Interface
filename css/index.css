@@ -69,6 +69,7 @@ p {
 
 .container {
     width: 80%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -77,13 +78,20 @@ p {
     justify-content: space-between;
     align-items: baseline;
     margin: 20px 0px 37px 0px; 
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.navanchor {
+.nav a {
     text-decoration: none;
     color: black;
     margin: 0px auto;
+    transition: .5s linear;
+}
+
+.hover a:hover {
+    border-bottom: 3px solid rgb(101, 172, 230);
+    border-left: 3px solid rgb(101, 172, 230);
+    padding: 1px 4px;
 }
 
 .top-content {
