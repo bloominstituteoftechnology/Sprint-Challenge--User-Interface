@@ -35,7 +35,8 @@ Edit this document to include your answers after each question. Make sure to lea
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
 Semantic element clearly describes its meaning to both the browser and the developer.
-example of samantic tags are Header, footer, Main, Nav, Paragraph.
+example of samantic tags are Header, footer, Main, Nav, Paragraph. So we know that tags 
+are relavant to their names for example "p" tag refers to paragraph.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;
   ```.
