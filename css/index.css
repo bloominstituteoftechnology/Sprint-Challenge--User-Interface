@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: 550;
 }
 
 h1, h2, h3, h4, h5 {
@@ -67,8 +68,22 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 0px 37px 0px; 
+    font-size: 14px;
+}
+
+.navanchor {
+    text-decoration: none;
+    color: black;
+    margin: 0px auto;
 }
 
 .top-content {
@@ -77,6 +92,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-image {
+    margin-bottom: 22px;
 }
 
 .top-content .text-container {
@@ -143,4 +162,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.middle-content .boxes .box:nth-of-type(1) {
+    background: teal;
+}
+.middle-content .boxes .box:nth-of-type(2) {
+    background: gold;
+}
+.middle-content .boxes .box:nth-of-type(3) {
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-of-type(4) {
+    background: coral;
+}
+.middle-content .boxes .box:nth-of-type(5) {
+    background: crimson;
+}
+.middle-content .boxes .box:nth-of-type(6) {
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-of-type(7) {
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-of-type(8) {
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-of-type(9) {
+    background: indigo;
+}
+.middle-content .boxes .box:nth-of-type(10) {
+    background: dodgerblue;
+}
+
+.about-text {
+    margin-top: -20px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.top-content-about {
+    margin-bottom: 20px;
+}
+
+.slide-container {
 }
