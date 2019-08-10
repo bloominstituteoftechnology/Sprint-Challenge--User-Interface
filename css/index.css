@@ -265,42 +265,53 @@ footer nav a {
 }
 
 .top-content-about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content-about .jumbo-about {
-    width: 760px;
-}
-
-.top-content-about .text-container {
-    width: 100%;
-    padding: 0 1%;
-    padding-bottom: 20px; 
-    padding-top: 30px; 
+.about-container {
+    height: 100%;
+    Width: 900px;
+    margin: 20px;
 }
 
 .middle-content-about {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    height: 900px;
+    width: 850px;
+    margin: 25px 0px 25px 0px;
+}
+.top-content-about .text-container {
     margin: 20px;
-    border-bottom: 1px dashed black;
 }
 
-.middle-content-about h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.middle-content-about .box img{
+    width: 350px;
+    height: 250px;
+    justify-content: space-around;
 }
 
-.middle-content-about .boxes {
+.middle-content-about .box {
+    justify-content: space-evenly;
+    flex: none;
+    width: 400px;
+    height: 300px;
+    background-color: black
+    margin: 20px;
     
-    width: 40%;
-    height: 400px;
-    margin: 20px 2.5%;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-}   
+}
+
+.middle-content-about .box .text-section {
+    border-bottom: 1px dashed black;
+    width: 365px;
+}
+
+.middle-content-about .box .text-section button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.middle-content-about .box .text-section h2 {
+    margin-top: 15px;
+}
