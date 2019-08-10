@@ -216,27 +216,31 @@ hr{
 button{
 	background: #fff;
 	color: black;
-	margin-left:25%;
 	flex-grow: 1;
 	padding:1%;
 	font-size: 16px;
-    margin-bottom: 15px;
     border:1px solid black;
     border-radius:5px;
 }
 
 .line1{
     display:flex;
-    flex-wrap:wrap;
-    align-self:center;
-    margin:25%;
+    justify-content:space-evenly; 
 }
 
 .line2{
     display:flex;
-    flex-wrap:wrap;
-    margin-left:20%;
-    margin-right:20%;
+    justify-content:space-evenly;
 }
 
+.last{
+    margin-left:22%;
+    margin-right:22%;
+    margin-top:2%;
+    margin-bottom:2%
+}
+
+.margin{
+    margin-left:22%;
+    margin-right:22%;
 }
