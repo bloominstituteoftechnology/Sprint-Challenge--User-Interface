@@ -96,10 +96,9 @@ p {
 }
 .top-nav{
     display: flex;
-    border: 1px solid black;
+    align-items: flex-end;
 }
 .top-nav nav{
-    border: 1px solid red;
     width: 75%; 
 }
 .jumbo-img{
@@ -119,9 +118,10 @@ p {
     border-bottom: 1px dashed black;
 }
 .container .middle-section{
-    display: inline-flexbox;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-between;
     width: 45%;
 }
 
@@ -251,6 +251,7 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .bottom-content .text-container {
