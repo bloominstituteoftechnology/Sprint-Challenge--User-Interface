@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+/* Obj1 */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* border: 1px solid green; */
+}
+.logo {
+    /* border: 1px solid orange; */
+    padding-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 35px;
+    font-size: 12px;
+    /* border: 1px solid blue; */
+
+}
+.navigation {
+    width: 75%;
+    padding: 5px;
+    margin: 25px 0px;
+    text-align: right;
+    /* border: 1px solid red; */
+}
+.header-image {
+    padding: 5px;
+    margin: 20px 0px;
+}
+
+/* end of obj1 */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +144,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* OBJ 2 */
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+}
+.middle-content .boxes .box3 {
+    background:cadetblue;
+}
+.middle-content .boxes .box4 {
+    background: coral;
+}
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+.middle-content .boxes .box6{
+    background: forestgreen;
+}
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+/* obj2 ends here */
 
 .bottom-content {
     display: flex;
@@ -143,4 +208,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PG BEGINS HERE */
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+    /* border: 1px solid green; */
+}
+.card {
+    width: 45%;   
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px dashed black; 
+    /* border: 1px solid red; */
+}
+.card-img img{
+    width: 100%;
+    /* border: 5px solid green; */
+}
+button {
+    background: white;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+button a{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Stretch Goals */
+button:hover {
+    background: black;
+}
+
+
+a:hover {
+    color: blue;
+}
+
+.box:hover {
+    background: mediumseagreen;
+}
+
+/* Blog PG */
+
+.article-section {
+    display: flex;
+    display-wrap: wrap;
+    }
+}
+.articles {
+    width: 49%;
+    border: 1px solid green;
 }
