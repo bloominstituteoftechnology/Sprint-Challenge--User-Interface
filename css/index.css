@@ -81,6 +81,19 @@ p {
     font-size: 16px;
 }
 
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column;
+        width: 100%;
+        margin: 5px auto;
+        justify-content: center;
+    }
+
+    .nav .logo {
+        margin: auto;
+    }
+}
+
 .nav a {
     text-decoration: none;
     color: black;
