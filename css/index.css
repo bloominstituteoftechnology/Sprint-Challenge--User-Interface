@@ -100,19 +100,29 @@ p {
 }
 .top-nav nav{
     border: 1px solid red;
-    width: 75%;
+    width: 75%; 
 }
 .jumbo-img{
     display: flex;
     align-items: center;
 }
-
+.head-content{
+    align-items: left;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.container .middle-section{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 45%;
 }
 
 .top-content .text-container {
