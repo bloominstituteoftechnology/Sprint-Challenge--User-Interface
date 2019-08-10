@@ -96,6 +96,7 @@ p {
 
 .top-image {
     margin-bottom: 22px;
+    width: 100%;
 }
 
 .top-content .text-container {
@@ -206,5 +207,43 @@ footer nav a {
     margin-bottom: 20px;
 }
 
+.mid-content-about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .slide-container {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
+
+.slide-container h2 {
+    margin: 10px 0;
+}
+
+.slide-container p {
+    margin: 15px 0;
+}
+
+.slide-img {
+    width: 100%;
+}
+
+.slide-btn {
+    border: 2px solid black;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.slide-btn:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
 }
