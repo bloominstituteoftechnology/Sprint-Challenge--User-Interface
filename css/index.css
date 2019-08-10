@@ -93,6 +93,11 @@ nav a{
     color: black;
 }
 
+nav a:hover {
+    color: red;
+    border: 1px solid white;
+}
+
 .container-about-page {
     width: 91%;
     padding-top: 20px;
