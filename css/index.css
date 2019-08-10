@@ -197,6 +197,10 @@ p {
     grid-column-gap: 30px;
 }
 
+.middle-content.contact .contact-form {
+    margin-bottom: 70px;
+}
+
 .middle-content.contact .input-group {
     display: flex;
     flex-direction: column;
@@ -210,11 +214,41 @@ p {
     padding-bottom: 2%;
 }
 
+.middle-content.contact .input-group input {
+    padding: 3%;
+    min-height: 40px;
+}
+
 .middle-content.contact .button-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 50px;
     margin: 1rem 0;
+}
+
+.middle-content.contact .button-group button {
+    min-width: 45px;
+    min-height: 45px;
+    border: 1px solid #111;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.middle-content.contact .button-group button[type='submit'] {
+    background: none;
+    font-weight: 500;
+}
+
+.middle-content.contact span,
+.middle-content.contact a {
+    display: block;
+    margin-bottom: 2%;
+    color: #111;
+    padding-left: 2rem;
+}
+
+.middle-content.contact a {
+    text-decoration: none;
 }
 
 .bottom-content {
@@ -243,6 +277,8 @@ p {
     text-decoration: none;
     color: #111;
 }
+
+
 
 footer {
     width: 100%;
