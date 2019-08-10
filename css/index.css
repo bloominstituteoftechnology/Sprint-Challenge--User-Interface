@@ -191,6 +191,32 @@ p {
     cursor: pointer;
 }
 
+.middle-content.contact {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-column-gap: 30px;
+}
+
+.middle-content.contact .input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-content.contact .input-group:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.middle-content.contact .input-group label {
+    padding-bottom: 2%;
+}
+
+.middle-content.contact .button-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    margin: 1rem 0;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
