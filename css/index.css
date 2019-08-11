@@ -99,18 +99,21 @@ p {
 .middle-content .boxes{
     display: flex;
    flex-wrap: wrap;
-
 }
-
+.middle-content .boxing .boxes .box1{
+    background-color: teal;
+}
 .middle-content .boxes .box{
-    
     width: 100px;
     height: 100px;
     color: white;
     position: relative;;
     margin: 20px;
-   background-color: black;
+    background-color: teal;
    display: flex;
+   align-items: center;
+  -webkit-animation-duration:5s;
+  
 }
 .box1{ background-color: teal;}
 .box2{ background-color:gold;}
@@ -131,6 +134,9 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+.middle-content .middle1 .imges{
+ display: flex;
 }
 .middle-content .middle1 button{
     border: 1px solid black;
@@ -158,6 +164,7 @@ p {
 }
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    -webkit-animation-duration:40s;
 }
 .bottom-content .bottom{
     display: flex;
