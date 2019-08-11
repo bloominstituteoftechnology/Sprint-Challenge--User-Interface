@@ -22,9 +22,9 @@ In this challenge, you build a missing header (navigation and image) on the home
 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
 
-[Click here for the home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
+[Click here for the home page example][1]
 
-[Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
+[Click here for the about page example][2]
 
 ## Self-Study Questions
 
@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Semantic HTML are tag names with meaningful context — i.e. the \<button\> tag is for buttons, \<section\> for sections, \<address\> for physical addresses, etc. 
+
+2. Name two big differences between `display: block;` and `display: inline;`.
+
+Inline is the default display for \<span\>— an element only takes up as much width as it’s content physically occupies. Spans can exist side by side with one another.
+
+Block is the default display for \<p\> — it prevents any other elements from existing side by side with the element, regardless of its actual width. New elements exist on a new line break.
 
 3. What are the 4 areas of the box model?
+Margin 
+Border
+Padding
+Content
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: `align-items: center`?
+Align-items works on the cross-axis (up-down for rows, left-right for columns)
 
 5. Explain why git is valuable to a team of developers.
+
+git keeps a record of all changes, ever. It lets you compare, merge, and track different versions. Because it offers real-time tracking through .git, and then lets you add/push/commit in chunks, it makes collaboration on immense code bases very straightforward.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +65,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+	 
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+	 
 
 
 ## Minimum Viable Product
@@ -67,10 +80,10 @@ Your finished project must include all of the following requirements:
 
 ### Home Page
 
-[Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
+[Review the provided design file for the home page][3].  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ ] Link the `About` navigation item to the [about.html][4] page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
@@ -87,7 +100,7 @@ You will also notice there are 10 boxes on the home page that need background co
 
 ### About Page
 
-[Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
+[Review the provided design file for the about page][5]. You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
 * [ ] Copy and paste your home page navigation and header into the about page
 * [ ] Update the header image with the about page image
@@ -104,3 +117,12 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+
+Louis Gelinas
+
+[1]:	https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png
+[2]:	https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png
+[3]:	design-files/home.png
+[4]:	about.html
+[5]:	design-files/about.png

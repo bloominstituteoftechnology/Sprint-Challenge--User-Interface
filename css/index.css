@@ -66,6 +66,42 @@ p {
     line-height: 1.4;
 }
 
+
+/* Louis' CSS -- Header and Top Nav */
+
+header nav {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex; 
+	flex-flow: row nowrap
+	justify-content: space-evenly;
+}
+
+header nav a {
+	color:black;
+	text-decoration: none;
+}
+
+header nav .navLinks {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80%;
+}
+
+header nav .navLogo {
+	width: 20%;
+	text-align: center;
+	margin: 20px;
+}
+
+.headerImage {
+    margin-bottom: 20px;
+}
+
+/* Last Developer's CSS */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,6 +120,15 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Louis' CSS -- About */
+
+.about-text {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* Last Developer's CSS */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +149,86 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Louis' CSS -- About Boxes */
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 47%;
+}
+
+.about-box h2 {
+    margin: 20px 0px;
+}
+
+.about-box button {
+	background-color: white;
+	border-color: black;
+	border-radius: 10px;
+	color:black;
+	width: 35%;
+	font-size: 12px;
+	margin: 15px 0px;
+	padding: 10px;
+}
+
+/* Louis' CSS -- Index Boxes */
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* Last Developer's CSS */
 
 .bottom-content {
     display: flex;
@@ -125,6 +243,15 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Louis' CSS -- About Footer */
+
+.bottom-content .about-text {
+    margin-top: 20px;
+}
+
+/* Last Developer's CSS */
+
 
 footer {
     width: 100%;
