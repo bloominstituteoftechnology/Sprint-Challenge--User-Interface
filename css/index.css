@@ -273,9 +273,20 @@ p {
     padding: 1.2rem 0;
 }
 
+.main-navigation img {
+    padding-right: 2%;
+}
+
 .main-navigation a {
     text-decoration: none;
     color: #111;
+    /* max-width: 100%; */
+}
+
+.main-navigation a:hover {
+    background-color: #111;
+    color: #fff;
+    padding: 1% 4% 0.5%;
 }
 
 
