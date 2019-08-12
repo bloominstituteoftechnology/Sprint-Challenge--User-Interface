@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 .container nav{
     display: flex;
     justify-content: space-around;
@@ -109,7 +110,7 @@ p {
     color: white;
     position: relative;;
     margin: 20px;
-    background-color: teal;
+   
    display: flex;
    align-items: center;
   -webkit-animation-duration:5s;
@@ -192,3 +193,6 @@ body { /* centers the website */
 
 	margin: 0 auto;
 }
+@media(max-width:450px){
+    body{background-color: chocolate;}
+} 
