@@ -18,7 +18,10 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
+In this challenge, you build a 
+missing header (navigation and image) on the home page, 
+update some CSS styling on the home page, and 
+create an additional page (About) which will link from the navigation you created.
 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
 
