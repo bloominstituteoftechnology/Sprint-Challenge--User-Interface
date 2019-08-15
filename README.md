@@ -18,7 +18,10 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
+In this challenge, you build a 
+missing header (navigation and image) on the home page, 
+update some CSS styling on the home page, and 
+create an additional page (About) which will link from the navigation you created.
 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
 
@@ -33,14 +36,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is the accurate use of specific elements to represent appropriate data, rather than throwing everything into divs. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    display block has whitespace around it, in the form of a block, while inline has no surround space as a part of it. 
+
+    block does not tolerate oterh elements to be on the same line, unless we specify it do so, while inline has no authority as to what can be on its side.
+
+    blocks are meant to contain inline elements along with other blocks. 
 
 3. What are the 4 areas of the box model?
+    content padding border margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    the axis perpendicular to the flow direction.
 
 5. Explain why git is valuable to a team of developers.
+    it allows multiple people to work on the same piece of software by providing version control/ version history and branching/forking.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
