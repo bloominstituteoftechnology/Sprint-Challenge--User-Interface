@@ -34,25 +34,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-
+Semantic HTML is a way for all programmers to use the same language so no matter what company you go to you know how to code the project they want you to do.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+display:inline will only take up as much space as it needs and display:block will take up as much space as it can.
+
+display:inline will not start on a new line and a display:block will start on a new line
+
 3. What are the 4 areas of the box model?
+
+content, margin, padding, and border
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+the cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+It is easy to share work amongst all departments.  Also if 3 people are working on a project they can all work on them at the same time using their own branches and then they can pull them all together.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ x] Create a forked copy of this project.
+- [x ] Add your project manager as collaborator on Github.
+- [ x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
