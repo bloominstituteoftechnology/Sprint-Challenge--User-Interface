@@ -70,6 +70,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header nav{
+    display: flex;
+    align-items: baseline;
+}
+header nav a{
+    margin: 10px;
+    padding: 30px;
+    text-decoration: none;
+    color: gray;
+}
 
 .top-content {
     display: flex;
@@ -111,6 +121,16 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:first-child{
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
 
 .bottom-content {
     display: flex;
