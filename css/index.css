@@ -70,7 +70,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/* -------------------------------- */
+nav { 
+    border: 2px solid black;
+      width: 75vw;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+       margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: black; 
+    }
+    /* ------------------------------------------ */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -94,7 +108,170 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+/* =================================================== */
+/* =============================================== */
+.box-container-upper {
+    border: 2px dashed blue;
+    width: 75vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+       margin-top: 5px;
+    margin-bottom: 5px;
+  }
+.one {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+    background: teal;
+    transition: width 2s, height 2s;
+  }
+  .one:hover {
+    height: 60px;
+    width: 80px;
+    background: coral;
+    border-radius: 50%;
+      opacity: .5;
+  }
+  /* ----------------------------------------- */
+  .two {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+    background: gold;
+    transition: width 2s, height 2s;
+  }
+  .two:hover {
+    height: 30px;
+    width: 30px;
+    background: coral;
+    border-radius: 50%
+  }
+  /* -------------------------------------------- */
+  .three {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+     background: cadetblue;
+    transition: width 2s, height 2s;
+  }
+  .three:hover {
+    height: 20px;
+    width: 20px;
+    background: coral;
+    border-radius: 50%
+  }
+  /* --------------------------------------------- */
+  .four {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+     background: coral;
+    transition: width 2s, height 2s;
+  }
+  .four:hover {
+    height: 10px;
+    width: 10px;
+    background: coral;
+    border-radius: 50%
+  }
+  /* ------------------------------------------------ */
+  .five {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+     background: crimson;
+  /*   transition: width 2s, height 2s; */
+  }
+  .five:hover {
+    height: 0px;
+    width: 0px;
+    background: coral;
+    border-radius: 50%;
+  /*   visibility: hidden; */
+  }
+  
+  /* ------------------------------------------------ */
+  .box-container-lower {
+    border: 2px dashed gray;
+    width: 75vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+       margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .six {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+      background: forestgreen;
+  
+  }
+  .six:hover {
+    height: 60px;
+    width: 60px;
+    background: blue;
+    border-radius: 50%
+  }
+  .seven {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+      background: darkorchid;
+  
+  }
+  .seven:hover {
+    height: 60px;
+    width: 60px;
+    background: yellow;
+    border-radius: 50%
+  }
+  .eight {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+      background: hotpink;
+  
+  }
+  .eight:hover {
+    height: 60px;
+    width: 60px;
+    background: green;
+    border-radius: 50%
+  }
+  .nine{
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+      background: beige;
+  
+  }
+  .nine:hover {
+    height: 60px;
+    width: 60px;
+    background: coral;
+    border-radius: 50%
+  }
+  .ten {
+    border: 1px solid blue;
+    height: 50px;
+    width: 50px;
+    background: beige;
+  }
+  .ten:hover {
+    height: 60px;
+    width: 60px;
+    background: coral;
+    border-radius: 50%
+  }
+/* =============================================== */
 
+
+
+/* ================================================ */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
