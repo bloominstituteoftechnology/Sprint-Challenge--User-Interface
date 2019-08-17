@@ -203,3 +203,42 @@ footer nav a {
 .box10{
     background-color: dodgerblue;
 }
+
+.TippyTop{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-top: 1px dashed black;
+    padding-top: 2%;
+    align-content: center;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+
+.About{
+    padding-bottom: 2%;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+    align-content: center;
+    padding-top: 2%;
+}
+
+.together{
+    padding-top: 2%;
+    text-align: left;
+    width: 80%;
+    padding-bottom: 2%;
+}
+
+button{
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+}
+
