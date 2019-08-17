@@ -132,12 +132,12 @@ footer {
 }
 
 footer nav {
-    width: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 0px;
     font-size: 14px;
+    width: 0%;
 }
 
 footer nav a {
@@ -186,3 +186,19 @@ a:hover {
     width: 100%;
 }
 
+.middle-content .boxes .box .box1{
+    background: teal;
+}
+
+.container-about-page .text-container{
+    margin: 0 20px 0 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	padding: 1px 40px 1px 40px;
+}
