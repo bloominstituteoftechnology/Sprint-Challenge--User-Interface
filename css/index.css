@@ -148,5 +148,135 @@ footer nav a {
 /* Challenge code begins here */
 
 
+header {
+	
+    padding: 40px 0;
+    width: 65%;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    left: 250px;
+	}
 
 
+    
+
+    .header-img{
+        padding: 30px;
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        left: 100px;
+    }
+
+    .header-about{
+        position: relative;
+        left: 130px;
+        border-bottom: 1px dashed black;
+        padding: 20px;
+        width: 95%;
+    }
+
+    .header-nav{
+        text-align: center;
+        position: relative;
+        margin: auto;
+        left: 80px;
+    }
+
+
+    .nav-image{
+        position: relative;
+        right: 60px;
+    }
+
+    .header-nav a:link{
+        padding: 60px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+
+    .strategy{
+        text-align: left;
+		height: 100px;
+        width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        right: 50px;
+        border-bottom: 1px dashed black;
+        border-bottom-width: inherit;
+        
+    }
+
+
+    .how-we-work{
+        text-align: left;
+		height: 100px;
+		width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        /* bottom: 387px; */
+        float: right;
+        left: 50px;
+        border-bottom: 2px dashed black;
+    }
+
+    .places-we-work{
+        text-align: left;
+		height: 100px;
+		width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        right: 50px;
+        top: 32px;
+        border-bottom: 1px dashed bottom;
+    }
+
+    .collaboration{
+        text-align: left;
+		height: 100px;
+		width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        bottom: 387px;
+        left: 450px;
+    }
+
+    .learn-box{
+        display: border-box;
+        width: 140px;
+        padding: 7px;
+        border: 2px solid black;
+        height: 40px;
+        text-align: center;
+        border-radius: 15px;
+        margin: 20px;
+        position: relative;
+        right: 20px;
+        
+        
+        
+
+    }
+
+    .work-together{
+        display: inline-block;
+        position: relative;
+        bottom: 150px;
+        right: 10px;
+        margin: -15px;
+
+   }
+
+   footer{
+       position: relative;
+       margin: -50px;
+       
+   }
