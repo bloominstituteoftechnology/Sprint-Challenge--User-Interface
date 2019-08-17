@@ -232,3 +232,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Page*/
+
+h2 {
+    margin-top: 15px;
+}
+
+button {
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100px;
+}
+
+.line {
+    width: 380px;
+}
+
+.line-top {
+    width: 100%;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.footer-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-section p {
+    line-height: 1.5px;
+}
