@@ -70,6 +70,8 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* add missing navigation */
+
 header nav{
     display: flex;
     align-items: baseline;
@@ -122,6 +124,7 @@ header nav a{
     align-items: center;
     justify-content: center;
 }
+/* coloring boxes */
 .middle-content .boxes .box:first-child{
     background-color: teal;
 }
@@ -152,9 +155,6 @@ header nav a{
 .middle-content .boxes .box:last-child{
     background-color: dodgerblue;
 }
-
-
-
 
 .bottom-content {
     display: flex;
@@ -187,4 +187,33 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+section .about{
+    padding: 22px;
+    border-bottom: 1px dashed black;
+
+}
+.big-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+.big-container .four-boxes{
+    border-bottom: 1px dashed black;
+    width: 45%;
+    line-height: 15px;
+    margin-bottom: 50px;
+}
+.big-container .last-section{
+    margin-left: 20px;
+}
+.learn-more{
+    border: 2px solid black;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+
 }
