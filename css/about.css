@@ -56,8 +56,107 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+        width: 995px;
+        margin: 0 auto;
+    }
+
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display:  flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    padding: 5%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+   margin-top: 3%;
+    
+}
+
+.header-image {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.header-paragraph {
+    padding: 3%;
+    margin-left: 4%;
+    width: 100%;
+    border-bottom: 1px dashed black;
+    
+}
+
+ p {
+    font-weight: bold;
+    line-height: 125%;
+    font-size: 100%;
+}
+
+.image-one , .image-two, .image-three, .image-four {
+    border-bottom: 1px dashed black;
+    padding: 10%;
+    width: 450px;
+	
+	
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin-right: 3%;
+
+}
+
+button {
+    padding: 3%;
+    width: 35%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.second-images {
+    padding-left: 5%;
+}
+
+.work-together {
+    padding-top: 5%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
