@@ -53,7 +53,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: "ratio",sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,9 +68,84 @@ p {
     line-height: 1.4;
 }
 
+/* Start main page */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 690px;
+    margin-top: 15px;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 14px;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    opacity: 0.3;
+}
+
+header nav a:first-child {
+    margin-left: 50px;
+}
+
+header nav a:last-child {
+    margin-right: 35px;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+.jumbo-header-img {
+    margin: 35px 0px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.about-container img {
+    /* Fade in */
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .top-content {
@@ -86,6 +163,7 @@ p {
 }
 
 .middle-content {
+    padding-bottom: 50px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -114,7 +192,7 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 40px;
     justify-content: space-around;
 }
 
@@ -143,4 +221,193 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page */
+.about-header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #1d1d1d;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-block {
+    width: 388px;
+    border-bottom: 1px dashed #1d1d1d;
+    margin-bottom: 20px;
+    padding: 10px; 
+}
+
+.about-block h2 {
+    padding-top: 10px;
+}
+
+.about-block button {
+    font-size: 16px;
+    margin: 15px 0px;
+    background: white;
+    border: 2px solid #1d1d1d;
+    border-radius: 8px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+
+.about-footer {
+    padding-bottom: 100px;
+    margin: 20px 0px;
+}
+
+/* Box colors */
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+#box11 {
+    background: dodgerblue;
+}
+
+#box12 {
+    background: indigo;
+}
+
+#box13 {
+    background: hotpink;
+}
+
+#box14 {
+    background: darkorchid;
+}
+
+#box15 {
+    background: forestgreen;
+}
+
+#box16 {
+    background: crimson;
+}
+
+#box17 {
+    background: coral;
+}
+
+#box18 {
+    background: cadetblue;
+}
+
+#box19 {
+    background: gold;
+}
+
+#box20 {
+    background: teal;
+}
+
+/* Stretch Goals */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .box-front, .box-back {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    color: white;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.box-front, .box-back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* front pane, placed above back */
+.box-front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.box-back {
+	transform: rotateY(180deg);
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+
+form {
+    height: 260px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: space-between;
 }
