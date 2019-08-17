@@ -130,10 +130,6 @@ p {
     justify-content: center;
 }
 
-#box1 {
-    background-color: aqua;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -165,4 +161,73 @@ footer .bottom-nav {
 footer .bottom-nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-nav-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.top-nav-about a:link {
+    color: black;
+}
+
+.jumbo-about {
+    padding-bottom: 25px;
+}
+
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.middle-content-about {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-content-about{
+    padding 20px;
+}
+
+.bottom-nav-about a:link {
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.work-together{
+    margin: 20px;
+}
+
+footer .bottom-nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
 }
