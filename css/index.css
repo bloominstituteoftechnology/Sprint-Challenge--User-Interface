@@ -193,21 +193,27 @@ footer .bottom-nav a {
 }
 
 .middle-content-about {
-    display: inline-flex;
+   display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    width: 200px;
+    width: 618px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .middle-content-about img{
     padding: 10px;
-    flex-wrap: wrap;
+    
 }
 .middle-content-about div{
     border-bottom: 1px dashed black;
-    width: 200px;
-    padding: 10px;
-    flex-wrap: wrap;
+    width: 207px;
+    margin-bottom: 20px;
+}
+
+.middle-content-about p h3 {
+    width: 429px;
+    padding-bottom: 15px;
 }
 
 button{
@@ -217,6 +223,8 @@ button{
     border-radius: 10px;
     font-size: 15px;
     padding: 8px;
+    border: 10px 0px;
+    margin: 10px 0px;
 }
 
 .bottom-content-about { 
