@@ -170,3 +170,47 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+/* ~~~~~ ABOUT PAGE CSS */
+/* Header section */
+
+.top-content-about{
+    margin: 15px 0;
+}
+
+/* Main content section */
+.top-section {
+    display: flex;
+
+}
+
+.top-text {
+    margin: 5px 10px 5px 10px;
+}
+
+.bottom-section {
+    display: flex;
+}
+
+.bottom-text {
+    margin: 5px 10px 5px 10px;
+}
+
+.learn-more {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.learn-more:hover {
+    color: white;
+    background-color: blue;
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+
+hr {
+    border-top: 1px dashed black;
+}
+
