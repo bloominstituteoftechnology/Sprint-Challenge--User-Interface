@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,112 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav a {
+    display: flex;
+    /*display: flex-end;*/
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-height: 40px;
+    margin-bottom: 40px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    /*margin-bottom: 40px;*/
+}
+
+.middle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: middle;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.middle-container .middle-content {
+    width: 370px;
+}
+
+.middle-container .middle-content h2 {
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.learn-more-button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
