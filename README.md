@@ -33,20 +33,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+Semanic HTML markup is a way to write HTML tags that indicates what is enclosed within them. Before this developers used a lot of div for everything from a nav to a p. This would be very confusing to other developers looking at your code. Semanic HTML allow peers to look at your code and quickly differentiate between elements in your code. 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+The two big differences between display: black and display: inline:
+In display: block the top and bottem margins and padding are respected, but in display: inline they are not
+In display: inline the elements are displayed right next to each other, but in display: block the elements are show on different lines
 
 3. What are the 4 areas of the box model?
+padding, margin, border and content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Cross axis...?
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable to a team of developers because it allows them to collaborate on one project at the same time. You can edit a project togeather to you can use git to share your code with your team as you are writing it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
+- [Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
