@@ -193,23 +193,33 @@ footer .bottom-nav a {
 }
 
 .middle-content-about {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.middle-content-about img{
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.middle-content-about div{
+    border-bottom: 1px dashed black;
+    width: 200px;
+    padding: 10px;
     flex-wrap: wrap;
 }
 
 button{
     background-color: white;
     color: black;
-    border: 1px solid black;
-}
-.middle-content-about .strategy .how .places .collaboration {
-    
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px;
 }
 
-.bottom-content-about{
+.bottom-content-about { 
     padding 20px;
 }
 
