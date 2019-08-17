@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +110,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: #018080;
+}
+
+.middle-content .boxes .box2 {
+    background: #F9DB00;
+}
+
+.middle-content .boxes .box3 {
+    background: #5AA0A1;
+}
+
+.middle-content .boxes .box4 {
+    background: #FF7B58;
+}
+
+.middle-content .boxes .box5 {
+    background: #E2103B;
+}
+
+.middle-content .boxes .box6 {
+    background: #298A1C;
+}
+
+.middle-content .boxes .box7 {
+    background: #9E33C8;
+}
+
+.middle-content .boxes .box8 {
+    background: #FD6AB5;
+}
+
+.middle-content .boxes .box9 {
+    background: #4E018F;
+}
+
+.middle-content .boxes .box10 {
+    background: #2090FF;
 }
 
 .bottom-content {
