@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+		Semantic HTML, as opposed to presentational HTML, introduces meaning to the page structure, rather than just arbitrary tags as a means to separate elements. 
+		Purely presentational HTML uses tags that are meant to be understood only by a browser. Semantic HTML introduces tags that are understandable by people and browsers.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+		First and foremost, display: block makes the given element a block-level element. This will cause the element to automatically take up an entire row on the page. The float property allows you to position block- level elements on the row. display: inline will allow multiple elements to be on the same row, provided they are both inline elements. Some browsers, however will not allow inline properties to accept a width CSS property. You can cause a block element to behave as an inline element by using the display: block-inline declaration.
 
 3. What are the 4 areas of the box model?
 
+		Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+		Align-items always works on the cross axis. The actual axis that the cross axis will be placed on is determined by the flex-direction declaration. flex-direction: column will display the cross axis as the vertical axis, while flex-direction: row will display the cross axis along the horizontal axis. align-items: center, provided the element has the default flex-direction value of column, will display the element centered on the vertical axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a team to collaborate on a project using their own local copy of the project and contribute, or push, their work to the master project which is hosted on GitHub. This type of distributed version control setup means that there are always many copies of the project saved over multiple versions or iterations. What this means is that if anything does happen to the master project, which is unlikely due to the push - pull nature of merging outside work with the master, there will always be a history of versions, or commits saved that the person maintaining the project can go and use to return the master project to a working form.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
