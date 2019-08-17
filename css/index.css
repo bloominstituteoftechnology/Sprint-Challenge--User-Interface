@@ -55,6 +55,9 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+body {
+    margin-top: 20vh;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -64,6 +67,46 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20vh;
+    margin-bottom: 34%;
+    margin-top: 2%;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 2%;
+}
+header nav a {
+    margin-top: 1%;
+    text-decoration: none;
+    justify-self: space-around;
+    align-self: baseline;
+    color: black;
+
+}
+
+.logo {
+    margin-top: 0%;
+    height: 100%;
+    margin-bottom: %;
+    align-self: baseline;
+}
+
+.Jumbo {
+    justify-self: center;
+    margin-left: 6%;
+    height: 50vh;
+    width: 90%;
 }
 
 .container {
