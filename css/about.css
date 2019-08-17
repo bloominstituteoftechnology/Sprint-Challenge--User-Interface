@@ -1,0 +1,223 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+/*CHIRAG-THESIA Code Starts Here*/
+/*Applies to whole site -careful about changing*/
+
+h1{
+    margin-top:20px;
+}
+
+/*Navigation and Header*/
+header{
+    width:95%;
+    margin-bottom:20px;
+}
+
+.lambda{
+    padding-top:20px;
+}
+
+.About{
+    border-bottom:px dashed black;
+}
+
+nav {
+	display: flex;
+	align-items: baseline; 
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+
+a:hover{
+    background-color:skyblue;
+    color:white;
+}
+
+/*About image and text*/
+
+.About-Content{
+    border-bottom: 1px dashed black;
+    margin-bottom:40px;
+}
+
+.About-Content p{
+    margin-bottom:20px;
+}
+
+/* Main Content*/
+
+
+.mainContent{ 
+    display:flex;
+    flex-wrap:row wrap;
+    justify-content: space-evenly;
+    flex-basis:370px;
+}
+
+.FirstTwoBoxes{
+    display:flex;
+    border-bottom:1px dashed black;
+    margin-bottom:60px;
+    
+}
+
+.Strategy{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right:40px;
+    margin-bottom:20px;
+}
+
+.How-We-Work{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right:40px;
+    margin-bottom:20px;
+}
+
+
+.SecondTwoBoxes{
+    display:flex;
+    border-bottom:1px dashed black;
+    margin-bottom:60px;
+}
+
+.Place-of-Work{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right:40px;
+    margin-bottom:20px;
+}
+
+.Collaboration{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right:40px;
+    margin-bottom:20px;
+}
+
+
+/*button design */
+button{
+	padding: 8px 40px;
+	border: 2px solid #000;
+	color:black;
+	text-decoration: none;
+	background:white;
+	border-radius:5px;
+	cursor:pointer;
+	margin-top:30px;
+	width:170px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color:skyblue;
+    color:white;
+}
+
+/*Lets Work Together*/
+
+.letsworktogether{
+    margin-bottom:30px;
+}
+
+/*Footer section */
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
