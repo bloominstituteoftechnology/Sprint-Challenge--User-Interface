@@ -35,7 +35,6 @@ header{
     justify-content: space-between;
     /* align-items: center; */
 }
-
     
 }
 .logo{
@@ -131,45 +130,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.boxes{
-    display:flex;
-    height: 100px;
-    /* flex:start; */
-    /* padding:0px; */
-
- 
-}
-.boxteal{
-   background: teal;
-}
-.boxgold{
-    background: gold;
-}
-.boxcadetblue{
-    background: cadetblue;
-}
-.boxcoral{
-    background: coral;
-}
-.boxcrimson{
-    background: crimson;
-}
-.boxforestgreen{
-    background: forestgreen;
-}
-.boxdarkorchid{
-    background: darkorchid;
-}
-.boxhotpink{
-    background:hotpink;
-}
-.boxindigo{
-    background:indigo;
-}
-.boxdodgerblue{
-    background:dodgerblue;
 }
 
 .bottom-content {
