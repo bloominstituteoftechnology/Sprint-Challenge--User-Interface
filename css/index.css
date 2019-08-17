@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Code starts here */
+
+/*~~~~~~~Home page CSS ~~~~~~*/
+
+/* Header section */
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.Jumbo-image {
+    width: 100%;
+    margin: 10px 0;
+}
