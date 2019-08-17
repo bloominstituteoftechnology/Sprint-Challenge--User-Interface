@@ -238,11 +238,12 @@ input[type=text], form, select {
   resize: vertical;
 }
 input[type=submit] {
-    background-color: tomato;
+    width: 200px;
+    background-color: indigo;
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 20px;
   }
 
