@@ -32,15 +32,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? ANSWER: Semantic HTML is when you add meaning to your HTML. Semantic tags help the browser know the meaning of a page and what content there is. Paragraph tags shows that the text inside is a paragraph. and Header (h1-h6) tags show that the text inside is a title of a page or more. These are just some examples of Semantic HTML.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```. ANSWER: With display: block; the element will start on a new line and will take up the entire width available. With display: inline; the element will not start on a new line and will take up only the necessary amount of width that it needs.
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model? ANSWER: The four areas of the box model are: content, padding, border, and margin.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? ANSWER: align-items: ; aligns items along the cross axis (Up and down line on the grid). the "Center" portion of align-items will put the content on the center of the cross-axis.
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. ANSWER: Git provides Version Control. Version Control saves/records changes made in a file over time. This may help you in the future if something goes wrong. If something does happen to go wrong, then you can recall to a specific version of that code before the error.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
