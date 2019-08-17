@@ -291,3 +291,18 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+/* Animation */
+
+.element {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: teal;
+  }
+  100% {
+    background-color: gold;
+  }
+}
