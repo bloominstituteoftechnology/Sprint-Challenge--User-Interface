@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -132,7 +132,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,3 +144,45 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* SPRINT CHALLENGE */
+
+body {
+    width: 800px; 
+    margin: 0 auto;
+}
+
+nav {
+    margin: 20px 0 20px 0;
+	z-index: 100;
+	position: sticky;
+    top: 0;
+    background: white;
+    padding-bottom: 20px;
+}
+
+nav .top-logo{
+    padding: 0px 20px 0px 0px;
+    display: inline;
+}
+
+.links {
+    display: inline;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.jumbo {
+    padding-bottom: 25px;
+    width: 100%;
+}
+
