@@ -113,8 +113,11 @@ p {
 }
 
 .top-header a{
-    display: flex;
-    justify-content: space-around;
+    margin: 35px;
+}
+
+header .jumbo{
+    padding: 20px 0;
 }
 .middle-content .boxes .box1 {
     width: 12.5%;
@@ -256,5 +259,31 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
+    text-decoration: none;0
 }
+
+button{
+    background: white;
+    border:2px solid gray;
+    border-radius:5px;
+    padding:8px 20px;
+    color:black;
+    display:inline-block;
+    font:normal bold 14px/1 "Calibri", sans-serif;
+    text-align:center;
+}
+.second-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.second-content .text-container {
+    padding-right: 4%;
+}
+
+header .jumbo-about{
+    padding: 20px 0;
+}
+
+
