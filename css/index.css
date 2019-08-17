@@ -62,6 +62,84 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.nav-links {
+    display:  flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+    padding: 5%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+   margin-top: 3%;
+    
+}
+
+.header-image {
+    width: 95%;
+    margin-left: 5%;
+}
+
+.top-content {
+    padding: 5%;
+}
+
+.box-one, .box-two, .box-three,.box-four, .box-five, .box-six,
+.box-seven, .box-eight, .box-nine, .box-ten {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-one {
+    background-color: teal;
+}
+
+.box-two {
+    background-color: gold;
+}
+
+.box-three {
+    background-color: cadetblue;
+}
+
+.box-four {
+    background-color: coral;
+}
+
+.box-five {
+    background-color: crimson;
+}
+
+.box-six {
+    background-color: forestgreen;
+}
+
+.box-seven {
+    background-color: darkorchid;
+}
+
+.box-eight {
+    background-color: hotpink;
+}
+
+.box-nine {
+    background-color: indigo;
+}
+
+.box-ten {
+    background-color: dodgerblue;
+}
+
 p {
     line-height: 1.4;
 }
