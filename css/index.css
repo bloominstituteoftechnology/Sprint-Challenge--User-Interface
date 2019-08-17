@@ -214,3 +214,41 @@ header nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page .about-section {
+    padding: 0px 20px 30px 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.container-about-page .strategy, .how-we-work, .places, .collab {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 46%;
+    margin: 0% 2%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.container-about-page .middle-imgs {
+    padding: 10px 0px;
+}
+
+.container-about-page .strategy p, .how-we-work p, .places p, .collab p {
+    padding: 5px 0px 20px 0px;
+}
+
+.container-about-page button {
+    padding: 10px 25px 10px 25px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    background: white;
+}
