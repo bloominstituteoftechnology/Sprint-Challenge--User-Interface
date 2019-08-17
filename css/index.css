@@ -277,6 +277,71 @@ header {
 
    footer{
        position: relative;
-       margin: -50px;
+    
        
    }
+
+
+
+   /* code for index starts here */
+
+   .index-head{
+       width: 80;
+       margin: auto;
+       float: center;
+       padding: 10px;
+       position: relative;
+       display: inline-block;
+       top: 30px;
+       left: 300px;
+   }
+
+   .top-content{
+       display: flex;
+       flex-direction: row;
+       align-content: space-around;
+   }
+
+
+   
+   .middle-content .boxes :first-child {
+       background: teal;
+
+
+   }
+
+   .middle-content .boxes :nth-child(2){
+       background: gold;
+   }
+
+   .middle-content .boxes :nth-child(3){
+       background: cadetblue;
+   }
+
+   .middle-content .boxes :nth-child(4){
+       background: coral;
+   }
+
+   .middle-content .boxes :nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes :nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes :nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes :nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes :nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes :last-child{
+    background: dodgerblue;
+}
