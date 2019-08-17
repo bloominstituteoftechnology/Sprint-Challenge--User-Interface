@@ -99,9 +99,35 @@ header img{
     width:20%;
 }
 
+/* ===============  Strech Task Image Animation ================= */
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+/* ===============  Strech Task Image Animation ================= */
+
+
 .jumbo{
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
+    animation: bounceIn 2s;
+    animation-iteration-count: 1;   
 }
+
+.jumbo:hover{
+    
+}
+
+
 
 .top-content {
     display: flex;
