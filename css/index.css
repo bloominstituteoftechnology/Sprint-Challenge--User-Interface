@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.anchor-flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.anchors {
+    text-decoration: none; 
+    color:black; 
+    margin-top: 20px;
+}
+
+.jumbo-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
