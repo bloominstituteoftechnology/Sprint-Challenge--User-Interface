@@ -65,14 +65,32 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+p:hover {
+    background: beige;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 3px;
+    border: 1px solid black;
 
+}
+
+.enclosure {
+    /* border: 4px dashed slateblue; */
+    width: 97%;
+    height: auto;
+}
 .container {
-    width: 800px;
+    width: 80vw;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 4px solid red; */
+    margin-top: 20px;
 }
 /* -------------------------------- */
 nav { 
-    border: 2px solid black;
+    /* border: 2px solid black; */
       width: 75vw;
       height: 50px;
       display: flex;
@@ -84,24 +102,43 @@ nav {
       text-decoration: none;
       color: black; 
     }
+    a:hover {
+        font-weight: bold;
+        background: black;
+        color: white;
+        width: 70px;
+        height: 17px;
+        border-radius: 10px;
+        text-align: center;
+       padding: 2px;
+
+    }
+
+
     /* ------------------------------------------ */
+.jumbo {
+    margin-bottom: 20px;
+    width: 97%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 3px dashed black; */
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    /* border: 2px solid red;  */
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
 }
 
 .middle-content h2 {
@@ -111,21 +148,22 @@ nav {
 /* =================================================== */
 /* =============================================== */
 .box-container-upper {
-    border: 2px dashed blue;
-    width: 75vw;
+    /* border: 2px dashed blue; */
+    width: 80vw;
     height: 70px;
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-       margin-top: 5px;
+       margin-top: 20px;
     margin-bottom: 5px;
   }
 .one {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
     background: teal;
     transition: width 2s, height 2s;
+  
   }
   .one:hover {
     height: 60px;
@@ -136,9 +174,9 @@ nav {
   }
   /* ----------------------------------------- */
   .two {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
     background: gold;
     transition: width 2s, height 2s;
   }
@@ -150,9 +188,9 @@ nav {
   }
   /* -------------------------------------------- */
   .three {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
      background: cadetblue;
     transition: width 2s, height 2s;
   }
@@ -164,9 +202,9 @@ nav {
   }
   /* --------------------------------------------- */
   .four {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
      background: coral;
     transition: width 2s, height 2s;
   }
@@ -178,15 +216,15 @@ nav {
   }
   /* ------------------------------------------------ */
   .five {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
      background: crimson;
   /*   transition: width 2s, height 2s; */
   }
   .five:hover {
-    height: 0px;
-    width: 0px;
+    height: 30px;
+    width: 30px;
     background: coral;
     border-radius: 50%;
   /*   visibility: hidden; */
@@ -194,19 +232,19 @@ nav {
   
   /* ------------------------------------------------ */
   .box-container-lower {
-    border: 2px dashed gray;
-    width: 75vw;
+    /* border: 2px dashed gray; */
+    width: 80vw;
     height: 70px;
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-       margin-top: 5px;
-    margin-bottom: 5px;
+       margin-top: 30px;
+    margin-bottom: 30px;
   }
   .six {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
       background: forestgreen;
   
   }
@@ -217,9 +255,9 @@ nav {
     border-radius: 50%
   }
   .seven {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
       background: darkorchid;
   
   }
@@ -230,9 +268,9 @@ nav {
     border-radius: 50%
   }
   .eight {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
       background: hotpink;
   
   }
@@ -243,10 +281,10 @@ nav {
     border-radius: 50%
   }
   .nine{
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
-      background: beige;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
+      background: indigo;
   
   }
   .nine:hover {
@@ -256,21 +294,28 @@ nav {
     border-radius: 50%
   }
   .ten {
-    border: 1px solid blue;
-    height: 50px;
-    width: 50px;
-    background: beige;
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 70px;
+    background: dodgerblue;
   }
   .ten:hover {
     height: 60px;
     width: 60px;
     background: coral;
-    border-radius: 50%
+    border-radius: 50%;
   }
 /* =============================================== */
 
 
-
+button {
+    width: 90px;
+    height: 25px;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: bold;
+    margin-top: 15px;
+}
 /* ================================================ */
 .middle-content .boxes {
     display: flex;
@@ -297,15 +342,94 @@ nav {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    /* border: 9px solid blue; */
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* ======= ABOUT ============== ABOUT =============  ABOUT -------------= */
+/* ======= ABOUT ============== ABOUT =============  ABOUT -------------= */
+/* ======= ABOUT ============== ABOUT =============  ABOUT -------------= */
+.jumbo-about {
+    width: 96%;
+}
+.about-photo-container {
+    /* border: 5px dashed blue; */
+    width: 95%;
+    /* display: flex; */
+  }
+  /* ------------------------------------------------------------------- */
+.aboutAndIntro {
+    /* border: 2px solid green; */
+    width: 88%;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+
+.about {
+/* border: 2px dashed fuchsia; */
+}
+
+.intro {
+    /* border: 2px dashed fuchsia; */
+
+}
+/* ------------------------------------------------------------------ */
+  .upper-photos-text {
+    /* border: 2px solid red;
+    margin: 10px;
+    width: 40%; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  .lower-photos-text {
+      /* border: 2px solid red; */
+    /* margin: 10px; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+  
+  }
+  .right-upper {
+    /* border: 3px dashed fuchsia; */
+    /* margin: 3px; */
+    width: 45%;
+    /* margin: 3px; */
+  }
+  .left-upper {
+    /* border: 3px dashed green; */
+    /* margin: 3px; */
+    width: 40%;
+
+  }
+  
+  .left-lower {
+      /* border: 1px dashed brown; */
+    /* margin: 3px; */
+  }
+  .right-lower {
+      /* border: 1px dashed green; */
+    /* margin: 3px; */
+  }
+.last-content {
+    dipplay: flex;
+    align-items: flex-start;
+}
+  .lets-work-together {
+/* border: 2px solid green; */
+width: 88%;
+
+  }
+.last-para {
+    /* border: 2px solid red; */
+}
 
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 40px;
 }
 
 footer nav {
@@ -315,6 +439,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+
 }
 
 footer nav a {
