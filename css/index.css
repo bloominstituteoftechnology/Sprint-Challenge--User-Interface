@@ -70,13 +70,45 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+#header1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
 
+    
+}
+
+#nav{
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+ .link{
+    color: black;
+    text-decoration: none;
+}
+
+  
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 20px;
 }
 
 .top-content .text-container {
@@ -111,7 +143,54 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+ .middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+.box:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +223,59 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*about page css */
+.imgheader{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header2{
+    padding: 20px;
+
+}
+.columns{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.imgboxes{
+    width: 40%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid gray;
+
+}
+.learn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.learn:hover{
+    color: blue;
+}
+.bottomtext{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
