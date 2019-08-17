@@ -98,13 +98,14 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly
 }
 
-.middle-content .boxes .box {
+.middle-content .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    
 }
+
+
+
+    
