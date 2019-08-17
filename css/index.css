@@ -111,6 +111,11 @@ p {
 .top-header nav{
     display: inline-block;
 }
+
+.top-header a{
+    display: flex;
+    justify-content: space-around;
+}
 .middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
