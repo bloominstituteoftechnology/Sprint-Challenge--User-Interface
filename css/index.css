@@ -164,35 +164,35 @@ header {
     .header-img{
         padding: 30px;
         display: inline-block;
-        width: 100%;
+        width: 80%;
         margin: auto;
         position: relative;
-        left: 100px;
+        left: 250px;
     }
 
     .header-about{
         position: relative;
-        left: 130px;
+        left: 280px;
         border-bottom: 1px dashed black;
         padding: 20px;
-        width: 95%;
+        width: 77%;
     }
 
     .header-nav{
         text-align: center;
         position: relative;
         margin: auto;
-        left: 80px;
+        left: 100px;
     }
 
 
     .nav-image{
         position: relative;
-        right: 60px;
+        right: 15px;
     }
 
     .header-nav a:link{
-        padding: 60px;
+        padding: 40px;
         text-decoration: none;
         color: black;
         font-size: 15px;
@@ -208,7 +208,8 @@ header {
         position: relative;
         right: 50px;
         border-bottom: 1px dashed black;
-        border-bottom-width: inherit;
+        padding-bottom: 420px;
+
         
     }
 
@@ -223,7 +224,8 @@ header {
         /* bottom: 387px; */
         float: right;
         left: 50px;
-        border-bottom: 2px dashed black;
+        border-bottom: 1px dashed black;
+        padding-bottom: 420px;
     }
 
     .places-we-work{
@@ -235,7 +237,9 @@ header {
         position: relative;
         right: 50px;
         top: 32px;
-        border-bottom: 1px dashed bottom;
+        border-bottom: 1px dashed black;
+        padding-bottom: 420px;
+
     }
 
     .collaboration{
@@ -245,8 +249,10 @@ header {
 		display: inline-block;
         padding: 30px;
         position: relative;
-        bottom: 387px;
+        bottom: 420px;
         left: 450px;
+        border-bottom: 1px dashed black;
+        padding-bottom: 420px;
     }
 
     .learn-box{
@@ -343,5 +349,5 @@ header {
 }
 
 .middle-content .boxes :last-child{
-    background: dodgerblue;
-}
+       background: dodgerblue;
+   }
