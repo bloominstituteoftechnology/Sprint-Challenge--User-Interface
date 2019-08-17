@@ -159,10 +159,14 @@ footer nav a {
     margin-bottom: 15px;
     padding: 5px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .Jumbo-image {
     width: 100%;
     margin: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
 }
