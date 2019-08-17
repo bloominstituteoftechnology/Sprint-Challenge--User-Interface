@@ -69,6 +69,24 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.top-nav a:link {
+    color: black;
+}
+
+.jumbo {
+    padding-bottom: 25px;
 }
 
 .top-content {
@@ -112,6 +130,10 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: aqua;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -131,7 +153,7 @@ footer {
     background: black;
 }
 
-footer nav {
+footer .bottom-nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -140,7 +162,7 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer .bottom-nav a {
     color: white;
     text-decoration: none;
 }
