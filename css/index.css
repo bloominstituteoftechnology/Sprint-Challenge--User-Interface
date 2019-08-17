@@ -186,10 +186,6 @@ a:hover {
     width: 100%;
 }
 
-.middle-content .boxes .box .box1{
-    background: teal;
-}
-
 .container-about-page .text-container{
     margin: 0 20px;
     padding-bottom: 25px;
@@ -230,4 +226,54 @@ button {
 
 .about-content {
     border-bottom: 1px dashed black;
+}
+
+.middle-content .boxes .box .box1 {
+    background: teal;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box2 {
+    background: gold;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box3 {
+    background: cadetblue;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box4 {
+    background: coral;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box5 {
+    background: crimson;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box6 {
+    background: forestgreen;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box7 {
+    background: darkorchid;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box8 {
+    background: hotpink;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box9 {
+    background: indigo;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box10 {
+    background: dodgerblue;
+    padding: 34px 30px 34px 30px;
 }
