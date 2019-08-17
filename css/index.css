@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,16 +121,17 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+ .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: black; 
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
