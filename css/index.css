@@ -71,6 +71,20 @@ p {
     margin: 0 auto;
 }
 
+nav{
+    margin: 50px 0;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 10px 35px;
+}
+
+.headerimg{
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
