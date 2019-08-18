@@ -61,12 +61,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;}
 }
-
-body{
-    width: 900px;
-    margin: 0 auto; 
-}
-
 header{
 	display: flex; 
 	flex-direction: row; 
@@ -107,7 +101,6 @@ p {
 }
 
 .top-content {
-    background-color: pink;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -128,13 +121,11 @@ p {
 }
 
 .middle-content h2 {
-    background-color: orangered;
     padding: 0 1%;
     margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    background-color: blueviolet;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
