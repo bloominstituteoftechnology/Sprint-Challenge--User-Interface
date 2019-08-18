@@ -299,3 +299,29 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+.top {
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+.about-middle {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.middle-box {
+    padding: 20px;
+    border-bottom: 1px dotted black;
+    width: 400px;
+}
+
+.middle-box p {
+    width: 395px;
+    font-size: 18px
+}
+
+.middle-box button {
+    border: 1px solid black;
+}
