@@ -165,6 +165,25 @@ p {
 
 header {
     display: flex;
+    width: 100%
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+
+}
+
+header nav a {
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .top-content {
