@@ -312,9 +312,10 @@ footer nav a {
 }
 
 .middle-box {
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
     border-bottom: 1px dotted black;
-    width: 400px;
+    width: 380px;
 }
 
 .middle-box p {
