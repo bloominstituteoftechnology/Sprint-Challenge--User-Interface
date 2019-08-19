@@ -256,16 +256,17 @@ justify-content: center;
 background:dodgerblue;
 }
 
-.header{
-display: inline-flexbox;
-justify-content: center;
-
+.indexnav{
+    display: inline-flex;
+    justify-content:center;
+    margin-left:25%;
 }
 
 .about-nav {
     display: inline-flex;
     justify-content: center;
     margin-left:25%;
+    width 100px;
 }
 .jumbo-about{
     margin-left:25%;
@@ -274,3 +275,15 @@ justify-content: center;
 .about-top{
     border-bottom: 1px dotted black;
 }*/
+.row1{
+    flex-wrap: wrap;
+    
+}
+.strat1{
+    
+    border-bottom: 1px dotted black;
+}
+
+.hww{
+    border-bottom: 1px dotted black;
+}
