@@ -257,6 +257,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Code for about page starts here */
+
+.about{
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
 
 .main-content{
     display:flex;
@@ -266,8 +272,26 @@ footer nav a {
 }
 
 .box{
-    width: 400px;
+    width: 375px;
     height: 450px;
     border-bottom: 1px dashed black;
-    padding: 20px;
+    margin: 20px 10px
+    
+}
+
+.box img{
+    margin-bottom: 15px;
+}
+
+button{
+    margin: 25px 0;
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.conclusion{
+    padding: 0 20px;
+    margin-top: 40px;
 }
