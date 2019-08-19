@@ -113,6 +113,14 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    animation-name: boxes;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+
+@keyframes boxes{
+    to {background-color:black}
+
 }
 
 .middle-content .boxes .box1 {
