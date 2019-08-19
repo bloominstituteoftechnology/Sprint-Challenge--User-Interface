@@ -276,8 +276,11 @@ background:dodgerblue;
     border-bottom: 1px dotted black;
 }*/
 .row1{
-    flex-direction: row;
+    flex-flow: row wrap;
     
+}
+.row2{
+    flex-flow:row wrap;
 }
 .test1{
     display: inline-flexbox;
@@ -288,14 +291,18 @@ background:dodgerblue;
 .test2{
     display: inline-flexbox;
     border-bottom: 1px dotted black;
+    align-items: flex-start;
     
 }
 .test3{
     display: inline-flexbox;
+    align-items: flex-start;
     border-bottom: 1px dotted black;
-    
+    float: left;
 }
 .test4{
-    display: inline-flexbox;
+    display: flexbox;
+    align-items: flex-end;
     border-bottom: 1px dotted black;
+    float: right;
 }
