@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+I would describe it as semantic HTML which is also sometimes referred to as semantic markup provides meaning to whatever website you're trying to build. It is the foundation or the layout of any webpage. Semantic markup is a way of structuring your semantic HTML so that it reinforces the meaning of your content as opposed to its appearance.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Block level elements breakup the flow of document and inline elements does not. Inline elements can be nested inside of other elements without disrupting the flow of content. Block elements will break the flow of content on a new line. Elements that are displayed as block will take up as much space as their parent element will allow. 
 
 3. What are the 4 areas of the box model?
+The 4 areas of the box model are (1) margin, (2) border, (3) padding, & (4)content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+When using flexbox, the property "align-items: center:" works on the "cross axis".
 
 5. Explain why git is valuable to a team of developers.
+Git is a very strong and reliable version control system. Git is valuable to a team of developers because it allows multiple developers to write and edit code as well as make commits to the GitHub. After code is written and edited and commits are made and saved to the server repository, any programmer has access to edit files of other developers working in the project. Git also allows you  to know what changes are made to the source code and who actually makes each code change.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
