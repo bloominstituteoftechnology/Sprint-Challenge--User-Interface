@@ -225,3 +225,10 @@ nav a{
     border: solid black 2px;
     border-radius: 10px;
 }
+
+.about-cards .item .cta:hover{
+    background: black;
+    color: white;
+    transition: 0.7s;
+    border: dashed white 1px;
+}
