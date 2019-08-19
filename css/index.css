@@ -144,3 +144,132 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:darkorchid;
+}
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:teal;  
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:gold;  
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:cadetblue;  
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:coral;  
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:crimson;  
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:forestgreen;  
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:hotpink;  
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:indigo;  
+}
+.box10{
+width: 12.5%;
+height: 100px;
+background: black;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+background:dodgerblue;
+}
+
+.header{
+display: inline-flexbox;
+justify-content: center;
+
+}
+
+.about-nav {
+    display: inline-flex;
+    justify-content: center;
+    margin-left:25%;
+}
+.jumbo-about{
+    margin-left:25%;
+}
+.about-top{
+    border-bottom: 1px dotted black;
+}
