@@ -196,3 +196,32 @@ nav a{
 .dodgerblue{
     background: dodgerblue;
 }
+
+
+/* About page */
+
+.about-cards .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.about-cards .item{
+    border-bottom: dashed 1px black;
+    width: 370px;;
+}
+.about-cards .item img{
+    margin: 10px 0px;
+}
+.about-cards .item .cta{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    width: 115px;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
