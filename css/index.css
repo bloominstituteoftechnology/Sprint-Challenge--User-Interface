@@ -120,7 +120,8 @@ header nav a {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 100%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -132,6 +133,7 @@ header nav a {
 }
 
 .middle-content {
+    width:100%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
