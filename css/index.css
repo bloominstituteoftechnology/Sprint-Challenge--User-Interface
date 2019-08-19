@@ -299,6 +299,10 @@ button{
     border: 1px solid black;
 }
 
+button:hover{
+    background:#ebe0eb;
+}
+
 .conclusion{
     padding: 0 20px;
     margin-top: 40px;
