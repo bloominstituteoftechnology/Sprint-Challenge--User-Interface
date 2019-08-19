@@ -257,16 +257,16 @@ background:dodgerblue;
 }
 
 .indexnav{
-    display: inline-flex;
+    display: inline-flexbox;
     justify-content:center;
     margin-left:25%;
 }
 
 .about-nav {
-    display: inline-flex;
+    display: inline-flexbox;
     justify-content: center;
     margin-left:25%;
-    width 100px;
+    
 }
 .jumbo-about{
     margin-left:25%;
@@ -276,14 +276,26 @@ background:dodgerblue;
     border-bottom: 1px dotted black;
 }*/
 .row1{
-    flex-wrap: wrap;
+    flex-direction: row;
     
 }
-.strat1{
-    
+.test1{
+    display: inline-flexbox;
+    align-content: flex-start;
     border-bottom: 1px dotted black;
 }
 
-.hww{
+.test2{
+    display: inline-flexbox;
+    border-bottom: 1px dotted black;
+    
+}
+.test3{
+    display: inline-flexbox;
+    border-bottom: 1px dotted black;
+    
+}
+.test4{
+    display: inline-flexbox;
     border-bottom: 1px dotted black;
 }
