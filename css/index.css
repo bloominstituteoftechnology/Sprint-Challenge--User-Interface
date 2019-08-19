@@ -150,7 +150,7 @@ header{
 }
 .flex{
     display: flex;
-    flex-direction: row-reverse;
+   margin: auto;
     
   
 }
@@ -159,8 +159,8 @@ header{
 
 header img{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    
 }
 header nav{
     display: flex;
@@ -275,3 +275,43 @@ header nav a{
     justify-content: center;
     background:dodgerblue;
 }
+.bent{
+    margin: auto;
+    border: dotted blue;
+
+
+
+
+} 
+.two-1{
+    width: 48%;
+  
+}  
+header .about{
+    display: inline;
+}
+.one-1{
+    display: flex;
+    align-items: center;
+
+   
+}
+.two-1{
+    display: flex;
+    justify-content: flex-start;
+}
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.first{
+    display: flex;
+    
+    
+}
+
+
+   
+    
+}
+
