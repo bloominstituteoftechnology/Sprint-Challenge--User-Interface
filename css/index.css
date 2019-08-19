@@ -270,6 +270,23 @@ justify-content: center;
 .jumbo-about{
     margin-left:25%;
 }
+/* STUCK FIX THIS!!!!
 .about-top{
     border-bottom: 1px dotted black;
+}*/
+.strat1{
+    display: inline-flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 100px;
+    bottom: 1200px;
+
+}
+.hww{
+    align-items: flex-end;
+}
+.row1{
+    display: inline-flex;
+
+
 }
