@@ -199,11 +199,19 @@ nav a{
 
 
 /* About page */
-
+.about-info{
+    border-bottom: dashed 1px black;
+    padding-bottom: 20px;
+}
+.about-info .info-text{
+    padding: 0px 20px;
+}
 .about-cards .row{
     display: flex;
     justify-content: space-between;
     margin: 40px 0px;
+    padding: 0px 20px;
+
 }
 
 .about-cards .item{
@@ -231,4 +239,55 @@ nav a{
     color: white;
     transition: 0.7s;
     border: dashed white 1px;
+}
+
+.work-together{
+    padding: 0px 20px;
+
+}
+
+/* About page */
+
+.contact-info {
+    padding: 0px 20px;
+}
+.contact-form {
+    padding: 0px 20px;
+}
+
+.contact-form form{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+}
+.contact-form form span{
+    display: block;
+    margin: 10px 0px;
+}
+.contact-form form textarea{
+    width: 500px;
+    resize: none;
+}
+.contact-form form .cta{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background: white;
+    color: black;
+    width: 115px;
+    height: 40px;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+.contact-form form .cta:hover{
+    background: black;
+    color: white;
+    transition: 0.7s;
+    border: dashed white 1px;
+}
+.divider{
+    border-bottom: dashed 1px black;
+    margin: 20px 0px;
 }
