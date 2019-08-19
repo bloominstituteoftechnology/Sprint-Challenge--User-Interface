@@ -217,15 +217,47 @@ header nav a:hover {
     margin-bottom:25px;
 }
 
+button {
+    background-color:white;
+    border:2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+hr {
+    border-top:1px dotted;
+}
+
+#boxClass { 
+    background-color:teal; 
+}
+
+#boxClassTwo {
+    background-color:gold;
+}
+
+#boxClassThree {
+    background-color:cadetblue;
+}
+
+#boxClassFour {
+    background-color:coraL;
+}
+
+#boxClassFive {
+    background-color:crimson;
+}
+
+#boxClassSix {
+    background-color:forestgreen;
+}
+
+#boxClassSeven {
+    background-color:darkorchid;
+}
 
 /*
-box1: teal
-box2: gold
-box3: cadetblue
-box4: coral
-box5: crimson
-box6: forestgreen
-box7: darkorchid
 box8: hotpink
 box9: indigo
 box10: dodgerblue
