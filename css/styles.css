@@ -59,6 +59,19 @@ nav a {
     border-bottom: 1px dashed black;
 }
 
+button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+button:hover {
+    background: whitesmoke;
+}
+
 /** FOOTER **/
 
 footer {
