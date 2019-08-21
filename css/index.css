@@ -257,17 +257,23 @@ background:dodgerblue;
 }
 
 .indexnav{
-    display: inline-flexbox;
-    justify-content:center;
+    display:inline-flex;
+    justify-content: center;
     margin-left:25%;
+    width: 800px;
+    margin-top:10px;
+    justify-content: space-between;
+    font-size: 16px;
 }
 
 .about-nav {
-    display: inline-flexbox;
+    display:inline-flex;
     justify-content: center;
     margin-left:25%;
-    justify-content: space-evenly;
-    
+    width: 800px;
+    margin-top:10px;
+    justify-content: space-between;
+    font-size: 16px;
 }
 .jumbo-about{
     margin-left:25%;
@@ -331,4 +337,17 @@ border-bottom: 1px dotted black;
     display: flexbox;
     margin-left: -25px;
     
+}
+.header{
+    width: 1100px;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.lambda{
+    display: inline-flex;
+margin-bottom: 30px;
 }
