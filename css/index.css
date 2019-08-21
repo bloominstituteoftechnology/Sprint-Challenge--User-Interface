@@ -33,21 +33,25 @@ header{
     margin-top:15px;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 
-    
+.logo-container{
+    margin-bottom: 12px;
 }
+    
 .logo{
     align-items: flex-start;
     /* margin-right: 20px; */
-    margin-top: 15px;
+    /* margin-top: 15px; */
+    /* margin-bottom: 12px; */
 }
 
 nav a{
     margin-right: 70px;
     justify-content: space-around;
     text-decoration: none;
+    color: black;
 }
 body {
 	line-height: 1;
@@ -125,7 +129,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -133,14 +137,18 @@ p {
     justify-content: center;
 }
 
-.boxes{
+/* .boxes{
     display:flex;
     height: 100px;
-    /* flex:start; */
-    /* padding:0px; */
+    width:12.5%;
+    background: black;
+    margin: 20px 2.5%;
+    align-items: center;
+    justify-content:center;
+  
 
  
-}
+} */
 .boxteal{
    background: teal;
 }
@@ -191,16 +199,17 @@ footer {
     background: black;
 }
 
-footer nav {
-    width: 60%;
+footer .nav {
+    /* width: 60%; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    text-align: center;
 }
 
-footer nav a {
+footer .nav a {
     color: white;
     text-decoration: none;
 }
