@@ -52,15 +52,14 @@ table {
 }
 
 html, body {
-    background: blue; 
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    background: pink;
     font-size: 18px;
     margin-bottom: 15px;
+    padding: 5px 0;
     font-family: 'Rubik', sans-serif;}
 }
 
@@ -72,8 +71,7 @@ header {
     padding: 10px 0; 
 }
 
-header nav{
-    background: orange; 
+header nav {
     display: flex; 
 	flex-direction: row; 
     justify-content: space-between;
@@ -83,17 +81,14 @@ header nav{
 }
 
 header nav a{
-    background: green;
     color: black;
 }
 
 header nav a:link{
-    background: yellow; 
     text-decoration: none; 
 }
 
 .top-content .text-container h2{
-    background: aqua; 
     font-size: 18px; 
 	padding: 12px 3; 
 }
@@ -218,19 +213,38 @@ footer nav a {
     width: 800px;
     margin: 0 auto;
 }
-.container .about-page {
-    background: purple; 
 
 }
 .top-content-info {
-    background: red; 
     display: inline-block;
     justify-content: space-evenly;
-    padding:30px;
+    padding: 30px;
 }
 
-.middle-content-info .pic {
-    display: inline-block;
+.middle-content-info {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border-top: 1px dashed lightslategray;
+    border-bottom: 1px dashed black; 
+    margin: 20px 0;
+    padding: 20px 0; 
+}
+
+.middle-content-info .pic{
+    width: 50%; 
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.middle-content-info .pic button {
+    border: 1px solid black; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    margin-top: 10px; 
+}
+.bottom-content-info {
+    display: block;
+    flex-wrap: row;
+    margin: 20px 0; 
 }
