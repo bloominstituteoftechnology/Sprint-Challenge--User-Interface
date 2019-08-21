@@ -52,24 +52,28 @@ table {
 }
 
 html, body {
+    background: blue; 
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
+    background: pink;
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;}
 }
-header{
+
+header {
 	display: flex; 
 	flex-direction: row; 
-	justify-content: space-between;
-	align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 0; 
 }
 
 header nav{
+    background: orange; 
     display: flex; 
 	flex-direction: row; 
     justify-content: space-between;
@@ -79,14 +83,17 @@ header nav{
 }
 
 header nav a{
+    background: green;
     color: black;
 }
 
 header nav a:link{
+    background: yellow; 
     text-decoration: none; 
 }
 
 .top-content .text-container h2{
+    background: aqua; 
     font-size: 18px; 
 	padding: 12px 3; 
 }
@@ -205,4 +212,25 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+}
+.container .about-page {
+    background: purple; 
+
+}
+.top-content-info {
+    background: red; 
+    display: inline-block;
+    justify-content: space-evenly;
+    padding:30px;
+}
+
+.middle-content-info .pic {
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
