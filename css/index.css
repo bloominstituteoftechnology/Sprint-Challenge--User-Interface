@@ -266,43 +266,69 @@ background:dodgerblue;
     display: inline-flexbox;
     justify-content: center;
     margin-left:25%;
+    justify-content: space-evenly;
     
 }
 .jumbo-about{
     margin-left:25%;
 }
-/* STUCK FIX THIS!!!!
+ 
 .about-top{
     border-bottom: 1px dotted black;
-}*/
+}
 .row1{
-    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 1%;
+    
+border-bottom: 1px dotted black;
     
 }
 .row2{
     flex-flow:row wrap;
+    border-bottom: 1px dotted black;
 }
 .test1{
-    display: inline-flexbox;
-    align-content: flex-start;
+    position: absolute;
+    right:900px;
+    top:8px;
     border-bottom: 1px dotted black;
 }
-
 .test2{
-    display: inline-flexbox;
-    border-bottom: 1px dotted black;
-    align-items: flex-start;
-    
+position: absolute;
+border:red;
+width: 500px;
+left: -800px;
+top: 8px;
+border-bottom: 1px dotted black;
 }
 .test3{
-    display: inline-flexbox;
-    align-items: flex-start;
-    border-bottom: 1px dotted black;
-    float: left;
+position:absolute;
+bottom:-75px;
+right:255px;
+width: 500px;
+border-bottom: 1px dotted black;
 }
 .test4{
-    display: flexbox;
-    align-items: flex-end;
+    position:absolute;
+    bottom:-110px;
+    right: 800px;
+    flex-flow: wrap;
+    width: 500px;
     border-bottom: 1px dotted black;
-    float: right;
+}
+.bottom{
+    position: absolute;
+    top:1100px;
+    justify-content: center;
+    width: 1150px;
+    left:500px;
+}
+.jumbo-about{
+    display: flexbox;
+    margin-left: -25px;
+    
 }
