@@ -269,11 +269,12 @@ background:dodgerblue;
 .about-nav {
     display:inline-flex;
     justify-content: center;
-    margin-left:-2%;
-    width: 800px;
+    margin-left: 150px;
+    width: 500px;
     margin-top:10px;
     justify-content: space-between;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 .jumbo-about{
     margin-left:25%;
@@ -290,12 +291,12 @@ background:dodgerblue;
     position: absolute;
     right: 1%;
     padding: 30px;
-border-bottom: 1px dotted black;
+
     
 }
 .row2{
     flex-flow:row wrap;
-    border-bottom: 1px dotted black;
+    
     
 }
 .aboutbox1{
@@ -303,35 +304,43 @@ border-bottom: 1px dotted black;
     right:910px;
     top:8px;
     border-bottom: 1px dotted black;
+    padding: 10px;
 }
 .aboutbox2{
 position: absolute;
-border:red;
-width: 400px;
+
+width: 420px;
 left: -800px;
-top: 25px;
+top: 2px;
 border-bottom: 1px dotted black;
+padding:10px;
+height: 390px;
 }
 .aboutbox3{
 position:absolute;
-bottom:-160px;
+bottom:-175px;
 right:455px;
 width: 400px;
 border-bottom: 1px dotted black;
+padding:10px;
+height: 400px;
+
 }
 .aboutbox4{
     position:absolute;
-    bottom:-150px;
+    bottom:-175px;
     right: 900px;
     flex-flow: wrap;
     width: 400px;
     border-bottom: 1px dotted black;
+    padding:10px;
+    height:400px;
 }
 .bottom{
     position: absolute;
-    bottom:-400px;
+    bottom:-300px;
     
-    width: 500px;
+    width: 900px;
     left:500px;
 }
 .jumbo-about{
@@ -349,9 +358,9 @@ a{
     color: inherit;
 }
 .lambda{
-    position: fixed;
+    position: absolute;
     top: -10px;
-    right:1400px;
+    right:1180px;
 display:flex;
 margin-bottom: 50px;
 }
@@ -360,7 +369,7 @@ footer{
 color: black;
 background:black;
 position: absolute;
-bottom: -500px;
+bottom: -400px;
 justify-content: space-around;
 width: 900px;
 
@@ -368,8 +377,20 @@ width: 900px;
 
 .button{
     border-radius: 5px;
+    background: white;
+    width: 125px;
+    height 125px;
+    margin:3px;
+    margin-left:-10px;
+    margin-top:15px;
 }
 .nav-footer{
     width: 900px;
     overflow: hidden;
+}
+.button2{
+    position: absolute;
+    top:350px;
+    padding:-40px;
+    
 }
