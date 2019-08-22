@@ -11,17 +11,19 @@
 
 </head>
 
-<header> 
+<tbody> 
+    <div class="navigation">
     <nav>
-        <img src="img/black-lambda.png"/>
-        <a class="nav-item" href="#">Home</a>
-        <a class="nav-item" href="#">About</a>
-        <a class="nav-item" href="#">Products</a>
-        <a class="nav-item" href="#">Blog</a>
-        <a class="nav-item" href="#">Contact</a>
-        
+        <img class="logo" src="img/lambda-black.png">
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
     </nav>
+    <img class="bigpicture" src="img/jumbo-about.png">
 </header>
+
 
 
 <body>
@@ -34,11 +36,9 @@
     </section>
 
 
-    <section class="middleSectionOne">
-        <div class="Strategy">
+    <section class="mainsection">
+        <div class="content">
       <img src="img/about-plan.png" alt="strategy">
-    
-
       
       <h2>Strategy</h2>
     
@@ -46,7 +46,7 @@
 
     <button>Learn More</button>
       </div>
-      <div class="HowWeWork">
+      <div class="content">
       <img src="img/about-working.png" alt="strategy">
     
         
@@ -59,8 +59,8 @@
     </section>
 
 
-    <section class="middleSectionTwo">
-        <div class="PlacesWeWork">
+    <section class="middleSection">
+        <div class="content">
       <img src="img/about-office.png" alt="strategy">
     
         
@@ -70,7 +70,7 @@
 
       <button>Learn More</button>
         </div>
-        <div class="Collaboration">
+        <div class="content">
     <img src="img/about-meeting.png" alt="strategy">
     
     
@@ -89,7 +89,7 @@
     </div>
       <footer>
         <nav>
-          <a href="index.html">Home</a>
+          <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Products</a>
           <a href="#">Blog</a>
@@ -169,36 +169,37 @@ html, body {
 }
 
  h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin: 15px;
     font-family: 'Rubik', sans-serif;
     
 }
 
 p {
-  display: inline-block;
+  display: block;
+  /* width: 70%; */
 }
 
 
-.containerAboutPage {
-    display: flex;
+ .containerAboutPage {
+    display: inline-block;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin: 160px;
+    margin-top: 10px;
     border-bottom: 1px dashed black;
-}
-
-.containerAboutPage  {
-    width: 90%;
-    padding-bottom: 20px;  
+    border-width: 2px; 
+    width: 70%;
+   
+    
 }
 
 
 footer {
     background: black;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 footer nav {
@@ -216,58 +217,59 @@ footer nav a {
     
 }
 
-.nav-item {
-    color: white;
-  margin-left: 200px;
-  
-} 
 
 .About {
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.middleSectionOne .Strategy {
-  width: 24.5%;
-	height: 100%;
+ .content {
+  width: 35%;
+	height: 90%;
   display: inline-block;
-  border: 2px solid black;
-  margin: 2%;
-} 
-.HowWeWork {
-  width: 24.5%;
-	height: 100%;
-  display: inline-block;
-  border: 2px solid black;
-  margin: 2%;
+  justify-content: center;
+  align-items:center;
+  flex-direction: row;
+  border-bottom: 2px dashed black;
+  margin: 0px 110px 0px 110px;
+
 }
-.middleSectionTwo .PlacesWeWork {
-  width: 24.5%;
-	height: 100%;
-  display: inline-block;
-  border: 2px solid black;
-  margin: 2%;
-}
-.Collaboration {
-  width: 24.5%;
-	height: 100%;
-  display: inline-block;
-  border: 2px solid black;
-  margin: 2%;
-}
+
 .LetsWorkTogether {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-	height: 25%;
-  padding: 20px;
-	display: block;
-  border: 2px solid black;
+    width: 400px;
+    margin-left: 260px;
+    margin-right: 50px;
+    margin: 20px;
+
+}
+
+button {
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.nav nav a {
+    width: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    align-items: left;
+    margin: 0px;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
   
 }
+.bigpicture {
+  margin-left: 260px;
+  width: 70%;
+}
 
-
-
-
-
+.logo {
+    
+    height: 50px;
+    width: 5%;
+    display: inline;
+    margin-top: 8px;
+    margin-left: 370px;
+}
 </style>

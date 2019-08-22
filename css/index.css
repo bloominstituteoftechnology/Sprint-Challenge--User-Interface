@@ -103,11 +103,10 @@ p {
     justify-content: space-evenly
 }
 
-.middle-content .box {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: teal;
-
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -150,12 +149,31 @@ footer nav a {
     
 }
 
-.nav-item {
+nav a {
+    width: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    align-items: left;
+    margin: 0px;
+    font-size: 14px;
     color: black;
-    /* padding: 5px; */
-  margin-left: 200px;
+    padding: 20px;
   
-} 
+}
+.logo {
+    
+    height: 50px;
+    width: 17%;
+    display: inline;
+    margin-top: 8px;
+    margin-left: 370px;
+    
+}
+.big-picture {
+margin-left: 370px;
+
+}
+
 .box1 {
   width: 12.5%;
     height: 100px;
