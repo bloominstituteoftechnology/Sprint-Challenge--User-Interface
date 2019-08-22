@@ -269,7 +269,7 @@ background:dodgerblue;
 .about-nav {
     display:inline-flex;
     justify-content: center;
-    margin-left:25%;
+    margin-left:-2%;
     width: 800px;
     margin-top:10px;
     justify-content: space-between;
@@ -289,48 +289,49 @@ background:dodgerblue;
     align-items: center;
     position: absolute;
     right: 1%;
-    
+    padding: 30px;
 border-bottom: 1px dotted black;
     
 }
 .row2{
     flex-flow:row wrap;
     border-bottom: 1px dotted black;
+    
 }
-.test1{
+.aboutbox1{
     position: absolute;
-    right:900px;
+    right:910px;
     top:8px;
     border-bottom: 1px dotted black;
 }
-.test2{
+.aboutbox2{
 position: absolute;
 border:red;
-width: 500px;
+width: 400px;
 left: -800px;
-top: 8px;
+top: 25px;
 border-bottom: 1px dotted black;
 }
-.test3{
+.aboutbox3{
 position:absolute;
-bottom:-75px;
-right:255px;
-width: 500px;
+bottom:-160px;
+right:455px;
+width: 400px;
 border-bottom: 1px dotted black;
 }
-.test4{
+.aboutbox4{
     position:absolute;
-    bottom:-110px;
-    right: 800px;
+    bottom:-150px;
+    right: 900px;
     flex-flow: wrap;
-    width: 500px;
+    width: 400px;
     border-bottom: 1px dotted black;
 }
 .bottom{
     position: absolute;
-    top:1100px;
-    justify-content: center;
-    width: 1150px;
+    bottom:-400px;
+    
+    width: 500px;
     left:500px;
 }
 .jumbo-about{
@@ -348,6 +349,24 @@ a{
     color: inherit;
 }
 .lambda{
-    display: inline-flex;
+display: inline-flex;
 margin-bottom: 30px;
+}
+
+footer{
+color: black;
+background:black;
+position: absolute;
+bottom: -500px;
+justify-content: space-around;
+width: 900px;
+
+}
+
+.button{
+    border-radius: 5px;
+}
+.nav-footer{
+    width: 900px;
+    overflow: hidden;
 }
