@@ -273,7 +273,7 @@ footer nav a {
     margin-bottom: 20px;
 }
 .page-bottom{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     margin-top: 20px;
     flex-wrap: wrap;
