@@ -245,7 +245,8 @@ p {
 }
 
 footer {
-    
+    width: 900px;
+    margin: 0 auto;
     background: black;
 }
 
@@ -263,11 +264,18 @@ footer nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
 .container .about-page h3{
     font-weight: bold;
     margin-top: 20px;
 }
-.office{
-    width: 450px;
+.container .about-page p{
+    margin-bottom: 20px;
+}
+.page-bottom{
     display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 400px;
 }
