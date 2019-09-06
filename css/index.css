@@ -146,13 +146,11 @@ footer nav a {
 }
 
 .fourBoxes {
-    border: 1px red solid;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
 .fourBoxes .boxes{
-    border: 1 px red solid;
     width: 48%;
     padding: 5px;
 }
@@ -164,7 +162,4 @@ footer nav a {
 	padding: 8px 40px;
 	border: 1px solid black;
 	border-radius: 8px;
-}
-*{
-    border: red solid;
 }
