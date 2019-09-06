@@ -68,13 +68,15 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 0 auto;  
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;  
 }
-
 
 header{ 
     display: flex;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 40px;
     align-items: baseline;
     width: 100%;
@@ -100,98 +102,44 @@ header{
   .firstimg{
       padding-bottom: 30px;
   }
-
-.top-content {
+.container about-page{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+}
+.section1{
+    padding-bottom: 25px;
+    border-bottom: dotted 1px black;
 }
 
-.top-content .text-container {
+.row{
+    display:flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.main{
+    padding-bottom: 30px;
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    border-bottom: dotted 1px black;
+    justify-content: space-between;
 }
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.middle {
+    padding-top: 15px;
 }
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.link2{
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px 25px;
+    display: inline-block;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.bottom{
+    padding-top: 30px;
 }
-
- .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    background-color: grey;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bottom2{
+    padding-bottom: 30px;
 }
-.box1 {
-background-color: teal;
-}
-.box2 {
-background-color:gold;
-}
-.box3{
-background-color: cadetblue;   
-}
-.box4 {
-background-color: coral;
-} 
-.box5 {
-background-color:crimson;
-}
-.box6{
-background-color:forestgreen;
-}
-.box7{
-background-color:darkorchid;
-}
-.box8{
-background-color:hotpink;
-}
-.box9{
-background-color:indigo;
-}
-.box10{
-background-color:dodgerblue;
-}
-    
-    
-    
-
-
-
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 footer {
     width: 100%;
     background: black;
