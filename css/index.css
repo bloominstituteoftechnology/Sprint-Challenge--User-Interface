@@ -274,3 +274,15 @@ nav a {
     margin: 20px;
     padding: 10px;
 }
+
+nav-bar {
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content: space-between;
+    flex-direction: flex-start;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 2;
+}
