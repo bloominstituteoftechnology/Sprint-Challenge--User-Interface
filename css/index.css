@@ -26,7 +26,8 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: flex;
+    margin-top: 30px;
 }
 body {
 	line-height: 1;
@@ -57,8 +58,9 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
+    margin-top: 7px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -79,14 +81,38 @@ p {
 }
 
 /*------------------Header styling*/
+header nav {
+    width: 640px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav a {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
 
 
 
-.jumbo {
-    width:100%;
-  }
+#jumbo {
+    margin-top: 40px;
+    margin-bottom:40px;
+}
 
- /*---------------Header styling ends here*/ 
+#city-landscape{
+    margin-top: 40px;
+    
+}
+
+.toplinks-aboutpage {
+    display: flex;
+}
+
+ 
 
 .top-content {
     display: flex;
@@ -97,6 +123,8 @@ p {
 }
 
 .topcontent-body {
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     
@@ -108,17 +136,17 @@ p {
     padding-bottom: 20px;  
 }
 
-/*about page middle page styling*/
 
-/*.midcontent-body {
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}*/
+
+
+ /*---------------Header styling ends here*/ 
+
+
+ /*about page middle page styling*/
+
+
 
 #midcontent-body{
-    margin: 3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;    
@@ -144,11 +172,13 @@ button {
     justify-content: left;
     border: solid 2px;
     margin-bottom: 20px;
+    margin-top: 12px;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flow-root;
 }
 
 .middle-content h2 {
@@ -295,9 +325,9 @@ button {
 }
 
 .bottomcontent-body {
-    margin: 20px;
-   
-   
+    display: flex;
+    flex-wrap: wrap;
+       
     
 }
 
@@ -332,7 +362,4 @@ footer nav a {
     text-decoration: none;
 }
 
-#footer-aboutpage {
-    width: 50px;
-    background: black;
-}
+
