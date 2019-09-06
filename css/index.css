@@ -172,3 +172,12 @@ header nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+.boxes1 {
+    font-family: "Titillium Web", sans-serif;
+	font-size: 12px;
+	background: white;
+	margin-top: 15px;
+	padding: 8px 40px;
+	border: 1px solid black;
+	border-radius: 8px;
+}
