@@ -175,15 +175,40 @@ header nav {
 .boxes .box1 {
     background:teal;
 }
-
 .boxes .box2{ 
-    background:gold
+    background:gold;
 }
+.boxes .box3{
+    background: cadetblue;
+}
+.boxes .box4{
+    background: coral;
+}
+.boxes .box5{
+    background:crimson;
+}
+.boxes .box6{
+    background:forestgreen;
+}
+.boxes .box7{ 
+    background: darkorchid;
+}
+.boxes .box8{
+    background: hotpink;
+}
+.boxes .box9{
+    background: indigo
+}
+.boxes .box10{
+    background:dodgerblue;
+}
+box1: teal
+box2: gold
 box3: cadetblue
 box4: coral
 box5: crimson
-box6: fo borestgreen
+box6: forestgreen
 box7: darkorchid
 box8: hotpink
 box9: indigo
-box10: dodg
+box10: dodgerblue
