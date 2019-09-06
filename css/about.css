@@ -85,10 +85,102 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-.container {
+.bannerimg {
+   
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    
     width: 800px;
     margin: 0 auto;
     margin-top: 2%;
-    border: color red;
+
+    border: 1px solid blue;
 }
 
+.top-about {
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+.box1 {
+    border: 1px solid red;
+
+    width: 400px;
+}
+
+.box2 {
+    width: 400px;
+}
+
+.box3 {
+    width: 400px;
+
+}
+
+.box4 {
+    width: 400px;
+}
+
+
+button {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: flex-start;
+    padding: 10px 80px;
+    margin: 20px;
+    
+
+    background-color: solid white;
+    border: 3px solid black;
+
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+.bottom-content {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    margin-top: 2%;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
