@@ -42,9 +42,15 @@ The biggest difference is that display inline allows you to set a height, width 
 
 3. What are the 4 areas of the box model?
 
+Content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Follow the cross axis or vertical.
+
 5. Explain why git is valuable to a team of developers.
+
+Allows developers to collaborate without affecting the master code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
