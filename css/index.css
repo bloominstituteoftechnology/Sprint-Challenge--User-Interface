@@ -199,6 +199,7 @@ p {
   margin-bottom: 0;
 }
 
+/* BOXES STYLES */
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -287,4 +288,31 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/* ABOUT PAGE STYLES */
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.about-middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strategy {
+  width: 50%;
+  border-bottom: 1px dashed black;
+  margin: 10px 20px 20px 20px;
+  padding: 10px 0px 20px 0px;
+}
+
+.bottom-content {
+  padding: 10px 20px;
 }
