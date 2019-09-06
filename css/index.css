@@ -101,6 +101,12 @@ header nav a{
 .about-image{
     margin:40px 0px;
 }
+.products-image{
+    display:flex;
+    align-content:center;
+    margin:40px 0px;
+}
+
 
 .container {
     width: 800px;
@@ -110,6 +116,11 @@ header nav a{
     width: 800px;
     margin: 0 auto;
     padding-top: 1px;
+    
+}
+.products-computer{
+    height:236px;
+    width:370px;
 }
 
 .top-content {
@@ -301,10 +312,16 @@ button{
     border-radius: 5px;
     margin-top: 15px;
     padding: 10px 25px 10px 25px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+  color: white;
 }
 .bottom-about{
     padding-top: 30px;
     padding-bottom: 50px;
+    cursor: pointer;
 }
 
 footer {
