@@ -172,6 +172,18 @@ header nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-.box1 {
+.boxes .box1 {
     background:teal;
 }
+
+.boxes .box2{ 
+    background:gold
+}
+box3: cadetblue
+box4: coral
+box5: crimson
+box6: fo borestgreen
+box7: darkorchid
+box8: hotpink
+box9: indigo
+box10: dodg
