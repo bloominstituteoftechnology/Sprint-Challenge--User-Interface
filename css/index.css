@@ -153,5 +153,15 @@ footer nav a {
 }
 .fourBoxes .boxes{
     border: 1 px red solid;
-    width: 45%;
+    width: 48%;
+    padding: 5px;
+}
+.fourBoxes .boxes button{
+    font-family: "Titillium Web", sans-serif;
+	font-size: 12px;
+	background: white;
+	margin-top: 15px;
+	padding: 8px 40px;
+	border: 1px solid black;
+	border-radius: 8px;
 }
