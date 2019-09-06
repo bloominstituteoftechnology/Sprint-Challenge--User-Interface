@@ -151,7 +151,7 @@ footer nav a {
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
-.fourBoxes .box1{
+.fourBoxes .boxes{
     border: 1 px red solid;
     width: 45%;
 }
