@@ -23,14 +23,18 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: block; 
 }
 body {
-	line-height: 1;
+	line-height: 2;
+   
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -67,8 +71,9 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 500px;
     margin: 0 auto;
+   
 }
 
 .top-content {
@@ -98,7 +103,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .middle-content .boxes .box {
@@ -144,3 +149,37 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.nav-one {
+margin: 0 auto;
+color: black;
+
+}
+
+.imagelamb {
+    display: flex;
+    justify-content: left;
+}
+
+.navlink {
+margin: 0 auto;
+display: flex;
+align-content: space-between
+}
+
+.imageabout {
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.body {
+   margin: 50px;
+    display: flex;  
+    flex-wrap: wrap;
+    
+}
+
