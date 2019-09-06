@@ -38,6 +38,8 @@ Semantic HTML markup gives meaning to webpages rather than the actual look.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+The biggest difference is that display inline allows you to set a height, width on an element. Also with display inline, the margin and padding are respected.
+
 3. What are the 4 areas of the box model?
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
