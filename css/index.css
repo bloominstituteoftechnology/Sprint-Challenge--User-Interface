@@ -271,4 +271,60 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+   
+}
+
+
+/****about css***/
+
+.aboutheader{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.aboutfooter{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.middlecontent{
+    display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	margin-right: 100px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+
+.aboutboxes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 40px;
+    width: 38%;
+    border-bottom: 1px dashed black;
+    text-align: left;
+    margin-right: 120px;
+}
+
+button{
+    margin: 10px 20px black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    border-color: black;
+    background: white;
+}
+
+h2{
+    padding: 10px;
+    text-align: left;
+}
+
+p{
+    padding: 10px;
 }

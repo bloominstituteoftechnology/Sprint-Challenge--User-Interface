@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are and browsers know how to display them
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element. Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not. Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
 
 3. What are the 4 areas of the box model?
 
+Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+To center our box we use the align-items property to align our item on the cross axis, which in this case is the block axis running vertically.
+center: items are centered in the cross-axis
+This defines the default behavior for how flex items are laid out along the cross axis on the current line. Think of it as the justify-content version for the cross axis (perpendicular to the main-axis).
+
+
 5. Explain why git is valuable to a team of developers.
+
+,is ideal for managing projects and teams,Customizable workflows,Time tracking,Dashboards,Assign ownership,Collaboration,File sharing,Visual data views ,Integrations - Sync with your favorite external tool
+Git offers the type of performance, functionality, security and flexibility that most developers and teams need to develop their projects. When compared to other VCS Git is most widely accepted system owing to its universally accepted usability and performance standards.
+https://medium.com/@chuucksc/4-reasons-why-you-should-use-git-b722772a011f
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -92,7 +108,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [x ] Copy and paste your home page navigation and header into the about page
 * [ x] Update the header image with the about page image
 * [ x] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
