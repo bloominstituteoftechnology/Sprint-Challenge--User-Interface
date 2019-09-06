@@ -168,7 +168,8 @@ p {
   justify-content: flex-start;
 }
 .top-nav a {
-  font: black;
+  text-decoration: none;
+  color: black;
   margin-top: 30px;
 }
 
@@ -313,6 +314,6 @@ button {
   padding: 10px 0px 20px 0px;
 }
 
-.bottom-content {
-  padding: 10px 20px;
+.bottom {
+  padding: 30px 25px;
 }
