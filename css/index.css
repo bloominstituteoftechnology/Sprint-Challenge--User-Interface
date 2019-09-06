@@ -175,31 +175,33 @@ header nav {
 .boxes1 .box1 {
     background:teal;
 }
-.boxes .box2{ 
+.boxes1 .box2{ 
     background:gold;
+    width: 8%;
+    padding: 5px;
 }
-.boxes .box3{
+.boxes1 .box3{
     background: cadetblue;
 }
-.boxes .box4{
+.boxes1 .box4{
     background: coral;
 }
-.boxes .box5{
+.boxes1 .box5{
     background:crimson;
 }
-.boxes .box6{
+.boxes1 .box6{
     background:forestgreen;
 }
-.boxes .box7{ 
+.boxes1 .box7{ 
     background: darkorchid;
 }
-.boxes .box8{
+.boxes1 .box8{
     background: hotpink;
 }
-.boxes .box9{
+.boxes1 .box9{
     background: indigo
 }
-.boxes .box10{
+.boxes1 .box10{
     background:dodgerblue;
 }
 .boxes1 {
@@ -207,4 +209,6 @@ header nav {
 	flex-flow: row wrap;
     justify-content: space-between;
     border-top: 1px dashed black;
+    padding:40px;
+    
 }
