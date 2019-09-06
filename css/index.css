@@ -100,17 +100,118 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/* .middle-content .boxes {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box2{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9{
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
@@ -149,13 +250,17 @@ footer nav a {
 	display: flex;
 	flex-flow: row wrap;
     justify-content: space-between;
-    border-top: 2px dashed black;
+    border-top: 1px dashed black;
 }
-.fourBoxes .boxes{
+.fourBoxes .boxes2{
     width: 48%;
-    padding: 5px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
-.fourBoxes .boxes button{
+.fourBoxes .boxes2 button{
     font-family: "Titillium Web", sans-serif;
 	font-size: 12px;
 	background: white;
@@ -165,50 +270,40 @@ footer nav a {
 	border-radius: 8px;
 }
 header nav {
-    width: 60%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    justify-content: space-around;
     font-size: 14px;
+    margin-left: 25px;
+    margin-top:20px;
+    padding-top:20px;
+    align-items: center;
+
 }
-.boxes1 .box1 {
-    background:teal;
-}
-.boxes1 .box2{ 
-    background:gold;
-    width: 8%;
-    padding: 5px;
-}
-.boxes1 .box3{
-    background: cadetblue;
-}
-.boxes1 .box4{
-    background: coral;
-}
-.boxes1 .box5{
-    background:crimson;
-}
-.boxes1 .box6{
-    background:forestgreen;
-}
-.boxes1 .box7{ 
-    background: darkorchid;
-}
-.boxes1 .box8{
-    background: hotpink;
-}
-.boxes1 .box9{
-    background: indigo
-}
-.boxes1 .box10{
-    background:dodgerblue;
-}
-.boxes1 {
-    display: flex;
-	flex-flow: row wrap;
-    justify-content: space-between;
-    border-top: 1px dashed black;
-    padding:40px;
+header nav a {
+    padding-left:5px;
+    text-decoration: none;
+    color: black;
     
+}
+.jumbo.img {
+    /* display:flex;
+    align-content: center; */
+    margin-left: 300px;
+}
+.lamLogo{
+    padding-bottom: 20px;
+    padding-left: 45px;
+
+}
+.about{
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.boxes2 img {
+    padding-bottom: 20px;
+}
+.together{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
