@@ -111,6 +111,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* color boxes */
+.middle-content .boxes .box-1 {background: teal;}
+.middle-content .boxes .box-2 {background: gold;}
+.middle-content .boxes .box-3 {background: cadetblue;}
+.middle-content .boxes .box-5 {background: coral;}
+.middle-content .boxes .box-6 {background: crimson;}
+.middle-content .boxes .box-7 {background: forestgreen;}
+.middle-content .boxes .box-8 {background: darkorchid;}
+.middle-content .boxes .box-9 {background: hotpink;}
+.middle-content .boxes .box-10 {background: dodgerblue;}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +155,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* nav-bar */
+#nav-items {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+#nav-items h2 {
+   padding-right: 1.2rem;
+}
+#nav-items ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    
+}
+
+#nav-items ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 1rem 2.5rem;
+}
+
+header .header-image img {
+ margin-bottom: 1.2rem;
+}
+
