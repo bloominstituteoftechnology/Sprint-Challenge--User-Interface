@@ -1,0 +1,10 @@
+1. Semantic in HTML means describing tags with meaning to better describe our code.
+
+2. With display-block:Elements will take up as much space as their parent element will allow, and 
+	display-Inline: elements can be nested inside of other elements without disrupting the flow of content.
+3. The four areas of the box-model includes: Content, Padding, Border, and Margin.
+
+4. align-items: center -> Items are centered in the cross-axis.
+
+5. Git allows developers to contribute and collaborate on thesame project or repositories without any interruption.
+
