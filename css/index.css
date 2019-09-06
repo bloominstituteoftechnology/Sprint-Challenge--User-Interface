@@ -165,3 +165,6 @@ footer nav a {
 	border: 1px solid black;
 	border-radius: 8px;
 }
+*{
+    border: red solid;
+}
