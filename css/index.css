@@ -157,6 +157,10 @@ p {
   margin: 0 auto;
 }
 
+.container-about {
+  display: flex;
+}
+
 header {
   display: flex;
   flex-direction: row-reverse;
@@ -170,7 +174,8 @@ header nav {
   width: 80%;
 }
 
-.top-image {
+.top-image,
+.jumbo {
   margin: 25px 0;
 }
 .top-content {
@@ -271,6 +276,28 @@ footer {
 
 #box10 {
   background: dodgerblue;
+}
+
+.about-section {
+  margin: 15px;
+}
+
+.main-content {
+  display: flex;
+}
+]
+
+.row-1,
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px red;
+}
+
+hr {
+  display: flex;
+  border: 1px dashed #1a1919;
 }
 
 footer nav {
