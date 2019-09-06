@@ -245,3 +245,7 @@ footer nav a {
     border-radius: 10px;
     font-size: 18px;
 }
+
+.bottom-content.about {
+    flex-direction: column;
+}
