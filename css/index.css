@@ -261,3 +261,16 @@ footer nav a {
     text-decoration: none;
 }
 
+.start nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 25px 0px;
+}
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
