@@ -144,3 +144,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.fourBoxes {
+    border: 1px red solid;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.fourBoxes .box1{
+    border: 1 px red solid;
+    width: 45%;
+}
