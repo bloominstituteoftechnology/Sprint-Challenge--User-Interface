@@ -70,6 +70,33 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav {
+	margin: auto;
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+nav .logo {
+	padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.headerimg{
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
 
 .top-content {
     display: flex;
@@ -111,6 +138,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
