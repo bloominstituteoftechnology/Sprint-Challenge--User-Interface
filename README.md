@@ -36,7 +36,8 @@ Edit this document to include your answers after each question. Make sure to lea
    Semantic HTML gives meaning to your HTML and helps browers identify important pieces of content for screen readersm which help with SEO
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-   ```block``` display elements in a block and ```inline``` inlines elements on the page
+   ```block``` display elements in a block which will break the flow of content on a new line.
+   ```inline``` inlines elements on the page and doesn't disrupt the flow of content
 
 3. What are the 4 areas of the box model?
    margin, padding, border, content size (width and height)
