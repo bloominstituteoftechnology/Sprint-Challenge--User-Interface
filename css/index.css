@@ -66,10 +66,27 @@ p {
     line-height: 1.4;
 }
 
-.container {
+
+
+.container{
     width: 800px;
     margin: 0 auto;
 }
+
+.container about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*------------------Header styling*/
+
+
+
+.jumbo {
+    width:100%;
+  }
+
+ /*---------------Header styling ends here*/ 
 
 .top-content {
     display: flex;
@@ -79,10 +96,54 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.topcontent-body {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/*about page middle page styling*/
+
+/*.midcontent-body {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}*/
+
+#midcontent-body{
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.midcontentbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 31px;
+    width: 312px;
+    padding: 11px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 35px;
+    width: 117px;
+    font-size: 13px;
+    border-radius: 10px;
+    justify-content: left;
+    border: solid 2px;
+    margin-bottom: 20px;
 }
 
 .middle-content {
@@ -94,6 +155,7 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
 
 .middle-content .boxes {
     display: flex;
@@ -110,12 +172,137 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottomcontent-body {
+    margin: 20px;
+   
+   
+    
+}
+
+#bottomcontent-text {
+    margin-top: 20px;
 }
 
 .bottom-content .text-container {
@@ -143,4 +330,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#footer-aboutpage {
+    width: 50px;
+    background: black;
 }
