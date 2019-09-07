@@ -103,7 +103,6 @@ p {
     margin: 0 auto;
     margin-top: 2%;
     
-    border: 1px solid blue;
 }
 
 .top-about {
@@ -114,7 +113,6 @@ p {
     border-bottom: 1px dashed black;
 }
 .box1 {
-    border: 1px solid red;
     border-bottom: 1px dashed black;
     margin-bottom: 1%;
     margin-right: 8%;
