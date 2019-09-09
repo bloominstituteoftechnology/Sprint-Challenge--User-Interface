@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.container-about-page {
+.container {
     width:  800px;
     margin: 0 auto;
 
@@ -79,6 +79,8 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .top-content .text-container {
@@ -88,11 +90,14 @@ p {
 }
 
 .middle-content {
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
+    display: flex;
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -116,12 +121,14 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
     justify-content: space-around;
+    margin: 0 2% 20px;
+
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+
+    padding-right: 1% 1% 1% 1%;
 }
 
 .bottom-content .text-container:last-child {
@@ -129,11 +136,13 @@ p {
 }
 
 footer {
+
     width: 100%;
     background: black;
 }
 
 footer nav {
+    display: flex;
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -164,4 +173,11 @@ background:white;
 
 img{
 margin-bottom: 3%;
+}
+.header .nav a{
+    font: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav{
+    font-color: black;
 }
