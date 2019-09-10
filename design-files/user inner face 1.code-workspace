@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\ALEGT\\OneDrive\\Documents\\sprint challenges\\UI-III-flexbox\\flexbox-1st sprint\\3rd attempt\\Sprint-Challenge--User-Interface\\.git"
+		},
+		{
+			"path": "C:\\Users\\ALEGT\\OneDrive\\Documents\\sprint challenges\\UI-III-flexbox\\flexbox-1st sprint\\3rd attempt\\Sprint-Challenge--User-Interface\\.vscode"
+		},
+		{
+			"path": "C:\\Users\\ALEGT\\OneDrive\\Documents\\sprint challenges\\UI-III-flexbox\\flexbox-1st sprint\\3rd attempt\\Sprint-Challenge--User-Interface\\css"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\ALEGT\\OneDrive\\Documents\\sprint challenges\\UI-III-flexbox\\flexbox-1st sprint\\3rd attempt\\Sprint-Challenge--User-Interface\\img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": ".vscode"
+	}
+}
