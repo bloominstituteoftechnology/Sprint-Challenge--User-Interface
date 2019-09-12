@@ -41,15 +41,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. [✔] What are the 4 areas of the box model?
-    ( 'padding' 'margin' 'border' 'content' )
+       <i>( 'padding' 'margin' 'border' 'content' )</i>
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-    'cross-axis'
+4. [✔] While using flexbox, what axis does the following property work on: ```align-items: center```?
+    </i>'cross-axis'
 
 5. [✔] Explain why git is valuable to a team of developers.
-        Not only can each team member work on the same repository of code simulatenously, but changes and derivatives of the code base can be maintained, automated, self-managed - all through branches in the git repo. Extremely powerful improvement to the development workflow. 
+        <i>Not only can each team member work on the same repository of code simulatenously, but changes and derivatives of the code base can be maintained, automated, self-managed - all through branches in the git repo. Extremely powerful improvement to the development workflow.</i>
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+<h1 align="center">Directives</h1>
 
 ## Project Set Up
 
@@ -70,27 +70,25 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-Your finished project must include all of the following requirements:
-
 ### Home Page
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [✔ ] Build the HTML and CSS to create the missing navigation and header.
+* [✔ ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [✔ ] box1: `teal`
+* [ ✔] box2: `gold`
+* [✔ ] box3: `cadetblue`
+* [✔ ] box4: `coral`
+* [✔ ] box5: `crimson`
+* [✔ ] box6: `forestgreen`
+* [✔ ] box7: `darkorchid`
+* [✔ ] box8: `hotpink`
+* [✔ ] box9: `indigo`
+* [✔ ] box10: `dodgerblue`
 
 ### About Page
 
