@@ -34,9 +34,9 @@ Demonstrate your understanding of this week's concepts by answering the followin
 **Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager**
 
 1. [✔] If you were to describe semantic HTML to the next cohort of students, what would you say?
-    <p>If the browser's the canvas, then semantic HTML are the oddly peculiar but poignant color-names of the paint hues. Each element acting as a color, their purpose and use
+    <p><i>If the browser's the canvas, then semantic HTML are the oddly peculiar but poignant color-names of the paint hues. Each element acting as a color, their purpose and use
        are considered in the name. Header, Footer, Aside, Nav signal the browser and developer meaningful information about the elements. Without this, it'd be like trying to paint a 
-       rich canvas landscape with HEX colo-values.</p>
+       rich canvas landscape with HEX colo-values.</i></p>
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
