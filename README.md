@@ -1,4 +1,5 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+<h1 align="center">Syte & UI exam</h1>
+<h2 aigin="center">User Interface and Git | Multi-Page Website Sprint Challenge</h2>
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -26,38 +27,44 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
-## Self-Study Questions
+<h2 align="center"> Self-Study Questions</h2>
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+**Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager**
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. [✔] If you were to describe semantic HTML to the next cohort of students, what would you say?
+    <p>If the browser's the canvas, then semantic HTML are the oddly peculiar but poignant color-names of the paint hues. Each element acting as a color, their purpose and use
+       are considered in the name. Header, Footer, Aside, Nav signal the browser and developer meaningful information about the elements. Without this, it'd be like trying to paint a 
+       rich canvas landscape with HEX colo-values.</p>
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+3. [✔] What are the 4 areas of the box model?
+    ( 'padding' 'margin' 'border' 'content' )
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    'cross-axis'
 
-5. Explain why git is valuable to a team of developers.
+5. [✔] Explain why git is valuable to a team of developers.
+        Not only can each team member work on the same repository of code simulatenously, but changes and derivatives of the code base can be maintained, automated, self-managed - all through branches in the git repo. Extremely powerful improvement to the development workflow. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [✔ ] Create a forked copy of this project.
+- [✔ ] Add your project manager as collaborator on Github.
+- [ ✔] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [✔ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [✔ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [✔ ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [✔ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [✔ ] Add your project manager as a reviewer on the pull-request
+- [✔ ] Your project manager will count the project as complete by merging the branch back into master.
  
 
 
