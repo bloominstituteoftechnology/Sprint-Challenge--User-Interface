@@ -1,4 +1,19 @@
 .about-image {
     background-image: url("../img/jumbo-about.png");
 }
+.about-page .top-content .text-container {
+    padding: 0 20px 19px;
+}
 
+.middle-content .cards {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.middle-content .cards h2 {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.about-page .bottom-content .text-container {
+    padding: 10px 0.5% 20px;
+}

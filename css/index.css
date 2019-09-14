@@ -76,6 +76,9 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.text-container {
+    padding: 0 3%;
+}
 
 .flex {
     display: flex;
@@ -124,5 +127,5 @@ p {
 }
 
 .card {
-
+    padding: 10px;
 }
