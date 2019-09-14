@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Sprint Challenge - Home</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <img id="top-img" src="img/lambda-black.png" alt="logo" />
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+      <section class="contact">
+        <h3>Contact Form</h3>
+
+        <div class="contact-form">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="fullname"
+              placeholder="Your full name.."
+            />
+
+            <label for="email">E-mail Adress</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Your E-mail adress.."
+            />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">USA</option>
+              <option value="canada">Canada</option>
+              <option value="usa">Turkey</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height:200px"
+            ></textarea>
+
+            <input type="submit" formaction="contact.html" />
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
