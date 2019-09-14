@@ -26,7 +26,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
-## Self-Study Questions(test)
+## Self-Study Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
@@ -36,13 +36,19 @@ Edit this document to include your answers after each question. Make sure to lea
 Semantic HTML makes code easy to read by other developers. It gives a meaning to the code written by someone. Semantic HTML should be followed dilligently.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-```display: block;```is applied when we need line break after each block whereas in display: inline, items are arranged side by side without line break. Second difference is 
+```display: block;```is applied when we need line break after each block whereas in display: inline, items are arranged side by side without line break. Second difference is in display: block we can set height and width of the block but in display:inline we cannot assign height and width to the items. 
 
 3. What are the 4 areas of the box model?
+Margin, border, padding and content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+cross axis: the items will be placed in the center of the cross axis
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable to developers because of the following reasons:
+Performance of git is strong and reliable compared to other version control systems
+Code can be changed and commited, branches can be easily made and merged this helps in team work and other developers to review work and perform efficiently.
+Since coded files are stored in the cloud there is the danger of loss of data is minimised.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -50,7 +50,27 @@ table {
 * {
     box-sizing: border-box;
 }
+.top-barone{display: flex;
+  flex-wrap: wrap; 
+  width:100%;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 50px;
+  
+}
+.top-bar{
+   display: flex;
+  justify-content: space-around;
+   
+  font-color: black;
+margin-left: 200px;}
+   .top-logo{ position: relative;
+  bottom: 20px;
+  margin-left: 20px; }
 
+.top-bar a{
+   height:100px;
+  }
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -100,7 +120,96 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+.box1{ background-color: teal; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{ background-color: gold; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{ background-color: cadetblue; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{ background-color: coral; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{ background-color: crimson; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{ background-color: forestgreen; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{ background-color: darkorchid; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{ background-color:hotpink; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{ background-color:indigo; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{ background-color:dodgerblue; 
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
