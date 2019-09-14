@@ -4,7 +4,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 
 ## Instructions
 
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
+**Read these instructions carefully. Understand ex+actly what is expected _before_ starting this Sprint Challenge.**
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+   HTML that gives meaning to the information presented.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+   'display: block;' presents each selector full width and stacked but 'display: inline' presents each selector in one line and right next to each other.
 
 3. What are the 4 areas of the box model?
+   The box model has the margin, border, padding and content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+   The 'align-item: center' is on the cross-axis.
 
 5. Explain why git is valuable to a team of developers.
+   Git makes collaborating with version control easy.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
