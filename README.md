@@ -26,15 +26,17 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
-## Self-Study Questions
+## Self-Study Questions(test)
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML makes code easy to read by other developers. It gives a meaning to the code written by someone. Semantic HTML should be followed dilligently.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+```display: block;```is applied when we need line break after each block whereas in display: inline, items are arranged side by side without line break. Second difference is 
 
 3. What are the 4 areas of the box model?
 
