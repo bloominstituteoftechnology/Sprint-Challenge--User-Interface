@@ -189,6 +189,45 @@ footer nav a {
                         margin-top: 15px;
                         font-size: 15px;
                     }
-                    .box {
-                        background
+                   
                     }
+                    hr {
+                        border-top: 2px dashed black;
+                    }
+                    .strategyhowwework {
+                        display: flex;
+                        flex-direction: row;                        
+                        /* border: 1px solid black; */
+                        width: px;                        
+                    }
+                    .strategy {
+                        /* border: 1px solid gray; */
+                        width: 400px;
+
+                    }
+                    .howwework {
+                        /* border: 1px solid gray; */
+                        width: 400px;
+                    }
+                    .placeswework {
+                        /* border: 1px solid gray; */
+                    }
+.photo1 {
+    margin-left: 0px;
+}
+.photo2 {
+    margin-left: 0px;
+}
+.placeswework-collab {
+    display: flex;
+    flex-direction: row;                        
+    /* border: 1px solid black; */
+    width: px; 
+}
+                   
+.photo3 {
+    margin-left: 0px;
+}
+.photo4 {
+    margin-left: 0px;
+}
