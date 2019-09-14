@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -145,15 +145,84 @@ footer nav a {
     text-decoration: none;
 }
 /* ______________My code________________________ */
+/* .container1 {
+    width: 200px;
+    margin: 0px;
+} */
 .nav-container {
     display: flex;
-    margin-left: 400px;
+    justify-content: space-around;
+    /* margin-left: 10px; */
+    margin-bottom: 10px; 
+    width: 1000px;
+    /* margin: 0px; */
 }
-.box {
-    border: 1px solid black;
-    padding: 10px;
-    margin-left: 60px;    
+.navbox {
+    width: 40px;
+    
+    /* border: 1px solid black; */
+    /* padding: 5px;
+    margin-left: 60px;    */
+     
 }
 img {
     margin-left: 275px;
+    font-size: 18px;
+    
 }
+.logo {
+    margin-left: 240px;
+}
+.nav1 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.nav2 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.nav3 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.nav4 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.nav5 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+.box {
+    background
+}
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {
+    background: gold;
+    }
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+.middle-content .boxes .box4 {
+        background: coral;
+    }
+    .middle-content .boxes .box5 {
+        background: crimson;
+    }
+    .middle-content .boxes .box6 {
+        background: forestgreen;
+    }
+    .middle-content .boxes .box7 {
+        background: darkorchid;
+    }
+    .middle-content .boxes .box8 {
+        background: hotpink;
+    }
+    .middle-content .boxes .box9 {
+        background: indigo;
+    }
+    .middle-content .boxes .box10 {
+        background: dodgerblue;
+    }
