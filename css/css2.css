@@ -86,8 +86,10 @@ p {
 
 }
 .first{
-    margin: 60px;
-    align-items: center;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 
 }
 .seconds{
