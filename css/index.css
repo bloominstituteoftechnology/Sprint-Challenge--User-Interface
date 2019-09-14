@@ -235,7 +235,12 @@ p {
 }
 
 .first{
-    margin: 10px;
+    display: flex;
+    margin: 1px;
+
+}
+.second{
+    display: flex;
 }
 .top-content {
     display: flex;
