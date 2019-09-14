@@ -5,6 +5,7 @@
 
 @import "header.css";
 @import "footer.css";
+@import "hero-content.css";
 @import "home-content.css";
 @import "about-content.css";
 
@@ -78,4 +79,50 @@ p {
 
 .flex {
     display: flex;
+}
+
+.dash {
+    border-bottom: 1px dashed black;
+}
+
+.teal-bg {
+    background-color: teal !important;
+}
+.gold-bg {
+    background-color: gold !important;
+}
+.cadetblue-bg {
+    background-color: cadetblue !important;
+}
+.coral-bg {
+    background-color: coral !important;
+}
+.crimson-bg {
+    background-color: crimson !important;
+}
+.forestgreen-bg {
+    background-color: forestgreen !important;
+}
+.darkorchid-bg {
+    background-color: darkorchid !important;
+}
+.hotpink-bg {
+    background-color: hotpink !important;
+}
+.indigo-bg {
+    background-color: indigo !important;
+}
+.dodgerblue-bg {
+    background-color: dodgerblue !important;
+}
+
+.is-full {
+    width: 100%;
+}
+.is-48 {
+    width: 48%;
+}
+
+.card {
+
 }

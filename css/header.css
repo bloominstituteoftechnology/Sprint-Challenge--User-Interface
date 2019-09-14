@@ -1,8 +1,16 @@
 .header-content {
     align-items: flex-start;
 }
+.header-logo {
+
+}
+.header-logo .lamda-logo {
+    background-image: url("../img/lambda-black.png");
+    height: 40px;
+    width: 157px;
+}
 .header-item {
-    padding: 20px 0 37.5px;
+    padding: 20px 0 40px;
 }
 
 nav {

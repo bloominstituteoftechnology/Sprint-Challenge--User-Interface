@@ -1,5 +1,5 @@
-.hero-content {
-    margin-bottom: 20.5px;
+.home-image {
+    background-image: url("../img/jumbo.jpg");
 }
 
 .top-content {
@@ -9,14 +9,12 @@
     border-bottom: 1px dashed black;
 }
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 .middle-content h2 {
     padding: 0 2%;
@@ -32,7 +30,6 @@
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
