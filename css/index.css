@@ -222,9 +222,10 @@ p {
     margin: 20px;
 }
 .navigationA{
-    text-decoration: none;
+  text-decoration: none;
   justify-content: space-around;
   padding: 30px;
+  
 
 }
 .navigation a{
@@ -347,9 +348,15 @@ footer nav a {
 .boxes .box.ten{
     background: dodgerblue;
 }
+.navigation a:hover{
+    background:salmon;
+    color:black;
+    border-radius: 10px;
+}
 @media (max-min: 400px){
     .boxes.box{
         display: flex;
+        
     
     }
 
