@@ -1,0 +1,21 @@
+.header-content {
+    align-items: flex-start;
+}
+.header-item {
+    padding: 20px 0 37.5px;
+}
+
+nav {
+
+}
+nav.header-nav {
+    justify-content: space-around;
+    width: 100%;
+}
+nav.header-nav a {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 45.5px 0 39px;
+    text-decoration: none;
+}
