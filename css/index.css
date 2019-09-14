@@ -127,5 +127,14 @@ p {
 }
 
 .card {
-    padding: 10px;
+    flex-wrap: wrap;
+    padding: 10px 0 20px;
+    margin: 1% 1% 50px;
+    width: 370px;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 10px 20px;
 }

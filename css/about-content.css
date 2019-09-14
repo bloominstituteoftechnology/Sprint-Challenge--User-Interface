@@ -7,11 +7,14 @@
 
 .middle-content .cards {
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-.middle-content .cards h2 {
+.middle-content .card h2 {
     margin: 10px 0;
     padding: 0;
+}
+.middle-content .card p {
+    padding: 0 0 20px;
 }
 
 .about-page .bottom-content .text-container {
