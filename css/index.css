@@ -236,6 +236,7 @@ p {
 
 .first{
     display: flex;
+    margin: 5px;
     margin: 1px;
 
 }
@@ -345,4 +346,11 @@ footer nav a {
 }
 .boxes .box.ten{
     background: dodgerblue;
+}
+@media (max-min: 400px){
+    .boxes.box{
+        display: flex;
+    
+    }
+
 }
