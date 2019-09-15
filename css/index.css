@@ -230,6 +230,11 @@ p {
   padding: 30px;
 
 }
+header.one{
+    
+    width: 80%
+
+}
 .extra{
     margin :20px;
 }
