@@ -215,9 +215,6 @@ p {
     width: 800px;
     margin: 0 auto;
     font-size: 16px;
-    
-   
-
 }
 .navigation{
     margin: 20px;
@@ -226,8 +223,6 @@ p {
   text-decoration: none;
   justify-content: space-around;
   padding: 30px;
-  
-
 }
 .navigation a{
   text-decoration: none;
@@ -235,12 +230,13 @@ p {
   padding: 30px;
 
 }
-
+.extra{
+    margin :20px;
+}
 .first{
     display: flex;
-    margin: 5px;
-    margin: 1px;
-
+   margin: 20px;
+   
 }
 .second{
     display: flex;
@@ -285,8 +281,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -354,11 +348,17 @@ footer nav a {
     color:black;
     border-radius: 10px;
 }
-@media (max-min: 400px){
-    .boxes.box{
+@media (max-width: 400px){
+    container{
+        width: 500px;
+        background: grey;
+    }
+     .navigation a {
         display: flex;
+        flex-direction: column;
+    }
+    
         
     
     }
 
-}
