@@ -240,6 +240,12 @@ div.middle-about div.middle-content {
     border-bottom: 1px dashed black;
 }
 
+div.middle-content button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
 .bottom-about {
     margin: 25px 0 
 }
