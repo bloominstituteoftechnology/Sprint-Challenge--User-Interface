@@ -403,6 +403,12 @@ Media Query
 }
 
 @media(max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+    .middle-about {
+        width: 400px;
+    }
     .middle-content {
         margin: 0 auto;
     }
@@ -473,8 +479,10 @@ Media Query
         flex-direction: column;
     }
     .product-container {
-        width: 100%;
+        width: 400px;
         height: 500px;
+        padding: 25px;
+        margin: 25px auto;
     }
 }
 
@@ -499,10 +507,12 @@ fieldset {
 fieldset input {
     width: 100%;
     padding: 10px;
+    border: 1px solid black;
 }
 
 fieldset textarea {
     width: 100%;
+    border: 1px solid black;
 }
 
 fieldset button {
@@ -519,3 +529,15 @@ fieldset button:hover {
     border: 1px solid green;
 }
 
+
+/* 
+###########################
+Media Query
+########################### 
+*/
+
+@media(max-width: 600px) {
+    section.top-contact {
+        width: 400px;
+    }
+}
