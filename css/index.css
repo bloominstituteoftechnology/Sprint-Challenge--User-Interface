@@ -90,7 +90,16 @@ section.jumbo-img {
     margin-bottom: 2%;
 }
 
+.top-border .section-border {
+    border-bottom: 1px solid black;
+    margin-top: 2%;
+    margin-left: 20.5%;
+    margin-right: 20%;
+}
+
 .about-section {
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 20.5%;
     width: 59.4%;
 }
