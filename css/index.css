@@ -132,32 +132,71 @@ nav a {
 #box1 {
     background-color: teal;
 }
+#box1:hover {
+    background-color: aquamarine;
+}
+
 #box2 {
     background-color: gold;
 }
+#box2:hover {
+    background-color: white;
+}
+
 #box3 {
     background-color: cadetblue;
 }
+#box3:hover {
+    background-color: aquamarine;
+}
+
 #box4 {
     background-color: coral;
 }
+#box4:hover {
+    background-color: white;
+}
+
 #box5 {
     background-color: crimson;
 }
+#box5:hover {
+    background-color: aquamarine;
+}
+
 #box6 {
     background-color: forestgreen;
 }
+#box6:hover {
+    background-color: white;
+}
+
 #box7 {
     background-color: darkorchid;
 }
+#box7:hover {
+    background-color: aquamarine;
+}
+
 #box8 {
     background-color: hotpink;
 }
+#box8:hover {
+    background-color: white;
+}
+
 #box9 {
     background-color: indigo;
 }
+#box9:hover {
+    background-color: aquamarine;
+}
+
 #box10 {
     background-color: dodgerblue;
+}
+#box10:hover {
+    background-color: white;
 }
 
 .middle-content .boxes .box {
