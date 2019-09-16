@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+/* Attention Collaborators -  I wrote this code using a montior that has an akward width than a normal 21" screen. It definitely will need to be adjusted with @media queries. But if you download this code, please adjust the width of your monitor so you can get the correct adjusts that have been made to the CSS File. */
 
 .container {
     width: 800px;
