@@ -77,12 +77,34 @@ Index Page
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+nav a {
+    margin: 0 40px;
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
+}
+
+.jumbo-img {
+    margin-bottom: 25px;
 }
 
 .top-content .text-container {
@@ -105,6 +127,37 @@ Index Page
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes .box {
