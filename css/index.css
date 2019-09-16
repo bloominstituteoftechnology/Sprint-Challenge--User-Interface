@@ -305,3 +305,17 @@ footer nav a {
     border-bottom: 1px dashed black;
     border-width: 40%;
 }
+
+
+/*   additional code for Products page   */
+
+.banner-image-product {
+    display: flex;
+    width: 800px;
+}
+
+.creative-commons-attribution {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
