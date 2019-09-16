@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    width: 800px;
 }
 ol, ul {
 	list-style: none;
@@ -143,4 +144,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: black;
 }
