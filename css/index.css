@@ -75,17 +75,17 @@ p {
 .navbar {
 	font-size: 18px;
 	margin-top: 2%;
-	margin-left: 16.4%;
+	margin-left: 14.6%;
 }
 
 .navbar a {
     text-decoration: none;
     color: rgb(58, 58, 58);
-    margin-left: 5%;
+    margin-left: 4%;
 }
 
 section.jumbo-img {
-    margin-left: 20.5%;
+    margin-left: 18%;
     margin-top: 4%;
     margin-bottom: 2%;
 }
@@ -110,6 +110,10 @@ section.jumbo-img {
 
 .about-section p {
     text-align: justify;
+}
+
+.middle-section {
+
 }
 
 .top-content {
