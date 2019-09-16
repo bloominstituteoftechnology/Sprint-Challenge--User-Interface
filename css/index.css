@@ -124,9 +124,9 @@ section.jumbo-img {
 	flex-flow: row wrap;
 	justify-content: space-between;
     margin-left: 18%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     margin-top: 1%;
-    height: 91%;
+    height: 100%;
     width: 60.5%;
 }
 
@@ -138,25 +138,29 @@ section.jumbo-img {
     margin-top: 4%;
 }
 
-.content .learn-more{
-    text-decoration: none;
-}
-
 .middle-section .content-box {
 	padding: 20px;
     width: 48%;
-	height: 30%;
+    height: 30%; 
 }
 
-.middle-section .content-box h1, p, a {
-	text-align: justify;
+.middle-section .content-box, h1, p, a {
+    text-align: justify;
+}
+
+.learn-more {
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 4%;
+    padding: 2%;
 }
 
 .bottom-border .content-border {
     border-bottom: 2px dotted black;
-    margin-top: 5%;
+    margin-top: 13%;
     width: 110%;
-    }
+}
 
 .top-content {
     display: flex;
@@ -262,7 +266,7 @@ footer {
 
 footer nav {
     width: 60%;
-    margin-left: 16%;
+    /* margin-left: 16%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
