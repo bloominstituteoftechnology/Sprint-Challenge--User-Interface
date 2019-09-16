@@ -244,3 +244,36 @@ button {
 .footer-section nav a {
     color: white;
 }
+
+@media(max-width: 500px) {
+   .container {
+       width: 500px;
+       background: darkcyan;
+   } 
+
+   .container .top-nav {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+
+   .container .top-nav a {
+       /* padding-left: 100%; */
+       padding: 0px;
+       text-align: center;
+       /* align-items: center; */
+       /* align-content: center; */
+       padding-bottom: 5%;
+       padding-top: 2%;
+       border-bottom: 3px dashed black;
+       
+   }
+
+   .top-logo {
+       display: none;
+   }
+
+   .highway {
+       width: 100%; /* logo was spilling over making the scroll appear */
+   }
+} /* this ends the media query */
