@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+nav a {
+	display: inline-flex;
+	margin: 6px;
+	padding: 30px;
+	color: black;
+	text-decoration: none;
+}
+nav img {
+	margin: 10px;
+}
+
+.jumbo {
+	margin: 1% 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +97,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+	padding-top: 20px;
     padding-bottom: 20px;  
 }
 
@@ -101,7 +117,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +126,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1{
+	background-color: teal;
+}
+
+.middle-content .boxes .box2{
+	background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+	background-color: cadetblue;
+}
+
+.middle-content .boxes .box4{
+	background-color: coral;
+}
+
+.middle-content .boxes .box5{
+	background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+	background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+	background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+	background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+	background-color: indigo;
+}
+
+.middle-content .boxes .box10{
+	background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -132,7 +188,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,3 +200,72 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Code */
+
+.container.about-page {
+	width: 800px;
+    margin: 0 auto;
+}
+
+.jumbo-about {
+	margin: 1% 10px;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content-about .text-container-about {
+	display: inline;
+    padding: 0 3%;
+	padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+
+.middle-content-about {
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px dashed black;
+	margin-bottom: 20px;
+	
+}
+
+.middle-content-about .contents {
+	display: block;
+	padding: 10px;
+}
+
+.last-content {
+	padding-bottom: 20px;
+}
+
+
+.middle-content-about .contents1 {
+	display: block;
+	padding: 10px;
+}
+
+.Learn {
+	display: inline-block;
+	border: 2px solid black;
+	padding: 7px;
+	margin: 10px;
+	border-radius: 5px;
+	
+} 
+
+
+
+
+
+
+
+
+
+
