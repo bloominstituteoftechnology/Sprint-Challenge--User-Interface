@@ -249,3 +249,78 @@ div.middle-content button {
 .bottom-about {
     margin: 25px 0 
 }
+
+/* 
+########################################
+Products Page 
+######################################## 
+*/
+
+.top-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-container img {
+    width: 100%;
+}
+
+.product-container {
+    border: 1px solid black;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+section.top-products a {
+    text-decoration: none;
+    color: grey;
+}
+
+.product-text {
+    /* text-align: center; */
+    margin: 20px 0;
+}
+
+/* 
+########################################
+Contact Page 
+######################################## 
+*/
+
+section.top-contact form h4 {
+    padding-top: 10px;
+}
+
+fieldset {
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+fieldset input {
+    width: 100%;
+    padding: 10px;
+}
+
+fieldset textarea {
+    width: 100%;
+}
+
+fieldset button {
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+fieldset button:hover {
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+
