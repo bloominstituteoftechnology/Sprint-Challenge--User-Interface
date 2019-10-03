@@ -112,20 +112,26 @@ nav img .about {
     margin: 0 auto;
 }
 
-.header-about h1 {
+header h1 {
     padding-top: 20px;
     width: 95%;
     margin: 0 auto;
 }
 
-.header-about p {
+header {
     padding: 10px 0;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     border-bottom: 1px dashed black;
 }
 
-.middle-text {
+header p {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-content-text {
     margin: auto;
     display: flex; 
     flex-wrap: wrap;
@@ -136,20 +142,10 @@ nav img .about {
 	padding: 20px;
 }
 
-.middle-text h3 {
+.top-content-text h3 {
     padding-top: 10px;
 }
 
-.pictures-with-text { 
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 49%;
-    padding:20px;
-    margin: 20px 0;
-    border-bottom: 1px dashed black;
-}
-    
 button {
     background-color: white;
     color: black;
@@ -166,6 +162,31 @@ button:hover {
     color: purple;
 }
 
+.middle-content-text { 
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+	padding: 20px;
+}
+
+.middle-content-text h3 {
+    padding-top: 10px;
+}
+
+.pictures-with-text { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 49%;
+    padding: 20px 0;
+    /* Padding TB 20px RL 0, centered pics in center and centered entire container */
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
  .bottom-text {
      padding: 20px;
      width: 100%;

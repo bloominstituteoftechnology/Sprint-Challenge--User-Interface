@@ -116,7 +116,8 @@ nav img .about {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 20px;
+    margin: 20px 0;
+    /* margin: 20px 0 centered border line and centered items in container */
     border-bottom: 1px dashed black;
 }
 
@@ -216,7 +217,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
