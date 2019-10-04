@@ -105,7 +105,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Update the header image with the about page image
 * [ ] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
-
+fresh
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 ## Stretch Problems
 
