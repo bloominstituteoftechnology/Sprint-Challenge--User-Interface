@@ -69,8 +69,22 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 5px 0 0 5px;
 }
 
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -97,14 +111,15 @@ p {
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center; 
+     
+    
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +158,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box-one{
+    background-color: teal;
+}
+
+.box-two{
+    background-color: gold;
+}
+
+.box-three{
+    background-color: cadetblue;
+}
+
+.box-four{
+    background-color: coral;
+}
+
+.box-five{
+    background-color: crimson;
+
+}
+
+
+.box-six{
+    background-color: forestgreen;
+}
+
+.box-seven{
+    background-color: darkorchid;
+}
+
+.box-eight{
+    background-color: hotpink;
+}
+
+.box-nine{
+    background-color: indigo;
+}
+
+.box-ten{
+    background-color: dodgerblue;
 }
