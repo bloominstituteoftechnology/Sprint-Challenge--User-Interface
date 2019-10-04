@@ -208,6 +208,11 @@ header nav a:visited {
     padding: 20px 0;
 }
 
+#spannerimg img {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Box Stylings */
 
 .boxes {
