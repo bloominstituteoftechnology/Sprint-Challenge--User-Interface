@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.container about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    margin-top: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +97,55 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.full-section {
+    /* margin-bottom: 20px; */
+    border-bottom: 1px dashed black;
+}
+
+.text-container {
+    /* width: 48%; */
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.full-section-no-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-mid-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.about-mid-content .column_section{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.featured-pic-home{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.featured-pic-about{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px; 
+    font-size: 100%;
+    border: 2px solid black;
+    /* text-align: center; */
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -104,13 +171,45 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+    background-color:teal;
+}
+.box2{
+    background-color:gold;
+}
+.box3{
+    background-color:cadetblue;
+}
+.box4{
+    background-color:coral;
+}
+.box5{
+    background-color:crimson;
+}
+.box6{
+    background-color:forestgreen;
+}
+.box7{
+    background-color:darkorchid;
+}
+.box8{
+    background-color:hotpink;
+}
+.box9{
+    background-color:indigo;
+}
+.box10{
+    background-color:dodgerblue
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +243,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+h1{
+    color: hotpink;
+    text-align:center;
+    font-size: 100px;
+}
+.contact-statement{
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-form{
+    margin: 50px;
+        align-self: center;
+    font-size: 100%;
+}
+
+.text-area{
+
+    width: 150px;
+    height: 40px;
+    font-size: 100%;
+    color:white;
+}
+.submit-button{
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px; 
+    font-size: 100%;
+    border: 2px solid green;
+    text-align: center;
+    background-color: green;
+}
+
+
