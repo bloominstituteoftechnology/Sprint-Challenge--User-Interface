@@ -71,6 +71,27 @@ p {
     margin: 0 auto;
 }
 
+/* general styling below */
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+header .nav {
+    display: flex;
+    align-items: baseline;
+}
+header .nav nav {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: baseline;
+}
+header .nav nav a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     width: 100%;
     background: black;
