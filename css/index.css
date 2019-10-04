@@ -77,6 +77,8 @@ header {
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 50px
+    
 }
 
 .header-image {
@@ -139,6 +141,45 @@ a {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-of-type(1) {
+    background-color: teal
+}
+
+.middle-content .boxes .box:nth-of-type(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-of-type(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-of-type(10) {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
