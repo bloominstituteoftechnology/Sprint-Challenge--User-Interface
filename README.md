@@ -33,15 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+<ul>
+<li>✅ | If you were to describe semantic HTML to the next cohort of students, what would you say?
+ <blockquote><i>Semenatic HTML gives more meaning to your tags as your structure your web sites. Inocuous names like span or div aren't very meaningful, thus not semantic.</i></blockquote></li> 
 
-3. What are the 4 areas of the box model?
+<li>✅ | Name two big differences between ```display: block;``` and ```display: inline;```.
+<blockquote><i><code>display: block</code> uses the defauly box model for CSS positioning.<br><code>display:inline</code> aligns child items in one line<blockquote></li>
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+<li>What are the 4 areas of the box model?</li>
 
-5. Explain why git is valuable to a team of developers.
+<li>✅ | While using flexbox, what axis does the following property work on: ```align-items: center```?
+<blockquote><i>the cross-axis</i></blockquote></li>
+
+<li>✅ | Explain why git is valuable to a team of developers.
+<blockquote><i>Basically, it keeps Carl from breaking the class structure with jAnK codE with one fail-swoop<i></blockquote></li></ul>
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
