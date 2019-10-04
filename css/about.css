@@ -68,7 +68,7 @@ p {
 
 .container {
     width: 1000px;
-    height: 974px;
+    height: 1587px;
     padding: 0px 100px;
     margin: 0 auto;
 }
@@ -92,102 +92,51 @@ header nav a {
 }
 
 #jumbo {
-    margin: 38px 0px 20px 0px;
+    margin: 38px 0px 19px 0px;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+.introContent {
+    padding: 0px 20px 20px;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.mainContent {
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
-.middle-content {
-    margin-bottom: 20px;
+.infoBox {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoBoxBottom {
+    margin-top: 50px;
+}
+
+.infoBox figure {
+    margin: 0 auto;
+}
+
+.infoBoxText {
+    margin: 10px 15px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.learnMoreButton {
+    border: 1px solid black;
+    width: 130px;
+    padding: 10px;
+    margin: 21px 0px;
+    border-radius: 10px;
+    text-align: center;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box:nth-child(1) {
-    background: teal;
-}
-
-.middle-content .boxes .box:nth-child(2) {
-    background: gold;
-}
-
-.middle-content .boxes .box:nth-child(3) {
-    background: cadetblue;
-}
-
-.middle-content .boxes .box:nth-child(4) {
-    background: coral;
-}
-
-.middle-content .boxes .box:nth-child(5) {
-    background: crimson;
-}
-
-.middle-content .boxes .box:nth-child(6) {
-    background: forestgreen;
-}
-
-.middle-content .boxes .box:nth-child(7) {
-    background: darkorchid;
-}
-
-.middle-content .boxes .box:nth-child(8) {
-    background: hotpink;
-}
-
-.middle-content .boxes .box:nth-child(9) {
-    background: indigo;
-}
-
-.middle-content .boxes .box:nth-child(10) {
-    background: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.bottomContent {
+    padding: 10px 20px 20px;
 }
 
 footer {
