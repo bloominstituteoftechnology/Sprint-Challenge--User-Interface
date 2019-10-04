@@ -66,32 +66,37 @@ p {
     line-height: 1.4;
 }
 
+hr {
+    border-top: 1px dashed;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
-/* HEADER */
-.header {
+
+.navigation {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
     margin-top: 20px;
-    margin-bottom: 30px;
-/* HEADER */
+    margin-bottom: 40px;
 }
-/* HEADER NAV */
+
+.contact-image {
+    width: 800px;
+    height: 154px;
+    margin-bottom: 20px;
+}
+
 nav a {
     text-decoration: none;
     color: black;
     margin: 0 35px;
 }
-/* HEADER NAV */
 
-/* LOGO */
 .top-image {
     margin-bottom: 20px;
 }
-/* LOGO */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -105,6 +110,44 @@ nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.top-about {
+    margin-left: 15px;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 890px;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 350px;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+}
+
+.about-box h2 {
+    margin-top: 10px;
+}
+
+button {
+    border: 1.2px solid black;
+    background: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -125,12 +168,52 @@ nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -147,6 +230,9 @@ nav a {
     padding-right: 0;
 }
 
+.bottom-about {
+    margin: 20px 0px 20px 15px;
+}
 footer {
     width: 100%;
     background: black;
