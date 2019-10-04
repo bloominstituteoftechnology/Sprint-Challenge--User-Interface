@@ -190,6 +190,10 @@ header {
   justify-content: space-around;
 }
 
+.about-page .bottom-content {
+  padding: 20px 0;
+}
+
 .bottom-content .text-container {
   padding-right: 4%;
 }
