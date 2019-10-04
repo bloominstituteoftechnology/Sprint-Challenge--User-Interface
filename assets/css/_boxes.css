@@ -1,0 +1,51 @@
+/* [ ] box1: `teal`
+* [ ] box2: `gold`
+* [ ] box3: `cadetblue`
+* [ ] box4: `coral`
+* [ ] box5: `crimson`
+* [ ] box6: `forestgreen`
+* [ ] box7: `darkorchid`
+* [ ] box8: `hotpink`
+* [ ] box9: `indigo`
+* [ ] box10: `dodgerblue`
+*/
+
+.box div:nth-child(1) {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color: gold;
+}
+
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(4) {
+    background-color: coral;
+}
+
+.box:nth-child(5) {
+    background-color: crimson;
+}
+
+.box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.box:nth-child(9) {
+    background-color: indigo;
+}
+
+.box:nth-child(10) {
+    background-color: dodgerblue;
+}
