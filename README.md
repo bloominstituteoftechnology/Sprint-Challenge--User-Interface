@@ -48,29 +48,18 @@ You are expected to be able to answer all these questions. Your responses contri
 
 
 
-## Minimum Viable Product
-
-Your finished project must include all of the following requirements:
-
-### Home Page
+<h2 align="center">Requirements</h2>
+<h2><b><code>/homepage</b></h2>
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
-
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+<ul>
+ <li>Build the HTML and CSS to create the missing navigation and header.
+ <li>Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
-
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+ <p style="background-color: teal">box1: `teal`</p>  <p style="background-color: teal">box1: `teal`</p>  <p style="background-color: teal">box1: `teal`</p> 
+ <p style="background-color: teal">box1: `teal`</p> box2: `gold` box3: `cadetblue` box4: `coral` box5: `crimson`
+ box6: `forestgreen` box7: `darkorchid` box8: `hotpink` box9: `indigo` box10: `dodgerblue`
 
 ### About Page
 
