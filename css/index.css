@@ -58,6 +58,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    font-weight: 650;
     /* margin-bottom: 15px; */
     font-family: 'Rubik', sans-serif;
 }
@@ -72,6 +73,10 @@ p {
 }
 
 /* general styling below */
+
+.v-margin {
+    margin: 20px 0px;
+}
 
 header {
     display: flex;
