@@ -175,6 +175,38 @@ footer nav a {
     justify-content: center;
 }
 
+/* boxes */
+.middle-content .boxes .teal {
+    background: teal;
+}
+.middle-content .boxes .gold {
+    background: gold;
+}
+.middle-content .boxes .cadetblue {
+    background: cadetblue;
+}
+.middle-content .boxes .coral {
+    background: coral;
+}
+.middle-content .boxes .crimson {
+    background: crimson;
+}
+.middle-content .boxes .forestgreen {
+    background: forestgreen;
+}
+.middle-content .boxes .darkorchid {
+    background: darkorchid;
+}
+.middle-content .boxes .hotpink {
+    background: hotpink;
+}
+.middle-content .boxes .indigo {
+    background: indigo;
+}
+.middle-content .boxes .dodgerblue {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     /* margin: 0 2% 20px; */
