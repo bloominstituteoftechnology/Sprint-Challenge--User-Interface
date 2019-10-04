@@ -94,6 +94,7 @@ header nav a:hover{
     color: darkslategrey;
     text-transform: uppercase;
     text-decoration: underline;
+    opacity: 0.5;
 }
 /** for both pages header - end **/
 
@@ -225,7 +226,6 @@ button{
     text-align: center;
     margin-top: 20px;
 }
-
 /** styling for section boxes on about page - end **/
 
 .bottom-content {
@@ -241,6 +241,17 @@ button{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/** styling for work together section - start **/
+.work-together{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
 
 footer {
     width: 100%;
