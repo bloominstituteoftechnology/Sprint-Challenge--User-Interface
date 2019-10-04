@@ -1,4 +1,11 @@
-/*rationale: code is already over 100 lines with reset so slight deficency in stylesheet load is worth it*/
+/*rationale: code is already over 100 lines with reset
+ so slight deficency in stylesheet load is worth it*/
+
+/*_RESET*/ 
+@import "_reset.css";
+
+/*_BOXES*/
+@import "_boxes.css";
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -39,21 +46,6 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .bottom-content {
     display: flex;
@@ -89,42 +81,3 @@ footer nav a {
 }
 
 
-.box:nth-child(1) {
-    background-color: teal;
-}
-
-.box:nth-child(2) {
-    background-color: gold;
-}
-
-.box:nth-child(3) {
-    background-color: cadetblue;
-}
-
-.box:nth-child(4) {
-    background-color: coral;
-}
-
-.box:nth-child(5) {
-    background-color: crimson;
-}
-
-.box:nth-child(6) {
-    background-color: forestgreen;
-}
-
-.box:nth-child(7) {
-    background-color: darkorchid;
-}
-
-.box:nth-child(8) {
-    background-color: hotpink;
-}
-
-.box:nth-child(9) {
-    background-color: indigo;
-}
-
-.box:nth-child(10) {
-    background-color: dodgerblue;
-}
