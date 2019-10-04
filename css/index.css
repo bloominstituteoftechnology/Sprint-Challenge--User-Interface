@@ -133,7 +133,7 @@ nav a{
     justify-content: center;
 }
 
-.box1 {
+box1 {
      background-color: teal;
 }
 
@@ -171,3 +171,23 @@ footer nav a {
     text-decoration: none;
 }
 
+/* About CSS */
+
+
+.about {
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.tiles {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.tiles img {
+    display: flex;
+    
+}
