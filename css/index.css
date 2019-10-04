@@ -76,13 +76,14 @@ p {
     display: flex;
     justify-content: space-evenly;
     
+    
 }
 
 .top-menu {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     color: black;
+    justify-content: flex-end;
+    
     
 }
 .top-content {
@@ -111,20 +112,16 @@ p {
 
 .middle-content .boxes {
     display: flex;
-    justify-content: center; 
-     
+    align-items: center;
+    justify-content: space-between;
     
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
+    width:  100px;
     height: 100px;
-    
     margin: 20px 2.5%;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+ 
+    
 }
 
 .bottom-content {
