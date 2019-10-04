@@ -279,3 +279,21 @@ h2, h3 {
       width: 100%;
     }
 }
+
+.productMid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 1% solid black;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    align-content: center;
+  }
+
+  .design {
+    margin-top: 5%;
+    border: .5rem solid black;
+    width: 40%;
+    padding: 2%;
+  }
