@@ -38,6 +38,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+  > Elements with ```display: block;``` break surrounding content to new lines and will *expand* to fill their parent element when they don't have a specified size. Elements with ```display: inline;``` will "flow" on the page content (like text) and will *shrink* to their minimum required size; if they have a specified size, it is ignored.
+
 3. What are the 4 areas of the box model?
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
