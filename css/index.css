@@ -66,10 +66,27 @@ p {
     line-height: 1.4;
 }
 
+/* Global */
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* Navigation *//
+.navigation-style{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 0 40px 0;
+}
+.navigation-style a{
+    color:black;
+    text-decoration: none;
+}
+
+
+/* Top Content */
+
 
 .top-content {
     display: flex;
@@ -78,6 +95,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content img{
+    margin-bottom: 25px;
+}
 
 .top-content .text-container {
     width: 48%;
@@ -85,6 +105,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Middle Content */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +133,39 @@ p {
     justify-content: center;
 }
 
+/* Individual box styling */
+#box1{ 
+    background-color:teal;
+}
+#box2{ 
+    background-color:gold;
+}
+#box3{ 
+    background-color:cadetblue;
+}
+#box4{ 
+    background-color:coral;
+}
+#box5{ 
+    background-color: crimson;
+}
+#box6{ 
+    background-color: forestgreen;
+}
+#box7{ 
+    background-color: darkorchid;
+}
+#box8{ 
+    background-color: hotpink;
+}
+#box9{ 
+    background-color: indigo;
+}
+#box10{ 
+    background-color: dodgerblue;
+}
+
+/* Bottom Content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +179,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
@@ -143,4 +199,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/* ******* About Styling ******* */
+.top-content-about{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+.text-container-about{
+    width: 96%;
+    padding: 15px 1%;
+    padding-bottom: 20px;  
+}
+/* Middle content  */
+.middle-content-about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    width: 46%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+.card h3{
+    padding-top: 10px;
+}
+.card button{
+    padding: 9px 23px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: white;
+    margin: 10spx 0;
+}
+/* Last two cards extra margin-top */
+.card:nth-last-child(-n+2){
+    margin-top: 30px;
+}
+
+/* Bottom content */
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    margin-top: 50px;
+}
+.bottom-cta{
+    padding-left: 20px;
+    margin-bottom: 35px;
 }
