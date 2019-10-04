@@ -59,12 +59,14 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     font-weight: 650;
+    margin: 10px 0px;
     /* margin-bottom: 15px; */
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    padding: 10px;
 }
 
 .container {
@@ -77,10 +79,14 @@ p {
 .main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .v-margin {
     margin: 20px 0px;
+}
+.bottom-padding {
+    padding-bottom: 20px;
 }
 
 header {
