@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+  > Semantic HTML tags give standard(ish) meanings to common page elements so search engines, site aggregators, and accessibility engines (e.g. screen readers) can interpret them. These tags allow those tools to "understand" the content of the page without worrying about the layout and style.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
