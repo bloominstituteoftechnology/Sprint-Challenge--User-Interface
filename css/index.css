@@ -73,6 +73,38 @@ header {
     margin-top: 30px;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 690px;
+    margin-top: 15px;
+}
+
+header nav a {
+    display: inline-block;
+    font-size: 14px;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    opacity: 0.3;
+}
+
+header nav a:first-child {
+    margin-left: 50px;
+}
+
+header nav a:last-child {
+    margin-right: 35px;
+}
+
+header .logo {
+    display: inline-block;
+}
+
+
+
 
 .container {
     width: 800px;
@@ -112,7 +144,7 @@ header {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -152,3 +184,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.middle-content .boxes .box:nth-of-type(1){
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-of-type(2){
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3){
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4){
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5){
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7){
+    background:  darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(8){
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-of-type(9){
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-of-type(10){
+    background: dodgerblue;
+}
+
+

@@ -38,6 +38,7 @@ Semantic HTML is a way to give your html meaning and make it clear to understand
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Display: block; aligns items vertically and display: inline; aligns them horizontally.
 
 
 3. What are the 4 areas of the box model?
@@ -45,6 +46,8 @@ Semantic HTML is a way to give your html meaning and make it clear to understand
 Margin, border, padding, content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+The y-axis
 
 5. Explain why git is valuable to a team of developers.
 
