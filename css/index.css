@@ -144,3 +144,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*--------------------------------------
+    boxes
+--------------------------------------*/
+
+.box#box-1 {
+    background-color: Teal;
+}
+.box#box-2 {
+    background-color: Gold;
+}
+.box#box-3 {
+    background-color: CadetBlue;
+}
+.box#box-4 {
+    background-color: Coral;
+}
+.box#box-5 {
+    background-color: Crimson;
+}
+.box#box-6 {
+    background-color: ForestGreen;
+}
+.box#box-7 {
+    background-color: DarkOrchid;
+}
+.box#box-8 {
+    background-color: HotPink;
+}
+.box#box-9 {
+    background-color: Indigo;
+}
+.box#box-10 {
+    background-color: DodgerBlue;
+}
