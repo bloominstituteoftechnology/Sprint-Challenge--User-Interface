@@ -108,8 +108,9 @@ header .nav nav a {
     color: black;
 }
 
-.text-container{
-
+.dotted-bottom-border {
+    border-bottom: 1px dotted black;
+    padding-bottom: 15px;
 }
 .half-width{
     width: 45%;
