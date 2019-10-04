@@ -95,9 +95,9 @@ header nav a:hover{
     text-transform: uppercase;
     text-decoration: underline;
 }
-
 /** for both pages header - end **/
 
+/** picture at top of both pages **/
 .fillerpic, .fillerpic2{
     width: 100%;
     display: flex;
@@ -117,6 +117,20 @@ header nav a:hover{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+/** top content for about page **/
+.top-content2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content2 .text-container2{
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
