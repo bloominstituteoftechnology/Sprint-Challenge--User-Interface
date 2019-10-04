@@ -70,7 +70,28 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+/* HEADER */
+}
+/* HEADER NAV */
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
+}
+/* HEADER NAV */
 
+/* LOGO */
+.top-image {
+    margin-bottom: 20px;
+}
+/* LOGO */
 .top-content {
     display: flex;
     flex-wrap: wrap;
