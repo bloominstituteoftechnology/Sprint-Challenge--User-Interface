@@ -73,6 +73,11 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+@media screen and  (max-width: 799px) {
+    .container {
+        width: 100%;
+    }
+}
 
 /* general styling below */
 
