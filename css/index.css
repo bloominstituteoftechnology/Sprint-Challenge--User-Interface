@@ -75,7 +75,7 @@ header{
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 header nav{
@@ -94,6 +94,13 @@ header nav a:hover{
     color: darkslategrey;
     text-transform: uppercase;
     text-decoration: underline;
+}
+
+.fillerpic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .top-content {
