@@ -74,6 +74,47 @@ p {
   navbar
 --------------------------------------*/
 
+.navbar {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+
+  background-color: White;
+  color: Black;
+}
+.navbar .nav-wrapper {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.navbar nav {
+  width: 643px;
+  padding-bottom: 2.5px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.navbar nav a {
+  color: inherit;
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
 /*--------------------------------------
   header
 --------------------------------------*/
@@ -148,21 +189,27 @@ p {
 
 footer {
   width: 100%;
-  background: black;
+  background-color: black;
+  color: white;
 }
 
 footer nav {
   width: 60%;
+  padding: 20px 2%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 2%;
+  
   font-size: 14px;
 }
 
 footer nav a {
-  color: white;
+  color: inherit;
   text-decoration: none;
+}
+footer nav a:hover {
+  text-decoration: underline;
 }
 
 /*--------------------------------------
