@@ -37,20 +37,23 @@ Edit this document to include your answers after each question. Make sure to lea
 Semantic html means providing meaning to contents in html, so that it is easy for machines and human beings to understand.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-Inline block takes up much space,display inline does not.
 
+Inline block takes up much space,display inline does not.
 inline block breaks the flow of content, display inline does not
 
 3. What are the 4 areas of the box model?
+
 1.content
 2.border
 3,padding
 4.margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
 Cross axis
 
 5. Explain why git is valuable to a team of developers.
+
 Git is valuable because, it helps the developer to bea aware of what changes are made during development.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
@@ -107,7 +110,8 @@ In your solution, it is essential that you follow best practices and produce cle
 
 ## Stretch Problems
 
-After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals.
+After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
+i love this so much,so cool
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing 
