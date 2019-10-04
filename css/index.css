@@ -70,7 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/** for both pages header - start **/
 header{
     display: flex;
     justify-content: center;
@@ -96,7 +96,9 @@ header nav a:hover{
     text-decoration: underline;
 }
 
-.fillerpic{
+/** for both pages header - end **/
+
+.fillerpic, .fillerpic2{
     width: 100%;
     display: flex;
     justify-content: center;
