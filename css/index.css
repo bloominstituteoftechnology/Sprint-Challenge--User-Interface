@@ -81,13 +81,6 @@ hr {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
-.contact-image {
-    width: 800px;
-    height: 154px;
-    margin-bottom: 20px;
-}
-
 nav a {
     text-decoration: none;
     color: black;
@@ -146,10 +139,6 @@ button {
     cursor: pointer;
 }
 
-label {
-    display: block;
-    margin-top: 20px;
-}
 
 
 .middle-content {
