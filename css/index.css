@@ -248,3 +248,47 @@ footer nav a {
     padding-top: 30px;
     text-align: left;    
 }
+
+/* Contact CSS */
+
+.thanks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    }
+
+.thanks .text-container{
+    width: 75%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.thanks .text-container h2{
+    color: crimson;
+    font-size: 40px;
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width:100%;
+    padding: 12px;
+    border: 2px solid lightslategray;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #D3D3D3;
+    color:black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+
+input[type=submit]:hover {
+    background-color:#808080;
+}
+    
