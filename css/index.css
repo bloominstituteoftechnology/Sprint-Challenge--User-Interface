@@ -195,12 +195,16 @@ p {
     margin: 0 auto;
 }
 
+.erase {
+    border: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /* border-bottom: 1px dashed black; */
 }
 
 .top-content .text-container {
@@ -210,6 +214,7 @@ p {
 }
 
 .middle-content {
+    padding-top: 25px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -340,6 +345,37 @@ p {
 
 
 /*  boxes!! */
+
+.button {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.line-inside {
+    border-bottom: 1px dashed black;
+    padding: 15px;
+}
+
+.line-first-page {
+    border-top: 1px dashed black;
+    padding-bottom: 15px;
+}
+
+.line {
+    padding-bottom: 30px;
+}
+
+.about-text {
+    padding: 21px;
+}
+
+.section-text {
+    padding-top: 21px;
+    border-top: 1px dashed black;
+}
 
 .bottom-content {
     display: flex;
