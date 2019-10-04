@@ -42,6 +42,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What are the 4 areas of the box model?
 
+  > The 4 areas of the box model are, from the outside to the inside:
+  >
+  > 1. ```margin```
+  > 2. ```border```
+  > 3. ```padding```
+  > 4. ```content```
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 5. Explain why git is valuable to a team of developers.
