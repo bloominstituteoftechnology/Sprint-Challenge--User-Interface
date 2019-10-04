@@ -166,7 +166,7 @@ p {
 .main-header {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: row;
     margin-top: 25px;
 }
@@ -178,6 +178,7 @@ p {
 }
 
 .nav-link {
+    font-size: 15px;
     text-decoration: none;
     color: black;
 }
@@ -346,11 +347,20 @@ p {
 
 /*  boxes!! */
 
+.second-margin {
+    padding-top: 20px;
+}
+
+.adjustment {
+    margin-top: 30px;
+}
+
 .button {
+    font-size: 16px;
     margin-top: 20px;
     text-decoration: none;
-    padding: 8px 12px 8px 12px;
-    border-radius: 5px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
     border: 2px solid black;
 }
 
