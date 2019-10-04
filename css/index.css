@@ -74,7 +74,7 @@ p {
 
 /* general styling below */
 
-.about-main {
+.main {
     display: flex;
     flex-wrap: wrap;
 }
@@ -172,4 +172,13 @@ footer nav a {
     display: flex;
     /* margin: 0 2% 20px; */
     justify-content: space-around;
+}
+
+/* about styling below */
+
+.main button {
+    width: 30%;
+    height: 30px;
+    border-radius: 9px;
+    background: white;
 }
