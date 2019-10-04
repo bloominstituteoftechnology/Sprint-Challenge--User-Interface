@@ -55,6 +55,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
+  > Git allows teams of developers to collaborate by tracking all changes to projects, splitting ("branching") new channels ("branches") of a project from a primary channel/branch of a project, and mergeing those new branches back into its primary branch to create new versions. Branching and mergeing allow developers to independently make changes (including errors) on a new branch, so the primary branch (which may be a working website) is unaffected until the changes on the new branch are ready to be used on the primary branch.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
