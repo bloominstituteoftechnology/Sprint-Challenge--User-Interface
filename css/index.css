@@ -144,3 +144,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin: 17px 29px;
+}
+
+.lambda-logo {
+    margin: 20px 60px -10px 60px;
+}
+
+.home {
+    margin: 20px 60px;
+    color: black;
+}
+
+.about {
+    margin: 20px 60px;
+}
+
+.products {
+    margin: 20px 60px;
+}
+
+.blog {
+    margin: 20px 60px;
+}
+
+.contact {
+    margin: 220px 60px;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.navigation nav a {
+    color: black;
+    text-decoration: none;
+}
