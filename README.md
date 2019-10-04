@@ -39,6 +39,7 @@ Semantic html means providing meaning to contents in html, so that it is easy fo
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 Inline block takes up much space,display inline does not.
+
 inline block breaks the flow of content, display inline does not
 
 3. What are the 4 areas of the box model?
