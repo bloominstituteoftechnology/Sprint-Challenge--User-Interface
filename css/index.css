@@ -111,6 +111,10 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content img {
+    
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -206,7 +210,7 @@ p {
 
 .aboutInfo div {
     width: 390px;
-    margin: 4% 20px;
+    margin: 4% 2%;
 }
 
 #topRow{
