@@ -203,13 +203,48 @@ nav a {
     flex-wrap: wrap;
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     justify-content: center;
 }
 
 .header-text {
     width: 97%;
     margin-left: 10px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-img {
+    margin-bottom: 10px;
+}
+.content-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.learn-more-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.learn-more-button a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.bottom-content-about {
+    width: 97%;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
 
 footer {
