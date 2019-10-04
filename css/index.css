@@ -224,3 +224,34 @@ hr{
     color: black;
 
 }
+
+.midwrapper{
+    display: flex;
+	flex-direction:row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-self: center;
+}
+.m2{
+    box-sizing: border-box;
+    border: none;
+    width:45%;
+    justify-content: left;
+    padding-top: 30px;
+
+}
+.learnmore{
+    background-color: white;
+	font-size: 14px;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid black;
+	margin: 20px;
+	border-radius: 8px;
+}
+.letswork{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+}
