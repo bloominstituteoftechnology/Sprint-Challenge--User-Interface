@@ -1,7 +1,7 @@
 /*rationale: code is already over 100 lines with reset
  so slight deficency in stylesheet load is worth it*/
 
-/*_RESET*/ 
+/*_RESET*/  
 @import "_reset.css";
 
 /*_BOXES*/
@@ -78,6 +78,22 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2.3em;
+   
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    border-bottom: 2px dotted black
 }
 
 

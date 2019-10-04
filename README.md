@@ -49,23 +49,22 @@ You are expected to be able to answer all these questions. Your responses contri
 
 
 <h2 align="center">Requirements</h2>
-<h2><b><code>/homepage</b></h2>
+<h2><b><code>/homepage</b></code></h2>
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 <ul>
  <li>Build the HTML and CSS to create the missing navigation and header.
  <li>Link the `About` navigation item to the [about.html](about.html) page
 
-You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
- <p style="background-color: teal">box1: `teal`</p>  <p style="background-color: teal">box1: `teal`</p>  <p style="background-color: teal">box1: `teal`</p> 
- <p style="background-color: teal">box1: `teal`</p> box2: `gold` box3: `cadetblue` box4: `coral` box5: `crimson`
- box6: `forestgreen` box7: `darkorchid` box8: `hotpink` box9: `indigo` box10: `dodgerblue`
+ <code>box1: teal</code>|<code>box2: gold</code><code>box3: cadetblue</code><code>box4: coral</code><code>box5: crimson</code><r>
+ <code>box6: forestgreen</code><code>box7: `darkorchid` box8: `hotpink` box9: `indigo` box10: `dodgerblue`
 
-### About Page
+<h2><b><code>/aboutpage</b></code></h2>
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
+<ul>
+ <li> Copy and paste your home page navigation and header into the about page
 * [ ] Update the header image with the about page image
 * [ ] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
@@ -80,3 +79,4 @@ After finishing your required elements, you can push your work further. These go
  <li>Introduce CSS animations to your site.
  <li>Build a contact page and create a form with several inputs of your choosing
  <li> Add responsive breakpoints to your code by using media queries
+</ul>
