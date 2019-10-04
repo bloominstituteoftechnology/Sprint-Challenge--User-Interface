@@ -66,6 +66,14 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
