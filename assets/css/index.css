@@ -87,8 +87,8 @@ header nav {
     padding: 2.3em;
 }
 
-header + p {
-    margin: 15px;
+header p, header h2 {
+    margin: 25px;
 }
 header nav a {
     text-decoration: none;
@@ -135,4 +135,8 @@ section {
 .row section {
     border-bottom: 2px dashed black;
     margin: 12px;
+}
+
+header section { 
+    border-bottom: 2px dashed black;
 }
