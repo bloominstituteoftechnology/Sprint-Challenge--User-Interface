@@ -57,7 +57,7 @@ Cross axis
 Git is valuable because, it helps the developer to bea aware of what changes are made during development.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
-questions answered
+
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
@@ -107,7 +107,6 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
-/finished README.md questions/
 ## Stretch Problems
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
