@@ -83,6 +83,16 @@ header nav a {
     color: black;
 }
 
+header nav a:hover {
+      background:white;
+      color: black;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 16px;
+      margin: 1px 2px;
+      transition: 0.5s;
+    }
+
 header div {
     display: flex;
     flex-direction: column;
