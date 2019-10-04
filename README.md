@@ -48,7 +48,7 @@ content. Padding. Border. Margin
 cross axis.
 
 5. Explain why git is valuable to a team of developers.
-Git makes it so a team of different people can all work on a project together without getting in each others way. In short Git helps with version control. 
+Git makes it so a team of different people can all work on a project together without getting in each others way. In short Git helps with version control.     
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
