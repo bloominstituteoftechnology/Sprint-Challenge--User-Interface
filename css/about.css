@@ -1,3 +1,4 @@
+
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -8,6 +9,7 @@
 .top-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 690px;
     margin-top: 15px;
 }
@@ -21,6 +23,14 @@
 
 top-nav a:hover {
     opacity: 0.3;
+}
+
+top-nav a:first-child {
+    margin-left: 50px;
+}
+
+top-nav a:last-child {
+    margin-right: 35px;
 }
   
   .top-img {
@@ -37,6 +47,10 @@ top-nav a:hover {
     margin: 0 auto;
     margin-top: 5px;
   }
+
+ hr {
+  border: 1px dashed black;
+ }
   
   .top-content {
     display: flex;
@@ -52,6 +66,7 @@ top-nav a:hover {
     padding-bottom: 20px;
   }
   
+ 
   .middle-content {
     margin-bottom: 20px;
     margin-top: 1em;
@@ -80,6 +95,7 @@ top-nav a:hover {
     justify-content: center;
   }
   
+
 
   .bottom-content {
     display: flex;
@@ -142,7 +158,7 @@ top-nav a:hover {
   
   .box img {
     height: auto;
-    max-width: 250px;
+    max-width: 350px;
     border-radius: 0.5%;
     margin: 1.3%;
   }
