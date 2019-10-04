@@ -1,12 +1,13 @@
 /*rationale: code is already over 100 lines with reset
  so slight deficency in stylesheet load is worth it*/
 
-/*_RESET*/  
+/*_RESET*/
+
 @import "_reset.css";
-
 /*_BOXES*/
-@import "_boxes.css";
 
+@import "_boxes.css";
+@import "_animations.css";
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -33,7 +34,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -45,7 +46,6 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 
 .bottom-content {
     display: flex;
@@ -83,8 +83,8 @@ footer nav a {
 header nav {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
     padding: 2.3em;
-   
 }
 
 header nav a {
@@ -93,7 +93,11 @@ header nav a {
 }
 
 header nav a:hover {
-    border-bottom: 2px dotted black
+    -webkit-animation: text-blur-out 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s infinite alternate-reverse forwards;
+    animation: text-blur-out 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s infinite alternate-reverse forwards;
 }
 
-
+button {
+    background: white;
+    border-radius: 10px;
+}
