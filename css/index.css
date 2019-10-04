@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    line-height: 25px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -206,4 +207,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#about{
+    width: 800px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed black;
+}
+
+#aboutjumbo img{
+    margin-bottom: 15px;
+}
+
+#aboutcontainer{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aboutbox{
+    width: 370px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutbox img{
+    margin-bottom: 5px;
+}
+
+.learnmore{
+    width: 140px;
+    margin-top: 15px;
+    padding: 5px 15px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 10px;
 }
