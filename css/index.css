@@ -74,6 +74,11 @@ p {
 
 /* general styling below */
 
+.about-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .v-margin {
     margin: 20px 0px;
 }
@@ -95,6 +100,16 @@ header .nav nav {
 header .nav nav a {
     text-decoration: none;
     color: black;
+}
+
+.text-container{
+
+}
+.half-width{
+    width: 45%;
+}
+.third-width{
+    width: 32%;
 }
 
 footer {
@@ -124,12 +139,6 @@ footer nav a {
     justify-content: space-evenly;
     /* margin-bottom: 20px; */
     border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    /* padding: 0 1%;
-    padding-bottom: 20px;   */
 }
 
 .middle-content {
@@ -163,12 +172,4 @@ footer nav a {
     display: flex;
     /* margin: 0 2% 20px; */
     justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    /* padding-right: 4%; */
-}
-
-.bottom-content .text-container:last-child {
-    /* padding-right: 0; */
 }
