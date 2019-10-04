@@ -34,16 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html means providing meaning to contents in html, so that it is easy for machines and human beings to understand.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Inline block takes up much space,display inline does not.
+
+inline block breaks the flow of content, display inline does not
 
 3. What are the 4 areas of the box model?
+1.content
+2.border
+3,padding
+4.margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Cross axis
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable because, it helps the developer to bea aware of what changes are made during development.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
-
+questions answered
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.
@@ -84,9 +95,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
-
 ### About Page
-
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
 * [ ] Copy and paste your home page navigation and header into the about page
@@ -98,9 +107,8 @@ In your solution, it is essential that you follow best practices and produce cle
 
 ## Stretch Problems
 
-After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
-
+After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals.
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
-* [ ] Build a contact page and create a form with several inputs of your choosing
+* [ ] Build a contact page and create a form with several inputs of your choosing 
 * [ ] Add responsive breakpoints to your code by using media queries
