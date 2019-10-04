@@ -116,11 +116,11 @@ button:hover {
     color: white;
 }
 
-.about-page {
+.row {
     display: flex;
     flex-direction: row;
 }
 
-.about-page .col {
+.col {
     flex-direction: column;
 }
