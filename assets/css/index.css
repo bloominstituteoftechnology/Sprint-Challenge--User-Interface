@@ -87,6 +87,9 @@ header nav {
     padding: 2.3em;
 }
 
+header + p {
+    margin: 15px;
+}
 header nav a {
     text-decoration: none;
     color: black;
@@ -106,8 +109,8 @@ button {
     text-align: center;
     text-decoration: none;
     outline: none;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
 
 }
 
@@ -123,4 +126,13 @@ button:hover {
 
 .col {
     flex-direction: column;
+}
+
+section {
+    padding: 2em;
+}
+
+.row section {
+    border-bottom: 2px dashed black;
+    margin: 12px;
 }
