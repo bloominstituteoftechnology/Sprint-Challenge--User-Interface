@@ -183,13 +183,13 @@ p {
 }
 
 .container {
-  /* width: 800px; */
-  /* margin: 0 auto; */
-  /* display:inline-block; */
-  /* text-align: center; */
-  /* width:275px; */
+  width: 800px;
+  margin: 0 auto;
   /* display: inline-block; */
-  /* margin-right 12px; */
+  /* text-align: center; */
+  width: 827px;
+  /* display: inline-block; */
+  /* margin-right: 12px; */
 }
 
 .top-content {
@@ -214,7 +214,7 @@ p {
   border-bottom: 1px dashed black;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .middle-content h2 {
