@@ -98,8 +98,8 @@ header nav a:hover{
 }
 /** for both pages header - end **/
 
-/** picture at top of both pages **/
-.fillerpic, .fillerpic2{
+/** picture at top of all pages **/
+.fillerpic, .fillerpic2, .fillerpic3{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -271,3 +271,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/** styling for products page **/
+
+.fillerpic3 img{
+    width: 100%;
+    height: auto;
+}
+
+/** top content for products page -start **/
+.top-content3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content3 .text-container3{
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+/** top content for products page - end **/
