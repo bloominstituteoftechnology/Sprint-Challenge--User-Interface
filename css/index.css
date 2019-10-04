@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin: 0 auto;
+    width: 800px;
+    
 }
 ol, ul {
 	list-style: none;
@@ -194,4 +197,30 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About-Page*/
+.about-wrapper
+{}
+.content2{
+    width: 800px
+    
+    margin: 0 auto;
+    /*display: flex;
+    justify-content: space-evenly;*/
+}
+
+/* hr {
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 95%;
+	margin: 60px 0 0 0;
+    border: none;
+}*/
+hr{
+    border-style: dashed;
+    height: 1px;
+    color: black;
+
 }
