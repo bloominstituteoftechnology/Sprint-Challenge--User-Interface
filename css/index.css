@@ -66,6 +66,23 @@ p {
     line-height: 1.4;
 }
 
+.navigation{
+	display: flex;
+	justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: flex-end;
+    width: 1000px;
+    margin: 30px auto 30px;
+}
+
+.top-img {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -81,6 +98,11 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.about-paragraph {
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -104,12 +126,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+ /* box coloring  */
+.box1 {
+    background:teal;
+}
+
+.box2 {
+    background:gold;
+}
+
+.box3 {
+    background:cadetblue;
+}
+
+.box4 {
+    background:coral;
+}
+
+.box5 {
+    background:crimson;
+}
+
+.box6 {
+    background:forestgreen;
+}
+
+.box7 {
+    background:darkorchid;
+}
+
+.box8 {
+    background:hotpink;
+}
+
+.box9 {
+    background:indigo;
+}
+.box10 {
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +206,46 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Flexboxing the about page squares */
+
+.learnMore {
+    border-radius: 15px;
+    border-width: thin;
+    padding: 15px;
+    border: solid;
+    width: 40%;
+}
+
+.fourImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.Square {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-bottom: 10%;
+    width: 40%;
+    margin: 5%
+}
+
+
+/* background animation feel free to comment out */
+/* */
+body {background: linear-gradient(157deg, #f50202, #0ef502, #9302f5);
+    background-size: 600% 600%;
+    
+    animation: AnimationName 4s ease infinite;
+    
+    }
+    
+    @keyframes AnimationName { 
+        0%{background-position:0% 4%}
+        50%{background-position:100% 97%}
+        100%{background-position:0% 4%}
+    }
+/* 
+*/
