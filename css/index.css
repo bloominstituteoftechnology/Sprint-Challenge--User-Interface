@@ -76,6 +76,7 @@ p {
 @media screen and  (max-width: 799px) {
     .container {
         width: 100%;
+        margin: 0px 10px;
     }
 }
 
@@ -111,6 +112,7 @@ header .nav nav {
 header .nav nav a {
     text-decoration: none;
     color: black;
+    padding-left: 10px;
 }
 
 .dotted-bottom-border {
@@ -119,9 +121,14 @@ header .nav nav a {
 }
 .half-width{
     width: 45%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
+
 .third-width{
     width: 32%;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -141,6 +148,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media screen and  (max-width: 500px) {
+    .third-width {
+        width: 100%;
+    }
+}
+
+@media screen and  (max-width: 600px) {
+    header .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header .nav img {
+        width: 40%;
+    }
+    header .nav nav {
+        width: 100%;
+        margin: 15px;
+    }
+}
+
+@media screen and  (max-width: 700px) {
+    .half-width {
+        width: 100%;
+    }
+    section.main {
+        justify-content: center;
+    }
 }
 
 /* index.html-specific styling below */
@@ -178,6 +214,11 @@ footer nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media screen and  (max-width: 600px) {
+    .middle-content .boxes .box {
+        width: 35%;
+    }
 }
 
 /* boxes */
