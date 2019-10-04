@@ -255,6 +255,7 @@ footer nav a {
 
 .bottom-content {
     display: flex;
+    flex-wrap: wrap;
     /* margin: 0 2% 20px; */
     justify-content: space-around;
 }
