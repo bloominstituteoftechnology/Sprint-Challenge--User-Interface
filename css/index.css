@@ -297,3 +297,41 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+
+.parent-container1 {
+    display: flex;
+    padding: 20px;
+    border-top: 1px dashed black;
+}
+
+.parent-container2 {
+    display: flex;
+}
+
+.about-intro {
+    margin-bottom: 20px;
+}
+
+.child-container {
+    margin: 15px;
+    border-bottom: 1px dashed black;
+}
+
+.four-images {
+    margin-bottom: 10px;
+}
+
+button {
+    border: 3px solid black;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.closing {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
