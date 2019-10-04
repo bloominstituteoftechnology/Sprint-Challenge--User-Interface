@@ -8,6 +8,80 @@
 
 @import "_boxes.css";
 @import "_animations.css";
+:root {
+    --light-switch-shadow: #373d4e;
+    --light-switch-icon: "🌚";
+    --light-switch-text: "";
+    …
+    /* Dark mode */
+    --dark-switch-shadow: #fce477;
+    --dark-switch-icon: "🌝";
+    --dark-switch-text: "";
+    …
+    /* Default mode */
+    --switch-shadow-color: var(--light-switch-shadow);
+    --switch-icon: var(--light-switch-icon);
+    --switch-text: var(--light-switch-text);
+    /* Light mode */
+    --light-text: #222430;
+    --light-bg: #f7f7f7;
+    --light-theme: #d34a97;
+    /* Dark mode */
+    --dark-text: #f7f7f7;
+    --dark-bg: #222430;
+    --dark-theme: #bd93f9;
+    /* Default mode */
+    --text-color: var(--light-text);
+    --bg-color: var(--light-bg);
+    --theme-color: var(--light-theme);
+}
+
+#page {
+    background: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+label:hover {
+    cursor: pointer;
+}
+
+.theme-switch:checked~#page {
+    --switch-shadow-color: var(--dark-switch-shadow);
+    --switch-icon: var(--dark-switch-icon);
+    --switch-text: var(--dark-switch-text);
+    --text-color: var(--dark-text);
+    --bg-color: var(--dark-bg);
+    --theme-color: var(--light-theme);
+}
+
+.theme-switch {
+    position: fixed !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.switch-label::before {
+    content: var(--switch-icon);
+    font-size: 40px;
+    transition: text-shadow .7s;
+}
+
+.switch-label::after {
+    content: var(--switch-text);
+    color: var(--switch-shadow-color);
+}
+
+.theme-switch:focus~#page .switch-label::before, .switch-label:hover::before {
+    text-shadow: 0 0 15px var(--switch-shadow-color);
+}
+body label {
+    display: flex;
+    justify-content: center;
+    padding-top: 19px;
+    position: fixed;
+    z-index: 10000;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -90,6 +164,7 @@ header nav {
 header p, header h2 {
     margin: 25px;
 }
+
 header nav a {
     text-decoration: none;
     color: black;
@@ -109,9 +184,8 @@ button {
     text-align: center;
     text-decoration: none;
     outline: none;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-
 }
 
 button:hover {
@@ -137,6 +211,11 @@ section {
     margin: 12px;
 }
 
-header section { 
+header section {
     border-bottom: 2px dashed black;
+}
+input[type=text] {
+    padding: 3em 7em; 
+    margin: 8px 0;
+    width: 100%;
 }
