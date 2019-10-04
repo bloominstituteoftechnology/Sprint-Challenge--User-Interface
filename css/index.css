@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -54,6 +55,21 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    justify-content: flex-end;
+    margin: 4% 4%;
 }
 
 h1, h2, h3, h4, h5 {
