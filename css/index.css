@@ -167,11 +167,33 @@ header nav a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 .strategy, .how-we-work, .places, .collaboration{
     width: 47%;
     border-bottom: 1px dashed black;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+
+.places, .collaboration{
+    margin-top: 55px;
+}
+
+.info-boxes h2{
+    margin-top: 10px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
 }
 
 /** styling for section boxes on about page - end **/
