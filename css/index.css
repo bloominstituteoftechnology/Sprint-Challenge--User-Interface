@@ -119,7 +119,7 @@ header nav a:hover{
     padding-bottom: 20px;  
 }
 
-/** top content for about page **/
+/** top content for about page -start **/
 .top-content2{
     display: flex;
     flex-wrap: wrap;
@@ -132,6 +132,8 @@ header nav a:hover{
     padding: 0 1%;
     padding-bottom: 20px;
 }
+/** top content for about page - end **/
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -159,6 +161,20 @@ header nav a:hover{
     align-items: center;
     justify-content: center;
 }
+
+/** styling for section boxes on about page - start **/
+.info-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.strategy, .how-we-work, .places, .collaboration{
+    width: 47%;
+    border-bottom: 1px dashed black;
+}
+
+/** styling for section boxes on about page - end **/
 
 .bottom-content {
     display: flex;
