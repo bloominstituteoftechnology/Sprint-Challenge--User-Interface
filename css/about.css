@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -99,11 +99,8 @@ a {
 
 .strategy-work{
     display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    align-items: flex-start;
+    
 }
 
 p{
@@ -112,12 +109,11 @@ p{
     
 
 }
+ footer{
+     margin: 0 50px 0 50px;
+ }
 
 
 
-.together{
-    display: flex;
-    padding: 20px 5px 20px 5px;
-    margin-bottom: 20px; 
-    border-bottom: 1px dashed black;
-}
+
+    
