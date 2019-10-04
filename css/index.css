@@ -264,3 +264,61 @@ header nav a:hover {
 .headerimg img {
   margin: 30px;
 }
+
+.about-about {
+  padding-bottom: 32px;
+  margin-bottom: 8px;
+  border-bottom: 1px dashed black;
+}
+
+.about-about div {
+  display: flex;
+  flex-flow: row wrap;
+  height: 80px;
+  margin: 16px;
+}
+
+.aboutcontentimgs {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 8px;
+}
+
+.topcontent-about {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.topcontent-about div {
+  width: 45%;
+  border-bottom: 1px dashed black;
+  margin: 16px 0;
+  padding: 16px 0;
+}
+
+button {
+  font-size: 12pt;
+  text-align: center;
+  margin-top: 2%;
+  background-color: white;
+  border: 2px solid #000;
+  text-decoration: none;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button a:hover {
+  color: darkslategray;
+}
+
+.lowercontent {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100px;
+  margin: 24px;
+}
