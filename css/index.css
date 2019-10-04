@@ -195,6 +195,23 @@ nav a {
     padding-right: 0;
 }
 
+
+/* Here be the styles for the About page. */
+
+.about-header {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.header-text {
+    width: 97%;
+    margin-left: 10px;
+}
+
 footer {
     width: 100%;
     background: black;
