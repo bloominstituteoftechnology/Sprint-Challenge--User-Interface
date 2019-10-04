@@ -365,6 +365,7 @@ header nav a:hover {
 
 .headerimg img {
   margin: 30px;
+  border-radius: 5px;
 }
 
 .about-about {
@@ -423,4 +424,38 @@ button a:hover {
   flex-flow: row wrap;
   height: 100px;
   margin: 24px;
+}
+
+/*below is the css for contact.html*/
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: forestgreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+
+.contactcontainer {
+  border-radius: 5px;
+  background-color: lightgrey;
+  padding: 20px;
 }
