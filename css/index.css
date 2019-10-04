@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    color: darkslategrey;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
