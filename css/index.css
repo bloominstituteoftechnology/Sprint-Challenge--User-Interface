@@ -209,12 +209,16 @@ footer nav a {
     text-decoration: none;
 }
 
-#about{
+#about, #worktogether{
     width: 800px;
     padding: 0 20px;
-    padding-bottom: 20px;
     margin-bottom: 30px;
     box-sizing: border-box;
+
+}
+
+#about{
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
