@@ -101,3 +101,12 @@ button {
     background: white;
     border-radius: 10px;
 }
+
+.about-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-page .col {
+    flex-direction: column;
+}
