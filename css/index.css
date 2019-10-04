@@ -286,9 +286,17 @@ header img {
     margin-top:20px;
     margin-bottom:10px
 }
-.about-middle-content{
+.about-text-container {
     display:flex;
     flex-direction: column;
     margin: 0 2% 20px;
     font-weight:bold;
+}
+article{
+position:top;
+width:100%;
+height:379px;
+margin-bottom:30px;
+display:flex;
+}
 }
