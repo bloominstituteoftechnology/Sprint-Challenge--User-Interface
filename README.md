@@ -1,30 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
-
-## Instructions
-
-**Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
-
-This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
-
-You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, CSS flexbox module, and git.
-
-You have three hours to complete this challenge. Plan your time accordingly.
-
-## Commits
-
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
-
-## Description
-
-In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
-
-In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
-
-[Click here for the home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
-
-[Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
 ## Self-Study Questions
 
@@ -34,13 +8,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML gives meaning to a webpage as opposed to just how it is presented. An <h1> tag lets other people know that the heading is important as well as allowing the computer to display it properly..
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+```display: block;``` indicates that an element is block level and will take up the entire width of it's line. It's height and all box model properties can be adjusted. ```display: inline;``` will allow an element to display inline, for example in the middle of a paragraph. The height and width properties are not valid on inline elements.  
 
 3. What are the 4 areas of the box model?
 
+    * Content
+    * Padding
+    * Border
+    * Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    Cross-axis
 
 5. Explain why git is valuable to a team of developers.
+   
+  Git has many advantages for growing teams. Git allows developers to create a history of changes that occur over time in their code. Additionally, since commits are made through the terminal, no network connection is required to view commit history and compare files.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
