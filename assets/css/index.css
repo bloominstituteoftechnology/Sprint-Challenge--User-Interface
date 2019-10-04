@@ -6,8 +6,8 @@
 @import "_reset.css";
 /*_BOXES*/
 
-@import "_boxes.css";
-@import "_animations.css";
+@import "/_boxes.css";
+@import "/_animations.css";
 :root {
     --light-switch-shadow: #373d4e;
     --light-switch-icon: "🌚";
