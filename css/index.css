@@ -293,3 +293,32 @@ footer nav a {
     padding-bottom: 20px;
 }
 /** top content for products page - end **/
+
+
+
+.product-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.android, .data-science, .fullstack, .java-backend, .user-exp, .ios{
+    width: 47%;
+    border-bottom: 1px dashed black;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+/**
+.places, .collaboration{
+    margin-top: 55px;
+}
+**/
+.product-boxes h2{
+    margin-top: 10px;
+}
+
+.product-boxes img{
+    width: 100%;
+}
