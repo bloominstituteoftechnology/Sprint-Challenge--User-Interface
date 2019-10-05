@@ -310,15 +310,27 @@ footer nav a {
     padding-bottom: 20px;
     line-height: 1.2;
 }
-/**
-.places, .collaboration{
-    margin-top: 55px;
+
+.fullstack, .java-backend, .user-exp, .ios{
+    margin-top: 35px;
 }
-**/
+
 .product-boxes h2{
     margin-top: 10px;
 }
 
 .product-boxes img{
     width: 100%;
+}
+
+.data-science img{
+    height: 246.75px;
+}
+
+.java-backend img{
+    height: 195.219px;
+}
+
+.ios img{
+    height: 251.156px;
 }
