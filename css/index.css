@@ -261,14 +261,14 @@ footer nav a {
 .thanks .text-container{
     width: 75%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;         
 }
 
 .thanks .text-container h2{
     color: crimson;
     font-size: 40px;
     text-align: center;
-}
+            }
 
 input[type=text], select, textarea {
     width:100%;
