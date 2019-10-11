@@ -115,6 +115,37 @@ section>img {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .b0s1 {
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    background-color: gold;
+        }
+        .midde-content .boxes .box3 {}
+    
+        .middle-content .boxes .box4 {
+        background-color: coral;
+        }
+        .middle-content .boxes .box5 {
+            background-color: crimson;
+        }
+        .middle-content .boxes .box6 {
+        background-color: forestgreen;
+        }
+        .middle-content .boxes .box7 {
+            background-color: darkorchid;
+        }
+        .middle-content .boxes .box8 {
+            background-color: hotpink;
+        }   
+         .middle-content .boxes .box9 {
+             background-color: indigo;
+        }
+        .middle-content .boxes .box10 {
+        background-color: dodgerblue;
+        }
+
+
 
 .bottom-content {
     display: flex;
