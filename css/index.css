@@ -69,6 +69,22 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-size: 14px;
+}
+
+.heading-text {
+    margin-top: 20px;
+}
+
+.heading-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 41px;
+}
+
+.heading-pic {
+    margin-top: 40px; 
 }
 
 .top-content {
@@ -82,7 +98,13 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 20px;  
+    font-size: 16px;
+}
+
+.top-content .text-container h2 {
+    font-size: 18px;
 }
 
 .middle-content {
