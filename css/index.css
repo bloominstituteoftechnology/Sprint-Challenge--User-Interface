@@ -144,3 +144,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*................................Joseph Nguyen's code..................*/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+    
+    
+}
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+        nav a {
+            text-decoration: none;
+            color: black;
+        }
+
+.under-header {
+   display: flex;
+   justify-content: center;
+   margin: 2%;
+}
