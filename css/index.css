@@ -173,9 +173,9 @@ header nav a{
     margin-bottom: 25px;
 }
 
-.boxes .box{
-    color: red;
-}
+/* .boxes.box{
+    background-color: white;
+} */
 
 .about-top-content{
     margin-bottom: 25px;
@@ -216,3 +216,4 @@ hr {
     justify-content: center;
     margin-bottom:25px;
 }
+
