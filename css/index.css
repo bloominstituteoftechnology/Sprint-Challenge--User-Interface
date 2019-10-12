@@ -178,3 +178,13 @@ header nav a:hover {
 header img {
     width:  100px;
 }
+
+.about-header-img {
+    width: 100%;
+}
+
+
+.container-about {
+    margin:  20px 0;
+}
+
