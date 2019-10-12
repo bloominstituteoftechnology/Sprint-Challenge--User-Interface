@@ -188,56 +188,21 @@ button {
     margin: 3%;
     margin-left: 0%;
 }
-.group1 {
+
+
+.body-container {
     display: flex;
-    width:100%;
-    margin:
+
 }
 
-    .Strategy {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 3%;
-        padding-bottom: 2%;
-        border-bottom: 2px dotted black;
-        
-    }
+.Strategy {
+  
+    margin: 3%;
+    padding-bottom: 2%;
+    border-bottom: 2px dotted black;
+    
+}
 
-    .Strategy1 {
-        
-        display: flex;
-        flex-wrap: wrap;
-        margin: 3%;
-        padding-bottom: 2%;
-        border-bottom: 2px dotted black;
-        
-    }
-
-.group2 {
-        display: flex;
-        width:100%;
-        
-    }
-    
-    .Strategy3 {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 3%;
-        padding-bottom: 2%;
-        border-bottom: 2px dotted black;
-        
-    }
-    
-    .Strategy4 {
-        
-        margin: 3%;
-        padding-bottom: 2%;
-        padding-left:3%;
-        border-bottom: 2px dotted black;
-            
-            
-        }
-    
 .group3 {
     margin: 3%;
     margin-top: 0%;
