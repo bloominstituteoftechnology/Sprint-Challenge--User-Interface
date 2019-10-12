@@ -169,10 +169,48 @@ section p {
     padding-bottom: 5px;
 }
 
-.section1 .strategy-container {
+.img-about-plan {
+    
+    width:20%;
+    width: 25%;
+}
+.strategy-container {
     display:flex;
-    border: solid red 1px;
-    width: 75px;
-    height: 75px;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 35%;
+    margin: 20;
+    padding-top: 5px;
+    margin-bottom:2%;
+}
+
+.how-we-work-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 25%;
     padding-top: 10px;
+    margin-bottom:2%;
+}
+
+.Places-we-work-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 25%;
+    padding-top: 10px;
+    margin-bottom:2%;
+}
+
+.Collaboration {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: 35%;
+    height: 25%;
+    padding-top: 10px;
+    margin-bottom:2%;
 }
