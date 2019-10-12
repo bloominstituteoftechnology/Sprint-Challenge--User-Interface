@@ -257,7 +257,12 @@ footer nav a {
     border: 2px solid black;
     padding: 10px 20px;
     font-size: 16px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px; 
+}
+
+.learn-button:hover {
+    animation-name: toggle;
+    animation-duration: 3s;  
 }
 
 .about-bottom-content {
@@ -267,4 +272,9 @@ footer nav a {
 .about-bottom-content p {
     font-size: 16px;
     margin-bottom: 40px;
+}
+
+@keyframes toggle {
+    from {background-color: white;}
+    to {background-color: orange;}
 }
