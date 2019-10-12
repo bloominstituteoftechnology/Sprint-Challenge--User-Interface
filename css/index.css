@@ -188,3 +188,37 @@ header img {
     margin:  20px 0;
 }
 
+
+.container-4rows {
+
+    border-top: 1px dashed black;
+    padding: 30px 0;
+    margin: 20px 0;
+
+}
+
+.about-rows {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 30px 0;
+}
+
+.about-rows {
+    display: flex;
+	justify-content: space-between;
+}
+
+.about-box {
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+}
+
+.about-box a {
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 35%;
+    margin-top: 20px;
+
+}
