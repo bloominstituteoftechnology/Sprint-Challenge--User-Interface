@@ -66,6 +66,20 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    font-size: 14px;
+}
+
+img {
+    margin-left: 311px;
+    padding-bottom: 12px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,14 +126,19 @@ p {
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
 .bottom-content .text-container {
+    width: 33%;
     padding-right: 4%;
+    padding-bottom: 10px;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +162,17 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+section p {
+    border-bottom: dotted black 1px;
+    padding-bottom: 5px;
+}
+
+.section1 .strategy-container {
+    display:flex;
+    border: solid red 1px;
+    width: 75px;
+    height: 75px;
+    padding-top: 10px;
 }
