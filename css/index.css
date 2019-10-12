@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.container header nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0px;
+	padding: 10px 0;
+	margin-bottom: 10px;	
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: black
+}
+
+header nav a:hover {
+	color: blueviolet;
+  }
+
+
+header img {
+    width:  100px;
+}
