@@ -171,7 +171,7 @@ header nav a {
 }
 
 header nav a:hover {
-	color: blueviolet;
+	color: rgb(163, 163, 235);
   }
 
 
@@ -186,16 +186,18 @@ header img {
 
 .container-about {
     margin:  20px 0;
+    padding: 20px;
+    border-bottom: 1px dashed black;
 }
 
 
-.container-4rows {
-
-    border-top: 1px dashed black;
-    padding: 30px 0;
-    margin: 20px 0;
+.container-2rows {
+    display: flex;
+ 
+ 
 
 }
+
 
 .about-rows {
     display: flex;
@@ -206,19 +208,36 @@ header img {
 
 .about-rows {
     display: flex;
-	justify-content: space-between;
+    flex-direction: column;
+	justify-content: space-evenly;
 }
 
 .about-box {
-    border-bottom: 1px dashed black;
+    display: flex;
+	flex-direction: column;
     margin: 20px 0;
+    border-bottom: 1px dashed black;
 }
 
 .about-box a {
+    color: black;
     text-decoration: none;
+    border:  1px solid black;
     border-radius: 5px;
     text-align: center;
-    width: 35%;
-    margin-top: 20px;
+    padding: 10px 10px;
+    width: 30%;
+    margin: 20px 0;
+}
 
+.about-box a:hover{
+    background-color: rgb(163, 163, 235);
+}
+
+.letsworktogether {
+    margin-bottom: 40px;
+}
+
+footer nav a:hover {
+    color: rgb(163, 163, 235);
 }
