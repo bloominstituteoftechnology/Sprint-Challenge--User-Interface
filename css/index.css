@@ -183,7 +183,6 @@ header nav a{
 
 hr {
     border-top:2px dotted #000;
-    /*Rest of stuff here*/
 }
 
 .about-content{
@@ -196,4 +195,24 @@ hr {
     width: 45%;
     margin: 2%;
     padding: 1%;
+}
+
+.learn-button{
+    display: flex;
+    height: 45px;
+    width: 125px;
+    border: 1px solid black;
+    border-radius: 11px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-footer-content{
+    display: flex;
+    width: 99%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:25px;
 }
