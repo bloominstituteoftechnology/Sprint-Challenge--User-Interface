@@ -80,7 +80,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-top: 15px;
+    padding-top: 15px;   
 }
 
 header nav a {
@@ -92,6 +92,49 @@ header nav a:hover {
     color: gray;
 }
 
+.about {
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+} 
+
+.top-two .strat {
+    width: 390px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-two .work {
+    width: 390px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-two .places {
+    width: 390px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.bottom-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-two .collab {
+    width: 390px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
 .top-content {
     display: flex;
@@ -123,9 +166,6 @@ header nav a:hover {
     justify-content: space-evenly;
 }
 
-.box1 {
-    color: teal;
-}
 
 .middle-content .boxes .box1 {
     width: 12.5%;
@@ -262,3 +302,28 @@ footer nav a {
     text-decoration: none;
 }
 
+.about-pic {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+button {
+    background: white;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 40px;
+	font-size: 13px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 25px;
+}
+
+
+button:hover {
+	background: black;
+	color: white;
+}
+
+.last-section {
+    padding: 15px 10px 25px;
+}
