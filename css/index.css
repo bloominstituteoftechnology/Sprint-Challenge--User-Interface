@@ -176,3 +176,24 @@ header nav a{
 .boxes .box{
     color: red;
 }
+
+.about-top-content{
+    margin-bottom: 25px;
+}
+
+hr {
+    border-top:2px dotted #000;
+    /*Rest of stuff here*/
+}
+
+.about-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-content-box{
+    width: 45%;
+    margin: 2%;
+    padding: 1%;
+}
