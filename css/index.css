@@ -278,3 +278,13 @@ footer nav a {
     from {background-color: white;}
     to {background-color: orange;}
 }
+
+.product-pic {
+    width: 800px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.product-heading {
+    margin: 30px 20px;
+}
