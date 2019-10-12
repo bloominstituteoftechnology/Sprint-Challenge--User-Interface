@@ -1,55 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
-}
 
 html, body {
     height: 100%;
@@ -65,6 +18,28 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+
+.topheader{
+   display: flex;
+justify-content: space-between;
+align-content: space-between;
+align-items: center;
+flex-wrap: nowrap;
+
+padding-left: 30%;
+padding-top: 20px;
+padding-bottom: 30px;
+flex-direction: row;
+
+
+width: 40%;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+
 
 .container {
     width: 800px;
@@ -101,7 +76,92 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box3{width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box4{width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box5{width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box6{width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box7{width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box8{width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box9{width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.box10{width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+
+/*.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,7 +170,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
 .bottom-content {
     display: flex;
@@ -125,22 +185,254 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-footer {
-    width: 100%;
-    background: black;
+.jumbo{
+    padding-left: 30%;
 }
-
-footer nav {
-    width: 60%;
+.container1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items:stretch;
+    
+    padding-left: 30%;
+    
+    width: 40%;
 }
 
-footer nav a {
+.container1 p {
+    padding-top: 10px;
+    padding-right: 0px;
+    width: 100%;
+
+}
+.aabout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items:stretch;
+    padding-left: 30%;
+    font-size: 18px;
+
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+
+.container2{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items:stretch;
+    
+    padding-left: 30%;
+    
+    width: 40%;
+}
+
+.container3{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items:stretch;
+    
+    padding-left: 30%;
+    
+    width: 40%}
+    .Scol{display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap
+
+    }
+.sstrategy{
+    font-size: 18px;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.sta1{}
+.LM1{
+    background: white;
+    display: flex;
+    font-size: 11pt;
+        font-family: 'Titillium Web', sans-serif;
+
+
+text-align: center;
+align-items: center;
+
+ width:100px; 
+ height:35px;
+ 
+border:1px; border-style:solid; border-color:#black;  padding: 0em;
+padding-left: 15px;
+}
+
+.HCol{display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap
+
+}
+.HWW{
+    font-size: 18px;
+
+    font-family: 'Rubik', sans-serif;
+}
+.sta2{}
+.LM2{background: white;
+    display: flex;
+    font-size: 11pt;
+        font-family: 'Titillium Web', sans-serif;
+
+
+text-align: center;
+align-items: center;
+
+ width:100px; 
+ height:35px;
+ 
+border:1px; border-style:solid; border-color:#black;  padding: 0em;
+padding-left: 15px;}
+
+.container4{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items:stretch;
+    
+    padding-left: 30%;
+    
+    width: 40%}
+
+.container5{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items:stretch;
+    
+    padding-left: 30%;
+    
+    width: 40%}
+    .Pcol{display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap
+
+    }
+.PWE{
+    font-size: 18px;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.sta3{}
+.LM3{
+    background: white;
+    display: flex;
+    font-size: 11pt;
+        font-family: 'Titillium Web', sans-serif;
+
+
+text-align: center;
+align-items: center;
+
+ width:100px; 
+ height:35px;
+ 
+border:1px; border-style:solid; border-color:#black;  padding: 0em;
+padding-left: 15px;
+}
+
+.CCol{display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap
+
+}
+.COLL{
+    font-size: 18px;
+
+    font-family: 'Rubik', sans-serif;
+}
+.sta4{}
+.LM4{background: white;
+    display: flex;
+    font-size: 11pt;
+        font-family: 'Titillium Web', sans-serif;
+
+
+text-align: center;
+align-items: center;
+
+ width:100px; 
+ height:35px;
+ 
+border:1px; border-style:solid; border-color:#black;  padding: 0em;
+padding-left: 15px;}
+
+.LWTOG{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items:stretch;
+    
+   margin: 30px;
+   padding-left: 540px;
+
+    
+    width: 40%}
+.container6{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items:stretch;
+    
+    padding-left: 30%;
+    
+    width: 40%}
+
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items:stretch;
+    
+    padding-left: 30%;
+    
+    width: 40%
+background:black;
+
+}
+
+
+.footer1 nav{
+display: flex;
+background-color: black;
+text-decoration: none;
+justify-content: space-between;
+width: 58%;
+font-size: 14px;
+padding: 20px;
+}
+.footer1 nav a {
     color: white;
+    width: 50%;
     text-decoration: none;
 }
+
+
+
+
+
+
+
