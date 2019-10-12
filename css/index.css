@@ -224,3 +224,47 @@ footer nav a {
 .about-top-content p {
     font-size: 16px;
 }
+
+.about-parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-child  {
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    width: 46%;
+}
+
+.about-child p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about-child h2 {
+    margin-top: 20px;
+}
+
+.about-child .child-pic {
+    margin-top: 30px;
+}
+
+.learn-button {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;    
+}
+
+.about-bottom-content {
+    margin: 50px 0 0 20px;
+}
+
+.about-bottom-content p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
