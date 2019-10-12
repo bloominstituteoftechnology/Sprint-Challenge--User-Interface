@@ -74,11 +74,12 @@ p {
 header{
     display: flex;
     justify-content: space-between;
+    
 }
 
 header img{
     widows: 200px;
-    padding-bottom:33px;
+    padding-bottom:35px;
 
 }
 
@@ -88,6 +89,7 @@ header nav{
     width: 550px;
     margin-top: 35;
     margin-bottom: 35;
+    text-decoration: none;
 }
 
 nav a{
@@ -95,7 +97,7 @@ nav a{
 }
 
 .banner{
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
 .top-content{
@@ -193,10 +195,10 @@ footer nav a {
 }
 
 .box2{
-    background-color: gold:
+    background-color: gold;
     width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
+    height:100px;
+    margin:20px 2.5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -299,6 +301,27 @@ footer nav a {
  .top-content2{
      display:flex;
      flex-wrap: nowrap;
-     width: 370px;
+     width: 350px;
     
- }
+    }
+
+    .middle-content2{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+
+    .top-text2{
+        margin:18px;
+
+    }
+
+    .middle-text2{
+        margin: 18px;
+    }
+
+    button{
+        border-radius: 20px;
+        background-color:white;
+
+    }
+
