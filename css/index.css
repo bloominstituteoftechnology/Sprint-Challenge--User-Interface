@@ -245,7 +245,7 @@ p {
 }
 
 footer {
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
     background: black;
 }
@@ -265,17 +265,40 @@ footer nav a {
     font-weight: bold;
 }
 
-.container .about-page h3{
-    font-weight: bold;
-    margin-top: 20px;
-}
-.container .about-page p{
-    margin-bottom: 20px;
-}
+
+  button{
+      border-radius:10px;
+      height: 40px;
+      width: 110px;
+      background-color: white;
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  .top-paragraph{
+      margin-bottom: 40px;
+      border-bottom: 1px dashed black;
+      padding: 0 40px;
+  }
+  .top-paragraph p{
+      margin-bottom: 20px;
+  }
+  h3{
+      margin-top: 20px;
+  }
+  .office{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-content: center;
+ 
+  }
 .page-bottom{
-    display: inline-block;
-    flex-direction: row;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    width: 400px;
-}
+ width: 350px;
+ border-bottom: 1px dashed black;
+ margin-bottom: 20px;
+  }
+  .final-paragraph{
+      margin-bottom: 40px;
+      padding: 0 40px;
+  }
+   
