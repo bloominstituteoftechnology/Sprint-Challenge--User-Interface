@@ -219,72 +219,108 @@ section h2 {
     flex-wrap: wrap;
 }
 
-.h3{
+.h3 {
     margin-left:1px;
 }
 
+.bodywrap {
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+}
+
+h2 {
+    margin-left: 1px;
+}
 .strategy-container {
     display:flex;
     flex-wrap:wrap;
     justify-content: left;
-    border:solid green 3px;
-    width: 45%;
-    height: 30%;
-    margin-left:15%;
+    width: 50%;
+    height: 35%;
     padding-top: 5px;
-    padding-bottom:5px;
+    padding-bottom:2%;
+    margin-bottom:2%;
     border-bottom: dashed black 1px;
 }
 
-div .firstbox {
-    text-align:center;
+div .firstbox img {
+    margin-left: 5px;
+    width: 100%;
 }
-
-.button {
-    text-align:center;
+ /* work on alignment*/
+div .buttons {
+    display: flex;
+    justify-content:center;
+    padding-top: 5px;
 }
 
 .How-we-work-container {
     display:flex;
     flex-wrap:wrap;
     justify-content: left;
-    border:solid green 3px;
-    width: 45%;
-    height: 30%;
-    margin-left:45%;
+    width: 52%;
+    height: 35%;
     padding-top: 5px;
-    padding-bottom:5px;
+    padding-bottom:1.989%;
+    margin-bottom:2%;
+    margin-left: 50%;
+    margin-top:-52%;
     border-bottom: dashed black 1px;
+}
+
+div .secondbox img {
+    margin-left: 5px;
+    width: 100%;
 }
 
 .Places-we-work-container {
     display:flex;
     flex-wrap:wrap;
     justify-content: left;
-    border:solid blue 3px;
-    width: 45%;
-    height: 30%;
+    width: 50%;
+    height: 35%;
     padding-top: 5px;
-    padding-bottom:5px;
+    padding-bottom:2%;
+    margin-bottom:2%;
     border-bottom: dashed black 1px;
     
+}
+
+div .thirdbox img {
+    margin-left: 5px;
+    width: 100%;
 }
 
 .Collaboration {
     display:flex;
     flex-wrap:wrap;
     justify-content: left;
-    border:solid hotpink 3px;
-    width: 45%;
-    height: 30%;
+    width: 50%;
+    height: 35%;
     padding-top: 5px;
-    padding-bottom:5px;
+    padding-bottom:5.33%;
+    margin-bottom:4%;
+    margin-left: 50%;
+    margin-top:-52%;
     border-bottom: dashed black 1px;
+    
 }
 
-.button {
+div .fourthbox img {
+    margin-left: 5px;
+    width: 100%;
+}
+
+footer nav {
     display: flex;
-    justify-content: center;
-    padding-top: 10px;
+    width: 58%;
+    margin-left: 20%;
 }
 
+footer {
+    width: 100%;
+    background: black;
+    margin-top: 2%;
+    justify-content: left;
+}
