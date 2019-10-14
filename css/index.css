@@ -286,62 +286,87 @@ nav{
     
 }
 .container2{
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 
 }
+
+
+.button {
+   
+    border: 1px solid black;
+    color:black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 5px;
+
+
+}
+.lambda-img{
+    width:100px;
+}
+
+   
+
 .container2 header{
 
     border-bottom: 1px dashed gray;
-    margin: 20px;
-}
-.container2 .top-content{
+   margin:40px;
+   
 
 }
+
 .container2 header nav a{
     text-decoration: none;
     color:black;
+   
 
 }
 
-
-
-
-
-
-
-
- .top-content{
-     display:flex;
-    justify-content: space-between;
-    margin:0 auto;
-   
-   
+ .top-content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
 }
 .strategy{
-    width: 400px;
+    width:400px;
+    border-bottom:1px dashed black;
 }
 .How{
     width:400px;
+    border-bottom:1px dashed black;
 }
 
 
 
-.bottom-content{
-    display:flex;
-    justify-content:space-between;
+.bottom-content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+   
+    
   
-   
   
-
-   
-   
 }
 .place{
-   width: 400px;
+    width:400px;
+    border-bottom:1px dashed black;
 }
 .collabration{
-   width:400px;
+    width:400px;
+    border-bottom:1px dashed black;
 }
 
 
+.footer{
+    width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
