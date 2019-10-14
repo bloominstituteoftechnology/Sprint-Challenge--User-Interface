@@ -67,15 +67,16 @@ p {
 }
 
 header nav {
-    width: 83%;
+    width: 76%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    margin-left: 12%;
+    padding: 4px;
     font-size: 14px;
 }
 
-img {
+div img {
     margin-left: 280px;
     padding-bottom: 12px;
 }
@@ -201,52 +202,89 @@ footer nav a {
 }
 
 section p {
-    border-bottom: dotted black 1px;
     padding-bottom: 5px;
+    margin-left: 3%;
+}
+/* Dashed black border */
+hr.new {
+    border-bottom: dotted black 1px;
 }
 
-.img-about-plan {
-    
-    width:20%;
-    width: 25%;
+section h2 {
+    margin-left: 3%;
 }
+
+.container about-page {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.h3{
+    margin-left:1px;
+}
+
 .strategy-container {
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    width: 35%;
-    height: 35%;
-    margin: 20;
+    justify-content: left;
+    border:solid green 3px;
+    width: 45%;
+    height: 30%;
+    margin-left:15%;
     padding-top: 5px;
-    margin-bottom:2%;
+    padding-bottom:5px;
+    border-bottom: dashed black 1px;
 }
 
-.how-we-work-container {
+div .firstbox {
+    text-align:center;
+}
+
+.button {
+    text-align:center;
+}
+
+.How-we-work-container {
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    width: 35%;
-    height: 25%;
-    padding-top: 10px;
-    margin-bottom:2%;
+    justify-content: left;
+    border:solid green 3px;
+    width: 45%;
+    height: 30%;
+    margin-left:45%;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-bottom: dashed black 1px;
 }
 
 .Places-we-work-container {
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    width: 35%;
-    height: 25%;
-    padding-top: 10px;
-    margin-bottom:2%;
+    justify-content: left;
+    border:solid blue 3px;
+    width: 45%;
+    height: 30%;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-bottom: dashed black 1px;
+    
 }
 
 .Collaboration {
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    width: 35%;
-    height: 25%;
-    padding-top: 10px;
-    margin-bottom:2%;
+    justify-content: left;
+    border:solid hotpink 3px;
+    width: 45%;
+    height: 30%;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-bottom: dashed black 1px;
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
