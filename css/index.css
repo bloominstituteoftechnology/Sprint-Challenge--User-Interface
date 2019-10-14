@@ -181,7 +181,6 @@ div img {
     padding-bottom: 10px;
 }
 
-
 footer {
     width: 100%;
     background: black;
@@ -248,7 +247,7 @@ div .firstbox img {
     margin-left: 5px;
     width: 100%;
 }
- /* work on alignment*/
+
 div .buttons {
     display: flex;
     justify-content:center;
