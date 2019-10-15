@@ -70,7 +70,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 50px 2%;
     font-size: 14px;
 git
 }
@@ -78,6 +78,7 @@ git
     position:absolute;
     left:0;
      top:0;
+     
 }
 a{
     color:black;
@@ -104,6 +105,7 @@ middle-img{
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 5px;
 }
 
 .top-content .text-container {
@@ -288,10 +290,33 @@ footer nav a {
 }
 .about-page{
     border-bottom: 3px dotted gray;
+    padding-bottom: 20px;
+}
+.info-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+.info-container{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+  border-bottom: dotted gray;
 }
 
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
 
-.bottom-part{
-    border-top: 3px dotted gray;
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
 
