@@ -270,3 +270,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+!--about.css---!
+
+.top-nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.top-nav a{
+    color:black;
+    font-family: 'Rubik', sans-serif;
+    float: right;
+    text-align: center;
+}
+.about-page{
+    border-bottom: 3px dotted gray;
+}
+
+
+.bottom-part{
+    border-top: 3px dotted gray;
+}
+
