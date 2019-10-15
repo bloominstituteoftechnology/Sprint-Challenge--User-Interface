@@ -69,6 +69,22 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-size: 14px;
+}
+
+.heading-text {
+    margin-top: 20px;
+}
+
+.heading-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 41px;
+}
+
+.heading-pic {
+    margin-top: 40px; 
 }
 
 .top-content {
@@ -82,7 +98,13 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 20px;  
+    font-size: 16px;
+}
+
+.top-content .text-container h2 {
+    font-size: 18px;
 }
 
 .middle-content {
@@ -110,6 +132,47 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 16px;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -120,6 +183,10 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container p {
+    font-size: 16px;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +210,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    font-size: 14px;
+}
+
+.about-top-content {
+    border-bottom: 1px dashed black;
+}
+
+.about-text-container {
+    margin: 20px 0 20px 20px;
+}
+
+.about-top-content p {
+    font-size: 16px;
+}
+
+.about-parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-child  {
+    border-bottom: 1px dashed black;
+    margin-top: 20px;
+    width: 46%;
+}
+
+.about-child p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about-child h2 {
+    margin-top: 20px;
+}
+
+.about-child .child-pic {
+    margin-top: 30px;
+}
+
+.learn-button {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px; 
+}
+
+.learn-button:hover {
+    animation-name: toggle;
+    animation-duration: 3s;  
+}
+
+.about-bottom-content {
+    margin: 50px 0 0 20px;
+}
+
+.about-bottom-content p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+@keyframes toggle {
+    from {background-color: white;}
+    to {background-color: orange;}
+}
+
+.product-pic {
+    width: 800px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.product-heading {
+    margin: 30px 20px;
 }
