@@ -61,15 +61,56 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+h2{
+    margin-top: 10px;
+}
 
 p {
     line-height: 1.4;
+}
+
+header ul{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.logo{
+flex-basis: 17%; 
+}
+li a{
+color: black;
+text-decoration: none;
+font-weight: bold;
+padding: 20px;
+margin-top: 300px;
+margin-left: 45px;
+}
+
+.top-image{
+    width: 800px;
+    margin-bottom: 50px;
+    margin-right: 120px;
+
+
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+.container-about-page{
+    width:800px;
+    margin:0 auto;
+}
+.container-about-page header ul li a{
+margin-left:45px;
+}
+    
+
 
 .top-content {
     display: flex;
@@ -78,12 +119,60 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.about-content-container{
+    display:flex;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    padding-top: 20px; 
+    
 }
+.about-content-container .text container1{
+    margin-bottom:50px;
+    margin-top:50px;
+    border-bottom: 1px dotted black;
+}
+.bottom-about-content{
+    margin-bottom:20px;
+    /*margin-top:50px;*/
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.button {
+	background-color:white; 
+	border: 2px solid black;
+	color: black;
+	padding: 10px 0px;
+    text-decoration: none;
+    text-align:center;
+	font-size: 20px;
+    width:200px;
+    height:50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    /*margin-left: 70px;*/
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .button:hover {
+	background-color:grey; 
+	border: 2px solid darkred;
+	color:darkred;
+	padding: 10px 5px;
+    text-decoration: none;
+    text-align:center;
+	font-size: 20px;
+    width:200px;
+    height:50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+  }
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,18 +193,48 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box1{
+    background-color:teal;
+}
+.middle-content .boxes .box2{
+    background-color:gold;
+}
+.middle-content .boxes .box3{
+    background-color:cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color:coral;
+}
+.middle-content .boxes .box5{
+    background-color:crimson;
+}
+.middle-content .boxes .box6{
+    background-color:forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color:darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color:hotpink;
+}
+.middle-content .boxes .box9{
+    background-color:indigo;
+}
+.middle-content .boxes .box10{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0px; 
+    margin-bottom: 20px;
     justify-content: space-around;
+    
 }
 
 .bottom-content .text-container {
@@ -129,6 +248,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    display:flex;
+    
 }
 
 footer nav {
@@ -143,4 +264,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
 }
+.container-about-page{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.top-about-content{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 4px dotted black;
+    justify-content: space-between;
+    
+    
+}
+
+.content1{
+    flex-direction:column;
+     margin-top: 25px; 
+     padding-right: 20px; 
+     padding-bottom: 20px;
+     display:flex;
+}
+
+.content2{
+    flex-direction:column;
+    margin-top: 25px; 
+    padding-right: 20px; 
+    padding-bottom: 20px;
+    display:flex;
+}
+
+.middle-about-content{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 2px dotted black; 
+    
+}
+.content3{
+     flex-direction:column;
+     margin-top: 25px; 
+     padding-right: 20px; 
+     padding-bottom: 20px;
+     display:flex;
+     
+}
+.content4{
+   flex-direction: column;
+   margin-top: 25px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   display:flex;
+}
+
