@@ -76,6 +76,15 @@ p {
   margin: 0 auto;
   margin-right: 90px;
 }
+.TopImg img{
+  width: 85%;
+  max-height: 200px;
+}
+.TopImg{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 .Box{
   display: flex;
   flex-wrap: wrap;

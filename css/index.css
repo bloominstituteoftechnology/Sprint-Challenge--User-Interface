@@ -150,6 +150,7 @@ footer nav a {
 .Navigation{
   text-decoration: none;
   margin: auto;
+  padding-top: 20px;
 }
 .Navigation a{
   margin-left: 77px;
