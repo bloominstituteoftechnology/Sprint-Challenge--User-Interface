@@ -81,7 +81,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /*border-bottom: 1px dashed black;*/
 }
 
 .top-content .text-container {
@@ -154,7 +154,7 @@ footer nav a {
     margin:2%;
 }
 
-/* BOXESz;ll */
+/* BOXES */
 
 .container .middle-content .boxes .box:first-child{
     background-color: teal;
@@ -218,3 +218,37 @@ header nav a{
 }
 
 /* ABOUT PAGE */
+
+/* Main */
+
+.about{
+    width: 60%;
+    border-bottom:1px black dashed;
+}
+
+.boxes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.boxes .box{
+    width: 40%;
+    border-bottom: 1px dashed black;
+}
+
+ .boxes .box button{
+    padding:3%;
+    background-color:white;
+    width:20%;
+
+}
+
+.box button, .box h2, .box  p{
+    margin:2%;
+}
+
+.together{
+    margin: 2%;
+}
