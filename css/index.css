@@ -187,6 +187,7 @@ header nav a{
 }
 .about-text{
     margin-bottom: 2%;
+    border-bottom: .5px dashed black;
 }
 .about-services{
     display: flex;
@@ -199,12 +200,16 @@ header nav a{
     flex-direction: row;
     flex-wrap: wrap;
     color: black;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 	width: 350px;
     border-bottom: .5px dashed black;
-    margin: 0;
+    margin: 1.5%;
 	
+}
+.top-services{
+    display: flex;
+    flex-direction: row;
 }
 .info-box img{
     max-width: 100%;
