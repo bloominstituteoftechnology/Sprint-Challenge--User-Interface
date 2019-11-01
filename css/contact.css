@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+/* Starting my code here */
+
+.container {
+    width: 45%;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 3% 0 5% ;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.banner {
+    margin-bottom: 3%;
+    width: 100% ;
+}
+
+header {
+    box-sizing: border-box;
+    padding: 0.5% 2%;
+}
+
+.line {
+    height: 1px;
+    border-top: 1px dashed black;
+    width: 100% ;
+    margin: 1% 0 4%;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mainPage h2 {
+    margin: 2% 0;
+}
+
+@keyframes contact {
+    0% {
+        border: 2px solid papayawhip
+    }
+    50% {
+        border: 2px solid gray ;
+    }
+    100% {
+        border: 2px solid black ;
+    }
+}
+.contact {
+    display: block ;
+    border-radius: 5px;
+    padding: 2% 3% ;
+    width: 35% ;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 3% 0 ;
+    animation: contact 3s infinite alternate ;
+}
+
+.contact:hover {
+    border: 2px solid black ;
+    animation: none;
+}
+
+.halfLine {
+    height: 1px;
+    border-top: 1px dashed black;
+    width: 48% ;
+    margin: 2% 0 7%;
+}
+.block {
+    width: 48%;
+}
+
+.bottomText {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 440px) {
+    .container {
+        width: 100% ;
+    }
+    .halfLine {
+        width: 100%;
+    }
+    .block {
+        width: 100%;
+    }
+    .block img {
+        width: 100%;
+    }
+    .contact {
+        margin: 3% auto ;
+        width: 75% ;
+    }
+}
