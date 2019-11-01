@@ -183,6 +183,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-top: 10px;
 }
 
 footer nav {
@@ -239,22 +240,36 @@ h2:hover {
 }*/
 .twoTopPic {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+}
+.twoTopPic p {
+margin-bottom: 3%;
 }
 .twoTopPic div {
     width: 40%;
-    margin-left: 6%;
+    margin-left: 0%;
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-right: 1%;
+    flex-grow: 1;
 }
 .secondPic {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
+}
+.secondPic p {
+    margin-bottom: 3%;
 }
 .secondPic div {
     width: 40%;
-    margin-left: 6%;
+    margin-left: 0%;
+    margin-right: 1%;
     margin-bottom: 5%;
-
+    flex-grow: 1;
+}
+.buttonService {
+    padding: 2px;
+    margin-top; 5px;
+    margin-bottom: 10px;
 }
