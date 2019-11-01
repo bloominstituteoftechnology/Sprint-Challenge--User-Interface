@@ -119,7 +119,6 @@ nav a {
 @media (max-width: 500px) {
     .container {
         width: 100%;
-        border: 1px solid gray;
     }
 
     .about-middle .about-row {
@@ -130,6 +129,12 @@ nav a {
 
     .about-middle .about-row .card {
         width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
     }
 }
 
@@ -254,7 +259,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* * * * * * ABOUT START * * * * * */
+/* * * * * * ABOUT * * * * * */
 .about-top {
     display: flex;
     flex-direction: column;
@@ -266,7 +271,6 @@ footer nav a {
 .about-middle {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid blue; */
 }
 
 .about-row {
@@ -304,4 +308,92 @@ footer nav a {
     margin: 5% 0;
 }
     
-    
+/* * * * * * CONTACT * * * * * */
+.contact-top form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 65.5vh;
+    background: #f6f7fb;
+    padding-bottom: 7vh;
+}
+
+.contact-top h1{
+    font-size: 200%;
+    font-weight: 800;
+}
+
+.contact-top p {
+    margin: 3% 13%;
+    margin-bottom: 5%;
+    font-size: 90%;
+    color: #383651;
+}
+
+.contact-top .FAQ {
+    text-decoration: none;
+    color: #bb1333;
+}
+
+.contact-form-line {
+    height: 1.5%;
+    width: 15%;
+    background: #bb1333;
+    margin: 0 auto;
+    margin-bottom: 5%;    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    justify-content: space-between;
+}
+
+.inputs .contact-form-row {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs .contact-form-row .text-field-1 {
+    background: #FFF;
+    border: 1px solid #dadde9;
+    width: 48%;
+    height: 200%;
+    border-radius: 5px;
+}
+
+.inputs .contact-form-row .text-field-2 {
+    background: #FFF;
+    border: 1px solid #dadde9;
+    width: 100%;
+    height: 200%;
+    border-radius: 5px;
+}
+
+.inputs .contact-form-row .text-field-3 {
+    background: #FFF;
+    border: 1px solid #dadde9;
+    width: 100%;
+    height: 200%;
+    border-radius: 5px;
+}
+
+.inputs .contact-form-row .select-field-1 {
+    background: #FFF;
+    border: 1px solid #dadde9;
+    width: 100%;
+    height: 200%;
+    border-radius: 5px;
+}
+
+.inputs .contact-form-row .text-field-4 {
+    background: #FFF;
+    border: 1px solid #dadde9;
+    width: 100%;
+    height: 500%;
+    border-radius: 5px;
+}
