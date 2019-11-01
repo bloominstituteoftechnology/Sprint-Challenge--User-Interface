@@ -199,3 +199,34 @@ img{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.middle-content .text-container {
+    width: 48%;
+    /* border: 1px solid black; */
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content .text-container:nth-last-child(2) {
+    /* leave border intact when viewing on mobile */
+    border-bottom: 0;
+}
+
+.middle-content .text-container:last-child {
+    border-bottom: 0;
+}
+
+.fun-button {
+    width: 35%;
+    padding: 2.5% 5%;
+    border: 1px solid darkslategrey;
+    border-radius: 5px;
+    text-align: center
+}
+
+.fun-button:hover {
+    background: black;
+    color: greenyellow;
+}
