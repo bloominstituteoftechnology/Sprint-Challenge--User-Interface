@@ -55,6 +55,44 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*height: 40px;
+    width: 600px;*/
+    margin-left: 230px;
+    margin-right: 240px;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+header {
+    margin-left:120px;
+}
+/* .logo { */
+    /* text-decoration: none;
+    align-items: flex-start;
+    margin-left: 215px;
+    margin-right: 240px; */
+    /* padding: 20px; 
+}*/
+
+#logo {
+    padding: 10px;
+    margin-left: 9px;
+}
+
+.topimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-left: 0px;
+    
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
