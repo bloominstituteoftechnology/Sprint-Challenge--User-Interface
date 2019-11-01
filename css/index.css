@@ -315,3 +315,43 @@ footer nav a {
     text-decoration: none;
 }
 
+/*contact-css*/
+
+
+.contact-container{
+    width: 85%;
+    margin: 5%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    color: black;
+    padding: 12px 20px;
+    border: 1px dotted black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: lightcyan;
+    padding: 20px;
+  }
+  
