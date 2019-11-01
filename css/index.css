@@ -146,14 +146,21 @@ footer nav a {
 }
 
 /* home css */
-nav {
-    display:flex;
-    justify-content: space-between;
-}
 
+nav {
+    display: flex;
+	justify-content:space-between;
+	margin:3%;
+}
+ nav a {
+     color:black;
+    text-decoration:none;
+ }
 img {
     max-width:50%;
     height:auto;
-    
+}
+top-content{
+    display:flex;
 }
 /* about css */
