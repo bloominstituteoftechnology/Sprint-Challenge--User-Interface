@@ -144,13 +144,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/*header{
-    display: inline;
-    width: 100%;
-    background: black;
 
-
-}*/
 header.section{
 	height: 10%;
 	width: 100%;
@@ -225,4 +219,7 @@ header nav a{
 }
 .working-together{
     margin-bottom: 3%;
+}
+.lambda-box img{
+    width: 100px;
 }
