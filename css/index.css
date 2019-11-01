@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 
-/* ------------------NAV & HEADER--------------------- */
+/* -----------------NAV & HEADER--------------------- */
 nav {
 	/* width: 61.5%; */
 	display:flex;
@@ -97,7 +97,12 @@ p {
     margin: 0 auto;
 }
 
-/* -----------------TOP--------------------- */
+/* ------------------------------------------ */
+/* ---------------HOME----------------------- */
+/* ------------------------------------------ */
+
+
+/* --------------- TOP--------------------- */
 
 .top-content {
     display: flex;
@@ -113,7 +118,7 @@ p {
     padding-bottom: 20px;  
 }
 
-/* --------------MIDDLE--------------------- */
+/* ----------------MIDDLE--------------------- */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -130,10 +135,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .one {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -141,10 +146,108 @@ p {
     justify-content: center;
 }
 
-.box div{
-    background-color: #008081
+.middle-content .boxes .two {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.middle-content .boxes .three {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .four {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .five{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .six {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .seven {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .eight {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .nine {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .ten {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .box one{
+    background-color: #008081
+} */
 
 
 /* ----------------BOTTOM-------------------- */
@@ -187,6 +290,7 @@ footer nav a {
 
 /* ---------------------------------- */
 /* -------------ABOUT ------------- */
+/* -------------------------------- */
 
 .about-top{
     padding:2%;
@@ -229,3 +333,5 @@ footer nav a {
 .about-bottom{
     padding:3%;
 }
+
+/* -----------END ---------------- */
