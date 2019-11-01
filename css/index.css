@@ -108,8 +108,7 @@ p {
     width: 880px;
 }
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 0px;
     width: 880px;
     max-width: 100%;
     display: flex;
@@ -124,6 +123,8 @@ p {
     position: relative; 
     bottom: 100px;
     margin-left: 35px;
+    font-size: 22px;
+    margin-top: 25px;
 }
 .middle-content .boxes div {
     display: flex;
@@ -152,6 +153,7 @@ p {
 }
 .border1 {
     background-color: teal;
+    display: flex;
     position: relative;
     right: 775px;
     top: 20px;
@@ -233,37 +235,43 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
     justify-content: space-around;
     width: 880px;
     max-width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 35px;
+    position: relative;
+    bottom: 150px;
+    border-top: 1px dashed black;
+    padding-top: 30px;
 }
 
-.bottom-content .text-container {
+.bottom-content  {
     padding-right: 4%;
     display: flex;
     width: 880px;
     max-width: 100%;
 }
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-    display: flex;
-    width: 880px;
-    max-width: 100%;
+.bottom-content div {
+    position: relative;
+    margin-left: 25px;
 }
-
 footer {
     width: 880px;
     max-width: 100%;
     background: black;
     display: flex;
+    margin-left: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 25px;
 }
 
 footer nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 20px 2%;
     font-size: 14px;
     width: 880px;
@@ -276,6 +284,9 @@ footer nav a {
     width: 880px;
     max-width: 100%;
     display: flex;
+    position: relative;
+    right: 10px;
+    word-spacing: 10%;
 }
 .backdrop {
     position: relative;
