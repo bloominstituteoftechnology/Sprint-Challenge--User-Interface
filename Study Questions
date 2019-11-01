@@ -1,0 +1,22 @@
+Question 1: If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Answer: Using specific tags and meanings like <p>, <nav>
+
+Question 2: Name two big differences between display: block; and display: inline;.
+
+ Answer: display: block is block style, display: inline is elements on the same line not blocked.
+
+Question 3: What are the 4 areas of the box model?
+
+Answer: Content, Padding, Margin, Border
+
+Question 4: While using flexbox, what axis does the following property work on: align-items: center?
+
+Answer: Main Axis, flex direction row
+
+Questsion 5: Explain why git is valuable to a team of developers.
+
+Answer: Git allows numberous developers to collaborate on projects remotely, 
+its a great open source platform that helps with version control 
+to make the work flow a bit easier.
+
