@@ -184,3 +184,48 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ---------------------------------- */
+/* -------------ABOUT ------------- */
+
+.about-top{
+    padding:2%;
+    border-bottom:1px dashed black;
+}
+
+.about-header-img{
+    width:100%;
+}
+
+/* ---------ABOUT BOXES------------ */
+
+.about-middle {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.about-box{
+    width:46%;
+    /* align-items:space-between; */
+    border-bottom:1px dashed black;
+    margin:4% 0%;
+    padding:3% 0%;
+}
+
+.about-box h2{
+    margin-top:3%;
+}
+
+.about-box button{
+    padding:9px 25px;
+    margin-top:3%;
+    border:2px solid black;
+    font-size:14px;
+    border-radius:10px;
+}
+
+/* ----------ABOUT BOTTOM -------- */
+.about-bottom{
+    padding:3%;
+}
