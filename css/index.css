@@ -68,11 +68,7 @@ p {
 header nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 2%;
-    font-size: 14px;
-    color:black;
+    margin:5%;
 }
  .logo{
     justify-content: flex-start;
@@ -81,10 +77,14 @@ header nav {
 }
 .links{
     display:flex;
+    justify-content:space-between;
     color:black;
     font-family: 'Rubik', sans-serif;
-    float: left;
-    justify-content:space-between;
+    
+}
+nav a{
+    color:black;
+
 }
 .middle-img{
     display:block;
