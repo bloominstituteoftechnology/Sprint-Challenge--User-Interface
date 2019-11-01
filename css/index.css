@@ -30,28 +30,51 @@ footer, header, hgroup, menu, nav, section {
     display: block;
     
 }
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
 body {
-    line-height: 1;
-    
-    
+    line-height: 1;   
     
 }
-
-
-
+nav {
+    display: flex;
+    justify-content:space-between;
+    
+}
+.lambdalogo{
+    width: 20%;
+} 
 header {
     display: flex;
     margin-bottom: 10px;
     justify-content: flex-start;
-    
-    
-
 }
 .main-nav {
     color: grey;
-    justify-content: space-around;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    
     
 }
+#services{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-content:space-around;
+}
+#services div{
+    width 40%;
+    margin:2% 0;
+
+}
+
+
 ol, ul {
     list-style: none;
     
@@ -179,11 +202,10 @@ footer nav a {
    
     
 }
-.HowWeWork {
-    display: flex;
+
     
     
-} 
+ 
 .button {
     border: 1px;
     width: 10%:
