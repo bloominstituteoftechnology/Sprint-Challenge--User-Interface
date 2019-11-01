@@ -397,3 +397,48 @@ footer nav a {
     height: 500%;
     border-radius: 5px;
 }
+
+/* * * * * * PRODUCTS * * * * * */
+.products-container {
+}
+.products-container h1{
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    color: white;
+    font-size: 180%;
+    padding: 5%;
+    background: #bb1333;
+    opacity: 0.7;
+}
+
+.products-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    align-items: center;
+    height: 85vh;
+}
+
+.products-row {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.products-row .products-container {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.products-row .products-container h2{
+    margin-top: 4%;
+}
+.products-image {
+    width: 100%;
+}

@@ -62,13 +62,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [v] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [v] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [v] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [v] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [v] Add your project manager as a reviewer on the pull-request
+- [v] Your project manager will count the project as complete by merging the branch back into master.
  
 
 
@@ -111,7 +111,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [v] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [v] Introduce CSS animations to your site.
 * [v] Build a contact page and create a form with several inputs of your choosing
 * [v] Add responsive breakpoints to your code by using media queries
