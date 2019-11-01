@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*My code starts here*/
+.menu-container{
+    display:flex;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+
+.menu-container nav{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    padding-top: 4%;
+}
+
+.menu-container nav a{
+    text-decoration: none;
+    color: black;
+}
+.jumbo-img{
+    padding-bottom: 3%;
+}
+.teal{
+    background-color: teal;
+}
