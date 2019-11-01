@@ -269,11 +269,20 @@ nav a{
     
     
 }
-.strategy{
+.mainBody{
+    display: flex;
+    flex-flow: wrap;
+
+    width: 30%;
+    margin: 2% 10%;
+    margin-left:-5%
+}
+
+/*.strategy{
     width:37%;
 	margin:2% 1%;
     padding:2%;
-    margin-left: -5%;
+    
 
 }
     
@@ -296,10 +305,15 @@ nav a{
 	margin:2%;
 	padding:2%;
     
-}
+}*/
 hr{
     border-top: 1px dotted;
 }
-.button{
-    border-radius: 12px;
+button{
+    font-size: 15px;
+    background-color: white;
+    width: 100%;
+    
+    border-radius: 100px;
+    
 }
