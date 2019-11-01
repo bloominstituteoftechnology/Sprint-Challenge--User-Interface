@@ -66,6 +66,83 @@ p {
     line-height: 1.4;
 }
 
+header {
+display: flex;
+flex-wrap: wrap;
+padding-top: 20px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 60px;
+}
+
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.boxes .box1 {
+    color: teal;
+}
+
+.p1 {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutBox img {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.aboutBox p {
+    padding-bottom: : 10px;
+}
+
+.aboutBox button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid;
+}
+
+.theBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:  row;
+    justify-content: space-between;
+}
+
+.aboutBox{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px dashed;
+}
+
+.aboutAbout {
+    padding: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
