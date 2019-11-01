@@ -100,6 +100,39 @@ nav a {
     font-size: 90%;
 }
 
+/* * * STRETCH GOAL: ANIMATION * * */
+.navbar nav a:hover {
+    animation-name: colorChange;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes colorChange {
+    from {color: black;}
+    to {color: white;
+        padding: 2% 5%;
+        background: maroon;
+        border-radius: 10px;}
+}
+
+/* * * STRETCH GOAL: RESPONSIVE * * */
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        border: 1px solid gray;
+    }
+
+    .about-middle .about-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-middle .about-row .card {
+        width: 80%;
+    }
+}
+
 /* * * * * * COLOR BOXES * * * * * */
 .about-banner {
     margin-bottom: 3%;
