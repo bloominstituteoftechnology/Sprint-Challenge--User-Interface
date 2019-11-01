@@ -144,6 +144,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:9s;
 }
 
 .middle-content .boxes .two {
@@ -155,6 +157,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:2s;
 }
 
 .middle-content .boxes .three {
@@ -166,6 +170,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:10s;
 }
 
 .middle-content .boxes .four {
@@ -177,6 +183,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:3s;
 }
 
 .middle-content .boxes .five{
@@ -188,6 +196,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:5s;
 }
 
 .middle-content .boxes .six {
@@ -199,6 +209,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    display:none;
+    animation-name:scaryBoxSix;
+    animation-duration:2s;
+}
+
+.boxes:hover >.six{
+    display:flex;
 }
 
 .middle-content .boxes .seven {
@@ -206,10 +223,14 @@ p {
     height: 100px;
     background: darkorchid;
     margin: 20px 2.5%;
+    padding:1%;
+    text-align:center;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:10s;
 }
 
 .middle-content .boxes .eight {
@@ -221,6 +242,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:8s;
 }
 
 .middle-content .boxes .nine {
@@ -232,6 +255,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:3s;
 }
 
 .middle-content .boxes .ten {
@@ -243,8 +268,23 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:9s;
 }
 
+@keyframes didSheDoTheHomeworkCorrectly{
+    25% {background-color:teal;}
+    50% {background-color:gold;}
+    75% {background-color:dodgerblue;}
+    100% {background-color:indigo;}
+}
+
+@keyframes scaryBoxSix{
+    10% {background-color:black;}
+    20% {background-color:white;}
+    30% {background-color:black;}
+    40% {background-color:white;}
+}
 /* .box one{
     background-color: #008081
 } */
@@ -333,5 +373,74 @@ footer nav a {
 .about-bottom{
     padding:3%;
 }
+
+/* ---------------------------------- */
+/* ------------BLOG PAGE------------- */
+/* ---------------------------------- */
+
+.blog-top{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    /* justify-content:space-between; */
+}
+
+.blog-top .blog-top-p{
+    width:60%;
+    padding:5%;
+}
+
+.blog-top .blog-top-pic{
+    width:40%;
+    padding:5%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    /* justify-content:column; */
+}
+
+.blog-top .blog-top-pic h2{
+    width:70%;
+    text-align:center;
+    font-size:20px;
+}
+
+.editor{
+    width:70%;
+    height:70%;
+    border-radius:50%;
+}
+
+/* -------------MIDDLE BLOG -------------- */
+
+.blog-middle {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.blog-box{
+    width:25%;
+    /* align-items:space-between; */
+    background-color:lightcyan;
+    border: 1px solid black;
+    margin:4% 1%;
+    padding:3% 3%;
+}
+
+.blog-box h2{
+    margin-top:3%;
+}
+
+.blog-box button{
+    padding:9px 15px;
+    margin-top:3%;
+    border:2px solid black;
+    font-size:14px;
+    border-radius:10px;
+}
+
+
 
 /* -----------END ---------------- */
