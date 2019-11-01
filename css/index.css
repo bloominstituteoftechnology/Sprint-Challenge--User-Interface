@@ -84,11 +84,6 @@ p {
     padding-bottom: 250px;
     bottom: 100px;
 }
-
-.container {
-
-}
-
 .top-content {
     display: flex;
     justify-content: center;
@@ -123,88 +118,117 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
-    width: 880px;
+    width: 2400px;
     max-width: 100%;
     display: flex;
     position: relative; 
     bottom: 100px;
     margin-left: 35px;
 }
-
-.middle-content .buttons .box1 {
+.middle-content .boxes div {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
-    max-width: 100%;
-    width: 440px;
-    height: 10px;
-    background-color: black;
-    color: white;
-    border: 2px solid grey;
 }
-.middle-content .buttons .box2 {
+.middle-content .boxes .box1 {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     max-width: 100%;
-    width: 440px;
-    height: 100px;   
-    background-color: black;
+    width: 100%;
+    height: 50px;   
     color: white;
-    border: 2px solid grey;
+    margin-left: 195px;
+}
+.middle-content .boxes .box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    width: 100%;
+    height: 50px;   
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 195px;
 }
 .border1 {
     background-color: teal;
     position: relative;
+    right: 775px;
+    top: 20px;
+    width: 150px;
+    height: 130px;
 }
 .border2 {
     background-color: gold;
     position: relative;
+    right: 600px;
+    bottom: 30px;
+    width: 150px;
+    height: 130px;
 }
 .border3 {
     background-color: cadetblue;
     position: relative;
+    right: 425px;
+    bottom: 79px;
+    width: 150px;
+    height: 130px;
 }
 .border4 {
     background-color: coral;
     position: relative;
+    right: 250px;
+    bottom: 127px;
+    width: 150px;
+    height: 130px;
 }
 .border5 {
     background-color: crimson;
     position: relative;
+    right: 75px;
+    bottom: 177px;
+    width: 150px;
+    height: 130px;
 }
 .border6 {
     background-color: forestgreen;
     position: relative;
+    right: 775px;
+    bottom: 90px;
+    width: 150px;
+    height: 130px;
 }
 .border7 {
     background-color: darkorchid;
     position: relative;
+    right: 600px;
+    bottom: 140px;
+    width: 150px;
+    height: 130px;
 }
 .border8 {
     background-color: hotpink;
     position: relative;
+    right: 425px;
+    bottom: 190px;
+    width: 150px;
+    height: 130px;
 }
 .border9 {
     background-color: indigo;
     position: relative;
+    right: 250px;
+    bottom: 240px;
+    width: 150px;
+    height: 130px;
 }
 .border10 {
     background-color: dodgerblue;
     position: relative;
-}
-.middle-content .boxes .box2 {
-    width: 880px;
-    max-width: 880px;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 1940px;
-    top: 800px;
+    right: 75px;
+    bottom: 290px;
+    width: 150px;
+    height: 130px;
 }
 
 .bottom-content {
@@ -256,7 +280,7 @@ footer nav a {
 .backdrop {
     position: relative;
     top: 140px;
-    left: 125px;
+    left: 90px;
     transform: Scale(1.1);
     margin-left: 10px;
 }
