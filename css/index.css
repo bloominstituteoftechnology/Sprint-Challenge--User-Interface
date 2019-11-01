@@ -88,6 +88,9 @@ nav a{
     color:black;
 
 }
+nav a:hover{
+    color:cadetblue;
+}
 .middle-img{
     margin-right:auto;
     width:50%;
