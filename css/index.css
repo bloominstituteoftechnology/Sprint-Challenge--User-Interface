@@ -65,28 +65,28 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-.top-nav {
+header nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 2%;
     font-size: 14px;
-git
+    color:black;
 }
-.logo{
-    position:absolute;
-    left:0;
-     top:0;
+ .logo{
+    justify-content: flex-start;
+    margin: 3%;
      
 }
-a{
+.links{
+    display:flex;
     color:black;
     font-family: 'Rubik', sans-serif;
     float: left;
-    text-align: center;
+    justify-content:space-between;
 }
-middle-img{
+.middle-img{
     display:block;
     margin-left:auto;
     margin-right:auto;
