@@ -158,10 +158,25 @@ footer nav a {
     text-decoration: none;
 }
 
-/* home css */
-
-
 top-content{
     display:flex;
 }
 /* about css */
+
+.boxes {
+    display:flex;
+    flex-direction:column; 
+}
+.top {
+    display:flex;
+    flex-direction:row;
+    margin:2%;
+    justify-content: space-between;
+}
+
+.bottom {
+    display:flex;
+flex-direction:row;
+margin:2%;
+justify-content: space-between;
+}
