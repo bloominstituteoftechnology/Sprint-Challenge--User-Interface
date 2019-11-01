@@ -186,7 +186,6 @@ header img {
     background: dodgerblue;
 }
 
-
 /* Code for bottom content */
 
 .bottom-content {
@@ -226,10 +225,6 @@ footer nav a {
 }
 
 /* Code for about */
-
-/* Code for about header */
-
-
 
 /* Code for about section */
 
@@ -284,6 +279,13 @@ h2 {
 	border-radius: 10px;
     font-size: 20px;
 }
+
+.container-about-page .about-main-section:nth-of-type(6){
+    border:none;
+    width: 100%;§
+}
+
+/* Code for about footer */
 
 
 .about-footer {
