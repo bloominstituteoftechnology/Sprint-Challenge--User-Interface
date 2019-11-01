@@ -72,9 +72,7 @@ p {
     margin: 0 auto;
     
 }
-div{
-    border:1px  ;
-}
+
 .top-section{
     display: flex;
     flex-direction: row-reverse;
@@ -205,3 +203,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page CSS*/
+
+.jumbo-about{
+    padding-bottom: 2.5%;
+}
+.about-section p{
+    border-bottom: 1px dashed gray;
+    padding-bottom: 2%;
+}
+.about-section{
+    
+    padding-bottom: 3%
+}
+
+.midsection{
+
+    flex-wrap: wrap;
+    
+}
+
+.midsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+.midsection .box1{
+    width:45%;
+}
+
+h3{
+    padding-top: 2%;
+}
+
+button{
+    font-size:18px;
+    padding: 1.5% 7%;
+    border: 3px solid black;
+    border-radius: 20%;
+    background: white;
+}
+
+.box1 p{
+    padding-bottom: 5%;
+}
+
+.last-section{
+    padding: 5% 0;
+}
+
+.midsection .box1:nth-child(1){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+.midsection .box1:nth-child(2){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+
+.midsection .box1:nth-child(3){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+.midsection .box1:nth-child(4){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+
