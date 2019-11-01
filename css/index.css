@@ -205,6 +205,7 @@ footer nav a {
 	color: black;
 	padding: 2px 10px;
 }
+/*
 #picturesFlex {
 height: 50%%;
     display: flex;
@@ -221,9 +222,39 @@ height: 50%%;
 .workTogether {
     margin-top: 20px;
     margin-bottom: 20px;
-}
+    margin-left: 0%;
+    margin-right: 10%;
+} */
 .aboutStyle {
     margin-bottom: 20px;
     margin-top: 25px;
     margin-left: 10px;
+}
+/*#picturesFlex .twoTopPic {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2:hover {
+    font-size: 30;
+}*/
+.twoTopPic {
+    display: flex;
+    justify-content: space-between;
+
+}
+.twoTopPic div {
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.secondPic {
+    display: flex;
+    justify-content: space-between;
+}
+.secondPic div {
+    width: 40%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+
 }
