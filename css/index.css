@@ -2,6 +2,24 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/*
+ANSWERS TO QUESTIONS:: 
+ If you were to describe semantic HTML to the next cohort of students, what would you say?
+It's the use of html markup to reinforce the information in the webpage/application rather than just defining the presentation or look of the site. Semantic html improves SEO and effects accessability so it's important. 
+
+Name two big differences between display: block; and display: inline;.
+display:block makes it display as a block-level element, like <p> <h1-h6> etc. 
+display:inline makes the element display on the same line.  
+
+What are the 4 areas of the box model?
+Content - Padding - Border- Margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+the cross axis (y axis)
+
+Explain why git is valuable to a team of developers.
+the main value is that you can see previous versions of the project and revert back to it if needed, and you can have your code reviewed and approved before being merged into the main project (pull request). 
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -299,4 +317,26 @@ footer nav a {
     position: relative;
     top: 100px;
     margin-left: 50px;
+}
+#footer1 {
+    position: relative;
+    right: 70px;
+}
+#footer2 {
+    position: relative; 
+    right: 130px;
+}
+#footer3 {
+    position: relative;
+    right: 160px;
+}
+#footer4 {
+    position: relative;
+    right: 220px;
+}
+#fixbox1 {
+    position: relative;
+    top: 55px;
+    font-weight: bold;
+    font-size: 20px;
 }
