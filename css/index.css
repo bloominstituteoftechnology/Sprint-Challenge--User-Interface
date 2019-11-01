@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+/* Code for nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 120px 30px 120px;
+    align-items: center;
+
+ }
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+ nav a:link {
+ 	 color: silver;
+ 	 text-decoration: none;
+ 	 font-size: 18px;
+ }
+ 
+ nav img {
+      width: 150px;
+      margin-left: 30px;
+ }
+
+
+/* Code for top content */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
