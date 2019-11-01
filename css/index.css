@@ -72,19 +72,26 @@ p {
 }
 
 
-.head{
+nav{
     display:flex;
     width:100%;
-    justify-content: space-between;
     justify-content: space-evenly;
+    padding:10px;
+    margin:10px;
+    align-items: center;  
+}
+nav a:visited{
+    color: black;
 }
 
-.nav{
-    width: 100%;
-    display:flex;
-    justify-content:space-between;
+nav a{
+    text-decoration:none;
 }
 
+
+.logo{
+    
+}
 
 .top-content {
     display: flex;
