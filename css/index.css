@@ -166,3 +166,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.container2 {
+    display: flex;
+    
+
+}
+
+
+.Strategy {
+    display: flex;
+   
+   
+    
+}
+.HowWeWork {
+    display: flex;
+    
+    
+} 
+.button {
+    border: 1px;
+    width: 10%:
+}
+.container3 {
+    display: flex;
+}
+.box1{
+    background-color:teal;
+  }
+  .box2{
+    background-color:gold;
+  }
+  .box3{
+    background-color:cadetblue;
+  }
+  .box4 {
+    background-color:coral;
+    
+  }
+  .box5 {
+      background-color: crimson;
+
+  }
+.box6 {
+      background-color: forestgreen;
+      
+  }.box7 {
+    background-color: darkorchid;
+    
+}.box8 {
+    background-color: hotpink;
+    
+}.box9 {
+    background-color: indigo;
+    
+}.box10 {
+    background-color: dodgerblue;
+    
+}
+}
