@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -69,7 +70,36 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
+div{
+    border:1px  ;
+}
+.top-section{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.todo nav{
+    width:95%;
+	display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 5%;
+
+}
+.todo nav a{
+   text-decoration: none; 
+   background-color: none;
+   color:gray;
+   align-self: flex-end;
+}
+.jumbo{
+    padding-bottom: 3%;
+}
+
+
 
 .top-content {
     display: flex;
@@ -111,6 +141,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box:nth-child(1){
+    background: teal;
+}
+.boxes .box:nth-child(2){
+    background: gold;
+}
+.boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.boxes .box:nth-child(4){
+    background: coral;
+}
+.boxes .box:nth-child(5){
+    background: crimson;
+}
+.boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.boxes .box:nth-child(7){
+    background: darkorchid
+}
+.boxes .box:nth-child(8){
+    background: hotpink;
+}
+.boxes .box:nth-child(9){
+    background: indigo;
+}
+.boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
