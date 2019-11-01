@@ -213,8 +213,7 @@ header nav a{
 }
 .info-box img{
     max-width: 100%;
-    padding: 2%;
-    margin: 2%;
+    padding-right: 1.5%;
 }
 .learn-more{
 	color: black;
