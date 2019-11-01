@@ -31,6 +31,23 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+/* ------------------NAV--------------------- */
+nav {
+	/* width: 61.5%; */
+	display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin:4% 0%;
+}
+nav a {
+	padding:7px;
+	color:black;
+	text-decoration:none;
+}
+
+/* -----------------ELEMENTS---------------- */
+
 ol, ul {
 	list-style: none;
 }
@@ -66,10 +83,14 @@ p {
     line-height: 1.4;
 }
 
+/* -----------------ALL-------------------- */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* -----------------TOP--------------------- */
 
 .top-content {
     display: flex;
@@ -85,6 +106,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+/* --------------MIDDLE--------------------- */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +135,8 @@ p {
     justify-content: center;
 }
 
+/* ----------------BOTTOM-------------------- */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +150,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* ---------------FOOTER--------------------- */
 
 footer {
     width: 100%;
