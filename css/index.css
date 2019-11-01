@@ -51,6 +51,22 @@ table {
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    margin-top:25px;
+
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -104,12 +120,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background:teal ;
+}
+
+.box2 {
+    background:gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background:coral ;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +199,43 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page coding under this line */
+
+.aboutmiddle {
+    display: flex;
+    flex-flow: row wrap;
+	justify-content: space-evenly;
+	
+	width: 100%;
+	margin-left: 10px;
+}
+
+.aboutbox {
+    width: 45%;
+    margin-top: 25px;
+    border-bottom:dotted black 1px;
+    padding-bottom: 20px;
+}
+
+.top-about {
+    flex-direction: column;
+	width: 100%;
+	border-bottom:dotted black 1px;
+	padding: 30px;
+}
+
+.worktogether {
+    flex-direction: column;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: white;
+   
+} 
+
+/* trying to test animations below*/
+
