@@ -234,3 +234,52 @@ footer nav a {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.contact-form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+.req{
+    color:red;
+    padding-left: 5px;
+}
+.dude-lives{
+    width:40%;
+    padding-right: 5%;
+}
+.dude-lives img{
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.user-input{
+    width:50%;
+}
+.user-input input{
+    border: 1px solid black;
+    background: none;
+    -webkit-appearance: none;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 0;
+    color:#444;
+}
+.user-input div{
+    margin-bottom: 1em;
+}
+.user-input textarea{
+    border: 1px solid black;
+    background: none;
+    -webkit-appearance: none;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    box-sizing: border-box;
+    border-radius: 0;
+    color:#444;
+    font: 1em "Franklin ITC Light", sans-serif;
+}
+.user-input select{
+    margin-top: 0.5em;
+}
