@@ -144,13 +144,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-header{
+/*header{
     display: inline;
     width: 100%;
     background: black;
 
 
-}
+}*/
 header.section{
 	height: 10%;
 	width: 100%;
@@ -178,7 +178,8 @@ header nav a{
 }
 /* About page */
 .about-top-section{
-    display: flex;     
+    display: flex; 
+    margin-bottom: 2%;
 }
 .about-img{
     margin-bottom: 2%;
@@ -190,8 +191,6 @@ header nav a{
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
 	width: 100%;
 }
 .info-box{
@@ -199,9 +198,10 @@ header nav a{
     flex-direction: row;
     flex-wrap: wrap;
 	color: black;
-	width: 40%;
-	border-bottom;: .5px dashed black;
-	/*padding: 3% 4%;*/
+	width: 50%;
+    border-bottom: .5px dashed black;
+    margin: 0;
+	
 }
 .info-box img{
     max-width: 70%;
