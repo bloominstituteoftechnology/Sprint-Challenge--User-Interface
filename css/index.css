@@ -176,3 +176,46 @@ header nav a{
 .img-container{
     margin-bottom: 2%;
 }
+/* About page */
+.about-top-section{
+    display: flex;     
+}
+.about-img{
+    margin-bottom: 2%;
+}
+.about-text{
+    margin-bottom: 2%;
+}
+.about-services{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.info-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	color: black;
+	width: 40%;
+	border-bottom;: .5px dashed black;
+	/*padding: 3% 4%;*/
+}
+.info-box img{
+    max-width: 70%;
+    padding: 2%;
+    margin: 2%;
+}
+.learn-more{
+	color: black;
+	background: white;
+	border: 1px solid black;
+	margin: 4%;
+    padding: 1.5% 5% 1.5% 5%;
+    border-radius: 7px;
+}
+.working-together{
+    margin-bottom: 3%;
+}
