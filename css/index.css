@@ -78,7 +78,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     margin: 10px 120px 30px 120px;
-    align-items: center;
+    align-items: baseline;
  }
 .links {
     display: flex;
@@ -190,7 +190,7 @@ header img {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 5px 2% 25px;
     justify-content: space-around;
 }
 
@@ -216,6 +216,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 10px 50px 0px 10px; 
 }
 
 footer nav a {
