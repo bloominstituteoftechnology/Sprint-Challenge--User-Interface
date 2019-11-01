@@ -70,9 +70,14 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
+    width:70%;
+    
+}
+nav a {
     color:black;
     text-decoration:none;
 }
+
  header  {
     display: flex;
     margin-left: auto;
@@ -164,7 +169,7 @@ top-content{
 }
 /* about css */
 
-.boxes {
+.boxes2 {
     display:flex;
     flex-direction:column; 
 }
@@ -175,7 +180,7 @@ top-content{
     justify-content: space-between;
 }
 
-.bottom {
+.bottom2 {
     display:flex;
 flex-direction:row;
 margin:2%;
