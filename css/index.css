@@ -21,15 +21,18 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    width: 880px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+    width: 880px;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    width: 880px;
 }
 ol, ul {
 	list-style: none;
@@ -49,21 +52,38 @@ table {
 
 * {
     box-sizing: border-box;
+    width: 880px;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width: 880px;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    width: 880px;
 }
 
 p {
     line-height: 1.4;
+    width: 880px;
+}
+/* CODE BELOW THIS LINE */
+
+
+
+.navigation section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 880px;
+    padding: 20px;
+    position: relative;
+    left: 150px;
+    padding-bottom: 300px;
 }
 
 .container {
@@ -77,32 +97,40 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 880px;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 880px;
     padding: 0 1%;
     padding-bottom: 20px;  
+    display: flex;
+
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 880px;
+    display: flex;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    width: 880px;
+    display: flex;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 880px;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 880px;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -116,31 +144,39 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    width: 880px;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    display: flex;
+    width: 880px;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    display: flex;
+    width: 880px;
 }
 
 footer {
-    width: 100%;
+    width: 880px;
     background: black;
+    display: flex;
 }
 
 footer nav {
-    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    width: 880px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    width: 880px;
+    display: flex;
 }
