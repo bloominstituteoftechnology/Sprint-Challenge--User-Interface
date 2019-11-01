@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* Overall code */
 * {
     box-sizing: border-box;
 }
@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -153,6 +153,38 @@ header img {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes :nth-of-type(1){
+    background: teal;
+}
+.middle-content .boxes :nth-of-type(2){
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
 
 /* Code for bottom content */
 
