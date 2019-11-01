@@ -156,7 +156,7 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: darkslategrey;
     padding-top: 0;
 }
@@ -201,16 +201,25 @@ img{
 }
 
 .top-content .text-container-single {
-    padding: 0 1%;
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 
 .middle-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0;
+    /* padding: 0 1%; */
     padding-bottom: 20px;  
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content .text-container p{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .fun-button {
@@ -233,3 +242,4 @@ img{
 .space-bottom {
     margin-bottom: 20px;
 }
+
