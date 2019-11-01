@@ -180,6 +180,7 @@ header nav a{
 .about-top-section{
     display: flex; 
     margin-bottom: 2%;
+    border-bottom: .5px dashed black;
 }
 .about-img{
     margin-bottom: 2%;
@@ -197,14 +198,16 @@ header nav a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-	color: black;
-	width: 50%;
+    color: black;
+    justify-content: center;
+    align-items: center;
+	width: 350px;
     border-bottom: .5px dashed black;
     margin: 0;
 	
 }
 .info-box img{
-    max-width: 70%;
+    max-width: 100%;
     padding: 2%;
     margin: 2%;
 }
