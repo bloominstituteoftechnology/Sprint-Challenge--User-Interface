@@ -72,7 +72,7 @@ p {
     margin: 0 auto;
 }
 
-/* * * * * * HEADER START * * * * * */
+/* * * * * * HEADER * * * * * */
 * {
     /* border: 1px solid cyan; */
 }
@@ -145,7 +145,7 @@ nav a {
     background: dodgerblue;
 }
 
-
+/* * * * * * HOME * * * * * */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -201,6 +201,7 @@ nav a {
     padding-right: 0;
 }
 
+/* * * * * * FOOTER * * * * * */
 footer {
     width: 100%;
     background: black;
@@ -219,3 +220,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* * * * * * ABOUT START * * * * * */
+.about-top {
+    display: flex;
+    flex-direction: column;
+    padding:0 2%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+}
+
+.about-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    margin-top: 5%;
+}
+
+.card a {
+    border: 2px solid black;
+    text-align: center;
+    width: 35%;
+    padding: 3% 2%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 3%;
+}
+
+.about-bottom {
+    display: flex;
+    flex-direction: column;
+    padding:0 2%; 
+    margin: 5% 0;
+}
+    
+    
