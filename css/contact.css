@@ -69,7 +69,7 @@ p {
 /* Starting my code here */
 
 .container {
-    width: 45%;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -156,6 +156,11 @@ header {
 .bottomText {
     display: flex;
     flex-direction: column;
+}
+
+input[type=text] {
+    width: 100% ;
+    margin: 2% 0;
 }
 
 footer {
