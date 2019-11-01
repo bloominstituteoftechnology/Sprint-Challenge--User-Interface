@@ -77,17 +77,28 @@ p {
 }
 
 header nav {
-    justify-content: space-evenly;
+    border: 2px solid yellow;
+    width: 80%;
+    align-content: center;
+    margin-left: 40px;
+    align-items: center;
 }
-
 header nav a {
+    margin-right: 75px;
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
+    border: 2px solid red;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .logo {
+    display: flex;
+    align-content: center;
     order: -5;
+    margin-bottom: 30px;
+    border: 2px solid blue;
 }
 .top-content {
     display: flex;
@@ -265,8 +276,23 @@ footer nav a {
 
 /*About.html*/
 
-.top-content {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.top-content-about {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
+
+.main-content .middle-content-about .text-content1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.text-content1 {
+    display: flex;
+    width: 50%;
+}
+.bottom-content-about {
+    display: flex;
+}
