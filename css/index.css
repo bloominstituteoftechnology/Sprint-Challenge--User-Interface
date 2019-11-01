@@ -226,7 +226,8 @@ header nav a{
     max-width:70px;
     position: relative;
     animation-name: color-shift;
-    animation-duration: 10s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 .contact-form{
 margin: 3% 0 3% 0;
@@ -237,6 +238,8 @@ margin: 3% 0 3% 0;
     color: white;
     background: black;
     border: none;
+    margin: 1%
+    
 }
 .contact-form input[type=text]{
     background-color: lightgray;
@@ -244,6 +247,8 @@ margin: 3% 0 3% 0;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     border-radius: 25px;
+    padding-left: 2%;
+    margin: 1%;
 }
 .contact-form input[type=email]{
     background-color: lightgray;
@@ -251,6 +256,8 @@ margin: 3% 0 3% 0;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     border-radius: 25px;
+    padding-left: 2%;
+    margin: 1%;
 }
 .contact-form input[type=text]:focus{
     width: 70%;
@@ -260,9 +267,10 @@ margin: 3% 0 3% 0;
 }
 .contact-form select{
     border-radius: 25px;
-    border: none;
     background-color: lightgray;
     color: gray;
+    padding-left: 2%;
+    margin: 1%;
     
 }
 .contact-form button:hover{
