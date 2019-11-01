@@ -28,7 +28,44 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+
+/* code for navigation and header */
+  header nav{
+     width:100%;
+    display:flex;
+    justify-content:start;
+}
+
+.logo{
+    width:30%;
+}
+
+.logo img{
+    max-width:100%;
+}
+
+
+nav a{
+    letter-spacing: 10px;
+    font-size:8px;
+}
+  
+.links{
+    color:black;
+    background:white;
+    width:10%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+ /*code for navigation and header */
+.jumbo-logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
 	line-height: 1;
 }
 ol, ul {
