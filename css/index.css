@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -48,119 +48,131 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-family: 'Rubik', sans-serif;
 }
 
 p {
-    line-height: 1.4;
+	line-height: 1.4;
 }
 
 .topLinks {
-	border: 1px solid blue;
-	padding: 0 2%;
+	margin-top: 1%;
 	display: flex;
 	font-size: 16px;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: flex-start;
 }
 
 .topLinks a{
-	border: 1px solid blue;
 	text-decoration: none;
 	color: black;
-	
+	margin-left: 40px;
+	margin-top: 2%;
 }
 
-.topLinks img {
-	border: 1px solid blue;
+.topImage {
+	display: flex;
+	justify-content: center;
+	margin-left: 25%;
+	height: 15%;
+	width: 50%;
+	margin-bottom: 20px;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+	display: flex;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
+	width: 48%;
+	padding: 0 1%;
+	padding-bottom: 20px;
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+	padding: 0 2%;
+	margin-bottom: 0;
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	width: 12.5%;
+	height: 100px;
+	background: black;
+	margin: 20px 2.5%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+	display: flex;
+	margin: 0 2% 20px;
+	justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+	padding-right: 4%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+	padding-right: 0;
+}
+
+.bottomLinks {
+	display: flex;
+	margin-left: 10%;
+	padding-left: 20%;
 }
 
 footer {
-    width: 100%;
-    background: black;
+	width: 100%;
+	background: black;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	font-size: 14px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
+	text-align: center;
 }
