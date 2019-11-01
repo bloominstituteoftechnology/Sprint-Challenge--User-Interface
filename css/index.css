@@ -337,6 +337,7 @@ input[type=text], select, textarea {
   
   input[type=submit] {
     color: black;
+    background-color:cadetblue;
     padding: 12px 20px;
     border: 1px dotted black;
     border-radius: 4px;
@@ -349,7 +350,7 @@ input[type=text], select, textarea {
   }
   
   
-  .container {
+  .contact-container {
     border-radius: 5px;
     background-color: lightcyan;
     padding: 20px;
