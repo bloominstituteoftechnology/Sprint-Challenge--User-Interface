@@ -89,8 +89,6 @@ nav a{
 
 }
 .middle-img{
-    display:block;
-    margin-left:auto;
     margin-right:auto;
     width:50%;
 
@@ -290,9 +288,15 @@ footer nav a {
     float: right;
     text-align: center;
 }
+img{
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
 .about-page{
     border-bottom: 3px dotted gray;
     padding-bottom: 20px;
+    margin:5%;
 }
 .info-section{
     display: flex;
@@ -306,6 +310,9 @@ footer nav a {
     padding: 0 1%;
     padding-bottom: 20px; 
   border-bottom: dotted gray;
+}
+.bottom-part{
+    padding:3%;
 }
 
 footer nav {
