@@ -65,7 +65,23 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.navBarClass a {
+    margin: 80px 10px;
+	padding: 19px;
+	color: grey;
+	text-decoration: none;
+	border: 3px;
+}
+.topPicture img {
+    display: flex; 
+    margin-left: 21%;
+    margin-top: 20px;
+    margin-bottom: 2-px;
+}
+.containerOne {
+    display: flex;
+    margin-left: 21%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -73,16 +89,21 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-left: 12px;
+    margin-top: 5%;
+    margin-right: 2%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content p {
+    text-align: justify;
+}
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
+    width: 100%;
+    padding: 0 2%;
     padding-bottom: 20px;  
+    margin-left: 5px;
 }
 
 .middle-content {
@@ -111,7 +132,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#bOne {
+    background-color:teal;
+}
+#bTwo {
+    background-color: yellow;
+}
+#b3 {
+    background-color: lightseagreen;
+}
+#b4 {
+    background-color: orange;
+}
+#b5 {
+    background-color:red;
+}
+#b6 {
+    background-color: green;
+}
+#b7 {
+    background-color: purple;
+}
+#b8 {
+    background-color: pink;
+}
+#b9 {
+    background-color: blueviolet;
+}
+#b10 {
+    background-color: blue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
