@@ -206,3 +206,20 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top-row, .bottom-row{
+    display: flex;
+    border-bottom:dotted grey;
+
+}
+.top, .bottom{
+    width:50%;
+}
+
+button{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.last-p{
+    margin:10px;
+}
