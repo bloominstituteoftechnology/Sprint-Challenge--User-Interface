@@ -65,13 +65,17 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+    width: 50%;
+    
+}
 header nav {
+    width: 76%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 75%;
-    margin-left: 12%;
-    padding: 4px;
+    margin-left: 58%;
+    padding: 10px;
     font-size: 14px;
 }
 
