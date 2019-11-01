@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,51 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-top: 0;
+}
+
+.box1{
+    background: #428280;
+}
+.box2 {
+    background: #fcd713;
+}
+.box3 {
+    background: #5f9ea0;
+}
+.box4 {
+    background: #e97a50;
+}
+.box5 {
+    background: #df4e3d;
+}
+.box6 {
+    background: #528c22;
+}
+.box7 {
+    background: #9e5bcc;
+}
+.box8 {
+    background: #e264b4;
+}
+.box9 {
+    background: #513481;
+}
+.box10 {
+    background: #1e90fe;
 }
