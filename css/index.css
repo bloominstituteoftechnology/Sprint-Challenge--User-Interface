@@ -211,3 +211,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about.html css begins here */
+
+.about {
+    margin: 25px 25px;
+}
