@@ -1,4 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -26,13 +27,34 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+    
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
+    
+    
+}
+
+
+
+header {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    
+    
+
+}
+.main-nav {
+    color: grey;
+    justify-content: space-around;
+    
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
+    
 }
 blockquote, q {
 	quotes: none;
