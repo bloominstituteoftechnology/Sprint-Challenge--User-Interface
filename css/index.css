@@ -151,6 +151,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin:5px;
 }
 
 footer nav a {
@@ -179,4 +180,14 @@ top-content{
 flex-direction:row;
 margin:2%;
 justify-content: space-between;
+}
+hr {
+    border-top: 1px dashed black;
+    margin: 10px;
+}
+.low {
+    margin: 5px;
+}
+.high {
+    margin: 10px;
 }
