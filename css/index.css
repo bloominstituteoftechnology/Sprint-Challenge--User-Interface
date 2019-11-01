@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -79,7 +79,6 @@ nav {
     justify-content: space-around;
     margin: 10px 120px 30px 120px;
     align-items: center;
-
  }
 .links {
     display: flex;
@@ -88,16 +87,27 @@ nav {
     width: 80%;
 }
  nav a:link {
- 	 color: silver;
+ 	 color: black;
  	 text-decoration: none;
  	 font-size: 18px;
  }
  
  nav img {
       width: 150px;
-      margin-left: 30px;
  }
 
+/* Code for header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 50px 40px 50px;
+}
+
+header img {
+    width: 86%;
+}
 
 /* Code for top content */
 
@@ -114,6 +124,8 @@ nav {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Code for middle content */
 
 .middle-content {
     margin-bottom: 20px;
@@ -142,6 +154,8 @@ nav {
     justify-content: center;
 }
 
+/* Code for bottom content */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -155,6 +169,8 @@ nav {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Code for footer content */
 
 footer {
     width: 100%;
