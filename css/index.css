@@ -22,17 +22,14 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    width: 880px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
-    width: 880px;
 }
 body {
     line-height: 1;
-    width: 880px;
 }
 ol, ul {
 	list-style: none;
@@ -52,25 +49,25 @@ table {
 
 * {
     box-sizing: border-box;
-    width: 880px;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 3px solid black;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    width: 880px;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
-    width: 880px;
 }
 
 p {
     line-height: 1.4;
-    width: 880px;
 }
 /* CODE BELOW THIS LINE */
 
@@ -80,38 +77,46 @@ p {
     display: flex;
     justify-content: space-evenly;
     width: 880px;
+    max-width: 100%;
     padding: 20px;
     position: relative;
-    left: 150px;
-    padding-bottom: 300px;
+    left: 140px;
+    padding-bottom: 250px;
+    bottom: 100px;
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+
 }
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     width: 880px;
+    max-width: 100%;
+    position: relative;
+    margin-left: 52px;
+    padding-bottom: 20px;
+    bottom: 100px;
 }
-
-.top-content .text-container {
-    width: 880px;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+#future {
+    width: 50%;
+}
+#past {
+    width: 50%;
+}
+.top-content h2 {
     display: flex;
-
+    max-width: 100%;
+    width: 880px;
 }
-
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     width: 880px;
+    max-width: 100%;
     display: flex;
 }
 
@@ -119,18 +124,77 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
     width: 880px;
+    max-width: 100%;
     display: flex;
+    position: relative; 
+    bottom: 100px;
+    margin-left: 35px;
 }
 
-.middle-content .boxes {
+.middle-content .buttons .box1 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 880px;
+    flex-direction: row;
+    max-width: 100%;
+    width: 440px;
+    height: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
 }
-
-.middle-content .boxes .box {
+.middle-content .buttons .box2 {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    width: 440px;
+    height: 100px;   
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+}
+.border1 {
+    background-color: teal;
+    position: relative;
+}
+.border2 {
+    background-color: gold;
+    position: relative;
+}
+.border3 {
+    background-color: cadetblue;
+    position: relative;
+}
+.border4 {
+    background-color: coral;
+    position: relative;
+}
+.border5 {
+    background-color: crimson;
+    position: relative;
+}
+.border6 {
+    background-color: forestgreen;
+    position: relative;
+}
+.border7 {
+    background-color: darkorchid;
+    position: relative;
+}
+.border8 {
+    background-color: hotpink;
+    position: relative;
+}
+.border9 {
+    background-color: indigo;
+    position: relative;
+}
+.border10 {
+    background-color: dodgerblue;
+    position: relative;
+}
+.middle-content .boxes .box2 {
     width: 880px;
+    max-width: 880px;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -138,6 +202,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    right: 1940px;
+    top: 800px;
 }
 
 .bottom-content {
@@ -145,22 +212,26 @@ p {
     margin: 0 2% 20px;
     justify-content: space-around;
     width: 880px;
+    max-width: 100%;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
     display: flex;
     width: 880px;
+    max-width: 100%;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
     display: flex;
     width: 880px;
+    max-width: 100%;
 }
 
 footer {
     width: 880px;
+    max-width: 100%;
     background: black;
     display: flex;
 }
@@ -172,11 +243,25 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
     width: 880px;
+    max-width: 100%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
     width: 880px;
+    max-width: 100%;
     display: flex;
+}
+.backdrop {
+    position: relative;
+    top: 140px;
+    left: 125px;
+    transform: Scale(1.1);
+    margin-left: 10px;
+}
+.lslogo {
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
 }
