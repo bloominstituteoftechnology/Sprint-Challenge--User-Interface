@@ -208,3 +208,44 @@ footer nav a {
 .blue3{
     background-color:#1E90FF;
 }
+
+/*Aditional CSS for ABOUT page*/
+
+.text-about{
+    padding:2%;
+}
+
+.content-about{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+align-items: center;
+}
+
+.card{
+    border-bottom:1px dashed black;
+    width:45%;
+    margin:2% 2% 2% 3%;
+    display:flex;
+    flex-direction:column;
+}
+.card h3{
+    padding-top:2%;
+}
+
+.card img{
+    width: 100%;
+}
+
+button{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2% 7%;
+    margin:5% 0;
+    width:35%;    
+}
+
+.bottom-about{
+    padding:3%;
+}
