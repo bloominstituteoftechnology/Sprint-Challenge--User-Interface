@@ -65,9 +65,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+    display:flex;
+}
 header nav {
     width: 60%;
-    display: flex;
     margin:5%;
 }
  .logo{
