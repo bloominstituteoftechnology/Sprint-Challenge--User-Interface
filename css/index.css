@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* MY CODE HERE*/
+/* MY INDEX PAGE CODE HERE*/
 .banner{
     margin-top:5%;
     margin-bottom:5%;
@@ -159,6 +159,8 @@ footer nav a {
 .logo{
     
     display:flex;
+    margin-top:2%;
+    
 }
 nav{
     
@@ -169,6 +171,7 @@ nav{
 nav a{
   width:60%; 
   margin-left:5%;
+  margin-top:7%
 }
 
 .box1{
@@ -210,3 +213,121 @@ nav a{
     background-color:dodgerblue;
 }
 
+/*ABOUT PAGE CSS HERE*/
+
+
+
+
+.boxes2{
+
+width:50%;
+
+
+}
+.boxes2 .strategy{
+
+    border-bottom: 1px dashed black;
+    width:95%;
+    margin-bottom:5%;
+}
+
+.boxes2 .strategy button{
+    background-color:white;
+    border-radius:7%;
+    width:30%;
+    height:35px;
+    margin-bottom:5%;
+    margin-top:5%;
+    border:2px solid black;
+}
+
+
+.boxes2 .work{
+    border-bottom: 1px dashed black;
+    width:95%;
+    margin-bottom:5%;
+}
+
+
+.boxes2 .work button{
+    background-color:white;
+    border-radius:7%;
+    width:30%;
+    height:35px;
+    margin-bottom:5%;
+    margin-top:5%;
+    border:2px solid black;
+}
+
+.boxes2 .places{
+    border-bottom: 1px dashed black;
+    width:95%;
+    margin-bottom:5%;
+}
+
+
+.boxes2 .places button{
+    background-color:white;
+    border-radius:7%;
+    width:30%;
+    height:35px;
+    margin-bottom:5%;
+    margin-top:5%;
+    border:2px solid black;
+}
+
+
+
+
+.boxes2 .collab{
+    border-bottom: 1px dashed black;
+    width:95%;
+    margin-bottom:5%;
+}
+
+.boxes2 .collab button{
+    background-color:white;
+    border-radius:7%;
+    width:30%;
+    height:35px;
+    margin-bottom:5%;
+    margin-top:5%;
+    border:2px solid black;
+}
+
+
+
+
+
+#body{
+    
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:3%;
+    justify-content: space-between;
+}
+
+.about{
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+}
+
+.about p{
+    margin-bottom:3%;
+}
+
+.boxes2 .button{
+    
+	border:2px solid green;
+	
+}
+
+.bottom{
+
+    margin-top:5%;
+    margin-bottom:5%
+}
+
+.boxes2 h2{
+    margin-top:3%
+}
