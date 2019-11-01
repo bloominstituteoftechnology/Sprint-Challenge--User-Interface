@@ -144,3 +144,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* home css */
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width:50%;
+    height:auto;
+    
+}
+/* about css */
