@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    max-width: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -32,39 +33,47 @@ footer, header, hgroup, menu, nav, section {
 /* code for navigation and header */
   header nav{
      width:100%;
-    display:flex;
-    justify-content:start;
+     display:flex;
+     justify-content:space-between;
 }
 
 .logo{
+    flex-grow: 2;
     width:30%;
 }
 
 .logo img{
     max-width:100%;
 }
-
-
-nav a{
-    letter-spacing: 10px;
-    font-size:8px;
-}
   
 .links{
-    color:black;
-    background:white;
-    width:10%;
+    width:60%;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
+}
+.links a{
+    text-decoration: none !important;
+    color:black;
 }
  /*code for navigation and header */
 .jumbo-logo{
     display:flex;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+/* Code For About Page */
+.text{
+    text-align: left;
+    border-bottom: 1px dashed black;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.last-section
 
+/* Code For About Page */
 body{
 	line-height: 1;
 }
@@ -78,6 +87,36 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
+}
+.teal{
+    background-color: teal !important;
+}
+.gold{
+    background-color: gold !important;
+}
+.cadetblue{
+    background-color: cadetblue  !important;
+}
+.coral{
+    background-color:coral !important;
+}
+.crimson{
+    background-color: crimson !important;
+}
+.forestgreen{
+    background-color: forestgreen !important;
+}
+.darkorchid{
+    background-color: darkorchid !important;
+}
+.hotpink{
+    background-color: hotpink !important;
+}
+.indigo{
+    background-color: indigo !important;
+}
+.dodgerblue{
+    background-color: dodgerblue !important;
 }
 table {
 	border-collapse: collapse;
@@ -141,9 +180,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
