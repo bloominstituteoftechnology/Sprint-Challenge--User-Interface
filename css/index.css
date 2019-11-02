@@ -129,7 +129,96 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.box1 {
+    width: 100%;
+    height: 100px;
+    background: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 
+    .box2 {
+        width: 100%;
+        height: 100px;
+        background: gold;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+
+        .box3 {
+            width: 100%;
+            height: 100px;
+            background: cadetblue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;}
+        
+            .box4 {
+                width: 100%;
+                height: 100px;
+                background: coral;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;}
+            
+                .box5 {
+                    width: 100%;
+                    height: 100px;
+                    background: crimson;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;}
+                    .box6 {
+                        width: 100%;
+                        height: 100px;
+                        background: forestgreen;
+                        color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;}
+                        .box7 {
+                            width: 100%;
+                            height: 100px;
+                            background: darkorchid;
+                            color: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;}
+                            .box8 {
+                                width: 100%;
+                                height: 100px;
+                                background: hotpink;
+                                color: white;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;}
+
+                                .box9 {
+                                    width: 100%;
+                                    height: 100px;
+                                    background: indigo;
+                                    color: white;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;}
+                                    .box10 {
+                                        width: 100%;
+                                        height: 100px;
+                                        background: dodgerblue;
+                                        color: white;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;}
+                                    
+                                
+                            
+                    
+                
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
