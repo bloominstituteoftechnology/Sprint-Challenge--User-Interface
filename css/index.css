@@ -144,3 +144,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+a {
+    text-decoration: none;   
+    color: black; 
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#pic {
+    padding-bottom: 20px;
+}
+
+.container-about-page {
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 20px;
+}
+#about {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+.contain {
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 20px;
+    width: 400px;   
+    height: 400px;
+    border-bottom: 1px dashed black; 
+}
+button {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+h3 {
+    margin-top: 10px;
+}
+.bottom {
+    margin-bottom: 20px;
+}
