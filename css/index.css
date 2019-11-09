@@ -298,27 +298,33 @@ footer nav a {
 .center-content {
     display: flex;
     justify-content:space-between;
+    flex-wrap:wrap;
+    padding:20px;
     
 }
 .strategy {
     display:column;
     width: 48%;
+    padding: 0px 0px 40px;
     
 }
 
 .how-we-work {
     display:column;
     width: 48%;
+    padding: 0px 0px 40px;
     
 }
 
 .places-we-work {
     display:column;
     width: 48%;
+    padding: 0px 0px 40px;
     
 }
 
 .collaboration {
     display:column;
     width: 48%;
+    padding: 0px 0px 40px;
 }
