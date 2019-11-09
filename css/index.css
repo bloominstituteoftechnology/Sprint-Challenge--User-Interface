@@ -79,6 +79,7 @@ header {
     display:flex;
     flex-direction:row;
     justify-content: flex-start;
+    margin: 10px 0px;
 }
 
 .top-content {
@@ -156,9 +157,9 @@ footer nav a {
 }
 
 .container header .navigation nav {
-    width: 60%;
+    width: 300%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
