@@ -42,7 +42,7 @@ Display block creates a new line and display inline does not create a new line i
 
 3. What are the 4 areas of the box model?
 
-Content, padding, border and margin.
+They are Content, padding, border and margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
