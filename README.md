@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I'd tell the next chohort of students that semantic HTML are tags in the HTML coding that help give your markup meaning to people and machines.
+The meaning helpw people and machines to quickly know what the tags are for.  For example, <nav> is for the navigation bar, <footer> is for
+the bottom, or footer, portion of the page, <section> is a section, etc.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block elements take up as much space as their parent element will allow.  You can add padding and margins to the four sides of the block element.
+
+Display: inline-block elements take up as much space as the content.  Also, you can't add height to the padding or margin (top and bottom) of the element.
 
 3. What are the 4 areas of the box model?
 
+Margin, border, padding and content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The Y axis (cross-access).
+
 5. Explain why git is valuable to a team of developers.
+
+It's valuable because more than one team member can work on the project at the same time.
+It also keeps track of all changes made to the files.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
