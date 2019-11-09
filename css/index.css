@@ -71,6 +71,57 @@ p {
     margin: 0 auto;
 }
 
+header {
+	width: 100%;
+	padding: 10px 20px 60px 20px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	padding-top: 60px;
+}
+
+header nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: linear-gradient(#eee, #ccc);
+	width: 100%;
+	z-index: 1;
+	border-bottom: 1px solid #ccc;
+	transition-property: padding;
+	transition-duration: 0.5s;
+	padding: 0px 0;
+}
+
+nav:hover {
+	transition-property: padding;
+	transition-duration: 0.5s;
+	padding: 10px 0;
+}
+
+header nav a {
+	display: inline-block;
+	color: #888;
+	text-decoration: none;
+	font-weight: 400;
+	padding: 30px;
+}
+
+nav a:hover {
+	transition-property: color, font-weight;
+	transition-duration: 0.5s, 0.5s;
+	color: #fff;
+	font-weight: bold;
+}
+
+.logo {
+	display: inline-block;
+	background: url("https://i.imgur.com/RoKbjZH.png");
+	width: 183px;
+	height: 36px;
+	margin-left: 100px;
+	vertical-align: middle;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
