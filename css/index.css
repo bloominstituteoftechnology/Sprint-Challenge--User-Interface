@@ -144,3 +144,78 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+/* Start of My Code */
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;    
+}
+
+a {
+    color: black;
+}
+
+
+/* start of about styling */
+
+
+.container-about {
+    width: 800px;
+    margin: auto;
+}
+
+.boxes-about {
+    
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    
+    height: 900px;
+    
+
+}
+
+.Collaboration {
+    border-bottom: 2px dotted black;    
+width: 373px;
+}
+
+.Places {
+    border-bottom: 2px dotted black;    
+width: 373px;
+
+}
+
+.Work {
+    border-bottom: 2px dotted black;    
+width: 373px;
+margin-right: 50px;
+}
+
+.Strategy {
+    border-bottom: 2px dotted black;    
+width: 373px;
+padding-right: 50px;
+
+}
+
+.About {
+    border-bottom: 2px dotted grey;
+}
+
+.learn-more {
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 150px;
+    Height: 35px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+}
