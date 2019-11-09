@@ -210,3 +210,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page CSS */
+
+.container about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.about{
+    margin: 15px;
+    
+}
+
+p{
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.25);
+    
+}
+
+#about-plan{
+    margin:  20px
+}
+
+#about-working{
+    float: right;
+    dis
+   
+
+}
