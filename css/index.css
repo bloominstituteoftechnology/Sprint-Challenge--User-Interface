@@ -75,17 +75,18 @@ p {
 
 .logo {
     display:inline-block;
+    width: 300%;
 }
 
 /* -- navigation part -- */ 
 
 
-
-.navigation-bar {
+/*
+.container {
     display: flex; 
-    width: 900px; 
-    margin-left: 10px;
-    padding: 20px; 
+    width: 1000px; 
+    margin-left: 0px;
+    padding: 10px; 
     padding-left: 10px;  
     background:red; 
  
@@ -115,7 +116,16 @@ p {
     
  
 }
+*/ 
+
+
+
+
 /* Top Header Image */ 
+.header {
+    display: flex; 
+
+}
 
 /* Top Content: the Future and the Past */ 
 .top-content {
@@ -131,7 +141,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    background-color: green;
+    
 }
 
 /* Middle Content: the Boxes */ 
@@ -139,13 +149,13 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    background-color:blue;
+    
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
-    background-color:orange;
+    
 }
 
 .middle-content .boxes {
@@ -171,12 +181,12 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-    background-color: red;  
+      
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
-    background-color: yellow; 
+     
 }
 
 .bottom-content .text-container:last-child {
