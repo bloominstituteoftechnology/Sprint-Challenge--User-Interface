@@ -71,20 +71,6 @@ p {
     margin: 0 auto;
 }
 
-.container header nav {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-
-.container header nav .top-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: 80%;
-    padding-top: 20px;
-}
-
 .container nav a {
     text-decoration: none;
     color: black;
@@ -94,19 +80,14 @@ p {
     padding-top: 20px;
 }
 
-.container-about-page .strategy-container .learn-more-button {
-    width: 100px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 3px;
-}
-
-.strategy-container {
+.middle-content {
     display: flex;
-    flex-wrap: wrap;
+    width: 48%;
 }
 
-.strategy-container
+.middle-content .container-about-page {
+    display: block;
+}
 
 footer {
     width: 100%;
