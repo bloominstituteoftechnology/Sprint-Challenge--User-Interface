@@ -66,9 +66,29 @@ p {
     line-height: 1.4;
 }
 
+header { 
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0;
+    left: 0;
+    border: solid blue;
+}
+header nav a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    border: solid green;
 }
 
 .top-content {
