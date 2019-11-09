@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+.nav{
+    /* creating nav bar here*/
+ 
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-container{
+    display: flex;
+    flex-flow:row wrap;
+ /* giving nav bar width */
+    width: 100%;
+    margin: 5% 0 5% 0;
+  
+}
+
+header{
+    margin: 5% 0 5% 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +137,43 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ .middle-content .boxes .box1{
+    background:skyblue;
+
+}
+.middle-content .boxes .box2{
+    background:yellow;
+    
+}
+.middle-content .boxes .box4{
+    background:turquoise;
+}
+.middle-content .boxes .box3{
+    background:orange;
+}
+.middle-content .boxes .box4{
+    background:orangered;
+}
+.middle-content .boxes .box5{
+    background:red;
+    
+}
+.middle-content .boxes .box6{
+    background:green;
+}
+.middle-content .boxes .box7{
+    background :pink;
+}
+.middle-content .boxes .box8{
+    background:tomato;
+}
+.middle-content .boxes .box9{
+    background:violet
+}
+.middle-content .boxes .box10{
+    background:rosybrown
+    
 }
 
 .bottom-content {
