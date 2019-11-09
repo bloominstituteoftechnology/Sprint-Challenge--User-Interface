@@ -90,10 +90,23 @@ p {
     color: black;
 }
 
-.img-top {
-    padding: 20px;
+.jumbo {
+    padding-top: 20px;
 }
 
+.container-about-page .strategy-container .learn-more-button {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.strategy-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy-container
 
 footer {
     width: 100%;
