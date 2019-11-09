@@ -303,28 +303,50 @@ footer nav a {
     
 }
 .strategy {
-    display:column;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 48%;
     padding: 0px 0px 40px;
-    
 }
 
 .how-we-work {
-    display:column;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 48%;
     padding: 0px 0px 40px;
-    
 }
 
 .places-we-work {
-    display:column;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 48%;
     padding: 0px 0px 40px;
-    
 }
 
 .collaboration {
-    display:column;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 48%;
     padding: 0px 0px 40px;
 }
+
+.lets-work-togther {
+    padding: 0px 0px 80px 0px;
+    border: 3px solid red;
+}
+
+.button{ 
+	width: 40%; 
+	padding:10px ;
+    font-size: 15px;
+    border-radius: 9px;
+	background-color:white;
+	border: 2px solid black;
+	text-align: center;
+    margin: 0 auto;
+
+		}
