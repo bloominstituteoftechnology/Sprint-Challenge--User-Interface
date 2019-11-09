@@ -75,7 +75,6 @@ header {
 	width: 100%;
 	padding: 10px 20px 60px 20px;
 	text-align: center;
-	border-bottom: 1px solid #000;
 	padding-top: 60px;
 }
 
@@ -85,8 +84,8 @@ header nav {
 	left: 0;
 	background: linear-gradient(#eee, #ccc);
 	width: 100%;
-	z-index: 1;
-	border-bottom: 1px solid #ccc;
+    z-index: 1;
+    border-bottom: 1px solid #ccc;
 	transition-property: padding;
 	transition-duration: 0.5s;
 	padding: 0px 0;
