@@ -97,7 +97,6 @@ p {
     margin: 0px 0px 30px 0px;
 }
 
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -179,6 +178,7 @@ p {
 #box10 {
     background: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -215,5 +215,41 @@ footer nav a {
 /* about.html css begins here */
 
 .about {
-    margin: 25px 25px;
+
+    margin: 2%;
 }
+
+hr {
+    border: 1px dotted inherit;
+    border-style: none none dotted;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0%;
+}
+
+.middle-left {
+   width: 46%;
+}
+
+.middle-right {
+    width: 46%;
+}
+
+.learn {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: 5% 0% 4% 0%;
+    padding: 2% 3%;
+}
+
+.bottom-section {
+    margin: 3% 0%;
+}
+
