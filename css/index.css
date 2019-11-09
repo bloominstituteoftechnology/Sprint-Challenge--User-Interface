@@ -114,7 +114,7 @@ nav a:hover {
 
 .logo {
 	display: inline-block;
-	background: url("https://i.imgur.com/RoKbjZH.png");
+	/* background: url("https://i.imgur.com/RoKbjZH.png"); */
 	width: 183px;
 	height: 36px;
 	margin-left: 100px;
