@@ -67,9 +67,10 @@ p {
 }
 
 header { 
-    text-align: center;
+
     width: 800px;
     margin: 0 auto;
+    border-bottom: 1px dashed black;
 }
 
 header nav {
@@ -79,6 +80,7 @@ header nav {
     align-items: center;
     top: 0;
     left: 0;
+    padding: 20px 0;
 }
 header nav a {
     text-decoration: none;
@@ -93,7 +95,6 @@ header nav a {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: solid green;
 
 }
 
@@ -188,28 +189,32 @@ header nav a {
  .about-middle { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px 0;
-    border-bottom: 2px solid black;
 
 }
 
+.about-middle div img {
+    width: 100%;
+    height: 250px;
+}
 .about-middle div { 
     /* display: flex; */
     /* flex-wrap: wrap; */
     width: 375px;
-    height: 225px;
-    /* margin: 10px 0; */
+    height: 100%;
+    margin-bottom: 30px;
     padding: 30px 15px;
-    background: lightgrey;
-    border: solid black;
+    border-bottom: 1px dashed black;
 }
 
-.button { 
+.about-button { 
         border: 1px solid black;
         border-radius: 5px;
         padding: 5px 20px;
-        background-color: white;      
+        background-color: white;  
+        border: 1px solid black;
+        border-radius: 5px;    
 }
  
 
@@ -225,6 +230,10 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom {
+    padding-bottom: 10px;
 }
 
 footer {
