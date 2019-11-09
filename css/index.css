@@ -71,18 +71,18 @@ p {
     margin: 0 auto;
 }
 
-.logo {
-    display: flex;
-    justify-content: flex-start;
-}
-
 .container header nav {
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 20px;
-    width: 48%;
+}
+
+.container header nav .top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    padding-top: 20px;
 }
 
 .container nav a {
