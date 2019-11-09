@@ -71,6 +71,16 @@ p {
     margin: 0 auto;
 }
 
+.logo-inline{
+    display: inline;
+}
+
+header {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -142,5 +152,19 @@ footer nav {
 
 footer nav a {
     color: white;
+    text-decoration: none;
+}
+
+.container header .navigation nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.container header nav a {
+    color: black;
     text-decoration: none;
 }
