@@ -216,6 +216,10 @@ footer nav a {
     text-decoration: none;
 }
 
+.bottom-nav a:hover {
+    color: black;
+}
+
 /* about.html css begins here */
 
 .about {
