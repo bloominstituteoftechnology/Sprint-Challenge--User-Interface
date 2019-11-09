@@ -71,6 +71,45 @@ p {
     margin: 0 auto;
 }
 
+/* ---Logo and Top Nav Bar --- */ 
+
+.logo {
+    display:inline-block;
+}
+
+/* -- navigation part -- */ 
+
+
+
+.navigation-bar {
+    display: flex; 
+    width: 1100px; 
+    margin-left: 10px;
+    padding: 20px; 
+    padding-left: 10px;  
+    background:red; 
+ 
+}
+ 
+.navigation-bar a {
+    display: block; 
+    flex-direction: row; 
+    width: 70px; 
+    border: none;
+    align-items: center; 
+    justify-content: space-around;
+    color: grey;
+    margin: 20px;
+    padding-bottom: 20px;
+    margin-top: 1px;
+    text-decoration: none;  
+    background: pink; 
+    
+ 
+}
+/* Top Header Image */ 
+
+/* Top Content: the Future and the Past */ 
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +123,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content: the Boxes */ 
 
 .middle-content {
     margin-bottom: 20px;
