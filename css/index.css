@@ -83,21 +83,29 @@ p {
 
 .navigation-bar {
     display: flex; 
-    width: 1100px; 
+    width: 900px; 
     margin-left: 10px;
     padding: 20px; 
     padding-left: 10px;  
     background:red; 
  
 }
+
+#navigation-container {
+    background: orange; 
+    display: flex;
+    flex-direction: row; 
+    width: 900px;
+}
  
 .navigation-bar a {
-    display: block; 
-    flex-direction: row; 
-    width: 70px; 
+    display: inline-block;
+    flex-direction: row;
+    width: 100%; 
     border: none;
     align-items: center; 
-    justify-content: space-around;
+    align-content: flex-start; 
+    justify-content: space-evenly;
     color: grey;
     margin: 20px;
     padding-bottom: 20px;
@@ -116,12 +124,14 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    background-color: yellow;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    background-color: green;
 }
 
 /* Middle Content: the Boxes */ 
@@ -129,17 +139,20 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    background-color:blue;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    background-color:orange;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /* background-color: pink; */ 
 }
 
 .middle-content .boxes .box {
@@ -153,23 +166,28 @@ p {
     justify-content: center;
 }
 
+/* thats no moon part */ 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    background-color: red;  
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    background-color: yellow; 
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    background-color: orange; 
 }
 
 footer {
     width: 100%;
     background: black;
+    background-color: pink;
 }
 
 footer nav {
@@ -179,6 +197,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    background-color: green; 
 }
 
 footer nav a {
