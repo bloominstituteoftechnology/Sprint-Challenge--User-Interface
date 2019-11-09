@@ -70,6 +70,10 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+}
 
 .logo-inline{
     display: inline;
@@ -267,6 +271,20 @@ footer nav a {
 }
 
 .container header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.container .about-page header .navigation nav {
+    width: 300%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.container .about-page header nav a {
     color: black;
     text-decoration: none;
 }
