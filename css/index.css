@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html, body {
@@ -144,3 +145,71 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.navtop{
+    display: flex;
+    position: relative;
+    right: 57px;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+}
+
+.logo{
+    position: relative;
+    bottom: 20px;
+    animation: lefttoright 2s ease;
+}
+
+.navtop a{
+    color: #000;
+}
+
+.navtop a:hover{
+    color: grey;
+}
+
+#b1{
+background: teal;
+}
+#b2{
+    background: gold;
+}
+#b3{
+    background: cadetblue;
+
+}
+#b4{
+    background: coral;
+}
+#b5{
+    background: crimson;
+}
+#b6{
+    background: forestgreen;
+}
+#b7{
+    background: darkorchid;
+}
+#b8{
+    background: hotpink;
+}
+#b9{
+    background: indigo;
+
+}
+#b10{
+    background: dodgerblue;
+}
+
+@keyframes lefttoright{
+    from{left: -30%;}
+    to{left: 0%;}
+  }
