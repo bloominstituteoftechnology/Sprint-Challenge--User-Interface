@@ -59,6 +59,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    margin-top: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -83,12 +84,38 @@ a {
     margin: 30px;
 }
 
-.about-content {
-    display: flex;
-    margin: 30px;
+h5 {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
 }
 
+.about-content {
+    display: flex;
+    border-bottom: 1px dashed;
+    padding: 10px;
+    margin: 20px;
+}
 
+.middletop-content {
+    display: flex;
+    border-bottom: 1px dashed;
+    padding: 25px;   
+}
+
+.middlebottom-content {
+    display: flex;
+    border-bottom: 1px dashed;
+    padding: 25px;
+}
+
+.work {
+    display: flex;
+}
 footer {
     width: 100%;
     background: black;
