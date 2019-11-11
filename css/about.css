@@ -126,11 +126,6 @@ nav a:hover {
 
 /* Top Header Image */ 
 
-h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-} 
 
 .banner-TopImage {
     padding-top: 20px;
@@ -162,31 +157,39 @@ h2 {
 
 /* 4 images and words */ 
 
-.top-content {
-   padding: 20px;  
-    width: 1100px; 
-    padding: 20px 20px 20px 20px;
-    margin: 20px 10px 20px 10px; 
-
+.top-content {  
+    padding: 20px;
+    margin: 20px; 
+    display: flex; 
+    flex-direction: row; 
     
     
 }
+
 
 .top-content .text-container {
-    width: 100px; 
     flex-direction: row; 
-    flex-direction: left;
+    margin: auto; 
     align-items: center;
     justify-content: center; 
+    padding: 20px 20px 20px 20px; 
 
 }
 
-p {
+.top-content .text-container h2 {
+    padding: 20px 20px 20px 20px; 
+    margin: 20px 20px 20px 20px; 
+    height: 100px; 
+
+}
+
+.top-content .text-container p {
     width: 50%; 
     text-align: center;  
     margin: 10px 10px 10px 10px; 
     border-style: black dotted 2px; 
-}
+    height: 
+}   
 
 img .text-container{
      
