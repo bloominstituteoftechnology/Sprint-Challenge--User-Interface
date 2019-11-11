@@ -221,6 +221,7 @@ About page CSS
 ***********************************************/
 .container{
     font-size: 14px;
+
 }
 
 .intro{
@@ -233,6 +234,7 @@ About page CSS
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
+    padding:20px;
 }
 .content1{
     display: flex;
@@ -241,4 +243,19 @@ About page CSS
     width:46%;
     padding: 15px 15px;
     border-bottom: 2px dotted black;
+    justify-content: space-around;
+    padding: 10px 0 20px 0;
+}
+
+button {
+    width: 100px;
+    margin: 20px 0px;
+}
+
+h1{
+    margin: 20px 0;
+}
+.content3{
+    padding: 30px;
+    
 }
