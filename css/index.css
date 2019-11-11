@@ -275,7 +275,7 @@ p {
 
 .container-middle-content {
     display: flex;
-    width: 48%;
+    width: 50%;
     padding: 20px 10px 10px 10px;
 }
 
@@ -298,10 +298,17 @@ p {
     margin: 10px;
     border-bottom: 1px dashed black;
 }
+.strategy-content img {
+    width: 370px;
+}
 
 .how-we-work-content {
     margin: 10px;
     border-bottom: 1px dashed black;
+}
+
+.how-we-work-content img {
+    width: 370px;
 }
 
 .places-we-work-content {
@@ -309,9 +316,21 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.places-we-work-content img {
+    width: 370px;
+}
+
 .collaboration-content {
     margin: 10px;
     border-bottom: 1px dashed black;
+}
+
+.collaboration-content img {
+    width: 370px;
+}
+
+.lets-work-together {
+    padding: 40px 0px 40px 20px;
 }
 
 /* --- footer for both pages --- */
