@@ -144,3 +144,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/**********************************************
+Kim Buck 
+***********************************************/
+body {
+	display: flex;
+    align-content: center;
+	align-items: stretch;
+	width: 100%;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width:800px;
+    padding: 25px 50px 0 50px;
+    background-color: white;
+}
+/* navigation bar */
+.navigation {
+    order:1;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: stretch;
+	/* align-items: center; */
+	padding: 10px 3% 10px 1%;
+}
+.navigation a{ 
+	flex-grow: 1;
+	color: gray;
+	/* padding: 2% 1% 1% 1%; */
+	/* margin: 0% 2% 1% 1%;  */
+	text-align: center;
+	text-decoration: none;
+} 
