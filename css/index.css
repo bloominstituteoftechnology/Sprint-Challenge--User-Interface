@@ -306,9 +306,17 @@ footer nav a {
 .box10 {
   background-color: dodgerblue;
 }
-
+/* ABOUT ME CSS */
 .header-img {
   margin-top: 30px 0;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.header-img:hover {
+  opacity: 0.5;
 }
 .about-txt {
   font-size: 18px;
@@ -340,6 +348,15 @@ footer nav a {
   font-size: 20px;
 }
 
+.info-card img {
+  transition: all 500ms ease-in-out;
+}
+
+.info-card img:hover {
+  border: 15px dotted lightgray;
+  border-radius: 120px;
+}
+
 .info-card button {
   margin: 20px 0;
   width: 150px;
@@ -349,6 +366,12 @@ footer nav a {
   border: 2px solid black;
   font-weight: bold;
   font-size: 16px;
+}
+
+.info-card button:hover {
+  background-color: black;
+  color: white;
+  border: 5px solid lightgray;
 }
 .info-card p {
   font-size: 18px;
