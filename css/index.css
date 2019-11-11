@@ -250,6 +250,9 @@ About page CSS
 button {
     width: 100px;
     margin: 20px 0px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 h1{
