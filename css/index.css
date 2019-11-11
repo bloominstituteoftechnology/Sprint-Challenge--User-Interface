@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -152,16 +152,14 @@ body {
 	display: flex;
     align-content: center;
 	align-items: stretch;
-	width: 100%;
-    background-color: black;
-}
+	width: 100%;}
 .container{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width:800px;
+    width: 900px;
     padding: 25px 50px 0 50px;
-    background-color: white;
+    /* background-color: white; */
 }
 /* navigation bar */
 .navigation {
@@ -169,8 +167,10 @@ body {
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: stretch;
-	/* align-items: center; */
-	padding: 10px 3% 10px 1%;
+	align-items: flex-end;
+    /* padding: 10px 3% 10px 1%; */
+    margin: 10px 0 25px 0;
+    font-size: 14px;
 }
 .navigation a{ 
 	flex-grow: 1;
@@ -180,3 +180,38 @@ body {
 	text-align: center;
 	text-decoration: none;
 } 
+.header-image{
+    order:1;
+    margin-bottom: 20px;
+}
+
+.box1{
+    background-color:teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
