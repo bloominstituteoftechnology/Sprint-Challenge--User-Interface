@@ -215,3 +215,30 @@ body {
 .box10{
     background-color: dodgerblue;
 }
+
+/********************************************** 
+About page CSS 
+***********************************************/
+.container{
+    font-size: 14px;
+}
+
+.intro{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 2px dotted black;
+}
+
+.content2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width:46%;
+    padding: 15px 15px;
+    border-bottom: 2px dotted black;
+}
