@@ -89,7 +89,7 @@ p {
 */ 
 
 
-content {     
+.content {     
     width: 1100; 
 } 
 
@@ -144,7 +144,7 @@ nav a:hover {
     margin-top: 16px;
     margin-bottom: 10px; 
     width: 100%; 
-    align: center; 
+    text-align: center; 
 }
 
 /* Top Content: the Future and the Past */ 

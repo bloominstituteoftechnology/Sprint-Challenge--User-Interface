@@ -75,8 +75,9 @@ p {
 
 /*Logo and Nav Bar */ 
 
-content {     
-    width: 1100; 
+.content {     
+    width: 1135; 
+    
 } 
 
 
@@ -123,4 +124,125 @@ nav a:hover {
 }
 
 
+/* Top Header Image */ 
 
+h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+} 
+
+.banner-TopImage {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    margin-top: 16px;
+    margin-bottom: 10px; 
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px dashed black;
+    
+    
+}
+
+
+.Header {
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px; 
+    border-top: 1px dashed black; 
+}
+.Header .container-about-page {
+    display: flex; 
+    border-top: 1px dashed black; 
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px; 
+    background-color: pink;
+
+}
+
+/* 4 images and words */ 
+
+.top-content {
+   padding: 20px;  
+    width: 1100px; 
+    padding: 20px 20px 20px 20px;
+    margin: 20px 10px 20px 10px; 
+
+    
+    
+}
+
+.top-content .text-container {
+    width: 100px; 
+    flex-direction: row; 
+    flex-direction: left;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+p {
+    width: 50%; 
+    text-align: center;  
+    margin: 10px 10px 10px 10px; 
+    border-style: black dotted 2px; 
+}
+
+img .text-container{
+     
+    margin: 20px 10px; 
+    display: inline-block;
+   }
+
+.button {
+    padding: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px; 
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: grey; 
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* bottom section */ 
+
+.bottom-text h2 {
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px; 
+}
+
+
+
+
+*/ 
+footer {
+    width: 100%;
+    margin-top: 10px; 
+    padding-top: 10x;
+    
+}
+ 
+footer nav {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 40px 15px 20px;
+    margin: 10px;
+    font-size: 14px;
+    background: black; 
+     
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;  
+    
+} 
