@@ -290,6 +290,53 @@ footer nav a {
 .middle-content .boxes .box.indigo {
   background: indigo;
 }
+
 .middle-content .boxes .box.dodgerblue {
   background: dodgerblue;
+}
+
+/* About Page */
+
+.about-page .top-content .text-container {
+  width: 100%;
+  padding: 0 2%;
+  padding-bottom: 20px;
+}
+
+.about-page .middle-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  border: 0;
+}
+
+.about-page .middle-content img {
+  width: 100%;
+}
+
+.about-page .middle-content h2 {
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.about-page .middle-content .box {
+  width: 45%;
+  margin: 20px 2.5% 30px;
+  padding-bottom: 20px;
+  color: black;
+  border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content button {
+  margin-top: 15px;
+  font-size: 18px;
+  background: white;
+  padding: 5px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.about-page .bottom-content {
+  margin-bottom: 40px;
 }
