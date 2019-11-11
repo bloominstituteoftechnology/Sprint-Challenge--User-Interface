@@ -145,9 +145,55 @@ footer nav a {
     text-decoration: none;
 }
 
-/**********************************************
-Kim Buck 
-***********************************************/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
 body {
 	display: flex;
     align-content: center;
@@ -158,7 +204,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     width: 900px;
-    padding: 25px 50px 0 50px;
+    padding: 25px 50px 0 0px;
     /* background-color: white; */
 }
 /* navigation bar */
@@ -184,89 +230,6 @@ body {
     order:1;
     margin-bottom: 20px;
 }
-
-.box1{
-    background-color:teal;
-}
-.box2{
-    background-color: gold;
-}
-.box3{
-    background-color: cadetblue;
-}
-.box4{
-    background-color: coral;
-}
-.box5{
-    background-color: crimson;
-}
-.box6{
-    background-color: forestgreen;
-}
-.box7{
-    background-color: darkorchid;;
-}
-.box8{
-    background-color: hotpink;
-}
-.box9{
-    background-color: indigo;
-}
-.box10{
-    background-color: dodgerblue;
-}
-
-/********************************************** 
-About page CSS 
-***********************************************/
-.container{
-    font-size: 14px;
-
-}
-
-.intro{
-    margin-bottom: 20px;
-    padding: 20px;
-    border-bottom: 2px dotted black;
-}
-
-.content2{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    padding:20px;
-}
-.content1{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width:46%;
-    padding: 15px 15px;
-    border-bottom: 2px dotted black;
-    justify-content: space-around;
-    padding: 10px 0 20px 0;
-}
-
-button {
-    width: 100px;
-    margin: 20px 0px;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-button:hover{
-    background-color: cyan;
-    
-}
-h1{
-    margin: 20px 0;
-}
-.content3{
-    padding: 30px;
-    
-}
-
 footer{
     margin-top: 25px;
 }
