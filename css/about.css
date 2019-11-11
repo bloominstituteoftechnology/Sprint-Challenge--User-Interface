@@ -71,11 +71,6 @@ p {
     margin: 0 auto;
 }
 
-/*.logo {
-    display: inline-block;
-    height: fit-content;
-}*/
-
 header {
     display: flex;
     padding: 40px;
