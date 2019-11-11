@@ -255,6 +255,10 @@ button {
     border-radius: 10px;
 }
 
+button:hover{
+    background-color: cyan;
+    
+}
 h1{
     margin: 20px 0;
 }
