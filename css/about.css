@@ -77,6 +77,10 @@ header {
     padding: 40px;
 }
 
+.logo {
+    height: fit-content;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -84,6 +88,15 @@ a {
     margin: 30px;
 }
 
+.text1 {
+    margin-right: 25px;
+    border-bottom: 1px dashed;
+}
+
+.text2 {
+    margin-right: 25px;
+    border-bottom: 1px dashed;
+}
 h5 {
     border: 2px solid black;
     border-radius: 10px;
@@ -103,22 +116,23 @@ h5 {
 
 .middletop-content {
     display: flex;
-    border-bottom: 1px dashed;
     padding: 25px;   
 }
 
 .middlebottom-content {
     display: flex;
-    border-bottom: 1px dashed;
     padding: 25px;
 }
 
 .work {
     display: flex;
+    margin: 30px;
 }
 footer {
     width: 100%;
     background: black;
+    height: 55px;
+    display: flex;
 }
 
 footer nav {
