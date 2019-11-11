@@ -1,0 +1,21 @@
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is used to describe tags with a meaning.
+
+Name two big differences between display: block; and display: inline;.
+
+Display:block break up the flow and display:inline keeps it together.
+
+What are the 4 areas of the box model?
+
+Content, padding, border, margin.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+Cross axis.
+
+Explain why git is valuable to a team of developers.
+
+It allows a team to work on a single project while keeping the files in one place online.
