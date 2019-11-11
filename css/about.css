@@ -76,7 +76,7 @@ p {
 /*Logo and Nav Bar */ 
 
 .content {     
-    width: 1135; 
+    width: 1135px; 
     
 } 
 
@@ -151,11 +151,11 @@ nav a:hover {
     border-top: 1px dashed black; 
     margin: 10px 10px 10px 10px;
     padding: 20px 20px 20px 20px; 
-    background-color: pink;
+    
 
 }
 
-/* 4 images and words */ 
+/* Top-Content and Words Inside */ 
 
 .top-content {  
     padding: 20px;
@@ -182,6 +182,8 @@ nav a:hover {
     height: 100px; 
 
 }
+
+
 
 .top-content .text-container p {
     width: 50%; 
