@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/*---beginning of header for both pages---*/
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -90,9 +92,7 @@ p {
     color: black;
 }
 
-.jumbo {
-    padding: 40px;
-}
+/*---end of header for both pages---*/
 
 .top-content {
     display: flex;
@@ -259,6 +259,63 @@ p {
     padding-right: 0;
 }
 
+/*start of second page css*/
+
+.jumbo-about {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container-about-page {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 0px 0px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.container-middle-content {
+    display: flex;
+    width: 48%;
+    padding: 20px 10px 10px 10px;
+}
+
+.container-middle-content a {
+    font-size: 16px;
+    width: 20px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.strategy-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.how-we-work-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.places-we-work-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.collaboration-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+/* --- footer for both pages --- */
+
 footer {
     width: 100%;
     background: black;
@@ -278,3 +335,5 @@ footer {
 .footer nav a {
     color: white;
 }
+
+/*---end of footer for both pages---*/
