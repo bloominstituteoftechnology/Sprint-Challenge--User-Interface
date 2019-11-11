@@ -213,29 +213,60 @@ footer nav a {
 
 /* About Page CSS */
 
-.container about-page{
+header{
+    text-align: center;
+    width: 800px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px 0;
+}
+
+header nav{
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.container{
     width: 800px;
     margin: 0 auto;
 }
 
-
-.about{
-    margin: 15px;
+.aboutplan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
+    padding: 40px 0;
+    border-bottom: 2px solid black;
 }
 
-p{
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.25);
-    
-}
-
-#about-plan{
-    margin:  20px
-}
-
-#about-working{
-    float: right;
-    dis
+.aboutplan div img{
    
+}
 
+.aboutplan div{
+    width:375px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.learn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.logo{
+    margin: 35px;
+}
+
+h3{
+    margin: 20px 0;
 }
