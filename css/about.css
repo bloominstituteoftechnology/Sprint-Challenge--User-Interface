@@ -53,4 +53,8 @@ h1, h2, h3, h4, h5 {
    margin-bottom: 15px;
 }
 
-.container about-page
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+}
