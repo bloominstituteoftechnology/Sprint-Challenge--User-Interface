@@ -71,7 +71,31 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
+
+.logo{
+    float: left;
+    margin: 16px;
+    
+}    
+
+.headimage{
+    margin: 14px
+}
+
+ header nav{
+     display: flex;
+ }
+  
+
+   header nav a{
+       text-decoration: none;
+       color: black;
+       margin: 35px;
+       justify-content: flex-end;
+
+   }
+
+   .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -122,9 +146,51 @@ p {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.bottom-content .text-container:last-child { 
     padding-right: 0;
 }
+
+ #box1{
+     background-color: teal;
+ }
+
+ #box2{
+     background-color: gold;
+ }
+
+ #box3{
+     background-color: cadetblue;
+ }
+
+ #box4{
+     background-color: coral;
+ }
+
+ #box5{
+     background-color: crimson;
+ }
+
+ #box6{
+     background-color: forestgreen;
+ }
+
+ #box7{
+     background-color: darkorchid;
+ }
+
+ #box8{
+     background-color: hotpink;
+ }
+
+ #box9{
+     background-color: indigo;
+    
+ }
+
+ #box10{
+     background-color: dodgerblue;
+ }
+
 
 footer {
     width: 100%;
@@ -143,4 +209,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page CSS */
+
+header{
+    text-align: center;
+    width: 800px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px 0;
+}
+
+header nav{
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.aboutplan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    padding: 40px 0;
+    border-bottom: 2px solid black;
+}
+
+.aboutplan div img{
+   
+}
+
+.aboutplan div{
+    width:375px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.learn{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+.logo{
+    margin: 34px;
+}
+
+h3{
+    margin: 20px 0;
 }
