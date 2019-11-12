@@ -67,7 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 800px; 
+   
     margin: 0 auto;
 }
 
@@ -111,28 +112,75 @@ justify-content: center;
     display: flex;
     flex-flow:row wrap;
     justify-content: flex-start;
-  
     width: 47%;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    margin-right: 5%;
+    
     
 }
+button{
+    margin-top:10%;
+    padding: 2%;
+    width:40%;
+    height: 10%;
+    border-radius: 3%;
+}
+
+.Strategy-container img{
+    margin-bottom: 5%;
+}
+.Strategy-container{
+    margin-bottom: 5%;
+}
+
+
+
 .hww-container{
     display: flex;
     flex-flow:row wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 47%;
+    padding: 5%;
+    border-bottom: 2px solid black;
+   
  
      
 }
+
+.hww-container img{
+    margin-bottom: 5%;
+}
+
+
+
+
 .pww-conatiner{
     display: flex;
     flex-flow:row wrap; 
+    justify-content: flex-start;
     width: 47%;
+    padding: 5%;
+    margin-right: 5%;
+    border-bottom: 2px solid black;
 }
+
+.pww-conatiner img{
+    margin-bottom: 5%;
+}
+
 .collab-container{
     display: flex;
-    flex-flow:column wrap; 
+    flex-flow:row wrap;
+    justify-content: flex-start; 
     width: 47%;
+    padding: 5%;
+    border-bottom: 2px solid black;
 }
+.collab-container img{
+    margin-bottom: 5%;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -148,8 +196,9 @@ img {
 }
 
 .bottom-content{
-    margin: 5% 0 5% 0;
+    margin: 10% 0 5% 0;
 }
+
 
 
 
