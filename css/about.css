@@ -125,8 +125,14 @@ button{
     justify-content: flex-start;
     width: 47%;
     padding: 5%;
+<<<<<<< HEAD
     border-bottom: 2px dotted black;
     margin-right: 5%;
+=======
+    /* border-bottom: 1px solid salmon; */
+    border-bottom-width: thin;
+    
+>>>>>>> 21fa022657845070b9a43cfd3f6342eb19210881
     
     
 }
@@ -135,11 +141,14 @@ button{
 .Strategy-container img{
     margin-bottom: 5%;
 }
+<<<<<<< HEAD
 .Strategy-container{
     margin-bottom: 5%;
 }
 
 
+=======
+>>>>>>> 21fa022657845070b9a43cfd3f6342eb19210881
 
 .hww-container{
     display: flex;
@@ -147,16 +156,23 @@ button{
     justify-content: flex-start;
     width: 47%;
     padding: 5%;
+<<<<<<< HEAD
     border-bottom: 2px dotted black;
    
+=======
+  
+>>>>>>> 21fa022657845070b9a43cfd3f6342eb19210881
  
      
 }
 
+<<<<<<< HEAD
 .hww-container img{
     margin-bottom: 5%;
 }
 
+=======
+>>>>>>> 21fa022657845070b9a43cfd3f6342eb19210881
 
 
 
@@ -166,12 +182,20 @@ button{
     justify-content: flex-start;
     width: 47%;
     padding: 5%;
+<<<<<<< HEAD
     margin-right: 5%;
     border-bottom: 2px dotted black;
 }
 
 .pww-conatiner img{
     margin-bottom: 5%;
+=======
+
+
+   
+
+   
+>>>>>>> 21fa022657845070b9a43cfd3f6342eb19210881
 }
 
 .collab-container{
@@ -180,10 +204,16 @@ button{
     justify-content: flex-start; 
     width: 47%;
     padding: 5%;
+<<<<<<< HEAD
     border-bottom: 2px dotted black;
 }
 .collab-container img{
     margin-bottom: 5%;
+=======
+
+    
+
+>>>>>>> 21fa022657845070b9a43cfd3f6342eb19210881
 }
 
 img {
