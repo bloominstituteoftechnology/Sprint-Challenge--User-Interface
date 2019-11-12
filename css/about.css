@@ -108,24 +108,29 @@ justify-content: center;
 
 
 }
+
+button{
+    margin-top:10%;
+    padding: 2%;
+    width:40%;
+    height: 10%;
+    border-radius: 10%;
+    font-size: 90%;
+    border: 2px solid black;
+}
+
 .Strategy-container{
     display: flex;
     flex-flow:row wrap;
     justify-content: flex-start;
     width: 47%;
     padding: 5%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px dotted black;
     margin-right: 5%;
     
     
 }
-button{
-    margin-top:10%;
-    padding: 2%;
-    width:40%;
-    height: 10%;
-    border-radius: 3%;
-}
+
 
 .Strategy-container img{
     margin-bottom: 5%;
@@ -142,7 +147,7 @@ button{
     justify-content: flex-start;
     width: 47%;
     padding: 5%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px dotted black;
    
  
      
@@ -162,7 +167,7 @@ button{
     width: 47%;
     padding: 5%;
     margin-right: 5%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px dotted black;
 }
 
 .pww-conatiner img{
@@ -175,7 +180,7 @@ button{
     justify-content: flex-start; 
     width: 47%;
     padding: 5%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px dotted black;
 }
 .collab-container img{
     margin-bottom: 5%;
