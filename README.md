@@ -20,7 +20,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
 
-In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
+In meeting the minimum INSERT WORD viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
 
 [Click here for the home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
 
