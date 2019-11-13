@@ -73,11 +73,17 @@ p {
     margin: 0 auto;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 16px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
 }
 
 .top-content {
@@ -87,8 +93,28 @@ nav {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+.top-content .about-container {
+    width: 100%;
+    /* padding: 0 1%; */
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+.strategy-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.strategy-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-top: 20px;
