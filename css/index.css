@@ -66,9 +66,17 @@ p {
     line-height: 1.4;
 }
 
+/* <---------------------------> */
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
 }
 
 .top-content {
