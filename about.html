@@ -1,73 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
 
   <title>Sprint Challenge - About</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
-
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/index.css" />
 </head>
+<style>
+  .container {
+width: 90%;
+margin: 0 auto;
+}
+
+.dkhead {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+height: 60px;
+/*border: 1px solid red;*/
+}
+
+.dk-nav {
+display: flex;
+justify-content: space-between;
+width: 70%;
+text-decoration:none;
+/*border: 1px solid green;*/
+}
+.middle-img{
+width:90%;
+}
+  .container-about-page {
+    width: 90%;
+    
+     
+  }
+  .A, .B{
+  width: 100%;
+  display:flex;
+  margin:1% 0 1% 0;
+  justify-content:space-between;
+  align-items: center;
+  border-bottom:1px dashed blue;
+  margin-bottom:15px;
+  
+}
+
+  .parent {
+    margin-top:15px;
+border-top: 2px dashed blue;
+display: flex;
+flex-direction:column;
+font-size: 18px;
+}
+
+
+.childOne .childTwo .childThree .childFour{
+     
+      display:flex;
+      width:100%;
+      justify-content:space-evenly;
+      
+    }
+
+    .button{
+      border:2px solid #1a1a1a;
+      padding:10px;
+      width:100px;
+      text-align:center;
+      border-radius:6px;
+      margin:10px 0;
+    }
+    p{
+      line-height:1.5;
+    }
+    
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top:10px;
+}
+</style>
 
 <body>
-    <div class="container about-page">
-     
-    About
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-
-    <img src="img/about-plan.png" alt="strategy">
-    
-    Strategy
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-
-
-    <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-
-
-    <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
-
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    Let's Work Together
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
-      <footer>
-        <nav>
+    <div class="container">
+    <header class="dkhead">
+        <a href="index.html"
+          ><img class="logo" src="img/lambda-black.png" alt="Lambda School Logo"
+        /></a>
+        <nav class="dk-nav">
           <a href="index.html">Home</a>
           <a href="#">About</a>
-          <a href="#">Products</a>
+          <a href="#">Product</a>
           <a href="#">Blog</a>
           <a href="#">Contact</a>
         </nav>
-      </footer>
-    </div><!-- container -->        
+      </header>
+      <img class="middle-img" src="img/jumbo-about.png" alt="Image across the page" />
+  <div class="container-about-page">
+           <p> About Leverage agile frameworks to provide a robust synopsis for high
+    level overviews. Iterative approaches to corporate strategy foster
+    collaborative thinking to further the overall value proposition.
+    Organically grow the holistic world view of disruptive innovation via
+    workplace diversity and empowerment.</p>
+    <div class="parent">
+        <div class="A">
+        
+          <div class="childOne">
+            <div><img src="img/about-plan.png" alt="" />
+            <p><h2>Strategy </h2></p>Iterative approaches to corporate strategy foster collaborative
+            thinking to further the overall value proposition.</p> 
+            <button class="button">Learn More</button>
+            </div>
+            </div>
+          <div class="childTwo">
+            <div><img src="img/about-working.png" alt="strategy" />
+              <h2> How We Work</h2> <p>Iterative approaches to corporate strategy foster
+            collaborative thinking to further the overall value proposition. </p>
+            <button class="button">Learn More</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="B">
+          <div class="childThree">
+            <div><img src="img/about-office.png" alt="strategy" />
+            <h2>Places We Work </h2><p>Iterative approaches to corporate strategy foster
+            collaborative thinking to further the overall value proposition.</p>
+            <button class="button">Learn More</button>
+            </div>
+          </div>
+          <div class="childFour">
+            <div><img src="img/about-meeting.png" alt="strategy" />
+              <h2>Collaboration </h2><p>Iterative approaches to corporate strategy foster
+              collaborative thinking to further the overall value proposition. 
+              </p>
+              <button class="button">Learn More</button>
+            </div>
+            
+              
+          </div>
+          
+        </div>
+       <p> Let's Work Together Leverage agile frameworks to provide a robust
+              synopsis for high level overviews. Iterative approaches to corporate
+              strategy foster collaborative thinking to further the overall value
+              proposition. Organically grow the holistic world view of disruptive
+              innovation via workplace diversity and empowerment.</p>
+          </div>
+    <footer>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </footer>
+  </div>
+  <!-- container -->
 </body>
 </html>

@@ -243,13 +243,14 @@ footer nav a {
   margin-bottom: 20px;
   height: 60px;
   border: 1px solid red;
+  width: 90%;
 }
 
 .dk-nav {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
 }
 
 .boxes {
