@@ -66,10 +66,33 @@ p {
     line-height: 1.4;
 }
 
+/*---beginning of header for both pages---*/
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.container header nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.container header nav .top-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    padding-top: 20px;
+}
+
+.container nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/*---end of header for both pages---*/
 
 .top-content {
     display: flex;
@@ -77,6 +100,11 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.jumbo {
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -104,12 +132,55 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box-0 {
+    background: black;
+}
+
+.middle-content .boxes .teal {
+    background:teal;
+}
+
+.middle-content .boxes .gold {
+    background: gold;
+}
+
+.middle-content .boxes .cadetblue {
+    background: cadetblue;
+}
+
+.middle-content .boxes .coral {
+    background: coral;
+}
+
+.middle-content .boxes .crimson {
+    background: crimson;
+}
+
+.middle-content .boxes .forestgreen {
+    background: forestgreen;
+}
+
+.middle-content .boxes .darkorchid {
+    background: darkorchid;
+}
+
+.middle-content .boxes .hotpink {
+    background: hotpink;
+}
+
+.middle-content .boxes .indigo {
+    background: indigo;
+}
+
+.middle-content .boxes .dodgerblue {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -126,21 +197,99 @@ p {
     padding-right: 0;
 }
 
+/*start of second page css*/
+
+.jumbo-about {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.container-about-page {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 0px 0px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.container-middle-content {
+    display: flex;
+    padding: 20px 10px 10px 10px;
+}
+
+.container-middle-content a {
+    font-size: 16px;
+    width: 20px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.strategy-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+.strategy-content img {
+    width: 370px;
+}
+
+.how-we-work-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.how-we-work-content img {
+    width: 370px;
+}
+
+.places-we-work-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.places-we-work-content img {
+    width: 370px;
+}
+
+.collaboration-content {
+    margin: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.collaboration-content img {
+    width: 370px;
+}
+
+.lets-work-together {
+    padding: 30px 0px 40px 20px;
+}
+
+/* --- footer for both pages --- */
+
 footer {
     width: 100%;
     background: black;
+    color: white;
 }
 
-footer nav {
+.footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    color: white;
 }
 
-footer nav a {
+.footer nav a {
     color: white;
-    text-decoration: none;
 }
+
+/*---end of footer for both pages---*/
