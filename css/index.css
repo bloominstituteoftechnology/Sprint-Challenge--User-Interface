@@ -237,3 +237,7 @@ nav a {
     position: relative;
     border-bottom: 1px dashed black;
 }
+
+#work-together-section {
+    margin-bottom: 35px;
+}
