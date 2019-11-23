@@ -144,3 +144,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav a {
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+#jumbo {
+    margin: 20px 0px 20px 0px;
+}
