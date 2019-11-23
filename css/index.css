@@ -195,3 +195,7 @@ nav a {
 .box10 {
     background: dodgerblue;
 }
+/* about.html below here */
+#about-section {
+    margin: 0px 0px 0px 25px;
+}
