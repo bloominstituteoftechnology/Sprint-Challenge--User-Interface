@@ -211,6 +211,10 @@ nav a {
     width: 50%;
 }
 
+.card h1 {
+    margin-top: 10px;
+}
+
 .card p {
     margin-bottom: 20px;
 }
