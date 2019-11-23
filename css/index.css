@@ -147,9 +147,12 @@ footer nav a {
 
 nav a {
     text-decoration: none;
-    margin-right: 60px;
+    margin-right: 69px;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
 }
 
 #jumbo {
-    margin: 20px 0px 20px 0px;
+    margin: 35px 0px 20px 0px;
 }
