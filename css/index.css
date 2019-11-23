@@ -66,6 +66,40 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation */
+
+.top-nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.top-nav a{
+    text-decoration: none;
+    color:black;
+    padding-top: 15px;
+}
+
+a{
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    color: #DD8030;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    width: 48%;
+    margin: 0 auto;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +177,136 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Box background colors */
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
+/* About page styling starts here */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.about-page-body div{
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+    padding-bottom: 25px;   
+}
+
+.about-page-body img{
+    margin-bottom: 10px;
+}
+
+button{
+    border: 2px solid black; 
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-align: center;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.lets-work{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+/* Contact page style */
+
+.about-page-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.text-box{
+    height: 200px;
+    width: 800px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 100%;
+    font: inherit;
+    color: darkgray;
+}
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.input-button{
+    border: 2px solid #DD8030; 
+    color: #DD8030;
+    border-radius: 5px;
+    padding: 6px 15px;
+    text-align: center;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+.input-button:hover{
+    background-color: #DD8030;
+    color: white;
 }
