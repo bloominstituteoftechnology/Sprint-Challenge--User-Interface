@@ -235,4 +235,5 @@ nav a {
     width: 93%; 
     float: left;
     position: relative;
+    border-bottom: 1px dashed black;
 }
