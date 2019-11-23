@@ -209,6 +209,8 @@ nav a {
 .card {
     display: block;
     width: 50%;
+    margin-bottom: 40px;
+    
 }
 
 .card h1 {
@@ -217,4 +219,20 @@ nav a {
 
 .card p {
     margin-bottom: 20px;
+}
+
+.card button {
+    background: transparent;
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+}
+
+.dashed-hr {
+    margin-top: 30px; 
+    width: 93%; 
+    float: left; 
+    position: relative;
 }
