@@ -144,3 +144,196 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Index.html Navbar */
+.index-nav {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 20px 0 20px;
+}
+
+.index-nav a {
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 35px;
+}
+
+/* Index.html Top Image */
+#index-header-img {
+    margin: 20px 0;
+    width: 100%
+}
+
+/* Home Page Boxes */
+.middle-content .box.box1:first-child {background: teal; }
+.middle-content .box.box2 { background: gold; }
+.middle-content .box.box3 { background: cadetblue; }
+.middle-content .box.box4 { background: coral; }
+.middle-content .box.box5 { background: crimson; }
+.middle-content .box.box6 { background: forestgreen; }
+.middle-content .box.box7 { background: darkorchid; }
+.middle-content .box.box8 { background: hotpink; }
+.middle-content .box.box9 { background: indigo; }
+.middle-content .box:last-child { background: dodgerblue; }
+
+/* About Page */
+
+/* Container that wraps the page */
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* About.html Navbar */
+.about-nav {
+    display: inline-block;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 20px 0 20px;
+}
+
+.about-nav a {
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 0 35px;
+}
+
+/* About page header */
+#about-header-img {
+    margin: 10px 0 10px;
+    width: 100%;
+    /* border: 10px solid red; */
+}
+
+/* About page top content */
+.about-top-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: 1.25px dashed black;
+    margin: 0 10px 25px;
+    padding: 0 10px 25px;
+    font-weight: 600;
+    width: 100%;
+}
+
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* About page cards */
+.card {
+    width: 45%;
+    margin: 20px;
+    font-weight: 600;
+    border-bottom: 1.25px dashed black;
+}
+
+.about-cards .card img {
+    margin: 20px 0;
+}
+
+.about-cards .card h2 {
+    font-weight: 600;
+}
+
+.about-cards .card button {
+    margin: 20px 10px 20px 0;
+	border-radius:10px;
+	border: 1.5px solid black;
+	display: inline-block;
+	font-weight: bold;
+	padding: 10px 20px;
+    font-size: 15px;
+}
+
+/* About page bottom section */
+.about-bottom-content {
+    margin: 20px 20px 30px;
+}
+
+.about-footer {
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#blog {
+    margin-left: 10px;
+}
+
+.about-footer a {
+    width: 100px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+/* Contact Us Form */
+
+.contact-top-content h1 {
+    font-size: 2rem;
+    margin: 25px 0;
+}
+.contact-top-content h2 {
+    font-size: 1.125rem;
+    margin: 15px 0;
+}
+
+body .form-container {
+	line-height:30px;
+	color:#777;
+}
+
+.form-container {
+	max-width:700px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font-size: 14px; }
+
+#contact {
+	background:rgba(0, 0, 0, .05);
+	padding:20px;
+    margin: 50px 0;
+    border-radius: 20px;
+}
+
+fieldset {
+	margin: 0x 0 10px;
+	min-width: 100%;
+	padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+    border:1px solid #CCC;
+    border-radius: 10px;
+	background:#FFF;
+	margin: 5px 0;
+	/* padding:10px; */
+}
+
+
+#contact textarea {
+    height:125px;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(92, 123, 247);
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}

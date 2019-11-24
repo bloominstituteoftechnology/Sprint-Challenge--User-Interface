@@ -6,51 +6,46 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
   </head>
+
   <body>
     <div class="container about-page">
       <header>
         <nav class="about-nav">
           <img src="img/lambda-black.png" alt="lambda logo black">
           <a href="index.html">Home</a>
-          <a href="#">About</a>
+          <a href="about.html">About</a>
           <a href="#">Products</a>
           <a href="#">Blog</a>
           <a href="contact.html">Contact</a>
       </nav>
     </header>
       <section>
-          <img id="about-header-img" src="img/jumbo-about.png" alt="header image">
+          <img id="contact-header-img" src="img/jumbo-about.png" alt="header image">
       </section>
-      <section class="about-top-content">
-        <h2>About</h2>
+      <section class="contact-top-content">
+        <h1>Contact Us</h1>
+        <h2>Let's Work Together </h2>
         <p> Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. </p>
       </section>  
-      <section class="about-cards">
-        <div class="card">
-          <img src="img/about-plan.png" alt="strategy">
-          <h2>Strategy </h2>
-          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. </p>
-          <button>Learn More</button>
-        </div>
-        <div class="card">
-          <img src="img/about-working.png" alt="strategy">
-          <h2>How We Work </h2>
-          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-          <button>Learn More</button>
-        </div>
-        <div class="card">
-          <img src="img/about-office.png" alt="strategy">
-          <h2>Places We Work </h2>
-          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-          <button>Learn More</button>
-        </div>
-        <div class="card">
-          <img src="img/about-meeting.png" alt="strategy">
-          <h2>Collaboration </h2>
-          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. </p>
-          <button>Learn More </button>
-        </div>
-      </section>
+      <div class="form-container">  
+        <form id="contact" action="" method="post">
+          <fieldset>
+            <input placeholder="Name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Email" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="How can we help you?" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
       <section class="about-bottom-content">
         <h2>Let's Work Together </h2>
         <p> Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. </p>
