@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+HTML(Hypertext Mark Up Language) is the backbone of every single website. Is the structure of all web pages. Essentially HTML gives to our web browsers the ability to organise and reade code. Examples of Semantic HTML are <footer> <navigation> <header>
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+ 
+ The main 2 differences between then is :
+
+ 1. display: block means the tags are sitting next to each other
+ 2. display: inline  means the tags are presented in different lines.
+
 
 3. What are the 4 areas of the box model?
 
+   Content-Padding-Border-Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ Using Flexbox the 'align-items:center' works at the vertical axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a distributed non-linear verson control system that makes it easier to track changes. For example, when you edit a file git help you determine exactrly what changes, whos changed it and why.
+Its useful for developers to coordinate work among multiple people on a project  and for tracking progress over the time. It allows them to hunt down software bugs, as well as to go back in time to make changes in their project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
