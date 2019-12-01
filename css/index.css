@@ -66,6 +66,21 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 12%;
+    padding: 4px;
+    font-size: 14px;
+}
+
+div img {
+    margin-left: 280px;
+    padding-bottom: 12px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,7 +116,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -112,18 +127,58 @@ p {
     justify-content: center;
 }
 
+.box:first-child {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color:gold;
+}
+
+.box:nth-child(3) {
+    background-color:cadetblue;
+}
+
+.box:nth-child(4) {
+    background-color:coral;
+}
+
+.box:nth-child(5) {
+    background-color:crimson;
+}
+
+.box:nth-child(6) {
+    background-color:forestgreen;
+}
+
+.box:nth-child(7) {
+    background-color:darkorchid;
+}
+
+.box:nth-child(8) {
+    background-color:hotpink;
+}
+
+.box:nth-child(9) {
+    background-color:indigo;
+}
+
+.box:last-child {
+    background-color:dodgerblue;
+}
+
 .bottom-content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
 .bottom-content .text-container {
+    width: 33%;
     padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    padding-bottom: 10px;
 }
 
 footer {
@@ -143,4 +198,128 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+section p {
+    padding-bottom: 5px;
+    margin-left: 3%;
+}
+/* Dashed black border */
+hr.new {
+    border-bottom: dotted black 1px;
+}
+
+section h2 {
+    margin-left: 3%;
+}
+
+.container about-page {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.h3 {
+    margin-left:1px;
+}
+
+.bodywrap {
+    display:flex;
+    flex-direction:column;
+    align-content: space-between;
+}
+
+h2 {
+    margin-left: 1px;
+}
+.strategy-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    width: 50%;
+    height: 35%;
+    padding-top: 5px;
+    padding-bottom:2%;
+    margin-bottom:2%;
+    border-bottom: dashed black 1px;
+}
+
+div .firstbox img {
+    margin-left: 5px;
+    width: 100%;
+}
+
+div .buttons {
+    display: flex;
+    justify-content:center;
+    padding-top: 5px;
+}
+
+.How-we-work-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    width: 52%;
+    height: 35%;
+    padding-top: 5px;
+    padding-bottom:1.989%;
+    margin-bottom:2%;
+    margin-left: 50%;
+    margin-top:-52%;
+    border-bottom: dashed black 1px;
+}
+
+div .secondbox img {
+    margin-left: 5px;
+    width: 100%;
+}
+
+.Places-we-work-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    width: 50%;
+    height: 35%;
+    padding-top: 5px;
+    padding-bottom:2%;
+    margin-bottom:2%;
+    border-bottom: dashed black 1px;
+    
+}
+
+div .thirdbox img {
+    margin-left: 5px;
+    width: 100%;
+}
+
+.Collaboration {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: left;
+    width: 50%;
+    height: 35%;
+    padding-top: 5px;
+    padding-bottom:5.33%;
+    margin-bottom:4%;
+    margin-left: 50%;
+    margin-top:-52%;
+    border-bottom: dashed black 1px;
+    
+}
+
+div .fourthbox img {
+    margin-left: 5px;
+    width: 100%;
+}
+
+footer nav {
+    display: flex;
+    width: 58%;
+    margin-left: 20%;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    margin-top: 2%;
+    justify-content: left;
 }
