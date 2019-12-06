@@ -149,8 +149,8 @@ footer nav a {
 nav {
     display: flex;
 	justify-content: space-between;
-	margin-right: 5%;
-    margin-left: 5%;
+	margin-right: 10%;
+    margin-left: 10%;
     margin-bottom: 5%;
     margin-top:5%;
 }
@@ -161,9 +161,9 @@ a{
 }
 .lines {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    margin-left: 10%;
+    margin-right: 0;
+    width: 80%;
     margin-bottom: 5%;
 }
 
@@ -204,8 +204,48 @@ a{
 /*About*/
 .sky {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    margin-left: 10%;
+    margin-right: 0;
+    width: 80%;
     margin-bottom: 5%;
+}
+.about{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-right: 20%;
+}
+
+/*Middle*/
+.top-boarder{
+    border-top: dashed;
+    border-width: 90%;
+}
+
+.middle-container {
+    display:flex;
+    justify-content:center;
+}
+
+.left{
+    padding: 3%;
+    margin-right: 10%;
+    border-bottom: dashed;
+}
+.right{
+    padding: 3%;
+    margin-left: 10%;
+    border-bottom: dashed;
+}
+.h2{
+    margin-top: 5%;
+}
+.learn{
+    border: solid 1px;
+	margin-top: 5%;
+	width: 100px;
+	background-color: white;
+    padding:2%;
+    border-radius: 25px;
 }
