@@ -48,7 +48,7 @@ table {
 }
 
 * {
-    border: 1px solid blue !important;
+    /* border: 1px solid blue !important; */
     box-sizing: border-box;
 }
 
@@ -65,20 +65,22 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 16px;
 }
 nav {
-
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
     margin-bottom: 20px;
 }
 .links {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    width: 60%;
-    
+    width: 60%;   
+}
+a {
+    color: black;
+    text-decoration: none;
 }
 .container {
     width: 800px;
@@ -92,6 +94,7 @@ nav {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     margin-top: 20px;
+    padding-bottom: 10px;
 }
 
 .top-content .text-container {
@@ -192,9 +195,14 @@ footer nav a {
     width: 800px;
     margin: 0 auto;
 }
+.top-image {
+    padding-bottom: 10px;
+}
 .middle-content1 {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
 
 }
 .text-container2 {
@@ -202,6 +210,8 @@ footer nav a {
     flex-direction: column;
     width: 49%;
     border-bottom: 1px dotted black;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 button {
     border: 1px solid black;
@@ -212,4 +222,12 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
 
+}
+
+.bottom-content2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.text-container2 h4 {
+    padding-top: 10px;
 }
