@@ -200,3 +200,12 @@ a{
 #box10{
   background-color:  dodgerblue;
 }
+
+/*About*/
+.sky {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 5%;
+}
