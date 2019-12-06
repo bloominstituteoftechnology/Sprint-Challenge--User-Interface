@@ -16,11 +16,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What are the 4 areas of the box model?
 
-(Padding, margin,width,
+(Padding, margin,width,content
 
 
-4. While using flexbox, what axis does the following property work on: align-items: center?
+4. While using flexbox, what axis does the following property work on: align-items: center? 
 
-
+(vertical axis also known as x -axis)
 
 5. Explain why git is valuable to a team of developers.
+( it makes version constrol and sharing code among other developers easier to store and work on with each other easier)
