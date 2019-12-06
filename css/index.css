@@ -71,6 +71,31 @@ p {
     margin: 0 auto;
 }
 
+
+/* Header and navbar CSS*/
+header{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    color: grey;
+}
+.top-image{
+    margin-bottom: 20px;
+}
+
+
+/* Top content CSS */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,29 +103,27 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+
+/* Middle content CSS */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -112,25 +135,23 @@ p {
     justify-content: center;
 }
 
+
+/* Bottom content and footer CSS */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,34 +160,42 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
 }
 
-header{
-    margin-top: 5px;
-    margin-bottom: 30px;
-}
 
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+/* Box colour CSS*/
+.middle-content .box:nth-of-type(1){
+    background: teal;
 }
-
-.navbar a{
-    text-decoration: none;
-    color: black;
+.middle-content .box:nth-of-type(2){
+    background: gold;
 }
-
-.navbar a:hover{
-    color: grey;
+.middle-content .box:nth-of-type(3){
+    background: cadetblue;
 }
-
-.top-image{
-    margin-bottom: 20px;
+.middle-content .box:nth-of-type(4){
+    background: coral;
+}
+.middle-content .box:nth-of-type(5){
+    background: crimson;
+}
+.middle-content .box:nth-of-type(6){
+    background: forestgreen;
+}
+.middle-content .box:nth-of-type(7){
+    background: darkorchid;
+}
+.middle-content .box:nth-of-type(8){
+    background: hotpink;
+}
+.middle-content .box:nth-of-type(9){
+    background: indigo;
+}
+.middle-content .box:nth-of-type(10){
+    background: dodgerblue;
 }
 
 
