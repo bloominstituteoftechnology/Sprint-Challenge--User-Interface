@@ -48,6 +48,7 @@ table {
 }
 
 * {
+    /* border: 1px solid blue !important; */
     box-sizing: border-box;
 }
 
@@ -64,8 +65,23 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 16px;
 }
-
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 60%;   
+}
+a {
+    color: black;
+    text-decoration: none;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +93,8 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -104,13 +122,41 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +189,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about page code starts here */
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+.top-image {
+    padding-bottom: 10px;
+}
+.middle-content1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.text-container2 {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    border-bottom: 1px dotted black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+    background: none;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.bottom-content2 {
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.text-container2 h4 {
+    padding-top: 10px;
 }
