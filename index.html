@@ -1,4 +1,22 @@
 <!doctype html>
+<!--
+ANSWERS TO QUESTIONS:: 
+ If you were to describe semantic HTML to the next cohort of students, what would you say?
+It's the use of html markup to reinforce the information in the webpage/application rather than just defining the presentation or look of the site. Semantic html improves SEO and effects accessability so it's important. 
+
+Name two big differences between display: block; and display: inline;.
+display:block makes it display as a block-level element, like <p> <h1-h6> etc. 
+display:inline makes the element display on the same line.  
+
+What are the 4 areas of the box model?
+Content - Padding - Border- Margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+the cross axis (y axis)
+
+Explain why git is valuable to a team of developers.
+the main value is that you can see previous versions of the project and revert back to it if needed, and you can have your code reviewed and approved before being merged into the main project (pull request). -->
+
 
 <html lang="en">
 <head>
@@ -10,51 +28,74 @@
   <link rel="stylesheet" href="css/index.css">
 
 </head>
+<div class="lslogo">
+    <img src="img/lambda-black.png" alt="lambda logo">
+</div>
+
+<div class="backdrop">
+    <img src="img/jumbo.jpg" alt="backdrop picture">
+</div>
+
+<header>
+
+
+</header>
 
 <body>
-    <div class="container">
-   
-        <section class="top-content">
-            <div class="text-container">
-                <h2>The Future</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+        <div class="navigation">
+                <section>
+                <A HREF="index.html">Home</A>
+                <A HREF="about.html">About</A>
+                <A HREF="">Products</A>
+                <A HREF="">Blog</A>
+                <A HREF="contact.html">Contact</A>
+                </section>
             </div>
-            <div class="text-container">
-                <h2>The Past</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-        </section>
-        
+
+
+
+<section class="top-content">
+    <div id="future">
+        <h2>The Future</h2>
+            <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p><br>
+    </div>
+    <div id="past">
+            <h2>The Past</h2>
+            <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p><br>
+    </div>
+</section>
+
+<div class="container">
         <section class="middle-content">
         
             <h2>Why Did It Have To Be Boxes...</h2>
             
             <div class="boxes">
-                <div class="box">Box 1</div>
-                <div class="box">Box 2</div>
-                <div class="box">Box 3</div>
-                <div class="box">Box 4</div>
-                <div class="box">Box 5</div>
-                <div class="box">Box 6</div>
-                <div class="box">Box 7</div>
-                <div class="box">Box 8</div>
-                <div class="box">Box 9</div>
-                <div class="box">Box 10</div>
+                    <div class="box1"><div class="border1"><div id="fixbox1">Box 1</div></div></div>
+                    <div class="box1"><div class="border2"><div id="fixbox1">Box 2</div></div></div>
+                    <div class="box1"><div class="border3"><div id="fixbox1">Box 3</div></div></div>
+                    <div class="box1"><div class="border4"><div id="fixbox1">Box 4</div></div></div>
+                    <div class="box1"><div class="border5"><div id="fixbox1">Box 5</div></div></div><br>
+                    <div class="box2"><div class="border6"><div id="fixbox1">Box 6</div></div></div>
+                    <div class="box2"><div class="border7"><div id="fixbox1">Box 7</div></div></div>
+                    <div class="box2"><div class="border8"><div id="fixbox1">Box 8</div></div></div>
+                    <div class="box2"><div class="border9"><div id="fixbox1">Box 9</div></div></div>
+                    <div class="box2"><div class="border10"><div id="fixbox1">Box 10</div></div></div>
             </div>
         
         </section>
 
         <section class="bottom-content">
 
-            <div class="text-container">
+            <div>
                 <h2>That's</h2>
                 <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
             </div>
-            <div class="text-container">
+            <div>
                 <h2>No</h2>
                 <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
             </div>
-            <div class="text-container">
+            <div>
                 <h2>Moon</h2>
                 <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
             </div>
@@ -63,13 +104,13 @@
         
         <footer>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
+                <a href="index.html">Home</a>
+                <a href="about.html" id="footer1">About</a>
+                <a href="#" id="footer2">Products</a>
+                <a href="#" id="footer3">Blog</a>
+                <a href="#" id="footer4">Contact</a>
             </nav>
         </footer>
-    </div><!-- container -->        
+    </div> <!-- container -->        
 </body>
 </html>

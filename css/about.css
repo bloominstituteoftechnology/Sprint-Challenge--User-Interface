@@ -1,0 +1,344 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+ANSWERS TO QUESTIONS:: 
+ If you were to describe semantic HTML to the next cohort of students, what would you say?
+It's the use of html markup to reinforce the information in the webpage/application rather than just defining the presentation or look of the site. Semantic html improves SEO and effects accessability so it's important. 
+
+Name two big differences between display: block; and display: inline;.
+display:block makes it display as a block-level element, like <p> <h1-h6> etc. 
+display:inline makes the element display on the same line.  
+
+What are the 4 areas of the box model?
+Content - Padding - Border- Margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+the cross axis (y axis)
+
+Explain why git is valuable to a team of developers.
+the main value is that you can see previous versions of the project and revert back to it if needed, and you can have your code reviewed and approved before being merged into the main project (pull request). 
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+/* CODE BELOW THIS LINE */
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 120px;
+    width: 880px;
+    bottom: 125px;
+}
+.navigation a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+#picA {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+#picB {
+    transform: scale(1.1);
+    position: relative;
+    right: 10px;
+}
+#picC {
+    transform: scale(1.1);
+    position: relative;
+    left: 60px;
+}
+#picD {
+    transform: scale(1.1);
+    position: relative;
+    left: 20px;
+    border-top: 1px dashed black;
+    padding-top: 50px;
+    bottom: 10px;
+}
+#picE {
+    transform: scale(1.1);
+    position: relative;
+    left: 88px;
+    bottom: 10px;
+    border-top: 1px dashed black;
+    padding-top: 50px;
+}
+#backdroppic {
+    position: relative;
+    top: 100px;
+    transform: scale(1.1);
+    margin-left: 60px;
+}
+
+.row1 {
+    display: flex;
+    max-width: 100%;
+    width: 880px;
+    position: relative;
+    top: 150px;
+    margin-left: 50px;
+}
+.row1 section {
+    display: flex;
+    max-width: 100%;
+    width: 880px;
+}
+.row1 section h2 {
+    display: flex;
+    max-width: 100%;
+    width: 880px;
+}
+.row1 section h2 p {
+    display: flex;
+    max-width: 100%;
+    width: 880px;
+}
+.row2 {
+    display: flex;
+    max-width: 100%;
+    width: 880px;
+    position: relative;
+    top: 270px;
+    margin-left: 20px;
+}
+.fix1 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.fix2 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.fix3 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.fix4 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.fix1 p {
+    position: relative;
+    width: 400px;
+    right: 25px;
+    top: 25px;
+}
+.fix2 p {
+    position: relative;
+    width: 400px;
+    left: 38px;
+    top: 23px;
+}
+.fix3 p {
+    position: relative;
+    width: 400px;
+    top: 25px;
+}
+.fix4 p {
+    position: relative;
+    width: 400px;
+    left: 70px;
+    top: 25px;
+}
+h2 {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+.fix1 h2 {
+    position: relative;
+    right: 25px;
+}
+.fix2 h2 {
+    position: relative;
+    left: 41px;
+}
+.fix3 h2 {
+    position: relative;
+}
+.fix4 h2 {
+    position: relative;
+    left: 70px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: white;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
+button:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.fix1 button {
+    position: relative;
+    right: 28px;
+    top: 70px;
+}
+.fix2 button {
+    position: relative;
+    left: 39px;
+    top: 70px;
+}
+.fix3 button {
+    position: relative;
+    top: 60px;
+    height: 50px;
+    width: 150px;
+}
+.fix4 button {
+    position: relative;
+    left: 70px;
+    top: 54px;
+}
+.headerpart {
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    width: 880px;
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.headerpart h1 {
+    font-size: 20px;
+}
+.end-content {
+    position: relative;
+    top: 400px;
+    left: 20px;
+    width: 800px;
+    border-top: 1px dashed black;
+    padding-top: 50px;
+}
+.end-content h3 {
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+}
+.end-content p {
+    position: relative;
+    left: 10px;
+    line-height: 19px;
+}
+footer {
+    width: 880px;
+    max-width: 100%;
+    background: black;
+    display: flex;
+    margin-left: 0px;
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+    margin-top: 75px;
+    width: 880px;
+}
+footer nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 2%;
+    font-size: 14px;
+    width: 880px;
+    max-width: 100%;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    right: 10px;
+}
+footer nav a:hover{
+    font-weight: bold;
+}
+#footer1 {
+    position: relative;
+    right: 70px;
+}
+#footer2 {
+    position: relative; 
+    right: 130px;
+}
+#footer3 {
+    position: relative;
+    right: 160px;
+}
+#footer4 {
+    position: relative;
+    right: 220px;
+}

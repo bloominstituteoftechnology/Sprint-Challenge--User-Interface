@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 3px solid black;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 2% 0;
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width:538px){
+    h1 {
+        margin-left: 5%;
+    }
+    .headingpara {
+        margin-left: 5%;
+    }
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 5% 0;
+    font-size: 1.2rem;
+    color: white;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 5% 0 5%;
+    position: sticky;
+    top: 0;
+}
+.navigation img {
+    position: relative;
+    left: 0rem;
+    opacity: .6;
+}
+.navigation a {
+    margin-top: 3%;
+    color: white;
+    opacity: .5;
+}
+.navigation a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 1.4rem;
+    border: 1px solid grey;
+    border-radius: .4rem;
+    box-sizing: border-box;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: black;
+    color: White;
+    padding: .75rem 3rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    font-weight: bold;
+    opacity: .8;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.logopic {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0 0% 0;
+}
