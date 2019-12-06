@@ -144,3 +144,17 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+* {
+    box-sizing: border-box;
+    margin: 10px; 
+}
+.MyContains {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.MyContains a {
+    display: inline-block;
+    width: 150px;
+    margin-left: 20px;
+}
