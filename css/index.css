@@ -96,16 +96,50 @@ nav img{
 .container1{
     display:flex;
     justify-content: space-between;
+    margin-bottom: 5%;
     
 }
 .container2{
     display:flex;
+    
 }
-.box{
- border:1px solid black;
+.learnMore{
+    
+    border-radius: 10px;
+    border:1px solid black;
+    align-content:justify;
+    padding: 1px;
+    margin-top:2%;
+    margin-right:70%;
+    margin-bottom: 5%;
+}
+.box1{
+    border-top: 2px dotted black;
+    padding-top: 5%;
 }
 
+.box2{
+    border-top: 2px dotted black;
+    padding-top: 5%;
 
+   
+}
+
+.box3{
+    border-top: 2px dotted black;
+    padding-top: 5%;
+    border-bottom: 2px dotted black;
+}
+.box4{
+    border-top: 2px dotted black;
+    padding-top: 5%;
+    border-bottom: 2px dotted black;
+    
+}
+ .lastSection{
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
 .aboutSection{
     padding-bottom:2%;
 }
