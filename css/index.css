@@ -66,6 +66,98 @@ p {
     line-height: 1.4;
 }
 
+
+.page{
+width: 90%;
+margin: 0 auto;    
+}
+
+/* header styling */
+nav a{
+    text-decoration:none;
+    color:black;
+    padding:5%;
+    font-size: 15px;
+
+}
+nav a:hover{
+    color:blue;
+}
+nav img{
+    width:100px;
+  
+}
+.jumboPic{
+    text-align:center;
+    width:100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right:40%;
+}
+/* ------------------ */ 
+.boxes .box{
+    background-color: teal;
+}
+
+.container1{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    
+}
+.container2{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    border-bottom: 2px dotted black;
+}
+.learnMore{
+    
+    border-radius: 10px;
+    border:1px solid black;
+    align-content:justify;
+    padding: 1px;
+    margin-top:2%;
+    margin-right:70%;
+    margin-bottom: 5%;
+    display:inline-block;
+    padding:2px;
+}
+.box1{
+    border-top: 2px dotted black;
+    padding-top: 5%;
+    width: 45%;
+}
+
+.box2{
+    border-top: 2px dotted black;
+    padding-top: 5%;
+    width:45%;
+
+   
+}
+
+.box3{
+    border-top: 2px dotted black;
+    padding-top: 5%;
+    
+    width: 45%;
+}
+.box4{
+    border-top: 2px dotted black;
+    padding-top: 5%;
+    width: 45%;
+  
+    
+}
+
+ .lastSection{
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+.aboutSection{
+    padding-bottom:2%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,13 +196,14 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +236,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.Teal{
+    background-color:teal;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes .Gold{
+    background-color:gold;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes .Cadet{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes .Coral{
+    background-color:coral;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes .Crimson{
+    background-color:crimson;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes .Forest{
+    background-color:forestgreen;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes .Dark{
+    background-color:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes .Hot{
+    background-color:hotpink;
+     width: 12.5%;
+    height: 100px;
+    padding: 20px;
+}
+.boxes.Indigo{
+    background-color:Indigo;
+    /* width: 12.5%;
+    height: 100px;
+    padding: 20px; */
+}
+.boxes .Dod{
+    background-color:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    padding: 20px;
 }
