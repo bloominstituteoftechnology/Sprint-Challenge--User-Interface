@@ -56,21 +56,185 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: 'Bangers', cursive;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
+*{
+    box-sizing: border-box;
+}
+@media (max-width: 750px) {
+    body{background-color: red;}
+    img{ opacity: 50%;}
+    .boxes{ color: white;}
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.5%;
+    margin-bottom: 4.5%;
+    color: black;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding-top: 3px;
+    justify-content: baseline;
+}
+img{
+    margin-top: 5%;
+}
+.box1 {
+    background-color: tomato;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box2 {
+    background-color: violet;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box3 {
+    background-color: grey;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box4 {
+    background-color: yellow;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box5 {
+    background-color: orange;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box6 {
+    background-color: green;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box7{
+    background-color: pink;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box8 {
+    background-color: brown;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
 
+}
+.box9 {
+    background-color: purple;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 3%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+.box10 {
+    background-color: red;
+    width: 13%;
+    height: 100px;
+    padding: 4.8% 2%;
+    color: white;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +263,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 3%;
 }
 
 .middle-content .boxes .box {
