@@ -150,3 +150,9 @@ footer nav a {
     justify-content: space-between;
     padding: 10px;
 }
+
+
+.navbar a {
+    color:black;
+    text-decoration: none;
+}
