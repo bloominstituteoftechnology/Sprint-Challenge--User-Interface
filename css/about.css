@@ -92,6 +92,10 @@ h1, h2, h3, h4, h5 {
     width: 880px;
     bottom: 125px;
 }
+.navigation a:hover{
+    font-weight: bold;
+    color: black;
+}
 
 #picA {
     position: relative;
@@ -231,6 +235,10 @@ button {
     position: relative;
     top: 50px;
 }
+button:hover{
+    opacity: .5;
+    cursor: pointer;
+}
 .fix1 button {
     position: relative;
     right: 28px;
@@ -314,6 +322,9 @@ footer nav a {
     justify-content: flex-start;
     position: relative;
     right: 10px;
+}
+footer nav a:hover{
+    font-weight: bold;
 }
 #footer1 {
     position: relative;
