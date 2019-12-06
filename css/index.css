@@ -145,9 +145,10 @@ footer nav a {
     text-decoration: none;
 }
 *{
-    /* border: 1px solid red;*/
+    border: 1px solid red;
 }
 .top {
+    width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -185,6 +186,10 @@ footer nav a {
     background: dodgerblue;
 }
 
+#banner43{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* index */
