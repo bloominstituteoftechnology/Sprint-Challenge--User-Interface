@@ -66,6 +66,49 @@ p {
     line-height: 1.4;
 }
 
+
+.page{
+width: 90%;
+margin: 0 auto;    
+}
+
+/* header styling */
+nav a{
+    text-decoration:none;
+    color:black;
+    padding:5%;
+    font-size: 15px;
+
+}
+nav img{
+    width:100px;
+  
+}
+.jumboPic{
+    text-align:center;
+    /* width:100%; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right:40%;
+}
+/* ------------------ */ 
+
+.container1{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.container2{
+    display:flex;
+}
+.box{
+ border:1px solid black;
+}
+
+
+.aboutSection{
+    padding-bottom:2%;
+}
 .container {
     width: 800px;
     margin: 0 auto;
