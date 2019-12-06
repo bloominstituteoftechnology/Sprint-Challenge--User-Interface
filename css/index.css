@@ -147,3 +147,12 @@ footer nav a {
 *{
     border: 1px solid red;
 }
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+/* Boxes */
+.box {
+    background:
+}
