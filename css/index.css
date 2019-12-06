@@ -1,54 +1,8 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
 }
 
 html, body {
@@ -71,11 +25,40 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display:flex;
+    padding:20px 0;
+}
+
+.logo {
+    width:19%;
+}
+
+.top-nav {
+    width:79%;
+}
+
+nav ul {
+    display:flex;
+    justify-content:space-around;
+    padding-top:20px;
+}
+
+nav ul li {
+    list-style-type:none;
+}
+
+li a {
+    text-decoration:none;
+    text-transform: capitalize;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top:20px;
     border-bottom: 1px dashed black;
 }
 
@@ -83,6 +66,51 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-img {
+    margin:20px 0;
+}
+
+.top-area {
+    display:flex;
+    justify-content: space-between;
+    margin-top:25px;
+}
+
+.top-area .text-container {
+    width: 48%;
+    /* padding: 0 1%; */
+    padding-bottom: 20px;
+    border-bottom:1px dashed black;
+    margin-bottom: 25px;
+}
+
+.middle-area {
+    display:flex;
+    justify-content: space-between;
+}
+
+.middle-area .text-container {
+    width: 48%;
+    /* padding: 0 1%; */
+    padding-bottom: 20px;
+    border-bottom:1px dashed black;
+    margin-bottom: 25px;
+}
+
+.top-area .text-container button {
+    margin-top:15px;
+}
+
+.middle-area .text-container button {
+    margin-top:15px;
+}
+
+button {
+    border-radius: 5px;
+    width:150px;
+    padding:5px;
 }
 
 .middle-content {
@@ -112,6 +140,47 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+    background-color:teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background-color:gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background-color:coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background-color:crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background-color:hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background-color:indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background-color:dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +193,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom-area {
+    margin-bottom: 25px;
 }
 
 footer {
@@ -143,4 +216,3 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
