@@ -72,10 +72,15 @@ footer, header, hgroup, menu, nav, section {
     margin-bottom: 30px;
 }
 
+.text p{
+    margin-bottom: 25px;
+}
+
 .about-pages{
     display:flex;
     justify-content:space-evenly;
     flex-wrap:wrap;
+    margin-bottom: 60px;
 }
 
 .box1{
@@ -121,6 +126,14 @@ footer, header, hgroup, menu, nav, section {
   font-size: 16px;
   margin: 4px 2px;
   border-radius:12px;
+}
+
+.footer-title{
+    margin-bottom: 15px;
+}
+
+.last-section{
+    margin-bottom: 30px;
 }
 
 /* Code For About Page */
