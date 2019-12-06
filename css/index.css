@@ -109,6 +109,7 @@ nav img{
     display:flex;
     justify-content: space-between;
     margin-bottom: 5%;
+    border-bottom: 2px dotted black;
 }
 .learnMore{
     
@@ -139,14 +140,14 @@ nav img{
 .box3{
     border-top: 2px dotted black;
     padding-top: 5%;
-    border-bottom: 2px dotted black;
+    
     width: 45%;
 }
 .box4{
     border-top: 2px dotted black;
     padding-top: 5%;
     width: 45%;
-    border-bottom: 2px dotted black;
+  
     
 }
 
