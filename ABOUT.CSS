@@ -61,6 +61,7 @@
     border: solid 3px black;
     border-style: groove;
     background-color: grey;
+    text-align: center;
 }
 .contentPics{
     width: 100%;
@@ -71,7 +72,7 @@
     border: solid 3px black;
     border-style: groove;
     background-color: grey;
-
+    text-align: center;
 
 }
 
@@ -88,12 +89,14 @@
     border: solid 3px black;
     border-style: groove;
     background-color: grey;
+    text-align: center;
 }
 .blockeight{
     width: 49%;
     border: solid 3px black;
     border-style: groove;
     background-color: grey;
+    text-align: center;
 
 }
 
@@ -108,6 +111,28 @@
     text-align: center;
 }
 
+footer{
+    border: solid 2px grey;
+    border-style: groove;
+    text-align: center;
+    background: black;
+    color: white;
+    height: 60px;
+    padding-top: 30px;
+    width: 79.5%;
+    margin-left: 10%;
+}
+
+.footernav a{
+color: white;
+}
+
 hr{
     margin: 0% 8%;
+}
+
+button{
+    margin-top: 20px;
+    border: solid 2px black;
+    border-style: ridge;
 }
