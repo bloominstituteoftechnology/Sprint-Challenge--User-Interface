@@ -32,16 +32,47 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+
+
+__________________________________________________________________________
+
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+-When we want our HTML document to look elegent and organized we want to add semantic HTML to it. When I say semantic I mean adding meaning and clarity to your documant. We can do this by adding different tags that will make this documant stand out. Youo have tags like; 
+
+                        -<head></head>
+                        -<body></body>
+                        -<p></p>
+                        -<section></section>
+                        -<h1></h1>
+
+-When we add these semantic tags to our document we know excatly what we are looking at. Its its a paragraph with the tags of <p></p> we know that is a paragraph and so fourth.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+-display:block; will align all elements with this prperty in a horizontal position. stacking them on top of each other.
+
+-display: inline; will align all element with this property in a vertical position. Having all items align next to each other.
+
 3. What are the 4 areas of the box model?
+
+The four areas of the box model are the content area, padding area, border area, and the margin area.
+
+                    -Margin is the outer area.
+                    -Border is between margin and padding.
+                    -Padding is between the border and content
+                    -Content is the middle area of the box model.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+        -align-items in the flexbox module works off the main axis of the container. It helps give out space when items are inflexiable on a line.
+
 5. Explain why git is valuable to a team of developers.
 
+-Git is valuable because not onlly does it records changes that is done to a file, or a set of files it helps you refer back to old code that was written out in the past. Keeping track of older and new code is an important task as a developer. It helps the improvements of a project. You can also see who added any changes on a repo as well. 
+
+
+__________________________________________________________________________
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
