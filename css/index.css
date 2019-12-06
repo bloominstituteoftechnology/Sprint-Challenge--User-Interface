@@ -99,6 +99,20 @@ li a {
     margin-bottom: 25px;
 }
 
+.top-area .text-container button {
+    margin-top:15px;
+}
+
+.middle-area .text-container button {
+    margin-top:15px;
+}
+
+button {
+    border-radius: 5px;
+    width:150px;
+    padding:5px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
