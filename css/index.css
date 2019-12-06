@@ -155,7 +155,7 @@ p {
 /* navigation */
 nav {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
     margin: 20px;
 }
@@ -168,10 +168,9 @@ nav a {
 /* end navigation */
 /* photo */
 .jumbo {
-    width: 80%;
-    display: flex;
+    width: 90%;
+    margin: 3%;
     align-items: center;
-    margin: 3% 10%;
 }
 /* end photo */
 .container {
@@ -224,7 +223,7 @@ nav a {
 .middle-content .boxes .box2 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: rgb(251, 255, 0);
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -235,7 +234,7 @@ nav a {
 .middle-content .boxes .box3 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: #216c6e;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -246,7 +245,7 @@ nav a {
 .middle-content .boxes .box4 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: #eb7617;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -256,7 +255,7 @@ nav a {
 .middle-content .boxes .box5 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: #da1414;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -267,7 +266,7 @@ nav a {
 .middle-content .boxes .box6 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: green;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -278,7 +277,7 @@ nav a {
 .middle-content .boxes .box7 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: #9828cc;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -289,7 +288,7 @@ nav a {
 .middle-content .boxes .box8 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: rgb(245, 49, 170);
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -300,7 +299,7 @@ nav a {
 .middle-content .boxes .box9 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: rgb(102, 2, 102);
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -311,7 +310,7 @@ nav a {
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
-    background: #b2ce17;
+    background: #3aadf0;
     margin: 20px 2.5%;
     color: white;
     display: flex;
