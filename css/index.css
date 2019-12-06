@@ -78,9 +78,14 @@ p {
     margin: 25px 0;
 }
 
+.navigation a{
+    margin: 0 35px;
+}
+
 .topimage{
     display: flex;
     justify-content: stretch;
+    margin: 15px 0;
 }
 
 .top-content {

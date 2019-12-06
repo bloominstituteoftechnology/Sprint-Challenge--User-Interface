@@ -69,6 +69,7 @@ p {
 .container-about-page{
     width: 800px;
     margin: 0 auto;
+   
 }
 
 .navigation{
@@ -79,36 +80,42 @@ p {
     margin: 25px 0;
 }
 
+.navigation a{
+    margin: 0 35px;
+}
+
+
 .top{
     margin:15px 10px;
 }
 
- .boxes{
+.boxes div{
     display: flex;
-    flex-direction: row;
+   flex-direction: column;
     justify-content: space-evenly;
-    flex-flow: wrap;
-    width:35%;
-    margin: auto;
-    
+    width: 40%;
+    margin: 10px 10px;
 } 
 
-
- .box1 .box2 .box3 .box4{
+.boxes{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 10px 10px;
-    width: 25%; 
+}
 
-    
-}  
+.boxes h2{
+    margin: 15px 0;
+}
+.boxes 
+
+
 
 button {
  border-radius: 11px;
  background:white;
  height: 30px;
+ width: 100px;
  }
 
 .together{
