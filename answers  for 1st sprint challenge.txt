@@ -1,0 +1,30 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantics is the meaning of words in a language. In semantic HTML elements give the browser and 
+developer meaning. An example of non-semantic HTML is a <div> tag, it is considered non-semantic
+because the element name tells us nothing about what it's contents may be. An example of a semantic
+HTML tag that is similar to the <div> (but different in that it gives the browser and developer 
+meaning) is the <section> tag.
+
+Name two big differences between display: block; and display: inline.
+
+display: block; creates a block level element, display: inline; creates an inline-level element.
+Block level elements break up the flow of a document and inline-level elements do not.
+
+What are the 4 areas of the box model?
+
+The four areas of the box model are: content, padding, border, and margin respectively.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+align-items: center; works on the cross-axis, or the y-axis, or the one that goes up and down,
+however you want to put it.
+
+Explain why git is valuable to a team of developers.
+
+Git is extremely valuable to a team of developers and especially to large teams working on huge 
+projects. There are several reasons why git is so valuable. One of the biggest reasons is that
+it keeps track of minor changes to a project and any developer on the team can contribute to changes.
+The changes are saved every step of the way so you can always go back to previous versions. Git uses 
+"snapshots" to record all changes and their method is much more efficient than other Version Control
+interfaces.
