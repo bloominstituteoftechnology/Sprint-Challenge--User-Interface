@@ -144,3 +144,131 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.header-bar {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.header-bar a {
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.middle-content .boxes .box .box1 {
+    background: teal;
+}
+
+.abt {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+.around {
+    border-top: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.part {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.how {
+    margin: 10px;
+    border-bottom: 1px dotted black;
+}
+
+.top {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    line-height: 30px;
+}
+
+.top h1 {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: bold;
+}
+
+.top p {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.wrap-up {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background: #fff;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.part2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.part2 img {
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.bottom-bar {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    background: yellowgreen;
+}
+
+.bottom-bar h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bottom-bar p {
+    font-size: 15px;
+}
