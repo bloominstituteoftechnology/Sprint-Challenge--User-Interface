@@ -1,0 +1,33 @@
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+
+.bone{
+    padding: 15px;
+    width: 5%;
+  
+    
+}
+.logo{
+    width: 50%;
+    justify-content: right;
+}
+.btwo{
+    width: 69%;
+    background: white;
+    
+    
+}
+
+.topNav, a{
+    padding: 35px 55px;
+}
+
+.bthree{
+    display: flex;
+    justify-content: center;
+}
