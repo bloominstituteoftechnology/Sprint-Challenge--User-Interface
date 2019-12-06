@@ -156,7 +156,7 @@ p {
 nav {
     display: flex;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px;
 }
 
@@ -212,7 +212,7 @@ nav a {
 .middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: #007b83;
+    background: teal;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -223,7 +223,7 @@ nav a {
 .middle-content .boxes .box2 {
     width: 12.5%;
     height: 100px;
-    background: rgb(251, 255, 0);
+    background: gold;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -234,7 +234,7 @@ nav a {
 .middle-content .boxes .box3 {
     width: 12.5%;
     height: 100px;
-    background: #216c6e;
+    background: cadetblue;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -245,7 +245,7 @@ nav a {
 .middle-content .boxes .box4 {
     width: 12.5%;
     height: 100px;
-    background: #eb7617;
+    background: coral;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -255,7 +255,7 @@ nav a {
 .middle-content .boxes .box5 {
     width: 12.5%;
     height: 100px;
-    background: #da1414;
+    background: crimson;
     margin: 20px 3.5%;
     color: white;
     display: flex;
@@ -266,7 +266,7 @@ nav a {
 .middle-content .boxes .box6 {
     width: 12.5%;
     height: 100px;
-    background: green;
+    background: forestgreen;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -277,7 +277,7 @@ nav a {
 .middle-content .boxes .box7 {
     width: 12.5%;
     height: 100px;
-    background: #9828cc;
+    background: darkorchid;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -288,7 +288,7 @@ nav a {
 .middle-content .boxes .box8 {
     width: 12.5%;
     height: 100px;
-    background: rgb(245, 49, 170);
+    background: hotpink;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -299,7 +299,7 @@ nav a {
 .middle-content .boxes .box9 {
     width: 12.5%;
     height: 100px;
-    background: rgb(102, 2, 102);
+    background: indigo;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -310,7 +310,7 @@ nav a {
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
-    background: #3aadf0;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -356,30 +356,33 @@ footer nav a {
 /* about page */
 /*  */
 .container-about-page {
-    align-items: center;
     margin: 0 10%;
 }
+
 .about {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding: 10px;
 }
 
+/* contents for about */
 .middle-content-about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     align-items: center;
 }
 
 .about-info {
     width: 40%;
-    margin: 2%;
+    margin: 2% 5%;
     padding: 10px;
-    /* justify-content: space-around; */
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-around; */
+    /* justify-content: space-between; */
     border-bottom: 1px dashed black;
 }
+/* end contents for about */
 
 .learnmore {
     margin: 10px auto;
