@@ -75,6 +75,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -142,5 +143,17 @@ footer nav {
 
 footer nav a {
     color: white;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    /*border: 1px solid red;*/
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.nav a{
+    color: gray;
     text-decoration: none;
 }
