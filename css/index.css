@@ -278,22 +278,22 @@ footer nav a {
     justify-content: space-evenly;
 }
 .strategy{
-    border-bottom-style:1px,dotted,black;
+    border-bottom:5px,dotted,black;
     display:flex;
     flex-wrap:wrap;
 }
 .how{
-    border-bottom-style:1px,dotted,black;
+    border-bottom:5px,dotted,black;
     display:flex;
     flex-wrap:wrap;
 }
 .places{
-    border-bottom-style:1px,dotted,black;
+    border-bottom:5px,dotted,black;
     display:flex;
     flex-wrap:wrap;
 }
 .coll{
-    border-bottom-style:1px,dotted,black;
+    border-bottom:5px,dotted,black;
     display:flex;
     flex-wrap:wrap;
 }
