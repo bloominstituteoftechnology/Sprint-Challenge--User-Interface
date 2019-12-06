@@ -74,20 +74,45 @@ footer, header, hgroup, menu, nav, section {
 
 .about-pages{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
 }
 
-.box{
+.box1{
+    padding:20px;
+    margin: 3px 2px; 
+    text-align:left;
+    border-bottom: 1px dashed black;
+
+}
+
+.box2{
     padding:20px;
     margin: 3px 2px;
     text-align:left;
-    flex-wrap:wrap;
+    border-bottom: 1px dashed black;
+
+}
+
+.box3{
+     padding:20px;
+    margin: 3px 2px;
+    text-align:left;
+    border-bottom: 1px dashed black;
+
+}
+
+.box4{
+    padding:20px;
+    margin: 3px 2px;
+    text-align:left;
+    border-bottom: 1px dashed black;
 
 }
 
 .learn-more{
-    background-color:#4CAF50;
-  border: none;
+    background-color:white;
+  border: 1px solid black;
   color: black;
   padding: 20px;
   text-align: center;
@@ -97,7 +122,6 @@ footer, header, hgroup, menu, nav, section {
   margin: 4px 2px;
   border-radius:12px;
 }
-
 
 /* Code For About Page */
 
@@ -169,6 +193,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-size: 12px;
 }
 
 .container {
