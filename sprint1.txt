@@ -1,0 +1,20 @@
+Q1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+I would say, semantic HTML is a markup language that provides meaning and structure to the content of the page regardless of the style.
+
+Q2. Name two big differences between display: block; and display: inline;.
+
+display: block: They take up full width of the page by default but the desired height and width can also be given. In addition block elements start from new line.
+display: inline: They take up only the amount of space it needs. They also display side by side on the same line unlike block elements. 
+
+Q3.What are the 4 areas of the box model?
+
+The four areas of box-model are: the content edge, padding edge, border edge, and the margin edge.
+
+Q4. While using flexbox, what axis does the following property work on: align-items: center?
+
+It would work on cross-axis (means y axis on the grid).
+
+Q5.Explain why git is valuable to a team of developers.
+
+Git is very valuable to the team of developers due to type of performance, flexibility, security, and flexibility it offers. On git, changes can easily committed, version brances can be efforlessly compared and merged. So, git is most widely accepted and liked version control system among developers. 
