@@ -4,6 +4,13 @@
     width: 100%;
     
 }
+.container2{
+    display: flex;
+}
+
+.blockfive{
+    width: 30%;
+}
 
 
 .bone{
