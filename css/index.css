@@ -355,9 +355,14 @@ footer nav a {
 /*  */
 /* about page */
 /*  */
+.container-about-page {
+    align-items: center;
+    margin: 0 10%;
+}
 .about {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 10px;
 }
 
 .middle-content-about {
@@ -371,6 +376,17 @@ footer nav a {
     width: 40%;
     margin: 2%;
     padding: 10px;
+    /* justify-content: space-around; */
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.learnmore {
+    margin: 10px auto;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 20px;
+    /* display: block; */
+    background-color: white;
 }
