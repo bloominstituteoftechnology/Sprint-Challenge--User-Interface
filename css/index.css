@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline; 
+}
+
+.logo {
+    margin: 20px 0px 45px 0px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.jumbo {
+    margin: 0px 0px 30px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +142,47 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+   
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +215,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.bottom-nav a:hover {
+    color: black;
+}
+
+/* about.html css begins here */
+
+.about {
+
+    margin: 2%;
+}
+
+hr {
+    border: 1px dotted inherit;
+    border-style: none none dotted;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0%;
+}
+
+.middle-left {
+   width: 46%;
+}
+
+.middle-right {
+    width: 46%;
+}
+
+.learn {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin: 5% 0% 4% 0%;
+    padding: 2% 3%;
+}
+
+.bottom-section {
+    margin: 3% 0%;
+}
+

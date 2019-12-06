@@ -104,3 +104,27 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+<!--Answer to Sprint questions are here.-->
+
+If you were to describe semantic HTML to the next cohort of students, what would you say? 
+
+Semantic HTML is what defines what type of information will show up on a webpage.
+
+Name two big differences between display: block; and display: inline;.
+
+Display block means that information will wrap to the next line if its in a new block whereas inline means that the information will all go to the same line.
+
+Another differnce about block and inline is that block can have margin and padding whereas inline cannot.
+
+What are the 4 areas of the box model? 
+
+The four areas of a box model are content, padding, border, and margin.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+The cross-axis
+
+Explain why git is valuable to a team of developers.
+
+git is valuable to a team of developers because more than one person on the team can be working on the same project at the same time by simply creating their own branches.
