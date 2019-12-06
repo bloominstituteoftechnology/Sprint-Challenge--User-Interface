@@ -144,3 +144,117 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*Nav*/
+nav {
+    display: flex;
+	justify-content: space-between;
+	margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.lines {
+    display: block;
+    margin-left: 10%;
+    margin-right: 0;
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+/* Box */
+
+
+  #box1{
+     background-color: teal;
+ }
+  #box2{
+    background-color: gold;
+ }
+ #box3{
+     background-color: cadetblue;
+ }
+ #box4 {
+     background-color: coral;
+    }
+ #box5{
+     background-color: crimson;
+}
+ #box6 {
+     background-color: forestgreen;
+ }
+ #box7{
+     background-color: darkorchid;
+ }
+ #box8{ 
+    background-color: hotpink;
+ }
+ #box9{ 
+   background-color:  indigo;
+ }
+#box10{
+  background-color:  dodgerblue;
+}
+
+/*About*/
+.sky {
+    display: block;
+    margin-left: 10%;
+    margin-right: 0;
+    width: 80%;
+    margin-bottom: 5%;
+}
+.about{
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-right: 20%;
+}
+
+/*Middle*/
+.top-boarder{
+    border-top: dashed;
+    border-width: 90%;
+}
+
+.middle-container {
+    display:flex;
+    justify-content:center;
+}
+
+.left{
+    padding: 3%;
+    margin-right: 10%;
+    border-bottom: dashed;
+}
+.right{
+    padding: 3%;
+    margin-left: 10%;
+    border-bottom: dashed;
+}
+.h2{
+    margin-top: 5%;
+}
+.learn{
+    border: solid 1px;
+	margin-top: 5%;
+	width: 100px;
+	background-color: white;
+    padding:2%;
+    border-radius: 25px;
+}
+
+
+/*Products (Stretch)*/
+
+.computers{
+    height: 50vh;
+    width:80%;
+    margin-left: 10%;
+}
