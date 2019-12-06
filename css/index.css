@@ -211,10 +211,8 @@ h3 {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
     line-height: 30px;
 }
 
@@ -261,7 +259,8 @@ h3 {
     flex-direction: column;
     justify-content: center;
     line-height: 30px;
-    background: yellowgreen;
+    background: aqua;
+    padding: 20px;
 }
 
 .bottom-bar h2 {
