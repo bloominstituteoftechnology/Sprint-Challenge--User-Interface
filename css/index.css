@@ -72,9 +72,37 @@ footer, header, hgroup, menu, nav, section {
     margin-bottom: 30px;
 }
 
+.about-pages{
+    display:flex;
+    justify-content:space-around;
+}
+
+.box{
+    padding:20px;
+    margin: 3px 2px;
+    text-align:left;
+    flex-wrap:wrap;
+
+}
+
+.learn-more{
+    background-color:#4CAF50;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius:12px;
+}
 
 
 /* Code For About Page */
+
+
+
 body{
 	line-height: 1;
 }
