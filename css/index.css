@@ -31,6 +31,28 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.logo{
+    margin-top:0px;
+    margin-left: 280px;
+    width: 13%;
+
+}
+
+.top{
+    text-align: center;
+    word-spacing: 100px;
+    width:48%;
+    margin-bottom: 50px;
+    margin-left: 460px;
+}
+  .top a {      
+    color: black;
+    text-decoration: none;
+}
+.image-one{
+   margin-left: 300px;
+   margin-bottom: 20px;
+}
 ol, ul {
 	list-style: none;
 }
@@ -143,4 +165,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.group-one{
+    display: flex;
+    width:100%;
+    margin-left: 20px;
+}
+.group-two{
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+.box1{
+    width: 14%;
+    height: 100px;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    width: 14%;
+    height: 100px;
+    background:gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 14%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    width: 14%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    width: 14%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    width: 14%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    width: 14%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    width: 14%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    width: 14%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    width: 14%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
