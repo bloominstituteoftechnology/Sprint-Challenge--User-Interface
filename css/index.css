@@ -351,3 +351,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*  */
+/* about page */
+/*  */
+.about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-info {
+    width: 40%;
+    margin: 2%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
