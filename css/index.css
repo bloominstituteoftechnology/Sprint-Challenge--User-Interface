@@ -169,3 +169,46 @@ header{
     margin-bottom: 20px;
 }
 
+
+
+/* About page CSS below */
+/* Top content CSS */
+.topContentAbout{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.topContentAbout .text-container{
+    margin: 0 2%;
+    margin-bottom: 20px;
+}
+
+
+/* Middle content CSS */
+.contentAbout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+.contentAbout div{
+    margin-bottom: 45px;
+    border-bottom: 1px dashed black;
+    width: 47.5%;
+}
+.contentAbout h2{
+    margin-top: 10px;
+}
+.contentAbout button{
+    background-color: white;
+    font-size: 14px;
+    margin: 15px 0;
+    border-radius: 6px;
+    padding: 6px 22px;
+    border: 2px solid black;
+}
+
+/* Bottom content CSS */
+.bottomContentAbout{
+    margin: 0 2%;
+    margin-bottom: 40px;
+}
