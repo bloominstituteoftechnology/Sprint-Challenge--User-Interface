@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+ .container .navigations nav{
+    box-sizing: 100px;
+    padding-top 20px;
+ }
+
+
+.container .navigations nav a{
+   
+    font-size:15px;
+    text-decoration:none;
+    padding-top:10px;
+    margin: 20px;
+    color:black;
+
+}
+ .container .lambda{
+     
+ }
+
+.container .jumbo{
+    box-sizing: 100%;
+    padding: 30px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,8 +133,108 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
+.boxes .box1{
+    background: teal;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box2{
+    background: gold;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box3{
+    background: cadetblue;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box4{
+    background: coral;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box5{
+    background: crimson;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box6{
+    background: forestgreen;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box7{
+    background: darkorchid;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+.boxes .box8{
+    background: hotpink;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box9{
+    background: indigo;
+    width: 80px;
+    height: 80px;
+    text-align:center;
+    margin: 30px;
+    padding-top: 30px;
+    font-size:13px;
+}
+
+.boxes .box10{
+    background: dodgerblue;width: 80px;
+    height: 80px;
+
+    margin: 30px;
+    text-align:center;
+    padding-top: 30px;
+    font-size:13px;
+    
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +266,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container about-page{
+    display:flex;
+    justify-content:space-evenly;
+
+
+}
+
+.about-plan{
+    display:flex;
+    margin: 30px;
+    flow-direction: row;
+    box-sizing: 200px;
+
+
 }
