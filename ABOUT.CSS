@@ -2,16 +2,12 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    
-}
-.container2{
-    display: flex;
 }
 
-.blockfive{
-    width: 30%;
+.headerPic{
+    width: 82%;
+    margin: 15px 0;
 }
-
 
 .bone{
     padding: 15px;
@@ -19,10 +15,12 @@
   
     
 }
+
 .logo{
-    width: 50%;
+    width: 30%;
     justify-content: right;
 }
+
 .btwo{
     width: 69%;
     background: white;
@@ -37,4 +35,79 @@
 .bthree{
     display: flex;
     justify-content: center;
+}
+/* ---------------------------------*/
+
+.container3{
+    width: 90%;
+    margin:0 0 10px 9%;
+    padding: 15px;
+}
+
+.blockfour{
+    width: 91%;
+    text-align: center;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+    width: 81.5%;
+    padding: 10px;
+    margin-left: 9%;
+}
+.blockfive{
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    background-color: grey;
+}
+.contentPics{
+    width: 100%;
+}
+
+.blocksix{
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    background-color: grey;
+
+
+}
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+    width: 81.5%;
+    padding: 10px;
+    margin-left: 9%;
+
+}
+.blockseven{
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    background-color: grey;
+}
+.blockeight{
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    background-color: grey;
+
+}
+
+.container6{
+    width: 91.9%;
+    display: flex;
+    justify-content: right;
+}
+
+.blocknine{
+    width: 95%;
+    text-align: center;
+}
+
+hr{
+    margin: 0% 8%;
 }
