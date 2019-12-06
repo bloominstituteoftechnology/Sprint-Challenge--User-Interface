@@ -145,7 +145,7 @@ footer nav a {
     text-decoration: none;
 }
 *{
-    border: 1px solid red;
+    /* border: 1px solid red;*/
 }
 .top {
     display: flex;
@@ -155,4 +155,29 @@ footer nav a {
 /* Boxes */
 .box {
     background:
+}
+
+
+
+/* index */
+
+.centerBlock{
+    display: flex;
+}
+.firstRow{
+    justify-content: space-evenly;
+}
+.button{
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px;
+    width: 140px;
+    height: 40px; 
+}
+.line {
+    border: 1px dashed #000;
+    width: 95%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
