@@ -34,31 +34,95 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+
+Semantic HTML(hyper-text markup language) is a  systmatic way
+
+for all developers to understand the meanings when marking up
+
+your html.  This puts a  standardized meaning to tags used to
+
+describe the elements in the html code.
+
+
+
+
+Semantic HTML is a mark-up language. It introduces meaning to a
+
+webpage. INstef only genera
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Compared to display: inline , the major difference is that
+
+display: inline-block allows to set a
+
+
+width and height on the element. Also, with display:
+
+inline-block , the top and bottom margins/paddings
+
+
+are respected, but with display: inline they are not.
+
 3. What are the 4 areas of the box model?
+            1. border
+            2. padding
+            3  content
+            4. margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+        Jump to Aligning content on the cross axis — the align-content property -
+
+        To center our box we use the align-items property to
+
+        align our item on the cross axis,
+         which in this case is the block axis running
+
+
+         vertically. We use justify-content to align
+
+         the item on the main axis, which in this case the
+
+         inline axis running horizontally
 
 5. Explain why git is valuable to a team of developers.
 
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+            Collaboration made simple.
 
+            Version control made easy. A working directory,
+            which contains current states of files.
+
+
+
+            Numerous developers can access a directory when they’re logged in, so collaboration is easy.
+
+            The staging area, which contains indexes of
+
+            everything for the next commit, and any files
+
+            that have been added or edited since the previous save.
+            The Git repository, where new commits are added.
+
+            A Git repository contains (a) all the metadata, (b) the files, and
+
+             a dedicated database that tracks versions of the project.
+You are expected to be able to answer all these questions. Your
+
+responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 ## Project Set Up
-
 - [ ] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
@@ -100,7 +164,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries

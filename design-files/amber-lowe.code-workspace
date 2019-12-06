@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\ALEGT\\Sprint-Challenge--User-Interface\\css"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.formatOnType": true,
+		"files.autoSave": "afterDelay",
+		"files.trimTrailingWhitespace": true,
+		"workbench.view.alwaysShowHeaderActions": true,
+		"workbench.tree.renderIndentGuides": "always",
+		"search.showLineNumbers": true,
+		"search.maintainFileSearchCache": true,
+		"debug.enableAllHovers": true,
+		"gitHistory.hideCommitViewExplorer": true,
+		"prettier.useTabs": true,
+		"json.format.enable": false
+	}
+}
