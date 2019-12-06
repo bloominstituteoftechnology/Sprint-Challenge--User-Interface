@@ -112,6 +112,123 @@ p {
     justify-content: center;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 25%;
+}
+
+nav {
+    word-spacing: 100px;
+    font-size: 18px;
+}
+
+.header-image {
+    display: flex;
+    margin-left: 29%;
+    margin-bottom: 3%;
+}
+
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background-color: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background-color: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background-color: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background-color: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background-color: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background-color: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background-color: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background-color: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +260,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page */
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text {
+    width: 50%;
+    margin: 2%;
+}
+
+.text2 {
+    width: 50%;
+}
+
+.bottom-part {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.how {
+    display: flex;
+    f
+}
+
+.places {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.collab {
+    width: 200%
+    margin-top: 5%;
+}
+
+.together {
+    width: 200%;
 }
