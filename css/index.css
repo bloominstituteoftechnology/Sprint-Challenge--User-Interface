@@ -68,6 +68,10 @@ li a {
     padding-bottom: 20px;  
 }
 
+.top-img {
+    margin:20px 0;
+}
+
 .top-area {
     display:flex;
     justify-content: space-between;
@@ -76,11 +80,8 @@ li a {
 
 .top-area .text-container {
     width: 48%;
-    padding: 0 1%;
+    /* padding: 0 1%; */
     padding-bottom: 20px;
-}
-
-.top-area div{
     border-bottom:1px dashed black;
     margin-bottom: 25px;
 }
@@ -92,8 +93,10 @@ li a {
 
 .middle-area .text-container {
     width: 48%;
-    padding: 0 1%;
+    /* padding: 0 1%; */
     padding-bottom: 20px;
+    border-bottom:1px dashed black;
+    margin-bottom: 25px;
 }
 
 .middle-content {
@@ -178,6 +181,10 @@ li a {
     padding-right: 0;
 }
 
+.bottom-area {
+    margin-bottom: 25px;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -195,8 +202,3 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-/* about page */
-
-.about-info {
-    margin:25px 0;
-}
