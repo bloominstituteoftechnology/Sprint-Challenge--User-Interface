@@ -2,7 +2,7 @@
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
-## Instructions
+## Instructions Mandi
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
@@ -34,13 +34,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is using HTML code in a way so that others can look at the code and understand what you are doing (creating)
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+compared to display inline, the display inline block makes it possible to set a width and height on the element.
 
 3. What are the 4 areas of the box model?
 
+the content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+the cross axis. By default, the cross axis is vertical. 
 
 5. Explain why git is valuable to a team of developers.
+
+GIT is the most widely use version control system today. Version control systems help a team of developers to track various versions of code developed over time, recording what code was developed, who developed it, and when changes were made. VCS makes it possible if mistakes occur during coding for developers to go back and compare the code to earlier versions to fix mistakes easily.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
