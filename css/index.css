@@ -159,5 +159,22 @@ footer nav a {
 }
 
 .learn_more {
+    border: black;
+    border-radius: 12px;
+}
+
+.boxes div {
+    flex-grow: 5;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    margin:50px;
+    box-sizing: border-box;
     
 }
+
+.boxes {
+    display: flex;
+}
+
+
