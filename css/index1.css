@@ -71,6 +71,7 @@ p {
 
 
 .container-home {
+width: 100%;
     margin: 0 auto;
 }
 
@@ -78,7 +79,7 @@ p {
 .container-home .navigation-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: flex-end;
     margin: 20px 100px 40px 100px;
 }
@@ -110,6 +111,7 @@ p {
 
 .jumbo {
     margin: 0px 100px 0px 100px;
+    width: 75%;
 }
 
 .top-content {
