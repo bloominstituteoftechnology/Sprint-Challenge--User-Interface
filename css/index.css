@@ -151,7 +151,6 @@ footer nav a {
 }
 footer nav a:hover{
     color: blue;
-    transition:all 0.3s ease;
 }
 
 .nav{
@@ -167,6 +166,7 @@ footer nav a:hover{
 }
 .nav a:hover{
     color: blue;
+    filter: blur(1px) brightness(60%);
 }
 
 /*   ABOUT Page   */
