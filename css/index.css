@@ -129,6 +129,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 0;
 }
 
 footer nav {
@@ -155,4 +156,8 @@ footer nav a {
 .navbar a {
     color:black;
     text-decoration: none;
+}
+
+.learn_more {
+    
 }
