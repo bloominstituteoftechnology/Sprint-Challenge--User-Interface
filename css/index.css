@@ -70,11 +70,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -143,4 +148,52 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+footer nav a:hover{
+    color: blue;
+}
+
+.nav{
+    display: flex;
+    /*border: 1px solid red;*/
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+.nav a{
+    color: gray;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: blue;
+    filter: blur(1px) brightness(60%);
+}
+
+/*   ABOUT Page   */
+
+
+.aboutText{
+    /*border: 1px solid red;*/
+    line-height: 1.5;
+    padding: 30px;
+    border-bottom: dotted gray 2px;
+}
+.imgBoxes{
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.imgBox{
+    line-height: 1.5;
+    width: 40%;
+    padding-top: 40px;
+    border-bottom: dotted gray 2px;
+}
+.workBot{
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
