@@ -102,6 +102,10 @@ p {
     padding-bottom: 250px;
     bottom: 100px;
 }
+.navigation section a:hover{
+    font-weight: bold;
+    color: black;
+}
 .top-content {
     display: flex;
     justify-content: center;
@@ -305,6 +309,9 @@ footer nav a {
     position: relative;
     right: 10px;
     word-spacing: 10%;
+}
+footer nav a:hover{
+    font-weight: bold;
 }
 .backdrop {
     position: relative;
