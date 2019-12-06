@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /*border: 1px solid grey;*/
 }
 
 html, body {
@@ -58,17 +59,34 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
 }
-
+/* My code starts here HOME PAGE 
+ My code starts here HOME PAGE 
+ My code starts here HOME PAGE 
+ My code starts here HOME PAGE 
+ My code starts here HOME PAGE */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav {
+	display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+	padding: 2% 0;
+	font-size:20px;	
+    align-items: center;
+}
+
+#about-link{
+    text-decoration: none;
 }
 
 .top-content {
@@ -94,17 +112,18 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+/* boxes boxes boxes boxes boxes boxes boxes boxes boxes*/ 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+
 }
 
-.middle-content .boxes .box {
+.box-teal{
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +131,105 @@ p {
     justify-content: center;
 }
 
+.box-gold{
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-cadetblue{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-coral{
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-crimson{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-forsestgreen{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-darkorchid{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-hotpink{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-indigo{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-dodgerblue{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* boxes boxes boxes boxes boxes boxes boxes boxes boxes*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -134,7 +252,7 @@ footer {
 footer nav {
     width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -143,4 +261,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* My code starts here ABOUT PAGE 
+ My code starts here ABOUT PAGE 
+ My code starts here ABOUT PAGE 
+ My code starts here ABOUT PAGE 
+ My code starts here ABOUT PAGE */
+
+ .about-page{
+    border-bottom: 1px dotted grey;
+ }
+ .about-page h1{
+     padding: 2%;
+}
+.about-page p{
+    padding: 0 0 2% 2%;
+}
+ .about-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+    width:100%;
+ }
+
+.about-content img{
+    width: 100%;
+ }
+
+ .about-box{
+    border-bottom: 1px dotted grey;
+    width: 40%;
+    height: 12%%;
+    background: white;
+    margin: 20px 2.5%;
+ }
+
+ .about-box h2{
+    padding-top: 3%;
+}
+
+.about-box p{
+    padding:4% 0
+}
+
+.about-box button{
+    border-radius: 4px;
+    width: 35%;
+    border: 1px solid black;
+    padding: 2%;
+    margin-bottom:5%;
+}
+
+.invite{
+    padding: 3%;
+}
+
+.invite h2{
+    padding-bottom: 3%;
+
 }
