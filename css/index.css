@@ -249,3 +249,12 @@ a{
     padding:2%;
     border-radius: 25px;
 }
+
+
+/*Products (Stretch)*/
+
+.computers{
+    height: 50vh;
+    width:80%;
+    margin-left: 10%;
+}
