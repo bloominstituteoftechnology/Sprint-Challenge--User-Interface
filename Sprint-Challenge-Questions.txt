@@ -1,0 +1,19 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    
+    Semantic HTML is HTML that introduces meaning to the webpage rather than just it's presentation.
+
+2. Name two big differences between display: block; and display: inline;.
+    
+     Two big differences between display:block; and display: inline are that display block elements can only be nested within new blocks level elements, while inline elements can be nested with both block and inline elements.
+     Another difference between the two are that display:block elements are can be subject to width and height properties whereas inline elements do not recognize neither weight or height.  
+
+3. What are the 4 areas of the box model?
+        The four areas of the box model include the content region, the pdding space between the content and  the border, the border, and then the margin that encompasses the rest of the space outside of the border.
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+        While using flexbox, the axis that is closely associated with it is the cross axis which is perperndicular to the main axis.
+
+5. Explain why git is valuable to a team of developers.
+        Git is valuable to developers because it's a tool that keeps trach of all changes made to files that are being worked on and allows us to work on projects simultaneously with a team. Git has the abilit to save all changes made throughout the entire history of that file without adding any extra files.
+        Git also allows the undoing or redoing of any changes we, or a team membre made to a file.
