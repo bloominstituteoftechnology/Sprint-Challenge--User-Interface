@@ -144,3 +144,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    color: grey;
+}
+
+.top-image{
+    margin-bottom: 20px;
+}
+
