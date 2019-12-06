@@ -145,7 +145,7 @@ img{
     margin-top: 5%;
 }
 .box1 {
-    background-color: tomato;
+    background-color: teal;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -154,7 +154,7 @@ img{
     margin-bottom: 4%;
 }
 .box2 {
-    background-color: violet;
+    background-color: gold;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -163,7 +163,7 @@ img{
     margin-bottom: 4%;
 }
 .box3 {
-    background-color: grey;
+    background-color: cadetblue;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -172,7 +172,7 @@ img{
     margin-bottom: 4%;
 }
 .box4 {
-    background-color: yellow;
+    background-color: coral;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -181,7 +181,7 @@ img{
     margin-bottom: 4%;
 }
 .box5 {
-    background-color: orange;
+    background-color: crimson;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -190,7 +190,7 @@ img{
     margin-bottom: 4%;
 }
 .box6 {
-    background-color: green;
+    background-color: forestgreen;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -199,7 +199,7 @@ img{
     margin-bottom: 4%;
 }
 .box7{
-    background-color: pink;
+    background-color: darkorchid;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -208,7 +208,7 @@ img{
     margin-bottom: 4%;
 }
 .box8 {
-    background-color: brown;
+    background-color: hotpink;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -218,7 +218,7 @@ img{
 
 }
 .box9 {
-    background-color: purple;
+    background-color: indigo;
     width: 13%;
     height: 100px;
     padding: 4.8% 3%;
@@ -227,7 +227,7 @@ img{
     margin-bottom: 4%;
 }
 .box10 {
-    background-color: red;
+    background-color: dodgerblue;
     width: 13%;
     height: 100px;
     padding: 4.8% 2%;
