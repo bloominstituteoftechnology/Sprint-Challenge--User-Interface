@@ -269,11 +269,14 @@ footer nav a {
 
 /* code for about page */
 .about{
-    border-bottom-style:1px,dotted,black;
+    border-bottom:2px dotted black;
+    height:25%;
+    width: 25%;
+    text-align: center;
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
 }
-
 .strategy{
     border-bottom-style:1px,dotted,black;
     display:flex;
@@ -293,4 +296,12 @@ footer nav a {
     border-bottom-style:1px,dotted,black;
     display:flex;
     flex-wrap:wrap;
+}
+.menu{
+    background: black;
+    display:flex;
+    align-content:center;
+    height:15%;
+    width:50%;
+
 }
