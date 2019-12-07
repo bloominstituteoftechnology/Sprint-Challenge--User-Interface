@@ -160,33 +160,25 @@ p {
     line-height: 1.4;
 }
 
-
-/* .nav-logo {
-    width: 100%;
-    background: black;
-    justify-content: space-evenly;
-    margin: 20px; */
-
-
-}
-.main-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    width: 20%;
-}
-.navigation {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-bottom: 12px;
-    margin-right: 40px auto;
-}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+.main-header {
+    text-align: center;
+    padding: 10px 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -194,24 +186,29 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
 }
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -222,51 +219,66 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .boxes .box:nth-child(1) {
     background: teal;
 }
+
 .boxes .box:nth-child(2) {
     background: gold;
 }
+
 .boxes .box:nth-child(3) {
     background: cadetblue;
 }
+
 .boxes .box:nth-child(4) {
     background: coral;
 }
+
 .boxes .box:nth-child(5) {
     background: crimson;
 }
+
 .boxes .box:nth-child(6) {
     background: forestgreen;
 }
+
 .boxes .box:nth-child(7) {
     background: darkorchid;
 }
+
 .boxes .box:nth-child(8) {
     background: hotpink;
 }
+
 .boxes .box:nth-child(9) {
     background: indigo;
 }
+
 .boxes .box:nth-child(10) {
     background: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
+
 .bottom-content .text-container {
     padding-right: 4%;
 }
+
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
 footer {
     width: 100%;
     background: black;
 }
+
 footer nav {
     width: 60%;
     display: flex;
@@ -275,7 +287,10 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+`
