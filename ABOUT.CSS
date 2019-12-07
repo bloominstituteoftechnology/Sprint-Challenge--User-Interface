@@ -1,121 +1,121 @@
-.container1{
+.container1 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.headerPic{
+.headerPic {
     width: 82%;
     margin: 15px 0;
 }
 
-.bone{
+.bone {
     padding: 15px;
     width: 5%;
-  
-    
 }
 
-.logo{
+.logo {
     width: 30%;
     justify-content: right;
 }
 
-.btwo{
+.btwo {
     width: 69%;
     background: white;
-    
-    
 }
 
-.topNav, a{
+.topNav,
+a {
     padding: 35px 55px;
 }
 
-.bthree{
+.bthree {
     display: flex;
     justify-content: center;
 }
+
+
 /* ---------------------------------*/
 
-.container3{
+.container3 {
     width: 90%;
-    margin:0 0 10px 9%;
+    margin: 0 0 10px 9%;
     padding: 15px;
 }
 
-.blockfour{
+.blockfour {
     width: 91%;
     text-align: center;
 }
 
-.container4{
+.container4 {
     display: flex;
     justify-content: space-between;
     width: 81.5%;
     padding: 10px;
     margin-left: 9%;
 }
-.blockfive{
+
+.blockfive {
     width: 49%;
     border: solid 3px black;
     border-style: groove;
-    background-color: grey;
+    background: radial-gradient(grey, black);
     text-align: center;
 }
-.contentPics{
+
+.contentPics {
     width: 100%;
 }
 
-.blocksix{
+.blocksix {
     width: 49%;
     border: solid 3px black;
     border-style: groove;
-    background-color: grey;
+    background: radial-gradient(grey, black);
     text-align: center;
-
 }
 
-.container5{
+.container5 {
     display: flex;
     justify-content: space-between;
     width: 81.5%;
     padding: 10px;
     margin-left: 9%;
-
 }
-.blockseven{
+
+.blockseven {
     width: 49%;
     border: solid 3px black;
     border-style: groove;
-    background-color: grey;
     text-align: center;
+    background: radial-gradient(grey, black);
 }
-.blockeight{
+
+.blockeight {
     width: 49%;
     border: solid 3px black;
     border-style: groove;
-    background-color: grey;
     text-align: center;
-
+    background: radial-gradient(grey, black);
 }
 
-.container6{
+.container6 {
     width: 91.9%;
     display: flex;
     justify-content: right;
 }
 
-.blocknine{
+.blocknine {
     width: 95%;
     text-align: center;
 }
 
-footer{
+footer {
     border: solid 2px grey;
     border-style: groove;
     text-align: center;
-    background: black;
+    background: radial-gradient(grey, black);
     color: white;
     height: 60px;
     padding-top: 30px;
@@ -123,15 +123,15 @@ footer{
     margin-left: 10%;
 }
 
-.footernav a{
-color: white;
+.footernav a {
+    color: white;
 }
 
-hr{
+hr {
     margin: 0% 8%;
 }
 
-button{
+button {
     margin-top: 20px;
     border: solid 2px black;
     border-style: ridge;

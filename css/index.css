@@ -3,110 +3,199 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
+
 /*My code*/
-.container1{
+
+.container1 {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    
 }
 
-
-.bone{
+.bone {
     padding: 15px;
     width: 5%;
-  
-    
 }
-.logo{
+
+.logo {
     width: 50%;
     justify-content: right;
 }
-.btwo{
+
+.btwo {
     width: 69%;
     background: white;
-    
-    
 }
 
-.topNav, a{
+.topNav,
+a {
     padding: 35px 55px;
 }
 
-.bthree{
+.bthree {
     display: flex;
     justify-content: center;
 }
-.headerPic{
+
+.headerPic {
     width: 81%;
 }
+
+
 /* my code ends here*/
-
-
-
-
-
-
-
 
 p {
     line-height: 1.4;
@@ -114,77 +203,127 @@ p {
 
 .container3 {
     width: 800px;
-    border-bottom: dashed 2px black;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    width: 180%;
+    width: 120%;
     padding: 15px;
+    margin-left: 30%;
 }
 
 .top-content .text-container {
-    width: 36%;
-    padding:10px;
-    padding-bottom: 20px; 
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 20px;
 }
-
-
-
 
 .middle-content {
     margin-bottom: 20px;
-    width: 188%;
+    width: 150%;
     padding: 15px;
-    border-bottom: 2px dashed black;
 }
-
 
 .middle-content h2 {
-    padding:0;
-    margin-left: 120px;
-}
-
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    padding: 10px;
-}
-.one, .boxes .box{
-    background: white;
+    padding: 20px;
+    margin-left: 9%;
 }
 
 .middle-content .boxes .box {
-    width :250px;
-    height: 250px;
-    background: black;
-    color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    
+    justify-content: space-between;
+
+}
+
+.one {
+    background: radial-gradient(white, teal);
+    width: 200px;
+    height: 200px;
+}
+
+.two {
+    background: radial-gradient(white, gold);
+    width: 200px;
+    height: 200px;
+}
+
+.three {
+    background: radial-gradient(white, cadetblue);
+    width: 200px;
+    height: 200px;
+}
+
+.four {
+    background: radial-gradient(white, coral);
+    width: 200px;
+    height: 200px;
+}
+
+.five {
+    background: radial-gradient(white, crimson);
+    width: 200px;
+    height: 200px;
+}
+
+.six {
+    background: radial-gradient(white, forestgreen);
+    width: 200px;
+    height: 200px;
+}
+
+.seven {
+    background: radial-gradient(white, darkorchid);
+    width: 200px;
+    height: 200px;
+}
+
+.eight {
+    background: radial-gradient(white, hotpink);
+    width: 200px;
+    height: 200px;
+}
+
+.nine {
+    background: radial-gradient(white, indigo);
+    width: 200px;
+    height: 200px;
+}
+
+.ten {
+    background: radial-gradient(white, dodgerblue);
+    width: 200px;
+    height: 200px;
+}
+
+.boxcontainers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+    margin-left: 7%;
+}
+
+.boxcontainers2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 30px;
+    margin-left: 7%;
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-evenly;
-    width: 180%;
+    width: 100%;
 }
 
-
 .bottom-content .text-container {
-    padding-right:4%;
+    padding-right: 4%;
     width: 23%;
     text-align: center;
-    
 }
 
 .bottom-content .text-container:last-child {
@@ -192,14 +331,14 @@ p {
 }
 
 footer {
-    width: 157%;
+    width: 84%;
     height: 70px;
     background: black;
-    margin-left: 16%;
+    margin-left: 9%;
 }
 
 footer nav {
-    width: 40%;
+    width: 90%;
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -212,3 +351,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
