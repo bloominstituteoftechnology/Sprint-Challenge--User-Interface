@@ -66,28 +66,59 @@ p {
     line-height: 1.4;
 }
 
-.container {
-    width: 800px;
+.container{
+   
+    max-width:50%;
     margin: 0 auto;
 }
-
- .container .navigations nav{
-    box-sizing: 100px;
-    padding-top 20px;
- }
-
-
-.container .navigations nav a{
-   
+.container1{
+    max-width:80%;
+}
+ 
+.links nav a{
+    width: 100px;
     font-size:15px;
     text-decoration:none;
-    padding-top:10px;
-    margin: 20px;
-    color:black;
+    padding-top:20px;
+    margin-left: 50px;
+    color: black 1px solid;
+    
 
 }
- .container .lambda{
-     
+ .container about-page{
+     width:80%;
+     flex-wrap: nowrap;
+ }
+
+ container about-page{
+    display:flex;
+    width:800px;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    margin:45px;
+    padding-right:20px;
+ }
+     .strategy div{
+         width:200px;
+         margin:10px;
+         padding:20px;
+     }
+
+ 
+ .listofstrategy div{
+     display:flex;
+     border:1px black solid;
+     width:300px;
+ }
+    img{
+    padding:38px;
+}
+ .strategy div{
+     display:flex;
+     flex-direction: column;
+     margin:10px;
+     padding:5px;
+     width:
  }
 
 .container .jumbo{
@@ -269,8 +300,8 @@ footer nav a {
 }
 
 .container about-page{
-    display:flex;
-    justify-content:space-evenly;
+    width:80%;
+  
 
 
 }
@@ -283,3 +314,56 @@ footer nav a {
 
 
 }
+ h4{
+     display:block;
+     width: 90px;
+     margin:20px;
+     border:2px black solid; 
+     border-radius: 10px 10px 10px 10px;
+     font-size: 14px;
+     padding:3px;
+
+ }
+
+ .strategy .strategy1{
+     
+
+ }
+
+ .strategy div{
+  display:flex;
+  width:200px;  
+  margin: 5px;
+
+ }
+
+ .strategy1 div{
+ display:flex;
+  width:200px;
+ }
+
+ .strategy2 div{
+    display:inline-block;
+    width:300px;  
+    margin: 50px;
+ }
+
+.strategy3 div{
+
+}
+ .image-pair1{
+     border-top:2px black dotted;
+     margin-top:8px;
+     
+ }
+ .image-pair2{
+border-top:2px black dotted;
+ }
+ .final{
+     
+     margin:10px;
+     border-top:2px black dotted;
+ }
+ h2{
+    padding:10px;
+ }
