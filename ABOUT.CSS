@@ -1,0 +1,138 @@
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.headerPic {
+    width: 82%;
+    margin: 15px 0;
+}
+
+.bone {
+    padding: 15px;
+    width: 5%;
+}
+
+.logo {
+    width: 30%;
+    justify-content: right;
+}
+
+.btwo {
+    width: 69%;
+    background: white;
+}
+
+.topNav,
+a {
+    padding: 35px 55px;
+}
+
+.bthree {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------------------*/
+
+.container3 {
+    width: 90%;
+    margin: 0 0 10px 9%;
+    padding: 15px;
+}
+
+.blockfour {
+    width: 91%;
+    text-align: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    width: 81.5%;
+    padding: 10px;
+    margin-left: 9%;
+}
+
+.blockfive {
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    background: radial-gradient(grey, black);
+    text-align: center;
+}
+
+.contentPics {
+    width: 100%;
+}
+
+.blocksix {
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    background: radial-gradient(grey, black);
+    text-align: center;
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    width: 81.5%;
+    padding: 10px;
+    margin-left: 9%;
+}
+
+.blockseven {
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    text-align: center;
+    background: radial-gradient(grey, black);
+}
+
+.blockeight {
+    width: 49%;
+    border: solid 3px black;
+    border-style: groove;
+    text-align: center;
+    background: radial-gradient(grey, black);
+}
+
+.container6 {
+    width: 91.9%;
+    display: flex;
+    justify-content: right;
+}
+
+.blocknine {
+    width: 95%;
+    text-align: center;
+}
+
+footer {
+    border: solid 2px grey;
+    border-style: groove;
+    text-align: center;
+    background: radial-gradient(grey, black);
+    color: white;
+    height: 60px;
+    padding-top: 30px;
+    width: 79.5%;
+    margin-left: 10%;
+}
+
+.footernav a {
+    color: white;
+}
+
+hr {
+    margin: 0% 8%;
+}
+
+button {
+    margin-top: 20px;
+    border: solid 2px black;
+    border-style: ridge;
+}
