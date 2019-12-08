@@ -28,6 +28,23 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.top{
+     
+        top: 0;
+        width: 100vw;
+        position: fixed;
+        min-width: 990px;
+        background: white;
+        display:flex;
+
+}
+header nav a {
+    color:black;
+    text-decoration: none;}
+.middle{
+    display:flex;
+    justify-content:center ;
+}
 body {
 	line-height: 1;
 }
@@ -37,6 +54,9 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
+
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -49,6 +69,7 @@ table {
 
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -104,14 +125,113 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background:gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +263,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+ 
+
+/* code for about page */
+.about{
+    border-bottom:2px dotted black;
+    height:25%;
+    width: 25%;
+    text-align: center;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+}
+.strategy{
+    border-bottom:5px,dotted,black;
+    display:flex;
+    flex-wrap:wrap;
+}
+.how{
+    border-bottom:5px,dotted,black;
+    display:flex;
+    flex-wrap:wrap;
+}
+.places{
+    border-bottom:5px,dotted,black;
+    display:flex;
+    flex-wrap:wrap;
+}
+.coll{
+    border-bottom:5px,dotted,black;
+    display:flex;
+    flex-wrap:wrap;
+}
+.menu{
+    background: black;
+    display:flex;
+    align-content:center;
+    height:15%;
+    width:50%;
+
 }
