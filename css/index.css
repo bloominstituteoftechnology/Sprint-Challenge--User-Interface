@@ -70,7 +70,50 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* the new stuff goes here */
+/* the width of the page is 800 px */
+.navigation-section {
+  /* border: dotted green 8px; */
+}
 
+.links-and-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* the width of the page is 800 px */
+.navigation-links {
+  /* display: flex; */
+  /* we maybe can space-between with flex box to get them nice and spaced */
+  padding-top: 30px;
+  width: 630px;
+  height: 45px;
+  /* border: dotted red 8px; */
+}
+
+.navigation-links a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  /* we might be able to get rid of this with flex box */
+  margin: 35px;
+}
+
+.navigation-links a:hover {
+  color: gray;
+}
+
+/* we need links styling */
+/* remove the underline */
+/* we need links color */
+.navigation-image {
+  /* trbl */
+  margin: 30px 0 30px 0;
+  /* border: dotted yellow 8px; */
+}
+
+/* this stuff below is the rest of the page */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -103,13 +146,54 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
     background: black;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+  background: teal;
+}
+
+.middle-content .boxes .box2 {
+  background: gold;
+}
+
+
+.middle-content .boxes .box3 {
+  background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+  background: coral;
+}
+
+.middle-content .boxes .box5 {
+  background: crimson;
+}
+
+.middle-content .boxes .box6 {
+  background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+  background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+  background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+  background: indigo;
+}
+
+.middle-content .boxes .box10 {
+  background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +227,78 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* this is the about page css. */ 
+
+/* the style is this: */ 
+/* .about-selector-stuff { */
+
+/* } */
+.about-about-text {
+
+  /* border: dotted yellow 8px; */
+} 
+
+.about-about-text p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: dashed black 1px;
+    /* border: dotted green 8px; */ 
+}
+
+.about-card-container .card {
+  width: 300px;
+  padding: 20px;
+  border-bottom: black dashed 1px;
+  margin: 20px;
+  /* border: dotted green 3px; */
+}
+
+.about-card-container .card img {
+  width: 300px;
+  /* border: dotted green 8px; */
+}
+.about-card-container .card p {
+  font-size: 14px;
+  margin-top: 20px;
+  /* border: dotted green 8px; */
+}
+.about-card-container .card h1 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* border: dotted green 8px; */
+}
+.about-card-container .card button {
+  border: black 2px solid;
+  border-radius: 5px;
+  width: 130px;
+  height: 35px;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /* border: dotted green 8px; */
+}
+
+.about-card-container .card button:hover {
+  color: white;
+  background: black;
+  /* border: dotted green 8px; */
+}
+
+.about-work-together {
+  width: 675px;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+
+}
+
+.about-work-together p {
+  font-size: 14px;
 }
