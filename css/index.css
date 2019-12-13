@@ -16,13 +16,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -31,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -66,7 +63,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.boxone {
     width: 800px;
     margin: 0 auto;
 }
@@ -79,29 +76,29 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-boxone {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.top-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.top-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.top-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.top-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -118,11 +115,11 @@ p {
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content .text-boxone {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.bottom-content .text-boxone:last-child {
     padding-right: 0;
 }
 
@@ -139,8 +136,160 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+.navi header{
+    margin: 30px 0;
+    display: flex;
+    align-items: flex-end;
+}
 
-footer nav a {
+.hder{
+    margin-bottom: 30px;
+}
+
+.navi header nav a{
+    align-content: center;
+    text-decoration: none;
+    color:black;
+    margin-left: 70px;
+    transition: .2s;
+}
+
+.navi header nav a:hover{
+    background-color:black;
+    transform: scale(1.1);
+    color:white;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+    .top-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        }
+    
+           
+           
+           .bottom-content{
+            display: flex;
+            margin: 0 2% 20px;
+           }
+
+           .aboutm{
+               margin:15px 0 10px 0;
+           }
+           .main1{
+               padding: 20px;
+               margin-bottom:20px;
+               border-bottom:1px dotted black;
+           }
+           .itemboxone{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 800px;
+        }
+        
+        .itemboxone .item{
+            display: flex;
+            flex-direction: column;
+            width:370px;
+            height: 420px;
+            border-bottom: 1px dotted gray;
+            margin-bottom:20px;
+        }
+        .itemboxone .item p{
+            margin: 20px 0;
+        }
+        .itemboxone .item .itemContent{
+            margin: 15px 0;
+        }
+        .itemboxone .item a{
+            text-decoration: none;
+            color: black;
+            padding: 8px 15px;
+            border: 1px solid black;
+            border-radius: 8px;
+            margin-top: 15px;
+            transition:.2s;
+        }
+        .itemboxone .item a:hover{
+            background-color: black;
+            color:white;
+        }
+            .itemboxone .item p{
+             margin: 20px 0
+                        }
+
+        
+.itemboxone .item .itemContent{
+    margin: 15px 0;
+}
+.itemboxone .item a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition:.2s;
+}
+.itemboxone .item a:hover{
+    background-color: black;
+    color:white;
+}
+.aboutEnd{
+    margin: 15px 15px 25px 15px;
+}
+@media(max-width:845px){
+    .itemboxone{
+        flex-direction: column;
+        width: 100%;
+    }
+    .aboutm{
+        width: 100%;
+        height: auto;
+    }
+    .navi header nav a{
+        margin:unset;
+    }
+    .navi header a img{
+        margin: 15px; 
+    }
+    .navi header nav a:hover{
+        margin:unset;
+    }
+    .navi header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxone{
+        width: 100%;
+    }
+    .bottom-content{
+        flex-direction: column;
+    }
+    .text-boxone{
+        width: 60%;
+        margin: 15px auto;
+    }
+    .top-content{
+        flex-direction: column;
+    }
+
+    .boxes{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .hder{
+        width: 100%;
+        height: auto;
+    }
+        
+
+    footer nav a{
     color: white;
     text-decoration: none;
+}
 }
