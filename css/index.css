@@ -240,23 +240,42 @@ footer nav a {
 }
 
 
-/* my code */
-
-
-/* */
-
-
-/* extra comments to make it easier to spot the end of the pre-code and the start of my code */
+/* my code here*/
 
 header {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: space-around;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
 }
 
 header nav {
+    box-sizing: border-box;
+    /* border: 1px solid yellow;*/
+    width: 64.5%;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
-    align-content: flex-end;
+    align-items: center;
+}
+
+nav img .logo {
+    display: inline-block;
+    /*border: 1px solid blue;*/
+    box-sizing: border-box;
+}
+
+img .jumbo {
+    border: 60px;
+}
+
+nav a {
+    padding: 0;
+    /*border: 2px solid red;*/
+}
+
+.middle-content h2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
