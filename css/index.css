@@ -251,4 +251,10 @@ footer nav a {
 header {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
 }
