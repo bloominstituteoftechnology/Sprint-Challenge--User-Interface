@@ -70,18 +70,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
 #topNav{
-    display:inline-block;
+    display:flex;
+    flex-direction: row;
     width:98%;
-    text-align: center;
+    justify-content: space-between;
     margin-top:40px;
     border:solid red;
+    padding:20px;
 }
 #bigHeaderImg{
     display:inline-block;
     text-align: center;
     width:98%;
-    margin:20px;
+    border:solid red;
+    margin-top: 0;
 }
 
 .top-content {
@@ -157,3 +161,91 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.boxes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.box1{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+background-color:teal ;}
+.box2{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:gold}
+.box3{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:cadetblue}
+.box4{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:coral}
+.box5{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;   
+    background-color:crimson}
+.box6{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:forestgreen}
+.box7{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:darkorchid}
+.box8{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:hotpink}
+.box9{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:indigo}
+.box10{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:dodgerblue}
