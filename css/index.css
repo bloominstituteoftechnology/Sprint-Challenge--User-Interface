@@ -237,3 +237,68 @@ button {
     background-color: white;
     margin-bottom:15px;
 }
+
+
+
+#box1{
+  background-color: teal;
+}
+#box2{
+  background-color: gold;
+}
+#box3{
+  background-color: cadetblue;
+}
+#box4{
+  background-color: coral;
+}
+#box5{
+  background-color: crimson;
+}
+#box6{
+  background-color: forestgreen;
+}
+#box7{
+  background-color: darkorchid;
+}
+#box8{
+  background-color: hotpink;
+}
+#box9{
+  background-color: indigo;
+}
+#box10{
+  background-color: dodgerblue;
+}
+
+
+.middlesec {
+  
+  margin-bottom: 30px;
+  border-bottom: 1px dashed black;
+  align-items: center;
+}
+
+.middlesec h2 {
+  padding: 0 2%;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.middlesec .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.middlesec .boxes .box {
+  width: 12.5%;
+  height: 100px;
+  background: black;
+  margin: 30px 2.5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
