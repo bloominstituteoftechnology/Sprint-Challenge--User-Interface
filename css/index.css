@@ -136,6 +136,41 @@ header nav a {
     margin: 0 auto;
 }
 
+.about-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    padding: 3%;
+    border-bottom: dashed 1px;
+}
+
+.double-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+    padding: 3%;
+}
+
+.double-part {
+    border-bottom: dashed 1px;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+.LearnMore {
+    border: solid black 2px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+}
+
+.blank {
+    text-decoration: none;
+    color: black;
+}
 
 .top-content {
     display: flex;
