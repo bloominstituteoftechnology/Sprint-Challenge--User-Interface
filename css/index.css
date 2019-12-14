@@ -91,6 +91,46 @@ header nav a {
     font-size: 16px;
 }
 
+#A {
+    background-color: #14686b;
+}
+
+#B {
+    background-color: #ebc402;
+}
+
+#C{
+    background-color: #009999;
+}
+
+#D{
+    background-color: #eb904b;
+}
+
+#E{
+    background-color: #cc2929;
+}
+
+#F{
+    background-color: #0a940f;
+}
+
+#G{
+    background-color: #940ccf;
+}
+
+#H{
+    background-color: #ff75c1;
+}
+
+#I{
+    background-color: #3a067d;
+}
+
+#J{
+    background-color: #4178fa;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
