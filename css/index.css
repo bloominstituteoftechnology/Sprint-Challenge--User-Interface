@@ -279,3 +279,14 @@ nav a {
     flex-flow: row wrap;
     justify-content: flex-start;
 }
+
+section .middle-content .boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+}
