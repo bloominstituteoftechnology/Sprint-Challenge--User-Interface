@@ -64,12 +64,62 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
+
+
+header nav {
+    /* display: inline-block; */
+    display: flex; 
+    justify-content:space-between;
+    width: 610px;
+    vertical-align: top;
+    margin-top: 35px;
+    
+    
+  }
+  
+  header nav a {
+  
+    margin-right: 65px;
+    font-size: px;
+    color: black;
+    text-decoration: none;
+    padding: 20px 20px;
+    
+    
+  }
+  
+  .logo2 {
+      width:100%;
+  }
+
+  
+/* Button styling  */
+  
+      
+      
+      
+  }
+  
+  .padding {
+      margin: 20px;
+      padding: 20px;
+
+
+    
+  }
+
+  
+
+  
+
+
 
 .top-content {
     display: flex;
@@ -87,7 +137,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 
 }
 
 .middle-content h2 {
@@ -101,10 +151,12 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+/* Boxes why did it have to be boxes */
+.middle-content .boxes .box  {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,10 +164,122 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes div:nth-child(2){
+    background:gold;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes div:nth-child(3){
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes div:nth-child(4){
+    background: coral;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes div:nth-child(5){
+    background: crimson;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes div:nth-child(6){
+    background: forestgreen;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes div:nth-child(7){
+    background:darkorchid;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle-content .boxes div:nth-child(8){
+    background:hotpink;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes div:nth-child(9){
+    background:indigo;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes div:nth-child(10){
+    background:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+   /* background:black;*/
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    border-top: 3px dashed black;
+    padding: 15px;
 }
 
 .bottom-content .text-container {
@@ -127,8 +291,13 @@ p {
 }
 
 footer {
+    
     width: 100%;
     background: black;
+    
+    color: white;
+      
+    
 }
 
 footer nav {
@@ -138,9 +307,142 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    color: white;
 }
 
 footer nav a {
-    color: white;
     text-decoration: none;
+    color: white;
 }
+
+header nav {
+    /* display: inline-block; */
+    display: flex; 
+    justify-content:space-between;
+    width: 610px;
+    vertical-align: top;
+    margin-top: 35px;
+    
+  }
+  
+  header nav a {
+  
+    margin-right: 65px;
+    font-size: px;
+    color: gray;
+    text-decoration: none;
+    padding: 20px 20px;
+    
+    
+  }header nav {
+    /* display: inline-block; */
+    display: flex; 
+    justify-content:space-between;
+    width: 610px;
+    vertical-align: top;
+    margin-top: 35px;
+    
+  }
+  
+  header nav a {
+  
+    margin-right: 65px;
+    font-size: px;
+    color:black;
+    text-decoration: none;
+    padding: 20px 20px;
+    
+    
+  }
+
+  .logo2 {
+    
+  }
+
+
+.container {
+    
+    
+
+}
+
+
+header {
+    
+    display: 
+}
+
+.container .about-page {
+    
+    display: flex;
+    justify-content: flex-start;
+    
+    flex-direction: column;
+    
+    
+}
+
+.services {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-top: 2px dashed black;
+    padding: 30px 10px;
+    margin: 30px 10px;
+    justify-content: space-between;
+
+}
+
+.services2 {
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-bottom: dashed black; 
+    padding: 15px 10px;
+    margin: 15px 10px;
+    justify-content: space-between;
+
+}
+
+ .box1 {
+     padding: 20px 20px;
+     margin: 10px 5px;
+     
+     border-bottom: 1px dashed black;
+     width: 48%;
+ }
+
+ .box2 {
+     padding: 20px;
+     margin: 10px 0px;
+     width:48%;
+ }
+ 
+ p:hover {
+	background-color: purple;
+	box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.30);
+	transition: background-color 1s, box-shadow 1s;
+  }
+
+  h2:hover {
+	background-color: lime;
+	box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.30);
+	transition: background-color 1s, box-shadow 1s;
+  }
+
+  button:hover {
+	background-color: #C43865;
+  border: 0px solid;
+  border-radius: 4px;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.30);
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+nav a:hover {
+	background-color: #C43865;
+  border: 0px solid;
+  border-radius: 4px;
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.30);
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
