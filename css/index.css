@@ -70,6 +70,19 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+#topNav{
+    display:inline-block;
+    width:98%;
+    text-align: center;
+    margin-top:40px;
+    border:solid red;
+}
+#bigHeaderImg{
+    display:inline-block;
+    text-align: center;
+    width:98%;
+    margin:20px;
+}
 
 .top-content {
     display: flex;
