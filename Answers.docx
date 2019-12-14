@@ -1,0 +1,23 @@
+1. If you had to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.
+
+2. Describe some differences between display: block; and display: inline;
+
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+3. What are the 4 areas of the box model?
+
+Content, padding, border, and margin
+
+4. While using flexbox, what axis are you using when you use the property: align-items: center?
+
+You are using the cross axis when you use "align-item: center;"
+
+5. What is the git command to commit staged changes as well as write a message?
+
+git commit -m "Insert message here"
