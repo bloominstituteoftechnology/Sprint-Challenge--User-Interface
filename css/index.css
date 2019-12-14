@@ -265,12 +265,12 @@ footer nav a {
     padding: 10px 20px;
     font-size: 1.6rem;
     margin-bottom: 20px; 
+    cursor: pointer;
 }
 
 .learn-button:hover {
     animation-name: toggle;
     animation-duration: 3s;
-    /* color: white;  */
 }
 
 .about-bottom-content {
@@ -314,3 +314,30 @@ footer nav a {
     color: white;
     padding: 30px 0;
 }
+
+.products-pic {
+    margin-top: 30px;
+}
+
+.products-about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.products-about h1 {
+    font-size: 5.0rem;
+    color: maroon;
+}
+
+.products-about-child {
+    width: 30%;
+}
+
+.products-about-child p {
+    margin-bottom: 20px;
+}
+
+.products-about-child h3 {
+    color: maroon;
+}
+
