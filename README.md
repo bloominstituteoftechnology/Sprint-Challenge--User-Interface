@@ -33,6 +33,8 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+ 
+     A: Semantic HTML means using tags that have an agreed-upon meaning. Most of the semantic tags easily identify what the tag is meant to do. So, semantic tags means tags that have meaning.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
