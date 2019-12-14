@@ -1,0 +1,58 @@
+## Self-Study Questions
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+
+
+Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a <p> tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.
+
+The benefit of writing semantic HTML stems from what should be the driving goal of any web page: the desire to communicate. By adding semantic tags to your document, you provide additional information about that document, which aids in communication. 
+
+Semantic HTML tags provide information about the contents of those tags that goes beyond just how they look on a page. 
+
+
+
+
+
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+
+
+
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+
+
+
+3. What are the 4 areas of the box model?
+
+
+
+Margins, Borders, Padding, and Content
+
+
+
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+align-items: center are centered in the CROSS-AXIS
+
+
+
+
+
+
+
+5. Explain why git is valuable to a team of developers.
+
+
+
+
+
+Git has powerful branching capabilities. To start work, developers have to first create a unique branch. Each branch functions in an isolated environment while changes are carried out in the codebase. This ensures that the master branch always supports production-quality code.Therefore, besides being more reliable it's also much easier to edit code in a Git branch rather than editing it directly using an external editor.
+
