@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    
 }
 
 .container {
@@ -79,6 +80,7 @@ header nav {
     width: 610px;
     vertical-align: top;
     margin-top: 35px;
+    
     
   }
   
@@ -443,3 +445,4 @@ nav a:hover {
   box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.30);
   transition: background-color 0.5s, box-shadow 0.5s;
 }
+
