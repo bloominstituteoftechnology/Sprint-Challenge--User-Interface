@@ -147,6 +147,7 @@ header nav a {
 .double-section {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin-bottom: 3%;
     padding: 3%;
 }
