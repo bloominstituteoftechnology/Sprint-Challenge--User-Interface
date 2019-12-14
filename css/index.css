@@ -77,15 +77,13 @@ p {
     width:98%;
     justify-content: space-between;
     margin-top:40px;
-    border:solid red;
     padding:20px;
 }
 #bigHeaderImg{
     display:inline-block;
     text-align: center;
     width:98%;
-    border:solid red;
-    margin-top: 0;
+    margin:10px;
 }
 
 .top-content {
@@ -249,3 +247,8 @@ background-color:teal ;}
     text-align: center;
     line-height: 100px;
     background-color:dodgerblue}
+
+.containerabout-page{
+    display: flex;
+    flex-direction: column;
+}
