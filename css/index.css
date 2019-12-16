@@ -66,6 +66,33 @@ p {
     line-height: 1.4;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+nav.top-nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.top-nav a {
+    font-size: 14px;
+    padding-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+div.logo {
+    max-width: 20%;
+}
+
+div.jumbo {
+    margin: 20px 0;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,16 +128,57 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background-color: #008080;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: #ffd770;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: #5f9ea0;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: #ff7f50;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: #dc143c;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: #228b22;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: #9932cc;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: #ff69b4;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: #4b0082;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: #1e90ff;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +212,77 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Styles */
+
+div.jumbo-about {
+    padding: 10px 0;
+}
+
+section.about-top {
+    padding: 15px;
+    border-bottom: 1px dashed black;
+}
+
+section.about-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+div.about-text {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+div.about-text p {
+    margin-bottom: 25px;
+}
+
+div.about-text img {
+    padding-bottom: 15px;
+}
+
+div.about-text a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 130px;
+    padding: 10px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section.about-bottom {
+    padding: 0 2%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
