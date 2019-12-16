@@ -186,3 +186,126 @@ footer nav a {
     color: white; 
     text-decoration: none; 
 }
+
+.about {
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin-bottom: 30px; 
+    line-height: 1.5;
+}
+
+.strategy{ 
+    padding-right: 60px;
+}
+.strategy h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+.strategy p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.strategy a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.work h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+.work p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.work a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.topTwo {
+    display: flex;
+}
+
+#midTwo {
+    display: flex;
+}
+
+.office{
+    padding-right: 60px;
+    border-bottom: 2px solid dashed;
+    margin-bottom: 20px;
+}
+.office h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+.office p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.office a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.collaboration h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+.collaboration p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.collaboration a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.together {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
