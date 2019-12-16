@@ -245,3 +245,15 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+
+.nav-bar {
+    margin-top: 1px;
+ 	margin-bottom: 100px;
+ 	text-align: center;
+ 	word-spacing: 50px;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+}
