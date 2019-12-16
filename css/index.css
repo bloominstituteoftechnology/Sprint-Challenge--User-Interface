@@ -144,3 +144,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* My code starts here */
+
+
+/* Home page */
+
+#container {
+	width:876px;
+	margin: auto;
+	
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: gray;
+}
+header a {
+    color: black;
+    width: 90px;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+.headerimg {
+    padding-bottom: 20px;
+}
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}#box7 {
+    background: darkorchid;
+}#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
