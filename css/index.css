@@ -139,8 +139,100 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
+body {
+    margin-top: 20px;
+}
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+}
+.top_nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+.logo{
+    margin: 25px 0px;
+}
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color: dodgerblue;
+}
+.button {
+    color: black;
+    display: flex;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 120px;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.first_section, .second_section{
+    display: flex;
+    justify-content: space-between;
+}
+.first_left, .second_left {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.first_right, .second_right {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.bottom_section {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+h2 {
+    margin: 10px 0px;
+}
+hr {
+    border: 1px dashed black;
+}
+.border {
+    width: 100%;
+    margin-bottom: 10px;
+}
+img {
+    margin-top: 10px;
 }
