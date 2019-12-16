@@ -258,3 +258,19 @@ footer nav a {
     justify-content: center;
 }
 
+.nav-bar2 {
+    margin-top: 1px;
+ 	margin-bottom: 100px;
+ 	text-align: center;
+     word-spacing: 50px;
+}
+
+section {
+    display: flex;
+    border: 1px dotted;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20px;
+}
+
+
