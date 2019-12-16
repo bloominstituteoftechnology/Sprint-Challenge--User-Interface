@@ -202,3 +202,41 @@ a:hover {
 #box10 {
     background: dodgerblue;
 }
+/* About page */
+.about {
+    padding: 20px 0;
+}
+.firstRow {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.strategy{
+    border-bottom: 1px dashed black;
+}
+.howWeWork {
+    border-bottom: 1px dashed black;
+}
+.secondRow {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+.places {
+    border-bottom: 1px dashed black;
+}
+.collaboration {
+    border-bottom: 1px dashed black;
+}
+.let{
+    padding: 20px 0;
+}
+.learn {
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2%;
+    padding: 7px;
+	width: 30%;
+	font-size: 12px;
+}
