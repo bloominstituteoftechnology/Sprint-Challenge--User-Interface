@@ -70,6 +70,13 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: baseline;
+    margin: 50px 0px 50px 0px;
+}
 
 .top-content {
     display: flex;
