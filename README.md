@@ -28,19 +28,35 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 ## Self-Study Questions
 
+
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is when you use HTML tags to give the code meaning.
+You divide it into sections, div, p, h and so much more.  
+This in turn makes it easier to use CSS to style the page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display:inline allows for elements to be nested within other elements without
+disrupting its content.
+
+display:block allows the element to take as much space as the parent element will allow.
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model include the content in the center.  This is surrounded by padding.  This is then surrounded by a border.  Margin surrounds and completes the whole thing. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This works on the main axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it allows the team to work on code and commit regurlary with repositories so each member can see what has been changed and what needs work.  Makes working in teams and collaboration easier. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
