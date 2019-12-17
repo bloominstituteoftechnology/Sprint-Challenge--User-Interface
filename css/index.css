@@ -65,34 +65,43 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.container, nav {
+.header nav {
     display:flex;
-    flex-flow:row wrap;
-    justify-content:space-between;
-    align-content:flex-start;
-    ;
-
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+   color:black;
+}
+a {
     
+    color:black;
+}
+.jumbopic  {
+    widows: 300%;
+    height:20%;
+}
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
 }
 
 .top-content {
-    display:flex;
-    flex-flow:row wrap;
-    padding:3%;
-    border-bottom:1px dashed black;
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;
-   
+    padding-bottom: 20px;  
 }
 
 .middle-content {
-    width:300%;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -102,21 +111,23 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes  {
     display: flex;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+     margin: 20px 2.5%;
+     background-color: teal;
     color: white;
     display: flex;
-    align-items: center;
+     align-items: center;
     justify-content: center;
+}
+
 }
 
 .bottom-content {
@@ -151,23 +162,28 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.container about-page {
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+.jumbo-about {
+    height:20%;
 }
-.top-par{
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row;
+.middle {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+    
 }
-.middle-par {
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row;
+.div1, .div2,.div3,.div4 {
+    width:50%;
+    border-bottom:1px dashed black;
 }
-.bottom-par {
+.middle-2 {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+.bottom {
     display:flex;
-    justify-content:space-between;
-    flex-direction:row;
+    widows: 100%;
+    height:15%;
+}
+
 }
