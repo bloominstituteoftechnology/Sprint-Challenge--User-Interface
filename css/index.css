@@ -168,27 +168,29 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
-    width: 55%;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 4%;
 }
 
 nav a {
     text-decoration: none;
     color: black;
     font-size: 18px;
+    align-self: bottom;
 }
 
 .img-lambda {
-    width: 20%;
-    height: 30%;
-    padding-bottom: 4%;
+    width: 23%;
+    height: 27%;
+    padding: 0 2% 3% 0;
 }
 
 .img-jumbo {
@@ -201,6 +203,7 @@ nav a {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-weight: 600;
 }
 
 .top-content {
@@ -324,69 +327,53 @@ footer nav a {
 
 .img-jumbo-about {
     display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 69%;
+    margin: 0 auto;
 }
 
 .container-about-page {
+    font-weight: 600;
     width: 800px;
     margin: 0 auto;
 }
 
 .about {
-    padding: 3% 0;
+    padding: 3% 2%;
     border-bottom: 1px dashed black;
 }
 
-.about-img {
+.about-main-content {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin: 3% 2%;
 }
 
-.img-about-plan {
-    display: block;
-    width: 50%;
+.about-img {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-bottom: 6%;
 }
 
-.about-plan {
-    width: 50%;
-}
-
-.img-about-working {
-    display: block;
-    width: 50%;
-}
-
-.about-working {
-    width: 50%;
-}
-
-.img-about-office {
-    display: block;
-    width: 50%;
-}
-
-.about-office {
-    width: 50%;
-}
-
-.img-about-meeting {
-    display: block;
-    width: 50%;
-}
-
-.about-meeting {
-    width: 50%;
+.about-main-content section {
+    margin: 4% 0;
 }
 
 .about-button {
+    display: block;
+    width: 35%;
+    height: 10%;
+    padding: 2% 4%;
+    margin: 3% 3% 5% 0;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     font-size: 14px;
+    font-weight: 600;
     background: white;
 }
 
 .about-lastcontent-container {
-    padding: 5% 0;
+    margin-bottom: 5%;
 }
