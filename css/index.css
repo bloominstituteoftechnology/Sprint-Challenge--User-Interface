@@ -111,6 +111,37 @@ p {
     align-items: center;
     justify-content: center
 }
+#color{
+    background-color: teal;
+}
+#color2{
+    background-color: gold;
+}
+#color3{
+    background-color: cadetblue;
+}
+#color4{
+    background-color: coral;
+}
+#color5{
+    background-color: crimson;
+}
+#color6{
+    background-color: forestgreen;
+}
+#color7{
+    background-color: darkorchid;
+}
+#color8{
+    background-color: hotpink;
+}
+#color9{
+    background-color: indigo;
+}
+#color10{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
