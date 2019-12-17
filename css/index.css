@@ -260,7 +260,6 @@ background-color:teal ;}
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border:solid red;
     justify-content: center;
     align-content: center;
 }
@@ -268,7 +267,6 @@ background-color:teal ;}
     text-align: left;
     margin:25px;
     width: 69%;
-    border:solid red;
     padding:10px;
     border-bottom: dashed black 1px;
 }
@@ -276,7 +274,6 @@ background-color:teal ;}
     text-align: left;
     margin:10px;
     width: 35%;
-    border:solid red;
     padding:10px;
     border-bottom: dashed black 1px;
 }
@@ -288,7 +285,6 @@ hr{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    border:solid red;
     width: 25%;
 }
 a{
@@ -303,10 +299,9 @@ a{
     border-radius: 10px;
     margin:10px;
 }
-.letsworktogether{
+.Letsworktogether{
     text-align: left;
     margin:25px;
-    width: 69%;
-    border:solid red;
+    width: 72%;
     padding:10px;
 }
