@@ -3,60 +3,154 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -82,7 +176,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -144,3 +238,149 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* my code here*/
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+header nav {
+    box-sizing: border-box;
+    /* border: 1px solid yellow;*/
+    width: 64.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+nav img .logo {
+    display: inline-block;
+    /*border: 1px solid blue;*/
+    box-sizing: border-box;
+}
+
+img .jumbo {
+    border: 60px;
+}
+
+nav a {
+    padding: 0;
+    /*border: 2px solid red;*/
+}
+
+.middle-content h2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+section .middle-content .boxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.boxes .boxRow1 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.boxes .boxRow2 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.middle-content .boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.boxes .box.box1 {
+    background-color: teal;
+}
+
+.boxes .box.box2 {
+    background-color: gold;
+}
+
+.boxes .box.box3 {
+    background-color: cadetblue;
+}
+
+.boxes .box.box4 {
+    background-color: coral;
+}
+
+.boxes .box.box5 {
+    background-color: crimson;
+}
+
+.boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.boxes .box.box9 {
+    background-color: indigo;
+}
+
+.boxes .box.box10 {
+    background-color: dodgerblue;
+}
+
+
+/* about section */
+
+.container .about-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: lightgray;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    justify-content: flex-start;
+}
+
+.container2 .container3 a .more {
+    text-decoration: none;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+
+/* some comment here */
