@@ -3,60 +3,154 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,23 +160,66 @@ p {
     line-height: 1.4;
 }
 
+* body {
+    margin: 5% 5% 10%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 73%;
+    margin-left: 4%;
+}
+
+nav a {
+    width: 20%;
+    height: 50%;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.img-lambda {
+    width: 23%;
+    height: 27%;
+    padding: 0 2% 3% 0;
+}
+
+.img-jumbo {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+    font-weight: 600;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,15 +238,60 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +325,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.img-jumbo-about {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-about-page {
+    font-weight: 600;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 3% 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3% 2%;
+}
+
+.about-img {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    margin-bottom: 6%;
+}
+
+.about-main-content section {
+    margin: 4% 0;
+}
+
+.about-button {
+    display: block;
+    width: 35%;
+    height: 10%;
+    padding: 2% 4%;
+    margin: 3% 3% 5% 0;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: 600;
+    background: white;
+}
+
+.about-lastcontent-container {
+    margin-bottom: 5%;
+}
+
+.img-header-contact {
+    display: block;
+    width: 100%;
+    height: 125px;
+    margin: 0 auto;
+    border: solid;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-thanks {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 4% 2%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+}
+
+h1 {
+    font-size: 32px;
+    color: crimson;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5%;
+    margin: 5%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: crimson;
 }
