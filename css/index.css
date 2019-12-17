@@ -144,3 +144,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* New CSS styling starts here */
+ .container {
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     width: 90%;
+ }
+ .navbar {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+    .nav-links {
+
+        flex-direction: row;
+        /*border: 5px solid blue;*/
+        justify-items: center;
+        width: 80%;
+        padding: 20px;
+    }
+    
+     
+      .top-content {
+          display: flex;
+      }
+   .middle-content {
+       display: flex;
+       justify-content: center;
+   }
+     .boxes {
+         
+     }
