@@ -77,7 +77,10 @@ nav {
     padding: 10px;
     align-items: baseline;
     margin: 50px 0px 50px 0px;
+}
+nav a {
     color: black;
+    text-decoration: none;
 }
 img {
     margin-bottom: 50px;

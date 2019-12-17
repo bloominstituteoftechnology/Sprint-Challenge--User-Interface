@@ -72,14 +72,18 @@ p {
 }
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 10px;
     align-items: baseline;
-    margin: 50px 0px 30px 0px;
-    color: black;    
+    margin: 50px 0px 30px 0px;  
+}
+nav a {
+    color: black;  
+    text-decoration: none;
 }
 img {
-    margin: 50px 0px 50px 0px;
+    margin: 15px 0px 25px 0px;
 }
 .about-page p {
     margin-bottom: 50px;
@@ -93,20 +97,29 @@ img {
 }
 .Content .text-container {
     width: 50%;
+    margin-bottom: 50px;
     border-bottom: 1px dotted black;
 }
-.end h3 {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 50px;
+.Content .text-container a {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
 }
 .end {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin: 50px 0px 20px 0px;
+}
+.end h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 637px 15px 0px;
 }
 footer {
     width: 100%;
