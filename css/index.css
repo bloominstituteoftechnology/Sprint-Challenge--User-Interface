@@ -256,7 +256,6 @@ header nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;
 }
 
 nav img .logo {
@@ -311,7 +310,7 @@ nav {
 .middle-content .boxes {
     display: flex;
     justify-content: space-between;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 
 .boxes .box.box1 {
@@ -360,13 +359,14 @@ nav {
 .container .about-page {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-top: lightgray;
 }
 
 .container2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .container3 {
@@ -374,6 +374,12 @@ nav {
     flex-direction: column;
     width: 48%;
     justify-content: flex-start;
+}
+
+.container2 .container3 a .more {
+    text-decoration: none;
+    justify-content: space-around;
+    border: 1px solid black;
 }
 
 
