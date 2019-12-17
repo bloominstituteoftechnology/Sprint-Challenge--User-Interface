@@ -144,3 +144,87 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* New CSS styling starts here */
+ .container {
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     width: 90%;
+ }
+ .navbar {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+    .nav-links {
+
+        flex-direction: row;
+        /*border: 5px solid blue;*/
+        justify-items: space-between;
+        width: 100%;
+        padding: 10px;
+    }
+    
+     
+      .top-content {
+          display: flex;
+      }
+      .heading {
+          display: flex;
+          flex-wrap: nowrap;
+          width: 60%;
+          
+      }
+   .middle-content {
+       display: flex;
+       justify-content: center;
+   }
+     .boxes {
+         display: flex;
+         width: 70%;
+         justify-items: center;
+     }
+     
+     
+     .box.box1 {
+         background-color: orangered;
+         border: 5px solid blue;
+     }
+      
+     .box.box2 {
+         background-color: orange;
+         border: 5px solid blue;
+     }
+     .box.box3 {
+         background-color: orangered;
+         border: 5px dotted blue;
+     }
+     .box.box4 {
+        background-color: orange;
+        border: 5px solid blue;
+     }
+     .box.box5 {
+        background-color: orange;
+        border: 5px solid blue;
+     }
+     .box.box6 {
+        background-color: orange;
+        border: 3px solid orangered;
+     }
+     .box.box7 {
+        background-color: orange;
+        border: 3px solid orangered;
+     }
+     .box.box8 {
+        background-color: orange;
+        border: 3px dotted orangered;
+     }
+     .box.box9 {
+        background-color: orange;
+        border: 3px solid orangered;
+     }
+     .box.box10 {
+        background-color: orange;
+        border: 3px solid orangered;
+     }
