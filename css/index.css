@@ -253,3 +253,35 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+.about {
+    border-bottom: 1px dashed;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.sky {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+.sec3 {
+    margin: 5%;
+}
