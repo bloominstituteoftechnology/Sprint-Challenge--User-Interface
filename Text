@@ -1,0 +1,21 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+    semantic HTML are tags in HTML that are kind of like road signs for human developers.  The indicate what exactly a piece of code represents in human language.
+    Like p means paragraph or h1 means a type of heading style
+
+Name two big differences between display: block; and display: inline;.
+    inline a developer can manipulate how the code displays.  For example inclince can show things on the same row.  In block an item is an item and will stay in its one row.
+    Every element in block stack ontop of eachother in a column when displayed.
+
+What are the 4 areas of the box model?
+padding
+margin
+border
+content area
+
+While using flexbox, what axis does the following property work on: align-items: center?
+    if flex-direction is row, align-items: center will show items in the flexbox nothing will change in the display
+    if flex-direction is column, align-items: center will show the items in the flexbox in a column centered in the display
+
+Explain why git is valuable to a team of developers.
+    git is valuable in teams of developers because mulitiple people can work on the same code at the same time on different machines on their respective branches
+    at the same time without interfereing with eachother, but be able to be combined together/tested without destroying the main, shared code
