@@ -70,6 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+#navBar{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+}
+#topNav{
+    display:flex;
+    flex-direction: row;
+    width:65%;
+    justify-content: space-between;
+    margin-top:40px;
+    padding:20px;
+    text-align: center;
+}
+a{
+    position: relative; top: 15px;
+}
+#bigHeaderImg{
+    display:inline-block;
+    text-align: center;
+    width:98%;
+    margin:10px;
+}
 
 .top-content {
     display: flex;
@@ -143,4 +166,142 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.boxes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.box1{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+background-color:teal ;}
+.box2{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:gold}
+.box3{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:cadetblue}
+.box4{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:coral}
+.box5{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;   
+    background-color:crimson}
+.box6{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:forestgreen}
+.box7{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:darkorchid}
+.box8{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:hotpink}
+.box9{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:indigo}
+.box10{
+    height:100px;
+    width:100px;
+    margin:20px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    background-color:dodgerblue}
+
+.maincontent{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.textcontainerabout{
+    text-align: left;
+    margin:25px;
+    width: 69%;
+    padding:10px;
+    border-bottom: dashed black 1px;
+}
+.textcontainer{
+    text-align: left;
+    margin:10px;
+    width: 32%;
+    padding:10px;
+    border-bottom: dashed black 1px;
+}
+hr{
+    border: dashed black 1px;
+    padding: 0%;
+}
+.content1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+    border:solid black;
+    padding:5px;
+    width:110px;
+    text-align: center;
+    border-radius: 10px;
+    margin:10px;
+}
+.Letsworktogether{
+    text-align: left;
+    margin:25px;
+    width: 72%;
+    padding:10px;
 }
