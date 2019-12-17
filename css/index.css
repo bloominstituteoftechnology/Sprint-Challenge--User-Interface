@@ -144,3 +144,144 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    margin-top: 1px;
+ 	margin-bottom: 100px;
+ 	text-align: center;
+    word-spacing: 50px;
+    color: gray;
+}
+
+.box1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    border-bottom: 1px dashed;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.sky {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+.sec2 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: -3%;
+}
+.sec3 {
+    margin: 5%;
+}
