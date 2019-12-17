@@ -166,8 +166,8 @@ p {
 
 header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -175,16 +175,18 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
-    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    width: 73%;
     margin-left: 4%;
 }
 
 nav a {
+    width: 20%;
+    height: 50%;
     text-decoration: none;
     color: black;
-    font-size: 18px;
-    align-self: bottom;
+    font-size: 14px;
 }
 
 .img-lambda {
@@ -195,7 +197,7 @@ nav a {
 
 .img-jumbo {
     display: block;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -327,7 +329,7 @@ footer nav a {
 
 .img-jumbo-about {
     display: block;
-    width: 69%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -376,4 +378,63 @@ footer nav a {
 
 .about-lastcontent-container {
     margin-bottom: 5%;
+}
+
+.img-header-contact {
+    display: block;
+    width: 100%;
+    height: 125px;
+    margin: 0 auto;
+    border: solid;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contact-thanks {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 4% 2%;
+    margin-bottom: 4%;
+    border-bottom: 1px dashed black;
+}
+
+h1 {
+    font-size: 32px;
+    color: crimson;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5%;
+    margin: 5%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: crimson;
 }
