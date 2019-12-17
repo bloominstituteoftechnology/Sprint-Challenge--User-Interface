@@ -87,24 +87,27 @@ p {
 }
 a {
  text-decoration: none;
+ color: black;
+
 }
 .upper-m {
-    padding: 20px;
-	display: flex;
-	justify-content: flex-start;
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 	flex-wrap: wrap;
  
 }
 
+
 .upper-main {
-    width: 43%;
-	height: 350px;
-	padding: 5px;
+    width: 48%;
+    height: 390px;
 	display: flex;
 	flex-direction: column;
     justify-content: space-around;
-        
-	margin:15px 25px;
+    margin: 20px 0px;
 	
 }
 .upper-main img {
@@ -112,8 +115,18 @@ a {
     width: 350px;
 }
 
+
+
 .upper-main h2 {
-    margin-top: 10px;
+    margin-top: 15px;
+}
+
+button {
+	width: 150px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
 }
 
 footer {
