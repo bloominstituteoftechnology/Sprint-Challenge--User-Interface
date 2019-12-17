@@ -1,146 +1,311 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, 
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption
+, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, 
+summary, time, mark, audio, video {
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: 
+    baseline; 
+} 
 
-* {
-    box-sizing: border-box;
-}
+/* HTML5 display-role reset for older browsers */ 
 
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu,
+ nav, section { 
+     display: block; 
+} 
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
+body { 
+    line-height: 1; 
+} 
 
-p {
-    line-height: 1.4;
-}
+ol, ul { 
+    list-style: none; 
+} 
 
+blockquote, q { 
+    quotes: none; 
+} 
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ''; 
+    content: none; 
+
+} 
+
+table { 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+
+} 
+
+* { 
+    box-sizing: border-box; 
+} 
+
+html, body { 
+    height: 100%; 
+    font-family: 'Roboto', sans-serif; 
+} 
+
+h1, h2, h3, h4, h5 { 
+    font-size: 18px; 
+    margin-bottom: 15px; 
+    font-family: 'Rubik', sans-serif; 
+} 
+
+p { 
+    line-height: 1.4; 
+} 
+
+.topPage { 
+    display: flex; 
+    margin-bottom: 30px; 
+    margin-top: 30px; 
+    margin-left: 240px; 
+} 
+
+.topPage img { 
+    padding-right: 60px; 
+} 
+
+.topPage div { 
+    margin-top:25px; 
+    word-break: break-all; 
+    word-spacing:6vw; 
+    margin-right: 105px; 
+} 
+
+.btn {  
+    justify-content: space-evenly; 
+    text-decoration: none; 
+    color: black; 
+} 
+
+
+#cool { 
+    display: block; 
+    margin-left: auto;
+     margin-right: auto; 
+     margin-bottom: 30px; } 
+     
 .container {
-    width: 800px;
-    margin: 0 auto;
-}
+     width: 800px; 
+     margin: 0 auto; 
+    } 
+    
+.top-content { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    margin-bottom: 20px; 
+    border-bottom: 1px dashed black; 
+} 
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
+.top-content .text-container { 
+    width: 48%; 
+    padding: 0 1%; 
+    padding-bottom: 20px; 
+} 
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
+.middle-content { 
+    margin-bottom: 20px; 
+    border-bottom: 1px dashed black; 
+} 
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
+.middle-content h2 { 
+    padding: 0 2%; 
     margin-bottom: 0;
-}
-
-.middle-content .boxes {
+ } 
+ 
+.middle-content .boxes { 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+} 
+
+#box1 { background-color: teal; } 
+#box2 { background-color: gold; } 
+#box3 { background-color: cadetblue; } 
+#box4 { background-color: coral; } 
+#box5 { background-color: teal; } 
+#box6 { background-color: forestgreen; } 
+#box7 { background-color: darkorchid; } 
+#box8 { background-color: hotpink; } 
+#box9 { background-color: indigo; } 
+#box10 { background-color: dodgerblue; } 
+
+.middle-content .boxes .box { 
+    width: 12.5%; 
+    height: 100px; 
+    background: black; 
+    margin: 20px 2.5%; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; } 
+    
+.bottom-content { 
+    display: flex; 
+    margin: 0 2% 20px; 
+    justify-content: space-around; 
+} 
+
+.bottom-content .text-container { 
+    padding-right: 4%; 
+} 
+
+.bottom-content .text-container:last-child { 
+    padding-right: 0; 
+} 
+
+footer { 
+    width: 100%; 
+    background: black; 
+} 
+
+footer nav { 
+    width: 60%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px 2%; 
+    font-size: 14px; 
+} 
+
+footer nav a { 
+    color: white; 
+    text-decoration: none; 
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.about {
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+.about h1 {
+    margin-bottom: 10px;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.about p {
+    margin-bottom: 30px; 
+    line-height: 1.5;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.strategy{ 
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+.strategy h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
 }
 
-footer {
-    width: 100%;
-    background: black;
+.strategy p {
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
+.strategy a {
     text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.work h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+.work p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.work a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.topTwo {
+    display: flex;
+}
+
+#midTwo {
+    display: flex;
+}
+
+.office{
+    padding-right: 60px;
+    border-bottom: 2px solid dashed;
+    margin-bottom: 20px;
+}
+.office h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+.office p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.office a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.collaboration h1 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size:18px;
+}
+
+.collaboration p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.collaboration a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding:8px; 
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+}
+
+.together {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
