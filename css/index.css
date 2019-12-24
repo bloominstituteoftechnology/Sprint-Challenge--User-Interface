@@ -71,6 +71,19 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+
+header nav a:hover {
+    background-color: yellow;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -83,11 +96,13 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 15px;
 }
 
-.middle-content {
+.middle-box {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 }
 
 .middle-content h2 {
@@ -110,6 +125,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#one{
+    background:teal;
+}
+#two {
+    background: gold;
+}
+#three {
+    background: cadetblue;
+}
+#four {
+    background: coral;
+}
+#five {
+    background: crimson;
+}
+#six {
+    background: forestgreen;
+}
+#seven {
+    background: darkorchid;
+}
+#eight {
+    background: hotpink;
+}
+#nine {
+    background: indigo;
+}
+#ten {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +189,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about page*/
+
+.about-top {
+    border-bottom: 2px dashed black;
+    padding-bottom: 30px;
+}
+
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle-box {
+    width: 375px;
+    margin: 15px 0;
+    border-bottom: 1px dashed black;
+}
+
+.middle-box button {
+    background: white;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.middle-box button:hover {
+    background: blue;
+    color: yellow;
+}
+
+footer {
+    margin-top: 20px;
 }

@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+semantic HTML refers to the meaning the of the code.  Using semantic html provides a lot more structured meaning compared to using divs everywhere.  Semantic html benefits SEOs, screen readers, easier to read through the code.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+"Display: block" will take up the entire width compared to "display: inline" which will only take up the width of its content.  Block level elements ignore vertical-align property.  Inline elements are subject to vertical-align property.
+
 
 3. What are the 4 areas of the box model?
 
+1.Margin 2.Border 3.Padding 4.Content
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git has a branching feature that allows for developers to work on new features/branches that are isolated  the master branch.  There are many benefits of a distributed version control system.  For example, if a developer breaks his of her code/repository, they can easily clone another developers code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
