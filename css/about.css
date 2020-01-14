@@ -158,7 +158,7 @@ nav{
     width: 691px;
     vertical-align: top;
     margin-top: 35px;
-    margin-right: 200px;
+    margin-right: 250px;
 }
 header nav a {
     margin-right: 65px;
@@ -275,9 +275,66 @@ header nav a {
 }
 .top-image {
     margin-top: 23px;
-    margin-left: 500px;
+    margin-left: 470px;
 }
 .center-image {
-    margin-left: 550px;
+    margin-left: 228px;
     margin-bottom: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.column-one {
+    display: flex;
+    flex-direction: row;
+    margin-top: 34px;
+    border-top: 2px dotted;
+    padding-top: 36px;
+    margin-bottom: 25px;
+}
+.column-two {
+    display: flex;
+    flex-direction: row;
+}
+.left-top {
+    border-bottom: 2px dotted;
+    margin-right: 63px;
+    padding-bottom: 12px;
+}
+.right-top {
+    border-bottom: 2px dotted;
+    padding-bottom: 12px;
+}
+.left-bottom {
+    border-bottom: 2px dotted;
+    padding-bottom: 12px;
+}
+.right-bottom {
+    border-bottom: 2px dotted;
+    margin-left: 63px;
+    padding-bottom: 12px;
+}
+.last-one {
+    padding-top: 43px;
+}
+.top-about {
+    padding-left: 550px;
+    padding-bottom: 20px;
+}
+button {
+    border-radius: 5px;
+    background-color: white;
+    font-size: 13px;
+    padding: 4px 16px;
+}
+body {
+    display: block;
+
+}
+.top-link {
+    padding-right: 100px;
+
 }
