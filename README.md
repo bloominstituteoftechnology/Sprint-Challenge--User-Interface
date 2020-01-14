@@ -32,15 +32,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? 
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Semantic HTML gives meaning to a page.  For example, using <nav> lets the browser know that the items contained in that element are navigation items.  Semantic HTML helps with SEO prioritization because it helps tell search engines what is in your page.
 
-3. What are the 4 areas of the box model?
+2. Name two big differences between ```display: block;``` and ```display: inline;```.  
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+'display: block;' causes a line-break containing the element that it's defining, so the element sits on its own horizontal line by itself, and other elements will fall in the line below.  'display-block' allows you to set width, height, margin, padding and other similar properties.  'display: inline' does not cause a line-break, so it allows its element to sit next to another element in the same line. 'display: inline' only uses as much space as it needs for its content, so it does not follow any height, width, margin, padding or other similar properties that are set.
 
-5. Explain why git is valuable to a team of developers.
+3. What are the 4 areas of the box model? 
+
+The four areas are:  content, padding, border, and margin.
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? 
+
+'align-items: center;' aligns items on the cross axis or the vertical axis.
+
+5. Explain why git is valuable to a team of developers.  
+
+Git is valuable to a team of developers because it allows easier collaboration on a project.   Several people can work on different areas of the same project at once by creating their own branch, and each developer's work can be tracked and compared to others' work through reviewing commits.  Each developer can work on their own branch without affecting the master branch.  It also allows developers to revert to a previous commit when a mistake is made without affecting other developer's branches or the master branch.  Later on, the each developer's work in their respective branches can be merged to the master branch to complete the project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
