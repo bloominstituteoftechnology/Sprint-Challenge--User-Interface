@@ -21,6 +21,10 @@
     width: 100%;
 }
 
+.about-container h2{
+    margin: 3% 0;
+}
+
 .about-container div div {
     margin: 2% 2% 4% 2%;
 }
@@ -56,10 +60,10 @@ footer {
 button {
     border: 2px solid black;
     margin: 5% 0;
-    width: 20vh;
-    height: 6vh;
+    width: 19vh;
+    height: 5.5vh;
     border-radius: 12px;
-    font-size: 12px;
+    font-size: 15px;
     background-color: white;
   }
 
