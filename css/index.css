@@ -76,7 +76,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-   
+    border-bottom: 1px dashed black
 }
 
 .top-content .text-container {
@@ -87,18 +87,20 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-  
+   
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+ 
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    border-bottom: 1px dashed black
 }
 
 .middle-content .boxes .box {
@@ -110,25 +112,30 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px dashed black
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+  
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 4%;
+    
 }
 
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
@@ -138,11 +145,13 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+
 }
 
 
@@ -220,29 +229,31 @@ middle area
 
 
 .sizer .line {
-    padding: 0 1%;
+    padding: 1% 1%;
     padding-bottom: 20px;
 }
 
 .top-content-stra {
     display: flex;
-   
+    
 }
 
 .top-content-stra .squares {
-    border-bottom: 1px dashed black;
+   
     padding: 0 1%;
     padding-bottom: 20px;
-    margin: 0px;
+ 
+    
 }
 
 .squares {
     margin-top: 20px;
-    
+   
 }
 
 .squares p {
     padding-bottom: 20px;
+    
 }
 
 .img-and-text {
@@ -279,7 +290,7 @@ bug fix and editing
    
     padding-top: 50px;
     padding-bottom: 50px;
-   
+    border-bottom: 1px dashed black
 }   
 
 body {
