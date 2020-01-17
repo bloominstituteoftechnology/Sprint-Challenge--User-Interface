@@ -26,7 +26,26 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+}
+.Nav{
+    border: solid 1px red;
+display:flex;
+justify-content: space-evenly;
+    }
+header{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.aboutImgTop{
+    border: 1px solid green;
+    display:flex;
+    width: 100%;
+}
+main{
+    border: 1px solid purple;
+    display:flex;
 }
 body {
 	line-height: 1;
