@@ -172,7 +172,6 @@ hr {
 .top-content {
     display: flex;
     justify-content: space-between;
-
 }
 
 .top-content img {
@@ -205,3 +204,54 @@ hr {
     padding: 20px 0px;
 
 }
+
+.middle-content {
+    border-top: 0.5px dashed black;
+    padding-top: 25px;
+}
+
+.index-page .bottom-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.index-page .middle-content .boxes .one {
+    background-color: teal;
+}
+
+.index-page .middle-content .boxes .two {
+    background-color: gold;
+}
+
+.index-page .middle-content .boxes .three {
+    background-color: cadetblue;
+}
+
+.index-page .middle-content .boxes .four {
+    background-color: coral;
+}
+
+.index-page .middle-content .boxes .five {
+    background-color: crimson;
+}
+
+.index-page .middle-content .boxes .six {
+    background-color: forestgreen;
+}
+
+.index-page .middle-content .boxes .seven {
+    background-color: darkorchid;
+}
+
+.index-page .middle-content .boxes .eight {
+    background-color: hotpink;
+}
+
+.index-page .middle-content .boxes .nine {
+    background-color: indigo;
+}
+
+.index-page .middle-content .boxes .ten {
+    background-color: dodgerblue;
+}
+
