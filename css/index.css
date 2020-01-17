@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+/* Navigation Bar */
+.navContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+/* .navLinks a:visited{
+    text-decoration: none;
+} */
+
+.navLinks{
+    width: 100%;
+}
+/* Big image near header */
+.jumboIMG{
+    margin-bottom: 3%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
