@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 2px red;
 }
 
 html, body {
@@ -145,12 +146,28 @@ footer nav a {
     text-decoration: none;
 }
 
+/*      Start   */
+
 
 header .container{
+    max-width: 100%;
     display: flex;
+    justify-content: space-around;
+   
+  
+
 }
 
-.navbar ul {
+header nav{
+    max-width: 100%;
     display: flex;
-    background-color: aqua;
+ 
 }
+
+header nav a{
+    padding: 5%;
+justify-content: center;
+text-decoration:none ;
+color: grey;
+}
+
