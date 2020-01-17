@@ -248,7 +248,7 @@ middle area
 
 .squares {
     margin-top: 20px;
-   
+    border-bottom: 1px dashed black
 }
 
 .squares p {
