@@ -1,0 +1,79 @@
+
+.about{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.section1{
+    display: flex;
+}
+.section2{
+    display: flex;
+}
+.section3{
+    display: flex;
+}
+.section1 img{
+    margin: 20px;
+}
+.section2 img{
+    margin: 20px;
+}
+.section1 h3{
+    margin: 0px 20px 0px 20px;
+}
+.section2 h3{
+    margin: 0px 20px 0px 20px;
+}
+.section1 p{
+    margin: 20px;
+}
+.section2 p{
+    margin: 20px;
+}
+.learn1{
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.learn2{
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.learn3{
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.learn4{
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.lwt{
+    margin: 20px;
+}
+hr{
+    border-top: 1px dashed black;
+}
