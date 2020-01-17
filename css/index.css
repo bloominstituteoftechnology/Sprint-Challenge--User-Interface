@@ -144,3 +144,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.header {
+    display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	align-items: center;
+
+}
+
+.nav {
+    display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.twocol{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	align-items: center;
+	
+}
+
+.t {
+	width:50%;
+	border-bottom: 1px dotted black;
+	margin:30px;
+}
+
+.lm{
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 12px;
+    width:110px;
+    margin:20px 0;
+  }
+
+  .lm {
+ 
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: 300;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
