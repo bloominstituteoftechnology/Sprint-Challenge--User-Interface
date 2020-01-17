@@ -1,0 +1,62 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    /* border-bottom: 1px dashed black; */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.contactus {
+    text-align: center;
+    margin: 5% 0;
+    border-bottom: 1px dashed black;
+}
+
+.container.about-page {
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
+}
+
+.container.about-page p{
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.container.about-page h2{
+    margin-left: 2%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+  input[type="submit"] {
+    border: 2px solid black;
+    margin: 5% 0;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 12px;
+    font-size: 12px;
+    background-color: white;
+    margin: 0;
+}
+
+input[type="submit"]:hover {
+    transition: 0.5s;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
