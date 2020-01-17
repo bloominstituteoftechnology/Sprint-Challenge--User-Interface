@@ -47,8 +47,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
     - Git is a very powerful tool to manage changes and keep backups of all those changes in your projects. Allows groups of people to
-    - merge features and or keep changes in a more uniform way. You can easily approve changes and move them to the master copy of the 
-    - project
+    merge features and or keep changes in a more uniform way. You can easily approve changes and move them to the master copy of the 
+    project
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
