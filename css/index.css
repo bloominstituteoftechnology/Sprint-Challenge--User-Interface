@@ -71,6 +71,51 @@ p {
     margin: 0 auto;
 }
 
+/*************NAV BAR ****************/
+
+header {
+    margin: 3% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    width: 77%;
+}
+
+header nav a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    transition: 0.5s;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* header a .lambda-logo {
+    display: flex;
+    justify-content: flex-start;
+    width: ;
+} */
+
+/************* Large Image ************/
+
+.large-road{
+    margin: 3% 0;
+}
+
+/************* TOP SECTION ************/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +129,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/************* MIDDLE SECTION ****************/
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +151,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.boxes .box.box1 {
+    background-color: teal;
+}
+
+.boxes .box.box2 {
+    background-color: gold;
+}
+
+.boxes .box.box3 {
+    background-color: cadetblue;
+}
+
+.boxes .box.box4 {
+    background-color: coral;
+}
+
+.boxes .box.box5 {
+    background-color: crimson;
+}
+
+.boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.boxes .box.box9 {
+    background-color: indigo;
+}
+
+.boxes .box.box10 {
+    background-color: dodgerblue;
+}
+/*************BOTTOM SECTION ****************/
 
 .bottom-content {
     display: flex;
@@ -125,6 +213,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/************* FOOTER ****************/
 
 footer {
     width: 100%;
