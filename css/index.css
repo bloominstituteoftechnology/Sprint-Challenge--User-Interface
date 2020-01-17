@@ -71,6 +71,25 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5% 0;
+}
+
+#anchorlinks {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    padding-right: 5%;
+}
+
+.jumbo2020 {
+    padding-bottom: 5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
