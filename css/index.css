@@ -266,12 +266,15 @@ h2{
 hr{
     border-bottom: 1px dotted black;
     width:90%;
-    margin-right:15%
+    margin-right:15%;
+    margin-top:10px;
+    margin-bottom:30px;
 }
 button{
     border-radius: 5px;
     border-color: black;
-    padding: 10px 5px;
+    padding: 10px 10px;
+    margin: 20 0 20 0;
     width:30%;
     text-transform: uppercase;
     font-weight: bold;
@@ -292,8 +295,13 @@ button{
     display:flex;
     flex-direction: row;
     align-items: center;
-
+    padding:20 0 20 0;
 }
+
+.howwework button{
+    margin-bottom: 20px;
+}
+
 
 .places{
     display:flex;
@@ -301,6 +309,9 @@ button{
     align-items: center;
 }
 
+.places button{
+    margin-bottom: 20px;
+}
 
 .bottom-content {
     display: flex;
@@ -317,9 +328,10 @@ button{
 }
 
 footer {
-    width: 100%;
-    height:50%;
+    /* width: 100%; */
+    height:100px;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -328,7 +340,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    /* padding: 20px 2%; */
     font-size: 14px;
 }
 
