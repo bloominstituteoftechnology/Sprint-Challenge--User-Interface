@@ -181,8 +181,15 @@ footer nav a {
     background-color:dodgerblue ;
 }
 
-.top-contents {
+.about-middle-container {
     display:flex;
-    flex-flow: row-wrap;
-    align-content: center;
+    flex-wrap:wrap;
+    flex-direction: column-row;
+    border: 1px blue solid;
+    
 }
+#rowss { /*
+    display: flex;
+    flex-direction: column;
+} */
+
