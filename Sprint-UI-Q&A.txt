@@ -1,0 +1,14 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML gives the elements meaning.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+An elemet with display: inline can not have height or width while display:block can.
+
+3. What are the 4 areas of the box model?
+content edge, border edge, padding edge, and margin edge
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+all the items in the flexbox are centered on the cross axis.
+
+5. Explain why git is valuable to a team of developers.
+It helpes teams work on a project together while also seeing what the others are doin. It is also very useful to go back incase you messed up.

@@ -243,3 +243,24 @@ a{
     padding:2%;
     border-radius: 25px;
 }
+
+
+.computers{
+    height: 50vh;
+    width:80%;
+    margin-left: 10%;
+}
+
+.h2Product{
+    font-size: 25px;
+}
+.left{
+    margin-right: 25%;
+}
+
+.learn:hover {
+color: pink;
+background-color: black;
+box-shadow: 10px 10px;
+font-size: 25px;
+}
