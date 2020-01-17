@@ -46,6 +46,9 @@ header{
 main{
     border: 1px solid purple;
     display:flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
 }
 body {
 	line-height: 1;
