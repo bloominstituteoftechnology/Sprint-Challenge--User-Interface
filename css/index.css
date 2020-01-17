@@ -153,15 +153,11 @@ header .container{
     max-width: 100%;
     display: flex;
     justify-content: space-around;
-   
-  
-
 }
 
 header nav{
     max-width: 100%;
     display: flex;
- 
 }
 
 header nav a{
@@ -169,9 +165,14 @@ header nav a{
 justify-content: center;
 text-decoration:none ;
 color: grey;
+
 }
 
-.boxes{
-display: flex;
+
+.boxes ul li{
+    background-color: teal;
+    color:teal
 }
+
+
 
