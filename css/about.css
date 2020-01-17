@@ -61,3 +61,10 @@ button {
     font-size: 12px;
     background-color: white;
   }
+
+button:hover {
+        transition: 0.5s;
+        align-items: center;
+        background-color: black;
+        color: aliceblue;
+}
