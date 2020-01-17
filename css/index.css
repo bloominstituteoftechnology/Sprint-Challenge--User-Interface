@@ -30,9 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 .Nav{
     border: solid 1px red;
-display:flex;
-justify-content: space-evenly;
+    display:flex;
+    justify-content: space-evenly;
     }
+
 header{
     border: 1px solid black;
     display: flex;
@@ -50,10 +51,9 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between;
-    width: 80%;
-    }
+     }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -94,14 +94,33 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
-.top-content {
+.strategy{
+display:flex;
+align-content: space-between;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 48%;
+margin: 2%;
+flex-direction: column;
+border: 1px solid forestgreen;
+}
+.topSection img{
+    display: flex;
+    /* width: 100%; */
+}
+.topSection {
+    border: 1px solid orange;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    width: 80%;
+    width: 70%;
+ }
+ .paragraph{
+     width: 50%;
+     padding: 2%;
+     border: 1px solid dodgerblue;
  }
 
 .top-content .text-container {
@@ -168,4 +187,63 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Page 2 css starts here */
+/* nav bar for index.html starts here */
+
+.top-content{
+    /* border: solid purple 2px; */
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px black dashed;
+    }
+.middle-content{
+    padding-top: 3%;
+}
+.Nav2{
+    border: solid 1px red;
+    display: inline;
+    width: 100%;
+    }
+
+
+
+
+
+
+
+/* Box colors */
+#box1{
+    background: teal;
+}
+#box2{
+    background:Gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+
 }
