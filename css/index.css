@@ -143,4 +143,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+} 
+.Navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
