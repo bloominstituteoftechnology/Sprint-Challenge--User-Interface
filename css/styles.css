@@ -1,6 +1,6 @@
 
 .about{
-    margin-left: 50px;
+    margin-left: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -71,9 +71,12 @@
     margin-bottom: 20px;
     border-radius: 5px 5px 5px 5px;
 }
-.lwt{
-    margin: 20px;
+.lets-work{
+    margin: 50%;
 }
 hr{
     border-top: 1px dashed black;
+}
+footer{
+    margin-top: 50px;
 }
