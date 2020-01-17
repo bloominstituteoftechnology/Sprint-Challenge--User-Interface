@@ -255,3 +255,24 @@ hr {
     background-color: dodgerblue;
 }
 
+/* Contact Form */
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contact-form .box {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.contact-form .box input {
+    float: right;
+}
+
+.contact-form .textarea input{
+    height: 100px;
+    width: 400px;
+}
