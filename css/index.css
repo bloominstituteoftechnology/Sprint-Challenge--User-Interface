@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 .top-content {
@@ -143,4 +144,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation nav a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 100%;
+    padding: 20px 0px;
 }
