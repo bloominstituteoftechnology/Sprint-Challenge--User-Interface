@@ -209,13 +209,25 @@ hr{
 .section-one, .section-two{
     display:flex;
     justify-content: space-around;
-    margin: 4% 0%;
+    margin: 6% 0%;
 }
 .section-one div, .section-two div{
-    width:48%;
-    border:red 1px solid
+    width:47.5%;
+    
+}
+.section-about{
+    margin-bottom: 5%;
 }
 button{
-    border: black 2px solid;
-    margin: 3% 0%;;
+    border: black 3px solid;
+    border-radius: 10px;
+    margin: 3% 0%;
+    width: 30%;
+    height: 8%
+}
+.section-one h2, .section-two h2{
+    margin-top:3%;
+}
+.section-three{
+    margin:5% 2%;
 }
