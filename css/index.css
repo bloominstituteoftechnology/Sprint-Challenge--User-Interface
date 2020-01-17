@@ -149,3 +149,40 @@ footer nav a {
     justify-content: space-between;
     align-items: flex-end;
 }
+
+#box1 {
+    background-color:teal ;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}
+#box9 {
+    background-color: indigo;
+}
+#box10 {
+    background-color:dodgerblue ;
+}
+
+.top-contents {
+    display:flex;
+    flex-flow: row-wrap;
+    align-content: center;
+}
