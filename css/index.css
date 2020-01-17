@@ -98,6 +98,7 @@ padding-bottom: 1.5%;}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
 
 .middle-content h2 {
@@ -122,6 +123,7 @@ padding-bottom: 1.5%;}
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
@@ -278,6 +280,6 @@ h4 {
     font-size: 17px;
 
 }
- 
+
 
 
