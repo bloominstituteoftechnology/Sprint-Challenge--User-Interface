@@ -72,7 +72,7 @@ p {
     margin: 0 auto;
 }
 
-
+/* index and main css code */
 .navBar {
     
    width: 100%;
@@ -99,40 +99,15 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content-about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-.top-content-about .text-container{
-    width: 100%;
-    padding: 0 1%;
-    padding-bottom: 20px;
-}
+
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-.mid-container{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-}
-.mid-content-box{
-    width:48%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    padding: 0 1%;
-    padding-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
+
+
     .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -283,4 +258,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about.html CSS */
+.mid-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.mid-content-box{
+    width:48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-content-about .text-container{
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
