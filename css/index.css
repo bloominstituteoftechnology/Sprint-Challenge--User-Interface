@@ -144,3 +144,24 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav {
+    display: flex;
+	justify-content: space-between;
+	margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top:5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.lines {
+    display: block;
+    margin-left: 10%;
+    margin-right: 0;
+    width: 80%;
+    margin-bottom: 5%;
+}
