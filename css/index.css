@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -57,13 +58,40 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+}
+.header-img{
+    display:flex;
+    justify-content:space-around;
+    margin: 4% 0%;
+
+   
+}
+.lambda-logo{
+    width:100%;
+}
+.header-nav{
+    display:flex;
+    padding-top: 3%;
+
+}
+.nav-links{
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    color:black;
+    width:80%;
+    font-size: 19px;
+}
+a{
+    color:black;
+    text-decoration: none;
 }
 
 .container {
@@ -111,6 +139,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +202,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+hr{
+    border: 1px black dotted;
+}
+.section-one, .section-two{
+    display:flex;
+    justify-content: space-around;
+    margin: 6% 0%;
+}
+.section-one div, .section-two div{
+    width:47.5%;
+    
+}
+.section-about{
+    margin-bottom: 5%;
+}
+button{
+    border: black 3px solid;
+    border-radius: 10px;
+    margin: 3% 0%;
+    width: 30%;
+    height: 8%
+}
+.section-one h2, .section-two h2{
+    margin-top:3%;
+}
+.section-three{
+    margin:5% 2%;
 }
