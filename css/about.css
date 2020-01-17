@@ -51,6 +51,57 @@ table {
     box-sizing: border-box;
 }
 
-.Strategy{
-    color: red;
+/*======START========*/
+.about-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    background-color:skyblue;
+}
+
+.Top-Content{
+    height: -1vh;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+h2{
+    font-size: 25px;
+}
+
+.Top-Content .Strategy{
+    width : 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+}
+
+.Top-Content .How{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom-Content {
+    height: -1vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bottom-Content .Places{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom-Content .Collaboration{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }

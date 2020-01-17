@@ -171,3 +171,7 @@ text-decoration:none ;
 color: grey;
 }
 
+.boxes{
+display: flex;
+}
+
