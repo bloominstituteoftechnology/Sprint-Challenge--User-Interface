@@ -37,6 +37,7 @@ header{
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    width: 80%
 }
 .aboutImgTop{
     border: 1px solid green;
@@ -49,6 +50,7 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between;
+    width: 80%;
     }
 body {
 	line-height: 1;
@@ -99,7 +101,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    width: 45%;
+    width: 80%;
  }
 
 .top-content .text-container {
