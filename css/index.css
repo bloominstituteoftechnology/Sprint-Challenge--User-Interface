@@ -70,7 +70,31 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.header{
+    display:flex;
+    width: 100%;
+}
+.logo{
+    width: 25%;
+}
+.navbar{
+    width: 75%;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+}
 
+.navbar ul a{
+    color: black;
+}
+
+.header-img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;

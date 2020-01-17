@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+.header{
+    display:flex;
+    width: 100%;
+}
+.logo{
+    width: 25%;
+}
+.header-nav{
+    width: 75%;
+}
+.header-nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+}
+
+.navbar ul a{
+    color: black;
+}
+
+.header-img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-section{
+    border-bottom: dashed 1px;
+    margin-bottom: 20px;
+}
+.about-section p{
+    margin-bottom: 20px;
+}
+.strategyandhow{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.strategyandhow h1{
+    margin-top: 20px;
+}
+.strategy{
+    padding: 1%;
+    border-bottom: 1px dashed;
+}
+.strategy button{
+    margin-bottom: 20px;
+}
+.how button{
+    margin-bottom: 2opx;
+}
+.how{
+    border-bottom: dashed 1px;
+    padding: 1%;
+}
+.spacer{
+    width: 5%;
+}
+
+.placesandcollab{
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.placesandcollab h1{
+    margin-top: 20px;
+}
+
+.places{
+    padding: 1%;
+    border-bottom: 1px dashed;
+}
+.places button{
+    margin-bottom: 20px;
+}
+.collab{
+    padding: 1%;
+    border-bottom: dashed 1px;
+}
+.collab button{
+    margin-bottom: 20px;
+}
+button{
+    border-radius: 10px;
+    width: 33.33333333%;
+    margin-top: 20px;
+    height: 50px;
+}
+.last{
+    padding: 1%;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
