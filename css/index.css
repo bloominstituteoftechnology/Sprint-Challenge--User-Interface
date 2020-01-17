@@ -144,3 +144,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+header .container{
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    background-color: aqua;
+}
