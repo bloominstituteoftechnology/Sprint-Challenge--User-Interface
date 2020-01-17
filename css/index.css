@@ -203,3 +203,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+hr{
+    border: 1px black dotted;
+}
+.section-one, .section-two{
+    display:flex;
+    justify-content: space-around;
+    margin: 4% 0%;
+}
+.section-one div, .section-two div{
+    width:48%;
+    border:red 1px solid
+}
+button{
+    border: black 2px solid;
+    margin: 3% 0%;;
+}
