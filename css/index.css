@@ -28,30 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-.Nav{
-    border: solid 1px red;
-    display:flex;
-    justify-content: space-evenly;
-    }
 
-header{
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    width: 80%
-}
-.aboutImgTop{
-    border: 1px solid green;
-    display:flex;
-    width: 150%;
-}
-main{ 
-    border: 1px solid purple;
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-between;
-     }
 body {
     line-height: 1;
 }
@@ -94,34 +71,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-.strategy{
-display:flex;
-align-content: space-between;
-justify-content: space-between;
-flex-wrap: wrap;
-width: 48%;
-margin: 2%;
-flex-direction: column;
-border: 1px solid forestgreen;
-}
-.topSection img{
-    display: flex;
-    /* width: 100%; */
-}
-.topSection {
-    border: 1px solid orange;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    width: 70%;
- }
- .paragraph{
-     width: 50%;
-     padding: 2%;
-     border: 1px solid dodgerblue;
- }
+
 
 .top-content .text-container {
     width: 48%;
@@ -204,9 +154,8 @@ footer nav a {
     padding-top: 3%;
 }
 .Nav2{
-    border: solid 1px red;
-    display: inline;
-    width: 100%;
+    display:inline;
+    word-spacing: 50px;
     }
 
 
@@ -246,4 +195,40 @@ footer nav a {
 #box10{
     background: dodgerblue;
 
+}
+/* about page */
+header{
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.topSection p, .topSection h2{
+    width: 90%;
+    margin-left: 2%;
+}
+.topSection{
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.middleSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.strategy, .work, .places, .collab{
+    width: 45%;
+    margin: 2% 0;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+button{
+    margin-top: 2%;
+}
+.footerPg1{
+    margin: 2% 0;
 }
