@@ -26,10 +26,11 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -71,13 +72,6 @@ p {
     margin: 0 auto;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
 
 .top-content .text-container {
     width: 48%;
@@ -143,4 +137,98 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Page 2 css starts here */
+/* nav bar for index.html starts here */
+
+.top-content{
+    /* border: solid purple 2px; */
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    border-bottom: 1px black dashed;
+    }
+.middle-content{
+    padding-top: 3%;
+}
+.Nav2{
+    display:inline;
+    word-spacing: 50px;
+    }
+
+
+
+
+
+
+
+/* Box colors */
+#box1{
+    background: teal;
+}
+#box2{
+    background:Gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+
+}
+/* about page */
+header{
+    width: 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.topSection p, .topSection h2{
+    width: 90%;
+    margin-left: 2%;
+}
+.topSection{
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.middleSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.strategy, .work, .places, .collab{
+    width: 45%;
+    margin: 2% 0;
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+button{
+    margin-top: 2%;
+}
+.footerPg1{
+    margin: 2% 0;
 }
