@@ -260,7 +260,7 @@ footer nav a {
     text-decoration: none;
 }
 /* about.html CSS */
-.mid-container{
+.mid-container{ 
     
     display: flex;
     flex-wrap: wrap;
@@ -277,6 +277,7 @@ footer nav a {
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 .top-content-about {
     display: flex;
     flex-wrap: wrap;
