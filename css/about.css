@@ -240,10 +240,17 @@ header nav {
    
 }
 
-header nav a {
+header nav  a{
     padding: 5%;
-    justify-content: center;
+    justify-content: space-evenly;
     text-decoration: none;
-    color: grey;
+    color:gray;
 }
+
+footer .navbar{
+    background-color:black;
+    justify-content: space-around;
+    text-align: center;
+}
+
 
