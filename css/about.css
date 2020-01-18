@@ -223,5 +223,27 @@ p {
 a{
     text-decoration: none;
     color: grey;
-    
 }
+
+
+header .container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+header nav {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+header nav a {
+    padding: 5%;
+    justify-content: center;
+    text-decoration: none;
+    color: grey;
+}
+
