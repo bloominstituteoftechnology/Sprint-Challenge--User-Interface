@@ -151,8 +151,6 @@ table {
     height: -1vh;
     display: flex;
     justify-content: space-around;
-
-
 }
 
 h2 {
@@ -164,10 +162,17 @@ h2 {
     width: 40%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     padding: 2%;
 }
+/* QUESTION: how can make this <hr> tag go across
 
+.Top-Content .Strategy hr{
+    display: flex;
+    align-items: center;
+    color:red;
+}
+*/
 .Top-Content .How {
     width: 40%;
     justify-content: center;
@@ -176,7 +181,6 @@ h2 {
 }
 
 .Bottom-Content {
-    height: -1vh;
     display: flex;
     justify-content: space-around;
 }
@@ -204,11 +208,13 @@ h2 {
 }
 
 button {
-    width: 5%;
+    width: 20%;
     padding: 2%;
     display: flex;
     justify-content: center;
     border-radius: 8px;
+    font-size: 12px;
+    color: black;
     
 }
 
@@ -267,3 +273,11 @@ footer .navbar a{
 .lambda-logo{
     max-width: 100%;
 }
+
+hr{
+    display: flex;
+    justify-content: center;
+    border: 1px dashed;
+}
+
+
