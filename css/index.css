@@ -17,7 +17,8 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    /* border: 0; */
 	border: 1px solid red;
 	font-size: 100%;
 	font: inherit;
@@ -35,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
      width:100%;
      display:flex;
      justify-content:space-between;
+     margin-top: 10px;
 }
 
 .logo{
@@ -120,13 +122,14 @@ footer, header, hgroup, menu, nav, section {
     background-color:white;
   border: 1px solid black;
   color: black;
-  padding: 20px;
+  padding: 7px;
+  padding-right: 30px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  border-radius:12px;
+  border-radius:4px;
 }
 
 .footer-title{
@@ -208,7 +211,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .container {
@@ -293,6 +296,11 @@ footer nav a {
     margin:0 auto;
 }
 
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
 .section-boxes{
     width: 350px;
     margin-bottom: 50px;
@@ -317,4 +325,12 @@ footer nav a {
 
  .skyline{
      margin-top: 20px;
+ }
+
+ .work{
+     margin-bottom: 10px;
+ }
+
+ .work2{
+     margin-bottom: 20px;
  }
