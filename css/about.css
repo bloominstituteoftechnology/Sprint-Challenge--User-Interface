@@ -162,7 +162,7 @@ h2 {
     width: 40%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 2%;
 }
 /* QUESTION: how can make this <hr> tag go across
@@ -260,13 +260,15 @@ header nav  a{
 }
 
 footer .navbar{
+    width: 90%;
     background-color:black;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    text-align: center;
+    text-align: start;
 }
 
 footer .navbar a{
+    
     color: white;
 }
 
@@ -280,4 +282,8 @@ hr{
     border: 1px dashed;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+}
 

@@ -85,7 +85,7 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
 * [^] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [^] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
@@ -124,8 +124,18 @@ After finishing your required elements, you can push your work further. These go
 
 *Notes to myself 
 
--Try and Finish to reach MVP Before Tues
-    Check readme to finish the last of goals
+-Try and Finish to reach MVP Before Tues.
+    Check readme to finish the last of goals.
+    
 -Home page header does not stretch along with the rest of the body.     
+
+-about page footer is not identical to design file in positioning. 
+
+-No button outlines. 
+
+-problems with the dashed lines in sub-sections.
+
+-** NO LINK FROM ABOUT PAGE TO HOME PAGE! 
+
 
 
