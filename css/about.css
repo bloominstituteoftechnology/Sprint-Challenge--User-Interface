@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*======START========*/
+.about-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 5%;
+}
+
+.Top-Content {
+    height: -1vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 25px;
+    padding: 1%;
+}
+
+.Top-Content .Strategy {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+}
+/* QUESTION: how can make this <hr> tag go across
+
+.Top-Content .Strategy hr{
+    display: flex;
+    align-items: center;
+    color:red;
+}
+*/
+.Top-Content .How {
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom-Content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bottom-Content .Places {
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Bottom-Content .Collaboration {
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.end {
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+
+}
+
+button {
+    width: 20%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+  
+}
+
+p {
+    padding: 2%;
+}
+
+.navbar{
+    text-decoration: none;
+    height:5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+header .container {
+    height: 10vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+   
+}
+
+header nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav  a{
+    padding: 5%;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color:gray;
+}
+
+footer .navbar{
+    width: 90%;
+    background-color:black;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: start;
+}
+
+footer .navbar a{
+    
+    color: white;
+}
+
+.lambda-logo{
+    max-width: 100%;
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    border: 1px dashed;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
