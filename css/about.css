@@ -204,7 +204,12 @@ h2 {
 }
 
 button {
+    width: 5%;
     padding: 2%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    
 }
 
 p {
