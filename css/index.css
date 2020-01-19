@@ -170,6 +170,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+  
 }
 
 .top-content .text-container {
@@ -250,8 +251,13 @@ header .container {
 }
 
 header nav {
-    max-width: 100%;
+    width: 60%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+   
    
 }
 
@@ -302,3 +308,6 @@ header nav a {
     background-color: dodgerblue;
 }
 
+h2{
+    padding: 1.5%;
+}

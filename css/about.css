@@ -165,7 +165,6 @@ h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
     padding: 2%;
 }
 
@@ -226,18 +225,20 @@ a{
 }
 
 
+
 header .container {
+    height: 10vh;
     max-width: 100%;
     display: flex;
     justify-content: space-around;
- 
+    padding: 1%;
+   
 }
 
 header nav {
-    max-width: 100%;
+    width: 1000px;
     display: flex;
-    justify-content: center;
-   
+    justify-content: space-between;
 }
 
 header nav  a{
@@ -250,7 +251,14 @@ header nav  a{
 footer .navbar{
     background-color:black;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
 }
 
+footer .navbar a{
+    color: white;
+}
 
+.lambda-logo{
+    max-width: 100%;
+}
