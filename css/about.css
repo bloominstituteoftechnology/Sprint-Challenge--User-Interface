@@ -212,10 +212,11 @@ button {
     padding: 2%;
     display: flex;
     justify-content: center;
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 12px;
     color: black;
-    
+    font-weight: bold;
+  
 }
 
 p {
