@@ -100,16 +100,70 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+}
+.middle-content .boxes .box-1 {
+    
+    background: teal;
+}
+
+.middle-content .boxes .box-2 {
+    background: gold;
+    
+}
+
+.middle-content .boxes .box-3 {
+   
+    background: cadetblue;
+   
+}
+
+.middle-content .boxes .box-4 {
+    
+    background: coral;
+   
+}
+
+.middle-content .boxes .box-5 {
+    
+    background: crimson;
+    
+}
+
+.middle-content .boxes .box-6 {
+    
+    background: forestgreen;
+   
+}
+
+.middle-content .boxes .box-7 {
+    
+    background: darkorchid;
+    
+}
+
+.middle-content .boxes .box-8 {
+    
+    background: hotpink;
+   
+}
+
+.middle-content .boxes .box-9 {
+   
+    background: indigo;
+    
+}
+
+.middle-content .boxes .box-10 {
+    
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +197,102 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+  width: 1000px;
+  vertical-align: top;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+nav {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header nav a {
+  
+    margin-right: 90px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.top-content {
+    margin-top: 40px;
+}
+
+
+
+.about-content {
+    margin: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.about-middle-top h4 {
+    padding-top: 10px;
+    
+}
+
+.about-middle-bottom h4 {
+    padding-top: 10px;
+}
+
+button {
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.strategy {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+}
+
+.how-work {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+}
+
+.places-work {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+    margin-top: 40px;
+}
+
+.collab {
+    border-bottom: 1px dashed black;  
+    width: 370px;
+    margin-top: 40px;
+}
+
+
+
+.work-together {
+    margin-top: 40px;
+}
+
+.about-main-content {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
 }
