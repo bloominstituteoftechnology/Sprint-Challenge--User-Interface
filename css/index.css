@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px red solid;
 }
 
 html, body {
@@ -99,7 +100,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+} f
 
 .middle-content .boxes .box {
     width: 12.5%;
@@ -148,6 +149,7 @@ footer nav a {
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
+    max-width: 100%;
 }
 
 #box1 {
@@ -181,15 +183,118 @@ footer nav a {
     background-color:dodgerblue ;
 }
 
-.about-middle-container {
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction: column-row;
-    border: 1px blue solid;
+
+#img-about-top {
+    margin: 25px 0px;
+}
+
+#img-home-top {
+    margin: 25px 0px;
+}
+
+#img-products-top {
+    margin: 25px 0px;
+    width: 800px;
+}
+
+#img-contact-top {
+    margin: 25px 0px;
+    width: 800px;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+   
+}
+
+.top-text-about {
+    margin-bottom: 20px;
     
 }
-#rowss { /*
+
+.top-text-about p {
+    margin-bottom: 20px;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.middle-content {
+    margin-bottom: 20px;
+}
+
+.about-middle-container {
     display: flex;
-    flex-direction: column;
-} */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-middle-container p {
+    margin: 10px 0px;
+}
+
+.about-topics {
+    width: 48%;
+    
+}
+
+.about-topics button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15%;
+   
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+
+
+.middle-content .about-topics {
+    margin-bottom: 20px;
+}
+
+.middle-content .about-topics h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+.about-bottom-content {
+    margin: 20px 0px;
+}
+
+
 
