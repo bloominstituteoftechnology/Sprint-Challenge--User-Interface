@@ -66,9 +66,44 @@ p {
     line-height: 1.4;
 }
 
+/******** css starts here ************/
+
 .container {
-    width: 800px;
+    width: 95vh;
     margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+    box-sizing: border-box;
+}
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (max-width: 767px){
+    .container {
+        width: 100%;
+        padding: 5px 10px;
+    }
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container {
+        width: 750px;
+        padding: 5px 10px;
+    }
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 980px;
+        padding: 5px 15px;
+    }
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1200px;
+        padding: 5px 20px;
+    }
 }
 
 /*************NAV BAR ****************/
@@ -108,113 +143,68 @@ header nav a:hover {
     width: ;
 } */
 
-/************* Large Image ************/
-
-.large-road{
-    margin: 3% 0;
-}
-
-/************* TOP SECTION ************/
-
-.top-content {
+.form-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-/************* MIDDLE SECTION ****************/
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    /* background: black; */
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    /* border-bottom: 1px dashed black; */
 }
 
-.boxes .box.box1 {
-    background-color: teal;
+h1 {
+    font-size: 50px;
 }
 
-.boxes .box.box2 {
-    background-color: gold;
+.contactus {
+    text-align: center;
+    margin: 5% 0;
+    border-bottom: 1px dashed black;
 }
 
-.boxes .box.box3 {
-    background-color: cadetblue;
+.container.about-page {
+    border-bottom: 1px dashed black;
+    margin-bottom: 3%;
 }
 
-.boxes .box.box4 {
-    background-color: coral;
+.container.about-page p{
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
 
-.boxes .box.box5 {
-    background-color: crimson;
+.container.about-page h2{
+    margin-left: 2%;
 }
 
-.boxes .box.box6 {
-    background-color: forestgreen;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-.boxes .box.box7 {
-    background-color: darkorchid;
+  input[type="submit"] {
+    border: 2px solid black;
+    margin: 5% 0;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 12px;
+    font-size: 12px;
+    background-color: white;
+    margin: 0;
 }
 
-.boxes .box.box8 {
-    background-color: hotpink;
+input[type="submit"]:hover {
+    transition: 0.5s;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
 }
-
-.boxes .box.box9 {
-    background-color: indigo;
-}
-
-.boxes .box.box10 {
-    background-color: dodgerblue;
-}
-/*************BOTTOM SECTION ****************/
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-/************* FOOTER ****************/
 
 footer {
     width: 100%;
