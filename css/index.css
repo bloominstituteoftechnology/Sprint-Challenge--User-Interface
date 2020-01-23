@@ -81,7 +81,7 @@ padding-bottom: 1.5%;}
     padding-top: 2%;
 }
 
-.top-content, {
+.top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -254,7 +254,7 @@ footer nav a {
     display:flex;
     align-items: baseline;
     justify-content: center;
-    margin:0 auto;
+    margin:5% auto;
     justify-content: left;
        
 }
@@ -295,7 +295,7 @@ a {
     display:flex;
     align-items: baseline;
     justify-content: center;
-    margin:0 auto;
+    margin: 5% auto;
 }
 
 
