@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,9 +66,43 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container.home {
+    width: 800px;
+    margin: 0px auto;
+		background: url('../design-files/home.png') center top no-repeat;
+}
+.container.about {
     width: 800px;
     margin: 0 auto;
+		background: url('../design-files/about.png') center top no-repeat;
+}
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	/* header flex -controls the logo, Ul, and Hero image placement */
+	margin-bottom: 30px;
+}
+
+.logo {
+    margin: 24px 0;
+}
+
+header nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 640px;
+	/* nav ul flex - controls the width of Ul, list, and link placement */
+}
+
+header nav li a {
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.hero-image {
+	max-width: 100%;
 }
 
 .top-content {
@@ -82,7 +116,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +138,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,10 +145,59 @@ p {
     justify-content: center;
 }
 
+
+/* Home page - Here are the colors */
+.clr1{background-color: teal;}
+.clr2{background-color: gold;}
+.clr3{background-color: cadetblue;}
+.clr4{background-color: coral;}
+.clr5{background-color: crimson;}
+.clr6{background-color: forestgreen;}
+.clr7{background-color: darkorchid;}
+.clr8{background-color: hotpink;}
+.clr9{background-color: indigo;}
+.clr10{background-color: dodgerblue;}
+
+/* end colored boxes */
+
+
+/* About page - Here is the flex grid */
+.about-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.about-blurbs {
+	width: 375px;
+	height: auto;
+	margin: 1.2rem 0 1.8rem 0;
+	border-bottom: 1px dashed red;
+}
+
+.about-blurbs img, .about-blurbs  p {
+	margin: 1.6rem 0;
+}
+
+.learn-more {
+	 padding:10px 25px;
+	 border: 2px solid #444444;
+	 background: white;
+	 border-radius: 6px;
+}
+
+.blue {background: blue}
+.red {background: red}
+.green {background: green}
+.gold {background: gold}
+.pink {background: pink}
+/* end about page - flex */
+
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
 }
 
 .bottom-content .text-container {
