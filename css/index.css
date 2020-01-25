@@ -84,6 +84,16 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 15px;
+    transition: .6s;
+}
+
+nav a:hover{
+  font-size: 19px;
+    color: black;
+  animation-name: example;
+  animation-duration: 6s;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .jumbo{
