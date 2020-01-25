@@ -147,42 +147,88 @@ footer nav a {
 
 .box1 {
     background: teal;
+	display: 1;
+	animation: sspin;
+	animation-duration: 3s;
 }
 
 .box2 {
     background: gold;
+	display: 2;
+	animation: slidein2;
+	animation-duration: 3s;
+}
+
+@keyframes slidein {
+	0% {transform: translateX(-700px);}
+	100% {transform: translateX(0px); }
+}
+
+
+@keyframes slidein2 {
+	0%{transform: translateX(700px);}
+	100%{transform: translateX(0px);}
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 
 .box3 {
     background: cadetblue;
+    display: 2;
+	animation: spin;
+	animation-duration: 3s;
 }
 
 .box4 {
     background: coral;
+    display: 2;
+	animation: slidein2;
+	animation-duration: 3s;
 }
 
 .box5 {
     background: crimson;
+    display: 2;
+	animation: spin;
+	animation-duration: 3s;
 }
 
 .box6 {
     background: forestgreen;
+    display: 2;
+	animation: slidein2;
+	animation-duration: 3s;
 }
 
 .box7 {
     background: darkorchid;
+    display: 2;
+	animation: spin;
+	animation-duration: 3s;
 }
 
 .box8 {
     background: hotpink;
+    display: 2;
+	animation: slidein2;
+	animation-duration: 3s;
 }
 
 .box9{
     background: indigo;
+    display: 2;
+	animation: spin;
+	animation-duration: 3s;
 }
 
 .box10 {
     background: dodgerblue;
+    display: 2;
+	animation: slidein2;
+	animation-duration: 3s;
 }
 
 .container{
