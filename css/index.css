@@ -123,11 +123,19 @@ nav a{
     justify-content: space-evenly;
 }
 
-.middle-content .sources{
+.about .boxes {
     display: flex;
-    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+
+.split{
+    width: 48%;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted black;
+    align-items: flex-start;
+}
 
 .middle-content .boxes .box {
     width: 12.5%;
