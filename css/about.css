@@ -91,36 +91,18 @@ nav a{
 
 .skytowers{
     width:100%;
+
 }
 
-/*
 .grouppic1{
     display:flex;
     justify-content: space-around;
-    border:2px solid black;
- 
 }
-
-.picscale1{
-    width:50%;
-    height:150%;
-
-}
-
-
-.pic1{
    
 
-}
-
-.pic2{
-    
-}
-*/
 .description1{
     display:flex;
     justify-content: space-between;
-   
 
 }
     
@@ -156,6 +138,12 @@ nav a{
     margin-top:3%;
     border-radius: 10px;
     text-align: center;
+}
+
+.grouppic2{
+    display:flex;
+    justify-content: space-around;
+    padding-top:35px;
 }
 
 .description2{
