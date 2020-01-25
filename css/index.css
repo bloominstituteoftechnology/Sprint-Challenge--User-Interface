@@ -156,7 +156,7 @@ footer nav a {
     justify-content: space-between;
     align-items: flex-end;
     padding:0px 20px 10px 20px;
-
+    width: 100%;
 }
 
 nav a{
@@ -164,10 +164,11 @@ nav a{
     color:black;
 
 }
- .lambda{
+ .lambdalogo{
     display:flex;
+    flex-wrap: nowrap;
     justify-content: flex-start;
-    border:2px solid
+
 
   
 

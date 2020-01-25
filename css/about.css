@@ -63,3 +63,34 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+
+
+
+/* STARTING POINT */
+
+.topbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:100%;
+    padding:20px 20px 20px 20px;
+}
+
+.aboutpage{
+    width:100%;
+    margin:auto;
+    padding:30px;
+    margin-bottom: 3%;
+    border-bottom: 2px dotted black;
+
+}
+
+.skytowers{
+    width:100%;
+}
+
+.group1{
+    display:flex;
+    justify-content: space-between;
+
+}
