@@ -233,10 +233,13 @@ footer nav a {
 
 .middle-content .boxes .box{
     color: white;
-    justify-content: center;
     align-items: center;
     display: flex;
-    
+    width: 70px;
+    height: 70px;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 30px;
 }
 
 footer {
