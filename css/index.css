@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+.nav_bar img {
+    margin-top:  30px;
+    margin-left: 560px;
+    
+}
+.nav_bar a {
+    border: 2 grey;
+	color: black;
+    text-decoration: none;
+    margin: 15px;
+    
+}
+
+.logo{
+   
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
