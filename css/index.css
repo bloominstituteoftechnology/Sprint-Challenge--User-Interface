@@ -30,8 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    padding: 28%;
-    margin:auto;
+   padding-top: 1%;
+   padding-left:28%;
+   padding-right:28%;
+   background-color: ;
+  
 }
 ol, ul {
 	list-style: none;
