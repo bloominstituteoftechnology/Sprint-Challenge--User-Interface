@@ -112,6 +112,11 @@ header nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-content .text-about {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
 .top-content h2 {
     margin-top: 5%;
 }
@@ -204,4 +209,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-content button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2% 6%;
+    margin: 5% 0 5% 0;
+    background: white;
+    color: black;
+    font-size: 16px;
+}
+
+.about-content .about-box {
+    width: 46%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-content .about-box img {
+    margin-bottom: 3%;
+}
+
+.about-bottom {
+    margin: 25px auto;
 }
