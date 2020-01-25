@@ -89,6 +89,9 @@ nav a{
 .jumbo{
     margin: 20px;
 }
+.jumbo img{
+    width: 100%;
+}
 
 .top-content {
     display: flex;
@@ -119,6 +122,12 @@ nav a{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.middle-content .sources{
+    display: flex;
+    flex-flow: column;
+}
+
 
 .middle-content .boxes .box {
     width: 12.5%;
