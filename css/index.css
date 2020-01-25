@@ -241,3 +241,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover{
+  color:white;
+}
