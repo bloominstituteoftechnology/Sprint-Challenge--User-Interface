@@ -168,3 +168,18 @@ footer nav a {
     /* Nothing yet */
     
 }
+
+.container about-page {
+   /* Nothing yet */
+display: flex;
+border: 1px solid blue;
+}
+
+.containerAB{
+/* Nothing yet */
+border: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
