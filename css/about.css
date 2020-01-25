@@ -157,3 +157,69 @@ nav a{
     border-radius: 10px;
     text-align: center;
 }
+
+.description2{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.info3{
+    padding: 20px 30px 20px 30px;
+    border-bottom:2px dotted black;
+    margin-right:3%;
+}
+
+.info4{
+    padding: 20px 30px 20px 30px;
+    border-bottom:2px dotted black;
+
+}
+
+
+.learn3{
+    border:3px solid black;
+    background-color: white;
+    padding:10px;
+    width:27%;
+    margin-top:3%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.learn4{
+    border:3px solid black;
+    background-color: white;
+    padding:10px ;
+    width:27%;
+    margin-top:3%;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.finalnote{
+    padding: 30px;
+}
+
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+footer nav a{
+    color:white;
+}
+
