@@ -66,6 +66,24 @@ p {
     line-height: 1.4;
 }
 
+.nav_bar img {
+    margin-top:  30px;
+    margin-left: 560px;
+    
+}
+.nav_bar a {
+    border: 2 grey;
+	color: black;
+    text-decoration: none;
+    margin: 15px;
+    
+}
+
+.logo{
+   
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +161,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.boxes {
+
+    /* Nothing yet */
+    
+}
+
+.container about-page {
+   /* Nothing yet */
+display: flex;
+border: 1px solid blue;
+}
+
+.containerAB{
+/* Nothing yet */
+border: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
