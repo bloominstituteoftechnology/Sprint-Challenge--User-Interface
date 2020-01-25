@@ -88,6 +88,12 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+}
+
+.middle-about{
+    flex-direction: column;
+    display: flex;
 }
 
 .middle-content h2 {
@@ -175,21 +181,21 @@ footer nav a {
     to {transform:rotate(360deg);}
 }
 
-.box3 {
+.box3{
     background: cadetblue;
     display: 2;
 	animation: spin;
 	animation-duration: 3s;
 }
 
-.box4 {
+.box4{
     background: coral;
     display: 2;
 	animation: slidein2;
 	animation-duration: 3s;
 }
 
-.box5 {
+.box5{
     background: crimson;
     display: 2;
 	animation: spin;
@@ -203,30 +209,31 @@ footer nav a {
 	animation-duration: 3s;
 }
 
-.box7 {
+.box7{
     background: darkorchid;
     display: 2;
 	animation: spin;
 	animation-duration: 3s;
 }
 
-.box8 {
+.box8{
     background: hotpink;
     display: 2;
 	animation: slidein2;
 	animation-duration: 3s;
+    
 }
 
 .box9{
     background: indigo;
-    display: 2;
+    
 	animation: spin;
 	animation-duration: 3s;
 }
 
-.box10 {
+.box10{
     background: dodgerblue;
-    display: 2;
+    
 	animation: slidein2;
 	animation-duration: 3s;
 }
@@ -248,4 +255,23 @@ footer nav a {
     align-items: center;
     display: flex;
     
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
