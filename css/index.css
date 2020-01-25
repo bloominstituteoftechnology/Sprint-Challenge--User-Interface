@@ -145,3 +145,61 @@ footer nav a {
     text-decoration: none;
 }
 
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+}
+
+.middle-content .boxes .box{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
