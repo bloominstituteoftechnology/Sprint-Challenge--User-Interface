@@ -33,25 +33,31 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    * Semantic HTML just means HTML that is organized in a way that has _meaning_. Basically, you need to use tags that make sense for what you're using them for. With semantic HTML your markup will basically "make sense" to anyone who inspects your webpage or joins your project.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    * Block always starts on a new line and and fills 100% of the horizonal space by default as where inline displays on the current line and only takes up as much space as its content needs. 
 
 3. What are the 4 areas of the box model?
+    * Content, Padding, Border, Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    * The cross axis.
 
 5. Explain why git is valuable to a team of developers.
+    * Git allows for teams to safely work together on a project or even the same file
+without tripping over eachother and gives the ability to easily revert problematic changes.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -69,30 +75,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [X] Build the HTML and CSS to create the missing navigation and header.
+* [X] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [X] box1: `teal`
+* [X] box2: `gold`
+* [X] box3: `cadetblue`
+* [X] box4: `coral`
+* [X] box5: `crimson`
+* [X] box6: `forestgreen`
+* [X] box7: `darkorchid`
+* [X] box8: `hotpink`
+* [X] box9: `indigo`
+* [X] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Copy and paste your home page navigation and header into the about page
+* [X] Update the header image with the about page image
+* [X] Link the `Home` navigation item back to the `index.html` page.
+* [X] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
