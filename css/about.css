@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    padding: 15%;
+    padding: 20%;
     margin:auto;
 }
 ol, ul {
@@ -83,7 +83,6 @@ nav a{
 
 .aboutpage{
     width:100%;
-    margin:auto;
     padding:30px;
     margin-bottom: 3%;
     border-bottom: 2px dotted black;
@@ -94,17 +93,48 @@ nav a{
     width:100%;
 }
 
-
-.group1{
+/*
+.grouppic1{
     display:flex;
     justify-content: space-around;
     border:2px solid black;
+ 
+}
+
+.picscale1{
+    width:50%;
+    height:150%;
+
 }
 
 
-.info1{
-    padding:30px;
+.pic1{
+   
 
+}
+
+.pic2{
+    
+}
+*/
+.description1{
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+    
+.info1{
+   padding:20px 30px 20px 30px;
+   border-bottom:2px dotted black;
+   margin-right:3%;
+
+
+}
+
+.info2{
+    padding:20px 30px 20px 30px;
+    border-bottom:2px dotted black;
 
 }
 
@@ -112,7 +142,7 @@ nav a{
     border:3px solid black;
     background-color: white;
     padding:10px;
-    width:17%;
+    width:27%;
     margin-top:3%;
     border-radius: 10px;
     text-align: center;
@@ -121,8 +151,8 @@ nav a{
 .learn2{
     border:3px solid black;
     background-color: white;
-    padding:10px;
-    width:17%;
+    padding:10px ;
+    width:27%;
     margin-top:3%;
     border-radius: 10px;
     text-align: center;
