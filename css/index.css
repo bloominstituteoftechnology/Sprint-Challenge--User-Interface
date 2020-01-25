@@ -85,16 +85,7 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    display: flex;
-}
 
-.middle-about{
-    flex-direction: column;
-    display: flex;
-}
 
 .middle-content h2 {
     padding: 0 2%;
@@ -107,16 +98,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .bottom-content {
     display: flex;
@@ -226,7 +208,7 @@ footer nav a {
 
 .box9{
     background: indigo;
-    
+    display: 2;
 	animation: spin;
 	animation-duration: 3s;
 }
