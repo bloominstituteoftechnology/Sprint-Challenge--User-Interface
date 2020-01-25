@@ -44,9 +44,31 @@ q:before, q:after {
 }
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+    border-spacing: 0;
+    padding: 20px;
 }
 
+header nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    align-content: space-around;
+    
+}
+
+
+img {
+    max-width: 100%;  
+    padding: 10px;
+  }
+
+header nav a {
+	margin: 50px 15px 0 40px;
+  color: grey;
+  font-size: 14px;
+  text-decoration: none;
+  
+}
 * {
     box-sizing: border-box;
 }
@@ -143,4 +165,3 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
