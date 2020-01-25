@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    padding: 20%;
+    padding: 26%;
     margin:auto;
 }
 ol, ul {
@@ -124,7 +124,7 @@ nav a{
     border:3px solid black;
     background-color: white;
     padding:10px;
-    width:27%;
+    width:30%;
     margin-top:3%;
     border-radius: 10px;
     text-align: center;
@@ -134,7 +134,7 @@ nav a{
     border:3px solid black;
     background-color: white;
     padding:10px ;
-    width:27%;
+    width:30%;
     margin-top:3%;
     border-radius: 10px;
     text-align: center;
@@ -169,7 +169,7 @@ nav a{
     border:3px solid black;
     background-color: white;
     padding:10px;
-    width:27%;
+    width:30%;
     margin-top:3%;
     border-radius: 10px;
     text-align: center;
@@ -179,7 +179,7 @@ nav a{
     border:3px solid black;
     background-color: white;
     padding:10px ;
-    width:27%;
+    width:30%;
     margin-top:3%;
     border-radius: 10px;
     text-align: center;
