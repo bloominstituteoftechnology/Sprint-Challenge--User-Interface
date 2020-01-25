@@ -238,3 +238,26 @@ footer nav a {
 .about-bottom {
     margin: 25px auto;
 }
+
+.contact-form {
+    border-bottom: 1px dashed black;
+    display: flex;
+    padding: 2%;
+}
+
+.contact-form input {
+    margin: 1%;
+    border: 1px solid black;
+}
+.contact-form .comments {
+    margin: 1%;
+    border: 1px solid black;
+    background: white;
+    padding: 10px 40px;
+}
+.contact-form textarea {
+    border: 1px solid black;
+}
+.contact-form .comments {
+    margin-bottom: 5%;
+}
