@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +144,102 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: darkslategrey;
+    padding-top: 0;
+}
+
+header nav a:hover {
+    color: black;
+}
+
+img{
+    padding-bottom: 20px;
+}
+
+.box1{
+    background: #428280;
+}
+.box2 {
+    background: #fcd713;
+}
+.box3 {
+    background: #5f9ea0;
+}
+.box4 {
+    background: #e97a50;
+}
+.box5 {
+    background: #df4e3d;
+}
+.box6 {
+    background: #528c22;
+}
+.box7 {
+    background: #9e5bcc;
+}
+.box8 {
+    background: #e264b4;
+}
+.box9 {
+    background: #513481;
+}
+.box10 {
+    background: #1e90fe;
+}
+
+.top-content .text-container-single {
+    padding: 0 2%;
+    padding-bottom: 20px;  
+}
+
+.middle-content .text-container {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0;
+    /* padding: 0 1%; */
+    padding-bottom: 20px;  
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content .text-container p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.fun-button {
+    width: 35%;
+    padding: 2.5% 5%;
+    border: 1.5px solid darkslategrey;
+    border-radius: 7px;
+    text-align: center
+}
+
+.fun-button:hover {
+    background: black;
+    color: greenyellow;
+}
+
+.clear-bottom {
+    border-bottom: 0;
+}
+
+.space-bottom {
+    margin-bottom: 20px;
+}
+
