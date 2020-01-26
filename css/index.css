@@ -144,3 +144,163 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header.section{
+	height: 10%;
+	width: 100%;
+	border: 2px solid silver;
+}
+
+/* top Navigation Section */
+header nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    /*margin-right: 20%*/
+
+}
+
+header nav a{
+	text-decoration: none;
+    color: black;
+}
+.img-container{
+    margin-bottom: 2%;
+}
+/* About page */
+.about-top-section{
+    display: flex; 
+    margin-bottom: 2%;
+    border-bottom: .5px dashed black;
+}
+.about-img{
+    margin-bottom: 2%;
+}
+.about-text{
+    margin-bottom: 2%;
+    border-bottom: .5px dashed black;
+}
+.about-services{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.info-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: flex-end;
+    align-items: center;
+	width: 350px;
+    border-bottom: .5px dashed black;
+    margin: 1.5%;
+	
+}
+.top-services{
+    display: flex;
+    flex-direction: row;
+}
+.info-box img{
+    max-width: 100%;
+    padding-right: 1.5%;
+}
+.learn-more{
+	color: black;
+	background: white;
+	border: 1px solid black;
+	margin: 4%;
+    padding: 1.5% 5% 1.5% 5%;
+    border-radius: 7px;
+}
+.working-together{
+    margin-bottom: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+ .lambda-box{
+    max-width:70px;
+    position: relative;
+    animation-name: color-shift;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.contact-form{
+margin: 3% 0 3% 0;
+}
+
+.contact-form button{
+    border-radius: 25px;
+    color: white;
+    background: black;
+    border: none;
+    margin: 1%
+    
+}
+.contact-form input[type=text]{
+    background-color: lightgray;
+    color: black;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 25px;
+    padding-left: 2%;
+    margin: 1%;
+}
+.contact-form input[type=email]{
+    background-color: lightgray;
+    color: black;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 25px;
+    padding-left: 2%;
+    margin: 1%;
+}
+.contact-form input[type=text]:focus{
+    width: 70%;
+}
+.contact-form input[type=text]:focus{
+    width: 70%;
+}
+.contact-form select{
+    border-radius: 25px;
+    background-color: lightgray;
+    color: gray;
+    padding-left: 2%;
+    margin: 1%;
+    
+}
+.contact-form button:hover{
+    background: transparent;
+    color: black;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+}
+.lambda{
+    max-width: 60%;
+    animation-name: color-shift;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+@keyframes color-shift {
+    0%{filter:contrast(50%);}
+    25%{filter:hue-rotate(90deg);}
+    50%{filter:hue-rotate(50deg);}
+    75%{filter:drop-shadow(16px 16px 20px blue) invert(75%);}
+    100%{filter:hue-rotate(170deg)''}
+}
+.headers{
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+
+/* @media screen and (min-width: 480px) {
+    .top-services {flex-direction: column;}
+}*/

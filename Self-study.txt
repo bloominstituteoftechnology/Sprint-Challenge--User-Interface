@@ -1,0 +1,10 @@
+1 If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is the code that makes your code more easily readable and understandable to others and also to screen readers. It uses tags that give a clear idea as to the purpose of each section and element.
+2 Name two big differences between display: block; and display: inline;
+Display inline will only take up as much space as needed while display block will take up as much space as the parent element will allow
+3 What are the four areas of the box model?
+1. Content 2. Padding 3. Border 4. Margin
+While using flexbox, what axis does the following property work on: align-items: center?
+While using the default direction of flexbox align items: center will work on the y axis but if you're using columns align-items will work on the x axis.
+Explain why git is valuable to a team of developers
+Git is valuable to a team of developers because it allows them to have both version and source control 
