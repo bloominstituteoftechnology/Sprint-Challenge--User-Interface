@@ -144,3 +144,205 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*My code starts here*/
+.menu-container{
+    display:flex;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+
+.menu-container nav{
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    padding-top: 4%;
+}
+
+.menu-container nav a{
+    text-decoration: none;
+    color: black;
+}
+.jumbo-img{
+    padding-bottom: 3%;
+}
+.middle-content .boxes .teal{
+    background-color: teal;
+}
+.middle-content .boxes .gold{
+    background-color: gold;
+}
+.middle-content .boxes .cadetblue{
+    background-color: cadetblue;
+}
+.middle-content .boxes .coral{
+    background-color: coral;
+}
+.middle-content .boxes .crimson{
+    background-color: crimson;
+}
+.middle-content .boxes .forestgreen{
+    background-color: forestgreen;
+}
+.middle-content .boxes .darkorchid{
+    background-color: darkorchid;
+}
+.middle-content .boxes .hotpink{
+    background-color: hotpink;
+}
+.middle-content .boxes .indigo{
+    background-color: indigo;
+}
+.middle-content .boxes .dodgerblue{
+    background-color: dodgerblue;
+}
+.about-page header{
+    padding-bottom:2%;
+    border-bottom: 1px dashed black;
+}
+.about-content-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-content{
+    width:48%;
+    border-width: 80%;
+    border-bottom: 1px dashed black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.about-content h2{
+    padding-top:2%;
+}
+.about-content p{
+    padding-bottom: 8%;
+}
+.about-content a{
+    border-width: 5px;
+	border: 2px solid black;
+	text-align: center;
+	width:40%;
+	padding: 3% 7% 3% 7%;
+	text-decoration: none;
+	margin-top: 2%;
+	color: black;
+	border-radius: 12px;
+}
+.about-worktogether{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contact-form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+.req{
+    color:red;
+    padding-left: 5px;
+}
+.dude-lives{
+    width:40%;
+    padding-right: 5%;
+}
+.dude-lives img{
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.user-input{
+    width:50%;
+}
+.user-input input{
+    border: 1px solid black;
+    background: none;
+    -webkit-appearance: none;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 0;
+    color:#444;
+}
+.user-input div{
+    margin-bottom: 1em;
+}
+.user-input textarea{
+    border: 1px solid black;
+    background: none;
+    -webkit-appearance: none;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    box-sizing: border-box;
+    border-radius: 0;
+    color:#444;
+    font: 1em "Franklin ITC Light", sans-serif;
+}
+.user-input select{
+    margin-top: 0.5em;
+}
+
+@-webkit-keyframes heartBeat {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    14% {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  
+    28% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    42% {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  
+    70% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+@keyframes heartBeat {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    14% {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  
+    28% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    42% {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+    }
+  
+    70% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  .heartBeat {
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
