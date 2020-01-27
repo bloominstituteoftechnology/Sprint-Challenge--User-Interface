@@ -32,13 +32,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? 
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Sematic HTML adds meaning to a page.  It allows to create a page that is not just a page or words or characters.  The content is divided and chategorize so that it is understood what is it.  For example, when writing a title, when the tag h1 is added, it gives it is chategorized as the title.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;``` 
+
+The two big differences between display:block and display: inline is that display:block means that an element is displayed as a block, it forces a line break after the block element and it requires a full-width unless width is defince.  Display:inline means it allso for left and right margins and padding but not top and bottom, it also allows elements to sit next to each other. 
 
 3. What are the 4 areas of the box model?
 
+There is the content, the padding, the border and the margin on a box model
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+
 
 5. Explain why git is valuable to a team of developers.
 
