@@ -94,7 +94,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-
 }
 
 .top-content {
@@ -277,4 +276,88 @@ footer nav a {
 }
 
 
-/* CSS for Aout.html */
+/* CSS for About.html */
+
+.skyline {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.section1 {
+    display: flex;
+    justify-content: flex-start;    
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px 0px 20px 0px;
+    
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: flex-start;    
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black; 
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+.collab {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+h3 {
+    margin: 20px 0px 20px 0px;
+}
+button {
+    width: 100px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.letswork {
+    margin-bottom: 20px;
+}
+
+
+
+
