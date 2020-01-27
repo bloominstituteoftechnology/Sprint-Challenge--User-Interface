@@ -272,3 +272,74 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+a:hover{
+    animation: explosion 0.3s infinite;
+}
+
+@keyframes explosion {
+    0% {
+      background-image: linear-gradient(to right,white, gray, gray, gray, gray )
+    }
+    20% {
+      background-image: linear-gradient(to right, gray , white, gray, gray, gray)
+    }
+    50%{
+      background-image: linear-gradient(to right, gray , gray, white, gray,  gray)
+    }
+    70%{
+      background-image: linear-gradient(to right, gray , gray, gray, white,  gray)
+    }
+      100% {
+      background-image: linear-gradient(to right, gray, gray, gray, gray,  white)
+  }
+  }
+
+  p {
+    animation-duration: 3s;
+    animation-name: slideleft;
+  }
+  
+  @keyframes slideleft {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  h1,h2 {
+    animation-duration: 3s;
+    animation-name: slideright;
+  }
+  
+  @keyframes slideright {
+    from {
+      margin-right: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  img {
+    animation-duration: 3s;
+    animation-name: slidebottom;
+  }
+  
+  @keyframes slidebottom {
+    from {
+      margin-bottom: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
