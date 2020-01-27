@@ -253,3 +253,15 @@ footer nav a {
     margin-top:  30px;
     margin-left: 560px;
 }
+
+.AboutBoxes {
+display: flex;
+flex-flow: row wrap;
+}
+
+.AboutBoxesSectioned {
+   border-bottom:   dotted;
+   Width: 50%; 
+   padding-top: 3%;
+    padding-bottom: 3%;
+}
