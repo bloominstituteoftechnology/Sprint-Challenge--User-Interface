@@ -356,11 +356,25 @@ button {
     font-size: 16px;
 }
 
+button:hover {
+    background: black;
+    color: white;
+}
+
 .letswork {
     margin-bottom: 30px;
     margin-top: 30px;
     width: 90%
     text-align: center;
+}
+
+a:hover {
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 16px;
 }
 
 
