@@ -260,8 +260,16 @@ flex-flow: row wrap;
 }
 
 .AboutBoxesSectioned {
-   border-bottom:   dotted;
+   border-bottom:  1px dashed;
    Width: 50%; 
    padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.button{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    font-size: 18px;
+    border-radius: 8px;
 }
