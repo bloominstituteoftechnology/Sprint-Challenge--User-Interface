@@ -71,6 +71,48 @@ p {
     margin: 0 auto;
 }
 
+/*Top navigation bar styles*/
+.navbar {
+    display: flex;
+}
+
+.navbar_menu {
+    margin-left: 10%;
+    margin-top: 1.5em;
+    width: 70%;
+
+}
+.navbar_menu ul {
+    display: flex;
+}
+
+.navbar_menu ul li {
+    font-size: 1rem;
+    margin-right: 12%;
+}
+
+.navbar_menu ul li a {
+
+    color: #000;
+    text-decoration: none;
+}
+
+
+.navbar_menu ul li a:hover {
+    color: hotpin;
+    background-color: red;
+    border: 2px green solid;
+}
+
+h2:hover {
+    color: red;
+    transform: skewY(2deg)
+}
+
+/* Image banner */
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,12 +121,17 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.banner {
+    margin: 1.5em 0;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+ 
+/* *Section box grid */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -105,11 +152,31 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
+    border: 1px solid gold;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.middle-content .boxes .box:hover {
+    width: 12.5%;
+    height: 100px;
+    background: red;
+    border: 1px solid green;
+    margin: 20px 2.5%;
+    color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* STyling indvidual box */
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    
 }
 
 .bottom-content {
