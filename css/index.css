@@ -71,11 +71,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-/*Begins index.html */
+/*BEGINS INDEX.HTML */
 Body {
     margin: 0 15%;
 }
-/*Header contains Navigation*/
+/*HEADER/ NAVIGATION SECTION*/
 #home{
     display: flex;
     flex-direction: row-reverse;
@@ -104,20 +104,20 @@ nav a:hover {
     from {background-color: #C8E2C8;}
     to {background-color: black;}
 }
-/*Ends Navigation*/
+
 .logo {
     margin: 2% 0;
     
 }
-/*Image-Top Section*/
+
 .image-top {
     margin: 3% auto;
     width: 100%;
     display: flex;
     justify-content: center;
 }
-/*Ends Image-Top and Header*/
-/*1st section contains The Future and The Past*/
+/*ENDS HEADER/NAVIGATION*/
+/*1ST SECTION .TOP-CONTENT (THE FUTURE/PAST)*/
 
 .top-content {
     display: flex;
@@ -132,8 +132,8 @@ nav a:hover {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-/*End of the First section*/
-/*2nd section Why Did It Have To Be Boxes*/
+/*ENDS 1ST SECTION .TOP-CONTENT (THE FUTURE/PAST)*/
+/*2ND SECTION .MIDDLE-CONTENT (WHY DID IT HAVE TO BE BOXES)*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -210,8 +210,8 @@ nav a:hover {
     background-color: dodgerblue;   
 }
 
-/*End of Second section  */
-/*3rd section That's, No and Moon*/
+/*ENDS 2ND SECTION .MIDDLE-CONTENT (WHY DID IT HAVE TO BE BOXES)*/
+/*3RD SECTION .BOTTOM-CONTENT (THAT'S/ NO/ MOON)*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -225,8 +225,8 @@ nav a:hover {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-/*Ends Third section*/
-/*Footer section*/
+/*ENDS 3RD SECTION .BOTTOM-CONTENT (THAT'S/ NO/ MOON)*/
+/*FOOTER SECTION*/
 footer {
     width: 100%;
     background: black;
@@ -245,10 +245,10 @@ footer nav a {
     color: white;
     text-decoration: none; 
 }
-/*End of Footer Section and END OF INDEX.HTML*/
+/*ENDS FOOTER SECTION, ENDS INDEX.HTML*/
 
 /*BEGINS ABOUT.HTML*/
-/* Begins 1st section ABOUT*/
+/*.CONTAINER (ABOUT)*/
 section.container {
     border-bottom: 1px dashed black;
 
@@ -257,8 +257,8 @@ div.about p{
     width: 100%;
     margin: 2.5%;
 }
-/*Ends first section*/ 
-/*Begins 2nd section Strategy and How we Work*/
+/*ENDS .CONTAINER (ABOUT)*/ 
+/*.FIRST-SECTION: .STRATEGY/ .HOW-WE-WORK*/
 .first-section {
     display:flex;
     width: 100%;
@@ -285,8 +285,8 @@ div.how-we-work img {
     margin: 2.5%;
     border-bottom: 1px dashed black;
 }
-/*Ends Second section*/
-/*Begins 3rd Section Places We Work and Collaboration*/
+/*ENDS .FIRST-SECTION: .STRATEGY/ .HOW-WE-WORK*/
+/*.SECOND-SECTION: .PLACES/ .COLLABORATION*/
 .second-section {
     display: flex;
     justify-content: space-evenly;
@@ -312,7 +312,8 @@ div.collaboration img {
     margin: 2.5%;
     border-bottom: 1px dashed black;
 }
-
+/*ENDS .SECOND-SECTION: .PLACES/ .COLLABORATION*/
+/*sTYLE FOR ALL BUTTONS*/
 button {
     margin: 3% 0;
     padding: 5px 30px;
@@ -323,22 +324,23 @@ button:hover {
     border-radius: 10px;
     padding: 20px;
 }
-
+/*ENDS BUTTON STYLES*/
+/*lETS WORK TOGETHER SECTION BOTTOM OF ABOUT.HTML*/
 section {
     margin-bottom: 4%;
 }
-
-/*MEDIA QUERY*/ 
+/*ENDS LET'S WORK TOGETHER*/
+/*MEDIA QUERY BEGINS FOR INDEX.HTML (500PX)*/ 
 
 @media (max-width: 500px) {
     div#home {
         width: 100%;
         flex-direction: column-reverse;       
-    }/*end of div#home*/   
+    }/*ENDS DIV#HOME*/   
     
     div#home nav {
         width: 100%;              
-    } /*ends nav*/      
+    } /*ENDS NAV*/      
 
     .logo {
         margin: 1.5%;
@@ -380,13 +382,31 @@ section {
 
 /*BEGINS MEDIA QUERY FOR ABOUT.HTML*/
 @media (max-width: 500px) {
+    h2 {
+        margin-top: 2.5%;
+    }
     .first-section {
         flex-direction:column;
     }/*eND OF .FIRST-SECTION*/
     .strategy {
+        margin: 5% 0;
         width: 100%;
     }/*ENDS .STRATEGY*/
     .how-we-work {
+        margin: 5% 0;
         width:100%;
-    }
+    }/*ENDS .HOW-WE-WORK*/
+}/*ENDS MEDIA QUERY*/
+@media (max-width: 500px) {
+    .second-section {
+        flex-direction:column;
+    }/*ENDS .SECOND-SECTION*/
+    .places {
+        margin: 5% 0;
+        width: 100%;
+    }/*ENDS .PLACES*/
+    .collaboration {
+        margin: 5% 0;
+        width:100%;
+    }/*ENDS COLLABORATION*/
 }/*ENDS MEDIA QUERY*/
