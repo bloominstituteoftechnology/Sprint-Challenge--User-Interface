@@ -144,3 +144,201 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* my codes */
+
+.container-about-page{
+    display: flex;  
+    
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-bottom: 1%;
+    
+} 
+.landscape{
+    display: flex;
+    justify-content: center;
+    padding: 1% 3%;
+}
+
+
+.navigation{
+    
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+}
+.about-plan{
+    padding: 1% 15%;
+    width: 100%;
+   
+}
+.mid-section{
+    display: flex;
+    
+    height: 150%;
+    padding: 1% 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.strategy-2{
+    width: 40%;
+    
+    height: 40%;
+    margin: 2%;
+
+}
+.how-we-work{
+    
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+}
+.places-we-work{
+    
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+}
+.collaboration{
+    
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+}
+
+.lets-work-together{
+    padding: 1% 12%;
+
+}
+
+.jumbo{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+.boxbox1{
+width: 12.5%;
+height: 100px;
+margin: 20px 2.5%;
+display: flex  ;    
+align-items: center;
+justify-content: center;
+background-color: teal;
+}
+.boxbox2{
+width: 12.5%;
+height: 100px;
+margin: 20px 2.5%;
+display: flex  ;    
+align-items: center;
+justify-content: center;
+background-color: gold;
+}
+.boxbox3{
+    width: 12.5%;
+height: 100px;
+margin: 20px 2.5%;
+display: flex  ;    
+align-items: center;
+justify-content: center;
+background-color:cadetblue ;
+}
+.boxbox4{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex  ;    
+    align-items: center;
+    justify-content: center;
+    background-color: coral ;
+}
+.boxbox5{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex  ;    
+    align-items: center;
+    justify-content: center;
+    background-color:crimson ;
+}
+.boxbox6{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex  ;    
+    align-items: center;
+    justify-content: center;
+    background-color:forestgreen ;
+}
+.boxbox7{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex  ;    
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+.boxbox8{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex  ;    
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+.boxbox9{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex  ;    
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+.boxbox10{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex  ;    
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+/*
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML elements clearly describe it's meaning in a human and machine readable way. Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The major difference is that display: inline-block allows to set a width and height on the element.
+
+3. What are the 4 areas of the box model?
+
+the content edge, padding edge, border edge, and margin edge.
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+On the cross axis, if we are using row.
+
+5. Explain why git is valuable to a team of developers.
+
+
+It allows team members to work on a certain project without having to be next to eachother. 
+
+
+
+*/
