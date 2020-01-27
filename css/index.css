@@ -231,3 +231,27 @@ button{
 	border-radius: 10px;
 	cursor: pointer;
 }
+
+
+.colorful {
+	animation-name: changeColor;
+	animation-duration: 4s;
+}
+
+@keyframes changeColor {
+	0%{
+		background:crimson;
+	}
+	25%{
+		background: gold;
+	}
+	50%{
+		background: yellow;
+	}
+	75%{
+		background: antiquewhite;
+	}
+	100%{
+		background: white;
+	}
+}
