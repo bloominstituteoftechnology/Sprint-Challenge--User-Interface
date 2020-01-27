@@ -104,13 +104,36 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1{background-color: teal !important;}
+
+.box2{background-color: gold !important;}
+
+.box3{background-color: cadetblue !important;}
+
+.box4{background-color: coral !important;}
+
+.box5{background-color: crimson !important;}
+
+.box6{background-color: forestgreen !important;}
+
+.box7{background-color: darkorchid !important;}
+
+.box8{background-color: hotpink !important;}
+
+.box9{background-color: indigo !important;}
+
+.box10{background-color: dodgerblue !important;}
+
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +167,56 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.containerabout-page{margin: 0 auto;
+	width: 90%;}
+
+
+nav{ display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;}
+
+    .TopImage{width: 100%;
+        border-radius: 10px;
+        
+        align-items: center;}
+
+.ABOUTSECTION{ width: 100%;
+                border-bottom: 1px dashed black;
+            padding: 2%;
+            margin-bottom: 10px;}
+
+            
+
+.MidSection{display: flex;
+    flex-flow: wrap;
+     }
+
+
+.Seperator{ 
+        width: 45%;
+        text-align: left;
+        margin: 20px;
+        border-bottom: 1px dashed black;
+        }
+
+        .startbutton{ height: 9%;
+            width: 15%;
+            border-radius: 5px;
+            border: 1px solid black;}
+
+.WorkTogether{width: 100%;
+padding: 2%;
+margin-bottom: 10px;}
+
+h1{font-style: italic;
+    text-shadow: 2px 2px 5px steelblue;}
+
+.top-content{margin-top: 10px;}
+
+h2{text-shadow: 2px 2px 5px firebrick;}
+
+
+
