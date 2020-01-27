@@ -73,7 +73,7 @@ h1 {
     background: orange;
 }
 
-a {
+.Top-Navigation a {
     text-decoration: none;
     color: black;
     font-size: 25px;
@@ -97,27 +97,36 @@ a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    flex-direction: row;
+
 }
 
 .top-content .text-container1 {
     width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 200px;
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background: pink;
     display: flex;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: row;
+    
 }
 
 .top-content .text-container2 {
     width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    display: flex;
-    margin-top: 500px;
+    margin-top: 0px;
     margin-left: 500px;
-    margin-right: 100px;
-    background: purple:
+    margin-right: 50px;
+    margin-bottom:100px;
+    background: purple;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
@@ -135,6 +144,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    display: -webkit-flex;
 }
 
 .middle-content .boxes .box1 {
@@ -146,6 +156,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: flex;
+    
+    
 }
 
 .middle-content .boxes .box2 {
@@ -157,6 +170,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: flex;
+    
+    
 }
 
 .middle-content .boxes .box3 {
@@ -168,6 +184,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    display:flex;
 }
 
 .middle-content .boxes .box4 {
@@ -176,9 +193,9 @@ a {
     background: coral;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    display: flex;
+    
 }
 
 .middle-content .boxes .box5 {
@@ -190,6 +207,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .middle-content .boxes .box6 {
@@ -251,6 +269,8 @@ a {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    flex-wrap: wrap;
+    display: -webkit-flex;
 }
 
 .bottom-content .text-container {
@@ -267,15 +287,21 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 20px;
+    font-size: 25px;
+    margin-right: 100px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 20px;
 }
