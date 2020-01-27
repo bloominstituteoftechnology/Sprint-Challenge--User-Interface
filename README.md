@@ -38,7 +38,7 @@ Semantic HTML gives your webpage meaning instead of just a presentation.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-
+Block creates a new line and takes up the full width of the line. Inline does not create a new lin and only takes up as much width as needed.
 
 3. What are the 4 areas of the box model?
 

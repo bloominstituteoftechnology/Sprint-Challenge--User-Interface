@@ -280,8 +280,8 @@ footer nav a {
 
 .skyline {
     display: block;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -291,7 +291,7 @@ footer nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;    
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -299,7 +299,7 @@ footer nav a {
 .section1 {
     display: flex;
     justify-content: flex-start;    
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-bottom: 1px dashed black; 
 }
 
@@ -323,7 +323,7 @@ footer nav a {
 .section2 {
     display: flex;
     justify-content: flex-start;    
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-bottom: 1px dashed black; 
 }
 
@@ -346,16 +346,21 @@ footer nav a {
 h3 {
     margin: 20px 0px 20px 0px;
 }
+
 button {
-    width: 100px;
+    width: 120px;
     margin-top: 50px;
     padding: 10px;
     border-radius: 10px;
     border: 2px solid black;
+    font-size: 16px;
 }
 
 .letswork {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 90%
+    text-align: center;
 }
 
 
