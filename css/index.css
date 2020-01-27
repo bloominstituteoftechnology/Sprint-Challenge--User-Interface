@@ -99,11 +99,27 @@ a {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
+.top-content .text-container1 {
+    width: 50%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+.top-content .text-container2 {
+    width: 50%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    display: flex;
+    margin-top: 500px;
+    margin-left: 500px;
+    margin-right: 100px;
+    background: purple:
+}
+
 
 .middle-content {
     margin-bottom: 20px;
