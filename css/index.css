@@ -66,6 +66,26 @@ p {
     line-height: 1.4;
 }
 
+h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    width: 150px;
+    background: orange;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    background:blue;
+    margin-left: 140px;
+    margin-right: 5px;
+    margin-top: 2px;
+    display: flex;
+    
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
