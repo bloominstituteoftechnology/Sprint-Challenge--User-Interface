@@ -44,6 +44,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
+1. Semantic HTML is the use of HTML markup to inforce sematics of information in webpages rather than define it's looks. 
+
+2. Block takes up the full width, with a line before and after. Inline only takes up as much width as it needs and does not force new lines. 
+
+3. Content, Padding, Border, and Margin. 
+
+4. Main axis. 
+
+5. Git allows a group of people/team to be able to quickly and effectively work together on one project rather than risking multiple 
+people working on the same thing thus extending the time to complete it potentially a lot longer. 
+
+
 ## Project Set Up
 
 - [ ] Create a forked copy of this project.

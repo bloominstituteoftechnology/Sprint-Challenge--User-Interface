@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+.topnav{
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: space-between;
+    width:780px;
+    margin-top:25px;
+    margin-left:550px;
+    align-items: baseline;   
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+    font-weight:bold;
+    
+}
+
+.midlogo{
+    margin-left: 550px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    
+}
+
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +130,117 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    margin: 20px 2.5%;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxone{
+    background-color:teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxtwo{
+    background-color:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxthree{
+    background-color:cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxfour{
+    background-color:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxfive{
+    background-color:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxsix{
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxseven{
+    background-color:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxeight{
+    background-color:hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxnine{
+    background-color:indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxten{
+    background-color:dodgerblue;
+    width: 12.5%;
+    height: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +279,85 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.abouttext{
+    padding:10px;
+    border:none;
+    border-bottom: 1px dotted;
+}
+
+.topimglong{
+    margin-left: 550px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* .toptext{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top:40px;
+    margin-bottom:40px;
+    border: 1px solid black;
+} */
+
+.LMbutton{
+    border: 1px solid black;
+    margin-top: 8px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.footertext{
+    margin-top: -10px;
+    margin-bottom: 25px;
+    padding:15px;
+    border-top: 1px dotted;
+}
+
+.toppic{
+    /* border:1px solid green; */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+
+.topinfo{
+    /* border:1px solid blue; */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.infosectiontop2{
+    /* border:1px solid orangered; */
+    margin-left:55px;
+}
+
+.bottompic{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+    margin-bottom: 20px;
+}
+
+.bottominfo{
+    /* border:1px solid blue; */
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.infosectionbottom2{
+    margin-left:55px;
 }
