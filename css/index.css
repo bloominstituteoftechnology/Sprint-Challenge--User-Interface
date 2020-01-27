@@ -117,6 +117,12 @@ header .logo {
     border-bottom: 1px dashed black;
 }
 
+.middle-content .aboutPg{
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: flex-start;
+}
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -213,4 +219,10 @@ footer nav a {
 .box9 {
   background: dodgerblue;
 
+}
+
+a .learnMore{
+	border-radius:25px;
+	border: 2px solid black;
+	text-decoration: none;
 }
