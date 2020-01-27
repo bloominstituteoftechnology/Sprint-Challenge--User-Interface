@@ -2,6 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,7 +58,9 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
 }
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -65,11 +71,53 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.container {
-    width: 800px;
-    margin: 0 auto;
+/*Begins index.html */
+Body {
+    margin: 0 15%;
 }
+/*Header contains Navigation*/
+#home{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#home nav {
+    margin: 3%;
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid black;
+    color:#DC143C;
+    animation-name: tabs;
+    animation-duration: 2s;
+}
+
+@keyframes tabs {
+    from {background-color: #C8E2C8;}
+    to {background-color: black;}
+}
+/*Ends Navigation*/
+.logo {
+    margin: 2% 0;
+    
+}
+/*Image-Top Section*/
+.image-top {
+    margin: 3% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*Ends Image-Top and Header*/
+/*1st section contains The Future and The Past*/
 
 .top-content {
     display: flex;
@@ -84,7 +132,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/*End of the First section*/
+/*2nd section Why Did It Have To Be Boxes*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +153,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +160,58 @@ p {
     justify-content: center;
 }
 
+.box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: teal;    
+}
+
+.box2 {
+    background-color:gold;    
+}
+
+.box3 {
+    background-color:cadetblue;   
+}
+
+.box4 {
+    background-color:coral;    
+}
+
+.box5 {
+    background-color:crimson;    
+}
+
+.box6 {
+    background-color:forestgreen;    
+}
+
+.box7 {
+    background-color:darkorchid;    
+}
+
+.box8 {
+    background-color:hotpink;    
+}
+
+.box9 {
+    background-color:indigo;   
+}
+
+.box10 {
+    background-color: dodgerblue;   
+}
+
+/*End of Second section  */
+/*3rd section That's, No and Moon*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,14 +225,15 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*Ends Third section*/
+/*Footer section*/
 footer {
     width: 100%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    margin-right: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,5 +243,87 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
 }
+/*End of Footer Section and END OF INDEX.HTML*/
+
+/*BEGINS ABOUT.HTML*/
+/* Begins 1st section ABOUT*/
+section.container {
+    border-bottom: 1px dashed black;
+
+}
+div.about p{
+    width: 100%;
+    margin: 2.5%;
+}
+/*Ends first section*/ 
+/*Begins 2nd section Strategy and How we Work*/
+.first-section {
+    display:flex;
+    width: 100%;
+}
+div.strategy img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.strategy {
+    width:45%;
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+div.how-we-work img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.how-we-work {
+    width: 45%;
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+/*Ends Second section*/
+/*Begins 3rd Section Places We Work and Collaboration*/
+.second-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.places img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.places {
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+div.collaboration img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.collaboration {
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    margin: 3% 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+
+section {
+    margin-bottom: 4%;
+}
+ 
