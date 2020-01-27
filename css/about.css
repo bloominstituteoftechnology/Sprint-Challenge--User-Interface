@@ -68,11 +68,11 @@ p {
 a, a:visited, a:hover, a:active {
   color: inherit;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 nav {
     display: flex;
     align-items: flex-end;
@@ -80,91 +80,55 @@ nav {
     margin-bottom: 5%;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
 .top-content img{
-    margin-bottom: 4%;
+	margin-bottom: 4%;
 }
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.top-content{
+margin-bottom: 4%;
+border-bottom: 1px dashed black;
 }
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.container .about-page{
+	margin-bottom: 4%;
 }
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.first-flexbox{
+	display: flex;
 }
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.second-flexbox{
+	display: flex;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;  
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.flex{
+	margin-right: 3%;
+}
+.learn-more{
+border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
+border: 3px solid #000000;
+width:45%;
+padding: 3%;
+text-align: center;
+margin:6%;
 }
 .one{
-background-color: teal;
+margin-bottom: 4%;
+border-bottom: 1px dashed black;
 }
+
 .two{
-    background-color: gold;
+margin-bottom: 4%;
+border-bottom: 1px dashed black;
 }
 .three{
-    background: cadetblue;
+margin-bottom: 4%;
+border-bottom: 1px dashed black;
 }
 .four{
-    background: coral;
-}
-.five{
-background: crimson;
-}
-.six{
-    background: forestgreen;
-}
-.seven{
-    background-color: darkorchid;
-}
-.eight{
-background: hotpink;
-}
-.nine{
-    background: indigo;
-}
-.ten{
-    background: dodgerblue;
+margin-bottom: 4%;
+border-bottom: 1px dashed black;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.footer-nav{
+	margin-bottom: 8%;
 }
 
 footer {
@@ -185,3 +149,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
