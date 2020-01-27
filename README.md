@@ -47,9 +47,12 @@ There is the content, the padding, the border and the margin on a box model
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It would work on the vertical axis. 
 
 
 5. Explain why git is valuable to a team of developers.
+
+Git allows projects to create different versions of it with its branching capabilities. Team can collaborate by being able to merge its branches together.  Git also allows to keep track of every change that is made on a project.   
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
