@@ -326,4 +326,26 @@ button:hover {
 section {
     margin-bottom: 4%;
 }
- 
+
+/*MEDIA QUERY*/ 
+
+@media (max-width: 500px) {
+    #home {
+    display: flex;
+    flex-direction: column-reverse;    
+    
+    nav {
+        justify-content: space-evenly;
+    
+
+    .logo {
+        margin: 1.5%:
+        width: 20%;
+      }/*ends logo*/
+    }/*ends nav*/
+  }/*ends #home*/
+}/*ends media*/
+
+@media (max-width: 500px){
+
+}
