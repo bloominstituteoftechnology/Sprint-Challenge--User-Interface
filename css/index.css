@@ -65,7 +65,15 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    color: black;
+    }
 .container {
     width: 800px;
     margin: 0 auto;
@@ -98,10 +106,10 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
 }
 
-.middle-content .boxes .box {
+#middle-content .boxes {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -109,9 +117,97 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
-
+  .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: teal; 
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box2 {
+    background: Gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box3 {
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%; 
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box4 {
+    background: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box5 {
+    background: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%; 
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box6 {
+    background: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box7 {
+    background: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%; 
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box8 {
+    background: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box9 {
+    background: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%; 
+    display: Flex;
+    justify-content: space-around;
+  }
+  .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background: dodgerblue; 
+    display: Flex;
+    justify-content: space-around;
+  }
+  .bottom-content {
+      display: flex;
+      margin: 0 2% 20px;
+      justify-content: space-around;
+  }
+  
+  .bottom-content .text-container {
+      padding-right: 4%;
+  }
+  
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
