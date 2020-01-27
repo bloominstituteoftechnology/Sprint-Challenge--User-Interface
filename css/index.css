@@ -71,10 +71,28 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fastlane {
+    margin: 20px 50px 50px 50px;
+    width: 100%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 50px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -86,6 +104,7 @@ p {
 }
 
 .middle-content {
+    margin: 50px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -99,6 +118,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 20px 60px 20px 60px;
 }
 
 .middle-content .boxes .box1 {
@@ -229,6 +249,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin: 50px;
 }
 
 footer nav {
