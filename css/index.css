@@ -294,6 +294,7 @@ h2:hover {
 
 }
 
+/* Bottom text block*/ 
 
 
 .bottom-content {
@@ -309,6 +310,8 @@ h2:hover {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer section */
 
 footer {
     width: 100%;
