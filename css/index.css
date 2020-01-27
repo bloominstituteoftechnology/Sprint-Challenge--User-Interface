@@ -71,7 +71,7 @@ p {
     margin: 0 auto;
 }
 
-.top-content{
+.top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,34 +79,26 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container{
+.top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    margin: 20px 0;
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
-.logo{
-    width: 157px;
-    height: 41px;
-    margin-top: 14px;
-}
-
-.links{
-  padding-top: 37px;
-}
-
-.links a{
- padding-left: 80px;
- font-size: 13px;
- color:black;
- text-decoration: none;
- 
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
@@ -118,39 +110,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-nav a{
-    text-decoration: none;
-}
-
-.about-box h2{
-    margin-top: 50px;
-}
-
-.middle-about .about-box{
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.about-box div{
-  width: 800px;
-  height: 362px;
-}
-
-div img{
-    margin-left: 20px;
-}
-
-.top-about{
-    margin-top: 20px;
 }
 
 .bottom-content {
@@ -172,30 +131,6 @@ footer {
     background: black;
 }
 
-
-.container{
-    width: 800px;
-    margin: 0 auto;
-}
-
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0 40px 0;
-}
-
-.navigation nav a{
-    color: black;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 35px;   
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
 footer nav {
     width: 60%;
     display: flex;
@@ -210,14 +145,14 @@ footer nav a {
     text-decoration: none;
 }
 
-.box1 {
+.middle-content .boxes .box1 {
     background: teal;
-	display: 1;
-	animation: sspin;
+	display: 2;
+	animation: spin;
 	animation-duration: 3s;
 }
 
-.box2 {
+.middle-content .boxes .box2 {
     background: gold;
 	display: 2;
 	animation: slidein2;
@@ -240,42 +175,42 @@ footer nav a {
     to {transform:rotate(360deg);}
 }
 
-.box3{
+.middle-content .boxes .box3{
     background: cadetblue;
     display: 2;
 	animation: spin;
 	animation-duration: 3s;
 }
 
-.box4{
+.middle-content .boxes .box4{
     background: coral;
     display: 2;
 	animation: slidein2;
 	animation-duration: 3s;
 }
 
-.box5{
+.middle-content .boxes .box5{
     background: crimson;
     display: 2;
 	animation: spin;
 	animation-duration: 3s;
 }
 
-.box6 {
+.middle-content .boxes .box6{
     background: forestgreen;
     display: 2;
 	animation: slidein2;
 	animation-duration: 3s;
 }
 
-.box7{
+.middle-content .boxes .box7{
     background: darkorchid;
     display: 2;
 	animation: spin;
 	animation-duration: 3s;
 }
 
-.box8{
+.middle-content .boxes .box8{
     background: hotpink;
     display: 2;
 	animation: slidein2;
@@ -283,14 +218,14 @@ footer nav a {
     
 }
 
-.box9{
+.middle-content .boxes .box9{
     background: indigo;
     display: 2;
 	animation: spin;
 	animation-duration: 3s;
 }
 
-.box10{
+.middle-content .boxes .box10{
     background: dodgerblue;
     
 	animation: slidein2;
