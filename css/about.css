@@ -146,6 +146,14 @@ text-decoration: none;
 .banner {
     margin: 1.5em 0;
 }
+.banner_content {
+  background-color: powderblue;
+  color: black;
+  border: 4px solid gold;
+  padding: 20px;
+  transform: skewX(2deg);
+  border-radius: 10px;
+}
 
 .banner_content:hover {
     background-color: gold;
