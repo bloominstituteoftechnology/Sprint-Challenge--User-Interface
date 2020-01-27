@@ -90,7 +90,7 @@ p {
     padding: 10px; 
 } 
 
-.topLogo{
+.top-logo{
     float: left; 
     padding: 10px 10x 10px 10px; 
     
@@ -131,7 +131,7 @@ nav a:hover{
 /* Top Header Image */ 
 
 
-.banner-TopImage{
+.top-image{
     padding-top: 20px;
     padding-bottom: 20px; 
     margin-top: 16px;
@@ -142,13 +142,14 @@ nav a:hover{
 }
 
 
-.Header{
+.top-about{
     width: 100%;
     margin: 20px 20px 20px 20px;
     padding: 10px 10px 10px 10px; 
     border-top: 1px dashed black; 
 }
-.Header .container-about-page{
+
+.top-about .about-page{
     display: flex; 
     border-top: 1px dashed black; 
     margin: 10px 10px 10px 10px;
@@ -186,13 +187,13 @@ nav a:hover{
     margin: 10px 10px 10px 10px; 
     border-style: black dotted 2px; 
     height: 
-}   
+}
 
 img .text-container{
      
     margin: 20px 10px; 
     display: inline-block;
-   }
+}
 
 .button{
     padding: 10px 10px 10px 10px; 
@@ -215,10 +216,6 @@ button:hover{
     padding: 20px 20px 20px 20px; 
 }
 
-
-
-
-*/ 
 footer{
     width: 100%;
     margin-top: 10px; 
