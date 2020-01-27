@@ -66,6 +66,28 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 2%;
+    font-size: 14px;
+    margin-left: 210px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 595;
+    
+}
+
+.logo2 {
+    width: 63%;
+    margin: 20px auto 20px 235px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -82,12 +104,14 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    font-weight: 595;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font-weight: 595;
 }
 
 .middle-content h2 {
@@ -112,6 +136,11 @@ p {
     justify-content: center;
 }
 
+.box {
+    background-color: teal;
+
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -120,10 +149,12 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-weight: 595;
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    font-weight: 595;
 }
 
 footer {
