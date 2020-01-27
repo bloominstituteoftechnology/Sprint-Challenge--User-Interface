@@ -56,6 +56,20 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -79,10 +93,31 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-image{
+    padding-bottom: 20px;
+}
+
+button{
+    border: 2px solid black;
+    background: white;
+    display: block;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: 20px 0px 0px 20px;
 }
 
 .middle-content {
@@ -110,6 +145,27 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+.middle-content .boxes .box2 {background: gold;}
+.middle-content .boxes .box3 {background: cadetblue}
+.middle-content .boxes .box4 {background: coral}
+.middle-content .boxes .box5 {background: crimson}
+.middle-content .boxes .box6 {background: forestgreen}
+.middle-content .boxes .box7 {background: darkorchid}
+.middle-content .boxes .box8 {background: hotpink}
+.middle-content .boxes .box9 {background: indigo}
+.middle-content .boxes .box10 {background: dodgerblue}
+
+
+
+
+.bottom-content-about{
+    padding: 20px 20px 25px 0px;
 }
 
 .bottom-content {

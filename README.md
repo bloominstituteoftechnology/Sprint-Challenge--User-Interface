@@ -32,30 +32,44 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. **If you were to describe semantic HTML to the next cohort of students, what would you say?**
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-3. What are the 4 areas of the box model?
+My personal definition would describe HTML like the human skeleton, or in better terms a building foundation with frames built. You can see the shape of the house, but it is not covered yet with it's skin (css);
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-5. Explain why git is valuable to a team of developers.
+2. **Name two big differences between ```display: block;``` and ```display: inline;```.**
+
+
+```display: block;``` Starts a new line of the displayed element(s), and takes up the whole width;
+```display: inline;``` Displays an element as an inline element (like <span>). height and width properties won't have any effect
+
+3. **What are the 4 areas of the box model?**
+
+Padding, Margin, Contents, Borders
+
+4. **While using flexbox, what axis does the following property work on: ```align-items: center```?**
+
+The cross axis or the y axis (vertical)
+
+5. **Explain why git is valuable to a team of developers.**
+
+It allows for version control. If you want to go back to a version you created you can do that. You can't do that with regular codepen. Technically you can, but they are in the form of individual files with the little changes, and it's extremely incovenient. Git control is very valuable 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- :white_check_mark: Create a forked copy of this project.
+- :white_check_mark: Add your project manager as collaborator on Github.
+- :white_check_mark: Clone your OWN version of the repository (Not Lambda's by mistake!).
+- :white_check_mark: Create a new branch: git checkout -b `<firstName-lastName>`.
+- :white_check_mark: Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- :white_check_mark: Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- :white_check_mark: Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
@@ -69,30 +83,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* :white_check_mark: Build the HTML and CSS to create the missing navigation and header.
+* :white_check_mark: Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* :white_check_mark: box1: `teal`
+* :white_check_mark: box2: `gold`
+* :white_check_mark: box3: `cadetblue`
+* :white_check_mark: box4: `coral`
+* :white_check_mark: box5: `crimson`
+* :white_check_mark: box6: `forestgreen`
+* :white_check_mark: box7: `darkorchid`
+* :white_check_mark: box8: `hotpink`
+* :white_check_mark: box9: `indigo`
+* :white_check_mark: box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* :white_check_mark: Copy and paste your home page navigation and header into the about page
+* :white_check_mark: Update the header image with the about page image
+* :white_check_mark: Link the `Home` navigation item back to the `index.html` page.
+* :white_check_mark: Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -104,3 +118,20 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+
+## Additional Questions
+
+**What did you find *difficult* about the Sprint?**
+
+How to get started, and getting into the momentum. I also struggled with pull requests. 
+
+**What did you find *easy* about the Sprint?** 
+I found the instructions easy to follow and simple to understand. 
+
+
+**Are there any concepts that you find that you *don't understand* that was taught from the week?**
+The flex was a bit challenging for me, I think that if I  continue to apply these ontop of what we going to learn, I will really conquer this.
+
+**What are your plan of actions to successfully complete next week's Sprint Challenge on time?**
+I'll continue to build more flex structured layouts to help me understand positionings and the floats better. My first course of action was to spend at least 30 minutes each day building something and understanding why things work and dont work. I want to dedicate more time in the weekends especially now that we are just getting started with this course, I feel it's a perfect opportunity to do so..
