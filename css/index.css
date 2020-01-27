@@ -72,21 +72,36 @@ a {
 .container.home {
     width: 800px;
     margin: 0px auto;
-		background: url('../design-files/home.png') center top no-repeat;
+		/* background: url('../design-files/home.png') center top no-repeat; */
 }
 .container.about {
     width: 800px;
     margin: 0 auto;
-		background: url('../design-files/about.png') center top no-repeat;
+		/* background: url('../design-files/about.png') center top no-repeat; */
+		position: relative; /* Added for login form */
 }
+
+.login-form {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	padding:20px;
+	background: #444444;
+	color: white;
+	right: 0px;
+}
+a#form-me {
+position: absolute;
+}
+
 header {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	/* header flex -controls the logo, Ul, and Hero image placement */
 	margin-bottom: 30px;
-}
 
+}
 .logo {
     margin: 24px 0;
 }
@@ -136,6 +151,8 @@ header nav li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+		-webkit-transition: max-width 2s;
+		transition: max-width 2s;
 }
 
 .middle-content .boxes .box {
@@ -146,6 +163,7 @@ header nav li a {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 
@@ -162,11 +180,8 @@ header nav li a {
 .clr10{background-color: dodgerblue;}
 
 .box:hover {
-    position: absolute;
-    /* width: 50%; */
-    /* height: 50%; */
-    top: 25%;
-    /* margin-left: 50%; */
+		width: 400px;
+		flex-grow: 2;
 }
 /* end colored boxes */
 
@@ -259,17 +274,98 @@ footer nav a {
 
 
 /**** Add Media Query ***/
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width:359px) {
   body {
     background-color: lightblue;
 
   }
-	.container {
+.container.home, .container.about {
 		width: 98%;
+		min-width: 360px
+		margin: 0px auto;
+		text-align: center;
+		position: relative;
 	}
-	section {
+.logo {
+    margin: 55px 0;
+}
+	nav {
+		background: red;
+		width: 20px;
+		height: 20px;
+		overflow: hidden;
+		text-indent: 111%;
+		-webkit-transition: background-color, height 0.5s ease-out;
+		-moz-transition: background-color 0.5s ease-out;
+		-o-transition: background-color 0.5s ease-out;
+		transition: background-color 0.5s ease-out;
+	}
+nav:hover {
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
+		flex-direction: column;
+		overflow: visible;
+		text-indent: 0%;
+		z-index: 20;
+		background: gold;
+		width: 75px;
+		height: 150px;
+		padding: 5px
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+header nav li a {
+    padding: 20px 0;
+    text-decoration: none;
+    line-height: 1.8rem;
+}
+footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background: blueviolet;
+}
+/* Home page */
+.middle-content .boxes .box {
+    width: 95%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color:
+    white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.top-content .text-container {
+    width: 90%;
+    padding: 0 1%;
+    padding-bottom: 0px;
+    padding-bottom: 20px;
+    flex-grow: 2;
+		margin: 0 auto;
+}
+/* About page */
+
+.about-grid, .top-content {
+		display: flex;
+		flex-flow: wrap column;
+		flex: 1;
+}
+.about-blurbs, .text-container {
+		width: 90%;
+  	order: 2;
+		margin: 1.2rem auto;
+		border-bottom: none;
+}
+.about-blurbs img {
+	width: 100%;
+}
+
+
 }
