@@ -315,12 +315,13 @@ div.collaboration img {
 
 button {
     margin: 3% 0;
-    padding: 5px 20px;
+    padding: 5px 30px;
     border-radius: 5px;
 }
 button:hover {
     background-color: darkgrey;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 section {
@@ -330,21 +331,22 @@ section {
 /*MEDIA QUERY*/ 
 
 @media (max-width: 500px) {
-    #home {
-    display: flex;
-    flex-direction: column-reverse;    
+    div#home {
+        width: 100%;
+        flex-direction: column-reverse;
+       
+    }    
     
-    nav {
-        justify-content: space-evenly;
-    
+    div#home nav {
+        width: 100%;
+              
+    } /*ends nav*/      
 
     .logo {
-        margin: 1.5%:
-        width: 20%;
+        margin: 1.5%;
+        width: 40%;
       }/*ends logo*/
-    }/*ends nav*/
-  }/*ends #home*/
-}/*ends media*/
+    }/*ends media*/
 
 @media (max-width: 500px){
 
