@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-weight: bold;
 }
 
 .container {
@@ -111,6 +112,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box:nth-of-type(1){
+    background-color: teal;
+}
+
+.boxes .box:nth-of-type(2){
+    background-color: gold;
+}
+.boxes .box:nth-of-type(3){
+    background-color: cadetblue;
+}
+.boxes .box:nth-of-type(4){
+    background-color: coral;
+}
+.boxes .box:nth-of-type(5){
+    background-color: crimson;
+}
+.boxes .box:nth-of-type(6){
+    background-color: forestgreen;
+}
+.boxes .box:nth-of-type(7){
+    background-color: darkorchid;
+}
+.boxes .box:nth-of-type(8){
+    background-color: hotpink;
+}
+.boxes .box:nth-of-type(9){
+    background-color: indigo;
+}
+.boxes .box:nth-of-type(10){
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -131,6 +163,32 @@ footer {
     background: black;
 }
 
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px 2%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-right:20%;
+}
+
+.banner {
+    margin-top: 20px; /* Fix margin at top of banner */
+    margin-bottom: 20px;
+}
+
+header img{
+    margin-right:40px; 
+    margin-left: -15px;
+}
+
 footer nav {
     width: 60%;
     display: flex;
@@ -138,9 +196,53 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    font-weight: bold;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-div {
+    padding: 0 20px 20px;
+}
+.about-top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-middle {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-bottom {
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 20px;
+}
+
+.middle-content-grid {
+    width: 50%;
+    padding: 20px;
+}
+.border {
+    margin-right: -10px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-grid h3{
+    margin-top: 10px;
+}
+.middle-content-grid img{
+    margin-bottom: 10px;
+}
+
+.middle-content-grid button{
+    text-decoration: none;
+    background-color: white;
+    border: 1.5px solid black;
+    margin-top: 10px;
+    padding: 9px 28px;
+    border-radius: 7px;
+    margin-bottom: 20px;
 }
