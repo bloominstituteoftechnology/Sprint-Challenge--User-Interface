@@ -92,17 +92,14 @@ p {
 
 .top-logo{
     float: left; 
-    padding: 10px 10x 10px 10px; 
-    
-
+    padding: 10px;
 }
 
 nav{
     float: right; 
     justify-content: space-around;
     align-items: center; 
-    margin-right: 20px; 
-    
+    margin-right: 20px;    
 }
 
 nav ul { 
