@@ -66,6 +66,9 @@ p {
     line-height: 1.4;
 }
 
+a {
+	text-decoration: none;
+}
 .container.home {
     width: 800px;
     margin: 0px auto;
@@ -158,40 +161,67 @@ header nav li a {
 .clr9{background-color: indigo;}
 .clr10{background-color: dodgerblue;}
 
+.box:hover {
+    position: absolute;
+    /* width: 50%; */
+    /* height: 50%; */
+    top: 25%;
+    /* margin-left: 50%; */
+}
 /* end colored boxes */
 
 
 /* About page - Here is the flex grid */
+
+.about-intro-txt {
+    padding: 0 20px;
+}
 .about-grid {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	margin-top: 20px;
+	border-top: 1px dashed red;
+	align-items: stretch;
 }
 
 .about-blurbs {
-	width: 375px;
+	width: 48%;
 	height: auto;
+	min-height: 442px;
 	margin: 1.2rem 0 1.8rem 0;
+	padding: 0 5px;
 	border-bottom: 1px dashed red;
 }
 
 .about-blurbs img, .about-blurbs  p {
-	margin: 1.6rem 0;
+	margin: .75rem 0;
 }
 
 .learn-more {
-	 padding:10px 25px;
-	 border: 2px solid #444444;
-	 background: white;
-	 border-radius: 6px;
+	display: inline-block;
+  padding:10px 25px;
+	margin: 5px 0;
+	border: 2px solid #444444;
+	background: white;
+	border-radius: 6px;
 }
+.learn-more:hover {
+	background-color: #3d2ea4;
+	color: white;
+	border: 1px solid #3d2ea6; }
 
+/*  - Color each box
 .blue {background: blue}
 .red {background: red}
 .green {background: green}
 .gold {background: gold}
-.pink {background: pink}
+.pink {background: pink} */
+
+.about-work {
+	 padding: 16px 20px;
+}
 /* end about page - flex */
 
 .bottom-content {
@@ -225,4 +255,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/**** Add Media Query ***/
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: lightblue;
+
+  }
+	.container {
+		width: 98%;
+	}
+	section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
 }
