@@ -71,6 +71,63 @@ p {
     margin: 0 auto;
 }
 
+/* HEADER */
+
+.header {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: flex-end;
+} 
+
+.navbar {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+
+
+
+/* TOP */
+
+.jumbo-banner {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +141,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/* MIDDLE CONTENT */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +164,74 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+
+.box1 { 
+    background: teal;
+}
+
+.box2 { 
+    background: gold;
+}
+
+.box3 { 
+    background: cadetblue;
+}
+
+.box4 { 
+    background: coral;
+}
+
+.box5 { 
+    background: crimson;
+}
+
+.box6 { 
+    background: forestgreen;
+}
+
+.box7 { 
+    background: darkorchid;
+}
+
+.box8 { 
+    background: hotpink;
+}
+
+.box9 { 
+    background: indigo;
+}
+
+.box10 { 
+    background: dodgerblue;
+}
+
+
+/* BOTTOM CONTENT */
 
 .bottom-content {
     display: flex;
@@ -144,3 +265,96 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT.HTML */
+
+hr {
+    border-top: 1px dashed black;
+    margin: 3% 0 3% 0;
+}
+
+
+/* TOP CONTENT */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+.about {    
+    width: 95%;
+
+}
+
+
+/* MAIN CONTENT */
+
+.main-content-aboutHTML {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.strategy, .working, .places, .collaboration, .w {
+    width: 46%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    align-content: space-between;
+}
+
+.img-main {
+    margin-bottom: 2%;
+}
+
+.button {
+    /* styling */
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    padding: 8px 22px;
+    cursor: pointer;
+    /* misc */
+    margin: 5% 0 3% 0;
+}
+
+.work-together {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.work-together-text {
+    width: 95%;
+}
+
+
+
+
+/* @keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+} */
