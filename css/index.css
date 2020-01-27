@@ -173,45 +173,43 @@ img.nav-img {
 /* boxes */
 
 #box-1 {
-    background: coral;
+    background: teal;
 }
 
 #box-2 {
-    background: cornflowerblue;
+    background: gold;
 }
 
 #box-3 {
-    background: lightseagreen;
+    background: cadetblue;
 }
 
 #box-4 {
-    background: aquamarine;
+    background: coral;
 }
 
 #box-5 {
-    background: rosybrown;
+    background: crimson;
 }
 
 #box-6 {
-    background: palevioletred;
+    background: forestgreen;
 }
 
 #box-7 {
-    background: limegreen;
+    background: darkorchid;
 }
 
 #box-8 {
-    background: tomato;
+    background: hotpink;
 }
 
 #box-9 {
-    background: ivory;
-    color: black;
-    border: 1px solid black;
+    background: indigo;
 }
 
 #box-10 {
-    background: fuchsia;
+    background: dodgerblue;
 }
 
 /* about page */
