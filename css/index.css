@@ -82,6 +82,11 @@ h1 {
     display: inline;
     
 }
+.top-img {
+    margin-top:150px;
+    margin-left:200px;
+    margin-right:200px;
+}
 
 .container {
     width: 800px;
@@ -89,31 +94,26 @@ h1 {
 }
 
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;   
+    border-bottom: 1px dashed black; 
+    display: -webkit-flex;
 }
 
 .top-content .text-container1 {
-    width: 500%;
+    width: 1000px;
     padding: 0 1%;
     padding-bottom: 20px;  
-    display: flex;
-    /*flex-direction: row;*/
     margin-top:100px;
+    text-align:left;
     margin-left: 200px;
-    margin-bottom: 0px;
-    height: 100px;
     background:orange;
 }
 
 .top-content .text-container2 {
-    width: 500%;
+    width: 1000px;
     padding: 0 1%;
     padding-bottom: 20px;  
-    display: flex;
     margin-top: 100px;
     text-align:left;
     margin-right: 250px;
@@ -134,10 +134,9 @@ h1 {
     
 }
 
-.middle-content .boxes {
-    word-wrap:break
-    display: flex;
-    flex-wrap: wrap;
+/*.middle-content .boxes {
+   */
+    
 }
 
 .middle-content .boxes {
@@ -146,13 +145,12 @@ h1 {
     padding: 20px;
     margin: 20px 2.5%;
     color: white;
+    align-items: flex-start;
+    justify-content: space-around;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    flex-flow: row wrap;
     
-
-
+}
 .middle-content .boxes .box1 {   
 background: teal;
 }
@@ -193,10 +191,8 @@ background: teal;
 }
 
 .bottom-content {
-    display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
-    flex-wrap: wrap;
     display: -webkit-flex;
 }
 
@@ -214,15 +210,15 @@ footer {
 }
 
 footer nav {
-    width: 100%;
-    height: 30%;
-    display: flex;
+    width: 100px;
+    height: 80px;
+    display: inline;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     font-size: 25px;
-    margin-right: 100px;
-    margin-left: 50px;
+    margin-right: 30px;
+    margin-left: 80px;
     text-decoration: none;
     color: white;
 }
