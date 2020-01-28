@@ -84,7 +84,7 @@ h1 {
 }
 .top-img {
     margin-top:150px;
-    margin-left:200px;
+    margin-left:220px;
     margin-right:200px;
 }
 
@@ -95,32 +95,22 @@ h1 {
 
 .top-content {
     /*justify-content: space-evenly;*/
-    margin-bottom: 20px;
+    margin-bottom: 0 2% 20px;
+    justify-content: center;
     border-bottom: 1px dashed black; 
     display: -webkit-flex;
 }
 
-.top-content .text-container1 {
-    width: 1000px;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-    margin-top:100px;
-    text-align:left;
-    margin-left: 200px;
-    background:orange;
+.top-content h2 {
+    margin-top: 35px;
+}
+.top-content .text-container {
+    padding-right: 4%;
 }
 
-.top-content .text-container2 {
-    width: 1000px;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-    margin-top: 100px;
-    text-align:left;
-    margin-right: 250px;
-    margin-left: 50px;
-    background: yellow;
+.top-content .text-container:last-child {
+    padding-right: 0;
 }
-
 
 .middle-content {
     margin-bottom: 20px;
@@ -131,11 +121,7 @@ h1 {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
-    
-}
-
-/*.middle-content .boxes {
-   */
+    margin-top: 35px;
     
 }
 
