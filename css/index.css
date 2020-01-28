@@ -73,7 +73,11 @@ html, body {
 }
 
 
+<<<<<<< HEAD
 h1, h2, h3, h4, h5{
+=======
+h1, h2, h3, h4, h5 {
+>>>>>>> 0e7248f763b9ff3294d9cb54e42ff6b85ec0c2fc
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
