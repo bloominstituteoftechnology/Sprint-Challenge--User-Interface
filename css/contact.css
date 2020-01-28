@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/*Top navigation bar styles*/
+.navbar {
+    display: flex;
+}
+
+.navbar_menu {
+    margin-left: 10%;
+    margin-top: 1.5em;
+    width: 70%;
+
+}
+.navbar_menu ul {
+    display: flex;
+}
+
+.navbar_menu ul li {
+    font-size: 1rem;
+    margin-right: 12%;
+}
+
+.navbar_menu ul li a {
+
+    color: #000;
+    text-decoration: none;
+}
+
+
+.navbar_menu ul li a:hover {
+    color: hotpin;
+    background-color: red;
+    border: 2px green solid;
+}
+
+h2:hover {
+    color: red;
+    transform: skewY(2deg)
+}
+
+/* Contact form */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: crimson;
+
+}
+
+h1.l-heading {
+  margin-top: 50px;
+  
+}
+
+h2.l-heading {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: yellow;
+  color: crimson;
+  width: 115px;
+  height: 55px;
+}
+.btn:hover {
+  background-color: green;
+  color: gold;
+  width: 125px;
+  height: 65px;
+}
+
+
+
+/* Footer section */
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
