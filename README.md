@@ -34,13 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+IF I HAD TO DESCRIBE SEMANTIC HTML TO THE NEXT GROUP OF STUDENTS, I WOULD DESCRIBE IT AS THE MARKINGS ON YOUR HTML CODE THAT GIVE THE CODE A VOICE. LIKE DIV IS DIVIDE AND HEADER IS USUALLY HEADING UP YOUR CODE OR FOOTER IS AT THE END OF YOUR CODE PAGE. THEY ARE THE VOICE IN YOUR HTML
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+DISPLAY BLOCK CREATES A BLOCK LEVEL ELEMENT, IT TAKES 100% OF THE SCREEN. DISPLAY BLOCK BREAKS UP THE FLOW OF YOUR WEBPAGE. DISPLAY INLINE ONLY USES THE SPACE THAT IT NEEDS, IT DOES NOT INTERRUPT THE DOCUMENT FLOW INSTEAD IT USES ONLY ENOUGH THAT IT REQUIRES
+
 3. What are the 4 areas of the box model?
+CONTENT, MARGIN, BORDER, PADDING
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ALGIN-ITEMS CENTER WILL CENTER CONTENT VERTICALLY BECAUSE BY DEFAULT THE CROSS AXIS WILL BE VERTICAL
+
 5. Explain why git is valuable to a team of developers.
+
+GIT IS VALUABLE TO A TEAM OF DEVELOPERS BECAUSE EACH ONE ON THE TEAM IS ABLE TO CONTRIBUTE IDEAS TO A REPOSITORY AND MAKE IT AVAILABLE FOR THE OTHER MEMBERS OF THE TEAM TO OFFER FEEDBACK AND ICLUDE ANY CODE THEY WANT TO ADD TO THE REPOSITORY.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
