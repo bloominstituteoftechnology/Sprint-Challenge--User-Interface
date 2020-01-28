@@ -141,12 +141,12 @@ h1 {
     
     display: flex;
     flex-wrap: wrap;
-
 }
+
 .middle-content .boxes {
-    width: 12.5%;
+    width: 90%;
     height: 100px;
-    background: black;
+    padding: 20px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -154,7 +154,7 @@ h1 {
     justify-content: center;
 }
     
-}
+
 
 .middle-content .boxes .box1 {   
 background: teal;
