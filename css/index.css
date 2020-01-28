@@ -126,17 +126,22 @@ h1 {
 }
 
 .middle-content .boxes {
-    width: 90%;
-    height: 100px;
+   
     padding: 20px;
     margin: 20px 2.5%;
     color: white;
-    align-items: flex-start;
     justify-content: space-around;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
 .middle-content .boxes .box1 {   
 background: teal;
 }
