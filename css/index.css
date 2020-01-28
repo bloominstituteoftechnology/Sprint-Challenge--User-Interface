@@ -79,8 +79,7 @@ h1 {
     padding: 5px;
     margin-left: 140px;
     margin-right: 5px;
-    margin-top: 2px;
-    display: flex;
+    display: inline;
     
 }
 
@@ -94,9 +93,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-    display: -webkit-flex;
-   
+    border-bottom: 1px dashed black;   
 }
 
 .top-content .text-container1 {
@@ -106,9 +103,10 @@ h1 {
     display: flex;
     /*flex-direction: row;*/
     margin-top:100px;
-    margin-left: 180px;
-    height: 400px;
-    
+    margin-left: 200px;
+    margin-bottom: 0px;
+    height: 100px;
+    background:orange;
 }
 
 .top-content .text-container2 {
@@ -116,12 +114,11 @@ h1 {
     padding: 0 1%;
     padding-bottom: 20px;  
     display: flex;
-    flex-direction: row;
     margin-top: 100px;
     text-align:left;
     margin-right: 250px;
     margin-left: 50px;
-    
+    background: yellow;
 }
 
 
@@ -138,7 +135,7 @@ h1 {
 }
 
 .middle-content .boxes {
-    
+    word-wrap:break
     display: flex;
     flex-wrap: wrap;
 }
