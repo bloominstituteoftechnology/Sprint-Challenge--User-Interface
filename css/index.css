@@ -225,5 +225,13 @@ footer nav a {
 .Learn-link a {
     border: 2px solid black;
     text-decoration: none;
+    background: white;
+    color: black;
 }
 
+img {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
