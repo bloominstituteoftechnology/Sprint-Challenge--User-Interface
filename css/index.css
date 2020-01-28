@@ -300,5 +300,7 @@ footer nav a {
 
 /*About Page*/
 
-
+.Learn-link a {
+    border: 1px solid black;
+}
 
