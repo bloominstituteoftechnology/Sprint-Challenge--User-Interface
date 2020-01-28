@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    padding-left:27%;
+    padding-right:27%;
+    padding-top:0%;
+  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+/* STARTING POINT */
+
+.topbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:100%;
+    padding:20px 20px 20px 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.aboutpage{
+    width:100%;
+    padding:30px;
+    margin-bottom: 3%;
+    border-bottom: 2px dotted black;
+
+}
+
+.skytowers{
+    width:100%;
+
+}
+
+.grouppic1{
+    display:flex;
+    justify-content: space-around;
+}
+   
+
+.description1{
+    display:flex;
+    justify-content: space-between;
+
+}
+    
+.info1{
+   padding:20px 30px 20px 30px;
+   border-bottom:2px dotted black;
+   margin-right:3%;
+
+
+}
+
+.info2{
+    padding:20px 30px 20px 30px;
+    border-bottom:2px dotted black;
+
+}
+
+.learn1{
+    border:3px solid black;
+    background-color: white;
+    padding:10px;
+    width:30%;
+    margin-top:3%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.learn2{
+    border:3px solid black;
+    background-color: white;
+    padding:10px ;
+    width:30%;
+    margin-top:3%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.grouppic2{
+    display:flex;
+    justify-content: space-around;
+    padding-top:35px;
+}
+
+.description2{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.info3{
+    padding: 20px 30px 20px 30px;
+    border-bottom:2px dotted black;
+    margin-right:3%;
+}
+
+.info4{
+    padding: 20px 30px 20px 30px;
+    border-bottom:2px dotted black;
+
+}
+
+
+.learn3{
+    border:3px solid black;
+    background-color: white;
+    padding:10px;
+    width:30%;
+    margin-top:3%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.learn4{
+    border:3px solid black;
+    background-color: white;
+    padding:10px ;
+    width:30%;
+    margin-top:3%;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.finalnote{
+    padding: 30px;
+}
+
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+
+footer nav a{
+    color:white;
+}
+

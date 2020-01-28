@@ -1,0 +1,15 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+- The language of the website and how it is written.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+- Block: creates a new section or division to an existing line
+- Inline: Keeps it in the same line
+
+3. What are the 4 areas of the box model?
+- Width, Height, Margin, Padding
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+- Y-axis
+
+5. Explain why git is valuable to a team of developers.
+- Helps share and keep track of work, and can revert to a previously saved point in time if error occurs.
