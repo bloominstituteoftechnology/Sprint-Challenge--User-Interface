@@ -73,13 +73,6 @@ html, body {
 }
 
 
-body label {
-    display: flex;
-    justify-content: center;
-    padding-top: 19px;
-    position: fixed;
-    z-index: 10000;
-}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
