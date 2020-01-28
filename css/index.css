@@ -70,7 +70,6 @@ h1 {
     font-size: 35px;
     margin-top: 20px;
     width: 150px;
-    background: orange;
 }
 
 .Top-Navigation a {
@@ -78,7 +77,6 @@ h1 {
     color: black;
     font-size: 25px;
     padding: 5px;
-    background:blue;
     margin-left: 140px;
     margin-right: 5px;
     margin-top: 2px;
@@ -106,7 +104,6 @@ h1 {
     width: 500%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    background: pink;
     display: flex;
     /*flex-direction: row;*/
     margin-top:100px;
@@ -119,7 +116,6 @@ h1 {
     width: 500%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    background: purple;
     display: flex;
     flex-direction: row;
     margin-top: 100px;
