@@ -240,5 +240,5 @@ img {
 .middle-content {
     margin: 0 2% 20px;
     justify-content: space-around;
-    display: -webkit-flex;
+    /*display: -webkit-flex;*/
 }
