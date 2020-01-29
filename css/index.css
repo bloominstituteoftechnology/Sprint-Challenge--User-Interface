@@ -106,8 +106,7 @@ nav a:hover {
 }
 
 .logo {
-    margin: 2% 0;
-    
+    margin: 2% 0;    
 }
 
 .image-top {
@@ -118,7 +117,6 @@ nav a:hover {
 }
 /*ENDS HEADER/NAVIGATION*/
 /*1ST SECTION .TOP-CONTENT (THE FUTURE/PAST)*/
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -330,8 +328,8 @@ section {
     margin-bottom: 4%;
 }
 /*ENDS LET'S WORK TOGETHER*/
-/*MEDIA QUERY BEGINS FOR INDEX.HTML (500PX)*/ 
 
+/*MEDIA QUERY BEGINS FOR INDEX.HTML (500PX)*/ 
 @media (max-width: 500px) {
     div#home {
         width: 100%;
@@ -375,7 +373,7 @@ section {
     }/*ENS DIV.TEXT-CONTAINER P*/
     footer nav {
         margin: 0 auto;
-    }
+    }/*ENDS FOOTER NAV*/
 }/*ENDS MEDIA QUERY*/
 
 /*END OF MEDIA QUERY FOR INDEX.HTML*/
@@ -384,7 +382,7 @@ section {
 @media (max-width: 500px) {
     h2 {
         margin-top: 2.5%;
-    }
+    }/*ENDS H2*/
     .first-section {
         flex-direction:column;
     }/*eND OF .FIRST-SECTION*/
