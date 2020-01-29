@@ -230,15 +230,3 @@ footer nav a {
     margin-top: 20px;
 }
 
-img {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.middle-content {
-    margin: 0 2% 20px;
-    justify-content: space-around;
-    /*display: -webkit-flex;*/
-}
