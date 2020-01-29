@@ -221,11 +221,15 @@ footer nav a {
 }
 
 /*About Page*/
-.container-about-page {
+.top-content {
     display:flex;
     flex-direction:column;
 }
-
+.Top-Navigation {
+    display:flex;
+    margin-bottom:50px;
+    justify-content:space-between;
+}
 .sec {
     display:flex;
     justify-content:space-between;
@@ -233,11 +237,29 @@ footer nav a {
     padding:25px 0 25px 0;
     border-bottom:2px ridge black;
 }
-.Learn-link a {
+button.Learn-link {
     border: 2px solid black;
     text-decoration: none;
     background: white;
     color: black;
     margin-top: 20px;
+    padding: 5px 15px 5px 15px;
 }
 
+.work-together {
+    margin-bottom:50px;
+}
+footer {
+    width: 100%;
+    background:black;
+    margin-bottom:10px;
+}
+
+.image {
+    margin-left:200px;
+
+}
+
+.top-content {
+    margin-left:50px;
+}
