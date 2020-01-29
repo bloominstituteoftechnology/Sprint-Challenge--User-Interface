@@ -221,7 +221,18 @@ footer nav a {
 }
 
 /*About Page*/
+.container-about-page {
+    display:flex;
+    flex-direction:column;
+}
 
+.sec {
+    display:flex;
+    justify-content:space-between;
+    margin:50px 0 50px 0;
+    padding:25px 0 25px 0;
+    border-bottom:2px ridge black;
+}
 .Learn-link a {
     border: 2px solid black;
     text-decoration: none;
