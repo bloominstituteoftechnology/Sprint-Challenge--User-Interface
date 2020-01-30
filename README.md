@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a better way to layout the document so that third party
+devices can better read and understand the proper layout on a webpage.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+inline block occupies the entire row regardless of content width while inline
+only occupies the length of the content. you can control the length of the
+content using block as well as the height.
 
 3. What are the 4 areas of the box model?
 
+content padding border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ align works with items on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+it is version control it allows developers to take the master code and make
+add their own additions to the project locally and then incorporate it into the
+final version without messing with the master copy. This way of version control
+also makes it easier to work remotely and still contribute to team builds.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -54,13 +70,13 @@ Follow these steps to set up and work on your project:
 - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
