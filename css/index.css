@@ -159,7 +159,7 @@ p {
 }
 
 .container {
-      width: 800px;
+      width: 850px;
       margin: 0 auto;
 }
 
@@ -223,6 +223,50 @@ a {
       display: flex;
       align-items: center;
       justify-content: center;
+}
+
+.top-text {
+      border-bottom: 1px dashed black;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      padding-bottom: 20px;
+}
+
+.bottom-text {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      border-top: 1px dashed black;
+}
+
+figure {
+      display: inline-block;
+      width: 50%;
+      margin-top: 20px;
+      padding-left: 10px;
+      /* border-bottom: 1px dashed black; */
+}
+
+figcaption {
+      display: inline-block;
+      padding: 10px;
+}
+
+button {
+      display: block;
+      padding: 10px;
+}
+
+.jumbo-about {
+      margin-left: 10px;
+}
+
+.about-main {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
 }
 
 .box1 {
