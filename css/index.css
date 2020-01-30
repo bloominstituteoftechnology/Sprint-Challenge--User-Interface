@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -29,7 +31,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background: #000;
+    
 }
 ol, ul {
 	list-style: none;
@@ -49,6 +53,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -67,8 +72,11 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 980px;
     margin: 0 auto;
+    background: white;
+    padding-left: 70px;
+    padding-right: 70px;   
 }
 
 .top-content {
@@ -115,7 +123,8 @@ p {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    
 }
 
 .bottom-content .text-container {
@@ -144,3 +153,77 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my code starts here */
+header a{
+    text-decoration: none;
+    padding: 4%;
+    font-size: smaller;
+    color:black;
+    margin-top:3px;
+    margin-bottom: 3px;
+    /* margin-left: 5%; */
+    /* border:red solid 1px; */
+    display: inline-block;
+    justify-content: space-evenly;
+    font-weight:bold;
+    /* text-align:right;
+    display:inline-flex; */
+}
+
+#logo{
+    margin-left:-20px;
+}
+
+
+.top-image{
+    margin-bottom:10px;
+    margin-left:15px;
+    max-width:80%;
+    /* border:red 3px solid; */
+    text-align:center;
+    
+    
+}
+
+.top-middle-bottom-content{
+    padding:3%;
+}
+
+.middle-content .boxes div:first-child{
+    background:teal;
+}
+.middle-content .boxes div:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes div:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes div:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes div:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes div:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes div:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes div:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes div:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes div:nth-child(10){
+    background-color: dodgerblue;
+}
+
+
+
+
+
+
+
