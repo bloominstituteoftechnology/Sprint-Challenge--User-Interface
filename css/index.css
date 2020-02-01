@@ -2,6 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,7 +58,9 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+
 }
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -65,12 +71,46 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.container {
-    width: 800px;
-    margin: 0 auto;
+/*BEGINS INDEX.HTML */
+Body {
+    margin: 0 15%;
+}
+/*HEADER/ NAVIGATION SECTION*/
+#home{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
+#home nav {
+    margin: 3%;
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;    
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#DC143C;
+}
+
+
+.logo {
+    margin: 2% 0;    
+}
+
+.image-top {
+    margin: 3% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*ENDS HEADER/NAVIGATION*/
+/*1ST SECTION .TOP-CONTENT (THE FUTURE/PAST)*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +124,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/*ENDS 1ST SECTION .TOP-CONTENT (THE FUTURE/PAST)*/
+/*2ND SECTION .MIDDLE-CONTENT (WHY DID IT HAVE TO BE BOXES)*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +145,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +152,58 @@ p {
     justify-content: center;
 }
 
+.box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: teal;    
+}
+
+.box2 {
+    background-color:gold;    
+}
+
+.box3 {
+    background-color:cadetblue;   
+}
+
+.box4 {
+    background-color:coral;    
+}
+
+.box5 {
+    background-color:crimson;    
+}
+
+.box6 {
+    background-color:forestgreen;    
+}
+
+.box7 {
+    background-color:darkorchid;    
+}
+
+.box8 {
+    background-color:hotpink;    
+}
+
+.box9 {
+    background-color:indigo;   
+}
+
+.box10 {
+    background-color: dodgerblue;   
+}
+
+/*ENDS 2ND SECTION .MIDDLE-CONTENT (WHY DID IT HAVE TO BE BOXES)*/
+/*3RD SECTION .BOTTOM-CONTENT (THAT'S/ NO/ MOON)*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,14 +217,15 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*ENDS 3RD SECTION .BOTTOM-CONTENT (THAT'S/ NO/ MOON)*/
+/*FOOTER SECTION*/
 footer {
     width: 100%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    margin-right: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,5 +235,177 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
 }
+
+footer nav a:hover {
+    animation-name: tabs;
+    animation-duration: 2s; 
+}
+
+@keyframes tabs {
+    from {background-color: #C8E2C8;}
+    to {background-color: black;}
+}
+/*ENDS FOOTER SECTION, ENDS INDEX.HTML*/
+
+/*BEGINS ABOUT.HTML*/
+/*.CONTAINER (ABOUT)*/
+section.container {
+    border-bottom: 1px dashed black;
+
+}
+div.about p{
+    width: 100%;
+    margin: 2.5%;
+}
+/*ENDS .CONTAINER (ABOUT)*/ 
+/*.FIRST-SECTION: .STRATEGY/ .HOW-WE-WORK*/
+.first-section {
+    display:flex;
+    width: 100%;
+}
+div.strategy img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.strategy {
+    width:45%;
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+div.how-we-work img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.how-we-work {
+    width: 45%;
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+/*ENDS .FIRST-SECTION: .STRATEGY/ .HOW-WE-WORK*/
+/*.SECOND-SECTION: .PLACES/ .COLLABORATION*/
+.second-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.places img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.places {
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+div.collaboration img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.collaboration {
+    margin: 2.5%;
+    border-bottom: 1px dashed black;
+}
+/*ENDS .SECOND-SECTION: .PLACES/ .COLLABORATION*/
+/*sTYLE FOR ALL BUTTONS*/
+button {
+    margin: 3% 0;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 20px;
+}
+/*ENDS BUTTON STYLES*/
+/*lETS WORK TOGETHER SECTION BOTTOM OF ABOUT.HTML*/
+section {
+    margin-bottom: 4%;
+}
+/*ENDS LET'S WORK TOGETHER*/
+
+/*MEDIA QUERY BEGINS FOR INDEX.HTML (500PX)*/ 
+@media (max-width: 500px) {
+    div#home {
+        width: 100%;
+        flex-direction: column-reverse;       
+    }/*ENDS DIV#HOME*/   
+    
+    div#home nav a {
+        display: none;             
+    } /*ENDS NAV*/
+    
+
+    img.logo {
+        margin: 1.5%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+    }/*ENDS LOGO*/
+  
+    section.top-content{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }/*ENDS SECTION.TOP-CONTENT*/
+      
+    .top-content .text-container {
+              width: 100%;
+              margin: 5% 0;
+    }/*ENDS .TOP-CONTENT .TEXT-CONTAINER*/       
+
+    section.bottom-content {
+        display:flex;
+        flex-direction: column;
+    }/*ends SECTION.BOTTOM-CONTENT*/
+    div.text-container {
+        margin: 10% 0;
+    }/*ENDS DIV.TEXT-CONTAINER*/
+    section.bottom-content div.text-container p {
+        padding-bottom:10%;
+        border-bottom: 1px dashed black;
+    }/*ENS DIV.TEXT-CONTAINER P*/
+    footer nav {
+        margin: 0 auto;
+    }/*ENDS FOOTER NAV*/
+}/*ENDS MEDIA QUERY*/
+
+/*END OF MEDIA QUERY FOR INDEX.HTML*/
+
+/*BEGINS MEDIA QUERY FOR ABOUT.HTML*/
+@media (max-width: 500px) {
+    h2 {
+        margin-top: 2.5%;
+    }/*ENDS H2*/
+    .first-section {
+        flex-direction:column;
+    }/*eND OF .FIRST-SECTION*/
+    .strategy {
+        margin: 5% 0;
+        width: 100%;
+    }/*ENDS .STRATEGY*/
+    .how-we-work {
+        margin: 5% 0;
+        width:100%;
+    }/*ENDS .HOW-WE-WORK*/
+
+    .second-section {
+        flex-direction:column;
+    }/*ENDS .SECOND-SECTION*/
+    .places {
+        margin: 5% 0;
+        width: 100%;
+    }/*ENDS .PLACES*/
+    .collaboration {
+        margin: 5% 0;
+        width:100%;
+    }/*ENDS COLLABORATION*/
+}/*ENDS MEDIA QUERY*/
