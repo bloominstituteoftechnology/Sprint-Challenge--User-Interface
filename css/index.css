@@ -90,20 +90,14 @@ Body {
 }
 
 nav a {
+    color: black;
     text-decoration: none;
 }
 
 nav a:hover {
-    border: 1px solid black;
     color:#DC143C;
-    animation-name: tabs;
-    animation-duration: 2s;
 }
 
-@keyframes tabs {
-    from {background-color: #C8E2C8;}
-    to {background-color: black;}
-}
 
 .logo {
     margin: 2% 0;    
@@ -241,7 +235,16 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none; 
+}
+
+footer nav a:hover {
+    animation-name: tabs;
+    animation-duration: 2s; 
+}
+
+@keyframes tabs {
+    from {background-color: #C8E2C8;}
+    to {background-color: black;}
 }
 /*ENDS FOOTER SECTION, ENDS INDEX.HTML*/
 
@@ -336,30 +339,29 @@ section {
         flex-direction: column-reverse;       
     }/*ENDS DIV#HOME*/   
     
-    div#home nav {
-        width: 100%;              
-    } /*ENDS NAV*/      
+    div#home nav a {
+        display: none;             
+    } /*ENDS NAV*/
+    
 
-    .logo {
+    img.logo {
         margin: 1.5%;
         width: 40%;
-      }/*ENDS LOGO*/
-    }/*ENDS MEDIA*/
-/*ENDS HEADER MEDIA QUERY*/
-@media (max-width: 500px){
+        display: flex;
+        align-items: center;
+    }/*ENDS LOGO*/
+  
     section.top-content{
         width: 100%;
         display:flex;
         flex-direction: column;
-      }/*ENDS SECTION.TOP-CONTENT*/
+    }/*ENDS SECTION.TOP-CONTENT*/
       
-     .top-content .text-container {
+    .top-content .text-container {
               width: 100%;
               margin: 5% 0;
-          }/*ENDS .TOP-CONTENT .TEXT-CONTAINER*/       
-}/*ENDS MEDIA QUERY*/
-/*Ends SECTION TOP-CONTENT*/
-@media (max-width: 500px) {
+    }/*ENDS .TOP-CONTENT .TEXT-CONTAINER*/       
+
     section.bottom-content {
         display:flex;
         flex-direction: column;
@@ -394,8 +396,7 @@ section {
         margin: 5% 0;
         width:100%;
     }/*ENDS .HOW-WE-WORK*/
-}/*ENDS MEDIA QUERY*/
-@media (max-width: 500px) {
+
     .second-section {
         flex-direction:column;
     }/*ENDS .SECOND-SECTION*/
