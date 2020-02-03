@@ -1,7 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -18,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +45,7 @@ table {
 
 * {
     box-sizing: border-box;
-    
+    border: 1px red solid;
 }
 
 html, body {
@@ -146,51 +142,56 @@ footer nav a {
     text-decoration: none;
 }
 
-header nav {
-
-    text-align: start;
-    color: gray;
+.middle-content .boxes .box1 {
+ background-color: teal;
 }
 
-section {
-    margin: auto;
+.middle-content .boxes .box2 {
+ background-color: gold;
 }
- section p {
-     margin: auto;
- }
+.middle-content .boxes .box3 {
+background: cadetblue;
 
-.about-page {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
-.about-page .item {
-
-    height: 45%;
-    width: 45%;
-   
-    margin-left: 2%;
+.middle-content .boxes .box4 {
+    background: coral;
+    
 }
 
-p {
-    margin: 5%;
-    margin-left: auto;
-    margin-bottom: auto;
-    margin-top: auto;
+    .middle-content .boxes .box5 {
+        background: crimson;
+        
 }
 
+    .middle-content .boxes .box6 {
+        background: forestgreen;
+            
+}
 
-   .bottom-content1 .item2 {
+    .middle-content .boxes .box7 {
+        background: darkorchid;
+        
+}
+    
+    .middle-content .boxes .box8 {
+        background: hotpink;
+        
+}
 
-    padding: 20px;
-    margin: auto;
-    margin-top: 50px;
+        .middle-content .boxes .box9 {
+        background: cadetblue;
+            
+}
+
+        .middle-content .boxes .box10 {
+        background:  dodgerblue;
+            
+}
+
+    
 
 
 
-
-
-
+    
 
