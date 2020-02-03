@@ -45,6 +45,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px red solid;
 }
 
 html, body {
