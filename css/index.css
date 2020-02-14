@@ -68,7 +68,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -222,4 +222,71 @@ hr{
 
 .secSec{
     margin:  25px;
+}
+
+.middle-content .boxes .o{
+    
+    background-color: teal;
+}
+
+
+.middle-content .boxes .tw{
+    
+    background-color: gold;
+}
+
+.middle-content .boxes .th{
+    
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .f{
+    
+    background-color: coral;
+}
+
+.middle-content .boxes .fi{
+    
+    background-color: crimson;
+}
+
+
+.middle-content .boxes .s{
+    
+    background-color: forestgreen;
+}
+
+
+.middle-content .boxes .se{
+    
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .e{
+    
+    background-color: hotpink;
+}
+.middle-content .boxes .n{
+    
+    background-color: indigo;
+}
+.middle-content .boxes .t{
+    
+    background-color: dodgerblue;
+}
+
+.middle-content .boxes .o:hover{
+    transform: scale(2.1);
+    background-color: teal;
+}
+
+.middle-content .boxes .t:hover{
+    transform: scale(2.2);
+    background-color: dodgerblue;
+}
+
+button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: 1px solid black;
 }
