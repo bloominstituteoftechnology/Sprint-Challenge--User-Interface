@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +24,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -31,6 +34,39 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+header{
+	display: flex;
+	justify-content: ;
+	background-color: white;
+	
+}
+.logo{
+	width: 13%;
+	height: 45px;
+    margin-top: -35px;
+    margin-left: 170px;
+
+}
+
+header nav{
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+}
+
+header a{
+	width: 50%;
+	margin: 5% 4%;
+	color: black;
+    text-decoration: none;
+
+}
+header a:hover{
+	color: black;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -50,6 +86,7 @@ table {
 * {
     box-sizing: border-box;
 }
+
 
 html, body {
     height: 100%;
@@ -112,6 +149,7 @@ p {
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +181,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.firsttwo {
+    display: flex;
+	flex-direction: row;
+    justify-content: ;
+    align-items: ;
+    flex-wrap: wrap;
+}
+.first{
+    width: 50%;
+	font-size: 80px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.second {
+    width: 50%;
+	font-size: 80px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
