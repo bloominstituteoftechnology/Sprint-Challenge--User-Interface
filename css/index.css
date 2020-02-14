@@ -28,6 +28,18 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.opening{
+	display:flex;
+ justify-content: space-around;
+ padding-bottom: 10px;
+ flex-direction: row-reverse;
+}
+.opening a{
+    display:block;
+    color:black;
+    font-size: 12px;
+    padding-top: 1em;
+}
 body {
 	line-height: 1;
 }
