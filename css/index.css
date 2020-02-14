@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,21 +49,43 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid gray; */
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
+    margin-left: 1%;
+    margin-top: 1%;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    margin: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+}
+
+a {
+    color: black;
+}
+
+.topImage {
+    display: flex;
+    align-items: center;
+    padding: 2% 0% 2% 0%;
 }
 
 .container {
@@ -112,6 +134,43 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetBlue;
+}
+
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestGreen;
+}
+
+#box7 {
+    background-color: darkOrchid;
+}
+
+#box8 {
+    background-color: hotPink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerBlue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -138,9 +197,42 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 2%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.sContent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.sBox {
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-around;
+    margin: 3%;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 40%;
+    padding: 3%;
+    margin: 2%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1%;
+}
+
+hr {
+    border-bottom: 1px dashed black;
 }
