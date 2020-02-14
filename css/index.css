@@ -36,7 +36,7 @@ body {
 }
 header{
 	display: flex;
-	justify-content: ;
+	justify-content: center;
 	background-color: white;
 	
 }
@@ -44,12 +44,12 @@ header{
 	width: 13%;
 	height: 45px;
     margin-top: -35px;
-    margin-left: 170px;
+    margin-left: 190px;
 
 }
 
 header nav{
-	width: 75%;
+	width: 70%;
 	display: flex;
 	flex-direction: row;
 	text-align: center;
@@ -57,7 +57,7 @@ header nav{
 }
 
 header a{
-	width: 50%;
+	width: 3%;
 	margin: 5% 4%;
 	color: black;
     text-decoration: none;
@@ -192,15 +192,56 @@ footer nav a {
 }
 .first{
     width: 50%;
-	font-size: 80px;
+	font-size: 15px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 }
 .second {
     width: 50%;
-	font-size: 80px;
+	font-size: 15px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+}
+
+.secondtwo {
+    display: flex;
+	flex-direction: row;
+    justify-content: ;
+    align-items: ;
+    flex-wrap: wrap;
+}
+
+.third {
+    width: 50%;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.fourth {
+    width: 50%;
+	font-size: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.begoodbuttonplz {
+    border-radius: 12px;
+}
+
+button{
+    background-color: white;
+  border-color: black;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
 }
