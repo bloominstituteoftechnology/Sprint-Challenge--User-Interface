@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+ 
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -69,12 +70,23 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    max-width: 800px;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -144,3 +156,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+#topAbout{
+    padding: 4% 0;
+    border-bottom: 1px dashed black;
+}
+#middleAbout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    border-bottom: 1px dashed black;
+}
+.box h2{
+    margin-top: 4%;
+}
+button{
+    background-color: white;
+    width: 50%;
+    padding: 4%;
+    border: 1px solid black; 
+    border-radius: 4px;
+    margin-top: 5%;
+    text-align: center;
+}
+#bottomAbout{
+    margin: 10% 0;
+}
+
+#box1{background-color:teal}
+#box2{background-color:gold}
+#box3{background-color:cadetblue}
+#box4{background-color:coral}
+#box5{background-color:crimson}
+#box6{background-color:forestgreen}
+#box7{background-color:darkorchid}
+#box8{background-color:hotpink}
+#box9{background-color:indigo}
+#box10{background-color:dodgerblue}
