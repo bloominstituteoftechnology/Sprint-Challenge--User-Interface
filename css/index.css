@@ -60,10 +60,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-top:10px;
 }
 
 p {
     line-height: 1.4;
+    margin:20px;
 }
 
 .container {
@@ -76,7 +78,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -104,7 +105,97 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxa{
+    width: 12.5%;
+    height: 100px;
+    background:gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxb{
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxc{
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxd{
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxe{
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxf{
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxg{
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxh{
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxi{
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +234,69 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.main_nav {
+	height: 60px;
+	width: 886px;
+	background-color:white;
+	border-radius: 15px;
+	position:fixed;
+    top: 5px;
+}
+.main_nav a {
+	text-transform: uppercase;
+    padding: 20px 10px;
+    display:inline-block;
+	text-decoration: none;
+	color: black;
+	margin: 0px 12px;
+	vertical-align:middle;
+}
+.main_nav a:hover {
+	animation-name: myeffect;
+	animation-duration: 0.5s;
+}
+.navprop{
+
+}
+header{
+    display:flex;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.atext-container{
+        width: 100%;
+        padding: 0 1%;
+        padding-bottom: 20px;
+        display:block;
+        border-bottom: dashed 1px;
+    }
+
+
+.learnmoreok{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    flex-basis:100%;
+    flex:1;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:100%
+    
+}
+.kid{
+    width:45%;
+    border-bottom:dashed 1px black;
+    margin:20px;
+    padding-bottom:20px;
+}
+button{
+border-radius:30px;
+width:100px;
+height:40px;
+background-color: white;
+border-color:black;
 }
