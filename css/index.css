@@ -101,6 +101,11 @@ color: black;
     display: flex;
     
 }
+about.p{
+    text-align: left;
+    margin-bottom: 5%;
+    
+}
 
 .top-content {
     display: flex;
@@ -118,6 +123,9 @@ color: black;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 
+}
+.top-content2 img{
+    margin-bottom: 5%;
 }
 
 .top-content .text-container {
@@ -196,6 +204,10 @@ color: black;
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.letsWork{
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 footer {
