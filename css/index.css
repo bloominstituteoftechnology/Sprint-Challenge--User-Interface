@@ -168,7 +168,35 @@ header {
 .Boxes{
     display:flex;
     flex-wrap: wrap;
+    justify-content:space-between;
 }
 .titles {
+    display:flex;
+    flex-direction:column;
     width: 45%;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.AboutTop {
+    border-bottom: 1px dashed black;
+    padding: 4% 0;
+}
+
+button {
+    align-text:center;
+    padding: 2%;
+    width: 45%;
+    border-radius: 10px;
+    margin:10px;
+    background-color: white;
+    text-align: center;
+}
+
+.bottomArea{
+    padding:4%;
+}
+
+h2{
+    padding:2%;
 }
