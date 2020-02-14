@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    max-width: 800px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -144,3 +145,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-bottom: 20px;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.top-content{
+    margin: 20px;
+}
+
