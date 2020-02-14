@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -81,6 +83,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.column{
+flex: 50%;
+height: 100%
+    
+}
+
+.box-container{
+border: 1px solid
+#000 !important;
+height: 65%;
+background-color:lightgray;
+padding-left: 10px;
+padding-right: 10px;
+margin-right: 10%;
+margin-left: 10%;
+padding-bottom: 5%;
+margin-top: 5%;
+}
+
+.box-container img{
+    width:100%;
+    padding:20px;
+    
+}
+
+.btn-service{
+    color:#000!important;
+    background-color: #fff!important;
+    border: 1px solid #000!important;
+   
+    height: 30px;
+    width: 200px;
 }
 
 .box2{
