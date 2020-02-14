@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 html, body {
@@ -197,6 +197,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 2%;
 }
 
 footer nav a {
@@ -204,11 +205,18 @@ footer nav a {
     text-decoration: none;
 }
 
-.sBox {
+.sContent {
     display: flex;
-    flex-flow: column wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
 
-    width: 45%;
+.sBox {
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: space-around;
+    margin: 3%;
 }
 
 button {
@@ -225,8 +233,6 @@ img {
     margin: 1%;
 }
 
-label {
-    display: flex;
-    flex-flow: column wrap;
-
+hr {
+    border-bottom: 1px dashed black;
 }
