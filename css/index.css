@@ -123,14 +123,10 @@ p {
     align-items: center;
     justify-content: center;
 }
-
-.box{
-    background-color: darkcyan;
-}
-
-.box{
-    background-color: yellow;
-}
+    div.boxes:nth-of-type(1)
+    {background-color: turquoise;
+    
+    }
 
 .bottom-content {
     display: flex;
