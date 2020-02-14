@@ -258,3 +258,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* markup for about page */
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%; /*this is saying you can never be bigger than your parent*/
+    border:1px solid grey;
+}
+.intro{
+    padding-top: 1em;
+    font-size: smaller;
+    border-bottom: 1px dashed black;
+}
+.first{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+}
+.strategy{
+    border-bottom: 1px dashed black;
+}
+.how{
+    border-bottom: 1px dashed black;
+    
+}
+.second{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 1em;
+
+}
+.third{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
