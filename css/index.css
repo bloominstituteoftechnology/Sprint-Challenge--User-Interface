@@ -275,14 +275,10 @@ footer nav a {
     display:flex;
     justify-content: space-evenly;
     padding-top: 1em;
-}
-.strategy{
+    padding-bottom: 1em;
     border-bottom: 1px dashed black;
 }
-.how{
-    border-bottom: 1px dashed black;
-    
-}
+
 .second{
     display:flex;
     justify-content: space-evenly;
@@ -292,4 +288,12 @@ footer nav a {
 .third{
     padding-top: 1em;
     padding-bottom: 2em;
+}
+button{
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: black;
+    font-size: medium;
+    font-size: small;
+    text-align: center;
 }
