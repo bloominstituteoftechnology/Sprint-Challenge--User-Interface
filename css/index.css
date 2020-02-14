@@ -68,7 +68,43 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin:  20px auto;
+}
+.topNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+  }
+.lambdaLogoHome{
+    
+}
+nav{
+      display: flex;
+      justify-content: space-evenly;
+      min-width: 100%;
+      margin-left: -20%;
+      padding-left: 20%;
+      margin-bottom: 5%;
+}
+a {
+text-decoration: none;
+color: black;
+}
+.jumbo{
+    display: flex;
+    align-content: stretch;
+    
+    margin-bottom: 5%;
+}
+
+.boxpair{
+    display: flex;
+    
+}
+about.p{
+    text-align: left;
+    margin-bottom: 5%;
+    
 }
 
 .top-content {
@@ -79,11 +115,25 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:0 2% 0 2%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+
+}
+.top-content2 img{
+    margin-bottom: 5%;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -94,7 +144,37 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+/*boxes*/
+#teal{
+    background-color:teal ;
+}
+#gold{
+    background-color: gold;
+}
+#cadetblue{
+    background-color: cadetblue;
+}
+#coral{
+    background-color: coral;
+}
+#crimson{
+    background-color: crimson;
+}
+#forestgreen{
+    background-color: forestgreen;
+}
+#darkorchid{
+    background-color: darkorchid;
+}
+#hotpink{
+    background-color: hotpink;
+}
+#indigo{
+    background-color: indigo;
+}
+#dodgerblue{
+    background-color: dodgerblue;
+}
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +205,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.letsWork{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
 
 footer {
     width: 100%;
@@ -143,4 +227,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+button{
+    border-radius: 8px;
+    width: 30%;
+    background-color: white;
+    padding: 2% 0 2% 0;
+    box-shadow: white;
+    border: 4px solid black;
+    font-weight:bold;
+    margin: 3%;
 }
