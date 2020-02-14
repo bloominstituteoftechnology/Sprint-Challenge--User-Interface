@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -69,6 +69,9 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 }
 
 .top-content {
@@ -143,4 +146,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    margin-bottom: 20px;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.top-content{
+    margin: 20px;
+}
+
+.Boxes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.titles {
+    display:flex;
+    flex-direction:column;
+    width: 45%;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.AboutTop {
+    border-bottom: 1px dashed black;
+    padding: 4% 0;
+}
+
+button {
+    align-text:center;
+    padding: 2%;
+    width: 45%;
+    border-radius: 10px;
+    margin:10px;
+    background-color: white;
+    text-align: center;
+}
+
+.bottomArea{
+    padding:4%;
+}
+
+h2{
+    padding:2%;
 }
