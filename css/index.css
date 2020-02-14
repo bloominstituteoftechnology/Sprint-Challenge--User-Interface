@@ -140,7 +140,43 @@ footer nav {
     font-size: 14px;
 }
 
+section div.boxy{
+    padding:10px;
+}
+
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none !important;
+    color:black;
+    margin-top: 20px;
+}
+
+.box1{
+
+}
+
+a:visited{
+text-decoration: none !important;
+    color:black;
+}
+
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    postion: sticky;
+    z-index: 99999;
+
+}
+
+button{
+    background-color:white;
+    border:1px black ridge;
+    border-radius: 10px;
+    padding:10px;
+
 }
