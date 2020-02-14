@@ -100,7 +100,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+ 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -143,4 +143,103 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.header{
+    display:flex;
+    align-items: baseline;
+    margin: 3% 0 3%;
+}
+.header nav{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    margin:0 5% 0;
+}
+.header nav a{
+    text-decoration:none;
+    color:black;
+}
+.about{
+    margin:2%;
+}
+.aboutBody{
+    border-top:2px dotted black;
+}
+.aboutBodyTop{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin: 2% 0 2% 2%;
+    padding:0 4% 0 0;
+}
+.strategy{
+    width:48%;
+    border-bottom: 2px dotted black;
+}
+.strategy h2{
+    margin:1% 0 1%;
+}
+.strategy button{
+    margin:2% 0 4%;
+    padding:2%;
+    height: 10%;
+    width:30%;
+    border-radius:10px;
+    border:2px solid black;
+}
+.howWeWork{
+    width:48%;
+    border-bottom: 2px dotted black;
+}
+.howWeWork h2{
+    margin:1% 0 1%;
+}
+.howWeWork button{
+    margin:2% 0 4%;
+    padding:2%;
+    height: 10%;
+    width:30%;
+    border-radius:10px;
+    border:2px solid black;
+}
+
+.aboutBodyBottom{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin: 4% 0 2% 2%;
+    padding:0 4% 0 0;
+}
+.placeWeWork{
+    width:48%;
+    border-bottom: 2px dotted black;
+}
+.placeWeWork h2{
+    margin:1% 0 1%;
+}
+.placeWeWork button{
+    margin:2% 0 4%;
+    padding:2%;
+    height: 10%;
+    width:30%;
+    border-radius:10px;
+    border:2px solid black;
+}
+.collaboration{
+    width:48%;
+    border-bottom: 2px dotted black;
+}
+.collaboration h2{
+    margin:1% 0 1%;
+}
+.collaboration button{
+    margin:2% 0 4%;
+    padding:2%;
+    height: 10%;
+    width:30%;
+    border-radius:10px;
+    border:2px solid black;
+}
+.letWorkTogether{
+    margin:4% 2% 4%;
 }
