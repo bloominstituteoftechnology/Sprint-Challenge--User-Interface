@@ -104,12 +104,12 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,7 +157,7 @@ header {
     display: flex;
     width: 100%;
     margin: 0 auto;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 60px 50px 60px;
 }
 
 header nav{
@@ -187,5 +187,80 @@ a{
 .aboutai img{
     width: 100%;
     margin: 0 auto;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 60px;
+}
+
+
+/*Coloring the boxes */
+
+.boxa{
+    background: teal;
+}
+
+.boxone {
+    background: teal;
+}
+
+.boxb {
+    background-color: gold;
+}
+
+
+/*Working on the about section page*/
+
+.container-about-page{
+    
+}
+
+.secabout {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: 1px black dashed;
+    padding: 0px 0px 20px 80px;
+    margin: 0px 0px 30px 0px;
+
+}
+
+/*Working on the four boxes found in about html*/
+
+.aboutboxes {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.aboutbox {
+    width: 45%;
+    margin: 30px 0px;
+    border-bottom: 1px black dashed;
+}
+
+.aboutbox img{
+    width: 100%;
+}
+
+.aboutbox p{
+    width: 95%;
+}
+
+.aboutbox button{
+    border: 2px solid black;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 17px;
+    margin: 20px 0px
+}
+
+/*Here is where we work on Section "lets-work*/
+
+.lets-work{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 25px 0px 40px; 
+    margin: 0px 0px 40px 0px;
 }
