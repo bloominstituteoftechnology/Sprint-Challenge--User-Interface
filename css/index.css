@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} */
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -67,7 +68,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -143,4 +144,155 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* code */
+nav img{
+    text-align: left;
+    margin: 0 0 25px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;;
+}
+
+nav a{
+    margin: 20px 40px 0 0;
+    justify-content: space-evenly;
+} 
+
+.jumbo{
+    margin: 0 0 25px 0;
+}
+
+/* About */
+
+
+.abt{
+    
+    /* text-align: left; */
+    margin:  25px;
+}
+
+/* .topLine{
+    border: 5px dotted black;
+    margin: 5% 0;
+} */
+
+
+
+.container about-page{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 0 0 25px; */
+}
+
+.stratSec, .howSec{
+    justify-content: space-around;
+}
+
+hr{
+    border-top: 2px dashed black;
+    margin: 5% 0;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 0px;
+}
+
+.stratSec{
+
+    margin: auto 25px auto 25px;
+    /* text-align: left; */
+}
+
+.placesSec{
+    margin: auto 25px auto 25px;
+}
+
+.secSec{
+    margin:  25px;
+}
+
+.middle-content .boxes .o{
+    
+    background-color: teal;
+}
+
+
+.middle-content .boxes .tw{
+    
+    background-color: gold;
+}
+
+.middle-content .boxes .th{
+    
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .f{
+    
+    background-color: coral;
+}
+
+.middle-content .boxes .fi{
+    
+    background-color: crimson;
+}
+
+
+.middle-content .boxes .s{
+    
+    background-color: forestgreen;
+}
+
+
+.middle-content .boxes .se{
+    
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .e{
+    
+    background-color: hotpink;
+}
+.middle-content .boxes .n{
+    
+    background-color: indigo;
+}
+.middle-content .boxes .t{
+    
+    background-color: dodgerblue;
+}
+
+.middle-content .boxes .o:hover{
+    transform: scale(2.1);
+    background-color: teal;
+}
+
+.middle-content .boxes .t:hover{
+    transform: scale(2.2);
+    background-color: dodgerblue;
+}
+
+button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.jumbo{
+    text-align: center;
+    margin: 0 0 0 0px;
+    width: 100%;
 }
