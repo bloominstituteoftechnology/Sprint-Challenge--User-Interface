@@ -144,3 +144,117 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Home Page Header Code */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 18% 0;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.runner{
+    padding:2% 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.boxes #first{
+        background-color:teal;
+}
+.boxes #second{
+    background-color:gold;
+}
+.boxes #third{
+    background-color:cadetblue;
+}
+.boxes #fourth{
+    background-color:coral;
+}
+.boxes #fifth{
+    background-color:crimson;
+}
+.boxes #sixth{
+    background-color:forestgreen;
+}
+.boxes #seventh{
+    background-color:darkorchid;
+}
+.boxes #eighth{
+    background-color:hotpink;
+}
+.boxes #nineth{
+    background-color:indigo;
+}
+.boxes #tenth{
+    background-color: dodgerblue;
+}
+
+/*About Page*/
+
+.container{
+    padding: 0 2%;
+}
+
+#about{
+    padding-bottom: 2%;
+    border-bottom: 1px black dotted;
+}
+
+button {
+    background: white;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 220px;
+    margin-bottom: 40px;
+    margin-top:20px;
+    border-radius: 26px;
+    padding: 12px;
+    
+  }
+
+
+#topmiddle{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#strategy{
+    padding: 2%;
+}
+
+#work{
+    padding: 2%;
+}
+
+#bottommiddle{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#meeting{
+    padding: 2%;
+}
+
+#office{
+    padding: 2%;
+}
+
+  #ending{
+    padding: 2% 0;
+    border-top: 1px black dotted;
+}
