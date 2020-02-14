@@ -62,6 +62,18 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+nav{
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-between;
+line-height: 3.5;
+}
+.jumbo{
+    margin: 4%;
+    padding: 0 0 5% 0;
+}
+
 p {
     line-height: 1.4;
 }
@@ -110,6 +122,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box{
+    background-color: darkcyan;
+}
+
+.box{
+    background-color: yellow;
 }
 
 .bottom-content {
