@@ -62,20 +62,35 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+*.container{
+	width: 40%;
+	margin: 30px auto;
+}
 nav{
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-justify-content: space-between;
-line-height: 3.5;
-}
-.jumbo{
-    margin: 4%;
-    padding: 0 0 5% 0;
+margin-left: 2%;
 }
 
+ nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.em;
+    margin: 0 0 0 80px; 
+ }
+
+.jumbo{
+    margin: 4%;
+    
+}
+.jumbo-about{
+    margin: 4%;
+}
 p {
-    line-height: 1.4;
+    justify-content: center;
+    
 }
 
 .container {
@@ -83,14 +98,21 @@ p {
     margin: 0 auto;
 }
 
+.about-container {
+    width: 800px;
+    margin: 0 auto;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+   
 }
 
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -123,19 +145,44 @@ p {
     align-items: center;
     justify-content: center;
 }
-    div.boxes:nth-of-type(1)
-    {background-color: turquoise;
-    
-    }
+  
+  
+.middle-content .boxes .box1 {background:teal;}
+
+.middle-content .boxes .box2 {background: gold;}
+
+.middle-content .boxes .box3 {background: cadetblue;}
+
+.middle-content .boxes .box4 {background: coral;}
+
+.middle-content .boxes .box5 {background: crimson;}
+
+.middle-content .boxes .box6 {background: forestgreen;}
+
+.middle-content .boxes .box7 {background: darkorchid;}
+
+.middle-content .boxes .box8 {background: hotpink;}
+
+.middle-content .boxes .box9 {background: indigo;}
+
+.middle-content .boxes .box10 {background: dodgerblue;}
+
+
+
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+}
+
+.bottom-content {
+        display: flex;
+        margin: 0 2% 20px;
+   
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding-right: 10%;
 }
 
 .bottom-content .text-container:last-child {
@@ -148,7 +195,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
