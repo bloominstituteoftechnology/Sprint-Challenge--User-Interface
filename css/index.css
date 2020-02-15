@@ -194,6 +194,7 @@ p {
   height: 100px;
   margin: 20px 2.5%;
   color: white;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,7 +216,7 @@ p {
 
 footer {
   width: 100%;
-  display: flex;
+  dispay: flex;
   background: black;
   justify-content: center;
 }
@@ -269,73 +270,37 @@ img.head-img {
   display: flex;
   justify-content: center;
 }
-
-.box.box1 {
-  background-color: teal;
-}
-.box.box2 {
-  background-color: gold;
-}
-.box.box3 {
-  background-color: cadetblue;
-}
-.box.box4 {
-  background-color: coral;
-}
-.box.box5 {
-  background-color: crimson;
-}
-.box.box6 {
-  background-color: forestgreen;
-}
-.box.box7 {
-  background-color: darkorchid;
-}
-.box.box8 {
-  background-color: hotpink;
-}
-.box.box9 {
-  background-color: indigo;
-}
-
-.box.box10 {
-  background-color: dodgerblue;
-}
 /* this like is the beginning of about CSS */
-.page2 h1 {
-  margin: 2% 2% 2% 0;
-}
-.page2divmid {
+.div2divmid {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+
+  width: 30%;
+}
+
+div.page2aboutdiv {
+  margin: 0 8%;
+}
+div.page2blank {
+  display: block;
+  position: absolute;
   width: 100%;
-  justify-content: space-between;
+  height: 8%;
+  margin-bottom: 8%;
+  background-color: white;
+  top: 0;
 }
-div.subgroup1 {
+img.page2img1 {
+  margin-top: 8%;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
 }
-div.subgroup2 {
-  display: flex;
+.page2 img {
+  margin: 2%;
 }
-div.subgroup1 p {
-  width: 80%;
-}
-div.subgroup2 p {
-  width: 80%;
-}
-div.subgroup1 hr {
-  justify-content: flex-start;
-  width: 80%;
-  margin-left: 3%;
-  border: dashed 1px black;
-}
-div.subgroup2 hr {
-  justify-content: flex-start;
-  width: 80%;
-  margin-left: 3%;
-  border: dashed 1px black;
-}
-button {
-  border: 1px solid black;
-  border-radius: 10px;
+img.page2str {
+  margin-top: 15%;
 }
