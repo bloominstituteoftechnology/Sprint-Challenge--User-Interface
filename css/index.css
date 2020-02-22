@@ -66,9 +66,27 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    padding-top: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+    margin:20px 0px; 
+    padding: 10px;
+    align-content: middle;
+}
+
+.banner-image {
+    padding-bottom: 20px;	
 }
 
 .top-content {
