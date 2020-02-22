@@ -156,7 +156,12 @@ hr{
 }
 
 
-
+.blog-img{
+    max-width: 100%;
+}
+.blog-text img{
+    max-width: 100%;
+}
 
 
 
