@@ -92,7 +92,6 @@ video {
     vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -150,12 +149,27 @@ h3,
 h4,
 h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    padding: 10px 10px 10px 10px;
     font-family: 'Rubik', sans-serif;
+    margin-top: 10px;
 }
 
 p {
     line-height: 1.4;
+    padding: 10px 10px 10px 10px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px;
 }
 
 a {
@@ -169,101 +183,29 @@ a:hover {
     color: red;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
-    padding: 10px;
-}
-
-.banner-image {
-    padding-bottom: 20px;
+button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 105px;
+    margin: 10px;
 }
 
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#box1 {
-    background: teal;
-}
-
-#box2 {
-    background: gold;
-}
-
-#box3 {
-    background: cadetblue;
-}
-
-#box4 {
-    background: coral;
-}
-
-#box5 {
-    background: crimson;
-}
-
-#box6 {
-    background: forestgreen;
-}
-
-#box7 {
-    background: darkorchid;
-}
-
-#box8 {
-    background: hotpink;
-}
-
-#box9 {
-    background: indigo;
-}
-
-#box10 {
-    background: #1E90FF;
+.middle-content .text-container {
+    width: 48%;
 }
 
 .bottom-content {
@@ -274,10 +216,6 @@ nav {
 
 .bottom-content .text-container {
     padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
 }
 
 footer {
