@@ -81,8 +81,6 @@ p {
 }
 
 .jumbo {
-    width: 100%;
-    margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 25px;
 }
@@ -263,4 +261,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about CSS*/
+
+.aboutTop {
+    border-bottom: 2px dotted gray;
+    margin-bottom: 25px;
+}
+
+.learnMore {
+    border: 1px, solid, black;
+    padding: 15px;
+    margin: 15px;
+}
+
+.fourDivs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.fourDivs div {
+    width: 34%;
+    border: 2px, dotted, gray;
+}
+.learnMore {
+    display: inline-block;
+}
+
+.bottomSection {
+    margin-top: 45px;
 }
