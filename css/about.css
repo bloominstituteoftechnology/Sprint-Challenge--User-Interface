@@ -98,10 +98,7 @@ hr {
 }
 
 .middle-section hr {
-    border: 1px dashed;
-    width: 100%;
-    
-
+    margin: 2% 5%;
 }
 
 button {
@@ -115,6 +112,7 @@ button {
     margin: 0 17%;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 1%;
 }
 
 .strategy {
@@ -132,3 +130,38 @@ button {
 .Collaboration {
     width: 45%;
 }
+
+.work-together {
+    margin: 2% 17% 0;
+}
+
+footer {
+    border: 1px solid;
+    margin: 3% 17% 0;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    }
+}
+
+/* nav a{
+    text-decoration: none;
+    color: white;
+    /* align-items: center; */
+} */
