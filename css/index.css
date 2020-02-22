@@ -196,17 +196,13 @@ footer nav a {
 
 /* About page */
 
-/* .strat-pic {
-    width: 300px;
-    height: 300px;
-    margin: 50px;
-  
-} */
 
 .main-info .container{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .main-info .container div {
@@ -216,17 +212,28 @@ footer nav a {
   width: 320px;
   height: 500px;
   font-size: 15px;
-  margin: 10px;
-  padding: 15px;
+  margin: 40px;
+  align-items: center;
 }
 
 .main-info .container img {
-    width: 250px;
-    height: 170px;
+    width: 350px;
+    height: 270px;
     
 }
 
 button {
     width: 100px;
     height: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.final {
+    justify-content: center;
+    width: 800px;
+}
+
+footer {
+    width: 800px;
 }
