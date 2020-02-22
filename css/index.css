@@ -81,8 +81,8 @@ p {
 }
 
 .jumbo {
-    margin-right: 30%;
-    margin-bottom: 25px;
+  margin: 0 auto;
+  display: block;
 }
 
 .container {
@@ -271,7 +271,7 @@ footer nav a {
 }
 
 .learnMore {
-    border: 1px, solid, black;
+    border: 1px solid black;
     padding: 15px;
     margin: 15px;
 }
@@ -279,15 +279,18 @@ footer nav a {
 .fourDivs{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-between;
+    justify-content: space-between;
+    margin-right: 50px;
 }
 .fourDivs div {
     width: 34%;
-    border: 2px, dotted, gray;
+    border-bottom: 2px dotted gray;
 }
-.learnMore {
+.fourDivs div a {
     display: inline-block;
+}
+.pAndC {
+    margin-top: 10%;
 }
 
 .bottomSection {
