@@ -65,3 +65,39 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+.index-navbar {
+    display: flex;
+    margin: 0 17% 2%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-img {
+    margin: 0 17% 2%;
+}
+
+.about-text {
+    margin: 0 17%;
+}
+
+hr {
+    border: 1px dashed;
+    margin: 2% 17%;
+}
+
+.middle-section hr {
+    border: 1px dashed;
+    
+}
