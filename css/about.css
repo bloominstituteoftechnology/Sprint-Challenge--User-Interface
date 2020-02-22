@@ -99,5 +99,36 @@ hr {
 
 .middle-section hr {
     border: 1px dashed;
+    width: 100%;
     
+
+}
+
+button {
+    margin: 2% 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.middle-section {
+    display: flex;
+    margin: 0 17%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.strategy {
+    width: 45%;
+}
+
+.how-we-work {
+    width: 45%;
+}
+
+.places-we-work{
+    width: 45%;
+}
+
+.Collaboration {
+    width: 45%;
 }
