@@ -67,9 +67,15 @@ p {
 }
 
 a {
-    text-decoration: none;
     padding-top: 20px;
-}
+    transition: color .5s;
+    text-decoration-line: none;
+    color:black;
+  }
+  
+  a:hover {
+    color: red;
+  }
 
 .container {
     width: 800px;
@@ -79,10 +85,8 @@ a {
 nav {
     display: flex;
     justify-content: space-between;
-    text-align: center; 
     margin:20px 0px; 
     padding: 10px;
-    align-content: middle;
 }
 
 .banner-image {
