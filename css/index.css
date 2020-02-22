@@ -191,3 +191,16 @@ footer nav a {
 .box-10 {
 	background-color: dodgerblue;
 }
+.section-1{
+	display: flex;
+	width: 80%;
+	padding-top: 2%;
+	padding-left: 15%;
+}
+.work {
+	padding-left: 5%;
+}
+.button {
+	display: flex;
+	justify-content: center;
+}
