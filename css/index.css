@@ -70,7 +70,68 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/********** mycode *********/
 
+.top {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.top a{
+    text-decoration: none;
+    color: black;
+    margin: 30px 0 10px 20px;
+}
+
+.box-1{
+    background-color: teal;
+}
+ .box-2{
+     background-color:gold ;
+ } 
+ .box-3{
+     background-color:cadetblue ;
+ } 
+ .box-4{
+     background-color: coral;
+ } 
+ .box-5{
+     background-color: crimson;
+ }
+ 
+ .box-6{
+     background-color: forestgreen;
+ } 
+ .box-7{
+     background-color: darkorchid ;
+ } 
+ .box-8{
+     background-color: hotpink;
+ } 
+ .box-9{
+     background-color: indigo;
+ } 
+ .box-10{
+     background-color: dodgerblue;
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +165,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
