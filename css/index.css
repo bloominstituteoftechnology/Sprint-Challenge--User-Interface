@@ -101,10 +101,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8, .box-9, .box-10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -161,4 +160,34 @@ footer nav a {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 2%;
+}
+.box1 {
+	background-color: teal;
+}
+.box-2 {
+	background-color: gold;
+}
+.box-3 {
+	background-color: cadetblue;
+}
+.box-4 {
+	background-color: coral;
+}
+.box-5 {
+	background-color: crimson;
+}
+.box-6 {
+	background-color: forestgreen;
+}
+.box-7 {
+	background-color: darkorchid;
+}
+.box-8 {
+	background-color: hotpink;
+}
+.box-9 {
+	background-color: indigo;
+}
+.box-10 {
+	background-color: dodgerblue;
 }
