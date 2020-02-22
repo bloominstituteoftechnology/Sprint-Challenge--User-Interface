@@ -1,0 +1,191 @@
+/* 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+   
+    
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+ h2 {
+    font-size: 18px;
+    margin: 15px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+p {
+  display: inline-block;
+}
+
+
+.containerAboutPage {
+    /* display: inline-block; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 160px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    border-width: 2px; 
+   
+    
+}
+
+
+footer {
+    background: black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-item {
+    color: white;
+  margin-left: 200px;
+  
+} 
+
+.About {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.middleSectionOne .Strategy {
+  width: 24.5%;
+	height: 100%;
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin: 2%;
+  border-bottom: 2px dashed black;
+} 
+.HowWeWork {
+  width: 24.5%;
+	height: 100%;
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin: 2%;
+  border-bottom: 2px dashed black;
+}
+.middleSectionTwo .PlacesWeWork {
+  width: 24.5%;
+	height: 100%;
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin: 2%;
+  border-bottom: 2px dashed black;
+}
+.Collaboration {
+  width: 24.5%;
+	height: 100%;
+  display: inline-block;
+  /* border: 2px solid black; */
+  margin: 2%;
+  border-bottom: 2px dashed black;
+}
+.LetsWorkTogether {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+	height: 25%;
+  padding: 20px;
+	display: block;
+  /* border: 2px solid black; */
+
+}
+
+button {
+  border-radius: 5px;
+}
+
+nav a {
+    width: 100px;
+    display: inline-block;
+    margin-left: 200px;
+    align-items: left;
+    margin: 0px;
+    font-size: 14px;
+    color: black;
+    padding: 20px;
+  
+}
+
+
+.logo {
+    
+    height: 50px;
+    width: 17%;
+    display: inline;
+    margin-top: 8px;
+    margin-left: 370px;
+    
+}
