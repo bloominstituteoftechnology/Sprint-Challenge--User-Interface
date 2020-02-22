@@ -2,6 +2,19 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+ 
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+
+.middle-content .boxes .Box1{
+    background-color: gold;
+}
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -87,7 +100,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed rgb(240, 12, 12);
 }
 
 .middle-content h2 {
