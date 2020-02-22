@@ -75,10 +75,15 @@ p {
 .top {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
+.logo{
 
+}
+nav{
+    align-items: center;
+}
 .top a{
     text-decoration: none;
     color: black;
@@ -118,11 +123,32 @@ p {
  } 
 
 
+/******about page*********/
+.header-text{
+    padding: 20px;
+}
+.middle-section{
+    display:flex;
+    flex-wrap: wrap;
 
+}
 
+.middle-section-text{
+    max-width: 45%;
+    margin: 20px;
+    
+}
+.middle-section-text img{
+    padding-bottom: 10px;
+}
 
-
-
+.middle-section button{
+    font-size: 1em;
+    padding: 5px 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 15px;
+    }
 
 
 
