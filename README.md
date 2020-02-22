@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic html is the universal HTML markup that is used to give meaning to the information that is on a webpage. For example, instead of just using div, semantic html uses elements like <p> for paragraph, <section> for a section and <address> for addresses. Semantic HTML makes it much easier for someone to realize what the code is for within the element.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The major difference is that inline-block allows to set a width and height on the element. Also, with display: inline the top and bottom of margins and paddings aren’t respected while in display: inline-block they are.
 
 3. What are the 4 areas of the box model?
 
+1. Content 2. Border 3. Padding 4. Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items: center works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a extremely valuable version control system for developers to work on projects together. Git is valuable to a team of developers for a number of reasons. The branching capabilities allow for each developer to work on and edit the code while not directly effecting the master code. This benefits the team because it allows for more organization and keeps all of their work separate instead of the team all working on the same master code. Each developer gets their own repository which comes with the full history of all past commits. Pull requests allow for another developer to merge your  branch into their repository. Project leads can keep track off all the changes but developers can all discuss changes before mixing the new code or changes into the original codebase. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

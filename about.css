@@ -24,6 +24,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+* {
+    box-sizing: border-box;
+}
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -243,34 +246,31 @@ nav {
     align-items: center;
     margin: 5% 20% 5% 20%;
 } 
-.box1{
-    background-color: teal !important;
+.top-section{
+    display: flex;
 }
-.box2{
-    background-color: gold !important;
+.strategy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.box3{
-    background-color: cadetblue !important;
+.middle-section{
+    display: flex;
 }
-.box4{
-    background-color: coral !important;
-    ]
+.places{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.box5{
-    background-color: crimson !important;
+.bottom-section{
+    margin: 0% 0% 5% 0%;
 }
-.box6{
-    background-color: forestgreen !important;
-}
-.box7{
-    background-color: darkorchid !important;
-}
-.box8{
-    background-color: hotpink !important;
-}
-.box9{
-    background-color: indigo !important;
-}
-.box10{
-    background-color: dodgerblue !important;
-}
+button {
+	background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+	width: 100px;
+	height: 30px;
+    font-size: 10px;
+    margin: 5%  0% 0% 0%;
+  }
