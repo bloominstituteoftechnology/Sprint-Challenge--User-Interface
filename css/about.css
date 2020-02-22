@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.index-navbar {
+.about-navbar {
     display: flex;
     margin: 0 17% 2%;
 }
@@ -76,7 +76,6 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 a {
@@ -145,7 +144,7 @@ footer {
     align-items: center;
 }
 
-nav a {
+.footernav a {
     text-decoration: none;
     color: white;
 }
@@ -158,10 +157,3 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
     }
-}
-
-/* nav a{
-    text-decoration: none;
-    color: white;
-    /* align-items: center; */
-} */
