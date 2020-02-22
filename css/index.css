@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,10 +101,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8, .box-9, .box-10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,100 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.nav {
+	display: flex;
+	align-items: baseline;
+	padding-left: 2%;
+
+}
+.links{
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.header-img {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 2%;
+}
+.box1 {
+	background-color: teal;
+}
+.box-2 {
+	background-color: gold;
+}
+.box-3 {
+	background-color: cadetblue;
+}
+.box-4 {
+	background-color: coral;
+}
+.box-5 {
+	background-color: crimson;
+}
+.box-6 {
+	background-color: forestgreen;
+}
+.box-7 {
+	background-color: darkorchid;
+}
+.box-8 {
+	background-color: hotpink;
+}
+.box-9 {
+	background-color: indigo;
+}
+.box-10 {
+	background-color: dodgerblue;
+}
+.section-1, .section-2{
+	display: flex;
+	width: 80%;
+	padding-top: 2%;
+	padding-left: 15%;
+}
+.strategy, .places, .collab{
+	border-bottom: 1px dotted black;
+}
+.work {
+	padding-left: 5%;
+	border-bottom: 1px dotted black;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 2%;
+}
+header{
+border-bottom: 1px dotted black;
+}
+.end {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 60%;
+	padding-left: 15%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.p{
+	padding-bottom: 2%;
+}
+button {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+  }
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #0F5897;
+    }
+  }
+	
