@@ -72,7 +72,6 @@ p {
 }
 
 .navbar {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -83,6 +82,10 @@ p {
 a {
     text-decoration: none;
     color: black;
+}
+
+.header-img {
+    margin: 0 17% 2%;
 }
 
 .container {
