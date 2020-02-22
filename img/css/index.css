@@ -1,4 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -144,108 +145,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/* New CSS styling starts here */
- .container {
-     display: flex;
-     justify-content: flex-start;
-     flex-wrap: wrap;
-     width: 90%;
- }
- .navbar {
-    display: flex;
-    width: 80%;
-    padding: 20px;
-    justify-items: space-evenly;
-}
-    .nav-links {
-        display: flex;
-        flex-direction: row;
-        /*border: 5px solid blue;*/
-        justify-content: space-between;
-        width: 100%;
-        padding: 2%;
-        font-size: 1.5em;
-    }
-    
-     
-      .top-content {
-          display: flex;
-      }
-      .heading {
-          display: flex;
-          flex-wrap: nowrap;
-          width: 60%;
-          
-      }
-      .text-container {
-          margin: 1%;
-          padding: 1%;
-          font-weight: bold;
-      }
-   .middle-content {
-       display: flex;
-       justify-content: center;
-       padding: 2%;
-       
-   }
-     .boxes {
-         display: flex;
-         width: 90%;
-         justify-items: center;
-     }
-     
-     
-     
-     .boxes .box.box1 {
-         background-color: teal;
-         border: 5px solid blue;
-         width: 90px;
-         
-     }
-      
-     .boxes .box.box2 {
-         background-color: gold;
-         border: 5px solid blue;
-         width: 90px;
-     }
-     .boxes .box.box3 {
-         background-color: cadetblue;
-         border: 5px dotted blue;
-         width: 90px;
-     }
-     .boxes .box.box4 {
-        background-color: coral;
-        border: 5px solid blue;
-        width: 90px;
-     }
-     .boxes .box.box5 {
-        background-color: crimson;
-        border: 5px solid blue;
-        width: 90px;
-     }
-     .boxes .box.box6 {
-        background-color: forestgreen;
-        border: 3px solid orangered;
-        width: 90px;
-     }
-     .boxes .box.box7 {
-        background-color: darkorchid;
-        border: 3px solid orangered;
-        width: 90px;
-     }
-     .boxes .box.box8 {
-        background-color: hotpink;
-        border: 3px dotted orangered;
-        width: 90px;
-     }
-     .boxes .box.box9 {
-        background-color: indigo;
-        border: 3px solid orangered;
-        width: 90px;
+ /*  New css styling starts here.*/
 
-     }
-     .boxes .box.box10 {
-        background-color: dodgerblue;
-        border: 3px solid orangered;
-        width: 90px;
-     }
+ 
