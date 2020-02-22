@@ -160,7 +160,7 @@ p {
     .box10 {
         background-color: dodgerblue;
     }
-    
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -192,4 +192,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About page */
+
+/* .strat-pic {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+  
+} */
+
+.main-info .container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.main-info .container div {
+  display: flex;
+  border-bottom: 1px dotted;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 500px;
+  font-size: 15px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.main-info .container img {
+    width: 250px;
+    height: 170px;
+    
+}
+
+button {
+    width: 100px;
+    height: 50px;
 }
