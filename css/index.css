@@ -224,3 +224,19 @@ border-bottom: 1px dotted black;
 .p{
 	padding-bottom: 2%;
 }
+button {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+  }
+  button:hover {
+    animation-name: background-color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+    100% {
+      background-color: #0F5897;
+    }
+  }
+	
