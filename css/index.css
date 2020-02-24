@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,109 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.text-container{
+    margin-top: 15px;
+}
+
+.aboutFour{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.bottom-text-container{
+
+    margin-top: 3%;
+}
+
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 10%;
+    width: 35%;
+    font-size: 100%;
+    background-color: white;
+    margin: 10px 0px;
+}
+
+.header-text-container{
+    margin: 20px;
+    width: 95%;
+}
+hr{
+ width: 95%;
+ border: 1px dashed black;
+ border-style: none none dashed; 
+ color: #fff; 
+ background-color: #fff;
+ margin-bottom: 10%;
+}
+
+.about-text-container img{
+    margin-bottom: 10px;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-bottom: 14px;
+  }
+  
+ .formButton {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+ .formButton:hover {
+    background-color: blue;
+  }
