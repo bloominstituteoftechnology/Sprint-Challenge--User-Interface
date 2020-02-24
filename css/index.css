@@ -57,7 +57,6 @@ html, body {
 }
 
 .header {
-    border: 1px solid red;
      display: flex;
      align-items: stretch;
      width: 67%;
@@ -66,10 +65,12 @@ html, body {
      padding: 5px;
      
 }
-
+button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 .top-nav {
- border: 1px solid red;
  margin-left: 90px;
  margin-top: 11px;
 }
@@ -189,6 +190,10 @@ p {
     padding-right: 0;
 }
 
+.about-text {
+    text-align: flex;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -207,3 +212,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
