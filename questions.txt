@@ -4,7 +4,11 @@
     The computer treats them both as block level elements; and does nothing more to differentiate between them. The difference is in the specificity or semantics. Because the name section is used; it allows developers 
     to better distinguish between different areas of the HTML. Semantic HTML is used because it helps people navigate through code. It is primarility for the human element behind programming.
 
-    Name two big differences between display: block; and display: inline;.
+    Name two big differences between display: block; and display: inline;. 
+    1st difference. Display block makes elements behave like block level elements. Inline block will have them display as inline elements. For instance, 
+    a block level element will typically force a line break after it, as well as take up the entire horizontal space of a page. An inline element will do it's best to fit in and respect things to the right and left
+    of itself. 
+    2nd difference. Display inline will typically align elements horizonally, and block elements align vertically.
 
     What are the 4 areas of the box model? Margin, padding, border, content
 
