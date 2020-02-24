@@ -34,29 +34,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-Is the way we use to give meaning to the information in a website and apps that makes sense for human users.
-
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
-Blocks can control height and width
 
 3. What are the 4 areas of the box model?
 
-Content 
-Padding 
-Border 
-Margin 
-
-4. 
-
-The flexbox items are aligned at the center of the cross axis.
-
-By default, the cross axis is vertical. This means the flexbox items will be centered vertically.
-
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 5. Explain why git is valuable to a team of developers.
-
-It allows to record and publish changes that can be compared and worked/edited by other users so users dont overlap their work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
