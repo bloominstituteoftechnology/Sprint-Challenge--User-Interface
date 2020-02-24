@@ -185,6 +185,9 @@ button {
 .middle-content .boxes .ten {
     background: dodgerblue;
 }
+.middle-content .boxes:hover {
+    border-radius: 50%;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
