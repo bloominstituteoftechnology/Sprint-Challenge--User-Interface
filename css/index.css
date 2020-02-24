@@ -98,6 +98,12 @@ p {
     padding: 2%;
     margin-bottom: 20px;;
 }
+button {
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 12%;
+}
 /* .Top-content {
     display: flex;
     flex-wrap: wrap;
