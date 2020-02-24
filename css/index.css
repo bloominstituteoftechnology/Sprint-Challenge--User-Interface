@@ -242,3 +242,19 @@ footer nav a {
     padding-left: 500px;
     padding-right: 525px;
 }
+
+
+.top-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding-left: 500px;
+    padding-right: 525px;
+}
+
+.work-together {
+   display: flex;
+   flex-wrap: wrap;
+   
+}
