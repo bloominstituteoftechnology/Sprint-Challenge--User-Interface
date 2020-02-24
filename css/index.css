@@ -71,6 +71,13 @@ p {
     margin: 0 auto;
 }
 
+.navigation nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,13 +85,50 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.About {
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;  
+}
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 3% 1%;
+    padding-bottom: 20px; 
 }
-
+.Top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px; 
+}
+.Top-content .Text-container {
+    width: 48%;
+    padding: 3% 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;   
+}
+.work {
+    padding: 2%;
+    margin-bottom: 20px;;
+}
+button {
+    font-size: 14px;
+    border: 2px solid black;
+    padding: 150x 150px;
+    border-radius: 10px;
+}
+/* .Top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.Top-content .Text-Container {
+    width: 45%;
+    padding: 3% 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+} */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -111,7 +155,47 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .one {
+    background: darkcyan;
+}
+.middle-content .boxes .two {
+    background: gold;
+}
+.middle-content .boxes .three {
+    background: cadetblue;
+}
+.middle-content .boxes .four {
+    background: coral;
+}
+.middle-content .boxes .five {
+    background: crimson;
+}
+.middle-content .boxes .six {
+    background: forestgreen;
+}
+.middle-content .boxes .seven {
+    background: mediumorchid;
+}
+.middle-content .boxes .eight {
+    background: magenta;
+}
+.middle-content .boxes .nine {
+    background: indigo;
+}
+.middle-content .boxes .ten {
+    background: dodgerblue;
+}
+.middle-content .boxes:hover {
+    border-radius: 50%;
+}
+@media screen and (max-width: 600px) {
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
