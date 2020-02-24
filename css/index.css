@@ -177,5 +177,68 @@ footer nav a {
 }
 .flex1{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.jumbo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.about-page {
+    text-align: center;
+    border-bottom: 1px dashed black;
+}
+
+.img1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-top: 20px;
+}
+
+.ptag1 {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-top: 20px;
+    border-top: 1px dashed black;
+}
+
+
+.bot-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-left: 500px;
+    padding-right: 525px;
 }
