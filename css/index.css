@@ -188,6 +188,14 @@ button {
 .middle-content .boxes:hover {
     border-radius: 50%;
 }
+@media screen and (max-width: 600px) {
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
