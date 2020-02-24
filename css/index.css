@@ -56,6 +56,32 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.header {
+    border: 1px solid red;
+     display: flex;
+     align-items: stretch;
+     width: 67%;
+     margin-left: 200px;
+     word-spacing: 67px;  
+     padding: 5px;
+     
+}
+
+
+.top-nav {
+ border: 1px solid red;
+ margin-left: 90px;
+ margin-top: 11px;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        padding: 20px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -101,6 +127,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,6 +137,42 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: coral;
+}
+
+#box4  {
+    background-color: coral;
+}
+
+#box5  {
+    background-color: crimson;
+}
+
+#box6  {
+    background-color: forestgreen;
+}
+#box7  {
+    background-color: darkorchid;
+}
+#box8  {
+    background-color: hotpink;
+}
+#box9  {
+    background-color: indigo;
+}
+#box10  {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
