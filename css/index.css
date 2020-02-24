@@ -85,13 +85,31 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.About {
+    margin: 20px 0px;
+    border-bottom: 1px dashed black;  
+}
 .top-content .text-container {
     width: 48%;
     padding: 3% 1%;
     padding-bottom: 20px;  
 }
-
+.work {
+    padding: 2%;
+    margin-bottom: 20px;;
+}
+/* .Top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.Top-content .Text-Container {
+    width: 45%;
+    padding: 3% 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+} */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
