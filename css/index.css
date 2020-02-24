@@ -114,8 +114,8 @@ p {
 button {
     font-size: 14px;
     border: 2px solid black;
-    padding: 10px 20px;
-    border-radius: 12%;
+    padding: 150x 150px;
+    border-radius: 10px;
 }
 /* .Top-content {
     display: flex;
