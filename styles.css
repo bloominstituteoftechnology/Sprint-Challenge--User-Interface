@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    padding-right: 17%;
+    padding-left: 17%;
+    
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+.Top {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin: auto;
+    padding-left: 15%;
+    padding-right: 16%;
+
+}
+.Bimg {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+   margin-top: 2%;
+}
+a {
+    padding-top: 3%;
+    color: black;
+    text-decoration: none;
+}
+.About {
+    width: fit-content;
+    margin: auto;
+    padding-left: 22%;
+    padding-right: 17%;
+    padding-top: 3%;
+    
+}
+.box1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 3%;
+    
+    
+}
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 3%;
+    
+    
+    
+}
+.Together {
+    padding: 2%;
+    padding-left: 22%;
+    width: fit-content;
+
+}
+footer {
+    width: 60%;
+    background: black;
+    margin: auto;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+   
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
