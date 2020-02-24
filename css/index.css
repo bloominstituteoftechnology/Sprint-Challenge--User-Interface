@@ -199,7 +199,7 @@ nav a {
 }
 .bottom-text-container{
 
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 button{
@@ -216,7 +216,16 @@ button{
     margin: 20px;
     width: 95%;
 }
-.about-text-container{
-    border-bottom: 1px dashed black;
+hr{
+ width: 95%;
+ border: 1px dashed black;
+ border-style: none none dashed; 
+ color: #fff; 
+ background-color: #fff;
+ margin-bottom: 10%;
+}
+
+.about-text-container img{
+    margin-bottom: 10px;
 
 }
