@@ -59,7 +59,38 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+    padding: 5px 0;
+    font-family: 'Rubik', sans-serif;}
+}
+
+header {
+	display: flex; 
+	flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0; 
+}
+
+header nav {
+    display: flex; 
+	flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0; 
+}
+
+header nav a{
+    color: black;
+}
+
+header nav a:link{
+    text-decoration: none; 
+}
+
+.top-content .text-container h2{
+    font-size: 18px; 
+	padding: 12px 3; 
 }
 
 p {
@@ -82,6 +113,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
+    padding-top: 20px; 
     padding-bottom: 20px;  
 }
 
@@ -91,7 +123,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0 1%;
     margin-bottom: 0;
 }
 
@@ -102,7 +134,7 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 15%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -112,9 +144,41 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
+.bottom-content{ 
     display: flex;
-    margin: 0 2% 20px;
+    flex-wrap: row;
+    margin: 1 6% 21px;
     justify-content: space-around;
 }
 
@@ -143,4 +207,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+}
+.top-content-info {
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.middle-content-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px dashed lightslategray;
+    border-bottom: 1px dashed black; 
+    margin: 20px 0;
+    padding: 20px 0; 
+}
+
+.middle-content-info .pic{
+    width: 50%; 
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.middle-content-info .pic button {
+    border: 1px solid black; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    margin-top: 10px; 
+}
+.bottom-content-info {
+    display: block;
+    flex-wrap: row;
+    margin: 20px 0; 
 }
