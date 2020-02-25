@@ -129,6 +129,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 0;
 }
 
 footer nav {
@@ -143,4 +144,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+.navbar a {
+    color:black;
+    text-decoration: none;
+}
+
+.first-sect {
+    margin: 5% 0 5% 0;
+}
+
+.learn_more {
+    border: black;
+    border-radius: 12px;
+}
+
+.boxes div {
+    flex-grow: 5;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    margin:50px;
+    box-sizing: border-box;
+    
+}
+
+.boxes {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.learn_more {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-container {
+    display: flex;
+    margin: 5% 0 5% 0;
+}
+
+.about-items {
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content {
+    display:flex;
+    margin-top: 5%;
+}
+
+.places-container {
+    display: flex;
+    margin: 5% 0 5% 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
 }
