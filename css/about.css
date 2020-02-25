@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  overflow-x:hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navtop{
+display: flex;
+justify-content: space-evenly;
+align-content: flex-start;
+margin: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+
+}
+
+a:hover{
+color: grey;
+}
+
+.logo{
+  position: relative;
+  bottom: 20px;
+  animation: lefttoright 2s ease;
+}
+
+.container-about-page{
+display: flex;
+flex-flow: column wrap;
+width: 40%;
+position: relative;
+left: 14.3%;
+}
+
+.logotop{
+position: relative;
+left: 20%;
+}
+
+.strategy{
+  position: relative;
+  border-bottom: 2px dotted black
+
+}
+
+.howwework{
+  position: relative;
+  left: 425px;
+  bottom: 371px;
+  border-bottom: 2px dotted black
+}
+
+.placeswework{
+  position: relative;
+  bottom: 250px;
+  border-bottom: 2px dotted black
+}
+
+.collaboration{
+  position: relative;
+  bottom: 622px;
+  left: 425px;
+  border-bottom: 2px dotted black
+}
+
+.about{
+  position: relative;
+  left: 10%;
+  margin: 5%;
+  width: 790px;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted black;
+}
+
+.learnmore{
+  width: 100px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+  left: -10px;
+  height: 30px;
+  margin: 10px;
+  outline: none;
+}
+
+.learnmore:hover{
+  background: grey;
+  cursor: pointer;
+}
+
+.learnmore:active{
+  border: 3px solid black;
+}
+
+p{
+  color: bold black;
+}
+
+.letsworktogether{
+  position: relative;
+  bottom: 550px;
+  left: 300px
+  
+}
+
+.footnav{
+  position: relative;
+  bottom: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  left: 230px;
+  color: white;
+  font-size: 20px;
+  background: grey;
+  height: 50px;
+}
+
+body{
+  width: 100%;
+}
+
+@keyframes lefttoright{
+  from{left: -30%;}
+  to{left: 0%;}
+}
+
