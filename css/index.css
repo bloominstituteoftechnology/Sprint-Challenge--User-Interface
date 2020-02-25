@@ -144,3 +144,131 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my code started here */
+.container{
+    max-width: 80%;
+}
+
+/* index.html + nav */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+a:hover { 
+    border: 1px black solid;
+    background-color: black;
+    padding: 4px 20px;
+    border-radius: 4px;
+    color: white;
+  }
+.header-img{
+    display: flex;
+    margin: 50px auto;
+	padding-bottom: 20px;
+}
+#b1{
+    background-color: teal;
+}
+#b2{background-color: gold;
+}
+#b3{background-color: cadetblue}
+#b4{background-color: coral;}
+#b5{background-color: crimson;}
+#b6{background-color: forestgreen;}
+#b7{background-color: darkorange;}
+#b8{background-color: hotpink;}
+#b9{background-color: indigo;}
+#b10{background-color: dodgerblue;}
+
+/* about.html */
+.about-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+    margin-bottom: 25px;
+}
+.infoboxes{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: center;
+}
+.inbox{
+    border-bottom: 1px dotted black;
+    width: 50%;
+    padding: 30px 0px;
+
+}
+
+.learnbutton{
+    border: 1px solid black;
+    padding: 4px 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    
+}
+.endtext{
+    margin: 40px 0px}
+
+
+/* contact.html */
+
+/* product.html  */
+
+.producttext{
+    margin-top: 30px;
+    width: 40%;
+   
+}
+ul .loremlist{
+    border-bottom: 1px solid black;
+
+}
+.producttitle{
+    margin-top: 40px;
+    font-size: 30px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    padding: 15px 0px;
+}
+.productform h2{
+    
+}
+form{
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   margin: 30px;
+}
+input{
+    margin-top: 10px;
+}
+input:hover{
+    border-color: cadetblue;
+}
+
+
+
+
+
+/* breakpoint code */
+
+@media only screen and (max-width: 600px) {
+   .body{background-color: grey;}
+} 
