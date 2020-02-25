@@ -1,0 +1,164 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Global Stylings */
+* {
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    padding: 15px 0;
+    font-family: Roboto;
+    line-height: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+hr {
+    border: 0.5px dashed black;
+}
+
+/* Header Nav And Logo Stylings */
+header{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+header nav a:visited {
+    color: black;
+}
+
+/* Spanner Image Stylings */
+
+#spannerimg {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#spannerimg img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Container Stylings For Page */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#aboutdescript {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Main Block Section Stylings */
+
+#bigolblocks {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+#bigolblocks div {
+    width: 47%;
+    padding: 20px 0;
+}
+
+#bigolblocks div h2 {
+    padding: 10px 0 0 0;
+}
+
+#bigolblocks button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+/* Closing Section Stylings */
+
+#closingsection {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* Footer Stylings */
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 15px;
+}
