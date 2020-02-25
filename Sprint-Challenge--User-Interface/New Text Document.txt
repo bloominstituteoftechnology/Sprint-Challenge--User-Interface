@@ -1,0 +1,24 @@
+1.If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+ans : semantic HTML would be elements in HTML that gives some type of meaning . Examples of semantic tags are <article> <header> <footer>
+<nav > etc.
+
+2.Name two big differences between display: block; and display: inline;
+
+ans : display : block takes up the whole line  whereas display: inline only takes space that you need . 
+
+3. What are the 4 areas of the box model?
+
+ans : Margin , padding , border , content . 
+
+4.While using flexbox, what axis does the following property work on: align-items: center?
+
+ans : cross-axis 
+
+5. Explain why git is valuable to a team of developers.
+
+ans : git helps in creating remote repostories online where you can always commit and edit changes to your file . It allows a team of 
+developers to work on the same project on different branches and allows an easy working enviroment for developers where the developers 
+can share/ edit their files . 
+
+
