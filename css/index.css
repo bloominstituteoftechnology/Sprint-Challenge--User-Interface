@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+.anchor-flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.anchors {
+    text-decoration: none; 
+    color:black; 
+    margin-top: 20px;
+}
+
+.jumbo-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +129,77 @@ p {
     justify-content: center;
 }
 
+.box-1 {
+    background-color: teal;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-2 {
+    background-color: gold;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-3 {
+    background-color: cadetblue;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-4 {
+    background-color: coral;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-5 {
+    background-color: crimson;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-6 {
+    background-color:forestgreen;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-7 {
+    background-color: darkorchid;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.box-8 {
+    background-color: hotpink;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-9 {
+    background-color: indigo;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box-10 {
+    background-color: dodgerblue;
+    padding: 50px 50px 50px 50px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +231,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About Page*/
+
+h2 {
+    margin-top: 15px;
+}
+
+button {
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100px;
+}
+
+.line {
+    width: 380px;
+}
+
+.line-top {
+    width: 100%;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-section p {
+    line-height: 1.5px;
 }
