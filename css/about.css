@@ -29,8 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
-    width: 800px;
+	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -150,4 +149,32 @@ footer nav a {
     margin: 0 30px;
     text-decoration: none;
     color: black;
+}
+
+.aboutp{
+    padding:0 2.5% 10px 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+.middlecontent{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.box{
+    width:370px;
+    margin: 15px 15px 15px 15px;
+    border-bottom: 1px dashed black;
+     
+}
+
+.button{
+    border-radius: 4px;
+    border: solid black 1.5px;
+    padding: 7.5px 15px 7.5px 15px;
+    background: white;
+}
+
+.workp{
+    padding:40px 2.5% 40px 2.5%;
 }
