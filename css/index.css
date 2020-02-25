@@ -69,8 +69,31 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 15px;
+    border: 1px green;
 }
 
+
+
+.container header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 780px;
+    padding-bottom: 35px;
+    }
+
+    .container header nav a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .logo {
+        margin: 2px 0 0;
+        vertical-align: baseline;
+    }
+
+    
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,8 +105,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
-}
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +137,49 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +213,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.header2 {
+    border-bottom: 2px dashed gray;
+}
+
+.boxes {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .info {
+      margin-right: 400px;
+  }
+  
+  
+  .info .box1 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+  
+  
+  .info .box2 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+  
+  
+  .info .box3 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+  
+  .info .box4 {
+    margin: 40px;
+    border: 2px solid red;
+  }
+    
+  
+     
