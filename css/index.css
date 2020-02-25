@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+.header-logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding-bottom: 20px;
+    
+}
+
+.top-nav a {
+    padding: 30px;
+}
+
+.top-nav {
+    margin-top: 25px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +94,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 
 .top-content .text-container {
     width: 48%;
@@ -144,3 +161,119 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.middle-content .boxes .box:first-child {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+footer nav a {
+    color: grey;
+}
+
+.about-section {
+   /* width: 700px; */
+    margin-left: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    padding: 8px 22px 8px 22px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+
+.top-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+
+.top-content2 .text-container2 {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+}
+
+.footer-section {
+    margin-top: 35px;
+}
+
+.footer-section nav a {
+    color: white;
+}
+
+@media(max-width: 500px) {
+   .container {
+       width: 500px;
+       background: darkcyan;
+   } 
+
+   .container .top-nav {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+   }
+
+   .container .top-nav a {
+       /* padding-left: 100%; */
+       padding: 0px;
+       text-align: center;
+       /* align-items: center; */
+       /* align-content: center; */
+       padding-bottom: 5%;
+       padding-top: 2%;
+       border-bottom: 3px dashed black;
+       
+   }
+
+   .top-logo {
+       display: none;
+   }
+
+   .highway {
+       width: 100%; /* logo was spilling over making the scroll appear */
+   }
+} /* this ends the media query */
