@@ -71,6 +71,38 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+header .black-logo {
+    margin-right: 100px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 40px;
+}
+
+header nav a {
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: blue;
+}
+
+.container .jumbo-logo {
+    margin: 15px 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +116,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.top-content .text-container h2, p {
+    font-weight: bold;
+}
 
 .middle-content {
     margin-bottom: 20px;
@@ -91,6 +126,7 @@ p {
 }
 
 .middle-content h2 {
+    font-weight: bold;
     padding: 0 2%;
     margin-bottom: 0;
 }
@@ -104,13 +140,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background-color: teal;
+  }
+  .box2 {
+    background-color: gold;
+  }
+  .box3 {
+    background-color: cadetblue;
+  }
+  .box4 {
+    background-color: coral;
+  }
+  .box5 {
+    background-color: crimson;
+  }
+  .box6 {
+    background-color: forestgreen;
+  }
+  .box7 {
+    background-color: darkorchid;
+  }
+  .box8 {
+    background-color: hotpink;
+  }
+  .box9 {
+    background-color: indigo;
+  }
+  .box10 {
+    background-color: dodgerblue;
+  }
 
 .bottom-content {
     display: flex;
@@ -120,6 +186,14 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+.bottom-content .text-container h2 {
+    font-weight: bold;
+}
+
+.bottom-content .text-container p {
+    font-weight: lighter;
 }
 
 .bottom-content .text-container:last-child {
@@ -143,4 +217,101 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    color: blue;
+}
+
+/* About Page */
+
+.container .about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about-page .jumbo-about-logo {
+    padding: 20px 0 20px 0;
+}
+
+.about-page .top-about {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-left: 20px;
+}
+
+.about-page .top-about h2 {
+    font-weight: bold;
+}
+
+.about-page .top-about p {
+    font-weight: lighter;
+}
+
+.about-page button {
+    border: 1px double black;
+    border-radius: 5px;
+    width: 140px;
+    height: 35px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.about-page button:hover {
+    background: black;
+    color: white;
+}
+.about-page .middle-about-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.about-page .middle-about-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxsect {
+    padding: 20px;
+    width: 400px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page p {
+    padding-bottom: 15px;
+}
+
+.about-page .bottom-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-page header {
+    padding-bottom: 20px;
+}
+
+.contact-page .red-lambda-logo {
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+.contact-page h1 {
+    font-size: 30px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-page .top-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
