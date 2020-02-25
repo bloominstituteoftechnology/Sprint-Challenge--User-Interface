@@ -66,9 +66,32 @@ p {
     line-height: 1.4;
 }
 
+/* 
+########################################
+Index Page 
+######################################## 
+*/
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+nav a {
+    margin: 0 40px;
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
@@ -76,7 +99,12 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
+}
+
+.jumbo-img {
+    margin-bottom: 25px;
 }
 
 .top-content .text-container {
@@ -99,6 +127,76 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+#box1 {
+    background-color: teal;
+}
+#box1:hover {
+    background-color: aquamarine;
+}
+
+#box2 {
+    background-color: gold;
+}
+#box2:hover {
+    background-color: white;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+#box3:hover {
+    background-color: aquamarine;
+}
+
+#box4 {
+    background-color: coral;
+}
+#box4:hover {
+    background-color: white;
+}
+
+#box5 {
+    background-color: crimson;
+}
+#box5:hover {
+    background-color: aquamarine;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+#box6:hover {
+    background-color: white;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+#box7:hover {
+    background-color: aquamarine;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+#box8:hover {
+    background-color: white;
+}
+
+#box9 {
+    background-color: indigo;
+}
+#box9:hover {
+    background-color: aquamarine;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+#box10:hover {
+    background-color: white;
 }
 
 .middle-content .boxes .box {
@@ -143,4 +241,303 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* 
+###########################
+Media Query
+########################### 
+*/
+
+
+@media(max-width: 768px) {
+    .container {
+      width: 500px;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+
+    nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    }
+
+    .jumbo-img {
+        display: none;
+    }
+
+    .top-content .text-container {
+        margin: 30px 0;
+        width: 100%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .middle-content .boxes .box {
+        width: 45%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-content .text-container {
+        margin: 25px 0;
+    }
+
+}
+
+@media(max-width: 600px) {
+    .middle-content .boxes .box {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    header nav a {
+        margin: 5px 0;
+    }
+
+    footer nav {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    footer nav a {
+        margin: 5px 0;
+    }
+}
+
+/* 
+########################################
+About Page 
+######################################## 
+*/
+
+
+.top-about {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.middle-content h4 {
+    margin: 10px 0;
+}
+
+div.middle-content p {
+    margin: 10px 0;
+}
+
+div.middle-about div.middle-content {
+    flex-basis: 47%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+div.middle-content button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.bottom-about {
+    margin: 25px 0 
+}
+
+
+/* 
+###########################
+Media Query
+########################### 
+*/
+
+@media(max-width: 768px) {
+    .top-about {
+        margin: 50px 0;
+    }
+
+    .middle-content {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+    .middle-about {
+        width: 400px;
+    }
+    .middle-content {
+        margin: 0 auto;
+    }
+
+    .top-about {
+        padding: 0 1%;
+    }
+
+    .bottom-about {
+        padding: 0 1%;
+    }
+}
+
+
+/* 
+########################################
+Products Page 
+######################################## 
+*/
+
+.top-products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-container img {
+    width: 100%;
+}
+
+.product-container {
+    border: 1px solid black;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+section.top-products a {
+    text-decoration: none;
+    color: grey;
+}
+
+.product-text {
+    /* text-align: center; */
+    margin: 20px 0;
+}
+
+/* 
+###########################
+Media Query
+########################### 
+*/
+
+@media(max-width: 768px) {
+    .top-products {
+        margin: 50px 0;
+    }
+
+    .middle-content {
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 600px) {
+    .top-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .product-container {
+        width: 400px;
+        height: 500px;
+        padding: 25px;
+        margin: 25px auto;
+    }
+}
+
+
+/* 
+########################################
+Contact Page 
+######################################## 
+*/
+
+section.top-contact form h4 {
+    padding-top: 10px;
+}
+
+fieldset {
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+fieldset input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+fieldset textarea {
+    width: 100%;
+    border: 1px solid black;
+}
+
+fieldset button {
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+fieldset button:hover {
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+
+
+/* 
+###########################
+Media Query
+########################### 
+*/
+
+@media(max-width: 600px) {
+    section.top-contact {
+        width: 400px;
+    }
 }
