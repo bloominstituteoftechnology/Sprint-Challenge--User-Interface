@@ -67,7 +67,8 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 800px; 
+   
     margin: 0 auto;
 }
 
@@ -92,103 +93,117 @@ p {
 
 header{
     margin: 5% 0 5% 0;
+    display: flex;
+    flex-flow:column wrap;
+
 }
 a{
     text-decoration: none;
     color: black;
 }
+.top-content{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
 
-.top-content {
+
+}
+
+button{
+    margin-top:10%;
+    padding: 2%;
+    width:40%;
+    height: 10%;
+    border-radius: 10%;
+    font-size: 90%;
+    border: 2px solid black;
+}
+
+.Strategy-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    width: 47%;
+    padding: 5%;
+    margin-right: 3%;
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
+    border-bottom: 2px dotted black;
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
- .middle-content .boxes .box1{
-    background:skyblue;
-
-}
-.middle-content .boxes .box2{
-    background:yellow;
     
-}
-.middle-content .boxes .box4{
-    background:turquoise;
-}
-.middle-content .boxes .box3{
-    background:orange;
-}
-.middle-content .boxes .box4{
-    background:orangered;
-}
-.middle-content .boxes .box5{
-    background:red;
     
-}
-.middle-content .boxes .box6{
-    background:green;
-}
-.middle-content .boxes .box7{
-    background :pink;
-}
-.middle-content .boxes .box8{
-    background:tomato;
-}
-.middle-content .boxes .box9{
-    background:violet
-}
-.middle-content .boxes .box10{
-    background:rosybrown
     
 }
 
-.bottom-content {
+
+.Strategy-container img{
+    margin-bottom: 5%;
+}
+
+.hww-container{
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    width: 47%;
+    padding: 5%;
+    border-bottom: 2px dotted black;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.hww-container img{
+    margin-bottom: 5%;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+
+
+
+.pww-conatiner{
+    display: flex;
+    flex-flow:row wrap; 
+    justify-content: flex-start;
+    width: 47%;
+    padding: 5%;
+    margin-right: 3%;
+    border-bottom: 2px dotted black;
 }
+
+.pww-conatiner img{
+    margin-bottom: 5%; 
+}
+
+.collab-container{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-start; 
+    width: 47%;
+    padding: 5%;
+    border-bottom: 2px dotted black;
+}
+
+.collab-container img{
+    margin-bottom: 5%; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+
+.about{
+    margin: 5% 0 0% 0;
+    border-bottom: 1px solid black;
+}
+.about p {
+    margin: 0 0 5% 0;
+}
+
+.bottom-content{
+    margin: 10% 0 5% 0;
+}
+
+
+
+
 
 footer {
     width: 100%;
