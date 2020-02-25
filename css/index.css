@@ -62,27 +62,67 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
-}
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+.navigation{
+
+    margin-right: 40px;
+    padding-right:820px;
+}
+.navigation nav{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	margin:0 auto;
+    padding-left: 440px;
+}
+   
+ .navigation nav a{
+    display:flex;
+    justify-content: space-around;
+    margin:22px 39px;
+    padding:10px auto;
+    }
+ .logo{
+     margin:0 43px;
+     padding:0 5px;
+
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+
+    }
+   
+
+.jumbo{
+    
+    margin:30px 0px;
+    padding: 0  25px;
+}
+
+p {
+  
+    margin:20px auto;
+    padding:0 auto;
+    justify-content: center; 
+}
+
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    justify-content: space-around;
+    margin: 10px 15px;
+    padding: 0 auto;
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.text-container {
+    width: 100%;
+    margin: 0 5px;
+    padding: 0 15px; 
 }
 
 .middle-content {
@@ -98,10 +138,11 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
+  
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,36 +152,145 @@ p {
     align-items: center;
     justify-content: center;
 }
+  
+  /* color stylong */
+.middle-content .boxes .box1 {background:teal;}
+.middle-content .boxes .box2 {background: gold;}
+.middle-content .boxes .box3 {background: cadetblue;}
+.middle-content .boxes .box4 {background: coral;}
+.middle-content .boxes .box5 {background: crimson;}
+.middle-content .boxes .box6 {background: forestgreen;}
+.middle-content .boxes .box7 {background: darkorchid;}
+.middle-content .boxes .box8 {background: hotpink;}
+.middle-content .boxes .box9 {background: indigo;}
+.middle-content .boxes .box10 {background: dodgerblue;}
+
+
+
 
 .bottom-content {
+  
+    margin:0 auto;
     display: flex;
-    margin: 0 2% 20px;
+    margin: 70px 20px;
     justify-content: space-around;
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    margin:0 auto;
+    padding: 0 auto;
+  
 }
 
 footer {
     width: 100%;
+    margin:40px 0;
     background: black;
+    display: flex;
+    justify-content: flex-start;
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    margin: 5px 0;
+    padding: 20px 0;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    
+    margin:0 auto;
+    padding:0 auto;
+}
+
+
+
+.navigation-about{
+
+    margin-right: 40px;
+    padding-right:820px;
+}
+.navigation-about nav{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	margin:0 auto;
+    padding-left: 765px;
+}
+   
+ .navigation-about nav a{
+    display:flex;
+    justify-content: space-around;
+    margin:22px 39px;
+    padding:10px auto;
+    }
+.about-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px auto;
+    padding:30px auto;
+    border-top: 1px dashed black;
+   
+}
+
+.about-text{
+    width: 48%;
+    margin:15px auto;
+    padding: 5px auto;
+   
+}
+
+.about-content{
+margin: 0 auto;
+margin:10px auto;
+padding:0 35px;
+justify-content: space-around;
+
+}
+
+.about-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+   
+}
+.about-img{
+margin:40px auto;
+padding:15px auto;
+
+}
+
+h2{ 
+    margin:25px auto;
+    padding:0 2px;
+}
+
+.about-text{
+    width: 48%;
+    margin:0 auto;
+    padding: 20px 25px;
+    border-bottom: 1px dashed black;
+}  
+
+    .btn {
+        Border-radius:15px;
+        border: 2px solid black;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    
+   
 }
