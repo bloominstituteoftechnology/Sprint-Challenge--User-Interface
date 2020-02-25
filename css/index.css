@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px
+    
+}
+
+.header-image {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+nav {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 25px
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +139,45 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-of-type(1) {
+    background-color: teal
+}
+
+.middle-content .boxes .box:nth-of-type(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-of-type(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-of-type(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-of-type(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-of-type(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-of-type(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-of-type(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-of-type(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-of-type(10) {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +209,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page */
+
+.header-image2 {
+    margin-top: 20px;
+}
+
+.topsection {
+    border-bottom: 2px dotted black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.middle-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+    margin-top: 30px
+
+}
+
+
+.box {
+    border-bottom: 1px dotted black;
+    width: 48%;
+    margin-bottom: 20px
+}
+
+.bottom-section {
+    
+    margin-top: 20px;
+    margin-bottom: 40px
+    }
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+h2 {
+    margin-top: 10px
 }
