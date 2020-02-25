@@ -3,60 +3,152 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -71,6 +163,40 @@ p {
     margin: 0 auto;
 }
 
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+header div {
+    display: flex;
+    margin: 10px auto;
+}
+
+#logo {
+    height: 46px;
+    margin-top: 20px;
+
+}
+
+header nav a {
+    padding: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header nav {
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    padding: 25px 0 25px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +208,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -110,6 +236,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#b1 {
+    background-color: teal;
+}
+
+#b2 {
+    background-color: gold;
+}
+
+#b3 {
+    background-color: cadetblue;
+}
+
+#b4 {
+    background-color: coral;
+}
+
+#b5 {
+    background-color: crimson;
+}
+
+#b6 {
+    background-color: forestgreen;
+}
+
+#b7 {
+    background-color: darkorchid;
+}
+
+#b8 {
+    background-color: hotpink;
+}
+
+#b9 {
+    background-color: indigo;
+}
+
+#b10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +309,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+#about-text {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    flex-flow: wrap;
+    border-bottom: 1px dashed black;
+    margin: 20px 0px 20px 0px;
+}
+
+.main-content .about-container {
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+#about-text h2 {
+    margin-top: 10px
+}
+
+#about-intro {
+    border-bottom: 1px dashed black;
+}
+
+#about-intro p {
+    margin-bottom: 20px;
+}
+
+.about-close {
+    margin-bottom: 40px;
+}
+
+.after-nav-bar {
+    margin-bottom: 30px;
+    width: 775px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(238, 227, 81);
+    }
+}
+
+.container header div a:hover {
+    background: white;
+    color: red;
+}
+
+footer a:hover {
+    color: red;
 }

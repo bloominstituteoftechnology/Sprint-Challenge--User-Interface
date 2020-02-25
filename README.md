@@ -32,15 +32,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1.If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Semantic HTML is a way of organizing a page content into "folders" that accurately
+describe the purpose of the element and the type of content that is inside them.
+Semantic HTML tags provide meaning to the content so it is easier for machines and humans to read it.
 
-3. What are the 4 areas of the box model?
+2.Name two big differences between display: block; and display: inline;.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Display:inline is displaying the elements in the same line while display: block add a line-break after the element.
+The other difference is that Display:inlineis not respecting the width and hight of the element as the display:block does.
 
-5. Explain why git is valuable to a team of developers.
+3.What are the 4 areas of the box model?
+
+The 4 areas are :Margin, Border, Padding, Content
+
+4.While using flexbox, what axis does the following property work on: align-items: center?
+
+Align-items uses the Cross Axis.
+
+5.Explain why git is valuable to a team of developers.
+
+  Git is a valuble tool because is used to monitor and control code changes made during development across several people or teams.
+  Any programmer can access and edit files of other developers working in the project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
