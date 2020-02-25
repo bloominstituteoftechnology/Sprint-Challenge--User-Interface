@@ -56,19 +56,71 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight:bold;
+}
+
+h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 20px;
+    font-weight:bold;
 }
 
 p {
     line-height: 1.4;
+    font-weight:bold;
 }
+
+header nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    width: 750px;
+    vertical-align:top;
+    margin-top:35px;
+    
+}
+header nav a{
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    color:black;
+    text-decoration:none;
+
+
+}
+
+.home-header-image{
+    margin:40px 0px;
+}
+.about-image{
+    margin:40px 0px;
+}
+.products-image{
+    display:flex;
+    align-content:center;
+    margin:40px 0px;
+}
+
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.container .about-page{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 1px;
+    
+}
+.products-computer{
+    height:236px;
+    width:370px;
 }
 
 .top-content {
@@ -101,10 +153,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +277,53 @@ p {
     padding-right: 0;
 }
 
+/**** ABOUT PAGE ****/
+
+.middle-about{
+    width:800px;
+    margin-top: 20px;
+    padding: 30px 0px 0px 0px;
+    /*border: 1px solid red;*/
+    border-top: 1px dashed black;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+.middle-text{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width:45%;
+   border-bottom: 1px dashed black;
+}
+.middle-text2{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width:45%;
+   border-bottom: 1px dashed black;
+}
+button{
+    background-color: white;
+	border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+  color: white;
+}
+.bottom-about{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
 footer {
     width: 100%;
     background: black;
@@ -139,6 +337,7 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+
 
 footer nav a {
     color: white;
