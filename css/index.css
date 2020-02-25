@@ -69,8 +69,27 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+
+
+.header{
+display: flex;
+justify-content: space-between;
+
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    align-items: center;
+}
+.header nav a{
+    text-decoration: none;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +118,10 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.infoBoxes{
+display: flex;
+flex-direction: c
 }
 
 .middle-content .boxes .box {
