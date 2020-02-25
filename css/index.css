@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+.about {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+header {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+}
+
+header nav a {
+	color: black;
+	text-decoration: none;
+    margin-left: 50px;
+    margin-right: 25px
+}
+
+/* Added a hover effect, because I think it helps users
+    track what they're doing onscreen (and I like hover) */
+nav a:hover {
+	color: gray;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +113,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
 
 .middle-content {
@@ -111,6 +143,21 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* I know these aren't formatted in multiple lines, but
+    I think its actually easier to read in a single-line
+    like this because the format is all the same. Also,
+    I used IDs, which I hadn't used in the projects. */
+#box1 {background-color: teal;}
+#box2 {background-color: gold;}
+#box3 {background-color: cadetblue;}
+#box4 {background-color: coral;}
+#box5 {background-color: crimson;}
+#box6 {background-color: forestgreen;}
+#box7 {background-color: darkorchid;}
+#box8 {background-color: hotpink;}
+#box9 {background-color: indigo;}
+#box0 {background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -143,4 +190,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ---------- About Page ---------- */
+
+.about-page {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.contentBox {
+    width: 45%;
+}
+
+.contentBox img {
+    width: 100%;
+}
+
+.learnButton {
+	text-align: center;
+	font-size: 75%;
+	font-family: 'Titillium Web', sans-serif;
+	border: 1px solid black;
+	padding: 5px 10px 5px 10px;
+	width: 100px;
+	background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+.learnButton:hover {
+	color: white;
+	background-color: black;
+}
+
+hr {
+    border-top: 1px dashed black;
+  }
+
+h2 {
+    margin-top: 20px;
 }

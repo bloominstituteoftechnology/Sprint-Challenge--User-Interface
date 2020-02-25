@@ -34,13 +34,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML makes use of tags that can thematically group its contents (section, header, footer). At a glance, people can read these keywords and know that their contents belong together.
+
+The opposite are keywords like div and span. They're used for formatting and placement. They don't describe their contents in a meaningful way.
+
+Either can be expanded upon by adding classes with descriptive names, but semantic keywords already have inherent grouping meanings.
+
+--------------------------------------------------
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+(1) Block takes up the full width on a page. Inline only uses as much space as its contents need. Its like creating a table in MS Word and choosing to specify the width of a cell (block) vs letting the cell's width adjust to fit its contents (inline).
+
+(2) Block adds a new line after it. Not only does inline not do this, it can sit inside of a block (kind of like Washington DC or the Vatican).
+
+--------------------------------------------------
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border and Margin. Its exactly like a framed picture.
+
+--------------------------------------------------
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+"align-items" all operate on the "cross axis", which is basically the Y-axis on a graph (vertical, or up/down).
+
+--------------------------------------------------
+
 5. Explain why git is valuable to a team of developers.
+
+git allows groups of people to work together on the same project by letting them each develop different parts simultaneously and keeping their work separate from each other. Then, when they're ready, they can merge their work into the "master" code, which is the main body of code, including all of the individual sections different people or teams were working on (branches). Its kind of like forming Voltron.
+
+--------------------------------------------------
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
