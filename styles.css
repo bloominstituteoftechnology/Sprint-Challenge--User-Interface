@@ -12,7 +12,8 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -44,9 +45,7 @@ table {
 
 * {
     box-sizing: border-box;
-    padding-right: 17%;
-    padding-left: 17%;
-    
+  
 }
 
 html, body {
@@ -63,6 +62,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+nav{
+    display: block;
+    padding-left: 2%;
+
+}
 .Top {
     display: flex;
     justify-content: space-evenly;
@@ -73,10 +77,10 @@ p {
 
 }
 .Bimg {
-    display: flex;
+    margin-top:2%;
+    padding-left: 21%;
     width: fit-content;
-    margin: auto;
-   margin-top: 2%;
+
 }
 a {
     padding-top: 3%;
@@ -84,11 +88,10 @@ a {
     text-decoration: none;
 }
 .About {
-    width: fit-content;
-    margin: auto;
-    padding-left: 22%;
-    padding-right: 17%;
+    margin-top: 2%;
     padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 22%;
     
 }
 .box1 {
@@ -97,7 +100,6 @@ a {
     padding-left: 17%;
     padding-right: 17%;
     padding-top: 3%;
-    
     
 }
 .box2 {
@@ -110,10 +112,39 @@ a {
     
     
 }
-.Together {
-    padding: 2%;
-    padding-left: 22%;
+.Strategy {
+    display: inline-block;
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+    
+}
+.How {
+   display: inline-block;
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+
+}
+.Places {
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+}
+.Collab {
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+}
+button {
     width: fit-content;
+    margin: 2%;
+    padding: 2% ;
+    border-radius: 10px 10px;
+}
+.Together {
+    padding-left: 15%;
+
 
 }
 footer {
@@ -134,4 +165,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.Together {
+    padding-left: 19%;
+    margin: 2%;
+
+
 }
