@@ -1,0 +1,5 @@
+1. semantic html gives the web page meaning instead of just presentation. 
+2. on the block, it allows you to set the height and width, it also respects margin and padding. Inline does not allow this. 
+3.  content, padding, border, margin
+4. the cross axis
+5. lets you go back and review old "eiditons" of your project in case of messing up or lost code.

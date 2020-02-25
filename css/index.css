@@ -129,6 +129,7 @@ p {
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
@@ -254,7 +255,18 @@ footer nav a {
 }
 
 .work-together {
-   display: flex;
-   flex-wrap: wrap;
-   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
+
+
+h3 {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 110px;
+}
+
+
