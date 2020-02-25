@@ -1,0 +1,39 @@
+body {
+  margin: 1% 25%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding: 2%;
+}
+
+.strategy {
+  display: flex;
+  flex-direction: row;
+}
+
+.places {
+  display: flex;
+  flex-direction: row;
+}
+
+.pane {
+  padding: 2%;
+}
+
+button {
+  
+}
+
+.bottom {
+  padding: 2% 2% 4% 2%;;
+}
