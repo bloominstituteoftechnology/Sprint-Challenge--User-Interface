@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/*.middle-content .boxes*/ .box1,.box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10   {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +143,122 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* my code starts here */
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+nav{
+	display: flex;
+	flex-display; wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	width: 95%;
+
+}
+#n {
+width: auto;
+height: auto;
+padding: 20px;
+margin: 19px;
+}
+.lambda{
+	width: 20%;
+	height: 40%;
+	padding: auto;
+	margin: 25px;
+}
+.jumbo{
+	width: 100%;
+	height: 30%;
+	padding: auto;
+	margin: 20px;
+	flex-flow: row wrap;
+	align-items: baseline;
+	justify-content: flex-start;
+}
+.box1{
+	background-color: teal;
+}
+.box2{
+	background-color: gold;
+}
+.box3{
+	background-color: cadetblue;
+}
+.box4{
+	background-color: coral;
+}
+.box5{
+	background-color: crimson;
+}
+.box6{
+	background-color: forestgreen;
+}
+.box7{
+	background-color: darkorchid;
+}
+.box8{
+	background-color: hotpink;
+}
+.box9{
+	background-color: indigo;
+}
+.box10{
+	background-color: dodgerblue;
+}
+/*The About page section */
+.jumbo-about{
+	width: 100%;
+	height: 30%;
+	padding: auto;
+	margin: 20px;
+	flex-flow: row wrap;
+	align-items: baseline;
+	justify-content: flex-start;
+}
+#about {
+	margin: 30;
+	padding: 40px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 30px;
+}
+.boxarea{
+	flex-flow: column flex;
+	/*margin: 20px; */
+  /*padding:20px; */
+  justify-content: space-between;
+}
+#midbox{
+padding: 20px;
+width: 40%;
+height: 30%;
+margin: 35px;
+display: inline-block;
+border-bottom: 1px dashed black;
+}
+#learn{
+	display: block;
+	background-color: white;
+	border:2px solid black;
+	border-radius: 10px;
+	padding: 15px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	width: 45%;
+	height:5px;
+	margin: 10px 5px 10px 5px;
+	font-size: 15px;
+	align-items: baseline;
+	font-weight: bold;
+}
+#bttm{
+
+	margin: 20px;
+	padding: 20px;
+	border-bottom: 1px dashed black;
+	margin-bottom: 30px;
 }
