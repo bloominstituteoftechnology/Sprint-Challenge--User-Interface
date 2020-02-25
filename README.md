@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML communicates meaning to your webpage, rather than just a presentation. Adding these tages provides additional information to what you are trying to pass across to your user/viewer. They also give you more hooks for styling your content. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline elements cannot have vertical margins, while block elements can.
+display: inline is also a display mode to use in a sentence, while display block would cover a block of sentences with no problem.
 
 3. What are the 4 areas of the box model?
 
+Content. Padding. Border. Margin. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+It not only allows you to easily commit changes, these can also be effortlessly compared and merged. It allows for keeping track of changes made at each step and can be reviewed easily by a lead. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
