@@ -65,67 +65,62 @@ h1, h2, h3, h4, h5 {
 p {
   line-height: 1.4;
 }
-
 .container {
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
 }
-
-.top-content {
+.About{
+  width: 800px;
+  padding: 10px;
+  border-bottom: 1px dotted black;
+  margin: 0 auto;
+  margin-right: 90px;
+}
+.TopImg img{
+  width: 85%;
+  max-height: 200px;
+}
+.TopImg{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;  
-}
-
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.middle-content .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
+  width: 100%;
   justify-content: center;
 }
-
-.bottom-content {
+.Box{
   display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
+  flex-wrap: wrap;
 }
-
-.bottom-content .text-container {
-  padding-right: 4%;
+.Strategy{
+  margin-right: 20px;
+  margin-top: 25px;
+  width: 400px;
+  border-bottom: 1px dotted gray;
+  padding-bottom: 20px;
 }
-
-.bottom-content .text-container:last-child {
-  padding-right: 0;
+.How {
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 400px;
+  border-bottom: 1px dotted gray; 
+  padding-bottom: 20px;
 }
-
+.Places {
+  margin-right: 20px;
+  margin-top: 25px;
+  width: 400px;
+  border-bottom: 1px dotted gray;
+  padding-bottom: 20px;
+}
+.Collab {
+  margin-left: 20px;
+  margin-top: 25px;
+  width: 400px;
+  border-bottom: 1px dotted gray;
+  padding-bottom: 20px;
+}
+.Lets{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 footer {
   width: 100%;
   background: black;
@@ -147,57 +142,41 @@ footer nav a {
 .TopBar{
   display: flex;
 }
-.Navigation{
+.TopBar .Navigation{
+  justify-content: space-between;
   text-decoration: none;
   margin: auto;
-  padding-top: 20px;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
 .Navigation a{
-  margin-left: 77px;
-  margin-bottom: 0px;
+  margin: 0px 25px 0px 25px;
   background-color: white;
   color: black;
   text-decoration: none;
-}
-.Navigation a:last-child{
-  margin-right: 45px;
 }
 .TopImg{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
   margin: auto;
   margin-top: 45px;
   margin-bottom: 25px;
+  margin-right: 90px;
 }
-#box1{
-  background-color: teal;
+.Learn {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
-#box2{
-  background-color: gold;
-}
-#box3{
-  background-color: cadetblue;
-}
-#box4{
-  background-color: coral;
-}
-#box5{
-  background-color: crimson;
-}
-#box6{
-  background-color: forestgreen;
-}
-#box7{
-  background-color: darkorchid;
-}
-#box8{
-  background-color: hotpink;
-}
-#box9{
-  background-color: indigo;
-}
-#box10{
-  background-color: dodgerblue;
+.Lambda {
+  margin-right: 50px;
 }
