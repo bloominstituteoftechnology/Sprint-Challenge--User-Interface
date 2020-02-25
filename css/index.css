@@ -70,6 +70,18 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* add missing navigation */
+
+header nav{
+    display: flex;
+    align-items: baseline;
+}
+header nav a{
+    margin: 10px;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
 
 .top-content {
     display: flex;
@@ -77,6 +89,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 20px;
 }
 
 .top-content .text-container {
@@ -111,6 +124,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* coloring boxes */
+.middle-content .boxes .box:first-child{
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes .box:last-child{
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -144,3 +188,62 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+section .about{
+    padding: 22px;
+    border-bottom: 1px dashed black;
+
+}
+.big-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+.big-container .four-boxes{
+    border-bottom: 1px dashed black;
+    width: 45%;
+    line-height: 15px;
+    margin-bottom: 50px;
+}
+.big-container .last-section{
+    margin-left: 20px;
+}
+.learn-more{
+    border: 2px solid black;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10px;
+
+}
+
+.contact{
+    width: 800px;
+    
+    background-color: white;
+}
+.contact h1{
+    text-align: center;
+}
+input[type=text], form, select { 
+    width: 100%;
+    text-align: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+    width: 200px;
+    background-color: indigo;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
