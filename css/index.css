@@ -23,6 +23,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+*{border: 1px solid black}
+</--logo--/> 
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -46,7 +50,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.About{
+    
+}
 * {
     box-sizing: border-box;
 }
@@ -70,13 +76,45 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*header*/
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+header nav{
+    display: flex;
+    width: 800px;
+    margin-top: 35px;
+    justify-content: space-around;
+    color: black; 
+}
+
+header nav a{
+    margin-right: 30px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+header nav a:first-child{
+    margin-left: 0}
+
+head nav a:last-child{
+    margin-right: 0
+}
+header .logo {
+    margin-top: 5px;
+}
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .top-content .text-container {
@@ -84,6 +122,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +150,33 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box:first-child{
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background: coral;
+}.middle-content .boxes .box:nth-child(5){
+    background: crimson;
+}.middle-content .boxes .box:nth-child(6){
+    background: forestgreen;
+}.middle-content .boxes .box:nth-child(7){
+    background: darkorchid;
+}.middle-content .boxes .box:nth-child(8){
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .boxes .box:last-child{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
