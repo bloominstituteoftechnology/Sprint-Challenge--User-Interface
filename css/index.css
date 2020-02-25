@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,7 +45,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */ */
 
 * {
     box-sizing: border-box;
@@ -67,8 +67,27 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 786px;
     margin: 0 auto;
+}
+
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
@@ -101,16 +120,57 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+ .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.boxes .box1 {
+    background: teal;
+
+}
+
+.boxes .box2 {
+    background: gold;
+}
+
+.boxes .box3 {
+    background: cadetblue;
+}
+
+.boxes .box4 {
+    background: coral;  
+}
+
+.boxes .box5 {
+    background: crimson;
+}
+
+.boxes .box6 {
+    background: forestgreen;
+}
+
+.boxes .box7 {
+    background: darkorchid;
+}
+
+.boxes .box8 {
+    background: hotpink;
+}
+
+.boxes .box9 {
+    background: indigo;
+}
+
+.boxes .box10 {
+    background: dodgerblue; 
+}
+
 
 .bottom-content {
     display: flex;
