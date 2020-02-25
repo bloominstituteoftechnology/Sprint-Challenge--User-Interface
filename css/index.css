@@ -69,6 +69,24 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.top-nav a:link {
+    color: black;
+}
+
+.jumbo {
+    padding-bottom: 25px;
 }
 
 .top-content {
@@ -131,7 +149,7 @@ footer {
     background: black;
 }
 
-footer nav {
+footer .bottom-nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -140,7 +158,102 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+footer .bottom-nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-nav-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.top-nav-about a:link {
+    color: black;
+}
+
+.jumbo-about {
+    padding-bottom: 25px;
+}
+
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.middle-content-about {
+   display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 618px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.middle-content-about img{
+    padding: 10px;
+    
+}
+.middle-content-about div{
+    border-bottom: 1px dashed black;
+    width: 207px;
+    margin-bottom: 20px;
+}
+
+.middle-content-about p h3 {
+    width: 429px;
+    padding-bottom: 15px;
+}
+
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px;
+    border: 10px 0px;
+    margin: 10px 0px;
+}
+
+.bottom-content-about { 
+    padding 20px;
+}
+
+.bottom-nav-about a:link {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.work-together{
+    margin: 15px;
+}
+
+footer .bottom-nav-about {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
 }
