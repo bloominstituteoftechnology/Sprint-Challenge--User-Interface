@@ -66,24 +66,80 @@ p {
     line-height: 1.4;
 }
 
+hr {
+    border-top: 1px dashed;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
+}
+
+.top-image {
+    margin-bottom: 40px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 20px 1%;
+    padding-bottom: 40px;  
 }
+
+.top-about {
+    margin-left: 15px;
+    margin: 40px;
+    margin-bottom: 20px
+}
+
+.middle-about {
+    border-top: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 890px;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    width: 350px;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px dashed black;
+    padding: 20px 0;
+}
+
+.about-box h2 {
+    margin-top: 10px;
+}
+
+button {
+    border: 1.2px solid black;
+    background: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,12 +160,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -126,6 +222,9 @@ p {
     padding-right: 0;
 }
 
+.bottom-about {
+    margin: 20px 0px 20px 15px;
+}
 footer {
     width: 100%;
     background: black;
