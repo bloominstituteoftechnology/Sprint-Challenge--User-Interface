@@ -85,6 +85,11 @@ p {
     padding-bottom: 20px;  
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
