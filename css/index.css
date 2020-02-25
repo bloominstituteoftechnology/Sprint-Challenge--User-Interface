@@ -65,7 +65,34 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
 
+}
+.navBrand {
+    margin-left: 17rem;
+}
+.links {
+   width: 48%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: .5rem;
+    margin-right: 15rem;
+
+}
+.links a {
+    color: black;
+    text-decoration: none;
+}
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,7 +138,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +181,52 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* About Page */
+.top-content .about-text {
+    padding-bottom: 1.5rem;
 
+    
+}
+.about-middle {
+    display: flex;
+}
+.middle-col{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+
+}
+.thumbnail {
+    margin: 2rem 0;
+    
+
+}
+.thumbnail h2,
+.thumbnail p {
+    text-align: left;
+    padding: .5rem;
+}
+.thumbnail p {
+    margin-bottom: 1rem;
+}
+.btn {
+    text-decoration: none;
+    color: black;
+    border: .12rem solid black;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    
+}
+.about-bottom {
+    display: flex;
+    margin: 0 3rem;
+    padding:  0 5%;
+}
+.bottom-text {
+    width: 70%;
+    padding-bottom: 1.5rem;
+}
 footer {
     width: 100%;
     background: black;
