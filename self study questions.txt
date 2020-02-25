@@ -1,0 +1,14 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say? semantic html gives specifics; you don't have to use classes
+
+Name two big differences between display: block; and display: inline;. display : block is horizontal space within the parent element, display: inline is vertical space within the parent element
+
+What are the 4 areas of the box model?
+display
+flex-direction
+width
+alignment
+
+While using flexbox, what axis does the following property work on: align-items: center? they are aligned on a cross axis
+
+Explain why git is valuable to a team of developers.
+It allows for collaboration and you can work on the same project simultaneously and later merge the versions
