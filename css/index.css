@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin: 30px 0;
+    /* border: 1px solid red; */
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 35px;
+    margin-right: 45px;
+}
+
+.logo-link {
+    margin-left: 0;
+    margin-right: 0;
+    /* border: 1px solid red; */
+}
+
+.header-img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +132,54 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -124,6 +193,58 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+
+/* Here be the styles for the About page. */
+
+.about-header {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.header-text {
+    width: 97%;
+    margin-left: 10px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-img {
+    margin-bottom: 10px;
+}
+.content-box {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+.learn-more-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.learn-more-button a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.bottom-content-about {
+    width: 97%;
+    margin-left: 20px;
+    margin-bottom: 40px;
 }
 
 footer {
