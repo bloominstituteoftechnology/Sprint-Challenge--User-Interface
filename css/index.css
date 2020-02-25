@@ -60,10 +60,12 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
+    
 }
 
 .container {
@@ -143,4 +145,134 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.navigation {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+
+ margin: 2.5%;
+ text-decoration: none;
+ color: black;
+
+}
+
+.header_pic {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+
+#a {
+
+    background: steelblue;
+}
+
+
+#b {
+
+ background: gold;
+}
+
+#c {
+
+    background: cadetblue;
+}
+
+#d {
+
+    background: coral;
+}
+
+#e {
+
+    background: crimson;
+}
+
+
+#f {
+
+    background: forestgreen;
+}
+
+#g {
+
+    background: blueviolet;
+}
+
+#h {
+       background: hotpink;
+}
+
+#i {
+    background: rgb(58, 31, 109);
+}
+
+#j {
+
+    background: dodgerblue;
+}
+
+/*Some code for about.html*/
+
+
+container about-page {
+
+    padding: 2%;
+}
+
+.main_body {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    border-top: 1px dashed black;
+    
+}
+
+
+.main_body div {
+
+    margin: 2%;
+    width: 46%;
+    border-bottom: 1px dashed black; ;
+}
+
+.mybtn {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.title {
+
+    margin-top: 3%;
+}
+
+
+.botton_text {
+
+    padding: 2%;
+    margin-bottom: 2%;
 }
