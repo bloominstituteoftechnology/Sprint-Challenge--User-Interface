@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,166 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items:baseline;
+	margin: 40px 0px 40px 0px;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+.banner{
+	margin-bottom: 20px;
+}
+.banner img {
+	width: 100%;
+}
+
+.box1 {
+	background-color: teal;
+}
+
+.box2 {
+	background-color: gold;
+}
+
+.box3 {
+	background-color: cadetblue;
+}
+
+.box4 {
+	background-color: coral;
+}
+
+.box5 {
+	background-color: crimson;
+}
+
+.box6 {
+	background-color: forestgreen;
+}
+
+.box7 {
+	background-color: darkorchid;
+}
+
+.box8 {
+	background-color: hotpink;
+}
+
+.box9 {
+	background-color: indigo;
+}
+
+.box10 {
+	background-color: dodgerblue;
+}
+
+.fisrBlok{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items:baseline;
+	padding: 30px 0px 10px 0px;
+}
+
+.secondBlock{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items:baseline;
+	padding: 20px 0px 40px 0px;
+}
+
+button {
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px 30px 10px 30px;
+	margin: 20px 0px 20px 0px;
+}
+.strategy{
+	margin-right: 30px;
+}
+.strategy img {
+	padding-bottom: 20px;
+}
+
+.howWeWork img {
+	padding-bottom: 20px;
+}
+
+.placesWeWork {
+	margin-right: 30px;
+}
+
+.placesWeWork img {
+	padding-bottom: 20px;
+}
+
+.collaboration img {
+	padding-bottom: 20px;
+}
+
+/* Contact form */
+
+.contactForm{
+	width: 80%;
+	margin: 0 auto;
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkgrey;
+}
+
+.containerForm {
+	width: 100%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Animation */
+
+.element {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: teal;
+  }
+  100% {
+    background-color: gold;
+  }
 }
