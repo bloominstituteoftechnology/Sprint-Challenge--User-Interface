@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,131 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.Logo {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.Nav {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  /* border:1px solid red; */
+  width:42%;
+  position: relative;
+  top: 35px;
+  right:90px;
+  margin-bottom: 2px;
+}
+nav a {
+  /* border: 1px solid green; */
+  text-decoration: none;
+  color: gray;
+}
+.logoC {
+  /* border: 2px solid pink; */
+  position: relative;
+  left:34px;
+  top: 30px;
+    margin-bottom: 30px;
+    
+}
+.firstrow {
+  display:flex;
+  border-top: 1px dashed black;
+}
+.rowtwo {
+  display:flex;
+}
+.section1, .section2, .section3, .section4 {
+  width:50%;
+  border-bottom: 1px dashed black;
+  margin: 0 10px;
+}
+img {
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button {
+    border-radius: 10px;
+    margin: 10px;
+    margin: 10px 7px;
+    font-size: 20px;
+    border-color: black;
+}
+nav {
+    margin-top: 20px;
+}
+
+.Logo2 {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 20px;
+}
+.logoC2 {
+    /* border: 2px solid pink; */
+  position: relative;
+  left:-68px;
+  top: 55px;
+    margin-bottom: 30px;
+    
+      
+}
+
+.Nav2 {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* border:1px solid red; */
+    width:62%;
+    position: relative;
+    top: 50px;
+    left: -20px;
+    margin-bottom: 2px;
+    
+}
+.Nav2 a {
+    color: black;
+}
+a {
+    font-size: 17px;
+}
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color:darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color:indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+.yay {
+    margin-top: 20px;
 }
