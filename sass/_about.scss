@@ -1,0 +1,59 @@
+
+.aboutSection {
+ width: 100%;
+ padding: 0 2em 1em;
+}
+
+.lastSection{
+  width: 100%;
+  padding: 20px 1em;
+  margin-bottom: 20px;
+}
+
+.cardGallery{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  // medium screen size
+  @include size-md{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.card{
+  max-width: 47%;
+  margin: 20px 0;
+
+  h4, p, a{
+    margin: 1em 0;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+    }
+
+  h4{
+        font-size: 1.15em;
+    }
+
+}
+
+.learnMore{
+  display: block;
+  width: max-content;
+  padding: 0.5em 1.5em;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.learnMore:hover{
+  background-color: #000;
+  color: #fff;
+}
