@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+.bar{
+    display:flex;
+    justify-content:space-around;
+    margin-left:20px;
+}
+
+.links{
+    display: flex;
+    flex-grow: 1;
+    padding:5px;
+    align-items:center;
+    background-color:white;
+}
+
+.bar a:visited,
+.links a:active,
+.links a:link{
+    color:black;
+    text-decoration: none;
+
+}
+
+.head{
+    
+    margin-left: 22%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,14 +130,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
+    
+}
+.box:nth-child(1){
+    background-color:teal;
+}
+.box:nth-child(2){
+    background-color:gold;
 }
 
+.box:nth-child(3){
+    background-color:cadetblue;
+}
+
+.box:nth-child(4){
+    background-color:coral;
+}
+
+.box:nth-child(5){
+    background-color:crimson;
+}
+
+.box:nth-child(6){
+    background-color:forestgreen;
+}
+
+.box:nth-child(7){
+    background-color:darkorchid;
+}
+
+.box:nth-child(8){
+    background-color:hotpink;
+}
+
+.box:nth-child(9){
+    background-color:indigo;
+}
+
+.box:nth-child(10){
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +206,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Most of the About Page Set-Up Below */
+hr{
+    border-top:1px dashed darkslategray;
+    border-bottom: 1 px dashed darkslategray;
+}
+button{
+	background: #fff;
+	color: black;
+	flex-grow: 1;
+	padding:1%;
+	font-size: 16px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.line1{
+    display:flex;
+    justify-content:space-evenly; 
+}
+
+.line2{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.last{
+    margin-left:22%;
+    margin-right:22%;
+    margin-top:2%;
+    margin-bottom:2%
+}
+
+.margin{
+    margin-left:22%;
+    margin-right:22%;
 }
