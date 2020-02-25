@@ -65,6 +65,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+    display:flex;
+}
+header nav {
+    width: 60%;
+    margin:5%;
+}
+ .logo{
+    justify-content: flex-start;
+    margin: 3%;
+     
+}
+.links{
+    display:flex;
+    justify-content:space-between;
+    color:black;
+    font-family: 'Rubik', sans-serif;
+    
+}
+nav a{
+    color:black;
+
+}
+nav a:hover{
+    color:cadetblue;
+}
+.middle-img{
+    margin-right:auto;
+    width:50%;
+
+}
 
 .container {
     width: 800px;
@@ -77,6 +108,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 5px;
 }
 
 .top-content .text-container {
@@ -95,13 +127,13 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,8 +142,107 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+} 
+.box1{
+    background: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.box2{
+    background: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    background:coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    background:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    background:forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    background:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    background: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    background:indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    background: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +275,103 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*about.css*/
+
+
+.about-page{
+    border-bottom: 3px dotted gray;
+    padding-bottom: 20px;
+    margin:5%;
+}
+.info-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+.info-container{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+  border-bottom: dotted gray;
+  margin-top: 2%;
+}
+.bottom-part{
+    padding:3%;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/*contact-css*/
+
+
+.contact-container{
+    width: 85%;
+    margin: 5%;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    color: black;
+    background-color:cadetblue;
+    padding: 12px 20px;
+    border: 1px dotted black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
+  
+  .contact-container {
+    border-radius: 5px;
+    background-color: lightcyan;
+    padding: 20px;
+  }
+  
+  /*Blog css*/
+
+  .blog-container{
+    width: 800px;
+    margin: 0 auto;
+  }
+  .top-ofblog{
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 5px;
+    text-align:center;
+  }
+  .top-ofblog img{
+      width: 500px;
+      
+
+
+  }
