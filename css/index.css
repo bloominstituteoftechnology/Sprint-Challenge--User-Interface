@@ -111,6 +111,17 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* color boxes */
+.middle-content .boxes .box-1 {background: teal;}
+.middle-content .boxes .box-2 {background: gold;}
+.middle-content .boxes .box-3 {background: cadetblue;}
+.middle-content .boxes .box-5 {background: coral;}
+.middle-content .boxes .box-6 {background: crimson;}
+.middle-content .boxes .box-7 {background: forestgreen;}
+.middle-content .boxes .box-8 {background: darkorchid;}
+.middle-content .boxes .box-9 {background: hotpink;}
+.middle-content .boxes .box-10 {background: dodgerblue;}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +155,116 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* nav-bar */
+#nav-items {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+#nav-items h2 {
+   padding-right: 1.2rem;
+}
+#nav-items ul {
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    
+}
+
+#nav-items ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 1rem 2.5rem;
+}
+
+
+
+header .header-image img {
+ margin-bottom: 1.2rem;
+}
+
+/* about page */ 
+
+
+/*about section */
+
+.about-text {
+    padding: 1.3rem;
+    border-bottom: dotted 1px black;
+    margin-bottom: 1.5rem;
+}
+
+.about-text p, .about-text h2 {
+    font-weight: bold;
+}
+
+/* section b */
+.container2 {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+#section-b .about-boxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+#section-b .about-boxes .about-box{
+   width: 50%;
+}
+
+#section-b .about-boxes .about-box .bottomline { 
+    border-bottom: 1px dotted black; 
+    width: 92.4%;
+    margin-bottom: 2.8rem;
+}
+
+/*#section-b .about-boxes div {
+    border-bottom: dotted 1px black;
+    margin-bottom: 2.8rem; */ 
+
+
+#section-b .about-boxes .about-box h2 {
+    margin-top: 1rem;
+}
+
+#section-b .about-boxes .about-box p {margin-bottom: 1.2rem;}
+
+#section-b .about-boxes .about-box .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+#section-b .about-boxes .about-box .btn:hover {
+    background: #333;
+    color: #fff;
+    transition: all 0.4s ease-in;
+}
+
+
+/* section-c */
+#section-c .section-c-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+}
+
+#section-c .section-c-text p {font-weight: bold;}
+#section-c .section-c-text h2 {font-weight: bold;}
