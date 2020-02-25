@@ -70,6 +70,41 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/** for both pages header - start **/
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: baseline;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    color: darkslategrey;
+    text-transform: uppercase;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+/** for both pages header - end **/
+
+/** picture at top of all pages **/
+.fillerpic, .fillerpic2, .fillerpic3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
 
 .top-content {
     display: flex;
@@ -84,6 +119,22 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/** top content for about page -start **/
+.top-content2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content2 .text-container2{
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+/** top content for about page - end **/
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -101,16 +152,81 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
+/** styling for section boxes on about page - start **/
+.info-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.strategy, .how-we-work, .places, .collaboration{
+    width: 47%;
+    border-bottom: 1px dashed black;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+
+.places, .collaboration{
+    margin-top: 55px;
+}
+
+.info-boxes h2{
+    margin-top: 10px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+}
+/** styling for section boxes on about page - end **/
 
 .bottom-content {
     display: flex;
@@ -125,6 +241,17 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/** styling for work together section - start **/
+.work-together{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
 
 footer {
     width: 100%;
@@ -143,4 +270,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/** styling for products page **/
+
+.fillerpic3 img{
+    width: 100%;
+    height: auto;
+}
+
+/** top content for products page -start **/
+.top-content3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content3 .text-container3{
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+/** top content for products page - end **/
+
+
+
+.product-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+.android, .data-science, .fullstack, .java-backend, .user-exp, .ios{
+    width: 47%;
+    border-bottom: 1px dashed black;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    line-height: 1.2;
+}
+
+.fullstack, .java-backend, .user-exp, .ios{
+    margin-top: 35px;
+}
+
+.product-boxes h2{
+    margin-top: 10px;
+}
+
+.product-boxes img{
+    width: 100%;
+}
+
+.data-science img{
+    height: 246.75px;
+}
+
+.java-backend img{
+    height: 195.219px;
+}
+
+.ios img{
+    height: 251.156px;
 }
