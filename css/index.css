@@ -48,7 +48,7 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 
 html, body {
@@ -66,6 +66,13 @@ p {
     line-height: 1.4;
 }
 
+.container nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -74,61 +81,99 @@ p {
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    width: 90%;
+    padding: 20px;
+   
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+    justify-content: left;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  flex-direction: row-reverse;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
+.middle-content .boxes{
+    display: flex;
+   flex-wrap: wrap;
+}
+.middle-content .boxing .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box{
+    width: 100px;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;;
+    margin: 20px;
+   
+   display: flex;
+   align-items: center;
+  -webkit-animation-duration:5s;
+  
 }
+.box1{ background-color: teal;}
+.box2{ background-color:gold;}
+.box3{ background-color:cadetblue;}
+.box4{ background-color: coral;}
+.box5{ background-color:crimson}
+.box6{ background-color: forestgreen;}
+.box7{ background-color:darkorchid;}
+.box8{ background-color: hotpink;}
+.box9{ background-color: indigo;}
+.box10{ background-color:dodgerblue;}
+
 
 .bottom-content {
+    justify-content: left;
     display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
+.middle-content .middle1 .imges{
+ display: flex;
+}
+.middle-content .middle1 button{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 6px 40px;
+}
+.middle-content .middle2 button{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 6px 40px;
+}
+.bottom-content .text-container button{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 6px 40px;
+}
+.bottom-content .last-child button{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 6px 40px;
+}
+.bottom-content .last-child #office{
+    width: 370;
+    height: 236;
+}
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    -webkit-animation-duration:40s;
 }
-
+.bottom-content .bottom{
+    display: flex;
+}
 footer {
     width: 100%;
     background: black;
+    margin-top: 20px;
 }
 
 footer nav {
@@ -144,3 +189,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+body { /* centers the website */
+
+	margin: 0 auto;
+}
+@media(max-width:450px){
+    body{background-color: chocolate;}
+} 
