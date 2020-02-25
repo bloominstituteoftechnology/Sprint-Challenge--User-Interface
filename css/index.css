@@ -49,7 +49,12 @@ table {
 
 * {
     box-sizing: border-box;
+    margin:0;
+	padding:0;
+	max-width:100%;
+   
 }
+
 
 html, body {
     height: 100%;
@@ -76,7 +81,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /*border-bottom: 1px dashed black;*/
 }
 
 .top-content .text-container {
@@ -143,4 +148,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.header-image{
+    margin:2%;
+}
+
+/* BOXES */
+
+.container .middle-content .boxes .box:first-child{
+    background-color: teal;
+}
+
+.container .middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.container .middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.container .middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.container .middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.container .middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.container .middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.container .middle-content .boxes .box:nth-child(8){
+    background-color: hotpink
+}
+
+.container .middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.container .middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
+/* Nav */
+
+header nav{
+	display:flex;
+    justify-content:space-between;
+    margin:2%;
+}
+
+header nav a{
+	text-decoration: none;
+	margin:0 40px;
+    font-weight:bold;
+    color:black;
+}
+
+/* Main */
+
+.container .top-content .header-img{
+    margin:2%;
+}
+
+/* ABOUT PAGE */
+
+/* Main */
+
+.about{
+    width: 60%;
+    border-bottom:1px black dashed;
+}
+
+.boxes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.boxes .box{
+    width: 40%;
+    border-bottom: 1px dashed black;
+}
+
+ .boxes .box button{
+    padding:3%;
+    background-color:white;
+    width:20%;
+
+}
+
+.box button, .box h2, .box  p{
+    margin:2%;
+}
+
+.together{
+    margin: 2%;
 }
