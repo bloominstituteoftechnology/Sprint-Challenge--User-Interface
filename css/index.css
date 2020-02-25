@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -69,6 +70,80 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container-1 {
+    width: 80%;
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.container-1 nav{
+    display: flex;
+    padding: 25px;
+}
+
+nav a{
+    display: flex;
+    padding-right: 30px;
+    padding-left: 130px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+    border: 1px solid white;
+}
+
+.container-about-page {
+    width: 91%;
+    padding-top: 20px;
+    margin-left: 150px;
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.strategy {
+    width: 40%;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+
+.working {
+    width: 40%;
+    padding-left: 50px;
+    
+}
+
+.places {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+
+.meeting {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.together {
+    width: 70%;
+    margin-left: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+button {
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
 }
 
 .top-content {
@@ -111,6 +186,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.box1{
+    color:teal;
+}
+.box2{
+    color: gold;
+} 
+ .box3{
+    background-color: cadetblue
+ } 
+ .box4{
+    color: coral;
+ } 
+ .box5{
+    color:crimson;
+ }
+ .box6{
+    color: forestgreen
+ } 
+ .box7{
+    color: darkorchid;
+ } 
+ .box8{
+    color: hotpink;
+ } 
+ .box9{
+    color: indigo;
+ } 
+ .box10{
+    color: dodgerblue;
+ } 
+
 
 .bottom-content {
     display: flex;
