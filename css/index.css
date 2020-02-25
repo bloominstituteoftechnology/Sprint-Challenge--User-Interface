@@ -144,3 +144,301 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.home-nav{
+    margin-right: 20px;
+    margin-bottom:35px; 
+    margin-top:25px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.home-nav nav{
+    padding-top: 20px;
+    width:95%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-nav nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box1{
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box2{
+    background-color:gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3{
+    background-color:cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5{
+    background-color:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7{
+    background-color:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8{
+    background-color:hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9{
+    background-color:indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10{
+    background-color:dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    margin: 10px;
+}
+
+.about-text{
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+.about-text p{
+    margin-bottom: 20px;
+}
+nav{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+a{
+  margin-left: 85px;
+  font-family: non;
+  color: gray;
+}
+.about {
+    padding: 20px;
+}
+
+
+.navlinks {
+    /*border:1px solid red;*/
+
+}
+
+.navlinks a{
+    /*border:1px solid blue;*/
+    font-size: 12px;
+    height: 20px;
+    flex-grow:1;
+    color: black;
+    text-decoration:none;
+}
+ 
+.parent {
+    display:flex;
+    
+}
+
+.child-1{
+    border-bottom: 1px dashed black;
+    margin: 15px;
+}
+
+.child-1 button {
+    margin: 10px;
+    
+}
+.child-2{
+    border-bottom: 1px dashed black;
+    margin: 15px;
+}
+
+
+.child-2 button {
+    margin: 10px;
+    
+}
+.child-3 {
+    border-bottom: 1px dashed black;
+    margin: 15px;
+}
+
+.child-3 button {
+    margin: 10px;
+    
+}
+.child-4 {
+    border-bottom: 1px dashed black;
+    margin: 15px;
+}
+.child-4 button {
+    margin: 10px;
+    
+}
+
+.parent .child-1 h2{
+    margin:10px 0px;
+}
+.parent .child-2 h2{
+    margin:10px 0px;   
+}
+.parent .child-3 h2{
+    margin:10px 0px;
+}
+.parent .child-4 h2{
+    margin:10px 0px;
+}
+.parent .child-1 button{
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 16px;
+    margin-right: 25%;
+    margin-bottom: 15px;
+}
+.parent .child-2 button {
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 16px;
+    margin-right: 25%;
+    margin-bottom: 15px;
+}
+.parent .child-3 button {
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 16px;
+    margin-right: 25%;
+    margin-bottom: 15px;
+}
+.parent .child-4 button {
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 16px;
+    margin-right: 25%;
+    margin-bottom: 15px;
+
+}
+.letswork{
+    margin:20px 5px;
+}
