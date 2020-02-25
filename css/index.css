@@ -65,10 +65,47 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* index.html page */
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+header .LambdaHeader {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+header nav a {
+    display: flex;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.jumbo {
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -104,12 +141,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:first-child {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background-color:gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background-color:coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:last-child {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +221,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about.html */
+
+.about-header{
+    margin-top: 18px;
+}
+
+.about-text{
+    margin-bottom: 20px;
+}
+
+.about-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content .card{
+    width: 49%;
+    margin-bottom:20px;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 10px 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.worktg{
+    margin-bottom:20px;
+}
+
+
+
