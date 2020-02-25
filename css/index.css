@@ -66,6 +66,42 @@ p {
     line-height: 1.4;
 }
 
+
+/* Louis' CSS -- Header and Top Nav */
+
+header nav {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex; 
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+
+header nav a {
+	color:black;
+	text-decoration: none;
+}
+
+header nav .navLinks {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80%;
+}
+
+header nav .navLogo {
+	width: 20%;
+	text-align: center;
+	margin: 20px;
+}
+
+.headerImage {
+    margin-bottom: 20px;
+}
+
+/* Last Developer's CSS */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,6 +120,16 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Louis' CSS -- About */
+
+.about-text {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+/* Last Developer's CSS */
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +150,173 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Louis' CSS -- Index Boxes */
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* Louis' Stretch CSS -- media breakpoints for screens smaller than 800px -- header image, lambda logo, and the colored boxes will all responsively adjust when the screen shrinks under 800px*/
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .headerImage {
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+
+    .logo {
+        width: 100%;
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    
+    .middle-content .boxes .box {
+        width: 100px ;
+        height: 100px;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+*/
+
+/* Louis' CSS -- About Boxes */
+
+.middle-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 47%;
+}
+
+.about-box h2 {
+    margin: 20px 0px;
+}
+
+.about-box button {
+	background-color: white;
+	border-color: black;
+	border-radius: 10px;
+	color:black;
+	width: 35%;
+	font-size: 12px;
+	margin: 15px 0px;
+	padding: 10px;
+}
+
+/* Louis' Stretch CSS -- Products Boxes */
+
+.middle-products {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-evenly;
+}
+
+/* Louis' Stretch CSS -- Contact Page -- contact form CSS and HTML modified from W3 Schools */*/
+
+.middle-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+	border-color: black;
+	border-radius: 10px;
+	color:black;
+	width: 35%;
+	font-size: 12px;
+	margin: 15px 0px;
+	padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button */
+  input[type=submit]:hover {
+    background-color: slategray;
+  }
+  
+  /* Add padding around the form */
+  .contact-container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+/* Last Developer's CSS */
 
 .bottom-content {
     display: flex;
@@ -125,6 +331,15 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Louis' CSS -- About Footer */
+
+.bottom-content .about-text {
+    margin-top: 20px;
+}
+
+/* Last Developer's CSS */
+
 
 footer {
     width: 100%;

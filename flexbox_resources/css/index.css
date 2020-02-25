@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Navigation Bar Styling */
+
+nav {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex; 
+	flex-flow: row nowrap
+	justify-content: space-evenly;
+}
+
+nav a {
+	color:black;
+	text-decoration: none;
+}
+
+.navLinks {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80%;
+}
+
+.navLogo {
+	width: 20%;
+	text-align: center;
+	margin: 20px;
+}
+/* Header Styling -- INDEX */
+
+
+.indexHeader {
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	margin: 20px;
+}
+
+.indexHeader h1 {
+	font-size: 75px;
+}
+
+.headerSplash, .headerImage {
+	width: 50%;
+}
+
+.indexHeader button {
+	background-color: white;
+	border-color: black;
+	color:black;
+	width: 250px;
+	height: 50px;
+	font-size: 12px;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+/* Header Styling -- Services */
+.servicesHeader {
+	width: 100%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+}
+
+.servicesHeader h3 {
+	font-size: 25px;
+}
+
+.servicesHeader div {
+	margin: 20px;
+}
+
+/* Main Styling -- INDEX */
+
+.indexMain {
+	border-color: slategrey;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	margin: 20px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.top-content {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: 20px 0px;
+}
+
+.top-content div {
+	width: 50%;
+	margin: 0px 5px;
+}
+
+.middle-image {
+	text-align: center;
+}
+
+.bottom-content {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin: 20px 0px;
+}
+
+.bottom-content div {
+	width: 33%;
+	margin: 0px 5px;
+}
+
+/* Main Styling -- Services */
+
+.servicesMain {
+	border-color: slategrey;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	margin: 20px;
+	padding: 20px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.infoBox {
+	border-color: slategrey;
+	border: 2px solid;
+	background-color: lightgrey;
+	padding: 15px;
+	margin: 10px 0px;
+	width: 49%;
+}
+
+.infoBox button {
+	background-color: white;
+	border-color: black;
+	border-radius: 3px;
+	color:black;
+	width: 35%;
+	font-size: 12px;
+	margin-top: 15px;
+	padding: 5px;
+}
+
+/* Footer Styling -- INDEX */
+
+.indexFooter {
+	margin: 20px;
+}
+
+.contact {
+	margin: 15px 0px;
+}
+.contact p {
+	line-height: 2;
+}
+
+.copyright {
+	width: 100%;
+	text-align: center;
+	margin: 50px 0px 15px 0px;
+}
+
+/* Footer Styling -- Services */
+.servicesFooter {
+	margin: 20px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.servicesNotes {
+	width: 50%;
+}
+
+.servicesNotes p {
+	margin: 15px 0px;
+}
+
+.servicesNotes li {
+	list-style-type: square;
+	margin: 20px;
+}
