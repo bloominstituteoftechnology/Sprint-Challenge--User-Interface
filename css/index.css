@@ -101,17 +101,15 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +141,94 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.header img {
+    display: flex;
+    margin-left: 70%;
+}
+.nav {
+    word-spacing: 70px;
+    width: 50%;
+}
+.nav a { 
+    color: black;
+    text-decoration: none;
+}
+.jumbo img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+.about {
+    margin: 20px 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dotted black;
+}
+button {
+    width: 15%;
+} 
+.middlestuff {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.strategy .working .office .Collaboration {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.together {
+    margin: 20px 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    border-top: 2px dotted black;
 }
