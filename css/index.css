@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    line-height: 25px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -66,9 +67,43 @@ p {
     line-height: 1.4;
 }
 
+header {
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+header a{
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 90%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+header a:hover{
+    color: lightslategray;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+header img{
+    margin-left:-35px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container img{
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -101,7 +136,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +145,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background:teal;
+}
+
+.box2{
+    background:gold;
+}
+
+.box3{
+    background:cadetblue;
+}
+
+.box4{
+    background:coral;
+}
+
+.box5{
+    background:crimson;
+}
+
+.box6{
+    background:forestgreen;
+}
+
+.box7{
+    background:darkorchid;
+}
+
+.box8{
+    background:hotpink;
+}
+
+.box9{
+    background:indigo;
+}
+.box10{
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +217,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+footer nav a:hover{
+    color: lightslategray;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#about, #worktogether{
+    width: 800px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+
+}
+
+#about{
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+#aboutjumbo img{
+    margin-bottom: 15px;
+}
+
+#aboutcontainer{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aboutbox{
+    width: 370px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutbox img{
+    margin-bottom: 5px;
+}
+
+.learnmore{
+    width: 140px;
+    margin-top: 15px;
+    padding: 5px 15px;
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.learnmore:hover{
+    color:white;
+    background-color: black;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
