@@ -71,11 +71,43 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+    flex-direction: row nowrap;
+    align-items: baseline;
+    align-content: space-between;
+    width:100%;
+}
+
+header nav  {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    text-decoration: none;
+    padding-left: 45px;
+    width:60%;
+}
+
+header nav a{
+
+    text-decoration: none;
+    color: black;
+}
+.top-img-container{
+    display:flex;
+    align-content: flex-start;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-top:30px;
     border-bottom: 1px dashed black;
 }
 
@@ -85,14 +117,27 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container h2{
+    
+    padding: 10px;
+}
+.middle-about-box{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
+
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 10px 2%;
     margin-bottom: 0;
+    display:flex;
+    align-content: flex-start;
+    margin-right:-10px;
 }
 
 .middle-content .boxes {
@@ -110,6 +155,50 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* just found out proper use of nth-child*/
+.middle-content .boxes .box:first-child{
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
+.bottom-about-content{
+    margin:20px;
 }
 
 .bottom-content {
@@ -144,3 +233,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.button{
+    margin-top:20px;
+    border-radius: 15px;
+    height: 45px;
+    width:100px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #D3D3D3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: ##DCDCDC;
+    padding: 20px;
+  }
