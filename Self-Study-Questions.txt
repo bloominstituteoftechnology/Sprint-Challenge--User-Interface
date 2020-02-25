@@ -1,0 +1,25 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML helps to keep content meaningful by adding tags that can tell a user what that content is or its purpose on the page. 
+Its also useful for screen-readers for those with disabilities.
+
+Name two big differences between display: block; and display: inline;.
+
+Display:inline; only takes up the space of its content, height and width do not affect it, and vertical align and text-align
+can be used for vertical and horizontal alignment, respectively. It cannot be nested into a block element.
+
+Display:block; takes up the space of its parent element, has height and width controls, elements start a new line, and can be
+nested in inline or block elements.
+
+What are the 4 areas of the box model?
+
+Margin, border, padding,and content.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+Cross axis
+
+Explain why git is valuable to a team of developers.
+
+Git is valuable because it allows multiple developers to work on the same project at once. It also allows devs to save work as they go
+so they can go back to and restore previous versions in case the code breaks.
