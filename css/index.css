@@ -3,60 +3,152 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -82,7 +174,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,9 +196,9 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
     color: white;
+    margin: 20px 2.5%;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,6 +223,7 @@ footer {
     background: black;
 }
 
+/*         -----            */
 footer nav {
     width: 60%;
     display: flex;
@@ -143,4 +236,340 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navHead nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    width: 50%;
+    padding: 2%;
+    margin-left: 5%;
+    
+
+}
+
+.navHead {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+
+.navHead2 {
+
+    width: 55%;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.topImage {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 40%;
+
+}
+
+.aboutParagraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 45%;
+    margin-bottom: 2%;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 41%;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 60%;
+    margin-left: 14%;
+    margin-top: 1%;
+}
+
+.topRowParagraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 41%;
+}
+
+.learnMore nav a {
+    margin: 0 10px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 13%;
+    width: 8%;
+}
+
+
+.endParagraph {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    margin-bottom: 5%;
+}
+
+
+
+
+.topBracket {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 20%;
+}
+
+
+.bracket {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+
+    width: 900px;
+    border: 1px dashed black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* -------------*/
+.infoBoxMeta {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.infoBox {
+
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+
+
+}
+
+button{
+    background-color: white;
+	border:2px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-size:12px;
+	padding:8px 25px;
+    text-decoration:none;
+    border-radius: 6px;
+    margin-top: 20px;
+	
+}
+
+button:hover{
+    background-color:black;
+    color: white;
+    animation: 5s infinite;
+}
+
+
+
+.testing {
+    border: 1px dashed black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    margin: 5%;
+
+}
+
+.workTogetherMeta {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.workTogether {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.aboutMeta {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.aboutMinor {
+    margin-bottom: 5%;
+    margin-top: 1%;
+    border: 1px dashed black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 5%;
+}
+
+.contactTopMinor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.contactTopMinor p{
+    margin-top: 3%;
+    width: 50%;
+}
+
+.realDeal, .aaaaa{
+    width: 100%;
+}
+
+.contactBodyMinor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactRow{
+    display: flex;
+    width: 60%;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    border-left: none;
+    border-right: none;
+    padding-top: 5%;
+}
+
+.ROY, .REDACTED, .NEIL{
+    margin: 5%;
+}
+
+.contactBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactBody h1{
+    text-align: center;
+}
+
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.socialMediaMinor{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.social{
+    width: 100%;
+}
+
+.test{
+    padding: 20%;
+}
+
+
+
+li a{
+    text-decoration: none;
+    margin: 10%;
+    color: black;
+}
+
+.socialMedia footer{
+    width: 70%;
 }
