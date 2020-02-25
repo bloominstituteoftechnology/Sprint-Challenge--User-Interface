@@ -104,12 +104,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:nth-child(1) {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color: gold;
+}
+
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(4) {
+    background-color: coral;
+}
+
+.box:nth-child(5) {
+    background-color: crimson;
+}
+
+.box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.box:nth-child(9) {
+    background-color: indigo;
+}
+
+.box:nth-child(10) {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +183,117 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.head nav { 
+    display:flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    align-items: baseline;
+    text-decoration: none;
+   }
+
+.lights {
+    margin-bottom: 25px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:dodgerblue;
+}
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+button {border-radius: 8px; 
+    border: 2px solid black;
+    padding: 10px 28px;
+    width: 150px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.bottom {
+    margin: 25px;
+}
+
+h3 {
+    margin: 15px 0px;
+}
+
+
+.middle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.strat {
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 350px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.about {
+    margin: 25px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    
+}
+
+h2, h3 {
+    animation:
+        navcolor 15s infinite,
+        slide 3s 1;
+
+}
+
+@keyframes navcolor {
+    0% {color:black}
+    20% {color:red}
+    40% {color:orange}
+    60% {color:green}
+    80% {color:blue}
+    100% {color:purple}
+
+}
+
+
+@keyframes slide {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+.productMid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 1% solid black;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    align-content: center;
+  }
+
+  .design {
+    margin-top: 5%;
+    border: .5rem solid black;
+    width: 40%;
+    padding: 2%;
+  }
