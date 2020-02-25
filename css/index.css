@@ -71,6 +71,17 @@ p {
     margin: 0 auto;
 }
 
+.navbar{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +115,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -127,6 +137,7 @@ p {
 }
 
 footer {
+    margin-top: 20px;
     width: 100%;
     background: black;
 }
@@ -143,4 +154,119 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.box1{
+    background:teal;
+    animation:boxanim1 .5s alternate infinite;
+}
+.box2{
+    background:gold;
+    animation:boxanim2 3s alternate infinite;
+}
+.box3{
+    background:cadetblue;
+    animation:boxanim3 2s steps(4) alternate infinite;
+}
+.box4{
+    background:coral;
+}
+.box5{
+    background:crimson;
+}
+.box6{
+    background:forestgreen;
+}
+.box7{
+    background:darkorchid;
+}
+.box8{
+    background:hotpink;
+}
+.box9{
+    background:indigo;
+}
+.box0{
+    background:dodgerblue;
+}
+
+.aboutsection{
+    display:flex;
+    flex-wrap:wrap;
+    border-top:1px dashed black;
+}
+.aboutelement{
+    display:flex;
+    flex-direction:column;
+    width:40%;
+    padding:20px;
+    margin:20px;
+    border-bottom:1px dashed black;
+}
+.learnmore{
+    border:1px solid black;
+    border-radius:25px;
+    text-align:center;
+    font-size:10px;
+    width:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+}
+.contactimg{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:400px;
+    text-align:center;
+}
+.form{
+    display:flex;
+    justify-content:center;
+}
+.formrow{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.contactpagetop{
+    padding:20px;
+}
+.contactinfo{
+    padding:20px;
+}
+.weblink{
+    color:royalblue;
+}
+.weblink:hover{
+    color:green !important;
+}
+.weblink:visited{
+    color:crimson;
+}
+
+@keyframes boxanim1{
+    from{
+        transform: rotate(-15deg);
+    }
+    to{
+        transform: rotate(15deg);
+    }
+}
+@keyframes boxanim2{
+    from{
+        
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes boxanim3{
+    25%{
+        transform: translatex(10px);
+    }
+    50%{
+        transform: translatey(-10px);
+    }
+    70%{
+        transform: translatex(-10px);
+    }
 }
