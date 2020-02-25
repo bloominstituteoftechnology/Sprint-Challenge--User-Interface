@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -61,7 +61,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
@@ -70,6 +69,11 @@ p {
     width: 800px;
     margin: 0 auto;
     padding: 5px 0 0 5px;
+}
+
+.container about-page{
+    
+    padding: 0 30px 0 30px;
 }
 
 header nav{
@@ -85,132 +89,31 @@ a {
     color: black;
 }
 
-.jumbo-image {
-    padding-bottom: 30px;
+.about-text{
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px; 
+    border-bottom: 1px dashed black;
+   
+  
+}
+
+.strategy-work{
+    display: flex;
+    align-items: flex-start;
     
 }
 
-.top-menu {
-    display: flex;
-    color: black;
-    justify-content: flex-end;
-    
-    
-}
-.top-content {
+p{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    display: flex;
-    padding: 0 2%;
     
-}
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
+ footer{
+     margin: 0 50px 0 50px;
+ }
 
-.middle-content .boxes .box {
-    width: 15%;
-    height: 100px;
+
+
+
     
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-.box-one{
-    background-color: teal;
-}
-
-.box-two{
-    background-color: gold;
-}
-
-.box-three{
-    background-color: cadetblue;
-}
-
-.box-four{
-    background-color: coral;
-}
-
-.box-five{
-    background-color: crimson;
-
-}
-
-
-.box-six{
-    background-color: forestgreen;
-}
-
-.box-seven{
-    background-color: darkorchid;
-}
-
-.box-eight{
-    background-color: hotpink;
-}
-
-.box-nine{
-    background-color: indigo;
-}
-
-.box-ten{
-    background-color: dodgerblue;
-}
