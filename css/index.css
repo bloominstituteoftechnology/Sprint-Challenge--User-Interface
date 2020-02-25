@@ -1,4 +1,5 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -23,16 +24,58 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/*index.html styling starts here*/
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+    
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    border: 1px solid grey;
 }
 body {
-	line-height: 1;
+    line-height: 1;   
+        
+}
+.container header nav a{
+    margin: 0 10px;
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: grey;
+}
+div {
+    margin-top: auto;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    
+}
+.lambdalogo{
+    width: 50%;
+} 
+header {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    
+}
+.main-nav {
+    color: grey;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
+    
 }
 blockquote, q {
 	quotes: none;
@@ -45,10 +88,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 html, body {
@@ -88,6 +127,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+        
 }
 
 .middle-content h2 {
@@ -100,16 +140,49 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+    
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: hotpink;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+#box-1 {
+    background-color: teal;
+}
+#box-2 {
+    background-color: gold;
+
+}
+#box-3 {
+    background-color: cadetblue;
+}
+#box-4 {
+    background-color: coral;
+}
+#box-5 {
+    background-color: crimson;
+}
+#box-6 {
+    background-color: forestgreen;
+}
+#box-7 {
+    background-color: darkorchid;
+}
+#box-8 {
+    background-color: hotpink;
+}
+#box-9 {
+    background-color: indigo;
+}
+#box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +216,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*css for about.html starts here*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+body {
+    line-height: 1;   
+        
+}
+.wrapper {
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+.container header nav a{
+    margin: 0 10px;
+    padding: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: grey;
+}
+div {
+    margin-top: auto;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    
+}
+.lambdalogo{
+    width: 50%;
+} 
+header {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+    
+}
+.main-nav {
+    color: grey;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+p {
+    border-color:black;
+    border-style: dashed;
+}
+.about{
+    text-align: left;
+    width: 900px;
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    
+
+
+
+.button {
+    border: 2px solid black;
+    background-color: white; 
+}
+
+
+div .button{
+    background-color: white;
+
 }
