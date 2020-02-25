@@ -144,3 +144,210 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Challenge code begins here */
+
+
+header {
+	
+    padding: 40px 0;
+    width: 65%;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    left: 250px;
+	}
+
+
+    
+
+    .header-img{
+        padding: 30px;
+        display: inline-block;
+        width: 80%;
+        margin: auto;
+        position: relative;
+        left: 250px;
+    }
+
+    .header-about{
+        position: relative;
+        left: 280px;
+        border-bottom: 1px dashed black;
+        padding: 20px;
+        width: 77%;
+    }
+
+    .header-nav{
+        text-align: center;
+        position: relative;
+        margin: auto;
+        left: 100px;
+    }
+
+
+    .nav-image{
+        position: relative;
+        right: 15px;
+    }
+
+    .header-nav a:link{
+        padding: 40px;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+
+    .strategy{
+        text-align: left;
+		height: 100px;
+        width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        right: 50px;
+        border-bottom: 1px dashed black;
+        padding-bottom: 420px;
+
+        
+    }
+
+
+    .how-we-work{
+        text-align: left;
+		height: 100px;
+		width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        /* bottom: 387px; */
+        float: right;
+        left: 50px;
+        border-bottom: 1px dashed black;
+        padding-bottom: 420px;
+    }
+
+    .places-we-work{
+        text-align: left;
+		height: 100px;
+		width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        right: 50px;
+        top: 32px;
+        border-bottom: 1px dashed black;
+        padding-bottom: 420px;
+
+    }
+
+    .collaboration{
+        text-align: left;
+		height: 100px;
+		width: 400px;
+		display: inline-block;
+        padding: 30px;
+        position: relative;
+        bottom: 420px;
+        left: 450px;
+        border-bottom: 1px dashed black;
+        padding-bottom: 420px;
+    }
+
+    .learn-box{
+        display: border-box;
+        width: 140px;
+        padding: 7px;
+        border: 2px solid black;
+        height: 40px;
+        text-align: center;
+        border-radius: 15px;
+        margin: 20px;
+        position: relative;
+        right: 20px;
+        
+        
+        
+
+    }
+
+    .work-together{
+        display: inline-block;
+        position: relative;
+        bottom: 150px;
+        right: 10px;
+        margin: -15px;
+
+   }
+
+   footer{
+       position: relative;
+    
+       
+   }
+
+
+
+   /* code for index starts here */
+
+   .index-head{
+       width: 80;
+       margin: auto;
+       float: center;
+       padding: 10px;
+       position: relative;
+       display: inline-block;
+       top: 30px;
+       left: 300px;
+   }
+
+   .top-content{
+       display: flex;
+       flex-direction: row;
+       align-content: space-around;
+   }
+
+
+   
+   .middle-content .boxes :first-child {
+       background: teal;
+
+
+   }
+
+   .middle-content .boxes :nth-child(2){
+       background: gold;
+   }
+
+   .middle-content .boxes :nth-child(3){
+       background: cadetblue;
+   }
+
+   .middle-content .boxes :nth-child(4){
+       background: coral;
+   }
+
+   .middle-content .boxes :nth-child(5){
+    background: crimson;
+}
+
+.middle-content .boxes :nth-child(6){
+    background: forestgreen;
+}
+
+.middle-content .boxes :nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .boxes :nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .boxes :nth-child(9){
+    background: indigo;
+}
+
+.middle-content .boxes :last-child{
+       background: dodgerblue;
+   }
