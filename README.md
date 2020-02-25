@@ -104,3 +104,11 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+## Study Question Answers
+
+1.) Semantic HTML is the structuring of your HTML document with tags in order to make it easy to work with and read.
+2.) display: block acts as a p tag and can have its height and width adjusted; display: inline acts as a span tag in which height and width have no effect.
+3.) The four areas of the box model are: Content, Border, Padding, and Margin.
+4.) Align-items: center, as with any align-items value, work on the cross axis.
+5.) Git is invaluable to a development team as it allows several people to work on different aspects of the project and then merge them all together.
