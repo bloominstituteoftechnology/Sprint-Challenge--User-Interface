@@ -71,6 +71,28 @@ p {
     margin: 0 auto;
 }
 
+
+nav{
+    display:flex;
+    width:100%;
+    justify-content: space-evenly;
+    padding:10px;
+    margin:10px;
+    align-items: center;  
+}
+nav a:visited{
+    color: black;
+}
+
+nav a{
+    text-decoration:none;
+}
+
+
+.logo{
+    
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +126,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +133,47 @@ p {
     justify-content: center;
 }
 
+.box1{
+    background-color: teal;
+}
+
+.box2{
+
+    background-color: gold;
+}
+
+.box3{
+    background-color:cadetblue;
+}
+
+.box4{
+    background-color:coral;
+}
+
+.box5 {
+    background-color:crimson;
+}
+
+.box6{
+    background-color:forestgreen;
+
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color:hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +205,21 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-row, .bottom-row{
+    display: flex;
+    border-bottom:dotted grey;
+
+}
+.top, .bottom{
+    width:50%;
+}
+
+button{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.last-p{
+    margin:10px;
 }
