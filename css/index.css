@@ -144,3 +144,255 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box7{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:darkorchid;
+}
+.box1{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:teal;  
+}
+.box2{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:gold;  
+}
+.box3{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:cadetblue;  
+}
+.box4{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:coral;  
+}
+.box5{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:crimson;  
+}
+.box6{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:forestgreen;  
+}
+.box8{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:hotpink;  
+}
+.box9{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:indigo;  
+}
+.box10{
+width: 12.5%;
+height: 100px;
+background: black;
+margin: 20px 2.5%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+background:dodgerblue;
+}
+
+.indexnav{
+    display:inline-flex;
+    justify-content: center;
+    margin-left:25%;
+    width: 800px;
+    margin-top:10px;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.about-nav {
+    display:inline-flex;
+    justify-content: center;
+    margin-left: 150px;
+    width: 500px;
+    margin-top:10px;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.jumbo-about{
+    margin-left:25%;
+}
+ 
+.about-top{
+    border-bottom: 1px dotted black;
+  
+    
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 1%;
+    padding: 30px;
+
+    
+}
+.row2{
+    flex-flow:row wrap;
+    
+    
+}
+.aboutbox1{
+    position: absolute;
+    right:910px;
+    top:8px;
+    border-bottom: 1px dotted black;
+    padding: 10px;
+}
+.aboutbox2{
+position: absolute;
+
+width: 420px;
+left: -800px;
+top: 2px;
+border-bottom: 1px dotted black;
+padding:10px;
+height: 390px;
+}
+.aboutbox3{
+position:absolute;
+bottom:-175px;
+right:455px;
+width: 400px;
+border-bottom: 1px dotted black;
+padding:10px;
+height: 400px;
+
+}
+.aboutbox4{
+    position:absolute;
+    bottom:-175px;
+    right: 900px;
+    flex-flow: wrap;
+    width: 400px;
+    border-bottom: 1px dotted black;
+    padding:10px;
+    height:400px;
+}
+.bottom{
+    position: absolute;
+    bottom:-300px;
+    
+    width: 900px;
+    left:500px;
+}
+.jumbo-about{
+    display: flexbox;
+    margin-left: -25px;
+    
+}
+.header{
+    width: 1100px;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.lambda{
+    position: absolute;
+    top: -10px;
+    right:1180px;
+display:flex;
+margin-bottom: 50px;
+}
+
+footer{
+color: black;
+background:black;
+position: absolute;
+bottom: -400px;
+justify-content: space-around;
+width: 900px;
+
+}
+
+.button{
+    border-radius: 5px;
+    background: white;
+    width: 125px;
+    height 125px;
+    margin:3px;
+    margin-left:-10px;
+    margin-top:15px;
+}
+.nav-footer{
+    width: 900px;
+    overflow: hidden;
+}
+.button2{
+    position: absolute;
+    top:350px;
+    padding:-40px;
+    
+}
