@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+    padding: 0;
+    
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+  
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+nav{
+    display: block;
+    padding-left: 2%;
+
+}
+.Top {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin: auto;
+    padding-left: 15%;
+    padding-right: 16%;
+
+}
+.Bimg {
+    margin-top:2%;
+    padding-left: 21%;
+    width: fit-content;
+
+}
+a {
+    padding-top: 3%;
+    color: black;
+    text-decoration: none;
+}
+.About {
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 22%;
+    
+}
+.box1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 3%;
+    
+}
+.box2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 3%;
+    
+    
+    
+}
+.Strategy {
+    display: inline-block;
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+    
+}
+.How {
+   display: inline-block;
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+
+}
+.Places {
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+}
+.Collab {
+    border-bottom: 1px dashed;
+    padding: 1%;
+    margin: 2%;
+}
+button {
+    width: fit-content;
+    margin: 2%;
+    padding: 2% ;
+    border-radius: 10px 10px;
+}
+.Together {
+    padding-left: 15%;
+
+
+}
+footer {
+    width: 60%;
+    background: black;
+    margin: auto;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+   
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+.Together {
+    padding-left: 19%;
+    margin: 2%;
+
+
+}
