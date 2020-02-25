@@ -69,16 +69,17 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
-.top-content {
+/*.top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+*/
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -146,8 +147,6 @@ footer nav a {
 }
 
 
-/*................................Joseph Nguyen's code..................*/
-
 header{
     display: flex;
     justify-content: center;
@@ -173,37 +172,39 @@ header{
    margin: 2%;
 }
 
-
- .boxes .box:first-child {
-
-    background: teal;
+/*......................about......................*/
+.about {
+    
+    padding: 3%;
+    border-bottom: 2px dotted black;
+    
 }
 
-.boxes .box:nth-child(2){
-    background: gold;
+h1 {
+    padding: 3%;
 }
 
-.boxes .box:nth-child(3){
-    background: cadetblue;
+button {
+    margin: 3%;
+    margin-left: 0%;
 }
-.boxes .box:nth-child(4){
-    background: coral;
+
+
+.body-container {
+    display: flex;
+
 }
-.boxes .box:nth-child(5){
-    background: crimson;
+
+.Strategy {
+  
+    margin: 3%;
+    padding-bottom: 2%;
+    border-bottom: 2px dotted black;
+    
 }
-.boxes .box:nth-child(6){
-    background: forestgreen;
-}
-.boxes .box:nth-child(7){
-    background: darkorchid;
-}
-.boxes .box:nth-child(8){
-    background: hotpink;
-}
-.boxes .box:nth-child(9){
-    background: indigo;
-}
-.boxes .box:last-child{
-    background: dodgerblue;
+
+.group3 {
+    margin: 3%;
+    margin-top: 0%;
+    
 }
