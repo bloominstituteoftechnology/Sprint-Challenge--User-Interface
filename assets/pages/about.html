@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sprint Challenge 🏃🏿‍ | About</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/index.css">
+</head>
+
+<body>
+  <input type="checkbox" class="theme-switch" id="theme-switch">
+    
+  <div id="page">
+      <label for="theme-switch" class="switch-label"></label>
+    <header class="container">
+      <nav>
+        <a href="/index.html"><img src="/assets/imgs/lambda-black.png"></a>
+        <a href="/index.html">Home</a>
+        <a href="/assets/pages/about.html">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="/assets/pages/contact.html">Contact</a>
+      </nav>
+
+      <img src="/assets/imgs/jumbo-about.png" />
+      <section>
+        <h2>About</h2>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+          corporate
+          strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic
+          world view of disruptive innovation via workplace diversity and empowerment.</p>
+      </section>
+    </header>
+
+    <main class="container about-page">
+
+      <div class="row">
+
+        <section class="col">
+          <img src="/assets/imgs/about-plan.png" alt="strategy">
+          <h3>Strategy</h3>
+          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+            proposition.</p>
+          <button>Learn More</button>
+        </section>
+
+        <section class="col">
+          <img src="/assets/imgs/about-working.png" alt="strategy">
+          <h3>How We Work</h3>
+          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+            proposition.</p>
+          <button> Learn More</button>
+        </section>
+      </div>
+
+      <div class="row">
+        <section>
+          <img src="/assets/imgs/about-office.png" alt="strategy">
+          <h3>Places We Work</h3>
+          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+            proposition.</p>
+
+          <button>Learn More</button>
+        </section>
+
+        <section>
+          <img src="/assets/imgs/about-meeting.png" alt="strategy">
+          <h3>Collaboration</h3>
+          <p>Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
+            proposition.</p>
+          <button>Learn More</button>
+        </section>
+      </div>
+
+      <section>
+        <h3>Let's Work Together</h3>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+          corporate
+          strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic
+          world view of disruptive innovation via workplace diversity and empowerment.</p>
+      </section>
+    </main>
+
+
+
+    <footer class="container">
+
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <script>
+          const themeSwitch = document.querySelector('.theme-switch');
+          themeSwitch.checked = localStorage.getItem('switchedTheme') === 'true';
+
+          themeSwitch.addEventListener('change', function (e) {
+              if (e.currentTarget.checked === true) {
+                  // Add item to localstorage
+                  localStorage.setItem('switchedTheme', 'true');
+              } else {
+                  // Remove item if theme is switched back to normal
+                  localStorage.removeItem('switchedTheme');
+              }
+          });
+      </script>
+    </footer>
+
+
+  </div>
+
+</body>
+
+</html>
