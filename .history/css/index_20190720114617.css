@@ -213,15 +213,11 @@ footer nav a {
     padding-bottom: 20px; 
     margin-bottom: 35px;
     border-bottom: 1px dashed black;
-}
-.bottom-section {
-    display: flex;
-    align-items: center;
-    justify-content: center space-evenly;
-    width: 42%;
+    border-width: 90%;
 }
 .bottom-section .img-txt-container {
-    padding: 10px;
+    display: inline-block;
+    width: 350px;
     padding-bottom: 20px; 
     margin-bottom: 35px;
     border-bottom: 1px dashed black;

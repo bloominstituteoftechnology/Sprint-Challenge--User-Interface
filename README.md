@@ -34,23 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the bones of your website, by structuring it clearly and appropriately you will lay a good foundation for your website, in which case CSS application is facilitated by being build on a good foundation.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+First difference is that display block will by itself will not allow other block items on the same horizontal plane. Second difference is that you can control an individual elements height and width with display:block;
 
 3. What are the 4 areas of the box model?
 
+Content, padding, border, margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the vertical axis of the flexbox.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a team to work on the same source code, while creating their own individual branch. This means if I accidentally make an error 1. the source/master code wouldn't be tainted. 2. There is traceability. If your code is deleted or lost, git makes it easier to retrieve as well.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.

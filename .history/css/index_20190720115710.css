@@ -203,10 +203,9 @@ footer nav a {
     border-bottom: 1px dashed black;
 }
 .top-section {
-    display: flex;
-    align-items: center;
-    justify-content: center space-evenly;
-    width: 42%;
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
 }
 .top-section .img-txt-container {
     padding: 10px;

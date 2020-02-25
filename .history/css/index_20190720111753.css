@@ -65,13 +65,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-button {
-    padding:10px;
-    border: 2px solid black;
-    background: white;
-    border-radius: 10px;
-    margin-top: 12px;
-}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -198,33 +192,14 @@ footer nav a {
     text-decoration: none;
 }
 .about {
-    padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.top-section {
-    display: flex;
-    align-items: center;
-    justify-content: center space-evenly;
-    width: 42%;
-}
 .top-section .img-txt-container {
-    padding: 10px;
+    display: inline-block;
+    width: 41%;
+    padding: 0 1%;
     padding-bottom: 20px; 
-    margin-bottom: 35px;
-    border-bottom: 1px dashed black;
-}
-.bottom-section {
-    display: flex;
-    align-items: center;
-    justify-content: center space-evenly;
-    width: 42%;
-}
-.bottom-section .img-txt-container {
-    padding: 10px;
-    padding-bottom: 20px; 
-    margin-bottom: 35px;
-    border-bottom: 1px dashed black;
 }
 .footer-about {
     padding-bottom: 45px;
