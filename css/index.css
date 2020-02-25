@@ -175,6 +175,22 @@ footer nav a {
 
 .boxes {
     display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
+.about-container {
+    display: flex;
+}
+
+.top-content {
+    display:flex;
+    margin-top: 5%;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
