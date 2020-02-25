@@ -31,6 +31,30 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+/* -----------------NAV & HEADER--------------------- */
+nav {
+	/* width: 61.5%; */
+	display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin:4% 0%;
+}
+nav a {
+	padding:7px;
+	color:black;
+	text-decoration:none;
+}
+
+.home-header-img{
+    display:flex;
+    width: 100%;
+    justify-content:center;
+    margin-bottom:4%;
+}
+
+/* -----------------ELEMENTS---------------- */
+
 ol, ul {
 	list-style: none;
 }
@@ -66,10 +90,19 @@ p {
     line-height: 1.4;
 }
 
+/* -----------------ALL-------------------- */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* ------------------------------------------ */
+/* ---------------HOME----------------------- */
+/* ------------------------------------------ */
+
+
+/* --------------- TOP--------------------- */
 
 .top-content {
     display: flex;
@@ -85,6 +118,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* ----------------MIDDLE--------------------- */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,16 +135,162 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .one {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:9s;
 }
+
+.middle-content .boxes .two {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:2s;
+}
+
+.middle-content .boxes .three {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:10s;
+}
+
+.middle-content .boxes .four {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:3s;
+}
+
+.middle-content .boxes .five{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:5s;
+}
+
+.middle-content .boxes .six {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display:none;
+    animation-name:scaryBoxSix;
+    animation-duration:2s;
+}
+
+.boxes:hover >.six{
+    display:flex;
+}
+
+.middle-content .boxes .seven {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    padding:1%;
+    text-align:center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:10s;
+}
+
+.middle-content .boxes .eight {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:8s;
+}
+
+.middle-content .boxes .nine {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:3s;
+}
+
+.middle-content .boxes .ten {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name:didSheDoTheHomeworkCorrectly;
+    animation-duration:9s;
+}
+
+@keyframes didSheDoTheHomeworkCorrectly{
+    25% {background-color:teal;}
+    50% {background-color:gold;}
+    75% {background-color:dodgerblue;}
+    100% {background-color:indigo;}
+}
+
+@keyframes scaryBoxSix{
+    10% {background-color:black;}
+    20% {background-color:white;}
+    30% {background-color:black;}
+    40% {background-color:white;}
+}
+/* .box one{
+    background-color: #008081
+} */
+
+
+/* ----------------BOTTOM-------------------- */
 
 .bottom-content {
     display: flex;
@@ -125,6 +305,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* ---------------FOOTER--------------------- */
 
 footer {
     width: 100%;
@@ -144,3 +327,120 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ---------------------------------- */
+/* -------------ABOUT ------------- */
+/* -------------------------------- */
+
+.about-top{
+    padding:2%;
+    border-bottom:1px dashed black;
+}
+
+.about-header-img{
+    width:100%;
+}
+
+/* ---------ABOUT BOXES------------ */
+
+.about-middle {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.about-box{
+    width:46%;
+    /* align-items:space-between; */
+    border-bottom:1px dashed black;
+    margin:4% 0%;
+    padding:3% 0%;
+}
+
+.about-box h2{
+    margin-top:3%;
+}
+
+.about-box button{
+    padding:9px 25px;
+    margin-top:3%;
+    border:2px solid black;
+    font-size:14px;
+    border-radius:10px;
+}
+
+/* ----------ABOUT BOTTOM -------- */
+.about-bottom{
+    padding:3%;
+}
+
+/* ---------------------------------- */
+/* ------------BLOG PAGE------------- */
+/* ---------------------------------- */
+
+.blog-top{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    /* justify-content:space-between; */
+}
+
+.blog-top .blog-top-p{
+    width:60%;
+    padding:5%;
+}
+
+.blog-top .blog-top-pic{
+    width:40%;
+    padding:5%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    /* justify-content:column; */
+}
+
+.blog-top .blog-top-pic h2{
+    width:70%;
+    text-align:center;
+    font-size:20px;
+}
+
+.editor{
+    width:70%;
+    height:70%;
+    border-radius:50%;
+}
+
+/* -------------MIDDLE BLOG -------------- */
+
+.blog-middle {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.blog-box{
+    width:25%;
+    /* align-items:space-between; */
+    background-color:lightcyan;
+    border: 1px solid black;
+    margin:4% 1%;
+    padding:3% 3%;
+}
+
+.blog-box h2{
+    margin-top:3%;
+}
+
+.blog-box button{
+    padding:9px 15px;
+    margin-top:3%;
+    border:2px solid black;
+    font-size:14px;
+    border-radius:10px;
+}
+
+
+
+/* -----------END ---------------- */

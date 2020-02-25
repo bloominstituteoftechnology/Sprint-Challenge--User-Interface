@@ -28,21 +28,23 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 ## Self-Study Questions
 
-Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+I wasn't really sure where to put this, so added it here.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic = meaning. If you seperate everything with the same element, it will be tricky, and confusing to find the things you need after you come back to it. Sematic coding is how you can organize your thoughts for yourself and any future coder who will come across yours.
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Name two big differences between display: block; and display: inline;.
+Display block: takes up the entire row of information. It also is affected by widths.
+Display inline: Only takes up as much space as the element it is in. It cannot be affected by height / width. An example is .
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+What are the 4 areas of the box model?
+Content ^ Padding ^ Border ^ Margin
 
-3. What are the 4 areas of the box model?
+While using flexbox, what axis does the following property work on: align-items: center?
+Y axis.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
-5. Explain why git is valuable to a team of developers.
-
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+Explain why git is valuable to a team of developers.
+You are able to edit and change things, with versions that you can go back to if you are working in teams. It's harder to lose everything you've done if you use git correctly.
 
 ## Project Set Up
 
