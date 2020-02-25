@@ -56,6 +56,19 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    display: block;
+    justify-content: space-between;
+    margin: 25px 20px 40px;
+    width: 900px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 35px;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -79,12 +92,17 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .jumbo {
+    width: 760px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    padding-top: 30px; 
 }
-
+/* I'm working BELOW THIS AREA*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,10 +119,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +130,107 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* I'm working ABOVE THIS AREA*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +262,56 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+}
+
+.about-container {
+    height: 100%;
+    Width: 900px;
+    margin: 20px;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 900px;
+    width: 850px;
+    margin: 25px 0px 25px 0px;
+}
+.top-content-about .text-container {
+    margin: 20px;
+}
+
+.middle-content-about .box img{
+    width: 350px;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.middle-content-about .box {
+    justify-content: space-evenly;
+    flex: none;
+    width: 400px;
+    height: 300px;
+    background-color: black
+    margin: 20px;
+    
+}
+
+.middle-content-about .box .text-section {
+    border-bottom: 1px dashed black;
+    width: 365px;
+}
+
+.middle-content-about .box .text-section button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.middle-content-about .box .text-section h2 {
+    margin-top: 15px;
 }

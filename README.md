@@ -34,13 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the "markup" of your webpage. It is the formatting language that defines the parts of your webpage and website's layout. Your web browser or search engine interprets the HTML semantics in order to know how to display your webpage.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+'Display: block' items display page elements one after another on the y axis of the page, and no matter their width they will appear on the next row following the preceding HTML item. 'Display: inline' items have fluid placement characteristics and will follow directly before or after the html item which preceeds or follows it, and can appear in line along the x axis of the page, provided the margins of the inline item's container  allows.
 
 3. What are the 4 areas of the box model?
+Content: The text image or other content contained within the box.
+Border: The outline of the box.
+Padding: The amount of space between the content and the border of the box around the content.
+Margin: The amount of space around the box, between it and other items on the page.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+"align-items: center" works along the cross axis, or the y axis. This will center items between the top and bottom of a container.
 
 5. Explain why git is valuable to a team of developers.
+Git allows developers to track projects step-by-step, allowing them to return to previous versions in the event something happens with the project that needs to be reverted. It also allows developer teams to work together on a given project, tracking, notating and organizing each change that is made over the course of its development.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
