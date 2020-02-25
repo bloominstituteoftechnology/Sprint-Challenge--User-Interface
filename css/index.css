@@ -144,3 +144,151 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.boxes .box:nth-child(1) {
+ background-color :teal;
+   
+}
+.boxes .box:nth-child(2){
+ background-color:gold;
+}
+.boxes .box:nth-child(3){
+ background-color:  cadetblue;
+}
+
+.boxes .box:nth-child(4){
+ background-color: coral;
+}
+
+.boxes .box:nth-child(5){
+ background-color :crimson
+}
+
+.boxes .box:nth-child(6){
+ background-color:forestgreen;
+}
+
+.boxes .box:nth-child(7){
+    background-color:darkorchid;
+}
+
+.boxes .box:nth-child(8){
+    background-color : hotpink;
+}
+
+.boxes .box:nth-child(9){
+    background-color :indigo;
+}
+
+.boxes .box:nth-child(10){
+    background-color :dodgerblue;
+}
+
+/* CSS for Index.html */
+
+.nav1{
+    margin-top :15px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav1 a {
+    margin-top :15px;
+    text-decoration :none;
+    color:black;
+
+}
+
+.image1{
+    margin-top:20px;
+    padding:10px;
+}
+
+.top-content{
+    margin-top :15px;
+}
+
+
+/* CSS for About page */
+
+
+
+.navoptions{
+    display:flex;
+    justify-content: space-around;
+    padding:10px;
+    
+    
+}
+
+.navoptions a{
+    text-decoration:none;
+    color: black;
+    margin-top :15px;
+    
+}
+
+.header-image {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top :20px;
+    width :90%;
+    padding:30px;
+    margin-left:20px;
+}
+    
+
+.about {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top :20px;
+    margin-left:60px;
+}
+
+.menuBoxes{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.stratergy{
+   
+	background-color:#F5F5F5;
+	width : 45%;
+	margin-left :35px;;
+	margin-top : 10px;
+	padding :10px;
+}
+
+.HowWeWork{
+    background-color:#F5F5F5;
+	width : 45%;
+	margin-left :35px;;
+	margin-top : 10px;
+	padding :10px;
+}
+
+.PlacesWeWork{
+    background-color:#F5F5F5;
+	width : 45%;
+	margin-left :35px;;
+	margin-top : 10px;
+	padding :10px;
+}
+
+.collaboration{
+    background-color:#F5F5F5;
+	width : 45%;
+	margin-left :35px;;
+	margin-top : 10px;
+	padding :10px;
+}
+
+.bottom{
+    margin-left:35px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+nav{
+    margin-top : 20px;
+}
