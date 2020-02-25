@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  justify-content: space-between;
+}
+
+.middle-content .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 47%;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px dashed black;
+}
+
+.card-content h2 {
+  margin-top: 20px;
+}
+
+.card-content button {
+  border: 2px solid black;
+  width: 145px;
+  padding: 10px 30px 10px 30px;
+  margin-top: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.card-content button {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  /* background-color: lightgrey; */
+  border: 1px solid grey;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  transition: color 1s, border 1s;
+}
+
+.card-content button:hover {
+  border: 1px solid crimson;
+  color: crimson;
+  /* background-color: #3e8e41} */
+}
+.card-content button:active {
+  /* background-color: lightgrey; */
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.bottom-content {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
