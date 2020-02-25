@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -132,15 +132,192 @@ footer {
 }
 
 footer nav {
-    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 0px;
     font-size: 14px;
+    width: 0%;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* SPRINT CHALLENGE */
+
+body {
+    width: 800px; 
+    margin: 0 auto;
+}
+
+nav {
+    margin: 20px 0 20px 0;
+	z-index: 100;
+	position: sticky;
+    top: 0;
+    background: white;
+    padding-bottom: 20px;
+}
+
+nav .top-logo{
+    padding: 0px 20px 0px 0px;
+    display: inline;
+}
+
+.links {
+    display: inline;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.jumbo {
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+.container-about-page .text-container{
+    margin: 0 20px;
+    padding-bottom: 25px;
+}
+
+button {
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about-boxes-container {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.about-box {
+    width: 45%;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+    margin-right: 15px;
+}
+
+.about-boxes-container .about-box h2 {
+    margin-top: 15px;
+}
+
+.container-about-page-bottom {
+    margin: 0 20px;
+    padding-bottom: 20px;
+}
+
+.about-content {
+    border-bottom: 1px dashed black;
+    width: 800px;
+}
+
+.middle-content .boxes .box .box1 {
+    background: teal;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box2 {
+    background: gold;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box3 {
+    background: cadetblue;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box4 {
+    background: coral;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box5 {
+    background: crimson;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box6 {
+    background: forestgreen;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box7 {
+    background: darkorchid;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box8 {
+    background: hotpink;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box9 {
+    background: indigo;
+    padding: 42px 30px 42px 30px;
+}
+
+.middle-content .boxes .box .box10 {
+    background: dodgerblue;
+    padding: 34px 30px 34px 30px;
+}
+
+/* STETCH GOALS */
+
+.contact-lambda img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px 0;
+
+}
+
+
+@media (max-width: 400px) {
+
+	.about-boxes-container {
+		margin: 40px 0px 10px 0px;
+		height: 450px;
+        width: 100% !important;
+        display: block;
+	}
+
+	.container-title h3 {
+		font-size: 50px;
+        margin: 30px 30px ;
+
+	}
+	
+	.container-title p {
+		margin: 30px 30px;
+		font-size: 36px;
+	}
+	
+	.container button {
+		border-radius: 5px;
+		padding: 5px 35px;
+		margin: 10px 30px;
+        font-size: 25px;
+        border: 4px solid red;
+	}
