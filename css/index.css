@@ -144,3 +144,99 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#logo {
+    margin-top: -20px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    color: black;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 20px 2%;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+
+/* ABOUT PAGE STYLES */
+
+.mid-about{
+    border-bottom: 1px dashed black;
+    margin: 20 0 20px 0;
+    padding: 20px;
+}
+
+#where-work, #collaboration{
+    padding-top: 40px;
+}
+
+button{
+    border: 2px solid black;
+    padding: 8px;
+    width: 120px;
+    border-radius: 12%;
+    font-size: 16px;
+    margin-top: 10px;
+}
