@@ -180,6 +180,10 @@ footer nav a {
     align-items: center;
 }
 
+.learn_more {
+    border: 1px solid black;
+}
+
 
 .about-container {
     display: flex;
@@ -188,6 +192,10 @@ footer nav a {
 .top-content {
     display:flex;
     margin-top: 5%;
+}
+
+.places-container {
+    display: flex;
 }
 
 .footer-nav {
