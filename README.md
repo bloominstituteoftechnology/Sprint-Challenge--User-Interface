@@ -33,14 +33,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+  
+  Semantic HTML is a very important part to coding, the semantics are what help create an amazing web page. Semantic HTML tags are what describe what action is taking place in that area. Some example of Semantic tags are: <section>, <div>, <p>, <footer>. Again these are tags the programmers use every time a webpage is needed to be created, which is why semantic are so important to the coding process.  So if we were to use a <p> </p> tags that means that this well hold a place of a paragraph which will make since due to the tag starting with a p. So each tag has a meaning behind it.
+
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+  The two big differences between display: block and display: inline are one, display: inline can start anywhere in a line there is display: block elements can only start on a new line. inline elements may contain only data and other inline elements. You can't put block elements inside inline elements.
+
 3. What are the 4 areas of the box model?
+  
+    The 4 areas of the box model is Margin, which specifies the amount of space between the border and the outside edge of the element. Padding, which specifies the amount of space between the content area and the border. Border, which specifies the thickness and style of the border surrounding the content area and padding, and finally the content which specifies the content of the box where the text and images appear.
+
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+  The align-items center will center all of the elements and will be positioned halfway between the top and the bottom of the parent container
+
+
 5. Explain why git is valuable to a team of developers.
+
+The reason why git is valuable to a team of developers is because if any of the team members make a change  to a project the other members  that are working on the project will be able to view the changes that was made so that way the same changes are not duplicated, also if a new member joins the project they are able to read all of the notes and actions that has taken place on the project.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
