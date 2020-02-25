@@ -3,6 +3,12 @@
    License: none (public domain)
 */
 
+@import "header.css";
+@import "footer.css";
+@import "hero-content.css";
+@import "home-content.css";
+@import "about-content.css";
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -70,77 +76,65 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.text-container {
+    padding: 0 3%;
+}
 
-.top-content {
+.flex {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+}
+
+.dash {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.teal-bg {
+    background-color: teal !important;
+}
+.gold-bg {
+    background-color: gold !important;
+}
+.cadetblue-bg {
+    background-color: cadetblue !important;
+}
+.coral-bg {
+    background-color: coral !important;
+}
+.crimson-bg {
+    background-color: crimson !important;
+}
+.forestgreen-bg {
+    background-color: forestgreen !important;
+}
+.darkorchid-bg {
+    background-color: darkorchid !important;
+}
+.hotpink-bg {
+    background-color: hotpink !important;
+}
+.indigo-bg {
+    background-color: indigo !important;
+}
+.dodgerblue-bg {
+    background-color: dodgerblue !important;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
+.is-full {
     width: 100%;
-    background: black;
+}
+.is-48 {
+    width: 48%;
 }
 
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+.card {
+    flex-wrap: wrap;
+    padding: 10px 0 20px;
+    margin: 1% 1% 50px;
+    width: 370px;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
+.button {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 10px 20px;
 }
