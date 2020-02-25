@@ -144,3 +144,182 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.topNavigationBar{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 9px;
+    font-size: 14px;
+    align-items: baseline;
+    width:100%;
+    justify-items: left;
+    
+    
+}
+
+nav .lambda-black{
+    margin-left: 0px;
+}
+.jumbo{
+    margin-bottom: 20px;
+}
+
+nav div{
+    margin: 40px 40px 0px 44px;
+    display:flex;
+   
+    width: 100%;
+    
+}
+a:link, a:visited{
+    text-decoration: none;
+    /* color: black; */
+}
+.boxOne{
+    background: teal;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .boxTwo{
+    background: gold;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxThree{
+    background: cadetblue;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxFour{
+    background: coral;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxFive{
+    background: crimson;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxSix{
+    background: forestgreen;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxSeven{
+    background: darkorchid;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxEight{
+    background: hotpink;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .boxNine{
+    background: indigo;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .boxTen{
+    background: dodgerblue;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.about-page{
+    width:80%;
+    margin: auto;
+}
+
+.jumbo-about{
+    width: 100%;
+}
+
+.learn{
+	border: 2px black solid;
+	padding: 10px 30px;
+	margin-top: 25px;
+	width: 145px;
+	border-radius: 10px;
+	font-size: 16px;
+	text-align: center;
+	background: #ffffff;
+}
+
+hr{
+    border-top:1px dashed #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutSection{
+    margin: 20px;
+}
+
+.learnMoreBoxesDiv{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.learnMoreBoxes{
+    width: 45%;
+    margin: 20px 10px 10px 5px ;
+}
+
+.bottom {
+    margin: 0px 20px 20px 20px;
+}
+
+.boxImages{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
