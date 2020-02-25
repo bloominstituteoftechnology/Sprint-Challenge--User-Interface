@@ -31,6 +31,28 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+body{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 50%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 50%;
+    }
+  }
+
+
+
+
+
 ol, ul {
 	list-style: none;
 }
@@ -101,10 +123,11 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
+    /* background: red; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +166,85 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.topbar{
+    display:flex;
+    margin: 27px 0 0 0;
+}
+.image1{
+
+}
+.links{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin: 0px 0px 0px 16px;
+}
+a{
+    margin:0 0 0 72px
+}
+.image2{
+    margin: 60px 0 15px ;
+}
+
+.box1{
+    background: teal;
+} 
+.box2{
+    background: gold;
+
+} 
+.box3{
+    background:cadetblue;
+} 
+.box4{
+    background:coral;
+} 
+.box5{
+    background:crimson;
+} 
+.box6{
+    background:forestgreen;
+}   
+.box7{
+    background:darkorchid;
+} 
+.box8{
+    background:hotpink;
+} 
+.box9{
+    background:indigo;
+} 
+.box10{
+    background:dodgerblue;
+}
+/* about css  about css about css about css about css  */
+
+.para1{
+    border-bottom: 1px dashed black;
+    padding: 0 0 17px 0px
+}
+.row1{
+    display: flex;
+    margin: 33px 0 0px 13px
+}
+.group1, .group2, .group3, .group4{
+    border-bottom: 1px dashed black;
+    margin: 0px 10px 0px 10px;
+}
+.row2{
+    display: flex;
+    margin: 33px 0 0px 13px
+}
+button{
+    padding: 9px 17px 9px 17px;
+    font-size: medium;
+    border-radius: 14px;
+    margin: 8px 0 16px 0px;
+    border: 2px solid;
+}
+.lastSection{
+    margin: 47px 0 22px 0;
 }
