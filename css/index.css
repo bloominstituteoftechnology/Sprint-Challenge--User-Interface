@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -69,7 +70,34 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
+
+.top-section{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.todo nav{
+    width:95%;
+	display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 5%;
+
+}
+.todo nav a{
+   text-decoration: none; 
+   background-color: none;
+   color:gray;
+   align-self: flex-end;
+}
+.jumbo{
+    padding-bottom: 3%;
+}
+
+
 
 .top-content {
     display: flex;
@@ -111,6 +139,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+.boxes .box:nth-child(1){
+    background: teal;
+}
+.boxes .box:nth-child(2){
+    background: gold;
+}
+.boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.boxes .box:nth-child(4){
+    background: coral;
+}
+.boxes .box:nth-child(5){
+    background: crimson;
+}
+.boxes .box:nth-child(6){
+    background: forestgreen;
+}
+.boxes .box:nth-child(7){
+    background: darkorchid
+}
+.boxes .box:nth-child(8){
+    background: hotpink;
+}
+.boxes .box:nth-child(9){
+    background: indigo;
+}
+.boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +203,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page CSS*/
+
+.jumbo-about{
+    padding-bottom: 2.5%;
+}
+.about-section p{
+    border-bottom: 1px dashed gray;
+    padding-bottom: 2%;
+}
+.about-section{
+    
+    padding-bottom: 3%
+}
+
+.midsection{
+
+    flex-wrap: wrap;
+    
+}
+
+.midsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+.midsection .box1{
+    width:45%;
+}
+
+h3{
+    padding-top: 2%;
+}
+
+button{
+    font-size:18px;
+    padding: 1.5% 7%;
+    border: 3px solid black;
+    border-radius: 20%;
+    background: white;
+}
+
+.box1 p{
+    padding-bottom: 5%;
+}
+
+.last-section{
+    padding: 5% 0;
+}
+
+.midsection .box1:nth-child(1){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+.midsection .box1:nth-child(2){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+
+.midsection .box1:nth-child(3){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+.midsection .box1:nth-child(4){
+    border-bottom:1px dashed black;
+    padding-bottom: 2%;
+}
+
