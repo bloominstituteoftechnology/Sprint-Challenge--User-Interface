@@ -66,9 +66,9 @@ p {
     line-height: 1.4;
 }
 
-.index-navbar {
+.about-navbar {
     display: flex;
-    margin: 0 19% 2%;
+    margin: 0 17% 2%;
 }
 
 .navbar {
@@ -76,7 +76,6 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 a {
@@ -88,110 +87,66 @@ a {
     margin: 0 17% 2%;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+.about-text {
+    margin: 0 17%;
 }
 
-.top-content {
+hr {
+    border: 1px dashed;
+    margin: 2% 17%;
+}
+
+.middle-section hr {
+    margin: 2% 5%;
+}
+
+button {
+    margin: 2% 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.middle-section {
     display: flex;
+    margin: 0 17%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 1%;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.strategy {
+    width: 45%;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.how-we-work {
+    width: 45%;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.places-we-work{
+    width: 45%;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.Collaboration {
+    width: 45%;
 }
 
-.middle-content .boxes .box {
-
-    /* border: 1px solid red; */
-    width: 12.5%;
-    height: 100px;
-    /* background: black; */
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.boxes .box1 {
-    background: teal;
-}
-
-.boxes .box2 {
-    background:gold;
-}
-
-.boxes .box3 {
-    background: cadetblue;
-}
-
-.boxes .box4 {
-    background: coral;
-}
-
-.boxes .box5 {
-    background: crimson;
-}
-
-.boxes .box6 {
-    background: forestgreen;
-}
-
-.boxes .box7 {
-    background: darkorchid;
-}
-
-.boxes .box8 {
-    background: hotpink;
-}
-
-.boxes .box9 {
-    background: teal;
-}
-
-.boxes .box10 {
-    background: teal;
-}
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.work-together {
+    margin: 2% 17% 0;
 }
 
 footer {
-    width: 100%;
-    background: black;
+    border: 1px solid;
+    margin: 3% 17% 0;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footernav a {
+    text-decoration: none;
+    color: white;
 }
 
 footer nav {
@@ -201,9 +156,4 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
+    }
