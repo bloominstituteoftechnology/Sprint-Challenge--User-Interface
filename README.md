@@ -34,13 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Think about the word 'semantic'. It implies a logical meaning behind the hyper text markup. It has the purpose of communicating specific meaning. This is not like languages we speak to one another, language where you want other people to understand. In semantic HTML, you want to be understood by other programmers(humans) but ALSO web interpreters. Semantic HTML is how search engines make SENSE of what they are reading. This is very important because how you write your HTML will determine the way google interprets the webpage, and this is how developers OPTIMIZE their SEO. You want more people getting linked through google.  
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block; like the name sounds, takes up a 'block' of space. It is used by webpage designers to hold that space. Similar to a building that relies on a foundation, block level elements give your webpage structure by allowing you to build your element positioning on top of individual blocks. Spacing things out a certain way make websites look better. If everything were crammed together, the page would be hard to read and look unpolished. 
+
+Display: inline; can be considered the opposite of block. "Inline" means that the element stays within the line. Inline elements are often used to house text or links. 
+
+To answer the question then, block level elements take up the full width of a page(causing a line break) and inline elements only take up as much space as the content. 
+
+The second difference is their function. Inline is often content, text, information. Block level is used to position and arrange things. Usually webpage designers will wrap inline elements within block-level elements to apply layout/positioning design. 
 
 3. What are the 4 areas of the box model?
 
+From inside to out: Content, padding, border, margin. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross-axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a version control system. It allows developers to separate a project into branches and work independently without risk of corrupting the master branch. A real life project with many devs working on the same project would get very difficult to organize without a version-control system and workflow.
+
+Luckily Git's tools allow us to manage those different branches simultaneously and keep track of changes made whenever they are committed.  
+
+Beyond just a tool, it has become a hub for developers to post their projects. Open source is a really positive thing for everyone and is super cool because people come together to make all sorts of helpful things. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
