@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML gives HTML purpose. It gives it a defined action. Examples are a div tag vs a nav tag. You can do the same thing with both, but the nav tag tells whomever is reading your code that it is the nav area. It may also ahve preset attributes based on the tag. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block contains the element and it stretches it to the end of the container. So with a P tag the content would span the entire page, and the next element would go below it instead of beside it, which is what display inline allows. 
 
 3. What are the 4 areas of the box model?
 
+Content edge, padding edge, border edge, and margin edge.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This element would align the children level items inside of the container and make them center aligned. 
+
 5. Explain why git is valuable to a team of developers.
+
+Collaboration, version control, and quality control. You can have mulitible people write code, and have the ability to store it by version and merge as you want to. It shows the changed code vs. exsisting code, and allows great quality control on a large team. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
