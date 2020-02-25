@@ -65,6 +65,24 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header{
+    width: 50%;
+    
+}
+header nav {
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 58%;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.top-img {
+    align-items: center;
+    padding-bottom: 20px;
+}
 
 .container {
     width: 800px;
@@ -76,7 +94,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
@@ -100,8 +117,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+.boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -112,6 +128,39 @@ p {
     justify-content: center;
 }
 
+/* coloring of the boxes */
+
+.box:first-child {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color:gold;
+}
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+.box:nth-child(4) {
+    background-color: coral;
+}
+.box:nth-child(5) {
+    background-color: crimson;
+}
+.box:nth-child(6) {
+    background-color: forestgreen;
+}
+.box:nth-child(7) {
+    background-color: darkorchid;
+}
+.box:nth-child(8) {
+    background-color: hotpink;
+}
+.box:nth-child(9) {
+    background-color: indigo;
+}
+.box:last-child {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +193,39 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* About stlying */
+
+ .container-about {
+    width: 800px;
+    margin: 0 auto;
+ }
+
+ .about-content {
+     margin: 20px;
+     padding-bottom: 10px;
+     border-bottom: 1px dashed black;
+ }
+
+ .top-content {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ 
+ .bot-content {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .content-card {
+     width: 400px;
+     padding: 20px;
+     border-bottom: 1px dashed black;
+ }
+
+ .lets-work {
+     margin: 20px;
+ }
