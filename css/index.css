@@ -85,6 +85,11 @@ p {
     padding-bottom: 20px;  
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -143,4 +148,86 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.logo {
+    float: left;
+    margin: 10px;
+}
+
+.menuitem {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.headimage {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-container {
+    display: inline-block;
+    width: 49%;
+    padding: 15px;
+}
+
+ #one {
+    background-color: teal;
+}
+#two {
+background-color: gold;
+}
+#three {
+background-color: cadetblue;
+}
+#four {
+background-color: coral;
+}
+#five {
+background-color: crimson;
+}
+#six {
+background-color: forestgreen;
+}
+#seven {
+background-color: darkorchid;
+}
+#eight {
+background-color: hotpink;
+}
+#nine {
+background-color: indigo;
+}
+#ten {
+background-color: dodgerblue;
+}
+
+.images {
+    display: inline-block;
+}
+
+.imagewrapper {
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+
+}
+button {
+    margin: 10px 0 10px 0;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 8px 18px;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.toppad {
+    padding-top: 10px;
+}
+footer {
+    width: 800px;
+    display: inline-block;
+    /* float: left; */
+    /* clear: both; */
+
 }
