@@ -71,12 +71,40 @@ p {
     margin: 0 auto;
 }
 
+.navigation{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+}
+
+
+.topNav{
+	display: flex;
+	justify-content: space-between;
+    width: 75%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.topNav a{
+    text-decoration: none;
+	font-size: 1rem;
+	color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.headerIMG{
+    margin-bottom: 2rem;
 }
 
 .top-content .text-container {
@@ -104,12 +132,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
-    margin: 20px 2.5%;
     color: white;
+    margin: 20px 2.5%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+background: teal;
+}
+
+#box2 {
+background: gold;
+}
+
+#box3 {
+background: cadetblue;
+}
+
+#box4 {
+background: coral;
+}
+
+#box5 {
+background: crimson;
+}
+
+#box6 {
+background: forestgreen;
+}
+
+#box7 {
+background: darkorchid;
+}
+
+#box8 {
+background: hotpink;
+}
+
+#box9 {
+background: indigo;
+}
+
+#box10 {
+background: dodgerblue;
 }
 
 .bottom-content {
@@ -137,10 +204,115 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 1.25;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT STYLING */
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 1%;
+    padding-bottom: 2%;
+}
+
+.about-top-content .text-container{
+    margin: 0 2% 0 ;
+    width: 100%;
+    height:100%;
+}
+
+.about-boxes-section{
+    display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+    margin-bottom: 20px;
+    margin: 0 2% 0 2%;
+
+}
+
+
+.about-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 48%;
+    margin-top: 5%;
+    border-bottom: 1px dashed black; 
+    margin-bottom: 5%;
+}
+
+.about-section-container .text-container{
+    margin-top: 1rem;
+}
+
+.learnMore{
+    border-radius: 6px;
+    border: 2px solid black;
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2.25%;
+    padding-bottom: 2.25%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.15rem;
+}
+
+
+.about-bottom-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.about-bottom-text{
+    font-family: 'Rubik', sans-serif;
+    margin: 0 2% 0 2%;
+}
+
+/* PRODDUCTS STYLING PAGE */
+
+ul li{
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 1.5rem;
+    list-style-type: circle;
+    font-size: .85rem;
+}
+
+/* CONTACT PAGE STYLING */
+
+.contactForm{
+    display: flex;
+    justify-content: center;
+    margin: 0 25% 0 25%;
+}
+.formSection{
+    justify-content: center;
+}
+
+label{
+    font-size: .75rem;
+    width: 25%;
+}
+
+#fname, #lname, #company, #country{
+    border: 1px solid gray;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2.25%;
+    padding-bottom: 2.25%;
+    font-family: 'Rubik', sans-serif;
+    font-size: .75rem;
 }
