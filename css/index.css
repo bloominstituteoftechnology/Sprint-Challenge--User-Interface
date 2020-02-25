@@ -148,7 +148,7 @@ footer nav a {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
 }
 
@@ -156,6 +156,10 @@ footer nav a {
 .navbar a {
     color:black;
     text-decoration: none;
+}
+
+.first-sect {
+    margin: 5% 0 5% 0;
 }
 
 .learn_more {
@@ -182,11 +186,19 @@ footer nav a {
 
 .learn_more {
     border: 1px solid black;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .about-container {
     display: flex;
+    margin: 5% 0 5% 0;
+}
+
+.about-items {
+    justify-content: center;
+    align-items: center;
 }
 
 .top-content {
@@ -196,6 +208,7 @@ footer nav a {
 
 .places-container {
     display: flex;
+    margin: 5% 0 5% 0;
 }
 
 .footer-nav {
