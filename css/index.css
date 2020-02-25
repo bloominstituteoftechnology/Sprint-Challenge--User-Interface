@@ -144,3 +144,174 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header{
+    border: 1px solid red;
+}
+.flex{
+    display: flex;
+   margin: auto;
+    
+  
+}
+
+
+
+header img{
+    display: flex;
+    
+    
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}
+header nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+.box-1{
+    background: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-2{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gold;
+}
+.box-3{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: cadetblue;
+}
+.box-4{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: coral;
+}   
+.box-5{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: crimson;
+}
+.box-6{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: forestgreen;
+}
+.box-7{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkorchid;
+}
+.box-8{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hotpink;
+}
+.box-9{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: indigo;
+}
+.box-10{
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:dodgerblue;
+}
+.bent{
+    margin: auto;
+    border: dotted blue;
+
+
+
+
+} 
+.two-1{
+    width: 48%;
+  
+}  
+header .about{
+    display: inline;
+}
+.one-1{
+    display: flex;
+    align-items: center;
+
+   
+}
+.two-1{
+    display: flex;
+    justify-content: flex-start;
+}
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.first{
+    display: flex;
+    
+    
+}
+
+
+   
+    
+}
+
