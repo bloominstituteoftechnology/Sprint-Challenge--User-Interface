@@ -175,10 +175,13 @@ footer nav a {
 }
 .img2{
     width: 100%;
-
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+/* 
     padding-left: 6%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 2%; */
 }
 .top-content{
     display: flex;
@@ -186,6 +189,7 @@ footer nav a {
 .text-container{
     flex-direction: row;
     padding-right: 6%;
+    margin-top: 2%;
     
 }
 .box1{
@@ -218,24 +222,21 @@ footer nav a {
 .box10{
     background-color:dodgerblue ;
 }
-.middle-content{
-    /* display: flex; */
-    align-content: center;
-}
-.boxes1, .boxes2{
-    /* width:100px;
-    height:100px; */
+
+.boxes1{
     display: flex;
-    flex-direction: row;
-	/* flex-flow: row wrap; */
+    align-items: center;
     justify-content: space-around;
-    margin-top: 3%;
-    
-}
-.middle-content div{
-    width: 20%;
+    height:5vh;
 
 }
+.mom boxes1{
+    width:30%px;
+    height: 100px;
+    padding-bottom: 3%;
+}
+
+
 .about p{
     margin-bottom: 2%;
 }
