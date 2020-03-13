@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    align-items: baseline;
+    margin: 1.5rem 0;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 5%;
+}
+
+header .hero-image {
+    margin: 1.5rem 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
