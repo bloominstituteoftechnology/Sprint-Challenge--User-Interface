@@ -74,7 +74,7 @@ body {
 
    nav {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
   }
   
@@ -89,6 +89,12 @@ body {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.about-top {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom:25px;
 }
 
 .jumbo {
@@ -136,6 +142,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/*---------Index Pages Colored Boxes -------*/
 
 .middle-content .boxes .teal{
     width: 12.5%;
@@ -245,6 +253,44 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*--------About Sections Middle Boxes---------*/
+
+.about-middle {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.about-middle .about-boxes {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    }
+
+.about-middle .about-boxes .about-box {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom:35px;
+}
+
+.about-box p{
+    margin-bottom: 10px;
+}
+
+.about-box a{
+    width:150px;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid black;
+    border-radius:8px;
+    margin-bottom: 15px;
 }
 
 .bottom-content {
