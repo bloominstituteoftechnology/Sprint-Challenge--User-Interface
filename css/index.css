@@ -242,13 +242,34 @@ footer nav a {
 .big-box{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 4%;
 }
 .cards{
 	width: 48%;
 	padding: 15px;
 	margin-bottom: 20px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
-
-
+hr{
+    border-top: 3px dashed lightgray;
+}
+.lrn{
+    margin-top: 2%;
+}
+button{
+    padding: 8px 24px;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	margin-top: 12px;
+	border-radius: 8px;
+	
+}
+.work{
+    margin: 5% 0 4% 0;
+    
+}
+.navf{
+    margin-bottom: 2%;
+}
