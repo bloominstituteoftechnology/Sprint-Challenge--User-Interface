@@ -273,18 +273,23 @@ body {
     display: flex;
     flex-direction:column;
     justify-content:space-evenly;
-    width: 350px;
+    width: 380px;
     border-bottom: 1px dashed black;
     margin-bottom:35px;
 }
 
+.about-box h2 {
+    margin-top:15px;
+}
+
 .about-box p{
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .about-box a{
-    width:150px;
-    height:40px;
+    width:125px;
+    height:35px;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -305,6 +310,17 @@ body {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/*-------- About Pages Bottom Section --------*/
+
+.about-bottom h3 {
+    font-size:16px;
+}
+
+.about-bottom p{
+    font-size:14px;
+    margin-bottom:35px;
 }
 
 footer {
