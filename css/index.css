@@ -258,18 +258,22 @@ hr{
     margin-top: 2%;
 }
 button{
-    padding: 8px 24px;
+    padding: 14px 32px;
 	background-color: white;
 	color: black;
 	border: 1px solid black;
 	margin-top: 12px;
-	border-radius: 8px;
+    border-radius: 10px;
+    font-size: 15px;
 	
 }
 .work{
     margin: 5% 0 4% 0;
     
 }
+.work p{
+    font-size: 15px;
+}
 .navf{
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
