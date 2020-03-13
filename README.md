@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Symantic HTML brings meaning to the content the HTML tags surround. For example a `<p>` tag means the content is a paragraph. And the `<section>` tag denotes the content is a section of the page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A block element starts on a new line and take up the space available to it. An inline element does not start on a new line and only take up the space it needs.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border, Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows team members to contribute to a project simultaneously and review each others code before it is implemented into the project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
