@@ -70,6 +70,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.nav-style {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 20px 0 40 px 0
+}
+.nav-style a{
+    color: black;
+    text-decoration: none;
+}
 
 .top-content {
     display: flex;
@@ -77,6 +87,10 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin-bottom: 25px;
 }
 
 .top-content .text-container {
@@ -112,6 +126,45 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +196,86 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+.text-container-about {
+    width: 96%;
+    padding: 15px 1%;
+    padding-bottom: 20px;
+}
+
+.middle-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 46%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+
+.card h2 {
+    padding-top: 10px;
+}
+
+.card button {
+    padding: 9px 23px;
+    margin: 10px 0;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.card:nth-last-child(-n+2) {
+    margin-top: 30px;
+}
+
+.bottom-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 96%;
+}
+
+.bottom-cta {
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+.top-content-blog img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-content-blog h2 {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.blog {
+    box-shadow: 0 4px 8px 0 rgba(red, green, blue, alpha);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.blog:hover {
+    box-shadow: 0 8px 16px 0 rgba(red, green, blue, alpha);
+}
+
+.form-style input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.8em;
+    margin: 5px;
 }
