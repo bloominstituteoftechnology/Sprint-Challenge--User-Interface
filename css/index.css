@@ -239,6 +239,16 @@ footer nav a {
 .about p{
     margin-bottom: 2%;
 }
-
+.big-box{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.cards{
+	width: 48%;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
 
 
