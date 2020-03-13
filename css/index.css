@@ -71,6 +71,78 @@ p {
     margin: 0 auto;
 }
 
+header{
+	margin: 20px 40px 20px 0;
+}
+	
+
+header nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:baseline;
+}
+
+section.jumbo{
+	margin:20px 0;
+}
+
+header nav a{
+	text-decoration:none;
+	color:#000;
+	position: relative;
+	-webkit-animation: mdown 1s ; /* Safari 4.0 - 8.0 */
+	animation: mdown 1s;
+}
+
+header nav a:last{
+	position: relative;
+	-webkit-animation: mright 1s ; /* Safari 4.0 - 8.0 */
+	animation: mright 1s;
+}
+
+header nav a img{
+	position: relative;
+  -webkit-animation: mright 1s ; /* Safari 4.0 - 8.0 */
+  animation: mright 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mright {
+  from {left: -200px;}
+  to {left: 0px;}
+}
+
+@keyframes mright {
+  from {left: -200px;}
+  to {left: 0px;}
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mdown {
+  from {top: -200px;}
+  to {top: 0px;}
+}
+
+@keyframes mdown {
+  from {top: -200px;}
+  to {top: 0px;}
+}
+
+@-webkit-keyframes mleft {
+  from {right: -200px;}
+  to {right: 0px;}
+}
+
+@keyframes mleft {
+  from {right: -200px;}
+  to {right: 0px;}
+}
+
+
+header nav a:hover{
+	text-decoration:none;
+	color:#666;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +176,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +197,36 @@ p {
     padding-right: 0;
 }
 
+.b1{
+	background:teal;
+}
+.b2{
+	background:gold;
+}
+.b3{
+	background:cadetblue;
+}
+.b4{
+	background-color:coral;
+}             
+.b5{          
+	background-color:crimson;
+}             
+.b6{          
+	background-color:forestgreen;
+}             
+.b7{          
+	background-color:darkorchid;
+}             
+.b8{          
+	background-color:hotpink;
+}             
+.b9{          
+	background-color:indigo;
+}             
+.b10{         
+	background-color:dodgerblue;
+}
 footer {
     width: 100%;
     background: black;
@@ -143,4 +244,100 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about Page*/
+
+.about-page section{
+	display:flex;
+	margin:20px 0;
+	
+}
+
+.about-page section h2{
+	margin-top:10px;
+}
+
+.about-page section.first{
+	padding:20px;
+	border-bottom:1px dashed #ddd;
+}
+
+.about-page section.middle{
+	justify-content:space-between;
+	flex-wrap:wrap;
+	align-items:;
+	
+}
+
+.about-page section.middle div{
+	width:370px;
+	margin:20px 0;
+	border-bottom:1px dashed #ddd;
+	
+}
+
+.about-page section.middle div button{
+	background:transparent;
+	border-radius:5px;
+	margin:20px 0;
+	padding:5px 20px;
+	border:1px solid black;
+}
+
+/*contact Page*/
+.contact-page section{
+	display:flex;
+	justify-content:space-between;
+}
+
+.contact-page section div{
+	width:50%;
+	padding:40px;
+}
+
+.contact-page section div form{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: transparent;
+  color: #000;
+  width:50%;
+  padding: 12px 20px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.contact-page section div{
+	max-width:50%;
+}
+
+@media only screen and (max-width: 600px) {
+   header nav a img{
+		position: relative;
+	  -webkit-animation: mymove 1s ; /* Safari 4.0 - 8.0 */
+	  animation: mymove 1s;
+	} 
 }
