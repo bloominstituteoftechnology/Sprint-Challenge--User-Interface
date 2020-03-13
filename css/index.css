@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border:;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border:1px solid black;
 }
 
 html, body {
@@ -64,6 +65,15 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.links{
+    width: 48%;
+    display:flex;
+    justify-content: space-around;
+    margin-left: 28%;
+    padding: 20px 0;
+    color:black;
 }
 
 .container {
