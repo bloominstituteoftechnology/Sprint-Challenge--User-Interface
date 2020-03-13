@@ -66,9 +66,12 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
+    display:flex;
+    flex-flow:row space-evenly;
 }
 
 .top-content {
