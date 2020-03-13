@@ -68,57 +68,53 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
-    flex-direction: column;
-    display:flex;
+    margin: 20px auto 0;
+    font-weight: 600;
 }
-           /*---Nav And Header--*/ /*add at bottom */
-header {
+.container header{
     display: flex;
-    flex-direction:column;
     justify-content: space-between;
-    width:50%;
-    flex-wrap:now-wrap;
-    padding-bottom: 18px;
+    align-items: baseline;
+    font-weight: normal;
+}
+.container header nav{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-/*apart of the header class*/
-
-.navigation{
-        /* text-decoration: none; */
-          /* color: black; */
-          /* font-size: 14px; */
-          /* font-weight: 600; */
-
-          text-align: center;
-          width: 100%;	
-          display:flex;
-          justify-content: space-between;
-      
-
-}
-
-nav {
-	display: flex;
-	flex-direction: row;
-	width:80%;
-	margin-left: 45px;
-	margin-right: 45px;
-  justify-content: space-between;
-}
-
-nav a {
+.container header nav a{
+    color: black;
     text-decoration: none;
-      color: black;
-      font-size: 14px;
-      font-weight: 600;
+    font-size: 13px;
 }
+
+.container .top{
+    margin: 10px 0;
+    border-bottom: 1px dashed black;
+}
+
+.container .top img{
+    width: 100%;
+}
+
+.container .top .top-text{
+    margin: 20px;
+}
+
+
+.container .bottom{
+    margin: 30px 20px 40px;
+}
+
+                                    /* Top-Information*/
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -127,7 +123,7 @@ nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+                                    /* Middle information */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -154,13 +150,54 @@ nav a {
     align-items: center;
     justify-content: center;
 }
-            
+
+.middle-content .boxes .one{
+    background: teal;
+}
+
+.middle-content .boxes .two{
+    background: gold;
+}
+
+.middle-content .boxes .three{
+    background: cadetblue;
+}
+
+.middle-content .boxes .four{
+    background: coral;
+}
+
+.middle-content .boxes .five{
+    background: crimson;
+}
+
+.middle-content .boxes .six{
+    background: forestgreen;
+}
+
+.middle-content .boxes .seven{
+    background: darkorchid;
+}
+
+.middle-content .boxes .eight{
+    background: hotpink;
+}
+
+.middle-content .boxes .nine{
+    background: indigo;
+}
+
+.middle-content .boxes .ten{
+    background: dodgerblue;
+}
+
+                                /* Bottome Information  */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-/*--bottom content-- -About*/
+
 .bottom-content .text-container {
     padding-right: 4%;
 }
@@ -168,7 +205,7 @@ nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-        /* ---FOOTER --- Delete when done*/ 
+                                    /* Footer-Information */
 footer {
     width: 100%;
     background: black;
@@ -186,4 +223,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+                                            /*about-infomation*/
+
+.about-page .about-cards{
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-page .about-cards .card{
+    margin: 20px 0;
+    width: 48%;
+    padding: 10px 0 30px;
+    border-bottom: 1px dashed black;
+}
+
+.about-page .about-cards .card img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.about-page .about-cards .card p{
+    margin-bottom: 25px;
+}
+
+.about-page .about-cards .card .learn-more{
+    color: black;
+    text-decoration: none;
+    padding: 7px 23px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+
+                                                /* contact-information */
+
+.contact-page .contact-form{
+    margin: 40px 20px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-page .contact-form .basic-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    align-items: center;
+}
+
+.contact-page .contact-form .text-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    align-items: center;
+}
+
+.contact-page .contact-form .form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:95%;
+    margin: 7px 0;
+}
+
+.contact-page .contact-form .form-item #question{
+    height: 100px;
+    margin-top: 15px;
+}
+
+.contact-page .contact-form .form-item .submit{
+    margin: 10px 100px;
+    font-size: 14px;
+    border: black 1px solid;
+    border-radius: 7px;
+    padding: 7px 25px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
