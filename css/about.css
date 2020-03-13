@@ -25,7 +25,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	/*display: block;*/
 }
 body {
 	line-height: 1;
@@ -48,7 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
-   /* border:1px solid black;*/
+    /*border:1px solid black;*/
 }
 
 html, body {
@@ -65,112 +65,92 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-
+section{
+    display:flex;
+    justify-content: space-evenly;
+}
+.img-lambda{
+    margin-left:15%;
+}
 
 nav{
-    width: 50%;
+    width: 45%;
     display:flex;
     justify-content: space-between;
-    margin-left:25%;
     padding: 20px 0;
     color:black;
+    margin-right: 8%;
 }
 .links{
     width:80%;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
+
+img .plan{
+    display: flex;
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 71%
+    
+}
+.about-container {
+    width: 71%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
 .container {
-    width: 800px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    margin: 0 auto;
+   
+}
+.card{
+    width:40%;
+    margin:0 auto;
+    
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    width: 71%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+
+footer {
+    width: 71%;
+    background: black;
+    display: flex;
     margin: 0 auto;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-.jumbo{
-    display:flex;
-    max-width: 60%;
-    margin:0 auto;
-    padding-bottom: 25px;
-    justify-content: space-between;
-}
-.jumbo img{
-    width:800px;
-    margin-left:3%;
-}
-
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin: 0 auto;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
-/*end of page one*/
+button{
+    margin-top: 2%;
+}
+img{
+    margin: 2% 0;
+}
+
 
