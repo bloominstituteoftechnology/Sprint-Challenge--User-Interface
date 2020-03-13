@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 p {
     line-height: 1.4;
 }
@@ -78,8 +83,6 @@ header nav {
 }
 
 header nav a {
-    color: black;
-    text-decoration: none;
     margin: 0 5%;
 }
 
@@ -190,4 +193,35 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE */
+.text-section {
+    margin-bottom: 1.5rem;
+}
+
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1rem;
+    border-top: dashed 1px black;
+}
+
+.resources div {
+    width: 45%;
+    margin-bottom: 2rem;
+    border-bottom: dashed 1px black;
+}
+
+.resources div img {
+    margin: 1rem 0;
+}
+
+.resources div a {
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    margin: 1rem 0;
+    border: solid 2px black;
+    border-radius: 10px;
 }
