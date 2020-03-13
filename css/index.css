@@ -72,24 +72,42 @@ p {
     margin: 0 auto;
     display:flex;
 }
-.container .logoblack{
+.logoblack{
     display:flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
 
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content .jumbotop{
+    display:flex;
+    justify-content: center;
+    width:60%;
+}
 
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.top-content .text-container h2{
+    display: flex;
+    justify-content: flex-start;
+}
+.top-content .text-container .past{
+    width:48%;
+}
+.top-content .text-container .future{
+    width:48%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .middle-content {
