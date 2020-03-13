@@ -76,6 +76,7 @@ p {
     margin: 0 auto;
 }
 
+/* HEADER */
 header nav {
     display: flex;
     align-items: baseline;
@@ -90,6 +91,7 @@ header .hero-image {
     margin: 1.5rem 0;
 }
 
+/* HOME PAGE */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -131,6 +133,7 @@ header .hero-image {
     justify-content: center;
 }
 
+/* BOX COLORS */
 .middle-content .boxes .box:nth-child(1) {
     background-color: teal;
 }
