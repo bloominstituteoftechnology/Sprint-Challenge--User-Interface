@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It is important and meaningful code that we use daily when using HTML
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display block is the selected element that takes upp the entire width of its container. display inline is the element that will allow otther elements to appear along the same line.
 
 3. What are the 4 areas of the box model?
 
