@@ -311,3 +311,21 @@ button {
   border: black 2px solid;
   border-radius: 7px;
 }
+
+/* This is extra CSS */
+
+@keyframes x {
+  from {
+    background-color: purple;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+nav a:hover {
+  background-color: white;
+  color: pink;
+  animation: x;
+  animation-duration: 3s;
+}
