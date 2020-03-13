@@ -144,3 +144,92 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*my content */
+.header{
+    display: flex;
+}
+.img1{
+    width: 50px;
+    height: 100px;
+    justify-content: flex-start;
+    padding-top: 4%;
+    padding-left:5%;
+    flex-direction: row;
+}
+.nav{
+	width: 70%; 
+	margin-top: 47px; 
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+    padding-left: 19%;
+    padding-top: 1%;
+} 
+.nav a{
+	padding:-2%;
+	margin: 3%;
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 20px;
+    
+}
+.img2{
+    width: 100%;
+
+    padding-left: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.top-content{
+    display: flex;
+}
+.text-container{
+    flex-direction: row;
+    padding-right: 6%;
+    
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color:gold ;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color:coral ;
+}
+.box5{
+    background-color:crimson ;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color:darkorchid ;
+}
+.box8{
+    background-color:hotpink ;
+}
+.box9{
+    background-color:indigo ;
+}
+.box10{
+    background-color:dodgerblue ;
+}
+.middle-content{
+    display: flex;
+    align-content: center;
+}
+.boxes1, .boxes2{
+    width:100px;
+    height:100px;
+    flex-direction: row;
+	/* flex-flow: row wrap; */
+    justify-content: space-evenly;
+    
+}
+
+
+
