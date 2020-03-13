@@ -69,6 +69,49 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    flex-direction: column;
+    display:flex;
+}
+           /*---Nav And Header--*/ /*add at bottom */
+header {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width:50%;
+    flex-wrap:now-wrap;
+    padding-bottom: 18px;
+}
+
+/*apart of the header class*/
+
+.navigation{
+        /* text-decoration: none; */
+          /* color: black; */
+          /* font-size: 14px; */
+          /* font-weight: 600; */
+
+          text-align: center;
+          width: 100%;	
+          display:flex;
+          justify-content: space-between;
+      
+
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	width:80%;
+	margin-left: 45px;
+	margin-right: 45px;
+  justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+      color: black;
+      font-size: 14px;
+      font-weight: 600;
 }
 
 .top-content {
@@ -111,13 +154,13 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+            
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
+/*--bottom content-- -About*/
 .bottom-content .text-container {
     padding-right: 4%;
 }
@@ -125,7 +168,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+        /* ---FOOTER --- Delete when done*/ 
 footer {
     width: 100%;
     background: black;
