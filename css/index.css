@@ -65,10 +65,35 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+body {
+    margin: 3%;
+}
+    header {
+        width:800px;
+    }
+
+   nav {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+  
+  a {
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(43, 41, 41);
+  }
+
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.jumbo {
+    width:100%;
+    margin: 25px 0;
 }
 
 .top-content {
@@ -111,6 +136,18 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .teal{
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .bottom-content {
     display: flex;
