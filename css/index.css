@@ -341,3 +341,76 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*-------- Contact Page Styling ---------*/
+
+.contact-top {
+    margin: 30px 0 30px 0;
+}
+
+.contact-middle {
+    margin-bottom: 30px;
+}
+
+.contact-middle h1 {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.contact-form {
+    display:flex;
+    justify-content: center;
+}
+
+form {
+    width: 600px;
+}
+
+input {
+    margin: 8px 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=text]:focus {
+    border: 2px solid red;
+  }
+
+  input[type=number]:focus {
+    border: 2px solid red;
+  }
+
+
+
+select {
+    margin: 8px 0;
+}
+
+input[type=submit] {
+    background-color: black;
+    border: 2px solid black;
+    border-radius:5px;
+    color: white;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
