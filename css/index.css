@@ -132,14 +132,42 @@ header{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.Box-1 {
+    background:teal;
+}
+.Box-2 {
+    background:gold;
+}
+.Box-3 {
+    background:cadetblue;
+}
+.Box-4 {
+    background:coral;
+}
+.Box-5 {
+    background:crimson;
+}
+.Box-6 {
+    background:forestgreen;
+}
+.Box-7 {
+    background:darkorchid;
+}
+.Box-8 {
+    background:hotpink;
+}
+.Box-9 {
+    background:indigo;
+}
+.Box-10 {
+    background:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -153,7 +181,20 @@ header{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.about-page div {
+    padding: 1% 1%;
+    border-bottom: 1px dotted black;
+    margin: 2% 0;
+}
+.about-middle {
+    width:48%;
+    display:flex;
+    flex-direction:column;
+}
+.about-bottom {
+    margin: 2% 0;
+    padding:2%;
+}
 footer {
     width: 100%;
     background: black;
