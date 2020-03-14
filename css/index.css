@@ -194,46 +194,74 @@ footer nav a {
 }
 .box1{
     background-color: teal;
+    width:100px;
+    height: 100px;
 }
 .box2{
     background-color:gold ;
+    width:100px;
+    height: 100px;
 }
 .box3{
     background-color: cadetblue;
+    width:100px;
+    height: 100px;
 }
 .box4{
     background-color:coral ;
+    width:100px;
+    height: 100px;
 }
 .box5{
     background-color:crimson ;
+    width:100px;
+    height: 100px;
 }
 .box6{
     background-color: forestgreen;
+    width:100px;
+    height: 100px;
 }
 .box7{
     background-color:darkorchid ;
+    width:100px;
+    height: 100px;
 }
 .box8{
     background-color:hotpink ;
+    width:100px;
+    height: 100px;
 }
 .box9{
     background-color:indigo ;
+    width:100px;
+    height: 100px;
 }
 .box10{
     background-color:dodgerblue ;
+    width:100px;
+    height: 100px;
+
 }
 
 .boxes1{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height:5vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    height:10vh;
 
 }
-.mom boxes1{
-    width:30%px;
-    height: 100px;
-    padding-bottom: 3%;
+.boxes1{
+    width:100%;
+   
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 3%; */
+}
+.mom{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
 }
 
 
