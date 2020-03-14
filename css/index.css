@@ -144,3 +144,165 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*my content */
+.header{
+    display: flex;
+}
+.img1{
+    width: 50px;
+    height: 100px;
+    justify-content: flex-start;
+    padding-top: 4%;
+    padding-left:5%;
+    flex-direction: row;
+}
+.nav{
+	width: 70%; 
+	margin-top: 47px; 
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: center;
+    padding-left: 19%;
+    padding-top: 1%;
+} 
+.nav a{
+	padding:-2%;
+	margin: 3%;
+    text-decoration: none;
+    color: darkgrey;
+    font-size: 20px;
+    
+}
+.img2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+/* 
+    padding-left: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+}
+.top-content{
+    display: flex;
+}
+.text-container{
+    flex-direction: row;
+    padding-right: 6%;
+    margin-top: 2%;
+    
+}
+.box1{
+    background-color: teal;
+    width:100px;
+    height: 100px;
+}
+.box2{
+    background-color:gold ;
+    width:100px;
+    height: 100px;
+}
+.box3{
+    background-color: cadetblue;
+    width:100px;
+    height: 100px;
+}
+.box4{
+    background-color:coral ;
+    width:100px;
+    height: 100px;
+}
+.box5{
+    background-color:crimson ;
+    width:100px;
+    height: 100px;
+}
+.box6{
+    background-color: forestgreen;
+    width:100px;
+    height: 100px;
+}
+.box7{
+    background-color:darkorchid ;
+    width:100px;
+    height: 100px;
+}
+.box8{
+    background-color:hotpink ;
+    width:100px;
+    height: 100px;
+}
+.box9{
+    background-color:indigo ;
+    width:100px;
+    height: 100px;
+}
+.box10{
+    background-color:dodgerblue ;
+    width:100px;
+    height: 100px;
+
+}
+
+.boxes1{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    height:10vh;
+
+}
+.boxes1{
+    width:100%;
+   
+    display: flex;
+    justify-content: space-around;
+    /* padding-bottom: 3%; */
+}
+.mom{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about p{
+    margin-bottom: 2%;
+}
+.big-box{
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.cards{
+	width: 48%;
+	padding: 15px;
+	margin-bottom: 20px;
+	/* border: 1px solid black; */
+}
+hr{
+    border-top: 3px dashed lightgray;
+}
+.lrn{
+    margin-top: 2%;
+}
+button{
+    padding: 14px 32px;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	margin-top: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+	
+}
+.work{
+    margin: 5% 0 4% 0;
+    
+}
+.work p{
+    font-size: 15px;
+}
+.navf{
+    margin-bottom: 4%;
+}
