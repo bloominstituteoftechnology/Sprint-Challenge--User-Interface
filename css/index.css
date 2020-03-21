@@ -204,6 +204,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .bottom-content {
