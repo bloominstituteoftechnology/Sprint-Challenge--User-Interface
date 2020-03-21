@@ -129,7 +129,18 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -246,6 +257,38 @@ footer nav a {
     margin: 0 auto;
 }
 
-.container-about-page {
+#b2 {
+    background-color: gold;
+}
 
+#b3 {
+    background-color: cadetblue;
+}
+
+#b4 {
+    background-color: coral;
+}
+
+#b5 {
+    background-color: crimson;
+}
+
+#b6 {
+    background-color: forestgreen;
+}
+
+#b7 {
+    background-color: darkorchid;
+}
+
+#b8 {
+    background-color: hotpink;
+}
+
+#b9 {
+    background-color: indigo;
+}
+
+#b10 {
+    background-color: dodgerblue;
 }
