@@ -65,7 +65,6 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
@@ -147,6 +146,7 @@ footer nav a {
 }
 .heading{
     display:flex;
+
 }
 .logo{
     margin:2%;
@@ -154,36 +154,75 @@ footer nav a {
 .h6{
     margin:4% 0% 0% 9%;
 }
-.middle-content .boxes .box-teal{
-    background-color: teal;
+.about{
+    margin-top:3%;
+    padding-bottom:5%;
+    border-bottom: 2px dotted black;
 }
-.middle-content .boxes .box-gold{
-    background-color: gold;
+.topMiddle{
+    width:45%;
+    display:flex;
+    margin-top:5%;
+    margin-bottom:5%;
 }
-.middle-content .boxes .box-cadetblue{
-    background-color: cadetblue;
+.howWeWork{
+    margin-left:10%;
+    padding-bottom:10%;
+    border-bottom: 2px dotted black;
 }
-.middle-content .boxes .box-coral{
-    background-color: coral;
+.bottomMiddle{
+    width:45%;
+    display:flex;
+    margin-top:5%;
+    margin-bottom:5%;
 }
-.middle-content .boxes .box-crimson{
-    background-color: crimson;
+.collaboration{
+    margin-left:10%;
+    padding-bottom:10%;
+    border-bottom: 2px dotted black;
 }
-.middle-content .boxes .box-forestgreen{
-    background-color: forestgreen;
+.bottom{
+    margin-bottom:5%;
 }
-.middle-content .boxes .box-darkorchild{
-    background-color: darkorchid;
+.strategy{
+    padding-bottom:10%;
+    border-bottom: 2px dotted black;
 }
-.middle-content .boxes .box-hotpink{
-    background-color: hotpink;
+.placesToWork{
+    padding-bottom:10%;
+    border-bottom: 2px dotted black;
 }
-.middle-content .boxes .box-indigo{
-    background-color: indigo;
+.strategy h1{
+    margin-top:5%;
 }
-.middle-content .boxes .box-dodgerblue{
-    background-color: dodgerblue;
+.howWeWork h1{
+    margin-top:5%;
 }
+.howWeWork p{
+    margin-top:7%;
+}
+.strategy button{
+    border-radius:12px;
+    background-color: white;
+    margin-top:5%;
+}
+.howWeWork button{
+    border-radius:12px;
+    background-color: white;
+    margin-top:5%;
+}
+.placesToWork button{
+    border-radius:12px;
+    background-color: white;
+    margin-top:5%;
+}
+.collaboration button{
+    border-radius:12px;
+    background-color: white;
+    margin-top:5%;
+}
+
+
 
 
 
