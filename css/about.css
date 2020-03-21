@@ -92,6 +92,7 @@ header a{
     color:black;
     margin-top:3px;
     margin-bottom: 3px;
+    margin-left: 5px;
     display: inline-block;
     justify-content: space-evenly;
     font-weight:bold;
@@ -107,7 +108,7 @@ header a{
 
 
 .main-body{
-    margin-left:40px;
+    margin-left:10px;
     line-height: 1.5;
     
     
