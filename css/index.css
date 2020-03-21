@@ -77,6 +77,21 @@ p {
     justify-content: space-evenly;
     align-items: baseline;
     text-decoration: none;
+    margin-top: 20px;
+}
+
+.nava{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    text-decoration-style: none;
+    margin-top: 20px;    
+}
+
+.pic2 {
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
 
 .top-content {
@@ -160,6 +175,77 @@ footer nav a {
     margin-top: 25px;
 }
 
-.nav {
-    
+.stack {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 375px;
+	color:black;
+    margin: 10px;
+    border-bottom: dotted;
+}
+
+.column1 {
+	display: flex;
+	flex-flow: wrap;
+
+}
+
+.stack2 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 375px;
+	color:black;
+    margin: 10px;
+    border-bottom: dotted;
+}
+
+.stack3 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 375px;
+	color:black;
+    margin: 10px;
+    border-bottom: dotted;
+}
+
+.stack4 {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 375px;
+	color:black;
+    margin: 10px;
+    border-bottom: dotted;
+}
+
+.aboutnav {
+    margin-top: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    align-content: flex-start;
+    border-style: solid;
+	border-color:black;
+    border-width: 2px;
+    border-radius: 5px;
+	text-align:center;
+	padding: 2%;
+	word-spacing: 1px;
+    margin: 7% 35% 7% 2%;
+
+}
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container-about-page {
+
 }
