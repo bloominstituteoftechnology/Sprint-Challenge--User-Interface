@@ -162,6 +162,7 @@ nav{
     background:dodgerblue;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -170,6 +171,7 @@ nav{
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-weight: bold;
 }
 
 .bottom-content .text-container:last-child {
@@ -186,7 +188,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 02%;
+    margin-left:0;
     font-size: 14px;
 }
 
