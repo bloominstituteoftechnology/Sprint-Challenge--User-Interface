@@ -1,6 +1,6 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved. You will also create an additional web page that will be linked to from a navigation you will build.
 
 ## Instructions
 
@@ -32,30 +32,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say? 
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-The word is used in reference to the study of the meaning of the language.  In programming, semantics tells us the relationship between words and what they stand for.  For example, when we assign the word "form" to a group of words, we know that the content of all those words will be have to do with creating a form.  "Table", "article", "image" tells you what the content will be about whereas "division", "span", and "section" don't say anything about the type of content.
+The word is used in reference to the study of the meaning of the language. In programming, semantics tells us the relationship between words and what they stand for. For example, when we assign the word "form" to a group of words, we know that the content of all those words will be have to do with creating a form. "Table", "article", "image" tells you what the content will be about whereas "division", "span", and "section" don't say anything about the type of content.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.  
+2. Name two big differences between `display: block;` and `display: inline;`.
 
-In display block, the block takes up the entire line, or covers the entire row.  Block elements can auto expand to fit their content.  You can add margins and padding on all 4 sides of the block.  A block element always starts on a new line.  Examples of blocks are <div> and <p>.
+In display block, the block takes up the entire line, or covers the entire row. Block elements can auto expand to fit their content. You can add margins and padding on all 4 sides of the block. A block element always starts on a new line. Examples of blocks are <div> and <p>.
 
-With display inline, the element appears on the same line as the html tag. Examples of inline elements are <span> and <img>.  The block is limited to only as wide as the words.  It shrinks to fit the content.  You add margins and padding only to the left and right, not the top and bottom.
+With display inline, the element appears on the same line as the html tag. Examples of inline elements are <span> and <img>. The block is limited to only as wide as the words. It shrinks to fit the content. You add margins and padding only to the left and right, not the top and bottom.
 
 3. What are the 4 areas of the box model?
 
 Margin, border, padding, content.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: `align-items: center`?
 
 Cross-axis.
 
 5. Explain why git is valuable to a team of developers.
 
-Git is a useful tool for teamwork for collaborating with one another.  Each member can add on to the project without affecting the original file until it is finalized.  This is made possible by keeping a master file and branch file.  Every change made is recorded in detail on the separate branch file.  Changes can be reverted, recalled, compared, etc.  Members can view who modified what and when, and can use the data to trace back the root of a problem.
+Git is a useful tool for teamwork for collaborating with one another. Each member can add on to the project without affecting the original file until it is finalized. This is made possible by keeping a master file and branch file. Every change made is recorded in detail on the separate branch file. Changes can be reverted, recalled, compared, etc. Members can view who modified what and when, and can use the data to trace back the root of a problem.
 
-
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
 ## Project Set Up
 
@@ -65,14 +64,12 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
-
 
 ## Minimum Viable Product
 
@@ -80,32 +77,32 @@ Your finished project must include all of the following requirements:
 
 ### Home Page
 
-[Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
+[Review the provided design file for the home page](design-files/home.png). Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+- [ ] Build the HTML and CSS to create the missing navigation and header.
+- [ ] Link the `About` navigation item to the [about.html](about.html) page
 
-You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
+You will also notice there are 10 boxes on the home page that need background colors. Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+- [ ] box1: `teal`
+- [ ] box2: `gold`
+- [ ] box3: `cadetblue`
+- [ ] box4: `coral`
+- [ ] box5: `crimson`
+- [ ] box6: `forestgreen`
+- [ ] box7: `darkorchid`
+- [ ] box8: `hotpink`
+- [ ] box9: `indigo`
+- [ ] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+- [ ] Copy and paste your home page navigation and header into the about page
+- [ ] Update the header image with the about page image
+- [ ] Link the `Home` navigation item back to the `index.html` page.
+- [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -113,7 +110,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
-* [ ] Build a contact page and create a form with several inputs of your choosing
-* [ ] Add responsive breakpoints to your code by using media queries
+- [x] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+- [ ] Introduce CSS animations to your site.
+- [ ] Build a contact page and create a form with several inputs of your choosing
+- [ ] Add responsive breakpoints to your code by using media queries
