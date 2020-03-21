@@ -121,7 +121,9 @@ p{
      padding:1%;
      border-radius: 25px;
      border:1px solid black;
-
+}
+button:hover{
+    background-color:orangered;
 }
 .strat p{
     width:50%;
@@ -187,4 +189,19 @@ p{
 .collab p{
     width:50%;
     margin:1%;
+}
+.bottom{
+    margin:0 auto;
+    padding:3%;
+}
+footer{
+    height:60px;
+    padding:2%;
+    background:black;
+}
+footer nav a{
+    color:white;
+    font-weight: bold;
+    margin:0 3%;
+    text-decoration: none;
 }
