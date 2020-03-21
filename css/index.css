@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,11 +23,12 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+ HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+}*/
+
 body {
 	line-height: 1;
 }
@@ -66,10 +67,34 @@ p {
     line-height: 1.4;
 }
 
+
+/* Navigation Bar */
+.navbar{
+    margin-top: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    -o-table-baseline: initial;
+}
+.navbar > a{
+    text-decoration: none;
+    color: black;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px 30px 20px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+/* Images*/
+.lambda-logo{
+    padding-bottom: 50px;
+}
+/* Coloring Boxes */
 
 .top-content {
     display: flex;
@@ -100,11 +125,39 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
+#box-1{
+    background: teal;
+}
+#box-2{
+    background: gold;
+}
+#box-3{
+    background: cadetblue;
+}
+#box-4{
+    background: coral;
+}
+#box-5{
+    background: crimson;
+}
+#box-6{
+    background: forestgreen;
+}
+#box-7{
+    background: darkorchid;
+}
+#box-8{
+    background: hotpink;
+}
+#box-9{
+    background: indigo;
+}
+#box-10{
+    background: dodgerblue;
+}
+.middle-content .boxes div{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +196,34 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* About Page */
+.about-section{
+    border-bottom: black dashed 1px;
+}
+.middle-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.middle-content-about{
+    width: 45%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: black dashed 1px;
+}
+.learn-more{
+    border: 2px black solid;
+    background: white;
+    font-size: 1.1rem;
+    padding: 5px 13px 5px 13px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.middle-content-about h2 {
+    padding: 0px;
 }
