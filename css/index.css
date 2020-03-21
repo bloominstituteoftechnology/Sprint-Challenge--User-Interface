@@ -70,6 +70,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.navigation{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding:1%;
+}
+nav a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin:0 5%;
+}
+nav{
+    margin:3% 5%;
+    width:100%;
+}
 
 .top-content {
     display: flex;
@@ -82,7 +98,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    font-weight: bold;  
+}
+.text-container h2{
+    padding:5% 0 0;
 }
 
 .middle-content {
@@ -93,6 +113,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    font-weight: bold;
 }
 
 .middle-content .boxes {
@@ -104,13 +125,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.box1{
+    background:teal;
+}
+.box2{
+    background:gold;
+}
+.box3{
+    background:cadetblue;
+}
+.box4{
+    background:coral;
+}
+.box5{
+    background:crimson;
+}
+.box6{
+    background:forestgreen;
+}
+.box7{
+    background:darkorchid;
+}
+.box8{
+    background:hotpink;
+}
+.box9{
+    background:indigo;
+}
+.box10{
+    background:dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -120,6 +171,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-weight: bold;
 }
 
 .bottom-content .text-container:last-child {
@@ -136,7 +188,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 02%;
+    margin-left:0;
     font-size: 14px;
 }
 
