@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Sprint Challenge - Contact</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <img
+            class="lambda-logo-img"
+            src="img/lambda-black.png"
+            alt="home nav logo"
+          />
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="Products">Products</a>
+          <a href="Blog">Blog</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <div style="background-image: img/jumbo.jpg" ;>
+        <img
+          class="home-header-img"
+          src="img/jumbo.jpg"
+          alt="home header image"
+        />
+      </div>
+
+      <!-- contact us start -->
+      <section id="Contact">
+        <div class="contact">
+          <h3>Contact Us</h3>
+
+          <div class="form">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                style="height:200px"
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact us end -->
+
+      <!-- copyright footer begins here -->
+      <section>
+        <footer>
+          <div class="home-footer">
+            <p>OER Booker 2019</p>
+          </div>
+        </footer>
+      </section>
+      <!-- copyright footer ends here -->
+    </div>
+  </body>
+</html>
