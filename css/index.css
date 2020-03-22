@@ -66,6 +66,41 @@ p {
     line-height: 1.4;
 }
 
+/* index page */
+header{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+.lambda-logo{
+    display: block;
+    float: left;
+    padding: 0 1%;
+}
+
+.top-nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+#top-image{
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +147,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: coral;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkorchid;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -127,7 +202,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 800px;
     background: black;
 }
 
@@ -143,4 +218,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page*/
+#about-section{
+    width:800px;
+    margin: 0 auto;
+    padding: 0 2%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+
+
+.blocks{
+    display: block; 
+    width: 45%;
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.blocks > img{
+    max-width: 100%;
+    padding: 0 2%;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.blocks > a{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+}
+
+#bottom-boxes{
+    border-bottom: 1px dashed black;
+}
+.bottom-inline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-inline{
+    display: flex;
+    justify-content: space-between;
 }
