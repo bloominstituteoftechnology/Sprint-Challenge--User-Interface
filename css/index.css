@@ -230,15 +230,7 @@ footer nav a {
     margin-bottom: 20px;
 }
 
-#content-blocks{
-    display: flex;
-    width: 800px;
-    height: auto;
-    padding: 0 2%;
-    justify-content:space-evenly;
-    flex-flow: row nowrap;
-    border: solid;
-}
+
 
 .blocks{
     display: block; 
