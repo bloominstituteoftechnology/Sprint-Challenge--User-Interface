@@ -233,24 +233,47 @@ footer nav a {
 #content-blocks{
     display: flex;
     width: 800px;
-    margin: 0 auto;
+    height: auto;
     padding: 0 2%;
-    justify-content: center;
-    flex-flow: row wrap;
+    justify-content:space-evenly;
+    flex-flow: row nowrap;
     border: solid;
 }
 
 .blocks{
     display: block; 
-    width: 35%;
+    width: 45%;
+    height: auto;
     padding-bottom: 20px;
-    /*border-bottom: 1px dashed lightgrey*/
     margin-bottom: 20px;
-    border: solid; 
 }
 
-.blocks img{
+.blocks > img{
+    max-width: 100%;
     padding: 0 2%;
     padding-bottom: 10px;
+    padding-top: 5px;
 }
 
+.blocks > a{
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top:25px;
+    text-decoration: none;
+    color: black;
+}
+
+#bottom-boxes{
+    border-bottom: 1px dashed black;
+}
+.bottom-inline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-inline{
+    display: flex;
+    justify-content: space-between;
+}
