@@ -70,7 +70,7 @@ p {
     flex-flow: row wrap;
     width: 100%;
 }
-#nav-img {
+.nav-section #nav-img {
     margin-top: 3%;
     margin-left: 3%;
 }
@@ -110,7 +110,8 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin: auto;
+    width: 90%;
     border-bottom: 1px dashed black;
 }
 
@@ -177,8 +178,10 @@ p {
 }
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    width: 800px;
+    margin: 5% 5% 20px;
     justify-content: space-around;
+    text-align: center;
 }
 
 .bottom-content .text-container {
@@ -248,4 +251,16 @@ button {
     margin: 2%;
     line-height: 2;
     padding: 2%;
+}
+.nav-section2 nav  {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    font-size: 14px;
+
+}
+.nav-section2 nav a {
+    color: white;
+    text-decoration: none;  
 }
