@@ -1,0 +1,29 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML is what we use to give meaning to a webpage such as assigning the <p> element to a paragraph so that when we are
+working on the webpage we know what exactly it is we are editing. We would also assign classes and ID's to further 
+enhance our ability to edit the page being able to pick and choose specific parts of the page or multiple parts (classes)
+to edit all at once.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block means that the element is displayed as a block, as paragraphs and headers have always been. 
+A block has some whitespace above and below it and tolerates no HTML elements next to it, 
+except when ordered otherwise (by adding a float declaration to another element, for instance).
+
+display: inline means that the element is displayed inline, inside the current block on the same line. 
+Only when it's between two blocks does the element form an 'anonymous block', that however has the smallest possible width.
+
+3. What are the 4 areas of the box model?
+
+content, padding, border, margin
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+X axis 
+
+5. Explain why git is valuable to a team of developers.
+
+git is valuable for a team of developers because it allows everyone to work on the code away from its master branch. 
+This means each developer can add new features or remove features without inturpting someone else's work. after the work is done
+it can be pushed into the master branch for everyone in that team to be able to see and use.
