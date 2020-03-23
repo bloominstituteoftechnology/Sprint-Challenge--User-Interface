@@ -1,0 +1,11 @@
+    1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is how the developer convey to the browser the basic meaning of their content.  It’s a way for the developer to not only read and understand how their code is working but also provides it in such a way that the browser can interpret the meaning.
+
+    2. Name two big differences between display: block; and display: inline;.
+The display: inline-block allows the developer to set a width and height, and also the margins and paddings are respected.
+    3. What are the 4 areas of the box model?
+           Content, padding, border and margin.
+    4. While using flexbox, what axis does the following property work on: align-items: center?
+           The cross axis
+    5. Explain why git is valuable to a team of developers.
+It provides a central place for different developers working on the same project to pull the code from, one where all changes are up to date, where they can pull different versions of the code, it tracks changes, it allows for code to be reviewed and checked by other developers before it is merged by allowing others to go into another repository.
