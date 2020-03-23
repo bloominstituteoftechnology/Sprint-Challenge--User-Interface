@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+.lambda-black {
+    padding: 20px;
+}
+
+.nav-bar {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 100%;
+}
+
+nav a {
+    align-self: baseline;
+    text-decoration: none;
+    margin-right: 5%;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    padding-top: 3.5%;
+}
+
+.jumbo {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +141,46 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1) {
+    background: teal; 
+}
+
+.boxes .box:nth-child(2) {
+    background: gold; 
+}
+
+.boxes .box:nth-child(3) {
+    background: cadetblue; 
+}
+
+.boxes .box:nth-child(4) {
+    background: coral; 
+}
+
+.boxes .box:nth-child(5) {
+    background: crimson; 
+}
+
+.boxes .box:nth-child(6) {
+    background: forestgreen; 
+}
+
+.boxes .box:nth-child(7) {
+    background: darkorchid; 
+}
+
+.boxes .box:nth-child(8) {
+    background: hotpink; 
+}
+
+.boxes .box:nth-child(9) {
+    background: indigo; 
+}
+
+.boxes .box:nth-child(10) {
+    background: dodgerblue; 
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +212,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html css starts here */
+
+.about-head {
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+#about-content {
+	height: 930px;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 18%;
+	padding-top: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-boxes {
+    border-bottom: 1px dashed black;
+    width: 46%;
+    height: 400px;
+}
+
+.about-boxes p {
+    padding-bottom: 10px;
+}
+
+button {
+    border: 1px solid black;
+	color: black;
+	width: 150px;
+	height: 35px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+button:hover{
+	cursor: pointer;
+	background: lightgrey;
+}
+
+article {
+    padding-bottom: 30px;
+    padding-left: 10px;
 }
