@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+ HTML5 display-role reset for older browsers 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+*/
 * {
     box-sizing: border-box;
 }
@@ -65,7 +65,24 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+.navbar{
+    height: 60px;
+    display: flex;
+    margin: 20px 0px 10px 0px;
+}
+.navbar img{
+    height: 45px; 
+    margin-bottom: 5px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 100%;
+    padding: 25px 20px 20px 20px;
+    margin-left: 40px;
+    text-align: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +160,58 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* Box Colors */
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+.information-section{
+    border-top: black dashed 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0px 10px 0px;
+    justify-content: space-between;
+}
+
+.informational-content{
+    width: 48%;
+    border-bottom: black dashed 1px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.learn-more{
+    border: black solid 2px;
+    border-radius: 8px;
+    background-color: white;
+    height: 35px;
+    width: 145px;
+    font-size: 1.12rem;
+    cursor: pointer;
 }
