@@ -193,7 +193,6 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -201,4 +200,47 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container-about-page {
+    display: flex;
+    flex-flow: row wrap;
+}
+.sec-container1 {
+    margin: 2%;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+.sec-container1 img {
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.sec-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 42%;
+    margin: 4%;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+}
+.sec-container h2 {
+    padding-top: 5%;
+}
+.sec-container p {
+    padding-bottom: 5%;
+}
+.about-text {
+    margin: 2%;
+    padding: 2%;
+}
+button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5px;
+}
+.last-container {
+    margin: 2%;
+    line-height: 2;
+    padding: 2%;
 }
