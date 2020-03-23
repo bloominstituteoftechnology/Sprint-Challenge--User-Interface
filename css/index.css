@@ -144,3 +144,130 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Nav Styles */
+  .container .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    align-items: flex-end;
+  }
+  .container .nav-bar a {
+    color: black;
+    text-decoration: none;
+    opacity: 0.6;
+    font-weight: 600;
+    padding: 0 20px;
+  }
+  .container nav a:hover {
+    opacity: 1;
+    transition: 200ms;
+  }
+  /* Top Background Image */
+  .top-background-image {
+    background: url("../img/jumbo.jpg");
+    height: 153px;
+    width: 100%;
+    margin: 20px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Box Colors */
+  .boxes .box:nth-child(1) {
+    background-color: teal;
+  }
+  .boxes .box:nth-child(2) {
+    background-color: gold;
+  }
+  .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+  }
+  
+  .boxes .box:nth-child(4) {
+    background-color: coral;
+  }
+  .boxes .box:nth-child(5) {
+    background-color: crimson;
+  }
+  .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+  }
+  .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+  }
+  .boxes .box:nth-child(8) {
+    background-color: hotpink;
+  }
+  .boxes .box:nth-child(9) {
+    background-color: indigo;
+  }
+  .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+  }
+.about-page .top-background-image {
+    background: url("../img/jumbo-about.png");
+  }
+  /* About Top Styles */
+.about-page .about-top {
+    width: 95%;
+    margin: auto;
+  }
+  .about-page .about-top h1 {
+    font-weight: 600;
+  }
+  .about-page .about-top p {
+    font-weight: 500;
+    color: black;
+  }
+  hr {
+    border: none;
+    border-bottom: 1px dashed black;
+    margin: 20px 0;
+  }
+  
+  /* About Services */
+  .about-page .about-services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-page .about-services div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 20px auto;
+  }
+  .about-page .about-services div a {
+    border: 2px solid black;
+    width: 120px;
+    margin: 10px 0;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+  }
+  .about-page .about-services div h1 {
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  .about-page .about-services div p {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #000;
+  }
+  .about-page .about-services div a:hover {
+    background-color: black;
+    color: white;
+    transition: 200ms;
+  }
