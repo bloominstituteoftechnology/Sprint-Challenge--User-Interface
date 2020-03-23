@@ -71,17 +71,22 @@ p {
     width: 100%;
 }
 #nav-img {
-    margin: 2%;
+    margin-top: 3%;
+    margin-left: 3%;
 }
-
- nav a {
+.nav-section nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.nav-section nav a {
     color: black;
     text-decoration: none;
     margin-left: 50px;
     margin-top: 20px;
     text-align: right;
-    
-    
 }
 
 .container {
