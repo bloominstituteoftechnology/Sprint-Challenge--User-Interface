@@ -65,6 +65,24 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.nav-section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+#nav-img {
+    margin: 2%;
+}
+
+ nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: right;
+    
+    
+}
 
 .container {
     width: 800px;
@@ -77,6 +95,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 2%;
 }
 
 .top-content .text-container {
@@ -111,7 +130,46 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color:indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
