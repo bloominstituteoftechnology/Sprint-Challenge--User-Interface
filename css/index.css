@@ -214,3 +214,7 @@ footer nav a {
   .boxes .box:nth-child(10) {
     background-color: dodgerblue;
   }
+/* about background image */
+.about-page .top-background-image {
+    background: url("../img/jumbo-about.png");
+  }
