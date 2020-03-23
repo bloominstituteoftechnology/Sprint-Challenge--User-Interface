@@ -144,3 +144,137 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width:50% ;
+    margin:30px ;
+    
+}
+header nav{
+    position: relative;  
+    left:400px;
+}
+
+nav a {
+
+color: black;
+    text-decoration: none;
+}
+ .jumbo{
+position: relative;
+left:510px;
+width:45%;
+padding-bottom: 30px;
+ }
+ 
+ #a {
+    background-color:  teal;
+ 
+ }
+ #b {
+     background-color: gold;
+ }
+ 
+ #c {
+     background-color: cadetblue;
+ }
+ #d{
+     background-color:coral;
+ }
+ #e {
+     background-color:crimson ;
+ }
+ #f {
+     background-color: forestgreen;
+ }
+ #g {
+     background-color: hotpink;
+ }
+ #h {
+     background-color: darkorchid;
+ }
+ #i {
+     background-color:indigo;
+ }
+ #j {
+     background-color: dodgerblue;
+ }
+
+ .jumbo-about{
+     position: relative;
+     left:510px;
+ }
+ .about{
+    width:45%;
+    height: 12%;
+    padding-top:10px;
+    padding-bottom: 20px;
+     margin-bottom: 10px;
+     border-bottom: 2px dotted black;
+     position: relative;
+    left:510px;
+    top:5px;
+ }
+ nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:50% ;
+    margin:30px ;
+    position: relative;
+    left:400px;
+}
+.about-page{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    width: 800px;
+    margin:0 auto
+
+}
+.container1{
+    position: relative;
+    right:50px ;
+    width:45%;
+    height: 30%;
+    margin-bottom: 5px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 20px;
+    
+}
+
+.image-about{
+padding-top:10px ;
+display: flex;
+justify-content: space-between;
+    
+}
+.about-header{
+    display: flex;
+    justify-content: flex-start;
+    padding-top:10px;
+}
+.container-p{
+    padding-bottom: 10px;
+}
+.container-button{
+    border:1px solid black;
+    border-radius: 20%;
+    padding-bottom: ;
+}
+.container2{
+    width: 800px;
+    margin:0 auto;
+    position: relative;
+    right: 25px;
+}
+
+.about-a {
+position: relative;
+right:435px;
+}
+.header-about2{
+    padding-top:30px;
+}
