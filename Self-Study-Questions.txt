@@ -1,0 +1,21 @@
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+I would tell the cohort students tht semantic html is very important. It is the key to meaningful and concise web development, particularly the design portion.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Two big differences between "display: block;" and "display: inline;" are that The basic difference is that the element with display:inline completely ignores the width and height set. 
+also, block the element will span the full width of the space available to it.
+
+3. What are the 4 areas of the box model?
+
+The four areas of the box model are: content, padding, border, and margin.
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+It aligns on the cross-axis.
+
+5. Explain why git is valuable to a team of developers.
+
+It is very valuable in the sense of collaboration and version control. Being able to work remotely and being able to create as many working versions to accomplish the products demands and requirements,
+is extremely important. Especially, at times like now with a viral pandemic; it is essential to teams of developers to be able to work on a project at once. and make whatever changes needed, at any point in the project.
