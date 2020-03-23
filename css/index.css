@@ -65,7 +65,46 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* CSS Animations Start */
+@keyframes pulse {
+    0% {
+        transform: scale(0.80);
+    }
 
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.80);
+    }
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px) }
+    60% {-webkit-transform: translateY(-20px);}
+} 
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-20px);}
+}
+
+/* CSS Animation End */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -75,8 +114,12 @@ p {
     padding: 20px;
 }
 
+.lambda-black:hover {
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
 .nav-bar {
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,10 +137,17 @@ nav a {
     padding-top: 3.5%;
 }
 
+nav a:hover {
+    transform: scale(1);
+    animation: pulse 2s infinite;
+}
+
 .jumbo {
     width: 100%;
     padding-top: 70px;
     padding-bottom: 50px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 .top-content {
@@ -142,43 +192,113 @@ nav a {
 }
 
 .boxes .box:nth-child(1) {
-    background: teal; 
+    background: teal;
+}
+
+.boxes .box:nth-child(1):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(2) {
-    background: gold; 
+    background: gold;
+}
+
+.boxes .box:nth-child(2):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(3) {
-    background: cadetblue; 
+    background: cadetblue;
+}
+
+.boxes .box:nth-child(3):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(4) {
-    background: coral; 
+    background: coral;
+}
+
+.boxes .box:nth-child(4):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(5) {
-    background: crimson; 
+    background: crimson;
+}
+
+.boxes .box:nth-child(5):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(6) {
-    background: forestgreen; 
+    background: forestgreen;
+}
+
+.boxes .box:nth-child(6):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(7) {
-    background: darkorchid; 
+    background: darkorchid;
+}
+
+.boxes .box:nth-child(7):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(8) {
-    background: hotpink; 
+    background: hotpink;
+}
+
+.boxes .box:nth-child(8):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(9) {
-    background: indigo; 
+    background: indigo;
+}
+
+.boxes .box:nth-child(9):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .boxes .box:nth-child(10) {
-    background: dodgerblue; 
+    background: dodgerblue;
+}
+
+.boxes .box:nth-child(10):hover {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .bottom-content {
@@ -212,6 +332,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+footer nav a:hover {
+    transform: scale(1);
+    animation: pulse 2s infinite;
 }
 
 /* about.html css starts here */
