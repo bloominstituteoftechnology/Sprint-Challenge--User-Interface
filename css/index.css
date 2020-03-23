@@ -144,3 +144,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* nav styles */
+  .container .nav-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    align-items: flex-end;
+  }
+  .container .nav-bar a {
+    color: black;
+    text-decoration: none;
+    opacity: 0.6;
+    font-weight: 600;
+    padding: 0 20px;
+  }
+  .container nav a:hover {
+    opacity: 1;
+    transition: 200ms;
+  }
+  /* top background image */
+  .top-background-image {
+    background: url("../img/jumbo.jpg");
+    height: 153px;
+    width: 100%;
+    margin: 20px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
