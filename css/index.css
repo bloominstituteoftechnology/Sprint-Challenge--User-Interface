@@ -181,6 +181,55 @@ a {
     padding-right: 0;
 }
 
+
+.city-pic {
+    margin:40px 0px 0px 0px;
+}
+
+.top-about{
+    margin-top:2%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:2%;
+    font-weight:600;
+}
+
+.about-bottom-sec{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    border-top:1px dashed black;
+}
+
+.about-bottom-sec section{
+    width:47%;
+    border-bottom:1px dashed black;
+    padding-bottom:20px;
+    margin-top:5%;
+    font-weight: bolder;
+}
+
+.about-bottom-sec section h3{
+    margin-top: 4%;
+}
+
+button{
+    font-size:16px;
+    font-weight:590;
+    width:130px;
+    height:40px;
+    margin-top:15px;
+    border:2px solid black;
+    border-radius:10px;
+    background-color:white;
+}
+
+.about-footer{
+    margin:4%;
+    padding-top:20px;
+    font-weight:600;
+}
+
 footer {
     width: 100%;
     background: black;
