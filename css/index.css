@@ -137,6 +137,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 .middle-content .boxes :nth-child(1){
      background-color:teal;}
 
@@ -162,10 +163,10 @@ a {
     background-color:hotpink;}
 
 .middle-content .boxes :nth-child(9){
-     background-color:indigo;}
+    background-color:indigo;}
 
 .middle-content .boxes :nth-child(10){
-     background-color:dodgerblue;}        
+    background-color:dodgerblue;}        
 
 .bottom-content {
     display: flex;
@@ -181,16 +182,12 @@ a {
     padding-right: 0;
 }
 
-
 .city-pic {
     margin:40px 0px 0px 0px;
 }
 
 .top-about{
-    margin-top:2%;
-    margin-left:5%;
-    margin-right:5%;
-    margin-bottom:2%;
+    margin:2% 5% 2% 5%;
     font-weight:600;
 }
 
