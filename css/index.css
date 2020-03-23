@@ -143,6 +143,22 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-r
-r
-r
+}
+
+}
+body {
+    width:900px;
+    margin:0 auto;
+ }
+ .navone{
+     display:flex;
+     justify-content: space-around;
+     margin-bottom:10px
+ }
+.about{
+    
+   
+}
+.logo{
+justify-self: flex-start;
+}
