@@ -143,6 +143,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    position: relative;
+    right:435px;
 }
 header nav{
     display: flex;
@@ -152,10 +154,7 @@ header nav{
     margin:30px ;
     
 }
-header nav{
-    position: relative;  
-    left:400px;
-}
+
 
 nav a {
 
@@ -163,9 +162,8 @@ color: black;
     text-decoration: none;
 }
  .jumbo{
-position: relative;
-left:510px;
-width:45%;
+margin: 0 auto;
+width:800px;
 padding-bottom: 30px;
  }
  
@@ -203,19 +201,19 @@ padding-bottom: 30px;
  }
 
  .jumbo-about{
-     position: relative;
-     left:510px;
+    width: 850px;
+    margin:0 auto
  }
  .about{
-    width:45%;
+    
     height: 12%;
     padding-top:10px;
     padding-bottom: 20px;
      margin-bottom: 10px;
      border-bottom: 2px dotted black;
      position: relative;
-    left:510px;
-    top:5px;
+     width: 850px;
+    margin:0 auto
  }
  nav {
     display: flex;
