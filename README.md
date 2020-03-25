@@ -1,14 +1,14 @@
 # Sprint Challenge: User Interface and Git
 
-This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied semantic HTML, CSS fundamentals, git, and responsive design. In your challenge this week, you will demonstrate proficiency by creating a fully responsive website that has some missing HTML elements as well as CSS specificity problems that need to be solved.
-
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
+
+This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied semantic HTML, CSS fundamentals, git, and responsive design. In your challenge this week, you will demonstrate proficiency by creating a fully responsive website that has some missing HTML elements as well as CSS specificity problems that need to be solved.
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
 
 You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your TL if you need direction. Your work reflects your proficiency in user interface and your command of the concepts and techniques in semantic HTML, CSS fundamentals, git, and responsive design.
 
-You have **three hours** to complete this challenge. Plan your time accordingly.
+> You have **three hours** to complete this challenge. Plan your time accordingly.
 
 
 ## Introduction
@@ -23,7 +23,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 ### Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons and your project manager.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead.
 
 ## Self-Study Questions
 
@@ -96,12 +96,18 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
 
-## FAQ
+## Resources
 
-****
+📚[Best Practices for Responsive Design](https://www.browserstack.com/guide/responsive-design-breakpoints)
 
-## Rubric
+🤝[W3 Schools - Responsive Design](https://www.w3schools.com/html/html_responsive.asp)
 
-Sprint challenges are scored on a scale of 1-3. If you score a `1` on this or any sprint challenge you will be considered for flex, but you always have the opportunity to redo it if needed.
+👀 [Styling with HTML and CSS](https://www.w3schools.com/html/html_css.asp)
 
-[See Grading Rubric Here](example.com)
+## Submission format
+
+Follow these steps for completing your project.
+
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [ ] Add your team lead as a reviewer on the pull-request
+- [ ] Your team lead will count the project as complete by merging the branch back into master.
