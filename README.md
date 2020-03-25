@@ -45,7 +45,7 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ## Instructions
 
-## Task 1: Project Set Up
+### Task 1: Project Set Up
 
 - [ ] Create a forked copy of this project
 - [ ] Add your project manager as collaborator on Github
