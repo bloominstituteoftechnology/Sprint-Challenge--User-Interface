@@ -33,13 +33,13 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. What are the 4 areas of the box model?
 
-3. What are the 4 areas of the box model?
+3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. Explain why git is valuable to a team of developers.
 
-5. Explain why git is valuable to a team of developers.
+5. Define mobile-first design in your own words.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -64,7 +64,8 @@ Your finished project must include all of the following requirements:
 
 * [ ] Build the HTML and CSS to create the missing navigation and header
 * [ ] Link the `About` navigation item to the [about.html](about.html) page
-* [ ] Make your design responsive such that it is accesible on mobile and tablet and matches the [mobile](design/mobile.png) wireframe
+* [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
+*  Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
@@ -88,7 +89,6 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
-* [ ] Add responsive breakpoints to your code by using media queries
 
 ## Resources
 
