@@ -71,13 +71,37 @@ p {
     margin: 0 auto;
 }
 
+.homeHeader {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+header nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumboPic {
+    padding-top: 4% ;
+    padding-bottom: 2%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    /* border: 1px solid red; */
 }
+
 
 .top-content .text-container {
     width: 48%;
@@ -111,7 +135,45 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
 
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
