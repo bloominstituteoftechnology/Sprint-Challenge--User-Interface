@@ -51,6 +51,10 @@ table {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -67,8 +71,9 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 70%;
     margin: 0 auto;
+    font-size: 1.5rem;
 }
 
 .homeHeader {
@@ -99,7 +104,6 @@ header nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    /* border: 1px solid red; */
 }
 
 
@@ -107,6 +111,12 @@ header nav a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.newtop {
+    display: flex;
+  
+    padding: 0 15px;
 }
 
 .middle-content {
@@ -205,4 +215,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* media queries for tablet  */
+@media(max-width: 800px) {
+        .jumboPic{
+            width: 100%;
+        }
+}
+
+/* media queries for  */
+@media(max-width: 500px) {
+    
+    .homeHeader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lambda-black {
+        padding-top: 9%;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    nav {
+      margin: 12% 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav a {
+        border:1px solid lightgrey;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        width: 100%;
+        padding: 3%;
+    }
+
+    nav a:focus{
+        background: grey;
+    }
+
+    nav a.product {
+        display:none;
+    }
+
+    .newtop {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+   .jumboPic {
+       width: 143%;  
+   }
+
+    .inside{
+       width: 448px;
+     
+    }
+
+    .middle-content {
+      width: 44%;
+    }
+
+    .middle-content .boxes .box {
+        width: 39%;
+        margin: 2% 10%;
+    }
+
+    .boxes{
+        display:flex;
+        flex-direction: column;
+        margin:0 17%;
+        width: 250%;
+    }
+
+    .boxes .box.box5.boxer{
+        display: none;
+    }
+
+    .boxes .box.box6.boxer{
+        display:none;
+    }
+
+    .boxes .box.box7.boxer{
+        display:none;
+    }
+
+    .boxes .box.box8.boxer{
+        display:none;
+    }
+
+    .boxes .box.box9.boxer{
+        display:none;
+    }
+
+    .boxes .box.box10.boxer{
+        display:none;
+    }
+
+    .bottom-content{
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .middle-content h2{
+        width: 400px;
+    }
 }
