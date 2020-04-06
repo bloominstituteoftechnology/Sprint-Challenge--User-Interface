@@ -71,7 +71,7 @@ p {
 }
 
 .container {
-    width: 70%;
+    width: 55%;
     margin: 0 auto;
     font-size: 1.5rem;
 }
@@ -97,6 +97,7 @@ header nav a {
 .jumboPic {
     padding-top: 4% ;
     padding-bottom: 2%;
+   
 }
 .top-content {
     display: flex;
@@ -115,7 +116,6 @@ header nav a {
 
 .newtop {
     display: flex;
-  
     padding: 0 15px;
 }
 
