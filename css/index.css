@@ -176,32 +176,38 @@ body {
 }
 
 	#A{
-		background-color: red;
+		background-color: teal;
 	}
 	#B{
-		background-color: blue;
-	}
-	#C{
-		background-color: green;
-	}
-	#D{
-		background-color: yellow;
-	}
-	#E{
 		background-color: gold;
 	}
+	#C{
+		background-color: cadetblue;
+	}
+	#D{
+		background-color: coral;
+	}
+	#E{
+		background-color: crimson;
+	}
 	#F{
-		background-color: orange;
+		background-color: forestgreen;
 	}
 	#G{
-		background-color: purple;
+		background-color: darkorchid;
 	}
 	#H{
-		background-color: olive;
+		background-color: hotpink;
 	}
 	#I{
-		background-color: violet;
-	}
+		background-color: indigo;
+}
+
+    #J{
+        background-color:dodgerblue;
+    
+}
+    
 	.container-main{
 		display:flex;
 		flex-flow: row wrap;
