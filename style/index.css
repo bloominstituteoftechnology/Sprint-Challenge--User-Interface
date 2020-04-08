@@ -51,6 +51,10 @@ table {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -67,10 +71,34 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 55%;
     margin: 0 auto;
+    font-size: 1.5rem;
 }
 
+.homeHeader {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+header nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumboPic {
+    padding-top: 4% ;
+    padding-bottom: 2%;
+   
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,10 +107,16 @@ p {
     border-bottom: 1px dashed black;
 }
 
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.newtop {
+    display: flex;
+    padding: 0 15px;
 }
 
 .middle-content {
@@ -111,7 +145,45 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
 
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +215,157 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* media queries for tablet  */
+@media(max-width: 800px) {
+        .jumboPic{
+            width: 100%;
+        }
+}
+
+/* media queries for  */
+@media(max-width: 500px) {
+    
+    .homeHeader{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lambda-black {
+        padding-top: 9%;
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    nav {
+      margin: 12% 30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav a {
+        border:1px solid lightgrey;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        width: 100%;
+        padding: 3%;
+    }
+
+    nav a:focus{
+        background: grey;
+    }
+
+    nav a.product {
+        display:none;
+    }
+
+   .top-content{
+    
+      width: 180%;
+      margin: 0 -40%;
+   }
+
+  .newtop{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inside {
+    width: 219%;
+  }
+
+  .middle-content{
+    width: 84%;
+    margin: 10% -20%;
+  }
+
+  .middle-content h2{
+    width: 150%;
+  }
+
+    .boxes{
+        display:flex;
+        flex-direction: column;
+        width: 141%;
+        margin: 0 50%;
+    }
+
+    .box{
+        text-align: center;
+    }
+
+    .boxes .box.box5.boxer{
+        display: none;
+    }
+
+    .boxes .box.box6.boxer{
+        display:none;
+    }
+
+    .boxes .box.box7.boxer{
+        display:none;
+    }
+
+    .boxes .box.box8.boxer{
+        display:none;
+    }
+
+    .boxes .box.box9.boxer{
+        display:none;
+    }
+
+    .boxes .box.box10.boxer{
+        display:none;
+    }
+
+    .bottom-content{
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+ 
+}
+
+/* contact us page css  */
+
+.contactHeader {
+    padding-top:2%;
+    display:flex;
+}
+
+.formContact {
+    margin: 7% 0;
+}
+
+.formContact h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bottomForm{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+/* media query mobile contact */
+
+@media(max-width: 500px) {
+    .contactHeader {
+        display: flex;
+        flex-direction: column;
+    }
 }
