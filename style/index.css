@@ -261,35 +261,39 @@ footer nav a {
         display:none;
     }
 
-    .newtop {
-        display: flex;
-        flex-direction: column;
-        padding: 0 10px;
-    }
-
-   .jumboPic {
-       width: 143%;  
+   .top-content{
+    
+      width: 180%;
+      margin: 0 -40%;
    }
 
-    .inside{
-       width: 448px;
-     
-    }
+  .newtop{
+    display: flex;
+    flex-direction: column;
+  }
 
-    .middle-content {
-      width: 44%;
-    }
+  .inside {
+    width: 219%;
+  }
 
-    .middle-content .boxes .box {
-        width: 39%;
-        margin: 2% 10%;
-    }
+  .middle-content{
+    width: 84%;
+    margin: 10% -20%;
+  }
+
+  .middle-content h2{
+    width: 150%;
+  }
 
     .boxes{
         display:flex;
         flex-direction: column;
-        margin:0 17%;
-        width: 250%;
+        width: 141%;
+        margin: 0 50%;
+    }
+
+    .box{
+        text-align: center;
     }
 
     .boxes .box.box5.boxer{
@@ -323,8 +327,45 @@ footer nav a {
     footer {
         display: none;
     }
+ 
+}
 
-    .middle-content h2{
-        width: 400px;
+/* contact us page css  */
+
+.contactHeader {
+    padding-top:2%;
+    display:flex;
+}
+
+.formContact {
+    margin: 7% 0;
+}
+
+.formContact h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bottomForm{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+/* media query mobile contact */
+
+@media(max-width: 500px) {
+    .contactHeader {
+        display: flex;
+        flex-direction: column;
     }
 }
