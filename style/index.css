@@ -35,28 +35,36 @@ ol, ul {
 	list-style: none;
 }
 .boxes{  
-width:30%;
+width:20%;
+margin: 30%;
  display: flex;
  flex-direction: column;
 }
-.box{
-    width:30%;
-    height:100px;
-    
-}
 .box1{
-    background-color: blue;
-
+    background-color: rgba(48, 48, 177, 0.89);
+height: 40px;
+padding:20%;
+margin-bottom: 10%;
 }
 .box2{
     background-color: yellow;
+    height: 40px;
+padding:20%;
+margin-bottom: 10%;
 }
 .box3{ 
     background-color: rgb(24, 202, 113);
+    height: 40px;
+padding:20%;
+margin-bottom: 10%;
 }
 .box4{
     background-color: rgba(219, 149, 19, 0.795);
+    height: 40px;
+padding:20%;
+margin-bottom: 10%;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -65,11 +73,67 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-@media(max-width:1080px){
+@media(max-width: 800px){
     .container{
       font-size:1.4rem;
-      background-color: red;
     }
+      background-color: ( 238);
+}
+.top-content future, h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+} 
+.links{
+    display: flex;
+    flex-direction: column;
+}
+    links{
+        padding:
+      text-align:center;
+      list-style-type: colum;
+    }
+     
+}
+@media( max-width:900px){
+    .container{
+        font-size:1.4rem;
+        background-color: rgb(138, 198, 214);
+       
+      }
+    .box1{background-color: blue;
+      
+    border: 40%;
+    width:100px;
+  height:100px;
+    }
+    
+
+.boxes{
+    display: flex;
+    flex-direction: row;  
+}
+.box2{
+    background-color:rgba(119, 13, 84, 0.795);
+    height: 40px;
+padding:20%;
+margin-bottom: 10%;
+}
+.box3{
+    background-color: rgba(45, 16, 150, 0.795);
+    height: 40px;
+padding:20%;
+margin-bottom: 10%;
+}
+.box4{
+    background-color: rgba(168, 207, 24, 0.795);
+    height: 40px;
+padding:20%;
+margin-bottom: 10%;
+}
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -79,7 +143,10 @@ table {
     box-sizing: border-box;
    
 }
-
+.links{
+    padding: 3% 0;
+  text-align:center;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -101,26 +168,27 @@ p {
 }
 .top-content {
     text-align: center;
-       
+    
 }
 
-.top-content future{
+.top-content future, h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 10px;
     border-bottom: 1px dashed black;
+    
 }
 
-.top-content .text-container {
+
+.top-content ,.text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px; 
+    margin: 20%;
 
 }
-{
-    width: 40%;
-    background: black;
+  
 }
 .middle-content {
    width: 100%;
@@ -135,7 +203,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
 }
 
 .middle-content .boxes .box {
@@ -171,4 +239,5 @@ footer {
 footer nav a {
     color: white;
     text-decoration: none;
+
 }
