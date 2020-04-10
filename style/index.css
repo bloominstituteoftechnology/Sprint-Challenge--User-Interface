@@ -48,8 +48,12 @@ table {
 }
 
 * {
-    box-sizing: border-box;
-}
+    box-sizing:border-box;
+    padding:5%;
+    margin:5%;
+    max-width:100%;
+    border:1px solid grey;
+  }
 
 html, body {
     height: 100%;
@@ -67,9 +71,34 @@ p {
 }
 
 .container {
+    display: flex;
     width: 800px;
     margin: 0 auto;
 }
+
+/*/////////////// NAV ////////////////////*/
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+nav a {
+    color: black;
+    display: flex;
+    letter-spacing: 3px;
+}
+/*/////////////// TOP CONTENT ////////////////////*/
 
 .top-content {
     display: flex;
@@ -84,6 +113,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/*/////////////// MIDDLE CONTENT ////////////////////*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +144,9 @@ p {
     justify-content: center;
 }
 
+
+/*/////////////// BOTTOM CONTENT ////////////////////*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +160,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/*/////////////// FOOTER ////////////////////*/
 
 footer {
     width: 100%;
