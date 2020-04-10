@@ -32,12 +32,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    
+    Semantic HTML refers to following a standard of syntax so that other developers and browsers can interpret it more easily. Using semantic HMTL is what allows search engines to connect users to your content based on their queries.
 
 2. What are the 4 areas of the box model?
+    
+    Content, padding, border, margin.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    cross-axis
+
 4. Explain why git is valuable to a team of developers.
+
+    It allows many different developers to work on different versions of the same project. They can also go back to a previous version of the project if it loses functionality.
 
 5. Define mobile-first design in your own words.
 
