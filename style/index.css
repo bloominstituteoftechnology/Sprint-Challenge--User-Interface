@@ -101,6 +101,14 @@ nav a {
     font-family: 'Roboto', sans-serif;
     font-size: small;
 }
+nav a:hover{
+    box-shadow:
+    1px 1px black,
+    2px 2px white,
+    3px 3px black;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
 .banner-img {
     padding: 0% 0% 3% 0%;
 }
@@ -161,6 +169,10 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.box1:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
 .box2 {
     background-color: gold;
     width: 12.5%;
@@ -170,6 +182,10 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box2:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
 }
 .box3 {
     background-color: cadetblue;
@@ -181,6 +197,10 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.box3:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
 .box4 {
     background-color: coral;
     width: 12.5%;
@@ -190,6 +210,10 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box4:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
 }
 .box5 {
     background-color: crimson;
@@ -201,6 +225,10 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.box5:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
 .box6 {
     background-color: forestgreen;
     width: 12.5%;
@@ -210,6 +238,10 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box6:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
 }
 .box7 {
     background-color: darkorchid;
@@ -221,6 +253,10 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.box7:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
 .box8 {
     background-color: hotpink;
     width: 12.5%;
@@ -230,6 +266,10 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box8:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
 }
 .box9 {
     background-color: indigo;
@@ -241,6 +281,10 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.box9:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
 .box10 {
     background-color: dodgerblue;
     width: 12.5%;
@@ -251,6 +295,13 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+.box10:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+/* Having trouble trying to get the hover to ease back to its original shape */
+
+
 
 /*/////////////// BOTTOM CONTENT ////////////////////*/
 
