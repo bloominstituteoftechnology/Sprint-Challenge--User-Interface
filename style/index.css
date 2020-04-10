@@ -96,7 +96,7 @@ header nav a{
 
 header #jumbo {
     object-fit:contain;
-    padding: 3% 0;
+    padding: 5% 0;
 }
 /* end header*/
 
@@ -209,7 +209,7 @@ footer nav a {
 
 header #jumbo {
     object-fit:contain;
-    width:100%;
+    width:50%;
 }
 
 }

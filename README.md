@@ -105,3 +105,27 @@ Follow these steps for completing your project.
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
+
+Questions:
+
+-If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+1. Semantic HTML makes the code make sense to anyone/anything reading it. It also makes SEO easier because the HTML states exactly what it is. 
+For example, in the HTML code, you can split the page into a section like <header></header> for the top <main>for the main content, <section> for other content and <footer> for the end of the page.
+
+-What are the 4 areas of the box model?
+
+2. The four areas of the box model are the content, padding, the border, margin. All the edges add up to form the box. 
+
+-While using flexbox, what axis does the following property work on: align-items: center?
+
+3. Align-items follows the cross-axis.
+
+-Explain why git is valuable to a team of developers.
+
+4. Git hub tracks each change a developer or group of developers make and saves it in different iterations without destroying the original file. This means that if something goes wrong somewhere, you can easily call an earlier iteration and fix the problem. Plus, you can make branches and implement changes without messing up the current code that works. THen the new code can be merged into the older one once it is complete and no conflicts.
+
+-Define mobile-first design in your own words.
+
+5. Mobile-first is when you design for the small screens first and once those are done, you would go to the next largest screen.  The order would be something like a mobile - tablet - laptop and widescreen. So the code would be using @media(min-width: 400px){ code} and then go up from there with other minimum screen sizes with the changes in each code.
+
