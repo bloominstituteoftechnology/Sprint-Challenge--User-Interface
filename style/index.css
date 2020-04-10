@@ -96,7 +96,7 @@ header nav a{
 
 header #jumbo {
     object-fit:contain;
-    padding: 5% 0;
+    padding: 4% 0 2%;
 }
 /* end header*/
 
@@ -202,26 +202,15 @@ footer nav a {
 }
 /* tablet */
 @media(max-width: 800px){
-.container {
-    width: 100%;
-    margin: auto;
-}
 
-header #jumbo {
-    object-fit:contain;
-    width:50%;
-}
-
-}
-
+    header {
+        justify-content: space-around;
+    }
+  
 /* mobile */
 
 @media(max-width: 500px){
 
-    .container {
-        padding:0;
-        margin: 0;
-    }
     header {
         flex-direction: column;
         justify-content: center;
@@ -230,14 +219,9 @@ header #jumbo {
     
     }
     header #logo {
-        padding: 3% 0 10%;
+        padding: 3% 0 5%;
     }
 
-    header #jumbo {
-        object-fit:contain;
-        width:100%;
-    }
-    
     nav {
         flex-direction: column;
         justify-content: center;
@@ -249,14 +233,22 @@ header #jumbo {
     }
     
     header nav a{
-        color: dimgrey;
-        background-color:lightgrey;
-        width: 80%;
+        color: lightgray;
+        background-color:white;
+        width: 40%;
         text-align:center;
         border-radius: 5px;
-        border: 1px solid gray;
+        border: 1px solid lightgrey;
         text-decoration: none;
-        font-weight: bolder;
+        font-size: 1.2rem;
+        padding: 1%;
+    
+    }
+
+    header nav a:hover, header nav a:active {
+        background-color: silver;
+        color: dimgray;
+        border-style:outset;
     }
     .top-content {
         flex-direction: column;
@@ -290,7 +282,7 @@ header #jumbo {
 
     .middle-content .boxes .box{
         justify-content: center;
-        width: 30%;
+        width: 20%;
     }
 
     .middle-content .boxes .box:nth-child(5){
