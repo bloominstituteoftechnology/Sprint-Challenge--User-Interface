@@ -72,6 +72,23 @@ p {
     margin: 0 auto;
 }
 
+
+/*animation*/
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform:scale(1.2);
+        opactiy:1;
+    }
+    100% {
+        transform: scale(1);
+    }
+    }
+
+
 /* header */
 
 header {
@@ -87,6 +104,7 @@ nav {
     width: 80%;
     justify-content: space-evenly;
     align-items: stretch;
+    animation: bounceIn 2s;
 }
 
 header nav a{
@@ -226,6 +244,7 @@ footer nav a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 
     header nav a:nth-child(3){
