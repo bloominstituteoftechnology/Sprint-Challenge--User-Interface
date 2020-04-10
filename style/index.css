@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+
 }
 
 html, body {
@@ -69,6 +70,21 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+nav {
+    display:flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 .top-content {
@@ -111,6 +127,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .bottom-content {
     display: flex;
