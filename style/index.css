@@ -31,6 +31,7 @@ header{
     padding-bottom:5%;
     width:100%;
 }
+
 .navOne {
     display:flex;
     flex-direction: row;
@@ -77,14 +78,17 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
     }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 2.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+header, p, .boxes{
+    font-size: 1.4rem;
+}
 p {
     line-height: 1.4;
 }
@@ -160,12 +164,45 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.boxes{
+    width:100%;
+}
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;    
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
 }
 
 /* Media queries begin */
@@ -192,8 +229,39 @@ header{
 .top-content{
     flex-direction: column;
     /* justify-content: center;This did nothing */
+    font-size: 2rem;
 }
-.middle-content{
+.text-container{
+    margin-left: 30%;
+}
+.middle-content .boxes{
     align-items: center;
+    /* width:100%; */
+}
+.middle-content h2{
+    margin-left:32%;
+}
+#box1, #box2, #box3, #box4{
+    /* width:50%;
+    height:200% */
+    padding:15%;
+    white-space: nowrap;
+    font-size: 2.5rem;
+}
+.bottom-content, footer{
+    display:none;
+}
+header{
+    flex-direction: column;
+}
+.logo{
+    width:50%;
+    margin-left: 24%;
+}
+.navOne{
+    flex-direction: column;
+    font-size: 2rem;
+    margin-left: 45%;
+    line-height: 150%;
 }
 }
