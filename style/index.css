@@ -94,7 +94,8 @@ header nav a{
     text-decoration: none;
 }
 
-#jumbo {
+header #jumbo {
+    align-content: stretch;
     padding: 3% 0;
 }
 /* end header*/
@@ -199,4 +200,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* tablet */
+@media(max-width: 800px){
+.container {
+    width: 95%;
+    margin: auto;
+}
 
+}
+
+/* mobile */
+
+@media(max-width: 500px){
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    header #logo {
+        padding: 3% 0 10%;
+    }
+
+    header #jumbo {
+        width: 100%;
+    }
+    
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav a:nth-child(3){
+        display: none;
+    }
+    
+    header nav a{
+        color: dimgrey;
+        background-color:lightgrey;
+        width: 80%;
+        text-align:center;
+        border-radius: 5px;
+        border: 1px solid gray;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    .top-content {
+        flex-direction: column;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+
+
+    .middle-content .boxes {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    .middle-content .boxes .box{
+        justify-content: center;
+        width: 30%;
+    }
+
+}
