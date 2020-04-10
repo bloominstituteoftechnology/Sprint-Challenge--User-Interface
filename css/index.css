@@ -1,0 +1,354 @@
+.topcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topcontainer img {
+    margin-left: 28%;
+    margin-top: 2%;
+}
+
+.navbar {
+    display: flex;
+    display: flex;
+    width: 40%;
+    margin-right: 30%;
+    padding-top: 3%;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.headerimgabout {
+    background-image: url("../img/jumbo-about.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 28%;
+    height: 30%;
+    width: 45%;
+    margin-top: 3%;
+    padding-bottom: 8%;
+}
+
+.headerimghome {
+    background-image: url("../img/jumbo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    margin-left: 28%;
+    height: 18%;
+    width: 45%;
+    margin-top: 3%;
+}
+
+.top-content {
+    padding: 3% 0%;
+}
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    margin-left: 10%;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0%;
+    font-size: 14px;
+    text-align: left;
+}
+
+footer nav a {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* About CSS */ 
+.aboutcontainer {
+    padding-top: 0%;
+    margin-left: 28%;
+    border-bottom: 2px dotted black;
+    width: 45%;
+    padding-bottom: 1%;
+}
+
+.worktogetherbox {
+    padding-top: 2%;
+    margin-left: 28%;
+    width: 45%;
+    padding-bottom: 2%;
+}
+
+
+.containermiddlesection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 6%;
+    margin-left: 19.5%;
+    padding-right: 6%;
+    padding-top: 2%;
+    width: 50%;
+}
+
+
+
+.Strategybox {
+    max-width: 40%;
+    margin-bottom: 20px;
+}
+
+.Strategybox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangeStrategy;
+}
+
+@keyframes colorchangeStrategy{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.Strategybox p {
+    padding-bottom: 10%;
+}
+
+.Howweworkbox {
+    max-width: 40%;
+    margin-bottom: 40px;
+}
+
+.Howweworkbox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangeHowweworkbox;
+}
+
+@keyframes colorchangeHowweworkbox{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.Howweworkbox p {
+    padding-bottom: 10%;
+}
+
+.aboutnav {
+    width: 45%;
+    margin-left: 28%;
+    padding-top: 3;
+}
+
+.aboutnav a {
+    padding: 0% 5%;
+}
+
+.PlacesweworkBox {
+    max-width: 40%;
+    margin-bottom: 40px;
+}
+
+.PlacesweworkBox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangePlacesweworkBox;
+}
+
+@keyframes colorchangePlacesweworkBox{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.PlacesweworkBox p {
+    margin-bottom: 30px;
+}
+
+
+.CollaborationBox {
+    max-width: 40%;
+    margin-bottom: 40px;
+}
+
+.CollaborationBox:hover{
+    animation-duration: 1s;
+    animation-name: colorchangeCollaborationBox;
+}
+
+@keyframes colorchangeCollaborationBox{
+    from {
+        background-color: white;
+        color: black;
+    }
+
+    to {
+        background-color: grey;
+        color: black;
+    }
+}
+
+.CollaborationBox p {
+    padding-bottom: 10%;
+}
+
+.Border {
+    padding-top: 4%;
+    border-bottom: 1px dotted black;
+}
+
+.containermiddlesection a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius:5px;
+}
+
+.containermiddlesection a:hover{
+    animation-duration: 1s;
+    animation-name: colorchange;
+}
+
+@keyframes colorchange {
+    from {
+      color: black;
+      background-color: white;
+    }
+  
+    to {
+      color: white;
+      background-color: black;
+    }
+  }
