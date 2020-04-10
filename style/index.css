@@ -203,8 +203,13 @@ footer nav a {
 /* tablet */
 @media(max-width: 800px){
 .container {
-    width: 95%;
+    width: 100%;
     margin: auto;
+}
+
+header #jumbo {
+    object-fit:contain;
+    width:100%;
 }
 
 }
@@ -229,7 +234,8 @@ footer nav a {
     }
 
     header #jumbo {
-        width:40%;
+        object-fit:contain;
+        width:100%;
     }
     
     nav {
