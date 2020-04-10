@@ -49,11 +49,11 @@ table {
 
 * {
     box-sizing:border-box;
-    padding:5%;
-    margin:5%;
+    padding:0%;
+    margin:0%;
     max-width:100%;
-    border:1px solid grey;
-  }
+    /* border:1px solid black; */
+}
 
 html, body {
     height: 100%;
@@ -71,7 +71,6 @@ p {
 }
 
 .container {
-    display: flex;
     width: 800px;
     margin: 0 auto;
 }
@@ -84,10 +83,11 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 4% 0% 8% 0%;
 }
 
 .links {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     color: black;
@@ -96,8 +96,15 @@ nav {
 nav a {
     color: black;
     display: flex;
+    align-content: flex-end;
     letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
+.banner-img {
+    padding: 0% 0% 3% 0%;
+}
+
 /*/////////////// TOP CONTENT ////////////////////*/
 
 .top-content {
@@ -143,6 +150,7 @@ nav a {
     align-items: center;
     justify-content: center;
 }
+
 
 
 /*/////////////// BOTTOM CONTENT ////////////////////*/
