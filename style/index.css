@@ -95,7 +95,7 @@ header nav a{
 }
 
 header #jumbo {
-    align-content: stretch;
+    object-fit:contain;
     padding: 3% 0;
 }
 /* end header*/
@@ -212,10 +212,16 @@ footer nav a {
 /* mobile */
 
 @media(max-width: 500px){
+
+    .container {
+        padding:0;
+        margin: 0;
+    }
     header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0;
     
     }
     header #logo {
@@ -223,7 +229,7 @@ footer nav a {
     }
 
     header #jumbo {
-        width: 100%;
+        width:40%;
     }
     
     nav {
@@ -250,10 +256,22 @@ footer nav a {
         flex-direction: column;
     }
 
+
     .top-content .text-container {
         width: 100%;
     }
+    .top-content .text-container h2 {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    }
 
+    .top-contenr .text-container p {
+        font-size: 1rem;
+    }
+
+    .middle-content h2 {
+        padding: 0 5%; 
+    }
 
 
     .middle-content .boxes {
@@ -267,6 +285,27 @@ footer nav a {
     .middle-content .boxes .box{
         justify-content: center;
         width: 30%;
+    }
+
+    .middle-content .boxes .box:nth-child(5){
+        display: none;
+    }
+    .middle-content .boxes .box:nth-child(6){
+        display: none;
+    }.middle-content .boxes .box:nth-child(7){
+        display: none;
+    }.middle-content .boxes .box:nth-child(8){
+        display: none;
+    }
+    .middle-content .boxes .box:nth-child(9){
+        display: none;
+    }
+    .middle-content .boxes .box:nth-child(10){
+        display: none;
+    }
+
+    .bottom-content, footer {
+        display: none;
     }
 
 }
