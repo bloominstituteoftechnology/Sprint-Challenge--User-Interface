@@ -49,6 +49,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Define mobile-first design in your own words.
 
+    The design begins at a lower screen width, typically in the 300-500px range. Typically a media query with a min-width is used. Media quesies typically progress in width till the width is about in the range for a desktop screen.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Instructions
