@@ -23,219 +23,105 @@
         
             // If there's no active class
             if (current.length > 0) {
-              current[0].className = current[0].className.replace(" active", "");
+              current[0].className = current[0].className.replace("active", "");
             }
         
             // Add the active class to the current/clicked button
-            this.className += " active";
+            this.className += "active";
           });
         }
     
     </script>
 
 <style>
+   
 
+/*Desktop Settings*  larger than 1024 show the regular desktop layoutt */
 
-.container header nav .active, .btn:hover {
-/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
-  font-weight:bold;
-  background:white;
-  color:purple;
-}
+ 
+@media only screen and (min-width: 1024px){
 
-
-nav > a:active{
-  color:white;
-  background:green;
-  line-height:25px;
-  border-left:1px solid #ccc;
-  border-right:1px solid #ccc;
-  text-decoration:none;
-  
-}
-
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-    vertical-align: baseline;
     
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-*  {
-    box-sizing: border-box;
-    
-}
-
-html, body {
-    height: 100%;
-    font-family: 'Roboto', sans-serif;
-    
-}
-
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
-}
-
-p {
-    line-height: 1.4;
-}
-
-.container {
-    width: 800px;
-    height:200%;
-    margin: 0 auto;
-    display:flex;
-    flex-direction: column;
-}
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
-#lambdaLogo{
-    margin: 0px auto;
-    background-color: white;
-    width: 150px;
-    height: 50px;
-    background-size: 100% 100%;
-    background-image: url('assets/lambda-black.png');
-
-}
-@media only screen and (min-width: 600px){
-body #layout{
-    padding:1px;
-    margin: 5px 5px;
-
+ html > body#layout{
+    padding:20px 80px;
+    margin: 35px 5px;
+display: flexbox;
     flex-direction: row;
 }
+
+html > body#layout > div.container > header#navHeader{
+    width:900px;
+    height: 50px;
+    flex-direction: row;
+    display:flexbox;
+
 }
+html > body#layout > div.container > header#navHeader > div#lambdaLogo{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    background-size: 100% 100%;
+    background-image: url('assets/lambda-black.png');
+    flex-direction: row;
+    display: flexbox;
+
+
+}
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav{
+padding: 20px;
+ margin-left:160px ;
+ 
+ width: 1200px;
+height: 50px;
+flex-direction: row;
+display:flexbox;
+
+}
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav > a.btn{
+text-decoration: none;
+color:black;
+font-size: large;
+padding: 20px;
+ margin-left:140px ;
+ margin-bottom:2px;
+width: 1200px;
+height: 50px;
+flex-direction: row;
+display:flexbox;
+}
+
+html > body#layout > div.container > div.banner{
+    background-color: white;
+    width: 1150px;
+    height: 240px;
+    background-size: 100% 100%;
+    background-image: url('assets/jumbo.jpg');
+    flex-direction: row;
+    display: flexbox;
+
+
+}
+
+}
+
+
+/* Tablet/Laptop settings If the screen is larger than 480 pixels but smaller than 1024 pixels wide show the tablet layout */
+
+
+/* Phone settings  less than 480px wide*/
+
 
 </style>
 
 </head>
 
-<body id='layout' >
+<body id='layout'>
     <div class="container">
         <header id='navHeader'>
             <div id='lambdaLogo'>
-            </div>
+            
             <nav id='myNav'>
               <a class='btn' href="#1">Home</a>
               <a class='btn active' href="#2">About</a>
@@ -243,11 +129,11 @@ body #layout{
               <a class='btn' href="#4">Contact</a>
               
             </nav>
+        </div>
         </header>
-            <section class="about">
-              <h2>heading</h2>
-              <p>Marzipan jelly-o macaroon I love macaroon jujubes. Candy candy canes jujubes I love ice cream croissant. Lollipop donut icing I love liquorice gummi bears marzipan. Dragée jelly beans apple pie cotton candy lemon drops pastry candy msg powder.</p>
-            </section>
+            <div class="banner">
+               
+            </div>
           
    
         <section class="top-content">
