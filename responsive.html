@@ -96,16 +96,50 @@ html > body#layout > div.container > div.banner{
     background-color: white;
     width: 1150px;
     height: 240px;
+    margin: 20px 0px;
     background-size: 100% 100%;
     background-image: url('assets/jumbo.jpg');
     flex-direction: row;
     display: flexbox;
-
-
 }
 
+html > body#layout > div.container {
+    width: 1024px;
+    height:200%; 
+    display:flex;
+    flex-direction: column;        
+}
+html > body#layout > div.container > section.middle-content{
+    width: 1024px;
+    height:100%; 
+    display:flex;
+    padding: 30px;
+    border-bottom: 2px dashed black;
+    border-top: 2px dashed black;
+    flex-direction: row;        
+}
+html > body#layout > div.container > section.top-content {
+    width: 1024px;
+    height:200%; 
+    display:flex;
+    flex-direction: row;        
+}
+html > body#layout > div.container > section.top-content > div.text-container{
+    width: 1024px;
+    height:200px;
+    padding: 10px 0px 10px 70px;
+    margin:20px 20px; 
+    display:block;
+}
+html > body#layout{
+    width: 1024px;
+    height:200%;
+    margin: 0px 100px ;
+    display:flexbox;
 }
 
+
+ }  
 
 /* Tablet/Laptop settings If the screen is larger than 480 pixels but smaller than 1024 pixels wide show the tablet layout */
 
