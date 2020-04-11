@@ -1,9 +1,20 @@
-If you were to describe semantic HTML to the next cohort of students, what would you say?
+If you were to describe semantic HTML to the next cohort of students, what would you say? It is the use of html tags with a name that give meaning 
+to what it is they do. With these semantic tags you can find css classes or defined elements that make up the meaning of those tags. XML is very
+similar to this except without the use of json or name pair values. 
 
-What are the 4 areas of the box model?
+What are the 4 areas of the box model? Padding, width, height, and margin.
 
-While using flexbox, what axis does the following property work on: align-items: center?
+While using flexbox, what axis does the following property work on: align-items: center? Items are center in the cross axis. 
 
-Explain why git is valuable to a team of developers.
+Explain why git is valuable to a team of developers. It is a versioning system and is very useful in development. It helps projects stay organized. It
+keeps developers in contact witheachother on various topics which is great for bug solving. Also if a new updated version is worse than a prior more stable
+version, you can always revert back to the other version. git has so many useful advantages for developers that I could not imagine never using it. Before learning
+git these past few days, I used hg mercurial which is bitbucket and I have to say it really helped me while taking classes on Udemy. If I had left a project a 
+while ago and forgot where I left off or what problems I was having before, I would just run hg serve and go to localhost:8000 and look at my commits to find out
+more on the project. Git is the same thing and for someone who may have limited space or uses multiple computers, uploaded all your projects to repos is a solid
+method of programming. 
 
-Define mobile-first design in your own words.
+Define mobile-first design in your own words. Mobile-first design means you design the web app or site with the sole intent of responsiveness. Depending on the screen
+size you can set various app designs that look great on any mobile device. You got to figure if you are on a desktop working on a screen 1600px wide and 900px in height,
+whatever diminsions that app is using may not look the same to a person viewing it a phone, tablet, or laptop. So I think having a mobile-first design approach is very important
+because with the way the world is today, end-users are going to expect that website to look great no matter what the size of their screen is.
