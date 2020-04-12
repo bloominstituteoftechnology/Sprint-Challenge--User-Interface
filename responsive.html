@@ -45,7 +45,7 @@
  html > body#layout{
     padding:20px 80px;
     margin: 35px 5px;
-display: flexbox;
+display: flex;
     flex-direction: row;
 }
 
@@ -53,7 +53,7 @@ html > body#layout > div.container > header#navHeader{
     width:900px;
     height: 50px;
     flex-direction: row;
-    display:flexbox;
+    display:flex;
 
 }
 html > body#layout > div.container > header#navHeader > div#lambdaLogo{
@@ -63,19 +63,19 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo{
     background-size: 100% 100%;
     background-image: url('assets/lambda-black.png');
     flex-direction: row;
-    display: flexbox;
+    display: flex;
 
 
 }
 
 html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav{
-padding: 20px;
+padding: 20px 0px;
  margin-left:160px ;
  
  width: 1200px;
 height: 50px;
 flex-direction: row;
-display:flexbox;
+display:flex;
 
 }
 
@@ -89,7 +89,22 @@ padding: 20px;
 width: 1200px;
 height: 50px;
 flex-direction: row;
-display:flexbox;
+display:flex;
+}
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.btn {
+    height: 40px;
+    margin: 0 auto;
+  border: 1px solid lightgray;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+   /*======= create a background property. Set the value to #F87B99 */
+  background:silver;
 }
 
 html > body#layout > div.container > div.banner{
