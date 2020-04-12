@@ -9,11 +9,13 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
   
     <script >
+        console.log('hello');
         // Get the container element
         /// JS code came from https://www.w3schools.com/howto/howto_js_active_element.asp
         var btnContainer = document.getElementById("myNav");
         
         // Get all buttons with class="btn" inside the container
+        // This is where it cannot read property it is null Trying to get it to stick on a click
         var btns = btnContainer.getElementsByClassName("btn");
         
         // Loop through the buttons and add the active class to the current/clicked button
@@ -69,8 +71,8 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo{
 }
 
 html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav{
-padding: 20px 0px;
- margin-left:160px ;
+padding: 10px 1px 5px 0px;
+margin: 0px 0px 0px 180px ;
  
  width: 1200px;
 height: 50px;
@@ -79,26 +81,16 @@ display:flex;
 
 }
 
-html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav > a.btn{
-text-decoration: none;
-color:black;
-font-size: large;
-padding: 20px;
- margin-left:140px ;
- margin-bottom:2px;
-width: 1200px;
-height: 50px;
-flex-direction: row;
-display:flex;
-}
+
 
 html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.btn {
+    font-size: x-large;
     height: 40px;
-    margin: 0 auto;
+    width: 140px;
+    margin: -8px 22px 4px 2px ;
   border: 1px solid lightgray;
-  padding: 0px;
+ justify-content:center;
   display: flex;
-  flex-direction: row;
   border-radius: 20px;
   color: white;
   text-decoration: none;
@@ -107,6 +99,7 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myN
   background:silver;
 }
 
+
 html > body#layout > div.container > div.banner{
     background-color: white;
     width: 1150px;
@@ -114,8 +107,9 @@ html > body#layout > div.container > div.banner{
     margin: 20px 0px;
     background-size: 100% 100%;
     background-image: url('assets/jumbo.jpg');
+    
+    display: flex;
     flex-direction: row;
-    display: flexbox;
 }
 
 html > body#layout > div.container {
@@ -179,14 +173,15 @@ html > body#layout{
     width: 1024px;
     height:200%;
     margin: 0px 100px ;
-    display:flexbox;
+    display:flex;
+    flex-direction: row;
 }
 
 html > body#layout > div.container > section.bottom-content{
     width:1024px;
     height: 200%;
-    flex-direction: row;
     display:flex;
+    flex-direction: row;
 
 }
 html > body#layout > div.container > section.bottom-content > div.text-container{
@@ -204,7 +199,19 @@ html > body#layout > div.container > section.bottom-content > div.text-container
 html > body#layout > div.container > section.bottom-content > div.text-container > p{
    line-height: 1.4rem;
     letter-spacing: 0.1rem;
-} 
+}
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  >a.btn:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  font-weight:normal;
+  background:rgb(255, 255, 255);
+  color:purple;
+}
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.active:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  font-weight:bold;
+  background:black;
+  color:purple;
+}
 
 
 
@@ -226,10 +233,11 @@ html > body#layout > div.container > section.bottom-content > div.text-container
             <div id='lambdaLogo'>
             
             <nav id='myNav'>
-              <a class='btn' href="#1">Home</a>
-              <a class='btn active' href="#2">About</a>
-              <a class='btn' href="#3">Blog</a>
-              <a class='btn' href="#4">Contact</a>
+              <a class='btn  active' href="#1">Home</a>
+              <a class='btn' href="#2">About</a>
+              <a class='btn' href="#3">Products</a>
+              <a class='btn' href="#4">Blog</a>
+              <a class='btn' href="#5">Contact</a>
               
             </nav>
         </div>
