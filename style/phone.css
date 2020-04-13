@@ -1,0 +1,206 @@
+/* Phone settings 480pxtl layout 36% */
+
+@media only screen and (max-width: 759px){
+
+    html > body#layout{
+    padding:7.2px 28.78px;
+    margin: 12.6px 1.8px;
+    display: flex;
+    flex-direction: row;
+    }
+    
+    html > body#layout > div.container > header#navHeader{
+    width:324px;
+    height: 18px;
+    flex-direction: row;
+    display:flex;
+    
+    }
+    html > body#layout > div.container > header#navHeader > div#lambdaLogo{
+    background-color: white;
+    width: 54px;
+    height: 14.4px;
+    background-size: 100% 100%;
+    background-image: url('assets/lambda-black.png');
+    flex-direction: row;
+    display: flex;
+    
+    
+    }
+    
+    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav{
+    padding: 3.6px .36px 1.8px 0px;
+    margin: 0px 0px 0px 64.8px ;
+    
+    width: 432px;
+    height: 18px;
+    flex-direction: row;
+    display:flex;
+    
+    }
+    
+    
+    
+    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.btn {
+    font-size: x-large;
+    height: 14.4px;
+    width: 50.4px;
+    margin: -2.88px 7.92px 1.44px .72px ;
+    border: .36px solid lightgray;
+    justify-content:center;
+    display: flex;
+    border-radius: 7.2px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 7.2px;
+    /*======= create a background property. Set the value to #F87B99 */
+    background:silver;
+    }
+    
+    
+    html > body#layout > div.container > div.banner{
+    background-color: white;
+    width: 414px;
+    height: 86.4px;
+    margin: 7.2px 0px;
+    background-size: 100% 100%;
+    background-image: url('assets/jumbo.jpg');
+    
+    display: flex;
+    flex-direction: row;
+    }
+    
+    html > body#layout > div.container {
+    width: 368.64px;
+    height:200%; 
+    display:flex;
+    flex-direction: column;        
+    }
+    html > body#layout > div.container > section.middle-content{
+    width: 368.6px;
+    height:100%; 
+    display:flex;
+    padding: 10.8px;
+    border-bottom: .72px dashed black;
+    border-top: .72px dashed black;
+    flex-direction: row;        
+    }
+    
+    .middle-content {
+    margin-bottom: 7.2px;
+    border-bottom: .36px dashed black;
+    }
+    
+    .middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+    }
+    
+    .middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    
+    .middle-content .boxes .box {
+    width: 12.5%;
+    height: 36px;
+    background: black;
+    margin: 7.2px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+    html > body#layout > div.container > section.top-content {
+    width: 368.6px;
+    height:200%; 
+    display:flex;
+    flex-direction: row;        
+    }
+    html > body#layout > div.container > section.top-content > div.text-container{
+    width: 368.6px;
+    height:72px;
+    padding: 3.6px 0px 3.6px 25.2px;
+    margin:7.2px 7.2px; 
+    display:block;
+    }
+    html > body#layout{
+    width: 368.6px;
+    height:200%;
+    margin: 0px 36px ;
+    display:flex;
+    flex-direction: row;
+    }
+    
+    html > body#layout > div.container > section.bottom-content{
+    width:368.6px;
+    height: 200%;
+    display:flex;
+    flex-direction: row;
+    
+    }
+    html > body#layout > div.container > section.bottom-content > div.text-container{
+    width: 368.6px;
+    height:72px;
+    padding: 3.6px 0px 3.6px 25.2px;
+    margin:7.2px 7.2px; 
+    display:block;
+    }
+    html > body#layout > div.container > section.bottom-content > div.text-container > h2{
+    font-weight: lighter;
+    line-height: 0.18rem;
+    letter-spacing: 0.072rem;
+    }
+    html > body#layout > div.container > section.bottom-content > div.text-container > p{
+    line-height: .5rem;
+    letter-spacing: 0.036rem;
+    }
+    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  >a.btn:hover {
+    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+    font-weight:normal;
+    background:rgb(255, 255, 255);
+    color:purple;
+    }
+    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.active:hover {
+    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+    font-weight:bold;
+    background:black;
+    color:purple;
+    }
+    
+    footer {
+    width:414px;
+    height: 25.2px;
+    flex-direction: row;
+    display:flex;
+    background-color: black;
+    }
+    footer > nav{
+    padding: 7.2px 0px 0px 28.8px;
+    }
+    nav a {
+    text-decoration: none;
+    font-size: .5rem;
+    margin: 0px 43.2px 0px 0px;
+    color: white;
+    }
+    
+    html > body#layout > div.container > section.middle-content > h2{
+    letter-spacing: 0.036rem;
+    font-weight: normal;
+    }
+    
+    html > body#layout > div.container > section.middle-content{
+    display:flex;
+    flex-direction: column;
+    font-weight:bold;
+    font-size: .324rem;
+    line-height: .288rem;
+    
+    }
+    
+    }
+    
