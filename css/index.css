@@ -160,28 +160,93 @@ nav ul li {
 
 nav a {
     text-decoration: underline;
-    color: #000;
+    color: black;
     font-size: medium;
 }
 
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: gold;
+}
+
+#box3{
+    background:cadetblue;
+}
+
+#box4{
+    background:coral;
+}
+
+#box5{
+    background:crimson;
+}
+
+#box6{
+    background:forestgreen;
+}
+
+#box7{
+    background:darkorchild;
+}
+
+#box8{
+    background:hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background:dodgerblue;
+}
 /***about***/
 
-.about-content {
-    width:50%;
-    border-bottom: 2px dashed #000;
-    margin-bottom: 50px;
-}
-
-.aboutContentText button {
-    border: 2px solid #000;
-    border-radius: 10px;
-}
-.aboutContainer {
+.about-top-content {
+    border-bottom: 1px dotted black;
+    padding-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .about-middle-content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
-}
-
-.aboutContentText {
-	padding: 9px 0 16px;
-}
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .about-middle-content .about-boxes {
+    width: 380px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+    border-bottom: 1px dotted black;
+  }
+  
+  .about-middle-content .about-boxes button {
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-top: 10px;
+  }
+  
+  .about-middle-content .about-boxes button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .about-bottom-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .about-middle-content .about-boxes .pix {
+    width: 380px;
+    margin-bottom: 10px;
+  }
