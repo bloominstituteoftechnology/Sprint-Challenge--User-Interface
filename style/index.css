@@ -68,9 +68,25 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
 }
 
+.logo{
+    width: 33%;
+    padding: 2%;
+}
+
+.picture2 {
+    width: 100%;
+    margin: 0; 
+
+}
+.links {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -98,58 +114,58 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.box1{
+.boxOne{
    background-color: teal;
 }
 
-.box2{
+.boxTwo{
   background-color: gold;
 }
 
-.box3{
+.boxThree{
   background-color: cadetblue;
 }
 
-.box4{
+.boxFour{
   background-color: coral;
 }
 
-.box5 {
+.boxFive {
 background-color: crimson;
 }
 
-.box6 {
+.boxSix {
 background-color: forestgreen;
 }
 
-.box7{
+.boxSeven{
 background-color: darkorchid;
 }
 
-.box8{
+.boxEight{
 background-color: hotpink;
 }
 
-.box9{
+.boxNine{
 background-color: indigo;
 }
 
-.box10{
+.boxTen{
 background-color: dodgerblue; 
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
