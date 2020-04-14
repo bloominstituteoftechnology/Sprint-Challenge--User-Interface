@@ -1,7 +1,7 @@
 /*Desktop Settings*  larger than 1024 show the regular desktop layoutt */
 
  
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 800px){
 
     html > body#layout{
     padding:20px 80px;
@@ -22,7 +22,7 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo{
     width: 150px;
     height: 40px;
     background-size: 100% 100%;
-    background-image: url('assets/lambda-black.png');
+    background-image: url('../assets/lambda-black.png');
     flex-direction: row;
     display: flex;
 
@@ -65,7 +65,7 @@ html > body#layout > div.container > div.banner{
     height: 240px;
     margin: 20px 0px;
     background-size: 100% 100%;
-    background-image: url('assets/jumbo.jpg');
+    background-image: url('../assets/jumbo.jpg');
     
     display: flex;
     flex-direction: row;
