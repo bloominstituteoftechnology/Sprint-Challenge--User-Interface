@@ -32,32 +32,67 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
-.boxes{  
-width:30%;
- display: flex;
- flex-direction: column;
-}
-.box{
-    width:30%;
-    height:100px;
+nav, .nav a {
+    display: flex;
+    flex-direction: row;
     
 }
+
+section, .box-content{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-bottom: dotted black; 
+}
+section1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.box-content{
+    display:flex;
+ flex-direction: column;
+ justify-content:center;
+ align-items:center;
+}
+.boxes{
+ width: 30px;
+ margin-bottom: 10%;
+ 
+}
 .box1{
-    background-color: blue;
+    background-color: teal;
 
 }
 .box2{
-    background-color: yellow;
+    background-color: gold;
 }
 .box3{ 
-    background-color: rgb(24, 202, 113);
+    background-color:cadetblue; rgb(24, 202, 113);
 }
 .box4{
-    background-color: rgba(219, 149, 19, 0.795);
+    background-color: coral;(219, 149, 19, 0.795);
 }
+.box5{
+    background-color:crimson;(20, 212, 20, 0.795);
+}
+.box6{
+    background-color: forestgreen;(231, 99, 23, 0.795);
+}
+.box7{
+    background-color: darkorchid;(89, 90, 172, 0.795);
+}
+.box8{
+    background-color: hotpink; 81, 21, 196, 0.795);
+}
+.box9{
+    background-color: indigo(19, 219, 202, 0.795);
+}
+.box10{
+    background-color: dodgerblue;(23, 204, 17, 0.795);
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -66,6 +101,25 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+.top-content{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+ footer {
+    padding:2%;
+    width:100%;
+    background: black;
+
+    }
+ 
+.footer, .nav a {
+     color: white;
+     text-decoration: none;
+             
+    }
+   /* media begins */
+
 @media(max-width:800px){
     .container{
       font-size:1.4rem;
@@ -86,21 +140,14 @@ table {
 border-collapse: collapse;
     border-spacing: 0;
  }
- footer {
+ footer, section1 {
     display: none;
  } 
- .boxes,.box1, .box2, .box3, .box4{
-     margin:10%;
-     width: 25%;
-     height: 20%;
-     padding: 20%;
- }
+ 
  .text-container, .text-container2{
      padding: 10%;
  }
- .text-container2{
-     border-bottom: dotted black
- }
+ 
  nav a {
      width:10%;
      height:5%;
@@ -108,14 +155,20 @@ border-collapse: collapse;
     margin: auto;
 
  }
- .top, nav a {
+  nav,nav a {
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
      align-items: center;
-     background-color: grey;
      color: black;
  }
-} 
+ .disNone{
+    display:none;
+ }
+ .box-content{
+     border-bottom: none;
+ }
+} /* media ends */ 
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -144,8 +197,8 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 10px;
-    border-bottom: 1px dashed black;
+    margin: 100%;
+    border-bottom:  dashed black;
 }
 
 .top-content .text-container {
@@ -159,13 +212,13 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -184,18 +237,4 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }
