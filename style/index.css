@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -35,36 +36,28 @@ ol, ul {
 	list-style: none;
 }
 .boxes{  
-width:20%;
-margin: 30%;
+width:30%;
  display: flex;
  flex-direction: column;
 }
+.box{
+    width:30%;
+    height:100px;
+    
+}
 .box1{
-    background-color: rgba(48, 48, 177, 0.89);
-height: 40px;
-padding:20%;
-margin-bottom: 10%;
+    background-color: blue;
+
 }
 .box2{
     background-color: yellow;
-    height: 40px;
-padding:20%;
-margin-bottom: 10%;
 }
 .box3{ 
     background-color: rgb(24, 202, 113);
-    height: 40px;
-padding:20%;
-margin-bottom: 10%;
 }
 .box4{
     background-color: rgba(219, 149, 19, 0.795);
-    height: 40px;
-padding:20%;
-margin-bottom: 10%;
 }
-
 blockquote, q {
 	quotes: none;
 }
@@ -73,80 +66,56 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-@media(max-width: 800px){
+@media(max-width:800px){
     .container{
       font-size:1.4rem;
+      background-color:rgb(243, 239, 239);
     }
-      background-color: ( 238);
-}
-.top-content future, h2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 10px;
-    border-bottom: 1px dashed black;
-} 
-.links{
-    display: flex;
-    flex-direction: column;
-}
-    links{
-        padding:
-      text-align:center;
-      list-style-type: colum;
-    }
-     
-}
-@media( max-width:900px){
-    .container{
-        font-size:1.4rem;
-        background-color: rgb(138, 198, 214);
-       
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
       }
-    .box1{background-color: blue;
-      
-    border: 40%;
-    width:100px;
-  height:100px;
-    }
-    
+      h3{
+        text-align: center;
+        padding: 2%;
+      }
 
-.boxes{
-    display: flex;
-    flex-direction: row;  
-}
-.box2{
-    background-color:rgba(119, 13, 84, 0.795);
-    height: 40px;
-padding:20%;
-margin-bottom: 10%;
-}
-.box3{
-    background-color: rgba(45, 16, 150, 0.795);
-    height: 40px;
-padding:20%;
-margin-bottom: 10%;
-}
-.box4{
-    background-color: rgba(168, 207, 24, 0.795);
-    height: 40px;
-padding:20%;
-margin-bottom: 10%;
-}
-}
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+border-collapse: collapse;
+    border-spacing: 0;
+ }
+ footer {
+    display: none;
+ } 
+ .boxes,.box1, .box2, .box3, .box4{
+     margin:10%;
+     width: 25%;
+     height: 20%;
+     padding: 20%;
+ }
+ .text-container, .text-container2{
+     padding: 10%;
+ }
+ .text-container2{
+     border-bottom: dotted black
+ }
+ nav a {
+     width:10%;
+     height:5%;
+     padding:2%;
+    margin: auto;
 
-* {
-    box-sizing: border-box;
-   
-}
-.links{
-    padding: 3% 0;
-  text-align:center;
-}
+ }
+ .top, nav a {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     background-color: grey;
+     color: black;
+ }
+} 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -168,31 +137,21 @@ p {
 }
 .top-content {
     text-align: center;
-    
+       
 }
 
-.top-content future, h2{
+.top-content future{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 10px;
     border-bottom: 1px dashed black;
-    
 }
 
-
-.top-content ,.text-container {
+.top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px; 
-    margin: 20%;
-
-}
-  
-}
-.middle-content {
-   width: 100%;
-    background: black;
 }
 
 .middle-content h2 {
@@ -203,7 +162,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
@@ -239,5 +198,4 @@ footer {
 footer nav a {
     color: white;
     text-decoration: none;
-
 }
