@@ -149,6 +149,8 @@ footer nav a {
     text-decoration: none;
 }
 
+/* MY ADDITIONS */
+
 #header {
     display: flex;
     flex-direction: row;
@@ -160,7 +162,6 @@ footer nav a {
 
 .logo {
     float: left;
- 
 }
 
 .nav {
@@ -172,7 +173,7 @@ footer nav a {
 
 .nav a {
     width: 75%;
-    padding: 5%;
+    padding: 5% 85% 5% 60%;
     justify-content: space-evenly;
     text-decoration: none;
     color: black;
@@ -217,7 +218,7 @@ footer nav a {
 }
 
 .box4 {
-    background-color: lightsalmon;
+    background-color: coral;
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
@@ -228,7 +229,7 @@ footer nav a {
 }
 
 .box5 {
-    background-color: firebrick;
+    background-color: crimson;
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
@@ -250,7 +251,7 @@ footer nav a {
 }
 
 .box7 {
-    background-color: blueviolet;
+    background-color: darkorchid;
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
@@ -292,3 +293,101 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width:500px) {
+
+    body {
+        width: 75%;
+        margin: 0% 10%;
+    }
+    
+    #header {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 13vh;
+        margin: 2% 10% 0%;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        padding-top: 12%;
+        width: 75%;
+    }
+    
+    .nav a {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        color: lightgray;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+
+    .nav a:hover {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        background-color: lightgray;
+        border: 1px solid gray;
+    }
+
+    #hero-photo {
+        display: flex;
+        width: 100%;
+        margin-top: 50%;
+    }
+    .hero {
+        display: flex;
+        width: 100%;
+    }
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.text-container h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 1.5rem;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box1, .box2, .box3, .box4, {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+}
+
+.box5, .box6, .box7, .box8, .box9, .box10 {
+    visibility: hidden;
+}
+
+.bottom-content {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+}
+  
