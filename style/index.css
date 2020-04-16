@@ -1,75 +1,229 @@
-<!doctype html>
+Skip to content
+Search or jump to…
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@sjvphupp 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
 
-  <title>Sprint Challenge - Home</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+sjvphupp
+/
+Sprint-Challenge--User-Interface
+forked from LambdaSchool/Sprint-Challenge--User-Interface
+0
+03.7k
+ Code Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+Sprint-Challenge--User-Interface/style/index.css
+@sjvphupp sjvphupp Fixed file structure
+da03a31 6 days ago
+@zoelud@sjvphupp
+159 lines (138 sloc)  2.68 KB
+  
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-</head>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
-<body>
-    <div class="container">
-   
-        <section class="top-content">
-            <div class="text-container">
-                <h2>The Future</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-            <div class="text-container">
-                <h2>The Past</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
-        </section>
-        
-        <section class="middle-content">
-        
-            <h2>Why Did It Have To Be Boxes...</h2>
-            
-            <div class="boxes">
-                <div class="box boxOne">Box 1</div>
-                <div class="box boxTwo">Box 2</div>
-                <div class="box boxThree">Box 3</div>
-                <div class="box boxFour">Box 4</div>
-                <div class="box boxFive">Box 5</div>
-                <div class="box boxSix">Box 6</div>
-                <div class="box boxSeven">Box 7</div>
-                <div class="box boxEight">Box 8</div>
-                <div class="box boxNine">Box 9</div>
-                <div class="box boxTen">Box 10</div>
-            </div>
-        
-        </section>
+* {
+    box-sizing: border-box;
+}
 
-        <section class="bottom-content">
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
 
-            <div class="text-container">
-                <h2>That's</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
-            <div class="text-container">
-                <h2>No</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
-            <div class="text-container">
-                <h2>Moon</h2>
-                <p>Phasellus id dui id tortor tincidunt efficitur. Proin sed quam sed tellus vestibulum ultrices quis in nunc.</p>
-            </div>
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
 
-        </section>
-        
-        <footer>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Products</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </nav>
-        </footer>
-    </div><!-- container -->        
-</body>
-</html>
+p {
+    line-height: 1.4;
+}
+
+.boxOne {
+    background-color: teal; 
+}
+
+.boxTwo {
+    background-color: goldenrod;
+}
+
+.boxThree {
+  background-color: cadetblue;
+}
+
+.boxFour {
+    background-color: coral;
+}
+
+.boxFive {
+    background-color: crimson;
+}
+
+.boxSix{
+    background-color: forestgreen;
+}
+
+.boxSeven {
+    background-color: darkorchid;
+}
+
+.boxEight {
+    background-color: hotpink;
+}
+
+.boxNine{
+    background-color: indigo;
+}
+
+.boxTen {
+    background-color: dodgerblue
+}
+
+.logo {
+    width: 33%;
+    position: static;
+    padding: none; 
+    margin: 0;
+}
+
+.picture2 {
+    width: 100%, 
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
