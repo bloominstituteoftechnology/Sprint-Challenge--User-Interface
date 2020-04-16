@@ -135,7 +135,7 @@ p {
 .logo {
     width: 33%;
     padding: none; 
-    margin: 0 22px 0 22px;
+    margin: 5px 22px 5px 22px;
 }
 
 .picture2 {
@@ -148,12 +148,15 @@ header nav a{
     text-decoration: none;
     color: black;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
     align-items: flex-end;
 
 }
-
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
 .container {
     width: 800px;
     margin: 0 auto;
