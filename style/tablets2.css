@@ -1,6 +1,6 @@
 /* 74% 800px  760px*/
 
-@media only screen and (max-width: 800px){
+@media  (max-width: 800px){
 
     
     html > body#layout{

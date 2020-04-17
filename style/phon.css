@@ -1,0 +1,22 @@
+@media  (max-width: 700px){
+
+body > #lambdaLogo{
+    display: block;
+   
+  
+}
+#lambdaLogo {
+  background-color: aliceblue;
+  margin:5% 20% 5% 20%;
+  box-sizing: border-box;
+    background-image: url('../assets/lambda-black.png');
+    background-size:100% 100%;
+border: 0.1em solid black;
+    
+    width: 60%;
+    height:30vh;
+}
+
+
+
+}
