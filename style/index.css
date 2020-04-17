@@ -152,9 +152,9 @@ header nav a{
 
 }
 header nav {
+    width: -66%;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 .container {
