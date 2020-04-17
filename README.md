@@ -63,7 +63,7 @@ Your finished project must include all of the following requirements:
 [Review the provided design file for the home page](https://tk-assets.lambdaschool.com/fbe7ebfc-a4c2-4a32-8929-bbd41fbc4f67_ScreenShot2020-03-25at11.03.41AM.png).  Notice the navigation and header images are missing.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header
-* [ ] Link the `About` navigation item to the about.html page
+* [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
 * [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
 *  Add responsive breakpoints to your code by using media queries
 
