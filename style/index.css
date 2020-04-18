@@ -112,6 +112,36 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    color: teal;
+}
+.middle-content .box2 {
+    color: gold;
+}
+.middle-content .box3 {
+    color: cadetblue;
+}
+.middle-content .box4 {
+    color: coral;
+}
+.middle-content .box5 {
+    color: crimson;
+}
+.middle-content .box6 {
+    color: forestgreen;
+}
+.middle-content .box7 {
+    color: darkorchid;
+}
+.middle-content .box8 {
+    color: hotpink;
+}
+.middle-content .box9 {
+    color: indigo;
+}
+.middle-content .box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
