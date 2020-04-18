@@ -28,9 +28,29 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 50px 150px 50px 150px;
+    
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-image {
+    padding: 0px 0px 50px 0px;
+    
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -65,6 +85,8 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+
 
 .container {
     width: 800px;
@@ -111,6 +133,45 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box.box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +204,41 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media screen and ( max-width: 800px ) {
+    img.main-image { width: 800px; }
+}
+ 
+@media screen and ( max-width: 500px) {
+    img.main-image { width: 500px;}
+    
+}
+    img.main-image { height: auto; }
+
+@media screen and ( max-width: 500px) {
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .nav-header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .top-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    .bottom-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+    
 }
