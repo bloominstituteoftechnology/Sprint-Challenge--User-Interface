@@ -221,3 +221,131 @@ footer nav a {
     text-decoration: none;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 1532px) {
+    header div.nav-bar a {
+        margin: 0 8% 0 0;
+    }
+}
+
+@media (max-width: 1391px) {
+    header div.nav-bar a {
+        margin: 0 7% 0 0;
+    }
+}
+
+@media (max-width: 1247px) {
+    header div.nav-bar a {
+        margin: 0 6% 0 0;
+    }
+}
+
+@media (max-width: 1130px) {
+    header div.nav-bar a {
+        margin: 0 5% 0 0;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 962px) {
+    header div.nav-bar a {
+        margin: 0 4% 0 0;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 886px) {
+    header div.nav-bar a {
+        margin: 0 3% 0 0;
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 822px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    header div.nav-bar nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #image-link {
+        width: 157px;
+        margin-bottom: 5%;
+        background-color: white;
+        border: 1px solid white;
+        padding: 0;
+    }
+
+    header div.nav-bar nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 157px;
+        margin-right: 0;
+        border: 1px solid #dbdbdb;
+        padding: 1% 20px;
+        border-radius: 10px;
+        color: #dbdbdb;
+    }
+
+    header div.nav-bar nav a:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 157px;
+        margin-right: 0;
+        border: 1px solid #dbdbdb;
+        background-color: #dbdbdb;
+        padding: 1% 20px;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-content img {
+        height: 125px;
+        width: 100%;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+    }
+
+    .middle-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200%;
+    }
+
+    .box {
+        width: 100px;
+    }
+
+    .bottom-content {
+        visibility: hidden;
+    }
+
+    footer {
+        visibility: hidden;
+    }
+}
