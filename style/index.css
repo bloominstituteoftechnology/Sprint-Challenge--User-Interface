@@ -156,43 +156,49 @@ header{
 nav a{
 text-decoration: none;
 color: gray;
-/* padding: 0 4px */
-/* justify-content: space-evenly */
+justify-content: space-evenly;
+padding:  20px;
+align-items: center;
+margin: 20px;
 
+}
+
+nav a:hover{
+    background: black;
 }
 .first-img{
     display: flex;
     align-items: center;
     margin: 5px;
 }
-#about-1{
+#box-1{
     background: teal;
 }
-#about-2{
+#box-2{
     background: gold;
 }
-#about-3{
+#box-3{
     background: cadetblue;
 }
-#about-4{
+#box-4{
     background: coral;
 }
-#about-5{
+#box-5{
     background: crimson;
 }
-#about-6{
+#box-6{
     background: forestgreen;
 }
-#about-7{
+#box-7{
     background: darkorchid;
 }
-#about-8{
+#box-8{
     background: hotpink;
 }
-#about-9{
+#box-9{
     background: indigo;
 }
-#about-10{
+#box-10{
     background: dodgerblue;
 }
 .first.sec{
@@ -212,7 +218,8 @@ button{
     margin: auto;
 }
 .first-img{
-    width: 780%
+    width: 20%
+   
 }
 .last-div{
     margin-bottom: 20px;
@@ -226,13 +233,13 @@ button{
     .boxes{
       display: flex;
     }
-    p{
+    .top-content{
       text-align: center;
       font-size : 2.4rem;
     }
     
     .container {
-      flex-wrap: wrap;
+      display: flex;
     }
     
   h2{
@@ -241,13 +248,21 @@ button{
     
   }
   
-  @media ( max-width: 450px){
+  @media ( max-width: 500px){
     
     body{
       background: lightblue; 
     }  
+    nav a{
+        display: flex;
+        
+    }
     .boxes{
       display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+
     }
     p{
       font-size:  1.2rem;
@@ -255,10 +270,13 @@ button{
     
     .container {
       flex-wrap: wrap;
+      
     }
     
-  h2{
+  .top-content{
+      display: flex;
     text-align: center;
+    font-size : 1.4rem;
   }
     
   }
