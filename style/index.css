@@ -55,6 +55,9 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+nav a {
+	text-align: center;	
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -112,7 +115,7 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box1 {
+.Box1 {
     color: teal;
 }
 .middle-content .box2 {
