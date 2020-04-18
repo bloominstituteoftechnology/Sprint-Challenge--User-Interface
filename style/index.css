@@ -28,6 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+    font-size: 62.5%;
+}
 
 body {
 	line-height: 1;
@@ -37,7 +40,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    padding: 50px 150px 50px 150px;
+    padding: 50px 0px 50px 0px;
     
 }
 
@@ -77,7 +80,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -198,7 +201,7 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 footer nav a {
@@ -211,34 +214,46 @@ footer nav a {
 }
  
 @media screen and ( max-width: 500px) {
-    img.main-image { width: 500px;}
     
-}
-    img.main-image { height: auto; }
-
-@media screen and ( max-width: 500px) {
+    img.main-image { 
+        width: 500px;
+        }
+    
     .boxes {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-    }
+        
+        }
     .nav-header {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        
-    }
+        align-items: flex-start;
+        padding-bottom: 5px;
+        }
     .top-content {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         
-    }
+        }
     .bottom-content {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         
-    }
+        }
     
-}
+    .logo {
+        padding-bottom: 10px;
+        }
+
+    .nav-header a {
+        padding: 5px;
+        } 
+    
+    .main-image{
+        padding-bottom: 5px;
+        }
+}  
