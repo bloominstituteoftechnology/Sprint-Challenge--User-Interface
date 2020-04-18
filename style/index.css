@@ -228,7 +228,7 @@ button{
 @media ( max-width: 950px){
   
     body{
-      background: lightcoral; 
+      background:white; 
     }  
     .boxes{
       display: flex;
@@ -251,11 +251,11 @@ button{
   @media ( max-width: 500px){
     
     body{
-      background: lightblue; 
+      background: white; 
     }  
     nav a{
         display: flex;
-        
+
     }
     .boxes{
       display: flex;
@@ -264,8 +264,13 @@ button{
 
 
     }
-    p{
-      font-size:  1.2rem;
+    .text-container{
+        display: flex;
+        font-size : 1.4rem;
+        /* flex-wrap: wrap; */
+  }
+
+    }
     }
     
     .container {
