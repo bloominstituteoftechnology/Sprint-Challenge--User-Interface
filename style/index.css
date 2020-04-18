@@ -47,17 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS STYLING AFTER CSS RESET BELOW */
+
 * {
     box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    margin: 0px;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -67,22 +70,49 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 70%;
+    height: 100%;
     margin: 0 auto;
+}
+
+header {
+    margin: 2% 7%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header div.nav-bar {
+    width: 100%;
+}
+
+header div.nav-bar a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+    margin: 0 8.8% 0 0;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
+.top-content img {
+    margin: 2% 0;
+    height: auto;
+    width: 86%;
+}
+
 .top-content .text-container {
-    width: 48%;
+    width: 38%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    font-size: 1.4rem;
 }
 
 .middle-content {
@@ -91,14 +121,14 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    margin: 0 9% 0;
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 0 6.5%;
 }
 
 .middle-content .boxes .box {
@@ -110,16 +140,59 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.4rem;
+}
+
+#box-1 {
+    background-color: teal;
+}
+
+#box-2 {
+    background-color: gold;
+}
+
+#box-3 {
+    background-color: cadetblue;
+}
+
+#box-4 {
+    background-color: coral;
+}
+
+#box-5 {
+    background-color: crimson;
+}
+
+#box-6 {
+    background-color: forestgreen;
+}
+
+#box-7 {
+    background-color: darkorchid;
+}
+
+#box-8 {
+    background-color: hotpink;
+}
+
+#box-9 {
+    background-color: indigo;
+}
+
+#box-10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 9% 20px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-size: 1.4rem;
 }
 
 .bottom-content .text-container:last-child {
@@ -127,8 +200,11 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 70%;
     background: black;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
 }
 
 footer nav {
@@ -137,10 +213,11 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
