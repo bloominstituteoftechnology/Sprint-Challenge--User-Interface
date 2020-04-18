@@ -39,20 +39,38 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
-    flex-direction: row-reverse;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+    
+}
+
+.Midnight {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.secondSec {
+  width: 100%;
 }
 
 .leftSec {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     width: 50%;
   display: inline-block;
-  text-align: justify;
 }   
 
-.text-container {
+.rightSec {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
   width: 45%;
   display: inline-block;
-  text-align: justify;
-
   
 }
 
@@ -62,7 +80,6 @@ p {
 }
 
 .container {
-    width: 800px;
     margin: 0 auto;
 }
 
@@ -75,7 +92,7 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 80%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
