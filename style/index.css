@@ -56,7 +56,23 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 nav a {
-	text-align: center;	
+    text-decoration: none;
+    color: black;
+    padding: 2.5rem;
+    
+}
+
+.navbar {
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.jumbo {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -115,35 +131,105 @@ p {
     justify-content: center;
 }
 
-.Box1 {
-    color: teal;
+.middle-content .boxes .box1 {
+    background-color: teal;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box2 {
-    color: gold;
+.middle-content .boxes .box2 {
+    background-color: gold;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box3 {
-    color: cadetblue;
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box4 {
-    color: coral;
+.middle-content .boxes .box4{
+    background-color: coral;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box5 {
-    color: crimson;
+.middle-content .boxes .box5{
+    background-color: crimson;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box6 {
-    color: forestgreen;
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box7 {
-    color: darkorchid;
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box8 {
-    color: hotpink;
+.middle-content .boxes .box8{
+    background-color: hotpink;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box9 {
-    color: indigo;
+.middle-content .boxes .box9{
+    background-color: indigo;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.middle-content .box10 {
+.middle-content .boxes .box10{
     background-color: dodgerblue;
+    color:white;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .bottom-content {
     display: flex;
