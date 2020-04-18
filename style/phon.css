@@ -81,7 +81,6 @@ section.con > div.i > p.ii{
     font-size: 1.9rem;
     line-height: 1.1em;
     margin:1rem; 
-    border:1px solid black;
     height: 90%;
     width: 80%
 }
@@ -112,7 +111,6 @@ section.con1 > div.i > p.ii{
     font-size: 1.9rem;
     line-height: 1.1em;
     margin:0rem 5rem 0rem 5rem;
-    border:1px solid black;
     height: 90%;
     width: 80%
 }

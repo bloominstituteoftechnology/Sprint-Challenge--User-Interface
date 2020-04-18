@@ -1,6 +1,203 @@
 @media  (max-width: 2800px){
 
-
+     body#layout{
+        padding:20px 80px;
+        margin: 35px 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav#navHeader{
+        width:900px;
+        height: 50px;
+        flex-direction: row;
+        display:flex;
+    
+    }
+    div#head.container > div#lambdaLogo{
+        background-color: white;
+        width: 150px;
+        height: 40px;
+        background-size: 100% 100%;
+        background-image: url('../assets/lambda-black.png');
+        flex-direction: row;
+        display: flex;
+    
+    
+    }
+    
+    div#head.container > nav#myNav #navHeader{
+    padding: 10px 1px 5px 0px;
+    margin: 0px 0px 0px 180px ;
+     
+     width: 1200px;
+    height: 50px;
+    flex-direction: row;
+    display:flex;
+    
+    }
+    
+    
+    
+    div#head.container > nav#myNav #navHeader > a.btn {
+        font-size: x-large;
+        height: 40px;
+        width: 140px;
+        margin: -8px 22px 4px 2px ;
+      border: 1px solid lightgray;
+     justify-content:center;
+      display: flex;
+      border-radius: 20px;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+       /*======= create a background property. Set the value to #F87B99 */
+      background:silver;
+    }
+    
+    
+    div#head.container > section#banner{
+        background-color: white;
+        width: 1150px;
+        height: 240px;
+        margin: 20px 0px;
+       
+        
+        display: flex;
+        flex-direction: row;
+    }
+    
+   div#head.container {
+        width: 1024px;
+        height:200%; 
+        display:flex;
+        flex-direction: column;        
+    }
+    div.container > section.middle-content{
+        width: 1024px;
+        height:100%; 
+        display:flex;
+        padding: 30px;
+        border-bottom: 2px dashed black;
+        border-top: 2px dashed black;
+        flex-direction: row;        
+    }
+    
+    .middle-content {
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .middle-content h2 {
+        padding: 0 2%;
+        margin-bottom: 0;
+    }
+    
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .middle-content .boxes .box {
+        width: 12.5%;
+        height: 100px;
+        background: black;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    div.container > section.top-content {
+        width: 1024px;
+        height:200%; 
+        display:flex;
+        flex-direction: row;        
+    }
+    div.container > section.top-content > div.text-container{
+        width: 1024px;
+        height:200px;
+        padding: 10px 0px 10px 70px;
+        margin:20px 20px; 
+        display:block;
+    }
+    html > body#layout{
+        width: 1024px;
+        height:200%;
+        margin: 0px 100px ;
+        display:flex;
+        flex-direction: row;
+    }
+    
+    div.container > section.bottom-content{
+        width:1024px;
+        height: 200%;
+        display:flex;
+        flex-direction: row;
+    
+    }
+     div.container > section.bottom-content > div.text-container{
+        width: 1024px;
+        height:200px;
+        padding: 10px 0px 10px 70px;
+        margin:20px 20px; 
+        display:block;
+    }
+     div.container > section.bottom-content > div.text-container > h2{
+        font-weight: lighter;
+        line-height: 0.5rem;
+        letter-spacing: 0.2rem;
+    }
+     div.container > section.bottom-content > div.text-container > p{
+       line-height: 1.4rem;
+        letter-spacing: 0.1rem;
+    }
+     div#head.container > nav#myNav  >a.btn:hover {
+    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+      font-weight:normal;
+      background:rgb(255, 255, 255);
+      color:purple;
+    }
+    div#head.container > nav#myNav  > a.active:hover {
+    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+      font-weight:bold;
+      background:black;
+      color:purple;
+    }
+    
+    footer {
+        width:1150px;
+        height: 70px;
+        flex-direction: row;
+        display:flex;
+        background-color: black;
+    }
+    footer > nav{
+    padding: 20px 0px 0px 80px;
+    }
+    nav a {
+        text-decoration: none;
+        font-size: 1.4rem;
+        margin: 0px 120px 0px 0px;
+        color: white;
+    }
+    
+     div.container > section.middle-content > h2{
+    letter-spacing: .1rem;
+    font-weight: normal;
+    }
+    
+     div.container > section.middle-content{
+        display:flex;
+        flex-direction: column;
+        font-weight:bold;
+        font-size: .9rem;
+        line-height: .8rem;
+        
+    }
 
 
 }
