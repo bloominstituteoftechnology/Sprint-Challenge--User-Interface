@@ -55,7 +55,6 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -65,12 +64,134 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.top-content .text-container  {
+    width: 46%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    padding-top: 20px;      
+    margin:2%;
+}  
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.container {
-    width: 800px;
-    margin: 0 auto;
 }
 
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+@media (min-width:800px){
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }    
+    .navi{
+        width:100%;
+        display:flex;
+        justify-content:space-between;
+        align-items:baseline;
+    }
+    .bottom-content {
+        display: flex;
+        margin: 0 2% 20px;
+        justify-content: space-around;
+        flex-direction: row;
+    }    
+    .top-content >img{
+        height:200px;
+    }
+}
+@media (max-width:500px){
+    .container{
+        width:100%;
+        margin:0 auto;
+    }
+    .container img{
+     margin-bottom:40px;   
+    }
+    .navi{       
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    } 
+    .navi > a{
+        width:200px;
+        border-style:solid;
+        border-color:grey;
+        border-width: 1px;
+        border-radius: 5px;
+        text-align:center;
+    }   
+    .top-content {
+        display:flex;
+        align-items:left;
+        width:100%;
+        padding: 0 1%;
+        padding-bottom:20px;  
+        padding-top: 20px;      
+        }      
+        .top-content .text-container  {
+            width: 100%;
+            padding: 0 1%;
+            padding-bottom: 20px;  
+            padding-top: 20px;      
+        }
+        .middle-content .boxes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-color:gray;
+        }
+        .middle-content .boxes .box {
+            width:20%;
+            margin:2.5%;
+            padding:0;       
+        }    
+        .bottom-content {            
+            display:flex;
+            flex-direction:column;
+            justify-content:left;
+        }
+        
+        footer > nav {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            align-items:center;
+            background-color: gray;
+        }
+        footer > nav >a{
+                width:200px;
+                border-style:solid;
+                border-color:white;
+                border-width: 1px;
+                border-radius: 5px;
+                text-align:center;
+        }
+       
+}
+
+.navi a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+    padding:5px;
+}
+a:hover{
+    background-color:grey;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,11 +199,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.top-content > img{
+    padding-top: 20px;
+    width:100%;
 }
 
 .middle-content {
@@ -101,25 +220,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
 
 .bottom-content .text-container {
     padding-right: 4%;
+    margin-top: 10px;
 }
 
 .bottom-content .text-container:last-child {
@@ -130,17 +234,8 @@ footer {
     width: 100%;
     background: black;
 }
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
 footer nav a {
     color: white;
     text-decoration: none;
+    padding:5px;
 }
