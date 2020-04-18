@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+
+nav{
+  
+
+
+}
+.all{
+  display:inline-block;
+  box-sizing:border-box;
+  position:relative;
+  float:center;
+}
+
+.nr{
+   
+    position: relative;
+
+}
+body{
+    display: block;
+  box-sizing: border-box;
+}
+body > nav{
+     border: 1px solid black;
+  margin: 1px 0;
+  /* move the container's height up or down */
+  height: 100vh;
+}
+
+html > body > nav > .all2.nr{
+    display:flex;
+    
+    /* Space the containers evenly in the top*/
+    justify-content: space-evenly;
+    width:100%;
+    height: 40vh;
+    background-color: rgb(175, 122, 36);
+}
+
+.all2{
+
+    
+    position: relative;
+    
+
+}
+nav > .nr{
+    display:flex;
+    /* Space the containers evenly in the top*/
+    justify-content: space-evenly;
+    width:100%;
+    height: 40vh;
+    background-color: papayawhip;
+}
+
+nav > .all2{
+    display:flex;
+    /* Space the containers evenly in the top*/
+    justify-content: space-evenly;
+    width:100%;
+    height: 40vh;
+    background-color: papayawhip;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 30px 0;
+  /* move the container's height up or down */
+  height: 35vh;
+}
+
+.container div {
+    /* The squars get bigger or smaller with height */
+  height: 12.6em;
+  /* The conatiner expands in width */
+  width: 8em;
+}
+
+.item-1 {
+  background-color: slateblue;
+}
+
+.item-2 {
+  background-color: slategray;
+}
+
+.item-3 {
+  background-color: lavender;
+}
+
+.item-4 {
+  background-color: darkgray;
+}
+
+/* Make the boxes in container-3 centered vertically in a row and all the way over to the right */
+
+.container-3 {
+  display:flex;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  
+}
+
+
+/* Make the boxes in container-1 centered in a row within their container */
+
+.container-1 {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/* Make the boxes in container-2 centered in a column within their container */
+
+.container-2 {
+ display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
+
+/* Put the boxes in container-4 in a column and spread them evenly across across the height of their container */
+
+.container-4 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+/* Put the boxes in container-5 in a row in reverse order and put them in the bottom left corner */
+
+.container-5 {
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+}
+</style>
+
+
+
+</head>
+<body>
+<nav>
+    <div class='all2'>
+        <div class="container container-1">
+          <div class="item-1"></div>
+          <div class="item-2"></div>
+          <div class="item-3"></div>
+          <div class="item-4"></div>
+        </div>
+        
+        <div class="container container-2">
+          <div class="item-1"></div>
+          <div class="item-2"></div>
+          <div class="item-3"></div>
+          <div class="item-4"></div>
+        </div>
+        
+        <div class="container container-3">
+          <div class="item-1"></div>
+          <div class="item-2"></div>
+          <div class="item-3"></div>
+          <div class="item-4"></div>
+        </div>
+        
+        <div class="container container-4">
+          <div class="item-1"></div>
+          <div class="item-2"></div>
+          <div class="item-3"></div>
+          <div class="item-4"></div>
+        </div>
+        
+        <div class="container container-5">
+          <div class="item-1"></div>
+          <div class="item-2"></div>
+          <div class="item-3"></div>
+          <div class="item-4"></div>
+        </div>
+
+        </div>
+
+<div class='nr'>
+
+
+        <div class="container container-1">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+          </div>
+          
+          <div class="container container-2">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+          </div>
+          
+          <div class="container container-3">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+          </div>
+          
+          <div class="container container-4">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+          </div>
+          
+          <div class="container container-5">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+          </div>
+        </div>
+    
+    </nav>
+</body>
+</html>

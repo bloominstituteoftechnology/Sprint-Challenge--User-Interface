@@ -8,16 +8,22 @@
     }
     
     nav#navHeader{
-        width:900px;
+        width:100px;
         height: 50px;
         flex-direction: row;
         display:flex;
     
     }
+
+/* Position the logo next tos  */
+
+
     div#head.container > div#lambdaLogo{
-        background-color: white;
+        background-color: peachpuff;
         width: 150px;
         height: 40px;
+        background-clip: content-box;
+        box-sizing: border-box;
         background-size: 100% 100%;
         background-image: url('../assets/lambda-black.png');
         flex-direction: row;
