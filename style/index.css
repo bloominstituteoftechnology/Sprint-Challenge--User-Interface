@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1-10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -144,3 +144,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width:800px) { 
+    
+}
+@media screen and (max-width:500px) { 
+    
+    }
