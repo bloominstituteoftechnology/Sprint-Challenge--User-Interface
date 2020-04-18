@@ -140,8 +140,8 @@ p {
 
 .picture2 {
     width: 100%, 
+    padding: 0;
     margin: 0 0 0 0;
-
 }
 
 header nav a{
@@ -236,7 +236,44 @@ footer nav a {
 }
 
 @media (max-width: 500px){
-    .button {
-        background-color: #e7e7e7; color: black;}
+    .boxFive {
+        display: none;
+    }
+    .boxSix {
+        display:none;
+    }
+    .boxSeven {
+        display: none;
+    }
     
+    .boxEight {
+        display: none;
+    }
+    .boxNine {
+        display: none;
+    }
+
+    .boxTen {
+        display:none; 
+    }
+   header nav a {
+        background-color: lightgray;
+        color: black;
+        padding: 1em 1.5em;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 20px;
+        width: 100px;
+        height: 65px;
+        
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-container {
+        column-count: 1; 
+      column-width: 150px; 
     }
