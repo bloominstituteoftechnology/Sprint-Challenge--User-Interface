@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
 p {
     line-height: 1.4;
 }
@@ -114,42 +119,92 @@ p {
 
 .box1{
     background: teal;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box2{
     background: gold;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box3{
     background: cadetblue;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box4{
     background: coral;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box5{
     background: crimson;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box6{
     background: forestgreen;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box7{
     background: darkorchid;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box8{
     background: hotpink;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box9{
     background: indigo;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 
 .box10{
     background: dodgerblue;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
 }
 .bottom-content {
     display: flex;
