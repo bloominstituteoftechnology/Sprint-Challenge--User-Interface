@@ -55,6 +55,18 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.content {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+    border: solid;
+    margin-top: 50px;
+    
+}
 header, .topnav {
     display: flex;
     flex-direction: row;
@@ -179,6 +191,7 @@ padding: 40px;
         height: 100px;
      background-color: hotpink;
        padding: 40px;
+       margin-top: 10px;
         
        } 
        .box9 {
@@ -186,15 +199,21 @@ padding: 40px;
         height: 100px;
      background-color: indigo;
      padding: 40px;
+     margin-top: 10px;
        }  
      .box10 {
         width: 100px;
         height: 100px;
      background-color: dodgerblue;
      padding: 40px;
+     margin-top: 10px;
        }          
-.boxes {
+
+       .boxes {
     padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-right: 1px;
 }
 .middle-content .boxes {
     display: flex;
