@@ -45,9 +45,11 @@ cross axis
 
 4. Explain why git is valuable to a team of developers.
 
-It allows us to edit and make changes to the website without changing it on the main web. Also allows us to keep updates to the page
+It allows us to edit and make changes to the website without changing it on the main web. Also allows us to keep updates to the page through github where developers can see some changes being made and implement it through their projects.
 
 5. Define mobile-first design in your own words.
+
+Mobile first design is a strategy to start design the interface of a web page on mobile phone first than on desktop.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
