@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+
+
 /* Main header */
 header {
     background-color: lightslategray;
@@ -88,9 +90,57 @@ header {
     border-radius: 10px;
 }
 
+/* Top content */
+section div h2.headline {
+    font-size: 25px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.top-content div h2.headline:hover {
+    font-size: 35px;
+    font-weight: bolder;
+    color: palevioletred;
+    text-transform: uppercase;
+}
+
+/* Boxes headline */
+
+.middle-content h2#boxes-headline {
+    font-size: 25px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.middle-content h2#boxes-headline:hover {
+    font-size: 35px;
+    font-weight: bolder;
+    color: palevioletred;
+    text-transform: uppercase;
+}
+
 .text-container {
     margin-top: 10px;
 }
+
+section div h2.text-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: crimson;
+    
+
+}
+
+section div h2.text-header:hover {
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    background-color: yellow;
+    page-break-inside: 5px;
+    padding: 10px;
+
+}
+
 
 .top-content {
     display: flex;
@@ -290,3 +340,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Mobile responsive design */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid crimson;
+    padding: 20px 1.25%;
+}
+@media (max-width) {
+    .container {
+        background: powderblue;
+    }
+    
+    .container header nav {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container header nav a {
+        margin-bottom: 20px;
+
+    }
+
+
+
+
+    }
