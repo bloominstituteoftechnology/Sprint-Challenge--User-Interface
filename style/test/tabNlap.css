@@ -123,7 +123,7 @@ html > body#layout > div.container > section.middle-content{
 .middle-content .boxes .box {
     width: 28.5%;
     height: 40.11vh;
-    
+    font-size: 2.8rem;
     background: black;
     margin: 2.22vh 2.5%;
     color: white;
@@ -141,6 +141,7 @@ html > body#layout > div.container > section.top-content {
 }
 html > body#layout > div.container > section.top-content > div.text-container{
     width: 64vw;
+    /* The elements height for the two rows of text with past and future */
     height:42.22vh;
     font-size: 1rem;
     padding: 1.11vh 0vw 1.11vh 4.375vw;
@@ -194,32 +195,94 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myN
 }
 
 footer {
+    
+    margin:140px;
+    margin-left:0px;
     width:71.875vw;
-    height: 7.77vh;
-    flex-direction: column;
+    height: 80.77vh;
+    flex-direction: row;
     display:flex;
-    background-color: black;
+    justify-content: space-between;
+    
+    background-color: yellow;
 }
 footer > nav{
-padding: 2.22vh 0vw 0vh 5vw;
+/* Put padding here shows room for a title there  
+padding: 12.22vh 0vw 0vh 5vw;
+*/
+
+width:45vw;
+height:188vh;
+background-color: black;
+
 }
+
+.i {
+ 
+    width: 300px;
+    height:400px;
+   
+}
+footer > .cc > button > .i{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer > nav > button{
+ 
+}
+footer > nav.cc > button {
+
+
+
+}
+
+footer > nav.cc > button > a.i{
+  
+       display: flex;
+       flex-direction: row;
+       
+        
+    }
+
+footer{
+    display:flex;
+
+    justify-content: center;
+}
+footer > .cc{
+    margin-top:6vh;
+    width:90%;
+    height:85%;
+}
+
 nav a {
+    
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.9rem;
+    font-weight: 0.8rem;
     margin: 0vh 7.5vw 0vh 0vw;
-    color: white;
+    color: red;
+}
+button{
+    background:green;
+    width:17vw;
+    margin:1vw 1vh;
+    height: 18vh;
 }
 
 html > body#layout > div.container > section.middle-content > h2{
 letter-spacing: .1rem;
 font-weight: normal;
-font-size: 1rem
+font-size: 1.6rem
 }
 
 
 .i{
-    width:50px;
-    height:50px;
+    background-color: yellowgreen;
+    width:80px;
+    height:30px;
 
 }
 
