@@ -90,6 +90,36 @@ p {
   border-radius: 10px;
 }
 
+#about-babul:hover {
+  background-color: palevioletred;
+  width: 345px;
+  height: 400px;
+  color: brown;
+  margin: 5px;
+  padding: 25px;
+  border: 2px solid cadetblue;
+  border-radius: 10px;
+}
+
+section .text-container {
+  background-color: powderblue;
+  margin: 5px;
+  padding: 25px;
+  border: 1px crimson solid;
+  border-radius: 10px;
+
+}
+
+section .text-container:hover {
+  background-color: cornsilk;
+  margin: 5px;
+  padding: 25px;
+  border: 1px gold solid;
+  border-radius: 10px;
+
+}
+
+
 div#video-content {
   display: flex;
 }
@@ -97,5 +127,11 @@ div#video-content {
 section #videos {
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+section div div.my-videos {
+  border: 2px solid red;
+  border-radius: 10px;
+
 }
 
