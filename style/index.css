@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* /* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -56,36 +56,36 @@ header{margin:40px;
    justify-content: space-evenly;
     
        }
-       /* @media(max-width:800px;){
-        header{margin-top: 3rem;} */
+    @media(max-width:800px){
+    header{margin-top: 50px;}}
        
-.container{display:flex;
-   justify-content: space-evenly;
-   align-items: flex-start;
+container{display:flex;
+   justify-content: space-between;
+   
+
+   
   
 }
-    /* nav{display:flex;
-        justify-content: space-around} */
 
     .lambda-banner{
         display:flex;
         justify-content: space-between;
         align-items: left;}
 
-    nav {display:flex;
-        justify-content: space-between;
-        align-items: center;
+    nav .a{display:flex;
+        justify-content: space-evenly;
+        align-items: space-between;
         flex-direction: row; 
-        text-decoration: none;}
+        text-decoration: none;
+/*         margin: 40px;
+        padding: 50px; */
+      
+        }
          
-        a{display:flex;
-           justify-content:space-between;
-           text-decoration:none;
-           /* text-align:right;  */
-           }
+
 .banner-photo{
-    margin: 500px;
-    padding: 250px;
+    margin: 50px;
+    padding: 25px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -141,9 +141,13 @@ p {
     justify-content: space-evenly;
 }
 
-@media (max-width:800px){
+ @media (max-width:800px){
     .middle-content .boxes {display:flex;
-              flex-direction: column;}}
+              flex-direction: column;}} 
+              @media (max-width:800px){
+                .middle-content .boxes {display:flex;
+                  flex-direction: column;
+                  align-content:center;}}
 
 .middle-content .boxes .box1 {
     width: 12.5%;
@@ -274,4 +278,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
+}  
