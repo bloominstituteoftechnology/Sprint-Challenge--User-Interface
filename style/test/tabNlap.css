@@ -1,0 +1,234 @@
+/*Laptops and Tablets version 1000px or less */
+
+ 
+@media   (max-width: 1000px){
+
+    html > body#layout{
+        padding:1.25vh 8.8vw;
+    margin: 2.1vh 0.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+html > body#layout > div.container > header#navHeader{
+    width:76.2vw;
+    height: 35.5vh;
+    margin-bottom:-49vh;
+    /*border:2px solid black;*/
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+html > body#layout > div.container > header#navHeader > div#lambdaLogo{
+    background-color: white;
+    width: 10.8vw;
+    height: 10.4vh;
+    margin-left:.75vw;
+    background-size: 100% 100%;
+    background-image: url('../../assets/lambda-black.png');
+    flex-direction:  column;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap
+
+
+}
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav{
+    padding: 0.625vh 0.11vw 0.3125vh 0vw;
+margin:0vh 0vw 0vh 11.25vw;
+ 
+/* border: 5px solid black; */
+ width: 55vw;
+height: 55.5vh;
+
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+}
+
+
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.btn {
+    font-size: 2rem;/*x-large*/
+    height: 8.5vh;
+    width: 13.5vw;
+    margin: -0.5vh 2.4vw 0.4vh 0.125vw ;
+  border: 0.2em solid lightgray;
+  align-items: center;
+ justify-content:space-evenly;
+  display: flex;
+  border-radius: 20em;
+  color: white;
+  text-decoration: none;
+
+  margin-bottom: 2.2vh;
+   /*======= create a background property. Set the value to #F87B99 */
+  background:silver;
+}
+
+
+
+html > body#layout > div.container >  div.banner{
+    background-color: white;
+    width: 71.875vw;
+    height: 26.66vh;
+    margin: 40vh 0vw 0vh 0vw;
+    background-size: 100% 100%;
+    background-image: url('../../assets/jumbo.jpg');
+    
+    display:flex;
+    flex-direction:column;
+    
+}
+
+html > body#layout > div.container {
+    width: 64vw;
+    height:200%; 
+    display:flex;
+    flex-direction: column;        
+}
+html > body#layout > div.container > section.middle-content{
+    width: 64vw;
+    height:100%; 
+    display:flex;
+    padding: 3.33vh 1.875vw;
+    display:flex;
+    flex-direction: column;
+    font-weight:bold;
+    font-size: .9rem;
+    line-height: .8rem;
+    border-bottom: 0.22vh dashed black;
+    border-top: 0.22vh dashed black;
+    flex-direction: column;        
+}
+
+.middle-content {
+    margin-bottom: 2.22vh;
+    border-bottom: 0.11vh dashed black;
+}
+
+.middle-content h2 {
+    padding: 0% 2%;
+    margin-bottom: 0vh;
+}
+
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-content .boxes .box {
+    width: 28.5%;
+    height: 40.11vh;
+    
+    background: black;
+    margin: 2.22vh 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+html > body#layout > div.container > section.top-content {
+    width: 64vw;
+    height:200%; 
+    display:flex;
+    flex-direction: row;        
+}
+html > body#layout > div.container > section.top-content > div.text-container{
+    width: 64vw;
+    height:42.22vh;
+    font-size: 1rem;
+    padding: 1.11vh 0vw 1.11vh 4.375vw;
+    margin: 2.22vh 1.25vw; 
+    flex-wrap: wrap;
+    
+}
+html > body#layout{
+    width: 64vw;
+    height:200%;
+    margin: 0vh 6.25vw ;
+    display:flex;
+    flex-direction: column;
+}
+
+html > body#layout > div.container > section.bottom-content{
+    width:64vw;
+    height: 200%;
+    display:flex;
+    flex-direction: column;
+
+}
+html > body#layout > div.container > section.bottom-content > div.text-container{
+    width: 64vw;
+    height:90.22vh;
+    
+    display:block;
+}
+html > body#layout > div.container > section.bottom-content > div.text-container > h2{
+    font-weight: 2rem;
+    font-size: 6rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.6rem;
+}
+html > body#layout > div.container > section.bottom-content > div.text-container > p{
+   line-height: 1.4rem;
+   font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  >a.btn:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  font-weight:normal;
+  background:rgb(255, 255, 255);
+  color:purple;
+}
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.active:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  font-weight:bold;
+  background:black;
+  color:purple;
+}
+
+footer {
+    width:71.875vw;
+    height: 7.77vh;
+    flex-direction: column;
+    display:flex;
+    background-color: black;
+}
+footer > nav{
+padding: 2.22vh 0vw 0vh 5vw;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0vh 7.5vw 0vh 0vw;
+    color: white;
+}
+
+html > body#layout > div.container > section.middle-content > h2{
+letter-spacing: .1rem;
+font-weight: normal;
+font-size: 1rem
+}
+
+
+.i{
+    width:50px;
+    height:50px;
+
+}
+
+
+
+
+
+
+
+
+
+}
