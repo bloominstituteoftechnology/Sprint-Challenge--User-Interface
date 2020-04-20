@@ -70,7 +70,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+.container .topnav-right {
+    display:flex;
+    float: right;
+    padding: 25px;
+    text-decoration: none;
+}
+.container .topnav-right a {
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+}
+.image img {
+    border-style: outset;
+    border-width: 10px gray;
+    
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,10 +94,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 1.5% 1%;
     padding-bottom: 20px;  
 }
 
@@ -111,7 +126,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +187,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+@media(max-width: 500px){
+    .container {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .container .topnav-right a {
+    display:flex;
+    text-decoration: none;
+    color: black;
+}
+.middle-content .boxes {
+    display: flex;
+    
+    justify-content: column;
+}
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 }
