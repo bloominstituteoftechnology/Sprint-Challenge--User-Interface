@@ -51,6 +51,42 @@ table {
     box-sizing: border-box;
 }
 
+header{margin:40px;
+    display:flex;
+   justify-content: space-evenly;
+    
+       }
+container{display:flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+  
+}
+    /* nav{display:flex;
+        justify-content: space-around} */
+
+    .lambda-banner{
+        display:flex;
+        justify-content: space-between;
+        align-items: left;}
+
+    .nav {display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; 
+        text-decoration: none; 
+         
+        .a{display:flex;
+           /* justify-content:center; */
+           text-decoration:none;
+           /* text-align:right;  */
+           }
+.banner-photo{
+    margin: 500px;
+    padding: 250px;}
+
+    
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
