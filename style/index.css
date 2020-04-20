@@ -210,6 +210,24 @@ footer nav a {
         display: flex;
         flex-direction: column;
     }
+    .header nav a {
+        justify-content: center;
+        align-items: center;
+        color: lightgrey;
+        text-align: center;
+        width: 40%;
+        border: 2px solid lightgrey;
+        border-radius: .5rem;
+    }
+    .header a:hover {
+        color: black;
+        background-color: lightgray;
+        font-weight: bold;
+        text-align: center;
+        width: 40%;
+        border: 2px solid lightgrey;
+        border-radius: .5rem;
+    }
 }
 
 @media (max-width: 500px) {
