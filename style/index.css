@@ -28,9 +28,41 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    
 }
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.lambdablack {
+    margin-bottom: 2%;
+    
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+}
+.pic1 {
+    margin-bottom: 2%;
+}
+
+body {
+    line-height: 1;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -58,7 +90,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 1.5%;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -67,26 +99,38 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 44%;
     margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .pic1 {
+        width: 500px;
+    }
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2%;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     border-bottom: 1px dashed black;
 }
 
@@ -101,20 +145,59 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box ,.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10 {
     width: 12.5%;
-    height: 100px;
+    height: 10.25vh;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2% 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+ .b1 {
+     background-color: teal;
+ }
+
+ .b2 {
+    background-color: gold;
+}
+
+.b3 {
+    background-color: cadetblue;
+}
+
+.b4 {
+    background-color: coral;
+}
+
+.b5 {
+    background-color: crimson;
+}
+
+.b6 {
+    background-color: forestgreen;
+}
+
+.b7 {
+    background-color: darkorchid;
+}
+
+.b8 {
+    background-color: hotpink;
+}
+
+.b9 {
+    background-color: indigo;
+}
+
+.b10 {
+    background-color: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2%;
     justify-content: space-around;
 }
 
@@ -136,8 +219,8 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 2% 2%;
+    font-size: 87.5%;
 }
 
 footer nav a {
