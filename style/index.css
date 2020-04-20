@@ -40,13 +40,23 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    padding: 50px 0px 50px 0px;
-    
+    padding: 20px 0px 40px 0px;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .nav-header a {
     text-decoration: none;
     color: black;
+    padding: 10px 40px 0px 40px;
+    transition: 0.5s; 
+}
+
+.nav-header a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px 40px 0px 40px;
+    border-radius: 3px;  
 }
 
 .main-image {
@@ -72,6 +82,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -207,11 +218,70 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: 1s;
 }
 
-@media screen and ( max-width: 800px ) {
-    img.main-image { width: 800px; }
+footer nav a:hover {
+    
+    text-decoration: underline;
+    
 }
+
+.contact-form {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+
+/*contact form*/
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #414141;
+  }
+  
+  .contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+@media screen and ( max-width: 800px ) {
+    
+    img.main-image { 
+        width: 800px; 
+    }
+
+    .nav-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto;
+    }
+
+}
+
  
 @media screen and ( max-width: 500px) {
     
@@ -219,6 +289,8 @@ footer nav a {
         width: 500px;
         }
     
+    
+
     .boxes {
         display: flex;
         flex-wrap: wrap;
@@ -229,8 +301,10 @@ footer nav a {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding-bottom: 5px;
+        width: 500px;
+        margin: 0 auto;
         }
     .top-content {
         display: flex;
@@ -251,9 +325,17 @@ footer nav a {
 
     .nav-header a {
         padding: 5px;
+        border: 1px solid black;
+        width: 50%;
+        text-align: center;
+        border-radius: 5px;
+        background: rgb(221, 221, 221);
+        font-size: 1.5rem;
         } 
     
     .main-image{
         padding-bottom: 5px;
         }
+    
+    
 }  
