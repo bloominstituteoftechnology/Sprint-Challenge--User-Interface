@@ -150,10 +150,12 @@ p {
     margin: 0 auto;
     flex-direction: column;
 
-    
-
 }
-
+@media(max-width: 800px){
+    .container{
+        width: 100%;
+    }
+}
 
 
 .navigation {
@@ -177,7 +179,6 @@ nav {
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    border: 2px solid black;
     align-items: flex-end;
 
 }
@@ -202,6 +203,15 @@ nav a {
     .navigation nav {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+}
+@media(max-width: 400px){
+    footer nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
     }
 }
 
@@ -248,8 +258,7 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    border: 1px solid black;
-    margin:0 50%
+
     }
 }
 
@@ -292,13 +301,12 @@ header {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: flex-end;
-        margin: 0 25% 0 0;
        }
    }
 
 .middle-content .boxes .box-1 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -320,7 +328,7 @@ header {
 
 .middle-content .boxes .box-2 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -342,7 +350,7 @@ header {
 
 .middle-content .boxes .box-3 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -364,7 +372,7 @@ header {
 
 .middle-content .boxes .box-4 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -386,7 +394,7 @@ header {
 
 .middle-content .boxes .box-5 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -408,7 +416,7 @@ header {
 
 .middle-content .boxes .box-6 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -430,7 +438,7 @@ header {
 
 .middle-content .boxes .box-7 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -452,7 +460,7 @@ header {
 
 .middle-content .boxes .box-8 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -474,7 +482,7 @@ header {
 
 .middle-content .boxes .box-9 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -496,7 +504,7 @@ header {
 
 .middle-content .boxes .box-0 {
 
-    width: 12.5%;
+    width: 50%;
 
     height: 100px;
 
@@ -559,7 +567,7 @@ footer {
 }
 
 
-footer nav {
+footer {
 
     width: 100%;
 
@@ -572,6 +580,7 @@ footer nav {
     padding: 20px 2%;
 
     font-size: 14px;
+    position: bottom;
 
 }
 @media(max-width: 400px){
