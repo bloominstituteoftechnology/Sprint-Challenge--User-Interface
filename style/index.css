@@ -263,3 +263,14 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 800px){
+    .container
+}
+
+@media (max-width: 400px){
+    .middle-content, .boxes .box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8 .box9 .box10{
+        flex-direction: column;
+        align-items: center;
+    }
+}
