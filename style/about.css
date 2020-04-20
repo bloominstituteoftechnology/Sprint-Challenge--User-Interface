@@ -84,8 +84,13 @@ p {
   width: 345px;
   height: 400px;
   color: brown;
-  margin: 10px;
+  margin: 5px;
   padding: 25px;
   border: 2px solid cadetblue;
+  border-radius: 10px;
+}
+
+.video-content {
+  display: flex;
 }
 
