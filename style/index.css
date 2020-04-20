@@ -36,6 +36,10 @@ body {
 	line-height: 1;
 }
 
+.college-pic {
+    padding-bottom: 9px;
+}
+
 .nav-header {
     display: flex;
     justify-content: space-around;
