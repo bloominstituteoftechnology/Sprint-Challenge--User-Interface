@@ -90,7 +90,12 @@ p {
   border-radius: 10px;
 }
 
-.video-content {
+div#video-content {
   display: flex;
+}
+
+section #videos {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
