@@ -101,6 +101,7 @@ table {
 * {
 
     box-sizing: border-box;
+    border: 1px solid black;
 
 }
 
@@ -132,14 +133,6 @@ h1, h2, h3, h4, h5 {
 header {
     display: flex;
 }
-@media(max-width: 800px){
-    header {
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    }
-
 
 
 p {
@@ -155,6 +148,7 @@ p {
     width: 800px;
     display: flex;
     margin: 0 auto;
+    flex-direction: column;
 
     
 
@@ -179,11 +173,11 @@ p {
 nav {
 
     display: flex;
-
+    flex-direction: row;
     justify-content: space-between;
-
+    height: 100%;
     width: 100%;
-
+    border: 2px solid black;
     align-items: flex-end;
 
 }
@@ -204,7 +198,12 @@ nav a {
 
 }
 
-
+@media(max-width: 400px){
+    .navigation nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 header {
 
@@ -228,16 +227,30 @@ header {
 
 }
 
+.big-Pic {
+    width: 100%;
+}
 
 
 .top-content .text-container {
 
-    width: 48%;
+    display: flex;
+    width: 100%;
 
     padding: 0 1%;
 
     padding-bottom: 20px;  
 
+}
+@media(max-width: 400px){
+    .top-content .text-container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    margin:0 50%
+    }
 }
 
 
@@ -257,6 +270,7 @@ header {
     padding: 0 2%;
 
     margin-bottom: 0;
+    display: flex;
 
 }
 
@@ -277,6 +291,8 @@ header {
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+        justify-content: flex-end;
+        margin: 0 25% 0 0;
        }
    }
 
@@ -572,9 +588,10 @@ footer nav a {
     }
     
         @media(max-width: 800px){
-            .container .navigation nav {
+            .container {
                 flex-direction: column;
                 align-items: auto;
                 flex-wrap: nowrap;
             }
             }
+            
