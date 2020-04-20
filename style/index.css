@@ -131,7 +131,7 @@ footer {
     background: black;
 }
 
-nav {
+nav a {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -141,6 +141,6 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
