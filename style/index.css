@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -143,4 +142,57 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* my css */
+.header {
+    width: 90%;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.header nav {
+    display: flex;
+    align-items: baseline;
+    width: 95%;
+    justify-content: space-between;
+
+}
+.header nav a {
+    text-decoration: none;
+    color: black;
+}
+.top-content img {
+    width: 100%;
+
+}
+.boxes .box:first-child {
+    background-color: seagreen;
+}
+.boxes .box:nth-child(2) {
+    background-color: yellow;
+}
+.boxes .box:nth-child(3) {
+    background-color: green;
+}
+.boxes .box:nth-child(4) {
+    background-color:orange;
+}
+.boxes .box:nth-child(5) {
+    background-color: red;
+}
+.boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background-color: violet;
+}
+.boxes .box:nth-child(8) {
+    background-color: pink;
+}
+.boxes .box:nth-child(9) {
+    background-color: darkmagenta;
+}
+.boxes .box:nth-child(10) {
+    background-color: blue;
 }
