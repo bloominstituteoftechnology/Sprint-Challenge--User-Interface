@@ -1,12 +1,12 @@
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, 
+ html, body,span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+ h3, h4, h5, h6, blockquote, pre, abbr, acronym, address, big, cite, code, 
 dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	vertical-align: baseline;
 	font-family: inherit;
 	font-weight: inherit;
 	font-style: inherit;
-	font-size: 62.5%;
+	font-size: 62.5%;/*62.5%;*/
 	outline: 0;
 	padding: 0;
 	margin: 0;
