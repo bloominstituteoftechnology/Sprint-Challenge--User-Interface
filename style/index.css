@@ -288,8 +288,10 @@ footer nav a {
     /* } */
     .top-content{
         display: flex;
-        flex-direction: column; 
-        align-items: left;
+        flex-direction: column;
+        justify-content: left;
+        font-size: .75em; 
+        
     }
     .middle-content, h2{
         flex-direction: column;
@@ -299,10 +301,14 @@ footer nav a {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        padding: auto;
+    
+        
     }
     .middle-content .boxes div{
         width: 60%;
+    }
+    .middle-content .boxes .div{
+        
     }
     .text-container{
         flex-direction: column;
