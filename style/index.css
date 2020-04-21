@@ -25,9 +25,10 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 
-@media (max-width: 500px)
 header {
     display: flex;
     justify-content: center;
@@ -41,11 +42,12 @@ header {
         width: 90%;
         display: flex;
         justify-content: space-around;
+        color: black;
       }
-
-{
-	display: block;
+nav a {
+    color: black;
 }
+
 body {
 	line-height: 1;
 }
