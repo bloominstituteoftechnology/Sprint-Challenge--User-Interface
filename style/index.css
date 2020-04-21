@@ -307,8 +307,33 @@ footer nav a {
     .middle-content .boxes div{
         width: 60%;
     }
-    .middle-content .boxes .div{
-        
+    .middle-content .boxes .box1{
+        width: 30%;
+    }
+    .middle-content .boxes .box2{
+        width: 30%;
+    }
+    .middle-content .boxes .box3{
+        width: 30%;
+    }
+    .middle-content .boxes .box4{
+        width: 30%;
+    }
+    .middle-content .boxes .box5{
+        width: 30%;
+    }
+    .middle-content .boxes .box6{
+        width: 30%;
+    }
+    .middle-content .boxes .box7{
+        width: 30%;
+    }
+    .middle-content .boxes .box8{
+        width: 30%;
+    }.middle-content .boxes .box9{
+        width: 30%;
+    }.middle-content .boxes .box10{
+        width: 30%;
     }
     .text-container{
         flex-direction: column;
