@@ -27,7 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section 
 
-@media 
+@media (max-width: 500px)
 header {
     display: flex;
     justify-content: center;
@@ -119,16 +119,117 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.boxgold{
+    background: gold;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcadetblue{
+    background: cadetblue;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcoral{
+    background:coral;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcrimson{
+    background: crimson;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxforestgreen{
+    background: forestgreen;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxdarkorchid{
+    background: darkorchid;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxhotpink{
+    background: hotpink;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxindigo{
+    background: indigo;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxdodgerblue{
+    background: dodgerblue;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .bottom-content {
     display: flex;
