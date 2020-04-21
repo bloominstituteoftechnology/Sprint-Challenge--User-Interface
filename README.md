@@ -33,13 +33,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is to add content to the page such as heading, body, text, paragraphs, and anything that is required to add content to the page. 
+
 2. What are the 4 areas of the box model?
+
+the content, padding, border, and margin.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross axis
+
 4. Explain why git is valuable to a team of developers.
 
+It allows us to edit and make changes to the website without changing it on the main web. Also allows us to keep updates to the page through github where developers can see some changes being made and implement it through their projects.
+
 5. Define mobile-first design in your own words.
+
+Mobile first design is a strategy to start design the interface of a web page on mobile phone first than on desktop.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

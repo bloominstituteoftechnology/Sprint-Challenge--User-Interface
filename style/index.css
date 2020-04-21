@@ -23,11 +23,37 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+#jumbo {
+    width: auto;
+    align-self: center;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    padding: 50px 10px;}
+
+    header nav {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        color: black;
+      }
+nav a {
+    color: black;
+}
+
 body {
 	line-height: 1;
 }
@@ -65,11 +91,13 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+      }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
+    }
 
 .top-content {
     display: flex;
@@ -94,23 +122,123 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.boxgold{
+    background: gold;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcadetblue{
+    background: cadetblue;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcoral{
+    background:coral;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxcrimson{
+    background: crimson;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxforestgreen{
+    background: forestgreen;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxdarkorchid{
+    background: darkorchid;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxhotpink{
+    background: hotpink;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxindigo{
+    background: indigo;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxdodgerblue{
+    background: dodgerblue;
+    height: 100px;
+    width: 12.5%;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 .bottom-content {
     display: flex;
@@ -141,6 +269,7 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: rgb(114, 111, 111);
     text-decoration: none;
 }
+@media only screen and (max-width: 500px)
