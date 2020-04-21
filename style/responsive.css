@@ -45,7 +45,7 @@
 /* Cell phones to small tablets from 481px to 767 px */
 @media only screen and (max-width:767px) {
   .container {
-      background: red;
+      background: lightcoral;
   }
   
   .container header nav {
