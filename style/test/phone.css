@@ -1,206 +1,325 @@
-/* Phone settings 480pxtl layout 36% 500px */
+/*Mobile 500px or less */
 
-@media  (max-width: 500px){
+ 
+@media   (max-width: 500px){
 
-    html > body#layout{
-    padding:7.2px 28.78px;
-    margin: 12.6px 1.8px;
+    body#layout{
+        padding:1.25vh 8.8vw;
+    margin: 2.1vh 0.5vw;
     display: flex;
-    flex-direction: row;
-    }
-    
-    html > body#layout > div.container > header#navHeader{
-    width:324px;
-    height: 18px;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+html > body#layout > div.container > header#navHeader{
+    width:76.2vw;
+    height: 65.5vh;
+    margin-top:9vh;
+    margin-bottom:9vh;
+    /*border:2px solid black;*/
     display:flex;
-    
-    }
-    html > body#layout > div.container > header#navHeader > div#lambdaLogo{
+    flex-direction: column;
+    flex-wrap: wrap;
+
+   
+}
+html > body#layout > div.container > header#navHeader.mobLambda{
+   
     background-color: white;
-    width: 54px;
-    height: 14.4px;
+   
+    flex-direction:  column;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* Align the lambda logo in the back centered with buttons*/
+    align-self: center;
+   
+
+}
+
+
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo{
+   
     background-size: 100% 100%;
     background-image: url('../../assets/lambda-black.png');
-    flex-direction: row;
-    display: flex;
-    
-    
-    }
-    
-    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav{
-    padding: 3.6px .36px 1.8px 0px;
-    margin: 0px 0px 0px 64.8px ;
-    
-    width: 432px;
-    height: 18px;
-    flex-direction: row;
-    display:flex;
-    
-    }
-    
-    
-    
-    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.btn {
-    font-size: x-large;
-    height: 14.4px;
-    width: 50.4px;
-    margin: -2.88px 7.92px 1.44px .72px ;
-    border: .36px solid lightgray;
-    justify-content:center;
-    display: flex;
-    border-radius: 7.2px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 7.2px;
-    /*======= create a background property. Set the value to #F87B99 */
-    background:silver;
-    }
-    
-    
-    html > body#layout > div.container > div.banner{
+    width: 70.8vw;
+    height: 50.4vh;
+    margin-left:10px;
+}
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav{
+    padding: 0.625vh 0.11vw 0.3125vh 0vw;
+    /* The Top button container */
+margin:1vh 0vw 2vh 19vw;
+ 
+/* border: 5px solid black; */
+ width: 35vw;
+height: 55.5vh;
+
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+
+
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.btn {
+    font-size: 2rem;/*x-large*/
+    height: 20.5vh;
+    width: 14.5vw;
+    margin: 0.9vh 1vw .8vh 0.1vw ;
+  border: 0.2em solid lightgray;
+  align-items: center;
+ justify-content:space-evenly;
+  display: flex;
+  border-radius: 20em;
+  color: white;
+  text-decoration: none;
+
+
+   /*======= create a background property. Set the value to #F87B99 */
+  background:silver;
+}
+
+
+
+html > body#layout > div.container >  div.banner{
     background-color: white;
-    width: 414px;
-    height: 86.4px;
-    margin: 7.2px 0px;
+    width: 71.875vw;
+    height: 26.66vh;
+    margin: 40vh 0vw 0vh 0vw;
     background-size: 100% 100%;
     background-image: url('../../assets/jumbo.jpg');
     
-    display: flex;
-    flex-direction: row;
-    }
+    display:flex;
+    flex-direction:column;
     
-    html > body#layout > div.container {
-    width: 368.64px;
+}
+
+html > body#layout > div.container {
+    width: 64vw;
     height:200%; 
     display:flex;
     flex-direction: column;        
-    }
-    html > body#layout > div.container > section.middle-content{
-    width: 368.6px;
+}
+html > body#layout > div.container > section.middle-content{
+    width: 64vw;
     height:100%; 
     display:flex;
-    padding: 10.8px;
-    border-bottom: .72px dashed black;
-    border-top: .72px dashed black;
-    flex-direction: row;        
-    }
-    
-    .middle-content {
-    margin-bottom: 7.2px;
-    border-bottom: .36px dashed black;
-    }
-    
-    .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-    }
-    
-    .middle-content .boxes {
+    padding: 3.33vh 1.875vw;
+    display:flex;
+    flex-direction: column;
+    font-weight:bold;
+    font-size: .9rem;
+    line-height: .8rem;
+    border-bottom: 0.22vh dashed black;
+    border-top: 0.22vh dashed black;
+    flex-direction: column;        
+}
+
+.middle-content {
+    margin-bottom: 2.22vh;
+    border-bottom: 0.11vh dashed black;
+}
+
+.middle-content h2 {
+    padding: 0% 2%;
+    margin-bottom: 0vh;
+}
+
+.middle-content > div.boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    }
-    
-    .middle-content .boxes .box {
-    width: 12.5%;
-    height: 36px;
+}
+
+.middle-content > div.boxes > div.box {
+    width: 28.5%;
+    height: 40.11vh;
+    font-size: 2.8rem;
     background: black;
-    margin: 7.2px 2.5%;
+    margin: 2.22vh 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    }
-    
-    
-    html > body#layout > div.container > section.top-content {
-    width: 368.6px;
-    height:200%; 
+}
+
+/* The Future and Past columns to make wider or marginit  */
+ div.container > section.top-content {
+    width: 64vw;
+    height:600%; 
     display:flex;
-    flex-direction: row;        
-    }
-    html > body#layout > div.container > section.top-content > div.text-container{
-    width: 368.6px;
-    height:72px;
-    padding: 3.6px 0px 3.6px 25.2px;
-    margin:7.2px 7.2px; 
-    display:block;
-    }
-    html > body#layout{
-    width: 368.6px;
+    flex-direction: column;        
+}
+ div.container > section.top-content > div.text-container{
+    width: 64vw;
+    /* The elements height for the two rows of text with past and future */
+    height:42.22vh;
+    font-size: 1rem;
+    padding: 1.11vh 0vw 1.11vh 4.375vw;
+    margin: 2.22vh 1.25vw; 
+    flex-wrap: wrap;
+    
+}
+html > body#layout{
+    width: 64vw;
     height:200%;
-    margin: 0px 36px ;
-    display:flex;
-    flex-direction: row;
-    }
-    
-    html > body#layout > div.container > section.bottom-content{
-    width:368.6px;
-    height: 200%;
-    display:flex;
-    flex-direction: row;
-    
-    }
-    html > body#layout > div.container > section.bottom-content > div.text-container{
-    width: 368.6px;
-    height:72px;
-    padding: 3.6px 0px 3.6px 25.2px;
-    margin:7.2px 7.2px; 
-    display:block;
-    }
-    html > body#layout > div.container > section.bottom-content > div.text-container > h2{
-    font-weight: lighter;
-    line-height: 0.18rem;
-    letter-spacing: 0.072rem;
-    }
-    html > body#layout > div.container > section.bottom-content > div.text-container > p{
-    line-height: .5rem;
-    letter-spacing: 0.036rem;
-    }
-    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  >a.btn:hover {
-    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
-    font-weight:normal;
-    background:rgb(255, 255, 255);
-    color:purple;
-    }
-    html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.active:hover {
-    /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
-    font-weight:bold;
-    background:black;
-    color:purple;
-    }
-    
-    footer {
-    width:414px;
-    height: 25.2px;
-    flex-direction: row;
-    display:flex;
-    background-color: black;
-    }
-    footer > nav{
-    padding: 7.2px 0px 0px 28.8px;
-    }
-    nav a {
-    text-decoration: none;
-    font-size: .5rem;
-    margin: 0px 43.2px 0px 0px;
-    color: white;
-    }
-    
-    html > body#layout > div.container > section.middle-content > h2{
-    letter-spacing: 0.036rem;
-    font-weight: normal;
-    }
-    
-    html > body#layout > div.container > section.middle-content{
+    margin: 0vh 6.25vw ;
     display:flex;
     flex-direction: column;
-    font-weight:bold;
-    font-size: .324rem;
-    line-height: .288rem;
+}
+
+html > body#layout > div.container > section.bottom-content{
+    width:64vw;
+    height: 200%;
+    display:flex;
+    flex-direction: column;
+
+}
+html > body#layout > div.container > section.bottom-content > div.text-container{
+    width: 64vw;
+    height:90.22vh;
     
+    display:block;
+}
+html > body#layout > div.container > section.bottom-content > div.text-container > h2{
+    font-weight: 2rem;
+    font-size: 6rem;
+    line-height: 0.5rem;
+    letter-spacing: 0.6rem;
+}
+html > body#layout > div.container > section.bottom-content > div.text-container > p{
+    
+   line-height: 1.4rem;
+   font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  >a.btn:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  font-weight:normal;
+  background:rgb(255, 255, 255);
+  color:purple;
+}
+html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myNav  > a.active:hover {
+/*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+  font-weight:bold;
+  background:black;
+  color:purple;
+}
+
+footer {
+    
+    margin:8.76vh 15.5vw ;
+    margin-left:0vw;
+    width:71.875vw;
+    height: 80.77vh;
+    flex-direction: row;
+    display:inline-flex;
+    justify-content: space-between;
+    
+    background-color: yellow;
+}
+footer > nav{
+/* Put padding here shows room for a title there  
+padding: 12.22vh 0vw 0vh 5vw;
+*/
+
+width:45vw;
+height:188vh;
+background-color: black;
+
+}
+
+
+
+
+footer > nav.cc > button > a.i{
+    box-sizing: border-box; 
+       display: flex;
+       flex-direction: row;
+       
+        
     }
+
+footer{
+    display:flex;
+
+    justify-content: center;
+}
+footer > .cc{
+    margin-top:6vh;
+    width:90%;
+    height:85%;
+}
+
+nav a {
     
-    }
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: 0.8rem;
+    margin: 0vh 7.5vw 0vh 0vw;
+    color: red;
+}
+button{
+    background:green;
+    width:20vw;
+    margin:1vw 1vh;
+    height: 20vh;
+
+
+}
+
+
+html > body#layout > div.container > section.middle-content > h2{
+letter-spacing: .1rem;
+font-weight: normal;
+font-size: 1.6rem
+}
+button > a.i{
+display:flex;
+justify-content: center;
+}
+
+.i{
+    background-color: yellowgreen;
+    width:17vw;
+    height:11.33vh;
+
+}
+
+
+}
+
+
+@media(max-width:'400px') and (max-height:'400px'){
+    /* The Future and Past columns to make wider or margini  */
+html > body#layout > div.container > section.top-content {
+    width: 194vw;
+    height:1600%; 
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;        
+}
+html > body#layout > div.container > section.top-content > div.text-container{
+    width: 64vw;
+    /* The elements height for the two rows of text with past and future */
+    height:42.22vh;
+    font-size: 1rem;
+    padding: 1.11vh 0vw 1.11vh 4.375vw;
+    margin: 2.22vh 1.25vw; 
+    flex-wrap: wrap;
     
+}
+html > body#layout{
+    width: 164vw;
+    height:200%;
+    margin: 0vh 6.25vw ;
+    display:flex;
+    flex-direction: column;
+}
+
+
+}
+

@@ -1,6 +1,6 @@
-@media  (max-width: 700px){
+@media  (max-width: 500px){
 
-div#head{
+div#header{
     display:block;
     box-sizing: border-box;
     padding-top: .01%;

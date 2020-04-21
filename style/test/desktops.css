@@ -173,20 +173,26 @@ html > body#layout > div.container > header#navHeader > div#lambdaLogo > nav#myN
 }
 
 footer {
-    width:71.875vw;
-    height: 7.77vh;
-    flex-direction: row;
-    display:flex;
-    background-color: black;
+  
+    flex-direction: column;
+    display:inline-flex;
+
 }
+
+
 footer > nav{
+    margin:600px 0;
+    background-color: black;
+    width:71.875vw;
+    height: 12.77vh;
 padding: 2.22vh 0vw 0vh 5vw;
+
 }
-nav a {
+nav  a {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     margin: 0vh 7.5vw 0vh 0vw;
-    color: white;
+    color: red;
 }
 
 html > body#layout > div.container > section.middle-content > h2{

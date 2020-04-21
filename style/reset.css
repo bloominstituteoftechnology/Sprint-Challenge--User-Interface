@@ -17,7 +17,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	}
 body {
-	line-height: 1;
+	line-height: .9;
 	color: black;
 	}
 ol, ul {
