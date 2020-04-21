@@ -120,7 +120,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+    .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -131,7 +131,7 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box1 {
+ .boxes .box1 {
     background-color: teal;
     color:white;
     width: 12.5%;
@@ -141,7 +141,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box2 {
+ .boxes .box2 {
     background-color: gold;
     color:white;
     width: 12.5%;
@@ -151,7 +151,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box3 {
+ .boxes .box3 {
     background-color: cadetblue;
     color:white;
     width: 12.5%;
@@ -161,7 +161,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box4{
+ .boxes .box4{
     background-color: coral;
     color:white;
     width: 12.5%;
@@ -171,7 +171,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box5{
+ .boxes .box5{
     background-color: crimson;
     color:white;
     width: 12.5%;
@@ -181,7 +181,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box6{
+ .boxes .box6{
     background-color: forestgreen;
     color:white;
     width: 12.5%;
@@ -191,7 +191,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box7{
+ .boxes .box7{
     background-color: darkorchid;
     color:white;
     width: 12.5%;
@@ -201,7 +201,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box8{
+ .boxes .box8{
     background-color: hotpink;
     color:white;
     width: 12.5%;
@@ -211,7 +211,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box9{
+ .boxes .box9{
     background-color: indigo;
     color:white;
     width: 12.5%;
@@ -221,7 +221,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .boxes .box10{
+.boxes .box10{
     background-color: dodgerblue;
     color:white;
     width: 12.5%;
@@ -264,13 +264,48 @@ footer nav a {
     text-decoration: none;
 }
 
-@media (max-width: 800px){
-    .container
-}
+/* @media (max-width: 800px){ */
+    /* .container */
+/* } */
 
-@media (max-width: 400px){
-    .middle-content, .boxes .box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8 .box9 .box10{
+@media (max-width: 500px){
+    .container{
+        width: 80%;
+    }
+    .jumbo{
+        /* flex-direction: column; */
+        /* align-items: center;  */
+        text-align: center;
+    }
+    .navbar a{
+        flex-direction: column;
+        align-items: center; 
+        margin: 20%;   
+    }
+    /* .button:hover { */
+        /* background-color: lightgrey; */
+        /* color: grey; */
+    /* } */
+    .top-content{
+        display: flex;
+        flex-direction: column; 
+        align-items: left;
+    }
+    .middle-content, h2{
+        flex-direction: column;
+        text-align: left; 
+    }
+    .middle-content, .boxes{
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        padding: auto;
+    }
+    .middle-content .boxes div{
+        width: 60%;
+    }
+    .text-container{
+        flex-direction: column;
+        text-align: left;  
     }
 }

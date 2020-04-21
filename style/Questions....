@@ -1,0 +1,27 @@
+Questions....
+
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. 
+For example, a <p> tag indicates that the enclosed text is a paragraph.
+
+What are the 4 areas of the box model?
+
+1- margin, 2- border, 3- padding, 4- content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+It's working for CSS, aligning the text or iten selected.
+
+Explain why git is valuable to a team of developers.
+
+git is a great team working and building tool, its allows multiple poeple to collaborate 
+and work on a project all at once.
+
+Define mobile-first design in your own words.
+
+It's a design strategy that says when you create a website or app, you should start sketching and creating a 
+ prototype for the smallest screen first and work your way up to larger screens.
+
+
