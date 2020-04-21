@@ -81,7 +81,7 @@ nav {
     text-decoration: none;
     color:black; 
 }
-@media(max-width: 500px){
+@media(max-width: 800px){
     nav {
         flex-direction: column;
         align-items: center;
