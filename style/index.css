@@ -202,6 +202,8 @@ nav a:hover{
     background: dodgerblue;
 }
 .first.sec{
+    padding: 20;
+    margin: auto;
     display: flex;
 
 }
@@ -214,10 +216,11 @@ button{
     padding: 10px;
     margin-top: 10px
 }
-.sec-div{
+/* .sec-div{
+   
     padding: 20px 0;
     margin: auto;
-}
+} */ 
 .first-img{
     width: 780px;
    
@@ -241,6 +244,7 @@ button{
     
     .container {
       display: flex;
+      flex-direction: column;
     }
     
   h2{
@@ -252,16 +256,20 @@ button{
   @media ( max-width: 500px){
     
     body{
-      background: white; 
+      background: red; 
     }  
-    nav a{
+    nav {
         display: flex;
+        flex-direction: column;
+
 
     }
     .boxes{
       display: flex;
       flex-direction: column;
       justify-content: center;
+      flex-wrap: nowrap;
+      
 
 
     }
@@ -271,9 +279,7 @@ button{
         /* flex-wrap: wrap; */
   }
 
-    }
-    }
-    
+        
     .container {
       flex-wrap: wrap;
       
