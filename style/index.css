@@ -25,7 +25,25 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section 
+
+@media 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    padding: 50px 10px;}
+
+    header nav {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+      }
+
+{
 	display: block;
 }
 body {
@@ -101,37 +119,6 @@ p {
     justify-content: space-evenly;
 }
 
-.box1{
-    color:teal;
-}
-.box2{
-    color: gold;
-}
-.box3{
-    color: cadetblue;
-}
-.box4{
-    color: coral;
-}
-.box5{
-    color:crimson;
-}
-.box6{
-    color:forestgreen;
-}
-.box7{
-    color:darkorchid;
-}
-.box8{
-    color:hotpink;
-}
-.box9{
-    color: indigo;
-}
-.box10{
-    color:dodgerblue;
-}
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -162,7 +149,7 @@ footer {
     background: black;
 }
 
-nav a {
+footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -171,35 +158,7 @@ nav a {
     font-size: 14px;
 }
 
-nav a {
-    color: black;
+footer nav a {
+    color: white;
     text-decoration: none;
 }
-@media (max-width:800px){
-    .middle-content .boxes .box1 ,.box2 ,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10 {
-        width: 50.5%;
-        height: 380px;
-        background: black;
-        margin: 20px 2.5%;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    header nav{
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-   }
-   .my-pic  {display: flex;
-    padding: 20px;
-    border: solid;}
-   header nav a
-   {
-  box-sizing: border-box;
-  list-style-type: none;
-  margin:20px;
-  padding: 15px;
-  display: block; 
-  padding: 10px;
-  }
