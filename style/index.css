@@ -51,43 +51,48 @@ table {
     box-sizing: border-box;
 }
 
-header{margin:40px;
+header{
+    margin:40px;
     display:flex;
-   justify-content: space-evenly;
-    
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding:10px;
        }
+
     @media(max-width:800px){
     header{margin-top: 50px;}}
        
-container{display:flex;
-   justify-content: space-between;
-   
-
-   
-  
-}
-
-    .lambda-banner{
+    .container{
         display:flex;
-        justify-content: space-between;
-        align-items: left;}
-
-    nav .a{display:flex;
         justify-content: space-evenly;
-        align-items: space-between;
-        flex-direction: row; 
-        text-decoration: none;
-/*         margin: 40px;
-        padding: 50px; */
-      
-        }
-         
+        align-items: row;
+        flex-direction: row;
+        margin-top: 300px;
+    }
+    .lambda-banner{
+            display:flex;
+            justify-content: space-evenly;
+            align-items: left;
+           }
 
-.banner-photo{
-    margin: 50px;
-    padding: 25px;
-    display: flex;
-    flex-wrap: wrap;
+        header .container nav .nav-item{display:flex; 
+                justify-content: space-evenly;
+                align-items: space-between;
+                flex-direction: row; 
+                text-decoration: none;
+                display: inline-block;
+                padding: 35px;
+                color: black;
+                margin-top: 70px;
+                    }
+            
+            
+
+    .banner-photo{
+        margin: 50px;
+        padding: 25px;
+        display: flex;
+        flex-wrap: wrap;
 }
 
 
@@ -125,6 +130,14 @@ p {
     padding-bottom: 20px;  
 }
 
+    @media (max-width:800px){
+        body .top-content{
+            display:flex;
+            flex-direction: column;
+            display: inline-block;
+            margin-left: 400px;
+        }
+    }
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -143,8 +156,10 @@ p {
 
  @media (max-width:800px){
     .middle-content .boxes {display:flex;
-              flex-direction: column;}} 
-              @media (max-width:800px){
+              flex-direction: column;
+              margin-left: 300px;
+              }} 
+              @media (max-width:500px){
                 .middle-content .boxes {display:flex;
                   flex-direction: column;
                   align-content:center;}}
