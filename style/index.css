@@ -294,6 +294,9 @@ footer nav a {
         font-size: .75em; 
         
     }
+    .top-content .text-container {
+        width: 100%;
+    }
     .middle-content, h2{
         flex-direction: column;
         text-align: left; 
