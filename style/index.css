@@ -202,7 +202,7 @@ header nav {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    fle
+    flex-wrap: wrap;
 }
 
 .bottom-content .text-container {
@@ -232,7 +232,7 @@ footer nav a {
     text-decoration: none;
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px)   {
     .boxFive {
         display: none!important;
     }
@@ -262,15 +262,14 @@ footer nav a {
         display: flex;
         flex-direction: column;
     }
-    }
     .boxes {
         display:flex;
        flex-direction: column;
     }
-h2 {
+    h2 {
     padding: none; 
     margin-bottom: 5px;
-}
+    }
 
     p {
         display: flex; 
@@ -298,4 +297,8 @@ header nav a{
     height: 65px;
 
 }
-
+.bottom-content{
+    display: flex;
+    flex-direction: column;
+}
+}
