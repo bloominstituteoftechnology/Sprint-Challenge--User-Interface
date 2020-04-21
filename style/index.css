@@ -85,11 +85,12 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
-.container {
-    width: 800px;
-    margin: 0 auto;
-}
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
 
 .top-content {
     display: flex;
@@ -114,7 +115,6 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -265,3 +265,4 @@ footer nav a {
     color: rgb(114, 111, 111);
     text-decoration: none;
 }
+@media only screen and (max-width: 500px)
