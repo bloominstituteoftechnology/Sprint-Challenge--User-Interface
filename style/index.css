@@ -143,4 +143,152 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
 }
+/* ======================================= */
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+header nav a{
+text-decoration: none;
+color: gray;
+justify-content: space-evenly;
+padding:  20px;
+align-items: center;
+margin: 20px;
+
+}
+
+nav a:hover{
+    background: black;
+}
+.first-img{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+#box-1{
+    background: teal;
+}
+#box-2{
+    background: gold;
+}
+#box-3{
+    background: cadetblue;
+}
+#box-4{
+    background: coral;
+}
+#box-5{
+    background: crimson;
+}
+#box-6{
+    background: forestgreen;
+}
+#box-7{
+    background: darkorchid;
+}
+#box-8{
+    background: hotpink;
+}
+#box-9{
+    background: indigo;
+}
+#box-10{
+    background: dodgerblue;
+}
+.first.sec{
+    padding: 20;
+    margin: auto;
+    display: flex;
+
+}
+
+.second-sec{
+    display: flex;
+}
+
+button{
+    padding: 10px;
+    margin-top: 10px
+}
+/* .sec-div{
+   
+    padding: 20px 0;
+    margin: auto;
+} */ 
+.first-img{
+    width: 780px;
+   
+}
+.last-div{
+    margin-bottom: 20px;
+}
+
+@media ( max-width: 950px){
+  
+    body{
+      background:white; 
+    }  
+    .boxes{
+      display: flex;
+    }
+    .top-content{
+      text-align: center;
+      font-size : 2.4rem;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    
+  h2{
+    text-align: center;
+  }
+    
+  }
+  
+  @media ( max-width: 500px){
+    
+    body{
+      background: red; 
+    }  
+    nav {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .boxes{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      
+
+
+    }
+    .text-container{
+        display: flex;
+        font-size : 1.4rem;
+        /* flex-wrap: wrap; */
+  }
+
+        
+    .container {
+      flex-wrap: wrap;
+      
+    }
+    
+  .top-content{
+      display: flex;
+    text-align: center;
+    font-size : 1.4rem;
+  }
+    
+  }
