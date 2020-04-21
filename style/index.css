@@ -1,202 +1,85 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-
    v2.0 | 20110126
-
    License: none (public domain)
-
 */
 
-
-
 html, body, div, span, applet, object, iframe,
-
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-
 a, abbr, acronym, address, big, cite, code,
-
 del, dfn, em, img, ins, kbd, q, s, samp,
-
 small, strike, strong, sub, sup, tt, var,
-
 b, u, i, center,
-
 dl, dt, dd, ol, ul, li,
-
 fieldset, form, label, legend,
-
 table, caption, tbody, tfoot, thead, tr, th, td,
-
 article, aside, canvas, details, embed, 
-
 figure, figcaption, footer, header, hgroup, 
-
 menu, nav, output, ruby, section, summary,
-
 time, mark, audio, video {
-
 	margin: 0;
-
 	padding: 0;
-
 	border: 0;
-
 	font-size: 100%;
-
 	font: inherit;
-
 	vertical-align: baseline;
-
 }
-
 /* HTML5 display-role reset for older browsers */
-
 article, aside, details, figcaption, figure, 
-
 footer, header, hgroup, menu, nav, section {
-
 	display: block;
-
 }
-
 body {
-
-    line-height: 1;
-
-    
-
+	line-height: 1;
 }
-
 ol, ul {
-
 	list-style: none;
-
 }
-
 blockquote, q {
-
 	quotes: none;
-
 }
-
 blockquote:before, blockquote:after,
-
 q:before, q:after {
-
 	content: '';
-
 	content: none;
-
 }
-
 table {
-
 	border-collapse: collapse;
-
 	border-spacing: 0;
-
 }
-
-
-
-* {
-
-    box-sizing: border-box;
-    border: 1px solid black;
-
-}
-
 html {
     font-size: 62.5%;
 }
+* {
+    box-sizing: border-box;
+}
 
 html, body {
-
     height: 100%;
-
     font-family: 'Roboto', sans-serif;
-
-    
-
 }
-
-
 
 h1, h2, h3, h4, h5 {
-
     font-size: 18px;
-
     margin-bottom: 15px;
-
     font-family: 'Rubik', sans-serif;
-
+    font-size: 2.5rem
 }
-header {
-    display: flex;
-}
-
-
-p {
-
-    line-height: 1.4;
-
-}
-
-
-
-.container {
-
-    width: 800px;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-
-}
-@media(max-width: 800px){
-    .container{
-        width: 100%;
-    }
-}
-
-
 .navigation {
-
-    display: flex;
-
-    flex-wrap: wrap;
-
-    margin: 20px;
-
-    
-
+    display:flex;
 }
-
-
-
+    .small {
+    height:7vh;
+}
 nav {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
     width: 100%;
-    align-items: flex-end;
-
-}
-
-
-
-nav a {
-
+    font-size: 1.5rem;
     justify-content: space-between;
-
-    height: 50%;
-
-    font-size: 14px;
-
-    text-decoration: black;
-
-    color: black;
-
+    display: flex;
+}
+.navigation nav a {
+    padding: 4%;
+    text-decoration: none;
+    color:black; 
 }
 
 @media(max-width: 400px){
@@ -206,126 +89,57 @@ nav a {
         justify-content: center;
     }
 }
-@media(max-width: 400px){
-    footer nav {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        
-    }
+p {
+    line-height: 1.4;
+    text-align: initial;
+    font-size: 1.1rem
 }
 
-header {
-
-    margin: 20px;
-
+.container {
+    width: 800px;
+    margin: 0 auto;
 }
-
-
 
 .top-content {
-
     display: flex;
-
     flex-wrap: wrap;
-
     justify-content: space-evenly;
-
     margin-bottom: 20px;
-
     border-bottom: 1px dashed black;
-
 }
-
-.big-Pic {
-    width: 100%;
-}
-
 
 .top-content .text-container {
-
-    display: flex;
-    width: 100%;
-
+    width: 48%;
     padding: 0 1%;
-
     padding-bottom: 20px;  
-
 }
-@media(max-width: 400px){
-    .top-content .text-container {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-
-    }
-}
-
-
 
 .middle-content {
-
     margin-bottom: 20px;
-
     border-bottom: 1px dashed black;
-
 }
-
-
 
 .middle-content h2 {
-
     padding: 0 2%;
-
     margin-bottom: 0;
-    display: flex;
-
 }
-
-
 
 .middle-content .boxes {
-
     display: flex;
-
     flex-wrap: wrap;
-
     justify-content: space-evenly;
-
 }
 
-@media(max-width: 500px){
-   .middle-content .boxes {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: flex-end;
-       }
-   }
-
-.middle-content .boxes .box-1 {
-
-    width: 50%;
-
+.middle-content .boxes {
+    width: 12.5%;
     height: 100px;
-
-    background: teal;
-
     margin: 20px 2.5%;
-
     color: white;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
+    border:1px solid black;
 }
-
-
-
 .middle-content .boxes .box-2 {
 
     width: 50%;
@@ -334,7 +148,7 @@ header {
 
     background: gold;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -356,7 +170,7 @@ header {
 
     background: cadetblue;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -378,7 +192,7 @@ header {
 
     background: coral;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -400,7 +214,7 @@ header {
 
     background: crimson;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -422,7 +236,7 @@ header {
 
     background: forestgreen;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -444,7 +258,7 @@ header {
 
     background: darkorchid;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -466,7 +280,7 @@ header {
 
     background: hotpink;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -488,7 +302,7 @@ header {
 
     background: indigo;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -510,7 +324,7 @@ header {
 
     background: dodgerblue;
 
-    margin: 20px 2.5%;
+    margin: 20px 12.5%;
 
     color: white;
 
@@ -521,96 +335,43 @@ header {
     justify-content: center;
 
 }
-
-
-
+@media(max-width: 500px){
+    .middle-content .boxes {
+         flex-direction: column;
+         flex-wrap: nowrap;
+         align-items: center;
+         justify-content: flex-end;
+        }
+    }
 .bottom-content {
-
     display: flex;
-
     margin: 0 2% 20px;
-
     justify-content: space-around;
-
 }
-
-
 
 .bottom-content .text-container {
-
     padding-right: 4%;
-
 }
-
-
 
 .bottom-content .text-container:last-child {
-
     padding-right: 0;
-
 }
 
-
-
 footer {
-
     width: 100%;
-    display: flex;
     background: black;
-
-}
-@media(max-width: 400px){
-    footer {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
-
-footer {
-
-    width: 100%;
-
+footer nav {
+    width: 60%;
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     padding: 20px 2%;
-
     font-size: 14px;
-    position: bottom;
-
 }
-@media(max-width: 400px){
-    footer nav {
-        flex-direction: column;
-        margin: 0 50%;
-    }
-}
-
 
 footer nav a {
-
     color: white;
-
     text-decoration: none;
-
 }
-@media(max-width: 800px){
-    section {
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    }
-    
-        @media(max-width: 800px){
-            .container {
-                flex-direction: column;
-                align-items: auto;
-                flex-wrap: nowrap;
-            }
-            }
-            
