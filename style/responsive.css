@@ -1,0 +1,89 @@
+/* Mobile responsive design */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid crimson;
+  padding: 20px 1.25%;
+}
+
+/* Big tablets to 1200px (widths smaller than 1140px) */
+@media only screen and (max-width:1200px) {
+  .container {
+      background: lightgreen;
+  }
+  
+  .container header nav {
+      display: flex;
+      
+
+  }
+
+  .container header nav a {
+      margin-bottom: 10px;
+
+  }
+
+/* Small tablets to big tablets from 768px to 1023px */
+@media only screen and (max-width:1023px) {
+  .container {
+      background: lightgrey;
+  }
+  
+  .container header nav {
+      display: flex;
+      
+
+  }
+
+  .container header nav a {
+      margin-bottom: 10px;
+
+  }
+
+
+
+/* Cell phones to small tablets from 481px to 767 px */
+@media only screen and (max-width:767px) {
+  .container {
+      background: red;
+  }
+  
+  .container header nav {
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .container header nav a {
+      margin-bottom: 20px;
+
+  }
+
+
+
+
+}
+
+
+/* Small phones from 0 to 480px */
+
+@media only screen and (max-width:480px) {
+  .container {
+      background: powderblue;
+  }
+  
+  .container header nav {
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .container header nav a {
+      margin-bottom: 20px;
+
+  }
+
+
+
+
+}

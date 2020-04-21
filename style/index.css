@@ -90,6 +90,12 @@ header {
     border-radius: 10px;
 }
 
+/* Hero */
+div image-size{
+    width: 700px;
+    height: 400px;
+}
+
 /* Top content */
 section div h2.headline {
     font-size: 25px;
@@ -348,7 +354,33 @@ footer nav a {
     border: 1px solid crimson;
     padding: 20px 1.25%;
 }
-@media (max-width) {
+@media (max-width: 500px) {
+    .container {
+        background: powderblue;
+    }
+    
+    .container header nav {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container header nav a {
+        margin-bottom: 20px;
+
+    }
+
+
+/* Desktop responsive design */
+
+/* Mobile responsive design */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid crimson;
+    padding: 20px 1.25%;
+}
+@media (min-width) {
     .container {
         background: powderblue;
     }
