@@ -281,6 +281,7 @@ footer nav a {
         flex-direction: column;
         align-items: center; 
         margin: 20%;   
+        line-height: 30px;
     }
     /* .button:hover { */
         /* background-color: lightgrey; */
