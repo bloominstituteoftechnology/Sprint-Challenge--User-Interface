@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    background-color: black;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,13 +48,15 @@ table {
 	border-spacing: 0;
 }
 
-* {
+*  {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +72,8 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .top-content {
