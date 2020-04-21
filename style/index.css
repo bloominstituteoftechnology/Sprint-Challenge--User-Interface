@@ -2,6 +2,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -21,11 +22,6 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-    outline: 1px solid red;
-    outline-offset: -1px;
-}
 
 html, body {
     height: 100%;
@@ -39,11 +35,31 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-    
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.Lalo {
+  height: 100%;
+  width: auto;
 }
 
 .Midnight {
@@ -55,25 +71,34 @@ nav {
 
 .secondSec {
   width: 100%;
+  display: flex;
+    flex-direction: row;
+
+}
+
+@media (max-width: 500px) {
+  .secondSec {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 .leftSec {
     display: flex;
     flex-direction: column;
-    text-align: left;
-    width: 50%;
-  display: inline-block;
 }   
+
+h2 {
+  text-align: left;
+}
 
 .rightSec {
   display: flex;
   flex-direction: column;
-  text-align: right;
-  width: 45%;
-  display: inline-block;
+
   
 }
-
 
 p {
     line-height: 1.4;
@@ -96,6 +121,12 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.guessTheseAreDashes {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -121,6 +152,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .middle-content .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .box1 {
@@ -172,6 +211,13 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+}
+
+@media (max-width: 500px) {
+  .bottom-content {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .bottom-content .text-container:last-child {
