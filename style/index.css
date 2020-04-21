@@ -81,25 +81,28 @@ nav {
     text-decoration: none;
     color:black; 
 }
-
-@media(max-width: 400px){
-    .navigation nav {
+@media(max-width: 500px){
+    nav {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
     }
 }
 p {
     line-height: 1.4;
     text-align: initial;
-    font-size: 1.1rem
+    font-size: 1.5rem
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+@media(max-width: 800px){
+    .big-Pic {
+        width: 100%;
+        justify-content: center;
+    }
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -120,229 +123,90 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+    height: 5vh
 }
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-}
+    flex-wrap: wrap;
 
-.middle-content .boxes {
+    
+}
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border:1px solid black;
+    justify-content: space-evenly;
+    font-size: 2rem;
 }
-.middle-content .boxes .box-2 {
-
-    width: 50%;
-
-    height: 100px;
-
+.middle-content .boxes #box-1 {
+    display: flex;
+    align-items: center;
+    background: teal;
+    
+}
+#box-2 {
+    display: flex;
+    align-items: center;
     background: gold;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+   
 }
-
-
-
-.middle-content .boxes .box-3 {
-
-    width: 50%;
-
-    height: 100px;
-
+#box-3 {
+    display: flex;
+    align-items: center;
     background: cadetblue;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+    
 }
-
-
-
-.middle-content .boxes .box-4 {
-
-    width: 50%;
-
-    height: 100px;
-
-    background: coral;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
+#box-4 {
     display: flex;
-
     align-items: center;
-
-    justify-content: center;
-
+    background:coral;
+   
 }
-
-
-
-.middle-content .boxes .box-5 {
-
-    width: 50%;
-
-    height: 100px;
-
+#box-5 {
+    display: flex;
+    align-items: center;
     background: crimson;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+   
 }
-
-
-
-.middle-content .boxes .box-6 {
-
-    width: 50%;
-
-    height: 100px;
-
+#box-6 {
+    display: flex;
+    align-items: center;
     background: forestgreen;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+    
 }
-
-
-
-.middle-content .boxes .box-7 {
-
-    width: 50%;
-
-    height: 100px;
-
+#box-7 {
+    display: flex;
+    align-items: center;
     background: darkorchid;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+   
+    
 }
-
-
-
-.middle-content .boxes .box-8 {
-
-    width: 50%;
-
-    height: 100px;
-
+#box-8 {
+    display: flex;
+    align-items: center;
     background: hotpink;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+    
+    
 }
-
-
-
-.middle-content .boxes .box-9 {
-
-    width: 50%;
-
-    height: 100px;
-
+#box-9 {
+    display: flex;
+    align-items: center;
     background: indigo;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+    
+   
 }
-
-
-
-.middle-content .boxes .box-0 {
-
-    width: 50%;
-
-    height: 100px;
-
+#box-0 {
+    display: flex;
+    align-items: center;
     background: dodgerblue;
-
-    margin: 20px 12.5%;
-
-    color: white;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
+   
+    
 }
-@media(max-width: 500px){
-    .middle-content .boxes {
-         flex-direction: column;
-         flex-wrap: nowrap;
-         align-items: center;
-         justify-content: flex-end;
-        }
-    }
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
