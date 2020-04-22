@@ -168,7 +168,7 @@ header nav {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 75%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -202,7 +202,7 @@ header nav {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .bottom-content .text-container {
@@ -256,25 +256,23 @@ footer nav a {
     .text-container{
         display: flex;
         justify-content: space-evenly;
+        flex-direction: column;
         flex-wrap: wrap;
     }
+
     .top-content {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
     .boxes {
         display:flex;
        flex-direction: column;
     }
-    h2 {
-    padding: none; 
-    margin-bottom: 5px;
-    }
 
     p {
         display: flex; 
         flex-direction: column;
-        justify-content: start;
         flex-wrap: wrap;
     }
 
@@ -286,7 +284,7 @@ footer nav a {
 
     
 }
-header nav a{
+    header nav a{
     background-color: lightgray;
     color: black;
     padding: 1em 1.5em;
@@ -295,10 +293,14 @@ header nav a{
     padding: 20px;
     width: 100px;
     height: 65px;
-
 }
-.bottom-content{
+
+    .bottom-content {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+
 }
+
+
 }
