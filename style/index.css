@@ -111,7 +111,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.boxes:first-child{
+    background-color:teal;
+}
+.boxes:nth-child(2){
+    background-color: gold;
+}
+.boxes:nth-child(3){
+    background-color: cadetblue;
+}
+.boxes:nth-child(4){
+    background-color: coral;
+}
+.boxes:nth-child(5){
+    background-color: crimson;
+}
+.boxes:nth-child(6){
+    background-color: forestgreen;
+}
+.boxes:nth-child(7){
+    background-color: darkorchid;
+}
+.boxes:nth-child(8){
+    background-color: hotpink;
+}
+.boxes:nth-child(9){
+    background-color: indigo;
+}
+.boxes:last-child{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
