@@ -278,10 +278,18 @@ footer nav a {
         text-align: center;
     }
     .navbar a{
-        flex-direction: column;
-        align-items: center; 
-        margin: 20%;   
-        line-height: 30px;
+        display-flex: column;
+        /* flex-direction: column; */
+        /* align-items: center;  */
+        margin: 18%;   
+        line-height: 34px;
+        border: 1px solid black;
+        /* padding: -225px; */
+        /* width: 80% */
+        
+    }
+    .jumbo img{
+        width:90%
     }
     /* .button:hover { */
         /* background-color: lightgrey; */
