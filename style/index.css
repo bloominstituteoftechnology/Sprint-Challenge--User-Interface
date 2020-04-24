@@ -69,28 +69,28 @@ section1{
     background-color: gold;
 }
 .box3{ 
-    background-color:cadetblue; rgb(24, 202, 113);
+    background-color:cadetblue;
 }
 .box4{
-    background-color: coral;(219, 149, 19, 0.795);
+    background-color: coral;
 }
 .box5{
-    background-color:crimson;(20, 212, 20, 0.795);
+    background-color:crimson;
 }
 .box6{
-    background-color: forestgreen;(231, 99, 23, 0.795);
+    background-color: forestgreen;
 }
 .box7{
-    background-color: darkorchid;(89, 90, 172, 0.795);
+    background-color: darkorchid;
 }
 .box8{
-    background-color: hotpink; 81, 21, 196, 0.795);
+    background-color: hotpink;
 }
 .box9{
-    background-color: indigo(19, 219, 202, 0.795);
+    background-color: indigo;
 }
 .box10{
-    background-color: dodgerblue;(23, 204, 17, 0.795);
+    background-color: dodgerblue;
 }
 
 blockquote, q {
@@ -111,12 +111,14 @@ q:before, q:after {
     width:100%;
     background: black;
 
+
     }
  
-.footer, .nav a {
+ .footer nav a {
      color: white;
      text-decoration: none;
-             
+     display: flex;
+     flex-direction: center;           
     }
    /* media begins */
 
