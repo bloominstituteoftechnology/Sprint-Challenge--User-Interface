@@ -278,8 +278,9 @@ footer nav a {
         text-align: center;
     }
     .navbar a{
-        /* display:inline; */
-        display: block;
+        display:inline;
+        display:inherit;
+        /* display: block; */
         /* display-flex: column; */
         /* flex-direction: column; */
         /* align-items: center;  */
