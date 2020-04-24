@@ -278,14 +278,16 @@ footer nav a {
         text-align: center;
     }
     .navbar a{
-        display-flex: column;
+        /* display:inline; */
+        display: block;
+        /* display-flex: column; */
         /* flex-direction: column; */
         /* align-items: center;  */
         margin: 18%;   
         line-height: 34px;
         border: 1px solid black;
-        /* padding: -225px; */
-        /* width: 80% */
+        padding: 2%;
+        width: 60%
         
     }
     .jumbo img{
