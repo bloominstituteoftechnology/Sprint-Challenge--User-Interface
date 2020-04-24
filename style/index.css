@@ -291,8 +291,7 @@ footer nav a {
         display: flex;
         flex-direction: column;
         justify-content: left;
-        font-size: .75em; 
-        
+        font-size: .75em;   
     }
     .top-content .text-container {
         width: 100%;
@@ -304,10 +303,9 @@ footer nav a {
     .middle-content, .boxes{
         flex-direction: column;
         align-items: center;
-        width: 100%;
-    
-        
+        width: 100%;   
     }
+
     .middle-content .boxes div{
         width: 60%;
     }
@@ -342,5 +340,6 @@ footer nav a {
     .text-container{
         flex-direction: column;
         text-align: left;  
+        width:20%
     }
 }
