@@ -55,7 +55,7 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-nav a {
+nav a{
     text-decoration: none;
     color: black;
     padding: 2.5rem;
@@ -291,12 +291,16 @@ footer nav a {
         padding: 2%;
         width: 60%;
         /* height: 50px; */
-        margin: 0 auto;
-        
+        margin: 0 auto;    
     }
     .navbar {
-        align-items:center;
-        
+        align-items:center;   
+    }
+    #project2{
+        display: none; 
+    }
+    .nav-element:hover {
+        background-color: grey;
     }
     .jumbo img{
         width:90%
