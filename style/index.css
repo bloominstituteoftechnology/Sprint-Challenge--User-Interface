@@ -285,12 +285,17 @@ footer nav a {
         /* flex-direction: column; */
         /* align-items: center;  */
         /* display:none;to take out Project */
-        margin: 18%;   
+        /* margin: 18%;    */
         line-height: 34px;
         border: 1px solid black;
         padding: 2%;
         width: 60%;
-        height: 50px;
+        /* height: 50px; */
+        margin: 0 auto;
+        
+    }
+    .navbar {
+        align-items:center;
         
     }
     .jumbo img{
