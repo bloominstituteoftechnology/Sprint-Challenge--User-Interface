@@ -58,10 +58,21 @@ html, body {
 nav a{
     text-decoration: none;
     color: black;
-    padding: 2.5rem;
-    
+    padding: 2.5rem;   
 }
+/* .lambda{
+    text-align: left;
+    /* padding: rem; */
+    /* width: 0 auto; */
+    /* height: 0px; */ 
+}
+.nav-header{
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    /* padding: 0 20px; */
 
+}
 .navbar {
     text-align: center;
     padding: 2rem;
@@ -273,26 +284,19 @@ footer nav a {
         width: 80%;
     }
     .jumbo{
-        /* flex-direction: column; */
-        /* align-items: center;  */
+
         text-align: center;
     }
     .navbar a{
-        /* display:inline; */
-        /* display:inherit; */
+        
         display: block;
-        /* display-flex: column; */
-        /* flex-direction: column; */
-        /* align-items: center;  */
-        /* display:none;to take out Project */
-        /* margin: 18%;    */
         line-height: 34px;
         border: 1px solid black;
         padding: 2%;
         width: 60%;
-        /* height: 50px; */
         margin: 0 auto;    
     }
+    
     .navbar {
         align-items:center;   
     }
@@ -302,13 +306,13 @@ footer nav a {
     .nav-element:hover {
         background-color: grey;
     }
-    .jumbo img{
-        width:90%
+    .nav-element{
+        
     }
-    /* .button:hover { */
-        /* background-color: lightgrey; */
-        /* color: grey; */
-    /* } */
+    .jumbo img{
+        width:90%;
+    }
+    
     .top-content{
         display: flex;
         flex-direction: column;
