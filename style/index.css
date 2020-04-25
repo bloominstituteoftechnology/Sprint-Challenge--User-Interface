@@ -60,19 +60,7 @@ nav a{
     color: black;
     padding: 2.5rem;   
 }
-/* .lambda{
-    text-align: left;
-    /* padding: rem; */
-    /* width: 0 auto; */
-    /* height: 0px; */ 
-}
-.nav-header{
-    display: flex;
-    justify-content: center;
-    /* margin: 20px; */
-    /* padding: 0 20px; */
 
-}
 .navbar {
     text-align: center;
     padding: 2rem;
@@ -284,7 +272,6 @@ footer nav a {
         width: 80%;
     }
     .jumbo{
-
         text-align: center;
     }
     .navbar a{
@@ -306,9 +293,7 @@ footer nav a {
     .nav-element:hover {
         background-color: grey;
     }
-    .nav-element{
-        
-    }
+    
     .jumbo img{
         width:90%;
     }
