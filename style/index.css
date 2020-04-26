@@ -32,16 +32,30 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-nav, .nav a {
+ .logo , .top-nav{
     display: flex;
     flex-direction: row;
-    
+    width: 100%; 
+}
+.top-nav{
+display: flex;
+flex-direction: center;
+width: 75%;
+}
+ li{
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-left: 30px;
 }
 
 section, .box-content{
     display: flex;
     flex-direction: row;
     text-align: center;
+}
+.box-content{
     border-bottom: dotted black; 
 }
 section1{
@@ -101,9 +115,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-.top-content{
-    width: 100%;
+.top-content, nav section {
+    width: 50%;
     margin-bottom: 2%;
+    align-content: space-between;
 }
 
  footer {
@@ -187,26 +202,32 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 200%;
     margin: 0 auto;
+    align-content: center;
 }
-.top-content {
+.top-content{
     text-align: center;
        
 }
-
-.top-content future{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 100%;
+section{
     border-bottom:  dashed black;
+    width: 100%;
 }
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px; 
+ section, .text-container2 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-left: 10px;
+}
+.text-container2, h2{
+    display: flex;
+    flex-direction: column;
+}
+.text-container2{
+    margin-bottom: 10px;
 }
 
 .middle-content h2 {
