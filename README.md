@@ -18,8 +18,11 @@ In this challenge, you build a missing header (navigation and image) on the home
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home page and mobile version. 
 
  [Click here for home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
+ 
+ [Click here for tablet example](design/tablet.png)
 
-[Click here for mobile example](https://tk-assets.lambdaschool.com/fbe7ebfc-a4c2-4a32-8929-bbd41fbc4f67_ScreenShot2020-03-25at11.03.41AM.png)
+
+[Click here for mobile example](design/mobile.png)
 
 ### Commits
 
@@ -60,7 +63,7 @@ Your finished project must include all of the following requirements:
 
 #### Home Page
 
-[Review the provided design file for the home page](/design).  Notice the navigation and header images are missing.
+[Review the provided design files](/design). Notice the navigation and header images are missing in the starter code.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header
 * [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
