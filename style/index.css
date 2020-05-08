@@ -408,7 +408,17 @@ footer{
         margin: 0 10%;
         
     }
+.text-container {
+    width: 40%
+ 
+}
+    .bottom-content{
 
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: left;
+    }
 /*body {
     background: #008080;
 }*/
