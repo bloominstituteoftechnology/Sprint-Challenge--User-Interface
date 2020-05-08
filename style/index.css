@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -71,7 +72,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -79,19 +80,21 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     border-bottom: 1px dashed black;
+    padding: 5%;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2rem;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 1.25rem;
+    border-bottom: .0625rem dashed black;
+    padding: 0 5%;
 }
 
 .middle-content h2 {
@@ -99,29 +102,30 @@ p {
     margin-bottom: 0;
 }
 
- .boxes, div{
+ .middle-content .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: column ;
-    align-items: center;
+  
 }
 
-.middle-content .boxes div{
-    width: 15rem;
-    height: 12rem;
+.middle-content .boxes  div{
+    width: 12.5%;
+    height: 6.25rem;
     background: black;
-    margin: 2.5%;
+    margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column ;
+    padding: 1%;
+    
 }
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 1.25rem;
+    padding: 3%;
     justify-content: space-around;
 }
 
@@ -164,13 +168,109 @@ a {
 }
 
 header nav{
-    width:100%;
+    width: 80%;
+    padding:0 5% 0 20%;
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items:center;
+
+}
+.logo{
+    width:20%;
+    
+}
+.logo img{
+    max-width: 100%;
+    
+}
+.links{
+    width: 80%;
+    padding:5%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.wide-image img{
+    padding:0 20% 0 20%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.container{
+    padding: 5%;
+
+}
+.middle-content .boxes .box1{
+    background-color:#008080;
+}
+.middle-content .boxes .box2{
+    background-color:#FFD700;
+}
+.middle-content .boxes .box3{
+    background-color:#5F9EA0;
+}
+.middle-content .boxes .box4{
+    background-color:#FF7F50;
+}
+.middle-content .boxes .box5{
+    background-color: #DC143C;
+}
+.middle-content .boxes .box6{
+    background-color:#228B22;
+}
+.middle-content .boxes .box7{
+    background-color:#9932CC;
+}
+.middle-content .boxes .box8{
+    background-color:#FF69B4;
+}
+.middle-content .boxes .box9{
+    background-color:#4B0082;
+}
+.middle-content .boxes .box10{
+    background-color:#1E90FF;
+}
+.middle-content h2{
+    padding: 2%;
+}
+
+
+/* media */
+
+@media(max-width: 450px){
+    header nav{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        
+        
     }
-    .links{
-        width: 60%;
-        display: flex;
-        justify-content: space-around;
-    }
+}
+.links{
+    width:100%
+    
+    
+
+}
+.top-content{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .top-content div{
+    width:90%;
+}
+
+.bottom-content{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-content .text-container div{
+    width:90%;
+}
