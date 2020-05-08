@@ -19,10 +19,10 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
  [Click here for home page example](https://tk-assets.lambdaschool.com/39a49225-8ac9-43da-aa90-514fd60ae99a_sprint-challenge-ui-home-example.png)
  
- [Click here for tablet example](design/tablet.png)
+ [Click here for tablet example](design/Tablet.png)
 
 
-[Click here for mobile example](design/mobile.png)
+[Click here for mobile example](design/Mobile.png)
 
 ### Commits
 
