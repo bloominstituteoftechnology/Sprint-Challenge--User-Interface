@@ -218,7 +218,7 @@ footer nav a {
   }
   .bottom-content{
       flex-wrap: wrap;
-
+      width:40%
   }
 
 }
