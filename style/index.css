@@ -258,5 +258,36 @@ footer nav a {
 
 /*phone view */
 @media(max-width: 500px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+
+    header nav a{
+        font-size: 4rem;
+    } 
+
+    .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+        flex-basis: 50%;
+        height: 24rem;
+    }
+
+    .bottom-content{
+        flex-basis: 50%;
+        height: 24rem;
+    }
+
+    footer nav{
+        flex-direction: column;
+        flex-basis: 10%;
+    }
+
+    footer nav a{
+        flex-direction: column;
+        flex-basis: 10%;
+        font-size: 4rem;
+    }
+
+
 
 }
