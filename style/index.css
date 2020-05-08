@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: #FFFFFF;
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +49,10 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 
 html, body {
@@ -95,21 +99,24 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+ .boxes, div{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: column ;
+    align-items: center;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+.middle-content .boxes div{
+    width: 15rem;
+    height: 12rem;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column ;
 }
 
 .bottom-content {
@@ -132,7 +139,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,3 +151,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My Lines */
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+header nav{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    }
+    .links{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
