@@ -294,5 +294,28 @@ footer{
 .container-content{
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
+    justify-content: space-evenly;
+    
+    width: 75%;
+    
+}
+.strats{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.strats button{
+    margin-top: 5%;
+    width:35%;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.howWork{
+    width: 15%;
+    border: 2 px solid red;
 }
