@@ -277,8 +277,9 @@ p {
 }
 
 .middle-content .boxes {
-    margin-left: 20rem;
+    
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -333,10 +334,20 @@ footer nav a {
 }
 
 @media (max-width: 800px){
+
+    .middle-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
  .boxes{
-     text-align: center;
      width: 50%;
  }
+  .middle-content h2{
+      margin: 0;
+      width: 60%;
+  }
     .Navbutton {
         background-color: white;
         border: none;
