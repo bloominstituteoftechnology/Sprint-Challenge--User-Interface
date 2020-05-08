@@ -32,35 +32,33 @@ footer, header, hgroup, menu, nav, section {
 /* General Styling */
 header{
     display: flex;
-    margin: 2% 2%;
+    flex-direction: row;
     justify-content: space-between;
+    width: 800px;
+    margin: 2% auto;
   }
   
-header img{
-  
-}
 
-  
   header nav{
     width: 70%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     padding: 20px 2%;
     font-size: 14px;
   }
 
-header nav a{
+.links a{
   color:black;
-  background-color: yellow;
   text-decoration: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
 
-.hero-image img{
-  margin-right: 5%;
-  margin-left: 5%;
+.hero-image {
+ display: block;
+ width: 800px;
+ margin: 0 auto;
 }  
  
 body {
