@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-top:24px;
 }
 ol, ul {
 	list-style: none;
@@ -97,6 +98,10 @@ nav {
 	align-items:center;
 	width:calc((100% - 157px) / 5);
 	padding:12px;
+}
+
+.header-image {
+	margin:36px auto;
 }
 
 .top-content {
