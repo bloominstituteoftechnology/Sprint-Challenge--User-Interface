@@ -21,12 +21,17 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 62.5%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+
+*{
+    font-weight: bold;
 }
 body {
 	line-height: 1;
@@ -71,6 +76,16 @@ p {
     margin: 0 auto;
 }
 
+.logo_buttons{
+    display: flex;
+    flex: center;
+    align-items: center;
+}
+
+.navs{
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,7 +116,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes  {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,43 +125,66 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .box1{
     background-color: teal;
+    content: 1rem;
+    padding: 2rem;
+    
+    
 }
 
 .box2{
     background-color: gold;
+    content: 1rem;
+    padding: 2rem;
 }
 .box3{
     background-color: cadetblue;
+    content: 1rem;
+    padding: 2rem;
 }
 
 .box4{
     background: coral;
+    content: 1rem;
+    padding: 2rem;
 }
 
 .box5{
     background-color: crimson;
+    content: 1rem;
+    padding: 2rem;
 }
 .box6{
     background-color: forestgreen;
+    content: 1rem;
+    padding: 2rem;
 }
 .box7{
     background-color: darkorchid;
+    content: 1rem;
+    padding: 2rem;
 }
 
 .box8{
     background-color: hotpink;
+    content: 1rem;
+    padding: 2rem;
 }
 
 .box9{
     background-color: indigo;
+    content: 1rem;
+    padding: 2rem;
 }
 
 .box10{
     background-color: dodgerblue;
+    content: 1rem;
+    padding: 2rem;
 }
 
 .bottom-content {
@@ -161,6 +199,17 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.boxes .box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8 .box9 .box10{
+    
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 footer {
