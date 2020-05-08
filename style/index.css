@@ -132,7 +132,7 @@ header nav a {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 10rem;
     background: black;
@@ -215,15 +215,44 @@ footer nav a {
 @media(max-width: 800px){
   h2{
       font-size: 3rem;
-  }
-  .bottom-content{
-      flex-wrap: wrap;
-      width:40%
-  }
+    }
+  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    flex-wrap: wrap;
+    }
+
+  .top-content{
+      flex-direction: column;
+    }
+
+  .top-content .text-container{
+    justify-content: flex-start;
+    width: 90%;
+    }
+
+    .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    flex-basis: 40%;
+    flex-shrink: 0;
+    flex-grow: 0
+    }
+}
+
+.bottom-content p{
+    flex-direction: column;
+    flex-basis: 30%;
+
+}
+
 
 }
 
 /*phone view */
 @media(max-width: 500px){
-  
+    
+    header nav {
+        width: 20%;
+    }
+    .bottom-content{
+        flex-direction: column;
+        width:30%
+    }
 }
