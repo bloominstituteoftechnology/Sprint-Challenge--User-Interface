@@ -294,8 +294,7 @@ footer{
 .container-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
     width: 75%;
     
 }
@@ -303,6 +302,7 @@ footer{
     display: flex;
     flex-direction: column;
     width: 25%;
+    margin-left: 15%;
 }
 .strats button{
     margin-top: 5%;
@@ -315,7 +315,52 @@ footer{
     font-weight: bolder;
 }
 
-.howWork{
-    width: 15%;
-    border: 2 px solid red;
+.places{
+    width: 25%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.places button{
+    margin-top: 5%;
+    width:35%;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+.work{
+    margin-left: 25%;
+    width: 25%;
+    
+}
+.work button{
+    display: flex;
+    margin-top: 5%;
+    width:35%;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+    text-align: center;
+}
+.collab{
+    display: flex;
+    flex-direction: column;
+    width: 25%; 
+    margin-top: 30px;  
+}
+.collab button{
+    margin-top: 5%;
+    width:35%;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+
 }
