@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,10 +101,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix, .boxSeven, .boxEight, .boxNine, .boxTen {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -128,7 +127,7 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    background-color: black;
 }
 
 footer nav {
@@ -140,7 +139,129 @@ footer nav {
     font-size: 14px;
 }
 
-footer nav a {
+.topNav a {
+    text-decoration: none;
+    padding-top: 3%;
+    color: black;
+}
+
+.bottomNav a{
     color: white;
     text-decoration: none;
+    margin-left: 20%;
+}
+
+.container nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topImage {
+    padding: 3% 0;
+    background-size: cover;
+}
+
+.lambdaLogo {
+    padding-top: 1%;
+}
+
+.boxOne {
+    background-color: teal;
+}
+
+.boxTwo {
+    background-color: gold;
+}
+
+.boxThree {
+    background-color: cadetblue;
+}
+
+.boxFour {
+    background-color: coral;
+}
+
+.boxFive {
+    background-color: crimson;
+}
+
+.boxSix {
+    background-color: forestgreen;
+}
+
+.boxSeven {
+    background-color: darkorchid;
+}
+
+.boxEight {
+    background-color: hotpink;
+}
+
+.boxNine {
+    background-color: indigo;
+}
+
+.boxTen {
+    background-color: dodgerblue;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .middle-content .boxes .boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix, .boxSeven, .boxEight, .boxNine, .boxTen { 
+        height: 0;
+        width: 0;
+        padding: 20%;
+        white-space: nowrap;
+    }
+    .bottomNav a{
+        margin-left: 18%;
+    }
+    .top-content {
+        flex-direction: column;
+        padding-left: 0%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    
+    .top-content .text-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .middle-content .boxes .boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix, .boxSeven, .boxEight, .boxNine, .boxTen { 
+        height: 0;
+        width: 0;
+        padding: 40%;
+        white-space: nowrap;
+    }
+    .container nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .bottomNav a{
+        margin-left: 68%;
+        margin-top: 2%;
+    }
+    .topNav a {
+        margin-top: 2%;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lambdaLogo {
+        background-size: cover;
+        padding-top: 5%;
+        margin: 0 25%;
+    }
 }
