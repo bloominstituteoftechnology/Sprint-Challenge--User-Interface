@@ -35,14 +35,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+<!-- Semantic HTML is the proper way to markup a website vs. a <div> soup that is marked up for stylistic purposes. Semantic HTML is meant to provide meaning to your content so that things such as the browser and other website can interact with it more effectively-->
 2. What are the 4 areas of the box model?
+<!-- 1) Content -->
+<!-- 2) Padding -->
+<!-- 3) Border -->
+<!-- 1) Margin -->
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+<!-- The cross axis. That is the axis perpendicular to the main axis. 
+    For example: If the flex-direction: row; is set the main axis is up and down, and the cross axis is side to side. When switching the  flex-direction: column; the main-axis goes with the content up to down, while the cross-axis is then side to side. Remember that the cross-axis always crosses over the contents direction. 
+-->
 
 4. Explain why git is valuable to a team of developers.
+<!-- Version control. Teams save, and break up multiple parts of the product without altering the completed versions. -->
 
 5. Define mobile-first design in your own words.
+<!-- Designing a product or website based on the layout of 300-500px first before going on to wider pixel layouts such as tablet, and desktop. Mobile first design prevents conetent form not scaling to smaller screen sizes, as their is less real estate to work with the smaller the device. -->
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
