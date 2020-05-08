@@ -1,0 +1,5 @@
+Notes to keep myself organized:
+I added the answers to the questions inside the ReadMe.md as requested.
+Worked on my code in CodePen, then transferred my current code over to Visual Code.
+Still trying to make the header look correct.
+Added hero-image.
