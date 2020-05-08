@@ -364,3 +364,35 @@ footer{
     font-weight: bolder;
 
 }
+
+@media(max-width: 800px){
+  .top-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: center;
+     margin-left: 40%;
+      border:none;
+
+  }
+  .boxes{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .bottom-content{
+      display: flex;
+
+  }
+  .bottom-content h2{
+      font-size: 25px;
+  }
+  footer nav{
+      margin-left: 20%;
+      text-align: center;
+      font-size: 25px;
+  }
+.container img{
+    margin: 25px;
+}
+}  
