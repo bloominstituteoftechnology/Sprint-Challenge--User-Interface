@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -110,6 +110,43 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
