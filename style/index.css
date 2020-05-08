@@ -58,35 +58,44 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: 1.8rem;
 }
 
 header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 header nav {
-    font-size: 14px;
-    justify-content: center;
-    align-content: center;
+    font-size: 1.4rem;
+    align-items:center;
+    margin-top: .5%;
+    line-height: 3;
 }
 
 header nav a {
     color: black;
     text-decoration: none;
+    margin: 4rem 4rem 0 4rem ;
 
+
+}
+
+.jumbo{
+    margin: 3% 0 0;
 }
 
 
 .container {
-    width: 800px;
+    width: 80rem;
     margin: 0 auto;
 }
 
@@ -94,19 +103,19 @@ header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2rem;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
 }
 
 .middle-content h2 {
@@ -122,13 +131,14 @@ header nav a {
 
 .middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
-    height: 100px;
+    height: 10rem;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2rem 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.8rem;
 }
 
 .box1{
@@ -189,11 +199,27 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 2rem 2%;
+    font-size: 1.4rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*Tablet view */
+@media(max-width: 800px){
+  h2{
+      font-size: 3rem;
+  }
+  .middle-content .boxes{
+    flex-direction: column;
+  }
+
+}
+
+/*phone view */
+@media(max-width: 500px){
+  
 }
