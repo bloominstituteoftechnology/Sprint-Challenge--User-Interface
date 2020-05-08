@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -70,10 +71,23 @@ p {
     width: 800px;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:5%;
+}
 
+.imgContainer{
+    margin: 3%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .top-content {
     display: flex;
@@ -246,4 +260,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+@media (max-width: 500px){
+
+    .container, .header, .top-content, .boxes, .bottom-content, .text-container, .middle-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+       
+    }
+
+    nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding:2%;
+    }
+    .imgContainer{
+        width: 10%;
+        height: auto;
+    }
+    
+    .middle-content, .boxes, .header, .top-content, .bottom-content, .container, .text-container{
+        align-items: center;
+   
+    }
+
+    .middle-content,  .header, .top-content, .bottom-content,  .text-container{
+        max-width: 80%;
+    }
+    .middle-content h2{
+        justify-content: center;
+        text-align: center;
+    }
+    .text-container{
+        padding:2%;
+    }
+
+    p{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 800px){
+    .top-content, .text-container{
+        flex-flow: column wrap;
+    }
+
+    .box1, .box2, .box3, .box4,.box5, .box6, .box7, .box8, .box9, .box10 {
+        max-width: 30%;;
+        flex: 60%;
+        flex-wrap: wrap;
+    }
+    .boxes{
+        display:flex;
+    }
+
+    .bottom-content{
+        flex-wrap: wrap;
+        display:flex;
+        max-width: 50%;;
+
+       
+    }
+
+    .header{
+        justify-content: space-evenly;
+        max-width: 80%;
+    }
+
+
 }
