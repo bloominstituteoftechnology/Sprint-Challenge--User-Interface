@@ -28,6 +28,50 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* for scaling */
+html{
+    font-size:62.5%; 
+  }  
+ 
+
+
+  /* add css for nav*/
+  .head{
+    margin: 6% 0 0 0; /***/
+    
+}
+nav{
+    margin: 0 auto; /***/
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.Logo{
+    width: auto;
+    text-align: center;
+}
+
+.Navlinks
+{
+    margin: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.Navlinks li{
+    padding: 0 6%;
+    margin: 3rem 0 0 0;
+    
+    }
+
+.Navbutton {
+    
+    border: none;
+    border-radius: .5rem;
+    margin: 0 20%;
+}
+
 body {
 	line-height: 1;
 }
@@ -49,6 +93,9 @@ table {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    max-width:100%;
 }
 
 html, body {
@@ -64,6 +111,138 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+.top-content {
+    display: flex;
+    justify-content: center;
+}
+/* flex here*/
+#top-contentcontainer {
+    margin: 30%;
+}
+.bigtext{
+    display: flex;
+}
+/*add 2 sections to make the rows*/
+.boxes {
+    width: 100%;
+    height: 300 px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4%;
+}
+
+/*Add boxes and colors*/
+.box1  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box2  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: gold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box3  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box4  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: coral;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box5  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box6  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box7  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box8  {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box9 {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box10 {
+    margin: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -81,7 +260,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 3%;
     padding-bottom: 20px;  
 }
 
@@ -107,9 +286,6 @@ p {
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bottom-content {
@@ -127,20 +303,142 @@ p {
 }
 
 footer {
+    
     width: 100%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    margin: 0 4%;
+    border: 5px solid green;
+    width: 95%;
     padding: 20px 2%;
     font-size: 14px;
 }
 
 footer nav a {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    text-align: left;
+    margin: 1.5%;
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 800px){
+ .boxes{
+     text-align: center;
+     width: 50%;
+ }
+    .Navbutton {
+        border: none;
+    }
+
+    nav{
+        text-align: center;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        width: 50%;
+    }
+
+    .heropic {
+        width: 80%;
+    }
+    .top-content{
+        
+        display: flex;
+    } 
+
+   .bigtext{ 
+       margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+      
+   }
+
+    .text-container {
+        width: 100%;
+    flex-direction: column;
+    }
+
+    footer nav {
+        margin: 0;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        border: 5px solid green;
+        width: 95%;
+        padding: 20px 2%;
+        font-size: 14px;
+    }
+    footer nav a {
+        
+        width: 100%;
+        text-align: center;
+        margin: 0 10%;
+        
+    }
+
+/*body {
+    background: #008080;
+}*/
+.topboxes {
+    
+}
+
+.topboxes2 {
+    
+}
+
+    
+    }
+
+@media (max-width: 500px){
+
+    .Navbutton {
+        border: none;
+    }
+    
+
+    .logo{
+        width: 0 auto;
+        text-align: center;
+    }
+    .head{
+        width: 100%;
+    
+    }
+
+
+
+
+.topboxes {
+
+    
+}
+
+
+.topboxes2 {
+    
+}
+.top-content {
+    flex-direction: column;
+    align-items: center;
+}
+ 
+ .bottom-content {
+    flex-direction: column;
+    
+ }
+
+footer {
+   
+}
 }

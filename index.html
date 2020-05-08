@@ -3,44 +3,74 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <!--Add missing viewport meta tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sprint Challenge - Home</title>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="style/index.css">
 
 </head>
 
 <body>
+
+        <section class="head">
+             
+                <!--<input type="checkbox" id="nav-toggle" class="nav-toggle">-->
+                  <nav>
+                    <ul class ="Navlinks">
+                        <img Class="Logo" src="assets/lambda-black.png" alt="Lambda Logo">
+                        </img>
+                      <li><a href="/index.html"><button class="Navbutton">Home</button></a></li>
+                      <li><a href="/About.html"><button class="Navbutton">About</button></a></li>
+                      <li><a href="#"><button class="Navbutton">Products</button></a></li>
+                      <li><a href="#"><button class="Navbutton">Blog</button></a></li>
+                      <li><a href="#"><button class="Navbutton">Contact</button></a></li>
+                    </ul>
+                  </nav>
+                </section>
+
     <div class="container">
    
         <section class="top-content">
-            <div class="text-container">
-                <h2>The Future</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+
+           <!--Add missing image-->
+           <img Class="Heropic" src="assets/jumbo.jpg" alt="Jumbo Picture">
+        </img>
+ 
+        <div class="bigtext">
+                <div class="text-container">
+                    <h2>The Future</h2>
+                    <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+                </div>
+                <div class="text-container">
+                    <h2>The Past</h2>
+                    <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
+                </div>
             </div>
-            <div class="text-container">
-                <h2>The Past</h2>
-                <p>Proin sed quam sed tellus vestibulum ultrices quis in nunc. Phasellus id dui id tortor tincidunt efficitur. Proin faucibus imperdiet erat, non varius lacus. Maecenas non nisl id turpis egestas tincidunt. Nam condimentum venenatis magna eget finibus.</p>
-            </div>
+     
         </section>
         
         <section class="middle-content">
         
             <h2>Why Did It Have To Be Boxes...</h2>
             
-            <div class="boxes">
-                <div class="box">Box 1</div>
-                <div class="box">Box 2</div>
-                <div class="box">Box 3</div>
-                <div class="box">Box 4</div>
-                <div class="box">Box 5</div>
-                <div class="box">Box 6</div>
-                <div class="box">Box 7</div>
-                <div class="box">Box 8</div>
-                <div class="box">Box 9</div>
-                <div class="box">Box 10</div>
+            
+           <div class="boxes">
+           
+                <!--rename the classess to better style -->
+                <div class="box1">Box 1</div>
+                <div class="box2">Box 2</div>
+                <div class="box3">Box 3</div>
+                <div class="box4">Box 4</div>
+                <div class="box5">Box 5</div>
+                <div class="box6">Box 6</div>
+                <div class="box7">Box 7</div>
+                <div class="box8">Box 8</div>
+                <div class="box9">Box 9</div>
+                <div class="box10">Box 10</div>
             </div>
+ 
         
         </section>
 
@@ -63,8 +93,8 @@
         
         <footer>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
+                <a href="/index.html">Home</a>
+                <a href="/About.html">About</a>
                 <a href="#">Products</a>
                 <a href="#">Blog</a>
                 <a href="#">Contact</a>
@@ -73,3 +103,4 @@
     </div><!-- container -->        
 </body>
 </html>
+
