@@ -72,6 +72,11 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: baseline;
+}
+
+header img{
+    margin-top: 4%;
 }
 
 header nav {
@@ -85,8 +90,6 @@ header nav a {
     color: black;
     text-decoration: none;
     margin: 4rem 4rem 0 4rem ;
-
-
 }
 
 .jumbo{
@@ -213,8 +216,9 @@ footer nav a {
   h2{
       font-size: 3rem;
   }
-  .middle-content .boxes{
-    flex-direction: column;
+  .bottom-content{
+      flex-wrap: wrap;
+
   }
 
 }
