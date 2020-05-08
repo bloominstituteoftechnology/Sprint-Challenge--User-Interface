@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 /* General Styling */
+
+
 header{
     display: flex;
     flex-direction: row;
@@ -37,14 +39,12 @@ header{
     width: 800px;
     margin: 2% auto;
   }
-  
 
   header nav{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
-    padding: 20px 2%;
+    align-items: center;
     font-size: 14px;
   }
 
@@ -56,9 +56,8 @@ header{
 }
 
 .hero-image {
- display: block;
  width: 800px;
- margin: 0 auto;
+ margin: 0 auto 2%;
 }  
  
 body {
@@ -145,6 +144,10 @@ p {
     justify-content: center;
 }
 
+/* .box1{
+    background-color: teal;
+} */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -176,4 +179,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 800px){
+  .container{
+    background:yellow; 
+}        
+    .top-content{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .boxes{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap; 
+           justify-content: center;
+    }
+
+    .bottom-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    }
+
+@media(max-width: 500px){
+    .container{
+        background: orange;
+        display:flex;
+        flex-direction: column;
+    }
+
 }
