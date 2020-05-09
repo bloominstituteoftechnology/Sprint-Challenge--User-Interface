@@ -36,33 +36,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-
+<br />
 Semantic HTML is the particular way in which a code should be written in order for search engines and other programmers to be able to easily understand your code, such as including ```<header></header>``` tags to identify headers, ```<section></section>``` tags to identify sections, using proper hierarchy ```<header></header><section><h1></h1<h2></h2><p></p></section><footer></footer>```, etc.
-
+<br />
 
 2. What are the 4 areas of the box model?
 
-
+<br />
 Content (innermost section), border, padding, and margin (outtermost section)
-
+<br />
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-
+<br />
 Cross Axis (sometimes called the vertical axis)
-
+<br />
 
 4. Explain why git is valuable to a team of developers.
 
-
+<br />
 It allows many different developers to work on a project and update the changes within github quickly and easily
-
+<br />
 
 5. Define mobile-first design in your own words.
 
-
+<br />
 To design a website for mobile first. In today's world, mobile is used more than laptops and desktops, so it would make sense to design for mobile first. It can also simplify the responsive design projects.
-
+<br />
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
