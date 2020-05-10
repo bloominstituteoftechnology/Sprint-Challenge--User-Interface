@@ -208,7 +208,8 @@ footer nav a {
 
 /*tablet view */
 @media(max-width: 800px){
-   header{
+
+    header{
     margin: 2% 0;
    }
 
@@ -235,6 +236,22 @@ footer nav a {
         display: flex;
         flex-direction: column;
         flex-basis: 2rem;
+        border: .1rem solid red;
+
+    }
+    
+
+    .middle-content .boxes{
+        display: flex;
+        border: .1rem solid green;
+
+    }
+
+    .middle-content .boxes .box{
+        border: .1rem solid blue;
+        flex-basis: 30rem;
+        height: 27.5rem;
+        font-size: 2.3rem;
     }
 
     
@@ -297,9 +314,10 @@ footer nav a {
         max-width:50rem;
     }
     .top-content .jumbo img{
+        max-width: 100%;
         width: 100%;
         height: 15rem;
-        margin: 0 0 0 1%;
+
         
     }
 
@@ -322,7 +340,7 @@ footer nav a {
     .middle-content .boxes .box{
        flex-basis: 20rem;
        height: 20rem;
-       font-size: 3rem;
+       font-size: 2.5rem;
 
     }
 
@@ -345,6 +363,10 @@ footer nav a {
 
     p{
         font-size: 2rem;
+    }
+
+    .bottom-content .text-container{
+        font-size: 1rem;
     }
 
     footer nav{
