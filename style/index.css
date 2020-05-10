@@ -267,9 +267,9 @@ footer nav a {
 
     footer nav{
         margin-left: 20%;
-
+        justify-content: space-around;
+        font-size: 2rem;
     }
-  
 }
 
 /*phone view */
@@ -283,7 +283,7 @@ footer nav a {
 
     }
     header .logo{
-        width: 30rem;
+        width: 15rem;
         height: auto;
         margin: 0 0 4% 0
     }
