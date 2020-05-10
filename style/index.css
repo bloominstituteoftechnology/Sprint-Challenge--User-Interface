@@ -219,6 +219,10 @@ footer nav a {
    .jumbo{
     margin: 2% 0;
 }
+    .jumbo img{
+        max-width: 100%;
+    }
+
     .top-content{
         flex-direction: column;
     }
@@ -232,6 +236,8 @@ footer nav a {
         flex-direction: column;
         flex-basis: 2rem;
     }
+
+    
 
     .bottom-content{
         flex-wrap: wrap;
@@ -266,25 +272,25 @@ footer nav a {
         align-items: center;
         align-content: center;
         max-width:50rem;
+
     }
     header .logo{
         width: 30rem;
         height: auto;
         margin: 0 0 4% 0
     }
-    header nav{
-        align-items: center;
-        width:2%;
-        text-align: center;
-    }
 
     header div nav{
-        padding: 0 0 0 15rem;
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        text-align: center;
         font-size: 5rem;
     }
 
     header div nav a{
-        font-size: 5rem;
+        font-size: 3rem;
+        margin: .5rem 0;
     }
 
     .top-content{
@@ -292,7 +298,8 @@ footer nav a {
     }
     .top-content .jumbo img{
         width: 100%;
-        height: 25rem;
+        height: 15rem;
+        margin: 0 0 0 1%;
         
     }
 
@@ -307,11 +314,15 @@ footer nav a {
         align-items: center;
         max-width: 50rem;
     }
+    .middle-content .boxes{
+        max-width: 50%;
+ 
+     }
 
     .middle-content .boxes .box{
-       flex-basis: 50rem;
-       height: 45rem;
-       font-size: 4rem;
+       flex-basis: 20rem;
+       height: 20rem;
+       font-size: 3rem;
 
     }
 
@@ -329,16 +340,16 @@ footer nav a {
     }
 
     h2{
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     p{
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     footer nav{
         flex-direction: column;
-        font-size: 5rem;
+        font-size: 3rem;
     }
   
 }
