@@ -19,19 +19,14 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 62.5%;
+	font-size: 100%;
 	font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-
-*{
-    font-weight: bold;
 }
 body {
 	line-height: 1;
@@ -76,16 +71,6 @@ p {
     margin: 0 auto;
 }
 
-.logo_buttons{
-    display: flex;
-    flex: center;
-    align-items: center;
-}
-
-.navs{
-    text-decoration: none;
-}
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -98,25 +83,6 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-}
-
-.logo_links{
-    max-width: 95%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.nav_links{
-    text-decoration: none;
-    color: black;
-    font-family: 'Rubik', sans-serif;
-}
-
-.large_image{
-    margin: 40px 0px 20px 0px;
 }
 
 .middle-content {
@@ -147,53 +113,18 @@ p {
 
 .box1
 {
-    background: teal;
+    background: red;
 }
 
 .box2
 {
-    background: gold;
+    background: green;
 }
 
 .box3
 {
-    background: cadetblue;
+    background: yellow;
 }
-
-.box4
-{
-    background: coral;
-}
-
-.box5
-{
-    background: crimson;
-}
-.box6
-{
-    background: forestgreen;
-}
-.box7
-{
-    background: darkorchid;
-}
-
-.box8
-{
-    background: hotpink
-}
-
-.box9
-{
-    background: indigo;
-}
-
-.box10
-{
-    background: dodgerblue;
-}
-
-
 
 .bottom-content {
     display: flex;
@@ -208,8 +139,6 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-
 
 footer {
     width: 100%;
@@ -229,13 +158,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
-@media(max-width: 800px){
-
-}
-
-@media(max-width:500px){
-
-}
-
-
