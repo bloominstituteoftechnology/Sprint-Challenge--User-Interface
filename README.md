@@ -37,7 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
 
-Semantic HTML is the particular way in which a code should be written in order for search engines and other programmers to be able to easily understand your code, such as including ```<header></header>``` tags to identify headers, ```<section></section>``` tags to identify sections, using proper hierarchy ```<header></header><section><h1></h1<h2></h2><p></p></section><footer></footer>```, etc.
+Semantic HTML is the particular way in which a code should be written in order for search engines and other programmers to be able to easily understand your code, such as including ```<header></header>``` tags to identify headers, ```<section></section>``` tags to identify sections, using proper hierarchy ```<header></header><section><h1></h1><h2></h2><p></p></section><footer></footer>```, etc.
 
 
 2. What are the 4 areas of the box model?
