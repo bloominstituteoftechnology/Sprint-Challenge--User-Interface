@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -133,21 +133,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* .box1{
-    background-color: teal;
-} */
 
 .middle-content .boxes .box1 {
     width: 12.5%;
@@ -293,6 +278,17 @@ footer nav a {
   .container{
     background:yellow; 
 }        
+
+header{
+    margin: 3%;
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    /* width: 99%; */
+}
+/* header nav{
+    margin: 5%;
+} */
     .top-content{
         display:flex;
         flex-direction: column;
@@ -300,28 +296,51 @@ footer nav a {
         margin: 2%;
     }
 
+    .top-content > .text-container{
+        flex-basis: 90%;
+        width: 90%;
+    }
+
     .middle-content{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        /* width: 95%; */
+ 
     }
 
-    .middle-content > div{
-        /* flex-basis: 32.5%; */
-        /* width: 100%;
-        display: flex; 
-           flex-direction: column; */
-        /* flex-wrap: wrap;   */
-           /* align-items: center;
-           justify-content: center; */ 
+.middle-content > .boxes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 12%;
+    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+
+}
+
+    .middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+      flex-basis: 35%;
+      justify-content: center;
+
     }
 
-    .bottom-content{
-        display: flex;
-        flex-wrap: wrap;
+
+.bottom-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     }
+
+.bottom-content > .text-container{
+        flex-basis: 30%;
+        margin: 1% 5%;
     }
+    
+
+footer{
+    display:flex;
+    justify-content: space-evenly;
+}
+}
 
 @media(max-width: 500px){
     .container{
@@ -330,4 +349,4 @@ footer nav a {
         flex-direction: column;
     }
 
-}
+} */
