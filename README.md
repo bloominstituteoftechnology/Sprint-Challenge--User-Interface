@@ -67,7 +67,7 @@ Your finished project must include all of the following requirements:
 
 * [ ] Build the HTML and CSS to create the missing navigation and header
 * [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
-* [ ] Make your design responsive such that it is accessible on mobile(500px) and tablet(800 px) and matches the [mobile](design/mobile.png) wireframe
+* [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design/Mobile.png) wireframe.
 *  Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
@@ -89,6 +89,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
+* [ ] Make your design responsive such that it is accessible on tablet(800 px) and matches the [tablet](design/Tablet.png) wireframe.
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
