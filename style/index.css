@@ -198,6 +198,7 @@ p {
     align-items: center;
     justify-content: center;
  }
+ 
 .middle-content .boxes .box7 {
     width: 12.5%;
     height: 100px;
@@ -208,6 +209,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .middle-content .boxes .box8 {
     width: 12.5%;
     height: 100px;
@@ -218,6 +220,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .middle-content .boxes .box9 {
     width: 12.5%;
     height: 100px;
@@ -228,6 +231,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
@@ -274,6 +278,8 @@ footer nav a {
 
 /* Media Queries */
 
+/* Tablet Design 800 px */
+
 @media(max-width: 800px){
   .container{
     background:yellow; 
@@ -284,11 +290,26 @@ header{
     display:flex;
     justify-content: space-evenly;
     justify-content: flex-start;
-    /* width: 99%; */
+    width:100%;
 }
-/* header nav{
-    margin: 5%;
-} */
+
+header > nav{
+    width:100%;
+}
+
+.hero-image{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+header div{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 15%;
+    width: 40%;
+}
     .top-content{
         display:flex;
         flex-direction: column;
@@ -314,13 +335,12 @@ header{
     justify-content: center;
     align-content: center;
     width: 35%;
-
+    margin-left: 35%;
 }
 
-    .middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
-      flex-basis: 35%;
-      justify-content: center;
-
+.middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    flex-basis: 35%;
+    justify-content: center;
     }
 
 
@@ -342,11 +362,106 @@ footer{
 }
 }
 
+/* Mobile Design 500px */
+
 @media(max-width: 500px){
-    .container{
+    body{
         background: orange;
         display:flex;
         flex-direction: column;
+        width: 100%;
+    }
+.container{
+    width:100%;
+}
+
+header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        /* justify-content: center; */
+        /* margin: 2%; */
+    }
+header > div{
+    width: 20%;
+}
+    header > img .lambda-logo{
+        width: 30%;
+    }
+
+header > nav{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2%;
+}
+
+header / nav > a {
+    width: 100%;
+    margin: 3%;
+    padding-bottom: 50%;
+    display:flex;
+   justify-content: center;
+}
+
+body > div > .hero-image{
+    width:50%;
+    width: 50vw;
+    display:flex;
+    justify-content:center;
+}
+
+.top-content{
+    display:flex;
+    flex-wrap:wrap;
+    /* justify-content: space-evenly; */
+    width: 90%;
+    margin: 1%;
+}
+
+.top-content > .text-container{
+    flex-basis: 80%;
+    margin: 1%;
+}
+/* .middle-content > .boxes{
+    display:flex;
+    flex-direction: column;
+    width: 100%
+} */
+
+.middle-content{
+    width:100%;
+    margin: 0;
+}
+
+.middle-content > .boxes{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+.middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    flex-basis: 20%;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    }
+
+.bottom-content{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100%;
+    }
+
+.bottom-content > .text-container{
+        flex-basis: 5%;
+        margin: 5% 2%;
+        width:70%;
     }
 
 } */
