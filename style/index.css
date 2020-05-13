@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 
 /* General Styling */
 
+.big-container{
+    width:100%
+}
 
 header{
     display: flex;
@@ -245,7 +248,8 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
     justify-content: space-around;
 }
 
@@ -266,6 +270,7 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -281,15 +286,24 @@ footer nav a {
 /* Tablet Design 800 px */
 
 @media(max-width: 800px){
-  .container{
+  .big-container{
     background:yellow; 
-}        
+    margin:0;
+    padding:0;
+    width:100%;
+     }
+
+.container{
+    width:100%;
+}
 
 header{
-    margin: 3%;
+    margin: 0;
+    padding: 2%;
     display:flex;
     justify-content: space-evenly;
     justify-content: flex-start;
+    align-items: center; 
     width:100%;
 }
 
@@ -313,8 +327,8 @@ header div{
     .top-content{
         display:flex;
         flex-direction: column;
-        width: 90%;
-        margin: 2%;
+        width: 100%;
+        padding-left:2%;
     }
 
     .top-content > .text-container{
@@ -322,25 +336,27 @@ header div{
         width: 90%;
     }
 
-    .middle-content{
- 
+    .middle-content h2{
+        text-align:left;
     }
 
-.middle-content > .boxes{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 12%;
-    justify-content: space-around;
-    justify-content: center;
-    align-content: center;
-    width: 35%;
-    margin-left: 35%;
-}
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-basis: 12%;
+        min-width:12.5%;
+        min-height:100px;
+    }
+
 
 .middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
-    flex-basis: 35%;
+    /* flex-basis: 35%; */
     justify-content: center;
+    width:100px;
+    height:100px;
+    width: 12.5%;
+    height: 100px;
     }
 
 
@@ -351,8 +367,9 @@ header div{
     }
 
 .bottom-content > .text-container{
-        flex-basis: 30%;
-        margin: 1% 5%;
+        flex-basis: 35%;
+        padding: 1% 0;
+        width:100%;
     }
     
 
@@ -361,107 +378,150 @@ footer{
     justify-content: space-evenly;
 }
 }
-
+ 
 /* Mobile Design 500px */
 
 @media(max-width: 500px){
-    body{
+    .big-container{
         background: orange;
         display:flex;
         flex-direction: column;
         width: 100%;
     }
-.container{
-    width:100%;
-}
 
-header{
+    header{
         display:flex;
         flex-direction: column;
         align-items: center;
         width:100%;
-        /* justify-content: center; */
-        /* margin: 2%; */
-    }
-header > div{
-    width: 20%;
-}
-    header > img .lambda-logo{
-        width: 30%;
+        padding-top:3%;
+        justify-content: space-between;
     }
 
-header > nav{
-    display:flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 2%;
-}
-
-header / nav > a {
-    width: 100%;
-    margin: 3%;
-    padding-bottom: 50%;
-    display:flex;
-   justify-content: center;
-}
-
-body > div > .hero-image{
-    width:50%;
-    width: 50vw;
-    display:flex;
-    justify-content:center;
-}
-
-.top-content{
-    display:flex;
-    flex-wrap:wrap;
-    /* justify-content: space-evenly; */
-    width: 90%;
-    margin: 1%;
-}
-
-.top-content > .text-container{
-    flex-basis: 80%;
-    margin: 1%;
-}
-/* .middle-content > .boxes{
-    display:flex;
-    flex-direction: column;
-    width: 100%
-} */
-
-.middle-content{
-    width:100%;
-    margin: 0;
-}
-
-.middle-content > .boxes{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0;
-}
-
-.middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
-    flex-basis: 20%;
-    justify-content: center;
-    margin: 0;
-    width: 100%;
+    nav.links{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        height: 18vh;
     }
 
-.bottom-content{
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width:100%;
+
+    .big-container > div > .hero-image{
+        width:50%;
+        width: 50vw;
+        display:flex;
+        justify-content:center;
     }
 
-.bottom-content > .text-container{
-        flex-basis: 5%;
-        margin: 5% 2%;
-        width:70%;
+    .container{
+        width:100%;
     }
 
-} */
+    .top-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .top-content > .text-container{
+        flex-basis: 80%;
+    }
+    
+    .middle-content h2{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
+    .middle-content .boxes{
+        width:100%;
+        margin: 0;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+
+    .middle-content > .boxes > .box1{
+        justify-content:center;
+        width:100px;
+        height:100px;
+    }
+
+    .middle-content > .boxes > .box2{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box3{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box4{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box5{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box6{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box7{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box8{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box9{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box10{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+
+    .bottom-content{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width:100%;
+        padding:2%;
+    }
+
+    .bottom-content > .text-container{
+        padding: 4%;
+        width:100%;
+    }
+
+    footer{
+        display:flex;
+        flex-direction:column;
+        height:30vh;
+    }
+
+    footer > nav > a{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        /* justify-items: space-between; */
+        /*I cannot get the <a> links inside the nav to flex-direction:column, for some reason they will not appear in a column. 
+        I tried adding height to the footer, but the <a> links still won't appear in column.*/
+    }
+} 
