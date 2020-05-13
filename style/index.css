@@ -443,7 +443,10 @@ footer{
         justify-content: space-evenly;
         align-items:center;
     }
-
+    .middle-content > .boxes > div{
+	flex-basis:none;
+    }
+	
     .middle-content > .boxes > .box1{
         justify-content:center;
         width:100px;
