@@ -262,9 +262,10 @@ p {
 }
 
 footer {
+    width:100%;
     background: black;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 footer nav {
@@ -340,23 +341,23 @@ header div{
     text-align:left;
     }
 
+
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
     flex-basis: 12%;
-    min-width:12.5%;
-    min-height:100px;
+    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+    margin-left:35%;
     }
 
 
 .middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
-    /* flex-basis: 35%; */
+    flex-basis: 35%;
     justify-content: center;
-    width:100px;
-    height:100px;
-    width: 12.5%;
-    height: 100px;
     }
 
 
