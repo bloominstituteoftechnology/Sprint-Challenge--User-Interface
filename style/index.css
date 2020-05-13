@@ -262,8 +262,9 @@ p {
 }
 
 footer {
-    width: 100%;
     background: black;
+    display:flex;
+    justify-content: center;
 }
 
 footer nav {
@@ -286,12 +287,11 @@ footer nav a {
 /* Tablet Design 800 px */
 
 @media(max-width: 800px){
-  .big-container{
-    background:yellow; 
+.big-container{
     margin:0;
     padding:0;
     width:100%;
-     }
+}
 
 .container{
     width:100%;
@@ -324,29 +324,29 @@ header div{
     flex-basis: 15%;
     width: 40%;
 }
-    .top-content{
-        display:flex;
-        flex-direction: column;
-        width: 100%;
-        padding-left:2%;
+.top-content{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left:2%;
     }
 
-    .top-content > .text-container{
-        flex-basis: 90%;
-        width: 90%;
+.top-content > .text-container{
+    flex-basis: 90%;
+    width: 90%;
     }
 
-    .middle-content h2{
-        text-align:left;
+.middle-content h2{
+    text-align:left;
     }
 
-    .middle-content .boxes {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        flex-basis: 12%;
-        min-width:12.5%;
-        min-height:100px;
+.middle-content .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 12%;
+    min-width:12.5%;
+    min-height:100px;
     }
 
 
@@ -383,7 +383,6 @@ footer{
 
 @media(max-width: 500px){
     .big-container{
-        background: orange;
         display:flex;
         flex-direction: column;
         width: 100%;
@@ -511,17 +510,13 @@ footer{
     }
 
     footer{
-        display:flex;
-        flex-direction:column;
-        height:30vh;
+        height:20vh;
     }
 
-    footer > nav > a{
+    footer > nav{
         display:flex;
         flex-direction:column;
         justify-content: space-between;
-        /* justify-items: space-between; */
-        /*I cannot get the <a> links inside the nav to flex-direction:column, for some reason they will not appear in a column. 
-        I tried adding height to the footer, but the <a> links still won't appear in column.*/
     }
 } 
+
