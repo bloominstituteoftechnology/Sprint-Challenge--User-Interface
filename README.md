@@ -55,7 +55,7 @@ That property works on the cross-axis.
 Git is a valuable tool to a team of developers because it provides version control. It allows the team to track changes, work on different versions of a project simultaneously, merge those versions (if desirable), and return to a previous version. 
 
 5. Define mobile-first design in your own words.
-
+Mobile-first design is creating a webpage for mobile viewers. Normally, web designers would create pages for desktop users where there is a lot of screen space. However, since many people use their phones for web browsing, it is recommended to design the mobile version first and then work your design to accomodate larger devices.
 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.

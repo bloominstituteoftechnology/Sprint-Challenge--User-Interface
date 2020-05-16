@@ -215,11 +215,24 @@ footer nav a {
     }
 
     .boxes {
-        flex-wrap:wrap ;
+        flex-wrap:wrap;
     }
 
-    nav a {
+    header nav img {
+        padding-bottom:20px;
+    }
+
+    header nav a, footer nav a {
         font-size:1.5rem;
+        padding:5px 0;
     }
 
+}
+
+@media(max-width: 300px) {
+
+    .banner-img {
+        display: none;
+        
+    }
 }
