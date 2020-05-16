@@ -69,6 +69,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: stretch;
 }
 
 .top-content {
@@ -144,3 +148,11 @@ footer nav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
+.navLnk {
+    color: coral;
+li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline
+} 
+
