@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 6;
 }
 ol, ul {
 	list-style: none;
@@ -87,7 +87,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed rgb(50, 10, 95);
 }
 
 .middle-content h2 {
@@ -106,7 +106,7 @@ p {
     height: 100px;
     background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: rgb(8, 112, 90);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,7 +128,7 @@ p {
 
 footer {
     width: 100%;
-    background: black;
+    background: rgb(34, 34, 34);
 }
 
 footer nav {
@@ -141,6 +141,6 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
