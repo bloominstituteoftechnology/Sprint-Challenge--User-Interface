@@ -36,13 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the elements used to help build the layout of a webpage in order to display information that's read by browsers as you visit a page. Heading, body, and footer for example.
+
 2. What are the 4 areas of the box model?
+
+Margin, border, padding, content
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross axis.
+
 4. Explain why git is valuable to a team of developers.
 
+Git is extremely valuable as it allows for version control of the code, while multiple people are working on different parts so issues are avoided. Allows for code review and merging so work isn't lost.
+
 5. Define mobile-first design in your own words.
+
+Mobile first development is building a website based on someone's phone in their hand versus being able to sit at a computer.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -68,7 +78,7 @@ Your finished project must include all of the following requirements:
 * [X] Build the HTML and CSS to create the missing navigation and header
 * [X] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
 * [X] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design/Mobile.png) wireframe.
-* [ ] Add responsive breakpoints to your code by using media queries
+* [X] Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
@@ -106,6 +116,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Add your team lead as a reviewer on the pull-request
+- [X] Your team lead will count the project as complete by merging the branch back into master
