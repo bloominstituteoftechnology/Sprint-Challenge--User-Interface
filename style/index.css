@@ -269,47 +269,85 @@ footer nav a {
 
 @media(min-width:500px) {
 
+		.container {
+			width: 100%;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
 		.header {
 		  display: flex;
 		  flex-direction: column;
-			justify-content: center;
+			align-items: center;
+			margin: 10px 0px 10px 0px;
+		 }
+
+		 a.header {
+			 margin: 0px;
+			 padding: 0px;
+		 }
+
+		 img.header-image {
+			 width: 100%;
 		 }
 
 		 .top-content{
  		  display: flex;
  		  flex-direction: column;
-			justify-content: center;
+			align-items: center;
+		 }
+
+		 .top-content .text-container {
+		  width: 100%;
+			padding-top: 20px;
+			margin-bottom: 20px;
 		 }
 
 		 .middle-content {
  		  display: flex;
  		  flex-direction: column;
-			justify-content: center;
+			align-items: center;
 		 }
 
-		 .middle-content .boxes .box7{
-		  width: 12.5%;
-		  height: 100px;
-		  background: darkorchid;
-		  margin: 20px 2.5%;
-		  color: white;
+		 .middle-content .boxes{
+		  width: 100%;
   		display: flex;
+			flex-wrap: wrap;
   		flex-direction: column;
- 			justify-content: center;
+ 			align-items: center;
 		 }
 
 		 .bottom-content {
 		  display: flex;
 		  flex-direction: column;
-		  justify-content: center;
+		  align-items: center;
 		 }
- }
+
+		 .bottom-content .text-container {
+		  width: 100%;
+			padding-top: 20px;
+			margin-bottom: 20px;
+		 }
+
+		 .footer {
+ 		  display: flex;
+ 		  flex-direction: column;
+ 			align-items: center;
+ 			padding: 5px 0px 5px 0px;
+ 		 }
+
+		 nav.footer {
+			 margin-top: 20px;
+			 margin-bottom: 20px;
+		 }
 
 }
 
 @media(min-width:800px) {
 
-		.header {
+		.header a.header {
 		  display: flex;
 	    flex-wrap: wrap;
 	    justify-content: space-evenly;
