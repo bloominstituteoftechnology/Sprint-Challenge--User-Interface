@@ -36,13 +36,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML gives your elements meaning. It also makes your code readable to other developers wo may have to edit your code. It is also used by search engines when pulling information. For example, you can use a div to hold your navigation buttons and give it the class "nav". To make you navigation code semantic, you would use the nav element. You can also use the 'section' element to mark different parts of you page.
+
 2. What are the 4 areas of the box model?
 
-3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The 4 areas are the following:
+    - content, the stuff within the element
+    - padding, the space between the content and the border
+    - border - the line surrounding the outside of the element
+    - margin, the space between the outside of the element and its parent.
+
+3. While using flexbox, what axis does the following property work on: ```align-items: center```? 
+
+That property works on the cross-axis.
 
 4. Explain why git is valuable to a team of developers.
 
+Git is a valuable tool to a team of developers because it provides version control. It allows the team to track changes, work on different versions of a project simultaneously, merge those versions (if desirable), and return to a previous version. 
+
 5. Define mobile-first design in your own words.
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
