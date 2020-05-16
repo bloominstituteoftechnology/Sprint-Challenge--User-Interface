@@ -282,3 +282,31 @@ footer nav a {
         align-items: center;
     }
 }
+
+
+@media(max-width: 800px){
+    body{
+        font-size: 1rem;
+    }
+
+    .top-content {
+        display: flex;
+        align-items: center; 
+        flex-direction: column;  
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15%;
+    }
+
+    .bottom-content .text-container {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
