@@ -287,6 +287,17 @@ footer nav a {
 			justify-content: center;
 		 }
 
+		 .middle-content .boxes .box7{
+		  width: 12.5%;
+		  height: 100px;
+		  background: darkorchid;
+		  margin: 20px 2.5%;
+		  color: white;
+  		display: flex;
+  		flex-direction: column;
+ 			justify-content: center;
+		 }
+
 		 .bottom-content {
 		  display: flex;
 		  flex-direction: column;
