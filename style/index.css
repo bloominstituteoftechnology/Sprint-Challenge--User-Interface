@@ -73,19 +73,19 @@ p {
 }
 
 header {
-    display: flex;
-    align-self: flex-start;
-    justify-content: space-between;
     padding: 2%;
     font-size: 14px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
 .top-content {
@@ -182,7 +182,6 @@ header nav a {
 
 .bottom-content .text-container {
     padding-right: 4%;
-    padding-top: 3%;
 }
 
 .bottom-content .text-container:last-child {
@@ -194,6 +193,7 @@ footer {
     background: black;
     display: flex;
     align-self: flex-end;
+    margin-bottom: 0%;
 }
 
 footer nav {
