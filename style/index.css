@@ -324,7 +324,7 @@ footer nav a {
 }
 
 @media(max-width: 500px) {
-    .container img {
+    .container  {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
