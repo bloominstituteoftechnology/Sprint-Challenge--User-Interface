@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -71,12 +72,33 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    padding: 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.headerImg {
+    padding: 2%;
+    margin: 0 100%;
 }
 
 .top-content .text-container {
@@ -112,6 +134,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -120,6 +182,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    padding-top: 3%;
 }
 
 .bottom-content .text-container:last-child {
@@ -129,6 +192,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    align-self: flex-end;
 }
 
 footer nav {
@@ -143,4 +208,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media(max-width: 500px) {
+    .logo {
+        width: 40%;
+        text-align: center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .top-content {
+        display: flex;
+        align-items: center;   
+    }
+    /*
+    .headerImg {
+        max-width: 100px; overflow: hidden;
+    }*/
+
+  
+    .middle-content {
+        text-align: center;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .bottom-content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 20% ;
+    }
+
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
