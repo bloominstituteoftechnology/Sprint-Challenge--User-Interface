@@ -65,8 +65,9 @@ header  {
 }
 header nav  {
     width: 100%;
+    padding: 1%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 nav {
@@ -175,7 +176,6 @@ p {
     
 }
 .middle-content  .boxes .box1 .box2  .box4 .box5 .box6 .box7 .box8 .box9 .box10   {
-   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
