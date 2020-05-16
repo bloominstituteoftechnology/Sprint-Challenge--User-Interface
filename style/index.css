@@ -322,9 +322,14 @@
                 border-bottom: 1px dashed black;
             }
             
+            img {
+                display: flex column;
+            }
+            
             .top-content nav {
                 width: 60%;
                 text-decoration: none;
+                color: black;
             }
             
             .top-content .text-container {
@@ -461,9 +466,13 @@
                     margin-bottom: 20px;
                     border-bottom: 1px dashed black;
                 }
+                img {
+                    display: flex column;
+                }
                 .top-content nav {
                     width: 60%;
                     text-decoration: none;
+                    color: black;
                 }
                 .top-content .text-container {
                     width: 48%;
@@ -590,9 +599,13 @@
                     margin-bottom: 20px;
                     border-bottom: 1px dashed black;
                 }
+                img {
+                    display: flex column;
+                }
                 .top-content nav {
                     width: 60%;
                     text-decoration: none;
+                    color: black;
                 }
                 .top-content .text-container {
                     width: 48%;
