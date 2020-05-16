@@ -66,14 +66,20 @@ p {
     line-height: 1.4;
 }
 
-.lambda-logo {
-
+.lambda-logo img {
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    display: inline-block;
+    flex-wrap: wrap;
 }
 
-.road {
+.road img {
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+    display: inline-block;
     
 }
 
@@ -260,6 +266,10 @@ nav a {
     justify-content: center;
 }
 
+.about {
+    margin: 60px auto;
+    margin-top: 50px auto;
+}
 
 .bottom-content {
     display: flex;
@@ -294,4 +304,8 @@ footer nav a {
     color: white;
     text-decoration: none;
     align-items: center;
+}
+
+@media(max-width: 500px) {
+
 }
