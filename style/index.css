@@ -286,7 +286,10 @@ footer nav a {
 
 @media(max-width: 800px){
     body{
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+    h2{
+        font-size: 2rem;
     }
 
     .top-content {
@@ -294,19 +297,37 @@ footer nav a {
         align-items: center; 
         flex-direction: column;  
     }
+    .top-content .text-container{
+        width: 80%;
+    }
     .box{
         display: flex;
         flex-wrap: wrap;
         padding: 15%;
     }
 
-    .bottom-content .text-container {
+    .bottom-content {
         display: flex;
         flex-wrap: wrap;
         font-size: 2rem;
     }
 
+    .bottom-content .text-container{
+        width: 40%;
+    }
+
     footer{
+        padding: 8%;
+    }
+
+    footer nav{
+        
+    }
+
+    footer nav a{
+        font-size: 2rem;
+        padding: 3%;
+        margin: 1%;
         text-align: center;
     }
 }
