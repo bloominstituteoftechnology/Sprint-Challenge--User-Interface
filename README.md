@@ -55,7 +55,7 @@ You are expected to be able to answer all these questions. Your responses contri
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [X] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2:  Minimum Viable Product
 
@@ -66,7 +66,7 @@ Your finished project must include all of the following requirements:
 [Review the provided design files](/design). Notice the navigation and header images are missing in the starter code.
 
 * [ ] Build the HTML and CSS to create the missing navigation and header
-* [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
+* [X] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
 * [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design/Mobile.png) wireframe.
 * [ ] Add responsive breakpoints to your code by using media queries
 
