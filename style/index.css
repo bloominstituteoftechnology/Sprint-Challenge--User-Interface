@@ -511,7 +511,7 @@
                 footer nav {
                     width: 60%;
                     display: flex;
-                    justif
+                    justify-content: center column;
                 }
                 footer nav a {
                     color: black;
