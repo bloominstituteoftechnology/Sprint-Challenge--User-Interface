@@ -66,22 +66,35 @@ p {
     line-height: 1.4;
 }
 
+header {
+    padding:25px 0;
+}
+
 header nav a {
     color:black;
-    font-size:0.8em;
+    font-size:12px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 header nav {
-    padding:50px 50px 50px 0;
+    padding-bottom:50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 
+.banner-img {
+    background: url('../assets/jumbo.jpg') center no-repeat;
+    width: 100%;
+    max-width: 800px;
+    min-height: 153px;
+}
+
 .container {
-    width: 800px;
+    width:100%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -175,6 +188,7 @@ header nav {
 footer {
     width: 100%;
     background: black;
+    display:flex;
 }
 
 footer nav {
@@ -189,4 +203,23 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 500px) {
+
+    header nav, footer, footer nav, .bottom-content, .boxes, .top-content {
+
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boxes {
+        flex-wrap:wrap ;
+    }
+
+    nav a {
+        font-size:1.5rem;
+    }
+
 }
