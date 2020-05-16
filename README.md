@@ -65,10 +65,10 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design files](/design). Notice the navigation and header images are missing in the starter code.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header
+* [X] Build the HTML and CSS to create the missing navigation and header
 * [X] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
-* [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design/Mobile.png) wireframe.
-* [ ] Add responsive breakpoints to your code by using media queries
+* [X] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design/Mobile.png) wireframe.
+* [X] Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 

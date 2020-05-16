@@ -127,12 +127,16 @@ img.header-image {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+		background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .box1 {
+	background: teal;
 }
 
 .bottom-content {
@@ -166,4 +170,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media(min-width:500px) {
+
+		.header {
+		  display: flex;
+		  flex-direction: column;
+			justify-content: center;
+		 }
+
+		 .top-content{
+ 		  display: flex;
+ 		  flex-direction: column;
+			justify-content: center;
+		 }
+
+		 .middle-content {
+ 		  display: flex;
+ 		  flex-direction: column;
+			justify-content: center;
+		 }
+
+		 .bottom-content {
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		 }
+ }
+
+}
+
+@media(min-width:800px) {
+
+		.header {
+		  display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-evenly;
+		 }
+
+		 .top-content{
+ 		  display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-evenly;
+		 }
+
+		 .middle-content {
+ 		  display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-evenly;
+		 }
+
+		 .bottom-content {
+		  display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-evenly;
+		 }
+ }
+
 }
