@@ -281,7 +281,6 @@ footer nav a {
 
 	 		 a.heading-content {
 	 			 margin: 0px;
-	 			 padding: 0px;
 	 			 font-size: 1rem;
 				 padding: 20px 100px 0px 20px;
 	 		 }
@@ -312,7 +311,7 @@ footer nav a {
 
 	 	 }
 
-@media(min-width:500px) {
+/* @media(min-width:500px) {
 
 		.container {
 			width: 100%;
