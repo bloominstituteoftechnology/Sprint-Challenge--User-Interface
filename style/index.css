@@ -67,16 +67,16 @@ p {
 }
 
 .lambda-logo img {
-    /*flex-direction: row;*/
-    /*justify-content: center;*/
-    display: inline-block;
-    flex-wrap: wrap;
+  align-items: flex-start;
+  display: inline-block;
+  align-content: flex-start;
 }
 
 .road img {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    margin-bottom: 5%;
     align-content: flex-start;
     align-items: flex-start;
     display: inline-block;
@@ -88,20 +88,26 @@ p {
     margin: 0 auto;
     color: black;
     font-family: arial;
-    flex-direction: row;
-    align-content: flex-start;
     align-items: flex-start;
-    display: inline-block;
+    align-content: flex-start;
     justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
 }
 
 nav a {
     color: black;
     font-family: arial;
     font-size: 1.4rem;
-    display: flex;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    align-items: flex-start;
     flex-direction: row;
-    flex-wrap: wrap;
+    display: inline-block;
     justify-content: space-between;
 }
 
@@ -307,5 +313,75 @@ footer nav a {
 }
 
 @media(max-width: 500px) {
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        
+    }
 
+    .lambda-logo {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    nav a {
+        flex-direction: column;
+        display: flex; 
+        align-items: center;
+      }
+
+     .road img {
+        width: 30%;
+        height: 50%;
+        margin-left: 30%;
+        flex-direction: column;
+        align-content: center;
+        display: flex;
+    }
+
+    .top-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    .top-content h2 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    .middle-content .boxes {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+    .middle-content h2 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+       
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    footer nav {
+        flex-direction: column;
+        display: flex; 
+        align-items: center;
+    }
 }
