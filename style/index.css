@@ -102,13 +102,15 @@ nav a {
     color: black;
     font-family: arial;
     font-size: 1.4rem;
+    text-decoration: none;
     margin-bottom: 5%;
     margin-left: 5%;
-    padding: 2%;
-    align-items: flex-start;
-    flex-direction: row;
-    display: inline-block;
+    padding: 2%;  
+    flex-direction: row; 
+    flex-wrap: wrap;   
     justify-content: space-between;
+    align-items: row;
+    align-content: space-between;    
 }
 
 .top-content {
@@ -139,6 +141,14 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.box1 {
+    transition: transform 1s;
+}
+
+.box1 :hover{
+    transform: rotate(360deg);
 }
 
 .middle-content .boxes .box {
