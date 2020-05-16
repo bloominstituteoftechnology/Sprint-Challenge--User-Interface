@@ -76,7 +76,10 @@ nav {
   }
 
 
-
+  .jumbo-img {
+    width: 800px;
+    margin: 0 auto;
+}
 
 
 h1, h2, h3, h4, h5 {
@@ -172,6 +175,7 @@ p {
     
 }
 .middle-content  .boxes .box1 .box2  .box4 .box5 .box6 .box7 .box8 .box9 .box10   {
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
