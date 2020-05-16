@@ -34,15 +34,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?/////// It's a set of tags that help accesibility readers understand the code and be able to reproduce in the desired manner from user. They're universal tags unlike divs.
 
-2. What are the 4 areas of the box model?
+2. What are the 4 areas of the box model?///// content, padding, border, margin.
 
-3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+3. While using flexbox, what axis does the following property work on: ```align-items: center```?////////cross axis
 
-4. Explain why git is valuable to a team of developers.
+4. Explain why git is valuable to a team of developers.////// It's like an online cloud for their code. If accidentally deleted or lost, it can be retrieved through github. It also allows others to fork and add more value to a specific project by making it better if the original developer is open to that idea.
 
-5. Define mobile-first design in your own words.
+5. Define mobile-first design in your own words. ///////Intended for phones/tablets. It gets to the point of the purpose of your page. Developers must make choices of what is of utmost importance due to the size and limitations of a mobile device.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,12 +50,12 @@ You are expected to be able to answer all these questions. Your responses contri
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [ X ] Create a forked copy of this project
+- [ X ] Add your team lead as collaborator on Github
+- [ X ] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [ X ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ X ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [ X ] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2:  Minimum Viable Product
 
@@ -65,23 +65,23 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design files](/design). Notice the navigation and header images are missing in the starter code.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header
-* [ ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
+* [ X ] Build the HTML and CSS to create the missing navigation and header
+* [ X ] Link the `About` navigation item to an about.html page (you'll also need to create `about.html`)
 * [ ] Make your design responsive such that it is accessible on mobile(500px)and matches the [mobile](design/Mobile.png) wireframe.
 * [ ] Add responsive breakpoints to your code by using media queries
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ X ] box1: `teal`
+* [ X ] box2: `gold`
+* [ X ] box3: `cadetblue`
+* [ X ] box4: `coral`
+* [ X ] box5: `crimson`
+* [ X ] box6: `forestgreen`
+* [ X ] box7: `darkorchid`
+* [ X ] box8: `hotpink`
+* [ X ] box9: `indigo`
+* [ X] box10: `dodgerblue`
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
