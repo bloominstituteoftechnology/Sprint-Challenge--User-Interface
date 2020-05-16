@@ -156,10 +156,11 @@ body {
  .navone{
      display:flex;
      justify-content: space-around;
-     width:850px;
-     margin-top:100px;
-     margin-bottom:15px;
-     margin-left: 300px;
+     padding-top: 20px;
+     padding-bottom: 20;
+     width: 800px;
+     margin: 0 auto;
+
 
  }
 .about{
@@ -267,10 +268,10 @@ body {
         
    
 
-    .button{
-        width:90px;
-        border-radius:25px;
-        border:1px solid black;
+   .button{
+      width:90px;
+      border-radius:25px;
+      border:1px solid black;
 }
 
 .img-tag{
@@ -281,6 +282,56 @@ a:hover{
     color:red;
     
 }
+@media(max-width:700px) {
+    body {background-color: red;
+}
+.bottom-content{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
 
 
+}
+.footer nav{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+
+}
+
+.atag{
+    margin: 0 10px;
+}
+}
+
+
+
+@media(max-width:500px) {
+    body{
+        background-color: blue;
+    }
+    .middle-content .boxes{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+    .boxes{
+        width:100%;
+    }
+    .bottom-content{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 400px;
+
+    }
+}
      
