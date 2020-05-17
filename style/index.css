@@ -83,14 +83,22 @@ nav {
 }
 
 
-.jumbo-img {
+/* .jumbo-img {
     width: 100%;
     height: auto;
     margin: 0 auto; 
     padding-left: 22%;
     display: inline-block; 
-}
+} */
 
+.header-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+    padding-left: 21%;
+    padding-right: 21%;
+}
 
 
 
@@ -312,10 +320,26 @@ footer nav a {
 @media (max-width: 500px){
     header nav {
         flex-direction: column;
+        padding: 2%;
+    }
+    .lambda-logo{
+        padding:2%;
+    }
+
+    
+    }
+    a{
+        padding: 1.5%;
+    }
+    .header-image {
+        width:100%;
+        padding: 1%;
+       
     }
 
     .container .top-content {
         flex-direction: column;
+        padding: 8%;
     }
     .middle-content .boxes {
         flex-direction: column;
