@@ -51,13 +51,17 @@ table {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -72,7 +76,7 @@ header {
 
 header nav a {
     color:black;
-    font-size:12px;
+    font-size:1.4rem;
     text-decoration: none;
     font-weight: bold;
 }
@@ -93,6 +97,7 @@ header nav {
 }
 
 .container {
+    font-size:1.5rem;
     width:100%;
     max-width: 800px;
     margin: 0 auto;
@@ -129,7 +134,7 @@ header nav {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -206,22 +211,30 @@ footer nav a {
 }
 
 @media (max-width: 500px) {
-
+ 
     header nav, footer, footer nav, .bottom-content, .boxes, .top-content {
-
         align-items: center;
         flex-direction: column;
         justify-content: center;
     }
 
-    .boxes {
-        flex-wrap:wrap;
+    .top-content .text-container, .bottom-content .text-container {
+        width: 88%;
+ 
     }
+
+    .middle-content h2 {
+        text-align: center;
+    }
+
+    .bottom-content h2 {
+        margin:15px 0;
+    }
+
 
     header nav img {
         padding-bottom:20px;
     }
-
     header nav a, footer nav a {
         font-size:1.5rem;
         padding:5px 0;
@@ -230,7 +243,7 @@ footer nav a {
 }
 
 @media(max-width: 300px) {
-
+    
     .banner-img {
         display: none;
         
