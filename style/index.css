@@ -71,10 +71,12 @@ p {
 }
 
 header {
-    padding:25px 0;
+    margin-top:25px;
+    display:flex;
+    align-items: center;
 }
 
-header nav a {
+header nav a{
     color:black;
     font-size:1.4rem;
     text-decoration: none;
@@ -82,10 +84,18 @@ header nav a {
 }
 
 header nav {
-    padding-bottom:50px;
+    margin:20px 0;
+    width: 100%;
+    min-height:40px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
+
+}
+
+.logo {
+    width:157px;
+    height:40px;
 
 }
 
@@ -94,6 +104,7 @@ header nav {
     width: 100%;
     max-width: 800px;
     min-height: 153px;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -134,7 +145,7 @@ header nav {
 }
 
 .middle-content .boxes .box {
-    width: 100px;
+    width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -211,11 +222,16 @@ footer nav a {
 }
 
 @media (max-width: 500px) {
+
  
-    header nav, footer, footer nav, .bottom-content, .boxes, .top-content {
+    header, header nav, footer, footer nav, .bottom-content, .boxes, .top-content {
         align-items: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    h2 {
+        font-size: 2rem;
     }
 
     .top-content .text-container, .bottom-content .text-container {
@@ -231,12 +247,8 @@ footer nav a {
         margin:15px 0;
     }
 
-
-    header nav img {
-        padding-bottom:20px;
-    }
     header nav a, footer nav a {
-        font-size:1.5rem;
+        font-size:2rem;
         padding:5px 0;
     }
 
