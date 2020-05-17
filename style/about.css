@@ -62,50 +62,38 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 .container {
-    width: 960px;
-    max-width: 100%;
-    padding: 20px;
-    margin: 0 auto;
-    color: black;
+    width: 75%;    
+    margin-top: 3%;
+    margin-left: 10%;
+    color: black;    
 }
   
-.lambda-logo img {
-    max-width: 100%;
-    height: 100%;
-    margin: 0% auto;
-    margin-bottom: 5% auto;
-    display: flex-start;
-    flex-direction: row;
-
-}
-  
-.header {
-      display: flex;
-      flex-direction: row;
-      margin: 0% auto;
-      margin-left: 10%;
-}
-  
-.container .header-nav {
-    color: black;
-    width: 60%;
+.container .lambda-logo img {    
+    width: 15%; 
+    margin-bottom: -3%;
     display: flex;
-    flex-direction: flex-start;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;      
+    flex-direction: column;
 }
   
-.road {    
-    width: 100%;
+.container nav {
+    width: 75%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    padding: 20px 2%;
+    font-size: 14px;         
+}
+  
+.road img {    
+    width: 80%;
     margin: 0%;
-    margin-left: 10%; 
-    margin-right: 10%;    
+    margin-left: 10%;
+    margin-bottom: 5%;     
 }
 
 .about-content {     
-    margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
@@ -123,15 +111,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    border-bottom: 1px dashed black;
+   
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
-    margin: 0% auto;
-    margin-left: 10%;
 }
 
 footer {
@@ -165,29 +151,48 @@ footer nav a {
         flex-direction: column;   
     }
 
-    .lambda-logo img {
-        flex-direction: column;
+    .container .lambda-logo img {
+        width: 30%;
         display: flex;
-        
+        flex-direction: column;
+        margin-left: 35%;
+        margin-right: 30%;
+        align-content: center;  
     }
 
-    nav a {
-        flex-direction: column;
-        display: flex; 
+    .container nav  {
+        font-size: 1rem;
+        margin-left: 15%;
+        margin-right: 30%;
+        display: flex;
+        flex-direction: column; 
         align-items: center;
-        flex-wrap: wrap;
-        justify-items: center;
+        justify-content: space-between; 
+        line-height: 1.4;    
     }
 
-     .road img {
-        width: 80%;
-        height: 80%;        
+    .divider .road img {
+        width: 80%; 
+        height: 100px; 
+        margin-left: 10%;        
+        display: flex;  
+        flex-direction: row; 
+        align-content: center;  
+    }
+
+    .about-content {
+        width: 40%;
+        margin-left: 32%;
+        line-height: 1.5;
         flex-direction: column;
-        align-content: center;
-        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
     }
 
     .top-content {
+        line-height: 1.5;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -203,9 +208,20 @@ footer nav a {
         flex-wrap: wrap;
     }
 
+    footer {
+        width: 80%;
+        height: 30%;     
+    }
+
     footer nav {
+        width: 60%;
+        margin-left: 15%;
+        font-size: 1.4rem;
+        line-height: 1.4;
+        display: flex;
         flex-direction: column;
-        display: flex; 
-        align-items: center;
+        justify-content: space-evenly;
+        align-items: center; 
+        text-align: center;        
     }
 }
