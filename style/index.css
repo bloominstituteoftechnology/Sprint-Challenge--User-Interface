@@ -84,19 +84,18 @@ nav {
 
 
 .jumbo-img {
-    width: 50%;
-    height: 50%;
-    margin: 0 auto;
-    padding:0 22%;
-    margin-bottom: 0 auto;
-    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    padding-left: 22%;
+    display: inline-block; 
 }
 
 
 
 
 h1, h2, h3, h4, h5 {
-    font-size:18px;
+    font-size:1.125rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -307,4 +306,26 @@ footer nav a {
 .bottom-content {
     width: 800px;
     margin: 0 auto;
+}
+/* ****DESKTOP ENDS ABOVE ********/
+
+@media (max-width: 500px){
+    header nav {
+        flex-direction: column;
+    }
+
+    .container .top-content {
+        flex-direction: column;
+    }
+    .middle-content .boxes {
+        flex-direction: column;
+    }
+    footer nav {
+        flex-direction: column;
+        margin: 4%;
+       
+    }
+
+   
+   
 }
