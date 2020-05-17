@@ -145,8 +145,8 @@ header nav {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
@@ -241,6 +241,12 @@ footer nav a {
 
     .middle-content h2 {
         text-align: center;
+    }
+
+    .box {
+        font-size: 1.8rem;
+        width:150px;
+        height:150px;
     }
 
     .bottom-content h2 {
