@@ -74,44 +74,39 @@ p {
     color: black;
   }
   
-  .lambda-logo img {
+.container .lambda-logo img {
     max-width: 100%;
-    height: 100%;
-    margin: 0% auto;
-    margin-bottom: 5% auto;
-
+    height: 100%;    
+    margin-left: 8%;
+    
   }
   
-  .header {
-      display: flex;
-      flex-direction: row;
-  }
-  
-  .container .header-nav {
+.container nav {
     color: black;
+    padding: 20px 2%;
+    margin-left: 20%;
+    font-size: 14px;
     width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;      
+    flex-direction: row;
+    justify-content: flex-end;  
+    align-content: center;          
   }
   
-  .road img {    
-      width: 100%;
-      margin: 5% auto;
-      align-content: flex-start;
-      align-items: flex-start;
-      display: block; 
-      flex-direction: row;
-      justify-content: center; 
-  }
+.road img {    
+    width: 80%;
+    margin: 0%;
+    margin-left: 10%;
+    margin-bottom: 5%;     
+}
 
-  .top-content {
+.top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-bottom: 1px dashed black;
 }
 
@@ -123,41 +118,34 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    
 }
 
-.middle-content .boxes {
+.middle-content .boxes {    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.box1 {
-    transition: transform 1s;
-}
-
-.middle-content .boxes .box1 :hover{
-    transform: rotate(360deg);
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
     color: white;
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: center;
 }
 
-.box1 {
-    
+.box1 {    
     width: 12.5%;
     height: 100px;
     background: teal;
@@ -168,8 +156,7 @@ p {
     justify-content: center;
 }
 
-.box2 {
-    
+.box2 {    
     width: 12.5%;
     height: 100px;
     background: gold;
@@ -180,8 +167,7 @@ p {
     justify-content: center;
 }
 
-.box3{
-    
+.box3 {    
     width: 12.5%;
     height: 100px;
     background: cadetblue;
@@ -192,8 +178,7 @@ p {
     justify-content: center;
 }
 
-.box4{
-    
+.box4 {    
     width: 12.5%;
     height: 100px;
     background: coral;
@@ -204,8 +189,7 @@ p {
     justify-content: center;
 }
 
-.box5{
-    
+.box5 {    
     width: 12.5%;
     height: 100px;
     background: crimson;
@@ -216,8 +200,7 @@ p {
     justify-content: center;
 }
 
-.box6{
-    
+.box6 {    
     width: 12.5%;
     height: 100px;
     background: forestgreen;
@@ -228,8 +211,7 @@ p {
     justify-content: center;
 }
 
-.box7{
-    
+.box7 {    
     width: 12.5%;
     height: 100px;
     background: darkorchid;
@@ -240,8 +222,7 @@ p {
     justify-content: center;
 }
 
-.box8{
-    
+.box8 {    
     width: 12.5%;
     height: 100px;
     background: hotpink;
@@ -252,8 +233,7 @@ p {
     justify-content: center;
 }
 
-.box9{
-    
+.box9 {    
     width: 12.5%;
     height: 100px;
     background: indigo;
@@ -264,8 +244,7 @@ p {
     justify-content: center;
 }
 
-.box10{
-    
+.box10 {    
     width: 12.5%;
     height: 100px;
     background: dodgerblue;
@@ -279,8 +258,9 @@ p {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
-    
+    margin-left: 12%;
+    margin-right: 12%;
+    justify-content: space-around;    
 }
 
 .bottom-content .text-container {
@@ -292,8 +272,10 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    margin: 0% auto;
+    margin-left: 10%;
 }
 
 footer nav {
@@ -317,26 +299,29 @@ footer nav a {
         flex-direction: column;   
     }
 
-    .lambda-logo img {
+    .container .lambda-logo img {
         flex-direction: column;
-        display: flex;
-        
+        display: inline-block;
+        margin: 50px auto;
+        margin-left: 80px;
+        margin-bottom: 10% auto;
+        align-content: center;      
     }
 
-    nav a {
-        flex-direction: column;
-        display: flex; 
-        align-items: center;
-        flex-wrap: wrap;
-        justify-items: center;
-      }
-
-     .road img {
-        width: 100%;
-        height: 100%;        
-        flex-direction: column;
-        align-content: center;
+    .container nav  {
+        font-size: 1.4rem;
         display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: space-between; 
+        line-height: 1.4;    
+    }
+
+    .road {
+        width: 80%;  
+        margin: 10px; 
+        display: inline-flex;  
+        flex-direction: row;   
     }
 
     .top-content {
@@ -356,30 +341,45 @@ footer nav a {
     }
 
     .middle-content .boxes {
-        display: flex;
+        width: 50rem;
+        height: 50rem;
+        margin-bottom: 100%;  
+        margin-left: 35%;      
+        display: block;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-      }
-
-    .middle-content h2 {
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-       
+        align-content: center;      
     }
 
-    .bottom-content {
+    .middle-content h2 {
+        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: space-evenly;        
         align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
+        text-align: left;      
+    }
+
+    .bottom-content .text-container {
+        flex-direction: column;
+        justify-content: space-evenly;        
+        align-items: center;
+        text-align: left;
+    }
+
+    footer {
+        width: 100%;
+        height: 30%;
+        margin-left: 0%;
+        margin-right: 5%;
     }
 
     footer nav {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 1.4;
+        display: flex;
         flex-direction: column;
-        display: flex; 
-        align-items: center;
+        justify-content: space-evenly;
+        align-content: center; 
+        
     }
 }

@@ -67,46 +67,62 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
     margin: 0 auto;
     color: black;
-  }
+}
   
-  .lambda-logo img {
+.lambda-logo img {
     max-width: 100%;
     height: 100%;
     margin: 0% auto;
     margin-bottom: 5% auto;
+    display: flex-start;
+    flex-direction: row;
 
-  }
+}
   
-  .header {
+.header {
       display: flex;
       flex-direction: row;
-  }
+      margin: 0% auto;
+      margin-left: 10%;
+}
   
-  .container .header-nav {
+.container .header-nav {
     color: black;
     width: 60%;
     display: flex;
+    flex-direction: flex-start;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;      
-  }
+}
   
-  .road {    
-      width: 100%;
-      margin: 5% auto;
-      align-content: center;
-      align-items: flex-start;
-      display: block; 
-      flex-direction: row;
-      justify-content: center; 
-  }
+.road {    
+    width: 100%;
+    margin: 0%;
+    margin-left: 10%; 
+    margin-right: 10%;    
+}
 
-  .top-content {
+.about-content {     
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-bottom: 1px dashed black;
 }
 
@@ -114,20 +130,27 @@ h1, h2, h3, h4, h5 {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin: 0% auto;
+    margin-left: 10%;
 }
 
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    margin: 0% auto;
+    margin-left: 10%;
 }
 
 footer nav {
+    font-size: 1.4rem;
     width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     padding: 20px 2%;
-    font-size: 14px;
+    
 }
 
 footer nav a {
@@ -154,11 +177,11 @@ footer nav a {
         align-items: center;
         flex-wrap: wrap;
         justify-items: center;
-      }
+    }
 
      .road img {
-        width: 100%;
-        height: 100%;        
+        width: 80%;
+        height: 80%;        
         flex-direction: column;
         align-content: center;
         display: flex;
