@@ -198,7 +198,7 @@ footer nav a {
 .box-three {
     width: 12.5%;
     height: 100px;
-    background: rgba(68, 165, 152, 0.801);
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -208,7 +208,7 @@ footer nav a {
 .box-four {
     width: 12.5%;
     height: 100px;
-    background: rgb(238, 160, 58);
+    background: gold;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -218,7 +218,7 @@ footer nav a {
 .box-five {
     width: 12.5%;
     height: 100px;
-    background: rgb(255, 0, 0);
+    background: crimson;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -228,7 +228,7 @@ footer nav a {
 .box-six {
     width: 12.5%;
     height: 100px;
-    background: rgb(1, 223, 38);
+    background: forestgreen;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -238,7 +238,7 @@ footer nav a {
 .box-seven {
     width: 12.5%;
     height: 100px;
-    background: rgb(178, 0, 223);
+    background: darkorchid;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -248,7 +248,7 @@ footer nav a {
 .box-eight {
     width: 12.5%;
     height: 100px;
-    background: rgb(255, 0, 242);
+    background: hotpink;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -258,7 +258,7 @@ footer nav a {
 .box-nine {
     width: 12.5%;
     height: 100px;
-    background: rgb(57, 0, 95);
+    background: indigo;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -268,7 +268,7 @@ footer nav a {
 .box-ten {
     width: 12.5%;
     height: 100px;
-    background: rgb(0, 217, 255);
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -277,7 +277,7 @@ footer nav a {
 }
 footer {
     width: 100%;
-    background: rgb(34, 34, 34);
+    background: black;
 }
 footer nav {
     width: 50%;
@@ -286,8 +286,15 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    background: black;
 }
 footer nav a {
     color: white;
     justify-content: space-evenly;
+    background: black;
+}
+@media(max-width: 600px) {
+    body {
+      display: block;
+    }
 }
