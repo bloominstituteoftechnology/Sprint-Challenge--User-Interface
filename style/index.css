@@ -46,7 +46,9 @@ header nav .navbar{
     font-size: 2rem;
     align-items: baseline;
     margin:0 auto
+    color: black;
 }
+
 header nav .navbar .home{
     font-size: 2rem;
     padding: 3rem;
@@ -283,3 +285,159 @@ footer nav a {
     margin: 2rem
 }
 
+@media (max-width:500px){
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    .top-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .top-content .text-container {
+        width: 48%;
+        padding: 0 1%;
+        padding-bottom: 20px;  
+        font-size: 2em;
+    }
+    
+    .middle-content {
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+    }
+    
+    .middle-content h2 {
+        padding: 0 2%;
+        margin-bottom: 0;
+    }
+    
+    .middle-content .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .middle-content .boxes .box {
+        width: 12.5%;
+        height: 100px;
+        background: black;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        margin: 0 2% 20px;
+        justify-content: space-around;
+    }
+    
+    .bottom-content .text-container {
+        padding-right: 4%;
+        font-size: 4rem;
+    }
+    
+    .bottom-content .text-container:last-child {
+        padding-right: 0;
+        font-size: 4rem;
+    }
+    
+    footer {
+        width: 100%;
+        background: black;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 2%;
+        font-size: 4rem;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    .middle-content .boxes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav .navbar{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 2rem;
+        align-items: center;
+        margin:0 auto
+        color: black;
+    }
+    header nav .navbar .home{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+    
+    header nav .navbar .about{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+    
+    header nav .navbar .projects{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+    
+    header nav .navbar .blog{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+    
+    header nav .navbar .contact{
+        font-size: 2rem;
+        padding: 1rem;
+        color: black;
+    }
+    
+    .mainimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainimage img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%
+    }
+    
+}
