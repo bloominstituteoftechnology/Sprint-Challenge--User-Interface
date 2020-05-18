@@ -342,7 +342,14 @@ section {
     }
     .middle-content .boxes {
         flex-direction: column;
+        padding-left: 20%;
     }
+    
+    h2 {
+        width:100%;
+        margin-left: 13%;
+    }
+    
     footer nav {
         flex-direction: column;
         margin: 4%;
