@@ -110,7 +110,7 @@ p {
     height: 100px;
     background: black;
     margin: 20px 2.5%;
-    color: rgb(8, 112, 90);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,10 +149,145 @@ footer nav a {
     text-decoration: none;
 }
 .navLnk {
-    color: coral;
-li {
-    display: flex;
     justify-content: space-evenly;
-    align-items: baseline
-} 
-
+    display: inline-block;
+    flex-direction: row;
+}
+.navLnk li {
+    justify-content: space-evenly;
+    display: inline-block;
+    flex-direction: row;
+    padding: 30px;
+}
+.jumbo {
+    width: 100px;
+    height: 150px;
+    object-fit: none;
+    object-position: 5px 10%;
+}
+.top-content {
+    justify-content: space-evenly;
+    display: inline-flex;
+}
+.text-container {
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+    object-position: 5px 10%;
+}
+.box-one {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    background-color: rgba(12, 151, 121, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-two {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(255, 241, 45);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-three {
+    width: 12.5%;
+    height: 100px;
+    background: rgba(68, 165, 152, 0.801);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-four {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(238, 160, 58);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-five {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(255, 0, 0);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-six {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(1, 223, 38);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-seven {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(178, 0, 223);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-eight {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(255, 0, 242);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-nine {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(57, 0, 95);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-ten {
+    width: 12.5%;
+    height: 100px;
+    background: rgb(0, 217, 255);
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    width: 100%;
+    background: rgb(34, 34, 34);
+}
+footer nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+footer nav a {
+    color: white;
+    justify-content: space-evenly;
+}
