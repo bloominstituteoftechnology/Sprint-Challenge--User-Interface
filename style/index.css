@@ -209,6 +209,77 @@ footer nav a {
     text-decoration: none;
 }
 
+
+@media(max-width: 900px) {
+    header .navigation {
+        height: 90px;
+    }
+
+    header .navigation .bar {
+       font-size: 19px;
+    }
+
+    .top-content {
+        flex-direction: column;
+    }
+    
+    .top-content .text-container {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    .top-content .text-container h2 {
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    
+    .middle-content .boxes .box {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 35%;        
+    }
+
+    .bottom-content {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+    }
+
+    .bottom-content .text-container h2 {
+        margin-bottom: 3px;
+        font-size: 25px;
+    }
+
+    .bottom-content .text-container {
+        max-width: 45%;
+        font-size: 19px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+ 
+    }
+
+    footer nav {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: center;
+        justify-content: space-around;
+        font-size: 25px;
+    }
+
+    footer nav a {
+        margin: 11px;
+    }
+        
+    
+
+}
+
 @media(max-width: 500px) {
     header .navigation {
         margin: 40px 0;
@@ -218,8 +289,7 @@ footer nav a {
 
     header .navigation .bar {
         flex-direction: column;
-        font-size: 1.8rem;
-        font-family: 'Light 300', 'Titillium Web';
+        font-size: 2.0rem;
         margin-top: 5px;
         margin-left: 20px;
         align-items: center;
@@ -231,7 +301,17 @@ footer nav a {
         margin: 5px;
     }
 
-    .top-content
+    header .image2 {
+        height: auto;
+        width: 100%;
+    }
+
+    .top-content {
+            flex-direction: column;
+            flex-flow:row wrap;
+            max-width: 80%;
+        
+    }
 
     .middle-content .boxes {
         margin-left: 120px;
@@ -239,21 +319,24 @@ footer nav a {
     }
 
     .middle-content .boxes .box {
-        width: 45%;
+        width: 100%;
         height: 100px;
         margin: 10px 5%;
         color: white;
         display: flex;
-        
-        
         align-items: center;
         justify-content: center;
     }
 
     .bottom-content{
-        flex-direction: center;
-        flex-flow:row wrap;
-        max-width: 40%;
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: center;
+        max-width: auto;
+    }
+
+    .bottom-content .text-container {
+        max-width: 100%;
     }
 
     footer {
@@ -264,4 +347,10 @@ footer nav a {
     footer nav{
         display: flex;
         flex-direction: column;
+        width: 90%;
+        line-height: 1.5;
+        padding-bottom: 20px;
+        font-size: 30px;
+        padding-left: 40px;
     }
+
