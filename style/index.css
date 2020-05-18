@@ -177,7 +177,7 @@ header nav a {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2%;
     justify-content: space-around;
 }
 
@@ -211,7 +211,48 @@ footer nav a {
     text-decoration: none;
 }
 
-@media(max-width: 500px) {
+.contactForm {
+    border-radius: .5rem;
+    background-color: #c4c4c4;
+    padding: 2%;
+    margin: 0% 20%;
+}
+
+.textBox {
+    padding: 1%;
+}
+
+label {
+    color: black;
+}
+
+  input[type=text], select, textarea {
+    color: black;
+    width: 100%; /* Full width */
+    padding: 1%; /* Some padding */ 
+    border: .1rem solid #bfbfbf; /* Gray border */
+    border-radius: .4rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: .5rem; /* Add a top margin */
+    margin-bottom: .8rem; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Submit Button */
+input[type=submit] {
+    background-color: rgba(0,136,169,0.8);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+  
+/* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #01728e;
+}
+
+@media (max-width: 500px) {
     body{
         font-size: 3rem;
     }
@@ -223,8 +264,7 @@ footer nav a {
     header nav {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;   
     }
 
     header nav a {
@@ -252,7 +292,6 @@ footer nav a {
   
     .middle-content {
         text-align: center;
-        
     }
 
     h2{
@@ -268,14 +307,16 @@ footer nav a {
     .bottom-content{
         display: flex;
         flex-direction: column;
-        margin: 0 20% ;
+        align-content: center;
+        padding: 4%;
         
     }
 
     .text-container{
-        padding: 6%;
+        padding: 0%;
+        width: 100%;
     }
-
+ 
     footer nav{
         display: flex;
         flex-direction: column;
@@ -283,13 +324,17 @@ footer nav a {
     }
 }
 
-
-@media(max-width: 800px){
+@media screen and (max-width: 800px) and (min-width: 501px){
     body{
         font-size: 1.5rem;
     }
+
     h2{
         font-size: 2rem;
+    }
+
+    header nav {
+        font-size: 1.5rem;
     }
 
     .top-content {
@@ -297,9 +342,12 @@ footer nav a {
         align-items: center; 
         flex-direction: column;  
     }
+
     .top-content .text-container{
         width: 80%;
+        margin: 3%;
     }
+
     .box{
         display: flex;
         flex-wrap: wrap;
