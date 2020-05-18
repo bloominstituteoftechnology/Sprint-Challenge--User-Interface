@@ -204,3 +204,82 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.middle-content .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box1{
+    background-color: teal;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box2{
+    background-color:gold;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+.box3{
+    background-color:cadetblue;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box4{
+    background-color: coral;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box5{
+    background-color: crimson;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box6{
+    background-color:forestgreen;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box7{
+    background-color:darkorchid;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box8{
+    background-color: hotpink;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box9{
+    background-color:indigo;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
+.box10{
+    background-color:dodgerblue;
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem
+}
+
