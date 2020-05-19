@@ -119,7 +119,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 2.5rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -220,62 +220,90 @@ footer nav a {
     background-color: teal;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box2{
     background-color:gold;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .box3{
     background-color:cadetblue;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box4{
     background-color: coral;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .box5{
     background-color: crimson;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box6{
     background-color:forestgreen;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box7{
     background-color:darkorchid;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box8{
     background-color: hotpink;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box9{
     background-color:indigo;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box10{
@@ -283,6 +311,9 @@ footer nav a {
     width: 10rem;
     height: 10rem;
     margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:500px){
@@ -317,6 +348,7 @@ footer nav a {
         margin-bottom: 20px;
         border-bottom: 1px dashed black;
         display: flex;
+        flex-direction: column;
         align-content: center;
         justify-content: center;
         width: 50rem;
@@ -332,8 +364,10 @@ footer nav a {
     
     .middle-content .boxes {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: column;
+        flex-direction: column;
         justify-content: center;
+        align-content: center;
     }
     
     .middle-content .boxes .box {
@@ -357,13 +391,13 @@ footer nav a {
     
     .bottom-content .text-container {
         padding-right: 4%;
-        font-size: 3rem;
+        font-size: 2rem;
         width: 70%;
     }
     
     .bottom-content .text-container:last-child {
         padding-right: 0;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     footer {
@@ -380,7 +414,7 @@ footer nav a {
         flex-direction: column;
         align-items: center;
         padding: 20px 2%;
-        font-size: 4rem;
+        font-size: 1.5rem;
     }
     
     footer nav a {
