@@ -216,6 +216,7 @@ footer nav a {
 
 }
 
+
 .box1{
     background-color: teal;
     width: 10rem;
@@ -482,5 +483,16 @@ footer nav a {
         align-items: center;
         width:100%
     }
-    
+    @keyframes example {
+        from {background-color: red;}
+        to {background-color: yellow;}
+    }
+    .box1{
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    .box2{
+        animation-name: example;
+        animation-duration: 4s;
+    }
 }
