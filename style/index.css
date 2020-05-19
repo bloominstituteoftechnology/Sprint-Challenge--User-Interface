@@ -339,7 +339,12 @@ section {
     .container .top-content {
         flex-direction: column;
         padding: 8%;
+        padding-right:40%;
     }
+       }
+    
+        
+    
     .middle-content .boxes {
         flex-direction: column;
         padding-left: 20%;
@@ -349,10 +354,18 @@ section {
         width:100%;
         margin-left: 13%;
     }
-    
+    .bottom-content   {
+        display: flex;
+        flex-direction: column;
+        }
+    .text-container {
+        width: 40%;
+        margin-left: 15%;
+        
+    }
+
     footer nav {
         flex-direction: column;
         margin: 4%;
     } 
 
-}
