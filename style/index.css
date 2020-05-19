@@ -267,7 +267,7 @@ footer nav a {
     text-decoration: none;
 }
 
-@media (min-width:800px) {
+@media (max-width:800px) {
 
 	 		.container {
 	 			width: 80%;
@@ -312,7 +312,7 @@ footer nav a {
 
 	 	 }
 
-@media (min-width:500px) {
+@media (max-width:500px) {
 
 		.container {
 			width: 100%;
