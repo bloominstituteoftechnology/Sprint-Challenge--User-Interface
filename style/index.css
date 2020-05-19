@@ -21,15 +21,24 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.nav img {
+    
+}
 body {
-	line-height: 1;
+	line-height: 1;;\
 }
 ol, ul {
 	list-style: none;
@@ -101,10 +110,40 @@ p {
     justify-content: space-evenly;
 }
 
+.box1 {
+    background: teal;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background:crimson;
+}
+.box6 {
+    background: forestgreen
+}
+.box7 {
+    background:darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
+}
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
