@@ -341,7 +341,7 @@ section {
         padding: 8%;
         padding-right:40%;
     }
-       }
+    
     
         
     
@@ -368,4 +368,5 @@ section {
         flex-direction: column;
         margin: 4%;
     } 
+}
 
