@@ -282,7 +282,7 @@ footer nav a {
     background-color:dodgerblue;
     width: 10rem;
     height: 10rem;
-    margin: 2rem
+    margin: 2rem;
 }
 
 @media (max-width:500px){
@@ -316,17 +316,24 @@ footer nav a {
     .middle-content {
         margin-bottom: 20px;
         border-bottom: 1px dashed black;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 50rem;
     }
     
     .middle-content h2 {
         padding: 0 2%;
         margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
     
     .middle-content .boxes {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     
     .middle-content .boxes .box {
@@ -345,16 +352,18 @@ footer nav a {
         flex-direction: column;
         margin: 0 2% 20px;
         justify-content: space-around;
+        width: 80%
     }
     
     .bottom-content .text-container {
         padding-right: 4%;
-        font-size: 4rem;
+        font-size: 3rem;
+        width: 70%;
     }
     
     .bottom-content .text-container:last-child {
         padding-right: 0;
-        font-size: 4rem;
+        font-size: 3rem;
     }
     
     footer {
@@ -395,7 +404,7 @@ footer nav a {
         justify-content: center;
         font-size: 2rem;
         align-items: center;
-        margin:0 auto
+        margin:0 auto;
         color: black;
     }
     header nav .navbar .home{
