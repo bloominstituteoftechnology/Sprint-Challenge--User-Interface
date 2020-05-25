@@ -399,14 +399,60 @@ footer {
     color: white;
 }
 
-@media(max-width:500px) {
-    .top-content {
-        color: black;
+@media(max-width: 500px) {
+    .top-content nav {
+        text-decoration: none;
+        width: 800px;
+        margin: 0;
+        padding: 0;
         display: flex;
-        direction: flex row;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+    }
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-container1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
     .middle-content {
         display: flex;
-        direction: flex column;
+        flex-direction: column;
+        text-align: center;
+    }
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-container2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-container3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-container4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Nav-Bottom {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }
