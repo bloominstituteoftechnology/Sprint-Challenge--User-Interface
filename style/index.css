@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;
+    padding-bottom: 20px;  
 }
 
 .middle-content {
@@ -143,125 +143,4 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
-}
-
-/* My CSS */
-
-/* Header */
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.lambda-logo{
-    width: 20%
-}
-
-.header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
-    width: 80%;
-}
-
-.header nav a {
-    color: black;
-    text-decoration: none;
-}
-
-/* CTA-Image */
-
-.CTA-Image{
-    margin-bottom: 30px;
-}
-
-/* box-colors */
-
-#box-1 {
-    background-color: teal;
-}
-
-#box-2 {
-    background-color: gold;
-}
-
-#box-3 {
-    background-color: cadetblue;
-}
-
-#box-4 {
-    background-color: coral;
-}
-
-#box-5 {
-    background-color: crimson;
-}
-
-#box-6 {
-    background-color: forestgreen;
-}
-
-#box-7 {
-    background-color: darkorchid;
-}
-
-#box-8 {
-    background-color: hotpink;
-}
-
-#box-9 {
-    background-color: indigo;
-}
-
-#box-10 {
-    background-color: dodgerblue;
-}
-
-.about-top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.about-boxes{
-    display: flex;
-    flex-direction: column;
-
-}
-.about-boxes-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.about-boxes-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 20px;
-    align-items: flex-start;
-    border-bottom: 1px dashed black;
-
-}
-
-.learn-more-button {
-    padding: 7px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border: 2px solid black;
-    border-radius: 5px;
-}
-
-.work-together {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.about-boxes-item img {
-    margin-bottom: 10px;
 }
