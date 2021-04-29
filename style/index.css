@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -70,7 +70,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     border: 2pt solid black
 }
 
@@ -94,22 +94,18 @@ nav ul {
     max-width: 79%;
 }
 nav ul li {
-    /* border: 1pt solid black; */
     margin: 0rem 4.4rem;
-    /* margin: 0rem 0rem 0rem 1rem; */
 }
 nav ul li a {
     text-decoration: none;
     color: black;
-    /* font-weight: bold; */
     font-size: 1.4rem;
     
 }
 .jumbo {
     width: 100%;
-    margin: 4rem 0rem 0rem 0rem;
+    margin: 4rem 0rem 2.2rem 0rem;
 }
-
 
 .top-content {
     display: flex;
@@ -123,6 +119,7 @@ nav ul li a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    
 }
 
 .middle-content {
