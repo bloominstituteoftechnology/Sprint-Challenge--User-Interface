@@ -83,6 +83,7 @@ nav {
 .navpic {
     border: 1pt solid red;
     max-width: 20%;
+    margin: 0rem 0rem;
 }
 nav ul {
     display: flex;
@@ -103,6 +104,10 @@ nav ul li a {
     /* font-weight: bold; */
     font-size: 1.4rem;
     
+}
+.jumbo {
+    width: 100%;
+    margin: 4rem 0rem 0rem 0rem;
 }
 
 
