@@ -81,7 +81,6 @@ nav {
     margin: 0rem 0rem 0rem 0rem;
 }
 .navpic {
-    border: 1pt solid red;
     max-width: 20%;
     margin: 0rem 0rem;
 }
@@ -89,7 +88,6 @@ nav ul {
     display: flex;
     justify-content:center;
     align-items: flex-end;
-    border: 1pt solid blue;
     margin: 0rem 0rem 0rem 1rem;
     max-width: 79%;
 }
