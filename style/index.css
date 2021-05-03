@@ -178,7 +178,6 @@ p {
         width: 800px;
         margin: 0 auto;
         font-size: 1.6rem;
-        background: gray;
     }
     nav {
         margin: 0 2rem;
@@ -186,7 +185,6 @@ p {
     nav ul {
         display: flex;
         justify-content: flex-start;
-        /* width: 0%; */
     }
     nav ul li { 
         margin: 0rem 1.5rem;
@@ -246,11 +244,50 @@ p {
         justify-content: space-around;
     }
     .bottom-content .text-container {
-        border: 1pt solid blue;
         width: 50%;
     }
     .bottom-content .text-container h2 {
         font-size: 3rem;
         margin-top: 2rem;
     }
+@media (max-width: 500px) {
+    .container {
+        border: 1pt solid blue;
+        background: gray;
+        width: 375px;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        margin: 3rem auto;
+        line-height: 1;
+        border: 1pt solid blue;
+    }
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        margin: 3rem 0;
+    }
+    .navpic {
+        height: 4.5rem;
+        max-width: 15.5rem;
+        border: 1pt solid blue;
+        margin-bottom: -1rem
+    }
+    .navigation li {
+        border: 1pt solid purple;
+        margin: 1rem 0 -0.8rem 0;
+    }
+    .pic {
+        border: 1pt solid red;
+        height: 15rem;
+    }
+    .pic .jumbo {
+        height:15.5rem;
+        margin: 0rem 0rem
+    }
+
+}
 }
