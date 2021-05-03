@@ -159,7 +159,7 @@ p {
     }
 
     footer nav {
-   0    width: 60%;
+        width: 60%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -252,18 +252,15 @@ p {
     }
 @media (max-width: 500px) {
     .container {
-        border: 1pt solid blue;
-        background: gray;
         width: 375px;
     }
-    nav {
+    nav, footer nav {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 1rem;
+        font-size: 3rem;
         margin: 3rem auto;
         line-height: 1;
-        border: 1pt solid blue;
     }
     .navigation {
         flex-direction: column;
@@ -273,21 +270,43 @@ p {
     .navpic {
         height: 4.5rem;
         max-width: 15.5rem;
-        border: 1pt solid blue;
         margin-bottom: -1rem
     }
     .navigation li {
-        border: 1pt solid purple;
         margin: 1rem 0 -0.8rem 0;
     }
     .pic {
-        border: 1pt solid red;
         height: 15rem;
     }
     .pic .jumbo {
         height:15.5rem;
         margin: 0rem 0rem
     }
-
+    .bottom-content {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 2rem;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .bottom-content .text-container {
+        width: 70%;
+        margin-top: 1rem;
+    }
+    .bottom-content .text-container h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    .middle-content .boxes .box {
+        width: 15rem;
+        height: 15rem;
+        font-size: 2.3rem;
+        margin: 1rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 }
