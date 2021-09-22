@@ -61,6 +61,31 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+header {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+header img {
+    padding-left: 270px;
+    text-decoration: none;
+    text-align: center;  
+}
+header a {
+    padding-left: 34px;
+    padding-right: 37px;
+    text-decoration: none;
+    color: black;
+}
+
+
+main img {
+    padding-left: 270px;
+    padding-bottom: 30px;
+}
+
+
+
 
 p {
     line-height: 1.4;
@@ -104,14 +129,23 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1{background: teal;}
+.box2{background: gold;}
+.box3{background: cadetblue;}
+.box4{background: coral;}
+.box5{background: crimson;}
+.box6{background: forestgreen;}
+.box7{background: darkorchid;}
+.box8{background: hotpink;}
+.box9{background: indigo;}
+.box10{background: dodgerblue;}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
