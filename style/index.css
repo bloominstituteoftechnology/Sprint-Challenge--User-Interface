@@ -70,6 +70,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.header{
+    margin-bottom:3%;
+    margin-top:3%;
+}
+.nav{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    margin-bottom:5%;
+    width:95%;
+}
+.nav-link{
+    color:black;
+    text-decoration:none;
+    font-size:.8rem;
+}
 
 .top-content {
     display: flex;
