@@ -61,13 +61,36 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+img {
+    max-width: 100%;
+    height: auto;
+} 
+header {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+header a {
+    padding-left: 40px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.911);
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+main img {
+    padding-bottom: 20px;
+}    
 
 p {
     line-height: 1.4;
 }
 
 .container {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -104,14 +127,23 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.box1{background: teal;}
+.box2{background: gold;}
+.box3{background: cadetblue;}
+.box4{background: coral;}
+.box5{background: crimson;}
+.box6{background: forestgreen;}
+.box7{background: darkorchid;}
+.box8{background: hotpink;}
+.box9{background: indigo;}
+.box10{background: dodgerblue;}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +176,64 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+@media(max-width: 760px){
+    header img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 20px;
+    }
+    header a {
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        width: 100%;
+  
+    }
+    .middle-content .boxes .box {
+        width: 30%;
+        height: 120px;
+    }
+    .middle-content .boxes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .bottom-content  {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        
+    }
+
+    .bottom-content p {
+        padding-bottom: 20px;
+    
+    }
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+     nav a{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    
+}
+
+
