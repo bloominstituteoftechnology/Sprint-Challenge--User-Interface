@@ -1,6 +1,8 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+   This is a comment from Michael
+   Anothe comment to test the commit
 */
 
 html, body, div, span, applet, object, iframe,
@@ -47,9 +49,7 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 html, body {
     height: 100%;
@@ -144,3 +144,106 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header div nav
+    {
+        
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 2%;
+        font-size: 14px; 
+        
+        
+    }
+        a 
+            {
+                text-decoration: none;
+            }
+.jumboimg
+            {
+                margin-bottom: 2em;
+            }
+        .lambdaimg
+                {
+                    margin-bottom: 2em; 
+                }
+
+
+
+  @media screen and (max-width: 500px) {
+    .jumboimg
+{
+    width: 50%;
+    height: auto;
+  }
+  }
+  @media screen and (max-width: 500px) {
+    .center1     
+     {
+        display: flex;
+  flex-direction: column;
+  
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .lambdaimg    
+             {
+                width: 50%;
+          
+                    }
+                }
+
+      
+                @media screen and (max-width: 500px) {
+                    .top-content     
+                     {
+                        display: flex;
+                        flex-direction: column;
+                        flex-basis: 100%;
+                        flex: 1;
+                            }
+                        }
+                        @media (max-width: 500px) {
+                           .middle-content .boxes    
+                             {
+                                
+                                flex-direction: column;
+                                
+                                justify-content: center;
+         
+                                    }
+                                }
+                                @media screen and (max-width: 500px) {
+                                    .bottom-content  
+                                     {
+                                        display: flex;
+                                        flex-direction: column;
+                                        flex-basis: 100%;
+                                        flex: 1;
+                                     }
+                                    }
+                                            
+                @media screen and (max-width: 500px) {
+                    .footer1 nav   
+                    {
+                        display: flex;
+                flex-direction: column;
+                
+                            }
+                        }                                          
+                        h1 { 
+                            font-size: 3em; 
+                            text-align: center;
+                            -webkit-transition: all .5s ease;
+                            -moz-transition: all .5s ease;
+                            transition: all .5s ease;
+                          }
+                          
+                          h1:hover { font-size: 2em; color: red; }
+                          
+                          @media screen and (max-width: 1000px){
+                            h1 { 
+                              font-size: 2em;
+                              color: red;
+                            }
+                          }                                                       
