@@ -50,11 +50,76 @@ table {
 * {
     box-sizing: border-box;
 }
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   justify-content: stretch;
+    align-content: center; 
+    align-items: center;
+    padding-left: 200px;
+}
+ a {
+    margin: 100px;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 100px;
+}
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+.content {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+    border: solid;
+    margin-top: 50px;
+    
+    
+}
+.topnav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: stretch;
+    justify-content: space-evenly;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.logo {
+    font-size: 40px;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    font-weight: bold;
+    align-items: stretch;
+    margin: 50px;
+}
+.topnav a {
+    float: left;
+  color: lightslategrey;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  word-spacing: 70px;
+}
+.topnav a:hover {
+    background-color:  darkgrey;
+    color: black;
+  }
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -67,6 +132,7 @@ p {
 }
 
 .container {
+    padding-top: 15px;
     width: 800px;
     margin: 0 auto;
 }
@@ -94,24 +160,83 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
+.box1 {
+width: 144px;
+height: 135px;
+background-color: teal;
+padding: 40px;
+}
+.box2 {
+    width: 144px;
+    height: 135px;
+    background-color: gold;
+    padding: 40px;
+    }
+.box3 {
+        width: 144px;
+        height: 135px;
+        background-color: cadetblue;
+        padding: 40px;
+        }
+.box4 {
+   width: 144px;
+     height: 135px;
+     background-color: coral;
+     padding: 40px;
+            }
+  .box5 {
+     width: 144px;
+     height: 135px;
+  background-color: crimson;
+  padding: 40px;
+    }
+    .box6 {
+        width: 144px;
+        height: 135px;
+     background-color: forestgreen;
+     padding: 40px;
+     margin-top: 10px;
+       }
+       .box7 {
+        width:144px;
+        height: 135px;
+     background-color: darkorchid;
+     padding: 40px;
+     margin-top: 10px;
+       }
+       .box8 {
+        width: 144px;
+        height: 135px;
+     background-color: hotpink;
+       padding: 40px;
+       margin-top: 10px;
+        
+       } 
+       .box9 {
+        width: 144px;
+        height: 135px;
+     background-color: indigo;
+     padding: 40px;
+     margin-top: 10px;
+       }  
+     .box10 {
+        width: 144px;
+        height: 135px;
+     background-color: dodgerblue;
+     padding: 35px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+       }          
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+    padding-top: 10px;
+    
 }
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +268,151 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+@media ( max-width: 500px ) {
+
+    body {
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topnav, a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      display:block;
+
+    }
+    .box1, .box2, .box3, .box4, .box5 {
+        margin-bottom: 10px;
+    }
+        
+    a {
+        border: 1px solid black;
+      border-radius: 5px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    align-content: center;
+    width: 100%;
+    }
+
+   .header,  .topnav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+
+}
+.topnav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+}
+.logo {
+    font-size: 30px;
+    margin-right: 235px;
+}
+.topnav, a {
+    display: flex;
+        flex-direction: column;
+        text-align: center;
+    float: left;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: initial;
+  width: 280px;
+ 
+}
+.topnav a:hover {
+    background-color:  darkgrey;
+    color: black;
+}
+}
+
+
+
+@media ( max-width: 800px ) {
+
+
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .box1, .box2, .box3, .box4, .box5 {
+        margin-bottom: 10px;
+    }
+    .topnav, a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      display: block;
+    }
+    a {
+        border: 1px solid black;
+      border-radius: 5px;
+    }
+    body {
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+     .container {
+        padding: 45px;
+        padding-bottom: 40px;
+        font-size: 1.5rem;
+    }
+   .header,  .topnav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+}
+.topnav {
+       
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+}
+.logo {
+    font-size: 30px;
+    margin-right: 235px;
+}
+.topnav, a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin: initial;
+  width: 280px;
+  margin-right: 180px;
+}
+.topnav a:hover {
+    background-color:  darkgrey;
+    color: black;
+  }
+  img {
+      width:100%;
+      height: 150px;
+  }
 }
