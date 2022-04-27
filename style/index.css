@@ -24,6 +24,74 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
+.navigation{
+   display: flex;
+   width: 900px;
+   justify-content: space-evenly;
+   align-items: center;
+   margin:0 auto;
+   margin-top:10px;
+   margin-bottom:10px;
+   margin-left:16.5%;
+   /* border: 1px solid red; */
+ }
+
+nav {
+   display: flex;
+   margin: 20px 45px 20px -30px;
+ }
+nav a {
+   margin: 0px 40px;
+   text-decoration: none;
+   color: black;
+ }
+
+.header-item{
+  display:flex;
+  justify-content:center;
+  margin-bottom:2%;
+}
+#box1 {
+   background-color: teal;
+ }
+
+ #box2 {
+   background-color: gold;
+ }
+
+ #box3 {
+   background-color: cadetblue;
+ }
+
+ #box4 {
+   background-color: coral; 
+ }
+
+ #box5 {
+   background-color: crimson;
+ }
+
+ #box6 {
+   background-color: forestgreen;
+ }
+
+ #box7 {
+   background-color: darkorchid;
+ }
+
+ #box8 {
+   background-color: hotpink;
+ }
+
+ #box9 {
+   background-color: indigo;
+ }
+
+ #box10 {
+   background-color: dodgerblue;
+ }
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -127,18 +195,20 @@ p {
 }
 
 footer {
-    width: 100%;
-    background: black;
-}
+     width: 100%;
+     display: flex;
+     background: black;
+     justify-content: flex-start;
+ }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
+     width: 60%;
+     display: flex;
+     justify-content: flex-start;
+     padding: 5px 2%;
+     font-size: 14px;
+     margin: 20px 30px 10px -30px;
+ }
 
 footer nav a {
     color: white;
