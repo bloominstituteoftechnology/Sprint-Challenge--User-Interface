@@ -51,43 +51,71 @@ table {
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
+    font-size: 2rem;
     line-height: 1.4;
 }
 
 .container {
-    width: 800px;
+    max-width: 80rem;
     margin: 0 auto;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 2rem 0 0 0;
+}
+
+header div{
+    width:90%;
+}
+
+header nav a {
+    text-decoration: none ;
+    color: black;
+    margin:4%;
+    font-size:1.8rem;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
+}
+
+.top-content .jumbo {
+    margin: 2rem 0;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2rem;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    border-bottom: .1rem dashed black;
 }
 
 .middle-content h2 {
@@ -103,18 +131,51 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 10rem;
     background: black;
-    margin: 20px 2.5%;
+    margin: 2rem 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.6rem;
 }
+
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2rem;
     justify-content: space-around;
 }
 
@@ -136,11 +197,172 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    padding: 2rem 2%;
+    font-size: 1.4rem;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*tablet view */
+@media(max-width: 800px){
+
+    header{
+    margin: 2% 0;
+   }
+
+   header .logo{
+    margin: 0 7rem 0 3rem;
+}
+
+   .jumbo{
+    margin: 2% 0;
+}
+    .jumbo img{
+        max-width: 100%;
+    }
+
+    .top-content{
+        flex-direction: column;
+    }
+    .top-content .text-container{
+        width: 90%;
+        margin: 0 0 0 5%;
+    }
+
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 2rem;
+
+    }  
+
+    .middle-content .boxes .box{
+        flex-basis: 30rem;
+        height: 27.5rem;
+        font-size: 2.3rem;
+    }
+
+    
+
+    .bottom-content{
+        flex-wrap: wrap;
+    }
+
+    .bottom-content .text-container{
+        width: 40%;
+        font-size: 40rem;
+        margin: 0 0 2% 0;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    footer nav{
+        margin-left: 20%;
+        justify-content: space-around;
+        font-size: 2rem;
+    }
+}
+
+/*phone view */
+@media(max-width: 500px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        max-width:50rem;
+
+    }
+    header .logo{
+        width: 15rem;
+        height: auto;
+        margin: 0 0 4% 0
+    }
+
+    header div nav{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        text-align: center;
+        font-size: 5rem;
+    }
+
+    header div nav a{
+        font-size: 3rem;
+        margin: .5rem 0;
+    }
+
+    .top-content{
+        max-width:50rem;
+    }
+    .top-content .jumbo img{
+        max-width: 100%;
+        width: 100%;
+        height: 15rem;
+
+        
+    }
+
+    .top-content .text-container{
+        margin: 3% 0 3% 5%;
+    }
+
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        max-width: 50rem;
+    }
+    .middle-content .boxes{
+        max-width: 50%;
+ 
+     }
+
+    .middle-content .boxes .box{
+       flex-basis: 20rem;
+       height: 20rem;
+       font-size: 2.5rem;
+
+    }
+
+    .bottom-content{
+        flex-direction: column;
+        align-items: center;
+        max-width: 50rem;
+    }
+
+    .bottom-content .text-container{
+        
+        width: 70rem ;
+        margin: 3% 0;
+        max-width:50rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    .bottom-content .text-container{
+        font-size: 1rem;
+    }
+
+    footer nav{
+        flex-direction: column;
+        font-size: 3rem;
+    }
+  
 }
