@@ -48,7 +48,11 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
+    padding:0%;
+    margin:0%;
+    max-width:100%;
+    /* border:1px solid black; */
 }
 
 html, body {
@@ -71,6 +75,46 @@ p {
     margin: 0 auto;
 }
 
+/*/////////////// NAV ////////////////////*/
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 0% 8% 0%;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+nav a {
+    color: black;
+    display: flex;
+    align-content: flex-end;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+nav a:hover{
+    box-shadow:
+    1px 1px black,
+    2px 2px white,
+    3px 3px black;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+.banner-img {
+    padding: 0% 0% 3% 0%;
+}
+
+/*/////////////// TOP CONTENT ////////////////////*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +128,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+/*/////////////// MIDDLE CONTENT ////////////////////*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +159,152 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box2 {
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box3 {
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box4 {
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box5 {
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box6 {
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box7 {
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box8 {
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box9 {
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+.box10 {
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10:hover {
+    border-radius: 50%;
+    transition:all 0.3s ease;
+}
+/* Having trouble trying to get the hover to ease back to its original shape */
+
+
+
+/*/////////////// BOTTOM CONTENT ////////////////////*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +318,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/*/////////////// FOOTER ////////////////////*/
 
 footer {
     width: 100%;
@@ -143,4 +339,285 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*/////////////// TABLET ////////////////////*/
+
+@MEDIA (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        padding: 3% 0% 3% 0%;
+    }
+    nav .links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav a {
+        color: black;
+        display: flex;
+        align-content: flex-end;
+        letter-spacing: 3px;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        padding: 2%;
+    }
+    .banner-img {
+        padding: 0% 0% 3% 0%;
+    }
+    .middle-content h2 {
+        text-align: center;
+    }
+    .middle-content .boxes .box {
+        width: 47.5%;
+        height: 200px;
+        background: black;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box1 {
+        background-color: teal;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box2 {
+        background-color: gold;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box3 {
+        background-color: cadetblue;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box4 {
+        background-color: coral;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box5 {
+        background-color: crimson;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box6 {
+        background-color: forestgreen;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box7 {
+        background-color: darkorchid;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box8 {
+        background-color: hotpink;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box9 {
+        background-color: indigo;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box10 {
+        background-color: dodgerblue;
+        width: 150px;
+        height: 150px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*/////////////// MOBILE ////////////////////*/
+
+@MEDIA (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        padding: 3% 0% 3% 0%;
+    }
+    nav .links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav a {
+        color: black;
+        display: flex;
+        align-content: flex-end;
+        letter-spacing: 3px;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        padding: 2%;
+    }
+    .banner-img {
+        padding: 0% 0% 3% 0%;
+    }
+    .middle-content h2 {
+        text-align: center;
+    }
+    .middle-content .boxes .box {
+        width: 47.5%;
+        height: 200px;
+        background: black;
+        margin: 20px 2.5%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1 {
+        background-color: teal;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box2 {
+        background-color: gold;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box3 {
+        background-color: cadetblue;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box4 {
+        background-color: coral;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box5 {
+        background-color: crimson;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box6 {
+        background-color: forestgreen;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box7 {
+        background-color: darkorchid;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box8 {
+        background-color: hotpink;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box9 {
+        background-color: indigo;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box10 {
+        background-color: dodgerblue;
+        width: 100px;
+        height: 100px;
+        margin: 20px 33%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
