@@ -61,11 +61,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
-p {
-    line-height: 1.4;
-}
-
 .container {
     width: 75%;    
     margin-top: 3%;
@@ -98,6 +93,17 @@ p {
     margin-bottom: 5%;     
 }
 
+.about-content {     
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +111,7 @@ p {
     margin-bottom: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    border-bottom: 1px dashed black;
+   
 }
 
 .top-content .text-container {
@@ -114,174 +120,23 @@ p {
     padding-bottom: 20px;  
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;    
-}
-
-.middle-content .boxes {    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    color: white;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.box1 {    
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box2 {    
-    width: 12.5%;
-    height: 100px;
-    background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box3 {    
-    width: 12.5%;
-    height: 100px;
-    background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box4 {    
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box5 {    
-    width: 12.5%;
-    height: 100px;
-    background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box6 {    
-    width: 12.5%;
-    height: 100px;
-    background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box7 {    
-    width: 12.5%;
-    height: 100px;
-    background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box8 {    
-    width: 12.5%;
-    height: 100px;
-    background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box9 {    
-    width: 12.5%;
-    height: 100px;
-    background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box10 {    
-    width: 12.5%;
-    height: 100px;
-    background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    margin-left: 12%;
-    margin-right: 12%;
-    justify-content: space-around;    
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
 footer {
     width: 80%;
     background: black;
-    margin: 0%;
+    margin: 0% auto;
     margin-left: 10%;
 }
 
 footer nav {
+    font-size: 1.4rem;
     width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     padding: 20px 2%;
-    font-size: 14px;
+    
 }
 
 footer nav a {
@@ -325,7 +180,19 @@ footer nav a {
         align-content: center;  
     }
 
+    .about-content {
+        width: 40%;
+        margin-left: 32%;
+        line-height: 1.5;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
     .top-content {
+        line-height: 1.5;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -339,40 +206,6 @@ footer nav a {
         align-items: center;
         text-align: left;
         flex-wrap: wrap;
-    }
-
-    .middle-content {
-        border-bottom: none; 
-        
-    }
-
-    .middle-content .boxes {
-        width: 50rem;
-        height: 50rem;
-        margin-bottom: 100%;  
-        margin-left: 35%;     
-        display: block;
-        flex-direction: column;
-        align-items: left;  
-    }
-
-    .middle-content h2 {
-        line-height: 1.4;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;        
-        align-items: center;
-        text-align: left;      
-    }
-
-    .bottom-content {
-        line-height: 1.4;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;        
-        align-content: left;
-        text-align: left;
-        margin-top: 15%;               
     }
 
     footer {
