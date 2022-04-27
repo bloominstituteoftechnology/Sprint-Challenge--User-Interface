@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 62.5%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -28,6 +28,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+/* General Styling */
+
+.big-container{
+    width:100%
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin: 2% auto 3.5%;
+  }
+
+  header nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.1rem;
+  }
+
+.links a{
+  color:black;
+  font-size: .85rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-image {
+ width: 800px;
+ margin: 0 auto 2%;
+}  
+ 
 body {
 	line-height: 1;
 }
@@ -101,10 +137,108 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background:gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background:cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background:coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background:crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background:darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background:hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background:indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background:dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -114,7 +248,8 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
     justify-content: space-around;
 }
 
@@ -127,14 +262,17 @@ p {
 }
 
 footer {
-    width: 100%;
+    width:100%;
     background: black;
+    display:flex;
+    justify-content: flex-start;
 }
 
 footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
@@ -144,3 +282,245 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Media Queries */
+
+/* Tablet Design 800 px */
+
+@media(max-width: 800px){
+.big-container{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.container{
+    width:100%;
+}
+
+header{
+    margin: 0;
+    padding: 2%;
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: center; 
+    width:100%;
+}
+
+header > nav{
+    width:100%;
+}
+
+.hero-image{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+header div{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 15%;
+    width: 40%;
+}
+.top-content{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left:2%;
+    }
+
+.top-content > .text-container{
+    flex-basis: 90%;
+    width: 90%;
+    }
+
+.middle-content h2{
+    text-align:left;
+    }
+
+
+.middle-content .boxes {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    flex-basis: 12%;
+    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+    margin-left:35%;
+    }
+
+
+.middle-content > .boxes > .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    flex-basis: 35%;
+    justify-content: center;
+    }
+
+
+.bottom-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+
+.bottom-content > .text-container{
+        flex-basis: 35%;
+        padding: 1% 0;
+        width:100%;
+    }
+    
+
+footer{
+    display:flex;
+    justify-content: space-evenly;
+}
+}
+ 
+/* Mobile Design 500px */
+
+@media(max-width: 500px){
+    .big-container{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        padding-top:3%;
+        justify-content: space-between;
+    }
+
+    nav.links{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        height: 18vh;
+    }
+
+
+    .big-container > div > .hero-image{
+        width:50%;
+        width: 50vw;
+        display:flex;
+        justify-content:center;
+    }
+
+    .container{
+        width:100%;
+    }
+
+    .top-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .top-content > .text-container{
+        flex-basis: 80%;
+    }
+    
+    .middle-content h2{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
+    .middle-content .boxes{
+        width:100%;
+        margin: 0;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+.middle-content > .boxes > div{
+    flex-basis: 100%;
+    min-height: 100px;
+}
+    .middle-content > .boxes > .box1{
+        justify-content:center;
+        width:100px;
+        height:100px;
+    }
+
+    .middle-content > .boxes > .box2{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box3{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box4{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box5{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box6{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box7{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box8{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box9{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+    .middle-content > .boxes > .box10{
+        justify-content: center;
+        width:100px;
+        height:100px;
+    }
+
+    .bottom-content{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width:100%;
+        padding:2%;
+    }
+
+    .bottom-content > .text-container{
+        padding: 4%;
+        width:100%;
+    }
+
+    footer{
+        height:20vh;
+    }
+
+    footer > nav{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+} 
+

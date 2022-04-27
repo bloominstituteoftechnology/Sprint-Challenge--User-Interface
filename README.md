@@ -36,13 +36,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the process of providing meaning to your content. Using Semantic HTML makes your website readable and easily interpreted by machines. It also helps other developers be able to read your code, and keept it organized. There are certain semantic elements that hold meaning such as header, footer, and h1.
+
 2. What are the 4 areas of the box model?
+
+The 4 areas of box model are the content, the padding, the border, and the margin. Content is the space within the model in which our text and images are rendered. The padding is around the content, its the space between the content and the border. The border is next, we can add this to style around the content and padding. Then, we have the margin which is the space between the border and everything else on the page (the "edge" of the webpage for example").
+
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items will work on the cross axis, what I would call the vertical axis. The command center will center the items.
+
 4. Explain why git is valuable to a team of developers.
 
+Git is valuable to a team of developers because it allows a group of people to each work on their own code separately without affecting the master copy of the project, and then the team members can share, monitor, and control any changes made during development before they merge it onto the final project. Git allows you to track changes in an organized way, so you'll have a history of the coding in the file.
+
 5. Define mobile-first design in your own words.
+
+In mobile first design, you would design the smallest size screen first, and then work your way up to bigger screens by using the media query tools in coding. For example, you could set a rule that AFTER 800 px, certain elements change in style to give the viewer a better experience. Perhaps you will change the layout of the divs so that they are in rows instead of columns as the screens get bigger.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

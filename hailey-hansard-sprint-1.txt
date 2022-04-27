@@ -1,0 +1,13 @@
+Notes to keep myself organized:
+I added the answers to the questions inside the ReadMe.md as requested.
+Worked on my code in CodePen, then transferred my current code over to Visual Code.
+Still trying to make the header look correct.
+Added hero-image.
+
+Re-worked header and am happy with the header > logo > nav > nav links a.
+Re-worked hero-image and am happy with the placement of it.
+Added about.html page
+Connected the about.html page to my index.html and it opens in a new tab
+Added colors to all Boxes.
+Added responsive breakpoints with media queries at 800px and 500px.
+Still need to to: make the boxes look like the design templates for 800px and 500px sizes.
