@@ -28,6 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -53,6 +54,7 @@ table {
 
 html, body {
     height: 100%;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -71,12 +73,33 @@ p {
     margin: 0 auto;
 }
 
+header {
+    padding: 2%;
+    font-size: 14px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.headerImg {
+    padding: 4%;
+    width: 100%;
 }
 
 .top-content .text-container {
@@ -112,9 +135,49 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box.box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2%;
     justify-content: space-around;
 }
 
@@ -129,6 +192,9 @@ p {
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 0%;
 }
 
 footer nav {
@@ -143,4 +209,173 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.contactForm {
+    border-radius: .5rem;
+    background-color: #c4c4c4;
+    padding: 2%;
+    margin: 0% 20%;
+}
+
+.textBox {
+    padding: 1%;
+}
+
+label {
+    color: black;
+}
+
+  input[type=text], select, textarea {
+    color: black;
+    width: 100%; /* Full width */
+    padding: 1%; /* Some padding */ 
+    border: .1rem solid #bfbfbf; /* Gray border */
+    border-radius: .4rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: .5rem; /* Add a top margin */
+    margin-bottom: .8rem; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Submit Button */
+input[type=submit] {
+    background-color: rgba(0,136,169,0.8);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+  
+/* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #01728e;
+}
+
+@media (max-width: 500px) {
+    body{
+        font-size: 3rem;
+    }
+    
+    header{
+        text-align: center;
+    }
+    
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    header nav a {
+        font-size: 4rem;
+    }
+
+    .logo {
+        height: 5rem;
+        margin: 5%;
+    }
+
+    .top-content {
+        display: flex;
+        align-items: center; 
+        flex-direction: column;  
+        font-size: 2.5rem;
+        padding-top: 5%;
+    }
+
+    .headerImg {
+        height: 300px;
+        width: 650px;
+        object-fit: cover;
+    }
+  
+    .middle-content {
+        text-align: center;
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .bottom-content{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 4%;
+        
+    }
+
+    .text-container{
+        padding: 0%;
+        width: 100%;
+    }
+ 
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 501px){
+    body{
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    header nav {
+        font-size: 1.5rem;
+    }
+
+    .top-content {
+        display: flex;
+        align-items: center; 
+        flex-direction: column;  
+    }
+
+    .top-content .text-container{
+        width: 80%;
+        margin: 3%;
+    }
+
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15%;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2rem;
+    }
+
+    .bottom-content .text-container{
+        width: 40%;
+    }
+
+    footer{
+        padding: 8%;
+    }
+
+    footer nav{
+        
+    }
+
+    footer nav a{
+        font-size: 2rem;
+        padding: 3%;
+        margin: 1%;
+        text-align: center;
+    }
 }
