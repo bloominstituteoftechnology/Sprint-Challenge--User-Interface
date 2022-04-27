@@ -53,21 +53,23 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gotham', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
 }
 
 p {
     line-height: 1.4;
+    font-size: 14px;
 }
 
 .container {
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -102,9 +104,9 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +145,350 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* My CSS ------------------------------------------------------------------------------------------*/ 
+
+/* Flex Container */
+.top-nav ul{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+/* Flex Items */
+.top-nav li{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.top-nav .logo {
+    flex: 2;
+    width: 120px;
+}
+
+/* Hero Content */
+.hero {
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.hero img {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Top Content */
+
+.top-content {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+
+/* Middle Content */
+
+
+.middle-content {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color:gold;
+}
+
+.box3 {
+    background-color:cadetblue;
+}
+
+.box4 {
+    background-color:coral;
+}
+
+.box5 {
+    background-color:crimson;
+}
+
+.box6 {
+    background-color:forestgreen;
+}
+
+.box7 {
+    background-color:darkorchid;
+}
+
+.box8 {
+    background-color:hotpink;
+}
+
+.box9 {
+    background-color:indigo;
+}
+
+.box10 {
+    background-color:dodgerblue;
+}
+
+
+/* Bottom Content */
+
+.bottom-content {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+/* Footer Nav */
+
+/* Footer Container */
+.bottom-nav {
+    width:100%;
+    /* border: 2px solid firebrick; */
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; 
+    margin-top: 80px;;
+}
+
+.bottom-nav a {
+    /* border: 1.5px solid firebrick; */
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Tablet Version ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ */
+
+@media (max-width: 900px){
+/* NAV CONTENT------ ------ ------ ------ ------ ------  */
+.nav-box{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.top-nav{
+    width: 80%;
+}
+/* HERO ------ ------ ------ ------ ------ ------  */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img{
+    width: 80%;
+}
+
+
+/* TOP CONTENT------ ------ ------ ------ ------ ------  */
+.top-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+
+.top-content .text-container{
+    width: 80%;
+}
+
+.text-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* BOXES ------ ------ ------ ------ ------ ------  */
+.yBox{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.middle-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    /* justify-content: center;
+    justify-items: center;
+    align-items: center; */
+}
+
+.middle-content .boxes{
+    justify-content: space-between;
+}
+
+
+.middle-content .boxes  .box {
+    width: 240px;
+    height: 240px;
+}
+
+/* BOTTOM CONTENT------ ------ ------ ------ ------ ------  */
+
+
+.bottom-content{
+
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* BOTTOM NAV------ ------ ------ ------ ------ ------  */
+.bottom-nav{
+    width: 90%;
+    justify-content: space-between;
+}
+
+
+
+/* Mobile Version ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ */
+
+@media (max-width: 800px){
+    /* NAV CONTENT------ ------ ------ ------ ------ ------  */
+    .nav-box{
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .top-nav{
+        width:90%;
+        margin: 0 auto;
+    }
+
+
+
+    .top-nav ul{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    ul li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* HERO ------ ------ ------ ------ ------ ------  */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero img{
+        height: 80%;
+    }
+
+    
+    
+    /* TOP CONTENT------ ------ ------ ------ ------ ------  */
+    .top-content{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+    }
+    
+    .top-content .text-container{
+        width: 80%;
+    }
+    
+    .text-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+    /* BOXES ------ ------ ------ ------ ------ ------  */
+    .yBox{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    
+    .middle-content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        /* justify-content: center;
+        justify-items: center;
+        align-items: center; */
+    }
+    
+    .middle-content .boxes{
+        justify-content: space-around;
+    }
+    
+    
+    .middle-content .boxes  .box {
+        width: 240px;
+        height: 240px;
+    }
+    
+    /* BOTTOM CONTENT------ ------ ------ ------ ------ ------  */
+    
+    
+    .bottom-content{
+    
+        width: 80%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    /* BOTTOM NAV------ ------ ------ ------ ------ ------  */
+    .bottom-nav{
+        width: 90%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .bottom-nav a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+
 }
