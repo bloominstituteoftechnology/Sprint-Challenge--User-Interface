@@ -1,0 +1,14 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+It's an organized markup with defined, meaning elements to set up the webpage.
+
+What are the 4 areas of the box model?
+The content, padding, margin, and the border.
+
+While using flexbox, what axis does the following property work on: align-items: center?
+The vertical cross axis.
+
+Explain why git is valuable to a team of developers.
+It would be easy for different developers to involve in the same project. For example, what codes were modified by which developer.
+
+Define mobile-first design in your own words.
+Set up a certain screen size, and when the screen size is stretched and matched that set screen size, the layout of the webpage will change.
