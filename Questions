@@ -1,0 +1,15 @@
+Questions
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semeantic HTML gives the page meaning rather than presentation. Semantic HTML organizes the page with header tags like <h1> though <h6>. Semantic HTML provides information about the contents of those tags like <header> <footer>.
+
+What are the 4 areas of the box model?
+TRBL top,right,bottom,left
+
+While using flexbox, what axis does the following property work on: align-items: center?
+main-axis
+
+Explain why git is valuable to a team of developers.
+I believe that it is valuable because, you can build off of someone's work. Also you have the ability to share your own work and get help from other developers.
+
+Define mobile-first design in your own words.
+mobile first are websties or apps that are designed for mobile first instead of desktop
