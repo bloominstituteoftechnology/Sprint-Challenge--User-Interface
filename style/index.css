@@ -1,3 +1,29 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@sjvphupp 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+sjvphupp
+/
+Sprint-Challenge--User-Interface
+forked from LambdaSchool/Sprint-Challenge--User-Interface
+0
+03.7k
+ Code Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+Sprint-Challenge--User-Interface/style/index.css
+@sjvphupp sjvphupp Fixed file structure
+da03a31 6 days ago
+@zoelud@sjvphupp
+159 lines (138 sloc)  2.68 KB
+  
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -58,7 +84,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -66,6 +92,69 @@ p {
     line-height: 1.4;
 }
 
+.boxOne {
+    background-color: teal; 
+}
+
+.boxTwo {
+    background-color: goldenrod;
+}
+
+.boxThree {
+  background-color: cadetblue;
+}
+
+.boxFour {
+    background-color: coral;
+}
+
+.boxFive {
+    background-color: crimson;
+}
+
+.boxSix{
+    background-color: forestgreen;
+}
+
+.boxSeven {
+    background-color: darkorchid;
+}
+
+.boxEight {
+    background-color: hotpink;
+}
+
+.boxNine{
+    background-color: indigo;
+}
+
+.boxTen {
+    background-color: dodgerblue
+}
+
+.logo {
+    width: 33%;
+    padding: none; 
+    margin: 5px 22px 5px 22px;
+}
+
+.picture2 {
+    width: 95%; 
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+
+}
+header nav {
+    width: -66%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -73,14 +162,13 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 75%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -91,7 +179,7 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 0;
     margin-bottom: 0;
 }
 
@@ -104,7 +192,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -115,7 +202,7 @@ p {
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 .bottom-content .text-container {
@@ -143,4 +230,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 500px)   {
+    .boxFive {
+        display: none!important;
+    }
+    .boxSix {
+        display:none!important;
+    }
+    .boxSeven {
+        display: none!important;
+    }
+    
+    .boxEight {
+        display: none!important;
+    }
+    .boxNine {
+        display: none!important;
+    }
+
+    .boxTen {
+        display:none!important; 
+    }
+    .text-container{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .boxes {
+        display:flex;
+       flex-direction: column;
+    }
+
+    p {
+        display: flex; 
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    
+}
+    header nav a{
+    background-color: lightgray;
+    color: black;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 65px;
+}
+
+    .bottom-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
 }
