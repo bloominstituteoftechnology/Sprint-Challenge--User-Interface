@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -51,19 +51,49 @@ table {
     box-sizing: border-box;
 }
 
+html{
+    margin: 0 10%;
+}
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+.top-decore img{
+    width: 100%;
+    height: auto;
+}
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.1rem;
+    margin: 20px 0;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+}
+
+.head .nav{
+    display: flex;
+    height: 112px;
+    align-items: center;
+}
+
+.head .nav .nav-bar{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.head .nav .nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.head .nav .nav-bar li {
+    display: flex;
+    align-items: center;
 }
 
 .container {
@@ -82,7 +112,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -93,6 +123,7 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    text-transform: capitalize;
 }
 
 .middle-content .boxes {
@@ -101,10 +132,40 @@ p {
     justify-content: space-evenly;
 }
 
+.middle-content #box1{
+    background-color: #358080;
+}
+.middle-content #box2{
+    background-color: #FCD84A;
+}
+.middle-content #box3{
+    background-color: #5F9EA0;
+}
+.middle-content #box4{
+    background-color: #F17D4D;
+}
+.middle-content #box5{
+    background-color: #DD353D;
+}
+.middle-content #box6{
+    background-color: #3F8B24;
+}
+.middle-content #box7{
+    background-color: #9A41CC;
+}
+.middle-content #box8{
+    background-color: #EE66B3;
+}
+.middle-content #box9{
+    background-color: #4D2582;
+}
+.middle-content #box10{
+    background-color: #2A8FF7;
+}
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +204,191 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* *********** tablet view  ************** */
+
+@media(max-width: 900px){
+    html{
+        margin: 0;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 200;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    h1, h2, h3, h4, h5 {
+        margin: 5px 0;
+        font-size: 1.85rem;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 300;
+    }
+
+    .head .nav{
+        margin: 0 25px;
+        font-family: 'Titillium Web';
+        font-weight: 300;
+    }
+
+    .head .nav .nav-bar{
+        font-size: 1.8rem;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .top-content {
+        flex-direction: column;
+    }
+    .top-content .text-container {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+
+    .middle-content h2{
+        padding: 20px 30px;
+        text-transform: none;
+    }
+    .middle-content .boxes{
+        margin-left: 125px;
+        margin-right: 125px;
+    }
+    .middle-content .boxes .box {
+        width: 38%;
+        height: 220px;
+        margin: 10px 5%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 1.5em;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 200;
+    }
+    .bottom-content{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        margin-bottom: 100px;
+    }
+    .bottom-content .text-container{
+        max-width: 45%;
+
+    }
+    .bottom-content .text-container h2{
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    footer {
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+    }
+    footer nav{
+        margin: 30px 0;
+        display: flex;
+        flex-direction: center;
+        justify-content: space-around;
+        font-size: 2rem;
+
+    }
+    footer nav a{
+        margin: 10px;
+    }
+}
+
+/* ********** mobile view ************** */
+
+@media(max-width: 700px){
+
+
+    h1, h2, h3, h4, h5 {
+        font-size: 1.5rem;
+    }
+
+    .head .nav{
+        margin: 40px 0;
+        display: flex;
+        flex-direction: column;
+        flex-flow: column nowrap;
+        height: auto;
+    }
+
+    .head .nav .nav-bar{
+        flex-direction: column;
+        font-size: 1.8rem;
+        margin-top: 5px;
+        margin-left: 20px;
+        align-items: center;
+        margin: 10px 0;
+        margin-top: 30px;
+    }
+    .head .nav .nav-bar li{
+        margin: 5px;
+    }
+    .top-decore img{
+        width: 100%;
+        height: 130px;
+        object-fit: cover;
+    }
+    .top-content .text-container {
+        padding: 20px 30px;
+    }
+
+    .middle-content h2{
+        padding: 20px 30px;
+    }
+    .middle-content{
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+
+    }
+    .middle-content .boxes{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .middle-content .boxes .box {
+        width: 40%;
+        height: 170px;
+        margin: 10px 5%;
+        font-size: 1.25em;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-content{
+        flex-direction: column;
+        align-items: center;
+        max-width: auto;
+        margin-left: 30px;
+    }
+    .bottom-content .text-container{
+        max-width: 100%;
+    }
+    .bottom-content .text-container h2{
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    footer {
+        display: flex;
+        flex-direction: center;
+    }
+    footer nav{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        font-family: 'Titillium Web', sans-serif;
+        font-weight: 200;
+        margin: 5px 0;
+    }
+    footer nav a{
+        margin: 5px;
+    }
 }
