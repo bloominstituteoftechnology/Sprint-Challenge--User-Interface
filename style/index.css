@@ -62,6 +62,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
 p {
     line-height: 1.4;
 }
@@ -101,7 +106,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1-10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -112,6 +117,95 @@ p {
     justify-content: center;
 }
 
+.box1{
+    background: teal;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box2{
+    background: gold;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box3{
+    background: cadetblue;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box4{
+    background: coral;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box5{
+    background: crimson;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box6{
+    background: forestgreen;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box7{
+    background: darkorchid;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box8{
+    background: hotpink;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box9{
+    background: indigo;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
+
+.box10{
+    background: dodgerblue;
+    padding: 50px;
+    margin: 5px white;
+    border: 10px white;
+    box-sizing: border-box;
+    color: white;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +238,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width:800px) { 
+    
+}
+@media screen and (max-width:500px) { 
+    
+    }
+    /* I have struggles with this sprint and am not sure 
+    that I have done well at all. Thanks. */
