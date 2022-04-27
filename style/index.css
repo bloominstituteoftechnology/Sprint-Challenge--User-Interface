@@ -46,22 +46,73 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* ********My Sprint Challenge Code Begins below******* */
 * {
     box-sizing: border-box;
+    
+    
 }
+
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    /* font-size: 62.5%; */
+}
+header  {
+    width: 100%;
+    height: 30vh;
+    padding:2%;
 }
 
+.lambda-logo {
+    width: 15%;
+    padding: 2%;
+}
+header nav  {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2%
+}
+nav {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .jumbo-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto; 
+    padding-left: 22%;
+    display: inline-block; 
+} */
+
+.header-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+
+
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size:1.125rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+/* ****HEADER ENDS ABOVE ***** */
 p {
     line-height: 1.4;
 }
@@ -69,6 +120,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 2%
 }
 
 .top-content {
@@ -84,38 +136,141 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* ***** COLOR BOXES Begin here */
 
-.middle-content {
+.middle-content  {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly;   
 }
 
-.middle-content .boxes .box {
+.middle-content  .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    padding:3%;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
+    /* justify-content: space-between;  */
+    }
 
+.middle-content  .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }      
+
+.middle-content  .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }                 
+.middle-content  .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }    
+.middle-content  .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }                  
+    .middle-content  .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }                  
+    .middle-content  .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }
+    .middle-content  .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }   
+    .middle-content  .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    padding:3%;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }
+    .middle-content  .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    padding:2%;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    }         
+/* ****** COLOR BOXES END ABOVE****  */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    padding: 1%;
 }
 
 .bottom-content .text-container {
@@ -126,13 +281,17 @@ p {
     padding-right: 0;
 }
 
+
+
+/* ******BOTTOM CONTENT ENDS HERE */
 footer {
-    width: 100%;
+    width: 55%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,3 +303,70 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+section { 
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.bottom-content {
+    width: 800px;
+    margin: 0 auto;
+}
+/* ****DESKTOP ENDS ABOVE ********/
+
+@media(max-width: 500px){
+    header nav {
+        flex-direction: column;
+        padding: 2%;
+    
+    }
+    .lambda-logo{
+        padding:2%;
+    }
+
+    
+    
+    a{
+        padding: 1.5%;
+    }
+    .header-image {
+        width:100%;
+        padding: 1%;
+    }
+
+    .container .top-content {
+        flex-direction: column;
+        padding: 8%;
+        padding-right:40%;
+    }
+    
+    
+        
+    
+    .middle-content .boxes {
+        flex-direction: column;
+        padding-left: 20%;
+    }
+    
+    h2 {
+        width:100%;
+        margin-left: 13%;
+    }
+    .bottom-content   {
+        display: flex;
+        flex-direction: column;
+        }
+    .text-container {
+        width: 40%;
+        margin-left: 15%;
+        
+    }
+
+    footer nav {
+        flex-direction: column;
+        margin: 4%;
+    } 
+}
+
