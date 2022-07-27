@@ -1,0 +1,8 @@
+<body>
+    <div class="container">
+    <!--Header-->
+        <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <
